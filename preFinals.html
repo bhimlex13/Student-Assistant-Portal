@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PRINCIPLE OF COMMUNICATION PRE-FINALS</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+      body {
+          font-size: 2rem;
+          /* Adjust the base font size */
+      }
+
+      .container {
+          max-width: 800px;
+          /* Adjust the maximum width of the container */
+      }
+
+      .form-group label,
+      .form-check-label {
+          font-size: 2.5rem;
+          /* Adjust the font size for question labels */
+      }
+
+      .form-check-input {
+          display: none;
+          /* Hide the default radio button */
+      }
+
+      .form-check {
+          margin-bottom: 10px;
+          /* Adjust the space between options */
+          padding-left: 0;
+      }
+
+      .form-check label {
+          cursor: pointer;
+          padding: 10px;
+          border: 2px solid #ddd;
+          /* Add outline to each option */
+          display: block;
+          transition: background-color 0.3s, color 0.3s;
+          /* Smooth transition effect */
+      }
+
+      .form-check input:checked+label {
+          background-color: lightgrey;
+          /* Change background color when checked */
+          color: black;
+          /* Change text color when checked */
+          border-color: #007bff;
+          /* Change outline color when checked */
+      }
+
+      .btn-group {
+          margin-top: 2rem;
+          /* Add margin to the top of the button group */
+      }
+
+      .btn-primary {
+          font-size: 3rem;
+          /* Adjust the font size for the Submit button */
+      }
+
+      .btn-next {
+          display: none;
+          /* Initially hide the Next button */
+          background-color: darkgreen;
+      }
+
+      #result {
+          font-size: 2rem;
+          /* Adjust the font size for the result message */
+      }
+
+      .navbar {
+          background-color: #007bff;
+          /* Set the background color of the navbar */
+      }
+
+      .navbar a {
+          color: white;
+          font-size: 2rem;
+          /* Set the text color of the navbar links */
+      }
+
+      #final-result {
+          font-size: 24px;
+          text-align: center;
+          padding: 20px;
+          border: 2px solid #007bff;
+          border-radius: 10px;
+          background-color: #f8f9fa;
+          margin-top: 40px;
+      }
+
+  </style>
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="./index.html">Home</a>
+    </nav>
+
+    <div class="progress mt-4">
+        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
+            aria-valuemax="100"></div>
+    </div>
+
+    <div class="container">
+        <h1 class="mt-4 mb-4">Principle of communication Prelim</h1>
+        <form id="quiz-form" onsubmit="event.preventDefault(); submitAnswer();">
+            <!-- Question will be inserted here by JavaScript -->
+        </form>
+        <div class="btn-group d-flex">
+            <button class="btn btn-primary mt-4 mr-2" onclick="submitAnswer()">Submit</button>
+            <button class="btn btn-primary mt-4 btn-next" onclick="nextQuestion()">Next</button>
+        </div>
+        <div id="result" class="mt-4"></div>
+    </div>
+
+    <div id="final-result" class="mt-4 d-none"></div>
+
+
+    <!-- Add Bootstrap JS and its dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+        // This is the data for the quiz questions, answers, and choices
+        var quizData = [
+  {
+    "question": "Is a condition that adds unwanted change in the signal. It is the alteration of the waveform of an information signal of an audio or video signal in an electronic device or communication channel.",
+    "answer": "Distortion",
+    "choices": [
+      "Amplification",
+      "Modulation",
+      "Attenuation",
+      "Distortion"
+    ]
+  },
+  {
+    "question": "Produced by manufacturing equipment like automotive ignition systems, generators, and electric motors.",
+    "answer": "Industrial Noise",
+    "choices": [
+      "Environmental Noise",
+      "White Noise",
+      "Pink Noise",
+      "Industrial Noise"
+    ]
+  },
+  {
+    "question": "The ITU Designator Format is BBBB 123 45. The number 2 in format defines what?",
+    "answer": "A number indicating the modulating signal type",
+    "choices": [
+      "A number indicating the type of information to be transmitted",
+      "A number indicating the type of modulation",
+      "A number indicating the nature of multiplexing",
+      "A number indicating the modulating signal type"
+    ]
+  },
+  {
+    "question": "The radio emission designator code is composed of a capital letter, a number, and a lowercase subscript letter.",
+    "answer": "TRUE",
+    "choices": [
+      "FALSE",
+      "Maybe",
+      "Not Sure",
+      "TRUE"
+    ]
+  },
+  {
+    "question": "Convert the Bandwidth 3H00 into Decimal Form.",
+    "answer": "3 Hz",
+    "choices": [
+      "3 kHz",
+      "3 MHz",
+      "3 GHz",
+      "3 Hz"
+    ]
+  },
+  {
+    "question": "What is the Signal-to-Noise Ratio Power (dB) if the S/N Ratio is 56?",
+    "answer": "17.48 dB",
+    "choices": [
+      "15 dB",
+      "20 dB",
+      "25 dB",
+      "17.48 dB"
+    ]
+  },
+  {
+    "question": "This comes from the sources that cannot be controlled by humans, such as in industrial, atmospheric or even in space.",
+    "answer": "External Noise",
+    "choices": [
+      "Internal Noise",
+      "White Noise",
+      "Pink Noise",
+      "External Noise"
+    ]
+  },
+  {
+    "question": "What is the decimal form of Bandwidth 3K24?",
+    "answer": "3.24 Khz",
+    "choices": [
+      "3.24 Hz",
+      "3.24 MHz",
+      "3.24 GHz",
+      "3.24 Khz"
+    ]
+  },
+  {
+    "question": "This establishes the relative strengths of the signal and noise communication systems.",
+    "answer": "Signal to Noise Ratio",
+    "choices": [
+      "Signal to Interference Ratio",
+      "Signal to Distortion Ratio",
+      "Signal to Error Ratio",
+      "Signal to Noise Ratio"
+    ]
+  },
+  {
+    "question": "Comes from generating new signals and harmonics cause by circuit nonlinearities since a circuit is never perfectly linear.",
+    "answer": "Intermodulation Noise",
+    "choices": [
+      "White Noise",
+      "Pink Noise",
+      "Gaussian Noise",
+      "Intermodulation Noise"
+    ]
+  },
+  {
+    "question": "In solar or cosmic, comes from outer space. Solar Noise comes from the sun, which radiates a wide range of signals in a broad noise spectrum.",
+    "answer": "Extraterrestrial Noise",
+    "choices": [
+      "Terrestrial Noise",
+      "White Noise",
+      "Pink Noise",
+      "Extraterrestrial Noise"
+    ]
+  },
+  {
+    "question": "causes disruption to a signal when unwanted signals are added.",
+    "answer": "Interference",
+    "choices": [
+      "Noise",
+      "Distortion",
+      "Attenuation",
+      "Interference"
+    ]
+  },
+  {
+    "question": "This comes from electronic components in a receiver, such as resistors, diodes, and transistors. This noise is produced by humans.",
+    "answer": "Internal Noise",
+    "choices": [
+      "External Noise",
+      "White Noise",
+      "Pink Noise",
+      "Internal Noise"
+    ]
+  },
+  {
+    "question": "Noise can be observed on simple devices at home. Which one device can be observed noise?",
+    "answer": "Television",
+    "choices": [
+      "Radio",
+      "Computer",
+      "Mobile Phone",
+      "Television"
+    ]
+  },
+  {
+    "question": "Is the communication receiver’s ability to identify and select a desired signal from others present In the frequency spectrum.",
+    "answer": "Selectivity",
+    "choices": [
+      "Sensitivity",
+      "Bandwidth",
+      "Gain",
+      "Selectivity"
+    ]
+  },
+  {
+    "question": "Is caused by thermal agitation, which is the random motion of free electrons in a conductor caused by heat.",
+    "answer": "Thermal Noise",
+    "choices": [
+      "White Noise",
+      "Pink Noise",
+      "Gaussian Noise",
+      "Thermal Noise"
+    ]
+  },
+  {
+    "question": "Convert the bandwidth 61G01 into Decimal form.",
+    "answer": "61.01 Ghz",
+    "choices": [
+      "61.01 Hz",
+      "61.01 kHz",
+      "61.01 MHz",
+      "61.01 Ghz"
+    ]
+  },
+  {
+    "question": "Noise can be _______________ on a colored TV Screen.",
+    "answer": "Confetti",
+    "choices": [
+      "Snow",
+      "Rain",
+      "Cloud",
+      "Confetti"
+    ]
+  },
+  {
+    "question": "The ITU Designators Format is BBBB 123 45. BBBB defines what?",
+    "answer": "Bandwidth",
+    "choices": [
+      "Frequency",
+      "Modulation",
+      "Signal Type",
+      "Bandwidth"
+    ]
+  },
+  {
+    "question": "This is mainly a function of overall gain, which is the factor wherein an input signal is multiplied to produce the output signal.",
+    "answer": "Sensitivity",
+    "choices": [
+      "Selectivity",
+      "Bandwidth",
+      "Gain",
+      "Sensitivity"
+    ]
+  },
+  {
+    "question": "Is another system used to describe a signal but includes more variations.",
+    "answer": "ITU Emission Designation Code",
+    "choices": [
+      "FCC Emission Designation Code",
+      "IEEE Emission Designation Code",
+      "ISO Emission Designation Code",
+      "ITU Emission Designation Code"
+    ]
+  },
+  {
+    "question": "Comes from components such as diodes and transistors.",
+    "answer": "Semiconductor Noise",
+    "choices": [
+      "White Noise",
+      "Pink Noise",
+      "Gaussian Noise",
+      "Semiconductor Noise"
+    ]
+  },
+  {
+    "question": "An electronic signal made up of many random frequencies at many amplitudes added to a radio or information signal when it is transmitted from one place to another or as it is processed.",
+    "answer": "Noise",
+    "choices": [
+      "Signal",
+      "Interference",
+      "Distortion",
+      "Noise"
+    ]
+  }
+];
+
+        var currentQuestionIndex = 0;
+        var answered = false; // Variable to track whether the question has been answered
+
+        // This function creates the quiz form
+        function createQuiz() {
+            answered = false; // Reset the answered status for each new question
+            var form = document.getElementById('quiz-form');
+            var question = quizData[currentQuestionIndex];
+            var questionDiv = document.createElement('div');
+            questionDiv.className = 'form-group';
+            questionDiv.innerHTML = '<label>' + question.question + '</label>';
+            for (var j = 0; j < question.choices.length; j++) {
+                var choice = question.choices[j];
+                var choiceId = 'question' + currentQuestionIndex + 'choice' + j;
+                questionDiv.innerHTML += '<div class="form-check"><input class="form-check-input" type="radio" id="' + choiceId + '" name="question" value="' + choice + '"><label class="form-check-label" for="' + choiceId + '">' + choice + '</label></div>';
+            }
+            form.innerHTML = '';
+            form.appendChild(questionDiv);
+            document.querySelector('.btn-next').style.display = 'none'; // Hide Next button initially
+            document.querySelector('.btn-primary').style.display = 'block'; // Show Submit button initially
+            // Hide the final result container initially
+            document.getElementById('final-result').classList.add('d-none');
+        }
+
+        // This function checks the answer and shows the next question
+        function submitAnswer() {
+
+
+            var form = document.getElementById('quiz-form');
+            var selectedOption = form.querySelector('input[name="question"]:checked');
+
+            console.log("Selected Option:", selectedOption); // Log the selected option
+
+
+            if (!selectedOption) {
+                // No option selected
+                var result = document.getElementById('result');
+                result.textContent = 'Incorrect. No option selected.';
+                result.style.color = 'red';
+                answered = true; // Set the answered status to true
+                document.querySelector('.btn-next').style.display = 'block'; // Show Next button
+                document.querySelector('.btn-primary').style.display = 'none'; // Hide Submit button
+                disableOptions(); // Disable options after marking as incorrect
+                return;
+            }
+
+            if (answered) return; // If already answered, do nothing
+            var answer = selectedOption.value;
+            var result = document.getElementById('result');
+            if (answer === quizData[currentQuestionIndex].answer) {
+                result.textContent = 'Correct!';
+                result.style.color = 'green';
+            } else {
+                result.textContent = 'Incorrect. The correct answer was: ' + quizData[currentQuestionIndex].answer;
+                result.style.color = 'red';
+                highlightCorrectAnswer();
+            }
+            answered = true; // Set the answered status to true
+            disableOptions(); // Disable options after submitting answer
+            document.querySelector('.btn-next').style.display = 'block'; // Show Next button
+            document.querySelector('.btn-primary').style.display = 'none'; // Hide Submit button
+        }
+
+        // This function disables the options after submitting the answer
+        function disableOptions() {
+            var options = document.querySelectorAll('.form-check input');
+            options.forEach(function (option) {
+                option.disabled = true;
+            });
+        }
+
+        function nextQuestion() {
+    var progress = (currentQuestionIndex + 1) / quizData.length * 100;
+    document.querySelector('.progress-bar').style.width = progress + '%';
+    var result = document.getElementById('result');
+    result.textContent = '';
+
+    var selectedOption = document.querySelector('input[name="question"]:checked');
+    if (selectedOption) {
+        selectedOption.checked = false;
+    }
+
+    currentQuestionIndex++;
+
+    if (currentQuestionIndex < quizData.length) {
+        setTimeout(function () {
+            createQuiz();
+        }, 50);  // Adjust the delay time if needed
+    } else {
+        result.textContent = 'Quiz completed!';
+        result.style.color = 'black';
+        document.querySelector('.btn-next').style.display = 'none';
+    }
+
+    answered = false;
+    document.querySelector('.btn-next').style.display = 'none';
+    document.querySelector('.btn-primary').style.display = 'block';
+
+    console.log("Current Index after moving:", currentQuestionIndex);
+
+    if (currentQuestionIndex === quizData.length) {
+        displayFinalResult();
+    }
+}
+
+
+
+        // This function highlights the correct answer
+        function highlightCorrectAnswer() {
+            var correctAnswer = quizData[currentQuestionIndex].answer;
+            var labels = document.querySelectorAll('.form-check label');
+            labels.forEach(function (label) {
+                if (label.textContent === correctAnswer) {
+                    label.style.backgroundColor = 'lightgreen';
+                }
+            });
+        }
+
+        function displayFinalResult() {
+            var resultContainer = document.getElementById('final-result');
+            resultContainer.textContent = 'Quiz completed! Your final result is: ' + calculateScore() + ' out of ' + quizData.length;
+            resultContainer.style.color = 'black';
+            resultContainer.classList.remove('d-none'); // Remove the 'd-none' class to show the container
+        }
+
+        function calculateScore() {
+            var correctAnswers = 0;
+            for (var i = 0; i < quizData.length; i++) {
+                var selectedAnswer = getSelectedAnswer(i);
+                console.log("Question " + (i + 1) + ": Selected - " + selectedAnswer + ", Correct - " + quizData[i].answer);
+                if (selectedAnswer !== null && selectedAnswer === quizData[i].answer) {
+                    correctAnswers++;
+                }
+            }
+            console.log("Total Correct Answers: " + correctAnswers);
+            return correctAnswers;
+        }
+
+
+        function getSelectedAnswer(index) {
+            var form = document.getElementById('quiz-form');
+            var radioButtons = form.querySelectorAll('input[name="question"]');
+
+            for (var i = 0; i < radioButtons.length; i++) {
+                if (radioButtons[i].checked) {
+                    return radioButtons[i].value;
+                }
+            }
+
+            return null;
+        }
+
+
+        // Create the quiz when the page loads
+        window.onload = createQuiz;
+    </script>
+</body>
+
+</html>
