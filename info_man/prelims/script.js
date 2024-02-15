@@ -1,0 +1,264 @@
+// This is the data for the quiz questions, answers, and choices
+var quizData = [
+    {
+        "question": "Question Sample 1",
+        "image" : ".../images/1.jpg",
+        "answer": "a",
+        "choices": [
+            "a", "b", "c", "d"
+        ]
+    },
+    {
+        "question": "Question Sample 2",
+        "answer": "b",
+        "choices": [
+            "a", "b", "c", "d"
+        ]
+    },
+    {
+        "question": "Question Sample 3",
+        "answer": "a",
+        "choices": [
+            "a", "b", "c", "d"
+        ]
+    },
+    {
+        "question": "Question Sample 4",
+        "answer": "b",
+        "choices": [
+            "a", "b", "c", "d"
+        ]
+    },
+    {
+        "question": "Question Sample 5",
+        "answer": "a",
+        "choices": [
+            "a", "b", "c", "d"
+        ]
+    }
+];
+    
+    // Script Here
+    
+    // Function to toggle the visibility of the sidebar
+    // Function to toggle the visibility of the sidebar
+    function toggleSidebar() {
+        var sidebar = document.getElementById('sidebar');
+        sidebar.style.display = sidebar.style.display === 'none' || sidebar.style.display === '' ? 'block' : 'none';
+    }
+    
+    // Function to clone an array
+    function cloneArray(array) {
+        return array.map(item => ({ ...item }));
+    }
+    
+    // Function to shuffle an array
+    function shuffleArray(array) {
+        for (let i = 0; i < array.length; i++) {
+            array[i].choices = array[i].choices.sort(() => Math.random() - 0.5);
+        }
+        return array;
+    }
+    
+    var currentQuestionIndex = 0;
+    var answered = false; // Variable to track whether the question has been answered
+    
+    // This function creates the quiz form
+    
+    // This function creates the quiz form
+    function createQuiz() {
+        // document.getElementById('sidebar').style.display = 'block';
+    
+        answered = false;
+        var clonedQuizData = cloneArray(quizData);
+        shuffleArray(clonedQuizData);
+        var form = document.getElementById('quiz-form');
+        var question = clonedQuizData[currentQuestionIndex];
+        var questionDiv = document.createElement('div');
+        questionDiv.className = 'form-group';
+    
+        // Check if the question has an image, and if so, include it
+        if (question.image) {
+        var imageElement = document.createElement('img');
+        imageElement.src = question.image;
+        imageElement.alt = 'Question Image';
+        imageElement.style.maxWidth = '100%';
+        questionDiv.insertBefore(imageElement, questionDiv.firstChild); // This line changed
+    }
+    var questionText = document.createElement('p');
+    questionText.innerText = question.questionText;
+    questionDiv.appendChild(questionText);
+    
+        questionDiv.innerHTML += '<label>' + question.question + '</label>';
+    
+        // Add a data attribute to store the correct answer index
+        questionDiv.setAttribute('data-correct-index', question.choices.indexOf(question.answer));
+    
+        for (var j = 0; j < question.choices.length; j++) {
+            var choice = question.choices[j];
+            var choiceId = 'question' + currentQuestionIndex + 'choice' + j;
+            questionDiv.innerHTML += '<div class="form-check"><input class="form-check-input" type="radio" id="' + choiceId + '" name="question" value="' + choice + '"><label class="form-check-label" for="' + choiceId + '">' + choice + '</label></div>';
+        }
+    
+        form.innerHTML = '';
+        form.appendChild(questionDiv);
+    
+        // Update question number display
+        var questionNumber = document.getElementById('question-number');
+        questionNumber.textContent = ' Question: ' + (currentQuestionIndex + 1) + ' out of ' + quizData.length;
+    
+        document.querySelector('.btn-next').style.display = 'none';
+        document.querySelector('.btn-primary').style.display = 'block';
+        document.getElementById('final-result').classList.add('d-none');
+    
+        // Populate the question list in the sidebar
+        var questionList = document.getElementById('question-list');
+        questionList.innerHTML = '';
+        for (var i = 0; i < clonedQuizData.length; i++) {
+            var listItem = document.createElement('li');
+            listItem.innerHTML = '<a onclick="goToQuestion(' + i + ')">Question ' + (i + 1) + '</a>';
+            questionList.appendChild(listItem);
+        }
+    }
+    
+    
+    
+    // Function to navigate to a specific question
+    function goToQuestion(index) {
+        currentQuestionIndex = index;
+        createQuiz();
+        toggleSidebar(); // Close the sidebar after clicking a question
+    }
+    
+    // This function checks the answer and shows the next question
+    function submitAnswer() {
+        var form = document.getElementById('quiz-form');
+        var selectedOption = form.querySelector('input[name="question"]:checked');
+    
+        if (!selectedOption) {
+            // No option selected
+            var result = document.getElementById('result');
+            result.textContent = 'Incorrect. No option selected.';
+            result.style.color = 'red';
+            answered = true; // Set the answered status to true
+            document.querySelector('.btn-next').style.display = 'block'; // Show Next button
+            document.querySelector('.btn-primary').style.display = 'none'; // Hide Submit button
+            disableOptions(); // Disable options after marking as incorrect
+            return;
+        }
+    
+        if (answered) return; // If already answered, do nothing
+        var answer = selectedOption.value;
+        var result = document.getElementById('result');
+        if (answer === quizData[currentQuestionIndex].answer) {
+            result.textContent = 'Correct!';
+            result.style.color = 'green';
+        } else {
+            result.textContent = 'Incorrect. The correct answer was: ' + quizData[currentQuestionIndex].answer;
+            result.style.color = 'red';
+            highlightCorrectAnswer();
+        }
+    
+        // Update the selected answer in the quizData array
+        quizData[currentQuestionIndex].selectedAnswer = answer;
+    
+        answered = true; // Set the answered status to true
+        disableOptions(); // Disable options after submitting answer
+        document.querySelector('.btn-next').style.display = 'block'; // Show Next button
+        document.querySelector('.btn-primary').style.display = 'none'; // Hide Submit button
+    }
+    
+    
+    // This function disables the options after submitting the answer
+    function disableOptions() {
+        var options = document.querySelectorAll('.form-check input');
+        options.forEach(function (option) {
+            option.disabled = true;
+        });
+    }
+    
+    function nextQuestion() {
+        var progress = (currentQuestionIndex + 1) / quizData.length * 100;
+        document.querySelector('.progress-bar').style.width = progress + '%';
+        var result = document.getElementById('result');
+        result.textContent = '';
+    
+        var selectedOption = document.querySelector('input[name="question"]:checked');
+        if (selectedOption) {
+            selectedOption.checked = false;
+        }
+    
+        currentQuestionIndex++;
+    
+        if (currentQuestionIndex >= quizData.length) {
+            displayFinalResult();
+            return;
+        }
+        if (currentQuestionIndex < quizData.length) {
+            createQuiz(); // Call createQuiz directly
+        } else {
+            result.textContent = 'Quiz completed!';
+            result.style.color = 'black';
+            document.querySelector('.btn-next').style.display = 'none';
+            document.querySelector('.btn-primary').textContent = 'Retry'; // Change button text to 'Retry'
+            document.querySelector('.btn-primary').onclick = function () {
+                location.reload(); // Reload the page on 'Retry' button click
+            };
+        }
+    
+        answered = false;
+        document.querySelector('.btn-next').style.display = 'none';
+        document.querySelector('.btn-primary').style.display = 'block';
+    
+        console.log("Current Index after moving:", currentQuestionIndex);
+    }
+    
+    // This function highlights the correct answer
+    function highlightCorrectAnswer() {
+        var correctAnswer = quizData[currentQuestionIndex].answer;
+        var labels = document.querySelectorAll('.form-check label');
+        labels.forEach(function (label) {
+            label.style.backgroundColor = ''; // Reset background color for all options
+            if (label.textContent === correctAnswer) {
+                label.style.backgroundColor = 'lightgreen';
+            }
+        });
+    }
+    
+    function displayFinalResult() {
+        var resultContainer = document.getElementById('final-result');
+        var score = calculateScore();
+        resultContainer.textContent = 'Quiz completed! Your final result is: ' + score + ' out of ' + quizData.length;
+        resultContainer.style.color = 'black';
+        resultContainer.classList.remove('d-none'); // Remove the 'd-none' class to show the container
+    }
+    
+    function calculateScore() {
+        var correctAnswers = 0;
+        for (var i = 0; i < quizData.length; i++) {
+            var selectedAnswer = getSelectedAnswer(i);
+            console.log("Question", i + 1, "Selected Answer:", selectedAnswer, "Correct Answer:", quizData[i].answer);
+            if (selectedAnswer !== null && selectedAnswer === quizData[i].answer) {
+                correctAnswers++;
+            }
+        }
+        return correctAnswers;
+    }
+    
+    
+    
+    function getSelectedAnswer(index) {
+        // Check if the selected answer is available in the quizData array
+        if (index < quizData.length) {
+            return quizData[index].selectedAnswer;
+        }
+    
+        console.log("Selected answer not found for question", index + 1);
+        return null;
+    }
+
+    
+    // Create the quiz when the page loads
+    window.onload = createQuiz;
+    
+    
