@@ -203,6 +203,8 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <!-- <a class="nav-link" href="#" onclick="toggleSidebar()">Toggle Sidebar</a> -->
+
+          <a href="#" class="nav-link" onclick="shuffleAndCreateQuiz()">Shuffle Questions</a>
         </li>
       </ul>
     </div>
@@ -241,57 +243,11 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="./sample.js"></script>
 
   <script>
-// This is the data for the quiz questions, answers, and choices
-var quizData = [
-{
-        "question": "Types of communication channel that use optic cable or light pipe that carries the message on a light wave.",
-        "image": "./download.jpg",
-        "answer": "Optical Media",
-        "choices": [
-            "Electrical Conductor",
-            "Optical Media",
-            "Sonars",
-            "Wireless Media"
-        ]
-    },
-    {
-        "question": "What way of communication shown above?",
-        "answer": "Simplex Communication",
-        "choices": [
-            "Duplex Communication",
-            "Half Duplex Communication",
-            "Simplex Communication",
-            "Analog Communication"
-        ]
-    },
-    {
-        "question": "It is a set of electronic components and circuits that accept transmitted messages from the channel and translate them back, which humans understand.",
-        "answer": "Receiver",
-        "choices": [
-            "Transmitter",
-            "Receiver",
-            "Amplifier",
-            "Decoder"
-        ]
-    },
-    {
-        "question": "Type of receiver where resonant circuits, combine an inductor and capacitor to make a circuit responsive to a frequency.",
-        "answer": "Tuned Circuits",
-        "choices": [
-            "Amplifiers",
-            "Tuned Circuits",
-            "Filters",
-            "Oscillators"
-        ]
-    }
-];
-
 // Script Here
 
-// Function to toggle the visibility of the sidebar
-// Function to toggle the visibility of the sidebar
 function toggleSidebar() {
     var sidebar = document.getElementById('sidebar');
     sidebar.style.display = sidebar.style.display === 'none' || sidebar.style.display === '' ? 'block' : 'none';
