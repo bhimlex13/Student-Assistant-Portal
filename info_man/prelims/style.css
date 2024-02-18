@@ -99,6 +99,16 @@ label {
   box-shadow: 0 8px 8px -4px black;
 }
 
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn-shuffle {
+  margin-left: auto; /* Pushes the button to the right */
+}
+
 .btn-next:hover {
   font-size: 2rem;
   color: white;
@@ -112,15 +122,16 @@ label {
   /* Adjust the font size for the result message */
 }
 
+.btn-shuffle{
+  float: right;
+} 
+
 .navbar {
   background-color: #007bff;
-  /* Set the background color of the navbar */
 }
 
 .navbar a {
   color: white;
-  /* font-size: 2rem; */
-  /* Set the text color of the navbar links */
 }
 
 #final-result {

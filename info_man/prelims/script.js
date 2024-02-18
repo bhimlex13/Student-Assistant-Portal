@@ -24,11 +24,9 @@ function shuffleArray(array) {
 }
 
 var currentQuestionIndex = 0;
-var answered = false; // Variable to track whether the question has been answered
+var answered = false; 
 
-// This function creates the quiz form
 
-// This function creates the quiz form
 function createQuiz() {
     // document.getElementById('sidebar').style.display = 'block';
 
