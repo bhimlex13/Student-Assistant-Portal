@@ -1,3 +1,15 @@
+function run(){
+    var password = prompt("Password Please");
+    //Change to your own Password
+    if(password != 'bsit'){
+    document.body.innerHTML = '';
+    document.body.innerHTML = 'Password Failed! Reload to Renter Password';
+    }else{
+    alert('Success');
+    }
+    }
+    run();
+
 
 window.onbeforeunload = function (event) {
     return confirm("Confirm refresh");
@@ -5,6 +17,7 @@ window.onbeforeunload = function (event) {
 
 // Disable right-click context menu
 document.addEventListener('contextmenu', function (e) {
+    alert('⚠️ Sorry. Di muna pwede mag right click here ⚠️')
     e.preventDefault();
 });
 
