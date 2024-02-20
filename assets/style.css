@@ -141,7 +141,7 @@ label {
   padding: 1rem;
   /* border: 2px solid #007bff; */
   border-radius: 10px;
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
   margin-top: 40px;
 }
 
@@ -220,7 +220,7 @@ label {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
 
   /* Extra small devices (portrait phones, less than 576px) */
   body {
