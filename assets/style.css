@@ -277,18 +277,26 @@ label {
 
   .form-group label,
   .form-check-label {
-    font-size: 20px;
+    font-size: 17px;
+    margin: 0px 0px 5px;
   }
 
   .title {
-    font-size: 25px;
+    font-size: 20px;
   }
+
 
   #question-number {
     color: #0056b3 ;
     font-weight: 400;
     opacity: 50%;
-    font-size: 20px;
+    font-size: 16px;
+    margin: 10px 5px;
+  }
+
+  .mb-4 {
+    margin-bottom: 0!important;
+    margin-top: 10px!important;
   }
 
   .navbar-toggler{
@@ -297,6 +305,8 @@ label {
 
   .btn-group {
     font-size: 20px;
+    margin-top: 0px;
+    vertical-align: text-top;
   }
 
   .toggle-btn {
@@ -311,8 +321,10 @@ label {
   }
 
   #final-result-message {
-    font-size: 25px;
-    padding: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   #sidebar {
@@ -322,4 +334,13 @@ label {
   #sidebar a{
     font-size: 25px;
   }
+
+  #result {
+    font-size: 17px;
+}
+
+img {
+  margin: 2px;
+}
+
 }
