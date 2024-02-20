@@ -1,49 +1,67 @@
 
-window.onbeforeunload = function(event) {
+window.onbeforeunload = function (event) {
     return confirm("Confirm refresh");
 };
 
-
 // Disable right-click context menu
-document.addEventListener('contextmenu', function(e) {
+document.addEventListener('contextmenu', function (e) {
     e.preventDefault();
-  });
-  
-  // Disable certain keyboard shortcuts
-  document.onkeydown = function(e) {
+});
+
+// Disable certain keyboard shortcuts
+document.onkeydown = function (e) {
     // Disable F12
     if (e.key == 123) {
-      e.preventDefault();
+        e.preventDefault();
     }
     // Disable Ctrl+Shift+I
     if (e.ctrlKey && e.shiftKey && e.key == 'I') {
-      e.preventDefault();
+        e.preventDefault();
     }
     // Disable Ctrl+Shift+C
     if (e.ctrlKey && e.shiftKey && e.key == 'C') {
-      e.preventDefault();
+        e.preventDefault();
     }
     // Disable Ctrl+Shift+J
     if (e.ctrlKey && e.shiftKey && e.key == 'J') {
-      e.preventDefault();
+        e.preventDefault();
     }
     // Disable Ctrl+U
     if (e.ctrlKey && e.key == 'U') {
-      e.preventDefault();
+        e.preventDefault();
     }
-  };
-  
+};
+
 
 $(document).ready(function () {
-  wordflick();
+    wordflick();
 });
 
 // Script Here
 
+
 function toggleSidebar() {
     var sidebar = document.getElementById('sidebar');
-    sidebar.style.display = sidebar.style.display === 'none' || sidebar.style.display === '' ? 'block' : 'none';
+    var toggleBtn = document.getElementById('t-btn');
+
+    // If sidebar is visible, hide it; otherwise, show it
+    if (sidebar.style.display === 'none' || sidebar.style.display === '') {
+        sidebar.style.display = 'block';
+        toggleBtn.style.display = 'none';
+
+        // Add event listener to the body to hide sidebar when clicking outside
+        document.addEventListener('click', function(event) {
+            // Check if the click target is outside the sidebar and toggle button
+            if (!sidebar.contains(event.target) && event.target !== toggleBtn) {
+                sidebar.style.display = 'none';
+                toggleBtn.style.display = 'block';
+            }
+        });
+    } else {
+        sidebar.style.display = 'none';
+    }
 }
+
 
 // Function to clone an array
 function cloneArray(array) {
@@ -59,7 +77,7 @@ function shuffleArray(array) {
 }
 
 var currentQuestionIndex = 0;
-var answered = false; 
+var answered = false;
 
 
 function createQuiz() {
@@ -126,6 +144,7 @@ function goToQuestion(index) {
     currentQuestionIndex = index;
     createQuiz();
     toggleSidebar(); // Close the sidebar after clicking a question
+    hide();
 }
 
 // This function checks the answer and shows the next question
@@ -233,7 +252,7 @@ function displayFinalResult() {
     if (score === quizData.length) {
         perfectScoreGif.classList.remove('d-none');
         notPerfectScoreGif.classList.add('d-none');
-        finalResultMessage.textContent = 'Congratulations! You got a perfect score! Your final score is: ' + score + ' out of ' + quizData.length ;
+        finalResultMessage.textContent = 'Congratulations! You got a perfect score! Your final score is: ' + score + ' out of ' + quizData.length;
     } else {
         perfectScoreGif.classList.add('d-none');
         notPerfectScoreGif.classList.remove('d-none');

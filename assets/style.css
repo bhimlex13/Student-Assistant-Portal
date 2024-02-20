@@ -4,6 +4,10 @@ body {
 
 }
 
+.container::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
 img {
   height: 15rem;
 }
@@ -155,22 +159,30 @@ label {
 
 
 #sidebar {
+  font-size: 2.2rem;
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   overflow-y: auto;
   background-color: #f8f9fa;
-  padding: 20px;
+  padding: 60px;
   display: none;
-  /* Change 'block' to 'none' to hide the sidebar initially */
+}
+
+#sidebar::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
 }
 
 #sidebar a {
   display: block;
   margin-bottom: 10px;
   cursor: pointer;
-  /* font-size: 1.5rem; */
+}
+
+#sidebar a:hover {
+  color: #007bff;
+  background-color: whitesmoke;
 }
 
 .btn-shuffle {
@@ -186,7 +198,7 @@ label {
 }
 
 /* Custom styles for the toggle button */
-#toggle-btn {
+.toggle-btn {
   width: 4.5rem;
   height: 4.5rem;
   position: fixed;
