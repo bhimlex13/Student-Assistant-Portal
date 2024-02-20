@@ -48,6 +48,8 @@ function toggleSidebar() {
     if (sidebar.style.display === 'none' || sidebar.style.display === '') {
         sidebar.style.display = 'block';
         toggleBtn.style.display = 'none';
+        sidebar.classList.remove("slide-left");
+
 
         // Add event listener to the body to hide sidebar when clicking outside
         document.addEventListener('click', function(event) {
@@ -55,10 +57,13 @@ function toggleSidebar() {
             if (!sidebar.contains(event.target) && event.target !== toggleBtn) {
                 sidebar.style.display = 'none';
                 toggleBtn.style.display = 'block';
+                sidebar.classList.add("slide-left");
+                sidebar.classList.remove("slide-right");
             }
         });
     } else {
         sidebar.style.display = 'none';
+        sidebar.classList.remove("slide-left");
     }
 }
 

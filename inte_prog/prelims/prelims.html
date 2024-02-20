@@ -2,6 +2,8 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Integrative Programming Prelim</title>
   <link rel="icon" type="image/x-icon" href="../../images/fav2.png">
   <!-- Add Bootstrap CSS -->
@@ -34,8 +36,8 @@
       <!-- Question will be inserted here by JavaScript -->
     </form>
     <div class="btn-group d-flex">
-      <button class="btn btn-primary mt-4 mr-2" onclick="submitAnswer()">Submit</button>
-      <button class="btn btn-primary mt-4 btn-next" onclick="nextQuestion()">Next</button>
+      <button class="btn btn-group btn-primary mt-4 mr-2" onclick="submitAnswer()">Submit</button>
+      <button class="btn btn-group btn-primary mt-4 btn-next" onclick="nextQuestion()">Next</button>
     </div>
     <div id="result" class="mt-4"></div>
   </div>
@@ -54,7 +56,7 @@
     <div id="final-result-message"></div>
   </div>
 
-  <div id="sidebar">
+  <div class="slide-right slide-left" id="sidebar">
     <h3>Questions</h3>
     <ul id="question-list"></ul>
   </div>
