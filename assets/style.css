@@ -87,7 +87,7 @@ label {
 .btn-primary:hover {
   font-size: 2rem;
   color: white;
-  background-color: #211951;
+  background-color: grey;
   /* Adjust the font size for the Submit button */
   box-shadow: 0 8px 8px -4px black;
 }
@@ -137,12 +137,21 @@ label {
 #final-result {
   font-size: 24px;
   text-align: center;
-  padding: 20px;
-  border: 2px solid #007bff;
+  padding: 1rem;
+  /* border: 2px solid #007bff; */
   border-radius: 10px;
   background-color: #f8f9fa;
   margin-top: 40px;
 }
+
+#final-result-message {
+  font-size: 12px;
+  text-align: center;
+  margin: auto;
+  font: 700 normal 1.5rem 'tahoma';
+}
+
+
 
 #sidebar {
   position: fixed;

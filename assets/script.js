@@ -3,6 +3,41 @@ window.onbeforeunload = function(event) {
     return confirm("Confirm refresh");
 };
 
+
+// Disable right-click context menu
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
+  
+  // Disable certain keyboard shortcuts
+  document.onkeydown = function(e) {
+    // Disable F12
+    if (e.key == 123) {
+      e.preventDefault();
+    }
+    // Disable Ctrl+Shift+I
+    if (e.ctrlKey && e.shiftKey && e.key == 'I') {
+      e.preventDefault();
+    }
+    // Disable Ctrl+Shift+C
+    if (e.ctrlKey && e.shiftKey && e.key == 'C') {
+      e.preventDefault();
+    }
+    // Disable Ctrl+Shift+J
+    if (e.ctrlKey && e.shiftKey && e.key == 'J') {
+      e.preventDefault();
+    }
+    // Disable Ctrl+U
+    if (e.ctrlKey && e.key == 'U') {
+      e.preventDefault();
+    }
+  };
+  
+
+$(document).ready(function () {
+  wordflick();
+});
+
 // Script Here
 
 function toggleSidebar() {
@@ -191,10 +226,35 @@ function highlightCorrectAnswer() {
 function displayFinalResult() {
     var resultContainer = document.getElementById('final-result');
     var score = calculateScore();
-    resultContainer.textContent = 'Quiz completed! Your final result is: ' + score + ' out of ' + quizData.length;
+    var finalResultMessage = document.getElementById('final-result-message');
+    var perfectScoreGif = document.getElementById('perfect-score-gif');
+    var notPerfectScoreGif = document.getElementById('not-perfect-score-gif');
+
+    if (score === quizData.length) {
+        perfectScoreGif.classList.remove('d-none');
+        notPerfectScoreGif.classList.add('d-none');
+        finalResultMessage.textContent = 'Congratulations! You got a perfect score! Your final score is: ' + score + ' out of ' + quizData.length ;
+    } else {
+        perfectScoreGif.classList.add('d-none');
+        notPerfectScoreGif.classList.remove('d-none');
+        finalResultMessage.textContent = 'Quiz completed! Your final score is: ' + score + ' out of ' + quizData.length;
+    }
+
     resultContainer.style.color = 'black';
     resultContainer.classList.remove('d-none'); // Remove the 'd-none' class to show the container
 }
+
+
+// finalResultMessage.textContent = 'Congratulations! You got a perfect score! Your final score is: ' + score + ' out of ' + quizData.length ;
+
+
+// function displayFinalResult() {
+//     var resultContainer = document.getElementById('final-result');
+//     var score = calculateScore();
+//     resultContainer.textContent = 'Quiz completed! Your final result is: ' + score + ' out of ' + quizData.length;
+//     resultContainer.style.color = 'black';
+//     resultContainer.classList.remove('d-none'); // Remove the 'd-none' class to show the container
+// }
 
 function calculateScore() {
     var correctAnswers = 0;
