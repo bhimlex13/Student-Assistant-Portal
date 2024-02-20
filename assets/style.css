@@ -59,7 +59,7 @@ label {
   display: block;
   transition: background-color 0.3s, color 0.3s;
   /* Smooth transition effect */
-  
+
 }
 
 .form-check input:checked+label {
@@ -74,7 +74,7 @@ label {
 .btn-group {
   margin-top: 2rem;
   /* Add margin to the top of the button group */
-  
+
 }
 
 .btn-primary {
@@ -106,7 +106,8 @@ label {
 }
 
 .btn-shuffle {
-  margin-left: auto; /* Pushes the button to the right */
+  margin-left: auto;
+  /* Pushes the button to the right */
 }
 
 .btn-next:hover {
@@ -122,9 +123,9 @@ label {
   /* Adjust the font size for the result message */
 }
 
-.btn-shuffle{
+.btn-shuffle {
   float: right;
-} 
+}
 
 .navbar {
   background-color: #007bff;
@@ -178,7 +179,7 @@ label {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.btn-shuffle:hover{
+.btn-shuffle:hover {
   color: grey;
   background-color: yellow;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -207,19 +208,15 @@ label {
 
 @media screen and (max-width: 992px) {
 
-  /* Medium devices (tablets, 992px and up) */
   body {
     font-size: 0.9rem;
-    /* Slightly smaller font size for tablets */
   }
 }
 
 @media screen and (max-width: 768px) {
 
-  /* Small devices (landscape phones, 768px and up) */
   body {
     font-size: 0.8rem;
-    /* Smaller font size for small devices */
   }
 }
 
@@ -229,5 +226,21 @@ label {
   body {
     font-size: 0.75rem;
     /* Even smaller font size for extra small devices */
+  }
+
+  .form-group label,
+  .form-check-label {
+    font-size: 2rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  #question-number {
+    color: black;
+    font-weight: 400;
+    opacity: 50%;
+    font-size: 2rem;
   }
 }
