@@ -1,14 +1,13 @@
-function run(){
-    var password = prompt("Password Please");
-    //Change to your own Password
-    if(password != 'bsit'){
-    document.body.innerHTML = '';
-    document.body.innerHTML = 'Password Failed! Reload to Renter Password';
-    }else{
-    alert('Success');
-    }
-    }
-    run();
+// function run(){
+//     var password = prompt("Password Please");
+//     if(password != 'bsit'){
+//     document.body.innerHTML = '';
+//     document.body.innerHTML = 'Password Failed! Reload to Renter Password';
+//     }else{
+//     alert('Success');
+//     }
+//     }
+//     run();
 
 
 window.onbeforeunload = function (event) {
