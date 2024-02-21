@@ -1,7 +1,8 @@
 // Disable right-click context menu
-document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-  });
+document.addEventListener('contextmenu', function (e) {
+  alert('⚠️ Sorry. Di muna pwede mag right click here ⚠️')
+  e.preventDefault();
+});
   
   // Disable certain keyboard shortcuts
   document.onkeydown = function(e) {

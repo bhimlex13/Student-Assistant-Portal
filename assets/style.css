@@ -1,7 +1,6 @@
 body {
   font-size: 1rem;
   /* Default font size for PC */
-
 }
 
 body::-webkit-scrollbar { 
@@ -67,7 +66,6 @@ label {
   display: block;
   transition: background-color 0.3s, color 0.3s;
   /* Smooth transition effect */
-
 }
 
 .form-check input:checked+label {
@@ -86,6 +84,7 @@ label {
 }
 
 .btn-primary {
+  background-color: #014887!important;
   font-size: 2rem;
   /* Adjust the font size for the Submit button */
   box-shadow: 0 8px 8px -4px black;
@@ -95,7 +94,8 @@ label {
 .btn-primary:hover {
   font-size: 2rem;
   color: white;
-  background-color: grey;
+  background-color: black!important;
+  opacity: 70%;
   /* Adjust the font size for the Submit button */
   box-shadow: 0 8px 8px -4px black;
 }
@@ -103,7 +103,7 @@ label {
 .btn-next {
   display: none;
   /* Initially hide the Next button */
-  background-color: darkgreen;
+  background-color: darkgreen!important;
   box-shadow: 0 8px 8px -4px black;
 }
 
@@ -121,7 +121,8 @@ label {
 .btn-next:hover {
   font-size: 2rem;
   color: white;
-  background-color: #45474B;
+  background-color: black!important;
+  opacity: 60%;
   /* Adjust the font size for the Submit button */
   box-shadow: 0 8px 8px -4px black;
 }
@@ -160,8 +161,6 @@ label {
   font: 700 normal 1.5rem 'tahoma';
   padding-bottom: 15px;
 }
-
-
 
 #sidebar {
   font-size: 2.2rem;
@@ -223,6 +222,11 @@ label {
 .toggle-btn:hover {
   opacity: 100%;
   background-color: #0056b3;
+}
+
+
+.bg-primary {
+  background-color: #014887!important;
 }
 
 /***** Slide Right *****/
