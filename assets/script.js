@@ -16,7 +16,7 @@ window.onbeforeunload = function (event) {
 
 // Disable right-click context menu
 document.addEventListener('contextmenu', function (e) {
-    alert('⚠️ Sorry. Di muna pwede mag right click here ⚠️')
+    // alert('⚠️ Sorry. Di muna pwede mag right click here ⚠️')
     e.preventDefault();
 });
 
