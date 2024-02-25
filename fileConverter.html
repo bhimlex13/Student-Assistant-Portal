@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel to JSON Converter</title>
+    <link rel="icon" type="image/x-icon" href="../../images/fav2.png">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .title {
+            font-size: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 15px auto;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .file-container {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        #copyButton {
+            background-color: #0056b3;
+        }
+
+        #copyMessage {
+            color: green;
+            font-size: 14px;
+            margin-top: 15px;
+            display: none;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        label.button,
+        button {
+            display: inline-block;
+            width: 150px;
+            /* Set the width of all buttons */
+            text-align: center;
+            padding: 10px 0;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 14px;
+        }
+
+        label.button {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        label.button:hover {
+            background-color: grey;
+        }
+
+        button {
+            background-color: orange;
+            color: white;
+        }
+
+        button:hover {
+            background-color: green;
+        }
+
+        #jsonOutputContainer {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        #jsonOutput {
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            white-space: pre-wrap;
+        }
+
+        #copyButton:hover {
+            background-color: grey;
+        }
+
+        .bg-primary {
+            background-color: #014887 !important;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="./index.html">Home</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <!-- <a class="nav-link" href="#">Dashboard</a> -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="title mt-1 mb-1">Excel to JSON Converter</h1>
+    </div>
+
+    <div class="container">
+        <div class="file-container">
+            <label for="fileInput" class="button">Choose Excel File</label>
+            <div id="fileLabel"></div>
+        </div>
+        <input type="file" id="fileInput" accept=".xls, .xlsx" onchange="displayFileName()">
+        <button onclick="convertToJSON()">Convert to JSON</button>
+        <button id="copyButton" onclick="copyToClipboard()">Copy</button>
+
+        <div id="copyMessage">Data copied successfully!</div>
+
+        <div id="jsonOutputContainer">
+            <pre id="jsonOutput"></pre>
+        </div>
+
+        <label><input type="checkbox" id="questionCheckbox" checked>Question</label>
+        <label><input type="checkbox" id="correctAnswerCheckbox" checked>Correct Answer</label>
+        <label><input type="checkbox" id="choicesCheckbox" checked>Choices</label>
+        <label><input type="checkbox" id="referenceCheckbox" checked>Reference</label>
+        <label><input type="checkbox" id="termCheckbox" checked>Term</label>
+        <label><input type="checkbox" id="statusCheckbox" unchecked>Status</label>
+    </div>
+
+    <script>
+        
+function convertToJSON() {
+    const fileInput = document.getElementById('fileInput');
+    const file = fileInput.files[0];
+    const reader = new FileReader();
+
+    reader.onload = function (e) {
+        const data = new Uint8Array(e.target.result);
+        const workbook = XLSX.read(data, { type: 'array' });
+
+        // Assuming the first sheet is the one you want to convert
+        const sheetName = workbook.SheetNames[0];
+        const sheet = workbook.Sheets[sheetName];
+
+        // Convert sheet to JSON
+        const jsonData = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+
+        // Define an array to store the converted data
+        const convertedData = [];
+
+        // Iterate through each row of the JSON data
+        for (let i = 1; i < jsonData.length; i++) {
+            const row = jsonData[i];
+
+            // Check if the row is empty
+            if (row.every(cell => cell === null || cell === undefined || cell === '')) {
+                continue; // Skip empty rows
+            }
+
+            // Preprocess answer and choices
+            const preprocessedRow = row.map(cell => {
+                if (typeof cell === 'string') {
+                    return cell.replace(/\b(TRUE|FALSE)\b/g, '$1 ');
+                }
+                return cell;
+            });
+
+            // Extract data based on checkbox selection
+            const convertedRow = {};
+            if (document.getElementById('questionCheckbox').checked) {
+                convertedRow["question"] = preprocessedRow[0];
+            }
+            if (document.getElementById('correctAnswerCheckbox').checked) {
+                convertedRow["answer"] = preprocessedRow[1];
+            }
+            if (document.getElementById('choicesCheckbox').checked) {
+                const choices = [];
+                for (let j = 2; j < 6; j++) {
+                    if (preprocessedRow[j]) {
+                        choices.push(preprocessedRow[j]);
+                    }
+                }
+                convertedRow["choices"] = choices;
+            }
+            if (document.getElementById('referenceCheckbox').checked) {
+                convertedRow["reference"] = preprocessedRow[6];
+            }
+            if (document.getElementById('termCheckbox').checked) {
+                convertedRow["term"] = preprocessedRow[7];
+            }
+            if (document.getElementById('statusCheckbox').checked) {
+                convertedRow["status"] = preprocessedRow[8];
+            }
+
+            // Push the converted row to the array
+            convertedData.push(convertedRow);
+        }
+
+        // Display JSON data
+        document.getElementById('jsonOutput').innerText = JSON.stringify(convertedData, null, 2);
+    };
+
+    reader.readAsArrayBuffer(file);
+}
+
+
+
+
+        function displayFileName() {
+            const fileLabel = document.getElementById('fileLabel');
+            const fileInput = document.getElementById('fileInput');
+            fileLabel.innerText = "Filename: " + fileInput.files[0].name;
+        }
+
+        function copyToClipboard() {
+            const jsonOutput = document.getElementById('jsonOutput');
+            if (!jsonOutput.innerText.trim()) {
+                // Display message indicating no data to copy
+                const copyMessage = document.getElementById('copyMessage');
+                copyMessage.innerText = 'No data to copy. Please convert an Excel file first.';
+                copyMessage.style.color = 'red';
+                copyMessage.style.display = 'block';
+                setTimeout(function () {
+                    copyMessage.style.display = 'none';
+                }, 2000); // Hide the message after 2 seconds
+                return;
+            }
+
+            const textArea = document.createElement('textarea');
+            textArea.value = jsonOutput.innerText;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+
+            // Display success message
+            const copyMessage = document.getElementById('copyMessage');
+            copyMessage.innerText = 'Data copied successfully!';
+            copyMessage.style.color = 'green';
+            copyMessage.style.display = 'block';
+            setTimeout(function () {
+                copyMessage.style.display = 'none';
+            }, 2000); // Hide the message after 2 seconds
+        }
+
+
+    </script>
+    <!-- Include the XLSX library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
+</body>
+
+</html>
