@@ -1,13 +1,13 @@
-function run(){
-    var password = prompt("Password Please");
-    if(password != '1234'){
-    document.body.innerHTML = '';
-    document.body.innerHTML = 'Password Failed! Reload to Renter Password';
-    }else{
-    alert('Success');
-    }
-    }
-    run();
+// function run(){
+//     var password = prompt("Password Please");
+//     if(password != '1234'){
+//     document.body.innerHTML = '';
+//     document.body.innerHTML = 'Password Failed! Reload to Renter Password';
+//     }else{
+//     alert('Success');
+//     }
+//     }
+//     run();
 
 
 // Disable right-click context menu
