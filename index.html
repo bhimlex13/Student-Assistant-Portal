@@ -4,91 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student-Assistant-Portal</title>
+    <title>Student Assistant Portal</title>
     <link rel="icon" type="image/x-icon" href="../../images/fav2.png">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .card-img-top {
-
-            width: 100%;
-            /* makes the image responsive */
-            height: auto;
-            /* maintains the aspect ratio */
-            aspect-ratio: 16 / 9;
-            /* adjust this value to your preferred aspect ratio */
-            object-fit: cover;
-            /* ensures the image covers the area without stretching */
-            border-radius: 1%;
-            margin-bottom: .2rem;
-        }
-
-        .card-title {
-            margin-bottom: 0.3rem;
-        }
-
-        .card-button {
-            color: white;
-            background-color: transparent;
-            border-color: #17a2b8;
-            margin: 2px 0;
-            /* Add space between buttons */
-        }
-
-        .card-button:hover {
-            color: #0056b3;
-            background-color: #e2e6ea;
-            border-color: #0056b3;
-        }
-
-        .navbar {
-            margin-bottom: 30px;
-        }
-
-        .card {
-        border-radius: 3%;
-        padding: 1rem;
-        margin-bottom: 1rem; /* Add some space below each card */
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-
-    }
-
-    .card:hover {
-    transform: scale(1.05); /* Adjust scale to desired effect */
-    transition: transform 0.3s ease-in-out; /* Smooth transition for the hover effect */
-}
-
-        .container-fluid {
-            padding-right: 0;
-            /* Reset padding for full width */
-            padding-left: 0;
-            /* Reset padding for full width */
-        }
-
-        .row {
-            margin-right: 0;
-            /* Reset margin for full width */
-            margin-left: 0;
-            /* Reset margin for full width */
-        }
-
-        .card-body-a {
-            background-color: #37474F;
-            color: white;
-            border-radius: 1%;
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-        }
-
-        .card-body-b {
-            background-color: #014887;
-            color: white;
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-        }
-
-        .bg-primary {
-    background-color: #014887!important;
-}
-
-    </style>
+    <link rel="stylesheet" href="./assets/index.css">
 </head>
 
 <body>
@@ -96,6 +15,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand" href="./index.html">Home</a>
         <a class="navbar-brand" href="./fileConverter.html">Data Converter</a>
+        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="staticBackdrop" data-bs-target="#staticBackdrop">
+            Launch static backdrop modal
+          </button> -->
         <!-- <a class="navbar-brand" href="./index.html">This button is sponsored by Elmer</a> -->
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
@@ -105,6 +27,24 @@
             </ul>
         </div>
     </nav>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container-fluid"> <!-- Changed to container-fluid for full width -->
         <div class="row"> <!-- Ensure full width and no external margins -->
@@ -144,7 +84,7 @@
                 <div class="card text-center">
                     <img class="card-img-top" src="./images/Thumbnail_NetworkTechnology_1.png" alt="Card image cap">
                     <div class="card-body card-body-a">
-                        <h5 class="card-title">Network Technology 1</h5>
+                        <h5 class="card-title">Network Technology</h5>
                         <a href="./net_tech_1/prelims/prelims.html" class="btn card-button">Prelims</a>
                         <a href="#" class="btn card-button">Midterms</a>
                         <a href="#" class="btn card-button">Pre-Finals</a>
