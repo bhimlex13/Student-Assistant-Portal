@@ -1,0 +1,80 @@
+.card-img-top {
+
+    width: 100%;
+    /* makes the image responsive */
+    height: auto;
+    /* maintains the aspect ratio */
+    aspect-ratio: 16 / 9;
+    /* adjust this value to your preferred aspect ratio */
+    object-fit: cover;
+    /* ensures the image covers the area without stretching */
+    border-radius: 1%;
+    margin-bottom: .2rem;
+}
+
+.card-title {
+    margin-bottom: 0.3rem;
+}
+
+.card-button {
+    color: white;
+    background-color: transparent;
+    border-color: #17a2b8;
+    margin: 2px 0;
+    /* Add space between buttons */
+}
+
+.card-button:hover {
+    color: #0056b3;
+    background-color: #e2e6ea;
+    border-color: #0056b3;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.card {
+border-radius: 3%;
+padding: 1rem;
+margin-bottom: 1rem; /* Add some space below each card */
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.card:hover {
+transform: scale(1.05); /* Adjust scale to desired effect */
+transition: transform 0.3s ease-in-out; /* Smooth transition for the hover effect */
+}
+
+.container-fluid {
+    padding-right: 0;
+    /* Reset padding for full width */
+    padding-left: 0;
+    /* Reset padding for full width */
+}
+
+.row {
+    margin-right: 0;
+    /* Reset margin for full width */
+    margin-left: 0;
+    /* Reset margin for full width */
+}
+
+.card-body-a {
+    background-color: #37474F;
+    color: white;
+    border-radius: 1%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-body-b {
+    background-color: #014887;
+    color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bg-primary {
+background-color: #014887!important;
+}
+
