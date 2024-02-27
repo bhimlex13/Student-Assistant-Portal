@@ -3,6 +3,7 @@ var quizData = [
   {
     "question": "Question Sample 1 (Answer is A)",
     "answer": "A",
+    "image": "./download.jpg",
     "choices": [
       "A",
       "B",
