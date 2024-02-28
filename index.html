@@ -85,129 +85,42 @@
         </div>
     </div>
 
-    <div class="container-fluid"> <!-- Changed to container-fluid for full width -->
-        <div class="row"> <!-- Ensure full width and no external margins -->
+    <div class="container-fluid" id="SubjectList"> <!-- Changed to container-fluid for full width -->
+        <div class="row SubjectList" id="SubjectList_List" State="Active"> 
 
-            <!-- Repeat this block for each card -->
-            <div class="aaa col-12 col-sm-6 col-lg-3 mb-4">
-                <div class="card text-center">
-                    <img class="card-img-top" src="./images/Thumbnail_IM_1.png" alt="Subject thumbnail image">
-                    <div class="card-body card-body-a">
-                        <h5 class="card-title">Information Management</h5>
-                        <a href="./info_man/prelims/prelims.html" class="btn card-button">Prelims</a>
-                        <a href="#" class="btn card-button">Midterms</a>
-                        <a href="#" class="btn card-button">Pre-Finals</a>
-                        <a href="#" class="btn card-button">Finals</a>
-                    </div>
+        </div>
+    </div>
+    <div class="SubjectModuleList" id="SubjectModuleList" State="Inactive">
+        <button class="btn btn-primary mb-3" onclick="SubjectList_SwitchScreenTo('SubjectList')">
+            Back
+        </button>
+        <h1 id="SubjectModuleList_SubjectTitle">
+            Subject name
+        </h1>
+        <div class="SubjectModuleList_List" id="SubjectModuleList_List">
+            <a href="#">
+                <div class="SubjectModuleList_List_Item" Status="Active">
+                    <h5 class="SubjectModuleList_List_Item_Text">
+                        Prelims
+                    </h5>
+                    <h5 class="SubjectModuleList_List_Item_LastModified">
+                        1 March 2024
+                    </h5>
                 </div>
-            </div>
-            <!-- End of dynamic card generation -->
-
-            <!-- Repeat this block for each card -->
-            <div class="card-section col-12 col-sm-6 col-lg-3 mb-4">
-                <div class="card text-center">
-                    <img class="card-img-top" src="./images/Thumbnail_IP_1.png" alt="Subject thumbnail image">
-                    <div class="card-body card-body-b">
-                        <h5 class="card-title">Integrative Programming</h5>
-                        <a href="./inte_prog/prelims/prelims.html" class="btn card-button">Prelims</a>
-                        <a href="#" class="btn card-button">Midterms</a>
-                        <a href="#" class="btn card-button">Pre-Finals</a>
-                        <a href="#" class="btn card-button">Finals</a>
-                    </div>
+            </a>
+            <a>
+                <div class="SubjectModuleList_List_Item" Status="Inactive">
+                    <h5 class="SubjectModuleList_List_Item_Text">
+                        Prelims
+                    </h5>
+                    <h5 class="SubjectModuleList_List_Item_Status">
+                        Not available
+                    </h5>
+                    <h5 class="SubjectModuleList_List_Item_LastModified">
+                        1 March 2024
+                    </h5>
                 </div>
-            </div>
-            <!-- End of dynamic card generation -->
-
-            <!-- Repeat this block for each card -->
-            <div class="card-section col-12 col-sm-6 col-lg-3 mb-4">
-                <div class="card text-center">
-                    <img class="card-img-top" src="./images/Thumbnail_NT_1.png" alt="Subject thumbnail image">
-                    <div class="card-body card-body-a">
-                        <h5 class="card-title">Network Technology</h5>
-                        <a href="./net_tech_1/prelims/prelims.html" class="btn card-button">Prelims</a>
-                        <a href="#" class="btn card-button">Midterms</a>
-                        <a href="#" class="btn card-button">Pre-Finals</a>
-                        <a href="#" class="btn card-button">Finals</a>
-                    </div>
-                </div>
-            </div>
-            <!-- End of dynamic card generation -->
-
-            <!-- Repeat this block for each card -->
-            <div class="card-section col-12 col-sm-6 col-lg-3 mb-4">
-                <div class="card text-center">
-                    <img class="card-img-top" src="./images/Thumbnail_PPC_1.png" alt="Subject thumbnail image">
-                    <div class="card-body card-body-b">
-                        <h5 class="card-title">Philippine Popular Culture</h5>
-                        <a href="./pop_cul/prelims/prelims.html" class="btn card-button">Prelims</a>
-                        <a href="#" class="btn card-button">Midterms</a>
-                        <a href="#" class="btn card-button">Pre-Finals</a>
-                        <a href="#" class="btn card-button">Finals</a>
-                    </div>
-                </div>
-            </div>
-            <!-- End of dynamic card generation -->
-
-            <!-- Repeat this block for each card -->
-            <div class="card-section col-12 col-sm-6 col-lg-3 mb-4">
-                <div class="card text-center">
-                    <img class="card-img-top" src="./images/Thumbnail_QM_1.png" alt="Subject thumbnail image">
-                    <div class="card-body card-body-a">
-                        <h5 class="card-title">Quantitative Methods</h5>
-                        <a href="#" class="btn card-button">Prelims</a>
-                        <a href="#" class="btn card-button">Midterms</a>
-                        <a href="#" class="btn card-button">Pre-Finals</a>
-                        <a href="#" class="btn card-button">Finals</a>
-                    </div>
-                </div>
-            </div>
-            <!-- End of dynamic card generation -->
-
-            <!-- Repeat this block for each card -->
-            <div class="card-section col-12 col-sm-6 col-lg-3 mb-4">
-                <div class="card text-center">
-                    <img class="card-img-top" src="./images/Thumbnail_SIA_1.png" alt="Subject thumbnail image">
-                    <div class="card-body card-body-b">
-                        <h5 class="card-title">Systems Integration and Architecture</h5>
-                        <a href="#" class="btn card-button">Prelims</a>
-                        <a href="#" class="btn card-button">Midterms</a>
-                        <a href="#" class="btn card-button">Pre-Finals</a>
-                        <a href="#" class="btn card-button">Finals</a>
-                    </div>
-                </div>
-            </div>
-            <!-- End of dynamic card generation -->
-
-            <!-- Repeat this block for each card -->
-            <div class="card-section col-12 col-sm-6 col-lg-3 mb-4">
-                <div class="card text-center">
-                    <img class="card-img-top" src="./images/Thumbnail_TP_1.png" alt="Subject thumbnail image">
-                    <div class="card-body card-body-a">
-                        <h5 class="card-title">Technopreneurship</h5>
-                        <a href="./techno/prelims/prelims.html" class="btn card-button">Prelims</a>
-                        <a href="#" class="btn card-button">Midterms</a>
-                        <a href="#" class="btn card-button">Pre-Finals</a>
-                        <a href="#" class="btn card-button">Finals</a>
-                    </div>
-                </div>
-            </div>
-            <!-- End of dynamic card generation -->
-
-            <!-- Repeat this block for each card -->
-            <div class="card-section col-12 col-sm-6 col-lg-3 mb-4">
-                <div class="card text-center">
-                    <img class="card-img-top" src="./images/Thumbnail_DEMO_1.png" alt="Subject thumbnail image">
-                    <div class="card-body card-body-b">
-                        <h5 class="card-title">Demo Subject</h5>
-                        <a href="#" class="btn card-button">Prelims</a>
-                        <a href="#" class="btn card-button">Midterms</a>
-                        <a href="#" class="btn card-button">Pre-Finals</a>
-                        <a href="#" class="btn card-button">Finals</a>
-                    </div>
-                </div>
-            </div>
-            <!-- End of dynamic card generation -->
-
+            </a>
         </div>
     </div>
 

@@ -1,210 +1,250 @@
 {
     "Subject": [
-        {
+        {   
+            "Subject_ID": "C2_S2_IM",
             "Subject_Name": "Information Management",
             "Subject_Thumbnail": "./images/Thumbnail_IM_1.png",
             "Subject_SubFolders": [
                 {
                     "Name": "Prelims",
                     "Link": "./info_man/prelims/prelims.html",
-                    "Status": "Active"
+                    "Status": "Active",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Midterms",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Pre-finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 }
             ]
         }, 
-        {
+        {   
+            "Subject_ID": "C2_S2_IP",
             "Subject_Name": "Integrative Programming",
             "Subject_Thumbnail": "./images/Thumbnail_IP_1.png",
             "Subject_SubFolders": [
                 {
                     "Name": "Prelims",
                     "Link": "./inte_prog/prelims/prelims.html",
-                    "Status": "Active"
+                    "Status": "Active",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Midterms",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Pre-finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 }
             ]
         }, 
         {
+            "Subject_ID": "C2_S2_NT",
             "Subject_Name": "Network Technology",
             "Subject_Thumbnail": "./images/Thumbnail_NT_1.png",
             "Subject_SubFolders": [
                 {
                     "Name": "Prelims",
                     "Link": "./net_tech_1/prelims/prelims.html",
-                    "Status": "Active"
+                    "Status": "Active",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Midterms",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Pre-finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 }
             ]
         }, 
         {
+            "Subject_ID": "C2_S2_PPC",
             "Subject_Name": "Philippine Popular Culture",
             "Subject_Thumbnail": "./images/Thumbnail_PPC_1.png",
             "Subject_SubFolders": [
                 {
                     "Name": "Prelims",
                     "Link": "./pop_cul/prelims/prelims.html",
-                    "Status": "Active"
+                    "Status": "Active",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Midterms",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Pre-finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 }
             ]
         }, 
         {
+            "Subject_ID": "C2_S2_QM",
             "Subject_Name": "Quantitative Methods",
             "Subject_Thumbnail": "./images/Thumbnail_QM_1.png",
             "Subject_SubFolders": [
                 {
                     "Name": "Prelims",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Midterms",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Pre-finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 }
             ]
         }, 
         {
+            "Subject_ID": "C2_S2_SIA",
             "Subject_Name": "Systems Integration and Architecture",
             "Subject_Thumbnail": "./images/Thumbnail_SIA_1.png",
             "Subject_SubFolders": [
                 {
                     "Name": "Prelims",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Midterms",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Pre-finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 }
             ]
         }, 
         {
+            "Subject_ID": "C2_S2_TP",
             "Subject_Name": "Technopreneurship",
             "Subject_Thumbnail": "./images/Thumbnail_TP_1.png",
             "Subject_SubFolders": [
                 {
                     "Name": "Prelims",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Midterms",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Pre-finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 }
             ]
         }, 
         {
+            "Subject_ID": "C2_S2_DEMO",
             "Subject_Name": "Demo Subject",
             "Subject_Thumbnail": "./images/Thumbnail_DEMO_1.png",
             "Subject_SubFolders": [
                 {
                     "Name": "Prelims",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Midterms",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Pre-finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 },
                 {
                     "Name": "Finals",
                     "Link": "#",
-                    "Status": "Inactive"
+                    "Status": "Inactive",
+                    "LastModified": "29 February 2024"
                 }
             ]
         }
