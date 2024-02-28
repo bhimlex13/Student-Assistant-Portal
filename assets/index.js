@@ -2,7 +2,9 @@ let SignIn_Credentials = {
   // Set to false to prevent the sign in window to appear
   RequireSignIn: true, 
   // Password for said sign in window
-  Password: '1234' 
+  Password: '1234',
+  // If set to true, the user will only enter the pasword once per browser session; set to false if you want the user to enter the password every time they open index.html
+  SignInPerSession: true,
 }
 
 function run(){
@@ -14,7 +16,19 @@ function run(){
 // When the page is loaded, open the sign in window
 window.onload = function (){
   if (SignIn_Credentials.RequireSignIn == true){
+    // If RequireSignIn is true, check if SignInPerSession is true
+    if (SignIn_Credentials.SignInPerSession == true){
+      // If SignInPerSession is true, get the "SAP_UserHasSignedIn" from session storage
+      var Session_UserHasSignedIn = sessionStorage.getItem('SAP_UserHasSignedIn');
+      // If "SAP_UserHasSignedIn" doesn't exist (null), then the user has only opened the page for the first time since the browser has started
+      if (Session_UserHasSignedIn == null){
+        // Set "SAP_UserHasSignedIn" to true to save it to session storage; the next refresh of the page will not trigger run();
+         sessionStorage.setItem("SAP_UserHasSignedIn", "true");
+         run();
+      }
+    } else {
     run();
+    }
   }
 }
 
@@ -37,7 +51,6 @@ document.getElementById("SignIn-Dialog-Content-Body-Form").addEventListener("sub
     document.getElementById("SignIn-Dialog-Content-Close").click();
   }
 });
-
 
 
 // Disable right-click context menu

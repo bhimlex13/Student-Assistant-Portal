@@ -1,0 +1,212 @@
+{
+    "Subject": [
+        {
+            "Subject_Name": "Information Management",
+            "Subject_Thumbnail": "./images/Thumbnail_IM_1.png",
+            "Subject_SubFolders": [
+                {
+                    "Name": "Prelims",
+                    "Link": "./info_man/prelims/prelims.html",
+                    "Status": "Active"
+                },
+                {
+                    "Name": "Midterms",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Pre-finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                }
+            ]
+        }, 
+        {
+            "Subject_Name": "Integrative Programming",
+            "Subject_Thumbnail": "./images/Thumbnail_IP_1.png",
+            "Subject_SubFolders": [
+                {
+                    "Name": "Prelims",
+                    "Link": "./inte_prog/prelims/prelims.html",
+                    "Status": "Active"
+                },
+                {
+                    "Name": "Midterms",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Pre-finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                }
+            ]
+        }, 
+        {
+            "Subject_Name": "Network Technology",
+            "Subject_Thumbnail": "./images/Thumbnail_NT_1.png",
+            "Subject_SubFolders": [
+                {
+                    "Name": "Prelims",
+                    "Link": "./net_tech_1/prelims/prelims.html",
+                    "Status": "Active"
+                },
+                {
+                    "Name": "Midterms",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Pre-finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                }
+            ]
+        }, 
+        {
+            "Subject_Name": "Philippine Popular Culture",
+            "Subject_Thumbnail": "./images/Thumbnail_PPC_1.png",
+            "Subject_SubFolders": [
+                {
+                    "Name": "Prelims",
+                    "Link": "./pop_cul/prelims/prelims.html",
+                    "Status": "Active"
+                },
+                {
+                    "Name": "Midterms",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Pre-finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                }
+            ]
+        }, 
+        {
+            "Subject_Name": "Quantitative Methods",
+            "Subject_Thumbnail": "./images/Thumbnail_QM_1.png",
+            "Subject_SubFolders": [
+                {
+                    "Name": "Prelims",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Midterms",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Pre-finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                }
+            ]
+        }, 
+        {
+            "Subject_Name": "Systems Integration and Architecture",
+            "Subject_Thumbnail": "./images/Thumbnail_SIA_1.png",
+            "Subject_SubFolders": [
+                {
+                    "Name": "Prelims",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Midterms",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Pre-finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                }
+            ]
+        }, 
+        {
+            "Subject_Name": "Technopreneurship",
+            "Subject_Thumbnail": "./images/Thumbnail_TP_1.png",
+            "Subject_SubFolders": [
+                {
+                    "Name": "Prelims",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Midterms",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Pre-finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                }
+            ]
+        }, 
+        {
+            "Subject_Name": "Demo Subject",
+            "Subject_Thumbnail": "./images/Thumbnail_DEMO_1.png",
+            "Subject_SubFolders": [
+                {
+                    "Name": "Prelims",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Midterms",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Pre-finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                },
+                {
+                    "Name": "Finals",
+                    "Link": "#",
+                    "Status": "Inactive"
+                }
+            ]
+        }
+    ]
+}
