@@ -4,7 +4,7 @@ let SignIn_Credentials = {
   // Password for said sign in window
   Password: '1234',
   // If set to true, the user will only enter the pasword once per browser session; set to false if you want the user to enter the password every time they open index.html
-  SignInPerSession: false,
+  SignInPerSession: true,
 }
 
 function run(){
@@ -61,7 +61,7 @@ document.getElementById("SignIn-Dialog-Content-Body-Form").addEventListener("sub
 // Object that contains the subject list
 let SubjectList = {};
 // URL to the .json file 
-let SubjectList_ManifestFileURL = "./../SAP-Subject-Manifest.json";
+let SubjectList_ManifestFileURL = "./SAP-Subject-Manifest.json";
 
 // Gets the manifest file and returns the data
 async function SubjectList_FetchManifest(URL) {
