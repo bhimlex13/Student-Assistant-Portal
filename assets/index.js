@@ -61,7 +61,7 @@ document.getElementById("SignIn-Dialog-Content-Body-Form").addEventListener("sub
 // Object that contains the subject list
 let SubjectList = {};
 // URL to the .json file 
-let SubjectList_ManifestFileURL = "../SAP-Subject-Manifest.json";
+let SubjectList_ManifestFileURL = "./../SAP-Subject-Manifest.json";
 
 // Gets the manifest file and returns the data
 async function SubjectList_FetchManifest(URL) {
