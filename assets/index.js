@@ -2,9 +2,9 @@ let SignIn_Credentials = {
   // Set to false to prevent the sign in window to appear
   RequireSignIn: true, 
   // Password for said sign in window
-  Password: '1234',
+  Password: null,
   // If set to true, the user will only enter the pasword once per browser session; set to false if you want the user to enter the password every time they open index.html
-  SignInPerSession: true,
+  SignInPerSession: false,
 }
 
 function run(){
@@ -41,20 +41,10 @@ window.onload = function (){
 document.getElementById("SignIn-Dialog-Content-Body-Form").addEventListener("submit", function(event){
   // Prevents default submit action
   event.preventDefault();
-  // Rehides the error message
-  document.getElementById("SignIn-Dialog-Content-Body-Form-Password-Error").style.display = "none";
-  // Gets the password value
-  var password = document.getElementById("SignIn-Dialog-Content-Body-Form-Password").value;
-  // Checks if the password is correct
-  if(password != SignIn_Credentials.Password) {
-    // Password incorrect - Show error message
-    document.getElementById("SignIn-Dialog-Content-Body-Form-Password").value = "";
-    document.getElementById("SignIn-Dialog-Content-Body-Form-Password-Error").style.display = "block";
-  } else {
-    // Password correct - Close window
-    document.getElementById("SignIn-Dialog-Content-Close").click();
-    SubjectList_GetManifestData(SubjectList_ManifestFileURL);
-  }
+
+  document.getElementById("SignIn-Dialog-Content-Close").click();
+  SubjectList_GetManifestData(SubjectList_ManifestFileURL);
+  
 });
 
 
