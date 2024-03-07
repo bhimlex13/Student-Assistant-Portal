@@ -120,12 +120,12 @@ var quizData = [
   },
   {
     "question": "It was in the year ____ when the term technopreneurship was first used.",
-    "answer": 1987,
+    "answer": "1987",
     "choices": [
-      1987,
-      1984,
-      19875,
-      1988
+      "1987",
+      "1984",
+      "1985",
+      "1988"
     ],
     "reference": "01_Handout_1",
     "term": "Prelim"
@@ -216,10 +216,10 @@ var quizData = [
   },
   {
     "question": "Technopreneurship is always a one-person show.",
-    "answer":  "false ",
+    "answer":  "false",
     "choices": [
-      "true ",
-      "false "
+      "true",
+      "false"
     ],
     "reference": "01_Handout_1",
     "term": "Prelim"
@@ -440,12 +440,12 @@ var quizData = [
   },
   {
     "question": "As the adage says, ___________. This quote is accurate for technopreneurs who devise and think of ideas on how to live easily.",
-    "answer": "necessity is the mother of all\r\ninventions",
+    "answer": "necessity is the mother of all inventions",
     "choices": [
-      "necessity is the mother of all\r\ninventions",
+      "necessity is the mother of all inventions",
       "Time is money",
       "Better late than never",
-      "necessity is the mother of all\r\ninventions"
+      "necessity is the mother of all business"
     ],
     "reference": "01_Handout_1",
     "term": "Prelim"
