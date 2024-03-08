@@ -202,6 +202,12 @@
                     "Link": "./techno/prelims/2h1.html",
                     "Status": "Active",
                     "LastModified": "08 March 2024"
+                },
+                {
+                    "Name": "Third Handout (Part 1)",
+                    "Link": "./techno/prelims/3h1.html",
+                    "Status": "Active",
+                    "LastModified": "08 March 2024"
                 }
             ]
         }, 
