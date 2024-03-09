@@ -9,7 +9,7 @@ let SignIn_Credentials = {
 
 function run(){
   document.getElementById("SignIn-Dialog-Content-Body-Form-Password").value = "";
-  var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
+  var myModal = new bootstrap.Modal(document.getElementById('SignIn'));
   myModal.show();
 }
 
@@ -191,11 +191,25 @@ function SubjectList_Generate_ModuleList(ID){
 // Switches between different screens
 function SubjectList_SwitchScreenTo(Screen){
   if (Screen == "SubjectModuleList"){
-    document.getElementById("SubjectList").setAttribute("State", "Inactive");
+    document.getElementById("SubjectList").style.animationName = "SubjectList_Animate_Closing";
+    setTimeout(function(){
+      document.getElementById("SubjectList").setAttribute("State", "Inactive");
+      document.getElementById("SubjectList").style.animationName = "";
+    }, 200);
+
+
     document.getElementById("SubjectModuleList").setAttribute("State", "Active");
+    document.getElementById("SubjectModuleList").style.animationName = "SubjectModuleList_Animate_Opening";
   } else if (Screen == "SubjectList") {
+    document.getElementById("SubjectModuleList").style.animationName = "SubjectList_Animate_Closing";
+    setTimeout(function(){
+      document.getElementById("SubjectModuleList").setAttribute("State", "Inactive");
+      document.getElementById("SubjectModuleList").style.animationName = "";
+    }, 200);
+
+
     document.getElementById("SubjectList").setAttribute("State", "Active");
-    document.getElementById("SubjectModuleList").setAttribute("State", "Inactive");
+    document.getElementById("SubjectList").style.animationName = "SubjectList_Animate_Opening";
   }
 }
 
