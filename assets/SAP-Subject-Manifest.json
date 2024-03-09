@@ -192,28 +192,22 @@
             "Subject_Thumbnail": "./images/Thumbnail_TP_1.png",
             "Subject_SubFolders": [
                 {
-                    "Name": "Prelims",
-                    "Link": "#",
-                    "Status": "Inactive",
-                    "LastModified": "29 February 2024"
+                    "Name": "First Handout",
+                    "Link": "./techno/prelims/1h1.html",
+                    "Status": "Active",
+                    "LastModified": "08 March 2024"
                 },
                 {
-                    "Name": "Midterms",
-                    "Link": "#",
-                    "Status": "Inactive",
-                    "LastModified": "29 February 2024"
+                    "Name": "Second Handout",
+                    "Link": "./techno/prelims/2h1.html",
+                    "Status": "Active",
+                    "LastModified": "08 March 2024"
                 },
                 {
-                    "Name": "Pre-finals",
-                    "Link": "#",
-                    "Status": "Inactive",
-                    "LastModified": "29 February 2024"
-                },
-                {
-                    "Name": "Finals",
-                    "Link": "#",
-                    "Status": "Inactive",
-                    "LastModified": "29 February 2024"
+                    "Name": "Third Handout (Part 1)",
+                    "Link": "./techno/prelims/3h1.html",
+                    "Status": "Active",
+                    "LastModified": "08 March 2024"
                 }
             ]
         }, 

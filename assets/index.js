@@ -2,9 +2,9 @@ let SignIn_Credentials = {
   // Set to false to prevent the sign in window to appear
   RequireSignIn: true, 
   // Password for said sign in window
-  Password: '1234',
+  Password: null,
   // If set to true, the user will only enter the pasword once per browser session; set to false if you want the user to enter the password every time they open index.html
-  SignInPerSession: true,
+  SignInPerSession: false,
 }
 
 function run(){
@@ -41,20 +41,10 @@ window.onload = function (){
 document.getElementById("SignIn-Dialog-Content-Body-Form").addEventListener("submit", function(event){
   // Prevents default submit action
   event.preventDefault();
-  // Rehides the error message
-  document.getElementById("SignIn-Dialog-Content-Body-Form-Password-Error").style.display = "none";
-  // Gets the password value
-  var password = document.getElementById("SignIn-Dialog-Content-Body-Form-Password").value;
-  // Checks if the password is correct
-  if(password != SignIn_Credentials.Password) {
-    // Password incorrect - Show error message
-    document.getElementById("SignIn-Dialog-Content-Body-Form-Password").value = "";
-    document.getElementById("SignIn-Dialog-Content-Body-Form-Password-Error").style.display = "block";
-  } else {
-    // Password correct - Close window
-    document.getElementById("SignIn-Dialog-Content-Close").click();
-    SubjectList_GetManifestData(SubjectList_ManifestFileURL);
-  }
+
+  document.getElementById("SignIn-Dialog-Content-Close").click();
+  SubjectList_GetManifestData(SubjectList_ManifestFileURL);
+  
 });
 
 
@@ -214,31 +204,31 @@ function SubjectList_SwitchScreenTo(Screen){
 }
 
 // Disable right-click context menu
-// document.addEventListener('contextmenu', function (e) {
-//   // alert('⚠️ Sorry. Di muna pwede mag right click here ⚠️')
-//   e.preventDefault();
-// });
+document.addEventListener('contextmenu', function (e) {
+  // alert('⚠️ Sorry. Di muna pwede mag right click here ⚠️')
+  e.preventDefault();
+});
   
-  // // Disable certain keyboard shortcuts
-  // document.onkeydown = function(e) {
-  //   // Disable F12
-  //   if (e.key == 123) {
-  //     e.preventDefault();
-  //   }
-  //   // Disable Ctrl+Shift+I
-  //   if (e.ctrlKey && e.shiftKey && e.key == 'I') {
-  //     e.preventDefault();
-  //   }
-  //   // Disable Ctrl+Shift+C
-  //   if (e.ctrlKey && e.shiftKey && e.key == 'C') {
-  //     e.preventDefault();
-  //   }
-  //   // Disable Ctrl+Shift+J
-  //   if (e.ctrlKey && e.shiftKey && e.key == 'J') {
-  //     e.preventDefault();
-  //   }
-  //   // Disable Ctrl+U
-  //   if (e.ctrlKey && e.key == 'U') {
-  //     e.preventDefault();
-  //   }
-  // };
+  // Disable certain keyboard shortcuts
+  document.onkeydown = function(e) {
+    // Disable F12
+    if (e.key == 123) {
+      e.preventDefault();
+    }
+    // Disable Ctrl+Shift+I
+    if (e.ctrlKey && e.shiftKey && e.key == 'I') {
+      e.preventDefault();
+    }
+    // Disable Ctrl+Shift+C
+    if (e.ctrlKey && e.shiftKey && e.key == 'C') {
+      e.preventDefault();
+    }
+    // Disable Ctrl+Shift+J
+    if (e.ctrlKey && e.shiftKey && e.key == 'J') {
+      e.preventDefault();
+    }
+    // Disable Ctrl+U
+    if (e.ctrlKey && e.key == 'U') {
+      e.preventDefault();
+    }
+  };
