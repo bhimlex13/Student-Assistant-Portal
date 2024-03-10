@@ -44,7 +44,7 @@
                 <!-- </div> -->
                 <div class="modal-body SignIn-Dialog-Content-Body">
                     <div class="SignIn-Dialog-Content-Body-Banner">
-                        <h1 class="SignIn-Dialog-Content-Body-Banner-Title">
+                        <!-- <h1 class="SignIn-Dialog-Content-Body-Banner-Title">
                             Student
                         </h1>
                         <h1 class="SignIn-Dialog-Content-Body-Banner-Title">
@@ -52,7 +52,15 @@
                         </h1>
                         <h1 class="SignIn-Dialog-Content-Body-Banner-Title">
                             Portal
-                        </h1>
+                        </h1> -->
+                        <div class="SignIn-Dialog-Content-Body-Banner-Title-Animated" id="SignIn-Dialog-Content-Body-Banner-Title-Animated-1">
+                        </div>
+                        <div class="SignIn-Dialog-Content-Body-Banner-Title-Animated" id="SignIn-Dialog-Content-Body-Banner-Title-Animated-2">
+                            
+                        </div>
+                        <div class="SignIn-Dialog-Content-Body-Banner-Title-Animated" id="SignIn-Dialog-Content-Body-Banner-Title-Animated-3">
+                            
+                        </div>
                     </div>
                     <div class="SignIn-Dialog-Content-Body-Form">
                         <h1 class="SignIn-Dialog-Content-Body-Form-Title">
@@ -74,7 +82,7 @@
                     </div>
                     <div class="SignIn-Dialog-Content-Body-Copyright">
                         <p class="SignIn-Dialog-Content-Body-Copyright-Text">
-                            A project by Alexander Oro and Elmer Felisilda (C) 2024
+                            A project by Alexander Oro and Elmer Felisilda 2024
                         </p>
                     </div>
                 </div>
@@ -90,40 +98,63 @@
         <div class="row SubjectList" id="SubjectList_List" State="Active"> 
 
         </div>
+        <h5 class="SubjectList_Empty" id="SubjectList_Empty">
+            No subjects are available at the moment.
+        </h5>
     </div>
     <div class="SubjectModuleList" id="SubjectModuleList" State="Inactive">
-        <button class="btn btn-primary mb-3" onclick="SubjectList_SwitchScreenTo('SubjectList')">
-            Back
-        </button>
-        <h1 id="SubjectModuleList_SubjectTitle">
-            Subject name
-        </h1>
+        <div class="SubjectModuleList_Header">
+            <div class="SubjectModuleList_Header_Background">
+                <div class='SubjectModuleList_Header_Background_Fade'></div>
+                <div class='SubjectModuleList_Header_Background_Fade'></div>
+                <img class='SubjectModuleList_Header_Background_Image' src='./images/Thumbnail_IM_1.png' draggable='false' loading='lazy' id="SubjectModuleList_Header_Background_Image" onload="this.style.opacity = '1'"/>
+            </div>
+            
+            <div class="SubjectModuleList_Header_SubjectTitle">
+                <button class="btn btn-primary mb-3 SubjectModuleList_Header_SubjectTitle_Button" onclick="SubjectList_AccessProcess_Back()">
+                    Back
+                </button>
+                <img class='SubjectModuleList_Header_SubjectTitle_Thumbnail' src='./images/Thumbnail_IM_1.png' draggable='false' loading='lazy' id="SubjectModuleList_Header_SubjectTitle_Thumbnail" onload="this.style.opacity = '1'"/>
+                <span>
+                    <h1 class="SubjectModuleList_Header_SubjectTitle_Title" id="SubjectModuleList_Header_SubjectTitle_Title">
+                        Subject name
+                    </h1>
+                    <h1 class="SubjectModuleList_Header_SubjectTitle_Title_2" id="SubjectModuleList_Header_SubjectTitle_Title_2">
+                        Module name
+                    </h1>
+                </span>
+            </div>
+        </div>
+        <h5 class="SubjectList_Empty" id="SubjectModuleList_List_Empty">
+            No modules for this subject are available at the moment.
+        </h5>
         <div class="SubjectModuleList_List" id="SubjectModuleList_List">
-            <a href="#">
-                <div class="SubjectModuleList_List_Item" Status="Active">
-                    <h5 class="SubjectModuleList_List_Item_Text">
-                        Prelims
+            <!-- <div class="SubjectModuleList_List_Item">
+                <div class="SubjectModuleList_List_Item_Thumbnail">
+                    <img class='SubjectModuleList_List_Item_Thumbnail_Image' src='./images/Thumbnail_IM_1.png' draggable='false' loading='lazy'/>
+                </div>
+                <h4 class="SubjectModuleList_List_Item_Title">
+                    Prelims
+                </h4>
+            </div> -->
+        </div>
+        <div class="SubjectModuleList_Subfolder_List" id="SubjectModuleList_Subfolder_List">
+            <!-- <a href="">
+                <div class="SubjectModuleList_Subfolder_List_Item">
+                    <h5 class="SubjectModuleList_Subfolder_List_Item_Text">
+                        Handout 1
                     </h5>
-                    <h5 class="SubjectModuleList_List_Item_LastModified">
-                        1 March 2024
+                    <h5 class="SubjectModuleList_Subfolder_List_Item_Text">
+                        10 March 2024
                     </h5>
                 </div>
-            </a>
-            <a>
-                <div class="SubjectModuleList_List_Item" Status="Inactive">
-                    <h5 class="SubjectModuleList_List_Item_Text">
-                        Prelims
-                    </h5>
-                    <h5 class="SubjectModuleList_List_Item_Status">
-                        Not available
-                    </h5>
-                    <h5 class="SubjectModuleList_List_Item_LastModified">
-                        1 March 2024
-                    </h5>
-                </div>
-            </a>
+            </a> -->
+            <!-- <h5 class="SubjectList_Empty" id="SubjectModuleList_Subfolder_List_Empty">
+                No handouts for this module are available at the moment.
+            </h5> -->
         </div>
     </div>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> -->
