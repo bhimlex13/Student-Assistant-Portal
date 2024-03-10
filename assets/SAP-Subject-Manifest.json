@@ -4,7 +4,7 @@
             "Subject_ID": "C2_S2_IM",
             "Subject_Name": "Information Management",
             "Subject_Thumbnail": "./images/Thumbnail_IM_1.png",
-            "Subject_Status": "Inactive",
+            "Subject_Status": "Active",
             "Subject_Module": [
                 {   
                     "Module_ID": "C2_S2_IM_Prelims",
@@ -15,13 +15,24 @@
                     "Module_Subfolders": [
                         {
                             "Subfolder_ID": "C2_S2_IM_Prelims_1",
-                            "Subfolder_Name": "Handout 1",
+                            "Subfolder_Name": "Database Systems (First Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "#",
+                            "Subfolder_Link": "./info_man/prelims/1h1.html",
                             "Subfolder_Author": [
                                 ""
                             ],
-                            "Subfolder_LastModified": "10 March 2024",
+                            "Subfolder_LastModified": "11 March 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C2_S2_IM_Prelims_1",
+                            "Subfolder_Name": "Database Models (Second Module)",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "./info_man/prelims/2h1.html",
+                            "Subfolder_Author": [
+                                ""
+                            ],
+                            "Subfolder_LastModified": "11 March 2024",
                             "Subfolder_Status": "Active"
                         }
                     ]

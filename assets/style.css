@@ -1,3 +1,5 @@
+
+
 body {
   font-size: 1rem;
   /* Default font size for PC */
@@ -336,7 +338,7 @@ label {
   }
 
   #question-list{
-    font-size: 1px;
+    font-size: 1rem;
   }
 
   h3 {
