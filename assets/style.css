@@ -207,14 +207,15 @@ label {
 .toggle-btn {
   width: 4.5rem;
   height: 4.5rem;
+  bottom: 65%;
+  right: 10%;
   position: fixed;
-  bottom: 50px;
-  right: 50px;
+  z-index: 9;
   font-size: 2rem;
-  cursor: pointer;
+  cursor: move;
   border-radius: 50%;
   background-color: black;
-  opacity: 60%;
+  opacity: 0.6;
   color: whitesmoke;
   padding: 10px;
   border: none;
@@ -323,7 +324,7 @@ label {
     text-align: center;  
     margin: auto;
     background-color: black;
-    opacity: 60%;
+    opacity: 30%;
   }
 
   #final-result-message {

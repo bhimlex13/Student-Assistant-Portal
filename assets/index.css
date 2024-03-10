@@ -309,7 +309,7 @@ a{
     .SignIn-Dialog-Content-Body{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto 25px;
-        overflow-y: auto;
+        /* overflow: auto; */
         display: flex;
         flex-direction: column;
     }
@@ -330,6 +330,7 @@ a{
 
 .container-fluid{
     /* display: none; */
+    
 }
 
 .SubjectList{
@@ -340,7 +341,7 @@ a{
 }
 
 #SubjectList{
-    position: fixed;
+    /* position: fixed; */
     height: auto;
     padding: 20px;
 }
@@ -349,6 +350,7 @@ a{
     opacity: 100%;
     pointer-events: all;
     display: block;
+
 }
 
 #SubjectList[State="Inactive"]{

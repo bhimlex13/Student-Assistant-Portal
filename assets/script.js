@@ -1,6 +1,5 @@
 
 
-
 window.onbeforeunload = function (event) {
     return confirm("Confirm refresh");
 };
@@ -34,6 +33,8 @@ document.onkeydown = function (e) {
         e.preventDefault();
     }
 };
+
+
 
 
 $(document).ready(function () {
@@ -191,8 +192,10 @@ function submitAnswer() {
     disableOptions(); // Disable options after submitting answer
     document.querySelector('.btn-next').style.display = 'block'; // Show Next button
     document.querySelector('.btn-primary').style.display = 'none'; // Hide Submit button
-}
 
+    // Scroll to the bottom of the page
+    window.scrollTo(0, document.body.scrollHeight);
+}
 
 // This function disables the options after submitting the answer
 function disableOptions() {
@@ -330,6 +333,8 @@ function shuffleAndCreateQuiz() {
         window.location.reload();
     }
 }
+
+
 
 
 // Create the quiz when the page loads
