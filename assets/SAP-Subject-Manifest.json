@@ -99,24 +99,24 @@
             "Subject_ID": "C2_S2_PPC",
             "Subject_Name": "Philippine Popular Culture",
             "Subject_Thumbnail": "./images/Thumbnail_PPC_1.png",
-            "Subject_Status": "Inactive",
+            "Subject_Status": "Active",
             "Subject_Module": [
                 {   
                     "Module_ID": "C2_S2_PPC_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
-                    "Module_LastModified": "10 March 2024",
+                    "Module_LastModified": "12 March 2024",
                     "Module_Subfolders": [
                         {
                             "Subfolder_ID": "C2_S2_PPC_Prelims_1",
-                            "Subfolder_Name": "Handout 1",
+                            "Subfolder_Name": "Introduction to Popular Culture (First Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "#",
+                            "Subfolder_Link": "./pop_cul/prelims/1h1.html",
                             "Subfolder_Author": [
-                                ""
+                                "Alexander Oro"
                             ],
-                            "Subfolder_LastModified": "10 March 2024",
+                            "Subfolder_LastModified": "12 March 2024",
                             "Subfolder_Status": "Active"
                         }
                     ]
@@ -155,25 +155,36 @@
             "Subject_ID": "C2_S2_SIA",
             "Subject_Name": "Systems Integration and Architecture",
             "Subject_Thumbnail": "./images/Thumbnail_SIA_1.png",
-            "Subject_Status": "Inactive",
+            "Subject_Status": "Active",
             "Subject_Module": [
                 {   
                     "Module_ID": "C2_S2_SIA_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
-                    "Module_LastModified": "10 March 2024",
+                    "Module_LastModified": "12 March 2024",
                     "Module_Subfolders": [
                         {
                             "Subfolder_ID": "C2_S2_SIA_Prelims_1",
-                            "Subfolder_Name": "Handout 1",
+                            "Subfolder_Name": "Introduction to SAP S/4HANA (First Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "#",
+                            "Subfolder_Link": "./sia/prelims/1h1.html",
                             "Subfolder_Author": [
-                                ""
+                                "Elmer Felisilda"
                             ],
-                            "Subfolder_LastModified": "10 March 2024",
-                            "Subfolder_Status": "Inactive"
+                            "Subfolder_LastModified": "12 March 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C2_S2_SIA_Prelims_2",
+                            "Subfolder_Name": "SAP S/4HANA Case Study (Second Module)",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "./sia/prelims/2h1.html",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "12 March 2024",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }
