@@ -274,7 +274,7 @@ var quizData = [
   },
   {
     "question": "A single user database that runs on a personal computer.",
-    "answer": "Single-user database",
+    "answer": "Desktop database",
     "choices": [
       "Single-user database",
       "Desktop database",
