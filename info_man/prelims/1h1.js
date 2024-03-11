@@ -133,7 +133,7 @@ var quizData = [
     "term": "Prelim"
   },
   {
-    "question": "What advantage of DBMS is in the statement?<BR>A DMBS provides a framwork for better enforcement of data privacy.",
+    "question": "What advantage of DBMS is in the statement?<BR>A DMBS provides a framework for better enforcement of data privacy.",
     "answer": "Improved data security",
     "choices": [
       "Improved data sharing",
@@ -556,9 +556,9 @@ var quizData = [
   },
   {
     "question": "What method improved data organization and management over the manual system?",
-    "answer": "The file system method.",
+    "answer": "The file system method",
     "choices": [
-      "The file system method.",
+      "The file system method",
       "The manual system",
       "The database system method",
       "The data processing method"
@@ -592,9 +592,9 @@ var quizData = [
   },
   {
     "question": "What could lead to the duplication of problems in a database environment",
-    "answer": "Failure to understand problems that are not unique to file systems. \r\n",
+    "answer": "Failure to understand problems that are not unique to file systems.",
     "choices": [
-      "Failure to understand problems that are not unique to file systems. \r\n",
+      "Failure to understand problems that are not unique to file systems.",
       "Failure to understand problems that are unique to file systems",
       "Understanding the shortcomings of the file system",
       "Understanding the development of modern databases"
@@ -814,6 +814,31 @@ var quizData = [
       "Structural independence",
       "Data redundancy",
       "Data Anomalies"
+    ],
+    "reference": "01_Handout_1",
+    "term": "Prelim"
+  },
+  {
+    "question": "Raw facts of interest to the end user.",
+    "answer": "End-User data",
+    "choices": [
+      "End-User data",
+      "Metadata",
+      "Information",
+      "Data"
+    ],
+    "reference": "01_Handout_1",
+    "term": "Prelim"
+  }
+  ,
+  {
+    "question": "It is a data about data, through which the end-user data is integrated and managed.",
+    "answer": "Metadata",
+    "choices": [
+      "End-User data",
+      "Metadata",
+      "Information",
+      "Data"
     ],
     "reference": "01_Handout_1",
     "term": "Prelim"
