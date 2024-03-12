@@ -204,7 +204,7 @@ var quizData = [
     "term": "Prelim"
   },
   {
-    "question": "How many levels should a tree topology have?",
+    "question": "How many levels should a tree topology have at least?",
     "answer": "3 levels",
     "choices": [
       "3 levels",
@@ -276,7 +276,7 @@ var quizData = [
     "term": "Prelim"
   },
   {
-    "question": "Which topology best describes the disadvantage?<BR>Disadvantage: The reliability of a partial-mesh network is lower than that of a full-mesh network.",
+    "question": "Which topology best describes the disadvantage?<BR>Disadvantage: The reliability of this network is lower than that of a full-mesh network.",
     "answer": "Partial Mesh Topology",
     "choices": [
       "Partial Mesh Topology",
@@ -615,7 +615,7 @@ var quizData = [
     "choices": [
       "Local Area Network",
       "Metropolitan Area Network",
-      "Wide Are Network",
+      "Wide Area Network",
       "Fat Access Point"
     ],
     "reference": "02 Handout 1",
@@ -627,7 +627,7 @@ var quizData = [
     "choices": [
       "Local Area Network",
       "Metropolitan Area Network",
-      "Wide Are Network",
+      "Wide Area Network",
       "Fat Access Point"
     ],
     "reference": "02 Handout 1",
@@ -639,7 +639,7 @@ var quizData = [
     "choices": [
       "Local Area Network",
       "Metropolitan Area Network",
-      "Wide Are Network",
+      "Wide Area Network",
       "Fat Access Point"
     ],
     "reference": "02 Handout 1",
@@ -651,7 +651,7 @@ var quizData = [
     "choices": [
       "Local Area Network",
       "Metropolitan Area Network",
-      "Wide Are Network",
+      "Wide Area Network",
       "Fat Access Point"
     ],
     "reference": "02 Handout 1",
@@ -663,7 +663,7 @@ var quizData = [
     "choices": [
       "Local Area Network",
       "Metropolitan Area Network",
-      "Wide Are Network",
+      "Wide Area Network",
       "Fat Access Point"
     ],
     "reference": "02 Handout 1",
@@ -675,7 +675,7 @@ var quizData = [
     "choices": [
       "Local Area Network",
       "Metropolitan Area Network",
-      "Wide Are Network",
+      "Wide Area Network",
       "Fat Access Point"
     ],
     "reference": "02 Handout 1",
@@ -687,7 +687,7 @@ var quizData = [
     "choices": [
       "Local Area Network",
       "Metropolitan Area Network",
-      "Wide Are Network",
+      "Wide Area Network",
       "Fat Access Point"
     ],
     "reference": "02 Handout 1",
@@ -695,11 +695,11 @@ var quizData = [
   },
   {
     "question": "What generally covers an area of several kilometers or larger (thousands of kilometers for example)?",
-    "answer": "Wide Are Network",
+    "answer": "Wide Area Network",
     "choices": [
       "Local Area Network",
       "Metropolitan Area Network",
-      "Wide Are Network",
+      "Wide Area Network",
       "Fat Access Point"
     ],
     "reference": "02 Handout 1",
@@ -707,11 +707,11 @@ var quizData = [
   },
   {
     "question": "What mainly used to connect several LANs or MANs that are far from each other (for example, across cities or countries)?",
-    "answer": "Wide Are Network",
+    "answer": "Wide Area Network",
     "choices": [
       "Local Area Network",
       "Metropolitan Area Network",
-      "Wide Are Network",
+      "Wide Area Network",
       "Fat Access Point"
     ],
     "reference": "02 Handout 1",
@@ -812,11 +812,11 @@ var quizData = [
     "term": "Prelim"
   },
   {
-    "question": "What layer defines how to start, control and end conversations (called sessions) between applications, and also synchronizes dialogue between two (2) hosts’ presentation layers and manages their data exchange",
+    "question": "What layer defines how to start, control and end conversations between applications, and also synchronizes dialogue between two (2) hosts’ presentation layers and manages their data exchange",
     "answer": "Session Layer",
     "choices": [
       "Transport Layer",
-      "Presentation Layer",
+      "Session Layer",
       "Data Link Layer",
       "Physical Layer"
     ],
@@ -1058,7 +1058,7 @@ var quizData = [
     "term": "Prelim"
   },
   {
-    "question": "The network interface layer functionsinclude mapping the IP addresses to physical hardware addresses and encapsulation of IP packets.",
+    "question": "The network interface layer functions include mapping the IP addresses to physical hardware addresses and encapsulation of IP packets.",
     "answer": "THE STATEMENT IS TRUE .",
     "choices": [
       "THE STATEMENT IS TRUE .",
