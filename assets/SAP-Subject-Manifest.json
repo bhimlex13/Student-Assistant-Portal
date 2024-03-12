@@ -93,26 +93,38 @@
             "Subject_ID": "C2_S2_NT",
             "Subject_Name": "Network Technology",
             "Subject_Thumbnail": "./images/Thumbnail_NT_1.png",
-            "Subject_Status": "Inactive",
+            "Subject_Status": "Active",
             "Subject_Module": [
                 {   
                     "Module_ID": "C2_S2_NT_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
-                    "Module_LastModified": "10 March 2024",
+                    "Module_LastModified": "13 March 2024",
                     "Module_Subfolders": [
                         {
                             "Subfolder_ID": "C2_S2_NT_Prelims_1",
-                            "Subfolder_Name": "Handout 1",
+                            "Subfolder_Name": "Network Fundamentals (First Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "#",
+                            "Subfolder_Link": "./net_tech_1/prelims/1h1.html",
                             "Subfolder_Author": [
-                                ""
+                                "Kyll Madriaga"
                             ],
-                            "Subfolder_LastModified": "10 March 2024",
+                            "Subfolder_LastModified": "13 March 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C2_S2_NT_Prelims_1",
+                            "Subfolder_Name": "Network Reference Models (Second Module)",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "./net_tech_1/prelims/2h1.html",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "13 March 2024",
                             "Subfolder_Status": "Active"
                         }
+                        
                     ]
                 }
             ]
