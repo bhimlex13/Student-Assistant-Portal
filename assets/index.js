@@ -139,9 +139,9 @@ function SubjectList_Generate_List(){
       SubjectList_Card_Name = SubjectList.Subject[a].Subject_Name;
 
       const SubjectList_Card_HTML = `
-        <div class="card text-center">
-            <img class="card-img-top" src="${SubjectList_Card_Thumbnail}" alt="Subject thumbnail image" style="opacity: 0" onload="this.style.opacity = '1'; this.style.transition = '0.3s'" loading='lazy' draggable='false'>
-            <div class="card-body card-body-b">
+        <div class="card text-center SubjectList_Card_Item">
+            <img class="card-img-top SubjectList_Card_Item_Image" src="${SubjectList_Card_Thumbnail}" alt="Subject thumbnail image" style="opacity: 0" onload="this.style.opacity = '1'; this.style.transition = '0.3s'" loading='lazy' draggable='false'>
+            <div class="card-body card-body-b SubjectList_Card_Item_Title">
                 <h5 class="card-title">${SubjectList_Card_Name}</h5>
                 <!--<a href="./inte_prog/prelims/prelims.html" class="btn card-button">Prelims</a>
                 <a href="#" class="btn card-button">Midterms</a>

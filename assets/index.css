@@ -95,6 +95,7 @@ a{
     margin: 0;
     padding: 0;
     user-select: none;
+    font-family: var(--Text-Font-Primary);
 }
 
 .SignIn-Dialog{
@@ -208,6 +209,7 @@ a{
 .SignIn-Dialog-Content-Body-Banner-Title-Animated-Letter{
     margin: 0;
     font-size: 4em;
+    font-family: var(--Text-Font-Primary);
     opacity: 0;
     animation-name: Banner_Title_Animate_Colors;
     /* animation-delay: 0.4s; */
@@ -266,6 +268,10 @@ a{
     animation-timing-function: ease-in-out;
 }
 
+.SignIn-Dialog-Content-Body-Form-Title{
+    font-weight: bold;
+}
+
 @keyframes Form_Title_Animate_Up{
     from {
         transform: translateY(75px);
@@ -303,6 +309,7 @@ a{
 .SignIn-Dialog-Content-Body-Copyright-Text{
     margin: 0;
     text-align: center;
+    font-family: var(--Text-Font-Secondary);
 }
 
 @media only screen and (max-width: 960px){
@@ -400,11 +407,11 @@ a{
 
 @keyframes SubjectList_Card_Animate_Opening{
     from {
-        transform: translateY(50px);
+        transform: scale(0.9);
         opacity: 0%;
     }
     to {
-        transform: translateY(0px);
+        transform: scale(1);
         opacity: 100%;
     }
 }
@@ -414,6 +421,33 @@ a{
     padding: 10px;
     display: none;
 }
+
+.SubjectList_Card_Item{
+    padding-bottom: 0px;
+    border-radius: 17px;
+}
+
+.SubjectList_Card_Item_Image{
+    border-radius: 15px;
+}
+
+.SubjectList_Card_Item:hover > .SubjectList_Card_Item_Title{
+    transform: translateY(-20px);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.SubjectList_Card_Item_Title{
+    margin-top: 30px;
+    background-color: var(--SAP-Purple-Level-4L);
+    /* border: solid var(--SAP-Gray-Base); */
+    box-shadow: none;
+    font-family: var(--Text-Font-Secondary);
+    color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
 
 .SubjectModuleList{
     margin-left: 30px;
