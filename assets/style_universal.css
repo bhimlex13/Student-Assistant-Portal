@@ -2,10 +2,17 @@
     transition: var(--Element-Transition-Delay);
 }
 
+*[Tabbable = "true"]:focus{
+    outline: solid var(--SAP-Purple-Base);
+    transition: outline 0s;
+}
+
 .Header{
     font-family: var(--Text-Font-Secondary);
     background-color: var(--SAP-Header-BG-Color);
     border-bottom: solid var(--SAP-Header-Border-Color) 1px;
+    margin-bottom: 0;
+    z-index: 100;
 }
 .Header > a{
     color: black;
@@ -33,4 +40,9 @@
     color: white;
     background-color: var(--SAP-Purple-Level-1L);
     border-color: var(--SAP-Purple-Level-1D);
+}
+
+.Button_Control:active{
+    background-color: var(--SAP-Purple-Level-1D);
+    border-color: var(--SAP-Purple-Level-2D);
 }

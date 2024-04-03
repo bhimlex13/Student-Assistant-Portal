@@ -152,6 +152,8 @@ function SubjectList_Generate_List(){
       `;
 
       var SubjectList_Card = document.createElement('div');
+      SubjectList_Card.setAttribute("tabindex", "0");
+      SubjectList_Card.setAttribute("Tabbable", "true");
       SubjectList_Card.setAttribute("class", "card-section col-12 col-sm-6 col-lg-3 mb-4 SubjectList_Card");
       SubjectList_Card.setAttribute("onclick", `SubjectList_Generate_ModuleList(${a})`);
       SubjectList_Card.innerHTML = SubjectList_Card_HTML;
@@ -184,17 +186,32 @@ function SubjectList_Generate_ModuleList(ID){
       // var SubjectModuleList_Item_Link = SubjectList.Subject[ID].Subject_SubFolders[a].Link;
       var SubjectModuleList_Item_LastModified = SubjectList.Subject[ID].Subject_Module[a].Module_LastModified;
       var SubjectModuleList_Item_Thumbnail = SubjectList.Subject[ID].Subject_Module[a].Module_Thumbnail;
+      // const SubjectModuleList_Item_HTML_Active = `
+      //   <div class="SubjectModuleList_List_Item" onclick="SubjectList_Generate_SubfolderList(${ID}, ${a})">
+      //       <div class="SubjectModuleList_List_Item_Thumbnail">
+      //           <img class='SubjectModuleList_List_Item_Thumbnail_Image' src='${SubjectModuleList_Item_Thumbnail}' draggable='false' loading='lazy'  onload="this.style.opacity = '1'"/>
+      //       </div>
+      //       <h4 class="SubjectModuleList_List_Item_Title">
+      //         ${SubjectModuleList_Item_Name}
+      //       </h4>
+      //   </div>
+      // `;
       const SubjectModuleList_Item_HTML_Active = `
-        <div class="SubjectModuleList_List_Item" onclick="SubjectList_Generate_SubfolderList(${ID}, ${a})">
-            <div class="SubjectModuleList_List_Item_Thumbnail">
-                <img class='SubjectModuleList_List_Item_Thumbnail_Image' src='${SubjectModuleList_Item_Thumbnail}' draggable='false' loading='lazy'  onload="this.style.opacity = '1'"/>
+        <div class="card text-center SubjectList_Card_Item" onclick="SubjectList_Generate_SubfolderList(${ID}, ${a})">
+            <img class="card-img-top SubjectList_Card_Item_Image" src="${SubjectModuleList_Item_Thumbnail}" alt="Subject thumbnail image" style="opacity: 0" onload="this.style.opacity = '1'; this.style.transition = '0.3s'" loading='lazy' draggable='false'>
+            <div class="card-body card-body-b SubjectList_Card_Item_Title">
+                <h5 class="card-title">${SubjectModuleList_Item_Name}</h5>
+                <!--<a href="./inte_prog/prelims/prelims.html" class="btn card-button">Prelims</a>
+                <a href="#" class="btn card-button">Midterms</a>
+                <a href="#" class="btn card-button">Pre-Finals</a>
+                <a href="#" class="btn card-button">Finals</a>-->
             </div>
-            <h4 class="SubjectModuleList_List_Item_Title">
-              ${SubjectModuleList_Item_Name}
-            </h4>
         </div>
       `;
       var SubjectModuleList_Item = document.createElement('a');
+      SubjectModuleList_Item.setAttribute("tabindex", "0");
+      SubjectModuleList_Item.setAttribute("Tabbable", "true");
+      SubjectModuleList_Item.setAttribute("class", "card-section col-12 col-sm-6 col-lg-3 mb-4 SubjectList_Card");
       SubjectModuleList_Item.innerHTML = SubjectModuleList_Item_HTML_Active;
       // SubjectModuleList_Item.setAttribute("href", SubjectModuleList_Item_Link);
       SubjectModuleList_Item.style.animationDelay = 0.2 + (SubjectModuleList_Item_ActiveOccurence / 10) + "s";
@@ -241,6 +258,8 @@ function SubjectList_Generate_SubfolderList(Subject, Module){
       </div>
       `;
       var SubjectSubfolderList_Item = document.createElement('a');
+      SubjectSubfolderList_Item.setAttribute("tabindex", "0");
+      SubjectSubfolderList_Item.setAttribute("Tabbable", "true");
       SubjectSubfolderList_Item.innerHTML = SubjectSubfolderList_Item_HTML;
       SubjectSubfolderList_Item.setAttribute("href", SubjectSubfolderList_Item_Link);
       SubjectSubfolderList_Item.style.animationDelay = 0.2 + (SubjectSubfolderList_Item_ActiveOccurence / 10) + "s";

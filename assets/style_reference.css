@@ -37,7 +37,13 @@
 	--SAP-Purple-Level-3D: #382986;
 	--SAP-Purple-Level-4D: #22184e;
 
+	--SAP-Gray-Level-3L: #f7f7f7;
+	--SAP-Gray-Level-2L: #ededed;
+	--SAP-Gray-Level-1L: #dfdfdf;
 	--SAP-Gray-Base: #cacaca;
+	--SAP-Gray-Level-1D: #adadad;
+	--SAP-Gray-Level-2D: #999999;
+	--SAP-Gray-Level-3D: #888888;
 
 	--SAP-Header-BG-Color: white;
 	--SAP-Header-Border-Color: var(--SAP-Gray-Base);
