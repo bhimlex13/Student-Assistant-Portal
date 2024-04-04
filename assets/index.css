@@ -357,12 +357,14 @@ a{
     animation-duration: 0.2s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+    position: absolute;
+    padding: 20px;
 }
 
 #SubjectList{
     /* position: fixed; */
     height: auto;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 #SubjectList[State="Active"]{
@@ -477,6 +479,7 @@ a{
     padding-bottom: 0;
     /* transform: translateY(-200px); */
     /* background-color: blue; */
+    background-color: white;
     font-family: var(--Text-Font-Primary);
 }
 
@@ -661,19 +664,6 @@ a{
     background-color: var(--SAP-Purple-Level-4L);
     /* border: solid red; */
     /* background-color: #17a2b8; */
-    animation-name: SubjectModuleList_Header_Animate;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
-
-@keyframes SubjectModuleList_Header_Animate{
-    0% {
-        transform: translateY(-100px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
 }
 
 .SubjectModuleList_Header_Background{
@@ -781,7 +771,7 @@ a{
     color: black;
     /* background-color: #014887; */
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     align-items: center;
     /* justify-content: center; */
     padding: 10px;
@@ -814,6 +804,11 @@ a{
 
 .SubjectModuleList_Subfolder_List_Item_Text:nth-child(2){
     text-align: right;
+    color: var(--SAP-Gray-Base);
+}
+
+.SubjectModuleList_Subfolder_List_Item:hover > .SubjectModuleList_Subfolder_List_Item_Text:nth-child(2){
+    color: black;
 }
 
 @media only screen and (max-width: 700px) {
@@ -830,5 +825,16 @@ a{
     
     .SubjectModuleList_Header, .SubjectModuleList_Header_Background{
         height: 200px;
+    }
+    .SubjectModuleList_Subfolder_List_Item{
+        grid-template-columns: unset;
+        grid-template-rows: 1fr 1fr;
+    }
+    .SubjectModuleList_Subfolder_List_Item_Text{
+        text-align: left;
+    }
+    .SubjectModuleList_Subfolder_List_Item_Text:nth-child(2){
+        text-align: left;
+        font-size: 0.80em;
     }
 }
