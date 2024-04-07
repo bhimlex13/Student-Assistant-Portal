@@ -45,6 +45,16 @@
 	--SAP-Gray-Level-2D: #999999;
 	--SAP-Gray-Level-3D: #888888;
 
+	--SAP-Yellow-Level-4L: #fffbeb;
+	--SAP-Yellow-Level-3L: #fff5c6;
+	--SAP-Yellow-Level-2L: #ffe888;
+	--SAP-Yellow-Level-1L: #ffd74a;
+	--SAP-Yellow-Base: #ffc014;
+	--SAP-Yellow-Level-1D: #f9a207;
+	--SAP-Yellow-Level-2D: #dd7902;
+	--SAP-Yellow-Level-3D: #b75506;
+	--SAP-Yellow-Level-4D: #94400c;
+
 	--SAP-Header-BG-Color: white;
 	--SAP-Header-Border-Color: var(--SAP-Gray-Base);
     --Debug-ElementOutline: none;

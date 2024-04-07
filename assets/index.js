@@ -80,7 +80,7 @@ document.getElementById("SignIn-Dialog-Content-Body-Form").addEventListener("sub
 
   document.getElementById("SignIn-Dialog-Content-Close").click();
   SubjectList_GetManifestData(SubjectList_ManifestFileURL);
-  
+  Exam_Schedule_GetManifestData(Exam_Schedule_ManifestFileURL);
 });
 
 
@@ -313,6 +313,98 @@ function SubjectList_SwitchScreenTo(Screen){
     document.getElementById("SubjectList").style.animationName = "SubjectList_Animate_Opening";
   }
 }
+
+// Object that contains the scheudle list
+let Exam_Schedule = {};
+// URL to the .json file 
+var Exam_Schedule_ManifestFileURL = "assets/SAP-Exam-Schedule.json";
+
+// Gets the manifest file and returns the data
+async function Exam_Schedule_Fetch_Manifest(URL) {
+  try {
+    const JSON_File = await fetch(URL);
+    const JSON_Data = await JSON_File.json();
+    return JSON_Data;
+  } catch (error) {
+    console.error("Exam_Schedule_Fetch_Manifest failed to fetch the manifest file.");
+    return null;
+  }
+}
+
+// Gets the manifest file and stores the data to SubjectList
+Exam_Schedule_Fetch_Manifest(Exam_Schedule_ManifestFileURL)
+    .then(data => {
+        if (data !== null) {
+          Exam_Schedule = data;
+        }
+    })
+    .catch(error => {
+        console.error('Error fetching JSON file:', error);
+    });
+
+// This is used by other functions to get the manifest data
+async function Exam_Schedule_GetManifestData(Exam_Schedule_ManifestFileURL) {
+  const data = await Exam_Schedule_Fetch_Manifest(Exam_Schedule_ManifestFileURL);
+    Exam_Schedule_Generate_Schedule();
+    return data;
+}
+
+function Exam_Schedule_Generate_Schedule(){
+  // Sets necessary titles
+  document.getElementById("Exam_Reminder_Title").innerHTML = `${Exam_Schedule.Exam_Semester} Semester ${Exam_Schedule.Exam_Period} Exams`;
+  document.getElementById("Exam_Reminder_Duration").innerHTML = `${Exam_Schedule.Exam_Duration[0]} - ${Exam_Schedule.Exam_Duration[1]}`;
+  document.getElementById("Exam_Schedule_Title").innerHTML = `${Exam_Schedule.Exam_Semester} Semester ${Exam_Schedule.Exam_Period} Exam Schedule`;
+  document.getElementById("Exam_Schedule_Duration").innerHTML = `${Exam_Schedule.Exam_Duration[0]} - ${Exam_Schedule.Exam_Duration[1]}`;
+
+  // Clears the schedule list
+  document.getElementById("Exam_Schedule_List").innerHTML = "";
+
+  // Generates a section per class
+  for (a = 0; a < Exam_Schedule.Exam_Section.length; a++){
+    var Section_Item = document.createElement("div");
+    Section_Item.setAttribute("class", "Exam_Schedule_Class");
+    Section_Item.setAttribute("id", "Exam_Schedule_Class_" + a);
+    document.getElementById("Exam_Schedule_List").appendChild(Section_Item);
+
+    var Section_Item_Title = document.createElement("h1");
+    Section_Item_Title.setAttribute("class", "Exam_Schedule_Class_Title");
+    Section_Item_Title.innerHTML = Exam_Schedule.Exam_Section[a].Section_Name;
+    document.getElementById("Exam_Schedule_Class_" + a).appendChild(Section_Item_Title);
+
+    // Generates a section per day
+    for (b = 0; b < Exam_Schedule.Exam_Section[a].Section_Schedule.length; b++){
+      var Schedule_Item_Section = document.createElement("section");
+      Schedule_Item_Section.setAttribute("class", "Exam_Schedule_List_Section");
+      Schedule_Item_Section.setAttribute("id", "Exam_Schedule_List_Section_" + a + "_" + b);
+      document.getElementById("Exam_Schedule_Class_" + a).appendChild(Schedule_Item_Section);
+
+      var Schedule_Item_Section_Title = document.createElement("h3");
+      Schedule_Item_Section_Title.setAttribute("class", "Exam_Schedule_List_Section_Title");
+      Schedule_Item_Section_Title.innerHTML = Exam_Schedule.Exam_Section[a].Section_Schedule[b].Schedule_Date + " | " + Exam_Schedule.Exam_Section[a].Section_Schedule[b].Schedule_Day;
+      document.getElementById("Exam_Schedule_List_Section_" + a + "_" + b).appendChild(Schedule_Item_Section_Title);
+
+      // Generates the section item that displays the schedule
+      for (c = 0; c < Exam_Schedule.Exam_Section[a].Section_Schedule[b].Schedule_Subjects.length; c++){
+        let Schedule_Item_Section_Item_HTML = `
+          <h3 class="Exam_Schedule_List_Section_Item_Subject">
+              ${Exam_Schedule.Exam_Section[a].Section_Schedule[b].Schedule_Subjects[c].Subject_Name}
+          </h3>
+          <p class="Exam_Schedule_List_Section_Item_Time">
+            ${Exam_Schedule.Exam_Section[a].Section_Schedule[b].Schedule_Subjects[c].Subject_Duration[0]} - ${Exam_Schedule.Exam_Section[a].Section_Schedule[b].Schedule_Subjects[c].Subject_Duration[1]}
+          </p>
+          <p class="Exam_Schedule_List_Section_Item_Location">
+            ${Exam_Schedule.Exam_Section[a].Section_Schedule[b].Schedule_Subjects[c].Subject_Location}
+          </p>
+        `;
+        var Schedule_Item_Section_Item = document.createElement("div");
+        Schedule_Item_Section_Item.setAttribute("class", "Exam_Schedule_List_Section_Item");
+        Schedule_Item_Section_Item.innerHTML = Schedule_Item_Section_Item_HTML;
+        document.getElementById("Exam_Schedule_List_Section_" + a + "_" + b).appendChild(Schedule_Item_Section_Item);
+      }
+    }
+  }
+}
+
 
 // Disable right-click context menu
 document.addEventListener('contextmenu', function (e) {

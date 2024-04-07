@@ -453,4 +453,25 @@ img {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  background-color: var(--SAP-Purple-Level-4L);
+  opacity: 100%;
+  border-radius: 10px;
+  color: black;
+}
+
+.toggle-btn:hover{
+  background-color: var(--SAP-Purple-Level-3L);
+}
+
+.Quiz_Answer{
+  /* background-color: var(--SAP-Purple-Level-3L);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 15px; */
+  font-family: var(--Text-Font-Primary);
+  /* position: fixed;
+  bottom: 0;
+  height: 300px;
+  width: 90%; */
+  
 }

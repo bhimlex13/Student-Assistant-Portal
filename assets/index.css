@@ -357,14 +357,26 @@ a{
     animation-duration: 0.2s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-    position: absolute;
+    /* position: absolute; */
     padding: 20px;
+    padding-top: 0px;
+}
+
+.SubjectList_Title{
+    font-family: var(--Text-Font-Primary);
+    font-weight: bold;
+    margin: 0;
+    margin-left: 30px;
+    padding: 10px;
 }
 
 #SubjectList{
     /* position: fixed; */
     height: auto;
     /* padding: 20px; */
+    position: fixed;
+    overflow-y: auto;
+    height: calc(100% - 50px);
 }
 
 #SubjectList[State="Active"]{
@@ -465,16 +477,17 @@ a{
 
 
 .SubjectModuleList{
-    margin-left: 30px;
-    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     user-select: none;
     /* animation-delay: 1s; */
     animation-duration: 0.2s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-    position: absolute;
-    width: calc(100% - 60px);
-    height: calc(100% - 100px);
+    position: fixed;
+    width: 100%;
+    height: calc(100% - 50px);
+    overflow-y: auto;
     margin-top: 0;
     padding-bottom: 0;
     /* transform: translateY(-200px); */
@@ -837,4 +850,187 @@ a{
         text-align: left;
         font-size: 0.80em;
     }
+}
+
+.Exam_Reminder{
+    height: auto;
+    width: calc(100% - 60px);
+    overflow: hidden;
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-top: unset;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: var(--SAP-Purple-Level-4L);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 175px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "A C"
+        "B C";
+    align-items: center;
+}
+
+.Exam_Reminder > h2 {
+    font-family: var(--Text-Font-Primary);
+    font-weight: bold;
+    grid-area: A;
+    margin: 0;
+}
+
+.Exam_Reminder > p {
+    font-family: var(--Text-Font-Secondary);
+    grid-area: B;
+    margin: 0;
+}
+
+.Exam_Reminder > button {
+    font-family: var(--Text-Font-Secondary);
+    grid-area: C;
+    height: fit-content;
+}
+
+@media only screen and (max-width: 800px){
+    .Exam_Reminder{
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+    }
+    .Exam_Reminder > button{
+        margin-top: 10px;
+    }
+}
+
+.Exam_Schedule{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: calc(100% - 50px);
+    /* margin-top: 50px; */
+    overflow-y: auto;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.Exam_Schedule[State="Inactive"]{
+    display: none;
+}
+
+.Exam_Schedule[State="Active"]{
+    display: block;
+}
+
+.Exam_Schedule_Header{
+    height: auto;
+    width: calc(100% - 60px);
+    overflow: hidden;
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-top: unset;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 20px;
+    background-color: var(--SAP-Purple-Level-4L);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    padding-top: 15px;
+}
+
+.Exam_Schedule_Header > h1 {
+    font-family: var(--Text-Font-Primary);
+    font-weight: bold;
+    margin: 0;
+}
+
+.Exam_Schedule_Header > p {
+    font-family: var(--Text-Font-Secondary);
+    margin: 0;
+}
+
+.Exam_Schedule_Disclaimer{
+    height: auto;
+    width: calc(100% - 60px);
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-radius: 20px;
+    background-color: var(--SAP-Yellow-Level-2L);
+    padding: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.Exam_Schedule_Disclaimer > p{
+    font-family: var(--Text-Font-Secondary);
+    margin: 0;
+}
+
+.Exam_Schedule_Class{
+
+}
+
+.Exam_Schedule_Class_Title{
+    font-family: var(--Text-Font-Primary);
+    font-weight: bolder;
+}
+
+.Exam_Schedule_List{
+    /* background-color: blue; */
+    width: calc(100% - 60px);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Exam_Schedule_List_Section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Exam_Schedule_List_Section_Title{
+    font-family: var(--Text-Font-Secondary);
+    font-weight: bolder;
+}
+
+.Exam_Schedule_List_Section_Item{
+    width: 100%;
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-radius: 20px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "A A A"
+        "B C D";
+    align-items: center;
+    grid-column-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.Exam_Schedule_List_Section_Item_Subject{
+    font-family: var(--Text-Font-Primary);
+    margin: 0;
+    font-size: 1.6em;
+    grid-area: A;
+}
+
+.Exam_Schedule_List_Section_Item_Time, .Exam_Schedule_List_Section_Item_Location{
+    font-family: var(--Text-Font-Secondary);
+    margin: 0;
+    grid-area: B;
+}
+
+.Exam_Schedule_List_Section_Item_Location{
+    grid-area: C;
+    background-color: var(--SAP-Gray-Base);
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
 }

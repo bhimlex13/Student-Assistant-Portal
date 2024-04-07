@@ -15,6 +15,14 @@
     z-index: 100;
     padding-left: 10px;
     padding-right: 10px;
+    width: 100%;
+    height: auto;
+    max-height: 50px;
+    /* position: absolute; */
+}
+
+.Header[State="Active"]{
+    max-height: 2000px;
 }
 .Header > a{
     color: black;
@@ -22,6 +30,7 @@
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 25px;
+    font-size: 1.1rem;
 }
 .Header > a:hover{
     color: white;
@@ -47,4 +56,48 @@
 .Button_Control:active{
     background-color: var(--SAP-Purple-Level-1D);
     border-color: var(--SAP-Purple-Level-2D);
+}
+
+@keyframes Screens_Slide_Enter_ToLeft{
+    0% {
+        transform: translateX(100px);
+        opacity: 0%;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+}
+
+@keyframes Screens_Slide_Enter_ToRight{
+    0% {
+        transform: translateX(-100px);
+        opacity: 0%;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+}
+
+@keyframes Screens_Slide_Leave_ToLeft{
+    0% {
+        transform: translateX(0%);
+        opacity: 100%;
+    }
+    100% {
+        transform: translateX(-100px);
+        opacity: 0%;
+    }
+}
+
+@keyframes Screens_Slide_Leave_ToRight{
+    0% {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+    100% {
+        transform: translateX(100px);
+        opacity: 0%;
+    }
 }
