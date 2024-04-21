@@ -279,7 +279,7 @@ function SubjectList_AccessProcess_Back(){
     SubjectList_AccessProcess_Level = 2;
     document.getElementById("SubjectModuleList_Header_SubjectTitle_Title").setAttribute("State", "");
     document.getElementById("SubjectModuleList_Header_SubjectTitle_Title_2").setAttribute("State", "");
-    document.getElementById("SubjectModuleList_List").style.display = "grid";
+    document.getElementById("SubjectModuleList_List").style.display = "flex";
     document.getElementById("SubjectModuleList_Subfolder_List").style.display = "none";
     document.getElementById("SubjectModuleList_Header_Background_Image").src = SubjectList_Thumbnail;
     document.getElementById("SubjectModuleList_Header_SubjectTitle_Thumbnail").src = SubjectList_Thumbnail;

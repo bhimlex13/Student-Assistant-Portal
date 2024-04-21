@@ -126,6 +126,26 @@
                         }
                         
                     ]
+                },
+                {   
+                    "Module_ID": "C2_S2_NT_Midterms",
+                    "Module_Name": "Midterms",
+                    "Module_Thumbnail": "./images/Thumbnail_Midterms_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "13 March 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C2_S2_NT_Midterms_1",
+                            "Subfolder_Name": "Future Quiz",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "./net_tech_1/prelims/1h1.html",
+                            "Subfolder_Author": [
+                                "Kyll Madriaga"
+                            ],
+                            "Subfolder_LastModified": "25 December 2024",
+                            "Subfolder_Status": "Active"
+                        }                        
+                    ]
                 }
             ]
         }, 
