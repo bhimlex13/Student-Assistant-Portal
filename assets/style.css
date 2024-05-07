@@ -1,3 +1,5 @@
+@import url("style_reference.css");
+
 body {
   font-size: 1rem;
   /* Default font size for PC */
@@ -18,12 +20,6 @@ img {
 p {
   padding: 0;
   visibility: hidden;
-}
-
-#question-number {
-  color: #0056b3 ;
-  font-weight: 400;
-  opacity: 50%;
 }
 
 label {
@@ -61,7 +57,7 @@ label {
 .form-check label {
   cursor: pointer;
   padding: 10px;
-  border: 2px solid #ddd;
+  /* border: 2px solid #ddd; */
   /* Add outline to each option */
   display: block;
   transition: background-color 0.3s, color 0.3s;
@@ -84,7 +80,7 @@ label {
 }
 
 .btn-primary {
-  background-color: #014887!important;
+  background-color: #014887;
   font-size: 2rem;
   /* Adjust the font size for the Submit button */
   box-shadow: 0 8px 8px -4px black;
@@ -94,10 +90,10 @@ label {
 .btn-primary:hover {
   font-size: 2rem;
   color: white;
-  background-color: black!important;
+  background-color: black;
   opacity: 70%;
   /* Adjust the font size for the Submit button */
-  box-shadow: 0 8px 8px -4px black;
+  /* box-shadow: 0 8px 8px -4px black; */
 }
 
 .btn-next {
@@ -205,14 +201,15 @@ label {
 .toggle-btn {
   width: 4.5rem;
   height: 4.5rem;
+  bottom: 65%;
+  right: 10%;
   position: fixed;
-  bottom: 50px;
-  right: 50px;
+  z-index: 9;
   font-size: 2rem;
-  cursor: pointer;
+  cursor: move;
   border-radius: 50%;
   background-color: black;
-  opacity: 60%;
+  opacity: 0.6;
   color: whitesmoke;
   padding: 10px;
   border: none;
@@ -291,9 +288,7 @@ label {
 
 
   #question-number {
-    color: #0056b3 ;
     font-weight: 400;
-    opacity: 50%;
     font-size: 16px;
     margin: 10px 5px;
   }
@@ -321,7 +316,7 @@ label {
     text-align: center;  
     margin: auto;
     background-color: black;
-    opacity: 60%;
+    opacity: 30%;
   }
 
   #final-result-message {
@@ -336,7 +331,7 @@ label {
   }
 
   #question-list{
-    font-size: 1px;
+    font-size: 1rem;
   }
 
   h3 {
@@ -352,4 +347,131 @@ img {
   margin: 2px;
 }
 
+}
+
+.Quiz {
+  margin-top: 0;
+}
+
+.Quiz_Header {
+  background-color: var(--SAP-Purple-Level-4L);
+  padding: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-family: var(--Text-Font-Primary);
+  margin-bottom: 30px;
+}
+
+.Quiz_Header_Title{
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.Quiz_Header_QuestionNumber{
+  color: black;
+  font-size: 1.2em;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.Quiz_Header_Progress{
+  background-color: unset;
+  border-radius: 15px;
+}
+
+.Quiz_Header_Progress > .progress-bar{
+  background-color: var(--SAP-Purple-Level-1D);
+  border-radius: 15px;
+}
+
+.Quiz_Form{
+  padding: 20px;
+  border-radius: 15px;
+  background-color: var(--SAP-Purple-Level-4L);
+  font-family: var(--Text-Font-Primary);
+}
+
+.Quiz_Form > #quiz-form > .form-group > p {
+  display: none
+}
+
+.Quiz_Form > #quiz-form > .form-group > label {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.Quiz_Form > #quiz-form > .form-group > .form-check {
+  border: unset;
+}
+
+.form-check {
+  margin-bottom: 0;
+  /* Adjust the space between options */
+  padding-left: 0;
+}
+
+.form-check label {
+  cursor: pointer;
+  padding: 10px;
+  display: block;
+  border-radius: 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.form-check label:hover{
+  background-color: var(--SAP-Purple-Level-3L);
+}
+
+.form-check input:checked+label {
+  background-color: var(--SAP-Purple-Level-2L);
+  /* Change background color when checked */
+  color: black;
+  /* Change text color when checked */
+  border-color: #007bff;
+  /* Change outline color when checked */
+}
+
+.btn-primary, .btn-next{
+  background-color: var(--SAP-Purple-Base) !important;
+  border-radius: 15px !important;
+  box-shadow: unset;
+  font-size: 1.3rem;
+  outline: unset;
+  border: unset;
+}
+
+.btn-primary:hover, .btn-next:hover{
+  font-size: 1.3rem;
+  background-color: var(--SAP-Purple-Level-2D) !important;
+  opacity: 100%;
+  box-shadow: unset;
+}
+
+.toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--SAP-Purple-Level-4L);
+  opacity: 100%;
+  border-radius: 10px;
+  color: black;
+}
+
+.toggle-btn:hover{
+  background-color: var(--SAP-Purple-Level-3L);
+}
+
+.Quiz_Answer{
+  /* background-color: var(--SAP-Purple-Level-3L);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 15px; */
+  font-family: var(--Text-Font-Primary);
+  /* position: fixed;
+  bottom: 0;
+  height: 300px;
+  width: 90%; */
+  
 }

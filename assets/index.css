@@ -1,3 +1,8 @@
+body{
+    background-color: rgba(247, 243, 243, 0.281);
+}
+
+
 .card-img-top {
 
     width: 100%;
@@ -79,6 +84,10 @@ transition: transform 0.3s ease-in-out; /* Smooth transition for the hover effec
 background-color: #014887!important;
 }
 
+a{
+    text-decoration: none;
+}
+
 .SignIn{
     background-color: rgba(0, 0, 0, 0.9);
     height: 100%;
@@ -86,6 +95,8 @@ background-color: #014887!important;
     margin: 0;
     padding: 0;
     user-select: none;
+    font-family: var(--Text-Font-Primary);
+    overflow-y: auto;
 }
 
 .SignIn-Dialog{
@@ -98,13 +109,19 @@ background-color: #014887!important;
     padding: 20px;
     display: flex;
     justify-content: center;
-
+    overflow-y: auto;
 }
 
 .SignIn-Dialog-Content{
     /* width: calc(100% - 40px); */
     /* height: calc(100% - 40px); */
     margin: 0;
+    animation-name: Banner_Animate_Colors;
+    background: linear-gradient(144deg, rgba(102,16,242,1) 6%, rgba(63,84,243,1) 17%, rgba(223,78,165,1) 28%, rgba(245,126,66,1) 38%, rgba(255,255,255,1) 60%);
+    background-size: 500% 100%;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);
 }
 
 .SignIn-Dialog-Content-Body{
@@ -112,14 +129,30 @@ background-color: #014887!important;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 25px;
     grid-gap: 20px;
+    overflow-y: auto;
 }
 
 .SignIn-Dialog-Content-Body-Banner{
     grid-area: 1/1/3/2;
-    background-color: #6610f2;
+    /* background-color: #6610f2; */
     color: white;
     border-radius: 7px;
     padding: 20px;
+    animation-name: Banner_Animate_Colors;
+    background: linear-gradient(144deg, rgba(255,255,255,1) 13%, rgba(245,126,66,1) 27%, rgba(223,78,165,1) 38%, rgba(63,84,243,1) 48%, rgba(102,16,242,1) 65%);
+    background-size: 500% 100%;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+@keyframes Banner_Animate_Colors{
+    0% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
 }
 
 .SignIn-Dialog-Content-Body-Banner-Title{
@@ -127,22 +160,25 @@ background-color: #014887!important;
     font-size: 4em;
     opacity: 0;
     animation-name: Banner_Title_Animate_Up;
-    animation-delay: 1s;
-    animation-duration: 0.9s;
+    animation-delay: 0.4s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
+    /* background: linear-gradient(90deg, rgba(243,21,255,1) 0%, rgba(38,21,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 .SignIn-Dialog-Content-Body-Banner-Title:nth-child(1){
-    animation-delay: 1.1s;
+    animation-delay: 0.5s;
 }
 
 .SignIn-Dialog-Content-Body-Banner-Title:nth-child(2){
-    animation-delay: 1.2s;
+    animation-delay: 0.6s;
 }
 
 .SignIn-Dialog-Content-Body-Banner-Title:nth-child(3){
-    animation-delay: 1.3s;
+    animation-delay: 0.7s;
 }
 
 @keyframes Banner_Title_Animate_Up{
@@ -167,6 +203,62 @@ background-color: #014887!important;
     }
 }
 
+.SignIn-Dialog-Content-Body-Banner-Title-Animated{
+    /* background-color: #0056b3; */
+    display: flex;
+    flex-direction: row;
+}
+
+.SignIn-Dialog-Content-Body-Banner-Title-Animated-Letter{
+    margin: 0;
+    font-size: 4em;
+    font-family: var(--Text-Font-Primary);
+    opacity: 0;
+    animation-name: Banner_Title_Animate_Colors;
+    /* animation-delay: 0.4s; */
+    animation-duration: 0.60s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+@keyframes Banner_Title_Animate_Colors{
+    0% {
+        color: #f57e42;
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    25% {
+        color: #ff9a67;
+        opacity: 1;
+    }
+    50% {
+        color: #df4ea5;
+    }
+    75% {
+        color: #3f54f3;
+    }
+    100% {
+        color: #ffffff;
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+/* @keyframes Banner_Title_Animate_GradientIntro{
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    40% {
+        filter: hue-rotate(90deg);
+    }
+    80% {
+        filter: hue-rotate(180deg);
+    }
+    100% {
+        filter: hue-rotate(270deg);
+    }
+} */
+
 .SignIn-Dialog-Content-Body-Form{
     display: flex;
     flex-direction: column;
@@ -177,6 +269,10 @@ background-color: #014887!important;
     animation-duration: 0.9s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
+}
+
+.SignIn-Dialog-Content-Body-Form-Title{
+    font-weight: bold;
 }
 
 @keyframes Form_Title_Animate_Up{
@@ -216,37 +312,78 @@ background-color: #014887!important;
 .SignIn-Dialog-Content-Body-Copyright-Text{
     margin: 0;
     text-align: center;
+    font-family: var(--Text-Font-Secondary);
 }
 
 @media only screen and (max-width: 960px){
     .SignIn-Dialog-Content-Body{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto 25px;
-        overflow-y: auto;
+        /* overflow: auto; */
         display: flex;
         flex-direction: column;
     }
     .SignIn-Dialog-Content-Body-Copyright{
         grid-area: unset;
+        margin-top: auto;
+    }
+    .SignIn-Dialog-Content-Body-Banner{
+        /* display: flex; 
+        flex-direction: row; */
+        height: 225px;
     }
     .SignIn-Dialog-Content-Body-Banner-Title{
-        font-size: unset;
+        font-size: 2.5em;
         animation-name: Banner_Title_Animate_Right;
+        margin-right: 7px;
+    }
+    .SignIn-Dialog-Content-Body-Banner-Title-Animated-Letter{
+        font-size: 3em;
+    }
+    .SignIn-Dialog-Content-Body-Form{
+        align-items: center;
+        /* padding-top: 20; */
+        height: 100%;
     }
 }
 
 .container-fluid{
     /* display: none; */
+    
 }
 
 .SubjectList{
     align-items: stretch;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    /* position: absolute; */
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.SubjectList_Title{
+    font-family: var(--Text-Font-Primary);
+    font-weight: bold;
+    margin: 0;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+#SubjectList{
+    /* position: fixed; */
+    height: auto;
+    /* padding: 20px; */
+    position: fixed;
+    overflow-y: auto;
+    height: calc(100% - 50px);
 }
 
 #SubjectList[State="Active"]{
     opacity: 100%;
     pointer-events: all;
     display: block;
+
 }
 
 #SubjectList[State="Inactive"]{
@@ -254,6 +391,28 @@ background-color: #014887!important;
     pointer-events: none;
     transform: translateX(50%);
     display: none;
+}
+
+@keyframes SubjectList_Animate_Opening{
+    from {
+        transform: translateX(-50px);
+        opacity: 0%;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+}
+
+@keyframes SubjectList_Animate_Closing{
+    from {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+    to {
+        transform: translateX(-50px);
+        opacity: 0%;
+    }
 }
 
 .SubjectList_Card{
@@ -274,23 +433,71 @@ background-color: #014887!important;
 
 @keyframes SubjectList_Card_Animate_Opening{
     from {
-        transform: translateY(50px);
+        transform: scale(0.9);
         opacity: 0%;
     }
     to {
-        transform: translateY(0px);
+        transform: scale(1);
         opacity: 100%;
     }
 }
 
+.SubjectList_Empty{
+    margin: 0;
+    padding: 10px;
+    display: none;
+}
+
+.SubjectList_Card_Item{
+    padding-bottom: 0px;
+    border-radius: 17px;
+}
+
+.SubjectList_Card_Item_Image{
+    border-radius: 15px;
+}
+
+.SubjectList_Card_Item:hover > .SubjectList_Card_Item_Title{
+    transform: translateY(-20px);
+    /* height: 100%; */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.SubjectList_Card_Item_Title{
+    margin-top: 30px;
+    background-color: var(--SAP-Purple-Level-4L);
+    /* border: solid var(--SAP-Gray-Base); */
+    box-shadow: none;
+    font-family: var(--Text-Font-Primary);
+    color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
 .SubjectModuleList{
-    margin-left: 30px;
-    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     user-select: none;
+    /* animation-delay: 1s; */
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    position: fixed;
+    width: 100%;
+    height: calc(100% - 50px);
+    overflow-y: auto;
+    margin-top: 0;
+    padding-bottom: 0;
+    /* transform: translateY(-200px); */
+    /* background-color: blue; */
+    background-color: white;
+    font-family: var(--Text-Font-Primary);
 }
 
 .SubjectModuleList[State="Active"]{
-    opacity: 100%;
+    opacity: 0%;
     pointer-events: all;
     display: block;
 }
@@ -298,13 +505,36 @@ background-color: #014887!important;
 .SubjectModuleList[State="Inactive"]{
     opacity: 0%;
     pointer-events: none;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
     display: none;
 }
 
+@keyframes SubjectModuleList_Animate_Opening{
+    from {
+        transform: translateX(100px);
+        opacity: 0%;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+}
+
+@keyframes SubjectModuleList_Animate_Closing{
+    from {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+    to {
+        transform: translateX(100px);
+        opacity: 0%;
+    }
+}
+
 .SubjectModuleList_List{
-    border-top: solid rgba(0, 0, 0, 0.2);
-    padding-top: 10px;
+    /* border-top: solid rgba(0, 0, 0, 0.2); */
+    /* padding-top: 10px; */
+    width: 100%;
 }
 
 .SubjectModuleList_List > a{
@@ -320,11 +550,11 @@ background-color: #014887!important;
 
 @keyframes SubjectModuleList_List_Item_Animate_Opening{
     from {
-        transform: translateY(50px);
+        transform: scale(0.9);
         opacity: 0%;
     }
     to {
-        transform: translateY(0px);
+        transform: scale(1);
         opacity: 100%;
     }
 }
@@ -384,4 +614,423 @@ background-color: #014887!important;
 
 .SubjectModuleList_List_Item_LastModified{
     text-align: right;
+}
+
+.SubjectModuleList_List{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 350px));
+    grid-gap: 20px; */
+    align-items: stretch;
+}
+
+.SubjectModuleList_List_Item{
+    /* background-color: red; */
+    width: auto;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0cm 0cm 0.28218705792108cm 0.03527338224013cm rgba( 0, 0, 0, 0.25);
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-gap: 10px;
+    border: solid #adadad 1px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.SubjectModuleList_List_Item:hover{
+    transform: scale(1.05);
+}
+
+.SubjectModuleList_List_Item_Thumbnail{
+    width: auto;
+    height: 175px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+
+}
+
+.SubjectModuleList_List_Item_Thumbnail_Image{
+    height: 100%;
+    transition: 0.75s;
+    opacity: 0;
+}
+
+.SubjectModuleList_List_Item_Title{
+    margin: 0;
+    text-align: center;
+}
+
+.SubjectModuleList_Header{
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-top: unset;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: var(--SAP-Purple-Level-4L);
+    /* border: solid red; */
+    /* background-color: #17a2b8; */
+}
+
+.SubjectModuleList_Header_Background{
+    position: absolute;
+    /* background-color: #0056b3; */
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 10px; */
+    /* transform: scale(1.1); */
+    display: none;
+    overflow: hidden;
+}
+
+.SubjectModuleList_Header_Background_Fade{
+    background: linear-gradient(180deg, rgba(0,0,0,0) 70%, white 100%);
+	z-index: 0;
+	width: 120%;
+	height: 250%;
+	position: absolute;
+	bottom: 0;
+    z-index: 5;
+    display: none;
+}
+
+.SubjectModuleList_Header_Background_Image{
+    width: 100%;
+    /* object-fit: cover; */
+    filter: blur(20px);
+    transition: 0.75s;
+    opacity: 0;
+}
+
+.SubjectModuleList_Header_SubjectTitle{
+    position: absolute;
+    /* background-color: #0056b3; */
+    width: calc(100% - 40px);
+    height: 100%;
+    z-index: 6;
+    /* bottom: 5px; */
+    position: relative;
+    bottom: 5px;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 300px auto;
+    align-items: end;
+    padding: 20px;
+}
+
+.SubjectModuleList_Header_SubjectTitle_Button{
+    width: 75px;
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.SubjectModuleList_Header_SubjectTitle_Thumbnail{
+    /* display: none; */
+    width: auto;
+    max-width: 275px;
+    object-fit: contain;
+    grid-area: 2 / 1 / 3 / 2;
+    border-radius: 15px;
+    box-shadow: 0cm 0cm 0.28218705792108cm 0.03527338224013cm rgba( 0, 0, 0, 0.25);
+    transition: 0.75s;
+    opacity: 0;
+}
+
+.SubjectModuleList_Header_SubjectTitle_Title{
+    grid-area: 2 / 2 / 3 / 3;
+    align-self: center;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.SubjectModuleList_Header_SubjectTitle_Title[State="Subfolder"]{
+    font-size: 1.5em;
+    /* font-weight: normal; */
+}
+
+.SubjectModuleList_Header_SubjectTitle_Title_2{
+    opacity: 0;
+    font-size: 1.5em;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.SubjectModuleList_Header_SubjectTitle_Title_2[State="Subfolder"]{
+    opacity: 1;
+    font-size: 3em;
+}
+
+.SubjectModuleList_Subfolder_List{
+    display: flex;
+    flex-direction: column; 
+}
+
+.SubjectModuleList_Subfolder_List_Item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-decoration: none;
+    
+    color: black;
+    /* background-color: #014887; */
+    border-radius: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+    animation-name: SubjectModuleList_Subfolder_List_Item_Opening;
+    animation-duration: 0.5s;
+    
+    /* animation-timing-function: ease-in; */
+}
+
+@keyframes SubjectModuleList_Subfolder_List_Item_Opening{
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.SubjectModuleList_Subfolder_List_Item:hover{
+    background-color: var(--SAP-Purple-Level-3L);
+}
+
+.SubjectModuleList_Subfolder_List_Item_Text{
+    margin: 0;
+}
+
+.SubjectModuleList_Subfolder_List_Item_Text:nth-child(2){
+    text-align: right;
+    color: var(--SAP-Gray-Base);
+}
+
+.SubjectModuleList_Subfolder_List_Item:hover > .SubjectModuleList_Subfolder_List_Item_Text:nth-child(2){
+    color: black;
+}
+
+@media only screen and (max-width: 700px) {
+    .SubjectModuleList_Header_SubjectTitle_Thumbnail{
+        display: none;
+    }
+
+    .SubjectModuleList_Header_SubjectTitle{
+        grid-template-columns: auto auto;
+    }
+    .SubjectModuleList_Header_SubjectTitle_Title{
+        grid-area: 2 / 1 / 3 / 3;
+    }
+    
+    .SubjectModuleList_Header, .SubjectModuleList_Header_Background{
+        height: 200px;
+    }
+    .SubjectModuleList_Subfolder_List_Item{
+        grid-template-columns: unset;
+        grid-template-rows: 1fr 1fr;
+    }
+    .SubjectModuleList_Subfolder_List_Item_Text{
+        text-align: left;
+    }
+    .SubjectModuleList_Subfolder_List_Item_Text:nth-child(2){
+        text-align: left;
+        font-size: 0.80em;
+    }
+}
+
+.Exam_Reminder{
+    height: auto;
+    width: calc(100% - 60px);
+    overflow: hidden;
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-top: unset;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: var(--SAP-Purple-Level-4L);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 175px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "A C"
+        "B C";
+    align-items: center;
+}
+
+.Exam_Reminder > h2 {
+    font-family: var(--Text-Font-Primary);
+    font-weight: bold;
+    grid-area: A;
+    margin: 0;
+}
+
+.Exam_Reminder > p {
+    font-family: var(--Text-Font-Secondary);
+    grid-area: B;
+    margin: 0;
+}
+
+.Exam_Reminder > button {
+    font-family: var(--Text-Font-Secondary);
+    grid-area: C;
+    height: fit-content;
+}
+
+@media only screen and (max-width: 800px){
+    .Exam_Reminder{
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+    }
+    .Exam_Reminder > button{
+        margin-top: 10px;
+    }
+}
+
+.Exam_Schedule{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: calc(100% - 50px);
+    /* margin-top: 50px; */
+    overflow-y: auto;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.Exam_Schedule[State="Inactive"]{
+    display: none;
+}
+
+.Exam_Schedule[State="Active"]{
+    display: block;
+}
+
+.Exam_Schedule_Header{
+    height: auto;
+    width: calc(100% - 60px);
+    overflow: hidden;
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-top: unset;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 20px;
+    background-color: var(--SAP-Purple-Level-4L);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    padding-top: 15px;
+}
+
+.Exam_Schedule_Header > h1 {
+    font-family: var(--Text-Font-Primary);
+    font-weight: bold;
+    margin: 0;
+}
+
+.Exam_Schedule_Header > p {
+    font-family: var(--Text-Font-Secondary);
+    margin: 0;
+}
+
+.Exam_Schedule_Disclaimer{
+    height: auto;
+    width: calc(100% - 60px);
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-radius: 20px;
+    background-color: var(--SAP-Yellow-Level-2L);
+    padding: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.Exam_Schedule_Disclaimer > p{
+    font-family: var(--Text-Font-Secondary);
+    margin: 0;
+}
+
+.Exam_Schedule_Class{
+
+}
+
+.Exam_Schedule_Class_Title{
+    font-family: var(--Text-Font-Primary);
+    font-weight: bolder;
+}
+
+.Exam_Schedule_List{
+    /* background-color: blue; */
+    width: calc(100% - 60px);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Exam_Schedule_List_Section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Exam_Schedule_List_Section_Title{
+    font-family: var(--Text-Font-Secondary);
+    font-weight: bolder;
+}
+
+.Exam_Schedule_List_Section_Item{
+    width: 100%;
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-radius: 20px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "A A A"
+        "B C D";
+    align-items: center;
+    grid-column-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.Exam_Schedule_List_Section_Item_Subject{
+    font-family: var(--Text-Font-Primary);
+    margin: 0;
+    font-size: 1.6em;
+    grid-area: A;
+}
+
+.Exam_Schedule_List_Section_Item_Time, .Exam_Schedule_List_Section_Item_Location{
+    font-family: var(--Text-Font-Secondary);
+    margin: 0;
+    grid-area: B;
+}
+
+.Exam_Schedule_List_Section_Item_Location{
+    grid-area: C;
+    background-color: var(--SAP-Gray-Base);
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
 }
