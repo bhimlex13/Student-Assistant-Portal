@@ -4,7 +4,7 @@ let SignIn_Credentials = {
   // Password for said sign in window
   Password: '1234',
   // If set to true, the user will only enter the pasword once per browser session; set to false if you want the user to enter the password every time they open index.html
-  SignInPerSession: true,
+  SignInPerSession: false,
 }
 
 function run(){
