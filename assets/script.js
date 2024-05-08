@@ -1,4 +1,7 @@
-
+// Sound effects
+var Sound_Correct = new Audio("./assets/sounds/Correct_2.mp3");
+var Sound_Wrong = new Audio("./assets/sounds/Wrong_2.mp3");
+var Sound_Complete = new Audio("./assets/sounds/in.ogg");
 
 window.onbeforeunload = function (event) {
     return confirm("Confirm refresh");
@@ -177,11 +180,30 @@ function submitAnswer() {
     var answer = selectedOption.value;
     var result = document.getElementById('result');
     if (answer === quizData[currentQuestionIndex].answer) {
-        result.textContent = 'Correct!';
-        result.style.color = 'green';
+        // result.textContent = 'Correct!';
+        // result.style.color = 'green';
+        if (document.getElementById("Quiz_Checker_Correct") != null){
+            document.getElementById("Quiz_Checker_Correct").setAttribute("State", "Active");
+            setTimeout(function(){document.getElementById("Quiz_Checker_Correct").removeAttribute("State")}, 750);
+            if (document.getElementById("Quiz_Form") != null){
+                document.getElementById("Quiz_Form").setAttribute("Mode", "Answer_Correct");
+            }
+        }
+        
+        Sound_Correct.play();
     } else {
         result.textContent = 'Incorrect. The correct answer was: ' + quizData[currentQuestionIndex].answer;
         result.style.color = 'red';
+        if (document.getElementById("Quiz_Checker_Wrong") != null){
+            document.getElementById("Quiz_Checker_Wrong").setAttribute("State", "Active");
+            setTimeout(function(){document.getElementById("Quiz_Checker_Wrong").removeAttribute("State")}, 750);
+            if (document.getElementById("Quiz_Form") != null){
+                document.getElementById("Quiz_Form").setAttribute("Mode", "Answer_Wrong");
+            }
+        }
+       
+        Sound_Wrong.play();
+
         highlightCorrectAnswer();
     }
 
@@ -211,6 +233,8 @@ function nextQuestion() {
     var result = document.getElementById('result');
     result.textContent = '';
 
+    document.getElementById("Quiz_Form").removeAttribute("Mode");
+
     var selectedOption = document.querySelector('input[name="question"]:checked');
     if (selectedOption) {
         selectedOption.checked = false;
@@ -229,6 +253,7 @@ function nextQuestion() {
         result.style.color = 'black';
         document.querySelector('.btn-next').style.display = 'none';
         document.querySelector('.btn-primary').textContent = 'Retry'; // Change button text to 'Retry'
+        Sound_Complete.play();
         document.querySelector('.btn-primary').onclick = function () {
             location.reload(); // Reload the page on 'Retry' button click
         };

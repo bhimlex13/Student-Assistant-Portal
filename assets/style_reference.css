@@ -55,8 +55,40 @@
 	--SAP-Yellow-Level-3D: #b75506;
 	--SAP-Yellow-Level-4D: #94400c;
 
+	--SAP-Green-Level-3L: #36f434;
+	--SAP-Green-Level-2L: #0bde09;
+	--SAP-Green-Level-1L: #02b801;
+	--SAP-Green-Base: #059805;
+	--SAP-Green-Level-1D: #0a710a;
+	--SAP-Green-Level-2D: #0a5d0c;
+	--SAP-Green-Level-3D: #003402;
+
+	--SAP-Red-Level-3L: #f17878;
+	--SAP-Red-Level-2L: #e64d4d;
+	--SAP-Red-Level-1L: #d23030;
+	--SAP-Red-Base: #be2727;
+	--SAP-Red-Level-1D: #922222;
+	--SAP-Red-Level-2D: #7a2222;
+	--SAP-Red-Level-3D: #420d0d;
+
 	--SAP-Header-BG-Color: white;
 	--SAP-Header-Border-Color: var(--SAP-Gray-Base);
+
+	--SAP-Margin-Left: 7%;
+	--SAP-Margin-Right: 7%;
+
+	--SAP-BG-Opacitated: rgba(0, 0, 0, 0.80);
+	
+	@media only screen and (max-width: 600px){
+		--SAP-Margin-Left: 15px;
+		--SAP-Margin-Right: 15px;
+	}
+
+	/* @media only screen and (max-width: 1250px){
+		--SAP-Margin-Left: 15%;
+		--SAP-Margin-Right: 15%;
+	} */
+
     --Debug-ElementOutline: none;
 	/* --BG-Img-Wallpaper-Main: url(../../Assets/Background/BG_SplashScreen.jpg);
 	--BG-Img-Wallpaper-Clock: url(../../Assets/Background/Telephone.png);

@@ -25,6 +25,18 @@
     <button class="btn btn-shuffle Button_Control" onclick="shuffleAndCreateQuiz()">RESET ↺</button>
   </nav>
 
+  <div class="Quiz_Checker" id="Quiz_Checker">
+    <div class="Quiz_Checker_Correct" id="Quiz_Checker_Correct">
+      <h1 class="Quiz_Checker_Correct_Text">
+        CORRECT!
+      </h1>
+    </div>
+    <div class="Quiz_Checker_Wrong" id="Quiz_Checker_Wrong">
+      <h1 class="Quiz_Checker_Wrong_Text">
+        WRONG!
+      </h1>
+    </div>
+  </div>
   
 
   <div class="container Quiz">
@@ -39,12 +51,12 @@
       </div>
     </div>
     
-    <div class="Quiz_Form">
+    <div class="Quiz_Form" id="Quiz_Form">
       <form id="quiz-form" onsubmit="event.preventDefault(); submitAnswer();">
         <!-- Question will be inserted here by JavaScript -->
       </form>
-      <div class="btn-group d-flex">
-        <button class="btn btn-group btn-primary Quiz_Form_Submit" onclick="submitAnswer()">Submit</button>
+      <div class="btn-group d-flex Quiz_Form_Controls">
+        <button class="btn btn-group btn-primary" onclick="submitAnswer()">Submit</button>
         <button class="btn btn-group btn-primary mt-4 btn-next" onclick="nextQuestion()">Next</button>
       </div>
     </div>
