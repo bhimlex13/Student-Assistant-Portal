@@ -4,7 +4,7 @@ let SignIn_Credentials = {
   // Password for said sign in window
   Password: null,
   // If set to true, the user will only enter the pasword once per browser session; set to false if you want the user to enter the password every time they open index.html
-  SignInPerSession: false,
+  SignInPerSession: true,
 }
 
 function run(){
@@ -60,17 +60,20 @@ window.onload = function (){
       if (Session_UserHasSignedIn == null){
         // Set "SAP_UserHasSignedIn" to true to save it to session storage; the next refresh of the page will not trigger run();
          sessionStorage.setItem("SAP_UserHasSignedIn", "true");
+         UF_Parameter_Set("Screen", "Login");
          run();
       } else {
         SubjectList_GetManifestData(SubjectList_ManifestFileURL);
       }
     } else {
     run();
+    UF_Parameter_Set("Screen", "Login");
     }
   } else {
+    UF_Parameter_Set("Screen", "Main");
     SubjectList_GetManifestData(SubjectList_ManifestFileURL);
   }
-  UF_Parameter_Set("Screen", "Login");
+  
   window.addEventListener('popstate', function(event){
     SUI_Screen_Set();
   });
