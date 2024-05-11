@@ -70,6 +70,10 @@ window.onload = function (){
   } else {
     SubjectList_GetManifestData(SubjectList_ManifestFileURL);
   }
+  UF_Parameter_Set("Screen", "Login");
+  window.addEventListener('popstate', function(event){
+    SUI_Screen_Set();
+  });
 }
 
 
@@ -81,6 +85,7 @@ document.getElementById("SignIn-Dialog-Content-Body-Form").addEventListener("sub
   document.getElementById("SignIn-Dialog-Content-Close").click();
   SubjectList_GetManifestData(SubjectList_ManifestFileURL);
   Exam_Schedule_GetManifestData(Exam_Schedule_ManifestFileURL);
+  UF_Parameter_Set("Screen", "Main");
 });
 
 
@@ -155,7 +160,7 @@ function SubjectList_Generate_List(){
       SubjectList_Card.setAttribute("tabindex", "0");
       SubjectList_Card.setAttribute("Tabbable", "true");
       SubjectList_Card.setAttribute("class", "card-section col-12 col-sm-6 col-lg-3 mb-4 SubjectList_Card");
-      SubjectList_Card.setAttribute("onclick", `SubjectList_Generate_ModuleList(${a})`);
+      SubjectList_Card.setAttribute("onclick", `SubjectList_Generate_ModuleList(${a}), UF_Parameter_Set("Screen", "Subject_${a}");`);
       SubjectList_Card.innerHTML = SubjectList_Card_HTML;
       SubjectList_Card.style.animationDelay = 0.1 + (SubjectList_Card_ActiveOccurence / 10) + "s";
       document.getElementById("SubjectList_List").appendChild(SubjectList_Card);
@@ -169,6 +174,12 @@ var SubjectList_AccessProcess_Level = 1;
 // Generates the module list
 function SubjectList_Generate_ModuleList(ID){
   document.getElementById("SubjectModuleList_List_Empty").style.display = "none";
+  document.getElementById("SubjectModuleList_List").style.display = "flex";
+  document.getElementById("SubjectModuleList_Subfolder_List").style.display = "none";
+  document.getElementById("SubjectModuleList_List").innerHTML = "";
+  document.getElementById("SubjectModuleList_Header_SubjectTitle_Title").setAttribute("State", "");
+  document.getElementById("SubjectModuleList_Header_SubjectTitle_Title_2").setAttribute("State", "");
+
   document.getElementById("SubjectModuleList_Header_SubjectTitle_Title").innerText = SubjectList.Subject[ID].Subject_Name;
   document.getElementById("SubjectModuleList_Header_Background_Image").src = SubjectList.Subject[ID].Subject_Thumbnail;
   document.getElementById("SubjectModuleList_Header_SubjectTitle_Thumbnail").src = SubjectList.Subject[ID].Subject_Thumbnail;
@@ -197,7 +208,7 @@ function SubjectList_Generate_ModuleList(ID){
       //   </div>
       // `;
       const SubjectModuleList_Item_HTML_Active = `
-        <div class="card text-center SubjectList_Card_Item" onclick="SubjectList_Generate_SubfolderList(${ID}, ${a})">
+        <div class="card text-center SubjectList_Card_Item" onclick="SubjectList_Generate_SubfolderList(${ID}, ${a}); UF_Parameter_Set('Screen', 'Folder_${ID}_${a}');">
             <img class="card-img-top SubjectList_Card_Item_Image" src="${SubjectModuleList_Item_Thumbnail}" alt="Subject thumbnail image" style="opacity: 0" onload="this.style.opacity = '1'; this.style.transition = '0.3s'" loading='lazy' draggable='false'>
             <div class="card-body card-body-b SubjectList_Card_Item_Title">
                 <h5 class="card-title">${SubjectModuleList_Item_Name}</h5>
@@ -229,6 +240,13 @@ function SubjectList_Generate_ModuleList(ID){
 var SubjectList_Thumbnail;
 
 function SubjectList_Generate_SubfolderList(Subject, Module){
+  document.getElementById("SubjectModuleList_Header_SubjectTitle_Title").setAttribute("State", "");
+  document.getElementById("SubjectModuleList_Header_SubjectTitle_Title_2").setAttribute("State", "");
+
+  document.getElementById("SubjectModuleList_Header_SubjectTitle_Title").innerText = SubjectList.Subject[Subject].Subject_Name;
+  document.getElementById("SubjectModuleList_Header_Background_Image").src = SubjectList.Subject[Subject].Subject_Thumbnail;
+  document.getElementById("SubjectModuleList_Header_SubjectTitle_Thumbnail").src = SubjectList.Subject[Subject].Subject_Thumbnail;
+  
   document.getElementById("SubjectModuleList_List_Empty").style.display = "none";
   SubjectList_Thumbnail = SubjectList.Subject[Subject].Subject_Thumbnail;
   document.getElementById("SubjectModuleList_Header_SubjectTitle_Title").setAttribute("State", "Subfolder");
@@ -283,9 +301,11 @@ function SubjectList_AccessProcess_Back(){
     document.getElementById("SubjectModuleList_Subfolder_List").style.display = "none";
     document.getElementById("SubjectModuleList_Header_Background_Image").src = SubjectList_Thumbnail;
     document.getElementById("SubjectModuleList_Header_SubjectTitle_Thumbnail").src = SubjectList_Thumbnail;
+    UF_Parameter_Set("Screen", "Subject_" + UF_Parameter_Get("Screen").split("_")[1]);
   } else if (SubjectList_AccessProcess_Level == 2){
     SubjectList_AccessProcess_Level = 1;
     SubjectList_SwitchScreenTo("SubjectList");
+    UF_Parameter_Set("Screen", "Main");
   }
 }
 
@@ -408,6 +428,42 @@ function Exam_Schedule_Generate_Schedule(){
     document.getElementById("Exam_Reminder").style.display = "none";
   }
 }
+
+// Screen URL interpreter
+function SUI_Screen_Set(){
+  SUI_Screen = UF_Parameter_Get("Screen");
+  SUI_Screen_ParameterElements = UF_Parameter_Get("Screen").split("_");
+  switch (SUI_Screen){
+    case 'Main':
+      Element_Attribute_Set("SubjectModuleList", "State", "Inactive");
+      Element_Attribute_Set("Exam_Schedule", "State", "Inactive");
+      Element_Attribute_Set("SubjectList", "State", "Active");
+      SubjectList_SwitchScreenTo("SubjectList");
+      break;
+    case 'Subject_' + SUI_Screen_ParameterElements[1]:
+      Element_Attribute_Set("SubjectModuleList", "State", "Active");
+      Element_Attribute_Set("Exam_Schedule", "State", "Inactive");
+      Element_Attribute_Set("SubjectList", "State", "Inactive");
+      SubjectList_Generate_ModuleList(SUI_Screen_ParameterElements[1]);
+      SubjectList_AccessProcess_Level = 2;
+      SubjectList_SwitchScreenTo("SubjectModuleList");
+      break;
+    case 'Folder_' + SUI_Screen_ParameterElements[1] + "_" + SUI_Screen_ParameterElements[2]:
+      Element_Attribute_Set("SubjectModuleList", "State", "Active");
+      Element_Attribute_Set("Exam_Schedule", "State", "Inactive");
+      Element_Attribute_Set("SubjectList", "State", "Inactive");
+      SubjectList_SwitchScreenTo("SubjectModuleList");
+      SubjectList_Generate_SubfolderList(SUI_Screen_ParameterElements[1], SUI_Screen_ParameterElements[2]);
+      SubjectList_AccessProcess_Level = 3;
+      break;
+    case 'Schedules':
+      SubjectList_SwitchScreenTo("SubjectList");
+      Screens_Open('Exam_Schedule', 'Left');
+      SubjectList_AccessProcess_Level = 1;
+      break;
+  }
+}
+
 
 
 // Disable right-click context menu
