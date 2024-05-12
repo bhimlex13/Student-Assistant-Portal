@@ -9,7 +9,7 @@
 
 .Header{
     font-family: var(--Text-Font-Secondary);
-    background-color: var(--SAP-Header-BG-Color);
+    background-color: var(--SAP-Header-BG-Color) !important;
     border-bottom: solid var(--SAP-Header-Border-Color) 1px;
     margin-bottom: 0;
     z-index: 100;
@@ -25,7 +25,7 @@
     max-height: 2000px;
 }
 .Header > a{
-    color: black;
+    color: black !important;
     margin: 0;
     padding-left: 15px;
     padding-right: 15px;
@@ -33,7 +33,7 @@
     font-size: 1.1rem;
 }
 .Header > a:hover{
-    color: white;
+    color: white !important;
     background-color: var(--SAP-Purple-Level-2L);
 }
 
@@ -56,6 +56,10 @@
 .Button_Control:active{
     background-color: var(--SAP-Purple-Level-1D);
     border-color: var(--SAP-Purple-Level-2D);
+}
+
+.General_Title{
+    font-family: StylishCurves;
 }
 
 @keyframes Screens_Slide_Enter_ToLeft{

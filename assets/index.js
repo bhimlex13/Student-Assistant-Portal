@@ -61,17 +61,21 @@ window.onload = function (){
         // Set "SAP_UserHasSignedIn" to true to save it to session storage; the next refresh of the page will not trigger run();
          sessionStorage.setItem("SAP_UserHasSignedIn", "true");
          UF_Parameter_Set("Screen", "Login");
+         Exam_Schedule_GetManifestData(Exam_Schedule_ManifestFileURL);
          run();
       } else {
         SubjectList_GetManifestData(SubjectList_ManifestFileURL);
+        Exam_Schedule_GetManifestData(Exam_Schedule_ManifestFileURL);
       }
     } else {
     run();
     UF_Parameter_Set("Screen", "Login");
+    Exam_Schedule_GetManifestData(Exam_Schedule_ManifestFileURL);
     }
   } else {
     UF_Parameter_Set("Screen", "Main");
     SubjectList_GetManifestData(SubjectList_ManifestFileURL);
+    Exam_Schedule_GetManifestData(Exam_Schedule_ManifestFileURL);
   }
   
   window.addEventListener('popstate', function(event){

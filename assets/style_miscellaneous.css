@@ -1,0 +1,136 @@
+.FC_Title{
+    background-color: var(--SAP-Purple-Level-4L);
+    padding: 20px;
+    border-radius: 0px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-family: var(--Text-Font-Primary);
+    font-weight: bolder;
+    /* margin: 0px; */
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: var(--SAP-Margin-Left);
+    margin-right: var(--SAP-Margin-Right);
+    /* width: 100%; */
+}
+
+.FC_Title > h1{
+    font-weight: bold;
+}
+
+.FC_Content{
+    border: solid var(--SAP-Gray-Level-1D) 1px;
+    border-radius: 25px;
+}
+
+.FC_Content > button {
+    font-family: var(--Text-Font-Secondary);
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+    background-color: white;
+    border: solid var(--SAP-Gray-Base) 1px;
+}
+
+.FC_Content > button:hover{
+    color: white;
+    background-color: var(--SAP-Purple-Level-1L);
+    border-color: var(--SAP-Purple-Level-1D);
+}
+
+.FC_Content > button:active{
+    background-color: var(--SAP-Purple-Level-1D);
+    border-color: var(--SAP-Purple-Level-2D);
+}
+
+.FC_Content#copyButton{
+    background-color: var(--SAP-Purple-Base) !important;
+    color: white;
+}
+
+.FC_Content > .file-container > .button {
+    font-family: var(--Text-Font-Secondary);
+    color: black;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    border-radius: 5px;
+    background-color: white;
+    border: solid var(--SAP-Gray-Base) 1px;
+}
+
+.FC{
+    /* border: solid red 5px; */
+    margin-left: var(--SAP-Margin-Left);
+    margin-right: var(--SAP-Margin-Right);
+    display: grid;
+    grid-template-columns: 215px 1fr;
+    grid-gap: 10px;
+    margin-bottom: 50px;
+}
+
+.FC_Controls{
+    /* border: solid blue; */
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+
+.FC_Controls > button {
+    /* border: solid green; */
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.FC_Controls > .file-container{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.FC_Controls > .file-container > .button{
+    width: 100%;
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.FC_Controls > label{
+    font-family: var(--Text-Font-Tertiary);
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.FC_Controls > label > input{
+    margin-right: 5px;
+}
+
+.FC_Output {
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-radius: 15px;
+}
+
+.FC_Output_Status{
+    border-bottom: solid var(--SAP-Gray-Base) 1px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    font-family: var(--Text-Font-Tertiary);
+}
+
+.FC_Output_Status > *{
+    margin-right: 10px;
+}
+
+.FC_Output_Container#jsonOutput{
+    font-family: var(--Text-Font-Code);
+}
+
+@media only screen and (max-width: 700px){
+    .FC{
+        grid-template-columns: unset;
+        grid-template-rows: auto auto;
+    }
+}
