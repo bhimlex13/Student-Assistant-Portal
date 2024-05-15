@@ -39,7 +39,7 @@
                 },
 
                 {   
-                    "Module_ID": "C2_S2_IM_Prelims",
+                    "Module_ID": "C2_S2_IM_Prefinals",
                     "Module_Name": "Pre-finals",
                     "Module_Thumbnail": "./images/Thumbnail_Prefinals_2.png",
                     "Module_Status": "Active",
@@ -49,11 +49,11 @@
                             "Subfolder_ID": "C2_S2_IM_Pre-finals_1",
                             "Subfolder_Name": "Introduction to SQL - Part 1 (First Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./info_man/prelims/3h1.html",
+                            "Subfolder_Link": "./info_man/pre-finals/6h1.html",
                             "Subfolder_Author": [
                                 ""
                             ],
-                            "Subfolder_LastModified": "11 March 2024",
+                            "Subfolder_LastModified": "15 March 2024",
                             "Subfolder_Status": "Active"
                         }
                     ]
@@ -108,7 +108,29 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
-                }
+                },
+
+                        {   
+                            "Module_ID": "C2_S2_IP_Prelims",
+                            "Module_Name": "Midterms",
+                            "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                            "Module_Status": "Active",
+                            "Module_LastModified": "13 March 2024",
+                            "Module_Subfolders": [
+                                {
+                                    "Subfolder_ID": "C2_S2_IP_Prelims_1",
+                                    "Subfolder_Name": ".NET Framwork (First Module)",
+                                    "Subfolder_Description": "Description of the subfolder here",
+                                    "Subfolder_Link": "./inte_prog/midterms/1h1.html",
+                                    "Subfolder_Author": [
+                                        "Elmer Felisilda"
+                                    ],
+                                    "Subfolder_LastModified": "13 March 2024",
+                                    "Subfolder_Status": "Active"
+                                }
+                            ]
+                        }
+
             ]
         }, 
         {
@@ -313,7 +335,40 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+
+                {   
+                    "Module_ID": "C2_S2_TP_Prelims",
+                    "Module_Name": "Pre-Finals",
+                    "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "15 May 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C2_S2_TP_Prefinals_1",
+                            "Subfolder_Name": "09 Handout 1",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "./techno/pre-finals/9h1.html",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "15 May 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C2_S2_TP_Prefinals_1",
+                            "Subfolder_Name": "10 Handout 1",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "./techno/pre-finals/10h1.html",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "15 May 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
+
             ]
         }
     ]

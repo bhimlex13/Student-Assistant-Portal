@@ -1,0 +1,383 @@
+// This is the data for the quiz questions, answers, and choices
+var quizData = [
+  {
+    "question": "What is a specific request for data manipulation issued by the end-user or the application to the DBMS?",
+    "answer": "Query",
+    "choices": [
+      "SQL",
+      "Table",
+      "Console",
+      "Query"
+    ]
+  },
+  {
+    "question": "What does SQL stand for?",
+    "answer": "Structured Query Language",
+    "choices": [
+      "Structured Query Language",
+      "Structured Query Link",
+      "Structured Queing Language",
+      "System Query Language"
+    ]
+  },
+  {
+    "question": "How is SQL pronounced?",
+    "answer": "Pronounced as S-Q-L or “sequel”",
+    "choices": [
+      "Pronounced as S-Q-L or “sequel”",
+      "Pronounced as ES-QL",
+      "Pronounced as ES-QLI",
+      "Pronounced as S-QLI"
+    ]
+  },
+  {
+    "question": "What category of SQL data types does bigint, bit, decimal, int, money, numeric belong to?",
+    "answer": "Exact numeric",
+    "choices": [
+      "Exact numeric",
+      "Approximate numeric",
+      "Binary strings",
+      "Arithmetic"
+    ]
+  },
+  {
+    "question": "What category of SQL data types does float, real belong to?",
+    "answer": "Approximate numeric",
+    "choices": [
+      "Approximate numeric",
+      "Comparison",
+      "Compound",
+      "Logical"
+    ]
+  },
+  {
+    "question": "What category of SQL data types does date, datetime, time belong to?",
+    "answer": "Date and time",
+    "choices": [
+      "Date and time",
+      "Query",
+      "Character strings",
+      "Approximate numeric"
+    ]
+  },
+  {
+    "question": "What category of SQL data types does char, text, varchar belong to?",
+    "answer": "Character strings",
+    "choices": [
+      "Character strings",
+      "Unicode character strings",
+      "Binary strings",
+      "Date and time"
+    ]
+  },
+  {
+    "question": "What category of SQL data types does nchar, ntext, nvarchar belong to?",
+    "answer": "Unicode character strings",
+    "choices": [
+      "Unicode character strings",
+      "Binary strings",
+      "Arithmetic",
+      "Comparison"
+    ]
+  },
+  {
+    "question": "What category of SQL data types does binary, image, varbinary belong to?",
+    "answer": "Binary strings",
+    "choices": [
+      "Binary strings",
+      "Arithmetic",
+      "Comparison",
+      "Logical"
+    ]
+  },
+  {
+    "question": "What category of SQL operators does '+, -, *, /, %' belong to?",
+    "answer": "Arithmetic",
+    "choices": [
+      "Binary strings",
+      "Arithmetic",
+      "Comparison",
+      "Logical"
+    ]
+  },
+  {
+    "question": "What category of SQL operators does '=, &gt;, &lt;, &gt;=, &lt;=, &lt;&gt;' belong to?",
+    "answer": "Comparison",
+    "choices": [
+      "Compound",
+      "Arithmetic",
+      "Comparison",
+      "Logical"
+    ]
+  },
+  {
+    "question": "What category of SQL operators does '+=, -=, *=, /=, %=' belong to?",
+    "answer": "Compound",
+    "choices": [
+      "Compound",
+      "Arithmetic",
+      "Comparison",
+      "Logical"
+    ]
+  },
+  {
+    "question": "What category of SQL operators does 'AND, OR, NOT, LIKE, IN, BETWEEN, EXISTS, ANY, ALL' belong to?",
+    "answer": "Logical",
+    "choices": [
+      "Binary strings",
+      "Arithmetic",
+      "Comparison",
+      "Logical"
+    ]
+  },
+  {
+    "question": "What is the SQL command to create a new database with a specific name?",
+    "answer": "CREATE DATABASE database_name;",
+    "choices": [
+      "CREATE DATABASE database_name;",
+      "DROP DATABASE myDB;",
+      "DROP DATABASE",
+      "CREATE TABLE table_name (column1 datatype, …);"
+    ]
+  },
+  {
+    "question": "What is the SQL command used to create a new database?",
+    "answer": "CREATE DATABASE",
+    "choices": [
+      "CREATE DATABASE",
+      "DROP DATABASE",
+      "CREATE TABLE table_name (column1 datatype, …);",
+      "DROP TABLE"
+    ]
+  },
+  {
+    "question": "What is the SQL command to create a new database named ‘myDB’?",
+    "answer": "CREATE DATABASE myDB;",
+    "choices": [
+      "CREATE DATABASE myDB;",
+      "CREATE DATABASE database_name;",
+      "DROP DATABASE",
+      "CREATE TABLE table_name (column1 datatype, …);"
+    ]
+  },
+  {
+    "question": "What is the SQL command used to delete an existing database?",
+    "answer": "DROP DATABASE",
+    "choices": [
+      "DROP DATABASE",
+      "CREATE DATABASE myDB;",
+      "CREATE DATABASE database_name;",
+      "ALTER DATABASE"
+    ]
+  },
+  {
+    "question": "What is the SQL command to create a new table with specific columns and data types?",
+    "answer": "CREATE TABLE table_name (column1 datatype, …);",
+    "choices": [
+      "CREATE TABLE table_name (column1 datatype, …);",
+      "DROP TABLE",
+      "DROP TABLE table_name;",
+      "DROP TABLE Students;"
+    ]
+  },
+  {
+    "question": "What is the SQL command used to delete an existing table?",
+    "answer": "DROP TABLE",
+    "choices": [
+      "DROP TABLE",
+      "DROP TABLE table_name;",
+      "DROP TABLE Students;",
+      "TRUNCATE TABLE Students;"
+    ]
+  },
+  {
+    "question": "What is the SQL command to delete a specific table?",
+    "answer": "DROP TABLE table_name;",
+    "choices": [
+      "DROP TABLE table_name;",
+      "CREATE TABLE table_name (column1 datatype, …);",
+      "DROP TABLE Students;",
+      "TRUNCATE TABLE Students;"
+    ]
+  },
+  {
+    "question": "What is the SQL command to delete a table named ‘Students’?",
+    "answer": "DROP TABLE Students;",
+    "choices": [
+      "DROP TABLE Students;",
+      "DROP TABLE",
+      "CREATE TABLE table_name (column1 datatype, …);",
+      "TRUNCATE TABLE Students;"
+    ]
+  },
+  {
+    "question": "What is the SQL command to delete only the data in the ‘Students’ table?",
+    "answer": "TRUNCATE TABLE Students;",
+    "choices": [
+      "TRUNCATE TABLE Students;",
+      "DROP TABLE table_name;",
+      "DROP TABLE",
+      "CREATE TABLE table_name (column1 datatype, …);"
+    ]
+  },
+  {
+    "question": "What is the SQL command used to add, delete, or modify columns in an existing table?",
+    "answer": "ALTER TABLE",
+    "choices": [
+      "ALTER TABLE",
+      "DROP TABLE Students;",
+      "DROP TABLE table_name;",
+      "DROP TABLE"
+    ]
+  },
+  {
+    "question": "What is the SQL command to add a column to a specific table?",
+    "answer": "ALTER TABLE table_name ADD column datatype;",
+    "choices": [
+      "ALTER TABLE table_name ADD column datatype;",
+      "TRUNCATE TABLE Students;",
+      "DROP TABLE Students;",
+      "DROP TABLE table_name;"
+    ]
+  },
+  {
+    "question": "What is the SQL command to delete a column from a specific table?",
+    "answer": "ALTER TABLE table_name DROP COLUMN column;",
+    "choices": [
+      "ALTER TABLE table_name DROP COLUMN column;",
+      "ALTER TABLE",
+      "TRUNCATE TABLE Students;",
+      "DROP TABLE Students;"
+    ]
+  },
+  {
+    "question": "What is the SQL command to modify a column in a specific table?",
+    "answer": "ALTER TABLE table_name ALTER COLUMN column datatype;",
+    "choices": [
+      "ALTER TABLE table_name ALTER COLUMN column datatype;",
+      "ALTER TABLE table_name ADD column datatype;",
+      "ALTER TABLE",
+      "TRUNCATE TABLE Students;"
+    ]
+  },
+  {
+    "question": "What SQL constraint ensures that a column cannot have a NULL value upon creating a table?",
+    "answer": "NOT NULL on CREATE TABLE",
+    "choices": [
+      "NOT NULL on CREATE TABLE",
+      "NOT NULL on ALTER TABLE",
+      "UNIQUE on CREATE TABLE",
+      "UNIQUE on ALTER TABLE"
+    ]
+  },
+  {
+    "question": "What SQL constraint ensures that a column in an existing table cannot have a NULL value?",
+    "answer": "NOT NULL on ALTER TABLE",
+    "choices": [
+      "NOT NULL on ALTER TABLE",
+      "UNIQUE on CREATE TABLE",
+      "UNIQUE on ALTER TABLE",
+      "PRIMARY KEY on CREATE TABLE"
+    ]
+  },
+  {
+    "question": "What SQL constraint ensures that all values in a column are different upon creating a table?",
+    "answer": "UNIQUE on CREATE TABLE",
+    "choices": [
+      "UNIQUE on CREATE TABLE",
+      "UNIQUE on ALTER TABLE",
+      "PRIMARY KEY on CREATE TABLE",
+      "PRIMARY KEY on ALTER TABLE"
+    ]
+  },
+  {
+    "question": "What SQL constraint creates a UNIQUE constraint on a column of an existing table?",
+    "answer": "UNIQUE on ALTER TABLE",
+    "choices": [
+      "UNIQUE on ALTER TABLE",
+      "PRIMARY KEY on CREATE TABLE",
+      "PRIMARY KEY on ALTER TABLE",
+      "FOREIGN KEY on CREATE TABLE"
+    ]
+  },
+  {
+    "question": "What SQL constraint uniquely identifies each row in a table?",
+    "answer": "PRIMARY KEY on CREATE TABLE",
+    "choices": [
+      "PRIMARY KEY on CREATE TABLE",
+      "PRIMARY KEY on ALTER TABLE",
+      "FOREIGN KEY on CREATE TABLE",
+      "FOREIGN KEY on ALTER TABLE"
+    ]
+  },
+  {
+    "question": "What SQL constraint creates a PRIMARY KEY constraint on a column of an existing table?",
+    "answer": "PRIMARY KEY on ALTER TABLE",
+    "choices": [
+      "PRIMARY KEY on ALTER TABLE",
+      "FOREIGN KEY on CREATE TABLE",
+      "FOREIGN KEY on ALTER TABLE",
+      "CHECK on CREATE TABLE"
+    ]
+  },
+  {
+    "question": "What SQL constraint uniquely identifies a row in another table?",
+    "answer": "FOREIGN KEY on CREATE TABLE",
+    "choices": [
+      "FOREIGN KEY on CREATE TABLE",
+      "FOREIGN KEY on ALTER TABLE",
+      "CHECK on CREATE TABLE",
+      "CHECK on ALTER TABLE"
+    ]
+  },
+  {
+    "question": "What SQL constraint creates a FOREIGN KEY constraint on a column of an existing table?",
+    "answer": "FOREIGN KEY on ALTER TABLE",
+    "choices": [
+      "FOREIGN KEY on ALTER TABLE",
+      "CHECK on CREATE TABLE",
+      "CHECK on ALTER TABLE",
+      "DEFAULT on CREATE TABLE"
+    ]
+  },
+  {
+    "question": "What SQL constraint ensures that all values in a column satisfy a specific condition upon creating a table?",
+    "answer": "CHECK on CREATE TABLE",
+    "choices": [
+      "CHECK on CREATE TABLE",
+      "CHECK on ALTER TABLE",
+      "DEFAULT on CREATE TABLE",
+      "DEFAULT on ALTER TABLE"
+    ]
+  },
+  {
+    "question": "What SQL constraint ensures that all values in a column of an existing table satisfy a specific condition?",
+    "answer": "CHECK on ALTER TABLE",
+    "choices": [
+      "CHECK on ALTER TABLE",
+      "DEFAULT on CREATE TABLE",
+      "DEFAULT on ALTER TABLE",
+      "NOT NULL on CREATE TABLE"
+    ]
+  },
+  {
+    "question": "What SQL constraint sets a default value for a column when there is no value specified upon creating a table?",
+    "answer": "DEFAULT on CREATE TABLE",
+    "choices": [
+      "DEFAULT on CREATE TABLE",
+      "DEFAULT on ALTER TABLE",
+      "NOT NULL on CREATE TABLE",
+      "NOT NULL on ALTER TABLE"
+    ]
+  },
+  {
+    "question": "What SQL constraint sets a default value for a column of an existing table when there is no value specified?",
+    "answer": "DEFAULT on ALTER TABLE",
+    "choices": [
+      "DEFAULT on ALTER TABLE",
+      "NOT NULL on CREATE TABLE",
+      "NOT NULL on ALTER TABLE",
+      "UNIQUE on CREATE TABLE"
+    ]
+  }
+]
