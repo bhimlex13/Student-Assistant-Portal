@@ -39,7 +39,7 @@
                 },
 
                 {   
-                    "Module_ID": "C2_S2_IM_Prelims",
+                    "Module_ID": "C2_S2_IM_Prefinals",
                     "Module_Name": "Pre-finals",
                     "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
                     "Module_Status": "Active",
@@ -49,11 +49,11 @@
                             "Subfolder_ID": "C2_S2_IM_Pre-finals_1",
                             "Subfolder_Name": "Introduction to SQL - Part 1 (First Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./info_man/prelims/3h1.html",
+                            "Subfolder_Link": "./info_man/pre-finals/6h1.html",
                             "Subfolder_Author": [
                                 ""
                             ],
-                            "Subfolder_LastModified": "11 March 2024",
+                            "Subfolder_LastModified": "15 March 2024",
                             "Subfolder_Status": "Active"
                         }
                     ]
