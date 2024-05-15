@@ -22,7 +22,8 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="../../index.html">Home</a>
-    <button class="btn btn-shuffle Button_Control" onclick="shuffleAndCreateQuiz()">RESET ↺</button>
+    <button class="btn btn-shuffle Button_Control" style="box-shadow: unset;
+    " onclick="shuffleAndCreateQuiz()">RESET ↺</button>
   </nav>
 
   <div class="Quiz_Checker" id="Quiz_Checker">
@@ -64,6 +65,31 @@
     <div id="result" class="mt-4 Quiz_Answer"></div>
   </div>
 
+  <div class="Quiz_Result" State="Inactive" id="Quiz_Result">
+    <div class="Quiz_Result_Content">
+        <h1 class="Quiz_Result_Title">
+          Quiz complete!
+        </h1>
+        <h4 class="Quiz_Result_Paragraph">
+          Your final score is: 
+        </h4>
+        <div class="Quiz_Result_Score">
+          <h2>
+            72 / 72
+          </h2>
+        </div>
+        <!-- <img class="gif-img" src="images/YEYYYY.gif" alt="" draggable="false"/> -->
+    </div>
+    <div class="Quiz_Result_Action">
+      <button class="Quiz_Result_Action_Primary" onclick="shuffleAndCreateQuiz()">Retry</button>
+      <button class="Quiz_Result_Action_Secondary">
+        <a href="index.html">
+          Go back to home
+        </a>
+      </button>
+    </div>
+  </div>
+
   <div id="final-result" class="mt-4 d-none">
     <div id="perfect-score-gif" class="tenor-gif-embed" data-postid="18188383721515110290" data-share-method="host" data-aspect-ratio="1" data-width="100%">
       <img class="gif-img" src="../../images/perfect-sponge.gif" alt="">
@@ -77,9 +103,9 @@
     <div id="final-result-message"></div>
   </div>
 
-  <div class="slide-right slide-left" id="sidebar">
-    <h3>Questions</h3>
-    <ul id="question-list"></ul>
+  <div class="slide-right slide-left Quiz_Sidebar" id="sidebar">
+    <h3 class="Quiz_Sidebar_Title">Questions</h3>
+    <ul class="Quiz_Sidebar_List" id="question-list"></ul>
   </div>
   <button class="toggle-btn" onclick="toggleSidebar()" id="t-btn">☰</button>
 
@@ -90,6 +116,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="1h1.js"></script>
   <script src="assets/script.js"></script>
+  <script src="assets/style.js"></script>
 
  
 </body>

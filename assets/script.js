@@ -131,7 +131,7 @@ function createQuiz() {
 
     // Update question number display
     var questionNumber = document.getElementById('question-number');
-    questionNumber.textContent = ' Question: ' + (currentQuestionIndex + 1) + ' out of ' + quizData.length;
+    questionNumber.textContent = ' Question ' + (currentQuestionIndex + 1) + ' out of ' + quizData.length;
 
     document.querySelector('.btn-next').style.display = 'none';
     document.querySelector('.btn-primary').style.display = 'block';
@@ -167,12 +167,13 @@ function submitAnswer() {
     if (!selectedOption) {
         // No option selected
         var result = document.getElementById('result');
-        result.textContent = 'Incorrect. No option selected.';
+        result.textContent = 'No option selected.';
         result.style.color = 'red';
         answered = true; // Set the answered status to true
         document.querySelector('.btn-next').style.display = 'block'; // Show Next button
         document.querySelector('.btn-primary').style.display = 'none'; // Hide Submit button
         disableOptions(); // Disable options after marking as incorrect
+        Sound_Wrong.play(); 
         return;
     }
 
@@ -180,8 +181,8 @@ function submitAnswer() {
     var answer = selectedOption.value;
     var result = document.getElementById('result');
     if (answer === quizData[currentQuestionIndex].answer) {
-        // result.textContent = 'Correct!';
-        // result.style.color = 'green';
+        result.textContent = 'Correct!';
+        result.style.color = 'green';
         if (document.getElementById("Quiz_Checker_Correct") != null){
             document.getElementById("Quiz_Checker_Correct").setAttribute("State", "Active");
             setTimeout(function(){document.getElementById("Quiz_Checker_Correct").removeAttribute("State")}, 750);
@@ -233,7 +234,11 @@ function nextQuestion() {
     var result = document.getElementById('result');
     result.textContent = '';
 
-    // document.getElementById("Quiz_Form").removeAttribute("Mode");
+    if (document.getElementById("Quiz_Form") != null){
+        document.getElementById("Quiz_Form").removeAttribute("Mode");
+    }
+    
+
 
     var selectedOption = document.querySelector('input[name="question"]:checked');
     if (selectedOption) {

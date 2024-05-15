@@ -581,3 +581,108 @@ img {
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
+
+.Quiz_Sidebar{
+  background-color: white;
+  border: solid var(--SAP-Header-Border-Color) 1px;
+}
+
+.Quiz_Sidebar_Title{
+  font-family: var(--Text-Font-Primary);
+}
+
+.Quiz_Sidebar_List{
+  font-family: var(--Text-Font-Secondary);
+  font-size: 0.5em;
+}
+
+.Quiz_Result{
+  position: fixed;
+  top: 50px;
+  background-color: white;
+  width: 100%;
+  height: calc(100% - 50px);
+  /* margin-top: 50px; */
+  overflow-y: auto;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  padding-left: var(--SAP-Margin-Left);
+  padding-right: var(--SAP-Margin-Right);
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.Quiz_Result[State="Inactive"]{
+  display: none;
+}
+
+.Quiz_Result[State="Active"]{
+  display: grid;
+}
+
+.Quiz_Result_Content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Quiz_Result_Title{
+  font-family: var(--Text-Font-Primary);
+  font-weight: bolder;
+}
+
+.Quiz_Result_Paragraph{
+  font-family: var(--Text-Font-Secondary);
+}
+
+.Quiz_Result_Score{
+  display: flex;
+  flex-direction: row;
+}
+
+.Quiz_Result_Score > h2{
+  font-family: var(--Text-Font-Primary);
+}
+
+.Quiz_Result_Action{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  font-family: var(--Text-Font-Primary);
+  color: white;
+}
+
+.Quiz_Result_Action > button{
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  height: auto;
+  width: 400px;
+}
+
+.Quiz_Result_Action_Primary{
+  background-color: var(--SAP-Purple-Base);
+  border: solid var(--SAP-Purple-Base) 1px;
+  border-radius: 15px;
+  box-shadow: unset;
+  color: white;
+}
+
+.Quiz_Result_Action_Secondary{
+  text-decoration: none;
+  color: white;
+  background-color: unset;
+  border: solid var(--SAP-Purple-Base) 1px;
+  border-radius: 15px;
+  box-shadow: unset;
+}
+
+.Quiz_Result_Action_Secondary > a {
+  text-decoration: none;
+  color: black;
+}
