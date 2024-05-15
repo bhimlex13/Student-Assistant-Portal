@@ -358,8 +358,10 @@ a{
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     /* position: absolute; */
-    padding: 20px;
+    /* padding: 20px; */
     padding-top: 0px;
+    margin-left: var(--SAP-Margin-Left);
+    margin-right: var(--SAP-Margin-Right);
 }
 
 .SubjectList_Title{
@@ -368,6 +370,8 @@ a{
     margin: 0;
     margin-left: 30px;
     padding: 10px;
+    margin-left: var(--SAP-Margin-Left);
+    margin-right: var(--SAP-Margin-Right);
 }
 
 #SubjectList{
@@ -477,8 +481,10 @@ a{
 
 
 .SubjectModuleList{
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    padding-left: var(--SAP-Margin-Left);
+    padding-right: var(--SAP-Margin-Right);
     user-select: none;
     /* animation-delay: 1s; */
     animation-duration: 0.2s;
@@ -854,7 +860,7 @@ a{
 
 .Exam_Reminder{
     height: auto;
-    width: calc(100% - 60px);
+    /* width: calc(100% - 60px); */
     overflow: hidden;
     border: solid var(--SAP-Gray-Base) 1px;
     border-top: unset;
@@ -873,6 +879,8 @@ a{
         "A C"
         "B C";
     align-items: center;
+    margin-left: var(--SAP-Margin-Left);
+    margin-right: var(--SAP-Margin-Right);
 }
 
 .Exam_Reminder > h2 {
@@ -915,6 +923,8 @@ a{
     animation-duration: 0.2s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+    padding-left: var(--SAP-Margin-Left);
+    padding-right: var(--SAP-Margin-Right);
 }
 
 .Exam_Schedule[State="Inactive"]{
@@ -927,7 +937,7 @@ a{
 
 .Exam_Schedule_Header{
     height: auto;
-    width: calc(100% - 60px);
+    /* width: calc(100% - 60px); */
     overflow: hidden;
     border: solid var(--SAP-Gray-Base) 1px;
     border-top: unset;
@@ -935,10 +945,12 @@ a{
     border-bottom-right-radius: 25px;
     margin-bottom: 20px;
     background-color: var(--SAP-Purple-Level-4L);
-    margin-left: 30px;
-    margin-right: 30px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
     padding: 20px;
     padding-top: 15px;
+    /* margin-left: var(--SAP-Margin-Left);
+    margin-right: var(--SAP-Margin-Right); */
 }
 
 .Exam_Schedule_Header > h1 {

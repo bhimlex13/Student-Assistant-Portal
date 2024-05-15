@@ -41,7 +41,7 @@
                 {   
                     "Module_ID": "C2_S2_IM_Prelims",
                     "Module_Name": "Pre-finals",
-                    "Module_Thumbnail": "./images/Thumbnail_Midterms_1.png",
+                    "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "07 May 2024",
                     "Module_Subfolders": [
@@ -335,7 +335,40 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+
+                {   
+                    "Module_ID": "C2_S2_TP_Prelims",
+                    "Module_Name": "Pre-Finals",
+                    "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "15 May 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C2_S2_TP_Prefinals_1",
+                            "Subfolder_Name": "09 Handout 1",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "./techno/pre-finals/9h1.html",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "15 May 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C2_S2_TP_Prefinals_1",
+                            "Subfolder_Name": "10 Handout 1",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "./techno/pre-finals/10h1.html",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "15 May 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
+
             ]
         }
     ]

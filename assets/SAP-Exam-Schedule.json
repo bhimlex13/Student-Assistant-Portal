@@ -1,14 +1,14 @@
 {
     "Status": "Active",
     "Exam_Semester": "Second",
-    "Exam_Period": "Midterm",
-    "Exam_Duration": ["17 April 2024", "22 April 2024"],
+    "Exam_Period": "Prefinal",
+    "Exam_Duration": ["15 May 2024", "20 May 2024"],
     "Exam_Section": [
         {
             "Section_Name": "IT401-A",
             "Section_Schedule": [
                 {
-                    "Schedule_Date": "17 April 2024",
+                    "Schedule_Date": "15 May 2024",
                     "Schedule_Day": "Wednesday",
                     "Schedule_Subjects": [
                         {
@@ -29,7 +29,7 @@
                     ]
                 },
                 {
-                    "Schedule_Date": "19 April 2024",
+                    "Schedule_Date": "17 May 2024",
                     "Schedule_Day": "Friday",
                     "Schedule_Subjects": [
                         {
@@ -50,7 +50,7 @@
                     ]
                 },
                 {
-                    "Schedule_Date": "22 April 2024",
+                    "Schedule_Date": "20 May 2024",
                     "Schedule_Day": "Monday",
                     "Schedule_Subjects": [
                         {
