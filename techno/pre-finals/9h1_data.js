@@ -302,7 +302,7 @@ var quizData = [
     },
     {
       "question": "Which factor becomes very important if the materials are perishable and the cost of transportation is very high?",
-      "answer": "Supporting industries",
+      "answer": "Supply of materials",
       "choices": [
         "Proximity to the market",
         "Supply of materials",
