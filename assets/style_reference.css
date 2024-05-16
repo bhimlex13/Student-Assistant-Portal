@@ -90,7 +90,12 @@
 	} */
 
     --Debug-ElementOutline: none;
-	/* --BG-Img-Wallpaper-Main: url(../../Assets/Background/BG_SplashScreen.jpg);
+	--BG-Img-Wallpaper-Main: url(../images/clap.gif);
+	--BG-Img-Wallpaper-Clock: url(../../Assets/Background/Telephone.png);
+    --BG-Img-Wallpaper-Loading: url(../../Assets/Background/BG_SplashScreen.jpg);
+	--BG-Img-Splash: url(../../Assets/Background/BG_SplashScreen.jpg);
+
+		/* --BG-Img-Wallpaper-Main: url(../../Assets/Background/BG_SplashScreen.jpg);
 	--BG-Img-Wallpaper-Clock: url(../../Assets/Background/Telephone.png);
     --BG-Img-Wallpaper-Loading: url(../../Assets/Background/BG_SplashScreen.jpg);
 	--BG-Img-Splash: url(../../Assets/Background/BG_SplashScreen.jpg); */
