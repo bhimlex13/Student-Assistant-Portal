@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="Page_Title">
+    Hi this is SAP and we're loading your quiz right now
+  </title>
+  <link rel="icon" type="image/x-icon" href="../../images/fav2.png">
+  <!-- Add Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style_reference.css">
+  <link rel="stylesheet" href="assets/style_universal.css">
+</head>
+
+<body>
+
+  <!-- Responsive navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark Header">
+    <button id="toggle-btn" class="navbar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="../../index.html">Home</a>
+    <button class="btn btn-shuffle Button_Control" style="box-shadow: unset;
+    " onclick="shuffleAndCreateQuiz()">RESET ↺</button>
+  </nav>
+
+  <div class="Quiz_Checker" id="Quiz_Checker">
+    <div class="Quiz_Checker_Correct" id="Quiz_Checker_Correct">
+      <h1 class="Quiz_Checker_Correct_Text">
+        CORRECT!
+      </h1>
+    </div>
+    <div class="Quiz_Checker_Wrong" id="Quiz_Checker_Wrong">
+      <h1 class="Quiz_Checker_Wrong_Text">
+        WRONG!
+      </h1>
+    </div>
+  </div>
+
+  <div class="Quiz_Starter" id="Quiz_Starter">
+    <div class="Quiz_Starter_Loader" id="Quiz_Starter_Loader">
+      <div class="General_Loading_Compact">
+          <div class="General_Loading_Compact_Bar"></div>
+          <div class="General_Loading_Compact_Bar"></div>
+          <div class="General_Loading_Compact_Bar"></div>
+          <div class="General_Loading_Compact_Bar"></div>
+      </div>
+      <h3 class="Quiz_Starter_Loader_Text">
+        Loading the quiz...
+      </h3>
+    </div>
+    <div class="Quiz_Starter_Content" id="Quiz_Starter_Content">
+      <h1 class="Quiz_Starter_Title" id="Quiz_Starter_Title">
+        Name of quiz
+      </h1>
+      <h3 class="Quiz_Starter_Subject" id="Quiz_Starter_Subject">
+        Name of subject
+      </h3>
+      <div class="Quiz_Starter_Control">
+        <button class="Quiz_Starter_Control_Primary" onclick="Screens_Close('Quiz_Starter', 'Left')">Start</button>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="container Quiz">
+    <div class="Quiz_Header">
+      <h1 class="title Quiz_Header_Title" id="Quiz_Header_Title">
+        Name of quiz and subject here
+      </h1>
+      <h3 id="question-number" class="Quiz_Header_QuestionNumber"></h3>
+      <div class="progress Quiz_Header_Progress">
+        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
+          aria-valuemax="100"></div>
+      </div>
+    </div>
+    
+    <div class="Quiz_Form" id="Quiz_Form">
+      <form id="quiz-form" onsubmit="event.preventDefault(); submitAnswer();">
+        <!-- Question will be inserted here by JavaScript -->
+      </form>
+      <div class="btn-group d-flex Quiz_Form_Controls">
+        <button class="btn btn-group btn-primary" onclick="submitAnswer()">Submit</button>
+        <button class="btn btn-group btn-primary mt-4 btn-next" onclick="nextQuestion()">Next</button>
+      </div>
+    </div>
+    
+    <div id="result" class="mt-4 Quiz_Answer"></div>
+  </div>
+
+  <div class="Quiz_Result" State="Inactive" id="Quiz_Result">
+    <div class="Quiz_Result_Content">
+        <h1 class="Quiz_Result_Title">
+          Quiz complete!
+        </h1>
+        <h4 class="Quiz_Result_Paragraph">
+          Your final score is: 
+        </h4>
+        <div class="Quiz_Result_Score">
+          <h2 id="Quiz_Result_Score">
+            72 / 72
+          </h2>
+        </div>
+        <img class="gif-img" src="" alt="Atleast tapos na" draggable="false" id="Quiz_Result_FinisherImage" style="opacity: 0%; display: none;" onerror="this.style.opacity = '0%'" onload="this.style.opacity = '100%'"/>
+    </div>
+    <div class="Quiz_Result_Action">
+      <button class="Quiz_Result_Action_Primary" onclick="shuffleAndCreateQuiz()">Retry</button>
+      <button class="Quiz_Result_Action_Secondary">
+        <a href="index.html">
+          Go back to home
+        </a>
+      </button>
+    </div>
+  </div>
+
+  <div id="final-result" class="mt-4 d-none">
+    <div id="perfect-score-gif" class="tenor-gif-embed" data-postid="18188383721515110290" data-share-method="host" data-aspect-ratio="1" data-width="100%">
+      <img class="gif-img" src="../../images/perfect-sponge.gif" alt="">
+      <img class="gif-img" src="../../images/clap.gif" alt="">
+    
+    </div>
+    <div id="not-perfect-score-gif" class="tenor-gif-embed d-none" data-postid="YOUR_NOT_PERFECT_SCORE_GIF_ID" data-share-method="host" data-aspect-ratio="1" data-width="100%">
+      <img class="gif-img" src="../../images/that's-still-not-perfect-ignace-aleya.gif" alt="">
+    </div>
+    </div>
+    <div id="final-result-message"></div>
+  </div>
+
+  <div class="slide-right slide-left Quiz_Sidebar" id="sidebar">
+    <h3 class="Quiz_Sidebar_Title">Questions</h3>
+    <ul class="Quiz_Sidebar_List" id="question-list"></ul>
+  </div>
+  <button class="toggle-btn" onclick="toggleSidebar()" id="t-btn">☰</button>
+
+
+  <!-- Add Bootstrap JS and its dependencies -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- <script src="1h1.js"></script> -->
+  <script src="assets/script_new.js"></script>
+  <script src="assets/style.js"></script>
+  <script src="assets/url_fetcher.js"></script>
+
+ 
+</body>
+
+</html>

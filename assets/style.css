@@ -499,6 +499,15 @@ img {
   background-color: var(--SAP-Purple-Level-3L);
 }
 
+.Header{
+  position: fixed;
+  top: 0;
+}
+
+body{
+  padding-top: 50px;
+}
+
 .Quiz_Answer{
   /* background-color: var(--SAP-Purple-Level-3L);
   border-top-left-radius: 25px;
@@ -596,7 +605,7 @@ img {
   font-size: 0.5em;
 }
 
-.Quiz_Result{
+.Quiz_Result, .Quiz_Starter{
   position: fixed;
   top: 50px;
   background-color: white;
@@ -611,6 +620,8 @@ img {
   padding-right: var(--SAP-Margin-Right);
   display: grid;
   grid-template-rows: 1fr auto;
+  z-index: 70;
+  overflow: hidden;
 }
 
 .Quiz_Result[State="Inactive"]{
@@ -685,4 +696,96 @@ img {
 .Quiz_Result_Action_Secondary > a {
   text-decoration: none;
   color: black;
+}
+
+.Quiz_Starter{
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  padding-left: var(--SAP-Margin-Left);
+  padding-right: var(--SAP-Margin-Right);
+  width: auto;
+  width: 100%;
+}
+
+.Quiz_Starter[State="Inactive"]{
+  display: none;
+}
+
+.Quiz_Starter[State="Active"]{
+  display: grid;
+}
+
+
+.Quiz_Starter_Loader{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 100%;
+}
+
+.Quiz_Starter_Loader[State="Inactive"]{
+  opacity: 0%;
+}
+
+.Quiz_Starter_Loader_Text{
+  font-family: var(--Text-Font-Primary);
+}
+
+.Quiz_Starter_Content{
+  width: 500px;
+  height: calc(100% - 20px);
+  /* background-color: red; */
+  align-self: center;
+  justify-self: center;
+  padding: 20px;
+  margin: 10px;
+  border: solid var(--SAP-Purple-Level-3L) 1px;
+  border-radius: 25px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  opacity: 0%;
+  transform: translateY(20px);
+}
+
+@media only screen and (max-width: 700px){
+  .Quiz_Starter_Content {
+    width: 100%;
+  }
+}
+
+.Quiz_Starter_Content[State="Active"]{
+  opacity: 100%;
+  transform: translateY(0px);
+}
+
+.Quiz_Starter_Title{
+  font-family: var(--Text-Font-Primary);
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.Quiz_Starter_Subject{
+  font-family: var(--Text-Font-Secondary);
+  font-size: 20px;
+}
+
+.Quiz_Starter_Control{
+  width: 100%;
+  height: 50px;
+  font-family: var(--Text-Font-Primary);
+}
+
+.Quiz_Starter_Control_Primary{
+  background-color: var(--SAP-Purple-Base);
+  border: solid var(--SAP-Purple-Base) 1px;
+  border-radius: 15px;
+  box-shadow: unset;
+  color: white;
+  width: 100%;
+  height: 50px;
 }

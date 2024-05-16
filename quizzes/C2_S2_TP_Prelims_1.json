@@ -1,0 +1,514 @@
+{
+  "quizInfo": {
+    "Subject": "Technopreneurship",
+    "Term": "Prelims",
+    "Title": "Module 1",
+    "LastModified": "17 May 2024",
+    "Authors": [
+      ""
+    ],
+    "References": [
+      "Any external links/handouts should be referenced here"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "The word “entrepreneur“ came from the French word _________, which means “to under take.“",
+      "answer": "Entreprende",
+      "choices": [
+        "Entreprende",
+        "Entrepôt",
+        "Entrée",
+        "Enterprise"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is seeking new sources for businesses and production opportunities, followed by setting up resources (raw materials, workforce, land, and capital) and managing a profitable business enterprise.",
+      "answer": "Basic definition of entrepreneurship",
+      "choices": [
+        "Basic definition of entrepreneurship",
+        "Modern definition of entrepreneurship",
+        "High definition of entrepreneurship",
+        "Industrial Age definition of entrepreneurship"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This emphasizes changing the world by producing new or unorthodox solutions to complex issues, such as enacting social change or developing products that upturn the way we live our daily lives.",
+      "answer": "Modern definition of entrepreneurship",
+      "choices": [
+        "Modern definition of entrepreneurship",
+        "Basic definition of entrepreneurship",
+        "High definition of entrepreneurship",
+        "Industrial Age definition of entrepreneurship"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are those who create new businesses, introduce innovation — new concepts, goods, and services — to the marketplace, and take on the associated risks and difficulties to make a profit.",
+      "answer": "Entrepreneurs",
+      "choices": [
+        "Entrepreneurs",
+        "Technopreneurs",
+        "Innovators",
+        "Inventors"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "One of the world’s most powerful influencerstoday is entrepreneurs.",
+      "answer": "true ",
+      "choices": [
+        "true ",
+        "false "
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "According to this person, the definition of entrepreneurship can be classified into basic and modern",
+      "answer": "Ferreira (2022)",
+      "choices": [
+        "Ferreira (2022)",
+        "Smith (2019)",
+        "Johnson (2020)",
+        "Brown (2021)"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It means making a new market offering using a new method or technology, creating a new market, or creating a new type of organization to produce or improve a product or service.",
+      "answer": "Innovation",
+      "choices": [
+        "Innovation",
+        "Running a business",
+        "Taking a risk",
+        "Market pioneering"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A company pools resources to supply quality products or services that satisfy customers’ needs and wants.",
+      "answer": "Running a business",
+      "choices": [
+        "Running a business",
+        "Innovation",
+        "Taking a risk",
+        "Market pioneering"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It refers to the fact that it is impossible to predict how an entrepreneurial endeavor will turn out.",
+      "answer": "Taking a risk",
+      "choices": [
+        "Taking a risk",
+        "Running a business",
+        "Innovation",
+        "Market pioneering"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "__________, from the combined words technology and entrepreneurship, is a new kind of technology-related business that relies on different individuals' ideas.",
+      "answer": "Technopreneurship",
+      "choices": [
+        "Technopreneurship",
+        "Entrepreneurs",
+        "Innovators",
+        "Inventors"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It was in the year ____ when the term technopreneurship was first used.",
+      "answer": "1987",
+      "choices": [
+        "1987",
+        "1984",
+        "1985",
+        "1988"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Made commuting easy and can accommodate documents, parcels, and food deliveries. It significantly alleviated the problem of long commutes.",
+      "answer": "Grab",
+      "choices": [
+        "Grab",
+        "Facebook",
+        "Shopee",
+        "Gcash"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Connects people in most parts of the world, is a venue for online retailing, and has become an important part of media.",
+      "answer": "Facebook",
+      "choices": [
+        "Facebook",
+        "Grab",
+        "Shopee",
+        "Netflix"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Watching films has become accessible and has documentaries that can be used as a tool for research.",
+      "answer": "Netflix",
+      "choices": [
+        "Netflix",
+        "Facebook",
+        "Grab",
+        "Shopee"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Provides airline ticketing, hotel booking accommodations, and recently expanded services such as car rentals and restaurant vouchers.",
+      "answer": "Traveloka",
+      "choices": [
+        "Traveloka",
+        "Facebook",
+        "Shopee",
+        "Gcash"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "E-commerce platform which started in Singapore. In 2015, it expanded its operations in Vietnam, Malaysia, the Philippines, Taiwan, and Indonesia.",
+      "answer": "Shopee",
+      "choices": [
+        "Shopee",
+        "Netflix",
+        "Facebook",
+        "Grab"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A way to send money to individual accounts that is safe and secure and eliminates the fear of waiting in long lines at payment centers.",
+      "answer": "Gcash",
+      "choices": [
+        "Gcash",
+        "Traveloka",
+        "Facebook",
+        "Shopee"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A ______ is a tech-savvy person who uses technology in doing business. They continuously seek improvement and never get tired of innovating new products or concepts that will disrupt the established or conventional working system.\r\n",
+      "answer": "technopreneur",
+      "choices": [
+        "technopreneur",
+        "disruptor",
+        "innovator",
+        "techie"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Technopreneurship is always a one-person show.",
+      "answer":  "false",
+      "choices": [
+        "true",
+        "false"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Both technopreneurs and entrepreneurs share a strong passion for their work.",
+      "answer": "true ",
+      "choices": [
+        "true ",
+        "false "
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "He worked for different tech companies and later excelled. He developed the first 10-Mbit Ethernet CMOS with silicone coupler data-link control and transceiver chip, the first system logic chipset for IBM’s PC-XT and the PC-AT, and the local bus concept and the first Windows Graphics accelerator chip for PCs",
+      "answer": "Diosdado Banatao",
+      "choices": [
+        "Diosdado Banatao",
+        "Orlando Vea",
+        "Elon Musk",
+        "Bill Gates"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person is the co-founder of Smart Communications, Inc., CEO of PLDT Communications & Energy Ventures, lnc„ CEO/Founder of Voyager Innovations Philippines, and Founder and CEO of Paymaya.",
+      "answer": "Orlando Vea",
+      "choices": [
+        "Orlando Vea",
+        "Leandro Leviste",
+        "Jeff Bezos",
+        "Elon Musk"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person started the 2 MWh Solar-Battery Micro-Grid project in Paulan, Oriental Mindoro, the first solar microgrid of that scale in Asia.",
+      "answer": "Leandro Leviste",
+      "choices": [
+        "Leandro Leviste",
+        "Rachel De Villa",
+        "Diosdado Banatao",
+        "Elon Musk"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person co-founded Cropital, an agritech startup that aims to provide farmers with sustainable and scalable financing through crowdfunding.",
+      "answer": "Rachel De Villa",
+      "choices": [
+        "Rachel De Villa",
+        "Jeff Bezos",
+        "Mark Zuckerberg",
+        "Leandro Leviste"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person is the executive director of IdeaSpace, a non-profit accelerator program for earlystage tech start-ups in the Philippines.",
+      "answer": "Diane Eustaquio",
+      "choices": [
+        "Diane Eustaquio",
+        "Jack Ma",
+        "Bill Gates",
+        "Elon Musk"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person is the CEO of Amazon, a huge online ecommerce platform. Today, it is one of the largest in the United States, and millions of people worldwide shop there every day.",
+      "answer": "Jeff Bezos",
+      "choices": [
+        "Jeff Bezos",
+        "Elon Musk",
+        "Rachel De Villa",
+        "Leandro Leviste"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person came up with the fully electric sports cars known as Tesla Motors and also is responsible for the popular online payment network PayPal. He put $80 million into SpaceX and $70 million into Tesla.",
+      "answer": "Elon Musk",
+      "choices": [
+        "Elon Musk",
+        "Mark Zuckerberg",
+        "Jeff Bezos",
+        "Diane Eustaquio"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person developed the most popular social networking application named, Facebook. Initially, he created the platform for university fellows' internal communication, which has recently become the most robust and popular social media network worldwide.",
+      "answer": "Mark Zuckerberg",
+      "choices": [
+        "Mark Zuckerberg",
+        "Diane Eustaquio",
+        "Jack Ma",
+        "Orlando Vea"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "________ and ________ co-founded and launched Google in 1998. Google got a real success in 2004 when it became the most searched engine utilized 200 million times a day.",
+      "answer": "Larry Page and Sergey Brin",
+      "choices": [
+        "Larry Page and Sergey Brin",
+        "Orlando Vea And Diane Eustaquio",
+        "Rachel De Villa and Leandro Leviste",
+        "Elon Musk and Evan Spiegel"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person is known as one of Microsoft's founders. Together with Paul Allen, he created and sold it to the first personal computer company, and he became very successful.",
+      "answer": "Bill Gates",
+      "choices": [
+        "Bill Gates",
+        "Jack Ma",
+        "Mark Zuckerberg",
+        "Rachel De Villa"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person co-founded Alibaba Group, a global technology conglomerate, and was its executive chairman. Additionally, he cofounded the Chinese private equity firm Yunfeng Capital.",
+      "answer": "Jack Ma",
+      "choices": [
+        "Jack Ma",
+        "Diosdado Banatao",
+        "Orlando Vea",
+        "Leandro Leviste"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person co-founded Airbnb, a room-sharing platform with 6 million listings in 100,000 cities and towns worldwide. Since its inception in 2008, the publicly traded company with headquarters in San Francisco has hosted more than a billion guests and reported revenue of $6 billion in 2021.",
+      "answer": "Brian Chesky",
+      "choices": [
+        "Brian Chesky",
+        "Evan Spiegel",
+        "Karlie Kloss",
+        "Zhang Yiming"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person is an American businessman, cofounder, and CEO of Snap Inc. Spiegel was the youngest billionaire in the world in 2015.",
+      "answer": "Evan Spiegel",
+      "choices": [
+        "Evan Spiegel",
+        "Karlie Kloss",
+        "Zhang Yiming",
+        "Bill Gates"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person is an entrepreneur, philanthropist, and supermodel. She also started Kode With Klossy, a program to get girls interested in coding, after being encouraged to go to a coding boot camp by friends who were entrepreneurs.",
+      "answer": "Karlie Kloss",
+      "choices": [
+        "Karlie Kloss",
+        "Evan Spiegel",
+        "Jack Ma",
+        "Mark Zuckerberg"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person established the Hong Kong-based K-12 coding school First Code Academy, which taught children ages four (4) and up how to code and create mobile applications.",
+      "answer": "Michelle Sun",
+      "choices": [
+        "Michelle Sun",
+        "Karlie Kloss",
+        "Evan Spiegel",
+        "Mark Zuckerberg"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person is a Chinese internet entrepreneur who created the news aggregator Toutiao and the video-sharing platform TikTok, formerly known as Musical.ly, in addition to founding ByteDance in 2012.",
+      "answer": "Zhang Yiming",
+      "choices": [
+        "Zhang Yiming",
+        "Anthony Tan",
+        "Michelle Sun",
+        "Jack Ma"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This person is the CEO and co-founder of Grab, the leading mobile technology company in Southeast Asia that aims to liberate transportation.",
+      "answer": "Anthony Tan",
+      "choices": [
+        "Anthony Tan",
+        "Zhang Yiming",
+        "Evan Spiegel",
+        "Jeff Bezos"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "As the adage says, ___________. This quote is accurate for technopreneurs who devise and think of ideas on how to live easily.",
+      "answer": "necessity is the mother of all inventions",
+      "choices": [
+        "necessity is the mother of all inventions",
+        "Time is money",
+        "Better late than never",
+        "necessity is the mother of all business"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "________ create jobs and build healthy competition among other industries. Also, this type of enterprise has the potential to attract international investors.",
+      "answer": "Technopreneurial enterprises",
+      "choices": [
+        "Technopreneurial enterprises",
+        "Startups",
+        "Entrepreneurial ventures",
+        "Small businesses"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "laws protecting such businesses as or ____ the Magna Carta for Micro, Small, and Medium Enterprises (MSMEs),",
+      "answer": "RA 9501",
+      "choices": [
+        "RA 9501",
+        "RA 10644",
+        "RA 10640",
+        "RA 9502"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "_____ or the Go Negosyo Act, and RA 8289 or better known as the Magna Carta for Small and Medium Enterprises.",
+      "answer": "RA 10644",
+      "choices": [
+        "RA 10644",
+        "RA 9501",
+        "RA 10640",
+        "RA 9502"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The is an act to promote, develop and assist small and mediumscale enterprises through the creation of a small and medium enterprise development (SMED) council and the rationalization of government assistance programs and agencies concerned with the development of small and medium enterprises, and for other purposes.",
+      "answer": "Magna Carta for Small and Medium Enterprises",
+      "choices": [
+        "Magna Carta for Small and Medium Enterprises",
+        "Entrepreneurship Act",
+        "Go Negosyo Act",
+        "SME Development Act"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    }
+  ]
+}

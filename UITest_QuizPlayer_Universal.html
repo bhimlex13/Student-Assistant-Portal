@@ -3,8 +3,8 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>
-    Information Management - Database Systems (First Module)
+  <title id="Page_Title">
+    Hi this is SAP and we're loading your quiz right now
   </title>
   <link rel="icon" type="image/x-icon" href="../../images/fav2.png">
   <!-- Add Bootstrap CSS -->
@@ -38,12 +38,37 @@
       </h1>
     </div>
   </div>
+
+  <div class="Quiz_Starter" id="Quiz_Starter">
+    <div class="Quiz_Starter_Loader" id="Quiz_Starter_Loader">
+      <div class="General_Loading_Compact">
+          <div class="General_Loading_Compact_Bar"></div>
+          <div class="General_Loading_Compact_Bar"></div>
+          <div class="General_Loading_Compact_Bar"></div>
+          <div class="General_Loading_Compact_Bar"></div>
+      </div>
+      <h3 class="Quiz_Starter_Loader_Text">
+        Loading the quiz...
+      </h3>
+    </div>
+    <div class="Quiz_Starter_Content" id="Quiz_Starter_Content">
+      <h1 class="Quiz_Starter_Title" id="Quiz_Starter_Title">
+        Name of quiz
+      </h1>
+      <h3 class="Quiz_Starter_Subject" id="Quiz_Starter_Subject">
+        Name of subject
+      </h3>
+      <div class="Quiz_Starter_Control">
+        <button class="Quiz_Starter_Control_Primary" onclick="Screens_Close('Quiz_Starter', 'Left')">Start</button>
+      </div>
+    </div>
+  </div>
   
 
   <div class="container Quiz">
     <div class="Quiz_Header">
-      <h1 class="title Quiz_Header_Title">
-        Information Management - Database Systems (First Module)
+      <h1 class="title Quiz_Header_Title" id="Quiz_Header_Title">
+        Name of quiz and subject here
       </h1>
       <h3 id="question-number" class="Quiz_Header_QuestionNumber"></h3>
       <div class="progress Quiz_Header_Progress">
@@ -74,11 +99,11 @@
           Your final score is: 
         </h4>
         <div class="Quiz_Result_Score">
-          <h2>
+          <h2 id="Quiz_Result_Score">
             72 / 72
           </h2>
         </div>
-        <!-- <img class="gif-img" src="images/YEYYYY.gif" alt="" draggable="false"/> -->
+        <img class="gif-img" src="" alt="Atleast tapos na" draggable="false" id="Quiz_Result_FinisherImage" style="opacity: 0%; display: none;" onerror="this.style.opacity = '0%'" onload="this.style.opacity = '100%'"/>
     </div>
     <div class="Quiz_Result_Action">
       <button class="Quiz_Result_Action_Primary" onclick="shuffleAndCreateQuiz()">Retry</button>
@@ -114,9 +139,10 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="1h1.js"></script>
-  <script src="assets/script.js"></script>
+  <!-- <script src="1h1.js"></script> -->
+  <script src="assets/script_new.js"></script>
   <script src="assets/style.js"></script>
+  <script src="assets/url_fetcher.js"></script>
 
  
 </body>

@@ -1,0 +1,20 @@
+CHECKLIST
+Adding a new quiz
+1. Make a copy of TEMPLATE.json from the quizzes folder.
+
+2. Replace information inside "quizInfo".
+
+3. Paste the data of the quiz inside "quizData".
+
+4. Save and rename the file as follows "C2_S2_" + Subject abbreviation + "_" + Grading period + "_" + Number of the quiz in that grading period + ".json".
+- Example: If the quiz is the 3rd quiz for the Finals period of subject Integrative Programming, the file name would be "C2_S2_IP_Finals_3.json".
+
+5. Open "SAP-Subject-Manifest.json" and add an entry of your quiz in the appropriate place.
+
+6. Set "Subfolder_ID" to the file name of your quiz. (This does nothing but it's good to keep track of the files.
+- Example: From the previous example, the Subfolder_ID would be "C2_S2_IP_Finals_3".
+
+7. Set "Subfolder_Link" to "quizPlayer.html?Quiz=" + file name of your quiz minus .json. Make sure it is the same as the file name of your actual quiz file.
+- Example: From the previous example, the Subfolder_Link would be "quizPlayer.html?Quiz=C2_S2_IP_Finals_3".
+
+8. Refresh SAP and check if the quiz loads properly. If not, check if everything is done correctly. If it still doesn't work, please contact Elmer dahil pakana nya to hahaha

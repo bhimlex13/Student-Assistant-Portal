@@ -17,7 +17,7 @@
                             "Subfolder_ID": "C2_S2_IM_Prelims_1",
                             "Subfolder_Name": "Database Systems (First Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./info_man/prelims/1h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IM_Prelims_1",
                             "Subfolder_Author": [
                                 ""
                             ],
@@ -25,10 +25,10 @@
                             "Subfolder_Status": "Active"
                         },
                         {
-                            "Subfolder_ID": "C2_S2_IM_Prelims_1",
+                            "Subfolder_ID": "C2_S2_IM_Prelims_2",
                             "Subfolder_Name": "Database Models (Second Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./info_man/prelims/2h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IM_Prelims_2",
                             "Subfolder_Author": [
                                 ""
                             ],
@@ -40,16 +40,16 @@
 
                 {   
                     "Module_ID": "C2_S2_IM_Prefinals",
-                    "Module_Name": "Pre-finals",
+                    "Module_Name": "Prefinals",
                     "Module_Thumbnail": "./images/Thumbnail_Prefinals_2.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "07 May 2024",
                     "Module_Subfolders": [
                         {
-                            "Subfolder_ID": "C2_S2_IM_Pre-finals_1",
+                            "Subfolder_ID": "C2_S2_IM_Prefinals_1",
                             "Subfolder_Name": "Introduction to SQL - Part 1 (First Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./info_man/pre-finals/6h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IM_Prefinals_1",
                             "Subfolder_Author": [
                                 ""
                             ],
@@ -78,7 +78,7 @@
                             "Subfolder_ID": "C2_S2_IP_Prelims_1",
                             "Subfolder_Name": ".NET Framwork (First Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./inte_prog/prelims/1h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IP_Prelims_1",
                             "Subfolder_Author": [
                                 "Elmer Felisilda"
                             ],
@@ -89,7 +89,7 @@
                             "Subfolder_ID": "C2_S2_IP_Prelims_2",
                             "Subfolder_Name": "Data Types (Second Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./inte_prog/prelims/2h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IP_Prelims_2",
                             "Subfolder_Author": [
                                 "Elmer Felisilda"
                             ],
@@ -100,7 +100,7 @@
                             "Subfolder_ID": "C2_S2_IP_Prelims_3",
                             "Subfolder_Name": "Operators and Expressions (Third Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./inte_prog/prelims/3h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IP_Prelims_3",
                             "Subfolder_Author": [
                                 "Elmer Felisilda"
                             ],
@@ -111,10 +111,10 @@
                 },
 
                         {   
-                            "Module_ID": "C2_S2_IP_Prelims",
+                            "Module_ID": "C2_S2_IP_Midterms",
                             "Module_Name": "Midterms",
                             "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
-                            "Module_Status": "Active",
+                            "Module_Status": "Inactive",
                             "Module_LastModified": "13 March 2024",
                             "Module_Subfolders": [
                                 {
@@ -126,7 +126,7 @@
                                         "Elmer Felisilda"
                                     ],
                                     "Subfolder_LastModified": "13 March 2024",
-                                    "Subfolder_Status": "Active"
+                                    "Subfolder_Status": "Inactive"
                                 }
                             ]
                         }
@@ -150,7 +150,7 @@
                             "Subfolder_ID": "C2_S2_NT_Prelims_1",
                             "Subfolder_Name": "Network Fundamentals (First Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./net_tech_1/prelims/1h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_NT_Prelims_1",
                             "Subfolder_Author": [
                                 "Kyll Madriaga"
                             ],
@@ -158,10 +158,10 @@
                             "Subfolder_Status": "Active"
                         },
                         {
-                            "Subfolder_ID": "C2_S2_NT_Prelims_1",
+                            "Subfolder_ID": "C2_S2_NT_Prelims_2",
                             "Subfolder_Name": "Network Reference Models (Second Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./net_tech_1/prelims/2h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_NT_Prelims_2",
                             "Subfolder_Author": [
                                 "Alexander Oro"
                             ],
@@ -175,7 +175,7 @@
                     "Module_ID": "C2_S2_NT_Midterms",
                     "Module_Name": "Midterms",
                     "Module_Thumbnail": "./images/Thumbnail_Midterms_2.png",
-                    "Module_Status": "Active",
+                    "Module_Status": "Inactive",
                     "Module_LastModified": "13 March 2024",
                     "Module_Subfolders": [
                         {
@@ -210,7 +210,7 @@
                             "Subfolder_ID": "C2_S2_PPC_Prelims_1",
                             "Subfolder_Name": "First And Second Module",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./pop_cul/prelims/1h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_PPC_Prelims_1",
                             "Subfolder_Author": [
                                 "Alexander Oro"
                             ],
@@ -266,7 +266,7 @@
                             "Subfolder_ID": "C2_S2_SIA_Prelims_1",
                             "Subfolder_Name": "Introduction to SAP S/4HANA (First Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./sia/prelims/1h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_Prelims_1",
                             "Subfolder_Author": [
                                 "Elmer Felisilda"
                             ],
@@ -277,7 +277,7 @@
                             "Subfolder_ID": "C2_S2_SIA_Prelims_2",
                             "Subfolder_Name": "SAP S/4HANA Case Study (Second Module)",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./sia/prelims/2h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_Prelims_2",
                             "Subfolder_Author": [
                                 "Elmer Felisilda"
                             ],
@@ -305,7 +305,7 @@
                             "Subfolder_ID": "C2_S2_TP_Prelims_1",
                             "Subfolder_Name": "01 Handout 1",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./techno/prelims/1h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_TP_Prelims_1",
                             "Subfolder_Author": [
                                 "Alexander Oro"
                             ],
@@ -316,7 +316,7 @@
                             "Subfolder_ID": "C2_S2_TP_Prelims_2",
                             "Subfolder_Name": "02 Handout 1",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./techno/prelims/2h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_TP_Prelims_2",
                             "Subfolder_Author": [
                                 "Alexander Oro"
                             ],
@@ -327,7 +327,7 @@
                             "Subfolder_ID": "C2_S2_TP_Prelims_3a",
                             "Subfolder_Name": "03 Handout 1",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./techno/prelims/3h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_TP_Prelims_3a",
                             "Subfolder_Author": [
                                 "Alexander Oro"
                             ],
@@ -338,8 +338,8 @@
                 },
 
                 {   
-                    "Module_ID": "C2_S2_TP_Prelims",
-                    "Module_Name": "Pre-Finals",
+                    "Module_ID": "C2_S2_TP_Prefinals",
+                    "Module_Name": "Prefinals",
                     "Module_Thumbnail": "./images/Thumbnail_Prefinals_2.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "15 May 2024",
@@ -348,7 +348,7 @@
                             "Subfolder_ID": "C2_S2_TP_Prefinals_1",
                             "Subfolder_Name": "09 Handout 1",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./techno/pre-finals/9h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_TP_Prefinals_1",
                             "Subfolder_Author": [
                                 "Alexander Oro"
                             ],
@@ -356,10 +356,10 @@
                             "Subfolder_Status": "Active"
                         },
                         {
-                            "Subfolder_ID": "C2_S2_TP_Prefinals_1",
+                            "Subfolder_ID": "C2_S2_TP_Prefinals_2",
                             "Subfolder_Name": "10 Handout 1",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./techno/pre-finals/10h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_TP_Prefinals_2",
                             "Subfolder_Author": [
                                 "Alexander Oro"
                             ],

@@ -1,0 +1,857 @@
+{
+  "quizInfo": {
+    "Subject": "Information Management",
+    "Term": "Prelims",
+    "Title": "Database Systems (First Module)",
+    "LastModified": "17 May 2024",
+    "Authors": [
+      ""
+    ],
+    "References": [
+      "01_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "They are raw facts, that have not yet been processed to reveal their meaning to the end user.",
+      "answer": "Data",
+      "choices": [
+        "Data",
+        "Information",
+        "Database",
+        "XML"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the result of processing raw data to reveal its meaning.",
+      "answer": "Information",
+      "choices": [
+        "Data",
+        "Information",
+        "Database",
+        "XML"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It consists of transformed data and facilities decision making.",
+      "answer": "Information",
+      "choices": [
+        "Data",
+        "Information",
+        "Database",
+        "XML"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a shared, integrated computer structure that houses a collection of End-user data and Metadata.",
+      "answer": "Database",
+      "choices": [
+        "Database",
+        "Enterprise Database",
+        "Single-User Database",
+        "Cloud Database"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a collection of programs that manages the dabase structure and controls access to the data stored in the database.",
+      "answer": "Database Management System",
+      "choices": [
+        "Database Management System",
+        "Database",
+        "Information",
+        "Databased Design"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It serves as the intermediary between the user and the database.",
+      "answer": "Database Management System",
+      "choices": [
+        "Database Management System",
+        "Database",
+        "Databased Design",
+        "Database Structure"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The database structure itself is stored as a collection of files, and the only way to access the data in those files is through the _____.",
+      "answer": "Database Management System",
+      "choices": [
+        "Database Management System",
+        "Database",
+        "Data Anomalies",
+        "Data Anomalies"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What advantage of DBMS is in the statement?<BR>The DBMS serves as the intermediary between the user and the database.",
+      "answer": "Improved data sharing",
+      "choices": [
+        "Improved data sharing",
+        "Improved data security",
+        "Improved data access",
+        "Improved decision making"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What advantage of DBMS is in the statement?<BR>The database structure itself is stored as a collection of files, and the only way to access the data in those files is through the DBMS.",
+      "answer": "Improved data sharing",
+      "choices": [
+        "Improved data sharing",
+        "Minimized data inconsistency",
+        "Improved data access",
+        "Increased end-user productivity"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What advantage of DBMS is in the statement?<BR>The more users access the data, the greater risks of data breaches.",
+      "answer": "Improved data security",
+      "choices": [
+        "Improved data sharing",
+        "Improved data security",
+        "Improved data access",
+        "Improved decision making"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What advantage of DBMS is in the statement?<BR>Corporations invest considerable amounts of time, effort, and money to ensure that corporate data is used properly.",
+      "answer": "Improved data security",
+      "choices": [
+        "Improved data sharing",
+        "Improved data security",
+        "Improved data access",
+        "Increased end-user productivity"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What advantage of DBMS is in the statement?<BR>A DMBS provides a framework for better enforcement of data privacy.",
+      "answer": "Improved data security",
+      "choices": [
+        "Improved data sharing",
+        "Improved data security",
+        "Improved data access",
+        "Improved decision making"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What advantage of DBMS is in the statement?<BR>Wider Access to well-managed data promotes a view of the organization's operations and a clearer view of the big picture.",
+      "answer": "Better data integration",
+      "choices": [
+        "Better data integration",
+        "Improved data access",
+        "Improved decision making",
+        "Increased end-user productivity"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What advantage of DBMS is in the statement?<BR>It becomes much easier to see how actions in one segment of the company affect other segments.",
+      "answer": "Better data integration",
+      "choices": [
+        "Better data integration",
+        "Minimized data inconsistency",
+        "Improved decision making",
+        "Increased end-user productivity"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What advantage of DBMS is in the statement?<BR>Data inconsistency exist when different versions of the same data appear in the different places.",
+      "answer": "Minimized data inconsistency",
+      "choices": [
+        "Minimized data inconsistency",
+        "Better data integration",
+        "Improved decision making",
+        "Improved data sharing"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What advantage of DBMS is in the statement?<BR>The DMBS makes it possible to produce quick answers to ad hoc queries.",
+      "answer": "Improved data access",
+      "choices": [
+        "Improved data access",
+        "Minimized data inconsistency",
+        "Improved data sharing",
+        "Improved data security"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What advantage of DBMS is in the statement?<BR>From a database perspective, a query is a specific request issued to the DBMS for data manipulation -- for example, to read or update the data.",
+      "answer": "Improved data access",
+      "choices": [
+        "Improved data access",
+        "Minimized data inconsistency",
+        "Better data integration",
+        "Improved data security"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What advantage of DBMS is in the statement?<BR>Better-managed data and improved data access make it possible to generate better-quality information, on which better decisions are based.",
+      "answer": "Improved decision making",
+      "choices": [
+        "Improved decision making",
+        "Improved data access",
+        "Minimized data inconsistency",
+        "Better data integration"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What advantage of DBMS is in the statement?<BR>The quality of the information generated depends on the quality of the underlying data.",
+      "answer": "Improved decision making",
+      "choices": [
+        "Improved decision making",
+        "Improved data access",
+        "Minimized data inconsistency",
+        "Better data integration"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What advantage of DBMS is in the statement?<BR>The availability of data, combined with the tools that transform data into usable information, empowers end users to make quick, informed decisions that can make the difference between success and failure in the global economy.",
+      "answer": "Increased end-user productivity",
+      "choices": [
+        "Increased end-user productivity",
+        "Improved decision making",
+        "Minimized data inconsistency",
+        "Better data integration"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "DBMS can be to build only one specific type of database.",
+      "answer": "THE STATEMENT IS FALSE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The number of user determines whether the database is classified as single user or multiuser.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A type of database that supports only one user at a time.",
+      "answer": "Single-user database",
+      "choices": [
+        "Single-user database",
+        "Desktop database",
+        "General-purose database",
+        "Distributed database"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A single user database that runs on a personal computer.",
+      "answer": "Desktop database",
+      "choices": [
+        "Single-user database",
+        "Desktop database",
+        "Enterprise Database",
+        "Distributed database"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A type of database that supports multiple users at the same time.",
+      "answer": "Multiuser database",
+      "choices": [
+        "Multiuser database",
+        "Workgroup database",
+        "Enterprise Database",
+        "Distributed database"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A type of database that supports a relatively small number of users or a specific department within an organization.",
+      "answer": "Workgroup database",
+      "choices": [
+        "Multiuser database",
+        "Workgroup database",
+        "Enterprise Database",
+        "Cloud database"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A type of database that is used by the entire organization and supports many users across many departments.",
+      "answer": "Enterprise database",
+      "choices": [
+        "Centralized database",
+        "Enterprise database",
+        "Desktop database",
+        "Cloud database"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A type of database that supports data located a single site.",
+      "answer": "Centralized database",
+      "choices": [
+        "Centralized database",
+        "Enterprise database",
+        "Single-user database",
+        "General-purpose database"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A type of database that is created and maintained using storage services, such as Microsoft Azure or Amazon AWS.",
+      "answer": "Cloud database",
+      "choices": [
+        "Single-user database",
+        "Cloud database",
+        "General-purose database",
+        "Enterprise database"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A type of database that contains a wide variety of data used in multiple disciplines.",
+      "answer": "General-purpose database",
+      "choices": [
+        "General-purpose database",
+        "Multiuser database",
+        "Workgroup database",
+        "Discipline-specific database"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A type of database that supports data division across several different sites.",
+      "answer": "Distributed database",
+      "choices": [
+        "Distributed database",
+        "Centralized database",
+        "Cloud database",
+        "General-purpose database"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A type of database that contains data focused on particular subject areas.",
+      "answer": "Discipline-specific database",
+      "choices": [
+        "Discipline-specific database",
+        "Operational database",
+        "Analytical database",
+        "Centralized database"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A type of database designed primarily to support a company's day-to-day functioning.",
+      "answer": "Operational database",
+      "choices": [
+        "Operational database",
+        "Analytical database",
+        "Centralized database",
+        "Workgroup database"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A type of database focused primarily on storing historical data and business metrics used for tactical or strategic desicion making.",
+      "answer": "Analytical database",
+      "choices": [
+        "Analytical database",
+        "Operational database",
+        "Centralized database",
+        "Workgroup database"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It refers to the activities that focus on the blueprint of database structure that will be used to store and manage end-user data.",
+      "answer": "Database Design",
+      "choices": [
+        "Database Design",
+        "Data Anomalies",
+        "Database Outline",
+        "Database System"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A database that meets all user requirements always happen.",
+      "answer": "THE STATEMENT IS FALSE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Database structure must be designed carefully.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is such as crucial aspect of working with databases that most of this book is dedicated to the development of good database representation techniques.",
+      "answer": "Database Design",
+      "choices": [
+        "Database Design",
+        "Data Anomalies",
+        "Information",
+        "Data"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Database design always get the attention it deserves.",
+      "answer": "THE STATEMENT IS FALSE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Database design does not get the attention it deserves due to some changes occurring throughout the development cycle.",
+      "answer": "THE STATEMENT IS FALSE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Database design does not get the attention it deserves due to poor logical data modeling.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Database design does not get the attention it deserves due to sufficient specification.",
+      "answer": "THE STATEMENT IS FALSE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Database design does not get the attention it deserves because the design is assign to , or performed by mediocre.",
+      "answer": "THE STATEMENT IS FALSE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Database design does not get the attention it deserves due to not enough of time in the development schedule.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What should be the first step in constructing a physical database?",
+      "answer": "Transforming the logical design using the best practices.",
+      "choices": [
+        "Transforming the logical design using the best practices.",
+        "Creating the physical design directly.",
+        "Starting with the physical design.",
+        "Implementing the database without a design."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What does the transformation of a logical design into a physical database include?",
+      "answer": "Transforming entities into tables, attributes into columns, domains into data types and constraints, and relationships into primary and foreign keys.",
+      "choices": [
+        "Transforming entities into tables, attributes into columns, domains into data types and constraints, and relationships into primary and foreign keys.",
+        "Only transforming attributes into columns",
+        "Only transforming entities into tables",
+        "None of the choices."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What are domains transformed into during the construction of a physical database?",
+      "answer": "Data types and constraints",
+      "choices": [
+        "Data types and constraints",
+        "Tables",
+        "Columns",
+        "Primary and foreign keys"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "One of the best practice in transforming the logical design includes transforming relationships into primary and foreign keys.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What method improved data organization and management over the manual system?",
+      "answer": "The file system method",
+      "choices": [
+        "The file system method",
+        "The manual system",
+        "The database system method",
+        "The data processing method"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "How long did the file system method serve its purpose in data management?",
+      "answer": "Over two decades",
+      "choices": [
+        "Over one decade",
+        "Over two decades",
+        "Over three decades",
+        "Over four decades"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What are the two major purposes of critiquing the file system method?",
+      "answer": "Understanding the shortcomings of the file system to understand the development of modern databases, and recognizing that many problems aren’t unique to file systems",
+      "choices": [
+        "Understanding the advantages of the file system and recognizing unique problems to file systems",
+        "Understanding the shortcomings of the file system to understand the development of modern databases, and recognizing that many problems aren’t unique to file systems",
+        "Understanding the advantages of the file system and recognizing that many problems are unique to file systems",
+        "Understanding the shortcomings of the file system and recognizing unique problems to file systems"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What could lead to the duplication of problems in a database environment",
+      "answer": "Failure to understand problems that are not unique to file systems.",
+      "choices": [
+        "Failure to understand problems that are not unique to file systems.",
+        "Failure to understand problems that are unique to file systems",
+        "Understanding the shortcomings of the file system",
+        "Understanding the development of modern databases"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What problem associated with file systems in the statement?<BR>Even the simplest data-retrieval task requires extensive programming.",
+      "answer": "Lengthy development times",
+      "choices": [
+        "Lengthy development times",
+        "Difficulty of getting quick answers",
+        "Complex system administration",
+        "Extensive programming"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What problem associated with file systems in the statement?<BR>Programmers had to specify what must be done and how to do it with the older file systems.",
+      "answer": "Lengthy development times",
+      "choices": [
+        "Lengthy development times",
+        "Difficulty of getting quick answers",
+        "Complex system administration",
+        "Extensive programming"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What problem associated with file systems in the statement?<BR>Modern databases use a nonprocedural data manipulation language that allows the user to specify what must be done without specifying how.",
+      "answer": "Lengthy development times",
+      "choices": [
+        "Lengthy development times",
+        "Difficulty of getting quick answers",
+        "Complex system administration",
+        "Extensive programming"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What problem associated with file systems in the statement?<BR>The need to write programs to produce even the simplest reports makes ad hoc queries impossible.",
+      "answer": "Difficulty of getting quick answers",
+      "choices": [
+        "Lengthy development times",
+        "Difficulty of getting quick answers",
+        "Complex system administration",
+        "Extensive programming"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What problem associated with file systems in the statement?<BR>System becomes more difficult to manage as the number of files in the system expands.",
+      "answer": "Complex system administration",
+      "choices": [
+        "Lengthy development times",
+        "Lack of security and limited data sharing",
+        "Complex system administration",
+        "Extensive programming"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What problem associated with file systems in the statement?<BR>Even a simple file system with a few files requires creating and maintaining several file management programs.",
+      "answer": "Complex system administration",
+      "choices": [
+        "Lengthy development times",
+        "Lack of security and limited data sharing",
+        "Complex system administration",
+        "Extensive programming"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What problem associated with file systems in the statement?<BR>Partitioning data among multiple geographically dispersed users introduces a log of data security risks.",
+      "answer": "Lack of security and limited data sharing",
+      "choices": [
+        "Lengthy development times",
+        "Lack of security and limited data sharing",
+        "Complex system administration",
+        "Extensive programming"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What problem associated with file systems in the statement?<BR>Making changes to an existing file structure can be difficult in a file system environment.",
+      "answer": "Extensive programming",
+      "choices": [
+        "Lengthy development times",
+        "Lack of security and limited data sharing",
+        "Complex system administration",
+        "Extensive programming"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A data charateristic in which a change in the database schema affects a data access, thus requiring changes in all access programs.",
+      "answer": "Structural dependence",
+      "choices": [
+        "Structural dependence",
+        "Structural independence",
+        "Data dependence",
+        "Data independence"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A data characteristic in which changes in the database schema do not affect data access.",
+      "answer": "Structural independence",
+      "choices": [
+        "Structural dependence",
+        "Structural independence",
+        "Data dependence",
+        "Data independence"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A data condition in which data representation and manipulation are reliant on the physical data storage characteristics.",
+      "answer": "Data dependence",
+      "choices": [
+        "Structural dependence",
+        "Structural independence",
+        "Data dependence",
+        "Data independence"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A condition in which data access is unaffected by changes in the phyusical data storage characteristics.",
+      "answer": "Data independence",
+      "choices": [
+        "Data independence",
+        "Structural independence",
+        "Data redundancy",
+        "Data Anomalies"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It exist when the same data is stored unnecessarily at different places.",
+      "answer": "Data redundancy",
+      "choices": [
+        "Data redundancy",
+        "Data inconsistency",
+        "Data Anomalies",
+        "Poor data security"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Having multiple copies of data increases the chances for a copy of the data to be susceptible to unauthorized access.",
+      "answer": "Poor data security",
+      "choices": [
+        "Poor data security",
+        "Data inconsistency",
+        "Data integrity problems",
+        "Data-entry errors"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "More likely to occur when complex entries are made in several different files or recur frequently in one or more files.",
+      "answer": "Data-entry errors",
+      "choices": [
+        "Poor data security",
+        "Data inconsistency",
+        "Data integrity problems",
+        "Data-entry errors"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is possible to enter a nonexistent sales agent's name and phone number into the Customer file, but customer's are not likely to be impressed if the insurance agency supplies the name and phone of an agent who does not exist.",
+      "answer": "Data integrity problems",
+      "choices": [
+        "Poor data security",
+        "Data inconsistency",
+        "Data integrity problems",
+        "Data-entry errors"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A data malfunction in which inconsistent changes have been made to a database.",
+      "answer": "Data Anomalies",
+      "choices": [
+        "Data independence",
+        "Structural independence",
+        "Data redundancy",
+        "Data Anomalies"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Develop when not all of the required changes in the redundant data are made successfully.",
+      "answer": "Data Anomalies",
+      "choices": [
+        "Data independence",
+        "Structural independence",
+        "Data redundancy",
+        "Data Anomalies"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Raw facts of interest to the end user.",
+      "answer": "End-User data",
+      "choices": [
+        "End-User data",
+        "Metadata",
+        "Information",
+        "Data"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    }
+    ,
+    {
+      "question": "It is a data about data, through which the end-user data is integrated and managed.",
+      "answer": "Metadata",
+      "choices": [
+        "End-User data",
+        "Metadata",
+        "Information",
+        "Data"
+      ]
+    }
+  ]
+}
