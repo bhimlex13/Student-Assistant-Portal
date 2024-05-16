@@ -118,7 +118,7 @@
                             "Module_LastModified": "13 March 2024",
                             "Module_Subfolders": [
                                 {
-                                    "Subfolder_ID": "C2_S2_IP_Prelims_1",
+                                    "Subfolder_ID": "C2_S2_IP_Midterms_1",
                                     "Subfolder_Name": ".NET Framwork (First Module)",
                                     "Subfolder_Description": "Description of the subfolder here",
                                     "Subfolder_Link": "./inte_prog/midterms/1h1.html",
@@ -127,6 +127,27 @@
                                     ],
                                     "Subfolder_LastModified": "13 March 2024",
                                     "Subfolder_Status": "Inactive"
+                                }
+                            ]
+                        },
+
+                        {   
+                            "Module_ID": "C2_S2_IP_Prefinals",
+                            "Module_Name": "Pre-Finals",
+                            "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
+                            "Module_Status": "Active",
+                            "Module_LastModified": "13 March 2024",
+                            "Module_Subfolders": [
+                                {
+                                    "Subfolder_ID": "C2_S2_IP_Prefinals_1",
+                                    "Subfolder_Name": "08 and 09 Handouts",
+                                    "Subfolder_Description": "Description of the subfolder here",
+                                    "Subfolder_Link": "./inte_prog/pre-finals/9h1.html",
+                                    "Subfolder_Author": [
+                                        "JC"
+                                    ],
+                                    "Subfolder_LastModified": "17 May 2024",
+                                    "Subfolder_Status": "Active"
                                 }
                             ]
                         }
@@ -285,7 +306,28 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C2_S2_SIA_Prefinals",
+                    "Module_Name": "Pre-Finals",
+                    "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "17 May 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C2_S2_SIA_Prefinals_1",
+                            "Subfolder_Name": "05 Handout",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "./sia/pre-finals/5h1.html",
+                            "Subfolder_Author": [
+                                "JC"
+                            ],
+                            "Subfolder_LastModified": "12 March 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
+
             ]
         }, 
         {
