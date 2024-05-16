@@ -412,7 +412,7 @@ img {
 }
 
 .Quiz_Form > #quiz-form > .form-group > label {
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 1.3rem;
   border-bottom: solid var(--SAP-Purple-Level-4L) 1px;
   width: 100%;
@@ -752,10 +752,21 @@ body{
   transform: translateY(20px);
 }
 
-@media only screen and (max-width: 700px){
-  .Quiz_Starter_Content {
+@media only screen and (max-width: 500px){
+  .Quiz_Result_Content > img#Quiz_Result_FinisherImage{
+    width: 250px;
+    height: unset;
+  }
+  .Quiz_Result_Action > button{
     width: 100%;
   }
+}
+
+@media only screen and (max-width: 700px){
+  .Quiz_Starter_Content{
+    width: 100%;
+  }
+  
 }
 
 .Quiz_Starter_Content[State="Active"]{
