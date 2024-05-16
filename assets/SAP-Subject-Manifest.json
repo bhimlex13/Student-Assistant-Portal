@@ -136,13 +136,13 @@
                             "Module_Name": "Pre-Finals",
                             "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
                             "Module_Status": "Active",
-                            "Module_LastModified": "13 March 2024",
+                            "Module_LastModified": "17 May 2024",
                             "Module_Subfolders": [
                                 {
                                     "Subfolder_ID": "C2_S2_IP_Prefinals_1",
                                     "Subfolder_Name": "08 and 09 Handouts",
                                     "Subfolder_Description": "Description of the subfolder here",
-                                    "Subfolder_Link": "./inte_prog/pre-finals/9h1.html",
+                                    "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IP_Prefinals_1",
                                     "Subfolder_Author": [
                                         "JC"
                                     ],
@@ -239,6 +239,26 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C2_S2_PPC_Prefinals",
+                    "Module_Name": "Prefinals",
+                    "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "17 May 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C2_S2_PPC_Prefinals_1",
+                            "Subfolder_Name": "Fifth Module",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_PPC_Prelims_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "17 May 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
             ]
         }, 
@@ -318,7 +338,7 @@
                             "Subfolder_ID": "C2_S2_SIA_Prefinals_1",
                             "Subfolder_Name": "05 Handout",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "./sia/pre-finals/5h1.html",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_Prefinals_1",
                             "Subfolder_Author": [
                                 "JC"
                             ],

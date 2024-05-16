@@ -1,12 +1,12 @@
 // This is the data for the quiz questions, answers, and choices
 var quizData = [
   {
-    "question": "What is the process of aligning demand with\r\nmanufacturing capacity in creating production and procurement \r\nschedules for the finished products and component materials?",
+    "question": "What is the process of aligning demand with manufacturing capacity in creating production and procurement \r\nschedules for the finished products and component materials?",
     "answer": "Production Planning",
     "choices": [
       "Production Planning",
       "Materials Management",
-      "Sales and\r\nDistribution",
+      "Sales and Distribution",
       "Financial Accounting"
     ],
     "reference": "05 Handout 1"
