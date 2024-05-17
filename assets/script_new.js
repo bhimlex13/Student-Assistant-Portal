@@ -1,7 +1,7 @@
 // Sound effects
-var Sound_Correct = new Audio("../../assets/sounds/Correct_2.mp3");
-var Sound_Wrong = new Audio("../../assets/sounds/Wrong_2.mp3");
-var Sound_Complete = new Audio("../../assets/sounds/in.ogg");
+var Sound_Correct = new Audio("assets/sounds/Correct_2.mp3");
+var Sound_Wrong = new Audio("assets/sounds/Wrong_2.mp3");
+var Sound_Complete = new Audio("assets/sounds/in.ogg");
 
 window.onbeforeunload = function (event) {
     return confirm("Confirm refresh");
