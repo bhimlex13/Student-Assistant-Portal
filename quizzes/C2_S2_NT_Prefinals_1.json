@@ -25,7 +25,7 @@
       "term": "Pre-Finals"
     },
     {
-      "question": "What is the reverse process of encapsulation wherein the header and tail of a packet are removed to obtain the data payload?",
+      "question": "What is the process wherein the header and tail of a packet are removed to obtain the data payload?",
       "answer": "Decapsulation",
       "choices": [
         "Encapsulation",
@@ -665,7 +665,7 @@
       "answer": "Direct routes",
       "choices": [
         "Direct routes",
-        "Indirect Routiing",
+        "Indirect Routing",
         "Static routes",
         "Dynamic route"
       ],
@@ -677,7 +677,7 @@
       "answer": "Static routes",
       "choices": [
         "Static routes",
-        "Indirect Routiing",
+        "Indirect Routing",
         "Direct routes",
         "Dynamic route"
       ],
@@ -685,11 +685,11 @@
       "term": "Pre-Finals"
     },
     {
-      "question": "What are learned by dynamic routing protocols running on routers and use routing protocols to talk to other routers and find out what networks they are attached to?",
+      "question": "What are routing protocols running on routers and use routing protocols to talk to other routers and find out what networks they are attached to?",
       "answer": "Dynamic route",
       "choices": [
         "Dynamic route",
-        "Indirect Routiing",
+        "Indirect Routing",
         "Direct routes",
         "Static routes"
       ],
