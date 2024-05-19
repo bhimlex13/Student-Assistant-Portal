@@ -1,0 +1,796 @@
+{
+  "quizInfo": {
+    "Subject": "Network Technology",
+    "Term": "Pre-finals",
+    "Title": "05 Routing Fundamentals",
+    "LastModified": "20 May 2024",
+    "Authors": [
+      ""
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the process wherein a new string of information is added to an existing unit to form a new unit of information?",
+      "answer": "Encapsulation",
+      "choices": [
+        "Decapsulation",
+        "Data payload",
+        "Packet",
+        "Encapsulation"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the reverse process of encapsulation wherein the header and tail of a packet are removed to obtain the data payload?",
+      "answer": "Decapsulation",
+      "choices": [
+        "Encapsulation",
+        "Data payload",
+        "Packet",
+        "Decapsulation"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What can be considered as the information to be transmitted?",
+      "answer": "Data payload",
+      "choices": [
+        "Packet",
+        "Header",
+        "Tail",
+        "Data payload"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is a data unit that is exchanged and transmitted on a network?",
+      "answer": "Packet",
+      "choices": [
+        "Header",
+        "Data payload",
+        "Tail",
+        "Packet"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the information segment added before the data payload during packet assembly to facilitate information transmission?",
+      "answer": "Header",
+      "choices": [
+        "Packet",
+        "Data payload",
+        "Tail",
+        "Header"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the information segment added after the payload to facilitate information transmission?",
+      "answer": "Tail",
+      "choices": [
+        "Packet",
+        "Header",
+        "Data payload",
+        "Tail"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is a specific block of information transferred over a network?",
+      "answer": "Protocol Data Unit (PDU)",
+      "choices": [
+        "Encapsulation",
+        "Decapsulation",
+        "Internet Protocol (IP)",
+        "Protocol Data Unit (PDU)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What layer transmits raw bits (1s or 0s) physically via the hardware?",
+      "answer": "Physical layer",
+      "choices": [
+        "Data Link layer",
+        "Network layer",
+        "Transport layer",
+        "Physical layer"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What layer exchanges a frame (or series of bits)?",
+      "answer": "Data Link layer",
+      "choices": [
+        "Physical layer",
+        "Network layer",
+        "Transport layer",
+        "Data Link layer"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What layer contains the source and destination address in a packet?",
+      "answer": "Network layer",
+      "choices": [
+        "Physical layer",
+        "Data Link layer",
+        "Transport layer",
+        "Network layer"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What layer includes a TCP header and data in a segment?",
+      "answer": "Transport layer",
+      "choices": [
+        "Physical layer",
+        "Data Link layer",
+        "Network layer",
+        "Transport layer"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What layer passes the data to the network connection?",
+      "answer": "Session layer",
+      "choices": [
+        "Physical layer",
+        "Data Link layer",
+        "Network layer",
+        "Session layer"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What layer formats the data for presentation?",
+      "answer": "Presentation layer",
+      "choices": [
+        "Physical layer",
+        "Data Link layer",
+        "Network layer",
+        "Presentation layer"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What layer receives or transmits the data by a software application?",
+      "answer": "Application layer",
+      "choices": [
+        "Physical layer",
+        "Data Link layer",
+        "Network layer",
+        "Application layer"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What protocol defines a packet and an addressing scheme?",
+      "answer": "Internet Protocol (IP)",
+      "choices": [
+        "Internet Control Message Protocol (ICMP)",
+        "Internet Group Management Protocol (IGMP)",
+        "Address Resolution Protocol (ARP)",
+        "Internet Protocol (IP)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What TCP/IP protocol handles errors and controls the process of sending data between computers?",
+      "answer": "Internet Control Message Protocol (ICMP)",
+      "choices": [
+        "Internet Protocol (IP)",
+        "Internet Group Management Protocol (IGMP)",
+        "Address Resolution Protocol (ARP)",
+        "Internet Control Message Protocol (ICMP)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What TCP/IP protocol handles multicasting?",
+      "answer": "Internet Group Management Protocol (IGMP)",
+      "choices": [
+        "Internet Protocol (IP)",
+        "Internet Control Message Protocol (ICMP)",
+        "Address Resolution Protocol (ARP)",
+        "Internet Group Management Protocol (IGMP)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What TCP/IP protocol obtains the physical address of a node from a specific IP number?",
+      "answer": "Address Resolution Protocol (ARP)",
+      "choices": [
+        "Internet Protocol (IP)",
+        "Internet Control Message Protocol (ICMP)",
+        "Internet Group Management Protocol (IGMP)",
+        "Address Resolution Protocol (ARP)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What TCP/IP protocol allows a host with no local permanent data storage media to find its Internet address given its physical address?",
+      "answer": "Reverse Address Resolution Protocol (RARP)",
+      "choices": [
+        "Internet Protocol (IP)",
+        "Internet Control Message Protocol (ICMP)",
+        "Internet Group Management Protocol (IGMP)",
+        "Reverse Address Resolution Protocol (RARP)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What refers to a family of LANs, covered by a group of IEEE 802.3 standards?",
+      "answer": "Ethernet",
+      "choices": [
+        "Point-to-Point Protocol (PPP)",
+        "Fiber distributed data interface (FDDI)",
+        "Asynchronous Transfer Mode (ATM)",
+        "Ethernet"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What protocol is used for data transfer across a serial line?",
+      "answer": "Point-to-Point Protocol (PPP)",
+      "choices": [
+        "Ethernet",
+        "Fiber distributed data interface (FDDI)",
+        "Asynchronous Transfer Mode (ATM)",
+        "Point-to-Point Protocol (PPP)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is a set of ANSI protocols for sending digital data over fiber optic cable?",
+      "answer": "Fiber distributed data interface (FDDI)",
+      "choices": [
+        "Ethernet",
+        "Point-to-Point Protocol (PPP)",
+        "Asynchronous Transfer Mode (ATM)",
+        "Fiber distributed data interface (FDDI)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What refers to a wide area protocol that features high data rates and equal-sized packets/cells suitable for text, audio, and video data transfer?",
+      "answer": "Asynchronous Transfer Mode (ATM)",
+      "choices": [
+        "Ethernet",
+        "Point-to-Point Protocol (PPP)",
+        "Fiber distributed data interface (FDDI)",
+        "Asynchronous Transfer Mode (ATM)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is a WAN protocol for LAN internetworking that provides a fast and efficient method of transmitting information from one user device to another across multiple switches and routers?",
+      "answer": "Frame Relay",
+      "choices": [
+        "Ethernet",
+        "Point-to-Point Protocol (PPP)",
+        "Fiber distributed data interface (FDDI)",
+        "Frame Relay"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What protocol is used when a network terminal needs to pass data from one segment to another without changing its current IP address information?",
+      "answer": "Proxy ARP",
+      "choices": [
+        "Ethernet",
+        "Point-to-Point Protocol (PPP)",
+        "Fiber distributed data interface (FDDI)",
+        "Proxy ARP"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What protocol transfers data between the Internet layer and network access layers?",
+      "answer": "Internet Protocol (IP)",
+      "choices": [
+        "Internet Control Message Protocol (ICMP)",
+        "Internet Group Management Protocol (IGMP)",
+        "Address Resolution Protocol (ARP)",
+        "Internet Protocol (IP)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What protocol routes packets to remote hosts?",
+      "answer": "Internet Protocol (IP)",
+      "choices": [
+        "Internet Control Message Protocol (ICMP)",
+        "Internet Group Management Protocol (IGMP)",
+        "Address Resolution Protocol (ARP)",
+        "Internet Protocol (IP)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What TCP/IP protocol also includes an echo request/reply \r\nthat is used to test whether a destination is reachable and responding?",
+      "answer": "Internet Control Message Protocol (ICMP)",
+      "choices": [
+        "Internet Protocol (IP)",
+        "Internet Group Management Protocol (IGMP)",
+        "Address Resolution Protocol (ARP)",
+        "Internet Control Message Protocol (ICMP)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the basic element of data communication networks, which is the process of selecting paths on a network along which packets are sent from a source to a destination?",
+      "answer": "Routing",
+      "choices": [
+        "Path determination",
+        "Routes",
+        "routing device (Router)",
+        "Routing"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What enables a router to compare the destination address to the available routes in its routing table and to select the best path?",
+      "answer": "Path determination",
+      "choices": [
+        "Routing",
+        "Routes",
+        "routing device (Router)",
+        "Path determination"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are the path information used to guide packet forwarding?",
+      "answer": "Routes",
+      "choices": [
+        "Routing",
+        "Path determination",
+        "routing device (Router)",
+        "Routes"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is a network device that forwards packets to a destination subnet based on routes?",
+      "answer": "routing device (Router)",
+      "choices": [
+        "Routing",
+        "Path determination",
+        "Routes",
+        "routing device (Router)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the overall network-wide process of finding the most efficient path for forwarding the IP packet from source to destination?",
+      "answer": "Packet routing",
+      "choices": [
+        "Routing",
+        "Path determination",
+        "Routes",
+        "Packet routing"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What select a proper path according to the destination address of a received IP packet and forward the packet to the next router?",
+      "answer": "A gateway and an intermediate node (a router)",
+      "choices": [
+        "Routing",
+        "Path determination",
+        "Routes",
+        "A gateway and an intermediate node (a router)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What identifies a destination subnet?",
+      "answer": "Destination",
+      "choices": [
+        "Routing",
+        "Path determination",
+        "Routes",
+        "Destination"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What identifies a subnet together with a destination IP address?",
+      "answer": "Mask",
+      "choices": [
+        "Routing",
+        "Path determination",
+        "Routes",
+        "Mask"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What indicates the interface through which a data packet is sent out of the local router?",
+      "answer": "Outbound interface",
+      "choices": [
+        "Routing",
+        "Path determination",
+        "Routes",
+        "Outbound interface"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What indicates the _______ address used by the router to forward the data packet to the destination subnet?",
+      "answer": "Next hop",
+      "choices": [
+        "Routing",
+        "Path determination",
+        "Routes",
+        "Next hop"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is simply a passing or moving of information between interfaces according to the “directions”?",
+      "answer": "Packet Forwarding",
+      "choices": [
+        "Routing",
+        "Path determination",
+        "Routes",
+        "Packet Forwarding"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What refers to the way a packet is handled by the underlying physical networks under the control of the network layer?",
+      "answer": "Packet Delivery",
+      "choices": [
+        "Routing",
+        "Path determination",
+        "Routes",
+        "Packet Delivery"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What occurs when the IP node forwards a packet to its final destination in the network?",
+      "answer": "Direct Delivery",
+      "choices": [
+        "Direct Hunger",
+        "Indirect Hunger",
+        "Indirect Delivery",
+        "Direct Delivery"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What occurs when the IP node (host) forwards a packet to an intermediate node (IP router) because the final destination is not on a directly attached network?",
+      "answer": "Indirect Delivery",
+      "choices": [
+        "Direct Routing",
+        "Indirect Routiing",
+        "Indirect Delivery",
+        "Direct Delivery"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Network devices need to forward IP packets from different subnets to their destination IP subnets.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE .",
+        "Di ko na po malala, Your Honor.",
+        "Di po ako nag review, Your Honor."
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "A router discovers ______ using multiple methods in which it selects the optimal route and installs it in its IP routing table.",
+      "answer": "Routes",
+      "choices": [
+        "Packets",
+        "Bits",
+        "Data",
+        "Routes"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "A router forwards IP ______ based on routes in the IP routing table and manages path information by managing its IP routing table.",
+      "answer": "Packets",
+      "choices": [
+        "Routes",
+        "Packets",
+        "Bits",
+        "Data"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is a database that contains information about which router network interface or port to place information to send it to a particular network segment?",
+      "answer": "Routing Table (Huawei)",
+      "choices": [
+        "Destination/Mask",
+        "Protocol (Proto)",
+        "Preference (Pre)",
+        "Routing Table (Huawei)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What indicates the destination network address and mask of a specific route?",
+      "answer": "Destination/Mask",
+      "choices": [
+        "Routing Table (Huawei)",
+        "Protocol (Proto)",
+        "Preference (Pre)",
+        "Destination/Mask"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What indicates the protocol type of the route, that is, the protocol through which a router learns the route?",
+      "answer": "Protocol (Proto)",
+      "choices": [
+        "Routing Table (Huawei)",
+        "Destination/Mask",
+        "Preference (Pre)",
+        "Protocol (Proto)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What indicates the routing protocol preference of the route?",
+      "answer": "Preference (Pre)",
+      "choices": [
+        "Routing Table (Huawei)",
+        "Destination/Mask",
+        "Protocol (Proto)",
+        "Preference (Pre)"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What indicates the cost of the route?",
+      "answer": "Cost",
+      "choices": [
+        "Routing Table (Huawei)",
+        "Destination/Mask",
+        "Protocol (Proto)",
+        "Cost"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What indicates the local router’s _____ address of the route to the destination network?",
+      "answer": "Next Hop",
+      "choices": [
+        "Routing Table (Huawei)",
+        "Destination/Mask",
+        "Protocol (Proto)",
+        "Next Hop"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What indicates the outbound interface of the route?",
+      "answer": "Interface",
+      "choices": [
+        "Routing Table (Huawei)",
+        "Destination/Mask",
+        "Protocol (Proto)",
+        "Interface"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What command is used to check the IP routing table?",
+      "answer": "display ip routing-table",
+      "choices": [
+        "display ip routing-table",
+        "display ip address routing-table",
+        "run display ip address routing-table",
+        "run display ip routing-table"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What discovers two routes to 10.0.0.0/30, one is an OSPF route and the other is a static route, and compares the preferences of the two routes and selects the route with the lowest preference value?",
+      "answer": "RTA",
+      "choices": [
+        "RTA",
+        "TCP",
+        "PDU",
+        "OSI"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are automatically generated by devices and point to local directly connected networks?",
+      "answer": "Direct routes",
+      "choices": [
+        "Direct routes",
+        "Indirect Routiing",
+        "Static routes",
+        "Dynamic route"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are manually configured by network administrators and can be an effective method for networks with small and simple structures?",
+      "answer": "Static routes",
+      "choices": [
+        "Static routes",
+        "Indirect Routiing",
+        "Direct routes",
+        "Dynamic route"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are learned by dynamic routing protocols running on routers and use routing protocols to talk to other routers and find out what networks they are attached to?",
+      "answer": "Dynamic route",
+      "choices": [
+        "Dynamic route",
+        "Indirect Routiing",
+        "Direct routes",
+        "Static routes"
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "The process of identifying the optimal route is the same for both routers and computers.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE .",
+        "Di ko na po malala, Your Honor.",
+        "Di po ako nag review, Your Honor."
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "The router prefers the route with the highest preference value.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE .",
+        "Di ko na po malala, Your Honor.",
+        "Di to kasama sa nireview ko."
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "The smaller the preference value, the higher the preference.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE .",
+        "Di po ako nag review, Your Honor.",
+        "Pass. Di to kasama sa nireview ko."
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "The router selects the optimal route for the assigned IP with the lowest preference among all routes.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE .",
+        "Di ko na po malala, Your Honor.",
+        "Babaw nalang po ako sa finals."
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "The assigned IP has the same destination/mask generated from different information sources.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE .",
+        "Di po ako nag review, Your Honor.",
+        "Pass. Di to kasama sa nireview ko."
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "The other routes appear in the IP routing table.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE .",
+        "Sometimes, its okay to Lets Go.",
+        "Pass. Di to kasama sa nireview ko."
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Routes generated from different information sources have the same default preference values.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE .",
+        "Di po ako nag review, Your Honor.",
+        "Babaw nalang po ako sa finals."
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "The default preference values may differ between devices of different vendors.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE .",
+        "Pero bakit parang kasalanan ko?",
+        "Pass. Di to kasama sa nireview ko."
+      ],
+      "reference": "Routing Fundamentals",
+      "term": "Pre-Finals"
+    }
+  ]
+}
