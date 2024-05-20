@@ -703,6 +703,32 @@
 }
 
 @media screen and (max-width: 768px) {
+    .AB_Credits{
+        padding: 10px;
+    }
+    .AB_Credits_Title_Text{
+        font-size: 25px;
+    }
+    .AB_Credits_Contributors {
+        padding: 10px;
+        padding-top: 0px;
+    }
+    .AB_Credits_Contributors_Item {
+        max-height: 250px;
+    }
+    .AB_Credits_Contributors_Item_Profile_Image{
+        height: 100px;
+        width: 100px;
+    }
+    .AB_Credits_Contributors_Item_Name_Text{
+        font-size: 30px;
+    }
+    .AB_Credits_Contributors_Item_Role_Text, .AB_Links_Content_Link_Text{
+        font-size: 20px;
+    }
+    .AB_Landing_Title_Text, .AB_Links_Content_Title {
+        font-size: 50px;
+    }
     .AB_Landing_Title{
         width: 100%;
         height: auto;
