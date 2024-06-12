@@ -394,7 +394,7 @@
     },
     {
       "question": "What does the ROUND function in SQL do?",
-      "answer": "Returns the absolute value of a number.",
+      "answer": "Rounds off a number to a specified number of decimal places.",
       "choices": [
         "Returns the absolute value of a number.",
         "Returns the sum of all values for a given column.",
