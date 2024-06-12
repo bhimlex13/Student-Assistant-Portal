@@ -14,6 +14,17 @@
   },
   "quizData": [
     {
+      "question": "Current Affairs: What is the famous quote of the infamous Alice Guo during her Senate Hearing on her questionable nationality and alleged ties with the Chinese Military and the POGO Hub in Bamban, Tarlac?",
+      "answer": "Your honor, di ko na po maalala.",
+      "choices": [
+        "Your honor, di ko na po maalala.",
+        "Your honor, kinalimutan ko na po sya.",
+        "Your honor, I think mahal na kita.",
+        "Your honor, sarap mong hampasin ng pala."
+      ],
+      "term": "Finals"
+    },
+    {
       "question": "They are raw facts, that have not yet been processed to reveal their meaning to the end user.",
       "answer": "Data",
       "choices": [
