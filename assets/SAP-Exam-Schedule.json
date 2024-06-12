@@ -1,57 +1,47 @@
 {
-    "Status": "Inactive",
+    "Status": "Active",
     "Exam_Semester": "Second",
-    "Exam_Period": "Prefinal",
-    "Exam_Duration": ["15 May 2024", "20 May 2024"],
+    "Exam_Period": "Final",
+    "Exam_Duration": ["13 June 2024", "15 June 2024"],
     "Exam_Section": [
         {
             "Section_Name": "IT401-A",
             "Section_Schedule": [
                 {
-                    "Schedule_Date": "15 May 2024",
-                    "Schedule_Day": "Wednesday",
+                    "Schedule_Date": "13 June 2024",
+                    "Schedule_Day": "Thursday",
                     "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Technopreneurship",
-                            "Subject_Duration": ["11:00 AM", "12:30 PM"],
-                            "Subject_Location": "Rm. 203"
-                        },
-                        {
-                            "Subject_Name": "Quantitative Methods",
-                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
+                            "Subject_Name": "Integrative Programming",
+                            "Subject_Duration": ["8:00 AM", "9:30 PM"],
                             "Subject_Location": "Rm. 202"
                         },
                         {
                             "Subject_Name": "Information Management",
-                            "Subject_Duration": ["3:30 PM", "5:00 PM"],
+                            "Subject_Duration": ["9:30 PM", "11:00 PM"],
                             "Subject_Location": "Rm. 202"
                         }
                     ]
                 },
                 {
-                    "Schedule_Date": "17 May 2024",
+                    "Schedule_Date": "14 June 2024",
                     "Schedule_Day": "Friday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Philippine Popular Culture",
-                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
-                            "Subject_Location": "Rm. 201"
-                        },
-                        {
-                            "Subject_Name": "Systems Integration and Architecture",
                             "Subject_Duration": ["2:00 PM", "3:30 PM"],
                             "Subject_Location": "Rm. 201"
                         },
                         {
-                            "Subject_Name": "Integrative Programming",
+                            "Subject_Name": "Systems Integration and Architecture",
                             "Subject_Duration": ["3:30 PM", "5:00 PM"],
                             "Subject_Location": "Rm. 201"
                         }
                     ]
                 },
                 {
-                    "Schedule_Date": "20 May 2024",
-                    "Schedule_Day": "Monday",
+                    "Schedule_Date": "15 June 2024",
+                    "Schedule_Day": "Saturday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Network Technology",

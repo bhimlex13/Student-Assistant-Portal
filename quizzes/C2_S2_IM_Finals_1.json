@@ -1,0 +1,656 @@
+{
+  "quizInfo": {
+    "Subject": "Information Management",
+    "Term": "Finals",
+    "Title": "SQL Functions and Joins",
+    "LastModified": "13 June 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "Any external links/handouts should be referenced here"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What does the MIN() function in SQL do?",
+      "answer": "Returns the minimum attribute value encountered in a given column.",
+      "choices": [
+        "Returns the maximum attribute value encountered in a given column.",
+        "Returns the sum of all values for a given column.",
+        "Returns the average value for a specified column.",
+        "Returns the minimum attribute value encountered in a given column."
+      ]
+    },
+    {
+      "question": "What is the syntax for the COUNT() function in SQL?",
+      "answer": "SELECT COUNT(column_name) FROM table_name;",
+      "choices": [
+        "SELECT SUM(column_name) FROM table_name;",
+        "SELECT AVG(column_name) FROM table_name;",
+        "SELECT COUNT(column_name) FROM table_name;",
+        "SELECT MAX(column_name) FROM table_name;"
+      ]
+    },
+    {
+      "question": "What does the GROUP BY clause do in SQL?",
+      "answer": "Used with aggregate functions to group the result-set by one or more columns.",
+      "choices": [
+        "Used to restrict the output of a GROUP BY query by applying conditional criteria to the grouped rows.",
+        "Assigns a temporary name to the column.",
+        "Performs a calculation on a set of values and returns a single value.",
+        "Used with aggregate functions to group the result-set by one or more columns."
+      ]
+    },
+    {
+      "question": "What is the purpose of the HAVING clause in SQL?",
+      "answer": "Used to restrict the output of a GROUP BY query by applying conditional criteria to the grouped rows.",
+      "choices": [
+        "Returns the minimum attribute value encountered in a given column.",
+        "Assigns a temporary name to the column.",
+        "Used to restrict the output of a GROUP BY query by applying conditional criteria to the grouped rows.",
+        "Returns the sum of all values for a given column."
+      ]
+    },
+    {
+      "question": "What does the SUM() function in SQL do?",
+      "answer": "Returns the sum of all values for a given column.",
+      "choices": [
+        "Returns the maximum attribute value encountered in a given column.",
+        "Returns the sum of all values for a given column.",
+        "Returns the minimum attribute value encountered in a given column.",
+        "Returns the average value for a specified column."
+      ]
+    },
+    {
+      "question": "What does the AVG() function in SQL do?",
+      "answer": "Returns the arithmetic mean (average) for a specified column.",
+      "choices": [
+        "Returns the minimum attribute value encountered in a given column.",
+        "Returns the maximum attribute value encountered in a given column.",
+        "Returns the arithmetic mean (average) for a specified column.",
+        "Returns the sum of all values for a given column."
+      ]
+    },
+    {
+      "question": "What is the purpose of the HAVING clause in SQL?",
+      "answer": "Used to restrict the output of a GROUP BY query by applying conditional criteria to the grouped rows.",
+      "choices": [
+        "Assigns a temporary name to the column.",
+        "Returns the sum of all values for a given column.",
+        "Used with aggregate functions to group the result-set by one or more columns.",
+        "Used to restrict the output of a GROUP BY query by applying conditional criteria to the grouped rows."
+      ]
+    },
+    {
+      "question": "What is the purpose of the ALIAS in SQL?",
+      "answer": "Assigns a temporary name to the column.",
+      "choices": [
+        "Used with aggregate functions to group the result-set by one or more columns.",
+        "Returns the minimum attribute value encountered in a given column.",
+        "Assigns a temporary name to the column.",
+        "Returns the sum of all values for a given column."
+      ]
+    },
+    {
+      "question": "What is the syntax for the MIN() function in SQL?",
+      "answer": "SELECT MIN(column_name) FROM table_name;",
+      "choices": [
+        "SELECT MAX(column_name) FROM table_name;",
+        "SELECT SUM(column_name) FROM table_name;",
+        "SELECT AVG(column_name) FROM table_name;",
+        "SELECT MIN(column_name) FROM table_name;"
+      ]
+    },
+    {
+      "question": "What does the MIN() function do in SQL?",
+      "answer": "Returns the minimum attribute value encountered in a given column.",
+      "choices": [
+        "Returns the maximum attribute value encountered in a given column.",
+        "Returns the sum of all values in a specified column.",
+        "Returns the arithmetic mean (average) of all values in a specified column.",
+        "Returns the minimum attribute value encountered in a given column."
+      ]
+    },
+    {
+      "question": "What is the syntax for the MAX() function in SQL?",
+      "answer": "SELECT MAX(column_name) FROM table_name;",
+      "choices": [
+        "SELECT MIN(column_name) FROM table_name;",
+        "SELECT SUM(column_name) FROM table_name;",
+        "SELECT AVG(column_name) FROM table_name;",
+        "SELECT MAX(column_name) FROM table_name;"
+      ]
+    },
+    {
+      "question": "What does the MAX() function do in SQL?",
+      "answer": "Returns the maximum attribute value encountered in a given column.",
+      "choices": [
+        "Returns the minimum attribute value encountered in a given column.",
+        "Returns the sum of all values in a specified column.",
+        "Returns the arithmetic mean (average) of all values in a specified column.",
+        "Returns the maximum attribute value encountered in a given column."
+      ]
+    },
+    {
+      "question": "What is the syntax for the COUNT() function in SQL?",
+      "answer": "SELECT COUNT(column_name) FROM table_name;",
+      "choices": [
+        "SELECT SUM(column_name) FROM table_name;",
+        "SELECT AVG(column_name) FROM table_name;",
+        "SELECT COUNT(column_name) FROM table_name;",
+        "SELECT MAX(column_name) FROM table_name;"
+      ]
+    },
+    {
+      "question": "What does the COUNT() function do in SQL?",
+      "answer": "Returns the number of rows containing non-null values in a specified column.",
+      "choices": [
+        "Returns the minimum attribute value encountered in a given column.",
+        "Returns the maximum attribute value encountered in a given column.",
+        "Returns the arithmetic mean (average) of all values in a specified column.",
+        "Returns the number of rows containing non-null values in a specified column."
+      ]
+    },
+    {
+      "question": "What is the syntax for the SUM() function in SQL?",
+      "answer": "SELECT SUM(column_name) FROM table_name;",
+      "choices": [
+        "SELECT MAX(column_name) FROM table_name;",
+        "SELECT COUNT(column_name) FROM table_name;",
+        "SELECT AVG(column_name) FROM table_name;",
+        "SELECT SUM(column_name) FROM table_name;"
+      ]
+    },
+    {
+      "question": "What does the SUM() function do in SQL?",
+      "answer": "Returns the sum of all values in a specified column.",
+      "choices": [
+        "Returns the minimum attribute value encountered in a given column.",
+        "Returns the number of rows containing non-null values in a specified column.",
+        "Returns the arithmetic mean (average) of all values in a specified column.",
+        "Returns the sum of all values in a specified column."
+      ]
+    },
+    {
+      "question": "What is the syntax for the AVG() function in SQL?",
+      "answer": "SELECT AVG(column_name) FROM table_name;",
+      "choices": [
+        "SELECT MIN(column_name) FROM table_name;",
+        "SELECT COUNT(column_name) FROM table_name;",
+        "SELECT SUM(column_name) FROM table_name;",
+        "SELECT AVG(column_name) FROM table_name;"
+      ]
+    },
+    {
+      "question": "What does the AVG() function do in SQL?",
+      "answer": "Returns the arithmetic mean (average) of all values in a specified column.",
+      "choices": [
+        "Returns the minimum attribute value encountered in a given column.",
+        "Returns the number of rows containing non-null values in a specified column.",
+        "Returns the sum of all values in a specified column.",
+        "Returns the arithmetic mean (average) of all values in a specified column."
+      ]
+    },
+    {
+      "question": "What is the purpose of the GROUP BY clause in SQL?",
+      "answer": "Used with aggregate functions to group the result-set by one or more columns.",
+      "choices": [
+        "Assigns a temporary name to the column.",
+        "Performs a calculation on a set of values and returns a single value.",
+        "Used to restrict the output of a GROUP BY query by applying conditional criteria to the grouped rows.",
+        "Used with aggregate functions to group the result-set by one or more columns."
+      ]
+    },
+    {
+      "question": "What is the syntax for the GROUP BY clause in SQL?",
+      "answer": "SELECT columns FROM table_name GROUP BY columns;",
+      "choices": [
+        "SELECT columns FROM table_name HAVING condition;",
+        "SELECT columns FROM table_name GROUP BY columns;",
+        "SELECT columns FROM table_name ORDER BY columns;",
+        "SELECT columns FROM table_name WHERE condition;"
+      ]
+    },
+    {
+      "question": "What is the purpose of the HAVING clause in SQL?",
+      "answer": "Used to restrict the output of a GROUP BY query by applying conditional criteria to the grouped rows.",
+      "choices": [
+        "Used with aggregate functions to group the result-set by one or more columns.",
+        "Assigns a temporary name to the column.",
+        "Performs a calculation on a set of values and returns a single value.",
+        "Used to restrict the output of a GROUP BY query by applying conditional criteria to the grouped rows."
+      ]
+    },
+    {
+      "question": "What is the syntax for the HAVING clause in SQL?",
+      "answer": "SELECT columns FROM table_name GROUP BY columns HAVING condition;",
+      "choices": [
+        "SELECT columns FROM table_name GROUP BY columns;",
+        "SELECT columns FROM table_name HAVING condition;",
+        "SELECT columns FROM table_name ORDER BY columns;",
+        "SELECT columns FROM table_name WHERE condition;"
+      ]
+    },
+    {
+      "question": "What is the purpose of the ALIAS clause in SQL?",
+      "answer": "Assigns a temporary name to the column. It can also be given to tables.",
+      "choices": [
+        "Used with aggregate functions to group the result-set by one or more columns.",
+        "Assigns a temporary name to the column. It can also be given to tables.",
+        "Performs a calculation on a set of values and returns a single value.",
+        "Used to restrict the output of a GROUP BY query by applying conditional criteria to the grouped rows."
+      ]
+    },
+    {
+      "question": "What is the syntax for the ALIAS clause in SQL?",
+      "answer": "SELECT columns AS alias FROM table_name;",
+      "choices": [
+        "SELECT columns FROM table_name GROUP BY columns;",
+        "SELECT columns AS alias FROM table_name;",
+        "SELECT columns FROM table_name ORDER BY columns;",
+        "SELECT columns FROM table_name WHERE condition;"
+      ]
+    },
+    {
+      "question": "What does the YEAR function in SQL do?",
+      "answer": "Returns a 4-digit year.",
+      "choices": [
+        "Returns the current date and time.",
+        "Returns the number of the month.",
+        "Returns a 4-digit year.",
+        "Returns the number of the day."
+      ]
+    },
+    {
+      "question": "What is the syntax for the YEAR function in SQL?",
+      "answer": "SELECT YEAR(date);",
+      "choices": [
+        "SELECT YEAR(date);",
+        "SELECT GETDATE();",
+        "SELECT DATEADD(datepart, number, date);",
+        "SELECT DATEDIFF(datepart, date1, date2);"
+      ]
+    },
+    {
+      "question": "What is the purpose of the MONTH function in SQL?",
+      "answer": "Returns the number of the month.",
+      "choices": [
+        "Returns a 4-digit year.",
+        "Returns the number of the month.",
+        "Returns the current date and time.",
+        "Returns the number of the day."
+      ]
+    },
+    {
+      "question": "What is the syntax for the MONTH function in SQL?",
+      "answer": "SELECT MONTH(date);",
+      "choices": [
+        "SELECT YEAR(date);",
+        "SELECT GETDATE();",
+        "SELECT DATEADD(datepart, number, date);",
+        "SELECT MONTH(date);"
+      ]
+    },
+    {
+      "question": "What is the purpose of the DAY function in SQL?",
+      "answer": "Returns the number of the day.",
+      "choices": [
+        "Returns a 4-digit year.",
+        "Returns the number of the month.",
+        "Returns the current date and time.",
+        "Returns the number of the day."
+      ]
+    },
+    {
+      "question": "What is the syntax for the DAY function in SQL?",
+      "answer": "SELECT DAY(date);",
+      "choices": [
+        "SELECT DAY(date);",
+        "SELECT GETDATE();",
+        "SELECT DATEADD(datepart, number, date);",
+        "SELECT DATEDIFF(datepart, date1, date2);"
+      ]
+    },
+    {
+      "question": "What does the GETDATE function in SQL do?",
+      "answer": "Returns the current date and time.",
+      "choices": [
+        "Returns a 4-digit year.",
+        "Returns the number of the month.",
+        "Returns the current date and time.",
+        "Returns the number of the day."
+      ]
+    },
+    {
+      "question": "What is the syntax for the GETDATE function in SQL?",
+      "answer": "SELECT GETDATE();",
+      "choices": [
+        "SELECT YEAR(date);",
+        "SELECT GETDATE();",
+        "SELECT DATEADD(datepart, number, date);",
+        "SELECT MONTH(date);"
+      ]
+    },
+    {
+      "question": "What does the DATEADD function in SQL do?",
+      "answer": "Adds a number of selected time/date periods to a date then returns the date.",
+      "choices": [
+        "Returns a 4-digit year.",
+        "Returns the number of the month.",
+        "Adds a number of selected time/date periods to a date then returns the date.",
+        "Returns the number of the day."
+      ]
+    },
+    {
+      "question": "What is the syntax for the DATEADD function in SQL?",
+      "answer": "SELECT DATEADD(datepart, number, date);",
+      "choices": [
+        "SELECT YEAR(date);",
+        "SELECT GETDATE();",
+        "SELECT DATEADD(datepart, number, date);",
+        "SELECT MONTH(date);"
+      ]
+    },
+    {
+      "question": "What does the DATEDIFF function in SQL do?",
+      "answer": "Returns the difference between 2 dates.",
+      "choices": [
+        "Returns a 4-digit year.",
+        "Returns the number of the month.",
+        "Returns the difference between 2 dates.",
+        "Returns the number of the day."
+      ]
+    },
+    {
+      "question": "What is the syntax for the DATEDIFF function in SQL?",
+      "answer": "SELECT DATEDIFF(datepart, date1, date2);",
+      "choices": [
+        "SELECT DAY(date);",
+        "SELECT GETDATE();",
+        "SELECT DATEADD(datepart, number, date);",
+        "SELECT DATEDIFF(datepart, date1, date2);"
+      ]
+    },
+    {
+      "question": "What does the ABS function in SQL do?",
+      "answer": "Returns the absolute value of a number.",
+      "choices": [
+        "Returns the absolute value of a number.",
+        "Returns the sum of all values for a given column.",
+        "Returns the arithmetic mean (average) for a specified column.",
+        "Performs a calculation on a set of values and returns a single value."
+      ]
+    },
+    {
+      "question": "What is the syntax for the ABS function in SQL?",
+      "answer": "SELECT ABS(value);",
+      "choices": [
+        "SELECT ABS(value);",
+        "SELECT SUM(column_name) FROM table_name;",
+        "SELECT AVG(column_name) FROM table_name;",
+        "SELECT COUNT(column_name) FROM table_name;"
+      ]
+    },
+    {
+      "question": "What does the ROUND function in SQL do?",
+      "answer": "Returns the absolute value of a number.",
+      "choices": [
+        "Returns the absolute value of a number.",
+        "Returns the sum of all values for a given column.",
+        "Returns the arithmetic mean (average) for a specified column.",
+        "Rounds off a number to a specified number of decimal places."
+      ]
+    },
+    {
+      "question": "What is the syntax for the ROUND function in SQL?",
+      "answer": "SELECT ROUND(value, decimal_places);",
+      "choices": [
+        "SELECT ROUND(value, decimal_places);",
+        "SELECT SUM(column_name) FROM table_name;",
+        "SELECT AVG(column_name) FROM table_name;",
+        "SELECT COUNT(column_name) FROM table_name;"
+      ]
+    },
+    {
+      "question": "What does the CEILING function in SQL do?",
+      "answer": "Returns the smallest integer value that is greater than or equal to a number.",
+      "choices": [
+        "Returns the smallest integer value that is greater than or equal to a number.",
+        "Returns the largest integer value that is less than or equal to a number.",
+        "Returns the arithmetic mean (average) for a specified column.",
+        "Returns the absolute value of a number."
+      ]
+    },
+    {
+      "question": "What is the syntax for the CEILING function in SQL?",
+      "answer": "SELECT CEILING(value);",
+      "choices": [
+        "SELECT CEILING(value);",
+        "SELECT FLOOR(value);",
+        "SELECT AVG(column_name) FROM table_name;",
+        "SELECT ABS(value);"
+      ]
+    },
+    {
+      "question": "What does the FLOOR function in SQL do?",
+      "answer": "Returns the largest integer value that is less than or equal to a number.",
+      "choices": [
+        "Returns the smallest integer value that is greater than or equal to a number.",
+        "Returns the largest integer value that is less than or equal to a number.",
+        "Returns the arithmetic mean (average) for a specified column.",
+        "Returns the absolute value of a number."
+      ]
+    },
+    {
+      "question": "What is the syntax for the FLOOR function in SQL?",
+      "answer": "SELECT FLOOR(value);",
+      "choices": [
+        "SELECT CEILING(value);",
+        "SELECT FLOOR(value);",
+        "SELECT AVG(column_name) FROM table_name;",
+        "SELECT ABS(value);"
+      ]
+    },
+    {
+      "question": "What does the CONCAT function in SQL do?",
+      "answer": "Joins 2 or more strings together.",
+      "choices": [
+        "Returns the string in lowercase letters.",
+        "Returns the string in uppercase letters.",
+        "Returns a part of a string.",
+        "Joins 2 or more strings together."
+      ]
+    },
+    {
+      "question": "What is the syntax for the CONCAT function in SQL?",
+      "answer": "SELECT CONCAT(string1, string2, …);",
+      "choices": [
+        "SELECT CONCAT(string1, string2, …);",
+        "SELECT LEN(string);",
+        "SELECT SUBSTRING(string, start_position, length);",
+        "SELECT LOWER(string);"
+      ]
+    },
+    {
+      "question": "What does the LOWER function in SQL do?",
+      "answer": "Returns the string in lowercase letters.",
+      "choices": [
+        "Returns the string in lowercase letters.",
+        "Returns the string in uppercase letters.",
+        "Returns a part of a string.",
+        "Joins 2 or more strings together."
+      ]
+    },
+    {
+      "question": "What is the syntax for the LOWER function in SQL?",
+      "answer": "SELECT LOWER(string);",
+      "choices": [
+        "SELECT CONCAT(string1, string2, …);",
+        "SELECT LEN(string);",
+        "SELECT SUBSTRING(string, start_position, length);",
+        "SELECT LOWER(string);"
+      ]
+    },
+    {
+      "question": "What does the UPPER function in SQL do?",
+      "answer": "Returns the string in uppercase letters.",
+      "choices": [
+        "Returns the string in lowercase letters.",
+        "Returns the string in uppercase letters.",
+        "Returns a part of a string.",
+        "Joins 2 or more strings together."
+      ]
+    },
+    {
+      "question": "What is the syntax for the UPPER function in SQL?",
+      "answer": "SELECT UPPER(string);",
+      "choices": [
+        "SELECT CONCAT(string1, string2, …);",
+        "SELECT LEN(string);",
+        "SELECT SUBSTRING(string, start_position, length);",
+        "SELECT UPPER(string);"
+      ]
+    },
+    {
+      "question": "What does the SUBSTRING function in SQL do?",
+      "answer": "Returns a part of a string.",
+      "choices": [
+        "Returns the string in lowercase letters.",
+        "Returns the string in uppercase letters.",
+        "Returns a part of a string.",
+        "Joins 2 or more strings together."
+      ]
+    },
+    {
+      "question": "What is the syntax for the SUBSTRING function in SQL?",
+      "answer": "SELECT SUBSTRING(string, start_position, length);",
+      "choices": [
+        "SELECT CONCAT(string1, string2, …);",
+        "SELECT LEN(string);",
+        "SELECT SUBSTRING(string, start_position, length);",
+        "SELECT LOWER(string);"
+      ]
+    },
+    {
+      "question": "What does the LEN function in SQL do?",
+      "answer": "Returns the number of characters in a string.",
+      "choices": [
+        "Returns the number of characters in a string.",
+        "Returns the string in lowercase letters.",
+        "Returns the string in uppercase letters.",
+        "Joins 2 or more strings together."
+      ]
+    },
+    {
+      "question": "What is the syntax for the LEN function in SQL?",
+      "answer": "SELECT LEN(string);",
+      "choices": [
+        "SELECT CONCAT(string1, string2, …);",
+        "SELECT LEN(string);",
+        "SELECT SUBSTRING(string, start_position, length);",
+        "SELECT LOWER(string);"
+      ]
+    },
+    {
+      "question": "What does the TRIM function in SQL do?",
+      "answer": "Removes the spaces or specific characters from start or end of a string.",
+      "choices": [
+        "Returns the string in lowercase letters.",
+        "Returns the string in uppercase letters.",
+        "Removes the spaces or specific characters from start or end of a string.",
+        "Joins 2 or more strings together."
+      ]
+    },
+    {
+      "question": "What is the syntax for the TRIM function in SQL?",
+      "answer": "SELECT TRIM([characters FROM]string);",
+      "choices": [
+        "SELECT CONCAT(string1, string2, …);",
+        "SELECT LEN(string);",
+        "SELECT TRIM([characters FROM]string);",
+        "SELECT LOWER(string);"
+      ]
+    },
+    {
+      "question": "What does an INNER JOIN in SQL do?",
+      "answer": "Returns rows that have matching values in both tables.",
+      "choices": [
+        "Returns rows that have matching values in both tables.",
+        "Returns all rows from the left table and the matched records from the right table.",
+        "Returns all rows from the right table and the matched records from the left table.",
+        "Returns all records when there is a match on either the left or right table."
+      ]
+    },
+    {
+      "question": "What is the syntax for an INNER JOIN in SQL?",
+      "answer": "SELECT columns FROM table1 INNER JOIN table2 ON table1.column_name = table2.column_name;",
+      "choices": [
+        "SELECT columns FROM table1 LEFT JOIN table2 ON table1.column_name = table2.column_name;",
+        "SELECT columns FROM table1 RIGHT JOIN table2 ON table1.column_name = table2.column_name;",
+        "SELECT columns FROM table1 INNER JOIN table2 ON table1.column_name = table2.column_name;",
+        "SELECT columns FROM table1 FULL OUTER JOIN table2 ON table1.column_name = table2.column_name;"
+      ]
+    },
+    {
+      "question": "What does a LEFT JOIN in SQL do?",
+      "answer": "Returns all rows from the left table and the matched records from the right table. If there is no match from the right side, the result is NULL.",
+      "choices": [
+        "Returns rows that have matching values in both tables.",
+        "Returns all rows from the left table and the matched records from the right table. If there is no match from the right side, the result is NULL.",
+        "Returns all rows from the right table and the matched records from the left table. If there is no match from the left side, the result is NULL.",
+        "Returns all records when there is a match on either the left or right table. If there is no match, the missing side will contain NULL."
+      ]
+    },
+    {
+      "question": "What is the syntax for a LEFT JOIN in SQL?",
+      "answer": "SELECT columns FROM table1 LEFT JOIN table2 ON table1.column_name = table2.column_name;",
+      "choices": [
+        "SELECT columns FROM table1 LEFT JOIN table2 ON table1.column_name = table2.column_name;",
+        "SELECT columns FROM table1 RIGHT JOIN table2 ON table1.column_name = table2.column_name;",
+        "SELECT columns FROM table1 INNER JOIN table2 ON table1.column_name = table2.column_name;",
+        "SELECT columns FROM table1 FULL OUTER JOIN table2 ON table1.column_name = table2.column_name;"
+      ]
+    },
+    {
+      "question": "What does a RIGHT JOIN in SQL do?",
+      "answer": "Returns all rows from the right table and the matched records from the left table. If there is no match from the left side, the result is NULL.",
+      "choices": [
+        "Returns rows that have matching values in both tables.",
+        "Returns all rows from the left table and the matched records from the right table. If there is no match from the right side, the result is NULL.",
+        "Returns all rows from the right table and the matched records from the left table. If there is no match from the left side, the result is NULL.",
+        "Returns all records when there is a match on either the left or right table. If there is no match, the missing side will contain NULL."
+      ]
+    },
+    {
+      "question": "What is the syntax for a RIGHT JOIN in SQL?",
+      "answer": "SELECT columns FROM table1 RIGHT JOIN table2 ON table1.column_name = table2.column_name;",
+      "choices": [
+        "SELECT columns FROM table1 LEFT JOIN table2 ON table1.column_name = table2.column_name;",
+        "SELECT columns FROM table1 RIGHT JOIN table2 ON table1.column_name = table2.column_name;",
+        "SELECT columns FROM table1 INNER JOIN table2 ON table1.column_name = table2.column_name;",
+        "SELECT columns FROM table1 FULL OUTER JOIN table2 ON table1.column_name = table2.column_name;"
+      ]
+    },
+    {
+      "question": "What does a FULL JOIN in SQL do?",
+      "answer": "Returns all records when there is a match on either the left or right table. If there is no match, the missing side will contain NULL.",
+      "choices": [
+        "Returns rows that have matching values in both tables.",
+        "Returns all rows from the left table and the matched records from the right table. If there is no match from the right side, the result is NULL.",
+        "Returns all rows from the right table and the matched records from the left table. If there is no match from the left side, the result is NULL.",
+        "Returns all records when there is a match on either the left or right table. If there is no match, the missing side will contain NULL."
+      ]
+    },
+    {
+      "question": "What is the syntax for a FULL JOIN in SQL?",
+      "answer": "SELECT columns FROM table1 FULL OUTER JOIN table2 ON table1.column_name = table2.column_name;",
+      "choices": [
+        "SELECT columns FROM table1 LEFT JOIN table2 ON table1.column_name = table2.column_name;",
+        "SELECT columns FROM table1 RIGHT JOIN table2 ON table1.column_name = table2.column_name;",
+        "SELECT columns FROM table1 INNER JOIN table2 ON table1.column_name = table2.column_name;",
+        "SELECT columns FROM table1 FULL OUTER JOIN table2 ON table1.column_name = table2.column_name;"
+      ]
+    }
+  ]
+}

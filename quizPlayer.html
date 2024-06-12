@@ -71,7 +71,23 @@
         Name of subject
       </h3>
       <div class="Quiz_Starter_Control">
+        <!-- <button class="Quiz_Starter_Control_Secondary" onclick="Screens_Close('Quiz_Starter', 'Left'); Screens_Open('Quiz_Starter_Timer', 'Right')">Time Pressured</button> -->
         <button class="Quiz_Starter_Control_Primary" onclick="Screens_Close('Quiz_Starter', 'Left')">Start</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="Quiz_Starter_Timer" id="Quiz_Starter_Timer" State="Inactive">
+    <div class="Quiz_Starter_Content" style="opacity: 100%; transform: unset">
+      <h1 class="Quiz_Starter_Title">
+        Timed Challenge
+      </h1>
+      <p class="Quiz_Starter_Subject">
+        Get as many points as you can before the clock ends! 
+      </p>
+      <div class="Quiz_Starter_Control">
+        <button class="Quiz_Starter_Control_Secondary" onclick="Screens_Open('Quiz_Starter', 'Right'); Screens_Close('Quiz_Starter_Timer', 'Left')">Back</button>
+        <button class="Quiz_Starter_Control_Primary" onclick="Screens_Close('Quiz_Starter', 'Left')">Begin!</button>
       </div>
     </div>
   </div>
