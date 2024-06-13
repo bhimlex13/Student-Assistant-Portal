@@ -388,6 +388,37 @@
                     ]
                 },
                 {   
+                    "Module_ID": "C2_S2_SIA_Midterms",
+                    "Module_Name": "Prelims",
+                    "Module_Thumbnail": "./images/Thumbnail_Midterms_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "12 March 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C2_S2_SIA_Midterms_1",
+                            "Subfolder_Name": "Sales and Distribution (SD)",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_Midterms_1",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "12 March 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C2_S2_SIA_Midterms_2",
+                            "Subfolder_Name": "Materials Management (MM)",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_Midterms_2",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "12 March 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
+                },
+                {   
                     "Module_ID": "C2_S2_SIA_Prefinals",
                     "Module_Name": "Pre-Finals",
                     "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
@@ -403,6 +434,37 @@
                                 "JC"
                             ],
                             "Subfolder_LastModified": "12 March 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
+                },
+                {   
+                    "Module_ID": "C2_S2_SIA_Finals",
+                    "Module_Name": "Finals",
+                    "Module_Thumbnail": "./images/Thumbnail_Finals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "14 June 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C2_S2_SIA_Finals_1",
+                            "Subfolder_Name": "Controlling (CO)",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_Finals_1",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "14 June 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C2_S2_SIA_FULL",
+                            "Subfolder_Name": "Full Course Review",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_FULL",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "14 June 2024",
                             "Subfolder_Status": "Active"
                         }
                     ]

@@ -2,6 +2,8 @@
 var Sound_Correct = new Audio("assets/sounds/Correct_2.mp3");
 var Sound_Wrong = new Audio("assets/sounds/Wrong_2.mp3");
 var Sound_Complete = new Audio("assets/sounds/in.ogg");
+var Sound_Excellent = new Audio("assets/sounds/challenge_complete.ogg");
+var Sound_Perfect = new Audio("assets/sounds/challenge_complete_old.ogg");
 
 window.onbeforeunload = function (event) {
     return confirm("Confirm refresh");
@@ -288,18 +290,56 @@ function displayFinalResult() {
     var finalResultMessage = document.getElementById('final-result-message');
     var perfectScoreGif = document.getElementById('perfect-score-gif');
     var notPerfectScoreGif = document.getElementById('not-perfect-score-gif');
-
-    if (score === quizData.length) {
-        // perfectScoreGif.classList.remove('d-none');
-        // notPerfectScoreGif.classList.add('d-none');
-        // finalResultMessage.textContent = 'Congratulations! You got a perfect score! Your final score is: ' + score + ' out of ' + quizData.length;
-        pick_FinishingImage("Perfect");
+    Sound_Complete.play();
+    if (score != 0){
+        var percentage = (score / quizData.length) * 100;
+        if (percentage == 100){
+            pick_FinishingImage("Perfect");
+            document.getElementById("Quiz_Result_FinisherImage").setAttribute("onclick", "pick_FinishingImage('Perfect')");
+            document.getElementById("Quiz_Result_FinisherImage").style.opacity = "0%";
+            Sound_Perfect.play();
+        }
+        if (percentage >= 85 && percentage <= 99){
+            pick_FinishingImage("Excellent");
+            document.getElementById("Quiz_Result_FinisherImage").setAttribute("onclick", "pick_FinishingImage('Excellent')");
+            document.getElementById("Quiz_Result_FinisherImage").style.opacity = "0%";
+            if (Math.random() >= 0.25){
+                Sound_Excellent.play();
+            }
+        }
+        if (percentage >= 50 && percentage <= 84){
+            pick_FinishingImage("Good");
+            document.getElementById("Quiz_Result_FinisherImage").setAttribute("onclick", "pick_FinishingImage('Good')");
+            document.getElementById("Quiz_Result_FinisherImage").style.opacity = "0%";
+            if (Math.random() >= 0.50){
+                Sound_Excellent.play();
+            }
+        }
+        if (percentage >= 0 && percentage <= 49){
+            pick_FinishingImage("Terrible");
+            document.getElementById("Quiz_Result_FinisherImage").setAttribute("onclick", "pick_FinishingImage('Terrible')");
+            document.getElementById("Quiz_Result_FinisherImage").style.opacity = "0%";
+            if (Math.random() >= 0.85){
+                Sound_Excellent.play();
+            }
+        }
     } else {
-        // perfectScoreGif.classList.add('d-none');
-        // notPerfectScoreGif.classList.remove('d-none');
-        // finalResultMessage.textContent = 'Quiz completed! Your final score is: ' + score + ' out of ' + quizData.length;
-        pick_FinishingImage("Good");
+        pick_FinishingImage("Terrible");
+        document.getElementById("Quiz_Result_FinisherImage").setAttribute("onclick", "pick_FinishingImage('Terrible')");
+        document.getElementById("Quiz_Result_FinisherImage").style.opacity = "0%";
     }
+    
+    // if (score === quizData.length) {
+    //     // perfectScoreGif.classList.remove('d-none');
+    //     // notPerfectScoreGif.classList.add('d-none');
+    //     // finalResultMessage.textContent = 'Congratulations! You got a perfect score! Your final score is: ' + score + ' out of ' + quizData.length;
+        
+    // } else {
+    //     // perfectScoreGif.classList.add('d-none');
+    //     // notPerfectScoreGif.classList.remove('d-none');
+    //     // finalResultMessage.textContent = 'Quiz completed! Your final score is: ' + score + ' out of ' + quizData.length;
+    //     pick_FinishingImage("Good");
+    // }
 
     resultContainer.style.color = 'black';
     resultContainer.classList.remove('d-none'); // Remove the 'd-none' class to show the container
@@ -418,13 +458,23 @@ function set_Information(){
 
 var finishers_perfect = ["images/Finisher_Perfect/perfect-score-100.gif", "images/Finisher_Perfect/perfect-sponge.gif", "images/Finisher_Perfect/try-me.gif"];
 var finishers_good = ["images/Finisher_Good/clap.gif", "images/Finisher_Good/rikka-takanashi-takanashi-rikka.gif", "images/Finisher_Good/sanditon-just-try.gif", "images/Finisher_Good/that's-still-not-perfect-ignace-aleya.gif", "images/Finisher_Good/try-me.gif", "images/Finisher_Good/yes-win.gif", "images/Finisher_Good/YEYYYY.gif"];
+var finishers_excellent = ["images/Finisher_Excellent/1.gif","images/Finisher_Excellent/2.gif","images/Finisher_Excellent/3.gif","images/Finisher_Excellent/4.gif","images/Finisher_Excellent/5.gif","images/Finisher_Excellent/6.gif","images/Finisher_Excellent/7.gif"];
+var finishers_terrible = ["images/Finisher_Terrible/1.gif","images/Finisher_Terrible/2.gif","images/Finisher_Terrible/3.gif","images/Finisher_Terrible/4.gif","images/Finisher_Terrible/5.gif","images/Finisher_Terrible/6.gif","images/Finisher_Terrible/7.gif","images/Finisher_Terrible/8.gif","images/Finisher_Terrible/9.gif","images/Finisher_Terrible/10.gif"];
 
 function pick_FinishingImage(State){
+    document.getElementById("Quiz_Result_FinisherImage").style.opacity = "0%";
     if (State == "Perfect"){
         document.getElementById("Quiz_Result_FinisherImage").src = finishers_perfect[Math.floor(Math.random() * finishers_perfect.length)];
+        document.getElementById("Quiz_Result_FinisherImage").style.display = "block";
+    } else if (State == "Excellent") {
+        document.getElementById("Quiz_Result_FinisherImage").src = finishers_excellent[Math.floor(Math.random() * finishers_excellent.length)];
         document.getElementById("Quiz_Result_FinisherImage").style.display = "block";
     } else if (State == "Good") {
         document.getElementById("Quiz_Result_FinisherImage").src = finishers_good[Math.floor(Math.random() * finishers_good.length)];
         document.getElementById("Quiz_Result_FinisherImage").style.display = "block";
-    }
+    } 
+    else if (State == "Terrible") {
+        document.getElementById("Quiz_Result_FinisherImage").src = finishers_terrible[Math.floor(Math.random() * finishers_terrible.length)];
+        document.getElementById("Quiz_Result_FinisherImage").style.display = "block";
+    } 
 }

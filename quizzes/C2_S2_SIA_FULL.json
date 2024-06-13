@@ -1,0 +1,2155 @@
+{
+  "quizInfo": {
+    "Subject": "Systems Integration and Architecture",
+    "Term": "Finals",
+    "Title": "Full Course Review",
+    "LastModified": "14 June 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "Any external links/handouts should be referenced here"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What does SAP stand for?",
+      "answer": "System Applications and Products",
+      "choices": [
+        "System Applications and Products",
+        "Student Assistant Portal",
+        "Social Amelioration Program",
+        "System Architecture and Products"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the full name of SAP?",
+      "answer": "System Applications and Products in Data Processing",
+      "choices": [
+        "System Applications and Products in Data Processing",
+        "System Architecture and Products in Business Processing",
+        "System Applications and Products in Data Encoding",
+        "System Architecture and Products in Database Processing"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "SAP is the market leader in enterprise application software.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "SAP is a Swedish multinational company that pioneered the use of ERP in businesses.",
+      "answer": "THE STATEMENT IS FALSE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "SAP lets companies streamline processes, use live data, predict customer trends, and connect entire businesses.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year was SAP founded for development of real-time data application software?",
+      "answer": "1972",
+      "choices": [
+        "1972",
+        "1981",
+        "1986",
+        "1982"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year was SAP R/2 introduced?",
+      "answer": "1981 - 1982",
+      "choices": [
+        "1981 - 1982",
+        "1986 - 1989",
+        "1993 - 1994",
+        "1995 - 1996"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year was SAP R/3 developed and presented at the CeBIT Hanover?",
+      "answer": "1986 - 1989",
+      "choices": [
+        "1981 - 1982",
+        "1986 - 1989",
+        "1993 - 1994",
+        "1995 - 1996"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year did Microsoft and IBM started using SAP R/3 into their systems?",
+      "answer": "1993 - 1994",
+      "choices": [
+        "1981 - 1982",
+        "1986 - 1989",
+        "1993 - 1994",
+        "1995 - 1996"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year did SAP joined the internet with SAP R/3 becoming usable online?",
+      "answer": "1995 - 1996",
+      "choices": [
+        "1981 - 1982",
+        "1986 - 1989",
+        "1993 - 1994",
+        "1995 - 1996"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year did SAP celebrated their 30th anniversary and became the third largest software provider?",
+      "answer": "2002",
+      "choices": [
+        "2002",
+        "2009",
+        "2011",
+        "2013"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year did SAP announced the release of SAP ERP?",
+      "answer": "2005 - 2006",
+      "choices": [
+        "1981 - 1982",
+        "1986 - 1989",
+        "2005 - 2006",
+        "1995 - 1996"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year did SAP Business Suite 7 release, aiming to optimize performance and reduce IT costs?",
+      "answer": "2009",
+      "choices": [
+        "2002",
+        "2009",
+        "2011",
+        "2013"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year did SAP HANA release, a result from the implementation of the first SAP in-memory computing product?",
+      "answer": "2011",
+      "choices": [
+        "2002",
+        "2009",
+        "2011",
+        "2013"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year did SAP Business Suite moved to SAP HANA, making it the fastest-growing product in the history of enterprise software?",
+      "answer": "2013",
+      "choices": [
+        "2002",
+        "2009",
+        "2011",
+        "2013"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year was SAP S/4 HANA introduced?",
+      "answer": "2015",
+      "choices": [
+        "2016",
+        "2013",
+        "2011",
+        "2015"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "SAP ERP is the standard ERP solution for companies around the world.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are true? <br> I. SAP ERP enables a company to support and optimize its business processes. <br> II. SAP's strategic goal is to develop the next-generation ERP package.",
+      "answer": "Both statements are true.",
+      "choices": [
+        "Both statements are true.",
+        "Both statements are false.",
+        "I is true, II is false.",
+        "I is false, II is true."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are true? <br> I. SAP R/3 is the next-generation business suite. <br> II. It is a result of SAP's strategic goal to develop the next-generation ERP package.",
+      "answer": "I is false, II is true.",
+      "choices": [
+        "Both statements are true.",
+        "Both statements are false.",
+        "I is true, II is false.",
+        "I is false, II is true."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are true? <br> I. SAP S/4 HANA uses real-time simplification that compresses multiple tables into a less cluttered one. <br> II. SAP S/4 HANA uses the traditional database architecture.",
+      "answer": "I is true, II is false.",
+      "choices": [
+        "Both statements are true.",
+        "Both statements are false.",
+        "I is true, II is false.",
+        "I is false, II is true."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are true? <br> I. SAP S/4 HANA uses its own data model called the S/4 HANA Data Model. <br> II. This allwos data storage in denormalized form, have a single data source, remove data storage, and process aggregation and analytics on the fly.",
+      "answer": "Both statements are true.",
+      "choices": [
+        "Both statements are true.",
+        "Both statements are false.",
+        "I is true, II is false.",
+        "I is false, II is true."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What term in this statement makes it FALSE ? <br> The traditional database structure uses redundant data to increase data retrieval performance.",
+      "answer": "Retrieval; it should be aggregation",
+      "choices": [
+        "Retrieval; it should be aggregation",
+        "Traditional; it should be relational",
+        "Redundant; it should be repetitive",
+        "Architecture; it should be system"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are true? <br> I. SAP ERP is designed to strengthen companies in various industries. <br> II. SAP S/4 HANA caters more to a large, enterprise-level organizations.",
+      "answer": "Both statements are true.",
+      "choices": [
+        "Both statements are true.",
+        "Both statements are false.",
+        "I is true, II is false.",
+        "I is false, II is true."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a design system and a UX layer that allows business app creation with a consumer-grade user experience.",
+      "answer": "SAP Fiori",
+      "choices": [
+        "SAP HANA",
+        "SAP UX",
+        "SAP Fiori",
+        "SAP Foiri"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "SAP Fiori makes casual users into SAP experts with simple screens that is viewable in every device.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The following are the three application types in SAP Fiori EXCEPT ONE.",
+      "answer": "Navigational Apps",
+      "choices": [
+        "Navigational Apps",
+        "Transactional Apps",
+        "Analytical Apps",
+        "Factsheet"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This application type of SAP Fiori is used to access tasks like Create, Change, or Display process with guided navigation.",
+      "answer": "Transactional Apps",
+      "choices": [
+        "Navigational Apps",
+        "Transactional Apps",
+        "Analytical Apps",
+        "Factsheet"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This application type of SAP Fiori gives a visual overview of the business data.",
+      "answer": "Analytical Apps",
+      "choices": [
+        "Navigational Apps",
+        "Transactional Apps",
+        "Analytical Apps",
+        "Factsheet"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This application type of SAP Fiori gives a view of the essential information about objects and contextual navigation between related objects.",
+      "answer": "Factsheet",
+      "choices": [
+        "Navigational Apps",
+        "Transactional Apps",
+        "Analytical Apps",
+        "Factsheet"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The following are the three data types included in ERP systems EXCEPT ONE.",
+      "answer": "User Data",
+      "choices": [
+        "User Data",
+        "Organizational Data",
+        "Master Data",
+        "Transaction Data"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The examples of this ERP data type is company codes, plant, storage location, and distribution channel.",
+      "answer": "Organizational Data",
+      "choices": [
+        "User Data",
+        "Organizational Data",
+        "Master Data",
+        "Transaction Data"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The examples of this ERP data type is persons, materials, customers, and vendors.",
+      "answer": "Master Data",
+      "choices": [
+        "User Data",
+        "Organizational Data",
+        "Master Data",
+        "Transaction Data"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This ERP data type can be stored for a long time and rarely changed.",
+      "answer": "Master Data",
+      "choices": [
+        "User Data",
+        "Organizational Data",
+        "Master Data",
+        "Transaction Data"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This ERP data type represents logically grouped data such as customer, material, vendor masters and general ledger accouunts.",
+      "answer": "Master Data",
+      "choices": [
+        "User Data",
+        "Organizational Data",
+        "Master Data",
+        "Transaction Data"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This ERP data type is the system record of the business event wherein, depending on the business event, different master data and organization data will be referenced.",
+      "answer": "Transaction Data",
+      "choices": [
+        "User Data",
+        "Organizational Data",
+        "Master Data",
+        "Transaction Data"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the data sets generated if a business transaction is executed.",
+      "answer": "Transactions",
+      "choices": [
+        "Business Transactions",
+        "Transactions",
+        "Transactional Transaction",
+        "Transaction of the Transactional Transactions made during a Transaction"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the record of the business transaction.",
+      "answer": "Document",
+      "choices": [
+        "Document",
+        "Receipt",
+        "Record",
+        "Transaction record"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "An example of a document are sales, purchasing, material, and account documents.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are true? <br> I. The document flow and the order status allows the setting of the status at any point in time. <br> II. SAP revises the status every time a change in a document takes place.",
+      "answer": "Both statements are true.",
+      "choices": [
+        "Both statements are true.",
+        "Both statements are false.",
+        "I is true, II is false.",
+        "I is false, II is true."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What makes the statement wrong? <br> SAP S/4 HANA can be accessed on the Cloud and Physically.",
+      "answer": "Physically; it should be On-Premise",
+      "choices": [
+        "Physically; it should be On-Premise",
+        "Cloud; it should be Mentally",
+        "SAP S/4 HANA; it should be My heart",
+        "Accessed; it should be Loaded"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This edition of SAP S/4 HANA has a subscription licensing deployed in the systems provided and maintained by SAP.",
+      "answer": "Cloud edition",
+      "choices": [
+        "Cloud edition",
+        "On-premise edition",
+        "Real edition",
+        "Exclusive edition"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This edition of SAP S/4 HANA allows automatic participation in quarterly innovation upgrades and has current release cycles.",
+      "answer": "Cloud edition",
+      "choices": [
+        "Cloud edition",
+        "On-premise edition",
+        "Real edition",
+        "Exclusive edition"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This edition of SAP S/4 HANA is under traditional licensing where the customer is in charge of its deployment and maintenance.",
+      "answer": "On-premise edition",
+      "choices": [
+        "Cloud edition",
+        "On-premise edition",
+        "Real edition",
+        "Exclusive edition"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This edition of SAP S/4 HANA has its data privately controlled and has fewer release cycles.",
+      "answer": "On-premise edition",
+      "choices": [
+        "Cloud edition",
+        "On-premise edition",
+        "Real edition",
+        "Exclusive edition"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The following are the three optimization levers considered in SAP S/4 HANA EXCEPT ONE.",
+      "answer": "Velocity",
+      "choices": [
+        "Efficiency",
+        "Effectiveness",
+        "Agility",
+        "Velocity"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This optimization lever of SAP S/4 HANA focuses on accelerated execution, automated process steps, and digital out-tasking.",
+      "answer": "Efficiency",
+      "choices": [
+        "Efficiency",
+        "Effectiveness",
+        "Agility",
+        "Velocity"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This optimization lever of SAP S/4 HANA focuses on speeding up actions, delayering of processes, and raising process intelligence.",
+      "answer": "Effectiveness",
+      "choices": [
+        "Efficiency",
+        "Effectiveness",
+        "Agility",
+        "Velocity"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This optimization lever of SAP S/4 HANA focuses on process flexibility, organizational flexibility, and assimilating process innovation.",
+      "answer": "Agility",
+      "choices": [
+        "Efficiency",
+        "Effectiveness",
+        "Agility",
+        "Velocity"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Identify if the application of optimization levers apply to business or IT: <br> Real-time inventory management",
+      "answer": "Business",
+      "choices": [
+        "Business",
+        "IT"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Identify if the application of optimization levers apply to business or IT: <br> No separation of data entities from different tables.",
+      "answer": "IT",
+      "choices": [
+        "Business",
+        "IT"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Identify if the application of optimization levers apply to business or IT: <br> Real-time product availability.",
+      "answer": "Business",
+      "choices": [
+        "Business",
+        "IT"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Identify if the application of optimization levers apply to business or IT: <br> Parallel postings and processes.",
+      "answer": "IT",
+      "choices": [
+        "Business",
+        "IT"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Identify if the application of optimization levers apply to business or IT: <br> Increased inventory turnover.",
+      "answer": "Business",
+      "choices": [
+        "Business",
+        "IT"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Identify if the application of optimization levers apply to business or IT: <br> Frequent updates.",
+      "answer": "IT",
+      "choices": [
+        "Business",
+        "IT"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Identify if the application of optimization levers apply to business or IT: <br> Faster operational reporting",
+      "answer": "Business",
+      "choices": [
+        "Business",
+        "IT"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Identify if the application of optimization levers apply to business or IT: <br> 1 document table instead of 26 aggregate tables.",
+      "answer": "IT",
+      "choices": [
+        "Business",
+        "IT"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Identify if the application of optimization levers apply to business or IT: <br> Fewer stockouts",
+      "answer": "Business",
+      "choices": [
+        "Business",
+        "IT"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Identify if the application of optimization levers apply to business or IT: <br> Reduced memory footprint",
+      "answer": "IT",
+      "choices": [
+        "Business",
+        "IT"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Refers to the new implementation of SAP S/4 HANA for customers migrating a legacy system.",
+      "answer": "Greenfield approach",
+      "choices": [
+        "Greenfield approach",
+        "All new approach",
+        "Implementary approach",
+        "Migratory approach"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This scenario refers to the conversion of a legacy system into the SAP S/4 HANA system.",
+      "answer": "New implementation",
+      "choices": [
+        "New implementation",
+        "System conversion",
+        "Landscape transformation",
+        "Legacy transformation"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What makes the statement wrong? <br> Reengineering the process aggregation based on ready-to-run business processes.",
+      "answer": "Aggregation; it should be Simplification",
+      "choices": [
+        "Aggregation; it should be Simplification",
+        "Ready-to-run; it should be Legacy",
+        "Reengineering; it should be Updating",
+        "Process; it should be Data"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What makes the statement wrong? <br> Predefined migration objects and best practices are available without guided configuration.",
+      "answer": "Without; it should be With",
+      "choices": [
+        "Without; it should be With",
+        "Predefined; it should be Prebuilt",
+        "Practices; it should be Systems",
+        "Migration; it should be Update"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are true? <br> I. The greenfield approach reduces time to value and customer total cost of ownership (TCO) <br> The greenfield approach rapidly adopts innovations.",
+      "answer": "Both statements are true.",
+      "choices": [
+        "Both statements are true.",
+        "Both statements are false.",
+        "I is true, II is false.",
+        "I is false, II is true."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of transition require project duration parameters such as the number of data migration objects and volume and complexity per data migration object.",
+      "answer": "New implementation",
+      "choices": [
+        "New implementation",
+        "System conversion",
+        "Landscape transformation",
+        "Legacy transformation"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are true? <br> I. The greenfield approach process beings with the installation of SAP S/4 HANA and an initial data load from the source system. <br> II. Tools used are SAP Data Services (SAP DS) for On-Premise and SAP Landscape Transformation (SAP LT) for Cloud.",
+      "answer": "Both statements are true.",
+      "choices": [
+        "Both statements are true.",
+        "Both statements are false.",
+        "I is true, II is false.",
+        "I is false, II is true."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This scenario refers to the conversion of their current system into the SAP S/4 HANA system that shows the database, SAP NetWeaver, and application transition in a single step.",
+      "answer": "System conversion",
+      "choices": [
+        "New implementation",
+        "System conversion",
+        "Landscape transformation",
+        "Legacy transformation"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "System conversion doesn't require reimplementation in migration.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "System conversion will disrupt the existing business process.",
+      "answer": "THE STATEMENT IS FALSE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "System conversion involves the reevaluation of customization and existing process flows, where certain processes can be adapted to SAP S/4 HANA.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of transition requires the number of systems and source data base size and the number of company codes, ledgers, and operating concerns as its project duration parameters.",
+      "answer": "System conversion",
+      "choices": [
+        "New implementation",
+        "System conversion",
+        "Landscape transformation",
+        "Legacy transformation"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "System conversion must involve making sure that add-ons and other solutions are compatible, and that components and customer code to validate further prerequisites must be checked.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This scenario refers to the consolidation of the user's data or selectively transform it into an SAP S/4 HANA system.",
+      "answer": "Landscape transformation",
+      "choices": [
+        "New implementation",
+        "System conversion",
+        "Landscape transformation",
+        "Legacy transformation"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are true? <br> I. Selective data transformation allows a phased approach, focusing on parts of the business with the highest return of investment and lower TCO. <br> II. System and landscape consolidation with harmonized/simplified processes and unified master data leads to lower TCO.",
+      "answer": "Both statements are true.",
+      "choices": [
+        "Both statements are true.",
+        "Both statements are false.",
+        "I is true, II is false.",
+        "I is false, II is true."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of transition depends on the selected sub-scenario, such as system consolidation, selective migration, and central finance as its general project duration parameters.",
+      "answer": "Landscape transformation",
+      "choices": [
+        "New implementation",
+        "System conversion",
+        "Landscape transformation",
+        "Legacy transformation"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In landscape transformation, the specified parameters include the number of systems to be consolidated, including the volume of the selected data for its general project duration.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are true? <br> I. Consolidation involves clients being consolidated from different source systems into 1 new or existing SAP S/4 HANA system using the SAP LT (Landscape Transformation) Tool. <br> II. Selective Data Transformation involves all SAP applications, such as central finance, being migrated using the SAP LT Tool.",
+      "answer": "I is false, II is true.",
+      "choices": [
+        "Both statements are true.",
+        "Both statements are false.",
+        "I is true, II is false.",
+        "I is false, II is true."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Global Bike Inc. uses a practical design philosophy that roots from its experience in off-road and long-distance racing sports.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. had experience with downhill and cross-country championships in mountain racing circuits in America.",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz",
+        "Neri Colmenares",
+        "Mark Anderson"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. first sold bikes that were rebuilt from old bikes into a sort of Frankenstein bike.",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. came from Heidelberg, Germany.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. studied engineering and competed on occassional regional races.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. worked at a bike shop fixing student bikes and tuning touring bikes he and his friends rode for competitions.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. first starte Heidelberg Composites.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. first started Frankenstein Bikes.",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. expanded his bike businesses into a manufacturing facility in Dallas, US.",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. designed and built road bikes based on an ultra-light composite frame for one of his engineering courses.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. started his first business that eventually became the leader in lightweight touring frames in Europe.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year did John Davis and Peter Schwarz met and recognized their mutual passion for performance and complimentary business models?",
+      "answer": "2000",
+      "choices": [
+        "2000",
+        "2004",
+        "2002",
+        "2001"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Frankenstein Bikes and Heidelberg Composites merged in 2001, forming Global Bike Inc.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. manages the sales, marketing, service and support, IT, finance, and human resources groups of the company.",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. manages the research, design, procurement, and manufacturing groups of the company.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. is responsible for Idea-to-Market and Build-to-Stock areas of the company.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. is responsible for Order-to-Cash and Service & Support along with supporting services for the 2 aforementioned processes and Idea-to-Market and Build-to-Stock.",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Global Bike Inc. invested into this kind of strategy, where they have focused on innovation, quality, safety, and speed to market.",
+      "answer": "Product Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. having an extensive innovation network to source ideas from various users and professionals to improve their bicycle's quality, performance, and reliability?",
+      "answer": "Product Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. offering two models of signature road bikes, with two different types of wheels for each of the models respectively?",
+      "answer": "Product Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. manufacturing two types of off-road for both the male and female model?",
+      "answer": "Product Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. offering other accessories other than the bikes themselves?",
+      "answer": "Product Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. having 2 production facilities in Dallas and Heidelberg that has 3 assembly lines producing thousands of bikes annually?",
+      "answer": "Manufacturing Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. having a total production capacity of about 6,000 bikes yearly that can also be increased by 15% - 20% through overtime and part-time workers?",
+      "answer": "Manufacturing Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. outsourcing the production of off-road and touring frames along with carbon composite wheels to trusted partners?",
+      "answer": "Manufacturing Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. maintaining collaborative research and design relationships with partner facilities that ensures innovations in both material and structural capabilities are included in the company's frames?",
+      "answer": "Manufacturing Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. assembling semi-finished and finished goods at its production facilities that are then either stored in the warehouse or shipped to regional distribution centers?",
+      "answer": "Manufacturing Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. exclusively selling their products through reputable and respected Independent Bicycle Dealers (IBDs)?",
+      "answer": "Distribution and Partner Network",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. using the internet as its information channel to educate consumers and market its products?",
+      "answer": "Distribution and Partner Network",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. having its main sales channel through specialty resellers due to tax issues and selling constraints for operating a business in multiple states and countries.",
+      "answer": "Distribution and Partner Network",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. establishing an extensive partner operation ensuring process continuity between its partners to provide best-in-class product?",
+      "answer": "Distribution and Partner Network",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. nurturing and protecting strong relationships with suppliers, which they are usually the largest customer of?",
+      "answer": "Distribution and Partner Network",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. using a shared services model on their offices?",
+      "answer": "IT Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year was it when Global Bike Inc. moved to centralized IT which also led to their implementation of SAP ERP 6?",
+      "answer": "2009",
+      "choices": [
+        "2009",
+        "2008",
+        "2017",
+        "2018"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are true? <br> I. The centralization of Global Bike Inc.'s ERP functions led to a reduction of costs and deliverance of global best-in-class technology in its divisions. <br> II. Their approach gave the company an advanced business platform under a highly controlled environment, enabling consistency of operations and process integrity across the globe.",
+      "answer": "Both statements are true.",
+      "choices": [
+        "Both statements are true.",
+        "Both statements are false.",
+        "I is true, II is false.",
+        "I is false, II is true."
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year was it when Global Bike Inc. moved its management to SAP S/4 HANA to accelerate its digital transformation?",
+      "answer": "2017",
+      "choices": [
+        "2009",
+        "2008",
+        "2017",
+        "2018"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which module allows organizations to store and manage customer and product-related data?",
+      "choices": [
+        "Sales and Distribution (SD)",
+        "Material Management (MM)",
+        "Production Planning (PP)",
+        "Financial Accounting (FI)"
+      ],
+      "answer": "Sales and Distribution (SD)"
+    },
+    {
+      "question": "What is the smallest organizational unit where a legal set of books can be maintained?",
+      "choices": [
+        "Client",
+        "Company code",
+        "Credit control area",
+        "Sales organization"
+      ],
+      "answer": "Company code"
+    },
+    {
+      "question": "Which SD organizational unit is responsible for the sale of specific products or services?",
+      "choices": [
+        "Distribution channel",
+        "Sales organization",
+        "Plant",
+        "Division"
+      ],
+      "answer": "Sales organization"
+    },
+    {
+      "question": "What is the purpose of a credit control area?",
+      "choices": [
+        "Manage customer credit limits",
+        "Group materials",
+        "Organize sales regions",
+        "Define distribution methods"
+      ],
+      "answer": "Manage customer credit limits"
+    },
+    {
+      "question": "How are products or services grouped in an SD organizational structure?",
+      "choices": [
+        "Sales organization",
+        "Distribution channel",
+        "Division",
+        "Plant"
+      ],
+      "answer": "Division"
+    },
+    {
+      "question": "Which data category in the customer master contains information relevant to the entire organization?",
+      "choices": [
+        "General data",
+        "Company code data",
+        "Sales area data",
+        "Material master data"
+      ],
+      "answer": "General data"
+    },
+    {
+      "question": "What are the three areas into which the customer master is divided?",
+      "choices": [
+        "General data, Company code data, Sales area data",
+        "General data, Material data, Sales data",
+        "Company code data, Sales data, Storage data",
+        "General data, Profit center data, Sales area data"
+      ],
+      "answer": "General data, Company code data, Sales area data"
+    },
+    {
+      "question": "What master data contains all the information a company needs to manage about a material?",
+      "choices": [
+        "Material master",
+        "Customer master",
+        "Condition master",
+        "Sales order"
+      ],
+      "answer": "Material master"
+    },
+    {
+      "question": "Which type of master data includes prices, surcharges, discounts, freights, and taxes?",
+      "choices": [
+        "Condition master",
+        "Customer master",
+        "Material master",
+        "Sales master"
+      ],
+      "answer": "Condition master"
+    },
+    {
+      "question": "What is the first step in the order-to-cash / sales order process?",
+      "choices": [
+        "Pre-sales activities",
+        "Sales order entry",
+        "Check availability",
+        "Pick materials"
+      ],
+      "answer": "Pre-sales activities"
+    },
+    {
+      "question": "What is the purpose of pre-sales activities in the SD module?",
+      "choices": [
+        "Assist the process of sales, distribution, and marketing",
+        "Create customer invoices",
+        "Manage material stock",
+        "Allocate costs"
+      ],
+      "answer": "Assist the process of sales, distribution, and marketing"
+    },
+    {
+      "question": "From which documents or activities can the sales order entry process originate?",
+      "choices": [
+        "Phone or email orders, existing contracts, and quotations",
+        "Purchase orders and invoices",
+        "Delivery notes and packing lists",
+        "Production orders and work instructions"
+      ],
+      "answer": "Phone or email orders, existing contracts, and quotations"
+    },
+    {
+      "question": "What are the three primary areas of a sales document?",
+      "choices": [
+        "Header, Line item(s), Scheduled line(s)",
+        "Header, Pricing, Delivery schedule",
+        "Sales area, Line item(s), Availability check",
+        "Billing information, Shipping information, Delivery schedule"
+      ],
+      "answer": "Header, Line item(s), Scheduled line(s)"
+    },
+    {
+      "question": "What does the delivery schedule specify when an order is created?",
+      "choices": [
+        "Requested delivery date",
+        "Customer payment terms",
+        "Material pricing",
+        "Credit limit"
+      ],
+      "answer": "Requested delivery date"
+    },
+    {
+      "question": "Which function determines the shipping point and route for delivering goods to customers?",
+      "choices": [
+        "Availability check",
+        "Pricing",
+        "Credit limit check",
+        "Route determination"
+      ],
+      "answer": "Route determination"
+    },
+    {
+      "question": "What is the purpose of the credit limit check during sales order entry?",
+      "choices": [
+        "Manage customer credit exposure",
+        "Verify material availability",
+        "Determine shipping routes",
+        "Calculate pricing conditions"
+      ],
+      "answer": "Manage customer credit exposure"
+    },
+    {
+      "question": "What does the availability check in the sales order entry process determine?",
+      "choices": [
+        "Material availability based on inventory movements",
+        "Customer order history",
+        "Pricing conditions",
+        "Shipping point locations"
+      ],
+      "answer": "Material availability based on inventory movements"
+    },
+    {
+      "question": "Which document controls and monitors sub-processes like picking, packing, and posting goods issue?",
+      "choices": [
+        "Delivery document",
+        "Billing document",
+        "Sales order",
+        "Purchase order"
+      ],
+      "answer": "Delivery document"
+    },
+    {
+      "question": "What does the goods issue in the shipping process signify?",
+      "choices": [
+        "Legal change in ownership of products",
+        "Document creation for shipping",
+        "Completion of packing process",
+        "Invoice generation"
+      ],
+      "answer": "Legal change in ownership of products"
+    },
+    {
+      "question": "Which billing method involves creating invoices based on delivered goods?",
+      "choices": [
+        "Delivery-based invoicing",
+        "Split invoicing",
+        "Collective invoicing",
+        "Credit memo invoicing"
+      ],
+      "answer": "Delivery-based invoicing"
+    },
+    {
+      "question": "What does the payment process in sales order management involve?",
+      "choices": [
+        "Posting payments against invoices and reconciling differences",
+        "Generating sales reports",
+        "Checking credit limits",
+        "Managing material availability"
+      ],
+      "answer": "Posting payments against invoices and reconciling differences"
+    },
+    {
+      "question": "What can be used in SAP to find the status of an order at any point in time?",
+      "choices": [
+        "Document flow and order status feature",
+        "Material ledger",
+        "Cost center reports",
+        "Inventory valuation"
+      ],
+      "answer": "Document flow and order status feature"
+    },
+    {
+      "question": "Which unit is responsible for negotiating the conditions of purchase with vendors?",
+      "choices": [
+        "Purchasing organization",
+        "Material master",
+        "Vendor master",
+        "Purchasing group"
+      ],
+      "answer": "Purchasing organization"
+    },
+    {
+      "question": "What is the purpose of the vendor master in SAP?",
+      "choices": [
+        "Contains all necessary info for business activities with an external supplier",
+        "Manages material quantities in storage locations",
+        "Handles invoice verification",
+        "Processes purchase orders"
+      ],
+      "answer": "Contains all necessary info for business activities with an external supplier"
+    },
+    {
+      "question": "Where is the material master data maintained?",
+      "choices": [
+        "Materials Management (MM)",
+        "Sales and Distribution (SD)",
+        "Production Planning (PP)",
+        "Finance and Controlling (FI/CO)"
+      ],
+      "answer": "Materials Management (MM)"
+    },
+    {
+      "question": "What does the purchasing information record provide?",
+      "choices": [
+        "Default info for purchase orders",
+        "Material storage locations",
+        "Customer billing information",
+        "Vendor payment details"
+      ],
+      "answer": "Default info for purchase orders"
+    },
+    {
+      "question": "Which view of the vendor master includes terms of payment and bank account details?",
+      "choices": [
+        "Company code data",
+        "Client level",
+        "Purchase org data",
+        "Sales data"
+      ],
+      "answer": "Company code data"
+    },
+    {
+      "question": "What function does the purchasing group serve?",
+      "choices": [
+        "Represents the buyer responsible for certain purchasing activities",
+        "Determines delivery schedules",
+        "Manages warehouse locations",
+        "Handles sales orders"
+      ],
+      "answer": "Represents the buyer responsible for certain purchasing activities"
+    },
+    {
+      "question": "Where is the storing of specific details on delivery plants and loading groups managed?",
+      "choices": [
+        "Material master - Sales view",
+        "Vendor master",
+        "Purchasing information record",
+        "Materials Management (MM) organizational structure"
+      ],
+      "answer": "Material master - Sales view"
+    },
+    {
+      "question": "What document initiates a specific request for goods or services within a company?",
+      "choices": [
+        "Purchase requisition",
+        "Vendor selection",
+        "Purchase order",
+        "Notify vendor"
+      ],
+      "answer": "Purchase requisition"
+    },
+    {
+      "question": "Which method can be used to create a purchase requisition automatically?",
+      "choices": [
+        "Internal sourcing",
+        "Outline agreement",
+        "Request for quotation (RFQ)",
+        "Indirectly or automatically"
+      ],
+      "answer": "Indirectly or automatically"
+    },
+    {
+      "question": "Which record specifies the allowed means for procuring material for a certain plant within a given period?",
+      "choices": [
+        "Internal sourcing",
+        "Source list",
+        "Outline agreement",
+        "Request for quotation (RFQ)"
+      ],
+      "answer": "Source list"
+    },
+    {
+      "question": "What types of longer-term purchasing agreements are included in outline agreements?",
+      "choices": [
+        "Contracts and vendor evaluation",
+        "Pricing and conditions",
+        "Contracts and scheduling agreements",
+        "Quotation and vendor selection"
+      ],
+      "answer": "Contracts and scheduling agreements"
+    },
+    {
+      "question": "What is the purpose of an RFQ (Request for Quotation)?",
+      "choices": [
+        "To request materials from vendors automatically",
+        "To initiate the goods receipt process",
+        "To negotiate prices with vendors",
+        "To evaluate vendor performance"
+      ],
+      "answer": "To negotiate prices with vendors"
+    },
+    {
+      "question": "What does the vendor's response to an RFQ become in SAP?",
+      "choices": [
+        "Vendor master",
+        "Purchase requisition",
+        "Purchase order",
+        "Quotation"
+      ],
+      "answer": "Quotation"
+    },
+    {
+      "question": "What is evaluated through vendor evaluation in MM?",
+      "choices": [
+        "Purchase orders and requisitions",
+        "Vendor performance and relations",
+        "Payment methods and terms",
+        "Invoices and goods receipts"
+      ],
+      "answer": "Vendor performance and relations"
+    },
+    {
+      "question": "Which document formally requests a vendor to supply specific materials or services?",
+      "choices": [
+        "Invoice",
+        "Quotation",
+        "Purchase order",
+        "Vendor shipment"
+      ],
+      "answer": "Purchase order"
+    },
+    {
+      "question": "What is represented by a movement type in the Goods Receipt process?",
+      "choices": [
+        "Vendor selection criteria",
+        "Quality inspection status",
+        "Goods movement category",
+        "Invoice verification status"
+      ],
+      "answer": "Goods movement category"
+    },
+    {
+      "question": "What is the final step in the Procure-to-Pay process in MM?",
+      "choices": [
+        "Vendor selection",
+        "Purchase requisition",
+        "Goods receipt",
+        "Payment to vendor"
+      ],
+      "answer": "Payment to vendor"
+    },
+    {
+      "question": "What is the process of aligning demand with manufacturing capacity in creating production and procurement \r\nschedules for the finished products and component materials?",
+      "answer": "Production Planning",
+      "choices": [
+        "Production Planning",
+        "Materials Management",
+        "Sales and Distribution",
+        "Financial Accounting"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "This is what you call the independent environment in the system.",
+      "answer": "Client",
+      "choices": [
+        "Client",
+        "Plant",
+        "Storage Location",
+        "Company Code"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) is the smallest organizational unit where a legal set of books can be maintained.",
+      "answer": "Company Code",
+      "choices": [
+        "Company Code",
+        "Plant",
+        "Storage Location",
+        "Client"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) is the operating area or branch within the company, such as manufacturing, distribution, purchasing, or maintenance facility.",
+      "answer": "Plant",
+      "choices": [
+        "Plant",
+        "Client",
+        "Storage Location",
+        "Company Code"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) allows differentiation between the various stocks of material in a plant.",
+      "answer": "Storage Location",
+      "choices": [
+        "Storage Location",
+        "Plant",
+        "Work Center Locations",
+        "Company Code"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) define where and when the operation is performed. These can be machines, people, production lines, or groups of tradespeople.",
+      "answer": "Work Center Locations",
+      "choices": [
+        "Work Center Locations",
+        "Client",
+        "Storage Location",
+        "Company Code"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "This master data contains all the information a company needs to manage a material.",
+      "answer": "Material Master",
+      "choices": [
+        "Material Master",
+        "Bill of Materials",
+        "Routing",
+        "Work Center"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "This master data lists the component that make up a product or assembly.",
+      "answer": "Bill of Materials",
+      "choices": [
+        "Material Master",
+        "Bill of Materials",
+        "Routing",
+        "Work Center"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "It is the series of sequential steps or operations that must be carried out to produce a given product.",
+      "answer": "Routing",
+      "choices": [
+        "Material Master",
+        "Bill of Materials",
+        "Routing",
+        "Work Center"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "It is the location within a plant where Value-added work is performed.",
+      "answer": "Work Center",
+      "choices": [
+        "Material Master",
+        "Bill of Materials",
+        "Routing",
+        "Work Center"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "It is aggregate planning that group materials or other product groups.",
+      "answer": "Product Group",
+      "choices": [
+        "Product Group",
+        "Bill of Materials",
+        "Material Master",
+        "Work Center"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "What are the three different kinds of Bill of Materials?",
+      "answer": "Single-level, Multi-level, Variant",
+      "choices": [
+        "Single-level, Multi-level, Variant",
+        "Single-level, Double-level, Multi-level",
+        "Single-level, Multi-level, Variance",
+        "One-level, Multi-level, Variant"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) is the foundation of a reliable Sales and Operations Planning (SOP). Accurate (?????) are essential in the \r\nmanufacturing sector, which could help oversee the stock since overstocked and understocked warehouses \r\nboth result in a profit loss",
+      "answer": "Forecasting",
+      "choices": [
+        "Forecasting",
+        "Guessing",
+        "Planning",
+        "Imagining"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "Which of the following aren't part of the Forecasting Model?",
+      "answer": "Fads",
+      "choices": [
+        "Fads",
+        "Trend",
+        "Seasonal",
+        "Constant"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) serves as the link between the Strategic Planning and Detailed Planning layers in Production Planning and Execution",
+      "answer": "Demand Management",
+      "choices": [
+        "Demand Management",
+        "Demand Program",
+        "Demand Planning",
+        "Demand"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) allows a company to distinguish planning methods between materials that strongly influence profit or use \r\ncritical resources and those that do not.",
+      "answer": "Master Production Scheduling",
+      "choices": [
+        "Master Production Scheduling",
+        "Master Requirement Planning",
+        "Production Order",
+        "Master Production Execution"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "In (?????), the system calculates the net requirements while considering available warehouse stock and scheduled receipts from purchasing and production. During (?????), all levels of the bill of material are planned.",
+      "answer": "Master Requirement Planning",
+      "choices": [
+        "Master Production Scheduling",
+        "Master Requirement Planning",
+        "Production Order",
+        "Master Production Execution"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "What is the primary purpose of the Controlling (CO) module in SAP?",
+      "choices": [
+        "To manage external financial reporting.",
+        "To provide an organization with a method of slicing and dicing data to view costs from an internal management perspective.",
+        "To handle payroll processing.",
+        "To manage customer relationships."
+      ],
+      "answer": "To provide an organization with a method of slicing and dicing data to view costs from an internal management perspective."
+    },
+    {
+      "question": "What is another name for the Controlling (CO) module?",
+      "choices": [
+        "Financial Accounting",
+        "Operational Accounting",
+        "Managerial Accounting",
+        "Cost Accounting"
+      ],
+      "answer": "Managerial Accounting"
+    },
+    {
+      "question": "Which of the following is a goal of the CO Organizational Structure?",
+      "choices": [
+        "Increase employee satisfaction.",
+        "Represent the legal and/or organizational views of an enterprise.",
+        "Improve customer service.",
+        "Enhance product quality."
+      ],
+      "answer": "Represent the legal and/or organizational views of an enterprise."
+    },
+    {
+      "question": "What is the smallest organizational unit where a legal set of books can be maintained in SAP?",
+      "choices": [
+        "Client",
+        "Company Code",
+        "Controlling Area",
+        "Operating Concern"
+      ],
+      "answer": "Company Code"
+    },
+    {
+      "question": "Which organizational unit in SAP Controlling is described as 'Self-contained unit for which revenues and expenses can be managed'?",
+      "choices": [
+        "Client",
+        "Company Code",
+        "Controlling Area",
+        "Operating Concern"
+      ],
+      "answer": "Controlling Area"
+    },
+    {
+      "question": "What is a Profit Center responsible for?",
+      "choices": [
+        "Revenue generation and cost containment.",
+        "Only revenue generation.",
+        "Only cost containment.",
+        "Neither revenue generation nor cost containment."
+      ],
+      "answer": "Revenue generation and cost containment."
+    },
+    {
+      "question": "What is the purpose of an Internal Order in SAP CO?",
+      "choices": [
+        "To generate revenue.",
+        "To contain costs for a temporary activity or project.",
+        "To manage external financial reporting.",
+        "To allocate costs between cost centers."
+      ],
+      "answer": "To contain costs for a temporary activity or project."
+    },
+    {
+      "question": "What is the relationship between a General Ledger revenue account and a CO revenue element?",
+      "choices": [
+        "No relationship.",
+        "1-to-1 linkage or mapping.",
+        "1-to-many linkage or mapping.",
+        "Many-to-1 linkage or mapping."
+      ],
+      "answer": "1-to-1 linkage or mapping."
+    },
+    {
+      "question": "Which cost element arises through the consumption of production factors that are sourced externally?",
+      "choices": [
+        "Primary Cost Element",
+        "Secondary Cost Element",
+        "Tertiary Cost Element",
+        "Quaternary Cost Element"
+      ],
+      "answer": "Primary Cost Element"
+    },
+    {
+      "question": "Which method is used for periodically allocating primary cost elements?",
+      "choices": [
+        "Distribution",
+        "Assessment",
+        "Allocation",
+        "Settlement"
+      ],
+      "answer": "Distribution"
+    },
+    {
+      "question": "What is the primary use of Statistical Key Figures in SAP CO?",
+      "choices": [
+        "Generate external financial reports.",
+        "Support internal cost allocations involving allocations, assessments, and distributions.",
+        "Manage payroll processing.",
+        "Track customer sales data."
+      ],
+      "answer": "Support internal cost allocations involving allocations, assessments, and distributions."
+    },
+    {
+      "question": "In S/4HANA, what replaces the separate cost element master data maintenance?",
+      "choices": [
+        "SAP FI Chart of Accounts",
+        "Transaction KA01",
+        "Universal Journal",
+        "Material Ledger"
+      ],
+      "answer": "SAP FI Chart of Accounts"
+    },
+    {
+      "question": "Which transaction can be used to view default account assignments transferred from the cost element master in S/4HANA?",
+      "choices": [
+        "KA01",
+        "KA02",
+        "KA03",
+        "OKB9"
+      ],
+      "answer": "OKB9"
+    },
+    {
+      "question": "In S/4HANA, how many levels are G/L accounts attributed to?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3"
+    },
+    {
+      "question": "What does the Universal Journal in S/4HANA combine account assignments from?",
+      "choices": [
+        "Controlling and Material Ledger",
+        "Profit Center and Controlling",
+        "Controlling, Profitability Analysis, and Enterprise Controlling",
+        "Financial Accounting and Controlling"
+      ],
+      "answer": "Controlling, Profitability Analysis, and Enterprise Controlling"
+    },
+    {
+      "question": "Which of the following is NOT an innovation provided by the Universal Journal?",
+      "choices": [
+        "Increased need for reconciliation",
+        "Reduced memory requirements",
+        "Harmonized external and internal accounting",
+        "Flexible real-time analyses"
+      ],
+      "answer": "Increased need for reconciliation"
+    },
+    {
+      "question": "What is now obligatory and automatically active in all SAP S/4HANA systems?",
+      "choices": [
+        "Universal Journal",
+        "Material Ledger",
+        "Cost Element Master Data",
+        "Chart of Accounts"
+      ],
+      "answer": "Material Ledger"
+    },
+    {
+      "question": "In S/4HANA, the Material Ledger allows the system to manage material prices in how many currencies/valuations?",
+      "choices": [
+        "One",
+        "Two",
+        "Multiple",
+        "None"
+      ],
+      "answer": "Multiple"
+    },
+    {
+      "question": "Which transaction replaces CKM3/CKM3N in S/4HANA?",
+      "choices": [
+        "CKM3PH",
+        "KA06",
+        "OKB9",
+        "KA01"
+      ],
+      "answer": "CKM3PH"
+    },
+    {
+      "question": "Which of the following is NOT a goal of the CO Organizational Structure?",
+      "choices": [
+        "Represent the legal and/or organizational views of an enterprise",
+        "Support the development and presentation of relevant information",
+        "Ensure profitability of external customers",
+        "Permit accurate and organized collection of business information"
+      ],
+      "answer": "Ensure profitability of external customers"
+    },
+    {
+      "question": "What is the primary function of a Company Code in the CO Organizational Structure?",
+      "choices": [
+        "Manage multiple controlling areas",
+        "Represent the legal and/or organizational views of an enterprise",
+        "Maintain a legal set of books",
+        "Support internal cost allocations"
+      ],
+      "answer": "Maintain a legal set of books"
+    },
+    {
+      "question": "Which organizational unit is defined as an independent environment in the system?",
+      "choices": [
+        "Company Code",
+        "Client",
+        "Operating Concern",
+        "Controlling Area"
+      ],
+      "answer": "Client"
+    },
+    {
+      "question": "What does a Controlling Area in the CO Organizational Structure manage?",
+      "choices": [
+        "Revenues and expenses",
+        "Legal books",
+        "Sales market structure",
+        "External financial reporting"
+      ],
+      "answer": "Revenues and expenses"
+    },
+    {
+      "question": "Which CO Master Data element is responsible for revenue generation and cost containment?",
+      "choices": [
+        "Cost Center",
+        "Internal Order",
+        "Profit Center",
+        "Revenue Element"
+      ],
+      "answer": "Profit Center"
+    },
+    {
+      "question": "Which CO Master Data element is used to plan, collect, and monitor the costs associated with a distinct short-term event?",
+      "choices": [
+        "Cost Center",
+        "Internal Order",
+        "Profit Center",
+        "Cost Element"
+      ],
+      "answer": "Internal Order"
+    },
+    {
+      "question": "What type of cost element arises through the consumption of production factors that are sourced externally?",
+      "choices": [
+        "Secondary Cost Element",
+        "Primary Cost Element",
+        "Revenue Element",
+        "Internal Order"
+      ],
+      "answer": "Primary Cost Element"
+    },
+    {
+      "question": "Which of the following is true about a Secondary Cost Element?",
+      "choices": [
+        "It originates in the General Ledger within FI",
+        "It is used exclusively in CO for allocations and settlements",
+        "It corresponds to General Ledger accounts in FI",
+        "It is responsible for revenue generation and cost containment"
+      ],
+      "answer": "It is used exclusively in CO for allocations and settlements"
+    },
+    {
+      "question": "What provides the foundation for accurate and effective cost allocation between cost objectives?",
+      "choices": [
+        "Cost Center",
+        "Internal Order",
+        "Statistical Key Figures",
+        "Revenue Element"
+      ],
+      "answer": "Statistical Key Figures"
+    },
+    {
+      "question": "What must be assigned when creating a cost element to determine the transactions for which it can be used?",
+      "choices": [
+        "Cost element category",
+        "General Ledger account",
+        "Cost center",
+        "Profit center"
+      ],
+      "answer": "Cost element category"
+    }
+  ]
+}
