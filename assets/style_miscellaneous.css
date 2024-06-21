@@ -379,7 +379,7 @@
 
 .AB_Credits_Contributors_Item{
     user-select: none;
-    cursor: pointer;
+    /* cursor: pointer; */
     /* width: 300px; */
     width: auto;
     /* max-width: 300px; */
