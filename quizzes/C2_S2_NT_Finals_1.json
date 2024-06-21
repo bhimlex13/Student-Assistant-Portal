@@ -1,0 +1,686 @@
+{
+  "quizInfo": {
+    "Subject": "Network Technology",
+    "Term": "Finals",
+    "Title": "06 Static and Dynamic Routing",
+    "LastModified": "15 June 2024",
+    "Authors": [
+      ""
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData":[
+    {
+      "question": "These routes are manually configured by network administrators, have low system requirements, and apply to simple, stable, and small networks",
+      "answer": "Static routes",
+      "choices": [
+        "Static routes",
+        "Dynamic Routes",
+        "Default Routes",
+        "Open Shortest Path First"
+      ]
+    },
+    {
+      "question": "The disadvantage of these routes is that they cannot automatically adapt to network topology changes and so require manual intervention",
+      "answer": "Static routes",
+      "choices": [
+        "Static routes",
+        "Dynamic Routes",
+        "Routing Infomation Protocol",
+        "Open Shortest Path First"
+      ]
+    },
+    {
+      "question": "A static route needs to be manually configured so that the packets sent can be forwarded to the next hop.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE .",
+        "Pero bakit parang kasalanan ko?",
+        "Pass. Di to kasama sa nireview ko."
+      ]
+    },
+    {
+      "question": "Specify a next-hop IP address for a static route",
+      "answer": "[Huawei] ip route-static ip-address { mask /mask-length } nexthop-address",
+      "choices": [
+        "[Huawei] ip route-static ip-address { mask /mask-length } nexthop-address",
+        "[Huawei] ip route-static ip-address { mask /mask-length } interface-type interface-number",
+        "[Huawei] ip route-static ip-address { mask /mask-length } interface-type interface-number [",
+        "[Huawei] ip route ip-address { mask /mask-length } nexthop-address"
+      ]
+    },
+    {
+      "question": "Specify an outbound interface for a static route.",
+      "answer": "[Huawei] ip route-static ip-address { mask /mask-length } interface-type interface-number",
+      "choices": [
+        "[Huawei] ip route-static ip-address { mask /mask-length } nexthop-address",
+        "[Huawei] ip route-static ip-address { mask /mask-length } interface-type interface-number",
+        "[Huawei] ip route-static ip-address { mask /mask-length } interface-type interface-number [",
+        "[Huawei] ip route ip-address { mask /mask-length } nexthop-address"
+      ]
+    },
+    {
+      "question": "Specify both the outbound interface and next hop for a static route.",
+      "answer": "[Huawei] ip route-static ip-address { mask /mask-length } interface-type interface-number [",
+      "choices": [
+        "[Huawei] ip route-static ip-address { mask /mask-length } nexthop-address",
+        "[Huawei] ip route-static ip-address { mask /mask-length } interface-type interface-number",
+        "[Huawei] ip route-static ip-address { mask /mask-length } interface-type interface-number [",
+        "[Huawei] ip route ip-address { mask /mask-length } nexthop-address"
+      ]
+    },
+    {
+      "question": "Packets are forwarded to neighbor routers at once.",
+      "answer": "The statement is FALSE . -- Packets are forwarded hop by hop",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE . -- Packets are forwarded hop by hop",
+        "The statement is FALSE . -- Packets cannot be forwarded.",
+        "Pass. Wala to sa farm."
+      ]
+    },
+    {
+      "question": "What are used only when packets to be forwarded do not match any routing entry in an IP routing table?",
+      "answer": "Default Routes",
+      "choices": [
+        "Static routes",
+        "Dynamic Routes",
+        "Default Routes",
+        "Open Shortest Path First"
+      ]
+    },
+    {
+      "question": "Which statement is correct about default routes?",
+      "answer": "A packet that matches no routing entry other than the default route is forwarded to an address mapped to the default route.",
+      "choices": [
+        "A packet that matches no routing entry other than the default route cannot be forwarded to an address mapped.",
+        "A packet that matches no routing entry other than the default route is forwarded to an address mapped to the default route.",
+        "A packet that matches no routing entry other than the default route is forwarded to an address mapped to the static route.",
+        "A packet that matches no routing entry other than the default route is forwarded to an address mapped to the nearest route."
+      ]
+    },
+    {
+      "question": "If no default route is available, IP packets that do not match any routing entry will be silently discarded.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE . -- IP packets that do not match any routing entry will be forwarded to static routes.",
+        "The statement is FALSE . -- IP packets that do not match any routing entry will be forwarded to default routes.",
+        "Pass. Di to kasama sa nireview ko."
+      ]
+    },
+    {
+      "question": "Routers and computers always have a default route stored in their IP routing table.",
+      "answer": "The statement is FALSE . -- Routers and computers may or may not have a default route stored in their IP routing table.",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE . -- Routers and computers may or may not have a default route stored in their IP routing table.",
+        "The statement is FALSE . -- Routers and computers need to configure the default route stored in their IP routing table before using.",
+        "Pass. Wala to sa farm."
+      ]
+    },
+    {
+      "question": "Which is true about static routes?",
+      "answer": "To use these routes on any device, you must manually configure them.",
+      "choices": [
+        "To use these routes on any device, you must manually configure them.",
+        "These routes can be automatically discovered and learned.",
+        "Commonly used distance vector routing that uses its routing metric to determine the best route or shortest path.",
+        "These routes are used only when packets to be forwarded do not match any routing entry in an IP routing table."
+      ]
+    },
+    {
+      "question": "Which is true about static routes?",
+      "answer": "These routes cannot adapt to link changes.",
+      "choices": [
+        "These routes cannot adapt to link changes.",
+        "These routes can be automatically discovered and learned.",
+        "These routes can adapt to topology changes.",
+        "These routes are used only when packets to be forwarded do not match any routing entry in an IP routing table."
+      ]
+    },
+    {
+      "question": "Which is true about dynamic routes?",
+      "answer": "These routes can be automatically discovered and learned.",
+      "choices": [
+        "These routes can be automatically discovered and learned.",
+        "These routes cannot adapt to link changes.",
+        "To use these routes on any device, you must manually configure them.",
+        "These routes are used only when packets to be forwarded do not match any routing entry in an IP routing table."
+      ]
+    },
+    {
+      "question": "Which is true about dynamic routes?",
+      "answer": "These routes can adapt to topology changes.",
+      "choices": [
+        "These routes can adapt to topology changes.",
+        "These routes cannot adapt to link changes.",
+        "To use these routes on any device, you must manually configure them.",
+        "These routes are used only when packets to be forwarded do not match any routing entry in an IP routing table."
+      ]
+    },
+    {
+      "question": "What is a a collection of networks and subnetworks where routers need to exchange routing information in the interconnection of networks?",
+      "answer": "Autonomous System",
+      "choices": [
+        "Autonomous System",
+        "Default System",
+        "Network Layer",
+        "Network System"
+      ]
+    },
+    {
+      "question": "What is the term for the network that connects one AS to another within the AS?",
+      "answer": "interior gateway",
+      "choices": [
+        "exterior gateway",
+        "core network",
+        "interior gateway",
+        "autonomous system"
+      ]
+    },
+    {
+      "question": "What is the term for the network that connects all the autonomous systems together?",
+      "answer": "core network",
+      "choices": [
+        "interior gateway",
+        "exterior gateway",
+        "core network",
+        "autonomous system"
+      ]
+    },
+    {
+      "question": "What is the term for the gateways that connect all the autonomous systems to the core network?",
+      "answer": "exterior gateways",
+      "choices": [
+        "interior gateway",
+        "core network",
+        "exterior gateways",
+        "autonomous system"
+      ]
+    },
+    {
+      "question": "What is another term for core network?",
+      "answer": "backbone",
+      "choices": [
+        "backbone",
+        "t-bone",
+        "bone marrow",
+        "boneless"
+      ]
+    },
+    {
+      "question": "What are the protocols classified as IGPs or EGPs used for in networking?",
+      "answer": "Routing Protocols",
+      "choices": [
+        "Routing Protocols",
+        "Exterior Gateway Protocol",
+        "Border Gateway Protocol",
+        "Routing algorithms"
+      ]
+    },
+    {
+      "question": "What protocol is meant to dynamically route data across a network that you fully control and maintain?",
+      "answer": "Interior Gateway Protocol",
+      "choices": [
+        "Interior Gateway Protocol",
+        "Exterior Gateway Protocol",
+        "Border Gateway Protocol",
+        "Routing algorithms"
+      ]
+    },
+    {
+      "question": "What protocol is used to exchange routes between distinctly separate networks that you have no administrative control over?",
+      "answer": "Exterior Gateway Protocol",
+      "choices": [
+        "Exterior Gateway Protocol",
+        "Interior Gateway Protocol",
+        "Border Gateway Protocol",
+        "Routing algorithms"
+      ]
+    },
+    {
+      "question": "What is the routing protocol used on the Internet, commonly used to run on your internet edge when connecting to your ISP?",
+      "answer": "Border Gateway Protocol",
+      "choices": [
+        "Border Gateway Protocol",
+        "Interior Gateway Protocol",
+        "Exterior Gateway Protocol",
+        "Routing algorithms"
+      ]
+    },
+    {
+      "question": "What determines good paths (routes) from senders to receivers through the network of routers?",
+      "answer": "Routing algorithms",
+      "choices": [
+        "Routing algorithms",
+        "Interior Gateway Protocol",
+        "Exterior Gateway Protocol",
+        "Border Gateway Protocol"
+      ]
+    },
+    {
+      "question": "What type of path finds a path between the source and destination with the least cost?",
+      "answer": "Least-cost path",
+      "choices": [
+        "Least-cost path",
+        "Shortest path",
+        "Default-cost path",
+        "Long-cost path"
+      ]
+    },
+    {
+      "question": "What type of path is the path with the smallest number of links between the source and the destination?",
+      "answer": "Shortest path",
+      "choices": [
+        "Least-cost path",
+        "Shortest path",
+        "Default-cost path",
+        "Long-cost path"
+      ]
+    },
+    {
+      "question": "What type of routing protocol involves all routers sending their routing tables to only their neighboring routers?",
+      "answer": "Distance-Vector Routing Protocol",
+      "choices": [
+        "Distance-Vector Routing Protocol",
+        "Routing Information Protocol",
+        "RIP Request",
+        "RIP Response"
+      ]
+    },
+    {
+      "question": "What is a commonly used distance vector routing protocol that uses its routing metric to determine the best route or shortest path a packet has to traverse from the source to a destination over a network?",
+      "answer": "Routing Information Protocol",
+      "choices": [
+        "Routing Information Protocol",
+        "Distance-Vector Routing Protocol",
+        "RIP Request",
+        "RIP Response"
+      ]
+    },
+    {
+      "question": "What term refers to the number of routers through which a packet passes to reach its destination?",
+      "answer": "hop count",
+      "choices": [
+        "hop count",
+        "destination count",
+        "router count",
+        "router hop"
+      ]
+    },
+    {
+      "question": "What is the maximum number of hops designed for RIP?",
+      "answer": "15 hops",
+      "choices": [
+        "15 hops",
+        "10 hops",
+        "25 hops",
+        "30 hops"
+      ]
+    },
+    {
+      "question": "How often does a router running RIP send the contents of its routing table to each of its adjacent routers?",
+      "answer": "30 seconds",
+      "choices": [
+        "30 seconds",
+        "180 seconds",
+        "15 seconds",
+        "45 seconds"
+      ]
+    },
+    {
+      "question": "After how many seconds is a route flagged as unusable by the receiving routers when it is removed from the routing table in RIP?",
+      "answer": "180 seconds",
+      "choices": [
+        "30 seconds",
+        "180 seconds",
+        "15 seconds",
+        "45 seconds"
+      ]
+    },
+    {
+      "question": "What are the two types of RIP messages that routers exchange?",
+      "answer": "request and response messages",
+      "choices": [
+        "request and response messages",
+        "internal and external messages",
+        "send and receive messages",
+        "forward and backward messages"
+      ]
+    },
+    {
+      "question": "What type of message does a RIP router send to all of its neighbors to request routing information of the entire RIP network when it starts up?",
+      "answer": "RIP Request",
+      "choices": [
+        "RIP Request",
+        "RIP Response",
+        "RIP Protocol",
+        "RIP Packet"
+      ]
+    },
+    {
+      "question": "What type of message does a RIP router immediately reply with upon receipt of a RIP request?",
+      "answer": "RIP Response",
+      "choices": [
+        "RIP Request",
+        "RIP Response",
+        "RIP Protocol",
+        "RIP Packet"
+      ]
+    },
+    {
+      "question": "What version of RIP uses IP broadcast packets for its announcements?",
+      "answer": "RIPv1",
+      "choices": [
+        "RIPv1",
+        "RIPv2",
+        "RIPv3",
+        "RIPv4"
+      ]
+    },
+    {
+      "question": "What version of RIP allows IP multicast packets for its announcements?",
+      "answer": "RIPv2",
+      "choices": [
+        "RIPv1",
+        "RIPv2",
+        "RIPv3",
+        "RIPv4"
+      ]
+    },
+    {
+      "question": "What type of routing protocol involves each of the routers sending the state of its own interfaces to all other routers only when there is a change to report?",
+      "answer": "Link-state Routing Protocol",
+      "choices": [
+        "Link-state Routing Protocol",
+        "Link-State (LS)",
+        "List of neighboring routers",
+        "Link-State PDU"
+      ]
+    },
+    {
+      "question": "What term refers to the description of the router interface in link-state routing protocol?",
+      "answer": "Link-State (LS)",
+      "choices": [
+        "Output cost",
+        "Link-State (LS)",
+        "Link-State Database (LSDB)",
+        "Link-State Advertisement (LSA)"
+      ]
+    },
+    {
+      "question": "What term refers to the cost of sending data packets on the interface, expressed in the link state metric in link-state routing protocol?",
+      "answer": "Output cost",
+      "choices": [
+        "Output cost",
+        "Link-State (LS)",
+        "List of neighboring routers",
+        "Link-State Advertisement (LSA)"
+      ]
+    },
+    {
+      "question": "What term refers to other routers that are attached through the link-state in link-state routing protocol?",
+      "answer": "List of neighboring routers",
+      "choices": [
+        "Link-State Database (LSDB)",
+        "Link-State (LS)",
+        "List of neighboring routers",
+        "Link-State Advertisement (LSA)"
+      ]
+    },
+    {
+      "question": "What term refers to an OSPF data packet containing link-state and routing information that is shared with the other routers in link-state routing protocol?",
+      "answer": "Link-State Advertisement (LSA)",
+      "choices": [
+        "Output cost",
+        "Link-State (LS)",
+        "List of neighboring routers",
+        "Link-State Advertisement (LSA)"
+      ]
+    },
+    {
+      "question": "What term refers to a unit of data describing the local state of router’s interfaces and adjacencies in link-state routing protocol?",
+      "answer": "Link-State PDU",
+      "choices": [
+        "Link-State PDU",
+        "Link-State (LS)",
+        "List of neighboring routers",
+        "Link-State Advertisement (LSA)"
+      ]
+    },
+    {
+      "question": "What term refers to a collection of all LS PDUs originated from the area’s routers in link-state routing protocol?",
+      "answer": "Link-State Database (LSDB)",
+      "choices": [
+        "Link-State Database (LSDB)",
+        "Link-State (LS)",
+        "List of neighboring routers",
+        "Link-State Advertisement (LSA)"
+      ]
+    },
+    {
+      "question": "What is the process called when routers that run a link-state routing protocol establish a neighbor relationship and then exchange Link State Advertisements?",
+      "answer": "LSA Flooding",
+      "choices": [
+        "LSA Flooding",
+        "SPF Calculation",
+        "Routing Table Generation",
+        "Open Shortest Path First (OSPF)"
+      ]
+    },
+    {
+      "question": "What is the process of each router generating LSAs and adding the received LSAs to its own linkstate database (LSDB) called?",
+      "answer": "LSDB Creation",
+      "choices": [
+        "LSDB Creation",
+        "SPF Calculation",
+        "Routing Table Generation",
+        "Open Shortest Path First (OSPF)"
+      ]
+    },
+    {
+      "question": "What is the process of each router using the Shortest Path First (SPF) algorithm and LSDB information to calculate routes called?",
+      "answer": "SPF Calculation",
+      "choices": [
+        "SPF Calculation",
+        "LSDB Creation",
+        "Routing Table Generation",
+        "Open Shortest Path First (OSPF)"
+      ]
+    },
+    {
+      "question": "What is the process of the router installing routes for the calculated preferred paths into its routing table called?",
+      "answer": "Routing Table Generation",
+      "choices": [
+        "Routing Table Generation",
+        "LSDB Creation",
+        "SPF Calculation",
+        "Open Shortest Path First (OSPF)"
+      ]
+    },
+    {
+      "question": "What is the link-state routing protocol developed by the IETF in 1988 that is capable of quickly detecting topological changes within the autonomous system and establishing loop-free routes in a short period of time, with minimum additional communication overhead for negotiating topology changes between peering routers?",
+      "answer": "Open Shortest Path First (OSPF)",
+      "choices": [
+        "Open Shortest Path First (OSPF)",
+        "LSDB Creation",
+        "SPF Calculation",
+        "Routing Table Generation"
+      ]
+    },
+    {
+      "question": "What is the OSPF area keyword that identifies an OSPF area called?",
+      "answer": "Area",
+      "choices": [
+        "Area",
+        "Router ID",
+        "Cost Value",
+        "Cost Hop"
+      ]
+    },
+    {
+      "question": "What term uniquely identifies a router in an OSPF area?",
+      "answer": "Router ID",
+      "choices": [
+        "Area",
+        "Router ID",
+        "Cost Value",
+        "Cost Hop"
+      ]
+    },
+    {
+      "question": "What term does OSPF use as route metrics?",
+      "answer": "Cost Value",
+      "choices": [
+        "Area",
+        "Router ID",
+        "Cost Value",
+        "Cost Hop"
+      ]
+    },
+    {
+      "question": "What are the important concepts about the relationship between OSPF routers?",
+      "answer": "Neighbor relationship and adjacency",
+      "choices": [
+        "Neighbor relationship and adjacency",
+        "LSDB Creation",
+        "SPF Calculation",
+        "Routing Table Generation"
+      ]
+    },
+    {
+      "question": "What is the special data packet (message) that is sent out periodically from a router to establish and confirm network adjacency relationships to other routers in the OSPF called?",
+      "answer": "HELLO packet",
+      "choices": [
+        "HELLO packet",
+        "HELLO WORLD packet",
+        "TEST packet",
+        "TEST NETWORK packet"
+      ]
+    },
+    {
+      "question": "What is the first step in the Link-State Process?",
+      "answer": "LSA Flooding",
+      "choices": [
+        "LSDB Creation",
+        "SPF Calculation",
+        "Routing Table Generation",
+        "LSA Flooding"
+      ]
+    },
+    {
+      "question": "What is the second step in the Link-State Process?",
+      "answer": "LSDB Creation",
+      "choices": [
+        "LSDB Creation",
+        "SPF Calculation",
+        "Routing Table Generation",
+        "LSA Flooding"
+      ]
+    },
+    {
+      "question": "What is the third step in the Link-State Process?",
+      "answer": "SPF Calculation",
+      "choices": [
+        "LSDB Creation",
+        "SPF Calculation",
+        "Routing Table Generation",
+        "LSA Flooding"
+      ]
+    },
+    {
+      "question": "What is the fourth step in the Link-State Process ?",
+      "answer": "Routing Table Generation",
+      "choices": [
+        "LSDB Creation",
+        "SPF Calculation",
+        "Routing Table Generation",
+        "LSA Flooding"
+      ]
+    },
+    {
+      "question": "What command is used to display the OSPF neighbor table in Huawei routers?",
+      "answer": "[R1] display ospf peer",
+      "choices": [
+        "[R1] display ospf peer",
+        "[R1] display ospf routing",
+        "[R1] display ospf ip address",
+        "[R1] display ospf ip routing"
+      ]
+    },
+    {
+      "question": "What command is used to display the OSPF routing table in Huawei routers?",
+      "answer": "[R1] display ospf routing",
+      "choices": [
+        "[R1] display ospf routing",
+        "[R1] display ospf peer",
+        "[R1] display ospf ip peer",
+        "[R1] display ospf ip routing peer"
+      ]
+    },
+    {
+      "question": "What is the ISO name for a router in IS-IS terminologies?",
+      "answer": "IS (Intermediate System)",
+      "choices": [
+        "IS (Intermediate System)",
+        "NSAP (Network Service Access Point)",
+        "CLNS (Connection-Less Network Service)",
+        "IS-IS (Intermediate System-to-Intermediate System)"
+      ]
+    },
+    {
+      "question": "What algorithm does IS-IS use to find the best path to each destination?",
+      "answer": "Dijkstra’s (Shortest Path First) algorithm",
+      "choices": [
+        "Dijkstra’s (Shortest Path First) algorithm",
+        "Floyd-Warshall algorithm",
+        "Prim's algorithm",
+        "Kruskal's algorithm"
+      ]
+    },
+    {
+      "question": "What is the term for a device on the network, such as a server or workstation, in IS-IS terminologies?",
+      "answer": "ES (End System)",
+      "choices": [
+        "ES (End System)",
+        "NSAP (Network Service Access Point)",
+        "CLNS (Connection-Less Network Service)",
+        "IS-IS (Intermediate System-to-Intermediate System)"
+      ]
+    },
+    {
+      "question": "What is the network service in the OSI stack in IS-IS terminologies?",
+      "answer": "CLNS (Connection-Less Network Service)",
+      "choices": [
+        "CLNS (Connection-Less Network Service)",
+        "ES (End System)",
+        "NSAP (Network Service Access Point)",
+        "IS-IS (Intermediate System-to-Intermediate System)"
+      ]
+    },
+    {
+      "question": "What is a Layer-3 address for CLNS packets in IS-IS terminologies?",
+      "answer": "NSAP (Network Service Access Point)",
+      "choices": [
+        "NSAP (Network Service Access Point)",
+        "ES (End System)",
+        "CLNS (Connection-Less Network Service)",
+        "IS-IS (Intermediate System-to-Intermediate System)"
+      ]
+    },
+    {
+      "question": "What protocol forms neighbor adjacencies, has areas, exchanges link-state packets, builds a link-state database, and runs the Dijkstra’s algorithm to find the best path to each destination?",
+      "answer": "IS-IS (Intermediate System-to-Intermediate System)",
+      "choices": [
+        "IS-IS (Intermediate System-to-Intermediate System)",
+        "IS (Intermediate System)",
+        "ES (End System)",
+        "CLNS (Connection-Less Network Service)"
+      ]
+    }
+  ]
+}
