@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--SAP-Main-BG-Color);
+}
+
+button{
+    outline: transparent;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* button:focus{
+    outline: solid var(--SAP-Purple-Base) 2px;
+} */
+
+.Page_Content{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.MenuBar{
+    /* position: fixed; */
+    width: 250px;
+    height: 100%;
+    background-color: var(--SAP-Gray-Level-2L);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.MenuBar_List{
+    display: flex;
+    flex-direction: column;
+}
+
+.MenuBar_List_Item{
+    display: grid;
+    grid-template-columns: 30px auto 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 25px;
+}
+
+.MenuBar_List_Item:hover{
+    background-color: var(--SAP-Gray-Level-1L);
+}
+
+.MenuBar_List_Item[State="Selected"]{
+    background-color: var(--SAP-Purple-Level-3L);
+}
+
+.MenuBar_List_Item_Icon{
+    width: 25px;
+}
+
+.MenuBar_List_Item_Indicator{
+    position: absolute;
+    z-index: -1;
+    top: -12px;
+    border-radius: 25px;
+    height: 35px;
+    width: 0px;
+}
+
+.MenuBar_List_Item_Text{
+    font-family: var(--Text-Font-Primary);
+    font-size: 15px;
+    text-align: left;
+    /* font-weight: bold; */
+    margin: 0;
+}
+
+.Page_Content_Main{
+    /* background-color: red; */
+    /* padding: 10px; */
+}
+
+.Page_Overlays{
+    /* background-color: red; */
+    z-index: 50;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.General_Button{
+    border-radius: 25px;
+    border: solid var(--SAP-Gray-Level-2D) 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: var(--Text-Font-Secondary);
+}
+
+.General_Button:hover{
+    box-shadow: unset;
+    color: white;
+    background-color: var(--SAP-Purple-Level-1L);
+    border: solid var(--SAP-Purple-Level-2D) 1px;
+}
+
+.General_Button:active{
+    background-color: var(--SAP-Purple-Base);
+    border: solid var(--SAP-Purple-Level-4D) 1px;
+}

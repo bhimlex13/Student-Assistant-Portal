@@ -1,0 +1,172 @@
+/*
+    Contains CSS variable values used throughout the app
+*/
+
+@font-face {
+	font-family: "Raleway";
+	src: url('../Assets/Fonts/Raleway-VariableFont_wght.ttf') format("truetype");
+	font-weight: 100 900;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url('../Assets/Fonts/Roboto-Regular.ttf') format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Alexandria";
+	src: url("../Assets/Fonts/Alexandria-VariableFont_wght.ttf") format("truetype");
+	font-weight: normal;
+}
+
+@font-face {
+    font-family: "StylishCurves";
+    src: url("../Assets/Fonts/OneUI6DefaultFont_SEC-VF.ttf") format("truetype");
+}
+
+:root{
+	--SAP-Purple-Level-4L: #c3c8ff;
+	--SAP-Purple-Level-3L: #9fa4ff;
+	--SAP-Purple-Level-2L: #7d79ff;
+	--SAP-Purple-Level-1L: #6c5afa;
+	--SAP-Purple-Base: #5937ef;
+	--SAP-Purple-Level-1D: #502ed4;
+	--SAP-Purple-Level-2D: #4128ab;
+	--SAP-Purple-Level-3D: #382986;
+	--SAP-Purple-Level-4D: #22184e;
+
+	--SAP-Gray-Level-3L: #f7f7f7;
+	--SAP-Gray-Level-2L: #ededed;
+	--SAP-Gray-Level-1L: #dfdfdf;
+	--SAP-Gray-Base: #cacaca;
+	--SAP-Gray-Level-1D: #adadad;
+	--SAP-Gray-Level-2D: #999999;
+	--SAP-Gray-Level-3D: #888888;
+
+	--SAP-Yellow-Level-4L: #fffbeb;
+	--SAP-Yellow-Level-3L: #fff5c6;
+	--SAP-Yellow-Level-2L: #ffe888;
+	--SAP-Yellow-Level-1L: #ffd74a;
+	--SAP-Yellow-Base: #ffc014;
+	--SAP-Yellow-Level-1D: #f9a207;
+	--SAP-Yellow-Level-2D: #dd7902;
+	--SAP-Yellow-Level-3D: #b75506;
+	--SAP-Yellow-Level-4D: #94400c;
+
+	--SAP-Green-Level-3L: #36f434;
+	--SAP-Green-Level-2L: #0bde09;
+	--SAP-Green-Level-1L: #02b801;
+	--SAP-Green-Base: #059805;
+	--SAP-Green-Level-1D: #0a710a;
+	--SAP-Green-Level-2D: #0a5d0c;
+	--SAP-Green-Level-3D: #003402;
+
+	--SAP-Red-Level-3L: #f17878;
+	--SAP-Red-Level-2L: #e64d4d;
+	--SAP-Red-Level-1L: #d23030;
+	--SAP-Red-Base: #be2727;
+	--SAP-Red-Level-1D: #922222;
+	--SAP-Red-Level-2D: #7a2222;
+	--SAP-Red-Level-3D: #420d0d;
+
+	--SAP-Header-BG-Color: white;
+	--SAP-Header-Border-Color: var(--SAP-Gray-Base);
+
+	--SAP-Main-BG-Color: white;
+
+	--SAP-Margin-Left: 7%;
+	--SAP-Margin-Right: 7%;
+
+	--SAP-BG-Opacitated: rgba(0, 0, 0, 0.80);
+
+	--Text-Font-Primary: StylishCurves, "Trebuchet MS", "Arial";
+	--Text-Font-Secondary: Alexandria, "Arial", "Helvetica";
+	--Text-Font-Tertiary: Roboto, "Arial", "Helvetica";
+	--Text-Font-Code: "Courier New";
+	--Text-Font-Numbers: Alexandria, "Arial", "Helvetica";
+	--Text-Color: black;
+	
+	@media only screen and (max-width: 600px){
+		--SAP-Margin-Left: 15px;
+		--SAP-Margin-Right: 15px;
+	}
+
+	/* @media only screen and (max-width: 1250px){
+		--SAP-Margin-Left: 15%;
+		--SAP-Margin-Right: 15%;
+	} */
+
+    --Debug-ElementOutline: none;
+	/* --BG-Img-Wallpaper-Main: url(../../Assets/Background/BG_SplashScreen.jpg);
+	--BG-Img-Wallpaper-Clock: url(../../Assets/Background/Telephone.png);
+    --BG-Img-Wallpaper-Loading: url(../../Assets/Background/BG_SplashScreen.jpg);
+	--BG-Img-Splash: url(../../Assets/Background/BG_SplashScreen.jpg); */
+
+	
+
+	--Sidebar-Width-Expanded: 300px;
+	--Sidebar-Width-Collapsed: 50px;
+	
+	--Element-Transition-Delay: 0.35s;
+	--Element-Animation-Duration: 0.5s;
+	--Element-BoxShadow: 0cm 0cm 0.28218705792108cm 0.03527338224013cm rgba( 0, 0, 0, 0.50); 
+	--Element-BoxShadow-Hover: 0cm 0cm 0.28218705792108cm 0.03527338224013cm  var(--Accent-Color-Hover); 
+	--Element-Icon-Brightness: brightness(1);
+	--Element-BackdropBlur: blur(10px);
+	--Element-ContentContainer-MarginnedWidth: 70%;
+
+	--BG-Color-Opacitated: rgba(28, 28, 28, 0.50);
+
+	
+	
+	--Accent-Color: #4a27e7;
+	--Accent-Color-Hover: #5835f3;
+	--Accent-Color-Focus: #4a27e7;
+
+	--BG-Color-Scrollbar: transparent;
+	--BG-Color-Scrollbar-Thumb: var(--Accent-Color);
+	--BG-Color-Scrollbar-Thumb-Hover: var(--Accent-Color-Hover);
+	--BG-Color-Selection: var(--Accent-Color);
+
+	--BG-Color-General: #171010;
+	--BG-Color-General-Menus: #202020;
+	--BG-Color-LoadingScreen: #241c1c;
+	--BG-Color-LoadingScreen-Splash-NameSpace: #303030;
+	--BG-Color-LoadingScreen-Splash-Loader: #1f1e1e;
+	--BG-Color-Hover: #242424;
+	--BG-Color-Focus: #22116d;
+	--BG-Color-Overlay-Header: #161616;
+	--BG-Color-Overlay-Sidebar: #161616;
+	--BG-Color-Overlay-Ribbon: #161616;
+	--BG-Color-Overlay-CornerButtons: var(--Accent-Color);
+	--BG-Color-Overlay-CornerButtons-Hover: var(--Accent-Color-Hover);
+	--BG-Color-Button-General: #1E1E24;
+	--BG-Color-Button-General-Hover: var(--BG-Color-Hover);
+	--BG-Color-Button-General-Focus: var(--BG-Color-Focus);
+	--BG-Color-Button-General-Accent: #111114;
+	--BG-Color-Button-General-Accent-Hover: var(--Color-Borders);
+	--BG-Color-Button-General-Accent-Focus: var(--Accent-Color-Focus);
+	--BG-Color-Button-ToggleIndicator-Activated: var(--Accent-Color); 
+	--BG-Color-Button-ToggleIndicator-Deactivated: var(--BG-Color-Button-General); 
+	--BG-Color-Button-Dropdown: var(--BG-Color-Button-General); 
+	--BG-Color-Button-Dropdown-Hover: var(--BG-Color-Button-General-Hover);
+	--BG-Color-Button-Dropdown-Active: rgb(54, 54, 54);
+	--BG-Color-Button-Dropdown-Accent: var(--Accent-Color);
+	--BG-Color-Button-Dropdown-Accent-Hover: var(--Accent-Color-Hover);
+	--BG-Color-Button-Dropdown-Accent-Active: var(--Accent-Color-Focus);
+	--BG-Color-Button-Dropdown-List: var(--BG-Color-Button-General);
+	--BG-Color-Button-Dropdown-List-Item-Hover: #282830;
+	--BG-Color-Subwindows: #1a1a1a;
+	--BG-Color-Input: var(--BG-Color-Button-General);
+	--BG-Color-Input-Hover: var(--BG-Color-Button-General-Hover);
+	--BG-Color-Input-Focus: var(--BG-Color-Button-General-Focus);
+	--BG-Color-Input-Accent: var(--Accent-Color);
+	--BG-Color-Input-Accent-Hover: var(--Accent-Color-Hover);
+	--BG-Color-Input-Accent-Focus: var(--Accent-Color-Active);
+	--Color-Dividers: #303030;
+	--Color-Borders: var(--Color-Dividers);
+	--Color-Borders-Hover: var(--Accent-Color-Hover);
+	--Color-Borders-Focus: var(--Accent-Color-Focus);
+}

@@ -497,7 +497,7 @@ var quizData = [
     "term": "Prelim"
   },
   {
-    "question": "Republic Act No. 9501, also known as the________ , defines a small, medium, or micro enterprise (SME) as any business with 10 to 199 employees and total assets of up to three (3) to 100 million pesos. It gives guidelines for how a new business can succeed in the market and acknowledges the significance of SMEs to the growth of the nation's economy.",
+    "question": "Republic Act No. 9501, also known as the________ , defines a small, medium, or micro enterprise (SME) as any business with 10 to 199 employees and total Assets of up to three (3) to 100 million pesos. It gives guidelines for how a new business can succeed in the market and acknowledges the significance of SMEs to the growth of the nation's economy.",
     "answer": "Magna Carta for SMEs",
     "choices": [
       "Magna Carta for SMEs",

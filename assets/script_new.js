@@ -1,9 +1,9 @@
 // Sound effects
-var Sound_Correct = new Audio("assets/sounds/Correct_2.mp3");
-var Sound_Wrong = new Audio("assets/sounds/Wrong_2.mp3");
-var Sound_Complete = new Audio("assets/sounds/in.ogg");
-var Sound_Excellent = new Audio("assets/sounds/challenge_complete.ogg");
-var Sound_Perfect = new Audio("assets/sounds/challenge_complete_old.ogg");
+var Sound_Correct = new Audio("Assets/sounds/Correct_2.mp3");
+var Sound_Wrong = new Audio("Assets/sounds/Wrong_2.mp3");
+var Sound_Complete = new Audio("Assets/sounds/in.ogg");
+var Sound_Excellent = new Audio("Assets/sounds/challenge_complete.ogg");
+var Sound_Perfect = new Audio("Assets/sounds/challenge_complete_old.ogg");
 
 window.onbeforeunload = function (event) {
     return confirm("Confirm refresh");

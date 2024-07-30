@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id="Page_Title">
+        Student Assistant Portal
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" href="Scripts/SAP_Main.css">
+    <link rel="icon" type="image/png" href="Assets/Icons/favicon.png" sizes="96x96" id="Page_Favicon">
+    <meta 
+        property="og:image"
+        content="https://bhimlex13.github.io/Student-Assistant-Portal/images/Thumbnail_Branding_1.png" 
+    />
+    <meta 
+        property="og:title" 
+        content="Student Assistant Portal" 
+    />
+    <meta 
+        property="og:description" 
+        content="It's reviewing time" 
+    />
+</head>
+<body>
+    <script src="Scripts/SAP_Javascript_Main.js"></script>
+    <script src="Scripts/SAP_Javascript_ERUMAUI.js"></script>
+    <script src="Scripts/SAP_Javascript_ERUMAUI_Core.js"></script>
+    <script src="Scripts/SAP_Javascript_Home.js"></script>
+    <div class="Page_Overlays">
+        <div class="Home_Welcome_Loading" id="Home_Welcome_Loading">
+            <div class="General_Loading_Compact">
+                <div class="General_Loading_Compact_Bar"></div>
+                <div class="General_Loading_Compact_Bar"></div>
+                <div class="General_Loading_Compact_Bar"></div>
+                <div class="General_Loading_Compact_Bar"></div>
+            </div>
+            <h3 class="Home_Welcome_Loading_Text">
+              Loading...
+            </h3>
+        </div>
+        <div class="Home_Welcome" id="Home_Welcome">
+            <div class="Home_Welcome_Background">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="Home_Welcome_Content">
+                <div class="Home_Welcome_Title">
+                    <h1 class="Home_Welcome_Title_Text">
+                        Student
+                    </h1>
+                    <h1 class="Home_Welcome_Title_Text">
+                        Assistant
+                    </h1>
+                    <h1 class="Home_Welcome_Title_Text">
+                        Portal
+                    </h1>
+                </div>
+                <div class="Home_Welcome_Main" id="Home_Welcome_Main">
+                    <h1 class="Home_Welcome_Main_Title">
+                        Welcome!
+                    </h1>
+                    <h4 class="Home_Welcome_Main_Description">
+                        Click confirm to access SAP.
+                    </h4>
+                    <button class="General_Button" onclick="Home_Start()">
+                        Confirm
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Page_Content">
+        <div class="MenuBar" id="Sidebar">
+            <div class="MenuBar_Title">
+                
+            </div>
+            <div class="MenuBar_List">
+                <button class="MenuBar_List_Item" State="Selected" id="Quizzes" onclick="Tabs_ChangeTab(this.id, 'Vertical')" Tabs_Tab_Target_Container="Content" Tabs_Tab_Target_Tab="tab_Quizzes" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
+                    <img class='MenuBar_List_Item_Icon' src='Assets/Icons/favicon.png' draggable='false' loading='lazy'/>
+                    <span class="MenuBar_List_Item_Indicator">
+                    </span>
+                    <p class="MenuBar_List_Item_Text">
+                        Quizzes
+                    </p>
+                </button>
+                <button class="MenuBar_List_Item" id="Schedules" onclick="Tabs_ChangeTab(this.id, 'Vertical')" Tabs_Tab_Target_Container="Content" Tabs_Tab_Target_Tab="tab_Schedules" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Schedules" Tabs_UseHeaderTitle="false">
+                    <img class='MenuBar_List_Item_Icon' src='Assets/Icons/favicon.png' draggable='false' loading='lazy'/>
+                    <span class="MenuBar_List_Item_Indicator">
+                    </span>
+                    <p class="MenuBar_List_Item_Text">
+                        Schedules
+                    </p>
+                </button>
+                <button class="MenuBar_List_Item" id="User" onclick="Tabs_ChangeTab(this.id, 'Vertical')" Tabs_Tab_Target_Container="Content" Tabs_Tab_Target_Tab="tab_User" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Schedules" Tabs_UseHeaderTitle="false">
+                    <img class='MenuBar_List_Item_Icon' src='Assets/Icons/favicon.png' draggable='false' loading='lazy'/>
+                    <span class="MenuBar_List_Item_Indicator">
+                    </span>
+                    <p class="MenuBar_List_Item_Text">
+                        You
+                    </p>
+                </button>
+            </div>
+        </div>
+        <div class="Page_Content_Main" id="Content" Tabs_CurrentTab="">
+            <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Quizzes">
+                <h1 class="Home_Page_Title">
+                    Quizzes
+                </h1>
+                <div class="Quizzes_SubjectList" id="SubjectList_List"> 
+                    <!-- Content generated by index.js -->
+                </div>
+            </div>
+            <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules">
+                <h1 class="Home_Page_Title">
+                    Schedules
+                </h1>
+            </div>
+            <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_User">
+                <h1 class="Home_Page_Title">
+                    You
+                </h1>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
