@@ -56,3 +56,7 @@ function Element_Style_Animate_Batch_QuerySelector(QuerySelector, Animation_Name
 function Element_Style_Display(ElementID, ElementDisplay){
 	document.getElementById(ElementID).style.display = ElementDisplay;
 }
+
+function Page_ChangePage(URL){
+	window.location = URL;
+}

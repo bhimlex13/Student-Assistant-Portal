@@ -1,0 +1,109 @@
+.Explorer{
+    /* background-color: red; */
+    padding-right: 40px;
+    padding-top: 15px;
+}
+
+.Explorer[Type = "Image"]{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 15px;
+}
+
+.Explorer[Type = "Text"]{
+    display: flex;
+    flex-direction: column;
+}
+
+.Explorer_Item{
+    display: grid;
+    border: solid var(--SAP-Gray-Base) 1px;
+    padding: 15px;
+    padding-bottom: 0px;
+    justify-content: center;
+    border-radius: 15px;
+    grid-gap: 10px;
+    cursor: pointer;
+}
+
+.Explorer_Item:hover{
+    background-color: var(--SAP-Gray-Level-1L);
+}
+
+.Explorer_Item:focus{
+    border: solid var(--SAP-Purple-Level-1L) 1px;
+    outline: solid var(--SAP-Purple-Level-1L) 2px;
+}
+
+.Explorer_Item:active{
+    background-color: var(--SAP-Purple-Level-4L);
+}
+
+.Explorer_Item[Type = "Image"]{
+    grid-template-areas: 
+    "Image"
+    "Details";
+}
+
+.Explorer_Item[Type = "Text"]{
+    display: block;
+    grid-template-areas: "Details";
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+.Explorer_Item_Image{
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0%;
+}
+
+.Explorer_Item_Image[State = "Loaded"]{
+    opacity: 100%;
+}
+
+.Explorer_Item_Details{
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px;
+}
+
+.Explorer_Item[Type = "Image"] > .Explorer_Item_Details{
+    display: grid;
+    background-color: var(--SAP-Purple-Level-2L);
+    grid-template-areas: 
+    "Primary"
+    "Secondary";
+}
+
+.Explorer_Item[Type = "Text"] > .Explorer_Item_Details{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-template-areas: 
+    "Primary Secondary";
+    /* background-color: var(--SAP-Purple-Level-2L); */
+}
+
+.Explorer_Item[Type = "Text"] > .Explorer_Item_Details > .Explorer_Item_Details_Text[Primary]{
+    text-align: left;
+}
+
+
+.Explorer_Item[Type = "Text"] > .Explorer_Item_Details > .Explorer_Item_Details_Text[Secondary]{
+    text-align: right;
+}
+
+.Explorer_Item_Details_Text[Primary]{
+    font-family: var(--Text-Font-Primary);
+    margin: 0;
+}
+
+.Explorer_Item_Details_Text[Secondary]{
+    font-family: var(--Text-Font-Primary);
+    margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+}
