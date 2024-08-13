@@ -24,6 +24,7 @@
     border-radius: 15px;
     grid-gap: 10px;
     cursor: pointer;
+    opacity: 0%;
 }
 
 .Explorer_Item:hover{
@@ -71,7 +72,7 @@
 
 .Explorer_Item[Type = "Image"] > .Explorer_Item_Details{
     display: grid;
-    background-color: var(--SAP-Purple-Level-2L);
+    background-color: var(--SAP-Purple-Level-4L);
     grid-template-areas: 
     "Primary"
     "Secondary";

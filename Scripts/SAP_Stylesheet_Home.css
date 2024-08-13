@@ -225,3 +225,80 @@
 .Home_Welcome_Loading_Text{
     font-family: var(--Text-Font-Secondary);
 }
+
+.Quizzes{
+    position: relative;
+}
+
+.Quizzes[State = "Header_Inactive"]{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-rows: 0px 1fr;
+}
+
+.Quizzes[State = "Header_Active"]{
+    display: grid;
+    grid-template-rows: 65px 1fr;
+}
+
+.Quizzes_Title{
+    padding: 10px;
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    margin-right: 40px;
+    opacity: 0%;
+    /* display: none; */
+    visibility: hidden;
+    overflow-y: hidden;
+    position: sticky;
+    top: 15px;
+    z-index: 15;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: var(--Element-BackdropBlur);
+}
+
+.Quizzes_Title > button{
+    background-color: white;
+}
+
+.Quizzes[State = "Header_Active"] > .Quizzes_Title{
+    opacity: 100%;
+    visibility: visible;
+    /* display: grid; */
+}
+
+.Quizzes_Title_Content{
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.Quizzes_Title_Text{
+    font-family: var(--Text-Font-Primary);
+    margin: 0;
+}
+
+.Quizzes_Title_Content[Stage = "Subject"] > .Quizzes_Subject{
+    transform: translateY(15px);
+    font-size: 100%;
+}
+
+.Quizzes_Title_Content[Stage = "Subject"] > .Quizzes_Folder{
+    opacity: 0%;
+    transform: translateY(15px);
+}
+
+.Quizzes_Title_Content[Stage = "Folder"] > .Quizzes_Subject{
+    color: var(--SAP-Gray-Base);
+    font-size: 15px;
+    transform: translateY(3px);
+}
+
+.Quizzes_Title_Content[Stage = "Folder"] > .Quizzes_Folder{
+    opacity: 100%;
+    transform: translateY(-2px);
+}
