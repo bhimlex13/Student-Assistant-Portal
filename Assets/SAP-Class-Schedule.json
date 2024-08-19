@@ -1,0 +1,412 @@
+{
+    "Status": "Active",
+    "Schedule_Semester": "Second",
+    "Schedule_Section": [
+        {
+            "Section_Status": "Active",
+            "Section_ID": "C3_S1_IT501A",
+            "Section_Name": "IT501-A",
+            "Section_Schedule": [
+                {
+                    "Schedule_Day": "Monday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Application Development and Emerging Technologies",
+                            "Subject_Duration": ["6:30 AM", "8:00 AM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        },
+                        {
+                            "Subject_Name": "Advanced Database Systems",
+                            "Subject_Duration": ["8:00 AM", "10:00 AM"],
+                            "Subject_Location": "Rm. 307"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Tuesday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Data and Digital Communications (Data Communications)",
+                            "Subject_Duration": ["6:30 AM", "8:00 AM"],
+                            "Subject_Location": "Comp. Lab 2"
+                        },
+                        {
+                            "Subject_Name": "Data and Digital Communications (Data Communications)",
+                            "Subject_Duration": ["8:00 AM", "10:00 AM"],
+                            "Subject_Location": "Rm. 307"
+                        },
+                        {
+                            "Subject_Name": "Advanced Systems Integration and Architecture",
+                            "Subject_Duration": ["11:00 AM", "2:00 PM"],
+                            "Subject_Location": "Comp. Lab 2"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Wednesday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Enterprise Architecture",
+                            "Subject_Duration": ["6:30 AM", "8:00 AM"],
+                            "Subject_Location": "Comp. Lab 2"
+                        },
+                        {
+                            "Subject_Name": "Professional Issues in Information Systems and Technology",
+                            "Subject_Duration": ["8:00 AM", "9:30 AM"],
+                            "Subject_Location": "Rm. 205"
+                        },
+                        {
+                            "Subject_Name": "Advanced Database Systems",
+                            "Subject_Duration": ["9:30 AM", "11:00 AM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        },
+                        {
+                            "Subject_Name": "Event-Driven Programming",
+                            "Subject_Duration": ["11:00 AM", "12:30 AM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Thursday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Application Development and Emerging Technologies",
+                            "Subject_Duration": ["6:30 AM", "8:00 AM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        },
+                        {
+                            "Subject_Name": "Advanced Database Systems",
+                            "Subject_Duration": ["8:00 AM", "10:00 AM"],
+                            "Subject_Location": "Rm. 310"
+                        },
+                        {
+                            "Subject_Name": "Enterprise Architecture",
+                            "Subject_Duration": ["10:00 AM", "12:00 PM"],
+                            "Subject_Location": "Rm. 310"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Friday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Data and Digital Communications (Data Communications)",
+                            "Subject_Duration": ["6:30 AM", "8:00 AM"],
+                            "Subject_Location": "Comp. Lab 2"
+                        },
+                        {
+                            "Subject_Name": "Event-Driven Programming",
+                            "Subject_Duration": ["8:00 AM", "10:00 AM"],
+                            "Subject_Location": "Rm. 307"
+                        },
+                        {
+                            "Subject_Name": "Advanced Systems Integration and Architecture",
+                            "Subject_Duration": ["10:00 AM", "12:00 PM"],
+                            "Subject_Location": "Rm. 307"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Saturday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Enterprise Architecture",
+                            "Subject_Duration": ["6:30 AM", "8:00 AM"],
+                            "Subject_Location": "Comp. Lab 2"
+                        },
+                        {
+                            "Subject_Name": "Professional Issues in Information Systems and Technology",
+                            "Subject_Duration": ["8:00 AM", "9:30 AM"],
+                            "Subject_Location": "Rm. 205"
+                        },
+                        {
+                            "Subject_Name": "Advanced Database Systems",
+                            "Subject_Duration": ["9:30 AM", "11:00 AM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        },
+                        {
+                            "Subject_Name": "Event-Driven Programming",
+                            "Subject_Duration": ["11:00 AM", "12:30 PM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Section_Status": "Active",
+            "Section_ID": "C3_S1_IT501M",
+            "Section_Name": "IT501-M",
+            "Section_Schedule": [
+                {
+                    "Schedule_Day": "Monday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Application Development and Emerging Technologies",
+                            "Subject_Duration": ["1:30 PM", "3:30 PM"],
+                            "Subject_Location": "Rm. 310"
+                        },
+                        {
+                            "Subject_Name": "Advanced Database Systems",
+                            "Subject_Duration": ["3:30 PM", "5:00 PM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        },
+                        {
+                            "Subject_Name": "Data and Digital Communications (Data Communications)",
+                            "Subject_Duration": ["5:00 PM", "6:30 PM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Tuesday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Application Development and Emerging Technologies",
+                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        },
+                        {
+                            "Subject_Name": "Advanced Database Systems",
+                            "Subject_Duration": ["2:00 PM", "4:00 PM"],
+                            "Subject_Location": "Rm. 205"
+                        },
+                        {
+                            "Subject_Name": "Professional Issues in Information Systems and Technology",
+                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Location": "Rm. 205"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Wednesday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Advanced Systems Integration and Architecture",
+                            "Subject_Duration": ["9:30 AM", "12:30 PM"],
+                            "Subject_Location": "Comp. Lab 2"
+                        },
+                        {
+                            "Subject_Name": "Enterprise Architecture",
+                            "Subject_Duration": ["1:30 PM", "3:30 PM"],
+                            "Subject_Location": "Rm. 310"
+                        },
+                        {
+                            "Subject_Name": "Event-Driven Programming",
+                            "Subject_Duration": ["3:30 PM", "5:00 PM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        },
+                        {
+                            "Subject_Name": "Enterprise Architecture",
+                            "Subject_Duration": ["5:00 PM", "6:30 PM"],
+                            "Subject_Location": "Comp. Lab 2"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Thursday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Advanced Systems Integration and Architecture",
+                            "Subject_Duration": ["1:30 PM", "3:30 PM"],
+                            "Subject_Location": "Rm. 305"
+                        },
+                        {
+                            "Subject_Name": "Advanced Database Systems",
+                            "Subject_Duration": ["3:30 PM", "5:00 PM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        },
+                        {
+                            "Subject_Name": "Data and Digital Communications (Data Communications)",
+                            "Subject_Duration": ["5:00 PM", "6:30 PM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Friday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Application Development and Emerging Technologies",
+                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        },
+                        {
+                            "Subject_Name": "Event-Driven Programming",
+                            "Subject_Duration": ["2:00 PM", "4:00 PM"],
+                            "Subject_Location": "Rm. 205"
+                        },
+                        {
+                            "Subject_Name": "Professional Issues in Information Systems and Technology",
+                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Location": "Rm. 205"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Saturday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Data and Digital Communications (Data Communications)",
+                            "Subject_Duration": ["1:30 PM", "3:30 PM"],
+                            "Subject_Location": "Rm. 310"
+                        },
+                        {
+                            "Subject_Name": "Event-Driven Programming",
+                            "Subject_Duration": ["3:30 PM", "5:00 PM"],
+                            "Subject_Location": "Comp. Lab 1"
+                        },
+                        {
+                            "Subject_Name": "Enterprise Architecture",
+                            "Subject_Duration": ["5:00 PM", "6:30 PM"],
+                            "Subject_Location": "Comp. Lab 2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Section_Status": "Active",
+            "Section_ID": "C3_S1_IT501P",
+            "Section_Name": "IT501-P",
+            "Section_Schedule": [
+                {
+                    "Schedule_Day": "Monday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Data and Digital Communications (Data Communications)",
+                            "Subject_Duration": ["10:30 AM", "12:30 PM"],
+                            "Subject_Location": "Rm. 305"
+                        },
+                        {
+                            "Subject_Name": "Data and Digital Communications (Data Communications)",
+                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
+                            "Subject_Location": "Comp. Lab 3"
+                        },
+                        {
+                            "Subject_Name": "Enterprise Architecture",
+                            "Subject_Duration": ["2:00 PM", "3:30 PM"],
+                            "Subject_Location": "Comp. Lab 3"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Tuesday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Enterprise Architecture",
+                            "Subject_Duration": ["2:00 PM", "4:00 PM"],
+                            "Subject_Location": "Rm. 305"
+                        },
+                        {
+                            "Subject_Name": "Application Development and Emerging Technologies",
+                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Location": "Comp. Lab 3"
+                        },
+                        {
+                            "Subject_Name": "Application Development and Emerging Technologies",
+                            "Subject_Duration": ["5:30 PM", "6:30 PM"],
+                            "Subject_Location": "Rm. 201"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Wednesday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Professional Issues in Information Systems and Technology",
+                            "Subject_Duration": ["11:00 AM", "12:30 PM"],
+                            "Subject_Location": "Rm. 309"
+                        },
+                        {
+                            "Subject_Name": "Advanced Database Systems",
+                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
+                            "Subject_Location": "Comp. Lab 3"
+                        },
+                        {
+                            "Subject_Name": "Advanced Systems Integration and Architecture",
+                            "Subject_Duration": ["2:00 PM", "5:00 PM"],
+                            "Subject_Location": "Comp. Lab 3"
+                        },
+                        {
+                            "Subject_Name": "Event-Driven Programming",
+                            "Subject_Duration": ["5:00 PM", "7:00 PM"],
+                            "Subject_Location": "Rm. 305"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Thursday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Data and Digital Communications (Data Communications)",
+                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
+                            "Subject_Location": "Comp. Lab 3"
+                        },
+                        {
+                            "Subject_Name": "Enterprise Architecture",
+                            "Subject_Duration": ["2:00 PM", "3:30 PM"],
+                            "Subject_Location": "Comp. Lab 3"
+                        },
+                        {
+                            "Subject_Name": "Event-Driven Programming",
+                            "Subject_Duration": ["5:00 PM", "6:30 PM"],
+                            "Subject_Location": "Comp. Lab 3"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Friday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Advanced Database Systems",
+                            "Subject_Duration": ["10:00 AM", "11:00 AM"],
+                            "Subject_Location": "Rm. 305"
+                        },
+                        {
+                            "Subject_Name": "Advanced Database Systems",
+                            "Subject_Duration": ["11:00 PM", "12:30 PM"],
+                            "Subject_Location": "Comp. Lab 3"
+                        },
+                        {
+                            "Subject_Name": "Advanced Systems Integration and Architecture",
+                            "Subject_Duration": ["2:00 PM", "4:00 PM"],
+                            "Subject_Location": "Rm. 310"
+                        },
+                        {
+                            "Subject_Name": "Application Development and Emerging Technologies",
+                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Location": "Comp. Lab 3"
+                        },
+                        {
+                            "Subject_Name": "Application Development and Emerging Technologies",
+                            "Subject_Duration": ["5:30 PM", "6:30 PM"],
+                            "Subject_Location": "Rm. 201"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Saturday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Professional Issues in Information Systems and Technology",
+                            "Subject_Duration": ["11:00 AM", "12:30 PM"],
+                            "Subject_Location": "Rm. 309"
+                        },
+                        {
+                            "Subject_Name": "Advanced Database Systems",
+                            "Subject_Duration": ["12:30 PM", "1:30 PM"],
+                            "Subject_Location": "Rm. 305"
+                        },
+                        {
+                            "Subject_Name": "Event-Driven Programming",
+                            "Subject_Duration": ["2:00 PM", "3:30 PM"],
+                            "Subject_Location": "Comp. Lab 3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

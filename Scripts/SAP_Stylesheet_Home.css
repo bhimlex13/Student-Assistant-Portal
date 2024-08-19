@@ -302,3 +302,46 @@
     opacity: 100%;
     transform: translateY(-2px);
 }
+
+.Schedules_Title{
+    padding: 10px;
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    align-items: center;
+    margin-right: 40px;
+    /* display: none; */
+    overflow-y: hidden;
+    position: sticky;
+    top: 15px;
+    z-index: 15;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: var(--Element-BackdropBlur);
+}
+
+.Schedules_Title_Button_Indicator{
+    position: absolute;
+    z-index: -1;
+    bottom: 3px;
+    border-radius: 25px;
+    height: 5px;
+    width: 0%;
+    background-color: var(--SAP-Purple-Level-1L);
+}
+
+.Schedules_Title_Button[State = "Selected"] > .Schedules_Title_Button_Indicator{
+    position: absolute;
+    z-index: -1;
+    bottom: 3px;
+    border-radius: 25px;
+    height: 5px;
+    width: 17%;
+    background-color: var(--SAP-Purple-Level-1L);
+}
+
+.Schedules_List_Title{
+    font-family: var(--Text-Font-Primary);
+    margin: 0;
+}
