@@ -303,6 +303,15 @@
     transform: translateY(-2px);
 }
 
+#tab_Schedules_Class{
+    padding-left: 0;
+    width: calc(100% - 35px);
+}
+
+/* .Schedules{
+    position: relative;
+} */
+
 .Schedules_Title{
     padding: 10px;
     border: solid var(--SAP-Gray-Base) 1px;
@@ -344,4 +353,77 @@
 .Schedules_List_Title{
     font-family: var(--Text-Font-Primary);
     margin: 0;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.Schedules_List_Title:first-child{
+    margin-top: 0;
+}
+
+.Schedules_List{
+    /* background-color: #3f54f3; */
+    /* width: 100%; */
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 30px;
+}
+
+.Schedules_List_Section{
+    /* background-color: red; */
+    width: 100%;
+    border: solid var(--SAP-Gray-Level-2D) 1px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+    height: 100%;
+}
+
+.Schedules_List_Section_Title{
+    font-family: var(--Text-Font-Secondary);
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.Schedules_List_Item{
+    display: grid;
+    grid-template-areas: 
+        "Name Name"
+        "Time Room"
+    ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto 1fr;
+    align-items: end;
+    grid-gap: 10px;
+    border: solid var(--SAP-Gray-Base) 1px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Schedules_List_Section > span:last-child > .Schedules_List_Item{
+    margin-bottom: 0px;
+}
+
+.Schedules_List_Item > *{
+    margin: 0;
+    padding: 5px;
+}
+
+.Schedules_List_Item_Title{
+    font-family: var(--Text-Font-Tertiary);
+    word-wrap: break-word;
+    grid-area: Name;
+}
+
+.Schedules_List_Item_Time{
+    font-family: var(--Text-Font-Tertiary);
+    grid-area: Time;
+}
+
+.Schedules_List_Item_Room{
+    font-family: var(--Text-Font-Tertiary);
+    grid-area: Room;
+    width: auto;
 }
