@@ -67,9 +67,13 @@
 
 .Explorer_Item_Details{
     justify-content: center;
+    align-items: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
     padding: 15px;
+    height: -webkit-fill-available;
 }
 
 .Explorer_Item[Type = "Image"] > .Explorer_Item_Details{

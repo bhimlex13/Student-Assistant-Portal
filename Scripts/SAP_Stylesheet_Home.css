@@ -372,7 +372,7 @@
 
 .Schedules_List_Section{
     /* background-color: red; */
-    width: 100%;
+    width: -webkit-fill-available;
     border: solid var(--SAP-Gray-Level-2D) 1px;
     border-radius: 10px;
     padding: 10px;

@@ -345,4 +345,12 @@
     .Home_Welcome_Main{
         padding-top: 10px;
     }
+
+    .MenuBar[State = "Collapsed"]{
+        width: 100%;
+    }
+
+    .MenuBar[State = "Collapsed"] > .MenuBar_List > .MenuBar_List_Item > .MenuBar_List_Item_Text{
+        opacity: 100%;
+    }
 }

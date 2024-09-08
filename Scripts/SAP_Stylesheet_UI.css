@@ -27,10 +27,30 @@ button{
     /* position: fixed; */
     width: 250px;
     height: 100%;
-    background-color: var(--SAP-Gray-Level-2L);
+    background-color: var(--SAP-Gray-Level-3L);
     display: flex;
     flex-direction: column;
     padding: 15px;
+    cursor: pointer;
+    z-index: 500;
+}
+
+.MenuBar[State = "Collapsed"]{
+    width: 55px;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+.MenuBar_Title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.MenuBar_Title_Image{
+    width: 150px;
 }
 
 .MenuBar_List{
@@ -59,6 +79,7 @@ button{
 
 .MenuBar_List_Item_Icon{
     width: 25px;
+    filter: brightness(0)
 }
 
 .MenuBar_List_Item_Indicator{
@@ -76,6 +97,10 @@ button{
     text-align: left;
     /* font-weight: bold; */
     margin: 0;
+}
+
+.MenuBar[State = "Collapsed"] > .MenuBar_List > .MenuBar_List_Item > .MenuBar_List_Item_Text{
+    opacity: 0%;
 }
 
 .Page_Content_Main{

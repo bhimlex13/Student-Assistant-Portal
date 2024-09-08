@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <title id="Page_Title">
+        Student Assistant Portal
+    </title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Assistant Portal</title>
-    <link rel="icon" type="image/x-icon" href="../../images/fav2.png">
-    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Assets/style_universal.css">
-    <link rel="stylesheet" href="./Assets/index.css">
-    <link rel="stylesheet" href="./Assets/style_reference.css">
+    <link rel="stylesheet" href="Scripts/SAP_Main.css">
+    <link rel="stylesheet" href="Scripts/SAP_Stylesheet_Explorer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="icon" type="image/png" href="Assets/Icons/Logo.png" sizes="96x96" id="Page_Favicon">
     <meta 
         property="og:image"
         content="https://bhimlex13.github.io/Student-Assistant-Portal/images/Thumbnail_Branding_1.png" 
@@ -24,224 +22,461 @@
         content="It's reviewing time" 
     />
 </head>
-
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark Header" style="margin-bottom: 0;">
-        <a class="navbar-brand" href="./Home.html">✨New home✨</a>
-        <!-- <a class="navbar-brand" href="./index.html">Home</a> -->
-        <a class="navbar-brand" href="./fileConverter.html">Data Converter</a>
-        <a class="navbar-brand" href="./about.html">About</a>
-        
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <!-- <a class="nav-link" href="#">Dashboard</a> -->
-                </li>
-            </ul>
+    <script src="Scripts/SAP_Javascript_Main.js"></script>
+    <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js"></script>
+    <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
+    <script src="Scripts/SAP_Javascript_Home.js"></script>
+    <div class="Page_Overlays">
+        <div class="Home_Welcome_Loading" id="Home_Welcome_Loading">
+            <div class="General_Loading_Compact">
+                <div class="General_Loading_Compact_Bar"></div>
+                <div class="General_Loading_Compact_Bar"></div>
+                <div class="General_Loading_Compact_Bar"></div>
+                <div class="General_Loading_Compact_Bar"></div>
+            </div>
+            <h3 class="Home_Welcome_Loading_Text">
+              Loading...
+            </h3>
         </div>
-    </nav>
-
-    <!-- Modal -->
-    <div class="modal fade SignIn" id="SignIn" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog SignIn-Dialog">
-            <div class="modal-content SignIn-Dialog-Content">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="display: none" id="SignIn-Dialog-Content-Close"></button>
-                <div class="modal-body SignIn-Dialog-Content-Body">
-                    <div class="SignIn-Dialog-Content-Body-Banner">
-                        
-                        <div class="SignIn-Dialog-Content-Body-Banner-Title-Animated" id="SignIn-Dialog-Content-Body-Banner-Title-Animated-1">
-                        </div>
-                        <div class="SignIn-Dialog-Content-Body-Banner-Title-Animated" id="SignIn-Dialog-Content-Body-Banner-Title-Animated-2">
-                            
-                        </div>
-                        <div class="SignIn-Dialog-Content-Body-Banner-Title-Animated" id="SignIn-Dialog-Content-Body-Banner-Title-Animated-3">
-                            
-                        </div>
-                    </div>
-                    <div class="SignIn-Dialog-Content-Body-Form">
-                        <h1 class="SignIn-Dialog-Content-Body-Form-Title">
-                            Welcome!
-                        </h1>
-                        <h5 class="SignIn-Dialog-Content-Body-Form-Text">
-                            Click confirm to access this page.
-                        </h5>
-                        <form id="SignIn-Dialog-Content-Body-Form">
-                            <!-- <label for="SignIn-Dialog-Content-Body-Form-Password" class="form-label">
-                                Password
-                            </label> -->
-                          <div type="password" id="SignIn-Dialog-Content-Body-Form-Password"></div>
-                            <!-- <div id="SignIn-Dialog-Content-Body-Form-Password-Error" class="invalid-feedback" style="display: none;">Incorrect password. Please try again.</div>   -->
-                            <button type="submit" class="btn btn-primary mb-3 Button_Control">
-                                Confirm
-                            </button>
-                        </form>
-                    </div>
-                    <div class="SignIn-Dialog-Content-Body-Copyright">
-                        <p class="SignIn-Dialog-Content-Body-Copyright-Text">
-                            A project by Alexander Oro and Elmer Felisilda 2024
-                        </p>
-                    </div>
+        <div class="Home_Welcome" id="Home_Welcome">
+            <div class="Home_Welcome_Background">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="Home_Welcome_Content">
+                <div class="Home_Welcome_Title">
+                    <h1 class="Home_Welcome_Title_Text">
+                        Student
+                    </h1>
+                    <h1 class="Home_Welcome_Title_Text">
+                        Assistant
+                    </h1>
+                    <h1 class="Home_Welcome_Title_Text">
+                        Portal
+                    </h1>
                 </div>
-                
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid" id="SubjectList"> <!-- Changed to container-fluid for full width -->
-        <div class="Exam_Reminder" id="Exam_Reminder">
-            <h2 id="Exam_Reminder_Title">
-                <!-- Info generated by index.js -->
-            </h2>
-            <p id="Exam_Reminder_Duration">
-                <!-- Info generated by index.js -->
-            </p>
-            <button class="btn btn-primary Button_Control" onclick="Screens_Open('Exam_Schedule', 'Left'); UF_Parameter_Set('Screen', 'Schedules')">
-                View schedules
-            </button>
-        </div>
-        <h1 class="SubjectList_Title">
-            Quiz reviewers
-        </h1>
-        <div class="row SubjectList" id="SubjectList_List" State="Active"> 
-            <!-- Content generated by index.js -->
-        </div>
-        <h5 class="SubjectList_Empty" id="SubjectList_Empty">
-            No subjects are available at the moment.
-        </h5>
-    </div>
-    <div class="SubjectModuleList" id="SubjectModuleList" State="Inactive">
-        <div class="SubjectModuleList_Header">
-            <div class="SubjectModuleList_Header_Background">
-                <div class='SubjectModuleList_Header_Background_Fade'></div>
-                <div class='SubjectModuleList_Header_Background_Fade'></div>
-                <img class='SubjectModuleList_Header_Background_Image' src='./images/Thumbnail_IM_1.png' draggable='false' loading='lazy' id="SubjectModuleList_Header_Background_Image" onload="this.style.opacity = '1'"/>
-            </div>
-            
-            <div class="SubjectModuleList_Header_SubjectTitle">
-                <button class="btn btn-primary mb-3 Button_Control SubjectModuleList_Header_SubjectTitle_Button" onclick="SubjectList_AccessProcess_Back()">
-                    Back
-                </button>
-                <img class='SubjectModuleList_Header_SubjectTitle_Thumbnail' src='./images/Thumbnail_IM_1.png' draggable='false' loading='lazy' id="SubjectModuleList_Header_SubjectTitle_Thumbnail" onload="this.style.opacity = '1'"/>
-                <span>
-                    <h1 class="SubjectModuleList_Header_SubjectTitle_Title" id="SubjectModuleList_Header_SubjectTitle_Title">
-                        <!-- Info generated by index.js -->
+                <div class="Home_Welcome_Main" id="Home_Welcome_Main">
+                    <h1 class="Home_Welcome_Main_Title">
+                        Welcome!
                     </h1>
-                    <h1 class="SubjectModuleList_Header_SubjectTitle_Title_2" id="SubjectModuleList_Header_SubjectTitle_Title_2">
-                        <!-- Info generated by index.js -->
-                    </h1>
-                </span>
-            </div>
-        </div>
-        <h5 class="row SubjectList_Empty" id="SubjectModuleList_List_Empty">
-            No modules for this subject are available at the moment.
-        </h5>
-        <div class="container-fluid">
-            <div class="row SubjectModuleList_List" id="SubjectModuleList_List">
-                <!-- Content generated by index.js -->
-
-                <!-- <div class="SubjectModuleList_List_Item">
-                    <div class="SubjectModuleList_List_Item_Thumbnail">
-                        <img class='SubjectModuleList_List_Item_Thumbnail_Image' src='./images/Thumbnail_IM_1.png' draggable='false' loading='lazy'/>
-                    </div>
-                    <h4 class="SubjectModuleList_List_Item_Title">
-                        Prelims
+                    <h4 class="Home_Welcome_Main_Description">
+                        Click confirm to access SAP.
                     </h4>
-                </div> -->
+                    <button class="General_Button" onclick="Home_Start()">
+                        Confirm
+                    </button>
+                </div>
             </div>
         </div>
-        
-        <div class="SubjectModuleList_Subfolder_List" id="SubjectModuleList_Subfolder_List">
-            <!-- Content generated by index.js -->
-
-            <!-- <a href="">
-                <div class="SubjectModuleList_Subfolder_List_Item">
-                    <h5 class="SubjectModuleList_Subfolder_List_Item_Text">
-                        Handout 1
-                    </h5>
-                    <h5 class="SubjectModuleList_Subfolder_List_Item_Text">
-                        10 March 2024
-                    </h5>
+    </div>
+    <div class="Page_Content">
+        <div class="MenuBar" State="Expanded" id="Sidebar">
+            <div class="MenuBar_Title" onclick="Home_Splash()">
+                <img class='MenuBar_Title_Image' src='Assets/Icons/SAP_1.png' draggable='false' loading='lazy'/>
+            </div>
+            <div class="MenuBar_List">
+                <button class="MenuBar_List_Item" State="Selected" id="Quizzes" onclick="Tabs_ChangeTab(this.id, 'Vertical')" Tabs_Tab_Target_Container="Content" Tabs_Tab_Target_Tab="tab_Quizzes" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
+                    <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Quizzes_1.png' draggable='false' loading='lazy'/>
+                    <span class="MenuBar_List_Item_Indicator">
+                    </span>
+                    <p class="MenuBar_List_Item_Text">
+                        Quizzes
+                    </p>
+                </button>
+                <button class="MenuBar_List_Item" id="Schedules" onclick="Tabs_ChangeTab(this.id, 'Vertical')" Tabs_Tab_Target_Container="Content" Tabs_Tab_Target_Tab="tab_Schedules" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Schedules" Tabs_UseHeaderTitle="false">
+                    <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Schedules_1.png' draggable='false' loading='lazy'/>
+                    <span class="MenuBar_List_Item_Indicator">
+                    </span>
+                    <p class="MenuBar_List_Item_Text">
+                        Schedules
+                    </p>
+                </button>
+                <button class="MenuBar_List_Item" id="About" onclick="Page_ChangePage('about.html')">
+                    <img class='MenuBar_List_Item_Icon' src='Assets/Icons/About_1.png' draggable='false' loading='lazy'/>
+                    <span class="MenuBar_List_Item_Indicator">
+                    </span>
+                    <p class="MenuBar_List_Item_Text">
+                        About
+                    </p>
+                </button>
+            </div>
+        </div>
+        <div class="Page_Content_Main" id="Content" Tabs_CurrentTab="">
+            <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Quizzes">
+                <h1 class="Home_Page_Title">
+                    Quizzes
+                </h1>
+                <div class="Quizzes" id="Quizzes_Container"> 
+                    <div class="Quizzes_Title">
+                        <button class="General_Button" onclick="Explorer_Back()">
+                            Back
+                        </button>
+                        <div class="Quizzes_Title_Content" id="Quizzes_Title_Content" Stage="Subject">
+                            <h2 class="Quizzes_Title_Text Quizzes_Subject" id="Quizzes_Title_Subject">
+                                Subject_name
+                            </h2>
+                            <h2 class="Quizzes_Title_Text Quizzes_Folder" id="Quizzes_Title_Folder">
+                                Folder_Name
+                            </h2>
+                        </div>
+                        
+                    </div>
+                    <div class="Explorer" Type="Image" id="Quizzes_Explorer">
+                        <h3 class="Home_Welcome_Loading_Text">
+                          Loading...
+                        </h3>
+                        <!-- <button class="Explorer_Item" Type="Image">
+                            <img class='Explorer_Item_Image' src='images/OLD_Thumbnail_Midterms_1.png' draggable='false' loading='lazy'/>
+                            <div class="Explorer_Item_Details">
+                                <h3 class="Explorer_Item_Details_Text" Primary>
+                                    Primary Title
+                                </h3>
+                                <h3 class="Explorer_Item_Details_Text" Secondary>
+                                    Secondary Title
+                                </h3>
+                            </div>
+                        </button>
+                        <button class="Explorer_Item" Type="Image">
+                            <img class='Explorer_Item_Image' src='images/OLD_Thumbnail_Midterms_1.png' draggable='false' loading='lazy'/>
+                            <div class="Explorer_Item_Details">
+                                <h3 class="Explorer_Item_Details_Text" Primary>
+                                    Primary Title
+                                </h3>
+                                <h3 class="Explorer_Item_Details_Text" Secondary>
+                                    Secondary Title
+                                </h3>
+                            </div>
+                        </button>
+                        <button class="Explorer_Item" Type="Image">
+                            <img class='Explorer_Item_Image' src='images/OLD_Thumbnail_Midterms_1.png' draggable='false' loading='lazy'/>
+                            <div class="Explorer_Item_Details">
+                                <h3 class="Explorer_Item_Details_Text" Primary>
+                                    Primary Title
+                                </h3>
+                                <h3 class="Explorer_Item_Details_Text" Secondary>
+                                    Secondary Title
+                                </h3>
+                            </div>
+                        </button> -->
+                    </div>
+                    <!-- <div class="Explorer" Type="Text">
+                        <button class="Explorer_Item" Type="Text">
+                            <div class="Explorer_Item_Details">
+                                <h3 class="Explorer_Item_Details_Text" Primary>
+                                    Primary Title
+                                </h3>
+                                <h3 class="Explorer_Item_Details_Text" Secondary>
+                                    Secondary Title
+                                </h3>
+                            </div>
+                        </button>
+                        <button class="Explorer_Item" Type="Text">
+                            <div class="Explorer_Item_Details">
+                                <h3 class="Explorer_Item_Details_Text" Primary>
+                                    Primary Title
+                                </h3>
+                                <h3 class="Explorer_Item_Details_Text" Secondary>
+                                    Secondary Title
+                                </h3>
+                            </div>
+                        </button>
+                        <button class="Explorer_Item" Type="Text">
+                            <div class="Explorer_Item_Details">
+                                <h3 class="Explorer_Item_Details_Text" Primary>
+                                    Primary Title
+                                </h3>
+                                <h3 class="Explorer_Item_Details_Text" Secondary>
+                                    Secondary Title
+                                </h3>
+                            </div>
+                        </button>
+                    </div> -->
                 </div>
-            </a> -->
-            <!-- <h5 class="SubjectList_Empty" id="SubjectModuleList_Subfolder_List_Empty">
-                No handouts for this module are available at the moment.
-            </h5> -->
+            </div>
+            <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules">
+                <h1 class="Home_Page_Title">
+                    Schedules
+                </h1>
+                <div class="Schedules">
+                    <div class="Schedules_Title">
+                        <button class="General_Button Schedules_Title_Button" State="Selected" id="Schedules_Class" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Schedules_Content" Tabs_Tab_Target_Tab="tab_Schedules_Class" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
+                            <span class="Schedules_Title_Button_Indicator">
+                            </span>
+                            Class
+                        </button>
+                        <button class="General_Button Schedules_Title_Button" id="Schedules_Exam" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Schedules_Content" Tabs_Tab_Target_Tab="tab_Schedules_Exam" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
+                            <span class="Schedules_Title_Button_Indicator">
+                            </span>
+                            Exam
+                        </button>
+                    </div>
+                    <div class="Schedules_Content" id="Schedules_Content" Tabs_CurrentTab="">
+                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Class" style="width: calc(100% - 60px);">
+                            <h1 class="Schedules_List_Title">
+                                Class schedules
+                            </h1>
+                            <h1 class="Schedules_List_Section_Title">
+                                IT501-A
+                            </h1>
+                            <div class="Schedules_List">
+                                <div class="Schedules_List_Section">
+                                    <h1 class="Schedules_List_Section_Title">
+                                        Monday
+                                    </h1>
+                                    <div class="Schedules_List_Item">
+                                        <h2 class="Schedules_List_Item_Title">
+                                            App Development and Emerging Technologies
+                                        </h2>
+                                        <h4 class="Schedules_List_Item_Time">
+                                            6:30 AM - 8:00 AM
+                                        </h4>
+                                        <h4 class="Schedules_List_Item_Room">
+                                            Comp. Lab 1
+                                        </h4>
+                                    </div>
+                                    <div class="Schedules_List_Item">
+                                        <h2 class="Schedules_List_Item_Title">
+                                            SAP_Javascript_ERUMAUI
+                                        </h2>
+                                        <h4 class="Schedules_List_Item_Time">
+                                            6:30 AM - 8:00 AM
+                                        </h4>
+                                        <h4 class="Schedules_List_Item_Room">
+                                            Comp. Lab 1
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="Schedules_List_Section">
+                                    <h1 class="Schedules_List_Section_Title">
+                                        Tuesday
+                                    </h1>
+                                    <div class="Schedules_List_Item">
+                                        <h2 class="Schedules_List_Item_Title">
+                                            Advanced Systems Integration and Architecture
+                                        </h2>
+                                        <h4 class="Schedules_List_Item_Time">
+                                            6:30 AM - 8:00 AM
+                                        </h4>
+                                        <h4 class="Schedules_List_Item_Room">
+                                            Comp. Lab 1
+                                        </h4>
+                                    </div>
+                                    <div class="Schedules_List_Item">
+                                        <h2 class="Schedules_List_Item_Title">
+                                            SAP_Javascript_ERUMAUI
+                                        </h2>
+                                        <h4 class="Schedules_List_Item_Time">
+                                            6:30 AM - 8:00 AM
+                                        </h4>
+                                        <h4 class="Schedules_List_Item_Room">
+                                            Comp. Lab 1
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="Schedules_List_Section">
+                                    <h1 class="Schedules_List_Section_Title">
+                                        Wednesday
+                                    </h1>
+                                    <div class="Schedules_List_Item">
+                                        <h2 class="Schedules_List_Item_Title">
+                                            Advanced Systems Integration and Architecture
+                                        </h2>
+                                        <h4 class="Schedules_List_Item_Time">
+                                            6:30 AM - 8:00 AM
+                                        </h4>
+                                        <h4 class="Schedules_List_Item_Room">
+                                            Comp. Lab 1
+                                        </h4>
+                                    </div>
+                                    <div class="Schedules_List_Item">
+                                        <h2 class="Schedules_List_Item_Title">
+                                            SAP_Javascript_ERUMAUI
+                                        </h2>
+                                        <h4 class="Schedules_List_Item_Time">
+                                            6:30 AM - 8:00 AM
+                                        </h4>
+                                        <h4 class="Schedules_List_Item_Room">
+                                            Comp. Lab 1
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="Schedules_List_Section">
+                                    <h1 class="Schedules_List_Section_Title">
+                                        Thursday
+                                    </h1>
+                                    <div class="Schedules_List_Item">
+                                        <h2 class="Schedules_List_Item_Title">
+                                            Advanced Systems Integration and Architecture
+                                        </h2>
+                                        <h4 class="Schedules_List_Item_Time">
+                                            6:30 AM - 8:00 AM
+                                        </h4>
+                                        <h4 class="Schedules_List_Item_Room">
+                                            Comp. Lab 1
+                                        </h4>
+                                    </div>
+                                    <div class="Schedules_List_Item">
+                                        <h2 class="Schedules_List_Item_Title">
+                                            SAP_Javascript_ERUMAUI
+                                        </h2>
+                                        <h4 class="Schedules_List_Item_Time">
+                                            6:30 AM - 8:00 AM
+                                        </h4>
+                                        <h4 class="Schedules_List_Item_Room">
+                                            Comp. Lab 1
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="Schedules_List_Section">
+                                    <h1 class="Schedules_List_Section_Title">
+                                        Friday
+                                    </h1>
+                                    <div class="Schedules_List_Item">
+                                        <h2 class="Schedules_List_Item_Title">
+                                            Advanced Systems Integration and Architecture
+                                        </h2>
+                                        <h4 class="Schedules_List_Item_Time">
+                                            6:30 AM - 8:00 AM
+                                        </h4>
+                                        <h4 class="Schedules_List_Item_Room">
+                                            Comp. Lab 1
+                                        </h4>
+                                    </div>
+                                    <div class="Schedules_List_Item">
+                                        <h2 class="Schedules_List_Item_Title">
+                                            SAP_Javascript_ERUMAUI
+                                        </h2>
+                                        <h4 class="Schedules_List_Item_Time">
+                                            6:30 AM - 8:00 AM
+                                        </h4>
+                                        <h4 class="Schedules_List_Item_Room">
+                                            Comp. Lab 1
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="Schedules_List_Section">
+                                    <h1 class="Schedules_List_Section_Title">
+                                        Saturday
+                                    </h1>
+                                    <div class="Schedules_List_Item">
+                                        <h2 class="Schedules_List_Item_Title">
+                                            Advanced Systems Integration and Architecture
+                                        </h2>
+                                        <h4 class="Schedules_List_Item_Time">
+                                            6:30 AM - 8:00 AM
+                                        </h4>
+                                        <h4 class="Schedules_List_Item_Room">
+                                            Comp. Lab 1
+                                        </h4>
+                                    </div>
+                                    <div class="Schedules_List_Item">
+                                        <h2 class="Schedules_List_Item_Title">
+                                            SAP_Javascript_ERUMAUI
+                                        </h2>
+                                        <h4 class="Schedules_List_Item_Time">
+                                            6:30 AM - 8:00 AM
+                                        </h4>
+                                        <h4 class="Schedules_List_Item_Room">
+                                            Comp. Lab 1
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Exam" style="display: none">
+                            <h1 class="Schedules_List_Title">
+                                Exam schedules
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_User">
+                <h1 class="Home_Page_Title">
+                    You
+                </h1>
+            </div>
         </div>
     </div>
-
-    <div class="Exam_Schedule" State="Inactive" id="Exam_Schedule">
-        <div class="Exam_Schedule_Header">
-            <button class="btn btn-primary Button_Control" onclick="Screens_Close('Exam_Schedule', 'Right'); UF_Parameter_Set('Screen', 'Main')">
-                Back
-            </button>
-            <h1 id="Exam_Schedule_Title">
-                <!-- Info generated by index.js -->
-            </h1>
-            <p id="Exam_Schedule_Duration">
-                <!-- Info generated by index.js -->
-            </p>
-        </div>
-        <!-- <div class="Exam_Schedule_Disclaimer">
-            <p>
-                Schedules listed only applies to: IT401-A (S.Y. 2023-2024).
-            </p>
-        </div> -->
-        <div class="Exam_Schedule_List" id="Exam_Schedule_List">
-            <!-- <section class="Exam_Schedule_List_Section">
-                <h3 class="Exam_Schedule_List_Section_Title">
-                    17 April 2024 | Day 1
-                </h3>
-                <div class="Exam_Schedule_List_Section_Item">
-                    <h3 class="Exam_Schedule_List_Section_Item_Subject">
-                        Subject
-                    </h3>
-                    <p class="Exam_Schedule_List_Section_Item_Time">
-                        8:00 AM - 9:30 AM
-                    </p>
-                    <p class="Exam_Schedule_List_Section_Item_Location">
-                        Rm. 201
-                    </p>
-                </div>
-            </section>
-            <section class="Exam_Schedule_List_Section">
-                <h3 class="Exam_Schedule_List_Section_Title">
-                    18 April 2024 | Day 2
-                </h3>
-                <div class="Exam_Schedule_List_Section_Item">
-                    <h3 class="Exam_Schedule_List_Section_Item_Subject">
-                        Subject
-                    </h3>
-                    <p class="Exam_Schedule_List_Section_Item_Time">
-                        8:00 AM - 9:30 AM
-                    </p>
-                    <p class="Exam_Schedule_List_Section_Item_Location">
-                        Rm. 201
-                    </p>
-                </div>
-                <div class="Exam_Schedule_List_Section_Item">
-                    <h3 class="Exam_Schedule_List_Section_Item_Subject">
-                        Subject
-                    </h3>
-                    <p class="Exam_Schedule_List_Section_Item_Time">
-                        8:00 AM - 9:30 AM
-                    </p>
-                    <p class="Exam_Schedule_List_Section_Item_Location">
-                        Rm. 201
-                    </p>
-                </div>
-            </section> -->
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="./Assets/index.js"></script>
-    <script src="./Assets/style.js"></script>
-    <script src="./Assets/url_fetcher.js"></script>
 </body>
-
 </html>

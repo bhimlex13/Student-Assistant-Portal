@@ -1,4 +1,39 @@
+let Onload_Requirements = {
+    // Set to false if you don't want the splash to appear
+    Splash_Require: true,
+    // Set to false if you want the splash to open every load of the page
+    Splash_OpenOncePerSession: true
+}
+
 window.onload = function (){
+    if (Onload_Requirements.Splash_Require == true){
+        if (Onload_Requirements.Splash_OpenOncePerSession == true){
+            var Session_UserHasSignedIn = sessionStorage.getItem('SAP_UserHasSignedIn');
+            if (Session_UserHasSignedIn == null || Session_UserHasSignedIn == false){
+                Home_Splash();
+                sessionStorage.setItem("SAP_UserHasSignedIn", "true");
+            } else {
+                Element_Attribute_Set('Home_Welcome', 'State', 'Invisible');
+                Element_Attribute_Set('Home_Welcome_Loading', 'State', 'Invisible');
+                Home_Start();
+            }
+        } else {
+            Home_Splash();
+        }
+    } else {
+        Element_Attribute_Set('Home_Welcome', 'State', 'Invisible');
+        Element_Attribute_Set('Home_Welcome_Loading', 'State', 'Invisible');
+        Home_Start();
+    }
+};
+
+function Home_Splash(){
+    Element_Attribute_Set('Home_Welcome_Main', 'State', 'Invisible');
+    Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Content", "", "4s", "forwards", 1, 1);
+    Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title", "", "4s", "forwards", 1, 1);
+    Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title_Text", "", "1s", "forwards", 1, 0.3);
+
+    Element_Attribute_Set('Home_Welcome', 'State', 'Visible');
     Element_Attribute_Set('Home_Welcome_Loading', 'State', 'Invisible');
     setTimeout(function(){
         Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Content", "Home_Welcome_Sequence_1", "4s", "forwards", 1, 1);
@@ -8,8 +43,7 @@ window.onload = function (){
             Element_Attribute_Set('Home_Welcome_Main', 'State', 'Visible');
         }, 3000);
     }, 500);
-    
-};
+}
 
 function Home_Start(){
     Element_Attribute_Set('Home_Welcome', 'State', 'Invisible');

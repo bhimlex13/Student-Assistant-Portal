@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Excel to JSON Converter</title>
     <link rel="icon" type="image/x-icon" href="../../images/fav2.png">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
     <style>
         body {
             /* font-family: Arial, sans-serif; */
@@ -108,77 +108,93 @@
     <link rel="stylesheet" href="./assets/style_reference.css">
     <link rel="stylesheet" href="./assets/style_miscellaneous.css" defer>
     <link rel="stylesheet" href="./assets/style_universal.css">
+    <link rel="stylesheet" href="Scripts/SAP_Main.css">
 </head>
 
 <body>
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary Header">
-        <a class="navbar-brand" href="./index.html">Home</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <!-- <a class="nav-link" href="#">Dashboard</a> -->
-                </li>
-            </ul>
+    <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js"></script>
+    <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
+    <div class="Page_Content">
+        <div class="MenuBar" State="Collapsed" id="Sidebar">
+          <div class="MenuBar_List">
+            <button class="MenuBar_List_Item" onclick="Page_ChangePage('Home.html')">
+              <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Home.png' draggable='false' loading='lazy' />
+              <span class="MenuBar_List_Item_Indicator">
+              </span>
+              <p class="MenuBar_List_Item_Text">
+                Home
+              </p>
+            </button>
+            <button class="MenuBar_List_Item" onclick="Page_ChangePage('about.html')">
+              <img class='MenuBar_List_Item_Icon' src='Assets/Icons/About_1.png' draggable='false' loading='lazy' />
+              <span class="MenuBar_List_Item_Indicator">
+              </span>
+              <p class="MenuBar_List_Item_Text">
+                About
+              </p>
+            </button>
+          </div>
         </div>
-    </nav>
-
-    <div class="FC_Title">
-        <h1>Excel to JSON Converter</h1>
-    </div>
-
-    <!-- <div class="container FC_Content">
-        <div class="file-container">
-            <label for="fileInput" class="button Button_Control">Choose Excel File</label>
-            <div id="fileLabel"></div>
-        </div>
-        <input type="file" id="fileInput" accept=".xls, .xlsx" onchange="displayFileName()">
-        <button onclick="convertToJSON()">Convert to JSON</button>
-        <button id="copyButton" class="Button_Control" onclick="copyToClipboard()">Copy</button>
-
-        <div id="copyMessage">Data copied successfully!</div>
-
+        <div class="Page_Content_Main" id="Content">
+            <div class="FC_Title">
+                <h1>Excel to JSON Converter</h1>
+            </div>
         
-
-        <label><input type="checkbox" id="questionCheckbox" checked>Question</label>
-        <label><input type="checkbox" id="correctAnswerCheckbox" checked>Correct Answer</label>
-        <label><input type="checkbox" id="choicesCheckbox" checked>Choices</label>
-        <label><input type="checkbox" id="referenceCheckbox" checked>Reference</label>
-        <label><input type="checkbox" id="termCheckbox" checked>Term</label>
-        <label><input type="checkbox" id="statusCheckbox" unchecked>Status</label>
-    </div> -->
-
-    <div class="FC">
-        <div class="FC_Controls">
-            <div class="file-container" class="Button_Control">
-                <label for="fileInput" class="button Button_Control">Choose Excel File</label>
-            </div>
-            <input type="file" id="fileInput" accept=".xls, .xlsx" onchange="displayFileName()">
-            <button onclick="convertToJSON()" class="Button_Control">Convert to JSON</button>
-            <button id="copyButton" class="Button_Control" onclick="copyToClipboard()">Copy</button>
-            <h5 class="General_Title">
-                Include:
-            </h5>
-            <label><input type="checkbox" id="questionCheckbox" checked>Question</label>
-            <label><input type="checkbox" id="correctAnswerCheckbox" checked>Correct Answer</label>
-            <label><input type="checkbox" id="choicesCheckbox" checked>Choices</label>
-            <label><input type="checkbox" id="referenceCheckbox" checked>Reference</label>
-            <label><input type="checkbox" id="termCheckbox" checked>Term</label>
-            <label><input type="checkbox" id="statusCheckbox" unchecked>Status</label>
-        </div>
-        <div class="FC_Output">
-            <div class="FC_Output_Status">
-                <div id="fileLabel"></div>
+            <!-- <div class="container FC_Content">
+                <div class="file-container">
+                    <label for="fileInput" class="button Button_Control">Choose Excel File</label>
+                    <div id="fileLabel"></div>
+                </div>
+                <input type="file" id="fileInput" accept=".xls, .xlsx" onchange="displayFileName()">
+                <button onclick="convertToJSON()">Convert to JSON</button>
+                <button id="copyButton" class="Button_Control" onclick="copyToClipboard()">Copy</button>
+        
                 <div id="copyMessage">Data copied successfully!</div>
-            </div>
-            <div class="FC_Output_Container">
-                <div id="jsonOutputContainer">
-                    <pre id="jsonOutput"></pre>
+        
+                
+        
+                <label><input type="checkbox" id="questionCheckbox" checked>Question</label>
+                <label><input type="checkbox" id="correctAnswerCheckbox" checked>Correct Answer</label>
+                <label><input type="checkbox" id="choicesCheckbox" checked>Choices</label>
+                <label><input type="checkbox" id="referenceCheckbox" checked>Reference</label>
+                <label><input type="checkbox" id="termCheckbox" checked>Term</label>
+                <label><input type="checkbox" id="statusCheckbox" unchecked>Status</label>
+            </div> -->
+        
+            <div class="FC">
+                <div class="FC_Controls">
+                    <div class="file-container" class="Button_Control">
+                        <label for="fileInput" class="button Button_Control">Choose Excel File</label>
+                    </div>
+                    <input type="file" id="fileInput" accept=".xls, .xlsx" onchange="displayFileName()">
+                    <button onclick="convertToJSON()" class="Button_Control">Convert to JSON</button>
+                    <button id="copyButton" class="Button_Control" onclick="copyToClipboard()">Copy</button>
+                    <h5 class="General_Title">
+                        Include:
+                    </h5>
+                    <label><input type="checkbox" id="questionCheckbox" checked>Question</label>
+                    <label><input type="checkbox" id="correctAnswerCheckbox" checked>Correct Answer</label>
+                    <label><input type="checkbox" id="choicesCheckbox" checked>Choices</label>
+                    <label><input type="checkbox" id="referenceCheckbox" checked>Reference</label>
+                    <label><input type="checkbox" id="termCheckbox" checked>Term</label>
+                    <label><input type="checkbox" id="statusCheckbox" unchecked>Status</label>
+                </div>
+                <div class="FC_Output">
+                    <div class="FC_Output_Status">
+                        <div id="fileLabel"></div>
+                        <div id="copyMessage">Data copied successfully!</div>
+                    </div>
+                    <div class="FC_Output_Container">
+                        <div id="jsonOutputContainer">
+                            <pre id="jsonOutput"></pre>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    
 
     <script>
         
