@@ -34,7 +34,8 @@
         "XML"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "It consists of transformed data and facilities decision making.",
@@ -46,7 +47,8 @@
         "XML"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "It is a shared, integrated computer structure that houses a collection of End-user data and Metadata.",
@@ -58,7 +60,8 @@
         "Cloud Database"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "It is a collection of programs that manages the dabase structure and controls access to the data stored in the database.",
@@ -70,7 +73,8 @@
         "Databased Design"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "It serves as the intermediary between the user and the database.",
@@ -82,7 +86,8 @@
         "Database Structure"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "The database structure itself is stored as a collection of files, and the only way to access the data in those files is through the _____.",
@@ -94,7 +99,8 @@
         "Data Anomalies"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What advantage of DBMS is in the statement?<BR>The DBMS serves as the intermediary between the user and the database.",
@@ -106,7 +112,8 @@
         "Improved decision making"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What advantage of DBMS is in the statement?<BR>The database structure itself is stored as a collection of files, and the only way to access the data in those files is through the DBMS.",
@@ -118,7 +125,8 @@
         "Increased end-user productivity"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What advantage of DBMS is in the statement?<BR>The more users access the data, the greater risks of data breaches.",
@@ -130,7 +138,8 @@
         "Improved decision making"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What advantage of DBMS is in the statement?<BR>Corporations invest considerable amounts of time, effort, and money to ensure that corporate data is used properly.",
@@ -142,7 +151,8 @@
         "Increased end-user productivity"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What advantage of DBMS is in the statement?<BR>A DMBS provides a framework for better enforcement of data privacy.",
@@ -154,7 +164,8 @@
         "Improved decision making"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What advantage of DBMS is in the statement?<BR>Wider Access to well-managed data promotes a view of the organization's operations and a clearer view of the big picture.",
@@ -166,7 +177,8 @@
         "Increased end-user productivity"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What advantage of DBMS is in the statement?<BR>It becomes much easier to see how actions in one segment of the company affect other segments.",
@@ -178,7 +190,8 @@
         "Increased end-user productivity"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What advantage of DBMS is in the statement?<BR>Data inconsistency exist when different versions of the same data appear in the different places.",
@@ -190,7 +203,8 @@
         "Improved data sharing"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What advantage of DBMS is in the statement?<BR>The DMBS makes it possible to produce quick answers to ad hoc queries.",
@@ -202,7 +216,8 @@
         "Improved data security"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What advantage of DBMS is in the statement?<BR>From a database perspective, a query is a specific request issued to the DBMS for data manipulation -- for example, to read or update the data.",
@@ -214,7 +229,8 @@
         "Improved data security"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What advantage of DBMS is in the statement?<BR>Better-managed data and improved data access make it possible to generate better-quality information, on which better decisions are based.",
@@ -226,7 +242,8 @@
         "Better data integration"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What advantage of DBMS is in the statement?<BR>The quality of the information generated depends on the quality of the underlying data.",
@@ -238,7 +255,8 @@
         "Better data integration"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What advantage of DBMS is in the statement?<BR>The availability of data, combined with the tools that transform data into usable information, empowers end users to make quick, informed decisions that can make the difference between success and failure in the global economy.",
@@ -250,7 +268,8 @@
         "Better data integration"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "DBMS can be to build only one specific type of database.",
@@ -260,7 +279,8 @@
         "THE STATEMENT IS FALSE ."
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "The number of user determines whether the database is classified as single user or multiuser.",
@@ -270,7 +290,8 @@
         "THE STATEMENT IS FALSE ."
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "A type of database that supports only one user at a time.",
@@ -282,7 +303,8 @@
         "Distributed database"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "A single user database that runs on a personal computer.",
@@ -294,7 +316,8 @@
         "Distributed database"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "A type of database that supports multiple users at the same time.",
@@ -306,7 +329,8 @@
         "Distributed database"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "A type of database that supports a relatively small number of users or a specific department within an organization.",
@@ -318,7 +342,8 @@
         "Cloud database"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "A type of database that is used by the entire organization and supports many users across many departments.",
@@ -330,7 +355,8 @@
         "Cloud database"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "A type of database that supports data located a single site.",
@@ -342,7 +368,8 @@
         "General-purpose database"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "A type of database that is created and maintained using storage services, such as Microsoft Azure or Amazon AWS.",
@@ -354,7 +381,8 @@
         "Enterprise database"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "A type of database that contains a wide variety of data used in multiple disciplines.",
@@ -366,7 +394,8 @@
         "Discipline-specific database"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "A type of database that supports data division across several different sites.",
@@ -378,7 +407,8 @@
         "General-purpose database"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "A type of database that contains data focused on particular subject areas.",
@@ -390,7 +420,8 @@
         "Centralized database"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "A type of database designed primarily to support a company's day-to-day functioning.",
@@ -402,7 +433,8 @@
         "Workgroup database"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "A type of database focused primarily on storing historical data and business metrics used for tactical or strategic desicion making.",
@@ -414,7 +446,8 @@
         "Workgroup database"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "It refers to the activities that focus on the blueprint of database structure that will be used to store and manage end-user data.",
@@ -426,7 +459,8 @@
         "Database System"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "A database that meets all user requirements always happen.",
@@ -436,7 +470,8 @@
         "THE STATEMENT IS FALSE ."
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "Database structure must be designed carefully.",
@@ -446,7 +481,8 @@
         "THE STATEMENT IS FALSE ."
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "This is such as crucial aspect of working with databases that most of this book is dedicated to the development of good database representation techniques.",
@@ -458,7 +494,8 @@
         "Data"
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "Database design always get the attention it deserves.",
@@ -468,7 +505,8 @@
         "THE STATEMENT IS FALSE ."
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "Database design does not get the attention it deserves due to some changes occurring throughout the development cycle.",
@@ -478,7 +516,8 @@
         "THE STATEMENT IS FALSE ."
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "Database design does not get the attention it deserves due to poor logical data modeling.",
@@ -488,7 +527,8 @@
         "THE STATEMENT IS FALSE ."
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "Database design does not get the attention it deserves due to sufficient specification.",
@@ -498,7 +538,8 @@
         "THE STATEMENT IS FALSE ."
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "Database design does not get the attention it deserves because the design is assign to , or performed by mediocre.",
@@ -508,7 +549,8 @@
         "THE STATEMENT IS FALSE ."
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "Database design does not get the attention it deserves due to not enough of time in the development schedule.",
@@ -518,7 +560,8 @@
         "THE STATEMENT IS FALSE ."
       ],
       "reference": "01_Handout_1",
-      "term": "Prelim"
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
     },
     {
       "question": "What should be the first step in constructing a physical database?",
@@ -841,8 +884,7 @@
       ],
       "reference": "01_Handout_1",
       "term": "Prelim"
-    }
-    ,
+    },
     {
       "question": "It is a data about data, through which the end-user data is integrated and managed.",
       "answer": "Metadata",

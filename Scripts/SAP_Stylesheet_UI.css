@@ -21,6 +21,7 @@ button{
     width: 100%;
     height: 100%;
     position: fixed;
+    top: 0;
 }
 
 .MenuBar{
@@ -31,7 +32,6 @@ button{
     display: flex;
     flex-direction: column;
     padding: 15px;
-    cursor: pointer;
     z-index: 500;
 }
 
@@ -46,7 +46,9 @@ button{
     height: auto;
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 17px;
+    cursor: pointer;
 }
 
 .MenuBar_Title_Image{
@@ -60,7 +62,7 @@ button{
 
 .MenuBar_List_Item{
     display: grid;
-    grid-template-columns: 30px auto 1fr;
+    grid-template-columns: 30px auto 30px;
     grid-gap: 10px;
     align-items: center;
     margin-bottom: 10px;
@@ -110,15 +112,18 @@ button{
     position: relative;
     overflow-y: auto;
     overflow-x: hidden;
+    z-index: 1;
 }
 
 .Page_Overlays{
     /* background-color: red; */
-    z-index: 50;
+    z-index: 150;
     position: fixed;
     width: 100%;
     height: 100%;
     pointer-events: none;
+    top: 0;
+
 }
 
 .General_Button{
@@ -144,4 +149,8 @@ button{
 .General_Button:focus{
     outline: solid var(--SAP-Purple-Level-2D) 2px;
     border: solid var(--SAP-Purple-Level-2L) 1px;
+}
+
+.General_Button[Primary]{
+    background-color: var(--SAP-Purple-Level-2L);
 }

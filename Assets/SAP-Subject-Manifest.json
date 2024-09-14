@@ -3,13 +3,13 @@
         {
             "Subject_ID": "C3_S1_ADET",
             "Subject_Name": "Application Development and Emerging Technologies",
-            "Subject_Thumbnail": "./images/Thumbnail_ADET.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_ADET.png",
             "Subject_Status": "Active",
             "Subject_Module": [
                 {   
                     "Module_ID": "C3_S1_ADET_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "19 August 2024",
                     "Module_Subfolders": [
@@ -31,13 +31,13 @@
         {
             "Subject_ID": "C3_S1_ASIA",
             "Subject_Name": "Advanced Systems Integration and Architecture",
-            "Subject_Thumbnail": "./images/Thumbnail_ASIA.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_ASIA.png",
             "Subject_Status": "Active",
             "Subject_Module": [
                 {   
                     "Module_ID": "C3_S1_ASIA_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "19 August 2024",
                     "Module_Subfolders": [
@@ -59,13 +59,13 @@
         {
             "Subject_ID": "C3_S1_ADS",
             "Subject_Name": "Advanced Database System",
-            "Subject_Thumbnail": "./images/Thumbnail_ADS.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_ADS.png",
             "Subject_Status": "Active",
             "Subject_Module": [
                 {   
                     "Module_ID": "C3_S1_ADS_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "19 August 2024",
                     "Module_Subfolders": [
@@ -87,13 +87,13 @@
         {
             "Subject_ID": "C3_S1_EA",
             "Subject_Name": "Enterprise Architecture",
-            "Subject_Thumbnail": "./images/Thumbnail_EA.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_EA.png",
             "Subject_Status": "Active",
             "Subject_Module": [
                 {   
                     "Module_ID": "C3_S1_EA_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "19 August 2024",
                     "Module_Subfolders": [
@@ -115,13 +115,13 @@
         {
             "Subject_ID": "C3_S1_PIIST",
             "Subject_Name": "Professional Issues in Information System and Technology",
-            "Subject_Thumbnail": "./images/Thumbnail_PIIST.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_PIIST.png",
             "Subject_Status": "Active",
             "Subject_Module": [
                 {   
                     "Module_ID": "C3_S1_PIIST_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "19 August 2024",
                     "Module_Subfolders": [
@@ -143,13 +143,13 @@
         {
             "Subject_ID": "C3_S1_DDC",
             "Subject_Name": "Data and Digital Communications",
-            "Subject_Thumbnail": "./images/Thumbnail_DDC.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_DDC.png",
             "Subject_Status": "Active",
             "Subject_Module": [
                 {   
                     "Module_ID": "C3_S1_DDC_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "19 August 2024",
                     "Module_Subfolders": [
@@ -171,13 +171,13 @@
         {
             "Subject_ID": "C3_S1_EDP",
             "Subject_Name": "Event-Driven Programming",
-            "Subject_Thumbnail": "./images/Thumbnail_EDP.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_EDP.png",
             "Subject_Status": "Active",
             "Subject_Module": [
                 {   
                     "Module_ID": "C3_S1_EDP_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "19 August 2024",
                     "Module_Subfolders": [
@@ -199,13 +199,13 @@
         {
             "Subject_ID": "C2_S2_IM",
             "Subject_Name": "Information Management",
-            "Subject_Thumbnail": "./images/Thumbnail_IM_1.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_IM_1.png",
             "Subject_Status": "Inactive",
             "Subject_Module": [
                 {   
                     "Module_ID": "C2_S2_IM_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "10 March 2024",
                     "Module_Subfolders": [
@@ -236,7 +236,7 @@
                 {   
                     "Module_ID": "C2_S2_IM_Midterms",
                     "Module_Name": "Midterms",
-                    "Module_Thumbnail": "./images/Thumbnail_Midterms_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "13 June 2024",
                     "Module_Subfolders": [
@@ -267,7 +267,7 @@
                 {   
                     "Module_ID": "C2_S2_IM_Prefinals",
                     "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "07 May 2024",
                     "Module_Subfolders": [
@@ -287,7 +287,7 @@
                 {   
                     "Module_ID": "C2_S2_IM_Finals",
                     "Module_Name": "Finals",
-                    "Module_Thumbnail": "./images/Thumbnail_Finals_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "13 June 2024",
                     "Module_Subfolders": [
@@ -320,13 +320,13 @@
         {
             "Subject_ID": "C2_S2_IP",
             "Subject_Name": "Integrative Programming",
-            "Subject_Thumbnail": "./images/Thumbnail_IP_1.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_IP_1.png",
             "Subject_Status": "Inactive",
             "Subject_Module": [
                 {   
                     "Module_ID": "C2_S2_IP_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "13 March 2024",
                     "Module_Subfolders": [
@@ -369,7 +369,7 @@
                         {   
                             "Module_ID": "C2_S2_IP_Midterms",
                             "Module_Name": "Midterms",
-                            "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                            "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                             "Module_Status": "Inactive",
                             "Module_LastModified": "13 March 2024",
                             "Module_Subfolders": [
@@ -390,7 +390,7 @@
                         {   
                             "Module_ID": "C2_S2_IP_Prefinals",
                             "Module_Name": "Pre-Finals",
-                            "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
+                            "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
                             "Module_Status": "Active",
                             "Module_LastModified": "17 May 2024",
                             "Module_Subfolders": [
@@ -413,13 +413,13 @@
         {
             "Subject_ID": "C2_S2_NT",
             "Subject_Name": "Network Technology",
-            "Subject_Thumbnail": "./images/Thumbnail_NT_1.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_NT_1.png",
             "Subject_Status": "Inactive",
             "Subject_Module": [
                 {   
                     "Module_ID": "C2_S2_NT_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "13 March 2024",
                     "Module_Subfolders": [
@@ -451,7 +451,7 @@
                 {   
                     "Module_ID": "C2_S2_NT_Prefinals",
                     "Module_Name": "Pre-Finals",
-                    "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "13 March 2024",
                     "Module_Subfolders": [
@@ -471,7 +471,7 @@
                 {   
                     "Module_ID": "C2_S2_NT_Finals",
                     "Module_Name": "Finals",
-                    "Module_Thumbnail": "./images/Thumbnail_Finals_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "13 March 2024",
                     "Module_Subfolders": [
@@ -504,13 +504,13 @@
         {
             "Subject_ID": "C2_S2_PPC",
             "Subject_Name": "Philippine Popular Culture",
-            "Subject_Thumbnail": "./images/Thumbnail_PPC_1.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_PPC_1.png",
             "Subject_Status": "Inactive",
             "Subject_Module": [
                 {   
                     "Module_ID": "C2_S2_PPC_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "12 March 2024",
                     "Module_Subfolders": [
@@ -530,7 +530,7 @@
                 {   
                     "Module_ID": "C2_S2_PPC_Prefinals",
                     "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "17 May 2024",
                     "Module_Subfolders": [
@@ -552,13 +552,13 @@
         {
             "Subject_ID": "C2_S2_QM",
             "Subject_Name": "Quantitative Methods",
-            "Subject_Thumbnail": "./images/Thumbnail_QM_1.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_QM_1.png",
             "Subject_Status": "Inactive",
             "Subject_Module": [
                 {   
                     "Module_ID": "C2_S2_QM_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "10 March 2024",
                     "Module_Subfolders": [
@@ -580,13 +580,13 @@
         {
             "Subject_ID": "C2_S2_SIA",
             "Subject_Name": "Systems Integration and Architecture",
-            "Subject_Thumbnail": "./images/Thumbnail_SIA_1.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_SIA_1.png",
             "Subject_Status": "Inactive",
             "Subject_Module": [
                 {   
                     "Module_ID": "C2_S2_SIA_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "12 March 2024",
                     "Module_Subfolders": [
@@ -617,7 +617,7 @@
                 {   
                     "Module_ID": "C2_S2_SIA_Midterms",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Midterms_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "12 March 2024",
                     "Module_Subfolders": [
@@ -648,7 +648,7 @@
                 {   
                     "Module_ID": "C2_S2_SIA_Prefinals",
                     "Module_Name": "Pre-Finals",
-                    "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "17 May 2024",
                     "Module_Subfolders": [
@@ -668,7 +668,7 @@
                 {   
                     "Module_ID": "C2_S2_SIA_Finals",
                     "Module_Name": "Finals",
-                    "Module_Thumbnail": "./images/Thumbnail_Finals_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "14 June 2024",
                     "Module_Subfolders": [
@@ -702,13 +702,13 @@
         {
             "Subject_ID": "C2_S2_TP",
             "Subject_Name": "Technopreneurship",
-            "Subject_Thumbnail": "./images/Thumbnail_TP_1.png",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_TP_1.png",
             "Subject_Status": "Inactive",
             "Subject_Module": [
                 {   
                     "Module_ID": "C2_S2_TP_Prelims",
                     "Module_Name": "Prelims",
-                    "Module_Thumbnail": "./images/Thumbnail_Prelims_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "10 March 2024",
                     "Module_Subfolders": [
@@ -751,7 +751,7 @@
                 {   
                     "Module_ID": "C2_S2_TP_Prefinals",
                     "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "./images/Thumbnail_Prefinals_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "15 May 2024",
                     "Module_Subfolders": [

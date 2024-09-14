@@ -354,3 +354,71 @@
         opacity: 100%;
     }
 }
+
+/* Quiz player */
+@media only screen and (max-width: 700px){
+    .Quiz_Form_Image, .Quiz_Form_Image_Image{
+        height: auto;
+    }
+    .Quiz_Finisher{
+        width: calc(100% - 20px);
+        padding: 10px;
+    }
+    .Quiz_Finisher_Content{
+        height: calc(100% - 60px);
+        width: 100%;
+        /* background-color: red; */
+        padding: 30px;
+        /* padding-bottom: 20px; */
+    }
+    [HideOnSmall]{
+        display: none;
+    }
+    .Quiz
+    .MenuBar_List_Item[Display = "none"]{
+        display: none !important;
+    }
+    .Page_Content[State = "Hide"]{
+        grid-template-areas: "Content" !important;
+    }
+    .MenuBar[State = "Hide"]{
+        position: fixed;
+        transform: translateY(100%);
+    }
+    .Quiz_Questions_List{
+        position: absolute;
+        top: 0;
+        width: calc(100% - 20px);
+        height: calc(100% - 70px);
+        padding-bottom: 0px;
+        padding: 10px;
+        padding-top: 20px;
+        background-color: var(--SAP-Gray-Level-3L);
+        /* max-height: unset; */
+        grid-template-columns: repeat(auto-fit, 50px);
+        grid-template-rows: repeat(auto-fit, 50px);
+        grid-gap: 5px;
+        justify-content: center;
+        z-index: -10;
+    }
+    .Quiz_Questions_List[State = "Collapsed"]{
+        transform: translateY(200%);
+        pointer-events: none;
+        max-height: calc(100% - 90px);
+        opacity: 0%
+    }
+    .Quiz_Questions_List[State = "Expanded"]{
+        transform: translateY(0%);
+        opacity: 100%;        
+        overflow-y: auto;
+        max-height: calc(100% - 100px);
+        padding-bottom: 0px;
+    }
+    .Quiz_Questions_List_Item{
+        margin: unset;
+    }
+    .Quiz_Finisher{
+        height: calc(100% - 20px);
+        padding: 10px;
+    }
+}

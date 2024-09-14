@@ -423,7 +423,7 @@ window.addEventListener("DOMContentLoaded", () => {
     setTimeout(function(){
         document.getElementById("Quiz_Starter_Loader").setAttribute("State", "Inactive");
         document.getElementById("Quiz_Starter_Content").setAttribute("State", "Active");
-    }, 5000);
+    }, 500);
 });
 
 function load_QuizData(){
