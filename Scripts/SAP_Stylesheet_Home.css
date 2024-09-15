@@ -308,9 +308,13 @@
     width: calc(100% - 35px);
 }
 
-/* .Schedules{
-    position: relative;
-} */
+.Schedules{
+    /* position: relative; */
+}
+
+.Schedules_Content{
+    width: calc(100% - 60px);
+}
 
 .Schedules_Title{
     padding: 10px;

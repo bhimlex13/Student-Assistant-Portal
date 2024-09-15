@@ -91,6 +91,7 @@
     align-items: center;
     grid-template-areas: 
     "Primary Secondary";
+    padding-bottom: 0px;
     /* background-color: var(--SAP-Purple-Level-2L); */
 }
 

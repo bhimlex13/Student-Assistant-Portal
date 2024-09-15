@@ -50,6 +50,7 @@ function Home_Start(){
     document.getElementById("Quizzes").click();
     Quizzes_Manifest_Load(Quizzes_Manifest_FileURL);
     Schedules_Class_Load(Schedules_Class_Manifest_FileURL);
+    Schedules_Exams_Load(Schedules_Exams_Manifest_FileURL);
 }
 
 // Object that contains the subject list
@@ -338,6 +339,103 @@ function Schedules_Class_Timetable_Load(){
                     var Schedule_Subject_Item = document.createElement('span');
                     Schedule_Subject_Item.innerHTML = Schedule_Subject_Item_InnerHTML;
                     document.getElementById(Schedule_Section[a].Section_ID + "_" + b).appendChild(Schedule_Subject_Item);
+                }
+            }
+            
+        }
+    }
+}
+
+// Exams
+// Object that contains the subject list
+let Schedules_Exams_Manifest = {};
+// URL to the .json file 
+var Schedules_Exams_Manifest_FileURL = "Assets/SAP-Exam-Schedule.json";
+
+// Gets the manifest file and returns the data
+async function Schedules_Exams_Manifest_Fetch(URL) {
+  try {
+    const JSON_File = await fetch(URL);
+    const JSON_Data = await JSON_File.json();
+    return JSON_Data;
+  } catch (error) {
+    console.error("SubjectList_FetchManifest failed to fetch the manifest file.");
+    return null;
+  }
+}
+
+// Gets the manifest file and stores the data to SubjectList
+Schedules_Exams_Manifest_Fetch(Schedules_Exams_Manifest_FileURL)
+    .then(data => {
+        if (data !== null) {
+            Schedules_Exams_Manifest = data;
+        }
+    })
+    .catch(error => {
+        console.error('SAP | Error | Error fetching JSON file: ', error);
+    });
+
+// This is used by other functions to get the manifest data
+async function Schedules_Exams_Load(Schedules_Exams_Manifest_FileURL) {
+  try {
+    const data = await Schedules_Exams_Manifest_Fetch(Schedules_Exams_Manifest_FileURL);
+    Schedules_Exams_Timetable_Load();
+    return data;
+  } catch (error) {
+    console.error('SAP | Error | Error getting manifest data: ', error);
+    return null;
+  }
+}
+
+// Schedules
+function Schedules_Exams_Timetable_Load(){
+    document.getElementById("tab_Schedules_Exam").innerHTML = "";
+    var Schedule_Section = Schedules_Exams_Manifest.Schedule_Section;
+    // Creates sections
+    for (a = 0; a <= Schedule_Section.length - 1; a++){
+        console.log(a);
+        if (Schedule_Section[a].Section_Status == "Active"){
+            // Section Title
+            var Section_Title = document.createElement('h1');
+            Section_Title.setAttribute("class", "Schedules_List_Title");
+            Section_Title.innerHTML = Schedule_Section[a].Section_Name;
+            document.getElementById("tab_Schedules_Exam").appendChild(Section_Title);
+            // Section List Container
+            var Section_Container = document.createElement('div');
+            Section_Container.setAttribute("class", "Schedules_List");
+            Section_Container.setAttribute("id", "Exam_"+Schedule_Section[a].Section_ID);
+            document.getElementById("tab_Schedules_Exam").appendChild(Section_Container);
+
+            // Creates day containers
+            for (b = 0; b <= Schedule_Section[a].Section_Schedule.length - 1; b++){
+                var Schedule_Day_Item_InnerHTML = `
+                    <div class="Schedules_List_Section" id="Exam_${Schedule_Section[a].Section_ID}_${b}">
+                        <h1 class="Schedules_List_Section_Title">
+                            ${Schedule_Section[a].Section_Schedule[b].Schedule_Day}
+                        </h1>
+                    </div>
+                `;
+                var Schedule_Day_Item = document.createElement('span');
+                Schedule_Day_Item.innerHTML = Schedule_Day_Item_InnerHTML;
+                document.getElementById("Exam_" + Schedule_Section[a].Section_ID).appendChild(Schedule_Day_Item);
+                // Creates individual subjects
+                for (c = 0; c <= Schedule_Section[a].Section_Schedule[b].Schedule_Subjects.length - 1; c++){
+                    var Schedule_Subject_Item_InnerHTML = `
+                        <div class="Schedules_List_Item">
+                            <h2 class="Schedules_List_Item_Title">
+                                ${Schedule_Section[a].Section_Schedule[b].Schedule_Subjects[c].Subject_Name}
+                            </h2>
+                            <h4 class="Schedules_List_Item_Time">
+                                ${Schedule_Section[a].Section_Schedule[b].Schedule_Subjects[c].Subject_Duration[0]} - ${Schedule_Section[a].Section_Schedule[b].Schedule_Subjects[c].Subject_Duration[1]}
+                            </h4>
+                            <h4 class="Schedules_List_Item_Room">
+                                ${Schedule_Section[a].Section_Schedule[b].Schedule_Subjects[c].Subject_Location}
+                            </h4>
+                        </div>
+                    `;
+                    var Schedule_Subject_Item = document.createElement('span');
+                    Schedule_Subject_Item.innerHTML = Schedule_Subject_Item_InnerHTML;
+                    document.getElementById("Exam_" + Schedule_Section[a].Section_ID + "_" + b).appendChild(Schedule_Subject_Item);
                 }
             }
             
