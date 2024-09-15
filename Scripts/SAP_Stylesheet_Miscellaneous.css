@@ -49,6 +49,21 @@
     color: white;
 }
 
+.FC_Controls_Input{
+    border: solid var(--SAP-Gray-Level-1D) 1px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: var(--Text-Font-Secondary);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.FC_Controls_Input#file-upload-button{
+    
+}
+
 .FC_Content > .file-container > .button {
     font-family: var(--Text-Font-Secondary);
     color: black;

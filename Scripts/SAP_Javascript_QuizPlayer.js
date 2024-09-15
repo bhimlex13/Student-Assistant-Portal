@@ -17,9 +17,9 @@ function Quiz_Questions_List_Toggle(){
 }
 
 
-var Sound_Complete = new Audio("Assets/Sounds/in.ogg");
-var Sound_Excellent = new Audio("Assets/Sounds/challenge_complete.ogg");
-var Sound_Perfect = new Audio("Assets/Sounds/challenge_complete_old.ogg");
+var Sound_Complete = new Audio("Assets/Sound_Effects/in.ogg");
+var Sound_Excellent = new Audio("Assets/Sound_Effects/challenge_complete.ogg");
+var Sound_Perfect = new Audio("Assets/Sound_Effects/challenge_complete_old.ogg");
 
 
 // Starting point
@@ -147,12 +147,11 @@ function Quiz_Question_Build(){
     Element_Attribute_Set("Quiz_Form_Image", "Display", "none");
     // Check if the question has an image property, and set its source into the image element
     if (Question.image != null){
+        document.getElementById("Quiz_Form_Image_Image").src = "Assets/Images/Thumbnails/Image_Loading.png";
         document.getElementById("Quiz_Form_Image_Image").src = Question.image;
         Element_Attribute_Set("Quiz_Form_Image", "Display", "block");
-        console.log("Has image");
     } else {
         Element_Attribute_Set("Quiz_Form_Image", "Display", "none");
-        console.log("No image");
     }
 
     // Updates the question number display from the header
@@ -199,8 +198,8 @@ function Quiz_Evaluate_Answer(){
 
 // Determines the action taken depending on the verdict of Quiz_Evaluate_Answer
 function Quiz_Answer_Result(Verdict){
-    var Sound_Correct = new Audio("Assets/Sounds/Correct_2.mp3");
-    var Sound_Wrong = new Audio("Assets/Sounds/Wrong_2.mp3");
+    var Sound_Correct = new Audio("Assets/Sound_Effects/Correct_2.mp3");
+    var Sound_Wrong = new Audio("Assets/Sound_Effects/Wrong_2.mp3");
     // Verdict 1: The answer is wrong
     if (Verdict == "Wrong"){
         Quiz_Answer_Highlight();

@@ -6,108 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Excel to JSON Converter</title>
     <link rel="icon" type="image/x-icon" href="Assets/Icons/Logo.png">
-    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
-    <style>
-        body {
-            /* font-family: Arial, sans-serif; */
-            /* background-color: #f5f5f5; */
-            margin: 0;
-            padding: 0;
-            /* box-sizing: border-box; */
-        }
-
-        .title {
-            font-size: 2rem;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 15px auto;
-            /* background-color: #fff; */
-            padding: 15px;
-            border-radius: 8px;
-            /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
-            position: relative;
-        }
-
-        .file-container {
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-        }
-
-        #copyButton {
-            /* background-color: #0056b3; */
-        }
-
-        #copyMessage {
-            /* color: green; */
-            font-size: 14px;
-            /* margin-top: 15px; */
-            display: none;
-        }
-
-        input[type="file"] {
-            display: none;
-        }
-
-        label.button,
-        button {
-            display: inline-block;
-            width: 150px;
-            /* Set the width of all buttons */
-            text-align: center;
-            padding: 10px 0;
-            margin: 5px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            /* transition: background-color 0.3s; */
-            font-size: 14px;
-        }
-
-        label.button {
-            /* background-color: #007bff; */
-            /* color: #fff; */
-        }
-
-        label.button:hover {
-            /* background-color: grey; */
-        }
-
-        button {
-            /* background-color: orange; */
-            /* color: white; */
-        }
-
-        button:hover {
-            /* background-color: green; */
-        }
-
-        #jsonOutputContainer {
-            margin-top: 20px;
-            margin-bottom: 10px;
-            position: relative;
-        }
-
-        #jsonOutput {
-            padding: 10px;
-            /* background-color: #f0f0f0; */
-            border-radius: 5px;
-            white-space: pre-wrap;
-        }
-
-        #copyButton:hover {
-            /* background-color: grey; */
-        }
-
-        .bg-primary {
-            /* background-color: #014887 !important; */
-        }
-    </style>
-    <!-- <link rel="stylesheet" href="./assets/style_reference.css">
-    <link rel="stylesheet" href="./assets/style_miscellaneous.css" defer>
-    <link rel="stylesheet" href="./assets/style_universal.css"> -->
     <link rel="stylesheet" href="Scripts/SAP_Main.css">
 </head>
 
@@ -138,40 +36,18 @@
         <div class="Page_Content_Main" id="Content">
             <div class="FC_Title">
                 <h1>Excel to JSON Converter</h1>
-            </div>
-        
-            <!-- <div class="container FC_Content">
-                <div class="file-container">
-                    <label for="fileInput" class="button Button_Control">Choose Excel File</label>
-                    <div id="fileLabel"></div>
-                </div>
-                <input type="file" id="fileInput" accept=".xls, .xlsx" onchange="displayFileName()">
-                <button onclick="convertToJSON()">Convert to JSON</button>
-                <button id="copyButton" class="Button_Control" onclick="copyToClipboard()">Copy</button>
-        
-                <div id="copyMessage">Data copied successfully!</div>
-        
-                
-        
-                <label><input type="checkbox" id="questionCheckbox" checked>Question</label>
-                <label><input type="checkbox" id="correctAnswerCheckbox" checked>Correct Answer</label>
-                <label><input type="checkbox" id="choicesCheckbox" checked>Choices</label>
-                <label><input type="checkbox" id="referenceCheckbox" checked>Reference</label>
-                <label><input type="checkbox" id="termCheckbox" checked>Term</label>
-                <label><input type="checkbox" id="statusCheckbox" unchecked>Status</label>
-            </div> -->
-        
+            </div>        
             <div class="FC">
                 <div class="FC_Controls">
-                    <div class="file-container" class="Button_Control">
-                        <label for="fileInput" class="button Button_Control">Choose Excel File</label>
-                    </div>
-                    <input type="file" id="fileInput" accept=".xls, .xlsx" onchange="displayFileName()">
-                    <button onclick="convertToJSON()" class="Button_Control">Convert to JSON</button>
-                    <button id="copyButton" class="Button_Control" onclick="copyToClipboard()">Copy</button>
-                    <h5 class="General_Title">
+                    <button class="General_Button">
+                        <label for="fileInput">Choose Excel File</label>
+                    </button>
+                    <input class="FC_Controls_Input" style="display: none" type="file" id="fileInput" accept=".xls, .xlsx" onchange="displayFileName()">
+                    <button onclick="convertToJSON()" class="General_Button">Convert to JSON</button>
+                    <button id="copyButton" class="General_Button" onclick="copyToClipboard()">Copy</button>
+                    <h3 class="General_Title">
                         Include:
-                    </h5>
+                    </h3>
                     <label><input type="checkbox" id="questionCheckbox" checked>Question</label>
                     <label><input type="checkbox" id="correctAnswerCheckbox" checked>Correct Answer</label>
                     <label><input type="checkbox" id="choicesCheckbox" checked>Choices</label>
@@ -182,7 +58,7 @@
                 <div class="FC_Output">
                     <div class="FC_Output_Status">
                         <div id="fileLabel"></div>
-                        <div id="copyMessage">Data copied successfully!</div>
+                        <div id="copyMessage" style="display: none;">Data copied successfully!</div>
                     </div>
                     <div class="FC_Output_Container">
                         <div id="jsonOutputContainer">

@@ -126,7 +126,7 @@
 
 .Quiz_Starter_Content {
     width: 500px;
-    height: calc(100% - 20px);
+    height: calc(100% - 40px);
     /* background-color: red; */
     align-self: center;
     justify-self: center;
