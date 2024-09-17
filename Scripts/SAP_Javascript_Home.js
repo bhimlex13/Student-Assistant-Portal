@@ -94,7 +94,10 @@ async function Quizzes_Manifest_Load(Quizzes_Manifest_FileURL) {
 }
 
 // Subject array
+var Explorer_Status_Evaluator = 0;
 function Quizzes_Explorer_Load_Subject(){
+    Explorer_Status_Evaluator = 0;
+    Element_Attribute_Set("Quizzes_Explorer_Status", "Display", "none");
     Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Close", "0.2s", "forwards", "1", 0);
     setTimeout(function(){
         Element_Attribute_Set("Quizzes_Container", "State", "Header_Inactive");
@@ -105,8 +108,13 @@ function Quizzes_Explorer_Load_Subject(){
             let Object = Quizzes_Manifest.Subject[a];
             if (Object.Subject_Status == "Active"){
                 Explorer_Item_Create(Object.Subject_ID, Object.Subject_Name, null, Object.Subject_Thumbnail, null, `Quizzes_Explorer_Load_Module(${a})`);
+                Explorer_Status_Evaluator++;
             }
             
+        }
+
+        if (Explorer_Status_Evaluator == 0){
+            Element_Attribute_Set("Quizzes_Explorer_Status", "Display", "block");
         }
         Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Open", "0.5s", "forwards", "1", 100);
     }, 200);
@@ -115,6 +123,8 @@ function Quizzes_Explorer_Load_Subject(){
 
 // Module array
 function Quizzes_Explorer_Load_Module(Item){
+    Explorer_Status_Evaluator = 0;
+    Element_Attribute_Set("Quizzes_Explorer_Status", "Display", "none");
     Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Close", "0.2s", "forwards", "1", 0);
     setTimeout(function(){
         Element_Attribute_Set("Quizzes_Container", "State", "Header_Active");
@@ -128,9 +138,12 @@ function Quizzes_Explorer_Load_Module(Item){
             let Object = Quizzes_Manifest.Subject[Item].Subject_Module[a];
             if (Object.Module_Status == "Active"){
                 Explorer_Item_Create(Object.Module_ID, Object.Module_Name, Object.Module_LastModified, Object.Module_Thumbnail, null, `Quizzes_Explorer_Load_Quizzes(${Item}, ${a})`);
+                Explorer_Status_Evaluator++;
             }
         }
-
+        if (Explorer_Status_Evaluator == 0){
+            Element_Attribute_Set("Quizzes_Explorer_Status", "Display", "block");
+        }
         document.getElementById("Quizzes_Title_Subject").innerHTML = Quizzes_Manifest.Subject[Item].Subject_Name;
         Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Open", "0.5s", "forwards", "1", 100);
     }, 200);
@@ -139,6 +152,8 @@ function Quizzes_Explorer_Load_Module(Item){
 
 // Subfolder array
 function Quizzes_Explorer_Load_Quizzes(Item, Module){
+    Explorer_Status_Evaluator = 0;
+    Element_Attribute_Set("Quizzes_Explorer_Status", "Display", "none");
     Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Close", "0.2s", "forwards", "1", 0);
     setTimeout(function(){
         Element_Attribute_Set("Quizzes_Container", "State", "Header_Active");
@@ -150,7 +165,11 @@ function Quizzes_Explorer_Load_Quizzes(Item, Module){
             let Object = Quizzes_Manifest.Subject[Item].Subject_Module[Module].Module_Subfolders[a];
             if (Object.Subfolder_Status == "Active"){
                 Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, Object.Subfolder_Link, null);
+                Explorer_Status_Evaluator++;
             }
+        }
+        if (Explorer_Status_Evaluator == 0){
+            Element_Attribute_Set("Quizzes_Explorer_Status", "Display", "block");
         }
         
         document.getElementById("Quizzes_Title_Folder").innerHTML = Quizzes_Manifest.Subject[Item].Subject_Module[Module].Module_Name;

@@ -192,7 +192,7 @@
             <b>Quiz Player</b>
           </p>
         </button>
-        <button class="MenuBar_List_Item" onclick="Page_ChangePage('Home.html')">
+        <button class="MenuBar_List_Item" onclick="Page_ChangePage('index.html')">
           <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Home.png' draggable='false' loading='lazy' />
           <span class="MenuBar_List_Item_Indicator">
           </span>
@@ -230,7 +230,7 @@
         <div class="Quiz_Form" id="Quiz_Form">
           
           <div class="Quiz_Form_Image" id="Quiz_Form_Image">
-            <img class="Quiz_Form_Image_Image" id="Quiz_Form_Image_Image" draggable="false" loading="lazy" src="Assets/Images/Thumbnails/Image_Loading.png" onerror="this.src = 'Assets/Images/Thumbnails/Image_Failed.png'"/>
+            <img class="Quiz_Form_Image_Image" id="Quiz_Form_Image_Image" draggable="false" loading="lazy" src="Assets/Images/Thumbnails/Image_Loading.png" onerror="Element_Attribute_Set(this.id, 'Display', 'none')"/>
           </div>
           <!-- Used to focus the question (Quiz_Question_Next()) -->
           <button id="Quiz_Form_Decoy">
