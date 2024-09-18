@@ -111,8 +111,6 @@ function Quiz_Question_Build(){
     var Question = Quiz_Data_Questions[Quiz_Question_CurrentIndex]
     // Shuffles the choices of the questions
     Question.choices = Quiz_Order_Shuffle(Question.choices);
-    // Changes the question text
-    document.getElementById("Quiz_Form_Question").innerHTML = Question.question;
     // Clears the choices container and resets its state
     document.getElementById("Quiz_Form_Choices").innerHTML = "";
     Element_Attribute_Set("Quiz_Form_Choices", "Radio_ActiveButton", "");
@@ -141,7 +139,10 @@ function Quiz_Question_Build(){
 
     // If the index of the correct answer is 0, then the choices doesn't have the correct answer; Add warning to the questiontext
     if (Quiz_Question_CurrentIndex_Correct == 0){
-        document.getElementById("Quiz_Form_Question").innerHTML += " [CHOICES DOESN'T HAVE THE ANSWER]";
+        document.getElementById("Quiz_Form_Question").innerHTML = Question.question + " [CHOICES DOESN'T HAVE THE ANSWER]";
+    } else {
+        // Changes the question text
+        document.getElementById("Quiz_Form_Question").innerHTML = Question.question;
     }
 
     // Generates the choices
