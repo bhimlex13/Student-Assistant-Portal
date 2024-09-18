@@ -286,6 +286,10 @@
     outline: solid var(--SAP-Green-Base) 1px;
 }
 
+.Quiz_Form_Choices_Item_Image{
+    width: inherit;
+}
+
 #Quiz_Form_Decoy {
     position: absolute;
     opacity: 0%;
