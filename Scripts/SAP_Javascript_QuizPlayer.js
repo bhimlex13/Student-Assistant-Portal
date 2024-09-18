@@ -111,25 +111,38 @@ function Quiz_Question_Build(){
     var Question = Quiz_Data_Questions[Quiz_Question_CurrentIndex]
     // Shuffles the choices of the questions
     Question.choices = Quiz_Order_Shuffle(Question.choices);
-    // Changes the question text
-    document.getElementById("Quiz_Form_Question").innerHTML = Question.question;
     // Clears the choices container and resets its state
     document.getElementById("Quiz_Form_Choices").innerHTML = "";
     Element_Attribute_Set("Quiz_Form_Choices", "Radio_ActiveButton", "");
 
     // Finds the index of the choice that matches the correct answer
     for (a = 0; a < Question.choices.length; a++){
-        if (Question.answer == Question.choices[a]){
-            Quiz_Question_CurrentIndex_Correct = a;
-            // Sets the attribute to the index of the correct answer
-            Element_Attribute_Set("Quiz_Form_Choices", "Question_CorrectAnswer", "Choice_" + Quiz_Question_CurrentIndex_Correct);
-            break;
+        // If the value is an object
+        if (typeof Question.choices[a] === 'object'){
+            if (Question.answer == Question.choices[a].text){
+                Quiz_Question_CurrentIndex_Correct = a;
+                // Sets the attribute to the index of the correct answer
+                Element_Attribute_Set("Quiz_Form_Choices", "Question_CorrectAnswer", "Choice_" + Quiz_Question_CurrentIndex_Correct);
+                break;
+            }
+        // If the value is plain text
+        } else {
+            if (Question.answer == Question.choices[a]){
+                Quiz_Question_CurrentIndex_Correct = a;
+                // Sets the attribute to the index of the correct answer
+                Element_Attribute_Set("Quiz_Form_Choices", "Question_CorrectAnswer", "Choice_" + Quiz_Question_CurrentIndex_Correct);
+                break;
+            }
         }
+        
     }
 
     // If the index of the correct answer is 0, then the choices doesn't have the correct answer; Add warning to the questiontext
-    if (Quiz_Question_CurrentIndex_Correct = 0){
-        document.getElementById("Quiz_Form_Question").innerHTML += " [CHOICES DOESN'T HAVE THE ANSWER]";
+    if (Quiz_Question_CurrentIndex_Correct == 0){
+        document.getElementById("Quiz_Form_Question").innerHTML = Question.question + " [CHOICES DOESN'T HAVE THE ANSWER]";
+    } else {
+        // Changes the question text
+        document.getElementById("Quiz_Form_Question").innerHTML = Question.question;
     }
 
     // Generates the choices
@@ -139,7 +152,16 @@ function Quiz_Question_Build(){
         Choice_Item.setAttribute("class", "Radio_Button Quiz_Form_Choices_Item");
         Choice_Item.setAttribute("onclick", "Radio_Select(this.id)");
         Choice_Item.setAttribute("State", "Inactive");
-        Choice_Item.innerHTML = Question.choices[b];
+        // If the value is an object
+        if (typeof Question.choices[b] === 'object'){
+            Choice_Item.innerHTML = `
+                ${Question.choices[b].text}<br>
+                <img class='Quiz_Form_Choices_Item_Image' src='${Question.choices[b].image}' draggable='false' loading='lazy' onerror='this.style.display = "none"'/>
+            `
+        // If the value is plain text
+        } else {
+            Choice_Item.innerHTML = Question.choices[b];
+        }        
         document.getElementById("Quiz_Form_Choices").appendChild(Choice_Item);
     }
 
@@ -186,14 +208,21 @@ function Quiz_Evaluate_Answer(){
     var Quiz_ChosenAnswer = Element_Attribute_Get("Quiz_Form_Choices", "Radio_ActiveButton");
     var Quiz_CorrectAnswer = Element_Attribute_Get("Quiz_Form_Choices", "Question_CorrectAnswer");
     
-    // Case 1: The chosen answer is blank (no option selected) OR The chosen answer doesn't match the correct answer (wrong answer)
-    if (Quiz_ChosenAnswer == "" || Quiz_ChosenAnswer != Quiz_CorrectAnswer){
-        Quiz_Answer_Result("Wrong");
-    }
-    // Case 2: Thechosen answer matches the correct answer (correct answer)
-    if (Quiz_ChosenAnswer == Quiz_CorrectAnswer){
+    // Checks if the correct answer exists in the choices.
+    if (Quiz_Question_CurrentIndex_Correct != 0){
+        // Case 1: The chosen answer is blank (no option selected) OR The chosen answer doesn't match the correct answer (wrong answer)
+        if (Quiz_ChosenAnswer == "" || Quiz_ChosenAnswer != Quiz_CorrectAnswer){
+            Quiz_Answer_Result("Wrong");
+        }
+        // Case 2: Thechosen answer matches the correct answer (correct answer)
+        if (Quiz_ChosenAnswer == Quiz_CorrectAnswer){
+            Quiz_Answer_Result("Correct");
+        }
+    // If the correct answer doesn't exist in the choices, automatically mark the question as correct.
+    } else {
         Quiz_Answer_Result("Correct");
     }
+    
 }
 
 // Determines the action taken depending on the verdict of Quiz_Evaluate_Answer
