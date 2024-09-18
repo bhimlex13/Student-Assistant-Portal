@@ -13,28 +13,286 @@
   },
   "quizData": [
     {
-      "question": "Technopreneurs use the _____________ to solve challenging problems and transform opportunities into innovations",
-      "answer": "Design Thinking method",
+      "question": "What is a class in .NET that encapsulates a method and also a reference type data that holds a reference method?",
+      "answer": "Delegate",
       "choices": [
-        "Design Thinking method",
-        "Lean Startup Methodology",
-        "Entrepreneurial Mindset",
-        "Agile Development Approach"
+        "Delegate",
+        "Event Handler",
+        "Encapsulation",
+        "Abstract"
       ],
-      "reference": "03_Handout_1",
-      "term": "Prelim"
+      "reference": "01_Handout_1",
+      "term": "Prelims"
     },
     {
-      "question": "Teams use the Three Lenses of Human-Centered Design to work through a series of steps and activities toward a ___________.",
-      "answer": "desirable, feasible, and viable solution",
+      "question": "What is the keyword used in declaring a delegate?",
+      "answer": "delegate",
       "choices": [
-        "desirable, feasible, and viable solution",
-        "innovative, successful and profitable",
-        "desirable, innovative and feasible",
-        "feasible, innovative and viable solution"
+        "delegate",
+        "abstract",
+        "void",
+        "new"
       ],
-      "reference": "03_Handout_1",
-      "term": "Prelim"
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following can be implemented?",
+      "answer": "Interface",
+      "choices": [
+        "Delegate",
+        "Interface",
+        "Abstract",
+        "Encapsulation"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is faster to execute?",
+      "answer": "Delegate",
+      "choices": [
+        "Delegate",
+        "Interface",
+        "Abstract",
+        "Encapsulation"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following can implement a method only once?",
+      "answer": "Interface",
+      "choices": [
+        "Delegate",
+        "Interface",
+        "Abstract",
+        "Encapsulation"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is instantiated using the 'new' keyword?",
+      "answer": "Delegate",
+      "choices": [
+        "Delegate",
+        "Interface",
+        "Abstract",
+        "Encapsulation"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following encapsulates a method?",
+      "answer": "Delegate",
+      "choices": [
+        "Delegate",
+        "Interface",
+        "Abstract",
+        "Encapsulation"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the return type of the delegate in the example public delegate int GetAnswer(int x, int y);?",
+      "answer": "int",
+      "choices": [
+        "int",
+        "string",
+        "bool",
+        "float"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What keyword is used to instantiate a delegate?",
+      "answer": "new",
+      "choices": [
+        "new",
+        "instantiate",
+        "define",
+        "delegate"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the purpose of a delegate in C#?",
+      "answer": "Reference method",
+      "choices": [
+        "Reference method",
+        "Handle event",
+        "Initialize object",
+        "Encapsulate data"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What must match between a delegate and the method it calls?",
+      "answer": "Signature",
+      "choices": [
+        "Return type",
+        "Method name",
+        "Parameter count",
+        "Signature"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following are not bound to any specific type?",
+      "answer": "Generic Delegates",
+      "choices": [
+        "Generic Delegates",
+        "Handle Event",
+        "Interface",
+        "Abstract"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following can reference a method that returns and takes parameters of different types?",
+      "answer": "Generic Delegates",
+      "choices": [
+        "Generic Delegates",
+        "Handle Event",
+        "Interface",
+        "Delegate"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "They have no implementation; they are just safe callbacks and only have a declaration.",
+      "answer": "Delegate",
+      "choices": [
+        "Delegate",
+        "Interface"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "These can reference any method of a class that provides arguments and return types.",
+      "answer": "Delegate",
+      "choices": [
+        "Delegate",
+        "Interface"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "These are used if a class needs more than one (1) implementation of the method.",
+      "answer": "Delegate",
+      "choices": [
+        "Delegate",
+        "Interface"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "These are faster to execute but slower to get.",
+      "answer": "Delegate",
+      "choices": [
+        "Delegate",
+        "Interface"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "A class that implements an interface can implement all the methods associated with it.",
+      "answer": "Interface",
+      "choices": [
+        "Delegate",
+        "Interface"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Using these allows extending some of the objects’ functionality.",
+      "answer": "Interface",
+      "choices": [
+        "Delegate",
+        "Interface"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "These can implement a method only once",
+      "answer": "Interface",
+      "choices": [
+        "Delegate",
+        "Interface"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "These are slower in executing but faster to get.",
+      "answer": "Interface",
+      "choices": [
+        "Delegate",
+        "Interface"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following are usually task initiators?",
+      "answer": "Events",
+      "choices": [
+        "Delegates",
+        "Events"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is a member of a class that is fired whenever a specific action takes place?",
+      "answer": "event",
+      "choices": [
+        "delegate",
+        "interface",
+        "event",
+        "method"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following occus when the method that has been created and registered to this event is automatically invoked?",
+      "answer": "event",
+      "choices": [
+        "delegate",
+        "interface",
+        "event",
+        "instance"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "The methods that are invoked when an event occurs are known ____.",
+      "answer": "event handler",
+      "choices": [
+        "delegate",
+        "event handler",
+        "interface",
+        "instance"
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelims"
     }
   ]
 }
