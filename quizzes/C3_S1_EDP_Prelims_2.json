@@ -1,0 +1,472 @@
+{
+  "quizInfo": {
+    "Subject": "Event-Driven Programming",
+    "Term": "Prelims",
+    "Title": "Collections and Generics",
+    "LastModified": "19 September 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "02_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which of the following stores key or value pairs where the key represents the value in the collection?",
+      "answer": "Hastable",
+      "choices": [
+        "Hastable",
+        "Queue",
+        "SortedList",
+        "Stack"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following represents a Last In, First Out (LIFO) collection of objects?",
+      "answer": "Stack",
+      "choices": [
+        "Hastable",
+        "List<T>",
+        "SortedList",
+        "Stack"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following represents a First In, First Out (FIFO) collection of objects?",
+      "answer": "Queue",
+      "choices": [
+        "Hastable",
+        "Queue",
+        "SortedList",
+        "List<T>"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is an interface that provides a list of elements?",
+      "answer": "IDictionary",
+      "choices": [
+        "IDictionary",
+        "IEnumerable",
+        "Hastable",
+        "Queue"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is an interface that allows looping through elements in a collection?",
+      "answer": "IEnumerable",
+      "choices": [
+        "IDictionary",
+        "IEnumerable",
+        "Hastable",
+        "Queue"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which method adds an element to the top of the stack?",
+      "answer": "Push",
+      "choices": [
+        "Push",
+        "Add",
+        "Peek",
+        "Pop"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which method returns the first element in the queue?",
+      "answer": "Peek",
+      "choices": [
+        "Push",
+        "Add",
+        "Peek",
+        "Pop"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is a combination of ArrayList and Hashtable?",
+      "answer": "SortedList",
+      "choices": [
+        "SortedList",
+        "Queue",
+        "Stack",
+        "IDictionary"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is used to create collection classes?",
+      "answer": "Generics",
+      "choices": [
+        "Generics",
+        "Standard",
+        "ArrayList",
+        "System"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is a group of objects that provides a standard set of types for storing and managing collections of objects?",
+      "answer": "Collections",
+      "choices": [
+        "Generics",
+        "Standard",
+        "Collections",
+        "ArrayList"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following contains lists, linked lists, dictionaries, and arrays?",
+      "answer": "Collections",
+      "choices": [
+        "Generics",
+        "Standard",
+        "Collections",
+        "ArrayList"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is a collections class that is known for an ordered collection of objects?",
+      "answer": "ArrayList",
+      "choices": [
+        "Generics",
+        "Standard",
+        "ArrayList",
+        "System"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is known as dynamic since items can be added and removed from the specified index location?",
+      "answer": "ArrayList",
+      "choices": [
+        "Generics",
+        "Standard",
+        "ArrayList",
+        "System"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "The key or index value must be specified to access the values in it.",
+      "answer": "SortedList",
+      "choices": [
+        "Hastable",
+        "Queue",
+        "SortedList",
+        "Stack"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which property gets or sets the capacity of the SortedList?",
+      "answer": "Capacity",
+      "choices": [
+        "Capacity",
+        "Count",
+        "Item",
+        "Keys"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which property gets the count of the number of elements in the SortedList?",
+      "answer": "Count",
+      "choices": [
+        "Capacity",
+        "Count",
+        "Item",
+        "Keys"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which property carry the keys in the SortedList?",
+      "answer": "Keys",
+      "choices": [
+        "Capacity",
+        "Count",
+        "Item",
+        "Keys"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which property carry the values in the SortedList?",
+      "answer": "Values",
+      "choices": [
+        "Capacity",
+        "Values",
+        "Item",
+        "Keys"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which property gets and sets the value associated with a specific key in the SortedList?",
+      "answer": "Item",
+      "choices": [
+        "Capacity",
+        "Values",
+        "Item",
+        "Keys"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which method adds an item with the specified key and value into the SortedList?",
+      "answer": "void Add(object key, object value)",
+      "choices": [
+        "void Add(object key, object value)",
+        "void Clear()",
+        "bool ContainsKey(object key)",
+        "object GetByIndex(int index)"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which method is used to remove all the items in the SortedList?",
+      "answer": "void Clear()",
+      "choices": [
+        "void Add(object key, object value)",
+        "void Clear()",
+        "bool ContainsKey(object key)",
+        "object GetByIndex(int index)"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which method is used If the SortedList contains the specified key, then it will return the Boolean value true?",
+      "answer": "bool ContainsKey(object key)",
+      "choices": [
+        "void Add(object key, object value)",
+        "void Clear()",
+        "bool ContainsKey(object key)",
+        "object GetByIndex(int index)"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which method is used If the SortedListcontains the specified value, then it will return the Boolean value true?",
+      "answer": "bool ContainsValue(object value)",
+      "choices": [
+        "bool ContainsValue(object value)",
+        "void Add(object key, object value)",
+        "bool ContainsKey(object key)",
+        "object GetByIndex(int index)"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which method returns the value of the specified index?",
+      "answer": "object GetByIndex(int index)",
+      "choices": [
+        "object GetByIndex(int index)",
+        "bool ContainsValue(object value)",
+        "object GetKey(int index)",
+        "bool ContainsKey(object key)"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which method returns the key of the specified index?",
+      "answer": "object GetKey(int index)",
+      "choices": [
+        "object GetByIndex(int index)",
+        "bool ContainsValue(object value)",
+        "object GetKey(int index)",
+        "bool ContainsKey(object key)"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which method is used if a key that is specified will remove its element?",
+      "answer": "void Remove(object key)",
+      "choices": [
+        "void Remove(object key)",
+        "void RemoveAt(int index)",
+        "object GetByIndex(int index)",
+        "object GetKey(int index)"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which method is used if an index that is specified will remove its element in the SortedList?",
+      "answer": "void RemoveAt(int index)",
+      "choices": [
+        "void Remove(object key)",
+        "void RemoveAt(int index)",
+        "object GetByIndex(int index)",
+        "object GetKey(int index)"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is an interface that allows you to determine the number of elements in a collections and copy them in a simple array type?",
+      "answer": "ICollection",
+      "choices": [
+        "IDictionary",
+        "IEnumerable",
+        "ICollection",
+        "Queue"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is a generic collection that provides an efficient and dynamically allocated array, which is commonly used to store a list of duplicate objects?",
+      "answer": "List<T>",
+      "choices": [
+        "List<T>",
+        "SortedList",
+        "Queue",
+        "Stack"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is the correct syntax for creating List<T>?",
+      "answer": "List<T> variableName = new List<T>()",
+      "choices": [
+        "List<T> variableName = new List<T>()",
+        "List<T> variableName = new List()",
+        "List<int> variableName = new List<int>",
+        "List variableName = new List<T>()"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following method adds an element to the end of queue?",
+      "answer": "Enqueue",
+      "choices": [
+        "Enqueue",
+        "Push",
+        "Add",
+        "Pop"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following method will return the element at the beginning of the queue without removing it?",
+      "answer": "Dequeue",
+      "choices": [
+        "Dequeue",
+        "Remove",
+        "Pop",
+        "Drop"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following method removes and returnsthe value at the beginning of the queue?",
+      "answer": "Peek",
+      "choices": [
+        "Enqueue",
+        "Search",
+        "Contain",
+        "Peek"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is the correct syntax for creating Queue<T>?",
+      "answer": "Queue<int> ageQueue = new Queue<int>()",
+      "choices": [
+        "Queue<int> ageQueue = new Queue<int>()",
+        "Queue<T> ageQueue = new Queue<T>()",
+        "Queue<int> ageQueue = new Queue<int>",
+        "Queue<T> ageQueue = new Queue<T>"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following method adds an element at the top in the stack?",
+      "answer": "Push",
+      "choices": [
+        "Enqueue",
+        "Push",
+        "Add",
+        "Pop"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following method will return the element at the top of the stack without removing it?",
+      "answer": "Peek",
+      "choices": [
+        "Enqueue",
+        "Search",
+        "Contain",
+        "Peek"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following method removes and returnsthe value at the top of the stack?",
+      "answer": "Pop",
+      "choices": [
+        "Dequeue",
+        "Remove",
+        "Pop",
+        "Drop"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which of the following is the correct syntax for creating Stack<T>?",
+      "answer": "Stack<int> ageStack = new Stack<int>(20)",
+      "choices": [
+        "Stack<int> ageStack = new Stack<int>(20)",
+        "Stack<T> ageStack = new Stack<T>()",
+        "Stack<int> ageStack = new Stack<int>",
+        "Stack<T> ageStack = new Stack<T>(20)"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelims"
+    }
+  ]
+}
