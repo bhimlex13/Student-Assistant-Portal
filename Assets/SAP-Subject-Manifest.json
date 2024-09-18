@@ -4,13 +4,13 @@
             "Subject_ID": "C3_S1_ADET",
             "Subject_Name": "Application Development and Emerging Technologies",
             "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_ADET.png",
-            "Subject_Status": "Active",
+            "Subject_Status": "Inactive",
             "Subject_Module": [
                 {   
                     "Module_ID": "C3_S1_ADET_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Active",
+                    "Module_Status": "Inactive",
                     "Module_LastModified": "19 August 2024",
                     "Module_Subfolders": [
                         {
@@ -22,7 +22,7 @@
                                 ""
                             ],
                             "Subfolder_LastModified": "19 August 2024",
-                            "Subfolder_Status": "Active"
+                            "Subfolder_Status": "Inactive"
                         }
                     ]
                 }
@@ -172,25 +172,25 @@
             "Subject_ID": "C3_S1_EDP",
             "Subject_Name": "Event-Driven Programming",
             "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_EDP.png",
-            "Subject_Status": "Inactive",
+            "Subject_Status": "Active",
             "Subject_Module": [
                 {   
                     "Module_ID": "C3_S1_EDP_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "19 August 2024",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "19 September 2024",
                     "Module_Subfolders": [
                         {
-                            "Subfolder_ID": "C3_S1_ASIA_Prelims_1",
-                            "Subfolder_Name": "SAMPLE DATA",
+                            "Subfolder_ID": "C3_S1_EDP_Prelims_1",
+                            "Subfolder_Name": "Delegates and Events",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=SAMPLE_DATA",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EDP_Prelims_1",
                             "Subfolder_Author": [
-                                ""
+                                "Alexander Oro"
                             ],
-                            "Subfolder_LastModified": "19 August 2024",
-                            "Subfolder_Status": "Inactive"
+                            "Subfolder_LastModified": "19 September 2024",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }

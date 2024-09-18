@@ -1,0 +1,40 @@
+{
+  "quizInfo": {
+    "Subject": "Event-Driven Programming",
+    "Term": "Prelims",
+    "Title": "Delegates and Events",
+    "LastModified": "19 September 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Technopreneurs use the _____________ to solve challenging problems and transform opportunities into innovations",
+      "answer": "Design Thinking method",
+      "choices": [
+        "Design Thinking method",
+        "Lean Startup Methodology",
+        "Entrepreneurial Mindset",
+        "Agile Development Approach"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Teams use the Three Lenses of Human-Centered Design to work through a series of steps and activities toward a ___________.",
+      "answer": "desirable, feasible, and viable solution",
+      "choices": [
+        "desirable, feasible, and viable solution",
+        "innovative, successful and profitable",
+        "desirable, innovative and feasible",
+        "feasible, innovative and viable solution"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    }
+  ]
+}
