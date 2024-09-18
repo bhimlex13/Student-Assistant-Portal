@@ -32,25 +32,25 @@
             "Subject_ID": "C3_S1_ASIA",
             "Subject_Name": "Advanced Systems Integration and Architecture",
             "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_ASIA.png",
-            "Subject_Status": "Inactive",
+            "Subject_Status": "Active",
             "Subject_Module": [
                 {   
                     "Module_ID": "C3_S1_ASIA_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "19 August 2024",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "19 September 2024",
                     "Module_Subfolders": [
                         {
                             "Subfolder_ID": "C3_S1_ASIA_Prelims_1",
-                            "Subfolder_Name": "SAMPLE DATA",
+                            "Subfolder_Name": "Review of Enterprise Resource Planning (ERP) Systems",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=SAMPLE_DATA",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Prelims_1",
                             "Subfolder_Author": [
                                 ""
                             ],
-                            "Subfolder_LastModified": "19 August 2024",
-                            "Subfolder_Status": "Inactive"
+                            "Subfolder_LastModified": "19 September 2024",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }
