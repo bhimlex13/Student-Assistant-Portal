@@ -47,7 +47,18 @@
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Prelims_1",
                             "Subfolder_Author": [
-                                ""
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "19 September 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ASIA_Prelims_2",
+                            "Subfolder_Name": "Human Capital Management (HCM)",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Prelims_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
                             ],
                             "Subfolder_LastModified": "19 September 2024",
                             "Subfolder_Status": "Active"
