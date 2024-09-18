@@ -116,6 +116,7 @@ function Quiz_Question_Build(){
     Element_Attribute_Set("Quiz_Form_Choices", "Radio_ActiveButton", "");
 
     // Finds the index of the choice that matches the correct answer
+    Quiz_Question_CurrentIndex_Correct = 0;
     for (a = 0; a < Question.choices.length; a++){
         // If the value is an object
         if (typeof Question.choices[a] === 'object'){
@@ -137,12 +138,13 @@ function Quiz_Question_Build(){
         
     }
 
+    // Changes the question text
+    document.getElementById("Quiz_Form_Question").innerHTML = Question.question;
+
     // If the index of the correct answer is 0, then the choices doesn't have the correct answer; Add warning to the questiontext
     if (Quiz_Question_CurrentIndex_Correct == 0){
-        document.getElementById("Quiz_Form_Question").innerHTML = Question.question + " [CHOICES DOESN'T HAVE THE ANSWER]";
-    } else {
-        // Changes the question text
-        document.getElementById("Quiz_Form_Question").innerHTML = Question.question;
+        // document.getElementById("Quiz_Form_Question").innerHTML = Question.question + " [CHOICES DOESN'T HAVE THE ANSWER]";
+        console.log("CHOICES DOESN'T HAVE THE ANSWER");
     }
 
     // Generates the choices
