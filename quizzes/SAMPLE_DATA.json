@@ -42,6 +42,19 @@
       "reference": "01_Handout_1",
       "term": "Prelim",
       "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_2.png"
+    },
+    {
+      "question": "To render non-html tags as such, use the text from the image above to display it as a &lt;.",
+      "answer": "Information",
+      "choices": [
+        "The choices",
+        "are deliberately",
+        "shuffled",
+        "for no reason."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim",
+      "image": "Assets/Images/Guide1.png"
     }
   ]
 }
