@@ -134,6 +134,15 @@ button{
     font-family: var(--Text-Font-Secondary);
 }
 
+.General_Button[Primary]{
+    background-color: var(--SAP-Purple-Level-2L);
+}
+
+.General_Button[Secondary]{
+    background-color: transparent;
+    color: var(--Text-Color);
+}
+
 .General_Button:hover{
     box-shadow: unset;
     color: white;
@@ -151,6 +160,3 @@ button{
     border: solid var(--SAP-Purple-Level-2L) 1px;
 }
 
-.General_Button[Primary]{
-    background-color: var(--SAP-Purple-Level-2L);
-}

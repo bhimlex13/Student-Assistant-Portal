@@ -42,7 +42,8 @@
           Name of subject
         </h3>
         <div class="Quiz_Starter_Control">
-          <button class="General_Button Quiz_Starter_Control_Primary" onclick="Quiz_Start()" Primary>Start</button>
+          <button class="General_Button Quiz_Starter_Control_Primary" onclick="Quiz_Start('Identification')" Secondary style="margin-bottom: 15px; background-color: var(--SAP-Red-Level-3L); border-color: var(--SAP-Red-Base)">Hardcore (Experimental)</button>
+          <button class="General_Button Quiz_Starter_Control_Primary" onclick="Quiz_Start('Multiple_Choices')" Primary>Start</button>
         </div>
       </div>
     </div>
@@ -219,8 +220,11 @@
     <div class="Page_Content_Main" id="Content">
       <div class="Quiz">
         <div class="Quiz_Header">
-          <h1 class="title Quiz_Header_Title" id="Quiz_Header_Title">
-            Name of quiz and subject here
+          <h3 class="Quiz_Header_Title_Subject" id="Quiz_Header_Subject">
+            Subject
+          </h3>
+          <h1 class="Quiz_Header_Title" id="Quiz_Header_Quiz">
+            Quiz
           </h1>
           <h3 id="Quiz_Header_Progress_Counter" class="Quiz_Header_QuestionNumber"></h3>
           <div class="progress Quiz_Header_Progress">
@@ -239,6 +243,18 @@
           <h2 class="Quiz_Form_Question" id="Quiz_Form_Question">
             Question goes here
           </h2>
+          <div class="Quiz_Form_Input" id="Quiz_Form_Input">
+            <textarea type="text" class="Input_Text_Long Quiz_Form_Input_Text" id="Quiz_Form_Input_Text" oninput="TextArea_SnapToSize(this.id)" Autoresize="true" placeholder="Type your answer here"></textarea>
+            <div class="Quiz_Form_Input_Answer" id="Quiz_Form_Input_Answer">
+              <h3 class="Quiz_Form_Input_Title">
+                The correct answer is:
+              </h3>
+              <h1 class="Quiz_Form_Input_Answer" id="Quiz_Form_Input_Answer_Text">
+                ANSWER
+              </h1>
+            </div>
+          </div>
+          
           <div class="Radio Quiz_Form_Choices" id="Quiz_Form_Choices" Radio_ActiveButton="">
             <button class="Radio_Button Quiz_Form_Choices_Item" id="Radio_Button_1" onclick="Radio_Select(this.id)" State="Inactive">
                 Choice 1
