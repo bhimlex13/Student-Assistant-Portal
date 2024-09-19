@@ -142,6 +142,7 @@ function Quiz_Question_Build(){
                     Quiz_Question_CurrentIndex_Correct = a;
                     // Sets the attribute to the index of the correct answer
                     Element_Attribute_Set("Quiz_Form_Choices", "Question_CorrectAnswer", "Choice_" + Quiz_Question_CurrentIndex_Correct);
+                    console.log(Quiz_Question_CurrentIndex_Correct);
                     break;
                 }
             // If the value is plain text
@@ -150,6 +151,7 @@ function Quiz_Question_Build(){
                     Quiz_Question_CurrentIndex_Correct = a;
                     // Sets the attribute to the index of the correct answer
                     Element_Attribute_Set("Quiz_Form_Choices", "Question_CorrectAnswer", "Choice_" + Quiz_Question_CurrentIndex_Correct);
+                    console.log(Quiz_Question_CurrentIndex_Correct);
                     break;
                 }
             } 
@@ -165,10 +167,10 @@ function Quiz_Question_Build(){
     document.getElementById("Quiz_Form_Question").innerHTML = Question.question;
 
     // If the index of the correct answer is 0, then the choices doesn't have the correct answer; Add warning to the questiontext
-    if (Quiz_Question_CurrentIndex_Correct == 0){
+    // if (Quiz_Question_CurrentIndex_Correct == 0){
         // document.getElementById("Quiz_Form_Question").innerHTML = Question.question + " [CHOICES DOESN'T HAVE THE ANSWER]";
-        console.log("CHOICES DOESN'T HAVE THE ANSWER");
-    }
+    //     console.log("CHOICES DOESN'T HAVE THE ANSWER");
+    // }
 
     // Generates the choices
     for (b = 0; b < Question.choices.length; b++){
@@ -239,7 +241,7 @@ function Quiz_Evaluate_Answer(){
     var Quiz_CorrectAnswer = Element_Attribute_Get("Quiz_Form_Choices", "Question_CorrectAnswer");
     
     // Checks if the correct answer exists in the choices.
-    if (Quiz_Question_CurrentIndex_Correct != 0){
+    // if (Quiz_Question_CurrentIndex_Correct != 0){
         // Case 1: The chosen answer is blank (no option selected) OR The chosen answer doesn't match the correct answer (wrong answer)
         if (Quiz_ChosenAnswer == "" || Quiz_ChosenAnswer != Quiz_CorrectAnswer){
             Quiz_Answer_Result("Wrong");
@@ -249,9 +251,9 @@ function Quiz_Evaluate_Answer(){
             Quiz_Answer_Result("Correct");
         }
     // If the correct answer doesn't exist in the choices, automatically mark the question as correct.
-    } else {
-        Quiz_Answer_Result("Correct");
-    }
+    // } else {
+    //     Quiz_Answer_Result("Correct");
+    // }
     
 }
 
