@@ -386,9 +386,9 @@
     },
     {
       "question": "Which of the following method will return the element at the beginning of the queue without removing it?",
-      "answer": "Dequeue",
+      "answer": "Peek",
       "choices": [
-        "Dequeue",
+        "Peek",
         "Remove",
         "Pop",
         "Drop"
@@ -397,13 +397,13 @@
       "term": "Prelims"
     },
     {
-      "question": "Which of the following method removes and returnsthe value at the beginning of the queue?",
-      "answer": "Peek",
+      "question": "Which of the following method removes and returns the value at the beginning of the queue?",
+      "answer": "Dequeue",
       "choices": [
         "Enqueue",
         "Search",
         "Contain",
-        "Peek"
+        "Dequeue"
       ],
       "reference": "02_Handout_1",
       "term": "Prelims"
