@@ -1,0 +1,304 @@
+{
+  "quizInfo": {
+    "Subject": "Data and Digital Communications",
+    "Term": "Prelims",
+    "Title": "Quiz Reviewer for Prelims",
+    "LastModified": "20 September 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01_Handout_1 & 01_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "In network coverage, this network interconnects LANs in a campus or city area",
+      "answer": "Metropolitan Area Network",
+      "choices": [
+        "Metropolitan Area Network",
+        "Personal Area Network",
+        "Local Network Area",
+        "Wide Area Network"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "This is the process of converting data into radio waves by adding information to an electronic or optical carrier signal",
+      "answer": "Modulation",
+      "choices": [
+        "Modulation",
+        "Noise",
+        "Amplitude",
+        "Sampling"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "It is the trasnmission of electric current projected into space in the form of waves",
+      "answer": "Radio",
+      "choices": [
+        "Radio",
+        "Telegraph",
+        "Smoke Signals",
+        "Telephone"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "In this topology, all nodes are interconnected by a single link with one node; the master node and the other nodes are secondary or slave nodes.",
+      "answer": "Multidrop",
+      "choices": [
+        "Multidrop",
+        "Point-to-Point",
+        "Point-to-Multipoint",
+        "Ring"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "It is the modulation technique in which the carrier amplitude varies based on analog baseband information signal to be transmitted in a wireless medium.",
+      "answer": "Amplitude Modulation",
+      "choices": [
+        "Amplitude Modulation",
+        "Frequency Modulation",
+        "Phase Modulation",
+        "Sampling"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "In this topology, one node is connected to multiple nodes, each in a point-to-point manner.",
+      "answer": "Point-to-Multipoint",
+      "choices": [
+        "Point-to-Multipoint",
+        "Multidrop",
+        "Point-to-Point",
+        "Bus"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "This process essentially converts analog amplitudes to discrete levels",
+      "answer": "Sampling",
+      "choices": [
+        "Sampling",
+        "Encoding",
+        "Attentuation",
+        "Distortion"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "It is the modulation technique in which the carrier phase varies based on analog baseband information signal to be transmitted in a wireless medium",
+      "answer": "Phase Modulation",
+      "choices": [
+        "Phase Modulation",
+        "Amplitude Modulation",
+        "Frequency Modulation",
+        "Attentuation"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "It is like the multidrop topology except that there is no master-slave relationship in which all nodes are peers",
+      "answer": "Bus",
+      "choices": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Point-to-Multipoint"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "It revolutionized long-distance communication by sending electric signals in Morse code in between two stations.",
+      "answer": "Telegraph",
+      "choices": [
+        "Telegraph",
+        "Radio",
+        "Smoke Signals",
+        "Telephone"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "This type of noise caused by natural phenomena such as lightning discharge in thunderstorms and other electrical disturbances that occur in nature",
+      "answer": "Atmospheric",
+      "choices": [
+        "Atmospheric",
+        "Man-made",
+        "Extraterrestrial noise",
+        "Thermal"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "In data communication, this device performs to recover the message signal",
+      "answer": "Receiver",
+      "choices": [
+        "Receiver",
+        "Transmitter",
+        "Source",
+        "Source Encoder"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "It is the modulation technique in which the carrier frequency varies based on analog baseband information signal to be transmitted in a wireless medium",
+      "answer": "Frequency Modulation",
+      "choices": [
+        "Frequency Modulation",
+        "Amplitude Modulation",
+        "Phase Modulation",
+        "Sampling"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "In data communication, this device converts the information into an electrical form called message signal",
+      "answer": "Source Encoder",
+      "choices": [
+        "Source Encoder",
+        "Receiver",
+        "Transmitter",
+        "Source"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "It is an instrument designed for the simultaneous transmission oof human voice",
+      "answer": "Telephone",
+      "choices": [
+        "Telephone",
+        "Telegraph",
+        "Radio",
+        "Smoke Signals"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which signal form changes without exhibiting a pattern or cycle that repeats over time?",
+      "answer": "Nonperiodic",
+      "choices": [
+        "Nonperiodic",
+        "Periodic",
+        "Analog",
+        "Digital"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which refers to the number of waves that pass a given point in each period?",
+      "answer": "Frequency",
+      "choices": [
+        "Frequency",
+        "Amplitude",
+        "Noise",
+        "Wavelength"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is directly related to the frequency of a given waveform?",
+      "answer": "Wavelength",
+      "choices": [
+        "Wavelength",
+        "Frequency",
+        "Amplitude",
+        "Noise"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is the process of converting digital data into digital signals?",
+      "answer": "Line Coding",
+      "choices": [
+        "Line Coding",
+        "Sampling",
+        "Encoding",
+        "Transmitting"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which converts discrete signals into highs (1) and lows (0), making these the binary equivalent of a time-bound discrete signal?",
+      "answer": "Encoding",
+      "choices": [
+        "Encoding",
+        "Line Coding",
+        "Sampling",
+        "Transmitting"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is the modulation technique in which carrier amplitude varies based on analog baseband information signal to be transmitted in a wireless medium?",
+      "answer": "AM",
+      "choices": [
+        "AM",
+        "FM",
+        "PM",
+        "DM"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is defined as an unwanted signal that is superimposed on a desired signal?",
+      "answer": "Noise",
+      "choices": [
+        "Noise",
+        "Attenuation",
+        "Distortion",
+        "Frequency"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which type of noise arises from the time-dependent fluctuations in electrical current?",
+      "answer": "Shot",
+      "choices": [
+        "Shot",
+        "Thermal",
+        "Extraterrestrial",
+        "Atmospheric"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which signal is represented as a sine wave?",
+      "answer": "Analog",
+      "choices": [
+        "Analog",
+        "Digital",
+        "Periodic",
+        "Nonperiodic"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Prelims"
+    }
+  ]
+}
