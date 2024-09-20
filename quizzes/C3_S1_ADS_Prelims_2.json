@@ -297,6 +297,32 @@
       ],
       "reference": "02 Handout 1",
       "term": "Prelim"
+    },
+    {
+      "question": "Which clause will cause an error in the code?",
+      "answer": "IN",
+      "choices": [
+        "IN",
+        "SELECT",
+        "WHERE",
+        "FROM"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim",
+      "image": "../Assets/Images/C3_S2_ADS_Prelims/ADS_Prelims_2_Q1.png"
+    },
+    {
+      "question": "Which clause will cause an error in the code?",
+      "answer": "INTO",
+      "choices": [
+        "IN",
+        "INTO",
+        "WHERE",
+        "FROM"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim",
+      "image": "../Assets/Images/C3_S2_ADS_Prelims/ADS_Prelims_2_Q2.png"
     }
   ]
 }
