@@ -1,0 +1,456 @@
+{
+  "quizInfo": {
+    "Subject": "Application Development and Emerging Technologies",
+    "Term": "Prelims",
+    "Title": "Emerging Technologies",
+    "LastModified": "20 September 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "01_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "New technologies that are currently developing or will be developed over the next 5 to 10 years and which will substantially alter the business and social environment is called what?",
+      "answer": "Emerging Technology",
+      "choices": [
+        "Emerging Technology",
+        "New Technology",
+        "Latest Technology",
+        "Merging Technology"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "AI was first developed in the 1950s, hence, it's not considered as Emerging Technology.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that emerging technology may take the form of progressing technology.",
+      "answer": "Radical Novelty",
+      "choices": [
+        "Radical Novelty",
+        "Relatively Fast Growth",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that emerging technologies are radically novel.",
+      "answer": "Radical Novelty",
+      "choices": [
+        "Radical Novelty",
+        "Relatively Fast Growth",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that emerging technology grow faster compared to non-emerging technologies?",
+      "answer": "Relatively Fast Growth",
+      "choices": [
+        "Radical Novelty",
+        "Relatively Fast Growth",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that emerging technology is a convergence of previously separated research streams and technologies that have already moved beyond the purely conceptual stage.",
+      "answer": "Coherence",
+      "choices": [
+        "Radical Novelty",
+        "Relatively Fast Growth",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology refers to the internal characteristics of a group being united and having logical interconnection.",
+      "answer": "Coherence",
+      "choices": [
+        "Radical Novelty",
+        "Relatively Fast Growth",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology distinguish technologies that have acquired a certain identity and momentum from those still in a state of flux and, therefore, not yet emerging.",
+      "answer": "Coherence",
+      "choices": [
+        "Radical Novelty",
+        "Relatively Fast Growth",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that emerging technology provides benefits for a wide range of sectors, transforms an industry, and exerts much enhanced economic influence.",
+      "answer": "Prominent Impact",
+      "choices": [
+        "Radical Novelty",
+        "Uncertainty and Ambiguity",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that ambiguity arises because proposed applications are still malleable.",
+      "answer": "Uncertainty and Ambiguity",
+      "choices": [
+        "Radical Novelty",
+        "Uncertainty and Ambiguity",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that even the knowledge of the emergence's possible outcome is incomplete.",
+      "answer": "Uncertainty and Ambiguity",
+      "choices": [
+        "Radical Novelty",
+        "Uncertainty and Ambiguity",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology are key starting concepts for a variety of science and technological studies that focus on the role of the expectations in technological emergence.",
+      "answer": "Uncertainty and Ambiguity",
+      "choices": [
+        "Radical Novelty",
+        "Uncertainty and Ambiguity",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Emerging technologies are also characterized by uncertainty.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This area of emerging technology overlays computer-generated display, sound, and effects on a user's view of the real world.",
+      "answer": "Augmented Reality (AR)",
+      "choices": [
+        "Augmented Reality (AR)",
+        "Artificial Intelligence (AI)",
+        "Quantum Computers",
+        "Machine Learning"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This area of emerging technology is a simulation of human intelligence process by machines.",
+      "answer": "Artificial Intelligence (AI)",
+      "choices": [
+        "Augmented Reality (AR)",
+        "Artificial Intelligence (AI)",
+        "Quantum Computers",
+        "Machine Learning"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This area of emerging technology uses a qubit as its basic unit of computation.",
+      "answer": "Quantum Computers",
+      "choices": [
+        "Augmented Reality (AR)",
+        "Artificial Intelligence (AI)",
+        "Quantum Computers",
+        "Machine Learning"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is the application of AI that provides a machine with the ability to learn from experience like humans.",
+      "answer": "Machine Learning",
+      "choices": [
+        "Qubit",
+        "Artificial Intelligence (AI)",
+        "Quantum Computers",
+        "Machine Learning"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is analogous to the standard bit (0 / 1) but is in a quantum superposition between 2 computational quantum states.",
+      "answer": "Qubit",
+      "choices": [
+        "Qubit",
+        "Artificial Intelligence (AI)",
+        "Quantum Computers",
+        "Machine Learning"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution began in the 18th century?",
+      "answer": "First Industrial Revolution / Industry 1.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution is the introduction of mechanical production using hydroelectric and steam-powered equipment?",
+      "answer": "First Industrial Revolution / Industry 1.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution began in the 19th century?",
+      "answer": "Second Industrial Revolution / Industry 2.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution uses electricity?",
+      "answer": "Second Industrial Revolution / Industry 2.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution began with the first computer area?",
+      "answer": "Third Industrial Revolution / Industry 3.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution uses electronics and IT to automate production processes?",
+      "answer": "Third Industrial Revolution / Industry 3.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution involves the internet?",
+      "answer": "Third Industrial Revolution / Industry 3.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution is the current and developing environment?",
+      "answer": "Fourth Industrial Revolution / Industry 4.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution involves disruptive tech such as IoT, robotics, VR, AR, and AI?",
+      "answer": "Fourth Industrial Revolution / Industry 4.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution leads changes in traditional relationships between humans and machines?",
+      "answer": "Fourth Industrial Revolution / Industry 4.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 is the process of collecting, organizing, and analyzing large sets of data from different resources to discover patterns and other useful information.",
+      "answer": "Big Data Analytics",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 supports real-time decision-making in production.",
+      "answer": "Big Data Analytics",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 makes analyzing large data and immediately get answers possible.",
+      "answer": "Big Data Analytics",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 describes the idea of everyday physical objects being connected to the Internet and being able to communicate and interact with other devices.",
+      "answer": "Internet of Things (IoT)",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 allows field devices to interact with one another and with more centralized controllers.",
+      "answer": "Internet of Things (IoT)",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 decentralizes analytics and decision-making.",
+      "answer": "Internet of Things (IoT)",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 refers to anything that involves delivering hosted services over the internet.",
+      "answer": "Cloud computing",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 supports a variety of services, such as selecting parts in a warehouse and sending repair instructions over mobile devices.",
+      "answer": "Augmented Reality (AR)",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 is currently in its infancy.",
+      "answer": "Augmented Reality (AR)",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "quizInfo": {
+    "Subject": "Professional Issues in Information Systems and Technology",
+    "Term": "Prelims",
+    "Title": "(01_Handout_1) INTRODUCTION TO INFORMATION SYSTEMS AND TECHNOLOGY",
+    "LastModified": "20 September 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "01_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Integrated Elements that gather, process, save, and disseminate information to support an organization's decision-making and management.",
+      "answer": "Information Systems",
+      "choices": [
+        "Information Systems",
+        "Information Technologies",
+        "Information System Technology",
+        "Systems Technology Information"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> Supermarket retailers using information systems to optimize supply chains and recording purchases.",
+      "answer": "Traditional Applications",
+      "choices": [
+        "Traditional Applications",
+        "Advanced Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> Shipping companies using information systems to dispatch trucks and track packages.",
+      "answer": "Traditional Applications",
+      "choices": [
+        "Traditional Applications",
+        "Advanced Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> Cities use information information systems for adaptive traffic control systems.",
+      "answer": "Traditional Applications",
+      "choices": [
+        "Traditional Applications",
+        "Advanced Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> Cars using information systems from ignition control to airbags.",
+      "answer": "Traditional Applications",
+      "choices": [
+        "Traditional Applications",
+        "Advanced Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> Online registrations for schools.",
+      "answer": "Advanced Applications",
+      "choices": [
+        "Advanced Applications",
+        "Traditional Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> eLMS.",
+      "answer": "Advanced Applications",
+      "choices": [
+        "Advanced Applications",
+        "Traditional Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> Social media to communicate and share information.",
+      "answer": "Advanced Applications",
+      "choices": [
+        "Advanced Applications",
+        "Traditional Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the outcome of acquired scientific knowledge, skills, procedures, and processes for applied purposes.",
+      "answer": "Technology",
+      "choices": [
+        "Technology",
+        "Science"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "An activity that forms and changes culture.",
+      "answer": "Technology",
+      "choices": [
+        "Technology",
+        "Science"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It implements science, math, and the arts to benefit life as it is known.",
+      "answer": "Technology",
+      "choices": [
+        "Technology",
+        "Science"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the physical component of an information system.",
+      "answer": "Hardware",
+      "choices": [
+        "Hardware",
+        "Software",
+        "Data",
+        "People"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the tangible parts to users.",
+      "answer": "Hardware",
+      "choices": [
+        "Hardware",
+        "Software",
+        "Data",
+        "People"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are set of commands that instruct the hardware what to do.",
+      "answer": "Software",
+      "choices": [
+        "Software",
+        "Hardware",
+        "Data",
+        "People"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are Intangible.",
+      "answer": "Software",
+      "choices": [
+        "Software",
+        "Hardware",
+        "Data",
+        "People"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This gives the interface between the hardware and the application software.",
+      "answer": "Operating Systems",
+      "choices": [
+        "Operating Systems",
+        "Application Systems",
+        "Software",
+        "Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This allows user to accomplish tasks such as creating documents, etc.",
+      "answer": "Application Systems",
+      "choices": [
+        "Application Systems",
+        "Operating Systems",
+        "Software",
+        "Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a collection of indisputable raw facts.",
+      "answer": "Data",
+      "choices": [
+        "Data",
+        "Information",
+        "Hardware",
+        "People"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "From front-line user support to systems analysts to developers, people engaged in information systems are an indispensable element. What component is this?",
+      "answer": "People",
+      "choices": [
+        "People",
+        "Process",
+        "Application Systems",
+        "Software"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the series of steps taken to accomplish the desired goal.",
+      "answer": "Process",
+      "choices": [
+        "Process",
+        "Data",
+        "Information",
+        "People"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Who said that information and information systems would become increasingly important?",
+      "answer": "Peter Drucker",
+      "choices": [
+        "Peter Drucker",
+        "Peter Ducker",
+        "Peter Parker",
+        "Alice Guo"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year did Peter Drucker said that information and information systems would become increasingly important?",
+      "answer": 1959,
+      "choices": [
+        1959,
+        1995,
+        1943,
+        1954
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are the professionals who make and modify knowledge as a fundamental part of their jobs.",
+      "answer": "Knowledge Worker",
+      "choices": [
+        "Knowledge Worker",
+        "Professional Worker",
+        "Beacon of knowledge",
+        "Professional Knowledger"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Information systems were centralized and concerned solely with governance and the needs of management.",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Most systems and reports are controlled by accounting departments.",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Included 3rd-gen mainframe computers such as the IBM 360 and minicomputers.",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Languages include Assembler, Fortran, COBOL, etc.",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>More departments were beginning to benefit from the technology.",
+      "answer": "Second Era",
+      "choices": [
+        "Second Era",
+        "First Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Steering committees and user-led initiatives determine the scope of additional information system projects.",
+      "answer": "Second Era",
+      "choices": [
+        "Second Era",
+        "First Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Included the first PCs.",
+      "answer": "Second Era",
+      "choices": [
+        "Second Era",
+        "First Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Concentrated information systems started to spread and information became deconcentrated.",
+      "answer": "Third Era",
+      "choices": [
+        "Third Era",
+        "Second Era",
+        "First Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Costs decreased.",
+      "answer": "Third Era",
+      "choices": [
+        "Third Era",
+        "Second Era",
+        "First Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Chief Information Officer (CIO) as a position arose in many companies.",
+      "answer": "Third Era",
+      "choices": [
+        "Third Era",
+        "Second Era",
+        "First Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Technology included internetworking and the emergence of the internet.",
+      "answer": "Third Era",
+      "choices": [
+        "Third Era",
+        "Second Era",
+        "First Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Information systems are still tied to governance and management, although the systems are widely distributed to every employee who needs them across multiple platforms.",
+      "answer": "Fourth Era",
+      "choices": [
+        "Fourth Era",
+        "First Era",
+        "Second Era",
+        "Third Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Combined all aspects of the business enterprise, offering rich information access surrounding the complete management structure.",
+      "answer": "Fourth Era",
+      "choices": [
+        "Fourth Era",
+        "First Era",
+        "Second Era",
+        "Third Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Now includes social media, search engines, laptops, etc.",
+      "answer": "Fourth Era",
+      "choices": [
+        "Fourth Era",
+        "First Era",
+        "Second Era",
+        "Third Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Uses networking technology that deliver applications and data storage independent of the configuration or location of the hardware.",
+      "answer": "Fifth Era",
+      "choices": [
+        "Fifth Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Led to new levels of flexibility, such as cloud computing.",
+      "answer": "Fifth Era",
+      "choices": [
+        "Fifth Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Rising global competitiveness has forced companies to find better and more cost-effective ways.",
+      "answer": "Fifth Era",
+      "choices": [
+        "Fifth Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Solution for companies continues to be to use information systems to accomplish tasks better, faster, and cheaper.",
+      "answer": "Fifth Era",
+      "choices": [
+        "Fifth Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Mainframe and Minicomputer",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Personal Computer",
+      "answer": "Second Era",
+      "choices": [
+        "Second Era",
+        "First Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Client/Server",
+      "answer": "Third Era",
+      "choices": [
+        "Third Era",
+        "Second Era",
+        "First Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Enterprise",
+      "answer": "Fourth Era",
+      "choices": [
+        "Fourth Era",
+        "First Era",
+        "Second Era",
+        "Third Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Cloud Computing",
+      "answer": "Fifth Era",
+      "choices": [
+        "Fifth Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Mid-1960s to Mid-1970s",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Mid-1970s to Mid-1980s",
+      "answer": "Second Era",
+      "choices": [
+        "Second Era",
+        "First Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Mid-1980s to Late 1990s",
+      "answer": "Third Era",
+      "choices": [
+        "Third Era",
+        "Second Era",
+        "First Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Late 1990s to today",
+      "answer": "Fourth Era",
+      "choices": [
+        "Fourth Era",
+        "First Era",
+        "Second Era",
+        "Third Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Moving Forward",
+      "answer": "Fifth Era",
+      "choices": [
+        "Fifth Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    }
+  ]
+}

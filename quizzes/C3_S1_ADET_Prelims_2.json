@@ -1,0 +1,1373 @@
+{
+  "quizInfo": {
+    "Subject": "Application Development and Emerging Technologies",
+    "Term": "Prelims",
+    "Title": "(02 02_Handout_1) Requirements Analysis and Modeling",
+    "LastModified": "20 September 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "02_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the systematic process of defining, designing, testing, and implementing a new application?",
+      "answer": "Systems Development",
+      "choices": [
+        "Systems Development",
+        "Development",
+        "Devdev as in chest",
+        "System Architecture"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the correct order of the fundamental phases in a software development project?",
+      "answer": "Planning, Analysis, Design, Implementation",
+      "choices": [
+        "Planning, Analysis, Design, Implementation",
+        "Analysis, Planning, Design, Implementation",
+        "Planning, Design, Implementation, Analysis",
+        "Design, Planning, Implementation, Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are the roles of a system analyst EXCEPT ONE.",
+      "answer": "Analyze the language of the development",
+      "choices": [
+        "Analyze the language of the development",
+        "Gather requirements and analyze it",
+        "Model the user needs",
+        "Create blueprints for how the system should be built"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Its purpose is to convert high-level requirements defined from user requirements into a list of detailed requirements called a requirements definition report.",
+      "answer": "Requirements Determination",
+      "choices": [
+        "Requirements Determination",
+        "Requirements Conversion",
+        "Requirements Simplification",
+        "Requirements Ideation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It can be used as inputs for creating models such as a functional model.",
+      "answer": "Requirements Determination",
+      "choices": [
+        "Requirements Determination",
+        "Requirements Conversion",
+        "Requirements Simplification",
+        "Requirements Ideation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A statement of what the system must perform or what characteristic it must have.",
+      "answer": "Requirement",
+      "choices": [
+        "Requirement",
+        "System Characteristic",
+        "System Design",
+        "Reqiurement"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of requirement are determined from client discussions that are refined in the design phase into system requirements.",
+      "answer": "User Requirements",
+      "choices": [
+        "User Requirements",
+        "System Requirements",
+        "Business Requirements",
+        "Clearance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which word makes the statement wrong?<br>Requirements are written from the perspective of the developer's needs.",
+      "answer": "Developer's. It should be User's.",
+      "choices": [
+        "Developer's. It should be User's.",
+        "Requirements. It should be Code.",
+        "Perspective. It should be Opinion.",
+        "Written. It should be Coded."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These requirements are directly related to the process a system has to perform or data it needs to contain.",
+      "answer": "Functional Requirements",
+      "choices": [
+        "Functional Requirements",
+        "Non-functional Requirements",
+        "Operational Requirements",
+        "Performance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These requirements directly flows into the creation of functional, structural, and behavioral models that represent the functionality of the system.",
+      "answer": "Functional Requirements",
+      "choices": [
+        "Functional Requirements",
+        "Non-functional Requirements",
+        "Operational Requirements",
+        "Performance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Functional, structural, and behavioral models are graphical representation that show how a system works.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These requirements pertain to behavioral properties that a system must have, including operational, performance, security, and cultural and political.",
+      "answer": "Non-functional Requirements",
+      "choices": [
+        "Functional Requirements",
+        "Non-functional Requirements",
+        "Operational Requirements",
+        "Performance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These requirements defines how a system is supposed to be or its system properties.",
+      "answer": "Non-functional Requirements",
+      "choices": [
+        "Functional Requirements",
+        "Non-functional Requirements",
+        "Operational Requirements",
+        "Performance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These requirements are primarily used in design when decisions are made about the database, UI, hardware, software, and system architecture.",
+      "answer": "Non-functional Requirements",
+      "choices": [
+        "Functional Requirements",
+        "Non-functional Requirements",
+        "Operational Requirements",
+        "Performance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These requirements affect decisions made during system design.",
+      "answer": "Non-functional Requirements",
+      "choices": [
+        "Functional Requirements",
+        "Non-functional Requirements",
+        "Operational Requirements",
+        "Performance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of non-functional requirements specify the operating environments in which the system must perform, as well as how these might change over time.",
+      "answer": "Operational Requirements",
+      "choices": [
+        "Operational Requirements",
+        "Performance Requirements",
+        "Security Requirements",
+        "Cultural and Political Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of non-functional requirements usually refers to OSes, system software, and information systems.",
+      "answer": "Operational Requirements",
+      "choices": [
+        "Operational Requirements",
+        "Performance Requirements",
+        "Security Requirements",
+        "Cultural and Political Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of non-functional requirements might also include the physical environment such as in what building area the system must be installed.",
+      "answer": "Operational Requirements",
+      "choices": [
+        "Operational Requirements",
+        "Performance Requirements",
+        "Security Requirements",
+        "Cultural and Political Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of non-functional requirements deals with issues related to performance such as response time, capacity, and reliability of the system.",
+      "answer": "Performance Requirements",
+      "choices": [
+        "Operational Requirements",
+        "Performance Requirements",
+        "Security Requirements",
+        "Cultural and Political Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of non-functional requirements addresses issues with security, such as who has access to system data and must have the ability to protect data from disruption or data loss.",
+      "answer": "Security Requirements",
+      "choices": [
+        "Operational Requirements",
+        "Performance Requirements",
+        "Security Requirements",
+        "Cultural and Political Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of non-functional requirements deals with issues related to the cultural and political factors and legal requirements that affect the system.",
+      "answer": "Cultural and Political Requirements",
+      "choices": [
+        "Operational Requirements",
+        "Performance Requirements",
+        "Security Requirements",
+        "Cultural and Political Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is another term for a Requirements Definition Report.",
+      "answer": "Requirements Specification Document",
+      "choices": [
+        "Requirements Specification Document",
+        "Requirements List",
+        "The Magical Book of Wonder Requirements",
+        "Required List"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a documentation that lists the functional and non-functional requirements of a system in an outline format that defines the scope of the system or software.",
+      "answer": "Requirements Definition Report",
+      "choices": [
+        "Requirements Definition Report",
+        "Required List",
+        "Requirements List",
+        "Operational Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is used to describe what the systems can do.",
+      "answer": "Requirements Definition Report",
+      "choices": [
+        "Requirements Definition Report",
+        "Required List",
+        "Requirements List",
+        "Operational Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are TRUE ?<br>I. It is best practice to include the words \"shall\" or \"will\" when writing requirements.<br>II. Functional requirements include requirements of how the users<br>III. Non-functional requirements include requirements that define how the system will operate and its characteristics.",
+      "answer": "All 3 statements are TRUE .",
+      "choices": [
+        "All 3 statements are TRUE .",
+        "Statement I is FALSE , the rest are TRUE .",
+        "All 3 statements are FALSE .",
+        "Statement II is TRUE , the rest is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "When discrepancies arise during software or system development, this document serves as a tool for clarification.",
+      "answer": "Requirements Definition Report",
+      "choices": [
+        "Requirements Definition Report",
+        "Required List",
+        "Requirements List",
+        "Operational Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the process of cooperating with clients or users to determine what requirements are needed?",
+      "answer": "Requirements Gathering",
+      "choices": [
+        "Requirements Gathering",
+        "Information Gathering",
+        "Chismis Gathering",
+        "Requirements Identification"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is the commonly used?",
+      "answer": "Interviews",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique allows the project team, users, and management to work together to identify system requirements?",
+      "answer": "Joint Application Development (JAD)",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is a structured process that involves a group of participants to meet together under the direction of a facilitator?",
+      "answer": "Joint Application Development (JAD)",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique involves is a set of written questions used to obtain information from individuals?",
+      "answer": "Questionnaire",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is often used when there is a large number of people from whom information and opinions are needed?",
+      "answer": "Questionnaire",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is a common technique with systems or software intended for use outside the organization?",
+      "answer": "Questionnaire",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is often used by project teams to understand the current system (as-is system) of an organization?",
+      "answer": "Document Analysis",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is a form of qualitative research in which documents are analyzed and interpreted by the researchers to give voice and meaning around an assessment topic?",
+      "answer": "Document Analysis",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique involves the act of watching process being performed?",
+      "answer": "Observation",
+      "choices": [
+        "Interviews",
+        "Observation",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique enables the analyst to see the reality of a situation rather than listening to others?",
+      "answer": "Observation",
+      "choices": [
+        "Interviews",
+        "Observation",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In an interview, the people interviewed are selected based on the analyst's information needs.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In an interview, what does the interview should have in order to anticipate possible answers and provide follow-up on them?",
+      "answer": "General Interview Plan",
+      "choices": [
+        "General Interview Plan",
+        "Prepared Documents",
+        "Passport to Indonesia",
+        "Notes from the Attorney"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In an interview, what should be the interviewer's next step after conducting the interview?",
+      "answer": "Prepare an interview report",
+      "choices": [
+        "Prepare an interview report",
+        "Proceed to development",
+        "Prepare a spreadsheet of data spreads",
+        "Conduct a budget hearing, madam chair"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In an interview, the interview report must contain the following EXCEPT ONE.",
+      "answer": "Interviewer's name",
+      "choices": [
+        "Interviewer's name",
+        "Information from the interview",
+        "Interview notes",
+        "Summary of the interview"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In JAD, which one sets meeting agenda and guides the discussion but doesn't join it?",
+      "answer": "Facilitator",
+      "choices": [
+        "Facilitator",
+        "Scribes",
+        "Team leader",
+        "Development leader"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In JAD, whch one must be an expert in both group-process techniques and systems and analysis design techniques?",
+      "answer": "Facilitator",
+      "choices": [
+        "Facilitator",
+        "Scribes",
+        "Team leader",
+        "Development leader"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In JAD, which one assists the facilitator by recording notes, making copies, and so on?",
+      "answer": "Scribes",
+      "choices": [
+        "Facilitator",
+        "Scribes",
+        "Team leader",
+        "Development leader"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In JAD, which one can use computers and CASE tools to record information as the JAD session proceedings?",
+      "answer": "Scribes",
+      "choices": [
+        "Facilitator",
+        "Scribes",
+        "Team leader",
+        "Development leader"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "JAD sessions can take at most a day.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In conducting a JAD session, the JAD facilitator performs the key functions below EXCEPT ONE.",
+      "answer": "Write the proceedings.",
+      "choices": [
+        "Write the proceedings.",
+        "Ensure that the group sticks to the agenda and follow the rules.",
+        "Help the group understand the terms and the analysis techniques used.",
+        "Record the group's input on a public display area."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Selecting participants for JAD must be based on the information they can contribute in order to provide a broad mixture of organization levels and build political support for the new system.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "How long does a JAD report take to make?",
+      "answer": "More than a week.",
+      "choices": [
+        "More than a week.",
+        "One day.",
+        "At most 15 hours.",
+        "More than a year."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "After a questionnaire is handed out to participants, how long should a report be developed?",
+      "answer": "Immediately after the deadline.",
+      "choices": [
+        "Immediately after the deadline.",
+        "A day after the deadline.",
+        "A day before the deadline.",
+        "At most a week after the deadline."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In designing interview questions, the following type of questions are usually combined together EXCEPT FOR ONE.",
+      "answer": "Rhetorical questions",
+      "choices": [
+        "Rhetorical questions",
+        "Close-ended questions",
+        "Open-ended questions",
+        "Probing questions"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In an interview, the interview questions can be outside the areas of concern.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which word makes the statement wrong?<br>The key issue in Document Analysis is many projects or systems are not well documented because the project teams who develop the systems fail to document their projects along the way.",
+      "answer": "The statement is completely TRUE .",
+      "choices": [
+        "The statement is completely TRUE .",
+        "not well; it must be well.",
+        "Document Analysis; it must be Requirements Analysis.",
+        "The statement is completely FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is a good way to check the validity of information gathered from indirect sources such as interviews and questionnaires.",
+      "answer": "Observation",
+      "choices": [
+        "Interviews",
+        "Observation",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What are the 3 stages of the analysis process?",
+      "answer": "As-is system, identifying improvements, to-be system.",
+      "choices": [
+        "As-is system, identifying improvements, to-be system.",
+        "Identification, conduction, analysis.",
+        "Gathering of feedback, analysis of possible actions, implementation.",
+        "Development of system, gathering of feedback, implementing improvements."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Interviews and JAD sessions are commonly used for the 3 stages of the analysis process.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What word makes the statement incorrect?<br>The document analysis and observation are helpful for understanding the to-be system - although they can occasionally provide info about current problems that needs improvement.",
+      "answer": "to-be; must be as-is",
+      "choices": [
+        "to-be; must be as-is",
+        "document analysis; it must be requirements analysis.",
+        "current problems; it must be potential problems.",
+        "observation; it must be questionnaires."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What word makes the statement incorrect?<br>Questionnaires are used to gather info about the as-is system and general information about improvements.",
+      "answer": "The statement is completely TRUE .",
+      "choices": [
+        "The statement is completely TRUE .",
+        "Questionnaires; it must be Observations.",
+        "as-is; it must be to-be.",
+        "The statement is completely FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This refers to how rich and detailed the information is that the technique usually produces and the extent to which the technique is useful for obtaining not only facts and opinions but an understanding of why those facts and opinions exist.",
+      "answer": "Depth of Information",
+      "choices": [
+        "Depth of Information",
+        "Breadth of Information",
+        "User Involvement",
+        "Cost"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This refers to the range of information and sources that can be collected easily using the chosen technique.",
+      "answer": "Breadth of Information",
+      "choices": [
+        "Depth of Information",
+        "Breadth of Information",
+        "User Involvement",
+        "Cost"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "One of the most challenging requirements-gathering is integrating the info from different sources.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This refers to the amount of time and energy the intended users of the new system must devote to the analysis process.",
+      "answer": "User Involvement",
+      "choices": [
+        "Depth of Information",
+        "Breadth of Information",
+        "User Involvement",
+        "Cost"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The cost of using each Requirements Gathering Technique is a determinant on its effectivity.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Requirements Gathering usually only uses one particular technique throughout the process.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Most analysts start by using interviews with senior managers to gain an understanding of the project and the key issues.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "JAD sessions are commonly used when identifying improvements.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is conducted after gathering data to determine if the specified requirements are actually required.",
+      "answer": "Requirements Analysis",
+      "choices": [
+        "Requirements Analysis",
+        "Document Analysis",
+        "Requirements Gathering",
+        "Data Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the statements are TRUE ?<br>I. Requirements should be analyzed for the characteristics of good requirements and project teams.<br>II. Analysts may employ a checklist as a tool to determine if each requirement is actually required.",
+      "answer": "Both statements are TRUE .",
+      "choices": [
+        "Both statements are TRUE .",
+        "I. is TRUE , II. is FALSE .",
+        "II. is TRUE , I. is FALSE .",
+        "Both statements are FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that a requirement is needed or specifies an essential factor on the system?",
+      "answer": "Necessary",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that if the requirement is removed, a deficiency will exist that can't be achieved by other features of the system?",
+      "answer": "Necessary",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement should only be interpreted in 1 way?",
+      "answer": "Unambiguous",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement should be specific and easy to understand?",
+      "answer": "Unambiguous",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement shouldn't have conflicts with other requirements?",
+      "answer": "Consistent",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that any conflicts and overlaps between requirements must be determined and resolved?",
+      "answer": "Consistent",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement must completely describe the necessary functionality that will result to meet the user's need.",
+      "answer": "Complete",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement statement must only include 1 requirement with no use of conjunctions?",
+      "answer": "Singular",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that statements with conjunctions such as \"and\", \"or\", and \"but\" must be reviewed carefully to see if they can be broken into singular requirements?",
+      "answer": "Singular",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement must not contain multiple needs to avoid anomalies and to be able to be analyzable independently?",
+      "answer": "Singular",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement must be achievable within system constraints such as time, costs, legal, and available resources?",
+      "answer": "Feasible",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement must be possible to be implemented?",
+      "answer": "Feasible",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement is verifiable if the implemented system or software can be tested to prove that the specified requirement has been met?",
+      "answer": "Verifiable",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that different testing tools prove that the system satisfies the specified requirement?",
+      "answer": "Verifiable",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement must have a unique identifier to track changes to it throughout the development cycle?",
+      "answer": "Traceable",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a list of questions which the analyst will use to assess each requirement.",
+      "answer": "Checklist",
+      "choices": [
+        "Checklist",
+        "List",
+        "Question list",
+        "Questionnaire"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "After analyzing the requirements, the analyzed requirements must be systematically organized to create the requirements definition report and must be reviewed by the client for approval.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What contains revisions of the system until the client approves of the document?",
+      "answer": "Requirements Definition Report",
+      "choices": [
+        "Requirements Definition Report",
+        "Required List",
+        "Requirements List"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a visual modeling language that provides a visual means of developing and documenting object-oriented software and systems.",
+      "answer": "Unified Modeling Language (UML)",
+      "choices": [
+        "Unified Modeling Language (UML)",
+        "Unified Model Language (UML)",
+        "Unified Modeling System (UMS)",
+        "Unified Model System (UMS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What kind of diagram can be included in requirement definition report when defining functional requirements?",
+      "answer": "Use-case diagrams",
+      "choices": [
+        "Use-case diagrams",
+        "KOJC Compound diagrams",
+        "Application diagrams",
+        "Flow chart"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is person / system that represents the role of someone interacting with the system or software and is the user of the system?",
+      "answer": "Actor",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams represent the functionality of a system?",
+      "answer": "Use-case",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams represent the system's scope of which a set of use-cases are applied?",
+      "answer": "Subject Boundary Box",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams specify that the actor interacts with the system and uses a certain functionality?",
+      "answer": "Association Relationship",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams represent the required use of functionality of 1 use-case by another in order to perform its task?",
+      "answer": "Include Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams indicate optional functionality under a certain use-case?",
+      "answer": "Extend Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams represent a specialized use-case to a more generalized one?",
+      "answer": "Generalization Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by a stick figure?",
+      "answer": "Actor",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by an oblong?",
+      "answer": "Use-case",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by a box?",
+      "answer": "Subject Boundary Box",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by a singular line between the actor and use-case.",
+      "answer": "Association Relationship",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by a dashed arrow with an open arrowhead from the base use-case to the use-case?",
+      "answer": "Include Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by a dashed arrow with an open arrowhead from the extending use-case to the base use-case?",
+      "answer": "Extend Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by an arrow drawn from the child use-case to the parent use-case?",
+      "answer": "Generalization Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "If an actor represents a role played by a nonhuman, like an object, what is the keyword placed on the rectangle below the stick figure?",
+      "answer": "&lt;&lt;actor>>",
+      "choices": [
+        "&lt;&lt;actor>>",
+        "&lt;&lt;nonhuman>>",
+        "&lt;&lt;object>>",
+        "&lt;&lt;invalid>>"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What type of actor initiates interaction with the system or software?",
+      "answer": "Primary",
+      "choices": [
+        "Primary",
+        "Secondary"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What type of actor is called upon by the system for support when the primary actor initiates an interaction with a use-case of the system?",
+      "answer": "Secondary",
+      "choices": [
+        "Primary",
+        "Secondary"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A use-case diagram can have 1 primary actor and several primary and secondary actors.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE .",
+        "The statement is TRUE ?",
+        "The statement is FALSE ?"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What word makes the statement FALSE ?<br>Actors must be placed inside the subject boundary box as they produce and access data.",
+      "answer": "inside; it must be outside.",
+      "choices": [
+        "inside; it must be outside.",
+        "Actors; it must be use-case.",
+        "subject boundary box; it must be use-case.",
+        "data; it must be information."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams state that every use-case must be labeled with a descriptive verb-noun phrase that defines a functional requirement?",
+      "answer": "Use-case",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A use-case functionality is initiated by what?",
+      "answer": "Actor",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Every use-case is required to be associated with 1 or more actors.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams could be a system, software, a module / subsystem, or an individual business process?",
+      "answer": "Subject Boundary Box",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Where would the subject be placed inside a Subject Boundary Box?",
+      "answer": "Top side.",
+      "choices": [
+        "Top side.",
+        "Bottom side.",
+        "Center.",
+        "Fill the entire space."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It's best practice to place the primary actors on the left side of the subject boundary box and the secondary actors must be placed on the right side of the box.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams defines a base use-case with extending use-case that contains optional behavior?",
+      "answer": "Extend Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In Generalization Relationship, the child use-case inherits properties and behavior of the parent use-case and may override the behavior of the parent.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is ised when there are common behaviors between 2 use-cases and specialized behavior specific to each use-case?",
+      "answer": "Generalization Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    }
+  ]
+}

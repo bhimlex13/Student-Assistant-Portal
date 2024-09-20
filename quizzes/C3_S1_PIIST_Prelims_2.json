@@ -1,0 +1,553 @@
+{
+  "quizInfo": {
+    "Subject": "Professional Issues in Information Systems and Technology",
+    "Term": "Prelims",
+    "Title": "(02_Handout_1) = APPLICATIONS OF INFORMATION SYSTEMS AND TECHNOLOGY",
+    "LastModified": "20 September 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "02_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What category of information systems is this? <br>Handles day-to-day business data at the operational level of the organization.",
+      "answer": "Transaction Processing Systems (TPS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Systematically processes customer transactions to generate a considerable amount of data.",
+      "answer": "Transaction Processing Systems (TPS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Commonly applied in a grocery store checkout cash registers that connect to anetwork.",
+      "answer": "Transaction Processing Systems (TPS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Produces detailed and specified information to help manage a company.",
+      "answer": "Management Information (MIS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Used when TPS data are sorted and organized to support a broad range of managerial decision.",
+      "answer": "Management Information (MIS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Used primarily for inventory management and planning systems.",
+      "answer": "Management Information (MIS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Retrieves TPS info, collects it, and generates reports to have relevant insights on a situation.",
+      "answer": "Management Information (MIS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Summaries and comparisons allow managers to optimize the decision-making process to achieve better resorts.",
+      "answer": "Management Information (MIS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Supports a wide range of predefined day-to-day work activities of individuals and businesses.",
+      "answer": "Office Automation Systems (OAS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Involves apps such as Microsoft Word, Excel, and PowerPoint.",
+      "answer": "Office Automation Systems (OAS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Help organizations to effectively capture, store, and retrieve organizational knowledge to enhance learning and optimize collaboration efforts to complete tasks.",
+      "answer": "Knowledge Management Systems (KMS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Involves documents such as employee training materials, company policies, etc.",
+      "answer": "Knowledge Management Systems (KMS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Analyzes data and support decision-making.",
+      "answer": "Decision Support Systems (DSS)",
+      "choices": [
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Utilized by managerial-level employees to resolve problems such as sales forecasting and resource optimization.",
+      "answer": "Decision Support Systems (DSS)",
+      "choices": [
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Designed to be interactive decision aid that applied models to manipulate data.",
+      "answer": "Decision Support Systems (DSS)",
+      "choices": [
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Represent a new application model in information systems.",
+      "answer": "Mobile Applications",
+      "choices": [
+        "Mobile Applications",
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Intelligent Systems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Represent a niche application model for companies and business systems needing mobile information broadcasting and simple applications.",
+      "answer": "Mobile Applications",
+      "choices": [
+        "Mobile Applications",
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Intelligent Systems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Apps like Instagram and Office Mobile are best for businesses whose customers are mainly targeted online for faster and more convenient transactions.",
+      "answer": "Mobile Applications",
+      "choices": [
+        "Mobile Applications",
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Intelligent Systems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Science of allowing information technologies to simulate human intelligence, such as reasoning and learning.",
+      "answer": "Intelligent Systems",
+      "choices": [
+        "Mobile Applications",
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Intelligent Systems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Significantly impact various areas, such as banking and financial management, etc.",
+      "answer": "Intelligent Systems",
+      "choices": [
+        "Mobile Applications",
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Intelligent Systems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Used to convert printed or handwritten text and images into digital data on a computer.",
+      "answer": "Scanners",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Translates an image or document into digital data that can be stored and manipulated on the computer.",
+      "answer": "Scanners",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Used for various applications, including verification, building access, or making payments.",
+      "answer": "Smart Cards",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Contains a microprocessor chip, memory circuits, or a magnetic stripe to work.",
+      "answer": "Smart Cards",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Allows contactless data transmission using RFID and Near-Field Communication (NFC).",
+      "answer": "Smart Cards",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Primarily used for identification and verification purposes.",
+      "answer": "Biometric Devices",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Now also integrated into consumer products such as laptops.",
+      "answer": "Biometric Devices",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Involves fingerprint and iris scanning.",
+      "answer": "Biometric Devices",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Involves the use of microphones to translate audio into digital information.",
+      "answer": "Voice Input",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Produce a copy of documents from a computer.",
+      "answer": "Printers",
+      "choices": [
+        "Printers",
+        "Smart Cards",
+        "Biometric Devices",
+        "Monitors"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Include InkJet, LED, and laser tech.",
+      "answer": "Printers",
+      "choices": [
+        "Printers",
+        "Smart Cards",
+        "Biometric Devices",
+        "Monitors"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Used to display information from a computer.",
+      "answer": "Monitors",
+      "choices": [
+        "Printers",
+        "Smart Cards",
+        "Biometric Devices",
+        "Monitors"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Most modern monitors use liquid crystal display (LCD) tech.",
+      "answer": "Monitors",
+      "choices": [
+        "Printers",
+        "Smart Cards",
+        "Biometric Devices",
+        "Monitors"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This lets users convey verbal and written information and send files.",
+      "answer": "Electronic Communication Tools",
+      "choices": [
+        "Electronic Communication Tools",
+        "Electronic Conferencing Tools",
+        "Collaboration Management Tools"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are tools allow information sharing and engaging user interactions, such as internet forums and video conferencing.",
+      "answer": "Electronic Conferencing Tools",
+      "choices": [
+        "Electronic Communication Tools",
+        "Electronic Conferencing Tools",
+        "Collaboration Management Tools"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are tools that facilitate virtual or co-located meetings and manage group activities.",
+      "answer": "Collaboration Management Tools",
+      "choices": [
+        "Electronic Communication Tools",
+        "Electronic Conferencing Tools",
+        "Collaboration Management Tools"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a email application that secures email, calendar, and files connected in one application.",
+      "answer": "Microsoft Outlook",
+      "choices": [
+        "Microsoft Outlook",
+        "Viber",
+        "Discord",
+        "Microsoft Teams"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a messaging and calling application that connects people worldwide.",
+      "answer": "Viber",
+      "choices": [
+        "Microsoft Outlook",
+        "Viber",
+        "Discord",
+        "Microsoft Teams"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a free voice, video, and messaging application used to talk and hang out with their communities, such as gaming.",
+      "answer": "Discord",
+      "choices": [
+        "Microsoft Outlook",
+        "Viber",
+        "Discord",
+        "Microsoft Teams"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This allow users to call with up to 1000 members, with the ability to share screens and record calls.",
+      "answer": "Microsoft Teams",
+      "choices": [
+        "Microsoft Outlook",
+        "Viber",
+        "Discord",
+        "Microsoft Teams"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is used for audio and video conferencing, webinars, meeting recordings, and livestreams.",
+      "answer": "Zoom",
+      "choices": [
+        "Zoom",
+        "Microsoft Sonic",
+        "Zoom 100: Video Conferencing App of The Dead",
+        "Soom"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is the business-oriented version of Google Hangouts.",
+      "answer": "Google Meet",
+      "choices": [
+        "Google Meet",
+        "Google Meat",
+        "Google Meet me at Vicencio St. I got the goods",
+        "Google Hangouts for Workplaces"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This allows users to create joint proposals and reports and keep track of meeting notes using a web browser.",
+      "answer": "Google Docs",
+      "choices": [
+        "Google Docs",
+        "Google Jamboard",
+        "Microsoft Word with Multiplayer Mode",
+        "Google Documents"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a free version of Office 365 as a web application that includes Word, Excel, PowerPoint, etc., all accessible via a web browser.",
+      "answer": "Microsoft Office Online",
+      "choices": [
+        "Microsoft Office Online",
+        "Microsoft SharePoint",
+        "Microsoft Work from Home Starter Pack",
+        "Office 365 Online"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a simple sharing and collaboration application that centers on teamwork with dynamic and productive team sites for every project team and department.",
+      "answer": "Microsoft SharePoint",
+      "choices": [
+        "Microsoft Office Online",
+        "Microsoft SharePoint",
+        "Microsoft Drive",
+        "Office 365 Online"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    }
+  ]
+}
