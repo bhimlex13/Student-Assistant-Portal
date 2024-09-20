@@ -1,0 +1,302 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Database Systems",
+    "Term": "Prelims",
+    "Title": "Advanced Database Concepts",
+    "LastModified": "21 September 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "01 01_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This is a specified a temporary named result set.",
+      "answer": "Common Table Expression (CTE)",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is defined using the WITH operator.",
+      "answer": "Common Table Expression (CTE)",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This allows users to define tables that can be used in a particular query.",
+      "answer": "Common Table Expression (CTE)",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A Common Table Expression can be referenced within another SELECT, INSERT, UPDATE, or DELETE statement. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Clauses like ORDER BY, INTO, and OPTION can be used in CTE queries. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of CTE doesn’t use repeated procedural loops/recursion.",
+      "answer": "Non-Recursive CTE",
+      "choices": [
+        "Non-Recursive CTE",
+        "Recursive CTE",
+        "Cursive CTE",
+        "Non-Looping CTE"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of CTE is easier to understand.",
+      "answer": "Non-Recursive CTE",
+      "choices": [
+        "Non-Recursive CTE",
+        "Recursive CTE",
+        "Cursive CTE",
+        "Non-Looping CTE"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of CTE uses repeated procedural loops/recursion.",
+      "answer": "Recursive CTE",
+      "choices": [
+        "Non-Recursive CTE",
+        "Recursive CTE",
+        "Cursive CTE",
+        "Non-Looping CTE"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of CTE is useful when working with hierarchical data because the CTE continues to execute until the query returns the entire hierarchy.",
+      "answer": "Recursive CTE",
+      "choices": [
+        "Non-Recursive CTE",
+        "Recursive CTE",
+        "Cursive CTE",
+        "Non-Looping CTE"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a query (SELECT statement) inside another query.",
+      "answer": "Subqueries",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The first query in a subquery is known as the outer query. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The query inside a subquery is known as the inner query. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The inner query of a subquery is executed <i>last</i>. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The output of an inner query in a subquery is used as the input for the outer query. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a virtual table that is constructed from other tables or views and saved as an object in the database.",
+      "answer": "Views",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It has no data of its own, but obtains data from tables or other views.",
+      "answer": "Views",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "You can’t include ORDER BY clause and a reference to a temporary table or a table variable in a view. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is used to speed up searches/queries, resulting in high performance.",
+      "answer": "Index",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What factor to consider in creating an index states that creating an index to a particular column that is frequently searched can give performance benefits?",
+      "answer": "Frequency of search",
+      "choices": [
+        "Frequency of search",
+        "Size of table",
+        "Number of updates",
+        "Space considerations"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What factor to consider in creating an index states that putting an index on a relatively large table that contains a great number of rows can improve performance.",
+      "answer": "Size of table",
+      "choices": [
+        "Frequency of search",
+        "Size of table",
+        "Number of updates",
+        "Space considerations"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What factor to consider in creating an index states that a database that is frequently updated should have fewer indexes as it slows the performance of inserts, updates, and deletes.",
+      "answer": "Number of updates",
+      "choices": [
+        "Frequency of search",
+        "Size of table",
+        "Number of updates",
+        "Space considerations"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What factor to consider in creating an index states that one must create an index only if necessary, as indexes takes up space within the database.",
+      "answer": "Space considerations",
+      "choices": [
+        "Frequency of search",
+        "Size of table",
+        "Number of updates",
+        "Space considerations"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of index is based on only 1 column.",
+      "answer": "Single-column indexes",
+      "choices": [
+        "Single-column indexes",
+        "Unique indexes",
+        "Composite indexes",
+        "Dropping index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of index doesn't allow any duplicate values to be inserted into the table.",
+      "answer": "Unique indexes",
+      "choices": [
+        "Single-column indexes",
+        "Unique indexes",
+        "Composite indexes",
+        "Dropping index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of index is based on 2 or more columns of a table.",
+      "answer": "Composite indexes",
+      "choices": [
+        "Single-column indexes",
+        "Unique indexes",
+        "Composite indexes",
+        "Dropping index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    }
+  ]
+}
