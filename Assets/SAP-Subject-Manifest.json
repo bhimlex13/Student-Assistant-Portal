@@ -15,7 +15,7 @@
                     "Module_Subfolders": [
                         {
                             "Subfolder_ID": "C3_S1_ADET_Prelims_1",
-                            "Subfolder_Name": "(01_Handout_1) Emerging Technologies",
+                            "Subfolder_Name": "Emerging Technologies",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Prelims_1",
                             "Subfolder_Author": [
@@ -26,7 +26,7 @@
                         },
                         {
                             "Subfolder_ID": "C3_S1_ADET_Prelims_1",
-                            "Subfolder_Name": "(02_Handout_1) Requirements Analysis and Modeling",
+                            "Subfolder_Name": "Requirements Analysis and Modeling",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Prelims_2",
                             "Subfolder_Author": [
@@ -149,7 +149,7 @@
                     "Module_Subfolders": [
                         {
                             "Subfolder_ID": "C3_S1_PIIST_Prelims_1",
-                            "Subfolder_Name": "(01_Handout_1) INTRODUCTION TO INFORMATION SYSTEMS AND TECHNOLOGY",
+                            "Subfolder_Name": "Introduction to Information Systems and Technology",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Prelims_1",
                             "Subfolder_Author": [
@@ -160,7 +160,7 @@
                         },
                         {
                             "Subfolder_ID": "C3_S1_PIIST_Prelims_1",
-                            "Subfolder_Name": "(01_Handout_2) MODERN APPLICATIONS OF INFORMATION SYSTEMS AND TECHNOLOGY",
+                            "Subfolder_Name": "Modern Applications of Information Systems and Technology",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Prelims_2",
                             "Subfolder_Author": [
