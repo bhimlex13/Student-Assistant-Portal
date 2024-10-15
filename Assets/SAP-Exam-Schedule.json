@@ -8,7 +8,7 @@
             "Section_Name": "IT501-A",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Thursday",
+                    "Schedule_Day": "Saturday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Event-Driven Programming",
@@ -23,7 +23,7 @@
                     ]
                 },
                 {
-                    "Schedule_Day": "Friday",
+                    "Schedule_Day": "Monday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Data and Digital Communications (Data Communications)",
@@ -38,7 +38,7 @@
                     ]
                 },
                 {
-                    "Schedule_Day": "Saturday",
+                    "Schedule_Day": "Tuesday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Application Development and Emerging Technologies",
@@ -65,7 +65,7 @@
             "Section_Name": "IT501-M",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Thursday",
+                    "Schedule_Day": "Saturday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Event-Driven Programming",
@@ -80,7 +80,7 @@
                     ]
                 },
                 {
-                    "Schedule_Day": "Friday",
+                    "Schedule_Day": "Monday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Data and Digital Communications (Data Communications)",
@@ -95,7 +95,7 @@
                     ]
                 },
                 {
-                    "Schedule_Day": "Saturday",
+                    "Schedule_Day": "Tuesday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Application Development and Emerging Technologies",
@@ -122,7 +122,7 @@
             "Section_Name": "IT501-P",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Thursday",
+                    "Schedule_Day": "Saturday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Event-Driven Programming",
@@ -137,7 +137,7 @@
                     ]
                 },
                 {
-                    "Schedule_Day": "Friday",
+                    "Schedule_Day": "Monday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Data and Digital Communications (Data Communications)",
@@ -152,7 +152,7 @@
                     ]
                 },
                 {
-                    "Schedule_Day": "Saturday",
+                    "Schedule_Day": "Tuesday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Application Development and Emerging Technologies",

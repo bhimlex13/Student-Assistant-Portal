@@ -127,36 +127,36 @@ button{
 }
 
 .General_Button{
-    border-radius: 25px;
-    border: solid var(--SAP-Gray-Level-2D) 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    border-radius: 25px !important;
+    border: solid var(--SAP-Gray-Level-2D) 1px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
     font-family: var(--Text-Font-Secondary);
 }
 
 .General_Button[Primary]{
-    background-color: var(--SAP-Purple-Level-2L);
+    background-color: var(--SAP-Purple-Level-2L) !important;
 }
 
 .General_Button[Secondary]{
-    background-color: transparent;
-    color: var(--Text-Color);
+    background-color: transparent !important;
+    color: var(--Text-Color) !important;
 }
 
 .General_Button:hover{
-    box-shadow: unset;
-    color: white;
-    background-color: var(--SAP-Purple-Level-1L);
-    border: solid var(--SAP-Purple-Level-2D) 1px;
+    box-shadow: unset !important;
+    color: white !important;
+    background-color: var(--SAP-Purple-Level-1L) !important;
+    border: solid var(--SAP-Purple-Level-2D) 1px !important;
 }
 
 .General_Button:active{
-    background-color: var(--SAP-Purple-Base);
-    border: solid var(--SAP-Purple-Level-4D) 1px;
+    background-color: var(--SAP-Purple-Base) !important;
+    border: solid var(--SAP-Purple-Level-4D) 1px !important;
 }
 
 .General_Button:focus{
-    outline: solid var(--SAP-Purple-Level-2D) 2px;
-    border: solid var(--SAP-Purple-Level-2L) 1px;
+    outline: solid var(--SAP-Purple-Level-2D) 2px !important;
+    border: solid var(--SAP-Purple-Level-2L) 1px !important;
 }
 

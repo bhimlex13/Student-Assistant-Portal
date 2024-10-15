@@ -39,7 +39,7 @@
 .Quiz_Questions_List_Item {
     height: 45px;
     margin: 2.5px;
-    border-radius: 5px;
+    border-radius: 5px !important;
     animation-duration: 0.2s;
     animation-iteration-count: 2;
 }
@@ -139,6 +139,7 @@
     opacity: 0%;
     transform: translateY(20px);
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 @media only screen and (max-width: 500px) {
@@ -157,6 +158,12 @@
         width: 100%;
     }
 
+}
+
+.Quiz_Starter_Page{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    padding: 20px;
 }
 
 .Quiz_Starter_Content[State="Active"] {
@@ -200,8 +207,9 @@
     /* border-radius: 15px; */
     box-shadow: unset;
     color: white;
-    width: 100%;
+    width: 100% !important;
     height: 50px;
+    margin-top: 10px;
 }
 
 .Quiz_Starter_Control_Secondary {
@@ -215,11 +223,105 @@
     margin-bottom: 10px;
 }
 
+.Quiz_Starter_Settings_Selector{
+
+}
+
+.Quiz_Starter_Settings_Selector_Item{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--Text-Font-Primary);
+    font-size: 25px;
+    font-weight: bold;
+    align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.Quiz_Starter_Settings_Selector_Item:hover{
+    background-color: var(--SAP-Purple-Level-3L);
+}
+
+.Quiz_Starter_Settings_Selector_Item[State="Active"]{
+    background-color: var(--SAP-Purple-Level-4L);
+    outline: solid var(--SAP-Purple-Base) 1px;
+}
+
+.Quiz_Starter_Settings_Selector_Item:focus {
+    background-color: var(--SAP-Purple-Level-3L);
+    outline: solid var(--SAP-Purple-Base) 1px;
+}   
+
+.Quiz_Starter_Settings_Selector_Item_Description{
+    font-family: var(--Text-Font-Secondary);
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    margin: 0;
+}
+
+
+
 #Content {
     width: calc(100% - var(--SAP-Margin-Left) - var(--SAP-Margin-Right)) !important;
     padding-left: var(--SAP-Margin-Left);
     padding-right: var(--SAP-Margin-Right);
     padding-bottom: 20px;
+}
+
+.Quiz_Form_Content{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* transition: all 0.3s cubic-bezier(0.97, 0.11, 0.29, 0.97); */
+}
+
+.Quiz_Form_Content#Quiz_Form_Question_Container[State = "Visible"]{
+    transform: translateX(0px);
+    opacity: 100%;
+}
+
+.Quiz_Form_Content#Quiz_Form_Question_Container[State = "Hidden"]{
+    transform: translateX(-150px);
+    opacity: 0%;
+}
+
+.Quiz_Form_Content#Quiz_Form_Question_Answer_Container{
+    position: absolute;
+    width: -webkit-fill-available;
+    margin: 20px;
+    bottom: 120px;
+    transform: translateY(-20px);
+}
+
+.Quiz_Form_Content#Quiz_Form_Question_Answer_Container[State = "Visible"]{
+    transform: translateX(0px) translateY(-20px);
+    opacity: 100%;
+}
+
+.Quiz_Form_Content#Quiz_Form_Question_Answer_Container[State = "Hidden"]{
+    transform: translateX(150px) translateY(-20px);
+    opacity: 0%;
+}
+
+.Quiz_Form_Flashcard{
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    justify-content: center;
+    width: -webkit-fill-available
+}
+
+.Quiz_Form_Flashcard_Title{
+    margin: 0;
+    text-align: center;
+}
+
+.Quiz_Form_Flashcard_Answer{
+    margin: 0;
+    text-align: center;
 }
 
 .Quiz_Form_Image{
@@ -250,6 +352,12 @@
     margin: 0;
     font-size: 1.3rem;
     border-bottom: solid var(--SAP-Purple-Level-4L) 1px;
+    width: 100%;
+}
+
+.Quiz_Form[Form_Mode = "Flashcards"] > .Quiz_Form_Content > .Quiz_Form_Question{
+    text-align: center;
+    border-bottom: unset;
 }
 
 .Quiz_Form_Input_Text{
@@ -375,6 +483,19 @@
     font-family: var(--Text-Font-Primary);
     animation-duration: 0.2s;
     animation-iteration-count: 2;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+.Quiz_Form[Form_Mode = "Flashcards"]{
+    cursor: pointer;
+    height: -webkit-fill-available;
+    max-height: 100% !important;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 300px;
+    align-items: center;
 }
 
 .Quiz_Form[Mode="Answer_Correct"] {
@@ -387,12 +508,16 @@
 }
 
 .Quiz_Form_Controls_Button {
-    width: 100%;
+    width: 100% !important;
     background-color: var(--SAP-Purple-Level-3L);
     border-radius: 25px;
     border: solid var(--SAP-Purple-Level-2D) 1px;
     font-size: 1.2rem;
     font-family: var(--Text-Font-Secondary);
+}
+
+.Quiz_Form_Controls_Button[Display = "none"]{
+    display: none;
 }
 
 .Quiz_Form_Controls_Button:hover {

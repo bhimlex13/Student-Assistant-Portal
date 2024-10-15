@@ -32,15 +32,32 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 // Starting functions
-function Quiz_Start(Mode){
+function Quiz_Start(){
+    Quiz_Mode_Set();
     Element_Attribute_Set("Quiz_Starter", "State", "Inactive");
     setTimeout(function(){
         Element_Attribute_Set("Quiz_Starter", "Display", "none");
     }, 500);
-    if (Mode != null){
-        Quiz_Mode = Mode;
-    }
+    
     Quiz_Question_Build();
+}
+
+function Quiz_Mode_Set(){
+    switch(Element_Attribute_Get("Quiz_Starter_Settings_Mode", "Radio_ActiveButton")){
+        case "Mode_1":
+            Quiz_Mode = "Multiple_Choices";
+            document.getElementById("Quiz_Starter_Mode").innerHTML = "Multiple Choices";
+            break;
+        case "Mode_2":
+            Quiz_Mode = "Identification";
+            document.getElementById("Quiz_Starter_Mode").innerHTML = "Hard Mode";
+            break;
+        case "Mode_3":
+            Quiz_Mode = "Flashcards";
+            document.getElementById("Quiz_Starter_Mode").innerHTML = "Flashcards";
+            break;
+    }
+    console.log(Quiz_Mode);
 }
 
 var Quiz_Mode = "Multiple_Choices";
@@ -104,6 +121,21 @@ function Quiz_Order_Shuffle(Array){
     return Array;
 }
 
+function Quiz_Flashcard_Toggle(){
+    if (Quiz_Mode == "Flashcards") {
+        if (Element_Attribute_Get('Quiz_Form', 'Tabs_CurrentTab') == "Quiz_Form_Question_Container"){
+            Element_Attribute_Set("Quiz_Form", "Tabs_CurrentTab", "Quiz_Form_Question_Answer_Container");
+            Element_Attribute_Set("Quiz_Form_Question_Container", "State", "Hidden");
+            Element_Attribute_Set("Quiz_Form_Question_Answer_Container", "State", "Visible");
+        } else {
+            Element_Attribute_Set("Quiz_Form", "Tabs_CurrentTab", "Quiz_Form_Question_Container");
+            Element_Attribute_Set("Quiz_Form_Question_Container", "State", "Visible");
+            Element_Attribute_Set("Quiz_Form_Question_Answer_Container", "State", "Hidden");
+        }
+    }
+    
+}
+
 // The index of the currently accessed question
 var Quiz_Question_CurrentIndex = 0;
 // The index of the correct answer of the currently accessed question
@@ -123,12 +155,28 @@ function Quiz_Question_Build(){
 
     // Pre-check
     if (Quiz_Mode == "Multiple_Choices"){
+        Element_Attribute_Set("Quiz_Form", "Form_Mode", "Question");
+
         Element_Attribute_Set("Quiz_Form_Choices", "Display", "block");
         Element_Attribute_Set("Quiz_Form_Input", "Display", "none");
+        Element_Attribute_Set("Quiz_Form_Flashcard", "Display", "none");
+        Element_Attribute_Set("Quiz_Form_Controls_Next_Flashcards", "Display", "none");
     } else if (Quiz_Mode == "Identification") {
+        Element_Attribute_Set("Quiz_Form", "Form_Mode", "Question");
+
         Element_Attribute_Set("Quiz_Form_Choices", "Display", "none");
         Element_Attribute_Set("Quiz_Form_Input", "Display", "block");
         Element_Attribute_Set("Quiz_Form_Input_Answer", "Display", "none");
+        Element_Attribute_Set("Quiz_Form_Flashcard", "Display", "none");
+        Element_Attribute_Set("Quiz_Form_Controls_Next_Flashcards", "Display", "none");
+    } else if (Quiz_Mode == "Flashcards") {
+        Element_Attribute_Set("Quiz_Form", "Form_Mode", "Flashcards");
+
+        Element_Attribute_Set("Quiz_Form_Choices", "Display", "none");
+        Element_Attribute_Set("Quiz_Form_Input", "Display", "none");
+        Element_Attribute_Set("Quiz_Form_Flashcard", "Display", "block");
+        Element_Attribute_Set("Quiz_Form_Controls_Submit", "Display", "none");
+        Element_Attribute_Set("Quiz_Form_Controls_Next_Flashcards", "Display", "block");
     }
 
 
@@ -160,6 +208,10 @@ function Quiz_Question_Build(){
         // Sets the attribute to the text of the correct answer
         Element_Attribute_Set("Quiz_Form_Choices", "Question_CorrectAnswer", Question.answer.toUpperCase());
         Quiz_Question_CurrentIndex_Correct = 1;
+    } else if (Quiz_Mode == "Flashcards") {
+        Element_Attribute_Set("Quiz_Form_Choices", "Question_CorrectAnswer", Question.answer.toUpperCase());
+        Quiz_Question_CurrentIndex_Correct = 1;
+        document.getElementById("Quiz_Form_Flashcard_Answer").innerHTML = Element_Attribute_Get("Quiz_Form_Choices", "Question_CorrectAnswer");
     }
     
 
@@ -207,7 +259,9 @@ function Quiz_Question_Build(){
     document.getElementById("Quiz_Header_Progress_Counter").innerText = `Question ${Quiz_Question_CurrentIndex + 1} out of ${Quiz_Data_Questions.length}`;
 
     // Sets the correct control buttons
-    Element_Attribute_Set("Quiz_Form_Controls_Submit", "Display", "block");
+    if (Quiz_Mode != "Flashcards"){
+        Element_Attribute_Set("Quiz_Form_Controls_Submit", "Display", "block");
+    }    
     Element_Attribute_Set("Quiz_Form_Controls_Next", "Display", "none");
 
     // Shades the currently selected question list item
@@ -307,7 +361,7 @@ function Quiz_Answer_Highlight(){
 function Quiz_Question_Next(){
     Quiz_Question_CurrentIndex++;
     // Case 1: If the current index is the final one, display the result screen
-    if (Quiz_Question_CurrentIndex >= Quiz_Data_Questions.length){
+    if (Quiz_Question_CurrentIndex >= Quiz_Data_Questions.length && Quiz_Mode != "Flashcards") {
         Quiz_Score_Calculate();
     }
     // Case 2: If the current index is not the final one, proceed to the next unanswered one
