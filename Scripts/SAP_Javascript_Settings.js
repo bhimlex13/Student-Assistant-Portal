@@ -2,7 +2,7 @@ let Settings_Data = {
     "SoundEffects": "Active",
     "GIFFinishers": "Active",
     "DarkMode": "Active",
-    "QuizMode": "Multiple_Choice"
+    "QuizMode": "Mode_1"
 }
 
 var Settings_Key = "SAP_Settings";
