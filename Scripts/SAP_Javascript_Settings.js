@@ -5,7 +5,7 @@ let Settings_Data = {
     "QuizMode": "Mode_1"
 }
 
-var Settings_Key = "SAP_Settings";
+var Settings_Key = "SAP_Settings_2";
 
 function Settings_Load_Data(){
     if (localStorage.getItem(Settings_Key) != null){
