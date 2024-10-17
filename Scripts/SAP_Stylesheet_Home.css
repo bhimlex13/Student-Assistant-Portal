@@ -3,6 +3,7 @@
     /* background-color: #3f54f3; */
     /* overflow: auto; */
     /* width: calc(100% - 250px); */
+    width: -webkit-fill-available;
 }
 
 .Home_Page_Title{
@@ -249,7 +250,7 @@
     grid-template-columns: auto 1fr;
     grid-gap: 20px;
     align-items: center;
-    margin-right: 40px;
+    /* margin-right: 40px; */
     opacity: 0%;
     /* display: none; */
     visibility: hidden;
@@ -305,7 +306,7 @@
 
 #tab_Schedules_Class{
     padding-left: 0;
-    width: calc(100% - 35px);
+    /* width: calc(100% - 35px); */
 }
 
 .Schedules{
@@ -324,7 +325,7 @@
     grid-template-columns: auto auto;
     grid-gap: 10px;
     align-items: center;
-    margin-right: 40px;
+    /* margin-right: 40px; */
     /* display: none; */
     overflow-y: hidden;
     position: sticky;
@@ -368,7 +369,7 @@
 .Schedules_List{
     /* background-color: #3f54f3; */
     /* width: 100%; */
-    margin-right: 60px;
+    /* margin-right: 60px; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 30px;
@@ -430,4 +431,37 @@
     font-family: var(--Text-Font-Tertiary);
     grid-area: Room;
     width: auto;
+}
+
+.Others_Page{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    padding-right: 20px;
+    height: auto;
+}
+
+.Others_Tab_Title{
+    padding: 10px;
+    border: solid var(--SAP-Gray-Base) 1px;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    /* margin-right: 40px; */
+    /* display: none; */
+    width: -webkit-fill-available;
+    overflow-y: hidden;
+    position: sticky;
+    top: 15px;
+    z-index: 15;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: var(--Element-BackdropBlur);
+    margin-bottom: 10px;
+}
+
+.Others_Tab_Title_Text{
+    font-family: var(--Text-Font-Primary);
+    font-size: 1.4em;
+    margin: 0;
 }

@@ -28,7 +28,7 @@ button{
     /* position: fixed; */
     width: 250px;
     height: 100%;
-    background-color: var(--SAP-Gray-Level-3L);
+    background-color: var(--Sidebar-BG);
     display: flex;
     flex-direction: column;
     padding: 15px;
@@ -72,16 +72,24 @@ button{
 }
 
 .MenuBar_List_Item:hover{
-    background-color: var(--SAP-Gray-Level-1L);
+    background-color: var(--Sidebar-Button-Hover);
 }
 
 .MenuBar_List_Item[State="Selected"]{
-    background-color: var(--SAP-Purple-Level-3L);
+    background-color: var(--Sidebar-Button-Selected);
+}
+
+.MenuBar_List_Item[State="Selected"] > .MenuBar_List_Item_Text{
+    color: var(--Sidebar-Button-Text-Selected);
+}
+
+.MenuBar_List_Item[State="Selected"] > .MenuBar_List_Item_Icon{
+    filter: var(--Sidebar-Button-Icon-Selected);
 }
 
 .MenuBar_List_Item_Icon{
     width: 25px;
-    filter: brightness(0)
+    filter: var(--Sidebar-Button-Icon-Selected);
 }
 
 .MenuBar_List_Item_Indicator{
@@ -108,11 +116,12 @@ button{
 .Page_Content_Main{
     /* background-color: red; */
     /* padding: 10px; */
-    width: 100%;
+    width: -webkit-fill-available;
     position: relative;
     overflow-y: auto;
     overflow-x: hidden;
     z-index: 1;
+    background-color: var(--MainView-BG);
 }
 
 .Page_Overlays{
@@ -126,16 +135,16 @@ button{
 
 }
 
-.General_Button{
+.General_Button, .Subwindow_Bottom_Button_SecondaryAction, .Subwindow_Bottom_Button_PrimaryAction{
     border-radius: 25px !important;
-    border: solid var(--SAP-Gray-Level-2D) 1px !important;
+    border: solid var(--Button-Secondary-Border) 1px !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
     font-family: var(--Text-Font-Secondary);
 }
 
-.General_Button[Primary]{
-    background-color: var(--SAP-Purple-Level-2L) !important;
+.General_Button[Primary], .Subwindow_Bottom_Button_PrimaryAction{
+    background-color: var(--Button-Primary-BG) !important;
 }
 
 .General_Button[Secondary]{
@@ -143,20 +152,95 @@ button{
     color: var(--Text-Color) !important;
 }
 
-.General_Button:hover{
+.General_Button:hover, .Subwindow_Bottom_Button_SecondaryAction:hover, .Subwindow_Bottom_Button_PrimaryAction:hover{
     box-shadow: unset !important;
     color: white !important;
-    background-color: var(--SAP-Purple-Level-1L) !important;
-    border: solid var(--SAP-Purple-Level-2D) 1px !important;
+    background-color: var(--Button-Secondary-BG-Hover) !important;
+    border: solid var(--Button-Secondary-Border-Hover) 1px !important;
 }
 
-.General_Button:active{
-    background-color: var(--SAP-Purple-Base) !important;
-    border: solid var(--SAP-Purple-Level-4D) 1px !important;
+.General_Button:active, .Subwindow_Bottom_Button_SecondaryAction:active, .Subwindow_Bottom_Button_PrimaryAction:active{
+    background-color: var(--Button-Secondary-BG-Active) !important;
+    border: solid var(--Button-Secondary-Border-Active) 1px !important;
 }
 
-.General_Button:focus{
-    outline: solid var(--SAP-Purple-Level-2D) 2px !important;
-    border: solid var(--SAP-Purple-Level-2L) 1px !important;
+.General_Button:focus, .Subwindow_Bottom_Button_SecondaryAction:focus, .Subwindow_Bottom_Button_PrimaryAction:focus{
+    outline: solid var(--Button-Secondary-Outline-Focus) 2px !important;
+    border: solid var(--Button-Secondary-Border-Focus) 1px !important;
 }
 
+.Button_List{
+    display: flex;
+    flex-direction: column;
+}
+
+.Button_List_Item, .Toggle{
+    display: grid;
+    background-color: var(--Button-Secondary-BG);
+    border: solid var(--Button-Secondary-Border) 1px;
+    padding: 15px;
+    justify-content: center;
+    border-radius: 15px;
+    grid-gap: 10px;
+    grid-template-columns: 50px 1fr;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Button_List_Item:hover, .Toggle:hover{
+    background-color: var(--Button-Secondary-BG-Hover);
+    border: solid var(--Button-Secondary-Border-Hover) 1px;
+    box-shadow: unset;
+}
+
+.Button_List_Item:focus, .Toggle:focus{
+    border: solid var(--Button-Secondary-Border-Focus) 1px;
+    outline: solid var(--Button-Secondary-Outline-Focus) 2px;
+}
+
+.Button_List_Item:active, .Toggle:active{
+    background-color: var(--Button-Secondary-BG-Active);
+    border: solid var(--Button-Secondary-Border-Active) 1px;
+    box-shadow: unset;
+}
+
+.Button_List_Item_Icon{
+    width: 30px;
+    padding: 5px;
+}
+
+.Button_List_Item_Text{
+    font-family: var(--Text-Font-Secondary);
+    text-align: left;
+}
+
+.Toggle{
+    font-family: var(--Text-Font-Secondary);
+    max-width: unset;
+    text-align: left;
+}
+
+.Toggle[State = "Inactive"] > .Toggle_Indicator{
+    background-color: var(--Button-Secondary-BG);
+    border-color: var(--Button-Secondary-Border);
+    box-shadow: unset;
+}
+
+.Toggle[State = "Active"]:hover > .Toggle_Indicator{
+    background-color: var(--Button-Secondary-BG-Active);
+    box-shadow: unset;
+    /* border-color: var(--SAP-Gray-Base) */
+}
+
+.Modal{
+    background-color: var(--Window-BG);
+    border: unset;
+    box-shadow: unset;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Subwindow_Bottom_Button_SecondaryAction{
+
+}

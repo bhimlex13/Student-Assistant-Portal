@@ -8,6 +8,7 @@
   </title>
   <link rel="icon" type="image/x-icon" href="Assets/Icons/Logo.png">
   
+  <link rel="stylesheet" href="https://elmerf5445.github.io/ERUMA-UI/Scripts/Styles/App_Stylesheet_Debugging.css">
   <link rel="stylesheet" href="Scripts/SAP_Main.css">
   <link rel="stylesheet" href="Scripts/SAP_Stylesheet_QuizPlayer.css">
   <link rel="stylesheet" href="Scripts/SAP_Stylesheet_Responsiveness.css">
@@ -19,6 +20,7 @@
   <script src="Scripts/SAP_Javascript_Main.js"></script>
   <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js"></script>
   <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
+  <script src="Scripts/SAP_Javascript_Settings.js"></script>
   <script src="Scripts/SAP_Javascript_QuizPlayer.js"></script>
   <span Display="none">
     
@@ -31,6 +33,29 @@
         </p>
     </button>
   </span>
+  <div class="Subwindows" id="Subwindows">
+    <div id="Empty"></div>
+    <div class="Modal" id="Quiz_Refresh">
+			<div class="Modal_TitleBar">
+				<h2 class="Modal_TitleBar_Title">
+					Restart quiz?
+				</h2>
+			</div>
+			<div class="Modal_Content">
+				<p class="General_Paragraph">
+					You will start from the very beginning and lose progress.
+				</p>
+			</div>
+			<div class="Modal_Content_Bottom">
+				<button class="Subwindow_Bottom_Button_SecondaryAction" onclick="Subwindows_Close('Quiz_Refresh')">
+					Cancel
+				</button>
+				<button class="Subwindow_Bottom_Button_PrimaryAction" onclick="location.reload()">
+					Restart anyways
+				</button>
+			</div>
+		</div>
+  </div>
   <div class="Page_Overlays">
     <div class="Quiz_Starter" id="Quiz_Starter">
       <div class="Quiz_Starter_Loader" id="Quiz_Starter_Loader">
@@ -57,7 +82,7 @@
           </h3>
           <div class="Quiz_Starter_Control">
             <button class="General_Button Quiz_Starter_Control_Primary" Secondary onclick="Page_ChangePage('index.html')">Back to home</button>
-            <button class="General_Button Quiz_Starter_Control_Primary" Secondary State="Selected" id="Settings" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Quiz_Starter_Content" Tabs_Tab_Target_Tab="Tab_Starter_Settings" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">Settings</button>
+            <button class="General_Button Quiz_Starter_Control_Primary" Secondary State="Selected" id="Settings" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Quiz_Starter_Content" Tabs_Tab_Target_Tab="Tab_Starter_Settings" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">Change mode</button>
             <button class="General_Button Quiz_Starter_Control_Primary" onclick="Quiz_Start('Multiple_Choices')" Primary>Start</button>
           </div>
         </div>
@@ -211,7 +236,7 @@
               100%
             </h4>
           </div>
-          <div class="Quiz_Finisher_Result_Image">
+          <div class="Quiz_Finisher_Result_Image" id="Quiz_Finisher_Result_Image">
             <img class="Quiz_Finisher_Result_Image_Item" src="" alt="Atleast tapos na" draggable="false" id="Quiz_Finisher_Result_Image_Perfect" onerror="this.style.opacity = '0%'" onload="this.style.opacity = '100%'" onclick="Quiz_FinisherImage_Pick()"/>
             <img class="Quiz_Finisher_Result_Image_Item" src="" alt="Atleast tapos na" draggable="false" id="Quiz_Finisher_Result_Image_Good"onerror="this.style.opacity = '0%'" onload="this.style.opacity = '100%'" onclick="Quiz_FinisherImage_Pick()"/>
             <img class="Quiz_Finisher_Result_Image_Item" src="" alt="Atleast tapos na" draggable="false" id="Quiz_Finisher_Result_Image_Excellent" onerror="this.style.opacity = '0%'" onload="this.style.opacity = '100%'" onclick="Quiz_FinisherImage_Pick()"/>
@@ -258,7 +283,7 @@
           </p>
           <img class='MenuBar_List_Item_Icon Quiz_Questions_List_Toggle_Icon' src='Assets/Icons/Down.png' draggable='false' loading='lazy' HideOnSmall style="width: 20px"/>
         </button>
-        <button class="MenuBar_List_Item" onclick="location.reload()" id="Quiz_Questions_List_Toggle">
+        <button class="MenuBar_List_Item" onclick="Subwindows_Open('Quiz_Refresh')" id="Quiz_Questions_List_Toggle">
           <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Refresh_1.png' draggable='false' loading='lazy' />
           <span class="MenuBar_List_Item_Indicator">
           </span>

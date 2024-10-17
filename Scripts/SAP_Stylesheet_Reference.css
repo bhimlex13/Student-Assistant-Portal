@@ -71,6 +71,14 @@
 	--SAP-Red-Level-2D: #7a2222;
 	--SAP-Red-Level-3D: #420d0d;
 
+	--SAP-Night-Level-3L: #888888;
+	--SAP-Night-Level-2L: #6d6d6d;
+	--SAP-Night-Level-1L: #747474;
+	--SAP-Night-Base: #5c5c5c;
+	--SAP-Night-Level-1D: #525252;
+	--SAP-Night-Level-2D: #3d3d3d;
+	--SAP-Night-Level-3D: #181818;
+
 	--SAP-Header-BG-Color: white;
 	--SAP-Header-Border-Color: var(--SAP-Gray-Base);
 
@@ -170,3 +178,66 @@
 	--Color-Borders-Hover: var(--Accent-Color-Hover);
 	--Color-Borders-Focus: var(--Accent-Color-Focus);
 }
+
+body * {
+	color: var(--Text-Color);
+}
+
+body, body[ColorScheme = "Light"]{
+	--MainView-BG: rgb(41, 41, 41);
+	--MainView-BG: rgb(255, 255, 255);
+
+	--Text-Color: black;
+	--Text-Color-Alt: white;
+
+	--Sidebar-BG: var(--SAP-Gray-Level-3L);
+	--Sidebar-Button-Hover: var(--SAP-Gray-Level-1L);
+	--Sidebar-Button-Selected: var(--SAP-Purple-Level-3L);
+	--Sidebar-Button-Icon-Selected: brightness(0%);
+	--Sidebar-Button-Text-Selected: var(--Text-Color);
+
+	--Window-BG: white;
+
+	
+	--Button-BG: var(--MainView-BG);
+
+	--Button-Primary-BG: var(--SAP-Purple-Level-2L);
+
+	--Button-Secondary-BG: var(--MainView-BG);
+	--Button-Secondary-Border: var(--SAP-Gray-Level-2D);
+	--Button-Secondary-BG-Hover: var(--SAP-Purple-Level-3L);
+	--Button-Secondary-Border-Hover: var(--SAP-Purple-Level-2D);
+	--Button-Secondary-BG-Active: var(--SAP-Purple-Level-2L);
+	--Button-Secondary-Border-Active: var(--SAP-Purple-Level-4D);
+	--Button-Secondary-Outline-Focus: var(--SAP-Purple-Level-2D);
+	--Button-Secondary-Border-Focus: var(--SAP-Purple-Level-2L);
+}
+
+body[ColorScheme = "Dark"]{
+	--MainView-BG: var(--SAP-Night-Level-3D);
+	/* --MainView-BG: rgb(255, 255, 255); */
+
+	--Text-Color: white;
+	--Text-Color-Alt: black;
+
+	--Sidebar-BG: var(--SAP-Night-Level-2D);
+	--Sidebar-Button-Hover: var(--SAP-Night-Level-1D);
+	--Sidebar-Button-Selected: var(--SAP-Purple-Level-2L);
+	--Sidebar-Button-Icon-Selected: brightness(0%);
+	--Sidebar-Button-Text-Selected: var(--Text-Color-Alt);
+
+	
+	--Button-BG: var(--MainView-BG);
+
+	--Button-Primary-BG: var(--SAP-Purple-Level-2L);
+
+	--Button-Secondary-BG: var(--MainView-BG);
+	--Button-Secondary-Border: var(--SAP-Gray-Level-2D);
+	--Button-Secondary-BG-Hover: var(--SAP-Purple-Level-3L);
+	--Button-Secondary-Border-Hover: var(--SAP-Purple-Level-2D);
+	--Button-Secondary-BG-Active: var(--SAP-Purple-Level-2L);
+	--Button-Secondary-Border-Active: var(--SAP-Purple-Level-4D);
+	--Button-Secondary-Outline-Focus: var(--SAP-Purple-Level-2D);
+	--Button-Secondary-Border-Focus: var(--SAP-Purple-Level-2L);
+}
+

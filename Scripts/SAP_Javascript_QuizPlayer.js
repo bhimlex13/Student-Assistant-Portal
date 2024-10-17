@@ -21,9 +21,19 @@ var Sound_Complete = new Audio("Assets/Sound_Effects/in.ogg");
 var Sound_Excellent = new Audio("Assets/Sound_Effects/challenge_complete.ogg");
 var Sound_Perfect = new Audio("Assets/Sound_Effects/challenge_complete_old.ogg");
 
+window.addEventListener('beforeunload', (event) => {
+    event.preventDefault();
+    Subwindows_Open('Quiz_Refresh');
+});
+    
+
 
 // Starting point
 window.addEventListener("DOMContentLoaded", () => {
+    Settings_Load_Data();
+    Element_Attribute_Set("Quiz_Starter_Settings_Mode", "Radio_ActiveButton", Settings_Data.QuizMode);
+    Radio_Select(Settings_Data.QuizMode);
+    Quiz_Mode_Set();
     setTimeout(function(){
         document.getElementById("Quiz_Starter_Loader").setAttribute("State", "Inactive");
         document.getElementById("Quiz_Starter_Content").setAttribute("State", "Active");
@@ -57,6 +67,8 @@ function Quiz_Mode_Set(){
             document.getElementById("Quiz_Starter_Mode").innerHTML = "Flashcards";
             break;
     }
+    Settings_Data.QuizMode = Element_Attribute_Get("Quiz_Starter_Settings_Mode", "Radio_ActiveButton");
+    Settings_Save_ToStorage();
     console.log(Quiz_Mode);
 }
 
@@ -77,7 +89,12 @@ function Quiz_Load_Data(){
         Quiz_QuestionList_Build();
         
         Quiz_Header_Set();
-        Quiz_FinisherImage_Pick();
+        if (Settings_Data.GIFFinishers == "Active"){
+            Quiz_FinisherImage_Pick();
+        } else {
+            Element_Attribute_Set("Quiz_Finisher_Result_Image", "Display", "none");
+        }
+        
     } else {
         document.getElementById("Quiz_Starter_Loader").setAttribute("State", "Inactive");
         document.getElementById("Quiz_Starter_Content").setAttribute("State", "Active");
@@ -320,7 +337,9 @@ function Quiz_Answer_Result(Verdict){
         Quiz_Answer_Highlight();
         Element_Attribute_Set("Quiz_Form", "Mode", "Answer_Wrong");
         Element_Attribute_Set("Quiz_Questions_List_Item_" + Quiz_Question_CurrentIndex, "IsCorrect", "False");
-        Sound_Wrong.play();
+        if (Settings_Data.SoundEffects == "Active"){
+            Sound_Wrong.play();
+        }
         Element_Attribute_Set("Quiz_Checker_Wrong", "State", "Active");
         setTimeout(function(){Element_Attribute_Remove("Quiz_Checker_Wrong", "State")}, 750);
     }
@@ -329,7 +348,9 @@ function Quiz_Answer_Result(Verdict){
         Quiz_Score++;
         Element_Attribute_Set("Quiz_Form", "Mode", "Answer_Correct");
         Element_Attribute_Set("Quiz_Questions_List_Item_" + Quiz_Question_CurrentIndex, "IsCorrect", "True");
-        Sound_Correct.play();
+        if (Settings_Data.SoundEffects == "Active"){
+            Sound_Correct.play();
+        }
         Element_Attribute_Set("Quiz_Checker_Correct", "State", "Active");
         setTimeout(function(){Element_Attribute_Remove("Quiz_Checker_Correct", "State")}, 750);
     }
@@ -446,24 +467,34 @@ function Quiz_Finish(Verdict){
     Element_Attribute_Set("Sidebar", "State", "Hide");
     Element_Attribute_Set("Quiz_Questions_List_Toggle", "Display", "none");
     Element_Attribute_Set("Quiz_Finisher", "State", "Active");
-    Sound_Complete.play();
+    if (Settings_Data.SoundEffects == "Active"){
+        Sound_Complete.play();
+    }
     if (Verdict == "Perfect") {
         Element_Attribute_Set("Quiz_Finisher_Result_Image_Perfect", "Display", "block");
-        Sound_Perfect.play();
+        if (Settings_Data.SoundEffects == "Active"){
+            Sound_Perfect.play();
+        }
     } else if (Verdict == "Excellent") {
         Element_Attribute_Set("Quiz_Finisher_Result_Image_Excellent", "Display", "block");
-        if (Math.random() >= 0.25){
-            Sound_Excellent.play();
+        if (Settings_Data.SoundEffects == "Active"){
+            if (Math.random() >= 0.25){
+                Sound_Excellent.play();
+            }
         }
     } else if (Verdict == "Good") {
         Element_Attribute_Set("Quiz_Finisher_Result_Image_Good", "Display", "block");
-        if (Math.random() >= 0.50){
-            Sound_Excellent.play();
+        if (Settings_Data.SoundEffects == "Active"){
+            if (Math.random() >= 0.50){
+                Sound_Excellent.play();
+            }
         }
     } else if (Verdict == "Terrible") {
         Element_Attribute_Set("Quiz_Finisher_Result_Image_Terrible", "Display", "block");
-        if (Math.random() >= 0.85){
-            Sound_Excellent.play();
+        if (Settings_Data.SoundEffects == "Active"){
+            if (Math.random() >= 0.85){
+                Sound_Excellent.play();
+            }
         }
     }
     document.getElementById("Quiz_Finisher_Controls_Button_Retry").focus();

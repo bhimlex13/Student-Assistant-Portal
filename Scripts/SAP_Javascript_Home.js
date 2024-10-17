@@ -6,6 +6,8 @@ let Onload_Requirements = {
 }
 
 window.onload = function (){
+    Settings_Load_Data();
+    Settings_Load_Values();
     if (Onload_Requirements.Splash_Require == true){
         if (Onload_Requirements.Splash_OpenOncePerSession == true){
             var Session_UserHasSignedIn = sessionStorage.getItem('SAP_UserHasSignedIn');
@@ -116,7 +118,7 @@ function Quizzes_Explorer_Load_Subject(){
         if (Explorer_Status_Evaluator == 0){
             Element_Attribute_Set("Quizzes_Explorer_Status", "Display", "block");
         }
-        Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Open", "0.5s", "forwards", "1", 100);
+        Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Open", "0.4s", "forwards", "1", 50);
     }, 200);
     
 }
@@ -145,7 +147,7 @@ function Quizzes_Explorer_Load_Module(Item){
             Element_Attribute_Set("Quizzes_Explorer_Status", "Display", "block");
         }
         document.getElementById("Quizzes_Title_Subject").innerHTML = Quizzes_Manifest.Subject[Item].Subject_Name;
-        Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Open", "0.5s", "forwards", "1", 100);
+        Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Open", "0.4s", "forwards", "1", 50);
     }, 200);
     
 }
@@ -173,7 +175,7 @@ function Quizzes_Explorer_Load_Quizzes(Item, Module){
         }
         
         document.getElementById("Quizzes_Title_Folder").innerHTML = Quizzes_Manifest.Subject[Item].Subject_Module[Module].Module_Name;
-        Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Open", "0.5s", "forwards", "1", 100);
+        Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Open", "0.4s", "forwards", "1", 50);
     }, 200);
 }
 
