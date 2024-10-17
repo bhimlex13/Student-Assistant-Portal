@@ -1,0 +1,840 @@
+{
+  "quizInfo": {
+    "Subject": "Professional Issues in Information Systems and Technology",
+    "Term": "Midterms",
+    "Title": "Professionalism at Its Best",
+    "LastModified": "17 October 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "03_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This is more than just qualifications, knowledge, and skill; but is also about integrity, ethics, and trust.",
+      "answer": "Professionalism",
+      "choices": [
+        "Professionalism",
+        "Consumerism",
+        "Ethicalism",
+        "Sabogism"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This is practicing and maintaining a high level of valued professionalism will create stronger relationship with clients, employers, the team, and the public who will use or benefit from the products and services.",
+      "answer": "Professionalism",
+      "choices": [
+        "Professionalism",
+        "Consumerism",
+        "Ethicalism",
+        "Sabogism"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Its essence is not just for the job but also for how the job is done.",
+      "answer": "Professionalism",
+      "choices": [
+        "Professionalism",
+        "Consumerism",
+        "Ethicalism",
+        "Sabogism"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is where someone possesses a set of values, behaviors, and broader responsibilities in how the professional's knowledge and skills are applied.",
+      "answer": "Professionalism",
+      "choices": [
+        "Professionalism",
+        "Consumerism",
+        "Ethicalism",
+        "Sabogism"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It's about having an informed, ethical, and strategic approach to work for the greater good and the wider benefit.",
+      "answer": "Professionalism",
+      "choices": [
+        "Professionalism",
+        "Consumerism",
+        "Ethicalism",
+        "Sabogism"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "The idea of professionalism and modern professions originated from trade guilds and the learned societies for the church, law, and medicine. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "The concepts of professionalism, profession, and professionalization have met considerable and critical attention in sociology through various interpretations and analyses. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that professionalism was determined to be an occupational value for the stability and ordinance of social systems?",
+      "answer": "First Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that professional Relations (PR) were cooperative and mutually supportive in this interpretation?",
+      "answer": "First Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that relations of trust represented the employee-client, and employee-management interactions as competence were presumed as a guarantee through education, training, and licensing?",
+      "answer": "First Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that during the 1970s-1980s, professionalism was dismissed as a successful principle and professionalization as a process of authority over occupation or a market?",
+      "answer": "Second Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that professionalization promotes a professional's occupational self-interest in salary and power?",
+      "answer": "Second Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that it was a process initiated and controlled by the employees through professional institutions and associations to promote and protect their self-interests?",
+      "answer": "Second Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that it involved the analysis of professionalism as a discourse of occupational change and control, especially in organizations wherein it was increasingly applied and utilized by managers?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that there is an important difference between the discourse of professionalism as built \"from within\"?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that it can also be from the occupational group itself and as-built \"from above\" or by managers in work organizations?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that when discourse is built from within, the benefits to the group can be significant?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that the occupational group uses the discourse to build its occupational identity, promote its image with clients and customers, and secure and promote the occupational control of work by employees?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that studies in the early 21st century demonstrated that professionalism presents advantages for both clients and employees?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that it highlighted the importance of maintaining professionalism and trust, competence, and discretion as the main organizing principles for service work in modern societies?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is about knowing what is appropriate in different situations as it avoids awkwardness or upset, boosts credibility and helps to feel job security?",
+      "answer": "Appropriateness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism relates to outward appearances, such as dressing, hygiene, and body language?",
+      "answer": "Appropriateness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism covers the way of speaking and writing in selecting a topic to discuss and behavior with others?",
+      "answer": "Appropriateness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalsim is about a professional who gets the job done and done well?",
+      "answer": "Competence",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is the ability must meet the role's requirements to produce results that exceed expectations?",
+      "answer": "Competence",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism manages the expectations of others and identifies when it is necessary to ask for support?",
+      "answer": "Competence",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism reassures and motivates other people by boosting the ability to influence and lead?",
+      "answer": "Confidence",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism encourages everyone to take on new challenges as the risk of damaging their professional reputation if things go wrong is non-existent?",
+      "answer": "Confidence",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalsim involves being reliable, setting high standards, and displaying care in every aspect of the job?",
+      "answer": "Conscientiousness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is about being diligent and organized and holding oneself accountable for thoughts, words, and actions, no matter the results?",
+      "answer": "Conscientiousness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism should not be confused with working longer hours than everyone else or obsessing about details?",
+      "answer": "Conscientiousness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism states that true professionals plan and prioritize their work to keep it under control while not letting perfectionism hold them back?",
+      "answer": "Conscientiousness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is staying professional under pressure?",
+      "answer": "Emotional Intelligence",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism requires strategies for managing emotions and clear awareness of other people's feelings and thoughts?",
+      "answer": "Emotional Intelligence",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism means keeping emotions in check, but at the same time expressing feelings for meaningful and fruitful conversations is necessary?",
+      "answer": "Emotional Intelligence",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is staying true to one's word?",
+      "answer": "Integrity",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism stops one from compromising their values, even if that means taking a bigger risk?",
+      "answer": "Integrity",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is the commitment to being honest to oneself and others?",
+      "answer": "Integrity",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism states that when beliefs and behaviors are aligned, genuineness reflects?",
+      "answer": "Integrity",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism involves detailed and up-to-date knowledge which is highly specialized?",
+      "answer": "Knowledge",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism states that one can master a role and a specialization by learning new knowledge at every stage of their careers?",
+      "answer": "Knowledge",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is vital to put into action?",
+      "answer": "Knowledge",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is being confident to show that knowledge is not for self-promotion but for helping others succeed?",
+      "answer": "Knowledge",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is about being a role model for politeness and displaying good manners to everyone, not just to impress specific people?",
+      "answer": "Respect",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism take others' needs into account and help uphold their rights?",
+      "answer": "Respect",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that employees must know the expectations in how they communicate?",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that employees must have the resources they need to developer their communication skills?",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that quality back-and-forth eliminate unnecessary problems and promote better productivity in the workplac?",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work effectively creates a strong team connection, increasing overall performance?",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that if employees consult and consider the views of others, their interest in cooperation increases leading to finding the best possible solutions?",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work builds a strong employee relationship as the more they work closely, the more they get to know and develop a liking for each other?",
+      "answer": "Teamwork",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that the more they work together, the more they learn and adapt to living with each others' likes, dislikes, strengths, and weaknesses?",
+      "answer": "Teamwork",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work reduces toxic work culture, driven by drama, low morale at work, lack of communication, and the fear of a boss?",
+      "answer": "Teamwork",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work is enhanced by participating in team-building activities to practice relying on others' strengths and consulting doubts and confusions as soon as they arise?",
+      "answer": "Teamwork",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work allows a professional to analyze information, arrive at conclusions, and make sound decisions?",
+      "answer": "Critical Thinking",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work is an essential skill everyone must improve?",
+      "answer": "Critical Thinking",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work is valuable in any role in an organization?",
+      "answer": "Critical Thinking",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work is developed through communication and creative problem-solving as it allows the free-flowing connections of ideas to evaluate arguments, find errors, and solve complex issues?",
+      "answer": "Critical Thinking",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that one must prioritize taking on high-risk problems that need immediate action to practice this skill while ensuring the correctness and quality of the output?",
+      "answer": "Critical Thinking",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work aligns the behavior of employees to the company's visions?",
+      "answer": "Ethics",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work promotes openness, partnership, and trust?",
+      "answer": "Ethics",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that when employees know supervisors' expectations, they do better in their jobs?",
+      "answer": "Ethics",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that one must always mind the stakes involved in any aspect of the job to ensure actions are bounded by what is morally correct and acceptable?",
+      "answer": "Ethics",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that recognizing its importance helps employees feel secure as threats such as harassment and bullying are absent, and respect is thriving?",
+      "answer": "Ethics",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work is expressed through natural human values and unique talents and perspectives that employees contribute?",
+      "answer": "Humanness",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Humanness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that humanity is dynamic as it incorporates the innate need for purpose, growth, and work-life balance simultaneously?",
+      "answer": "Humanness",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Humanness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that practicing being kind, accepting, and emotionally available is a massive step towards achieving humanness in the workplace?",
+      "answer": "Humanness",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Humanness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that it doesn't require additional skills but the natural values to do good around people?",
+      "answer": "Humanness",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Humanness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that professionals today want to be a part of something larger than themselves, something that in some way positively impacts the human experience?",
+      "answer": "Humanness",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Humanness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    }
+  ]
+}

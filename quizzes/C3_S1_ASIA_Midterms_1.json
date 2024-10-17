@@ -1,0 +1,626 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Systems Integration and Architecture",
+    "Term": "Midterms",
+    "Title": "Warehouse Management (WM)",
+    "LastModified": "17 October 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "03_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is a facility for storing goods used by manufacturers, importers, exporters, wholesalers, transport, and customs, among others?",
+      "answer": "warehouse",
+      "choices": [
+        "warehouse",
+        "storage bin",
+        "plant",
+        "location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is a solution to manage standard warehouses, including stock and storage and bin locations management, picking and packing strategies, and shipping?",
+      "answer": "SAP Warehouse Management",
+      "choices": [
+        "SAP Warehouse Management",
+        "SAP Material Management",
+        "SAP Sales Distribution",
+        "SAP Production Management"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What integrates all the functions of a warehouse and streamlines them?",
+      "answer": "SAP Warehouse Management",
+      "choices": [
+        "SAP Warehouse Management",
+        "SAP Material Management",
+        "SAP Human Resources",
+        "SAP Production Management"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What controls virtually anything that comes and leaves the warehouse?",
+      "answer": "SAP Warehouse Management",
+      "choices": [
+        "SAP Warehouse Management",
+        "SAP Material Management",
+        "SAP Sales Distribution",
+        "SAP Production Management"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a specific function of SAP Warehouse Management?",
+      "answer": "Manage the structure of the warehouse",
+      "choices": [
+        "Manage the structure of the warehouse",
+        "Manage the data of the human resources",
+        "Allows for easy management of outsource",
+        "Monitors the movement of sales"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a specific function of SAP Warehouse Management?",
+      "answer": "Monitors the movement of stock and process their differences",
+      "choices": [
+        "Monitors the movement of stock and process their differences",
+        "Manage the data of the human resources",
+        "Allows for easy management of outsource",
+        "Monitors the movement of sales"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a specific function of SAP Warehouse Management?",
+      "answer": "Allows for easy management of potentially hazardous material",
+      "choices": [
+        "Allows for easy management of potentially hazardous material",
+        "Manage the data of the human resources",
+        "Allows for easy management of outsource",
+        "Monitors the movement of sales"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a specific function of SAP Warehouse Management?",
+      "answer": "Processes all transactions carried in the warehouse",
+      "choices": [
+        "Processes all transactions carried in the warehouse",
+        "Manage the data of the human resources",
+        "Allows for easy management of outsource",
+        "Monitors the movement of sales"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a specific function of SAP Warehouse Management?",
+      "answer": "Manages inventory at the storage bin level",
+      "choices": [
+        "Manages inventory at the storage bin level",
+        "Manage the data of the human resources",
+        "Allows for easy management of outsource",
+        "Monitors the movement of sales"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What serves as a key component for supply chain management as it offers real-time visibility into an entire inventory in the warehouse and even in transit?",
+      "answer": "SAP Warehouse Management",
+      "choices": [
+        "SAP Warehouse Management",
+        "SAP Material Management",
+        "SAP Sales Distribution",
+        "SAP Production Management"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is an independent environment in the SAP WM system?",
+      "answer": "Client",
+      "choices": [
+        "Client",
+        "Company Code",
+        "Plant",
+        "Storage Location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the smallest organizational unit where a legal set of books can be maintained in the SAP WM?",
+      "answer": "Company Code",
+      "choices": [
+        "Company Code",
+        "Client",
+        "Plant",
+        "Storage Location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the operating are of a branch within the company in the SAP WM?",
+      "answer": "Plant",
+      "choices": [
+        "Plant",
+        "Company Code",
+        "Client",
+        "Storage Location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What can be a manufacturing, distribution, purchasing, or maintenance facilty in the SAP WM?",
+      "answer": "Plant",
+      "choices": [
+        "Plant",
+        "Company Code",
+        "Client",
+        "Storage Location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What organizational unit allows differentiation between the various stocks of material in a plant in SAP WM?",
+      "answer": "Storage Location",
+      "choices": [
+        "Storage Location",
+        "Company Code",
+        "Plant",
+        "Client"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the highest level of organizational unit in warehouse management in SAP WM?",
+      "answer": "Warehouse Number",
+      "choices": [
+        "Warehouse Number",
+        "Storage Type",
+        "Storage Section",
+        "Picking Area"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What identifies a complex, physical warehouse structure within the warehouse management system in SAP WM?",
+      "answer": "Warehouse Number",
+      "choices": [
+        "Warehouse Number",
+        "Storage Type",
+        "Storage Section",
+        "Picking Area"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which subdivision of a warehouse is identified by its warehousing techniques, organization, or function in SAP WM?",
+      "answer": "Storage Type",
+      "choices": [
+        "Storage Type",
+        "Storage Section",
+        "Picking Area",
+        "Warehouse Door"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is a logical or physical subdivision of a storage type that groups similar storage bins in SAP WM?",
+      "answer": "Storage Section",
+      "choices": [
+        "Storage Section",
+        "Allocation Zone",
+        "Shipping Point",
+        "Storage Bin"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which area groups storage bins together for picking strategies in SAP WM?",
+      "answer": "Picking Area",
+      "choices": [
+        "Picking Area",
+        "Storage Section",
+        "Storage Type",
+        "Warehouse Door"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What marks the point where the means of transport change to internal transportation in SAP WM?",
+      "answer": "Warehouse Door",
+      "choices": [
+        "Warehouse Door",
+        "Allocation Zone",
+        "Storage Section",
+        "Storage Type"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Where are goods temporarily stored when they have just arrived or are about to be shipped in SAP WM?",
+      "answer": "Allocation Zone",
+      "choices": [
+        "Allocation Zone",
+        "Warehouse Number",
+        "Storage Location",
+        "Shipping Point"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which organizational unit is responsible for the type of shipping, the necessary shipping materials, and the means of transport in SAP WM?",
+      "answer": "Shipping Point",
+      "choices": [
+        "Shipping Point",
+        "Allocation Zone",
+        "Warehouse Door",
+        "Storage Bin"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the smallest addressable unit in a warehouse that identifies the exact location where goods can be stored in SAP WM?",
+      "answer": "Storage Bin",
+      "choices": [
+        "Storage Bin",
+        "Shipping Point",
+        "Allocation Zone",
+        "Warehouse Door"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the lowest level of orginizational structure in SAP WM?",
+      "answer": "Storage Bin",
+      "choices": [
+        "Storage Bin",
+        "Shipping Point",
+        "Allocation Zone",
+        "Storage Type"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "The master data involved in SAP WM are Storage Bin, Material, Hazard, and Batch.",
+      "answer": "The statement is true.",
+      "choices": [
+        "The statement is true.",
+        "The statement is false."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What are the two organizational levels of the Storage Bin Master Data in SAP WM?",
+      "answer": "Warehouse Level and Storage Type Level",
+      "choices": [
+        "Warehouse Level and Storage Type Level",
+        "Storage Level and Allocation Type Level",
+        "Warehouse Level and Allocation Type Level",
+        "Shipping Level and Allocation Type Level"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the smallest addressable unit in a warehouse in SAP WM?",
+      "answer": "Storage Bin",
+      "choices": [
+        "Storage Bin",
+        "Warehouse Level",
+        "Storage Type Level",
+        "Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What contains all indicators and fields valid for the whole warehouse?",
+      "answer": "Warehouse Level",
+      "choices": [
+        "Warehouse Level",
+        "Storage Bin",
+        "Storage Type Level",
+        "Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What contains all indicators that are only valid for specific storage types?",
+      "answer": "Storage Type Level",
+      "choices": [
+        "Storage Type Level",
+        "Warehouse Level",
+        "Storage Bin",
+        "Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What type of data does the Storage Bin Master Data include in SAP WM?",
+      "answer": "General Data, Storage Bin Data, and Status",
+      "choices": [
+        "General Data, Storage Bin Data, and Status",
+        "General Data, Storage Number, and Status",
+        "General Data, Shipping point, and Storage Bin Data",
+        "General Data, Shipping point, and Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the smallest addressable unit of measurement for a material in SAP S/4HANA?",
+      "answer": "Quant",
+      "choices": [
+        "Quant",
+        "Warehouse Level",
+        "Storage Type Level",
+        "Storage Bin"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which three types of data are associated with a quant in SAP S/4HANA?",
+      "answer": "General Data, Stock Data, and Block Indicator",
+      "choices": [
+        "General Data, Stock Data, and Block Indicator",
+        "General Data, Stock Data, and Storage Indicator",
+        "General Data, Stock Data, and Status",
+        "General Data, Stock Data, and Storage Bin Data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which master data contains all the information a company needs to manage a material across various SAP components?",
+      "answer": "Material Master",
+      "choices": [
+        "Material Master",
+        "Batch Master Data",
+        "Hazard Master Data",
+        "Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What contains all the information a company needs to manage a material?",
+      "answer": "Hazard Master Data",
+      "choices": [
+        "Hazard Master Data",
+        "Batch Master Data",
+        "Material Master",
+        "Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What includes General Data that specifies the Storage Class, Water Pollution Class, Flash Point, Aggregate State, Hazardous Material Warning, and Hazardous Substance Number?",
+      "answer": "Hazard Master Data",
+      "choices": [
+        "Hazard Master Data",
+        "Batch Master Data",
+        "Material Master",
+        "Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is a subset of material or homogeneous series of unreproducible units with a unique specifictation?",
+      "answer": "Batch Master Data",
+      "choices": [
+        "Batch Master Data",
+        "Hazard Master Data",
+        "Material Master",
+        "Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What type of data is included in the Batch Master Data in SAP WM?",
+      "answer": "Basic Data 1 & 2, Classification of Batch, and Material Data",
+      "choices": [
+        "Basic Data 1 & 2, Classification of Batch, and Material Data",
+        "Basic Data 3 & 2, Classification of Batch, and Material Data",
+        "Basic Data 3 & 2, and Material Data",
+        "Basic Data 1 & 2, and Material Data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What occurs during Stock-to-Stock, Material-to-Material, and Consignment-to-Warehouse organizational levels?",
+      "answer": "Transfer Posting",
+      "choices": [
+        "Transfer Posting",
+        "Plant-to-Plant",
+        "Company Code to Company Code",
+        "Storage Location to Storage Location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is observed in Plant 2 of Figure 1 where there is a physical goods movement between locations within a plant?",
+      "answer": "Stock Transfer",
+      "choices": [
+        "Stock Transfer",
+        "Company Code to Company Code",
+        "Plant-to-Plant",
+        "Storage Location to Storage Location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the type of stock transfer where stock is transferred between two storage locations within the same plant?",
+      "answer": "Storage Location to Storage Location",
+      "choices": [
+        "Storage Location to Storage Location",
+        "Transfer Posting",
+        "Plant-to-Plant",
+        "Company Code to Company Code"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What type of stock transfer moves stock between two plants belonging to the same company code?",
+      "answer": "Plant-to-Plant",
+      "choices": [
+        "Plant-to-Plant",
+        "Company Code to Company Code",
+        "Transfer Posting",
+        "Stock Transfer"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What type of stock transfer occurs when stock is transferred between two plants assigned to different company codes?",
+      "answer": "Company Code to Company Code",
+      "choices": [
+        "Company Code to Company Code",
+        "Transfer Posting",
+        "Storage Location to Storage Location",
+        "Stock Transfer"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which procedure does not use Stock In Transfer and completes stock transfer from Issuing to Receiving Organizational Level in a single step?",
+      "answer": "One-Step Procedure",
+      "choices": [
+        "One-Step Procedure",
+        "Two-Step Procedure",
+        "Three-Step Procedure",
+        "Four-Step Procedure"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which procedure involves two separate steps and utilizes Stock In Transfer during stock transfer?",
+      "answer": "Two-Step Procedure",
+      "choices": [
+        "Two-Step Procedure",
+        "One-Step Procedure",
+        "Three-Step Procedure",
+        "Four-Step Procedure"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is a purchase order used to request material transfer between plants within the same company?",
+      "answer": "Stock Transport Order",
+      "choices": [
+        "Stock Transport Order",
+        "Transfer Requirement",
+        "One-Step Procedure",
+        "Two-Step Procedure"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is technically similar to a stock transport order but involves goods purchased between plants under the same company code?",
+      "answer": "Purchase Order",
+      "choices": [
+        "Purchase Order",
+        "Posting Change Notice",
+        "Transfer Order",
+        "Transfer Requests"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which document is generated by posting changes and has functionalities similar to transfer requests in WM?",
+      "answer": "Posting Change Notice",
+      "choices": [
+        "Posting Change Notice",
+        "Transfer Order",
+        "Transfer Requirement",
+        "Two-Step Procedure"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which document records information based on the change type, transport purpose, request category, and target system?",
+      "answer": "Transfer Requests",
+      "choices": [
+        "Transfer Requests",
+        "Transfer Order",
+        "Purchase Order",
+        "One-Step Procedure"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which document is a request to transfer materials from a source storage bin to a destination bin, representing expected goods movement in WM?",
+      "answer": "Transfer Requirement",
+      "choices": [
+        "Transfer Requirement",
+        "Transfer Order",
+        "Stock Transport Order",
+        "Two-Step Procedure"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which central document is required for every material movement in WM and can be created manually, directly, or automatically?",
+      "answer": "Transfer Order",
+      "choices": [
+        "Transfer Order",
+        "Posting Change Notice",
+        "Transfer Requests",
+        "Purchase Order"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    }
+  ]
+}

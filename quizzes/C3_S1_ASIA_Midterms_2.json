@@ -1,0 +1,704 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Systems Integration and Architecture",
+    "Term": "Midterms",
+    "Title": "Project Management (PS)",
+    "LastModified": "17 October 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "04_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What module oversees projects, tasks, and timelines while identifying critical paths in SAP?",
+      "answer": "SAP Project Management",
+      "choices": [
+        "SAP Project Management",
+        "SAP Warehouse Management",
+        "SAP Material Management",
+        "SAP Production Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What feature supports various project phases and includes visualization and financial management in SAP PS?",
+      "answer": "Company-wide project management operations",
+      "choices": [
+        "Company-wide project management operations",
+        "Automated project controlling",
+        "project builder",
+        "work project"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SAP PS feature assigns work to responsible individuals’ dashboards and manages effort, duration, and task scheduling?",
+      "answer": "Project coordination across distributed teams",
+      "choices": [
+        "Project coordination across distributed teams",
+        "Automated project controlling",
+        "project builder",
+        "project summarization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SAP PS feature links the project structure to finance and controlling for automatic cost and revenue reporting?",
+      "answer": "Automated project controlling",
+      "choices": [
+        "Automated project controlling",
+        "Company-wide project management operations",
+        "SAP Project Management",
+        "Internally and Externally processed activities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "SAP PS integrates primarily into which other modules in the SAP system?",
+      "answer": "Finance and Logistics modules",
+      "choices": [
+        "Finance and Logistics modules",
+        "project builder",
+        "WBS Elements",
+        "network"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SAP PS master data describes tasks with complexity, risk, time restriction, and quality standards?",
+      "answer": "Projects",
+      "choices": [
+        "Projects",
+        "work project",
+        "SAP Project Management",
+        "project summarization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What SAP tool allows users to quickly and efficiently edit project data in one transaction?",
+      "answer": "project builder",
+      "choices": [
+        "project builder",
+        "network",
+        "Hierarchy Graphic",
+        "Projects"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SAP PS term describes a concrete activity or subactivity within the Work Breakdown Structure?",
+      "answer": "WBS Elements",
+      "choices": [
+        "WBS Elements",
+        "project builder",
+        "components of a process",
+        "Automated project controlling"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What term refers to a description of an activity, its tasks, and the result to be achieved in SAP PS?",
+      "answer": "work project",
+      "choices": [
+        "work project",
+        "components of a process",
+        "WBS Elements",
+        "Duration"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which consists of access sequences and relationships?",
+      "answer": "Hierarchy Graphic",
+      "choices": [
+        "Hierarchy Graphic",
+        "Activities",
+        "Relationships",
+        "WBS Elements"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which feature in SAP PS summarizes objects with the same characteristics in a hierarchical structure?",
+      "answer": "project summarization",
+      "choices": [
+        "project summarization",
+        "network",
+        "work project",
+        "components of a process"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which term describes linked activities forming a chronological order in SAP PS?",
+      "answer": "network",
+      "choices": [
+        "network",
+        "activities",
+        "milestones",
+        "landmark"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What are the two activity types distinguished in SAP PS?",
+      "answer": "Internally and Externally processed activities",
+      "choices": [
+        "Internally and Externally processed activities",
+        "Automated project controlling",
+        "components of a process",
+        "work project"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What term in SAP PS refers to activities that incur costs but are not tied to specific tasks?",
+      "answer": "General costs activities",
+      "choices": [
+        "General costs activities",
+        "Automated project controlling",
+        "project builder",
+        "WBS Elements"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "According to DIN 69900, what term describes activities with duration, start and finish, uninterrupted processing, resource needs, and costs?",
+      "answer": "components of a process",
+      "choices": [
+        "components of a process",
+        "two-step procedure",
+        "three-step procedure",
+        "components of a procedure"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "SAP PS does not have an organizational structure.",
+      "answer": "The statement is true.",
+      "choices": [
+        "The statement is true.",
+        "The statement is false."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What inherits its organizational structures via assignment into organization units in the enterprise structure?",
+      "answer": "SAP Project Management",
+      "choices": [
+        "SAP Project Management",
+        "SAP Warehouse Management",
+        "SAP Material Management",
+        "SAP Production Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "The productivity of SAP Warehouse Management is mostly created through the integration of other SAP modules.",
+      "answer": "The statement is false.",
+      "choices": [
+        "The statement is true.",
+        "The statement is false."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is the possible status for WBS Elements?",
+      "answer": "Released",
+      "choices": [
+        "Duration",
+        "Defined Start and Finish",
+        "Released",
+        "Costs"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is the possible status for WBS Elements?",
+      "answer": "Unlocked",
+      "choices": [
+        "Duration",
+        "Defined Start and Finish",
+        "Unlocked",
+        "Costs"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is the possible status for WBS Elements?",
+      "answer": "Technically Complete",
+      "choices": [
+        "Duration",
+        "Defined Start and Finish",
+        "Technically Complete",
+        "Costs"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is the possible status for WBS Elements?",
+      "answer": "Closed",
+      "choices": [
+        "Processed without Interruption",
+        "Defined Start and Finish",
+        "Closed",
+        "Costs"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is the possible status for WBS Elements?",
+      "answer": "Deletion Flag",
+      "choices": [
+        "Duration",
+        "Defined Start and Finish",
+        "Deletion Flag",
+        "Costs"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is the possible status for WBS Elements?",
+      "answer": "Fully Invoiced",
+      "choices": [
+        "Duration",
+        "Defined Start and Finish",
+        "Fully Invoiced",
+        "Costs"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is not a possible status for WBS Elements?",
+      "answer": "Defined Start and Finish",
+      "choices": [
+        "Fully Invoiced",
+        "Deletion Flag",
+        "Released",
+        "Defined Start and Finish"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a characteristic of the German Stardard DIN 69900?",
+      "answer": "Duration",
+      "choices": [
+        "Duration",
+        "Released",
+        "Unlocked",
+        "Closed"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a characteristic of the German Stardard DIN 69900?",
+      "answer": "Defined Start and Finish",
+      "choices": [
+        "Defined Start and Finish",
+        "Released",
+        "Unlocked",
+        "Deletion Flag"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a characteristic of the German Stardard DIN 69900?",
+      "answer": "Processed without Interruption",
+      "choices": [
+        "Processed without Interruption",
+        "Released",
+        "Deletion Flag",
+        "Closed"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a characteristic of the German Stardard DIN 69900?",
+      "answer": "Needs for resources to execute them",
+      "choices": [
+        "Needs for resources to execute them",
+        "Released",
+        "Deletion Flag",
+        "Closed"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a characteristic of the German Stardard DIN 69900?",
+      "answer": "Costs",
+      "choices": [
+        "Costs",
+        "Released",
+        "Unlocked",
+        "Closed"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What can be linked together by relationships to establish a chronological order?",
+      "answer": "Activities",
+      "choices": [
+        "Activities",
+        "Costs",
+        "Milestones",
+        "Stocks"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What describes the chronological order of activities in a network plan, with technical or logical dependencies?",
+      "answer": "Relationships",
+      "choices": [
+        "Milestones",
+        "Calculation Key",
+        "Activity Type",
+        "Relationships"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What sequence type defines the relationship from the end of one series to the beginning of another?",
+      "answer": "Normal Series",
+      "choices": [
+        "Finish Series",
+        "Start Series",
+        "Bounding Series",
+        "Normal Series"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What sequence type defines the relationship from the beginning of one series to the beginning of another?",
+      "answer": "Start Series",
+      "choices": [
+        "Normal Series",
+        "Finish Series",
+        "Bounding Series",
+        "Start Series"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What sequence type defines the relationship from the end of one series to the end of another?",
+      "answer": "Finish Series",
+      "choices": [
+        "Start Series",
+        "Bounding Series",
+        "Finish - Start",
+        "Finish Series"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What sequence type defines the relationship from the beginning of one series to the end of another?",
+      "answer": "Bounding Series",
+      "choices": [
+        "Finish Series",
+        "Normal Series",
+        "Finish - Finish",
+        "Bounding Series"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which relationship type defines the link from the end of one activity to the start of another?",
+      "answer": "Finish - Start",
+      "choices": [
+        "Start - Start",
+        "Finish - Finish",
+        "Start - Finish",
+        "Finish - Start"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which relationship type links the start of one activity to the start of another?",
+      "answer": "Start - Start",
+      "choices": [
+        "Finish - Start",
+        "Finish - Finish",
+        "Start - Finish",
+        "Start - Start"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which relationship type links the end of one activity to the end of another?",
+      "answer": "Finish - Finish",
+      "choices": [
+        "Start - Start",
+        "Finish - Start",
+        "Start - Finish",
+        "Finish - Finish"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which relationship type links the start of one activity to the end of another?",
+      "answer": "Start - Finish",
+      "choices": [
+        "Finish - Finish",
+        "Finish - Start",
+        "Start - Start",
+        "Start - Finish"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What term refers to marks that show transitions between phases or departments in a project?",
+      "answer": "Milestones",
+      "choices": [
+        "Relationships",
+        "Finish - Finish",
+        "Triggering predefined Milestone Functions",
+        "Milestones"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What method is used to track project dates by comparing milestone dates at different reporting intervals?",
+      "answer": "Milestone Trend Analysis (MTA)",
+      "choices": [
+        "Conducting earned value analysis using the Milestone Technique",
+        "Triggering predefined Milestone Functions",
+        "Determining Dates in the Billing Plan",
+        "Milestone Trend Analysis (MTA)"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What milestone-related method helps track earned value by associating portions of work with milestones?",
+      "answer": "Conducting earned value analysis using the Milestone Technique",
+      "choices": [
+        "Milestone Trend Analysis",
+        "Triggering predefined Milestone Functions",
+        "Determining Dates in the Billing Plan",
+        "Conducting earned value analysis using the Milestone Technique"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What task links milestones to specific dates in the billing plan?",
+      "answer": "Determining Dates in the Billing Plan",
+      "choices": [
+        "Triggering predefined Milestone Functions",
+        "Milestone Trend Analysis",
+        "Conducting earned value analysis using the Milestone Technique",
+        "Determining Dates in the Billing Plan"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What task triggers business processes in SAP PS when milestones are reached?",
+      "answer": "Triggering predefined Milestone Functions",
+      "choices": [
+        "Determining Dates in the Billing Plan",
+        "Milestone Trend Analysis",
+        "Conducting earned value analysis using the Milestone Technique",
+        "Triggering predefined Milestone Functions"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which activity specification in SAP PS defines costs based on qualifications or special work conditions?",
+      "answer": "Activity Type",
+      "choices": [
+        "Work",
+        "Number of Required Capacities",
+        "Percent",
+        "Activity Type"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What term in SAP PS defines the planned amount of effort or energy required to complete an activity?",
+      "answer": "Work",
+      "choices": [
+        "Activity Type",
+        "Number of Required Capacities",
+        "Percent",
+        "Work"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What term refers to the number of people, machines, or other capacities needed to complete an activity?",
+      "answer": "Number of Required Capacities",
+      "choices": [
+        "Work",
+        "Activity Type",
+        "Percent",
+        "Number of Required Capacities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What percentage value is used in SAP PS when no manual entry is made for duration, work, or capacity?",
+      "answer": "Percent",
+      "choices": [
+        "Work",
+        "Number of Required Capacities",
+        "Activity Type",
+        "Percent"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What SAP PS value is used to manually or systematically determine work, duration, or capacity requirements?",
+      "answer": "Calculation Key",
+      "choices": [
+        "Percent",
+        "Work",
+        "Number of Required Capacities",
+        "Calculation Key"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "In this word data, basic and forecast data for work in network activities can be entered.",
+      "answer": "The statement is true.",
+      "choices": [
+        "The statement is true.",
+        "The statement is false."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which number refers to the capacity category and is entered on the scheduling screen in the work center?",
+      "answer": "Number of Required Capacities",
+      "choices": [
+        "Work",
+        "Activity Type",
+        "Percent",
+        "Number of Required Capacities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "In the Word Data in the Activity, suppose a percentage is not entered, the system will assume 0%.",
+      "answer": "The statement is false.",
+      "choices": [
+        "The statement is true.",
+        "The statement is false."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What tool is used in Project Planning for work termination, coordination, capacity checking, and cost calculation?",
+      "answer": "Project Planning Board",
+      "choices": [
+        "Easy Cost Planning",
+        "Information System",
+        "Multi-level Settlement",
+        "Project Planning Board"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which cost planning tool allows fast, easy cost planning based on amounts and characteristics at the project structure level?",
+      "answer": "Easy Cost Planning",
+      "choices": [
+        "Project Planning Board",
+        "Direct Settlement",
+        "Multi-level Settlement",
+        "Easy Cost Planning"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What settlement type directly settles each object to an external cost object like a cost center or profitability segment?",
+      "answer": "Direct Settlement",
+      "choices": [
+        "Multi-level Settlement",
+        "Easy Cost Planning",
+        "Project Planning Board",
+        "Direct Settlement"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What settlement type first settles costs to a higher-level WBS element before settling to an external receiver?",
+      "answer": "Multi-level Settlement",
+      "choices": [
+        "Direct Settlement",
+        "Information System",
+        "Easy Cost Planning",
+        "Multi-level Settlement"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What system provides reports, graphs, and overviews of project performance, schedule, and costs?",
+      "answer": "Information System",
+      "choices": [
+        "Project Planning Board",
+        "Direct Settlement",
+        "Multi-level Settlement",
+        "Information System"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    }
+  ]
+}
