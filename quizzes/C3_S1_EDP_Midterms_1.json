@@ -1,3 +1,4 @@
+
 {
   "quizInfo": {
     "Subject": "Event-Driven Programming",
@@ -14,20 +15,133 @@
   "quizData": [
     {
       "question": "Which of the following outputs is correct based on the given code?",
-      "answer": "This is the correct answer. The value in answer must match any of the choices below. If the choice is an object, the identifier is the value 'text'.",
+      "answer": "B C",
       "choices": [
-        {
-          "text": "This is a choice with an image, but it doesn't load because it's an error.",
-          "image": ""
-        },
-        "This is the correct answer. The value in answer must match any of the choices below. If the choice is an object, the identifier is the value 'text'."
-       ,
-        "This is a choice in plain text."
+        "B C",
+        "0",
+        "Compilation Error",
+        "C"
       ],
       "reference": "03_Handout_1",
       "term": "Midterms",
       "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/EDP/Midterms/03/EDP_Q1.png"
+    },
+    {
+      "question": "Which of the following outputs is correct based on the given code?",
+      "answer": "1 2 3 4 5",
+      "choices": [
+        "Index Out Of Range Exception",
+        "1 2 3 4 5",
+        "Arithmetic Exception",
+        "1 2 3 4"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/EDP/Midterms/03/EDP_Q2.png"
+    },
+    {
+      "question": "Which of the following outputs of the code will show?",
+      "answer": "15, 22, 143, 54, 85, Index Out Of Range!",
+      "choices": [
+        "15, 22, 143, 54, 85, Index Out Of Range!",
+        "Index Out Of Range!",
+        "15, 22, 143, 54, 85",
+        "Arithmetic Exception"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/EDP/Midterms/03/EDP_Q3.png"
+    },
+    {
+      "question": "What will be the output of the code below?",
+      "answer": "Divide By Zero Error",
+      "choices": [
+        "Divide By Zero Error",
+        "Exception: 25",
+        "Exception: 25 Divide By Zero Error",
+        "25"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/EDP/Midterms/03/EDP_Q4.png"
+    },
+    {
+      "question": "What will be the output of the following code?",
+      "answer": "Error: Attempted to divide by zero. Cleanup code.",
+      "choices": [
+        "Error: Attempted to divide by zero. Cleanup code.",
+        "Cleanup code.",
+        "Error: Divide by zero.",
+        "No output is generated."
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/EDP/Midterms/03/EDP_Q5.png"
+    },
+    {
+      "question": "In the following code, what will be printed if input is an invalid integer (like 'abc')?",
+      "answer": "Format Error: Invalid input.",
+      "choices": [
+        "Format Error: Invalid input.",
+        "Number: abc Format Error: Invalid input.",
+        "Number: abc",
+        "No output is generated."
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/EDP/Midterms/03/EDP_Q6.png"
+    },
+    {
+      "question": "What will happen if the following code is executed, assuming the array is defined as int[] arr = {1, 2, 3}?",
+      "answer": "Index out of range. Finished execution.",
+      "choices": [
+        "Index out of range. Finished execution.",
+        "Index out of range.",
+        "Finished execution.",
+        "0"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/EDP/Midterms/03/EDP_Q7.png"
+    },
+    {
+      "question": "What will be the output of the following code?",
+      "answer": "Caught ArgumentNullException.",
+      "choices": [
+        "Caught ArgumentNullException.",
+        "parameter",
+        "parameter Caught ArgumentNullException.",
+        "No output is generated."
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/EDP/Midterms/03/EDP_Q8.png"
+    },
+    {
+      "question": "What will be the output of the following code when the age variable is set to 15?",
+      "answer": "Not a legal age.",
+      "choices": [
+        "Not a legal age.",
+        "Legal age!",
+        "Not a legal age. Not a legal age.",
+        "No output is generated."
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/EDP/Midterms/03/EDP_Q9.png"
+    },
+    {
+      "question": "In the following code, what will be the ouput if input is set to null?",
+      "answer": "Caught NullReferenceException. Exiting.",
+      "choices": [
+        "Caught NullReferenceException. Exiting.",
+        "Exiting.",
+        "Exiting. Caught NullReferenceException.",
+        "Caught NullReferenceException."
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/EDP/Midterms/03/EDP_Q10.png"
     }
-
   ]
 }
