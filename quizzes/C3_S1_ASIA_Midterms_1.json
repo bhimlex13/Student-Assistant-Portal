@@ -419,18 +419,6 @@
       "term": "Midterm"
     },
     {
-      "question": "What contains all the information a company needs to manage a material?",
-      "answer": "Hazard Master Data",
-      "choices": [
-        "Hazard Master Data",
-        "Batch Master Data",
-        "Material Master",
-        "Quant"
-      ],
-      "reference": "03 Handout 1",
-      "term": "Midterm"
-    },
-    {
       "question": "What includes General Data that specifies the Storage Class, Water Pollution Class, Flash Point, Aggregate State, Hazardous Material Warning, and Hazardous Substance Number?",
       "answer": "Hazard Master Data",
       "choices": [
