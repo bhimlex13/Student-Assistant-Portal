@@ -54,8 +54,8 @@
       "choices": [
         "Automated project controlling",
         "Company-wide project management operations",
-        "SAP Project Management",
-        "Internally and Externally processed activities"
+        "SAP Controlling Management",
+        "Project coordination across distributed teams"
       ],
       "reference": "04 Handout 1",
       "term": "Midterm"
@@ -137,8 +137,8 @@
       "answer": "project summarization",
       "choices": [
         "project summarization",
-        "network",
-        "work project",
+        "project graph sumarrization",
+        "work project summarization",
         "components of a process"
       ],
       "reference": "04 Handout 1",
@@ -161,9 +161,9 @@
       "answer": "Internally and Externally processed activities",
       "choices": [
         "Internally and Externally processed activities",
-        "Automated project controlling",
-        "components of a process",
-        "work project"
+        "Unrestricted and Finished processed activities",
+        "Main and Sub processed activities",
+        "Small and Big processed activities"
       ],
       "reference": "04 Handout 1",
       "term": "Midterm"
@@ -173,8 +173,8 @@
       "answer": "General costs activities",
       "choices": [
         "General costs activities",
-        "Automated project controlling",
-        "project builder",
+        "Milestones",
+        "Accounting costs activities",
         "WBS Elements"
       ],
       "reference": "04 Handout 1",
@@ -493,8 +493,8 @@
       "answer": "Milestones",
       "choices": [
         "Relationships",
-        "Finish - Finish",
-        "Triggering predefined Milestone Functions",
+        "Activities",
+        "Network",
         "Milestones"
       ],
       "reference": "04 Handout 1",
@@ -609,7 +609,7 @@
       "term": "Midterm"
     },
     {
-      "question": "In this word data, basic and forecast data for work in network activities can be entered.",
+      "question": "In the Word Data, basic and forecast data for work in network activities can be entered.",
       "answer": "The statement is true.",
       "choices": [
         "The statement is true.",
