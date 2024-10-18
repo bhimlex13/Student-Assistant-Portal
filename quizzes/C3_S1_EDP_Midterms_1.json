@@ -1,0 +1,33 @@
+{
+  "quizInfo": {
+    "Subject": "Event-Driven Programming",
+    "Term": "Midterms",
+    "Title": "Exception Handling",
+    "LastModified": "18 October 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "03 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which of the following outputs is correct based on the given code?",
+      "answer": "This is the correct answer. The value in answer must match any of the choices below. If the choice is an object, the identifier is the value 'text'.",
+      "choices": [
+        {
+          "text": "This is a choice with an image, but it doesn't load because it's an error.",
+          "image": ""
+        },
+        "This is the correct answer. The value in answer must match any of the choices below. If the choice is an object, the identifier is the value 'text'."
+       ,
+        "This is a choice in plain text."
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms",
+      "image": "https://github.com/bhimlex13/Student-Assistant-Portal/Assets/Images/EDP/Midterms/03/EDP_Q1.png"
+    }
+
+  ]
+}
