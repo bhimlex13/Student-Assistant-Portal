@@ -194,6 +194,369 @@
       "reference": "04_Handout_1",
       "term": "Midterms",
       "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/EDP/Midterms/04/EDP_Midterms_2_Q14.png"
-    }
+    },
+      {
+        "question": "What is a class in C#.NET that can create and control execution units?",
+        "answer": "Thread",
+        "choices": [
+          "Process",
+          "ExecutionUnit",
+          "Task",
+          "Thread"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "Which namespace contains the Thread class?",
+        "answer": "System.Threading",
+        "choices": [
+          "System.Exception",
+          "System.Collections",
+          "System.Diagnostics",
+          "System.Threading"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What is the first thread that starts when a process begins?",
+        "answer": "main thread",
+        "choices": [
+          "child thread",
+          "worker thread",
+          "background thread",
+          "main thread"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What do you call threads created by the main thread?",
+        "answer": "child thread",
+        "choices": [
+          "sibling thread",
+          "parent thread",
+          "worker thread",
+          "child thread"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What type of object must be created to initialize a child thread?",
+        "answer": "delegate",
+        "choices": [
+          "event",
+          "method",
+          "interface",
+          "delegate"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What delegate is used to execute code in the Thread class?",
+        "answer": "ThreadStart",
+        "choices": [
+          "Action",
+          "Func",
+          "ThreadCallback",
+          "ThreadStart"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "In which state does a new thread begin its life cycle?",
+        "answer": "Unstarted",
+        "choices": [
+          "Running",
+          "Stopped",
+          "Ready",
+          "Unstarted"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What method is called to transition a thread from Unstarted to another state?",
+        "answer": "Start",
+        "choices": [
+          "Run",
+          "Begin",
+          "Initialize",
+          "Start"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "Which state indicates that a thread is currently executing?",
+        "answer": "Running",
+        "choices": [
+          "Unstarted",
+          "Blocked",
+          "Stopped",
+          "Running"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "Which method is called to terminate a thread?",
+        "answer": "Abort",
+        "choices": [
+          "Stop",
+          "Terminate",
+          "End",
+          "Abort"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "In which state is a thread when it is waiting for an I/O operation?",
+        "answer": "Blocked",
+        "choices": [
+          "Running",
+          "Unstarted",
+          "WaitSleepJoin",
+          "Blocked"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What state does a running thread enter when it sleeps for a specified duration?",
+        "answer": "WaitSleepJoin",
+        "choices": [
+          "Blocked",
+          "Ready",
+          "Stopped",
+          "WaitSleepJoin"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "Which method is associated with releasing a thread waiting on a monitor?",
+        "answer": "Monitor",
+        "choices": [
+          "Join",
+          "Pulse",
+          "Sleep",
+          "Monitor"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What method is used to move the next waiting thread back to the Started state?",
+        "answer": "Pulse",
+        "choices": [
+          "Join",
+          "Reset",
+          "Start",
+          "Pulse"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "Which method moves all waiting threads back to the Started state?",
+        "answer": "PulseAll",
+        "choices": [
+          "Pulse",
+          "Join",
+          "Start",
+          "PulseAll"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What method is called to make a thread wait until another thread finishes?",
+        "answer": "Join",
+        "choices": [
+          "Abort",
+          "Sleep",
+          "Wait",
+          "Join"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What state indicates a thread is ready to run and waiting for CPU time?",
+        "answer": "Ready",
+        "choices": [
+          "Unstarted",
+          "Stopped",
+          "Running",
+          "Ready"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What state does a thread enter when it completes its task?",
+        "answer": "Stopped",
+        "choices": [
+          "Running",
+          "Unstarted",
+          "Blocked",
+          "Stopped"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What exception is thrown when a thread is aborted?",
+        "answer": "ThreadAbortException",
+        "choices": [
+          "ThreadException",
+          "TaskAbortedException",
+          "OperationCanceledException",
+          "ThreadAbortException"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "Which property returns the currently running thread?",
+        "answer": "CurrentThread",
+        "choices": [
+          "MainThread",
+          "ActiveThread",
+          "RunningThread",
+          "CurrentThread"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "Which property indicates if a thread is still executing?",
+        "answer": "IsAlive",
+        "choices": [
+          "IsRunning",
+          "IsActive",
+          "IsExecuting",
+          "IsAlive"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "Which property indicates if the thread is a background thread?",
+        "answer": "IsBackground",
+        "choices": [
+          "IsForeground",
+          "IsRunning",
+          "IsAlive",
+          "IsBackground"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "Which property is used to get or set the name of a thread?",
+        "answer": "Name",
+        "choices": [
+          "ThreadID",
+          "ThreadName",
+          "Identifier",
+          "Name"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "Which property represents the priority of a thread?",
+        "answer": "Priority",
+        "choices": [
+          "Importance",
+          "Weight",
+          "Level",
+          "Priority"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "Which property contains the current state of the thread?",
+        "answer": "ThreadState",
+        "choices": [
+          "State",
+          "Status",
+          "Condition",
+          "ThreadState"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What method is used to terminate a thread?",
+        "answer": "public void Abort()",
+        "choices": [
+          "public void Stop()",
+          "public void Terminate()",
+          "public void End()",
+          "public void Abort()"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What method is used to interrupt a thread in the WaitSleepJoin state?",
+        "answer": "public void Interrupt()",
+        "choices": [
+          "public void Pause()",
+          "public void Stop()",
+          "public void Abort()",
+          "public void Interrupt()"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What method is used to block the calling thread until a specified thread terminates?",
+        "answer": "public void Join()",
+        "choices": [
+          "public void Wait()",
+          "public void Pause()",
+          "public void Block()",
+          "public void Join()"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What static method is used to withdraw an abort request?",
+        "answer": "public static void ResetAbort()",
+        "choices": [
+          "public static void Cancel()",
+          "public static void Stop()",
+          "public static void Resume()",
+          "public static void ResetAbort()"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What method is used to start a thread?",
+        "answer": "public void Start()",
+        "choices": [
+          "public void Run()",
+          "public void Begin()",
+          "public void Launch()",
+          "public void Start()"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What static method pauses a thread for a specified duration?",
+        "answer": "public static void Sleep()",
+        "choices": [
+          "public static void Wait()",
+          "public static void Stop()",
+          "public static void Block()",
+          "public static void Sleep()"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What feature allows an application to have more than one execution path at a time?",
+        "answer": "multithreading",
+        "choices": [
+          "multitasking",
+          "multiprocessing",
+          "concurrency",
+          "multithreading"
+        ],
+        "reference": "04 Handout 1"
+      },
+      {
+        "question": "What condition occurs when two threads access shared resources simultaneously?",
+        "answer": "race condition",
+        "choices": [
+          "deadlock",
+          "starvation",
+          "blockage",
+          "race condition"
+        ],
+        "reference": "04 Handout 1"
+      }
   ]
 }
