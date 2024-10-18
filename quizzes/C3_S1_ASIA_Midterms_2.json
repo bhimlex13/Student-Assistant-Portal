@@ -538,7 +538,7 @@
     },
     {
       "question": "What task triggers business processes in SAP PS when milestones are reached?",
-      "answer": "Triggering predefined Milestone Functions",
+      "answer": "Determining Dates in the Billing Plan",
       "choices": [
         "Determining Dates in the Billing Plan",
         "Milestone Trend Analysis",
