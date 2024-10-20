@@ -65,9 +65,9 @@
       "answer": "Finance and Logistics modules",
       "choices": [
         "Finance and Logistics modules",
-        "project builder",
-        "WBS Elements",
-        "network"
+        "Sales and Logistics modules",
+        "Material and Logistics modules",
+        "Sales and Finance modules"
       ],
       "reference": "04 Handout 1",
       "term": "Midterm"
@@ -89,9 +89,9 @@
       "answer": "project builder",
       "choices": [
         "project builder",
-        "network",
-        "Hierarchy Graphic",
-        "Projects"
+        "VS code",
+        "Eclipse",
+        "SAP Fiori"
       ],
       "reference": "04 Handout 1",
       "term": "Midterm"
