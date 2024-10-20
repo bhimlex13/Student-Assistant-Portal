@@ -275,17 +275,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* pointer-events: none; */
     /* transition: all 0.3s cubic-bezier(0.97, 0.11, 0.29, 0.97); */
 }
 
 .Quiz_Form_Content#Quiz_Form_Question_Container[State = "Visible"]{
     transform: translateX(0px);
     opacity: 100%;
+    pointer-events: all;
 }
 
 .Quiz_Form_Content#Quiz_Form_Question_Container[State = "Hidden"]{
     transform: translateX(-150px);
     opacity: 0%;
+    pointer-events: none;
 }
 
 .Quiz_Form_Content#Quiz_Form_Question_Answer_Container{
@@ -299,11 +302,13 @@
 .Quiz_Form_Content#Quiz_Form_Question_Answer_Container[State = "Visible"]{
     transform: translateX(0px) translateY(-20px);
     opacity: 100%;
+    pointer-events: all;
 }
 
 .Quiz_Form_Content#Quiz_Form_Question_Answer_Container[State = "Hidden"]{
     transform: translateX(150px) translateY(-20px);
     opacity: 0%;
+    pointer-events: none;
 }
 
 .Quiz_Form_Flashcard{
@@ -312,6 +317,10 @@
     top: 0;
     justify-content: center;
     width: -webkit-fill-available
+}
+
+.Quiz_Form_Flashcard[Display="None"], .Quiz_Form_Flashcard[Display="None"] *{
+    pointer-events: none;
 }
 
 .Quiz_Form_Flashcard_Title{
