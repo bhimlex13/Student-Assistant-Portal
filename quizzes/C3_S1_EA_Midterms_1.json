@@ -1,0 +1,352 @@
+{
+  "quizInfo": {
+    "Subject": "Enterprise Architecture",
+    "Term": "Midterms",
+    "Title": "QUIZ REVIEWER FOR MIDTERMS",
+    "LastModified": "20 October 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "03_Handout_1 and 04_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which of the following statements is TRUE  about a communication diagram?",
+      "answer": "It describes the interactions among classes in terms of an exchange of messages overtime",
+      "choices": [
+        "It illustrates the dynamic nature of a system by modeling the flow of control from activity to activity",
+        "It is a unit of collective technological behavior collaboratively performed by two or more nodes",
+        "It describes the interactions among classes in terms of an exchange of messages overtime",
+        "It models the interactions between objects in sequence"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "In technological behavior concepts, which of the following statements is TRUE  about technology interaction?",
+      "answer": "It is a unit of collective technological behavior collaboratively performed by two or more nodes.",
+      "choices": [
+        "It is a unit of collective technological behavior collaboratively performed by two or more nodes.",
+        "It is a sequence of technological behavior that achieves a specific outcome",
+        "It is an external visible unit of functionality, provided by one or more nodes accessible through well-defined interfaces",
+        "It is a technology behavior element that denotes a state change"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "It refers to a precisely defined outcome of a work package, in relation with implementation and migration.",
+      "answer": "Deliverable",
+      "choices": [
+        "Deliverable",
+        "Work Package",
+        "Plateau",
+        "Gap"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about architecture description language?",
+      "answer": "This is commonly used by database developers but not generally used by programmers",
+      "choices": [
+        "This is commonly used by database developers but not generally used by programmers",
+        "It is a general term referring to different formal languages in enabling formalization and description of a software architectures",
+        "It is a wide variety of ADLs exist, with several differences in the exact concepts it offer, and are mainly suitable for users with technical background",
+        "Some examples are UniCon, Wright, and Acme"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "This pertains to an individual, team, department, or organization that represents an interest in the architecture's outcome.",
+      "answer": "Stakeholder",
+      "choices": [
+        "Stakeholder",
+        "Driver",
+        "Business Role",
+        "Business Actor"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "In enterprise architecture motivational concepts, which of the following best describes an organizational value?",
+      "answer": "It is the relative worth, usefulness, or importance of a core element or an outcome",
+      "choices": [
+        "It is the relative worth, usefulness, or importance of a core element or an outcome",
+        "It is a result that has been achieved",
+        "It is a factor that averts or hinders the realization of goals",
+        "It is a high-level statement of intent, direction, or an end state of an organization"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about gateways, in relation with business process diagrams?",
+      "answer": "It is a sub-part of a pool",
+      "choices": [
+        "It is a decision point that can adjust the path based on conditions or events",
+        "It is a sub-part of a pool",
+        "It is a gateway can be exclusive or inclusive, parallel, complex",
+        "It is a gateway can be based on data or event"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about a state machine diagram?",
+      "answer": "It describes the dynamic behavior of a system in response to external stimuli",
+      "choices": [
+        "It describes the dynamic behavior of a system in response to external stimuli",
+        "It models the interactions between objects in sequence",
+        "It illustrates the dynamic nature of a system by modeling the flow of control from activity to activity",
+        "It is a unit of collective technological behavior collaboratively performed by two or more nodes"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "This provides a further explanation of a specific part of a business process modeling notation diagram.",
+      "answer": "Annotation",
+      "choices": [
+        "Annotation",
+        "Activity",
+        "Data Object",
+        "Group"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "This type of business process modeling notation element includes sub-processes, loops, and compensations",
+      "answer": "Activity",
+      "choices": [
+        "Annotation",
+        "Activity",
+        "Data Object",
+        "Group"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "In enterprise architecture motivational concepts, which of the following best describes an organizational goal?",
+      "answer": "It is a high-level statement of intent, direction, or an end state of an organization",
+      "choices": [
+        "It is the relative worth, usefulness, or importance of a core element or an outcome",
+        "It is a result that has been achieved",
+        "It is a factor that averts or hinders the realization of goals",
+        "It is a high-level statement of intent, direction, or an end state of an organization"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "In technological behavior concepts, which of the following statements is TRUE  about a technology process",
+      "answer": "It is a sequence of technological behaviors that achieves a specific outcome",
+      "choices": [
+        "It is a sequence of technological behaviors that achieves a specific outcome",
+        "It is a behavior element that groups infrastructural behavior, which can be performed by a node",
+        "It is an external visible unit of functionality, provided by one or more nodes accessible through well-defined interfaces",
+        "It is a technology behavior element that denotes a state change"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "In business sturcture concepts, it refers to an entity that is capable of performing behaviors.",
+      "answer": "Business Actor",
+      "choices": [
+        "Business Actor",
+        "Business Role",
+        "Driver",
+        "Stakeholder"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which if the following statements best describes the unified modeling language?",
+      "answer": "It emerged from the combination of three existing practices/techniques",
+      "choices": [
+        "It emerged from the combination of three existing practices/techniques",
+        "It is a general term referring to different formal languages in enabling formalization and description of a software architectures",
+        "It is a wide variety of ADLs exist, with several differences in the exact concepts it offer, and are mainly suitable for users with technical background",
+        "Some examples are UniCon, Wright, and Acme"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "What dies ADL stand for?",
+      "answer": "Architecture Description Language",
+      "choices": [
+        "Architecture Description Language",
+        "Architecture Descriptive Language",
+        "Advanced Description Language",
+        "Advanced Descriptive Language"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is an external or internal condition that motivates an organization to define its goals",
+      "answer": "Driver",
+      "choices": [
+        "Driver",
+        "Meaning",
+        "Principle",
+        "Outcome"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "This sub-model in a business process modeling notation diagram occurs between a private process and an external participant.",
+      "answer": "Abstract Business Process",
+      "choices": [
+        "Abstract Business Process",
+        "Private Business Process",
+        "Collaborative Business Process",
+        "Public Business Process"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which if the following is NOT a valid statement about events, in relation with business process diagrams?",
+      "answer": "It provides a further explanation of the specific parts of a diagram",
+      "choices": [
+        "It provides a further explanation of the specific parts of a diagram",
+        "It is a trigger that starts, modifies, or completes a process",
+        "It include message, timer, error, compensation, signal, cancel, escalation, link",
+        "It can be classified as either \"throwing\" or \"catching\""
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following best describes a plateau in implementation and migration concepts?",
+      "answer": "It is a relatively stable state of an enterprise architecture that exists during a specific period",
+      "choices": [
+        "It is a relatively stable state of an enterprise architecture that exists during a specific period",
+        "It is a precisely defined outcome of a work package",
+        "It is a behavior element that denotes a state of change related to implementation",
+        "It is a series of actions identified and designed to achieve a specific goal or result"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "There are assets owned and/or controlled by an individual or an organization and are commonly assigned to capabilities.",
+      "answer": "Resources",
+      "choices": [
+        "Resources",
+        "Capabilities",
+        "Course Of Action",
+        "Strategies"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "In structural unified modeling language diagrams, which of the following statements best describes a package diagram?",
+      "answer": "It is a subset of a class diagram that organizes elements of a system into related groups",
+      "choices": [
+        "It is a subset of a class diagram that organizes elements of a system into related groups",
+        "It describes the static structure of a system",
+        "It describes the organization of physical software components",
+        "It depicts the physical resources in a system"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "In an enterprise, it is an approach or plan for configuring capabilities and resources undertaken to achieve a goal.",
+      "answer": "Course Of Action",
+      "choices": [
+        "Course Of Action",
+        "Capabilities",
+        "Resources",
+        "Strategies"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "This element shows the logical arrangement of activities but does not change the diagram's flow",
+      "answer": "Group",
+      "choices": [
+        "Group",
+        "Data object",
+        "Object",
+        "Dynamic"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "What does UML stand for?",
+      "answer": "Unified Modeling Language",
+      "choices": [
+        "Unified Modeling Language",
+        "Unity Modeling Language",
+        "Unified Markup Language",
+        "Unity Markup Language"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "This behavioral unified modeling language diagram describes the dynamic behavior of a system in response to external stimuli.",
+      "answer": "State machine diagram",
+      "choices": [
+        "State machine diagram",
+        "Use case diagram",
+        "Timing diagram",
+        "Sequence diagram"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "In structural unified modeling language diagrams, which of the following statements best describes a component diagram",
+      "answer": "It describes the organization of the physical and software aspects of a system",
+      "choices": [
+        "It describes the organization of the physical and software aspects of a system",
+        "It shows the internal parts of a class",
+        "It describes the static structure of a system",
+        "It describes the static structure of a system at a particular time"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "This refers to a unit of collective business behavior collaboratively performed by two or more business roles.",
+      "answer": "Business Interaction",
+      "choices": [
+        "Business Interaction",
+        "Business Event",
+        "Business Function",
+        "Business Service"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following statements best describes the architecture description language?",
+      "answer": "It is a general term referring to different formal languages in enabling formalization and description of a software architectures.",
+      "choices": [
+        "It is a general term referring to different formal languages in enabling formalization and description of a software architectures.",
+        "It is currently the most important industry-standard language for specifying, visualizing, constructing, and documenting",
+        "It is commonly used by programmers, but not generally used by database developers",
+        "It emerged from the combination of three existing practices"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Midterms"
+    }
+  ]
+}

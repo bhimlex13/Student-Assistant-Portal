@@ -1,0 +1,400 @@
+{
+  "quizInfo": {
+    "Subject": "Data and Digital Communications",
+    "Term": "Midterms",
+    "Title": "Quiz Reviewer for Midterms",
+    "LastModified": "20 October 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "3_Handout_1 & 04_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This media type does not require physical links between two or more devices",
+      "answer": "Unguided Media",
+      "choices": [
+        "Unguided Media",
+        "Guided Media",
+        "Microwaves",
+        "Infrared"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following best describes latency?",
+      "answer": "It is a measure of delay",
+      "choices": [
+        "It is a measure of delay",
+        "It is the amount of data that can be transmitted per second",
+        "It is the amount of data that enters and goes through a system",
+        "It is used when data is transmitted as individual characters"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following best describes a lightning interface?",
+      "answer": "It is an 8-pin connector in which it can be found as the primary connector on the newer versions of Apple's iPhone",
+      "choices": [
+        "It is an 8-pin connector in which it can be found as the primary connector on the newer versions of Apple's iPhone",
+        "It supports data transfer rates up to billions of bits per second",
+        "It is a digital interface that uses a standardized connector (plug) for all serial and parallel type devices",
+        "It is a type of interconnection between peripheral devices and a microcomputer"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which best describes the Fire Wire interface?",
+      "answer": "It is a type of interconnection between peripheral devices and a microcomputer",
+      "choices": [
+        "It is a type of interconnection between peripheral devices and a microcomputer",
+        "It is an 8-pin connector in which it can be found as the primary connector on the newer versions of Apple's iPhone",
+        "It supports data transfer rates up to billions of bits per second",
+        "It is a digital interface that uses a standardized connector (plug) for all serial and parallel type devices"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which best describes the Fire Wire interface?",
+      "answer": "It is capable of supporting transfer speeds of up to 3.2 Gbps",
+      "choices": [
+        "It is capable of supporting transfer speeds of up to 3.2 Gbps",
+        "It is an 8-pin connector in which it can be found as the primary connector on the newer versions of Apple's iPhone",
+        "It supports data transfer rates up to billions of bits per second",
+        "It is a digital interface that uses a standardized connector (plug) for all serial and parallel type devices"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following best describes throughput?",
+      "answer": "It is the amount of data that enters and goes through a system",
+      "choices": [
+        "It is the amount of data that enters and goes through a system",
+        "It is a measure of delay",
+        "It is the amount of data that can be transmitted per second",
+        "It is used when data is transmitted as individual characters"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following statements best describes a full-duplex transmission?",
+      "answer": "Data can flow in both directions simultaneously.",
+      "choices": [
+        "Data can flow in both directions simultaneously.",
+        "Data can only flow in one direction",
+        "Data can flow in both directions, but never simultaneously",
+        "Data can flow in any direction"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "It refers to the leakage of signal from the medium due to undesirable electrical characteristics.",
+      "answer": "Radiation",
+      "choices": [
+        "Radiation",
+        "Bandwidth",
+        "Noise Absorption",
+        "Attentuation"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "This data transmission is used to transmit large blocks of data at a time",
+      "answer": "Synchronous",
+      "choices": [
+        "Synchronous",
+        "Asynchronous",
+        "Isochronous",
+        "Anonymous"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following best describes a mechanical component?",
+      "answer": "It deals with item such as the connector or plugs description.",
+      "choices": [
+        "It deals with item such as the connector or plugs description.",
+        "It deals with the function of each pin used in an interface",
+        "It deals with voltages, line capacitance, and other electrical issues.",
+        "It describes how the circuits are used to perform an operation"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following best describes a sky wave?",
+      "answer": "This is used for the propagation of EM waves with a frequency range of 3-30 Mhz",
+      "choices": [
+        "This is used for the propagation of EM waves with a frequency range of 3-30 Mhz",
+        "This is used for Line of sight comunication",
+        "This type of progation employs the use of large antennas order of which is equivalent to the wavelength of the waves",
+        "Space satellite communication and very highfrequency waves use this propagation method"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following best describes a sky wave?",
+      "answer": "These waves makes the use of ionosphere in which it is the ionized part of the earth’s upper atmosphere",
+      "choices": [
+        "These waves makes the use of ionosphere in which it is the ionized part of the earth’s upper atmosphere",
+        "This is used for Line of sight comunication",
+        "This type of progation employs the use of large antennas order of which is equivalent to the wavelength of the waves",
+        "Space satellite communication and very highfrequency waves use this propagation method"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following implies collision avoidance?",
+      "answer": "The switch tries to prevent collision by having the intention of each computer to transmit signal before transmission",
+      "choices": [
+        "The switch tries to prevent collision by having the intention of each computer to transmit signal before transmission",
+        "Collisions are eliminated under token passing because only a computer that possesses a free token can transmit.",
+        "An active hub is an essential requirement that can control access to the network",
+        "The terminals on a network are required to obtain permission from the hub before they start transmitting the bytes over a network"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following statements best describes half-duplex transmission?",
+      "answer": "Data can flow in both direction, but never simultaneously",
+      "choices": [
+        "Data can flow in both direction, but never simultaneously",
+        "Data can flow in both directions simultaneously.",
+        "Data can only flow in one direction",
+        "Data can flow in any direction"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "It refers to the susceptibility of the media to external electrical noise that causes distortion.",
+      "answer": "Noise Absorption",
+      "choices": [
+        "Noise Absorption",
+        "Attenuation",
+        "Bandwidth",
+        "Radiation"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is currently found on Apple laptops and provides a 10-Gbps connection.",
+      "answer": "Thunderbolt",
+      "choices": [
+        "Thunderbolt",
+        "Fire Wire",
+        "USB",
+        "InfiniBand"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "This dataflow transmission can only flow in one direction",
+      "answer": "Simplex",
+      "choices": [
+        "Simplex",
+        "Duplex",
+        "Half-Duplex",
+        "Triplex"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "In CSMA/CD, it means that when a collision is detected, the stations stop transmitting and wait a random length of time before retransmitting.",
+      "answer": "Collision Detection",
+      "choices": [
+        "Collision Detection",
+        "Carrier Sense",
+        "Multiple Access",
+        "Token Passing"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following statements best describes a ground wave?",
+      "answer": "This type of progation employs the use of large antennas order of which is equivalent to the wavelength of the waves",
+      "choices": [
+        "This type of progation employs the use of large antennas order of which is equivalent to the wavelength of the waves",
+        "This is used for the propagation of EM waves with a frequency range of 3-30 Mhz",
+        "These waves makes the use of ionosphere in which it is the ionized part of the earth’s upper atmosphere",
+        "This is used for Line of sight comunication"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about asynchronous transmission?",
+      "answer": "It is used when data is transmitted as individual characters",
+      "choices": [
+        "It is used when data is transmitted as individual characters",
+        "It is used to transmit large blocks of data at a time",
+        "Data is usually organized in frames and each frame is preceded by a flag that consists of a few bits and terminated by another flag",
+        "Multiple data bits are transmitted over multiple channels at the same time"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following statements best describes space waves?",
+      "answer": "This is used for Line of sight comunication",
+      "choices": [
+        "This is used for Line of sight comunication",
+        "This type of progation employs the use of large antennas order of which is equivalent to the wavelength of the waves",
+        "This is used for the propagation of EM waves with a frequency range of 3-30 Mhz",
+        "These waves makes the use of ionosphere in which it is the ionized part of the earth’s upper atmosphere"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is a digital interface that uses a standardized connector for serial and parallel devices, known for being hot pluggable",
+      "answer": "Universal Serial Bus",
+      "choices": [
+        "Universal Serial Bus",
+        "Lighting",
+        "Fire Wire",
+        "SCSI - SCSI"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is a way of sending multiple signals or streams of information over a communication link at the same time as a single signal",
+      "answer": "Multiplexing",
+      "choices": [
+        "Multiplexing",
+        "Demultiplexing",
+        "Simplexing",
+        "Wave Propagation"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is a serial that connects a computer to multiple input/output devices that supports data transfer rates IP to billions of bit per second, but it can support the interconnection of up to 126 devices only",
+      "answer": "Fibre Channel",
+      "choices": [
+        "Fibre Channel",
+        "Lighting",
+        "Infiband",
+        "Thunderbold"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following implies multiple access?",
+      "answer": "Many computers are attempting to transmit and compete for the opportunity to send data",
+      "choices": [
+        "Many computers are attempting to transmit and compete for the opportunity to send data",
+        "It means that each station on the LAN continually listens to the cable for the presence of a signal before transmitting",
+        "It means that when a collision is detected, the stations will stop transmitting",
+        "Instead of detecting and reacting to collisions, CSMA/CA tries to avoid them"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "It enables the transfer of information between two or more points that are connected by an electrical conductor",
+      "answer": "Guided Media",
+      "choices": [
+        "Guided Media",
+        "Unguided Media",
+        "Multi Media",
+        "Radio Waves"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "This type of antenna is made of a series of dipoles placed along it axis at different space interval of time followed by a logarithmic function of frequency",
+      "answer": "Log Periodic Antennas",
+      "choices": [
+        "Log Periodic Antennas",
+        "Wire Antennas",
+        "Microwave Antennas",
+        "Traveling Wave Antennas"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "This kind of unguided media is used for very short distance communication in which it cannot penetrate through obstacles.",
+      "answer": "Infrared",
+      "choices": [
+        "Infrared",
+        "Microwave",
+        "Radio waves",
+        "Bluetooth"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about Synchronous transmission?",
+      "answer": "It is used to transmit large blocks of data at a time",
+      "choices": [
+        "It is used to transmit large blocks of data at a time",
+        "It is used when data is transmitted as individual characters",
+        "Multiple data bits are transmitted over multiple channels at the same time",
+        "Each character is preceded by one start bit and one or two stop bits that are used by the receiver"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is considered a standard for a given application although it has no official status",
+      "answer": "De Facto Standard",
+      "choices": [
+        "De Facto Standard",
+        "De Factor Standard",
+        "Facto De Standard",
+        "Em Facto Standard"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following statements best describes Time-division multiplexing?",
+      "answer": "It is divided into non-overlapping time slots that are assigned to users in which transmissions are staggered using a round-robin method to schedule the transmission",
+      "choices": [
+        "It is divided into non-overlapping time slots that are assigned to users in which transmissions are staggered using a round-robin method to schedule the transmission",
+        "It is partitioned into multiple frequency blocks called channels that are assigned to users",
+        "It is where the output signal, which appears like noise, occupies more bandwidth than the original signal",
+        "It means that each station on the LAN continually listens to the cable for the presence of a signal before transmitting"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    },
+    {
+      "question": "In CSMA/CD, it means many computers attempt to transmit and compete for the opportunity to send data",
+      "answer": "Multiple Access",
+      "choices": [
+        "Multiple Access",
+        "Carrier Sense",
+        "Collision Detection",
+        "Demand Priority"
+      ],
+      "reference": "Quiz_Reviewer",
+      "term": "Midterms"
+    }
+  ]
+}
