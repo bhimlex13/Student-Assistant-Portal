@@ -1,0 +1,718 @@
+{
+  "quizInfo": {
+    "Subject": "Application Development and Emerging Technologies",
+    "Term": "Midterms",
+    "Title": "Design Patterns",
+    "LastModified": "21 October 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "These started as best practices in the industry that were applied to similar problems in different contexts multiple times.",
+      "answer": "Design Patterns",
+      "choices": [
+        "Design Patterns",
+        "Design Principles",
+        "Design Architecture",
+        "Design Kavougability"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "These are templates or blueprints that any developer can customize to solve recurring design problems in code.",
+      "answer": "Design Patterns",
+      "choices": [
+        "Design Patterns",
+        "Design Principles",
+        "Design Architecture",
+        "Design Kavougability"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Design Patterns are a specific piece of code and not a general concept for solving a particular problem. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns is the name of the pattern used to describe a design problem, its solution, and consequences.",
+      "answer": "Pattern Name",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns describes when to use the pattern.",
+      "answer": "Problem",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns explains the problem and its context.",
+      "answer": "Problem",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns describes the elements that make up the design, their relationships, responsibilities, and collaborations.",
+      "answer": "Solution",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns state that the pattern provides an abstract description of a design problem and how a general arrangement of element solves it.",
+      "answer": "Solution",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns is the results and interchanges of applying the pattern to the problem.",
+      "answer": "Consequences",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns includes the time and space tradeoffs, but also flexibility, extensibility, and portability, among others.",
+      "answer": "Consequences",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns deals with when and how objects are created?",
+      "answer": "Creational Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Patawad, Amanai. Subalit hindi man lang ako nakakaalam ng sagot ngayon. Wala akong inaaral kahit saan man. Ngayon lang kasi'y parang napakaganda ng mundo. Mula sa langit at lupa, ako lamang ang pinarangalan."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns provides object creation mechanisms that increase flexibility and reuse of existing codes?",
+      "answer": "Creational Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns describe how objects are composed into larger groups and explain how to assemble objects and classes into larger structures while keeping their structures flexible and efficient?",
+      "answer": "Structural Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns describe how responsibilities are distributed between objects in the design and how communication happens between objects?",
+      "answer": "Behavioral Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns is all about class instantiation?",
+      "answer": "Creational Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns deals with object mechanisms, trying to create objects in a manner suitable to a certain situation?",
+      "answer": "Creational Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns deal with the arrangement and relationship between the classes in the software system?",
+      "answer": "Structural Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns is all about grouping classes together and providing ways for objects to coordinate to get work done?",
+      "answer": "Structural Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns can also control and grant access to an object and add new functionalities to existing objects?",
+      "answer": "Structural Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns is concerned with how classes and objects behave in a system software and how objects communicate with each other?",
+      "answer": "Behavioral Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns describe how to assign behavioral responsibilities to classes?",
+      "answer": "Behavioral Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Creational Pattern ensures that a class <u>only has 1 instance </u>while providing a global access point to the instance?",
+      "answer": "Singleton Pattern",
+      "choices": [
+        "Singleton Pattern",
+        "Factory Method Pattern",
+        "Prototype Pattern",
+        "Abstract Factory Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Creational Pattern <u>provides an interface for creating objects</u> in a superclass but allows subclasses to alter the type of object that will be created?",
+      "answer": "Factory Method Pattern",
+      "choices": [
+        "Singleton Pattern",
+        "Factory Method Pattern",
+        "Prototype Pattern",
+        "Abstract Factory Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Creational Pattern lets a developer <u>copy existing objects without making the code dependent on their classes</u>?",
+      "answer": "Prototype Pattern",
+      "choices": [
+        "Singleton Pattern",
+        "Factory Method Pattern",
+        "Prototype Pattern",
+        "Abstract Factory Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Creational Pattern allows developers to <u>produce families of related objects without specifying their concrete classes</u>?",
+      "answer": "Abstract Factory Pattern",
+      "choices": [
+        "Singleton Pattern",
+        "Factory Method Pattern",
+        "Prototype Pattern",
+        "Abstract Factory Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Creational Pattern allows developers to <u>construct complex objects step by step</u>?",
+      "answer": "Builder Pattern",
+      "choices": [
+        "Singleton Pattern",
+        "Factory Method Pattern",
+        "Prototype Pattern",
+        "Builder Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Creational Pattern allows developers to <u>produce different types and representations of an object using the same construction code</u>?",
+      "answer": "Builder Pattern",
+      "choices": [
+        "Singleton Pattern",
+        "Factory Method Pattern",
+        "Prototype Pattern",
+        "Builder Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern allows objects with<u> incompatible interfaces to collaborate</u>?",
+      "answer": "Adapter Pattern",
+      "choices": [
+        "Adapter Pattern",
+        "Bridge Pattern",
+        "Composite Pattern",
+        "Decorator Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern <u>converts the interface of a class into another interface </u>as expected by the client application?",
+      "answer": "Adapter Pattern",
+      "choices": [
+        "Adapter Pattern",
+        "Bridge Pattern",
+        "Composite Pattern",
+        "Decorator Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern allows developers to <u>split a large class or a set of closely related classes into 2 separate hierarchies, which are abstraction and implementation</u>, that can be developed independently of each other.",
+      "answer": "Bridge Pattern",
+      "choices": [
+        "Adapter Pattern",
+        "Bridge Pattern",
+        "Composite Pattern",
+        "Decorator Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern allows developers to <u>compose objects into tree structures</u> and then work with these structures treating them as individual objects.",
+      "answer": "Composite Pattern",
+      "choices": [
+        "Adapter Pattern",
+        "Bridge Pattern",
+        "Composite Pattern",
+        "Decorator Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern allows developers to attach new behaviors to objects by <u>placing these objects inside special wrapper objects </u>that contain the behaviors.",
+      "answer": "Decorator Pattern",
+      "choices": [
+        "Adapter Pattern",
+        "Bridge Pattern",
+        "Composite Pattern",
+        "Decorator Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern provides a <u>simplified interface</u> to a library, a framework, or any other complex set of classes.",
+      "answer": "Facade Pattern",
+      "choices": [
+        "Facade Pattern",
+        "Flyweight Pattern",
+        "Proxy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern allows developers to <u>fit more objects into the available amount of RAM </u>by sharing common parts of state between multiple objects instead of keeping all of the data in each other.",
+      "answer": "Flyweight Pattern",
+      "choices": [
+        "Facade Pattern",
+        "Flyweight Pattern",
+        "Proxy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern allows developers to <u>provide a substitute</u> or placeholder for another object?",
+      "answer": "Proxy Pattern",
+      "choices": [
+        "Facade Pattern",
+        "Flyweight Pattern",
+        "Proxy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Behavioral Pattern allows developers to <u>traverse elements of a collection</u> without exposing its underlying representation, such as list, stack, and tree?",
+      "answer": "Iterator Pattern",
+      "choices": [
+        "Iterator Pattern",
+        "Observer Pattern",
+        "Strategy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Behavioral Pattern is used for <u>sequentially iterating </u>and accessing items from a collection of items?",
+      "answer": "Iterator Pattern",
+      "choices": [
+        "Iterator Pattern",
+        "Observer Pattern",
+        "Strategy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Behavioral Pattern allows developers to define a <u>subscription mechanism</u> to notify multiple objects about any events that happen to the object they are observing?",
+      "answer": "Observer Pattern",
+      "choices": [
+        "Iterator Pattern",
+        "Observer Pattern",
+        "Strategy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Behavioral Pattern states that when an object changes state, <u>all of its dependents are notified and updated automatically</u>?",
+      "answer": "Observer Pattern",
+      "choices": [
+        "Iterator Pattern",
+        "Observer Pattern",
+        "Strategy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Behavioral Pattern allows developers to <u>define a family of algorithms</u>, put each of them into a separate class, and make their objects interchangeable?",
+      "answer": "Strategy Pattern",
+      "choices": [
+        "Iterator Pattern",
+        "Observer Pattern",
+        "Strategy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "The Singleton's constructor should be hidden from the client code. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Prototype Pattern, the Prototype interface declares the cloning methods. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Prototype Pattern, what class implements the cloning method?",
+      "answer": "ConcretePrototype",
+      "choices": [
+        "ConcretePrototype",
+        "Prototype",
+        "Concrete",
+        "Secret bakit ko sasabihin"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Prototype Pattern, what class provides an easy way to access frequently used prototypes?",
+      "answer": "PrototypeRegistry",
+      "choices": [
+        "PrototypeRegistry",
+        "ConcretePrototype",
+        "Prototype",
+        "PrototypeList"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Factory Method Pattern, what class returns products of a particular kind?",
+      "answer": "Factory",
+      "choices": [
+        "Factory",
+        "AbstractProducts",
+        "ConcreteFactory",
+        "AbstractFactory"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Builder Pattern, what class degines the order of building step execution?",
+      "answer": "Director",
+      "choices": [
+        "Director",
+        "Builder",
+        "ConcreteBuilder",
+        "A hidden, mysterious choice"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Builder Pattern, what class provides the implementation for the building steps?",
+      "answer": "Builder",
+      "choices": [
+        "Director",
+        "Builder",
+        "ConcreteBuilder",
+        "A hidden, mysterious choice"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Builder Pattern, what class are the resulting objects constructed by the Builder class?",
+      "answer": "Products",
+      "choices": [
+        "Director",
+        "Builder",
+        "Products",
+        "A hidden, mysterious choice"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Adapter Pattern, what class implements the client interface while wrapping the service object?",
+      "answer": "Adapter",
+      "choices": [
+        "Adapter",
+        "Service",
+        "Client",
+        "Object"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Component Pattern, what interface describes the operations that are common to both simple and complex elements of the tree?",
+      "answer": "Component",
+      "choices": [
+        "Component",
+        "Leaf",
+        "Composite",
+        "Structure"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Facade Pattern, what class provides convenient access to a particular part of the subsystem's functionality and knows where to direct the client's request and how to operate all the moving parts?",
+      "answer": "Facade",
+      "choices": [
+        "Facade",
+        "Complex Subsystem",
+        "Proxy",
+        "Client"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Flyweight Pattern, what are values that remain constant?",
+      "answer": "State-Independents",
+      "choices": [
+        "State-Independents",
+        "State-Dependents",
+        "Ugh, tama na!",
+        "Lalabas ba to???"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Flyweight Pattern, what are values that may always change?",
+      "answer": "State-Dependents",
+      "choices": [
+        "State-Independents",
+        "State-Dependents",
+        "Ugh, tama na!",
+        "Lalabas ba to???"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Proxy Pattern, which controls access to the original object, allowing developers to perform something before or after the requests gets through to the original object?",
+      "answer": "Proxy",
+      "choices": [
+        "Proxy",
+        "Substitute",
+        "Service",
+        "Replacement"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Iterator Pattern, what class encapsulates all of the traversal details, such as the current position and how many elements are left until the end?",
+      "answer": "Iterator",
+      "choices": [
+        "Iterator",
+        "Iterator interface",
+        "Iteratoror",
+        "Rawr"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Observer Pattern, what object notifies other objects about the changes to its state?",
+      "answer": "Publisher",
+      "choices": [
+        "Publisher",
+        "Subscriber",
+        "Publisher Class",
+        "Subscriber Interface"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Observer Pattern, what are the objects called that want to track changes to the publisher's state?",
+      "answer": "Subscriber",
+      "choices": [
+        "Publisher",
+        "Subscriber",
+        "Publisher Class",
+        "Patawad, Amanai. Subalit hindi man lang ako nakakaalam ng sagot ngayon. Wala akong inaaral kahit saan man. Ngayon lang kasi'y parang napakaganda ng mundo. Mula sa langit at lupa, ako lamang ang pinarangalan."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Observer Pattern, what class issues events of interests to other objects?",
+      "answer": "Publisher Class",
+      "choices": [
+        "Publisher",
+        "Subscriber",
+        "Publisher Class",
+        "Patawad, Amanai. Subalit hindi man lang ako nakakaalam ng sagot ngayon. Wala akong inaaral kahit saan man. Ngayon lang kasi'y parang napakaganda ng mundo. Mula sa langit at lupa, ako lamang ang pinarangalan."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Observer Pattern, what interface declares the notification interface?",
+      "answer": "Subscriber",
+      "choices": [
+        "Publisher",
+        "Subscriber",
+        "Publisher Class",
+        "Patawad, Amanai. Subalit hindi man lang ako nakakaalam ng sagot ngayon. Wala akong inaaral kahit saan man. Ngayon lang kasi'y parang napakaganda ng mundo. Mula sa langit at lupa, ako lamang ang pinarangalan."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    }
+  ]
+}
