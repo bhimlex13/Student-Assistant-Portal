@@ -1,11 +1,11 @@
 {
   "quizInfo": {
-    "Subject": "Sample Subject",
-    "Term": "Prelims",
-    "Title": "Sample data structure",
-    "LastModified": "19 September 2024",
+    "Subject": "Application Development and Emerging Technologies",
+    "Term": "Midterms",
+    "Title": "Design Principles and Patterns",
+    "LastModified": "21 October 2024",
     "Authors": [
-      ""
+      "Elmer Felisilda"
     ],
     "References": [
       ""
@@ -13,48 +13,369 @@
   },
   "quizData": [
     {
-      "question": "Question 1",
-      "answer": "This is the correct answer. The value in answer must match any of the choices below. If the choice is an object, the identifier is the value 'text'.",
+      "question": "Design and development of software are performed in the design phase of the project. (TR or FL)",
+      "answer": "TR",
       "choices": [
-        {
-          "text": "This is a choice with an image, but it doesn't load because it's an error.",
-          "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_2.jpg"
-        },
-        "This is the correct answer. The value in answer must match any of the choices below. If the choice is an object, the identifier is the value 'text'.",
-        {
-          "text": "This is a choice with an image.",
-          "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
-        },
-        "This is a choice in plain text."
+        "TR",
+        "FL"
       ],
-      "reference": "01_Handout_1",
-      "term": "Prelim"
+      "reference": "03 Handout 1",
+      "term": "Midterms"
     },
     {
-      "question": "This is a question with an image attached. If the image throws an error, it hides itself.",
-      "answer": "Information",
+      "question": "During development, there may be changes in the requirements document that could affect the development. (TR or FL)",
+      "answer": "TR",
       "choices": [
-        "The choices",
-        "are deliberately",
-        "shuffled",
-        "for no reason."
+        "TR",
+        "FL"
       ],
-      "reference": "01_Handout_1",
-      "term": "Prelim",
-      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_2.png"
+      "reference": "03 Handout 1",
+      "term": "Midterms"
     },
     {
-      "question": "To render non-html tags as such, use the text from the image above to display it as a &lt;.",
-      "answer": "Information",
+      "question": "What characteristic of bad design architecture states that software is <u>hard</u> to change because every change affects many parts of the software?",
+      "answer": "Rigidity",
       "choices": [
-        "The choices",
-        "are deliberately",
-        "shuffled",
-        "for no reason."
+        "Rigidity",
+        "Fragility",
+        "Immobility",
+        "Unkavougability"
       ],
-      "reference": "01_Handout_1",
-      "term": "Prelim",
-      "image": "Assets/Images/Guide1.png"
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of bad design architecture states that when applying changes, unexpected parts of the software <u>breaks</u>?",
+      "answer": "Fragility",
+      "choices": [
+        "Rigidity",
+        "Fragility",
+        "Immobility",
+        "Unkavougability"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of bad design architecture states that modules are <u>hard to reuse</u> in other software because they can't be extracted from the current one?",
+      "answer": "Immobility",
+      "choices": [
+        "Rigidity",
+        "Fragility",
+        "Immobility",
+        "Unkavougability"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "These are a set of guidelines to be followed that helps developers arrange methods and data structures into classes.",
+      "answer": "Design Principles",
+      "choices": [
+        "Design Principles",
+        "Design Architecture",
+        "Design Princes",
+        "Design Framework"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that each software module, class, or interface should have <u>only 1 reason to change</u>?",
+      "answer": "Single Responsibility Principle (SRP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that for a software to be easy to change, the classes must be designed to <u>allow their behaviors to be changed</u> by adding new code rather than changing existing code?",
+      "answer": "Open-Closed Principle (OCP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles was introduced by Barbara Liskov?",
+      "answer": "Liskov Substitution Principle (LSP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that the derived classes should be<u> substitutable </u>for their base classes to build a software from interchangeable modules or classes?",
+      "answer": "Liskov Substitution Principle (LSP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles advises software designers to <u>avoid depending on things that they don't use</u>?",
+      "answer": "Interface Segregation Principle (ISP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that flexible software are those with classes that <u>depend on abstract classes or interfaces</u>?",
+      "answer": "Dependency Inversion Principle (DIP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Dependency Inversion Principle (DIP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that classes with more than 1 responsibility should be broken down into smaller, single responsibility classes?",
+      "answer": "Single Responsibility Principle (SRP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that a class doesn't have to only have 1 method; rather, a class can have any number of members such as methods and instance variables as long as its members are related to only 1 single responsibility of the class?",
+      "answer": "Single Responsibility Principle (SRP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that software modules, interfaces, or classes should be open for extension but closed for modification?",
+      "answer": "Open-Closed Principle (OCP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that when there are new requirements for the software, the new behavior must be added by deriving a new class without modifying the existing class?",
+      "answer": "Open-Closed Principle (OCP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles suggests not to add functionality on the class that has already been tested and is working properly, but rather to extend that class for adding new functionality?",
+      "answer": "Open-Closed Principle (OCP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that when creating a new derived class of an existing class, make sure that the derived class can be a substitute for its base class?",
+      "answer": "Liskov Substitution Principle (LSP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that all the derived classes of a base class should be able to perform the same behavior of their base class without negative side effects?",
+      "answer": "Liskov Substitution Principle (LSP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that clients shouldn't be forced to implement interfaces they don't use?",
+      "answer": "Interface Segregation Principle (ISP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Dependency Inversion Principle (DIP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that the most flexible software systems are those in which source code dependencies refer only to abstractions, not to concretions?",
+      "answer": "Dependency Inversion Principle (DIP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Dependency Inversion Principle (DIP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is the image above a violation of the Single Responsibility Principle (SRP)?",
+      "answer": "The Employee method consists of 3 responsbilities to 3 different actors.",
+      "choices": [
+        "The Employee method consists of 3 responsbilities to 3 different actors.",
+        "There are 3 methods.",
+        "There are 3 actors.",
+        "The employee method consists of 3 users, instead of 1."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/SRP%201.png"
+    },
+    {
+      "question": "How is the image above a proper implementation of the Single Responsibility Principle (SRP)?",
+      "answer": "The Employee class' responsibilities have been separated into different classes.",
+      "choices": [
+        "The Employee class' responsibilities have been separated into different classes.",
+        "The Accounting, HumanResource, and DatabaseAdministrator classes uses the EmployeeData class.",
+        "The Accounting personnel, HR personnel, and Database Administrator actors have their own methods.",
+        "The Accounting personnel, HR personnel, and Database Administrator actors has their own unique methods."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/SRP%202.png"
+    },
+    {
+      "question": "How is the image above a violation of the Open-Closed Principle (OCP)?",
+      "answer": "The BankAccount class has to be modified every time a new type of bank account has to be added.",
+      "choices": [
+        "The BankAccount class has to be modified every time a new type of bank account has to be added.",
+        "There are separate methods for creating a new account, when there could only really be one.",
+        "There are separate methods for depositing and withdrawing, when there could only really be one.",
+        "It's staring at me, menacingly. And I don't like it."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/OCP%201.png"
+    },
+    {
+      "question": "How is the image above a proper implementation of the Open-Closed Principle (OCP)?",
+      "answer": "BankAccount had been abstracted and is now closed for modification but open for extension.",
+      "choices": [
+        "BankAccount had been abstracted and is now closed for modification but open for extension.",
+        "The responsibilities of the BankAccount class had been separated into its own classes.",
+        "There are separate withdraw() methods for each kind of bank account.",
+        "We gave BankAccount two companion classes so it doesn't have to be lonely."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/OCP%202.png"
+    },
+    {
+      "question": "How is the image above a proper implementation of the Liskov Substitution Principle (LSP)?",
+      "answer": "The behavior of Billing doesn't depend on any of the 2 derived classes, but both of the derived classes can substitute License.",
+      "choices": [
+        "The behavior of Billing doesn't depend on any of the 2 derived classes, but both of the derived classes can substitute License.",
+        "The Billing class was replaced, hence, 'substituted' by the License class.",
+        "The License class has 2 separate classes for each license type.",
+        "The Billing and PersonalLicense classes don't have any methods, and is both lonely. Hence, they can substitute each other and no one can tell they're empty inside."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/LSP%201.png"
+    },
+    {
+      "question": "How is the image above a violation of the Interface Segregation Principle (ISP)?",
+      "answer": "The OnlineOrderProcessor and CashOnDeliveryOrderProcessor classes implement the same IOrderProcessor interface, forcing both of them to implement the methods within even when some of them aren't needed for their necessary functions.",
+      "choices": [
+        "The OnlineOrderProcessor and CashOnDeliveryOrderProcessor classes implement the same IOrderProcessor interface, forcing both of them to implement the methods within even when some of them aren't needed for their necessary functions.",
+        "The IOrderProcessor uses both the classes even if only one is really needed.",
+        "The IOrderProcessor has multiple methods even if it only needs one.",
+        "Thank you Beyonce nalang."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/ISP%201.png"
+    },
+    {
+      "question": "How is the image above a proper implementation of the Interface Segregation Principle (ISP)?",
+      "answer": "The functions for both the COD and Online payment interfaces are separated, and the classes only implement the interfaces whose methods they need to function.",
+      "choices": [
+        "The functions for both the COD and Online payment interfaces are separated, and the classes only implement the interfaces whose methods they need to function.",
+        "The IOrderProcessor and IOnlineOrderProcessors have singular responsibilities.",
+        "The OnlineOrderProcessor implements the IOrderProcessor as needed.",
+        "Malay ko ba."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/ISP%202.png"
+    },
+    {
+      "question": "How is the image above a violation of the Dependency Inversion Principle (DIP)?",
+      "answer": "When the requirements of EmailNotifier changes, UserManager needs to be modified to change the new notification class.",
+      "choices": [
+        "When the requirements of EmailNotifier changes, UserManager needs to be modified to change the new notification class.",
+        "The UserManager uses the EmailNotifier instead of through a proxy.",
+        "When the EmailNotifier code changes, the UserManager needs to change as well to cope with the EmailNotifier's modifications.",
+        "Di talaga mahal ni UserManager si EmailNotifier. Ginagamit nya lang sya."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/DIP%201.png"
+    },
+    {
+      "question": "How is the image above a proper implementation of the Dependency Inversion (DIP)?",
+      "answer": "The UserManager, EmailNotifier, SMSNotifier, and PopupNotifier depend on the INotifier interface, so that when the requirements for the notification feature changes, it won't affect UserManager.",
+      "choices": [
+        "The UserManager, EmailNotifier, SMSNotifier, and PopupNotifier depend on the INotifier interface, so that when the requirements for the notification feature changes, it won't affect UserManager.",
+        "The notification system had been split into separate responsibilities.",
+        "The UserManager doesn't directly interact with the notification system, employing the use of the interface as to prevent any code hardlocks.",
+        "IDK."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/DIP%202.png"
     }
   ]
 }
