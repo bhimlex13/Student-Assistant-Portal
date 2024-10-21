@@ -1,0 +1,60 @@
+{
+  "quizInfo": {
+    "Subject": "Sample Subject",
+    "Term": "Prelims",
+    "Title": "Sample data structure",
+    "LastModified": "19 September 2024",
+    "Authors": [
+      ""
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Question 1",
+      "answer": "This is the correct answer. The value in answer must match any of the choices below. If the choice is an object, the identifier is the value 'text'.",
+      "choices": [
+        {
+          "text": "This is a choice with an image, but it doesn't load because it's an error.",
+          "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_2.jpg"
+        },
+        "This is the correct answer. The value in answer must match any of the choices below. If the choice is an object, the identifier is the value 'text'.",
+        {
+          "text": "This is a choice with an image.",
+          "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_1.png"
+        },
+        "This is a choice in plain text."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a question with an image attached. If the image throws an error, it hides itself.",
+      "answer": "Information",
+      "choices": [
+        "The choices",
+        "are deliberately",
+        "shuffled",
+        "for no reason."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim",
+      "image": "https://elmerf5445.github.io/ERUMA-UI/Assets/Background/ERUMA_UI_2.png"
+    },
+    {
+      "question": "To render non-html tags as such, use the text from the image above to display it as a &lt;.",
+      "answer": "Information",
+      "choices": [
+        "The choices",
+        "are deliberately",
+        "shuffled",
+        "for no reason."
+      ],
+      "reference": "01_Handout_1",
+      "term": "Prelim",
+      "image": "Assets/Images/Guide1.png"
+    }
+  ]
+}
