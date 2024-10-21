@@ -240,7 +240,7 @@
                     "Module_ID": "C3_S1_EA_Midterms",
                     "Module_Name": "Midterms",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
-                    "Module_Status": "Active",
+                    "Module_Status": "Inactive",
                     "Module_LastModified": "20 October 2024",
                     "Module_Subfolders": [
                         {
@@ -349,7 +349,7 @@
                     "Module_ID": "C3_S1_DDC_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Active",
+                    "Module_Status": "Inactive",
                     "Module_LastModified": "20 September 2024",
                     "Module_Subfolders": [
                         {
