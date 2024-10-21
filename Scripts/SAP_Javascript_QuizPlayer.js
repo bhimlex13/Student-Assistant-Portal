@@ -18,8 +18,10 @@ function Quiz_Questions_List_Toggle(){
 
 
 var Sound_Complete = new Audio("Assets/Sound_Effects/in.ogg");
-var Sound_Excellent = new Audio("Assets/Sound_Effects/challenge_complete.ogg");
+var Sound_Excellent = new Audio("Assets/Sound_Effects/Good.mp3");
 var Sound_Perfect = new Audio("Assets/Sound_Effects/challenge_complete_old.ogg");
+var Sound_Good = new Audio("Assets/Sound_Effects/Good.mp3");
+var Sound_Bad = new Audio("Assets/Sound_Effects/Bad.mp3");
 
 window.addEventListener('beforeunload', (event) => {
     event.preventDefault();
@@ -430,7 +432,12 @@ var Finishers_Terrible = ["Assets/Images/Finisher_Terrible/1.gif",
     "Assets/Images/Finisher_Terrible/7.gif",
     "Assets/Images/Finisher_Terrible/8.gif",
     "Assets/Images/Finisher_Terrible/9.gif",
-    "Assets/Images/Finisher_Terrible/10.gif"];
+    "Assets/Images/Finisher_Terrible/10.gif",
+    "Assets/Images/Finisher_Terrible/11.gif",
+    "Assets/Images/Finisher_Terrible/12.jpg",
+    "Assets/Images/Finisher_Terrible/13.jpg",
+    "Assets/Images/Finisher_Terrible/14.jpg",
+    "Assets/Images/Finisher_Terrible/15.jpg"];
 
 // Preloads the finisher images
 function Quiz_FinisherImage_Pick(){
@@ -473,27 +480,27 @@ function Quiz_Finish(Verdict){
     if (Verdict == "Perfect") {
         Element_Attribute_Set("Quiz_Finisher_Result_Image_Perfect", "Display", "block");
         if (Settings_Data.SoundEffects == "Active"){
-            Sound_Perfect.play();
+            setTimeout(function(){Sound_Perfect.play()}, 800);
         }
     } else if (Verdict == "Excellent") {
         Element_Attribute_Set("Quiz_Finisher_Result_Image_Excellent", "Display", "block");
         if (Settings_Data.SoundEffects == "Active"){
             if (Math.random() >= 0.25){
-                Sound_Excellent.play();
+                setTimeout(function(){Sound_Excellent.play()}, 800);
             }
         }
     } else if (Verdict == "Good") {
         Element_Attribute_Set("Quiz_Finisher_Result_Image_Good", "Display", "block");
         if (Settings_Data.SoundEffects == "Active"){
-            if (Math.random() >= 0.50){
-                Sound_Excellent.play();
+            if (Math.random() >= 0.25){
+                setTimeout(function(){Sound_Good.play()}, 800);
             }
         }
     } else if (Verdict == "Terrible") {
         Element_Attribute_Set("Quiz_Finisher_Result_Image_Terrible", "Display", "block");
         if (Settings_Data.SoundEffects == "Active"){
-            if (Math.random() >= 0.85){
-                Sound_Excellent.play();
+            if (Math.random() >= 0.25){
+                setTimeout(function(){Sound_Bad.play()}, 800);
             }
         }
     }
