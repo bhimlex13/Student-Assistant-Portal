@@ -183,6 +183,17 @@
                             ],
                             "Subfolder_LastModified": "21 October 2024",
                             "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ADS_Midterms_2",
+                            "Subfolder_Name": "Data Analytics",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Midterms_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "21 October 2024",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }
