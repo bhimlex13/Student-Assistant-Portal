@@ -8,51 +8,51 @@
             "Section_Name": "IT501-A",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Saturday",
+                    "Schedule_Day": "Nov. 19 | Tuesday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Event-Driven Programming",
-                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
-                            "Subject_Location": "Rm. 201"
+                            "Subject_Duration": ["2:30 PM", "4:00 PM"],
+                            "Subject_Location": "Rm. 205"
                         },
                         {
-                            "Subject_Name": "Advanced Systems Integration and Architecture",
-                            "Subject_Duration": ["2:00 PM", "3:30 PM"],
-                            "Subject_Location": "Rm. 201"
-                        }
-                    ]
-                },
-                {
-                    "Schedule_Day": "Monday",
-                    "Schedule_Subjects": [
-                        {
                             "Subject_Name": "Data and Digital Communications (Data Communications)",
-                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
-                            "Subject_Location": "Rm. 201"
+                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Location": "Rm. 205"
                         },
                         {
                             "Subject_Name": "Enterprise Architecture",
-                            "Subject_Duration": ["2:00 PM", "3:30 PM"],
+                            "Subject_Duration": ["5:30 PM", "7:00 PM"],
+                            "Subject_Location": "Rm. 205"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Nov. 20 | Wednesday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Advanced Systems Integration and Architecture",
+                            "Subject_Duration": ["11:30 PM", "1:00 PM"],
                             "Subject_Location": "Rm. 201"
                         }
                     ]
                 },
                 {
-                    "Schedule_Day": "Tuesday",
+                    "Schedule_Day": "Nov. 21 | Thursday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Application Development and Emerging Technologies",
-                            "Subject_Duration": ["9:30 AM", "11:00 AM"],
-                            "Subject_Location": "Rm. 310"
+                            "Subject_Duration": ["7:00 AM", "8:30 AM"],
+                            "Subject_Location": "Rm. 204"
                         },
                         {
                             "Subject_Name": "Advanced Database Systems",
-                            "Subject_Duration": ["11:00 AM", "12:30 PM"],
+                            "Subject_Duration": ["8:30 AM", "10:00 AM"],
                             "Subject_Location": "Rm. 201"
                         },
                         {
                             "Subject_Name": "Professional Issues in Information Systems and Technology",
-                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
+                            "Subject_Duration": ["10:00 AM", "11:30 AM"],
                             "Subject_Location": "Rm. 201"
                         }
                     ]
@@ -65,51 +65,51 @@
             "Section_Name": "IT501-M",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Saturday",
+                    "Schedule_Day": "Nov. 19 | Tuesday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Event-Driven Programming",
-                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
-                            "Subject_Location": "Rm. 203"
+                            "Subject_Duration": ["2:30 PM", "4:00 PM"],
+                            "Subject_Location": "Rm. 204"
                         },
                         {
-                            "Subject_Name": "Advanced Systems Integration and Architecture",
-                            "Subject_Duration": ["2:00 PM", "3:30 PM"],
-                            "Subject_Location": "Rm. 203"
-                        }
-                    ]
-                },
-                {
-                    "Schedule_Day": "Monday",
-                    "Schedule_Subjects": [
-                        {
                             "Subject_Name": "Data and Digital Communications (Data Communications)",
-                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
-                            "Subject_Location": "Rm. 203"
+                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Location": "Rm. 204"
                         },
                         {
                             "Subject_Name": "Enterprise Architecture",
-                            "Subject_Duration": ["2:00 PM", "3:30 PM"],
+                            "Subject_Duration": ["5:30 PM", "7:00 PM"],
+                            "Subject_Location": "Rm. 204"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Nov. 20 | Wednesday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Advanced Systems Integration and Architecture",
+                            "Subject_Duration": ["11:30 PM", "1:00 PM"],
                             "Subject_Location": "Rm. 203"
                         }
                     ]
                 },
                 {
-                    "Schedule_Day": "Tuesday",
+                    "Schedule_Day": "Nov. 21 | Thursday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Application Development and Emerging Technologies",
-                            "Subject_Duration": ["9:30 AM", "11:00 AM"],
-                            "Subject_Location": "Rm. 305"
+                            "Subject_Duration": ["7:00 AM", "8:30 AM"],
+                            "Subject_Location": "Rm. 202"
                         },
                         {
                             "Subject_Name": "Advanced Database Systems",
-                            "Subject_Duration": ["11:00 AM", "12:30 PM"],
+                            "Subject_Duration": ["8:30 AM", "10:00 AM"],
                             "Subject_Location": "Rm. 203"
                         },
                         {
                             "Subject_Name": "Professional Issues in Information Systems and Technology",
-                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
+                            "Subject_Duration": ["10:00 AM", "11:30 AM"],
                             "Subject_Location": "Rm. 203"
                         }
                     ]
@@ -122,51 +122,51 @@
             "Section_Name": "IT501-P",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Saturday",
+                    "Schedule_Day": "Nov. 19 | Tuesday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Event-Driven Programming",
-                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
-                            "Subject_Location": "Rm. 202"
+                            "Subject_Duration": ["2:30 PM", "4:00 PM"],
+                            "Subject_Location": "Rm. 203"
                         },
                         {
-                            "Subject_Name": "Advanced Systems Integration and Architecture",
-                            "Subject_Duration": ["2:00 PM", "3:30 PM"],
-                            "Subject_Location": "Rm. 202"
-                        }
-                    ]
-                },
-                {
-                    "Schedule_Day": "Monday",
-                    "Schedule_Subjects": [
-                        {
                             "Subject_Name": "Data and Digital Communications (Data Communications)",
-                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
-                            "Subject_Location": "Rm. 202"
+                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Location": "Rm. 203"
                         },
                         {
                             "Subject_Name": "Enterprise Architecture",
-                            "Subject_Duration": ["2:00 PM", "3:30 PM"],
+                            "Subject_Duration": ["5:30 PM", "7:00 PM"],
+                            "Subject_Location": "Rm. 203"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Nov. 20 | Wednesday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Advanced Systems Integration and Architecture",
+                            "Subject_Duration": ["11:30 PM", "1:00 PM"],
                             "Subject_Location": "Rm. 202"
                         }
                     ]
                 },
                 {
-                    "Schedule_Day": "Tuesday",
+                    "Schedule_Day": "Nov. 21 | Thursday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Application Development and Emerging Technologies",
-                            "Subject_Duration": ["9:30 AM", "11:00 AM"],
-                            "Subject_Location": "Rm. 309"
+                            "Subject_Duration": ["7:00 AM", "8:30 AM"],
+                            "Subject_Location": "Rm. 203"
                         },
                         {
                             "Subject_Name": "Advanced Database Systems",
-                            "Subject_Duration": ["11:00 AM", "12:30 PM"],
+                            "Subject_Duration": ["8:30 AM", "10:00 AM"],
                             "Subject_Location": "Rm. 202"
                         },
                         {
                             "Subject_Name": "Professional Issues in Information Systems and Technology",
-                            "Subject_Duration": ["12:30 PM", "2:00 PM"],
+                            "Subject_Duration": ["10:00 AM", "11:30 AM"],
                             "Subject_Location": "Rm. 202"
                         }
                     ]
