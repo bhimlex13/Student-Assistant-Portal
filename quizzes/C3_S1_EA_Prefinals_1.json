@@ -1,0 +1,376 @@
+{
+  "quizInfo": {
+    "Subject": "Enterprise Architecture",
+    "Term": "Prefinals",
+    "Title": "QUIZ REVIEWER",
+    "LastModified": "18 November 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "QUIZ REVIEWER"
+    ]
+  },
+  "quizData": [
+  {
+    "question": "It invovles the dissemination of information to all stakeholders.",
+    "answer": "Informing",
+    "choices": [
+      "Informing",
+      "Validation",
+      "Obtaining commitment",
+      "Maintaining the model"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "This modeling action can be done by adding specific details to existing elements.",
+    "answer": "Refinement",
+    "choices": [
+      "Refinement",
+      "Introduction",
+      "Abstraction",
+      "Translation"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "Which statement best describes knowledge transformation?",
+    "answer": "It is a situation where knowledge processes through different modeling processes while considering objectives and guidelines.",
+    "choices": [
+      "It is a situation where knowledge processes through different modeling processes while considering objectives and guidelines.",
+      "It involves the condition and commitment of stakeholders on enterprise architecture.",
+      "It depicts an enterprise architecture model in a specific manner based on the agreed perception of the individuals involved in the process",
+      "It is the primary and essential models that are used in the transformation of knowledge."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "Which of the following is a VALID statement about limiting the visual complexity of a model?",
+    "answer": "Reduce the number of relations depicted in a model.",
+    "choices": [
+      "Reduce the number of relations depicted in a model.",
+      "Reduce the complexity of the concepts.",
+      "Reduce the enemies to pieces.",
+      "Reduce the number of submodels inside the model."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "It is a metaphorical direction that goes towards the internal composition of an element.",
+    "answer": "Inwards",
+    "choices": [
+      "Inwards",
+      "Upwards",
+      "Sidewards",
+      "Downwards"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "People tend to perceive a line as uninterruptedly establishing a direction based on their perspective. What principle of Gestalt Theory of Human Perception is being described?",
+    "answer": "Continuity",
+    "choices": [
+      "Continuity",
+      "Proximity",
+      "Closure",
+      "Similarity"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "These pertain to the primary and essential models that are used in the transformation of knowledge in enterprise architecture modeling.",
+    "answer": "Central Representations",
+    "choices": [
+      "Central Representations",
+      "Knowledge Representations",
+      "Knowledge Goals",
+      "Central Transformation"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "This activity requires checking whether the key stakeholders agree that the viewpoints in the model are correct.",
+    "answer": "Validation",
+    "choices": [
+      "Validation",
+      "Obtaining commitment",
+      "Maintaining the model",
+      "Informing"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "In relation to modeling activities, which of the following refers to establishing the purpose, scope, and focus of a model?",
+    "answer": "It is a goal-driven activity wherein architects determine all possible stakeholders and the purpose of the model in relation to the stakeholders.",
+    "choices": [
+      "It is a goal-driven activity wherein architects determine all possible stakeholders and the purpose of the model in relation to the stakeholders.",
+      "It serves as a guide in determining appropriate information to be included in the model.",
+      "It involves requirements gathering, such as appropriate information, to create, structure, and visualize an enterprise architecture model.",
+      "It uses the model representation to communicate with the stakeholders and evaluate whether the model and the visualization achieved the intended outcome."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "Which of the following processes is related to documentation as a modeling action?",
+    "answer": "Backtracking the previous state of a model.",
+    "choices": [
+      "Backtracking the previous state of a model.",
+      "Creating/replacing an element so it matches the meaning of a concept from another language or context.",
+      "Classify the newly introduced candidate element based on the concepts used in the model.",
+      "Placing a fresh term for a concept or relation in the model."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "People tend to perceive comparable objects as though they belong together as a unit. What principle of Gestalt Theory of Human Perception is being described?",
+    "answer": "Similarity",
+    "choices": [
+      "Similarity",
+      "Proximity",
+      "Closure",
+      "Continuity"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "People tend to relate objects that are near to each other. What principle of Gestalt Theory of Human Perception is being described?",
+    "answer": "Proximity",
+    "choices": [
+      "Proximity",
+      "Similarity",
+      "Closure",
+      "Continuity"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "This modeling action involves the administration and documentation of other modeling actions.",
+    "answer": "Documentation",
+    "choices": [
+      "Documentation",
+      "Translation",
+      "Abandoing",
+      "Abstraction"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "Which of the following is NOT a modeling action?",
+    "answer": "Abandoning a modeling language",
+    "choices": [
+      "Abandoning a modeling language",
+      "Documentation",
+      "Abandoning a concept",
+      "Refinement"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "Which of the following processes is related to refinement as a modeling action?",
+    "answer": "Classifying newly introduced candidate elements based on the modeling concept",
+    "choices": [
+      "Classifying newly introduced candidate elements based on the modeling concept",
+      "Backtracking the previous state of a model.",
+      "Creating/replacing an element so it matches the meaning of a concept from another language or context.",
+      "Placing a fresh term for a concept or relation in the model."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "This pertains to the form in which a model is presented.",
+    "answer": "Visualization",
+    "choices": [
+      "Visualization",
+      "Model",
+      "Representation",
+      "Presentation"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "This depicts an enterprise architecture model based on the agreed perception of the individuals involved in the process.",
+    "answer": "Knowledge Representation",
+    "choices": [
+      "Knowledge Representation",
+      "Knowledge Goals",
+      "Central Transformation",
+      "Central Representations"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "This is the act of placing a fresh term for a concept or relation within a model.",
+    "answer": "Introduction",
+    "choices": [
+      "Introduction",
+      "Refinement",
+      "Abandoning",
+      "Abstraction"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "Which of the following processes is related to abandoning as a modeling action?",
+    "answer": "Eliminating an element with proper documentation",
+    "choices": [
+      "Eliminating an element with proper documentation",
+      "Can be done by adding specific details to existing elements.",
+      "An architect decides whether information that is available in the model, is to be left out or not.",
+      "Creating/replacing an element so it matches the meaning of a concept from another language or context."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "This is the process of finding a suitable alternative for an element.",
+    "answer": "Translation",
+    "choices": [
+      "Translation",
+      "Documentation",
+      "Refinement",
+      "Introduction"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "In Gestalt Theory of Human Perception, which of the following scenarios pertain to common fate?",
+    "answer": "People have the tendency to perceive different objects, which function in a similar manner, as a unit",
+    "choices": [
+      "People have the tendency to perceive different objects, which function in a similar manner, as a unit",
+      "People have the tendency to perceive objects that are similar to belong together in a unit.",
+      "Also known as 'tadhana'",
+      "People have the tendency to perceive a line as continuous establishing directions based on their perspective."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "If modeling is considered a transformation process in enterprise architecture, which of the following statements is correct?",
+    "answer": "Models can be used to describe the future situation of an organization",
+    "choices": [
+      "Models can be used to describe the future situation of an organization",
+      "Goal-driven activity wherein architects determine all possible stakeholders and the different purposes of the model in relation to the stakeholders.",
+      "Involves requirements gathering, such as appropriate information, to create, structure, and visualize an enterprise architecture model.",
+      "Models are created using different viewpoints that give a specific set of concepts and relations to be used during the modeling process."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "Which among the following is NOT a valid statement regarding modeling actions?",
+    "answer": "Documentation is the process of finding a suitable alternative for an element",
+    "choices": [
+      "Documentation is the process of finding a suitable alternative for an element",
+      "Stakeholders and their needs must be considered in visualizing a model.",
+      "Uses the model representation to communicate with the stakeholders and evaluate whether the model and the visualization achieved the intended outcome.",
+      "Models are created using different viewpoints that give a specific set of concepts and relations to be used during the modeling process."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "Based on the modeling guidelines in enterprise architecture, which of the following is correct?",
+    "answer": "Collect feedback from various stakeholders",
+    "choices": [
+      "Collect feedback from various stakeholders",
+      "Use abstractions as frequent as possible.",
+      "Introduce novel concepts and structures.",
+      "Make the model such as it relies on additional explanation."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "In Gestalt Theory of Human Perception, which of the following scenarios pertains to closure?",
+    "answer": "People have the tendency to perceive incomplete objects as complete",
+    "choices": [
+      "People have the tendency to perceive incomplete objects as complete",
+      "People have the tendency to perceive objects that are similar to belong together in a unit.",
+      "People have the tendency to perceive a line as continuous establishing directions based on their perspective.",
+      "It's all in the past, pangga. Let's move on with our lives and let go of the past."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "Relative to the representation conventions, which of the following best describes the use of layouts?",
+    "answer": "This includes basic patterns, alignment, and object distribution",
+    "choices": [
+      "This includes basic patterns, alignment, and object distribution",
+      "Shapes of objects in a model usually match the intrinsic properties of the real-life objects.",
+      "Can also increase the appeal of a diagram but can also lead to contrary effects, such as confusion and distraction.",
+      "Speeds up the creating of a proper mental state in modeling, while creating a good starting for the line of reasoning."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "If modeling is considered a transformation process in enterprise architecture, which of the following statement is INCORRECT?",
+    "answer": "Enterprise architecture provides a high-level overview of an organization",
+    "choices": [
+      "Enterprise architecture provides a high-level overview of an organization",
+      "Depicts an enterprise architecture model in a specific manner based on the agreed perception of the individuals involved in the process.",
+      "Knowledge passes through the modeling process while considering goals and guidelines.",
+      "Goals under the modeling process of an enterprise architecture."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "This modeling activity utilize the model representation to communicate with the stakeholders and evaluate the model.",
+    "answer": "Using the model",
+    "choices": [
+      "Using the model",
+      "Visualizing the model",
+      "Creating and structuring the model",
+      "Establishing the purpose, scope, and focus"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "This refers to a situation where knowledge passes through different modeling processes while considering objectives and guidelines.",
+    "answer": "Knowledge transformation",
+    "choices": [
+      "Knowledge transformation",
+      "Knowledge Goals",
+      "Knowledge Representation",
+      "Knowledge State"
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  },
+  {
+    "question": "Which of the following statements is INCORRECT about modeling activities?",
+    "answer": "Using a model requires validation",
+    "choices": [
+      "Using a model requires validation",
+      "Requirements gathering is performed in model visualization.",
+      "Enterprise architecture involves the identification of relationships between different domains while providing a high-level overview.",
+      "Models can also be used to describe the current and future situation of an organization, as well as the possible development requirements."
+    ],
+    "reference": "Quiz Reviewer",
+    "term": "Prefinals"
+  }
+]
+}

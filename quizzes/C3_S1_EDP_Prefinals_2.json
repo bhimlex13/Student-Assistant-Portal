@@ -1,0 +1,340 @@
+{
+  "quizInfo": {
+    "Subject": "Event-Driven Programming",
+    "Term": "Prefinals",
+    "Title": ".NET Assemblies",
+    "LastModified": "18 November 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "06_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "These are files that contain compiled code targeted at the .NET Framework.",
+      "answer": "Assemblies",
+      "choices": [
+        "Assemblies",
+        "Metadata",
+        "Steams",
+        "References"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These are basically physical packages meant for distributing code",
+      "answer": "Assemblies",
+      "choices": [
+        "Assemblies",
+        "Metadata",
+        "Steams",
+        "References"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is NOT TRUE  about the assemblies",
+      "answer": "They are giving a strong, unique name based on the private key cryptography to avoid name collision",
+      "choices": [
+        "These are files that contain compiled code targeted at the .NET Framework.",
+        "These are basically physical packages meant for distributing code",
+        "The .NET classes are actually contained in several assemblies",
+        "They are giving a strong, unique name based on the private key cryptography to avoid name collision"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These are two sections of an assembly.",
+      "answer": "Metadata and Manifest",
+      "choices": [
+        "Metadata and Manifest",
+        ".exe and .dll",
+        "shared and single",
+        "public and private"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These are two file extensions of an assembly.",
+      "answer": ".exe and .dll",
+      "choices": [
+        "Metadata and Manifest",
+        ".exe and .dll",
+        "shared and single",
+        "public and private"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It includes information about the data types of the program that are being used.",
+      "answer": "medata",
+      "choices": [
+        "medata",
+        "manifest",
+        ".exe",
+        ".dll"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It holds the information of the assembly, which consists of the name, version number, and the type of mapping information.",
+      "answer": "manifest",
+      "choices": [
+        "medata",
+        "manifest",
+        ".exe",
+        ".dll"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is for standalone applications.",
+      "answer": ".exe",
+      "choices": [
+        "medata",
+        "manifest",
+        ".exe",
+        ".dll"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is for reusable components.",
+      "answer": ".dll",
+      "choices": [
+        "medata",
+        "manifest",
+        ".exe",
+        ".dll"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": ".NET Frameworks’ core assemblies location can be found in _____.",
+      "answer": "C:\\Windows\\assembly",
+      "choices": [
+        "C:\\Windows\\assembly",
+        "C:\\Windows32\\assembly",
+        "C:\\Program Files\\assembly",
+        "C:\\Documents\\assembly"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is the simplest type of assembly",
+      "answer": "Private Assembly",
+      "choices": [
+        "Private Assembly",
+        "Name Collision",
+        "Global Assembly Cache",
+        "Shared Assembly"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It can only be used within a software package that is intended to be used.",
+      "answer": "Private Assembly",
+      "choices": [
+        "Private Assembly",
+        "Name Collision",
+        "Global Assembly Cache",
+        "Shared Assembly"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It does not require registry entries",
+      "answer": "Private Assembly",
+      "choices": [
+        "Private Assembly",
+        "Name Collision",
+        "Global Assembly Cache",
+        "Shared Assembly"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Two assemblies with the same class name are not a problem since the application can only see the classes that are mentioned in its assemblies",
+      "answer": "Private Assembly",
+      "choices": [
+        "Private Assembly",
+        "Name Collision",
+        "Global Assembly Cache",
+        "Shared Assembly"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These are libraries that other applications can commonly use.",
+      "answer": "Shared Assembly",
+      "choices": [
+        "Private Assembly",
+        "Name Collision",
+        "Global Assembly Cache",
+        "Shared Assembly"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Security precautions are necessary when using this assembly since any other software can access an assembly.",
+      "answer": "Shared Assembly",
+      "choices": [
+        "Private Assembly",
+        "Name Collision",
+        "Global Assembly Cache",
+        "Shared Assembly"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is a common problem in shared assembly wherein other classes or variables have the same name that matches with the other shared assembly",
+      "answer": "Name Collision",
+      "choices": [
+        "Private Assembly",
+        "Name Collision",
+        "Global Assembly Cache",
+        "Shared Assembly"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "A different form of the same assembly might overwrite the shared assembly, and the new version might be incompatible with the existing code.",
+      "answer": "Name Collision",
+      "choices": [
+        "Private Assembly",
+        "Name Collision",
+        "Global Assembly Cache",
+        "Shared Assembly"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Shared assemblies are giving a strong, unique name based on the private key cryptography to avoid name collision.",
+      "answer": "Name Collision",
+      "choices": [
+        "Private Assembly",
+        "Name Collision",
+        "Global Assembly Cache",
+        "Shared Assembly"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It enables several applications to share shared assembly.",
+      "answer": "Global Assembly Cache",
+      "choices": [
+        "Private Assembly",
+        "Name Collision",
+        "Global Assembly Cache",
+        "Shared Assembly"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is required to add the assembly to the special directory.",
+      "answer": "Global Assembly Cache",
+      "choices": [
+        "Private Assembly",
+        "Name Collision",
+        "Global Assembly Cache",
+        "Shared Assembly"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is a centralized storage location for .NET Assemblies.",
+      "answer": "Global Assembly Cache",
+      "choices": [
+        "Private Assembly",
+        "Name Collision",
+        "Global Assembly Cache",
+        "Shared Assembly"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which step specifies the statement?<BR>Create a project containing a class file. The class file contains the methods and properties that you want other applications to access.",
+      "answer": "Step 1",
+      "choices": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which step specifies the statement?<BR>Generate a strong name for the project. The strong name is saved in a strong key filename. The strong key file is created named ShareAssemblyMessageKeyFile.snk and located at the solutions explorer.",
+      "answer": "Step 2",
+      "choices": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which step specifies the statement?<BR>Specify the key filename in the project by indicating its strong key filename in the AssemblyInfo.cs file.",
+      "answer": "Step 3",
+      "choices": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which step specifies the statement?<BR>Compile the project to generate an assembly. The assembly is generated with the extension .dll.",
+      "answer": "Step 4",
+      "choices": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is not a step in creating a shared assembly?",
+      "answer": "Create a project containing a stream file. The class file contains the methods and properties that you want other applications to access.",
+      "choices": [
+        "Create a project containing a stream file. The class file contains the methods and properties that you want other applications to access.",
+        "Generate a strong name for the project. The strong name is saved in a strong key filename. The strong key file is created named ShareAssemblyMessageKeyFile.snk and\r\nlocated at the solutions explorer",
+        "Specify the key filename in the project by indicating its strong key filename in the AssemblyInfo.cs file",
+        "Compile the project to generate an assembly. The assembly is generated with the extension .dll"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    }
+  ]
+}
