@@ -1,0 +1,364 @@
+{
+  "quizInfo": {
+    "Subject": "Data and Digital Communications",
+    "Term": "Prefinals",
+    "Title": "Quiz Reviewer for Prefinals",
+    "LastModified": "18 November 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This device is capable of creating connections between two of more interlinked nodes.",
+      "answer": "Switch",
+      "choices": [
+        "Switch",
+        "Modem",
+        "Router",
+        "Hub"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which if the following statement is TRUE  about the space-division switch?",
+      "answer": "The paths in the circuit are separated from one another spatially",
+      "choices": [
+        "The paths in the circuit are separated from one another spatially",
+        "It uses time-division multiplexing (TDM) inside a switch",
+        "It is a source or a destination needs to have a global address",
+        "It is actually used for data transfer"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which if the following statments best describes the User Datagram protocol?",
+      "answer": "It is a non-frills transport protocol that does not establish connection and does not attempt to keep data packets in sequence",
+      "choices": [
+        "It is a non-frills transport protocol that does not establish connection and does not attempt to keep data packets in sequence",
+        "It performs error reporting for the Internet Protocol and is commonly used by routers",
+        "It is another small but important protocol that is used to support TCP/IP networks",
+        "It is the most popular protocol that handles dynamic assignment"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "It is the most popular protocol that handles IP assignment.",
+      "answer": "Dynamic Host Configuration Protocol",
+      "choices": [
+        "Dynamic Host Configuration Protocol",
+        "Address Resolution Protocol",
+        "Network Address Translation",
+        "User Datagram Protocol"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which if the following statements is true about datagram networks",
+      "answer": "Each packet is treated independently of all others",
+      "choices": [
+        "Each packet is treated independently of all others",
+        "It is a cross between a circuit-switched network and a datagram network",
+        "It is normally implemented in the data-link layer",
+        "It is a non-frills transport protocol that does not establish connection and does not attempt to keep data packets in sequence"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "In switching fabrics, which of the following statements is TRUE  about the crossbar switch.",
+      "answer": "It is the simplest type of switching fabrics",
+      "choices": [
+        "It is the simplest type of switching fabrics",
+        "It is a multistage switch with microswitches at each stage that route the packets based on the output port represented as a binary string",
+        "Another hardware module called a trap is added between the Batcher switch and the banyan switch",
+        "The problem with the banyan switch is the possibility of internal collision even when two packets are not heading for the same output port"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "This protocol lets a router represent an entire local area network to the Internet as a single IP address.",
+      "answer": "Network Address Translation",
+      "choices": [
+        "Network Address Translation",
+        "Dynamic Host Configuration Protocol",
+        "Tunneling Protocols and Virtual Private Networks",
+        "Address Resolution Protocol"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about the time-division switch?",
+      "answer": "It uses time-division multiplexing inside a switch",
+      "choices": [
+        "It uses time-division multiplexing inside a switch",
+        "The paths in the circuit are separated from one another spatially",
+        "It combines the two results in switches that are optimized both physically (the number of crosspoints) and temporally (the amount of delay)",
+        "It is normally implemented in the data-link layer"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which if the following statements best describe Virtual Private Network (VPN)?",
+      "answer": "It is a data network connection that makes use of the public telecommunication infrastructure but maintain privacy using a tunneling protocol and security procedures",
+      "choices": [
+        "It is a data network connection that makes use of the public telecommunication infrastructure but maintain privacy using a tunneling protocol and security procedures",
+        "It is the command set that allows an organization to create secure connections using public resources such as the Internet",
+        "It uses time-division multiplexing inside a switch",
+        "The paths in the circuit are separated from one another spatially"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "These are sets of established rules that dictate how to format, transmit, and receive data.",
+      "answer": "Network Protocols",
+      "choices": [
+        "Network Protocols",
+        "Internet Protocols",
+        "Transmission Control Protocols",
+        "User Datagram Protocols"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "In datagram networks, it is where the destination addresses and the corresponding forwarding output ports are recorded.",
+      "answer": "Routing Table",
+      "choices": [
+        "Routing Table",
+        "Destination Address",
+        "Efficiency",
+        "Delay"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "In virtual networks, this addressing type can be unique either in the inside network or outside network, internationally.",
+      "answer": "Global Addressing",
+      "choices": [
+        "Global Addressing",
+        "Virtual-Circuit Identifier",
+        "Space-Division",
+        "Time-Division"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "It is the length of an IPv4 address.",
+      "answer": "32 bits",
+      "choices": [
+        "32 bits",
+        "16 bits",
+        "64 bits",
+        "128 bits"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "In datagram networks, each packet may experience a wait at a switch before it is forwarded. This characteristics is known as:",
+      "answer": "Delay",
+      "choices": [
+        "Delay",
+        "Efficiency",
+        "Destination Address",
+        "Routing Table"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "This protocol takes an IP Address in an IP datagram and translates it into the appropriate medium access control layer address for delivery on a local area network.",
+      "answer": "Address Resolution Protocol",
+      "choices": [
+        "Address Resolution Protocol",
+        "Dynamic Host Configuration Protocol",
+        "Network Address Translation",
+        "User Datagram Protocol"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "In structure of packet switches, which of the following statements is true about routing processors.",
+      "answer": "It perform the function of the network layer",
+      "choices": [
+        "It perform the function of the network layer",
+        "The speed with which this is done affects the size of the input/output queue and the overall delay in packet delivery",
+        "It uses time-division multiplexing inside a switch",
+        "It is the command set that allows an organization to create secure connections using public resources such as the Internet"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "In structures of a packet switch, this switching fabric has a multistage switch with microswitches at each stage that route the packets based on the output port represented as a binary string.",
+      "answer": "Banyan",
+      "choices": [
+        "Banyan",
+        "Crossbar",
+        "Batcher-Banyan",
+        "Bangtan"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "In switching fabrics, which of the following statements is TRUE  about the Banyan switch?",
+      "answer": "It is a multistage switch with microswitches at each stage that route the packets based on the output",
+      "choices": [
+        "It is a multistage switch with microswitches at each stage that route the packets based on the output",
+        "It perform the function of the network layer",
+        "The simplest type of switching fabric is the crossbar switch",
+        "Another hardware module called a trap is added between the Batcher switch and the banyan switch"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "This protocol's primary function is to turn an unreliable network into a reliable network that is free from lost and duplicates packets.",
+      "answer": "Transmission Control Protocol",
+      "choices": [
+        "Transmission Control Protocol",
+        "Internet Protocol",
+        "Internet Control Message Protocol",
+        "User Datagram Protocol"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "This type of switching combines the two (2) results in switches that are optimized by the number of crosspoints and the amount of delay.",
+      "answer": "Time and Space Division",
+      "choices": [
+        "Time and Space Division",
+        "Space-Division",
+        "Time-Division",
+        "Global Addressing"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which if the following statements is NOT TRUE  about Internet Control Message Protocol?",
+      "answer": "All ICMP messages contains only two fields",
+      "choices": [
+        "All ICMP messages contains only two fields",
+        "It performs error reporting for the Internet Protocol and is commonly used by routers",
+        "A type is simply a number from 0 to n that uniquely identifies the kind of ICMP message",
+        "The first eight bytes of the IP datagram caused the ICMP message to be generated"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "How does TCP implement flow control?",
+      "answer": "The TCP header includes a field called the Window value, that allows the receiver to tell the sender to slow down",
+      "choices": [
+        "The TCP header includes a field called the Window value, that allows the receiver to tell the sender to slow down",
+        "The TCP software can dissolve a connection after the data has been sent and received",
+        "The TCP header attaches a port address indicates a particular application on a machine",
+        "CP can set a value in a field ( the Urgent Pointer)"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "How does TCP release a connection?",
+      "answer": "The TCP software can dissolve a connection after the data has been sent and received",
+      "choices": [
+        "The TCP software can dissolve a connection after the data has been sent and received",
+        "The TCP header includes a field called the Window value, that allows the receiver to tell the sender to slow down",
+        "The TCP header attaches a port address indicates a particular application on a machine",
+        "CP can set a value in a field ( the Urgent Pointer)"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "In this type of switching, the paths in the circuit are separated from one another spatially.",
+      "answer": "Space-Division",
+      "choices": [
+        "Space-Division",
+        "Time-Division",
+        "Time and Space Division",
+        "Global Addressing"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "It provides a connectionless data transfer service over heterogeneous networks by passing through and routing datagrams.",
+      "answer": "Internet Protocol",
+      "choices": [
+        "Internet Protocol",
+        "Transmission Control Protocol",
+        "Internet Control Message Protocol",
+        "User Datagram Protocol"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "How does TCP establish priority?",
+      "answer": "CP can set a value in a field ( the Urgent Pointer)",
+      "choices": [
+        "CP can set a value in a field ( the Urgent Pointer)",
+        "The TCP header includes a field called the Window value, that allows the receiver to tell the sender to slow down",
+        "The TCP header attaches a port address indicates a particular application on a machine",
+        "The TCP software can dissolve a connection after the data has been sent and received"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "How does TCP perform create a connection?",
+      "answer": "The TCP header attaches a port address indicates a particular application on a machine",
+      "choices": [
+        "The TCP header attaches a port address indicates a particular application on a machine",
+        "CP can set a value in a field ( the Urgent Pointer)",
+        "The TCP software can dissolve a connection after the data has been sent and received",
+        "The TCP header includes a field called the Window value, that allows the receiver to tell the sender to slow down"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "It is a list of destination addresses in datagram networks.",
+      "answer": "Routing Table",
+      "choices": [
+        "Routing Table",
+        "Destination Address",
+        "Efficiency",
+        "Delay"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which if the following statements best describes Network Address Translation?",
+      "answer": "It lets a router represent an entire local area",
+      "choices": [
+        "It lets a router represent an entire local area",
+        "It is the most popular protocol that handles dynamic assignment",
+        "It is another small but important protocol that is used to support TCP/IP networks",
+        "It is a non-frills transport protocol that does not establish connection and does not attempt to keep data packets in sequence"
+      ],
+      "reference": "05 Handout 1 Reviewer",
+      "term": "Pre-Finals"
+    }
+  ]
+}
