@@ -474,6 +474,37 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C3_S1_EDP_Prefinals",
+                    "Module_Name": "Prefinals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "18 November 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_EDP_Prefinals_1",
+                            "Subfolder_Name": "Streams",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EDP_Prefinals_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "18 November 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_EDP_Prefinals_2",
+                            "Subfolder_Name": ".NET Assemblies",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EDP_Prefinals_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "18 November 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
             ]
         },
