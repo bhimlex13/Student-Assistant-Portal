@@ -1,0 +1,466 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Systems Integration and Architecture",
+    "Term": "Prefinals",
+    "Title": "Enterprise Asset Management (EAM) Part 1",
+    "LastModified": "20 November 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This focuses on managing, maintaining, inspecting, and repairing plants of business assets throughout its life cycle.",
+      "answer": "SAP EAM",
+      "choices": [
+        "SAP EAM",
+        "SAP HCM",
+        "SAP ERP",
+        "SAP CS"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "For this system, assets refer to the equipment, machinery, and facilities that an organization has.",
+      "answer": "SAP EAM",
+      "choices": [
+        "SAP EAM",
+        "SAP HCM",
+        "SAP ERP",
+        "SAP PS"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which benefit specifies the statement?<BR>By proactively managing maintenance, unexpected breakdowns are lessened, eventually increasing critical asset reliability.",
+      "answer": "Increased Asset Reliability",
+      "choices": [
+        "Increased Asset Reliability",
+        "Improved Efficiency",
+        "Cost-Saving",
+        "Compliance and Safety"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which benefit specifies the statement?<BR>This leads to reduced downtime, faster response time, and optimized resource utilization. Businesses can operate without worries as assets are in good condition.",
+      "answer": "Improved Efficiency",
+      "choices": [
+        "Increased Asset Reliability",
+        "Improved Efficiency",
+        "Cost-Saving",
+        "Compliance and Safety"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which benefit specifies the statement?<BR>Through better asset management, businesses can control maintenance expenses, minimize unnecessary parts inventory, and extend the lifespan of assets.",
+      "answer": "Cost-Saving",
+      "choices": [
+        "Increased Asset Reliability",
+        "Improved Efficiency",
+        "Cost-Saving",
+        "Compliance and Safety"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which benefit specifies the statement?<BR>The business can meet regulatory compliance requirements and ensure that safety standards are upheld.",
+      "answer": "Compliance and Safety",
+      "choices": [
+        "Increased Asset Reliability",
+        "Improved Efficiency",
+        "Cost-Saving",
+        "Compliance and Safety"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is an independent environment in the system.",
+      "answer": "Client",
+      "choices": [
+        "Client",
+        "Company Code",
+        "Plant",
+        "Storage Location"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the smallest organizational unit where a legal set of books can be maintained.",
+      "answer": "Company Code",
+      "choices": [
+        "Company Code",
+        "Client",
+        "Plant",
+        "Maintenance Planning Plant"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the operating area of a branch within the company. It can be a manufacturing, distribution, purchasing, or maintenance facility",
+      "answer": "Plant",
+      "choices": [
+        "Plant",
+        "Maintenance Plant",
+        "Maintenance Planning Plant",
+        "Plant Section"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is an organizational unit allowing differentiation between the various stocks of material in a plant.",
+      "answer": "Storage Location",
+      "choices": [
+        "Storage Location",
+        "Plant",
+        "Work Center",
+        "Plant Section"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is required to store spare parts.",
+      "answer": "This statement is TRUE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the plant wherein the technical objects of a company are installed and has oriented organizational units such as Location, Plant Section, and Work Center.",
+      "answer": "Maintenance Plant",
+      "choices": [
+        "Maintenance Plant",
+        "Maintenance Planning Plant",
+        "Plant",
+        "Plant Section"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the plant in which maintenance tasks are planned and prepared.",
+      "answer": "Maintenance Planning Plant",
+      "choices": [
+        "Maintenance Planning Plant",
+        "Maintenance Plant",
+        "Plant",
+        "Plant Section"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which are the two parts of the Location?",
+      "answer": "building number and coordinates",
+      "choices": [
+        "building number and coordinates",
+        "address and location number",
+        "building number and location number",
+        "coordinates and location number"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is responsibility for working assets.",
+      "answer": "Plant Section",
+      "choices": [
+        "Plant Section",
+        "Work Center",
+        "Plant",
+        "Storage Location"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the process measures of plant maintenance.",
+      "answer": "Work Center",
+      "choices": [
+        "Work Center",
+        "Plant Section",
+        "Plant",
+        "Storage Location"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "The master data involved in this SAP are Functional Location, Equipment, and the Bill of Master.",
+      "answer": "SAP EAM",
+      "choices": [
+        "SAP EAM",
+        "SAP HCM",
+        "SAP ERP",
+        "SAP CS"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is a hierarchically organized structure representing the location, a technical system, a building, or a part of it where a maintenance measure is performed.",
+      "answer": "Functional Location",
+      "choices": [
+        "Functional Location",
+        "Storage Location",
+        "Plant",
+        "Plant Section"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Functional locations cannot be used to subdivide the objects into similar maintenance units.",
+      "answer": "This statement is FALSE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a benefit of the functional location master data?",
+      "answer": "Structural depiction of technical plant",
+      "choices": [
+        "Structural depiction of technical plant",
+        "Administration of individual objects and data",
+        "Data gathering and analysis for extended periods",
+        "Object-oriented cost monitoring"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a benefit of the functional location master data?",
+      "answer": "Planning and performing maintenance tasks",
+      "choices": [
+        "Planning and performing maintenance tasks",
+        "Structuring of objects",
+        "Service parts planning in maintenance orders and maintenance task list",
+        "Within the plant maintenance, BOMs are used if there are similar objects that can be maintained"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a benefit of the functional location master data?",
+      "answer": "Verification of maintenance tasks",
+      "choices": [
+        "Verification of maintenance tasks",
+        "Administration of individual objects and data",
+        "Data gathering and analysis for extended periods",
+        "Structuring of objects"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a benefit of the functional location master data?",
+      "answer": "Data gathering for extended time",
+      "choices": [
+        "Data gathering for extended time",
+        "Administration of individual objects and data",
+        "Data gathering and analysis for extended periods",
+        "Within the plant maintenance, BOMs are used if there are similar objects that can be maintained"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a benefit of the functional location master data?",
+      "answer": "Cost monitoring",
+      "choices": [
+        "Cost monitoring",
+        "Administration of individual objects and data",
+        "Service parts planning in maintenance orders and maintenance task list",
+        "Object-oriented cost monitoring"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a benefit of the functional location master data?",
+      "answer": "Behavioral analysis of individual areas under different conditions",
+      "choices": [
+        "Behavioral analysis of individual areas under different conditions",
+        "Administration of individual objects and data",
+        "Service parts planning in maintenance orders and maintenance task list",
+        "Object-oriented cost monitoring"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is the physical object for which maintenance tasks are planned and performed.",
+      "answer": "equipment",
+      "choices": [
+        "equipment",
+        "location",
+        "budget",
+        "people"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which examples include pumps, personal computers, circulation fans, and engines?",
+      "answer": "equipment",
+      "choices": [
+        "equipment",
+        "location",
+        "budget",
+        "people"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These can be placed in functional locations.",
+      "answer": "equipments",
+      "choices": [
+        "equipments",
+        "locations",
+        "budget",
+        "people"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the equipment master data?",
+      "answer": "Administration of individual objects and data",
+      "choices": [
+        "Administration of individual objects and data",
+        "Structural depiction of technical plant",
+        "Planning and performing maintenance tasks",
+        "Data gathering for extended time"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the equipment master data?",
+      "answer": "Verification of maintenance tasks",
+      "choices": [
+        "Verification of maintenance tasks",
+        "Cost monitoring",
+        "Behavioral analysis of individual areas under different conditions",
+        "Service parts planning in maintenance orders and maintenance task list"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the equipment master data?",
+      "answer": "Object-oriented cost monitoring",
+      "choices": [
+        "Object-oriented cost monitoring",
+        "Cost monitoring",
+        "Behavioral analysis of individual areas under different conditions",
+        "Structural depiction of technical plant"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the equipment master data?",
+      "answer": "Data gathering and analysis for extended periods",
+      "choices": [
+        "Data gathering and analysis for extended periods",
+        "Structural depiction of technical plant",
+        "Planning and performing maintenance tasks",
+        "Behavioral analysis of individual areas under different conditions"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is the complete structured list of all components.",
+      "answer": "Bill of Material",
+      "choices": [
+        "Bill of Material",
+        "Bill of Gates",
+        "Bill y Eilish",
+        "Bill of Master Data"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It can be allocated to functional locations or equipment.",
+      "answer": "Bill of Material",
+      "choices": [
+        "Bill of Material",
+        "Bill of Gates",
+        "Bill y Crawford",
+        "Bill of Master Data"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In EAM, it includes three (3) types of Bill of Material: Material BOMs, Equipment BOMs, and Function location BOMs.",
+      "answer": "This statement is TRUE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the BOM master data?",
+      "answer": "Structuring of objects",
+      "choices": [
+        "Structuring of objects",
+        "Verification of maintenance tasks",
+        "Object-oriented cost monitoring",
+        "Data gathering and analysis for extended periods"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the BOM master data?",
+      "answer": "Service parts planning in maintenance orders and maintenance task list",
+      "choices": [
+        "Service parts planning in maintenance orders and maintenance task list",
+        "Structural depiction of technical plant",
+        "Planning and performing maintenance tasks",
+        "Data gathering for extended time"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the BOM master data?",
+      "answer": "Within the plant maintenance, BOMs are used if there are similar objects that can be maintained",
+      "choices": [
+        "Within the plant maintenance, BOMs are used if there are similar objects that can be maintained",
+        "Object-oriented cost monitoring",
+        "Verification of maintenance tasks",
+        "Cost monitoring"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    }
+  ]
+}
