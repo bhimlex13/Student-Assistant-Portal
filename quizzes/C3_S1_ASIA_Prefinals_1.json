@@ -134,10 +134,10 @@
     },
     {
       "question": "It is required to store spare parts.",
-      "answer": "This statement is TRUE .",
+      "answer": "This statement is TRUE.",
       "choices": [
-        "This statement is TRUE .",
-        "This statement is FALSE ."
+        "This statement is TRUE.",
+        "This statement is FALSE."
       ],
       "reference": "05 Handout 1 - 1",
       "term": "Prefinals"
@@ -228,10 +228,10 @@
     },
     {
       "question": "Functional locations cannot be used to subdivide the objects into similar maintenance units.",
-      "answer": "This statement is FALSE .",
+      "answer": "This statement is FALSE.",
       "choices": [
-        "This statement is TRUE .",
-        "This statement is FALSE ."
+        "This statement is TRUE.",
+        "This statement is FALSE."
       ],
       "reference": "05 Handout 1 - 1",
       "term": "Prefinals"
@@ -418,10 +418,10 @@
     },
     {
       "question": "In EAM, it includes three (3) types of Bill of Material: Material BOMs, Equipment BOMs, and Function location BOMs.",
-      "answer": "This statement is TRUE .",
+      "answer": "This statement is TRUE.",
       "choices": [
-        "This statement is TRUE .",
-        "This statement is FALSE ."
+        "This statement is TRUE.",
+        "This statement is FALSE."
       ],
       "reference": "05 Handout 1 - 1",
       "term": "Prefinals"
