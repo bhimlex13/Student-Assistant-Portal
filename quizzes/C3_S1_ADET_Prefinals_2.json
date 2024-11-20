@@ -1,0 +1,484 @@
+{
+  "quizInfo": {
+    "Subject": "Application Development and Emerging Technologies",
+    "Term": "Prefinals",
+    "Title": "Software Review and Inspection",
+    "LastModified": "21 November 2024",
+    "Authors": [
+      ""
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This is a formalized peer review process for detecting and correcting defects or bugs in software artifacts.",
+      "answer": "Software Inspection and Review",
+      "choices": [
+        "Software Inspection and Review",
+        "Software Prototyping",
+        "Software Quality Assurance",
+        "Rawr"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Its objective is to help developers build quality into the software product.",
+      "answer": "Software Inspection and Review",
+      "choices": [
+        "Software Inspection and Review",
+        "Software Prototyping",
+        "Software Quality Assurance",
+        "Rawr"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These are anything that have been documented and stored during the software development process such as requirements document, source code, user documentation, test plans, and test cases.",
+      "answer": "Sofrtware Artifacts",
+      "choices": [
+        "Sofrtware Artifacts",
+        "Software Bugs",
+        "Software Errors",
+        "Software Components"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique is developed by Michael Fagan. (Pag ito namali mo pa ewan ko nalang)",
+      "answer": "Fagan Inspection Methodology",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique identifies and removes errors in the software products and to identify any systematic defects in the processes that are used to create software products.",
+      "answer": "Fagan Inspection Methodology",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique requires that software artifacts be formally inspected by experts independent of the author.",
+      "answer": "Fagan Inspection Methodology",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique includes roles namely, moderator, author, reader, and tester.",
+      "answer": "Fagan Inspection Methodology",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique is a peer review in which the author of a deliverable, such as a document or source code, brings 1 or more reviewers through the deliverable.",
+      "answer": "Structured Walkthrough",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique's objective is to get feedback from the reviewers on the quality of the document or code and to familiarize the review audience with the author’s work.",
+      "answer": "Structured Walkthrough",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique includes several roles, namely, the review leader, author, scribe, and the review audience.",
+      "answer": "Structured Walkthrough",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role leads the inspection team and takes care of logistics?",
+      "answer": "Moderator",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role is the creator of the software artifacts under inspection?",
+      "answer": "Author",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role actively answers all the questions regarding the artifacts during the inspection meeting?",
+      "answer": "Author",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role is responsible for fixing identified defects and bugs in the artifacts?",
+      "answer": "Author",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role is an experienced peer who can be a subject matter expert on the software artifacts under inspection?",
+      "answer": "Reader",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role is responsible for writing and executing test cases for the software module or product?",
+      "answer": "Tester",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role is focused on how the product would be tested?",
+      "answer": "Tester",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves identifying the inspector and roles, along with arranging the meeting place and time?",
+      "answer": "Planning",
+      "choices": [
+        "Planning",
+        "Overview",
+        "Preparation",
+        "Inspection Meeting"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves briefing of participants on information of materials?",
+      "answer": "Overview",
+      "choices": [
+        "Planning",
+        "Overview",
+        "Preparation",
+        "Inspection Meeting"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves preparation for the meeting and reading through the deliverables?",
+      "answer": "Preparation",
+      "choices": [
+        "Planning",
+        "Overview",
+        "Preparation",
+        "Inspection Meeting"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves the moderator setting the time limit for inspection and recording and classifying defects?",
+      "answer": "Inspection Meeting",
+      "choices": [
+        "Planning",
+        "Overview",
+        "Preparation",
+        "Inspection Meeting"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves improving the development and inspection process along with making recommendation to the process improvement team?",
+      "answer": "Process Improvement",
+      "choices": [
+        "Process Improvement",
+        "Rework",
+        "Follow-up",
+        "Preparation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves the author correcting the defects and carries out any necessary investigations?",
+      "answer": "Rework",
+      "choices": [
+        "Process Improvement",
+        "Rework",
+        "Follow-up",
+        "Preparation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves the moderator verifying that the author has resolved the defects and investigations?",
+      "answer": "Follow-up",
+      "choices": [
+        "Process Improvement",
+        "Rework",
+        "Follow-up",
+        "Preparation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspection type finds defects in the requirements and confirming if those are correct?",
+      "answer": "Requirements",
+      "choices": [
+        "Requirements",
+        "Design Inspection",
+        "Code Inspection",
+        "Test Plan Inspection"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspection type finds defects in the design and confirming if those are correct with respect to the requirements?",
+      "answer": "Design Inspection",
+      "choices": [
+        "Requirements",
+        "Design Inspection",
+        "Code Inspection",
+        "Test Plan Inspection"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspection type finds defects in the code and confirming if those are correct with respect to the design and requirements?",
+      "answer": "Code Inspection",
+      "choices": [
+        "Requirements",
+        "Design Inspection",
+        "Code Inspection",
+        "Test Plan Inspection"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspection type finds defects in the test cases or plan, and confirming if those can verify the design and requirements?",
+      "answer": "Test Plan Inspection",
+      "choices": [
+        "Requirements",
+        "Design Inspection",
+        "Code Inspection",
+        "Test Plan Inspection"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is an act of systematically convening with fellow programmers to check each other’s code for faults to ensure it meets quality standards.",
+      "answer": "Code Reviewing Techniques",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Code Reviewing Technique uses automated code analysis techniques that can pick out problematic patterns within the source code.",
+      "answer": "Tool-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Code Reviewing Technique states that the nature of the code problems that can be identified varies from 1 tool to another and depends to an extent on the nature of the underlying programming language.",
+      "answer": "Tool-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Code Reviewing Technique states that automated tools are especially good at identifying problems that are relatively localized to a single method or class.",
+      "answer": "Tool-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Code Reviewing Technique is where the developers themselves review code to pick out problems.",
+      "answer": "Developer-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Code Reviewing Technique is where reviewers manually assess codes before deployment.",
+      "answer": "Developer-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Code Reviewing Technique is usually a 2-step process where the developers have to understand the program first so that they can form an opinion of its implementation and design.",
+      "answer": "Developer-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is a lightweight variant of code inspections because it doesn’t rely on face-to-face meetings.",
+      "answer": "Modern Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Modern Code Review technique uses Google Gerrit or Microsoft CodeFlow.",
+      "answer": "Tool-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is a central file storage location used by version control systems to store multiple versions of files that can be accessed by multiple users.",
+      "answer": "Repository",
+      "choices": [
+        "Repository",
+        "Pull-Based Development",
+        "Code Reviewing Tools",
+        "Pull Requests"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Modern Code Review technique doesn't use code reviewing tools and revolves around a mechanism known as a pull request.",
+      "answer": "Pull-Based Development",
+      "choices": [
+        "Repository",
+        "Pull-Based Development",
+        "Code Reviewing Tools",
+        "Pull Requests"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    }
+  ]
+}

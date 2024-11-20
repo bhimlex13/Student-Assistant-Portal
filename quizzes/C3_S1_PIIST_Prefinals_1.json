@@ -1,0 +1,568 @@
+{
+  "quizInfo": {
+    "Subject": "Professional Issues in Information Systems and Technology",
+    "Term": "Prefinals",
+    "Title": "Cybercrime and Security",
+    "LastModified": "21 November 2024",
+    "Authors": [
+      ""
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This is a crime committed in cyberspace using information technologies.",
+      "answer": "Cybercrime",
+      "choices": [
+        "Cybercrime",
+        "Digital crime",
+        "Cyberterrorism",
+        "Rawr"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category are offenses committed with or without technology but increased their reach using such technologies?",
+      "answer": "Cyber-enabled offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category is also described as \"technology-as-instrument\" offenses?",
+      "answer": "Cyber-enabled offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category is strictly committed using information and communication technologies?",
+      "answer": "Cyber-dependent offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category targets network systems and data confidentiality, integrity, and availability?",
+      "answer": "Cyber-dependent offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category deals with the illegal use of computers for data storage, documentation, and communication?",
+      "answer": "Cyber-supported offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category involves instances wherein the use of the computer or network isn't vital to the actual crime but may still be legally relevant to be considered as evidence or as an accessory to the crime?",
+      "answer": "Cyber-supported offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category is considered cyberterrorism?",
+      "answer": "National security offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-enabled offense involves obtaining or possessing another's identity and information to commit a legal offense?",
+      "answer": "Identity Theft",
+      "choices": [
+        "Identity Theft",
+        "Identity Fraud",
+        "Phishing",
+        "Cyberbullying and Online Harassment"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-enabled offense involves fraudulent impersonation of someone to gain an advantage, obtain property, cause a disadvantage, or avoid prosecution?",
+      "answer": "Identity Fraud",
+      "choices": [
+        "Identity Theft",
+        "Identity Fraud",
+        "Phishing",
+        "Cyberbullying and Online Harassment"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-enabled offense involves luring users to log onto a fake website that appears real to gather sensitive information?",
+      "answer": "Phishing",
+      "choices": [
+        "Identity Theft",
+        "Identity Fraud",
+        "Phishing",
+        "Cyberbullying and Online Harassment"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-enabled offense involves the use of online tools to harass, intimidate, or embarrass another person or group?",
+      "answer": "Cyberbullying and Online Harassment",
+      "choices": [
+        "Identity Theft",
+        "Identity Fraud",
+        "Phishing",
+        "Cyberbullying and Online Harassment"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-dependent offense involves the manipulation of a computer system or private network to access digital files or systems without authorization?",
+      "answer": "Hacking",
+      "choices": [
+        "Hacking",
+        "Cyber-attack",
+        "Malware",
+        "Kanpai"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-dependent offense  uses computers against other computers or systems to modify, steal, or gain information through unauthorized access?",
+      "answer": "Cyber-attack",
+      "choices": [
+        "Hacking",
+        "Cyber-attack",
+        "Malware",
+        "Kanpai"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-dependent offense involves malicious software?",
+      "answer": "Malware",
+      "choices": [
+        "Hacking",
+        "Cyber-attack",
+        "Malware",
+        "Kanpai"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of hacking involves gaining logical or physical entry to a network or system without proper authorization?",
+      "answer": "Unauthorized access",
+      "choices": [
+        "Unauthorized access",
+        "Modification of data",
+        "Impairment of data",
+        "Interception of data"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of hacking involves inserting, removing, or alteration of data without proper authorization?",
+      "answer": "Modification of data",
+      "choices": [
+        "Unauthorized access",
+        "Modification of data",
+        "Impairment of data",
+        "Interception of data"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of hacking involves the disruption of transmission or communication of data?",
+      "answer": "Impairment of data",
+      "choices": [
+        "Unauthorized access",
+        "Modification of data",
+        "Impairment of data",
+        "Interception of data"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of hacking involves unauthorized access and alteration in the data transmission between machines?",
+      "answer": "Interception of data",
+      "choices": [
+        "Unauthorized access",
+        "Modification of data",
+        "Impairment of data",
+        "Interception of data"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of hacking involves unauthorized use of company files, systems, computers, and networks to damage the company's properties?",
+      "answer": "Misuse of assets",
+      "choices": [
+        "Misuse of assets",
+        "Unauthorized access",
+        "Modification of data",
+        "Impairment of data"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of malware is designed to spread from one program to another and can self-replicate?",
+      "answer": "Virus",
+      "choices": [
+        "Virus",
+        "Worm",
+        "Trojan",
+        "Spammer"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of malware replicates itself without human intervention?",
+      "answer": "Worm",
+      "choices": [
+        "Virus",
+        "Worm",
+        "Trojan",
+        "Spammer"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of malware appears as a legitimate program but is actually a virus?",
+      "answer": "Trojan",
+      "choices": [
+        "Virus",
+        "Worm",
+        "Trojan",
+        "Spammer"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of malware sends massive amounts of messages to illegally acquired email addresses?",
+      "answer": "Spammer",
+      "choices": [
+        "Virus",
+        "Worm",
+        "Trojan",
+        "Spammer"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of malware is used to perform illegal activities such as capturing banking login details, and taking screenshots of visited websites?",
+      "answer": "Spyware",
+      "choices": [
+        "Spyware",
+        "Virus",
+        "Worm",
+        "Trojan"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of cyberterrorism is the sudden invasive attacks targeting computer systems?",
+      "answer": "Incursion",
+      "choices": [
+        "Incursion",
+        "Destruction",
+        "Disinformation",
+        "Distributed Denial of Service (DDoS)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of cyberterrorism involves the destruction of digital data so that it becomes unreadable or inaccessible?",
+      "answer": "Destruction",
+      "choices": [
+        "Incursion",
+        "Destruction",
+        "Disinformation",
+        "Distributed Denial of Service (DDoS)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of cyberterrorism involves the intentional dissemination of false information to mislead, confuse, or manipulate an audience?",
+      "answer": "Disinformation",
+      "choices": [
+        "Incursion",
+        "Destruction",
+        "Disinformation",
+        "Distributed Denial of Service (DDoS)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of cyberterrorism involves malicious attempts from multiple machines to disrupt computer networks by temporarily or indefinitely making them inaccessible?",
+      "answer": "Distributed Denial of Service (DDoS)",
+      "choices": [
+        "Incursion",
+        "Destruction",
+        "Disinformation",
+        "Distributed Denial of Service (DDoS)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of cyberterrorism involves malicious attacks targeting websites to replace their content with the attacker's message?",
+      "answer": "Defacement of Websites",
+      "choices": [
+        "Defacement of Websites",
+        "Incursion",
+        "Destruction",
+        "Disinformation"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What penalty is usually given to those who are found guilty of cyber-enabled offenses?",
+      "answer": "6 - 12 years imprisonment or PHP 200,000 fine",
+      "choices": [
+        "6 - 12 years imprisonment or PHP 200,000 fine",
+        "6 - 12 years imprisonment or PHP 500,000 fine or both",
+        "12 - 20 years imprisonment or PHP 500,000 fine",
+        "1 degree lower than the advised penalty for the offense or a fine of at least PHP 100,000 to PHP 500,000 or both."
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What penalty is usually given to those who are found guilty of misuse of assets?",
+      "answer": "6 - 12 years imprisonment or PHP 500,000 fine or both",
+      "choices": [
+        "6 - 12 years imprisonment or PHP 200,000 fine",
+        "6 - 12 years imprisonment or PHP 500,000 fine or both",
+        "12 - 20 years imprisonment or PHP 500,000 fine",
+        "1 degree lower than the advised penalty for the offense or a fine of at least PHP 100,000 to PHP 500,000 or both."
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What penalty is usually given to those who are found guilty of cyber-enabled offenses?",
+      "answer": "12 - 20 years imprisonment or PHP 500,000 fine",
+      "choices": [
+        "6 - 12 years imprisonment or PHP 200,000 fine",
+        "6 - 12 years imprisonment or PHP 500,000 fine or both",
+        "12 - 20 years imprisonment or PHP 500,000 fine",
+        "1 degree lower than the advised penalty for the offense or a fine of at least PHP 100,000 to PHP 500,000 or both."
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What penalty is usually given to those who are found guilty of cyber supported and national security offenses?",
+      "answer": "1 degree lower than the advised penalty for the offense or a fine of at least PHP 100,000 to PHP 500,000 or both.",
+      "choices": [
+        "6 - 12 years imprisonment or PHP 200,000 fine",
+        "6 - 12 years imprisonment or PHP 500,000 fine or both",
+        "12 - 20 years imprisonment or PHP 500,000 fine",
+        "1 degree lower than the advised penalty for the offense or a fine of at least PHP 100,000 to PHP 500,000 or both."
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybersecurity technology involves taking plain text and coding it into an unreadable format?",
+      "answer": "Encryption",
+      "choices": [
+        "Encryption",
+        "Authentication",
+        "Mysterification",
+        "Rawr"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What is the technology of encrypting and decrypting information?",
+      "answer": "Cryptography",
+      "choices": [
+        "Cryptography",
+        "Confusionism",
+        "Crypto",
+        "Encryption"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What do you call unencrypted data?",
+      "answer": "Plain text",
+      "choices": [
+        "Plain text",
+        "Cipher text",
+        "Input text",
+        "Output text"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What do you call encrpyted data?",
+      "answer": "Cipher text",
+      "choices": [
+        "Plain text",
+        "Cipher text",
+        "Input text",
+        "Output text"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybersecurity technology involves digital certificates, access tokens, PINs, IDs, and security keys?",
+      "answer": "Authentication",
+      "choices": [
+        "Authentication",
+        "Biometrics",
+        "Firewall",
+        "Virus detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybersecurity technology involves the use of an individual's physical and behavioral traits?",
+      "answer": "Biometrics",
+      "choices": [
+        "Authentication",
+        "Biometrics",
+        "Firewall",
+        "Virus detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybersecurity technology stands as a barrier between networks implemented in software, hardware, or cloud-based applications?",
+      "answer": "Firewall",
+      "choices": [
+        "Authentication",
+        "Biometrics",
+        "Firewall",
+        "Virus detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybersecurity technology prevents, detects, and removes any malware?",
+      "answer": "Virus detection",
+      "choices": [
+        "Authentication",
+        "Biometrics",
+        "Firewall",
+        "Virus detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybersecurity technology prevents the user from entering malicious sites that pretends to be the real one?",
+      "answer": "Phishing Detection",
+      "choices": [
+        "Phishing Detection",
+        "Authentication",
+        "Biometrics",
+        "Firewall"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What phishing detection technology involves targeting the visual likeness of phishing sites?",
+      "answer": "Visual Similarity-Based Phishing Detection",
+      "choices": [
+        "Visual Similarity-Based Phishing Detection",
+        "Blacklist-Based Phishing Detection",
+        "Web Crawling-Based Phishing Attack Detection (WC-PAD)",
+        "Phishing Detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What phishing detection technology involves keeping a database of approved and unapproved URLs?",
+      "answer": "Blacklist-Based Phishing Detection",
+      "choices": [
+        "Visual Similarity-Based Phishing Detection",
+        "Blacklist-Based Phishing Detection",
+        "Web Crawling-Based Phishing Attack Detection (WC-PAD)",
+        "Phishing Detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What phishing detection technology involves the checking of whether the link is in the DNS blacklist?",
+      "answer": "Web Crawling-Based Phishing Attack Detection (WC-PAD)",
+      "choices": [
+        "Visual Similarity-Based Phishing Detection",
+        "Blacklist-Based Phishing Detection",
+        "Web Crawling-Based Phishing Attack Detection (WC-PAD)",
+        "Phishing Detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    }
+  ]
+}

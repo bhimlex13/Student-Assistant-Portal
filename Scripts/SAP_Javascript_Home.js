@@ -50,7 +50,7 @@ function Home_Splash(){
 function Home_Start(){
     Element_Attribute_Set('Home_Welcome', 'State', 'Invisible');
     document.getElementById("Quizzes").click();
-    Quizzes_Manifest_Load(Quizzes_Manifest_FileURL);
+    Quizzes_Manifest_Load();
     Schedules_Class_Load(Schedules_Class_Manifest_FileURL);
     Schedules_Exams_Load(Schedules_Exams_Manifest_FileURL);
 }
@@ -61,7 +61,8 @@ let Quizzes_Manifest = {};
 var Quizzes_Manifest_FileURL = "Assets/SAP-Subject-Manifest.json";
 
 // Gets the manifest file and returns the data
-async function Quizzes_Manifest_Fetch(URL) {
+async function Quizzes_Manifest_Fetch() {
+    var URL = Quizzes_Manifest_FileURL;
   try {
     const JSON_File = await fetch(URL);
     const JSON_Data = await JSON_File.json();

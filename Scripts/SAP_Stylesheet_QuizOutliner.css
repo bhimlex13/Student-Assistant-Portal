@@ -1,0 +1,96 @@
+.QO_Title{
+    background-color: var(--SAP-Purple-Level-4L);
+    padding: 20px;
+    border-radius: 0px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-family: var(--Text-Font-Primary);
+    font-weight: bolder;
+    /* margin: 0px; */
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: var(--SAP-Margin-Left);
+    margin-right: var(--SAP-Margin-Right);
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.QO_List{
+    margin-left: var(--SAP-Margin-Left);
+    margin-right: var(--SAP-Margin-Right);
+    
+}
+
+.QO_List_Item{
+    padding: 20px;
+    border-radius: 15px;
+    /* background-color: var(--SAP-Purple-Level-4L); */
+    border: solid var(--SAP-Purple-Level-4L) 1px;
+    display: grid;
+    grid-template-areas: 
+        "Number Question"
+        "Choices Choices"
+    ;
+    grid-gap: 10px;
+}
+
+.QO_List_Item_Number{
+    grid-area: Number;
+}
+
+.QO_List_Item_Question{
+    grid-area: Question;
+}
+
+.QO_List_Item_Choices{
+    grid-area: Choices;
+}
+
+.QO_List_Item_Number_Text, .QO_List_Item_Question_Text{
+    margin: 0;
+    font-family: var(--Text-Font-Primary);
+    color: var(--Text-Color);
+}
+
+.QO_List_Item_Choices_Item > .Radio_Button_Indicator{
+    opacity: 0%;
+}
+
+.QO_List_Item_Choices_Item:hover{
+    background-color: var(--SAP-Purple-Level-4L);
+}
+
+.QO_List_Item_Choices_Item:hover > .Radio_Button_Indicator{
+    box-shadow: unset;
+}
+
+.QO_List_Item_Choices_Item[State="Active"]{
+    background-color: var(--SAP-Green-Level-3L);
+}
+
+.QO_List_Item_Choices_Item[State="Active"] > .Radio_Button_Indicator{
+    background-color: var(--SAP-Green-Base);
+    border-color: var(--SAP-Green-Level-2D);
+    opacity: 100%;
+}
+
+.Subwindow{
+    width: 80%;
+    height: 80%;
+    background-color: var(--SAP-Main-BG-Color);
+}
+
+.Subwindow_TitleBar{
+    border-bottom: solid var(--SAP-Gray-Base) 1px;
+    grid-template-columns: auto 1fr 30px 30px;
+}
+
+.Subwindow_TitleBar_Close{
+    filter: brightness(0);
+}
+
+.Subwindow_TitleBar_Close:hover{
+    filter: brightness(1);
+}

@@ -1,0 +1,386 @@
+{
+  "quizInfo": {
+    "Subject": "Application Development and Emerging Technologies",
+    "Term": "Prefinals",
+    "Title": "Prototyping and Quality Assurance",
+    "LastModified": "21 November 2024",
+    "Authors": [
+      ""
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This pertains to the degree to which a software product meets the gathered requirements.",
+      "answer": "Software Quality",
+      "choices": [
+        "Software Quality",
+        "Software Quality Assurance",
+        "Software Intention",
+        "Software Capability"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These are a set  of activities that define and assess the adequacy of software process to provide evidence which establishes confidence that the software processes are appropriate for and product software products of suitable quality for their intended processes.",
+      "answer": "Software Quality Assurance",
+      "choices": [
+        "Software Quality Assurance",
+        "Software Quality",
+        "Software Intention",
+        "Software Capability"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These are based on the planning and implementation of a series of activities for ensuring quality in the software development process.",
+      "answer": "Software Quality Assurance",
+      "choices": [
+        "Software Quality Assurance",
+        "Software Quality",
+        "Software Intention",
+        "Software Capability"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is a structured approach to improve software quality.",
+      "answer": "Software Quality Assurance",
+      "choices": [
+        "Software Quality Assurance",
+        "Software Quality",
+        "Software Intention",
+        "Software Capability"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This involves defect prevention, detection, and removal, as well as defect containment activities.",
+      "answer": "Software Quality Assurance",
+      "choices": [
+        "Software Quality Assurance",
+        "Software Quality",
+        "Software Intention",
+        "Software Capability"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that bugs can have immediate impacts on clients or customers?",
+      "answer": "Reputation",
+      "choices": [
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification",
+        "Legality"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that poor quality software tend to be expensive to develop and maintain and can negatively affect organizations?",
+      "answer": "Limiting Technical Debt",
+      "choices": [
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification",
+        "Legality"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that the development and use of software might require certification, which often require evidence of the application of various quality control and assessment measures?",
+      "answer": "Software Certification",
+      "choices": [
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification",
+        "Legality"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that there may be overriding legal obligations that apply to organizations that use the software?",
+      "answer": "Legality",
+      "choices": [
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification",
+        "Legality"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that every practicable measure must be taken to demonstrate that the software system doesn’t pose a risk to its users?",
+      "answer": "Legality",
+      "choices": [
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification",
+        "Legality"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that in cases where software systems aren’t covered by software certification and legislation, and where its failure is not necessarily business or safety-critical, there can remain moral obligation to the users?",
+      "answer": "Ethical Codes of Practice",
+      "choices": [
+        "Ethical Codes of Practice",
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that software engineers should do whatever is possible to maximize the quality of their software and to prevent it from containing harmful bugs?",
+      "answer": "Ethical Codes of Practice",
+      "choices": [
+        "Ethical Codes of Practice",
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the act of building software application prototypes which displays the functionality of the product under development, but may not actually hold the exact logic of the original software.",
+      "answer": "Software Prototyping",
+      "choices": [
+        "Software Prototyping",
+        "Software Inspection",
+        "Software Quality Assurance",
+        "Software Review"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This act moves the quality assurance earlier and makes it easier.",
+      "answer": "Software Prototyping",
+      "choices": [
+        "Software Prototyping",
+        "Software Inspection",
+        "Software Quality Assurance",
+        "Software Review"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "All of these is achieved by software prototyping EXCEPT ONE.",
+      "answer": "Represent the final product.",
+      "choices": [
+        "Represent the final product.",
+        "Allow users to evaluate the software system design and how the software actually works.",
+        "Clarify the functionalities of the software to both users and developers.",
+        "Reduce the need to recreate the software system due to some gaps on the implementation."
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What prototyping paradigm is a relatively fast method of prototyping that focuses on employing prototypes to generate insights about the software design idea?",
+      "answer": "Throwaway Prototyping",
+      "choices": [
+        "Throwaway Prototyping",
+        "Evolutionary Prototyping",
+        "Software Prototyping",
+        "Single-Use Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What prototyping paradigm states that created prototypes are discarded after testing and after obtaining feedback?",
+      "answer": "Throwaway Prototyping",
+      "choices": [
+        "Throwaway Prototyping",
+        "Evolutionary Prototyping",
+        "Software Prototyping",
+        "Single-Use Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What prototyping paradigm are used in early design stages where the gathered requirements are still unclear?",
+      "answer": "Throwaway Prototyping",
+      "choices": [
+        "Throwaway Prototyping",
+        "Evolutionary Prototyping",
+        "Software Prototyping",
+        "Single-Use Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What prototyping paradigm states that prototypes are reused after the testing in a way that they are altered to the test results and then reused in a new test cycle?",
+      "answer": "Evolutionary Prototyping",
+      "choices": [
+        "Throwaway Prototyping",
+        "Evolutionary Prototyping",
+        "Software Prototyping",
+        "Single-Use Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What prototyping paradigm is used in late development stages where sufficient insights about principle design decisions exist and the prototype addresses technical and long-term use issues?",
+      "answer": "Evolutionary Prototyping",
+      "choices": [
+        "Throwaway Prototyping",
+        "Evolutionary Prototyping",
+        "Software Prototyping",
+        "Single-Use Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Prototype fidelity pertains to how it conveys the look and feel of the final product. (TR or FR)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What fidelity of prototyping states that its role is to check and test the visual appearance and user flows of a software?",
+      "answer": "Low-Fidelity Prototyping",
+      "choices": [
+        "Low-Fidelity Prototyping",
+        "High-Fidelity Prototyping",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What fidelity of prototyping does throwaway prototyping fall into?",
+      "answer": "Low-Fidelity Prototyping",
+      "choices": [
+        "Low-Fidelity Prototyping",
+        "High-Fidelity Prototyping",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What fidelity of prototyping is created when developers have a solid understanding of what they’re going to build?",
+      "answer": "High-Fidelity Prototyping",
+      "choices": [
+        "Low-Fidelity Prototyping",
+        "High-Fidelity Prototyping",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What fidelity of prototyping states the need to test it with actual users?",
+      "answer": "High-Fidelity Prototyping",
+      "choices": [
+        "Low-Fidelity Prototyping",
+        "High-Fidelity Prototyping",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What fidelity of prototyping does evolutionary prototyping fall into?",
+      "answer": "High-Fidelity Prototyping",
+      "choices": [
+        "Low-Fidelity Prototyping",
+        "High-Fidelity Prototyping",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What fidelity of prototyping is created in the form of programming codes and IDEs?",
+      "answer": "High-Fidelity Prototyping",
+      "choices": [
+        "Low-Fidelity Prototyping",
+        "High-Fidelity Prototyping",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What technique in creating low-fidelity prototypes is used to create a prototype based on hand drawings that represent UI of the software?",
+      "answer": "Paper-Based Prototyping",
+      "choices": [
+        "Paper-Based Prototyping",
+        "Wireframing",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What technique in creating low-fidelity prototypes allows developers to explore ideas and refine designs quickly?",
+      "answer": "Paper-Based Prototyping",
+      "choices": [
+        "Paper-Based Prototyping",
+        "Wireframing",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What is the visual representation of a product page that developers can use to arrange pages of user interfaces?",
+      "answer": "Wireframe",
+      "choices": [
+        "Wireframe",
+        "Prototype",
+        "Sample",
+        "Demonstration"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What technique in creating low-fidelity prototypes makes use of tools such as Balsamiq Wireframes, Axure, MockFlow, Adobe XD, and Figma?",
+      "answer": "Wireframing",
+      "choices": [
+        "Paper-Based Prototyping",
+        "Wireframing",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    }
+  ]
+}

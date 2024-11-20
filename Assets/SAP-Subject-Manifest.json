@@ -67,6 +67,37 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C3_S1_ADET_Prefinals",
+                    "Module_Name": "Prefinals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "21 November 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_ADET_Prefinals_1",
+                            "Subfolder_Name": "Prototyping and Quality Assurance",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Prefinals_1",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "21 November 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ADET_Prefinals_2",
+                            "Subfolder_Name": "Software Review and Inspection",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Prefinals_2",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "21 November 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
             ]
         },
@@ -260,7 +291,7 @@
                     "Module_ID": "C3_S1_EA_Prefinals",
                     "Module_Name": "Prefinals",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Active",
+                    "Module_Status": "Inactive",
                     "Module_LastModified": "18 November 2024",
                     "Module_Subfolders": [
                         {
@@ -356,6 +387,37 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C3_S1_PIIST_Prefinals",
+                    "Module_Name": "Prefinals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "21 November 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_PIIST_Prefinals_1",
+                            "Subfolder_Name": "Cybercrime and Security",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Prefinals_1",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "21 November 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_PIIST_Prefinals_2",
+                            "Subfolder_Name": "Legal Awareness and Cyberprotection",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Prefinals_2",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "21 November 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
             ]
         },
@@ -409,7 +471,7 @@
                     "Module_ID": "C3_S1_DDC_Prefinals",
                     "Module_Name": "Prefinals",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Active",
+                    "Module_Status": "Inactive",
                     "Module_LastModified": "18 November 2024",
                     "Module_Subfolders": [
                         {
