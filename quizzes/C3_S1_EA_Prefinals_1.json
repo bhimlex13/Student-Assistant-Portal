@@ -1,14 +1,14 @@
 {
   "quizInfo": {
-    "Subject": "Enterprise Architect",
+    "Subject": "Enterprise Architecture",
     "Term": "Prefinals",
-    "Title": "Quiz Reviewer for Prefinals",
+    "Title": "QUIZ REVIEWER",
     "LastModified": "18 November 2024",
     "Authors": [
-      ""
+      "Elmer Felisilda"
     ],
     "References": [
-      ""
+      "PREFINALS REVIEWER"
     ]
   },
   "quizData": [
@@ -42,8 +42,8 @@
       "choices": [
         "It is a situation where knowledge processes through different modeling processes while considering objectives and guidelines.",
         "It involves the condition and commitment of stakeholders on enterprise architecture.",
-        "It depicts an enterprise architecture model in a specific manner based on the agreed \r\nperception of the individuals involved in the process",
-        "It is the primary and essential models that are used in the transformation of knowledge. "
+        "It depicts an enterprise architecture model in a specific manner based on the agreed perception of the individuals involved in the process",
+        "It is the primary and essential models that are used in the transformation of knowledge."
       ],
       "reference": "Quiz Reviewer",
       "term": "Prefinals"
@@ -113,9 +113,9 @@
       "answer": "It is a goal-driven activity wherein architects determine all possible stakeholders and the purpose of the model in relation to the stakeholders.",
       "choices": [
         "It is a goal-driven activity wherein architects determine all possible stakeholders and the purpose of the model in relation to the stakeholders.",
-        "It serves as a guide in determining appropriate information to be included in the model. ",
-        "It involves requirements gathering, such as appropriate information, to create, structure, and \r\nvisualize an enterprise architecture model.",
-        "It uses the model representation to communicate with the stakeholders and evaluate whether \r\nthe model and the visualization achieved the intended outcome."
+        "It serves as a guide in determining appropriate information to be included in the model.",
+        "It involves requirements gathering, such as appropriate information, to create, structure, and visualize an enterprise architecture model.",
+        "It uses the model representation to communicate with the stakeholders and evaluate whether the model and the visualization achieved the intended outcome."
       ],
       "reference": "Quiz Reviewer",
       "term": "Prefinals"
@@ -125,9 +125,9 @@
       "answer": "Backtracking the previous state of a model.",
       "choices": [
         "Backtracking the previous state of a model.",
-        "Creating/replacing an element so it matches the meaning of a concept from another \r\nlanguage or context.",
-        "Classify the newly introduced candidate element based on the concepts used in the \r\nmodel. ",
-        "Placing a fresh term for a concept or relation in the model. "
+        "Creating/replacing an element so it matches the meaning of a concept from another language or context.",
+        "Classify the newly introduced candidate element based on the concepts used in the model.",
+        "Placing a fresh term for a concept or relation in the model."
       ],
       "reference": "Quiz Reviewer",
       "term": "Prefinals"
@@ -186,8 +186,8 @@
       "choices": [
         "Classifying newly introduced candidate elements based on the modeling concept",
         "Backtracking the previous state of a model.",
-        "Creating/replacing an element so it matches the meaning of a concept from another \r\nlanguage or context.",
-        "Placing a fresh term for a concept or relation in the model. "
+        "Creating/replacing an element so it matches the meaning of a concept from another language or context.",
+        "Placing a fresh term for a concept or relation in the model."
       ],
       "reference": "Quiz Reviewer",
       "term": "Prefinals"
@@ -234,8 +234,8 @@
       "choices": [
         "Eliminating an element with proper documentation",
         "Can be done by adding specific details to existing elements.",
-        "An architect decides whether information that is available in the model, is to be left out or \r\nnot. ",
-        "Creating/replacing an element so it matches the meaning of a concept from another \r\nlanguage or context. "
+        "An architect decides whether information that is available in the model, is to be left out or not.",
+        "Creating/replacing an element so it matches the meaning of a concept from another language or context."
       ],
       "reference": "Quiz Reviewer",
       "term": "Prefinals"
@@ -259,7 +259,7 @@
         "People have the tendency to perceive different objects, which function in a similar manner, as a unit",
         "People have the tendency to perceive objects that are similar to belong together in a unit.",
         "Also known as 'tadhana'",
-        "People have the tendency to perceive a line as continuous establishing directions based on \r\ntheir perspective. "
+        "People have the tendency to perceive a line as continuous establishing directions based on their perspective."
       ],
       "reference": "Quiz Reviewer",
       "term": "Prefinals"
@@ -269,9 +269,9 @@
       "answer": "Models can be used to describe the future situation of an organization",
       "choices": [
         "Models can be used to describe the future situation of an organization",
-        "Goal-driven activity wherein architects determine all possible stakeholders and the different \r\npurposes of the model in relation to the stakeholders. ",
-        "Involves requirements gathering, such as appropriate information, to create, structure, and \r\nvisualize an enterprise architecture model. ",
-        "Models are created using different viewpoints that give a specific set of concepts and \r\nrelations to be used during the modeling process. "
+        "Goal-driven activity wherein architects determine all possible stakeholders and the different purposes of the model in relation to the stakeholders.",
+        "Involves requirements gathering, such as appropriate information, to create, structure, and visualize an enterprise architecture model.",
+        "Models are created using different viewpoints that give a specific set of concepts and relations to be used during the modeling process."
       ],
       "reference": "Quiz Reviewer",
       "term": "Prefinals"
@@ -281,9 +281,9 @@
       "answer": "Documentation is the process of finding a suitable alternative for an element",
       "choices": [
         "Documentation is the process of finding a suitable alternative for an element",
-        "Stakeholders and their needs must be considered in visualizing a model. ",
-        "Uses the model representation to communicate with the stakeholders and evaluate whether \r\nthe model and the visualization achieved the intended outcome. ",
-        "Models are created using different viewpoints that give a specific set of concepts and \r\nrelations to be used during the modeling process. "
+        "Stakeholders and their needs must be considered in visualizing a model.",
+        "Uses the model representation to communicate with the stakeholders and evaluate whether the model and the visualization achieved the intended outcome.",
+        "Models are created using different viewpoints that give a specific set of concepts and relations to be used during the modeling process."
       ],
       "reference": "Quiz Reviewer",
       "term": "Prefinals"
@@ -305,8 +305,8 @@
       "answer": "People have the tendency to perceive incomplete objects as complete",
       "choices": [
         "People have the tendency to perceive incomplete objects as complete",
-        "People have the tendency to perceive objects that are similar to belong together in a unit. ",
-        "People have the tendency to perceive a line as continuous establishing directions based on \r\ntheir perspective.",
+        "People have the tendency to perceive objects that are similar to belong together in a unit.",
+        "People have the tendency to perceive a line as continuous establishing directions based on their perspective.",
         "It's all in the past, pangga. Let's move on with our lives and let go of the past."
       ],
       "reference": "Quiz Reviewer",
@@ -317,9 +317,9 @@
       "answer": "This includes basic patterns, alignment, and object distribution",
       "choices": [
         "This includes basic patterns, alignment, and object distribution",
-        "Shapes of objects in a model usually match the intrinsic properties of the real-life objects. ",
-        "Can also increase the appeal of a diagram but can also lead to contrary effects, such as \r\nconfusion and distraction.",
-        "Speeds up the creating of a proper mental state in modeling, while creating a good starting \r\nfor the line of reasoning. "
+        "Shapes of objects in a model usually match the intrinsic properties of the real-life objects.",
+        "Can also increase the appeal of a diagram but can also lead to contrary effects, such as confusion and distraction.",
+        "Speeds up the creating of a proper mental state in modeling, while creating a good starting for the line of reasoning."
       ],
       "reference": "Quiz Reviewer",
       "term": "Prefinals"
@@ -329,9 +329,9 @@
       "answer": "Enterprise architecture provides a high-level overview of an organization",
       "choices": [
         "Enterprise architecture provides a high-level overview of an organization",
-        "Depicts an enterprise architecture model in a specific manner based on the agreed \r\nperception of the individuals involved in the process.",
+        "Depicts an enterprise architecture model in a specific manner based on the agreed perception of the individuals involved in the process.",
         "Knowledge passes through the modeling process while considering goals and guidelines.",
-        "Goals under the modeling process of an enterprise architecture. "
+        "Goals under the modeling process of an enterprise architecture."
       ],
       "reference": "Quiz Reviewer",
       "term": "Prefinals"
@@ -341,9 +341,9 @@
       "answer": "Using the model",
       "choices": [
         "Using the model",
-        "Visualizing the model ",
-        "Creating and structuring the model ",
-        "Establishing the purpose, scope, and focus "
+        "Visualizing the model",
+        "Creating and structuring the model",
+        "Establishing the purpose, scope, and focus"
       ],
       "reference": "Quiz Reviewer",
       "term": "Prefinals"
@@ -353,9 +353,9 @@
       "answer": "Knowledge transformation",
       "choices": [
         "Knowledge transformation",
-        "Knowledge Goals ",
-        "Knowledge Representation ",
-        "Knowledge State "
+        "Knowledge Goals",
+        "Knowledge Representation",
+        "Knowledge State"
       ],
       "reference": "Quiz Reviewer",
       "term": "Prefinals"
@@ -366,8 +366,8 @@
       "choices": [
         "Using a model requires validation",
         "Requirements gathering is performed in model visualization.",
-        "Enterprise architecture involves the identification of relationships between different \r\ndomains while providing a high-level overview. ",
-        "Models can also be used to describe the current and future situation of an organization, as \r\nwell as the possible development requirements. "
+        "Enterprise architecture involves the identification of relationships between different domains while providing a high-level overview.",
+        "Models can also be used to describe the current and future situation of an organization, as well as the possible development requirements."
       ],
       "reference": "Quiz Reviewer",
       "term": "Prefinals"

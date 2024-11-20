@@ -168,6 +168,59 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C3_S1_ASIA_Prefinals",
+                    "Module_Name": "Prefinals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "20 November 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_ASIA_Prefinals_1",
+                            "Subfolder_Name": "Enterprise Asset Management (EAM) Part 1",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Prefinals_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "20 November 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ASIA_Prefinals_2",
+                            "Subfolder_Name": "Enterprise Asset Management (EAM) Part 2",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Prefinals_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "20 November 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ASIA_Prefinals_3",
+                            "Subfolder_Name": "Customer Service (CS) Part 1",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Prefinals_3",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "20 November 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ASIA_Prefinals_4",
+                            "Subfolder_Name": "Customer Service (CS) Part 2",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Prefinals_4",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "20 November 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
             ]
         },
@@ -251,7 +304,7 @@
                     "Module_ID": "C3_S1_EA_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Active",
+                    "Module_Status": "Inactive",
                     "Module_LastModified": "19 September 2024",
                     "Module_Subfolders": [
                         {
@@ -263,7 +316,7 @@
                                 "Alexander Oro"
                             ],
                             "Subfolder_LastModified": "19 September 2024",
-                            "Subfolder_Status": "Active"
+                            "Subfolder_Status": "Inactive"
                         }
                     ]
                 },
@@ -283,7 +336,7 @@
                                 "Alexander Oro"
                             ],
                             "Subfolder_LastModified": "20 October 2024",
-                            "Subfolder_Status": "Active"
+                            "Subfolder_Status": "Inactive"
                         }
                     ]
                 },
@@ -300,7 +353,7 @@
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EA_Prefinals_1",
                             "Subfolder_Author": [
-                                "Alexander Oro"
+                                "Elmer Felisilda"
                             ],
                             "Subfolder_LastModified": "18 November 2024",
                             "Subfolder_Status": "Active"
