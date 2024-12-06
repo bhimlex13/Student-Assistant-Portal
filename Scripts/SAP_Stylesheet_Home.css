@@ -394,11 +394,11 @@
 .Schedules_List_Item{
     display: grid;
     grid-template-areas: 
-        "Name Name"
-        "Time Room"
+        "Name Name Name"
+        "Time Room Empty"
     ;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 175px 125px 1fr;
     align-items: end;
     grid-gap: 10px;
     border: solid var(--SAP-Gray-Base) 1px;
@@ -425,12 +425,22 @@
 .Schedules_List_Item_Time{
     font-family: var(--Text-Font-Tertiary);
     grid-area: Time;
+    background-color: var(--SAP-Gray-Level-2L);
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
 }
 
 .Schedules_List_Item_Room{
     font-family: var(--Text-Font-Tertiary);
     grid-area: Room;
     width: auto;
+    background-color: var(--SAP-Gray-Level-2L);
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
 }
 
 .Others_Page{
