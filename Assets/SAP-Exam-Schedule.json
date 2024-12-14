@@ -8,18 +8,13 @@
             "Section_Name": "IT501-A",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Dec. 14 | Saturday",
+                    "Schedule_Day": "Dec. 16 | Monday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Professional Issues in Information Systems and Technology",
-                            "Subject_Duration": ["8:30 PM", "10:00 AM"],
+                            "Subject_Duration": ["8:30 AM", "10:00 AM"],
                             "Subject_Location": "Rm. 201"
-                        }
-                    ]
-                },
-                {
-                    "Schedule_Day": "Dec. 16 | Monday",
-                    "Schedule_Subjects": [
+                        },
                         {
                             "Subject_Name": "Data and Digital Communications",
                             "Subject_Duration": ["11:30 AM", "1:00 PM"],
@@ -65,18 +60,13 @@
             "Section_Name": "IT501-M",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Dec. 14 | Saturday",
+                    "Schedule_Day": "Dec. 16 | Monday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Professional Issues in Information Systems and Technology",
-                            "Subject_Duration": ["8:30 PM", "10:00 AM"],
+                            "Subject_Duration": ["8:30 AM", "10:00 AM"],
                             "Subject_Location": "Rm. 203"
-                        }
-                    ]
-                },
-                {
-                    "Schedule_Day": "Dec. 16 | Monday",
-                    "Schedule_Subjects": [
+                        },
                         {
                             "Subject_Name": "Data and Digital Communications",
                             "Subject_Duration": ["11:30 AM", "1:00 PM"],
@@ -122,18 +112,13 @@
             "Section_Name": "IT501-P",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Dec. 14 | Saturday",
+                    "Schedule_Day": "Dec. 16 | Monday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Professional Issues in Information Systems and Technology",
-                            "Subject_Duration": ["8:30 PM", "10:00 AM"],
+                            "Subject_Duration": ["8:30 AM", "10:00 AM"],
                             "Subject_Location": "Rm. 202"
-                        }
-                    ]
-                },
-                {
-                    "Schedule_Day": "Dec. 16 | Monday",
-                    "Schedule_Subjects": [
+                        },
                         {
                             "Subject_Name": "Data and Digital Communications",
                             "Subject_Duration": ["11:30 AM", "1:00 PM"],
