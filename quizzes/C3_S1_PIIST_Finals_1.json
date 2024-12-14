@@ -1,0 +1,370 @@
+{
+  "quizInfo": {
+    "Subject": "Professional Issues in Information Systems and Technology",
+    "Term": "Finals",
+    "Title": "Finals Reviewer",
+    "LastModified": "14 December 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This can help to contribute to society and human well-being.",
+      "answer": "Minimizing the adverse effects of information systems",
+      "choices": [
+        "Minimizing the adverse effects of information systems",
+        "Avoiding harm",
+        "Being honest and trustworthy",
+        "Finding Mary Grace Piattos"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "It is the act of obtaining or possessing another's identity and information to commit a legal offense.",
+      "answer": "Identity Theft",
+      "choices": [
+        "Identity Theft",
+        "Identity Fraud",
+        "Phishing",
+        "Cyberbullying"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following were the network developed during the first era of information systems?",
+      "answer": "Mainframe and Minicomputers",
+      "choices": [
+        "Mainframe and Minicomputers",
+        "Client and server",
+        "Personal Computers",
+        "SAP na laging may logical error"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "This deals with sharing technological knowledge and skills for underprivileged individuals.",
+      "answer": "Pro Bono Publico",
+      "choices": [
+        "Pro Bono Publico",
+        "Internet Safety",
+        "Human Safety",
+        "Environment and Sustainability"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following ensures that a reliable copy of the data is always available?",
+      "answer": "Safety",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Privacy",
+        "Kavougability"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following ensures that a reliable copy of the data is always available?",
+      "answer": "Safety",
+      "choices": [
+        "Safety",
+        "Security",
+        "Privacy",
+        "Kavougability"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following deals with proper management and expression of emotions?",
+      "answer": "Emotional Intelligence",
+      "choices": [
+        "Emotional Intelligence",
+        "Creative Problem Solving",
+        "Layoffs",
+        "Therapy"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "This responsibility is the obligation to counter and disprove any false views related to the systems?",
+      "answer": "Improve public understanding of computing and its consequences",
+      "choices": [
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities",
+        "Acquire and maintain professional competence",
+        "Access computing and communication resources only when authorized to do so"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of hte following ensures that backup data is an exact and unmodified copy of the original?",
+      "answer": "Authenticity",
+      "choices": [
+        "Authenticity",
+        "Safety",
+        "Accessibility",
+        "Security"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which startup recycles plastic waste into bricks that are resistant to water, fire, and heat?",
+      "answer": "Brickify",
+      "choices": [
+        "Brickify",
+        "Dryad Networks",
+        "Start it Up! Get, Get, Ow!",
+        "Brick Systems"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following ensures user modifications of online experiences to meet their preferences?",
+      "answer": "Personal",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following is a challenge when professionals feel discouraged and demotivated?",
+      "answer": "Low employee motivation",
+      "choices": [
+        "Low employee motivation",
+        "Low pay",
+        "Low 13th month pay",
+        "Pinasayaw sa Christmas party kasi new hire"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following facilitate virtual or co-located meetings and manage group activities?",
+      "answer": "Collaboration Management Tools",
+      "choices": [
+        "Collaboration Management Tools",
+        "Electronic Conferencing Tools",
+        "Electronic Communication Tools",
+        "Online means"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "This is an ethical theory where individuals are accountable for fulfilling a civic duty.",
+      "answer": "Social Responsibility",
+      "choices": [
+        "Social Responsibility",
+        "Human Safety",
+        "Ethical Responsibility",
+        "Internet Safety"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following concerns the replacement of employees with more advanced computers?",
+      "answer": "Lack of Job Security",
+      "choices": [
+        "Lack of Job Security",
+        "Cost",
+        "Security Issues",
+        "A.I. uprising"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "These are integrated elements that gather, process, and dissiminate information.",
+      "answer": "Information Systems",
+      "choices": [
+        "Information Systems",
+        "Traditional Applications",
+        "Advanced Applications",
+        "Technology"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following encourages taking high-risk challenges as worries about reputation are non-existent?",
+      "answer": "Confidence",
+      "choices": [
+        "Confidence",
+        "Conscientiousness",
+        "Competence",
+        "Emotional Intelligence"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Social Responsibility is not ethically validated before taking action. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "FL",
+        "TR"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following aims to resolve internet safety issues in information systems and technology?",
+      "answer": "Applying lawful and stricter rules to systems",
+      "choices": [
+        "Applying lawful and stricter rules to systems",
+        "Pro Bono Publico",
+        "Share knowledge and skills in technology",
+        "Immerse"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "These are part of personal trends in information systems and technology.",
+      "answer": "Netflix's Algorithm",
+      "choices": [
+        "Drones / Unmanned Aerial Vehicles (UAVs)",
+        "Netflix's Algorithm",
+        "Smart Watches",
+        "3D Printing"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which era of information systems and technology were centralized and concerned solely with governance?",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "These secures a computer system by removing malware.",
+      "answer": "Antivirus",
+      "choices": [
+        "Antivirus",
+        "Cryptography",
+        "Biometrics",
+        "Phishing Detection"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which era of information systems and technology were centralized and concerned solely with governance?",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following is considered a characteristic of toxic work culture?",
+      "answer": "Hiring someone \"culturally fit\"",
+      "choices": [
+        "Hiring someone \"culturally fit\"",
+        "Unethical leadership",
+        "\"Group think\" mentality",
+        "Unrealistic deadlines ops sino yon"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following ensures that backup data is an exact and unmodified copy of the original?",
+      "answer": "Authenticity",
+      "choices": [
+        "Authenticity",
+        "Safety",
+        "Accessibility",
+        "Security"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following ensures that backup data is an exact and unmodified copy of the original?",
+      "answer": "Authenticity",
+      "choices": [
+        "Authenticity",
+        "Safety",
+        "Accessibility",
+        "Security"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "It is decrypted using decryption keys.",
+      "answer": "Encrypted data / Ciphertext",
+      "choices": [
+        "Encrypted data / Ciphertext",
+        "Plaintext",
+        "Decrypted data",
+        "Blowfish"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Deliberately creating false and misleading claims about a system can be considered as ethically responsible. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "FL",
+        "TR"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following can form and change the culture?",
+      "answer": "Technology",
+      "choices": [
+        "Technology",
+        "Security",
+        "Technological Trends",
+        "Societal Changes"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Technology can form and change the culture. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    }
+  ]
+}

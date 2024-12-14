@@ -1,0 +1,348 @@
+{
+  "quizInfo": {
+    "Subject": "Professional Issues in Information Systems and Technology",
+    "Term": "Finals",
+    "Title": "The Good and The Bad of Information Systems and Technology",
+    "LastModified": "14 December 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What Future of Information Systems and Technologies states that continuous decline in hardware and software costs will make information processes affordable regardless of the company's size and financial status?",
+      "answer": "Reduced Cost",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that continuous improvement and expansion of AI will profoundly impact information systems?",
+      "answer": "Advanced AI",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that developments in natural language processing makes information systems easier to utilize?",
+      "answer": "Advanced AI",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that robots will play a significant role in the workforce as they supervise 1 of 3 jobs by 2025?",
+      "answer": "Advanced AI",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that developments in networking technology will make computer connections easier while sending information faster?",
+      "answer": "Network Technology Improvements",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that manageable network compatibility issue and improving communication quality and information delivery through voice and image integration on the same transmission medium?",
+      "answer": "Network Technology Improvements",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that internet growth will continue, putting small and large organizations in the same standing regardless of financial status?",
+      "answer": "Internet Growth",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that it allows an easier e-collaboration between users despite geographical distances?",
+      "answer": "Internet Growth",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that improvements in power and quality of PCs and mobile devices will enable information system software to run on them without issues, making them affordable, easier to maintain, and appealing to organizations?",
+      "answer": "Easier Compatibility",
+      "choices": [
+        "Easier Compatibility",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that Web 2.0 refers to today's interactive Internet and e-commerce?",
+      "answer": "Personal",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that users have expected to modify their online experiences to meet their personal preferences?",
+      "answer": "Personal",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that digital device creators ensure to provide user personalization on smartphones?",
+      "answer": "Personal",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that Netflix feed their users recommendations tailored to their viewing history and preferences?",
+      "answer": "Personal",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that devices that perfectly match personal preferences based on collected information will become the norm?",
+      "answer": "Personal",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that several smartphone functions such as messaging and social media would be better if they were easily worn onto people's bodies?",
+      "answer": "Wearable",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that it had existed before in the form of hearing aids and Bluetooth earpieces and recently it has expanded to include smartwatches, body cameras, and various fitness monitors?",
+      "answer": "Wearable",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that one of the most impressive recent innovations is the 3D printer that allows the printing of any 3D object based on a digital model designed on a computer?",
+      "answer": "Printable",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that 3D printing comprises layers of malleable materials, such as plastic, glass, metals, or wax?",
+      "answer": "Printable",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that 3D printing is useful for prototyping product designs to determine their feasibility and marketability?",
+      "answer": "Printable",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that 3D printing has also been used for prosthetic legs and earpieces that can hear beyond the normal hearing range?",
+      "answer": "Printable",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies refer to devices that operate themselves to perform specific functions are developed through the combination of software, sensors, and location technologies?",
+      "answer": "Autonomous",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Autonomous device refer to a robot whose components scale to about a nanometer (one-billionth of a meter)?",
+      "answer": "Nanobots",
+      "choices": [
+        "Nanobots",
+        "Unmanned Aerial Vehicles (UAVs) / Drones",
+        "Small Robots",
+        "Microbots"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Autonomous device states that while it's still an emerging technology, its promises for medical applications are hopeful?",
+      "answer": "Nanobots",
+      "choices": [
+        "Nanobots",
+        "Unmanned Aerial Vehicles (UAVs) / Drones",
+        "Small Robots",
+        "Microbots"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Autonomous device could be introduced to the human body to fight cancer or specific diseases?",
+      "answer": "Nanobots",
+      "choices": [
+        "Nanobots",
+        "Unmanned Aerial Vehicles (UAVs) / Drones",
+        "Small Robots",
+        "Microbots"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Autonomous device refer to a small airplane or helicopter that takes flight without a pilot and run by computers autonomously or by using a remote control?",
+      "answer": "Unmanned Aerial Vehicles (UAVs) / Drones",
+      "choices": [
+        "Nanobots",
+        "Unmanned Aerial Vehicles (UAVs) / Drones",
+        "Small Robots",
+        "Microbots"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What way to avoid layoffs deals with the proper management and expression of emotions as well as the emotions of others?",
+      "answer": "Emotional Intelligence",
+      "choices": [
+        "Emotional Intelligence",
+        "Intelligence",
+        "Emotions",
+        "Confidential Funds"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Robots don't understand human psychology as humans can. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Creative problem-solving, like what product designers, advertisers, and marketers do, is unlikely to be replicated by robots as it also means resolving employee conflict, meeting a client's goals, or adjusting to internal workflow processes. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}
