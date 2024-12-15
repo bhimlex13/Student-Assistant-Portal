@@ -1,0 +1,700 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Database Systems",
+    "Term": "Finals",
+    "Title": "Cloud Computing",
+    "LastModified": "15 December 2024",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "09 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the delivery of different services through the Internet?",
+      "answer": "Cloud Computing",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "These resources include tools and applications like data storage, servers, databases, networking, and software.",
+      "answer": "Cloud Computing",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Rather than keeping files on a proprietary hard drive or local storage device, cloud-based storage makes it possible to save them to a remote database.",
+      "answer": "Cloud Computing",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "As long as an electronic device has access to the web, it has access to the data and the software programs to run it.",
+      "answer": "Cloud Computing",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This is defined according to where the infrastructure for the deployment resides and who has control over that infrastructure.",
+      "answer": "Cloud Implementation",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "There are three types of cloud deployments categorized based on an organization’s ability to manage and secure assets as well as business needs.",
+      "answer": "Cloud Implementation",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This type of cloud infrastructure is built by a third-party organization to sell cloud services to the general public.",
+      "answer": "Public Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This is the most common type of cloud implementation; examples include Amazon Web Services (AWS), Google Application Engine, and Microsoft Azure.",
+      "answer": "Public Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In this model, cloud consumers share resources with other consumers transparently.",
+      "answer": "Public Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Despite high reliability, lower costs, zero maintenance, and on-demand scalability, this is not suitable for organizations operating with sensitive information",
+      "answer": "Public Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This type of internal cloud is built by an organization for the sole purpose of servicing its own needs.",
+      "answer": "Private Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This is often used by large, geographically dispersed organizations to add agility and flexibility to internal IT services",
+      "answer": "Private Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The cloud infrastructure could be managed by internal IT staff or an external third party",
+      "answer": "Private Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This is the combination of a private and public cloud, providing for more flexibility to businesses",
+      "answer": "Hybrid Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This cloud architecture enables companies to take advantage of the public cloud as and when necessary due to their easy workload migration",
+      "answer": "Hybrid Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In this implementation type, businesses can use the public cloud for running high-volume applications like emails and utilize private clouds for sensitive assets like financials, data recovery, and during scheduled maintenance and rise in demand.",
+      "answer": "Hybrid Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which is not a Cloud Implementation type?",
+      "answer": "Merge Cloud",
+      "choices": [
+        "Merge Cloud",
+        "Hybrid Cloud",
+        "Public Cloud",
+        "Public Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "These come in different shapes and forms; no single type of service works for all consumers.",
+      "answer": "Cloud Services",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "These often follow an à la carte model; consumers can choose multiple service options according to their individual needs",
+      "answer": "Cloud Services",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "These services can build on top of each other to provide sophisticated solutions",
+      "answer": "Cloud Services",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The cloud service provider offers turnkey applications that run in the cloud.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Consumers can run the provider’s applications internally in their organizations via the web or any mobile device.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The consumer can customize certain aspects of the application but cannot make changes to the application itself.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The application is actually shared among users from multiple organizations.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Examples of this Cloud Service include MS Office 365, Google Docs, Intuit’s TurboTax Online, and SCALA digital signage.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The cloud service provider offers the capability to build and deploy consumer-created applications using the provider’s cloud infrastructure.",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In this scenario, the consumer can build, deploy, and manage applications using the provider’s cloud tools, languages, and interfaces.",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The consumer does not manage the underlying cloud infrastructure.",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Examples of this Cloud Service include the Microsoft Azure platform with .NET and Java.",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In this case, the cloud service provider offers consumers the ability to provision their own resources on demand; these resources include storage, servers, databases, processing units, and even a complete virtualized desktop.",
+      "answer": "Infrastructure as a Service (IaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The consumer then can add or remove the resources as needed.",
+      "answer": "Infrastructure as a Service (IaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Examples of this Cloud Service include a consumer can use Amazon Web Services (AWS) and provision a server computer that runs Linux and Apache Web server using 16 GB of RAM and 160 GB of storage.",
+      "answer": "Infrastructure as a Service (IaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Cloud computing enables immediate scalability of infrastructure capacity depending on the business need.",
+      "answer": "Instant Scalability",
+      "choices": [
+        "Instant Scalability",
+        "Anywhere Accessibility",
+        "Reduced Carbon Footprint",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "It is like having an unlimited IT resource, which can be scaled up and/ or down to meet user demands",
+      "answer": "Instant Scalability",
+      "choices": [
+        "Instant Scalability",
+        "Anywhere Accessibility",
+        "Reduced Carbon Footprint",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "A lot of factors have enabled globalization, and a key one is a technology and high-speed internet connectivity.",
+      "answer": "Anywhere Accessibility",
+      "choices": [
+        "Anywhere Accessibility",
+        "Instant Scalability",
+        "Reduced Carbon Footprint",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Cloud empowers enterprises to deploy their applications across the globe so they can service their customers at a fraction of the cost of traditional brick-and-motor businesses.",
+      "answer": "Anywhere Accessibility",
+      "choices": [
+        "Anywhere Accessibility",
+        "Disaster Recovery",
+        "Reduced Carbon Footprint",
+        "Instant Scalability"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Due to lower latency, customers around the world get an identical digital experience while using the applications",
+      "answer": "Anywhere Accessibility",
+      "choices": [
+        "Anywhere Accessibility",
+        "Disaster Recovery",
+        "Instant Scalability",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which cloud computing benefit enables immediate scalability of infrastructure capacity?",
+      "answer": "Instant Scalability",
+      "choices": [
+        "Anywhere Accessibility",
+        "Reduced Carbon Footprint",
+        "Instant Scalability",
+        "Increased Speed And Operational Agility"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which benefit allows enterprises to deploy their applications globally to serve customers?",
+      "answer": "Anywhere Accessibility",
+      "choices": [
+        "Instant Scalability",
+        "Reduced Expenditure",
+        "Anywhere Accessibility",
+        "Automatic Updates/Patches"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What enables businesses to instantly scale their cloud capacity and access bandwidth demands?",
+      "answer": "Increased Speed And Operational Agility",
+      "choices": [
+        "Increased Speed And Operational Agility",
+        "Disaster Recovery",
+        "Enterprise Collaboration",
+        "High Security"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What allows enterprises to focus on building their business rather than on idle infrastructure?",
+      "answer": "Reduced Expenditure",
+      "choices": [
+        "Flexibility",
+        "Reduced Expenditure",
+        "Automatic Updates/Patches",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which cloud benefit takes care of rolling out software and security updates automatically?",
+      "answer": "Automatic Updates/Patches",
+      "choices": [
+        "Increased Speed And Operational Agility",
+        "Automatic Updates/Patches",
+        "High Security",
+        "Flexibility"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ensures businesses can save time and effort through a robust backup and recovery plan?",
+      "answer": "Disaster Recovery",
+      "choices": [
+        "High Security",
+        "Disaster Recovery",
+        "Reduced Expenditure",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What reduces the risks of information loss and cyber threats using advanced features?",
+      "answer": "High Security",
+      "choices": [
+        "Automatic Updates/Patches",
+        "High Security",
+        "Increased Speed And Operational Agility",
+        "Enterprise Collaboration"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which benefit significantly reduces power consumption and adverse environmental impact?",
+      "answer": "Reduced Carbon Footprint",
+      "choices": [
+        "Reduced Expenditure",
+        "Flexibility",
+        "Reduced Carbon Footprint",
+        "Instant Scalability"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What offers businesses vast flexibility irrespective of device type or global location?",
+      "answer": "Flexibility",
+      "choices": [
+        "Anywhere Accessibility",
+        "Disaster Recovery",
+        "Flexibility",
+        "Automatic Updates/Patches"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What improves teamwork using centralized documentation control and apps like Slack?",
+      "answer": "Enterprise Collaboration",
+      "choices": [
+        "Enterprise Collaboration",
+        "Anywhere Accessibility",
+        "Increased Speed And Operational Agility",
+        "Reduced Expenditure"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the GUI for MongoDB that allows you to analyze and understand the contents of your data?",
+      "answer": "MongoDB Compass",
+      "choices": [
+        "AWS",
+        "MongoDB Compass",
+        "MongoDB Atlas",
+        "Google Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What provides an easy way to host and manage your data in the cloud?",
+      "answer": "MongoDB Atlas",
+      "choices": [
+        "MongoDB Compass",
+        "AWS",
+        "MongoDB Atlas",
+        "Shared Cluster"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What should you click in MongoDB Compass to redirect to the MongoDB Atlas website?",
+      "answer": "CREATE FREE CLUSTER",
+      "choices": [
+        "CREATE FREE CLUSTER",
+        "GET STARTED FREE",
+        "Create a Cluster",
+        "Add IP Address"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In MongoDB Atlas, what name should you assign for the organization’s project?",
+      "answer": "Personal",
+      "choices": [
+        "Setup connection security",
+        "Personal",
+        "Shared Cluster",
+        "Connect"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which shared cluster region is selected during setup for MongoDB Atlas?",
+      "answer": "Singapore",
+      "choices": [
+        "AWS",
+        "Singapore",
+        "Google Cloud",
+        "Add IP Address"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What should be clicked in the “Add a connection IP Address” section during setup?",
+      "answer": "Add Your Current IP Address",
+      "choices": [
+        "Create Database User",
+        "Add Your Current IP Address",
+        "GET STARTED FREE",
+        "Add IP Address"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What needs to be typed for the database authentication in MongoDB Atlas setup?",
+      "answer": "Username and Password",
+      "choices": [
+        "GET STARTED FREE",
+        "Username and Password",
+        "Add Your Current IP Address",
+        "Add IP Address"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What symbol must be removed in the password when using the connection string?",
+      "answer": "“<>” symbols",
+      "choices": [
+        "Username and Password",
+        "Add IP Address",
+        "“<>” symbols",
+        "Setup connection security"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How long does it usually take for a MongoDB Atlas cluster to be created?",
+      "answer": "3-10 minutes",
+      "choices": [
+        "10-20 minutes",
+        "3-10 minutes",
+        "A few seconds",
+        "Several hours"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "After copying the connection string, what button should be clicked in MongoDB Compass?",
+      "answer": "Connect",
+      "choices": [
+        "GET STARTED FREE",
+        "Connect",
+        "Add IP Address",
+        "Create Database User"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}

@@ -293,6 +293,59 @@
                     ]
                 },
                 {   
+                    "Module_ID": "C3_S1_ADS_Prefinals",
+                    "Module_Name": "Prefinals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "15 December 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_ADS_Prefinals_1",
+                            "Subfolder_Name": "Database Administration and Security",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Prefinals_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "15 December 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ADS_Prefinals_2",
+                            "Subfolder_Name": "Database Backup and Recovery",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Prefinals_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "15 December 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ADS_Prefinals_3",
+                            "Subfolder_Name": "Introduction to NoSQL Database Management Systems",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Prefinals_3",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "15 December 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ADS_Prefinals_4",
+                            "Subfolder_Name": "All Prefinals Review",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Prefinals_4",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "15 December 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
+                },
+                {   
                     "Module_ID": "C3_S1_ADS_Finals",
                     "Module_Name": "Finals",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
@@ -307,7 +360,40 @@
                             "Subfolder_Author": [
                                 "Alexander Oro"
                             ],
-                            "Subfolder_LastModified": "21 October 2024",
+                            "Subfolder_LastModified": "15 December 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ADS_Finals_2",
+                            "Subfolder_Name": "Cloud Computing",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Finals_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "15 December 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ADS_Finals_3",
+                            "Subfolder_Name": "All Finals Review",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Finals_3",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "15 December 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ADS_Finals_4",
+                            "Subfolder_Name": "Full Course Review",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Finals_4",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "15 December 2024",
                             "Subfolder_Status": "Active"
                         }
                     ]

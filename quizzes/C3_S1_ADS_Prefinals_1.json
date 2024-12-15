@@ -1,0 +1,400 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Database Systems",
+    "Term": "Prefinals",
+    "Title": "Database Administration and Security",
+    "LastModified": "15 December 2024",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the management-oriented role that concerns controlling corporate data resources?",
+      "answer": "Data Administrator (DA)",
+      "choices": [
+        "Database Administrator (DBA)",
+        "Privileges",
+        "Objects",
+        "Data Administrator (DA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Who is responsible for the design, implementation, and maintenance of physical structures (databases)?",
+      "answer": "Database Administrator (DBA)",
+      "choices": [
+        "Data Administrator (DA)",
+        "Users",
+        "Roles",
+        "Database Administrator (DBA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What role builds the logical design of the database?",
+      "answer": "Data Administrator (DA)",
+      "choices": [
+        "Database Administrator (DBA)",
+        "db_owner",
+        "db_ddladmin",
+        "Data Administrator (DA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Who facilitates the development and use of databases in organizations?",
+      "answer": "Database Administrator (DBA)",
+      "choices": [
+        "Data Administrator (DA)",
+        "db_datawriter",
+        "db_datareader",
+        "Database Administrator (DBA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which database role has managerial orientation?",
+      "answer": "Data Administrator (DA)",
+      "choices": [
+        "Database Administrator (DBA)",
+        "db_accessadmin",
+        "db_securityadmin",
+        "Data Administrator (DA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What role has a technical orientation and analyzes data volumes and space requirements?",
+      "answer": "Database Administrator (DBA)",
+      "choices": [
+        "Data Administrator (DA)",
+        "db_datawriter",
+        "db_ddladmin",
+        "Database Administrator (DBA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Who defines policies and standards for database design (e.g., naming and abbreviation)?",
+      "answer": "Data Administrator (DA)",
+      "choices": [
+        "Database Administrator (DBA)",
+        "db_accessadmin",
+        "db_securityadmin",
+        "Data Administrator (DA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Who enforces policies and programming standards in database management?",
+      "answer": "Database Administrator (DBA)",
+      "choices": [
+        "Data Administrator (DA)",
+        "db_datawriter",
+        "db_datareader",
+        "Database Administrator (DBA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the SQL security concept representing people or programs performing actions on database objects?",
+      "answer": "Users",
+      "choices": [
+        "Roles",
+        "Privileges",
+        "Objects",
+        "Users"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are defined by SQL standards as things users manipulate within a database?",
+      "answer": "Objects",
+      "choices": [
+        "Users",
+        "Roles",
+        "Privileges",
+        "Objects"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What refers to user rights for manipulating objects like tables and views in a database?",
+      "answer": "Privileges",
+      "choices": [
+        "Roles",
+        "Users",
+        "Objects",
+        "Privileges"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are named collections of database access privileges granted to users or roles?",
+      "answer": "Roles",
+      "choices": [
+        "Objects",
+        "Privileges",
+        "Users",
+        "Roles"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which database-level fixed role can perform all configuration and maintenance activities on a database?",
+      "answer": "db_owner",
+      "choices": [
+        "db_securityadmin",
+        "db_accessadmin",
+        "db_ddladmin",
+        "db_owner"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which fixed-database role allows its members to back up the database?",
+      "answer": "db_backupoperator",
+      "choices": [
+        "db_owner",
+        "db_datareader",
+        "db_ddladmin",
+        "db_backupoperator"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What database-level role can add or remove access to a database for Windows logins or groups?",
+      "answer": "db_accessadmin",
+      "choices": [
+        "db_securityadmin",
+        "db_owner",
+        "db_datareader",
+        "db_accessadmin"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which database role allows adding, deleting, or changing data in all user tables?",
+      "answer": "db_datawriter",
+      "choices": [
+        "db_owner",
+        "db_backupoperator",
+        "db_ddladmin",
+        "db_datawriter"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the SQL command to provide access or privileges on database objects?",
+      "answer": "GRANT",
+      "choices": [
+        "REVOKE",
+        "ALTER",
+        "CREATE",
+        "GRANT"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command is used to remove privileges granted to users or roles?",
+      "answer": "REVOKE",
+      "choices": [
+        "GRANT",
+        "ALTER",
+        "DELETE",
+        "REVOKE"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the command to create a login in SQL Server?",
+      "answer": "CREATE LOGIN login_name_test WITH PASSWORD = 'Mypassword';",
+      "choices": [
+        "ALTER LOGIN login_name_test WITH PASSWORD = 'Newpassword';",
+        "CREATE USER user1 FOR LOGIN newlogin_name",
+        "GRANT SELECT ON [Names] TO user1",
+        "CREATE LOGIN login_name_test WITH PASSWORD = 'Mypassword';"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How can privileges to view and update data be assigned to a database role?",
+      "answer": "GRANT SELECT, UPDATE ON [Names] TO [Admin1]",
+      "choices": [
+        "CREATE LOGIN login_name_test WITH PASSWORD = 'Mypassword';",
+        "CREATE ROLE [Admin1]",
+        "GRANT REVOKE",
+        "GRANT SELECT, UPDATE ON [Names] TO [Admin1]"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What role restricts the ability to add, modify, or delete any data in a database?",
+      "answer": "db_denydatawriter",
+      "choices": [
+        "db_denydatareader",
+        "db_backupoperator",
+        "db_securityadmin",
+        "db_denydatawriter"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which SQL security concept refers to the ID granted to a person or process for performing specific actions?",
+      "answer": "Authentication",
+      "choices": [
+        "Privileges",
+        "Roles",
+        "Policies",
+        "Authentication"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What happens if a login is not mapped to a user in a database?",
+      "answer": "Cannot access objects in the database",
+      "choices": [
+        "Cannot connect to SQL Server",
+        "Can connect but with limited access",
+        "Has admin rights on DB",
+        "Cannot access objects in the database"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What T-SQL command is used to change the name of an existing login?",
+      "answer": "ALTER LOGIN login_name_test WITH NAME = newlogin_name",
+      "choices": [
+        "CREATE USER user1 FOR LOGIN newlogin_name",
+        "GRANT SELECT ON [Names] TO user1",
+        "CREATE ROLE [Admin1]",
+        "ALTER LOGIN login_name_test WITH NAME = newlogin_name"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is required for a user to access any objects in a database?",
+      "answer": "A login mapped to a database user",
+      "choices": [
+        "Authentication",
+        "A login mapped to a schema",
+        "Administrator privileges",
+        "A login mapped to a database user"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What fixed-database role allows members to run any DDL command in a database?",
+      "answer": "db_ddladmin",
+      "choices": [
+        "db_backupoperator",
+        "db_accessadmin",
+        "db_datawriter",
+        "db_ddladmin"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which fixed-database role restricts the ability to read any data in user tables?",
+      "answer": "db_denydatareader",
+      "choices": [
+        "db_denydatawriter",
+        "db_securityadmin",
+        "db_datawriter",
+        "db_denydatareader"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command is used to map a database user to a specific login?",
+      "answer": "CREATE USER user1 FOR LOGIN newlogin_name",
+      "choices": [
+        "GRANT SELECT ON [Names] TO user1",
+        "CREATE ROLE [Admin1]",
+        "ALTER ROLE db_owner ADD MEMBER user1",
+        "CREATE USER user1 FOR LOGIN newlogin_name"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which predefined database-level role can manage role membership and permissions?",
+      "answer": "db_securityadmin",
+      "choices": [
+        "db_accessadmin",
+        "db_backupoperator",
+        "db_datawriter",
+        "db_securityadmin"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of database-level role must you create for granting customized privileges to specific users?",
+      "answer": "User-defined database roles",
+      "choices": [
+        "Fixed-database roles",
+        "Privileges",
+        "Fixed access roles",
+        "User-defined database roles"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What role provides members with full access to configuration and all actions on a database?",
+      "answer": "db_owner",
+      "choices": [
+        "db_datawriter",
+        "db_accessadmin",
+        "db_datareader",
+        "db_owner"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How can access to a table be removed from a user using SQL commands?",
+      "answer": "REVOKE [privilege] ON [table] TO [user]",
+      "choices": [
+        "GRANT [privilege] ON [table] TO [user]",
+        "ALTER USER [user]",
+        "RESTRICT [table access]",
+        "REVOKE [privilege] ON [table] TO [user]"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    }
+  ]
+}

@@ -1,0 +1,5198 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Database Systems",
+    "Term": "Finals",
+    "Title": "Full Course Review",
+    "LastModified": "15 December 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "All handouts"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "It is an organized collection of structured information or data typically stored electronically in a computer system.",
+      "answer": "Database",
+      "choices": [
+        "Database",
+        "Database Management System (DBMS)",
+        "Database Application",
+        "Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is usually controlled by a Database Management system (DBMS).",
+      "answer": "Database",
+      "choices": [
+        "Database",
+        "Database Management System (DBMS)",
+        "Database Application",
+        "Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is an interface between the database and its end-users or programs, allowing users to retrieve, update, and manage how the information is organized and optimized.",
+      "answer": "Database Management System (DBMS)",
+      "choices": [
+        "Database",
+        "Database Management System (DBMS)",
+        "Database Application",
+        "Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It facilitates oversight and control of databases, enabling a variety of administrative operations such as performance monitoring, tuning, and backup and recovery.",
+      "answer": "Database Management System (DBMS)",
+      "choices": [
+        "Database",
+        "Database Management System (DBMS)",
+        "Database Application",
+        "Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a set of 1 or more computer programs that serves as an intermediary between the user and the DBMS.",
+      "answer": "Database Application",
+      "choices": [
+        "Database",
+        "Database Management System (DBMS)",
+        "Database Application",
+        "Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It reads or modify database data by sending database queries to the DBMS.",
+      "answer": "Database Application",
+      "choices": [
+        "Database",
+        "Database Management System (DBMS)",
+        "Database Application",
+        "Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are unsophisticated users who interact with the system by using predefined UIs, such as web and mobile applications.",
+      "answer": "Naive users",
+      "choices": [
+        "Naive users",
+        "Application programmers",
+        "Sophisticated users",
+        "Normie Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are computer professionals who write application programs.",
+      "answer": "Application programmers",
+      "choices": [
+        "Naive users",
+        "Application programmers",
+        "Sophisticated users",
+        "Normie Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These interacts with the system without writing programs.",
+      "answer": "Sophisticated users",
+      "choices": [
+        "Naive users",
+        "Application programmers",
+        "Sophisticated users",
+        "Normie Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These form requests using a database query language.",
+      "answer": "Sophisticated users",
+      "choices": [
+        "Naive users",
+        "Application programmers",
+        "Sophisticated users",
+        "Normie Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It involves database design and construction on how the databases will operate and function within existing structures and location.",
+      "answer": "Database System Architecture",
+      "choices": [
+        "Database System Architecture",
+        "Database Design",
+        "Database Architecture",
+        "Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of database system involves a database that supports data located at a single site.",
+      "answer": "Centralized Database System",
+      "choices": [
+        "Centralized Database System",
+        "Distributed Database System",
+        "Advanced Database System",
+        "Singular Database System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of database system involves a collection of multiple interconnected databases, spread physically across various locations.",
+      "answer": "Distributed Database System",
+      "choices": [
+        "Centralized Database System",
+        "Distributed Database System",
+        "Advanced Database System",
+        "Singular Database System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of data structure is stored in relational databases and uses a predefined and expected format or schema.",
+      "answer": "Structured Data",
+      "choices": [
+        "Structured Data",
+        "Unstructured Data",
+        "Semi-structured Data",
+        "Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of data structure in a DBMS exists in its original or raw state that can come in all shapes and sizes.",
+      "answer": "Unstructured Data",
+      "choices": [
+        "Structured Data",
+        "Unstructured Data",
+        "Semi-structured Data",
+        "Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of data structure in a DBMS involves individual data items of the same type may have different sets of attributes and contains semantic tags and there is no pre-defined schema.",
+      "answer": "Semi-structured Data",
+      "choices": [
+        "Structured Data",
+        "Unstructured Data",
+        "Semi-structured Data",
+        "Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS is a computer language for storing, manipulating, and retrieving data stored in a relational database.",
+      "answer": "Structured Query Language (SQL)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS is a new generation of DBMS that is not based on the traditional relational database model and has been developed to address the challenges represented by Big Data.",
+      "answer": "Not only SQL (NoSQL)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS features a dynamic schema for unstructured data and the data can be stored in different ways.",
+      "answer": "Not only SQL (NoSQL)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS allows you to create documents without first having to carefully plan and defined their structure.",
+      "answer": "Not only SQL (NoSQL)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS incorporates and builds on the concepts and principles of SQL and NoSQL systems.",
+      "answer": "NewSQL",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS stores objects rather than data as individual relations.",
+      "answer": "Object-Oriented Database",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS uses OOP languages such as C++, Java, and C#.",
+      "answer": "Object-Oriented Database",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS is useful when you have a business need for high performance on complex data.",
+      "answer": "Object-Oriented Database",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS is designed to facilitate the exchange of structured documents.",
+      "answer": "Extensible Markup Language (XML)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "Extensible Markup Language (XML)",
+        "Procedural Language SQL (PL-SQL)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS simplifies data sharing between various systems because of its platform-independent nature.",
+      "answer": "Extensible Markup Language (XML)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "Extensible Markup Language (XML)",
+        "Procedural Language SQL (PL-SQL)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS is useful as long as your datasets stay relatively small.",
+      "answer": "Extensible Markup Language (XML)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "Extensible Markup Language (XML)",
+        "Procedural Language SQL (PL-SQL)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension is a combination of SQL along with the procedural features of programming language.",
+      "answer": "Procedural Language SQL (PL-SQL)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "Extensible Markup Language (XML)",
+        "Procedural Language SQL (PL-SQL)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension is developed by Oracle Corporation.",
+      "answer": "Procedural Language SQL (PL-SQL)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "Extensible Markup Language (XML)",
+        "Procedural Language SQL (PL-SQL)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension adds and declare variables, support transaction control, error and exception handling, and row processing to SQLs existing functions.",
+      "answer": "Transact SQL (T-SQL)",
+      "choices": [
+        "Transact SQL (T-SQL)",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension is Microsoft and Sybase’s extension of SQL.",
+      "answer": "Transact SQL (T-SQL)",
+      "choices": [
+        "Transact SQL (T-SQL)",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension is an open-source object-relational database system that uses and extends the SQL language.",
+      "answer": "PostgreSQL",
+      "choices": [
+        "Transact SQL (T-SQL)",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension is an open-source relational DBMS developed and supported by Oracle.",
+      "answer": "MySQL",
+      "choices": [
+        "Transact SQL (T-SQL)",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension is a relational DBMS contained in a C programming library.",
+      "answer": "SQLite",
+      "choices": [
+        "Transact SQL (T-SQL)",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block defines a set of SQL statements that execute together.",
+      "answer": "BEGIN/END",
+      "choices": [
+        "BEGIN/END",
+        "DECLARE",
+        "SET/SELECT",
+        "CAST"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block assigns a variable in an SQL server.",
+      "answer": "DECLARE",
+      "choices": [
+        "BEGIN/END",
+        "DECLARE",
+        "SET/SELECT",
+        "CAST"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block require you to have your variable names start at \"@\".",
+      "answer": "DECLARE",
+      "choices": [
+        "BEGIN/END",
+        "DECLARE",
+        "SET/SELECT",
+        "CAST"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block assigns values to a variable.",
+      "answer": "SET/SELECT",
+      "choices": [
+        "BEGIN/END",
+        "DECLARE",
+        "SET/SELECT",
+        "CAST"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block converts an expression of one data type to another.",
+      "answer": "CAST",
+      "choices": [
+        "BEGIN/END",
+        "DECLARE",
+        "SET/SELECT",
+        "CAST"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block prints a pre-defined message or value.",
+      "answer": "PRINT",
+      "choices": [
+        "PRINT",
+        "TRY/CATCH",
+        "DECLARE",
+        "SET/SELECT"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block helps deal with any unexpected or exceptional situations that occur when a program/query is running.",
+      "answer": "TRY/CATCH",
+      "choices": [
+        "PRINT",
+        "TRY/CATCH",
+        "DECLARE",
+        "SET/SELECT"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement specifies a block of code to be executed, if the returning condition is true.",
+      "answer": "IF-ELSE",
+      "choices": [
+        "IF-ELSE",
+        "ELSE",
+        "ELSE-IF",
+        "WHILE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement specifies a block of code to be executed, if the returning condition is false.",
+      "answer": "ELSE",
+      "choices": [
+        "IF-ELSE",
+        "ELSE",
+        "ELSE-IF",
+        "WHILE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement specifies a new condition to test, if the previous returning condition is false.",
+      "answer": "ELSE-IF",
+      "choices": [
+        "IF-ELSE",
+        "ELSE",
+        "ELSE-IF",
+        "WHILE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement loops through a block of code as long as a specified condition is true.",
+      "answer": "WHILE",
+      "choices": [
+        "IF-ELSE",
+        "ELSE",
+        "ELSE-IF",
+        "WHILE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement is an extension of the IF-ELSE statement.",
+      "answer": "CASE",
+      "choices": [
+        "CASE",
+        "IF-ELSE",
+        "ELSE-IF",
+        "WHILE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement allows the user to apply multiple conditions to perform different sets of actions.",
+      "answer": "CASE",
+      "choices": [
+        "CASE",
+        "IF-ELSE",
+        "ELSE-IF",
+        "WHILE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a specified a temporary named result set.",
+      "answer": "Common Table Expression (CTE)",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is defined using the WITH operator.",
+      "answer": "Common Table Expression (CTE)",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This allows users to define tables that can be used in a particular query.",
+      "answer": "Common Table Expression (CTE)",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A Common Table Expression can be referenced within another SELECT, INSERT, UPDATE, or DELETE statement. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Clauses like ORDER BY, INTO, and OPTION can be used in CTE queries. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of CTE doesn’t use repeated procedural loops/recursion.",
+      "answer": "Non-Recursive CTE",
+      "choices": [
+        "Non-Recursive CTE",
+        "Recursive CTE",
+        "Cursive CTE",
+        "Non-Looping CTE"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of CTE is easier to understand.",
+      "answer": "Non-Recursive CTE",
+      "choices": [
+        "Non-Recursive CTE",
+        "Recursive CTE",
+        "Cursive CTE",
+        "Non-Looping CTE"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of CTE uses repeated procedural loops/recursion.",
+      "answer": "Recursive CTE",
+      "choices": [
+        "Non-Recursive CTE",
+        "Recursive CTE",
+        "Cursive CTE",
+        "Non-Looping CTE"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of CTE is useful when working with hierarchical data because the CTE continues to execute until the query returns the entire hierarchy.",
+      "answer": "Recursive CTE",
+      "choices": [
+        "Non-Recursive CTE",
+        "Recursive CTE",
+        "Cursive CTE",
+        "Non-Looping CTE"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a query (SELECT statement) inside another query.",
+      "answer": "Subqueries",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The first query in a subquery is known as the outer query. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The query inside a subquery is known as the inner query. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The inner query of a subquery is executed <i>last</i>. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The output of an inner query in a subquery is used as the input for the outer query. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a virtual table that is constructed from other tables or views and saved as an object in the database.",
+      "answer": "Views",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It has no data of its own, but obtains data from tables or other views.",
+      "answer": "Views",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "You can’t include ORDER BY clause and a reference to a temporary table or a table variable in a view. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is used to speed up searches/queries, resulting in high performance.",
+      "answer": "Index",
+      "choices": [
+        "Common Table Expression (CTE)",
+        "Subqueries",
+        "Views",
+        "Index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What factor to consider in creating an index states that creating an index to a particular column that is frequently searched can give performance benefits?",
+      "answer": "Frequency of search",
+      "choices": [
+        "Frequency of search",
+        "Size of table",
+        "Number of updates",
+        "Space considerations"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What factor to consider in creating an index states that putting an index on a relatively large table that contains a great number of rows can improve performance.",
+      "answer": "Size of table",
+      "choices": [
+        "Frequency of search",
+        "Size of table",
+        "Number of updates",
+        "Space considerations"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What factor to consider in creating an index states that a database that is frequently updated should have fewer indexes as it slows the performance of inserts, updates, and deletes.",
+      "answer": "Number of updates",
+      "choices": [
+        "Frequency of search",
+        "Size of table",
+        "Number of updates",
+        "Space considerations"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What factor to consider in creating an index states that one must create an index only if necessary, as indexes takes up space within the database.",
+      "answer": "Space considerations",
+      "choices": [
+        "Frequency of search",
+        "Size of table",
+        "Number of updates",
+        "Space considerations"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of index is based on only 1 column.",
+      "answer": "Single-column indexes",
+      "choices": [
+        "Single-column indexes",
+        "Unique indexes",
+        "Composite indexes",
+        "Dropping index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of index doesn't allow any duplicate values to be inserted into the table.",
+      "answer": "Unique indexes",
+      "choices": [
+        "Single-column indexes",
+        "Unique indexes",
+        "Composite indexes",
+        "Dropping index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of index is based on 2 or more columns of a table.",
+      "answer": "Composite indexes",
+      "choices": [
+        "Single-column indexes",
+        "Unique indexes",
+        "Composite indexes",
+        "Dropping index"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a collection of operations that form a single logical unit of work.",
+      "answer": "transaction",
+      "choices": [
+        "transaction",
+        "durability",
+        "atomicity",
+        "consistency"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It is the equivalent of a single SQL statement in an application program or transaction.",
+      "answer": "data request",
+      "choices": [
+        "data request",
+        "data requirements",
+        "database consistent state",
+        "transaction log"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which best exemplifies a database request?",
+      "answer": "If a transaction has three update statements and one insert statement, the transaction uses four database requests.",
+      "choices": [
+        "If a transaction has three update statements and one insert statement, the transaction uses four database requests.",
+        "The database will reject any entry in the gender column that is not \"Male\" or \"Female,\" such as \"Person.",
+        "This record or log helps bring the database back to a consistent state in the case of system failure.",
+        "\r\nIf two people use the same ATM card at the same time, the first transaction will be processed, and the account will be locked to other users until the current session is complete."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It satisfies the constraints specified in the schema.",
+      "answer": "database consistent state",
+      "choices": [
+        "data request",
+        "isolation",
+        "database consistent state",
+        "durability"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which best exemplifies a database consistent state?",
+      "answer": "The database will reject any entry in the gender column that is not \"Male\" or \"Female,\" such as \"Person.",
+      "choices": [
+        "If a transaction has three update statements and one insert statement, the transaction uses four database requests.",
+        "The database will reject any entry in the gender column that is not \"Male\" or \"Female,\" such as \"Person.",
+        "This record or log helps bring the database back to a consistent state in the case of system failure.",
+        "\r\nIf two people use the same ATM card at the same time, the first transaction will be processed, and the account will be locked to other users until the current session is complete."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "A DBMS uses this to keep track of all the transactions that update the database.",
+      "answer": "transaction log",
+      "choices": [
+        "data request",
+        "data requirements",
+        "database consistent state",
+        "transaction log"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which best exemplifies a transaction log?",
+      "answer": "This record or log helps bring the database back to a consistent state in the case of system failure.",
+      "choices": [
+        "If a transaction has three update statements and one insert statement, the transaction uses four database requests.",
+        "The database will reject any entry in the gender column that is not \"Male\" or \"Female,\" such as \"Person.",
+        "This record or log helps bring the database back to a consistent state in the case of system failure.",
+        "\r\nIf two people use the same ATM card at the same time, the first transaction will be processed, and the account will be locked to other users until the current session is complete."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It requires that all operations of a transaction should be completed.",
+      "answer": "atomicity",
+      "choices": [
+        "transaction",
+        "durability",
+        "atomicity",
+        "consistency"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which best exemplifies atomicity?",
+      "answer": "Transaction T1 requires all four SQL requests to be completed successfully, or the entire transaction will be aborted.",
+      "choices": [
+        "Transaction T1 requires all four SQL requests to be completed successfully, or the entire transaction will be aborted.",
+        "\r\nIf two people use the same ATM card at the same time, the first transaction will be processed, and the account will be locked to other users until the current session is complete.",
+        "If a transaction has three update statements and one insert statement, the transaction uses four database requests.",
+        "The database will reject any entry in the gender column that is not \"Male\" or \"Female,\" such as \"Person."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It ensures that only valid data following all rules and constraints will be written in the database.",
+      "answer": "consistency",
+      "choices": [
+        "consistency",
+        "transaction",
+        "durability",
+        "atomicity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is TRUE  about consistency?",
+      "answer": "When a transaction results in invalid data, the database reverts to its previous state.",
+      "choices": [
+        "When a transaction results in invalid data, the database reverts to its previous state.",
+        "It ensures that once transaction changes are done and committed, they cannot be undone or lost.",
+        "The data used during the execution of a current transaction cannot be used by another transaction until the first one is completed.",
+        "It requires that all operations of a transaction should be completed."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "The data used during the execution of a current transaction cannot be used by another transaction until the first one is completed.",
+      "answer": "isolation",
+      "choices": [
+        "isolation",
+        "consistency",
+        "transaction",
+        "durability"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which best exemplifies isolation?",
+      "answer": "\r\nIf two people use the same ATM card at the same time, the first transaction will be processed, and the account will be locked to other users until the current session is complete.",
+      "choices": [
+        "If a transaction has three update statements and one insert statement, the transaction uses four database requests.",
+        "The database will reject any entry in the gender column that is not \"Male\" or \"Female,\" such as \"Person.",
+        "This record or log helps bring the database back to a consistent state in the case of system failure.",
+        "\r\nIf two people use the same ATM card at the same time, the first transaction will be processed, and the account will be locked to other users until the current session is complete."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It ensures that once transaction changes are done and committed, they cannot be undone or lost.",
+      "answer": "durability",
+      "choices": [
+        "consistency",
+        "transaction",
+        "durability",
+        "atomicity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "If the transaction fails between steps 3 and 6, the system must ensure that no updates are reflected in the database; otherwise, it will cause inconsistency.",
+      "answer": "atomicity requirement",
+      "choices": [
+        "atomicity requirement",
+        "consistency requirement",
+        "isolation requirement",
+        "durability requirement"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "The total balance of Aldous' and Brendon's accounts remains unchanged after the transaction. However, if another transaction accesses the partially updated database between steps 3 and 6, it will encounter an inconsistent state.",
+      "answer": "consistency requirement",
+      "choices": [
+        "atomicity requirement",
+        "consistency requirement",
+        "isolation requirement",
+        "durability requirement"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Transactions must run sequentially, meaning no other transaction will occur on either account until the current transaction is finished.",
+      "answer": "isolation requirement",
+      "choices": [
+        "atomicity requirement",
+        "consistency requirement",
+        "isolation requirement",
+        "durability requirement"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Once the user is notified that the transaction is complete, the updates made to the database must remain intact, even in the event of failures.",
+      "answer": "durability requirement",
+      "choices": [
+        "atomicity requirement",
+        "consistency requirement",
+        "isolation requirement",
+        "durability requirement"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SQL Transactional command marks the beginning of transaction execution?",
+      "answer": "BEGIN TRANSACTION",
+      "choices": [
+        "BEGIN TRANSACTION",
+        "@@TRANCOUNT",
+        "ROLLBACK TRANSACTION",
+        "SAVE TRANSACTION"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SQL Transactional command signals a successful end of the transaction so that any changes executed by the transaction can be safely committed to the database and will not be undone?",
+      "answer": "COMMIT",
+      "choices": [
+        "BEGIN TRANSACTION",
+        "COMMIT",
+        "ROLLBACK TRANSACTION",
+        "SAVE TRANSACTION"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SQL Transactional command signals that the transaction has ended unsuccessfully so that any changes or effects that the transaction may have applied to the database must be undone?",
+      "answer": "ROLLBACK TRANSACTION",
+      "choices": [
+        "BEGIN TRANSACTION",
+        "COMMIT",
+        "ROLLBACK TRANSACTION",
+        "SAVE TRANSACTION"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SQL Transactional command allows you to roll the transaction back to a certain point without rolling back the entire transaction?",
+      "answer": "SAVE TRANSACTION",
+      "choices": [
+        "BEGIN TRANSACTION",
+        "@@TRANCOUNT",
+        "ROLLBACK TRANSACTION",
+        "SAVE TRANSACTION"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SQL Transactional command returns the number of BEGIN TRANSACTION statements that have occurred on the current connection?",
+      "answer": "@@TRANCOUNT",
+      "choices": [
+        "@@TRANCOUNT",
+        "COMMIT",
+        "ROLLBACK TRANSACTION",
+        "SAVE TRANSACTION"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which transaction execution state allows a transaction to perform READ and WRITE operations?",
+      "answer": "active state",
+      "choices": [
+        "active state",
+        "partially commited state",
+        "commited state",
+        "terminated"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "In which transaction execution state has the final statement in queries been executed?",
+      "answer": "partially commited state",
+      "choices": [
+        "active state",
+        "partially commited state",
+        "commited state",
+        "failed state"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which transaction execution state occurs after all operations have been completed?",
+      "answer": "commited state",
+      "choices": [
+        "active state",
+        "terminated",
+        "commited state",
+        "failed state"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which transaction execution state occurs if one of the operations cannot be completed?",
+      "answer": "failed state",
+      "choices": [
+        "active state",
+        "partially commited state",
+        "commited state",
+        "failed state"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which transaction execution state corresponds to the transaction leaving the system, whether it is committed or aborted?",
+      "answer": "terminated",
+      "choices": [
+        "terminated",
+        "partially commited state",
+        "commited state",
+        "failed state"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about concurrency control?",
+      "answer": "When several transactions execute simultaneously in the database, there will be a chance that the consistency and integrity of data may no longer be preserved.",
+      "choices": [
+        "When several transactions execute simultaneously in the database, there will be a chance that the consistency and integrity of data may no longer be preserved.",
+        "When a transaction results in invalid data, the database reverts to its previous state.",
+        "It ensures that once transaction changes are done and committed, they cannot be undone or lost.",
+        "The data used during the execution of a current transaction cannot be used by another transaction until the first one is completed."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about lost update?",
+      "answer": "This occurs when two concurrent transactions, T1 and T2, are updating the same data element, and one of the updates is lost.",
+      "choices": [
+        "This occurs when two concurrent transactions, T1 and T2, are updating the same data element, and one of the updates is lost.",
+        "This occurs when two transactions, T1 and T2, are executed concurrently, and T1 is rolled back after T2 has accessed its uncommitted data.",
+        "This occur when a transaction accesses data before and after one or more other transactions finish working with the same data.",
+        "It requires that all operations of a transaction should be completed."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about uncommitted data?",
+      "answer": "This occurs when two transactions, T1 and T2, are executed concurrently, and T1 is rolled back after T2 has accessed its uncommitted data.",
+      "choices": [
+        "This occurs when two concurrent transactions, T1 and T2, are updating the same data element, and one of the updates is lost.",
+        "This occurs when two transactions, T1 and T2, are executed concurrently, and T1 is rolled back after T2 has accessed its uncommitted data.",
+        "This occur when a transaction accesses data before and after one or more other transactions finish working with the same data.",
+        "It requires that all operations of a transaction should be completed."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about inconsistent retrievals?",
+      "answer": "This occur when a transaction accesses data before and after one or more other transactions finish working with the same data.",
+      "choices": [
+        "This occurs when two concurrent transactions, T1 and T2, are updating the same data element, and one of the updates is lost.",
+        "\r\nThis occurs when two transactions, T1 and T2, are executed concurrently, and T1 is rolled back after T2 has accessed its uncommitted data.",
+        "This occur when a transaction accesses data before and after one or more other transactions finish working with the same data.",
+        "It requires that all operations of a transaction should be completed."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It guarantees exclusive use of data item to a current transaction.",
+      "answer": "lock",
+      "choices": [
+        "deadlock",
+        "lock",
+        "deadpool",
+        "loki"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about database-level lock?",
+      "answer": "Prevents access to any row by transaction T2 while transaction T1 is using the table.",
+      "choices": [
+        "Locks the entire database",
+        "Prevents access to any row by transaction T2 while transaction T1 is using the table.",
+        "Prevents the use of any tables in the database to transaction T2 while transaction T1 is being executed",
+        "This is good for batch processes but unsuitable for multiuser DBMS, as it can slow down data access by requiring thousands of transactions to wait for the current one to finish."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about table-level lock?",
+      "answer": "Less restrictive",
+      "choices": [
+        "If a transaction requires access to several tables, each table may be locked",
+        "Two transactions can access the same database as long as they access different tables.",
+        "Transactions T1 and T2 cannot access the same table even when they try to use different rows.",
+        "Less restrictive"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about row-level lock?",
+      "answer": "Allows concurrent transactions to access different rows of the same table even when the rows are located on the same page.",
+      "choices": [
+        "If a transaction requires access to several tables, each table may be locked",
+        "Two transactions can access the same database as long as they access different tables.",
+        "Transactions T1 and T2 cannot access the same table even when they try to use different rows.",
+        "Allows concurrent transactions to access different rows of the same table even when the rows are located on the same page."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about binary lock?",
+      "answer": "It exists when access is reserved specifically for the transaction that locked the object.",
+      "choices": [
+        "Has only two states: locked (1) and unlocked (0)",
+        "User does not require to manually lock or unlock data items.",
+        "If an object such as a database, table, or row is locked by a transaction, no other transaction can use that object",
+        "It exists when access is reserved specifically for the transaction that locked the object."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about shared/exclusive lock?",
+      "answer": "This lock exists when a transaction wants to read data from the database, and no exclusive lock has held that data item.",
+      "choices": [
+        "Has only two states: locked (1) and unlocked (0)",
+        "User does not require to manually lock or unlock data items.",
+        "If an object such as a database, table, or row is locked by a transaction, no other transaction can use that object",
+        "This lock exists when a transaction wants to read data from the database, and no exclusive lock has held that data item."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This occurs when two (2) transactions wait indefinitely for each other to unlock data.",
+      "answer": "deadlock",
+      "choices": [
+        "deadlock",
+        "lock",
+        "deadpool",
+        "loki"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about deadlock prevention?",
+      "answer": "A transaction requesting a new lock is aborted if there is a possibility of a deadlock. When a transaction is aborted, all changes it made are rolled back, and all locks it held are released.",
+      "choices": [
+        "The DBMS periodically tests the database for deadlocks. If a deadlock is found, the “victim” transaction is aborted, and another transaction continues.",
+        "A transaction requesting a new lock is aborted if there is a possibility of a deadlock. When a transaction is aborted, all changes it made are rolled back, and all locks it held are released.",
+        "The transaction must obtain all the locks it needs before it can be executed. However, the serial lock assignment required in deadlock avoidance increases action response time.",
+        "Cause sometimes I look in her eyes And that's where I find a glimpse of us. And I try to fall for her touch But I'm thinking of the way it was."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about deadlock detection?",
+      "answer": "The DBMS periodically tests the database for deadlocks. If a deadlock is found, the “victim” transaction is aborted, and another transaction continues.",
+      "choices": [
+        "The DBMS periodically tests the database for deadlocks. If a deadlock is found, the “victim” transaction is aborted, and another transaction continues.",
+        "A transaction requesting a new lock is aborted if there is a possibility of a deadlock. When a transaction is aborted, all changes it made are rolled back, and all locks it held are released.",
+        "The transaction must obtain all the locks it needs before it can be executed. However, the serial lock assignment required in deadlock avoidance increases action response time.",
+        "If you've been waiting for fallin' in love. Babe, you don't have to wait on me. Cause I've been aiming for heaven above. But an angel ain't what I need."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about deadlock avoidance?",
+      "answer": "The transaction must obtain all the locks it needs before it can be executed. However, the serial lock assignment required in deadlock avoidance increases action response time.",
+      "choices": [
+        "The DBMS periodically tests the database for deadlocks. If a deadlock is found, the “victim” transaction is aborted, and another transaction continues.",
+        "A transaction requesting a new lock is aborted if there is a possibility of a deadlock. When a transaction is aborted, all changes it made are rolled back, and all locks it held are released.",
+        "The transaction must obtain all the locks it needs before it can be executed. However, the serial lock assignment required in deadlock avoidance increases action response time.",
+        "Go ahead and bark after dark.Fallen star, I'm your one call away. Motel halls, neon walls. When night falls, I am your escape"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Described by the type of “reads” that a transaction allows or not.",
+      "answer": "transaction isolation levels",
+      "choices": [
+        "transaction isolation levels",
+        "transaction isolation lock",
+        "deadlock isolation levels",
+        "deadlock prevention lock"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It is a transaction can read data that is not committed yet.",
+      "answer": "dirty read",
+      "choices": [
+        "dirty read",
+        "non-repeatable read",
+        "phantom read",
+        "little read riding hood"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It a transaction reads a given row at time T1, and then it reads the same row at time T2, yielding different results.",
+      "answer": "non-repeatable read",
+      "choices": [
+        "dirty read",
+        "non-repeatable read",
+        "phantom read",
+        "little read riding hood"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It a transaction executes a query at time T1, and then it runs the same query at time T2, yielding additional rows that satisfy the query.",
+      "answer": "phantom read",
+      "choices": [
+        "dirty read",
+        "non-repeatable read",
+        "phantom read",
+        "little read riding hood"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about READ UNCOMMITED?",
+      "answer": "Default isolation level for SQL Server",
+      "choices": [
+        "It is the least restrictive isolation level",
+        "It ignores locks placed by other transactions",
+        "Can read modified data values that have not yet been committed by other transactions; these are called \"dirty\" reads",
+        "Default isolation level for SQL Server"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about READ COMMITED?",
+      "answer": "It is the least restrictive isolation level",
+      "choices": [
+        "Default isolation level for SQL Server",
+        "It is the least restrictive isolation level",
+        "Prevents dirty reads by specifying that statements cannot read data values that have been modified but not yet committed by other transactions",
+        "Other transactions can modify, insert, or delete data between individual statements in a current transaction, leading to non-repeatable reads or \"phantom\" data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about REPEATABLE READ?",
+      "answer": "Prevents dirty reads by specifying that statements cannot read data values that have been modified but not yet committed by other transactions",
+      "choices": [
+        "A more restrictive isolation level than READ COMMITTED",
+        "Encompasses READ COMMITTED",
+        "Ensures that no other transactions can modify or delete data that has been read by the current transaction until the current transaction commits",
+        "Prevents dirty reads by specifying that statements cannot read data values that have been modified but not yet committed by other transactions"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about SERIALIZABLE isolation?",
+      "answer": "Most restrictive level and gives solution to the phantom read. problem.",
+      "choices": [
+        "Most restrictive level and gives solution to the phantom read. problem.",
+        "A more restrictive isolation level than READ COMMITTED",
+        "Encompasses READ COMMITTED",
+        "Ensures that no other transactions can modify or delete data that has been read by the current transaction until the current transaction commits"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about SERIALIZABLE isolation?",
+      "answer": "Ensures that the data that one transaction has read, will be prevented from being updated or deleted by any other transaction",
+      "choices": [
+        "Ensures that the data that one transaction has read, will be prevented from being updated or deleted by any other transaction",
+        "A more restrictive isolation level than READ COMMITTED",
+        "Encompasses READ COMMITTED",
+        "Ensures that no other transactions can modify or delete data that has been read by the current transaction until the current transaction commits"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It is a database designed to enable and support business intelligence activities, especially analytics.",
+      "answer": "date warehouse",
+      "choices": [
+        "date warehouse",
+        "data storage location",
+        "data plant",
+        "data interactions"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about data warehouse?",
+      "answer": "always implemented on the relational database management system (RDBMS) technology like SQL",
+      "choices": [
+        "intended to perform queries and analysis",
+        "optimized for data retrieval, not for transaction processing",
+        "centralizes and consolidates large amounts of data from multiple sources",
+        "always implemented on the relational database management system (RDBMS) technology like SQL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about data warehouse?",
+      "answer": "allow users to analyze the data using elaborate and complex multi-dimensional views",
+      "choices": [
+        "allows organizations to derive valuable business insights from their data to improve decision-making",
+        "can be considered an organization’s 'single source of truth'",
+        "intended to perform queries and analysis",
+        "allow users to analyze the data using elaborate and complex multi-dimensional views"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "The DW can analyze data about a particular subject or functional area.",
+      "answer": "subject-oriented",
+      "choices": [
+        "subject-oriented",
+        "integrated",
+        "time-variant",
+        "non-volatile"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about subject-oriented?",
+      "answer": "Once data is in a data warehouse, it is stable and does not change.",
+      "choices": [
+        "Subjects can be products, customers, departments, regions, etc",
+        "The functional area can be sales, marketing, finance, distribution, etc",
+        "Focuses on the data rather than on the processes that modify the data",
+        "Once data is in a data warehouse, it is stable and does not change."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "The DW creates consistency among different data types from different sources.",
+      "answer": "integrated",
+      "choices": [
+        "subject-oriented",
+        "integrated",
+        "time-variant",
+        "non-volatile"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about integrated?",
+      "answer": "Data in a Data Warehouse (DW) reflects the flow of information over time and can be organized by weeks, months, or years",
+      "choices": [
+        "DW must conform to a common format that is acceptable throughout the organization",
+        "The DW creates consistency among different data types from different sources",
+        "A student's level in the database can be categorized as 'freshman', 'sophomore', 'junior', or 'senior' in the accounting department, and as 'FR', 'SO', 'JR', or 'SR' in the computer information systems department.",
+        "Data in a Data Warehouse (DW) reflects the flow of information over time and can be organized by weeks, months, or years"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Data in a Data Warehouse (DW) reflects the flow of information over time and can be organized by weeks, months, or years.",
+      "answer": "time-variant",
+      "choices": [
+        "subject-oriented",
+        "integrated",
+        "time-variant",
+        "non-volatile"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which best exemplifies time-variant?",
+      "answer": "When data for previous weekly sales is uploaded to the data warehouse, it also updates time-dependent subjects such as weekly, monthly, and yearly data for products, customers, stores, and more.",
+      "choices": [
+        "When data for previous weekly sales is uploaded to the data warehouse, it also updates time-dependent subjects such as weekly, monthly, and yearly data for products, customers, stores, and more.",
+        "A student's level in the database can be categorized as 'freshman', 'sophomore', 'junior', or 'senior' in the accounting department, and as 'FR', 'SO', 'JR', or 'SR' in the computer information systems department.",
+        "Subjects can be products, customers, departments, regions, etc",
+        "Focuses on the data rather than on the processes that modify the data"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Once data is in a data warehouse, it is stable and remains unchanged.",
+      "answer": "non-volatile",
+      "choices": [
+        "subject-oriented",
+        "integrated",
+        "time-variant",
+        "non-volatile"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This is a databank that stocks all enterprise data and makes it manageable for reporting.",
+      "answer": "data warehouse database",
+      "choices": [
+        "data warehouse database",
+        "material management database",
+        "advanced management database",
+        "metadata"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This always implemented on the relational database management system (RDBMS) technology like SQL",
+      "answer": "data warehouse database",
+      "choices": [
+        "data warehouse database",
+        "technical metadata",
+        "business metadata",
+        "ETL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "These tools are used to perform all conversions, summarizations, and changes necessary to transform data into a unified format in the data warehouse.",
+      "answer": "Extraction, Transformation, and Loading Tools",
+      "choices": [
+        "DBSM Tools",
+        "Ace Hardware Tools",
+        "Query and reporting tool",
+        "Extraction, Transformation, and Loading Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about ETL?",
+      "answer": "Focuses on the data rather than on the processes that modify the data",
+      "choices": [
+        "In case of missing data, populating them with defaults",
+        "Calculating summaries and derived data",
+        "Eliminating unwanted data in operational databases from loading into the data warehouse",
+        "Focuses on the data rather than on the processes that modify the data"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about ETL?",
+      "answer": "Subjects can be products, customers, departments, regions, etc",
+      "choices": [
+        "Converting to common data names and definitions",
+        "Calculating summaries and derived data",
+        "Eliminating unwanted data in operational databases from loading into the data warehouse",
+        "Subjects can be products, customers, departments, regions, etc"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This is data about data that describes the data warehouse, including the source, transformation, integration, storage, usage, relationships, and history of each data element.",
+      "answer": "metadata",
+      "choices": [
+        "data warehouse database",
+        "technical metadata",
+        "business metadata",
+        "metadata"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is an example of Metadata?",
+      "answer": "SNY-JP-0010-15000",
+      "choices": [
+        "SNY-JP-0010-15000",
+        "author_id",
+        "Enrolled_Students",
+        "int age = 20"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This contains information about the data warehouse, used by designers and administrators.",
+      "answer": "technical metadata",
+      "choices": [
+        "data warehouse database",
+        "technical metadata",
+        "business metadata",
+        "metadata"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This provides details that help end-users easily understand the information stored in the data warehouse.",
+      "answer": "business metadata",
+      "choices": [
+        "data warehouse database",
+        "technical metadata",
+        "business metadata",
+        "metadata"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about Data Warehouse Access Tools?",
+      "answer": "Corporate users generally cannot work with databases directly.",
+      "choices": [
+        "This helps users produce corporate reports for analysis, which can include spreadsheets, calculations, or interactive visuals.",
+        "When built-in graphical and analytical tools don't meet an organization's needs, custom reports are created using these tools.",
+        "Corporate users generally cannot work with databases directly.",
+        "These allow users to analyze the data using elaborate and complex multi-dimensional views."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This is the process of finding meaningful correlations, patterns, and trends in large datasets, with data mining tools automating the process.",
+      "answer": "Data mining",
+      "choices": [
+        "Data mining",
+        "OLAP tools",
+        "Query and reporting tool",
+        "Application development tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "These allow users to analyze the data using elaborate and complex multi-dimensional views.",
+      "answer": "OLAP tools",
+      "choices": [
+        "Data mining",
+        "OLAP tools",
+        "Query and reporting tool",
+        "Application development tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This is a small, single-subject data warehouse subset that provides decision support for the particular user group.",
+      "answer": "data marts",
+      "choices": [
+        "metadata",
+        "data mining",
+        "data marts",
+        "star schema"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about benefits of a data warehouse?",
+      "answer": "Allows organizations to derive valuable business insights from their data to improve decision-making",
+      "choices": [
+        "This allows business users to quickly access critical data from various sources in one place, saving time by avoiding the need to retrieve data from multiple sources",
+        "This provides consistent information on various cross-functional activities and supports ad-hoc reporting and queries",
+        "Helps to integrate many sources of data to reduce stress on the production system",
+        "Allows organizations to derive valuable business insights from their data to improve decision-making"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about benefits of a data warehouse?",
+      "answer": "This optimizes for data retrieval, not for transaction processing",
+      "choices": [
+        "Helps to reduce total turnaround time for analysis and reporting",
+        "Restructuring and integration make it easier for the user to use for reporting and analysis",
+        "This stores a large amount of historical data, enabling users to analyze different time periods and trends for future predictions.",
+        "This optimizes for data retrieval, not for transaction processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT included in Data Sources based on the Data Warehouse Architecture?",
+      "answer": "raw data",
+      "choices": [
+        "operational system",
+        "flat files",
+        "raw data",
+        "operational system"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is an example of Staging Area based on the Data Warehouse Architecture?",
+      "answer": "extract transform load",
+      "choices": [
+        "extract transform load",
+        "operational system",
+        "analytics",
+        "summary data"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT included in Warehouse based on the Data Warehouse Architecture?",
+      "answer": "inventory",
+      "choices": [
+        "inventory",
+        "summary data",
+        "metadata",
+        "raw data"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT included in Data Marts based on the Data Warehouse Architecture?",
+      "answer": "metadata",
+      "choices": [
+        "metadata",
+        "purchasing",
+        "sales",
+        "inventory"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT included in Users based on the Data Warehouse Architecture?",
+      "answer": "operational system",
+      "choices": [
+        "operational system",
+        "analytics",
+        "reporting",
+        "mining"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This is a data-modeling technique used to map multidimensional decision support data into a relational database.",
+      "answer": "star schema",
+      "choices": [
+        "star schema",
+        "facts table",
+        "dimension table",
+        "single schema"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What are the two components of star schema?",
+      "answer": "facts table and dimension table",
+      "choices": [
+        "facts table and dimension table",
+        "technical metadata and business metadata",
+        "query and reporting tool and application development tool",
+        "volatile and non-volitle"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "These are data included in reports that serve as the basis for business decisions, containing measurements or facts and foreign keys to dimension tables.",
+      "answer": "facts table",
+      "choices": [
+        "facts table",
+        "dimension table",
+        "star schema",
+        "single schema"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "These are attributes that qualify and provide additional information about facts and represent the dimensions of a fact and are linked to the fact table through foreign keys.",
+      "answer": "dimension table",
+      "choices": [
+        "facts table",
+        "dimension table",
+        "star schema",
+        "single schema"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about OLAP?",
+      "answer": "It is an operational system that manages the day-to-day",
+      "choices": [
+        "It is a software tool that is used for data analysis and reporting purposes for business decisions",
+        "It is used by business analysts, managers, and executives",
+        "This was used for movie recommendations based on watch history in Netflix",
+        "It is an operational system that manages the day-to-day"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about OLAP?",
+      "answer": "Uses standard queries for data such as inserting, deleting, and updating",
+      "choices": [
+        "Provides historical data for reporting and planning",
+        "Uses complex queries for retrieving a large amount of data",
+        "It is a software tool that is used for data analysis and reporting purposes for business decisions",
+        "Uses standard queries for data such as inserting, deleting, and updating"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What does OLAP stand for?",
+      "answer": "Online Analytical Processing",
+      "choices": [
+        "Online Analytical Processing",
+        "Online Analytical Products",
+        "Online Analysis Processing",
+        "Online Analysis Products"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What does OLTP stand for?",
+      "answer": "Online Transaction Processing",
+      "choices": [
+        "Online Transaction Processing",
+        "Online Transition Processing",
+        "Online Transaction Products",
+        "Online Transition Product"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about OLTP?",
+      "answer": "Uses complex queries for retrieving a large amount of data",
+      "choices": [
+        "Uses standard queries for data such as inserting, deleting, and updating",
+        "This is used for money withdrawals, transfers, deposits, and inquiries In ATM centers",
+        "Uses complex queries for retrieving a large amount of data",
+        "Manages day to day operations"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What characteristic of OLAP allows data to be processed and viewed as part of a multi-dimensional structure?",
+      "answer": "Multi-dimensional data analysis techniques",
+      "choices": [
+        "Multi-dimensional data analysis techniques",
+        "Advanced Database support",
+        "Easy-to-use end-user interfaces",
+        "Online Transaction Processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about Advanced Database Support?",
+      "answer": "It allows users to navigate data in a way that simplifies and speeds up decision-making or data analysis through easy-to-use graphical interfaces.",
+      "choices": [
+        "Access to many kinds of DBMSs, flat files, and internal and external data sources",
+        "Rapid and consistent query response times",
+        "Support for very large databases because the data warehouse could easily and quickly grow to multiple terabytes in size",
+        "It allows users to navigate data in a way that simplifies and speeds up decision-making or data analysis through easy-to-use graphical interfaces."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It allows users to navigate data in a way that simplifies and speeds up decision-making or data analysis through easy-to-use graphical interfaces.",
+      "answer": "Easy-to-use end-user interfaces",
+      "choices": [
+        "Multi-dimensional data analysis techniques",
+        "Advanced Database support",
+        "Easy-to-use end-user interfaces",
+        "Online Transaction Processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP works directly with relational databases?",
+      "answer": "ROLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP indicates that fact and dimension tables are stored as relations?",
+      "answer": "ROLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP extends its functionality to multi-dimensional database management systems?",
+      "answer": "MOLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP is best suited to manage, store, and analyze multi-dimensional data?",
+      "answer": "MOLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP uses Star Schema?",
+      "answer": "ROLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP uses Data Cubes?",
+      "answer": "MOLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP is good with small data sets?",
+      "answer": "ROLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP is faster for large data sets?",
+      "answer": "MOLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP has unlimited dimensions?",
+      "answer": "ROLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP has limited to preddefined dimensions?",
+      "answer": "MOLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This is an extension of the GROUP BY clause that is used to create subtotals and grand totals for a set of columns.",
+      "answer": "ROLLUP operator",
+      "choices": [
+        "CUBE operator",
+        "ROLLUP operator",
+        "PIVOT operator",
+        "ARITHMETIC operator"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This generates subtotals for all combinations of grouping columns specified in the GROUP BY clause.",
+      "answer": "CUBE operator",
+      "choices": [
+        "CUBE operator",
+        "ROLLUP operator",
+        "PIVOT operator",
+        "ARITHMETIC operator"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This allows you to create a cross-tabulation, enabling you to aggregate results and rotate rows into columns.",
+      "answer": "PIVOT operator",
+      "choices": [
+        "CUBE operator",
+        "ROLLUP operator",
+        "PIVOT operator",
+        "ARITHMETIC operator"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This refers analyzing large amounts of data in a data warehouse or other sources to uncover hidden trends, patterns, and relationships and helps explain the past and predict future outcomes for analysis.",
+      "answer": "data mining",
+      "choices": [
+        "data interaction",
+        "data mining",
+        "metadata",
+        "data nowhere"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "In this step, the goals of the businesses are set, and the important factors that will help in achieving the goal are discovered.",
+      "answer": "Business Understanding",
+      "choices": [
+        "Business Understanding",
+        "Data Understanding",
+        "Data Preparation",
+        "Modeling"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This step will collect the entire data and populate the data in the tool.",
+      "answer": "Data Understanding",
+      "choices": [
+        "Business Understanding",
+        "Data Understanding",
+        "Data Preparation",
+        "Modeling"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This step involves selecting the appropriate data, cleaning, constructing attributes from data, integrating data from multiple databases.",
+      "answer": "Data Preparation",
+      "choices": [
+        "Business Understanding",
+        "Data Understanding",
+        "Data Preparation",
+        "Evaluation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Selection of the data mining technique such as decision-tree, generate test design for evaluating the selected model, building models from the dataset, and assessing the built model with experts to discuss the result is done in this step",
+      "answer": "Modeling",
+      "choices": [
+        "Deployment",
+        "Evaluation",
+        "Data Preparation",
+        "Modeling"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This step determines how well the resulting model meets business requirements and is reviewed for any errors or steps that need to be repeated.",
+      "answer": "Evaluation",
+      "choices": [
+        "Deployment",
+        "Evaluation",
+        "Data Preparation",
+        "Modeling"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about Deployment in Data Mining Implementation Process?",
+      "answer": "This step will collect the entire data and populate the data in the tool",
+      "choices": [
+        "A deployment plan is made",
+        "The strategy to monitor and maintain the data mining model results to check for its usefulness is formed",
+        "Final reports are made, and a review of the whole process is done to check any mistake and see if any step is repeated",
+        "This step will collect the entire data and populate the data in the tool"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to retrieve important and relevant information about data and metadata?",
+      "answer": "Classification",
+      "choices": [
+        "Clustering",
+        "Classification",
+        "Regression",
+        "Prediction"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to identify similar data, helping to understand the differences and similarities between them?",
+      "answer": "Clustering",
+      "choices": [
+        "Clustering",
+        "Classification",
+        "Regression",
+        "Prediction"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to identify and analyze the relationship between variables?",
+      "answer": "Regression",
+      "choices": [
+        "Clustering",
+        "Association Rules",
+        "Regression",
+        "Outer Detection"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to identify associations between two or more items, uncovering hidden patterns in the dataset?",
+      "answer": "Association Rules",
+      "choices": [
+        "Clustering",
+        "Association Rules",
+        "Regression",
+        "Outer Detection"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to observe data items in the dataset that do not match an expected pattern or expected behavior?",
+      "answer": "Outer Detection",
+      "choices": [
+        "Clustering",
+        "Association Rules",
+        "Regression",
+        "Outer Detection"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to discover or identify similar patterns or trends in transaction data for a certain period?",
+      "answer": "Sequential Patterns",
+      "choices": [
+        "Sequential Patterns",
+        "Association Rules",
+        "Regression",
+        "Prediction"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to combine various data mining techniques, such as trends, sequential patterns, clustering, and classification, while analyzing past events or instances in the correct sequence?",
+      "answer": "Prediction",
+      "choices": [
+        "Sequential Patterns",
+        "Association Rules",
+        "Regression",
+        "Prediction"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about benefits of Data Mining?",
+      "answer": "Provides historical data for reporting and planning",
+      "choices": [
+        "Helps with the decision-making process",
+        "Helps companies to get knowledge-based information",
+        "Facilitates automated prediction of trends and behaviors as well as the automated discovery of hidden patterns",
+        "Provides historical data for reporting and planning"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about benefits of Data Mining?",
+      "answer": "Support for very large databases because the data warehouse could easily and quickly grow to multiple terabytes in size",
+      "choices": [
+        "The speedy process which makes it easy for the users to analyze a huge amount of data in less time",
+        "Helps companies to get knowledge-based information",
+        "Facilitates automated prediction of trends and behaviors as well as the automated discovery of hidden patterns",
+        "Support for very large databases because the data warehouse could easily and quickly grow to multiple terabytes in size"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the management-oriented role that concerns controlling corporate data resources?",
+      "answer": "Data Administrator (DA)",
+      "choices": [
+        "Database Administrator (DBA)",
+        "Privileges",
+        "Objects",
+        "Data Administrator (DA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Who is responsible for the design, implementation, and maintenance of physical structures (databases)?",
+      "answer": "Database Administrator (DBA)",
+      "choices": [
+        "Data Administrator (DA)",
+        "Users",
+        "Roles",
+        "Database Administrator (DBA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What role builds the logical design of the database?",
+      "answer": "Data Administrator (DA)",
+      "choices": [
+        "Database Administrator (DBA)",
+        "db_owner",
+        "db_ddladmin",
+        "Data Administrator (DA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Who facilitates the development and use of databases in organizations?",
+      "answer": "Database Administrator (DBA)",
+      "choices": [
+        "Data Administrator (DA)",
+        "db_datawriter",
+        "db_datareader",
+        "Database Administrator (DBA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which database role has managerial orientation?",
+      "answer": "Data Administrator (DA)",
+      "choices": [
+        "Database Administrator (DBA)",
+        "db_accessadmin",
+        "db_securityadmin",
+        "Data Administrator (DA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What role has a technical orientation and analyzes data volumes and space requirements?",
+      "answer": "Database Administrator (DBA)",
+      "choices": [
+        "Data Administrator (DA)",
+        "db_datawriter",
+        "db_ddladmin",
+        "Database Administrator (DBA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Who defines policies and standards for database design (e.g., naming and abbreviation)?",
+      "answer": "Data Administrator (DA)",
+      "choices": [
+        "Database Administrator (DBA)",
+        "db_accessadmin",
+        "db_securityadmin",
+        "Data Administrator (DA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Who enforces policies and programming standards in database management?",
+      "answer": "Database Administrator (DBA)",
+      "choices": [
+        "Data Administrator (DA)",
+        "db_datawriter",
+        "db_datareader",
+        "Database Administrator (DBA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the SQL security concept representing people or programs performing actions on database objects?",
+      "answer": "Users",
+      "choices": [
+        "Roles",
+        "Privileges",
+        "Objects",
+        "Users"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are defined by SQL standards as things users manipulate within a database?",
+      "answer": "Objects",
+      "choices": [
+        "Users",
+        "Roles",
+        "Privileges",
+        "Objects"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What refers to user rights for manipulating objects like tables and views in a database?",
+      "answer": "Privileges",
+      "choices": [
+        "Roles",
+        "Users",
+        "Objects",
+        "Privileges"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are named collections of database access privileges granted to users or roles?",
+      "answer": "Roles",
+      "choices": [
+        "Objects",
+        "Privileges",
+        "Users",
+        "Roles"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which database-level fixed role can perform all configuration and maintenance activities on a database?",
+      "answer": "db_owner",
+      "choices": [
+        "db_securityadmin",
+        "db_accessadmin",
+        "db_ddladmin",
+        "db_owner"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which fixed-database role allows its members to back up the database?",
+      "answer": "db_backupoperator",
+      "choices": [
+        "db_owner",
+        "db_datareader",
+        "db_ddladmin",
+        "db_backupoperator"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What database-level role can add or remove access to a database for Windows logins or groups?",
+      "answer": "db_accessadmin",
+      "choices": [
+        "db_securityadmin",
+        "db_owner",
+        "db_datareader",
+        "db_accessadmin"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which database role allows adding, deleting, or changing data in all user tables?",
+      "answer": "db_datawriter",
+      "choices": [
+        "db_owner",
+        "db_backupoperator",
+        "db_ddladmin",
+        "db_datawriter"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the SQL command to provide access or privileges on database objects?",
+      "answer": "GRANT",
+      "choices": [
+        "REVOKE",
+        "ALTER",
+        "CREATE",
+        "GRANT"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command is used to remove privileges granted to users or roles?",
+      "answer": "REVOKE",
+      "choices": [
+        "GRANT",
+        "ALTER",
+        "DELETE",
+        "REVOKE"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the command to create a login in SQL Server?",
+      "answer": "CREATE LOGIN login_name_test WITH PASSWORD = 'Mypassword';",
+      "choices": [
+        "ALTER LOGIN login_name_test WITH PASSWORD = 'Newpassword';",
+        "CREATE USER user1 FOR LOGIN newlogin_name",
+        "GRANT SELECT ON [Names] TO user1",
+        "CREATE LOGIN login_name_test WITH PASSWORD = 'Mypassword';"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How can privileges to view and update data be assigned to a database role?",
+      "answer": "GRANT SELECT, UPDATE ON [Names] TO [Admin1]",
+      "choices": [
+        "CREATE LOGIN login_name_test WITH PASSWORD = 'Mypassword';",
+        "CREATE ROLE [Admin1]",
+        "GRANT REVOKE",
+        "GRANT SELECT, UPDATE ON [Names] TO [Admin1]"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What role restricts the ability to add, modify, or delete any data in a database?",
+      "answer": "db_denydatawriter",
+      "choices": [
+        "db_denydatareader",
+        "db_backupoperator",
+        "db_securityadmin",
+        "db_denydatawriter"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which SQL security concept refers to the ID granted to a person or process for performing specific actions?",
+      "answer": "Authentication",
+      "choices": [
+        "Privileges",
+        "Roles",
+        "Policies",
+        "Authentication"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What happens if a login is not mapped to a user in a database?",
+      "answer": "Cannot access objects in the database",
+      "choices": [
+        "Cannot connect to SQL Server",
+        "Can connect but with limited access",
+        "Has admin rights on DB",
+        "Cannot access objects in the database"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What T-SQL command is used to change the name of an existing login?",
+      "answer": "ALTER LOGIN login_name_test WITH NAME = newlogin_name",
+      "choices": [
+        "CREATE USER user1 FOR LOGIN newlogin_name",
+        "GRANT SELECT ON [Names] TO user1",
+        "CREATE ROLE [Admin1]",
+        "ALTER LOGIN login_name_test WITH NAME = newlogin_name"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is required for a user to access any objects in a database?",
+      "answer": "A login mapped to a database user",
+      "choices": [
+        "Authentication",
+        "A login mapped to a schema",
+        "Administrator privileges",
+        "A login mapped to a database user"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What fixed-database role allows members to run any DDL command in a database?",
+      "answer": "db_ddladmin",
+      "choices": [
+        "db_backupoperator",
+        "db_accessadmin",
+        "db_datawriter",
+        "db_ddladmin"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which fixed-database role restricts the ability to read any data in user tables?",
+      "answer": "db_denydatareader",
+      "choices": [
+        "db_denydatawriter",
+        "db_securityadmin",
+        "db_datawriter",
+        "db_denydatareader"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command is used to map a database user to a specific login?",
+      "answer": "CREATE USER user1 FOR LOGIN newlogin_name",
+      "choices": [
+        "GRANT SELECT ON [Names] TO user1",
+        "CREATE ROLE [Admin1]",
+        "ALTER ROLE db_owner ADD MEMBER user1",
+        "CREATE USER user1 FOR LOGIN newlogin_name"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which predefined database-level role can manage role membership and permissions?",
+      "answer": "db_securityadmin",
+      "choices": [
+        "db_accessadmin",
+        "db_backupoperator",
+        "db_datawriter",
+        "db_securityadmin"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of database-level role must you create for granting customized privileges to specific users?",
+      "answer": "User-defined database roles",
+      "choices": [
+        "Fixed-database roles",
+        "Privileges",
+        "Fixed access roles",
+        "User-defined database roles"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What role provides members with full access to configuration and all actions on a database?",
+      "answer": "db_owner",
+      "choices": [
+        "db_datawriter",
+        "db_accessadmin",
+        "db_datareader",
+        "db_owner"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How can access to a table be removed from a user using SQL commands?",
+      "answer": "REVOKE [privilege] ON [table] TO [user]",
+      "choices": [
+        "GRANT [privilege] ON [table] TO [user]",
+        "ALTER USER [user]",
+        "RESTRICT [table access]",
+        "REVOKE [privilege] ON [table] TO [user]"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of backup includes physical files such as data files, control files, and archived redo logs?",
+      "answer": "Physical backups",
+      "choices": [
+        "Logical backups",
+        "Differential backups",
+        "Physical backups",
+        "Incremental backups"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of backup stores logical data, such as tables or stored procedures?",
+      "answer": "Logical backups",
+      "choices": [
+        "Physical backups",
+        "Logical backups",
+        "Differential backups",
+        "Cloud-based backups"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which file does the DBMS use to keep track of all transactions that update the database?",
+      "answer": "Transaction log",
+      "choices": [
+        "Log file",
+        "Checkpoint file",
+        "Transaction log",
+        "Archive log"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What mechanism removes previous logs from the system and declares a consistent state point?",
+      "answer": "Checkpoint",
+      "choices": [
+        "Log flush",
+        "Recovery state",
+        "Checkpoint",
+        "Backup marker"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What backup measure involves automatic backup and recovery of the database or portions of it?",
+      "answer": "Automatic tools",
+      "choices": [
+        "Transaction log tools",
+        "Automatic tools",
+        "Differential backup tools",
+        "Deferred recovery methods"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What ensures backups are clearly identified with detailed descriptions and date information?",
+      "answer": "Backup identification",
+      "choices": [
+        "Multiple backup copies",
+        "Convenient storage",
+        "Backup identification",
+        "Physical storage details"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which backup medium is most commonly used today alongside disk-based devices?",
+      "answer": "Cloud-based storage",
+      "choices": [
+        "Physical backups",
+        "Tape-based backups",
+        "Cloud-based storage",
+        "Incremental backups"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What should include air conditioning, backup power, and fire protection for protecting hardware and software?",
+      "answer": "Physical protection",
+      "choices": [
+        "Logical protection",
+        "Onsite safety measures",
+        "Physical protection",
+        "Offsite storage protocols"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What technique allows transaction logs to update the database only after a commit point is reached?",
+      "answer": "Deferred update",
+      "choices": [
+        "Immediate update",
+        "Deferred update",
+        "Rollback operation",
+        "Write-through methods"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recovery technique immediately updates the database during transaction execution?",
+      "answer": "Immediate update",
+      "choices": [
+        "Deferred update",
+        "Immediate update",
+        "Checkpoint",
+        "Transaction replay"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What common event can compromise database integrity by causing a system crash during transaction execution?",
+      "answer": "Inconsistent state",
+      "choices": [
+        "System halt",
+        "Database crash",
+        "Inconsistent state",
+        "Log overflow"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "If a database is extensively damaged, what must be restored first for recovery?",
+      "answer": "Last backup copy",
+      "choices": [
+        "Latest checkpoint",
+        "Last backup copy",
+        "Immediate update log",
+        "Deferred transaction data"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "When does a rollback operation use the \"before\" values in the transaction log?",
+      "answer": "Write-through",
+      "choices": [
+        "Transaction recovery",
+        "Deferred update",
+        "Write-through",
+        "Inconsistent state"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What kind of recovery ensures transactions are undone or redone to return the database to a consistent state?",
+      "answer": "Database recovery",
+      "choices": [
+        "Log replay",
+        "Transaction update",
+        "Database recovery",
+        "Write rollback recovery"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What kind of events include deleting the wrong rows or pressing the wrong key during database operations?",
+      "answer": "Unintentional failure",
+      "choices": [
+        "Human error",
+        "Data inconsistency",
+        "Unintentional failure",
+        "Security breaches"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What serious intentional incidents include security threats by hackers?",
+      "answer": "Intentional events",
+      "choices": [
+        "Accidental deletions",
+        "Human error",
+        "Intentional events",
+        "Database conflicts"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of backup is most vulnerable when all copies are stored in the same physical location?",
+      "answer": "Multiple backups",
+      "choices": [
+        "Incremental backups",
+        "Logical backups",
+        "Multiple backups",
+        "Differential backups"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recovery method involves both undoing inconsistencies and redoing transactions that were partially executed?",
+      "answer": "Database recovery",
+      "choices": [
+        "Consistent state recovery",
+        "Backup recovery",
+        "Database recovery",
+        "Recovery rollback"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tool uses transaction logs to recover a database to a consistent state forward after a failure?",
+      "answer": "Transaction log",
+      "choices": [
+        "Consistency pointer",
+        "Transaction log",
+        "Database snapshot",
+        "Rollback operations"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does a DBMS use to declare the database state consistent before specific transactions were committed?",
+      "answer": "Checkpoint",
+      "choices": [
+        "Write-through point",
+        "Consistency log",
+        "Checkpoint",
+        "State backup"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What event results in complete database restoration from the last backup and committed logs?",
+      "answer": "Extensive damage",
+      "choices": [
+        "Unintentional failure",
+        "Extensive damage",
+        "Checkpoint loss",
+        "Recovery rollback"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the purpose of storing backups both inside and outside the organization?",
+      "answer": "Convenient storage",
+      "choices": [
+        "Logical backup policy",
+        "Convenient storage",
+        "Data integrity checks",
+        "Automatic recovery measures"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What failure type includes bad capacitors, disk errors, or memory bank failures?",
+      "answer": "Hardware failures",
+      "choices": [
+        "Hardware failures",
+        "Logical errors",
+        "Storage errors",
+        "Transaction inconsistencies"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the correct response to a logical failure that results in database inconsistency but no physical damage?",
+      "answer": "Undo and redo",
+      "choices": [
+        "Full recovery",
+        "Undo and redo",
+        "Incremental restore",
+        "Deferred update"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What kind of events are categorized as updates performed successfully or undone after a crash?",
+      "answer": "Recovery requirement",
+      "choices": [
+        "Data inconsistency",
+        "Recovery requirement",
+        "Log-based checkpoint",
+        "Write-back operation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What kind of backup updates the database immediately with each transaction but requires a rollback for failures?",
+      "answer": "Immediate update",
+      "choices": [
+        "Deferred transaction",
+        "Data syncing",
+        "Immediate update",
+        "Synchronous update"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which step stores log updates but prevents physical database updates until a transaction commit point?",
+      "answer": "Deferred update",
+      "choices": [
+        "Consistent rollback",
+        "Transaction deferment",
+        "Deferred update",
+        "Immediate write operations"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What must be prepared to prevent data loss in emergencies such as hurricanes?",
+      "answer": "Backup computer",
+      "choices": [
+        "Multiple onsite backups",
+        "Logical backup plan",
+        "Backup computer",
+        "Primary DBMS replication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What must the DBA do if a database's log file becomes too large to handle due to real-time logging?",
+      "answer": "Perform a checkpoint",
+      "choices": [
+        "Rollback updates",
+        "Restore backups",
+        "Perform a checkpoint",
+        "Clear the backup copy"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What should the DBA check when scheduling regular database backups?",
+      "answer": "Update frequency",
+      "choices": [
+        "Update timing",
+        "Physical data amount",
+        "Update frequency",
+        "Transaction rollback logs"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What describes the security incidents caused by disgruntled employees introducing viruses?",
+      "answer": "Intentional events",
+      "choices": [
+        "Hardware failures",
+        "Virus rollback",
+        "Intentional events",
+        "Transaction mismatches"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What physical storage must be handled for permanent log file storage during checkpoints?",
+      "answer": "Storage disk",
+      "choices": [
+        "Cloud-based storage",
+        "Write-through log",
+        "Storage disk",
+        "Backup tape archives"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What method updates the database with committed transaction data in a deferred-write approach?",
+      "answer": "Committed transactions",
+      "choices": [
+        "Logical backups",
+        "Committed transactions",
+        "Incremental transactions",
+        "Write-through policies"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are the characteristics of big data as described in the module?",
+      "answer": "High-volume, high-velocity, high-variety",
+      "choices": [
+        "Large amounts of data",
+        "Distributed systems",
+        "High-volume, high-velocity, high-variety",
+        "JSON documents"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the simplest of the NoSQL data models?",
+      "answer": "Key-value (KV) database",
+      "choices": [
+        "Column-oriented database",
+        "Key-value (KV) database",
+        "Graph database",
+        "Document-oriented database"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "In which data model does the key act as an identifier for the value?",
+      "answer": "Key-value (KV) database",
+      "choices": [
+        "Key-value (KV) database",
+        "Document database",
+        "Relational database",
+        "Graph database"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which format is MongoDB highly optimized for?",
+      "answer": "JSON",
+      "choices": [
+        "XML",
+        "JSON",
+        "BSON",
+        "CSV"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does MongoDB store data in?",
+      "answer": "JSON documents",
+      "choices": [
+        "SQL rows",
+        "JSON documents",
+        "Tables",
+        "Columnar storage"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which NoSQL model represents data through nodes, edges, and properties?",
+      "answer": "Graph databases",
+      "choices": [
+        "Key-value database",
+        "Document database",
+        "Graph databases",
+        "Column-oriented databases"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the name of the key that is unique across a MongoDB document collection?",
+      "answer": "_id",
+      "choices": [
+        "_id",
+        "index",
+        "primary_key",
+        "node_id"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command is used to switch to a database in MongoDB?",
+      "answer": "use",
+      "choices": [
+        "db.use",
+        "use",
+        "switch",
+        "connect"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which command creates a collection manually in MongoDB?",
+      "answer": "db.createCollection",
+      "choices": [
+        "db.createCollection",
+        "use.collection",
+        "db.insertCollection",
+        "db.newCollection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of backup copy must be stored in a separate location for security reasons?",
+      "answer": "Multiple backups",
+      "choices": [
+        "Redundant databases",
+        "Multiple backups",
+        "Archived data",
+        "Cloud databases"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of data is commonly stored in a document-oriented database?",
+      "answer": "Tagged documents",
+      "choices": [
+        "Relational records",
+        "JSON or BSON data",
+        "Tagged documents",
+        "Indexed documents"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does MongoDB call a database that is grouped into collections?",
+      "answer": "Database",
+      "choices": [
+        "Database",
+        "Schema",
+        "Cluster",
+        "Collection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How does MongoDB identify portions of data inside a document?",
+      "answer": "Tags",
+      "choices": [
+        "Primary key",
+        "Tags",
+        "Columns",
+        "Relations"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the basis for MongoDB’s operation compared to SQL databases?",
+      "answer": "Collections and JSON documents",
+      "choices": [
+        "Indexed records",
+        "Tables and rows",
+        "Columns and relations",
+        "Collections and JSON documents"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What storage structure is primarily used in Column-oriented databases?",
+      "answer": "Column-centric storage",
+      "choices": [
+        "Row-centric storage",
+        "Column-centric storage",
+        "Record storage",
+        "Distributed files"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What feature of NoSQL provides resilience and availability for high scalability?",
+      "answer": "Resilience and availability",
+      "choices": [
+        "Strict schema",
+        "Resilience and availability",
+        "Transactions",
+        "Optimization methods"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does the velocity characteristic in big data refer to?",
+      "answer": "Rate of data processing",
+      "choices": [
+        "Rate of storage growth",
+        "Rate of data input",
+        "Rate of query optimization",
+        "Rate of data processing"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command in MongoDB is used to check the current database?",
+      "answer": "db",
+      "choices": [
+        "use",
+        "db",
+        "show dbs",
+        "current_db"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which data characteristic in big data includes structured and unstructured formats?",
+      "answer": "Variety",
+      "choices": [
+        "Velocity",
+        "Variety",
+        "Volume",
+        "Indexing"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "In a key-value database, what format can a value be stored as?",
+      "answer": "Any format (e.g., text, image)",
+      "choices": [
+        "Only text values",
+        "Structured JSON only",
+        "Any format (e.g., text, image)",
+        "Fixed database type"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How are relationships between entities tracked in a graph database?",
+      "answer": "Through edges",
+      "choices": [
+        "Primary keys",
+        "Through edges",
+        "Tags",
+        "Joins"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which database model does not use tables for storing data?",
+      "answer": "NoSQL",
+      "choices": [
+        "Relational database",
+        "SQL",
+        "NoSQL",
+        "BSON database"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does the \"use\" command in MongoDB do if the database doesn’t exist?",
+      "answer": "Creates it automatically",
+      "choices": [
+        "Throws an error",
+        "Skips the command",
+        "Creates it automatically",
+        "Prompts for a file"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which NoSQL model is efficient for optimizing read operations in specific column families?",
+      "answer": "Column-oriented databases",
+      "choices": [
+        "Document database",
+        "Column-oriented databases",
+        "Key-value database",
+        "XML databases"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is MongoDB’s default behavior when inserting a new collection?",
+      "answer": "Automatically creates it",
+      "choices": [
+        "Throws an error",
+        "Requires manual creation",
+        "Automatically creates it",
+        "Deletes any existing collection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How is scalability enhanced in NoSQL databases?",
+      "answer": "By avoiding joins",
+      "choices": [
+        "By using indexing",
+        "By optimizing relations",
+        "By avoiding joins",
+        "Through entity definitions"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What data type can always be found in a document database value component?",
+      "answer": "A document",
+      "choices": [
+        "Freeform text",
+        "Fixed schema data",
+        "A document",
+        "File system"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What process in MongoDB removes all documents from a collection?",
+      "answer": "drop",
+      "choices": [
+        "delete_all",
+        "drop",
+        "remove",
+        "clear"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which command deletes an entire MongoDB database?",
+      "answer": "dropDatabase",
+      "choices": [
+        "removeDb",
+        "deleteDb",
+        "dropDatabase",
+        "eraseCurrentDB"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What syntax is used to query all collections in MongoDB?",
+      "answer": "show collections",
+      "choices": [
+        "findCollections",
+        "collections.list",
+        "show collections",
+        "queryAllCollections"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are the primary building blocks of graph databases?",
+      "answer": "Nodes, edges, properties",
+      "choices": [
+        "Relationships",
+        "Tags and keys",
+        "Nodes, edges, properties",
+        "Linked lists"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "In what situation is MongoDB most effectively utilized?",
+      "answer": "Massively distributed applications",
+      "choices": [
+        "Small static datasets",
+        "Real-time transactions",
+        "Massively distributed applications",
+        "Banking data security systems"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What format does BSON refer to?",
+      "answer": "Binary JSON",
+      "choices": [
+        "Encrypted XML",
+        "Compressed JSON",
+        "Binary JSON",
+        "Graph-based encoding"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command is used to query documents in a MongoDB collection?",
+      "answer": "find",
+      "choices": [
+        "queryAllDocuments",
+        "find",
+        "search",
+        "retrieve"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which command allows deleting specific entries from a MongoDB collection?",
+      "answer": "remove",
+      "choices": [
+        "drop",
+        "findAndRemove",
+        "remove",
+        "delete_rows"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Why are tags essential in document databases?",
+      "answer": "They support advanced capabilities",
+      "choices": [
+        "They enhance security",
+        "They structure relations",
+        "They support advanced capabilities",
+        "Simplify logging"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What term describes storing unstructured data in NoSQL?",
+      "answer": "Key-value pairs",
+      "choices": [
+        "Relational model",
+        "Key-value pairs",
+        "Distributed storage",
+        "MongoDB"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "hich characteristic of Big Data refers to the storage capacities associated with an extremely large amount of information?",
+      "answer": "Volume",
+      "choices": [
+        "Velocity",
+        "Variety",
+        "Scalability",
+        "Volume"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which Big Data characteristic indicates the rate at which new data enters the system and must be processed?",
+      "answer": "Velocity",
+      "choices": [
+        "Volume",
+        "Variety",
+        "Scalability",
+        "Velocity"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which Big Data characteristic indicates the variety of formats and structures in which the data is captured?",
+      "answer": "Variety",
+      "choices": [
+        "Volume",
+        "Scalability",
+        "Resilience",
+        "Variety"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What term is used to label large volumes of unstructured or semi-structured data from various sources such as social media and emails?",
+      "answer": "Big Data",
+      "choices": [
+        "NoSQL",
+        "MongoDB",
+        "JSON",
+        "Big Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What database management system is not based on the traditional relational database model (SQL)?",
+      "answer": "NoSQL DBMS",
+      "choices": [
+        "SQL DBMS",
+        "Document DBMS",
+        "Graph DBMS",
+        "NoSQL DBMS"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does the acronym \"NoSQL\" stand for?",
+      "answer": "Not only SQL",
+      "choices": [
+        "No Structure Query Language",
+        "Node Standard Query Language",
+        "Normalized SQL",
+        "Not only SQL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "These are the basic method for adding data to MongoDB.",
+      "answer": "inserts",
+      "choices": [
+        "inserts",
+        "updates",
+        "removes",
+        "reads"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How can you perform case-insensitive matches in MongoDB?",
+      "answer": "$regex",
+      "choices": [
+        "$matchCaseInsensitive",
+        "$like",
+        "$regexInsensitive",
+        "$regex"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The insertOne method will automatically add which key to the document if you do not provide one?",
+      "answer": "_id",
+      "choices": [
+        "_id",
+        "id_",
+        "#id",
+        "id"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following commands is an example of inserting a single document in MongoDB?",
+      "answer": "db.movies.insertOne({\"title\" : \"Stand by Me\"})",
+      "choices": [
+        "db.movies.insertOne({\"title\" : \"Stand by Me\"})",
+        "db.movies.insertMany([{\"title\" : \"Ghostbusters\"}, {\"title\" : \"E.T.\"}])",
+        "db.movies.updateOne({\"title\" : \"Stand by Me\"}, {\"$set\": {\"year\": 1986}})",
+        "db.movies.deleteOne({\"title\" : \"Stand by Me\"})"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How do you query for array documents with all specified elements?",
+      "answer": "$all",
+      "choices": [
+        "$in",
+        "$size",
+        "$slice",
+        "$all"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following commands is an example of inserting multiple documents in MongoDB?",
+      "answer": "db.movies.insertMany([{\"title\" : \"Ghostbusters\"}, {\"title\" : \"E.T.\"}, {\"title\" : \"Blade Runner\"}])",
+      "choices": [
+        "db.movies.insertMany([{\"title\" : \"Ghostbusters\"}, {\"title\" : \"E.T.\"}, {\"title\" : \"Blade Runner\"}])",
+        "db.movies.insertOne({\"title\" : \"Stand by Me\"})\r\n",
+        "db.movies.updateMany({\"year\" : 1985}, {\"$set\": {\"status\": \"classic\"}})\r\n",
+        "db.movies.insertMultiple([{\"title\" : \"Ghostbusters\"}, {\"title\" : \"E.T.\"}, {\"title\" : \"Blade Runner\"}])"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What should be done in the ordered insert if a document produces an insertion error?",
+      "answer": "No documents beyond that point in the array will be inserted",
+      "choices": [
+        "No documents beyond that point in the array will be inserted",
+        "Only the document with the error should be deleted",
+        "All documents prior to the error should be reviewed",
+        "The document will automatically be reinserted after a set time"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does MongoDB do for unordered inserts, regardless of whether some insertions produce errors?",
+      "answer": "will attempt to insert all documents",
+      "choices": [
+        "will attempt to insert all documents",
+        "will discard all documents after an error occurs",
+        "will stop the insertion process at the first error",
+        "will insert only documents without errors"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How do you delete the document with the \"_id\" value of 4 in the MongoDB shell?",
+      "answer": "db.movies.deleteOne({\"_id\" : 4})",
+      "choices": [
+        "db.movies.deleteOne({\"_id\" : 4})",
+        "db.movies.remove({\"_id\" : 4})",
+        "db.movies.drop({\"_id\" : 4})",
+        "db.movies.deleteMany({\"_id\" : 4})"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What command is used to delete all the documents that match a filter in MongoDB?",
+      "answer": "db.movies.deleteMany({filter})",
+      "choices": [
+        "db.movies.deleteMany({filter})",
+        "db.movies.remove({filter})",
+        "db.movies.deleteOne({filter})",
+        "db.movies.drop({filter})"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is required when using updateOne or updateMany in MongoDB to update a document?",
+      "answer": "A filter document as the first parameter and a modifier document as the second parameter",
+      "choices": [
+        "A filter document as the first parameter and a modifier document as the second parameter",
+        "Only a filter document as the parameter",
+        "A modifier document as the first parameter and a filter document as the second",
+        "A single document with the updated values as the parameter"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following is not a command for updating documents in MongoDB?",
+      "answer": "deleteOne",
+      "choices": [
+        "deleteOne",
+        "updateOne",
+        "updateMany",
+        "replaceOne"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does the replaceOne command do in MongoDB?\r\n",
+      "answer": "Replaces a matching document completely with a new one",
+      "choices": [
+        "Replaces a matching document completely with a new one",
+        "Updates specific fields in the document",
+        "Deletes a matching document",
+        "Replace specified fields from a document without removing it"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which operator in MongoDB sets the value of a field, creating the field if it does not exist?",
+      "answer": "$set",
+      "choices": [
+        "$set",
+        "$lt",
+        "$gte",
+        "$eq"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which MongoDB operator is used to run queries involving pattern matching strings flexibly?",
+      "answer": "$regex",
+      "choices": [
+        "$match",
+        "$find",
+        "$queryRegex",
+        "$regex"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the default behavior for handling errors in bulk inserts when no order is specified?",
+      "answer": "Ordered Insert",
+      "choices": [
+        "Unordered Insert",
+        "Cascading Insert",
+        "Indexed Insert",
+        "Ordered Insert"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What operator is used to set a new value for a field in an update?",
+      "answer": "$set",
+      "choices": [
+        "$unset",
+        "$replace",
+        "$addToSet",
+        "$set"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How do you remove a field from a document?",
+      "answer": "$unset",
+      "choices": [
+        "$removeField",
+        "$deleteField",
+        "$dropField",
+        "$unset"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which query conditional represents “less than or equal to”?",
+      "answer": "$lte",
+      "choices": [
+        "$lt",
+        "$gte",
+        "$eq",
+        "$lte"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What operator allows querying for multiple key-value pairs, matching any condition?",
+      "answer": "$or",
+      "choices": [
+        "$and",
+        "$not",
+        "$nor",
+        "$or"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What query selector would you use to find values matching elements within an array?",
+      "answer": "$all",
+      "choices": [
+        "$size",
+        "$slice",
+        "$set",
+        "$all"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the query operator to find documents that do not match a given condition?",
+      "answer": "$not",
+      "choices": [
+        "$ne",
+        "$nor",
+        "$exclude",
+        "$not"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which operator is used to specify a range for numeric values in queries?",
+      "answer": "$gte and $lte",
+      "choices": [
+        "$gtne and $ltne",
+        "$range",
+        "$rangeInclusive",
+        "$gte and $lte"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How do you match specific elements inside embedded arrays using their index?",
+      "answer": "Dot Notation (key.index)",
+      "choices": [
+        "$elemMatch",
+        "Nested Filter",
+        "Key Path Notation",
+        "Dot Notation (key.index)"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the primary operator used in MongoDB to match array elements by multiple values?",
+      "answer": "$all",
+      "choices": [
+        "$in",
+        "$all",
+        "$size",
+        "$slice"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which operator extracts a subset of array elements in a query result?",
+      "answer": "$slice",
+      "choices": [
+        "$limitArray",
+        "$pickElements",
+        "$subset",
+        "$slice"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which MongoDB data model design embeds one document inside another?",
+      "answer": "Embedded Data",
+      "choices": [
+        "Embedded Data",
+        "References",
+        "Schema Enforcement",
+        "Data Modeling"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What data modeling structure stores related data in a single document?",
+      "answer": "Embedded Documents",
+      "choices": [
+        "Related Collections",
+        "Denormalized Records",
+        "Nested Keys",
+        "Embedded Documents"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "To update embedded documents directly, which operator can be applied?",
+      "answer": "Dot Notation ($set)",
+      "choices": [
+        "$replaceField",
+        "Key.Nested Update",
+        "Path Queries",
+        "Dot Notation ($set)"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What happens if an ordered insert using insertMany encounters an error in one of the documents?",
+      "answer": "Stops Further Inserts",
+      "choices": [
+        "Skips Faulty Document",
+        "Continues Execution",
+        "Partially Inserts Others",
+        "Stops Further Inserts"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which operator in MongoDB is used to retrieve elements from an array matching multiple specified values for a single key?",
+      "answer": "$in",
+      "choices": [
+        "$or",
+        "$all",
+        "$matchArray",
+        "$in"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What method returns a specific range of array values from a document?",
+      "answer": "$slice",
+      "choices": [
+        "$range",
+        "$subset",
+        "$pullAll",
+        "$slice"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How does the $ne operator behave when used in a query?",
+      "answer": "Not Equal",
+      "choices": [
+        "Greater Than",
+        "Range Exclude",
+        "Greater or Equal",
+        "Not Equal"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does $unset do when applied during an update operation?",
+      "answer": "Removes Field",
+      "choices": [
+        "Changes Value",
+        "Adds Field",
+        "Modifies Key",
+        "Removes Field"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which MongoDB design pattern helps applications retrieve and manipulate related data in a single operation?",
+      "answer": "Embedded Data",
+      "choices": [
+        "References",
+        "Embedded Data",
+        "Data Modeling",
+        "Regular Expressions"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which type of operation would convert a scalar value into an array during document updates?",
+      "answer": "$set",
+      "choices": [
+        "$convert",
+        "$toArray",
+        "$scalarToArray",
+        "$set"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which MongoDB term describes a structure where tables are avoided, and related data is stored together?",
+      "answer": "Embedded Data",
+      "choices": [
+        "Normalization",
+        "References",
+        "Embedded Data",
+        "Data Modeling"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method adds a key or updates an existing key-value pair in a document?",
+      "answer": "$set",
+      "choices": [
+        "$unset",
+        "$lte",
+        "$not",
+        "$set"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which query selector checks if a value is not equal to a specified value?",
+      "answer": "$ne",
+      "choices": [
+        "$in",
+        "$or",
+        "$regex",
+        "$ne"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which query method is used to find all documents in a collection?",
+      "answer": "find",
+      "choices": [
+        "findOne",
+        "filter",
+        "aggregate",
+        "find"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How can MongoDB return only the first 10 elements of an array in a query result?",
+      "answer": "$slice",
+      "choices": [
+        "$slice",
+        "$limit",
+        "$sort",
+        "$size"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which array operator is used to query arrays of a specific size?",
+      "answer": "$size",
+      "choices": [
+        "$all",
+        "$regex",
+        "$slice",
+        "$size"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What will happen if an error occurs during an unordered bulk insert operation?",
+      "answer": "Continue inserting",
+      "choices": [
+        "Stop inserting",
+        "Reverse the insertion order",
+        "Restart the operation",
+        "Continue inserting"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method removes all documents in a MongoDB collection matching a specific filter?",
+      "answer": "deleteMany",
+      "choices": [
+        "deleteOne",
+        "removeAll",
+        "replaceMany",
+        "deleteMany"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What command returns all documents matching specified filter criteria?",
+      "answer": "find",
+      "choices": [
+        "updateOne",
+        "find",
+        "replaceOne",
+        "slice"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which operator modifies or adds embedded documents?",
+      "answer": "$set",
+      "choices": [
+        "$push",
+        "$pull",
+        "$unset",
+        "$set"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What MongoDB query retrieves documents with a specific subfield name inside an embedded document?",
+      "answer": "Dot Notation",
+      "choices": [
+        "Key Indexing",
+        "Path Matching",
+        "Subdocument Filtering",
+        "Dot Notation"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does the $or query selector do?",
+      "answer": "Matches one of multiple conditions",
+      "choices": [
+        "Matches all provided conditions",
+        "Excludes matching conditions",
+        "Replaces existing conditions",
+        "Matches one of multiple conditions"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method deletes only the first matching document in a MongoDB collection?",
+      "answer": "deleteOne",
+      "choices": [
+        "deleteMany",
+        "removeFirst",
+        "truncate",
+        "deleteOne"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which query operator checks if a key value is within a range?",
+      "answer": "$gte and $lte",
+      "choices": [
+        "$set",
+        "$regex",
+        "$ne",
+        "$gte and $lte"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "If no schema is defined for a collection in MongoDB, what term describes its nature?",
+      "answer": "Flexible Schema",
+      "choices": [
+        "Unstructured Schema",
+        "Ad-Hoc Schema",
+        "Schema-Less Database",
+        "Flexible Schema"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the method for adding fields and values to existing sub-documents?",
+      "answer": "$set",
+      "choices": [
+        "$push",
+        "$unset",
+        "$add",
+        "$set"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How does MongoDB handle schema enforcement?",
+      "answer": "Flexible schema",
+      "choices": [
+        "Rigid schema",
+        "Strict schema",
+        "SQL-like schema",
+        "Flexible schema"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the default action when no explicit order is specified in insertMany()?",
+      "answer": "Ordered",
+      "choices": [
+        "Unordered",
+        "Enforced",
+        "Randomized",
+        "Ordered"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What MongoDB operation updates only the first matching document based on the criteria?",
+      "answer": "updateOne",
+      "choices": [
+        "updateOne",
+        "updateMany",
+        "replaceOne",
+        "deleteMany"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "If you need to insert multiple documents into a MongoDB collection, which method should you use?",
+      "answer": "insertMany",
+      "choices": [
+        "insertMany",
+        "insertOne",
+        "insertMore",
+        "insertMultiple"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In MongoDB, what operator is used to specify conditions like 'less than' or 'greater than'?",
+      "answer": "Query Selector",
+      "choices": [
+        "Query Selector",
+        "Regular Expressions",
+        "Embedded Data",
+        "Data Modeling"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What MongoDB feature uses dot notation to retrieve nested document values?",
+      "answer": "Querying on Embedded Documents",
+      "choices": [
+        "Embedded Data",
+        "Querying on Embedded Documents",
+        "Array Queries",
+        "References"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method is used to insert a single document into a MongoDB collection?",
+      "answer": "insertOne",
+      "choices": [
+        "insertOne",
+        "insertMany",
+        "insertSingle",
+        "insert"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How does MongoDB ensure the order of documents during a bulk insert?",
+      "answer": "ordered inserts",
+      "choices": [
+        "ordered inserts",
+        "unordered inserts",
+        "bulk operation",
+        "replaceOne"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What term refers to MongoDB's ability to handle flexible schemas without enforcing document structure?",
+      "answer": "Data Modeling",
+      "choices": [
+        "Embedded Data",
+        "References",
+        "Data Modeling",
+        "Schema Enforcement"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What MongoDB query operator performs a logical OR across multiple criteria?",
+      "answer": "$or",
+      "choices": [
+        "$and",
+        "$in",
+        "$or",
+        "$xor"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In MongoDB, which operator matches documents where a field value is not equal to a given value?",
+      "answer": "$ne",
+      "choices": [
+        "$regex",
+        "$not",
+        "$exists",
+        "$ne"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What operator changes the type or value of fields, adding keys if they don’t exist?",
+      "answer": "$set",
+      "choices": [
+        "$unset",
+        "$rename",
+        "$addFields",
+        "$set"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which operator matches fields using case-insensitive patterns in MongoDB queries?",
+      "answer": "Regular Expressions",
+      "choices": [
+        "Regular Expressions",
+        "Conditional Querying",
+        "Data Modeling",
+        "Embedded Data"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What design challenge involves balancing application needs with retrieval patterns and performance?",
+      "answer": "Data Modeling",
+      "choices": [
+        "Normalization",
+        "Embedded Data",
+        "Querying on Embedded Documents",
+        "Data Modeling"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does the $regex operator in MongoDB provide for queries?",
+      "answer": "Regular Expressions",
+      "choices": [
+        "Regular Expressions",
+        "Conditional Querying",
+        "OR Queries",
+        "Embedded Data"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In MongoDB, which operation can change multiple documents based on filter criteria?",
+      "answer": "updateMany",
+      "choices": [
+        "replaceOne",
+        "updateMany",
+        "deleteMany",
+        "updateOne"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does MongoDB use to include a link from one document to another to form relationships?",
+      "answer": "References",
+      "choices": [
+        "Data Modeling",
+        "References",
+        "Embedded Data",
+        "Regular Expressions"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of query can match a value at a specific index within an array in MongoDB?",
+      "answer": "Querying Arrays",
+      "choices": [
+        "Querying Arrays",
+        "Query Selector",
+        "Regular Expressions",
+        "Embedded Data"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method in MongoDB returns a specific document that matches a unique criterion?",
+      "answer": "findOne",
+      "choices": [
+        "findOne",
+        "find",
+        "replaceOne",
+        "findMany"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which MongoDB feature allows retrieving a specific number of documents in a collection?",
+      "answer": "Querying",
+      "choices": [
+        "OR Queries",
+        "Combining Conditions",
+        "Data Modeling",
+        "Querying"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In a document with nested objects, how do you query an attribute inside an embedded document?",
+      "answer": "Querying on Embedded Documents",
+      "choices": [
+        "Data Modeling",
+        "Querying on Embedded Documents",
+        "OR Queries",
+        "Normalization"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What method in MongoDB allows replacing an entire document in the database with a new one?",
+      "answer": "replaceOne",
+      "choices": [
+        "replaceOne",
+        "updateOne",
+        "insertOne",
+        "insertMany"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the delivery of different services through the Internet?",
+      "answer": "Cloud Computing",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "These resources include tools and applications like data storage, servers, databases, networking, and software.",
+      "answer": "Cloud Computing",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Rather than keeping files on a proprietary hard drive or local storage device, cloud-based storage makes it possible to save them to a remote database.",
+      "answer": "Cloud Computing",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "As long as an electronic device has access to the web, it has access to the data and the software programs to run it.",
+      "answer": "Cloud Computing",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This is defined according to where the infrastructure for the deployment resides and who has control over that infrastructure.",
+      "answer": "Cloud Implementation",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "There are three types of cloud deployments categorized based on an organization’s ability to manage and secure assets as well as business needs.",
+      "answer": "Cloud Implementation",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This type of cloud infrastructure is built by a third-party organization to sell cloud services to the general public.",
+      "answer": "Public Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This is the most common type of cloud implementation; examples include Amazon Web Services (AWS), Google Application Engine, and Microsoft Azure.",
+      "answer": "Public Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In this model, cloud consumers share resources with other consumers transparently.",
+      "answer": "Public Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Despite high reliability, lower costs, zero maintenance, and on-demand scalability, this is not suitable for organizations operating with sensitive information",
+      "answer": "Public Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This type of internal cloud is built by an organization for the sole purpose of servicing its own needs.",
+      "answer": "Private Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This is often used by large, geographically dispersed organizations to add agility and flexibility to internal IT services",
+      "answer": "Private Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The cloud infrastructure could be managed by internal IT staff or an external third party",
+      "answer": "Private Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This is the combination of a private and public cloud, providing for more flexibility to businesses",
+      "answer": "Hybrid Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This cloud architecture enables companies to take advantage of the public cloud as and when necessary due to their easy workload migration",
+      "answer": "Hybrid Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In this implementation type, businesses can use the public cloud for running high-volume applications like emails and utilize private clouds for sensitive assets like financials, data recovery, and during scheduled maintenance and rise in demand.",
+      "answer": "Hybrid Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which is not a Cloud Implementation type?",
+      "answer": "Merge Cloud",
+      "choices": [
+        "Merge Cloud",
+        "Hybrid Cloud",
+        "Public Cloud",
+        "Public Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "These come in different shapes and forms; no single type of service works for all consumers.",
+      "answer": "Cloud Services",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "These often follow an à la carte model; consumers can choose multiple service options according to their individual needs",
+      "answer": "Cloud Services",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "These services can build on top of each other to provide sophisticated solutions",
+      "answer": "Cloud Services",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The cloud service provider offers turnkey applications that run in the cloud.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Consumers can run the provider’s applications internally in their organizations via the web or any mobile device.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The consumer can customize certain aspects of the application but cannot make changes to the application itself.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The application is actually shared among users from multiple organizations.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Examples of this Cloud Service include MS Office 365, Google Docs, Intuit’s TurboTax Online, and SCALA digital signage.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The cloud service provider offers the capability to build and deploy consumer-created applications using the provider’s cloud infrastructure.",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In this scenario, the consumer can build, deploy, and manage applications using the provider’s cloud tools, languages, and interfaces.",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The consumer does not manage the underlying cloud infrastructure.",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Examples of this Cloud Service include the Microsoft Azure platform with .NET and Java.",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In this case, the cloud service provider offers consumers the ability to provision their own resources on demand; these resources include storage, servers, databases, processing units, and even a complete virtualized desktop.",
+      "answer": "Infrastructure as a Service (IaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The consumer then can add or remove the resources as needed.",
+      "answer": "Infrastructure as a Service (IaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Examples of this Cloud Service include a consumer can use Amazon Web Services (AWS) and provision a server computer that runs Linux and Apache Web server using 16 GB of RAM and 160 GB of storage.",
+      "answer": "Infrastructure as a Service (IaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Cloud computing enables immediate scalability of infrastructure capacity depending on the business need.",
+      "answer": "Instant Scalability",
+      "choices": [
+        "Instant Scalability",
+        "Anywhere Accessibility",
+        "Reduced Carbon Footprint",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "It is like having an unlimited IT resource, which can be scaled up and/ or down to meet user demands",
+      "answer": "Instant Scalability",
+      "choices": [
+        "Instant Scalability",
+        "Anywhere Accessibility",
+        "Reduced Carbon Footprint",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "A lot of factors have enabled globalization, and a key one is a technology and high-speed internet connectivity.",
+      "answer": "Anywhere Accessibility",
+      "choices": [
+        "Anywhere Accessibility",
+        "Instant Scalability",
+        "Reduced Carbon Footprint",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Cloud empowers enterprises to deploy their applications across the globe so they can service their customers at a fraction of the cost of traditional brick-and-motor businesses.",
+      "answer": "Anywhere Accessibility",
+      "choices": [
+        "Anywhere Accessibility",
+        "Disaster Recovery",
+        "Reduced Carbon Footprint",
+        "Instant Scalability"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Due to lower latency, customers around the world get an identical digital experience while using the applications",
+      "answer": "Anywhere Accessibility",
+      "choices": [
+        "Anywhere Accessibility",
+        "Disaster Recovery",
+        "Instant Scalability",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which cloud computing benefit enables immediate scalability of infrastructure capacity?",
+      "answer": "Instant Scalability",
+      "choices": [
+        "Anywhere Accessibility",
+        "Reduced Carbon Footprint",
+        "Instant Scalability",
+        "Increased Speed And Operational Agility"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which benefit allows enterprises to deploy their applications globally to serve customers?",
+      "answer": "Anywhere Accessibility",
+      "choices": [
+        "Instant Scalability",
+        "Reduced Expenditure",
+        "Anywhere Accessibility",
+        "Automatic Updates/Patches"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What enables businesses to instantly scale their cloud capacity and access bandwidth demands?",
+      "answer": "Increased Speed And Operational Agility",
+      "choices": [
+        "Increased Speed And Operational Agility",
+        "Disaster Recovery",
+        "Enterprise Collaboration",
+        "High Security"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What allows enterprises to focus on building their business rather than on idle infrastructure?",
+      "answer": "Reduced Expenditure",
+      "choices": [
+        "Flexibility",
+        "Reduced Expenditure",
+        "Automatic Updates/Patches",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which cloud benefit takes care of rolling out software and security updates automatically?",
+      "answer": "Automatic Updates/Patches",
+      "choices": [
+        "Increased Speed And Operational Agility",
+        "Automatic Updates/Patches",
+        "High Security",
+        "Flexibility"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ensures businesses can save time and effort through a robust backup and recovery plan?",
+      "answer": "Disaster Recovery",
+      "choices": [
+        "High Security",
+        "Disaster Recovery",
+        "Reduced Expenditure",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What reduces the risks of information loss and cyber threats using advanced features?",
+      "answer": "High Security",
+      "choices": [
+        "Automatic Updates/Patches",
+        "High Security",
+        "Increased Speed And Operational Agility",
+        "Enterprise Collaboration"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which benefit significantly reduces power consumption and adverse environmental impact?",
+      "answer": "Reduced Carbon Footprint",
+      "choices": [
+        "Reduced Expenditure",
+        "Flexibility",
+        "Reduced Carbon Footprint",
+        "Instant Scalability"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What offers businesses vast flexibility irrespective of device type or global location?",
+      "answer": "Flexibility",
+      "choices": [
+        "Anywhere Accessibility",
+        "Disaster Recovery",
+        "Flexibility",
+        "Automatic Updates/Patches"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What improves teamwork using centralized documentation control and apps like Slack?",
+      "answer": "Enterprise Collaboration",
+      "choices": [
+        "Enterprise Collaboration",
+        "Anywhere Accessibility",
+        "Increased Speed And Operational Agility",
+        "Reduced Expenditure"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the GUI for MongoDB that allows you to analyze and understand the contents of your data?",
+      "answer": "MongoDB Compass",
+      "choices": [
+        "AWS",
+        "MongoDB Compass",
+        "MongoDB Atlas",
+        "Google Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What provides an easy way to host and manage your data in the cloud?",
+      "answer": "MongoDB Atlas",
+      "choices": [
+        "MongoDB Compass",
+        "AWS",
+        "MongoDB Atlas",
+        "Shared Cluster"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What should you click in MongoDB Compass to redirect to the MongoDB Atlas website?",
+      "answer": "CREATE FREE CLUSTER",
+      "choices": [
+        "CREATE FREE CLUSTER",
+        "GET STARTED FREE",
+        "Create a Cluster",
+        "Add IP Address"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In MongoDB Atlas, what name should you assign for the organization’s project?",
+      "answer": "Personal",
+      "choices": [
+        "Setup connection security",
+        "Personal",
+        "Shared Cluster",
+        "Connect"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which shared cluster region is selected during setup for MongoDB Atlas?",
+      "answer": "Singapore",
+      "choices": [
+        "AWS",
+        "Singapore",
+        "Google Cloud",
+        "Add IP Address"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What should be clicked in the “Add a connection IP Address” section during setup?",
+      "answer": "Add Your Current IP Address",
+      "choices": [
+        "Create Database User",
+        "Add Your Current IP Address",
+        "GET STARTED FREE",
+        "Add IP Address"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What needs to be typed for the database authentication in MongoDB Atlas setup?",
+      "answer": "Username and Password",
+      "choices": [
+        "GET STARTED FREE",
+        "Username and Password",
+        "Add Your Current IP Address",
+        "Add IP Address"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What symbol must be removed in the password when using the connection string?",
+      "answer": "“<>” symbols",
+      "choices": [
+        "Username and Password",
+        "Add IP Address",
+        "“<>” symbols",
+        "Setup connection security"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How long does it usually take for a MongoDB Atlas cluster to be created?",
+      "answer": "3-10 minutes",
+      "choices": [
+        "10-20 minutes",
+        "3-10 minutes",
+        "A few seconds",
+        "Several hours"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "After copying the connection string, what button should be clicked in MongoDB Compass?",
+      "answer": "Connect",
+      "choices": [
+        "GET STARTED FREE",
+        "Connect",
+        "Add IP Address",
+        "Create Database User"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}

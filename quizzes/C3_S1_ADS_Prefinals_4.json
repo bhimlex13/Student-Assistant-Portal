@@ -1,0 +1,1312 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Database Systems",
+    "Term": "Prefinals",
+    "Title": "All Prefinals review ",
+    "LastModified": "15 December 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "05 Handout 1, 06 Handout 1, & 07 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the management-oriented role that concerns controlling corporate data resources?",
+      "answer": "Data Administrator (DA)",
+      "choices": [
+        "Database Administrator (DBA)",
+        "Privileges",
+        "Objects",
+        "Data Administrator (DA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Who is responsible for the design, implementation, and maintenance of physical structures (databases)?",
+      "answer": "Database Administrator (DBA)",
+      "choices": [
+        "Data Administrator (DA)",
+        "Users",
+        "Roles",
+        "Database Administrator (DBA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What role builds the logical design of the database?",
+      "answer": "Data Administrator (DA)",
+      "choices": [
+        "Database Administrator (DBA)",
+        "db_owner",
+        "db_ddladmin",
+        "Data Administrator (DA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Who facilitates the development and use of databases in organizations?",
+      "answer": "Database Administrator (DBA)",
+      "choices": [
+        "Data Administrator (DA)",
+        "db_datawriter",
+        "db_datareader",
+        "Database Administrator (DBA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which database role has managerial orientation?",
+      "answer": "Data Administrator (DA)",
+      "choices": [
+        "Database Administrator (DBA)",
+        "db_accessadmin",
+        "db_securityadmin",
+        "Data Administrator (DA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What role has a technical orientation and analyzes data volumes and space requirements?",
+      "answer": "Database Administrator (DBA)",
+      "choices": [
+        "Data Administrator (DA)",
+        "db_datawriter",
+        "db_ddladmin",
+        "Database Administrator (DBA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Who defines policies and standards for database design (e.g., naming and abbreviation)?",
+      "answer": "Data Administrator (DA)",
+      "choices": [
+        "Database Administrator (DBA)",
+        "db_accessadmin",
+        "db_securityadmin",
+        "Data Administrator (DA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Who enforces policies and programming standards in database management?",
+      "answer": "Database Administrator (DBA)",
+      "choices": [
+        "Data Administrator (DA)",
+        "db_datawriter",
+        "db_datareader",
+        "Database Administrator (DBA)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the SQL security concept representing people or programs performing actions on database objects?",
+      "answer": "Users",
+      "choices": [
+        "Roles",
+        "Privileges",
+        "Objects",
+        "Users"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are defined by SQL standards as things users manipulate within a database?",
+      "answer": "Objects",
+      "choices": [
+        "Users",
+        "Roles",
+        "Privileges",
+        "Objects"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What refers to user rights for manipulating objects like tables and views in a database?",
+      "answer": "Privileges",
+      "choices": [
+        "Roles",
+        "Users",
+        "Objects",
+        "Privileges"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are named collections of database access privileges granted to users or roles?",
+      "answer": "Roles",
+      "choices": [
+        "Objects",
+        "Privileges",
+        "Users",
+        "Roles"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which database-level fixed role can perform all configuration and maintenance activities on a database?",
+      "answer": "db_owner",
+      "choices": [
+        "db_securityadmin",
+        "db_accessadmin",
+        "db_ddladmin",
+        "db_owner"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which fixed-database role allows its members to back up the database?",
+      "answer": "db_backupoperator",
+      "choices": [
+        "db_owner",
+        "db_datareader",
+        "db_ddladmin",
+        "db_backupoperator"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What database-level role can add or remove access to a database for Windows logins or groups?",
+      "answer": "db_accessadmin",
+      "choices": [
+        "db_securityadmin",
+        "db_owner",
+        "db_datareader",
+        "db_accessadmin"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which database role allows adding, deleting, or changing data in all user tables?",
+      "answer": "db_datawriter",
+      "choices": [
+        "db_owner",
+        "db_backupoperator",
+        "db_ddladmin",
+        "db_datawriter"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the SQL command to provide access or privileges on database objects?",
+      "answer": "GRANT",
+      "choices": [
+        "REVOKE",
+        "ALTER",
+        "CREATE",
+        "GRANT"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command is used to remove privileges granted to users or roles?",
+      "answer": "REVOKE",
+      "choices": [
+        "GRANT",
+        "ALTER",
+        "DELETE",
+        "REVOKE"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the command to create a login in SQL Server?",
+      "answer": "CREATE LOGIN login_name_test WITH PASSWORD = 'Mypassword';",
+      "choices": [
+        "ALTER LOGIN login_name_test WITH PASSWORD = 'Newpassword';",
+        "CREATE USER user1 FOR LOGIN newlogin_name",
+        "GRANT SELECT ON [Names] TO user1",
+        "CREATE LOGIN login_name_test WITH PASSWORD = 'Mypassword';"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How can privileges to view and update data be assigned to a database role?",
+      "answer": "GRANT SELECT, UPDATE ON [Names] TO [Admin1]",
+      "choices": [
+        "CREATE LOGIN login_name_test WITH PASSWORD = 'Mypassword';",
+        "CREATE ROLE [Admin1]",
+        "GRANT REVOKE",
+        "GRANT SELECT, UPDATE ON [Names] TO [Admin1]"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What role restricts the ability to add, modify, or delete any data in a database?",
+      "answer": "db_denydatawriter",
+      "choices": [
+        "db_denydatareader",
+        "db_backupoperator",
+        "db_securityadmin",
+        "db_denydatawriter"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which SQL security concept refers to the ID granted to a person or process for performing specific actions?",
+      "answer": "Authentication",
+      "choices": [
+        "Privileges",
+        "Roles",
+        "Policies",
+        "Authentication"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What happens if a login is not mapped to a user in a database?",
+      "answer": "Cannot access objects in the database",
+      "choices": [
+        "Cannot connect to SQL Server",
+        "Can connect but with limited access",
+        "Has admin rights on DB",
+        "Cannot access objects in the database"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What T-SQL command is used to change the name of an existing login?",
+      "answer": "ALTER LOGIN login_name_test WITH NAME = newlogin_name",
+      "choices": [
+        "CREATE USER user1 FOR LOGIN newlogin_name",
+        "GRANT SELECT ON [Names] TO user1",
+        "CREATE ROLE [Admin1]",
+        "ALTER LOGIN login_name_test WITH NAME = newlogin_name"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is required for a user to access any objects in a database?",
+      "answer": "A login mapped to a database user",
+      "choices": [
+        "Authentication",
+        "A login mapped to a schema",
+        "Administrator privileges",
+        "A login mapped to a database user"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What fixed-database role allows members to run any DDL command in a database?",
+      "answer": "db_ddladmin",
+      "choices": [
+        "db_backupoperator",
+        "db_accessadmin",
+        "db_datawriter",
+        "db_ddladmin"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which fixed-database role restricts the ability to read any data in user tables?",
+      "answer": "db_denydatareader",
+      "choices": [
+        "db_denydatawriter",
+        "db_securityadmin",
+        "db_datawriter",
+        "db_denydatareader"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command is used to map a database user to a specific login?",
+      "answer": "CREATE USER user1 FOR LOGIN newlogin_name",
+      "choices": [
+        "GRANT SELECT ON [Names] TO user1",
+        "CREATE ROLE [Admin1]",
+        "ALTER ROLE db_owner ADD MEMBER user1",
+        "CREATE USER user1 FOR LOGIN newlogin_name"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which predefined database-level role can manage role membership and permissions?",
+      "answer": "db_securityadmin",
+      "choices": [
+        "db_accessadmin",
+        "db_backupoperator",
+        "db_datawriter",
+        "db_securityadmin"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of database-level role must you create for granting customized privileges to specific users?",
+      "answer": "User-defined database roles",
+      "choices": [
+        "Fixed-database roles",
+        "Privileges",
+        "Fixed access roles",
+        "User-defined database roles"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What role provides members with full access to configuration and all actions on a database?",
+      "answer": "db_owner",
+      "choices": [
+        "db_datawriter",
+        "db_accessadmin",
+        "db_datareader",
+        "db_owner"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How can access to a table be removed from a user using SQL commands?",
+      "answer": "REVOKE [privilege] ON [table] TO [user]",
+      "choices": [
+        "GRANT [privilege] ON [table] TO [user]",
+        "ALTER USER [user]",
+        "RESTRICT [table access]",
+        "REVOKE [privilege] ON [table] TO [user]"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of backup includes physical files such as data files, control files, and archived redo logs?",
+      "answer": "Physical backups",
+      "choices": [
+        "Logical backups",
+        "Differential backups",
+        "Physical backups",
+        "Incremental backups"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of backup stores logical data, such as tables or stored procedures?",
+      "answer": "Logical backups",
+      "choices": [
+        "Physical backups",
+        "Logical backups",
+        "Differential backups",
+        "Cloud-based backups"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which file does the DBMS use to keep track of all transactions that update the database?",
+      "answer": "Transaction log",
+      "choices": [
+        "Log file",
+        "Checkpoint file",
+        "Transaction log",
+        "Archive log"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What mechanism removes previous logs from the system and declares a consistent state point?",
+      "answer": "Checkpoint",
+      "choices": [
+        "Log flush",
+        "Recovery state",
+        "Checkpoint",
+        "Backup marker"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What backup measure involves automatic backup and recovery of the database or portions of it?",
+      "answer": "Automatic tools",
+      "choices": [
+        "Transaction log tools",
+        "Automatic tools",
+        "Differential backup tools",
+        "Deferred recovery methods"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What ensures backups are clearly identified with detailed descriptions and date information?",
+      "answer": "Backup identification",
+      "choices": [
+        "Multiple backup copies",
+        "Convenient storage",
+        "Backup identification",
+        "Physical storage details"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which backup medium is most commonly used today alongside disk-based devices?",
+      "answer": "Cloud-based storage",
+      "choices": [
+        "Physical backups",
+        "Tape-based backups",
+        "Cloud-based storage",
+        "Incremental backups"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What should include air conditioning, backup power, and fire protection for protecting hardware and software?",
+      "answer": "Physical protection",
+      "choices": [
+        "Logical protection",
+        "Onsite safety measures",
+        "Physical protection",
+        "Offsite storage protocols"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What technique allows transaction logs to update the database only after a commit point is reached?",
+      "answer": "Deferred update",
+      "choices": [
+        "Immediate update",
+        "Deferred update",
+        "Rollback operation",
+        "Write-through methods"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recovery technique immediately updates the database during transaction execution?",
+      "answer": "Immediate update",
+      "choices": [
+        "Deferred update",
+        "Immediate update",
+        "Checkpoint",
+        "Transaction replay"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What common event can compromise database integrity by causing a system crash during transaction execution?",
+      "answer": "Inconsistent state",
+      "choices": [
+        "System halt",
+        "Database crash",
+        "Inconsistent state",
+        "Log overflow"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "If a database is extensively damaged, what must be restored first for recovery?",
+      "answer": "Last backup copy",
+      "choices": [
+        "Latest checkpoint",
+        "Last backup copy",
+        "Immediate update log",
+        "Deferred transaction data"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "When does a rollback operation use the \"before\" values in the transaction log?",
+      "answer": "Write-through",
+      "choices": [
+        "Transaction recovery",
+        "Deferred update",
+        "Write-through",
+        "Inconsistent state"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What kind of recovery ensures transactions are undone or redone to return the database to a consistent state?",
+      "answer": "Database recovery",
+      "choices": [
+        "Log replay",
+        "Transaction update",
+        "Database recovery",
+        "Write rollback recovery"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What kind of events include deleting the wrong rows or pressing the wrong key during database operations?",
+      "answer": "Unintentional failure",
+      "choices": [
+        "Human error",
+        "Data inconsistency",
+        "Unintentional failure",
+        "Security breaches"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What serious intentional incidents include security threats by hackers?",
+      "answer": "Intentional events",
+      "choices": [
+        "Accidental deletions",
+        "Human error",
+        "Intentional events",
+        "Database conflicts"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of backup is most vulnerable when all copies are stored in the same physical location?",
+      "answer": "Multiple backups",
+      "choices": [
+        "Incremental backups",
+        "Logical backups",
+        "Multiple backups",
+        "Differential backups"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recovery method involves both undoing inconsistencies and redoing transactions that were partially executed?",
+      "answer": "Database recovery",
+      "choices": [
+        "Consistent state recovery",
+        "Backup recovery",
+        "Database recovery",
+        "Recovery rollback"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tool uses transaction logs to recover a database to a consistent state forward after a failure?",
+      "answer": "Transaction log",
+      "choices": [
+        "Consistency pointer",
+        "Transaction log",
+        "Database snapshot",
+        "Rollback operations"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does a DBMS use to declare the database state consistent before specific transactions were committed?",
+      "answer": "Checkpoint",
+      "choices": [
+        "Write-through point",
+        "Consistency log",
+        "Checkpoint",
+        "State backup"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What event results in complete database restoration from the last backup and committed logs?",
+      "answer": "Extensive damage",
+      "choices": [
+        "Unintentional failure",
+        "Extensive damage",
+        "Checkpoint loss",
+        "Recovery rollback"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the purpose of storing backups both inside and outside the organization?",
+      "answer": "Convenient storage",
+      "choices": [
+        "Logical backup policy",
+        "Convenient storage",
+        "Data integrity checks",
+        "Automatic recovery measures"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What failure type includes bad capacitors, disk errors, or memory bank failures?",
+      "answer": "Hardware failures",
+      "choices": [
+        "Hardware failures",
+        "Logical errors",
+        "Storage errors",
+        "Transaction inconsistencies"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the correct response to a logical failure that results in database inconsistency but no physical damage?",
+      "answer": "Undo and redo",
+      "choices": [
+        "Full recovery",
+        "Undo and redo",
+        "Incremental restore",
+        "Deferred update"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What kind of events are categorized as updates performed successfully or undone after a crash?",
+      "answer": "Recovery requirement",
+      "choices": [
+        "Data inconsistency",
+        "Recovery requirement",
+        "Log-based checkpoint",
+        "Write-back operation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What kind of backup updates the database immediately with each transaction but requires a rollback for failures?",
+      "answer": "Immediate update",
+      "choices": [
+        "Deferred transaction",
+        "Data syncing",
+        "Immediate update",
+        "Synchronous update"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which step stores log updates but prevents physical database updates until a transaction commit point?",
+      "answer": "Deferred update",
+      "choices": [
+        "Consistent rollback",
+        "Transaction deferment",
+        "Deferred update",
+        "Immediate write operations"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What must be prepared to prevent data loss in emergencies such as hurricanes?",
+      "answer": "Backup computer",
+      "choices": [
+        "Multiple onsite backups",
+        "Logical backup plan",
+        "Backup computer",
+        "Primary DBMS replication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What must the DBA do if a database's log file becomes too large to handle due to real-time logging?",
+      "answer": "Perform a checkpoint",
+      "choices": [
+        "Rollback updates",
+        "Restore backups",
+        "Perform a checkpoint",
+        "Clear the backup copy"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What should the DBA check when scheduling regular database backups?",
+      "answer": "Update frequency",
+      "choices": [
+        "Update timing",
+        "Physical data amount",
+        "Update frequency",
+        "Transaction rollback logs"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What describes the security incidents caused by disgruntled employees introducing viruses?",
+      "answer": "Intentional events",
+      "choices": [
+        "Hardware failures",
+        "Virus rollback",
+        "Intentional events",
+        "Transaction mismatches"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What physical storage must be handled for permanent log file storage during checkpoints?",
+      "answer": "Storage disk",
+      "choices": [
+        "Cloud-based storage",
+        "Write-through log",
+        "Storage disk",
+        "Backup tape archives"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What method updates the database with committed transaction data in a deferred-write approach?",
+      "answer": "Committed transactions",
+      "choices": [
+        "Logical backups",
+        "Committed transactions",
+        "Incremental transactions",
+        "Write-through policies"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are the characteristics of big data as described in the module?",
+      "answer": "High-volume, high-velocity, high-variety",
+      "choices": [
+        "Large amounts of data",
+        "Distributed systems",
+        "High-volume, high-velocity, high-variety",
+        "JSON documents"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the simplest of the NoSQL data models?",
+      "answer": "Key-value (KV) database",
+      "choices": [
+        "Column-oriented database",
+        "Key-value (KV) database",
+        "Graph database",
+        "Document-oriented database"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "In which data model does the key act as an identifier for the value?",
+      "answer": "Key-value (KV) database",
+      "choices": [
+        "Key-value (KV) database",
+        "Document database",
+        "Relational database",
+        "Graph database"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which format is MongoDB highly optimized for?",
+      "answer": "JSON",
+      "choices": [
+        "XML",
+        "JSON",
+        "BSON",
+        "CSV"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does MongoDB store data in?",
+      "answer": "JSON documents",
+      "choices": [
+        "SQL rows",
+        "JSON documents",
+        "Tables",
+        "Columnar storage"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which NoSQL model represents data through nodes, edges, and properties?",
+      "answer": "Graph databases",
+      "choices": [
+        "Key-value database",
+        "Document database",
+        "Graph databases",
+        "Column-oriented databases"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the name of the key that is unique across a MongoDB document collection?",
+      "answer": "_id",
+      "choices": [
+        "_id",
+        "index",
+        "primary_key",
+        "node_id"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command is used to switch to a database in MongoDB?",
+      "answer": "use",
+      "choices": [
+        "db.use",
+        "use",
+        "switch",
+        "connect"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which command creates a collection manually in MongoDB?",
+      "answer": "db.createCollection",
+      "choices": [
+        "db.createCollection",
+        "use.collection",
+        "db.insertCollection",
+        "db.newCollection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of backup copy must be stored in a separate location for security reasons?",
+      "answer": "Multiple backups",
+      "choices": [
+        "Redundant databases",
+        "Multiple backups",
+        "Archived data",
+        "Cloud databases"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of data is commonly stored in a document-oriented database?",
+      "answer": "Tagged documents",
+      "choices": [
+        "Relational records",
+        "JSON or BSON data",
+        "Tagged documents",
+        "Indexed documents"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does MongoDB call a database that is grouped into collections?",
+      "answer": "Database",
+      "choices": [
+        "Database",
+        "Schema",
+        "Cluster",
+        "Collection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How does MongoDB identify portions of data inside a document?",
+      "answer": "Tags",
+      "choices": [
+        "Primary key",
+        "Tags",
+        "Columns",
+        "Relations"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the basis for MongoDB’s operation compared to SQL databases?",
+      "answer": "Collections and JSON documents",
+      "choices": [
+        "Indexed records",
+        "Tables and rows",
+        "Columns and relations",
+        "Collections and JSON documents"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What storage structure is primarily used in Column-oriented databases?",
+      "answer": "Column-centric storage",
+      "choices": [
+        "Row-centric storage",
+        "Column-centric storage",
+        "Record storage",
+        "Distributed files"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What feature of NoSQL provides resilience and availability for high scalability?",
+      "answer": "Resilience and availability",
+      "choices": [
+        "Strict schema",
+        "Resilience and availability",
+        "Transactions",
+        "Optimization methods"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does the velocity characteristic in big data refer to?",
+      "answer": "Rate of data processing",
+      "choices": [
+        "Rate of storage growth",
+        "Rate of data input",
+        "Rate of query optimization",
+        "Rate of data processing"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command in MongoDB is used to check the current database?",
+      "answer": "db",
+      "choices": [
+        "use",
+        "db",
+        "show dbs",
+        "current_db"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which data characteristic in big data includes structured and unstructured formats?",
+      "answer": "Variety",
+      "choices": [
+        "Velocity",
+        "Variety",
+        "Volume",
+        "Indexing"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "In a key-value database, what format can a value be stored as?",
+      "answer": "Any format (e.g., text, image)",
+      "choices": [
+        "Only text values",
+        "Structured JSON only",
+        "Any format (e.g., text, image)",
+        "Fixed database type"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How are relationships between entities tracked in a graph database?",
+      "answer": "Through edges",
+      "choices": [
+        "Primary keys",
+        "Through edges",
+        "Tags",
+        "Joins"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which database model does not use tables for storing data?",
+      "answer": "NoSQL",
+      "choices": [
+        "Relational database",
+        "SQL",
+        "NoSQL",
+        "BSON database"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does the \"use\" command in MongoDB do if the database doesn’t exist?",
+      "answer": "Creates it automatically",
+      "choices": [
+        "Throws an error",
+        "Skips the command",
+        "Creates it automatically",
+        "Prompts for a file"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which NoSQL model is efficient for optimizing read operations in specific column families?",
+      "answer": "Column-oriented databases",
+      "choices": [
+        "Document database",
+        "Column-oriented databases",
+        "Key-value database",
+        "XML databases"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is MongoDB’s default behavior when inserting a new collection?",
+      "answer": "Automatically creates it",
+      "choices": [
+        "Throws an error",
+        "Requires manual creation",
+        "Automatically creates it",
+        "Deletes any existing collection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How is scalability enhanced in NoSQL databases?",
+      "answer": "By avoiding joins",
+      "choices": [
+        "By using indexing",
+        "By optimizing relations",
+        "By avoiding joins",
+        "Through entity definitions"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What data type can always be found in a document database value component?",
+      "answer": "A document",
+      "choices": [
+        "Freeform text",
+        "Fixed schema data",
+        "A document",
+        "File system"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What process in MongoDB removes all documents from a collection?",
+      "answer": "drop",
+      "choices": [
+        "delete_all",
+        "drop",
+        "remove",
+        "clear"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which command deletes an entire MongoDB database?",
+      "answer": "dropDatabase",
+      "choices": [
+        "removeDb",
+        "deleteDb",
+        "dropDatabase",
+        "eraseCurrentDB"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What syntax is used to query all collections in MongoDB?",
+      "answer": "show collections",
+      "choices": [
+        "findCollections",
+        "collections.list",
+        "show collections",
+        "queryAllCollections"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are the primary building blocks of graph databases?",
+      "answer": "Nodes, edges, properties",
+      "choices": [
+        "Relationships",
+        "Tags and keys",
+        "Nodes, edges, properties",
+        "Linked lists"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "In what situation is MongoDB most effectively utilized?",
+      "answer": "Massively distributed applications",
+      "choices": [
+        "Small static datasets",
+        "Real-time transactions",
+        "Massively distributed applications",
+        "Banking data security systems"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What format does BSON refer to?",
+      "answer": "Binary JSON",
+      "choices": [
+        "Encrypted XML",
+        "Compressed JSON",
+        "Binary JSON",
+        "Graph-based encoding"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command is used to query documents in a MongoDB collection?",
+      "answer": "find",
+      "choices": [
+        "queryAllDocuments",
+        "find",
+        "search",
+        "retrieve"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which command allows deleting specific entries from a MongoDB collection?",
+      "answer": "remove",
+      "choices": [
+        "drop",
+        "findAndRemove",
+        "remove",
+        "delete_rows"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Why are tags essential in document databases?",
+      "answer": "They support advanced capabilities",
+      "choices": [
+        "They enhance security",
+        "They structure relations",
+        "They support advanced capabilities",
+        "Simplify logging"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What term describes storing unstructured data in NoSQL?",
+      "answer": "Key-value pairs",
+      "choices": [
+        "Relational model",
+        "Key-value pairs",
+        "Distributed storage",
+        "MongoDB"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "hich characteristic of Big Data refers to the storage capacities associated with an extremely large amount of information?",
+      "answer": "Volume",
+      "choices": [
+        "Velocity",
+        "Variety",
+        "Scalability",
+        "Volume"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which Big Data characteristic indicates the rate at which new data enters the system and must be processed?",
+      "answer": "Velocity",
+      "choices": [
+        "Volume",
+        "Variety",
+        "Scalability",
+        "Velocity"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which Big Data characteristic indicates the variety of formats and structures in which the data is captured?",
+      "answer": "Variety",
+      "choices": [
+        "Volume",
+        "Scalability",
+        "Resilience",
+        "Variety"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What term is used to label large volumes of unstructured or semi-structured data from various sources such as social media and emails?",
+      "answer": "Big Data",
+      "choices": [
+        "NoSQL",
+        "MongoDB",
+        "JSON",
+        "Big Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What database management system is not based on the traditional relational database model (SQL)?",
+      "answer": "NoSQL DBMS",
+      "choices": [
+        "SQL DBMS",
+        "Document DBMS",
+        "Graph DBMS",
+        "NoSQL DBMS"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does the acronym \"NoSQL\" stand for?",
+      "answer": "Not only SQL",
+      "choices": [
+        "No Structure Query Language",
+        "Node Standard Query Language",
+        "Normalized SQL",
+        "Not only SQL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Database Systems",
+    "Term": "Prefinals",
+    "Title": "Introduction to NoSQL Database Management Systems",
+    "LastModified": "15 December 2024",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "07 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What are the characteristics of big data as described in the module?",
+      "answer": "High-volume, high-velocity, high-variety",
+      "choices": [
+        "Large amounts of data",
+        "Distributed systems",
+        "High-volume, high-velocity, high-variety",
+        "JSON documents"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the simplest of the NoSQL data models?",
+      "answer": "Key-value (KV) database",
+      "choices": [
+        "Column-oriented database",
+        "Key-value (KV) database",
+        "Graph database",
+        "Document-oriented database"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "In which data model does the key act as an identifier for the value?",
+      "answer": "Key-value (KV) database",
+      "choices": [
+        "Key-value (KV) database",
+        "Document database",
+        "Relational database",
+        "Graph database"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which format is MongoDB highly optimized for?",
+      "answer": "JSON",
+      "choices": [
+        "XML",
+        "JSON",
+        "BSON",
+        "CSV"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does MongoDB store data in?",
+      "answer": "JSON documents",
+      "choices": [
+        "SQL rows",
+        "JSON documents",
+        "Tables",
+        "Columnar storage"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which NoSQL model represents data through nodes, edges, and properties?",
+      "answer": "Graph databases",
+      "choices": [
+        "Key-value database",
+        "Document database",
+        "Graph databases",
+        "Column-oriented databases"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the name of the key that is unique across a MongoDB document collection?",
+      "answer": "_id",
+      "choices": [
+        "_id",
+        "index",
+        "primary_key",
+        "node_id"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command is used to switch to a database in MongoDB?",
+      "answer": "use",
+      "choices": [
+        "db.use",
+        "use",
+        "switch",
+        "connect"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which command creates a collection manually in MongoDB?",
+      "answer": "db.createCollection",
+      "choices": [
+        "db.createCollection",
+        "use.collection",
+        "db.insertCollection",
+        "db.newCollection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of backup copy must be stored in a separate location for security reasons?",
+      "answer": "Multiple backups",
+      "choices": [
+        "Redundant databases",
+        "Multiple backups",
+        "Archived data",
+        "Cloud databases"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of data is commonly stored in a document-oriented database?",
+      "answer": "Tagged documents",
+      "choices": [
+        "Relational records",
+        "JSON or BSON data",
+        "Tagged documents",
+        "Indexed documents"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does MongoDB call a database that is grouped into collections?",
+      "answer": "Database",
+      "choices": [
+        "Database",
+        "Schema",
+        "Cluster",
+        "Collection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How does MongoDB identify portions of data inside a document?",
+      "answer": "Tags",
+      "choices": [
+        "Primary key",
+        "Tags",
+        "Columns",
+        "Relations"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the basis for MongoDB’s operation compared to SQL databases?",
+      "answer": "Collections and JSON documents",
+      "choices": [
+        "Indexed records",
+        "Tables and rows",
+        "Columns and relations",
+        "Collections and JSON documents"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What storage structure is primarily used in Column-oriented databases?",
+      "answer": "Column-centric storage",
+      "choices": [
+        "Row-centric storage",
+        "Column-centric storage",
+        "Record storage",
+        "Distributed files"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What feature of NoSQL provides resilience and availability for high scalability?",
+      "answer": "Resilience and availability",
+      "choices": [
+        "Strict schema",
+        "Resilience and availability",
+        "Transactions",
+        "Optimization methods"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does the velocity characteristic in big data refer to?",
+      "answer": "Rate of data processing",
+      "choices": [
+        "Rate of storage growth",
+        "Rate of data input",
+        "Rate of query optimization",
+        "Rate of data processing"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command in MongoDB is used to check the current database?",
+      "answer": "db",
+      "choices": [
+        "use",
+        "db",
+        "show dbs",
+        "current_db"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which data characteristic in big data includes structured and unstructured formats?",
+      "answer": "Variety",
+      "choices": [
+        "Velocity",
+        "Variety",
+        "Volume",
+        "Indexing"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "In a key-value database, what format can a value be stored as?",
+      "answer": "Any format (e.g., text, image)",
+      "choices": [
+        "Only text values",
+        "Structured JSON only",
+        "Any format (e.g., text, image)",
+        "Fixed database type"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How are relationships between entities tracked in a graph database?",
+      "answer": "Through edges",
+      "choices": [
+        "Primary keys",
+        "Through edges",
+        "Tags",
+        "Joins"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which database model does not use tables for storing data?",
+      "answer": "NoSQL",
+      "choices": [
+        "Relational database",
+        "SQL",
+        "NoSQL",
+        "BSON database"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does the \"use\" command in MongoDB do if the database doesn’t exist?",
+      "answer": "Creates it automatically",
+      "choices": [
+        "Throws an error",
+        "Skips the command",
+        "Creates it automatically",
+        "Prompts for a file"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which NoSQL model is efficient for optimizing read operations in specific column families?",
+      "answer": "Column-oriented databases",
+      "choices": [
+        "Document database",
+        "Column-oriented databases",
+        "Key-value database",
+        "XML databases"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is MongoDB’s default behavior when inserting a new collection?",
+      "answer": "Automatically creates it",
+      "choices": [
+        "Throws an error",
+        "Requires manual creation",
+        "Automatically creates it",
+        "Deletes any existing collection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "How is scalability enhanced in NoSQL databases?",
+      "answer": "By avoiding joins",
+      "choices": [
+        "By using indexing",
+        "By optimizing relations",
+        "By avoiding joins",
+        "Through entity definitions"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What data type can always be found in a document database value component?",
+      "answer": "A document",
+      "choices": [
+        "Freeform text",
+        "Fixed schema data",
+        "A document",
+        "File system"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What process in MongoDB removes all documents from a collection?",
+      "answer": "drop",
+      "choices": [
+        "delete_all",
+        "drop",
+        "remove",
+        "clear"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which command deletes an entire MongoDB database?",
+      "answer": "dropDatabase",
+      "choices": [
+        "removeDb",
+        "deleteDb",
+        "dropDatabase",
+        "eraseCurrentDB"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What syntax is used to query all collections in MongoDB?",
+      "answer": "show collections",
+      "choices": [
+        "findCollections",
+        "collections.list",
+        "show collections",
+        "queryAllCollections"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are the primary building blocks of graph databases?",
+      "answer": "Nodes, edges, properties",
+      "choices": [
+        "Relationships",
+        "Tags and keys",
+        "Nodes, edges, properties",
+        "Linked lists"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "In what situation is MongoDB most effectively utilized?",
+      "answer": "Massively distributed applications",
+      "choices": [
+        "Small static datasets",
+        "Real-time transactions",
+        "Massively distributed applications",
+        "Banking data security systems"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What format does BSON refer to?",
+      "answer": "Binary JSON",
+      "choices": [
+        "Encrypted XML",
+        "Compressed JSON",
+        "Binary JSON",
+        "Graph-based encoding"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What command is used to query documents in a MongoDB collection?",
+      "answer": "find",
+      "choices": [
+        "queryAllDocuments",
+        "find",
+        "search",
+        "retrieve"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which command allows deleting specific entries from a MongoDB collection?",
+      "answer": "remove",
+      "choices": [
+        "drop",
+        "findAndRemove",
+        "remove",
+        "delete_rows"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Why are tags essential in document databases?",
+      "answer": "They support advanced capabilities",
+      "choices": [
+        "They enhance security",
+        "They structure relations",
+        "They support advanced capabilities",
+        "Simplify logging"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What term describes storing unstructured data in NoSQL?",
+      "answer": "Key-value pairs",
+      "choices": [
+        "Relational model",
+        "Key-value pairs",
+        "Distributed storage",
+        "MongoDB"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "hich characteristic of Big Data refers to the storage capacities associated with an extremely large amount of information?",
+      "answer": "Volume",
+      "choices": [
+        "Velocity",
+        "Variety",
+        "Scalability",
+        "Volume"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which Big Data characteristic indicates the rate at which new data enters the system and must be processed?",
+      "answer": "Velocity",
+      "choices": [
+        "Volume",
+        "Variety",
+        "Scalability",
+        "Velocity"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which Big Data characteristic indicates the variety of formats and structures in which the data is captured?",
+      "answer": "Variety",
+      "choices": [
+        "Volume",
+        "Scalability",
+        "Resilience",
+        "Variety"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What term is used to label large volumes of unstructured or semi-structured data from various sources such as social media and emails?",
+      "answer": "Big Data",
+      "choices": [
+        "NoSQL",
+        "MongoDB",
+        "JSON",
+        "Big Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What database management system is not based on the traditional relational database model (SQL)?",
+      "answer": "NoSQL DBMS",
+      "choices": [
+        "SQL DBMS",
+        "Document DBMS",
+        "Graph DBMS",
+        "NoSQL DBMS"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does the acronym \"NoSQL\" stand for?",
+      "answer": "Not only SQL",
+      "choices": [
+        "No Structure Query Language",
+        "Node Standard Query Language",
+        "Normalized SQL",
+        "Not only SQL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-finals"
+    }
+  ]
+}
