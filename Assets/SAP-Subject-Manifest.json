@@ -221,6 +221,48 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C3_S1_ASIA_Finals",
+                    "Module_Name": "Finals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "15 December 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_ASIA_Finals_1",
+                            "Subfolder_Name": "Quality Management (QM)",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Finals_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "20 December 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ASIA_Finals_1",
+                            "Subfolder_Name": "Full Course Review",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Finals_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "20 December 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ASIA_Finals_1",
+                            "Subfolder_Name": "Final Pointers Based Only",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Finals_3",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "20 December 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
             ]
         },
@@ -647,7 +689,7 @@
                     "Module_LastModified": "20 September 2024",
                     "Module_Subfolders": [
                         {
-                            "Subfolder_ID": "C3_S1_ASIA_Prelims_1",
+                            "Subfolder_ID": "C3_S1_DDC_Prelims_1",
                             "Subfolder_Name": "QUIZ REVIEWER",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_DDC_Prelims_1",
@@ -687,7 +729,7 @@
                     "Module_LastModified": "18 November 2024",
                     "Module_Subfolders": [
                         {
-                            "Subfolder_ID": "C3_S1_ASIA_Midterms_1",
+                            "Subfolder_ID": "C3_S1_DDC_Midterms_1",
                             "Subfolder_Name": "QUIZ REVIEWER FOR PREFINALS",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_DDC_Prefinals_1",

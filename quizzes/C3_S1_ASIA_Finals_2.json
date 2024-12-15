@@ -1,0 +1,4934 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Systems Integration and Architecture",
+    "Term": "Finals",
+    "Title": "Full Course",
+    "LastModified": "15 December 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "07 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is a business software that collects information from different departments to enable leaders to monitor the company with detailed analytics and reporting?",
+      "answer": "ERP",
+      "choices": [
+        "ERP",
+        "SAP SE",
+        "SAP Fiori",
+        "SAP ERP"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What unifies crucial functions such as finance, manufacturing, inventory and order management, sales and marketing, project management, and human resources?",
+      "answer": "ERP",
+      "choices": [
+        "ERP",
+        "SAP SE",
+        "SAP Fiori",
+        "SAP ERP"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is NOT needed to understand when choosing an ERP?",
+      "answer": "Detailed Analytics",
+      "choices": [
+        "Detailed Analytics",
+        "Understand the capabilities",
+        "Implementation of models",
+        "Integration requirements"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the market leader for enterprise application software?",
+      "answer": "SAP SE",
+      "choices": [
+        "SAP SE",
+        "SAP S/4HANA",
+        "SAP Fiori",
+        "SAP ERP"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is a German multinational company that pioneered software?",
+      "answer": "SAP SE",
+      "choices": [
+        "SAP SE",
+        "SAP S/4HANA",
+        "SAP Fiori",
+        "SAP ERP"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In what year was SAP founded for the development of real-time data application software?",
+      "answer": 1972,
+      "choices": [
+        1972,
+        1970,
+        1975,
+        1983
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is he standard ERP solution for companies worldwide?",
+      "answer": "SAP ERP",
+      "choices": [
+        "SAP ERP",
+        "SAP SE",
+        "SAP S/4HANA",
+        "SAP Fiori"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What enables a company to support and optimize its business processes and allows the collection of logically related transactions?",
+      "answer": "SAP ERP",
+      "choices": [
+        "SAP ERP",
+        "SAP SE",
+        "SAP S/4HANA",
+        "SAP Fiori"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the result of SAP's strategic goal to develop a next-generation ERP package?",
+      "answer": "SAP S/4HANA",
+      "choices": [
+        "SAP S/4HANA",
+        "SAP ERP",
+        "SAP SE",
+        "SAP Fiori"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the next-generation Business Suite and the biggest innovation since SAP R/3?",
+      "answer": "SAP S/4HANA",
+      "choices": [
+        "SAP S/4HANA",
+        "SAP ERP",
+        "SAP SE",
+        "SAP Fiori"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "SAP S/4HANA is designed to strengthen companies of every size in various industries, while SAP ERP caters more to large, enterprise-level organizations.",
+      "answer": "The statement is false.",
+      "choices": [
+        "The statement is false.",
+        "The statement is true."
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is a design system and a user experience (UX) layer that allows business app creation with a consumer-grade user experience?",
+      "answer": "SAP Fiori",
+      "choices": [
+        "SAP Fiori",
+        "SAP ERP",
+        "SAP SE",
+        "SAP S/4HANA"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What provides a user interface for SAP S/4HANA?",
+      "answer": "SAP Fiori",
+      "choices": [
+        "SAP Fiori",
+        "SAP ERP",
+        "SAP SE",
+        "SAP S/4HANA"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What makes casual users into SAP experts with simple screens that run on any device?",
+      "answer": "SAP Fiori",
+      "choices": [
+        "SAP Fiori",
+        "SAP ERP",
+        "SAP SE",
+        "SAP S/4HANA"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is NOT an application type of SAP Fiori?",
+      "answer": "User Data apps",
+      "choices": [
+        "User Data apps",
+        "Transactional apps",
+        "Analytical Apps",
+        "Factsheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What are used to access tasks like Create, Change, or Display Process with guided navigation?",
+      "answer": "Transactional Apps",
+      "choices": [
+        "Transactional apps",
+        "User Data apps",
+        "Analytical Apps",
+        "Factsheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application type gives a visual overview of business data?",
+      "answer": "Analytical Apps",
+      "choices": [
+        "Analytical Apps",
+        "Transactional apps",
+        "User Data apps",
+        "Factsheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application type with a view of the essential information about objects and contextual navigation between related objects?",
+      "answer": "Factsheet",
+      "choices": [
+        "Factsheet",
+        "Analytical Apps",
+        "Transactional apps",
+        "User Data apps"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is NOT a data type than can be used and found in SAP S/4HANA?",
+      "answer": "Analytical Data",
+      "choices": [
+        "Analytical Data",
+        "Organizational Data",
+        "Master Data",
+        "Transaction Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What data type is a part of the organizational unit, such as the company code, plant, storage location, and distribution channel?",
+      "answer": "Organizational Data",
+      "choices": [
+        "Organizational Data",
+        "Analytical Data",
+        "Master Data",
+        "Transaction Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What data type represents logically grouped data like customer master, material master, vendor master, and general ledger accounts?",
+      "answer": "Master Data",
+      "choices": [
+        "Master Data",
+        "Organizational Data",
+        "Analytical Data",
+        "Transaction Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What data type is a system record of the business event wherein different master data and organization data will be referenced?",
+      "answer": "Transaction Data",
+      "choices": [
+        "Transaction Data",
+        "Master Data",
+        "Organizational Data",
+        "Analytical Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the business transaction record called, which includes predefined information from the master data and organizational entities?",
+      "answer": "Document",
+      "choices": [
+        "Document",
+        "Factsheet",
+        "Master Data",
+        "Organizational Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Who is responsible for Idea-to-Market and Build-to-Stock in Global Bike?",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "Peter Schwarz",
+        "John Davis",
+        "John Schwarz",
+        "Peter Davis"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Who is responsible for Order-to-Cash and Service & Support in Global Bike?",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz",
+        "John Schwarz",
+        "Peter Davis"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which strategy is used in the statement? <br> Having an extensive innovation network to source ideas from riders, dealers, and professionals to improve its bicycles' performance, reliability, and quality.",
+      "answer": "Product Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which strategy is used in the statement? <br> Global Bike outsources the production of off-road and touring frames and carbon composite wheels to trusted partners with specialty facilities to create the complex materials used. They maintain collaborative research and design relationships with these facilities to ensure that innovations in both material and structural capabilities are included in the frames",
+      "answer": "Manufacturing Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which strategy is used in the statement? <br> Global Bike sells its bikes exclusively through reputable and respected Independent Bicycle Dealers (IBDs). These dealers have staff members with expertise in offroad and tour racing to help consumers pick the right Global Bike bike and accessories for their individual needs.",
+      "answer": "Distribution and Partner Network",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which strategy is used in the statement? <br> All ERP functions are centralized to reduce costs and deliver global best-in-class technology to all divisions.",
+      "answer": "IT Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which allows allows organizations to store and manage customer- and product-related data?",
+      "answer": "Sales and Distribution (SD)",
+      "choices": [
+        "Sales and Distribution (SD)",
+        "Materials Management (MM)",
+        "Production Planning and Execution (PP)",
+        "Financial Accounting (FI)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is the smallest organizational unit where a legal set of books can be maintained?",
+      "answer": "Company Code",
+      "choices": [
+        "Company Code",
+        "Client",
+        "Sales Organization",
+        "Plant"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is not part of SD Organizational Units?",
+      "answer": "Purchasing Group",
+      "choices": [
+        "Credit Control Area",
+        "Purchasing Group",
+        "Plant",
+        "Sales Organization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following contains all the information a company needs to manage a material?",
+      "answer": "Material Master",
+      "choices": [
+        "Customer Master",
+        "Material Master",
+        "Condition Master",
+        "Vendor Master"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following includes prices, surcharges (additional charge), discounts, freights (goods transferred from place to place), and taxes?",
+      "answer": "Condition Master",
+      "choices": [
+        "Customer Master",
+        "Material Master",
+        "Condition Master",
+        "Vendor Master"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following contains all the necessary information for business activities with an external supplier?",
+      "answer": "Vendor Master",
+      "choices": [
+        "Customer Master",
+        "Material Master",
+        "Condition Master",
+        "Vendor Master"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is the first step in Processes (Sales Order)?",
+      "answer": "Pre-sales Activities",
+      "choices": [
+        "Pre-sales Activities",
+        "Sales Order Entry",
+        "Check Avalability",
+        "Pick Materials"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is not part of MM Organizational Units?",
+      "answer": "Sales Organization",
+      "choices": [
+        "Sales Organization",
+        "Purchasing Group",
+        "Purchasing Organization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following allows buyers to quickly determine which vendors have offered or supplied specific materials?",
+      "answer": "Purchasing Information Record",
+      "choices": [
+        "Purchasing Information Record",
+        "Vendor Master",
+        "Purchasing Group",
+        "Material Master"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is the first step in Processes (Procure-to-Pay)?",
+      "answer": "Purchase Requisition",
+      "choices": [
+        "Purchase Requisition",
+        "Vendor Selection",
+        "Purchase Order",
+        "Pre-Order Activities"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is concerned with helping organizations with material and inventory management and warehouse management in the supply chain process?",
+      "answer": "Materials Management (MM)",
+      "choices": [
+        "Sales and Distribution (SD)",
+        "Materials Management (MM)",
+        "Production Planning and Execution (PP)",
+        "Financial Accounting (FI)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following aligns demand with manufacturing capacity in creating production and procurement schedules for the finished products and component materials?",
+      "answer": "Production Planning and Execution (PP)",
+      "choices": [
+        "Sales and Distribution (SD)",
+        "Materials Management (MM)",
+        "Production Planning and Execution (PP)",
+        "Financial Accounting (FI)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following tracks and records the manufacturing process flow such as the planned and actual costs and good movement from the conversion of raw material to semi-finished goods?",
+      "answer": "Production Planning and Execution (PP)",
+      "choices": [
+        "Sales and Distribution (SD)",
+        "Materials Management (MM)",
+        "Production Planning and Execution (PP)",
+        "Financial Accounting (FI)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is the organizational unit of Production Planning and Execution?",
+      "answer": "Work Center Locations",
+      "choices": [
+        "Work Center Locations",
+        "Plant",
+        "Sales Organization",
+        "Purchasing Group"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It lists the components of a product or assembly.",
+      "answer": "Bill of Materials (BOM)",
+      "choices": [
+        "Bill of Materials (BOM)",
+        "Routing",
+        "Work Center",
+        "Product Group"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the series of sequential steps/operations that must be carried out to produce a product.",
+      "answer": "Routing",
+      "choices": [
+        "Bill of Materials (BOM)",
+        "Routing",
+        "Work Center",
+        "Product Group"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the location within a plant where value-added work (operations or activities) is performed.",
+      "answer": "Work Center",
+      "choices": [
+        "Bill of Materials (BOM)",
+        "Routing",
+        "Work Center",
+        "Product Group"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the aggregate planning that groups materials or other product groups.",
+      "answer": "Product Group",
+      "choices": [
+        "Bill of Materials (BOM)",
+        "Routing",
+        "Work Center",
+        "Product Group"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is designed to collect transactional data for preparing the standard portfolio of reports?",
+      "answer": "Financial Accounting (FI)",
+      "choices": [
+        "Sales and Distribution (SD)",
+        "Materials Management (MM)",
+        "Production Planning and Execution (PP)",
+        "Financial Accounting (FI)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is a classification scheme consisting of a group of general ledger (G/L) accounts used by one or more company codes?",
+      "answer": "Chart of Accounts",
+      "choices": [
+        "Chart of Accounts",
+        "Business Area",
+        "General Ledger Accounts",
+        "Balances Sheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following represents a separate area of operations or responsibilities within an organization and to which value changes recorded in Financial Accounting can be allocated?",
+      "answer": "Business Area",
+      "choices": [
+        "Income Statement",
+        "Business Area",
+        "General Ledger Accounts",
+        "Balances Sheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is the data storage area created by the unique combination of Company Code and Chart of Account?",
+      "answer": "General Ledger Accounts",
+      "choices": [
+        "Income Statement",
+        "Business Area",
+        "General Ledger Accounts",
+        "Balances Sheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is the summary of an organization’s assets, liabilities, and equity at a point in time?",
+      "answer": "Balances Sheet",
+      "choices": [
+        "Income Statement",
+        "Statement of Cashflows",
+        "General Ledger Accounts",
+        "Balances Sheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following shows an organization’s revenues and expenses at a point in time?",
+      "answer": "Income Statement",
+      "choices": [
+        "Income Statement",
+        "Statement of Cashflows",
+        "General Ledger Accounts",
+        "Balances Sheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is considered the associated changes in cash, which can be viewed as the most important of all assets?",
+      "answer": "Statement of Cashflows",
+      "choices": [
+        "Income Statement",
+        "Statement of Cashflows",
+        "General Ledger Accounts",
+        "Balances Sheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is a variety of practices and applications used for recruiting, managing, and developing an organization’s human capital or workforce?",
+      "answer": "Human Capital Management (HCM)",
+      "choices": [
+        "Human Capital Management (HCM)",
+        "Manager Self-Service (MSS)",
+        "Enterprise Structure",
+        "Organizational Plan"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which represents the structural and personnel organization of a company, consisting of organization units. It illustrates hierarchies and an employee's responsibility?",
+      "answer": "Organizational Structure",
+      "choices": [
+        "Organizational Structure",
+        "Enterprise Structure",
+        "Personnel Structure",
+        "Organizational Plan"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which represents a company area differentiated between personnel administrative, time management, and expensive organizational aspects?",
+      "answer": "Personnel Area",
+      "choices": [
+        "Personnel Area",
+        "Personnel Subarea",
+        "Personnel Structure",
+        "Employee Group"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which represents part of a personnel area and represents a company area differentiated between personnel administration, time management, and payroll accounting aspects?",
+      "answer": "Personnel Subarea",
+      "choices": [
+        "Personnel Area",
+        "Personnel Subarea",
+        "Personnel Structure",
+        "Employee Group"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which describes an employee’s position within the company. It is defined by employee group and employee subgroup?",
+      "answer": "Personnel Structure",
+      "choices": [
+        "Personnel Area",
+        "Personnel Subarea",
+        "Personnel Structure",
+        "Employee Group"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is an organizational unit for which personnel-related regulations can be specified such as active employees, external, and retirees?",
+      "answer": "Employee Group",
+      "choices": [
+        "Employee Group",
+        "Employee Subgroup",
+        "Personnel Subarea",
+        "Personnel Area"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is an organizational unit within the employee group for which personnel-related regulations are specified, such as industrial employees, commercial clerks, and laboratory assistants?",
+      "answer": "Employee Subgroup",
+      "choices": [
+        "Employee Group",
+        "Employee Subgroup",
+        "Personnel Subarea",
+        "Personnel Area"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is an example of Employee Group?",
+      "answer": "Retiree",
+      "choices": [
+        "Internal",
+        "Trainee",
+        "Employee",
+        "Retiree"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is an example of Employee Subroup?",
+      "answer": "Employee",
+      "choices": [
+        "Active",
+        "Employee",
+        "External",
+        "Retiree"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which describes in which function an employee is acting. It is object-oriented, and each element is represented by an object which can be assigned to each other?",
+      "answer": "Organizational Plan",
+      "choices": [
+        "Organizational Structure",
+        "Enterprise Structure",
+        "Personnel Structure",
+        "Organizational Plan"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which can be grouped according to functional and regional aspects?",
+      "answer": "Organizational Unit",
+      "choices": [
+        "Organizational Unit",
+        "Position",
+        "Person",
+        "Cost Center"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is assigned to organizational units and filled by employees such as accounting clerks in the Accounting Department?",
+      "answer": "Position",
+      "choices": [
+        "Organizational Unit",
+        "Position",
+        "Person",
+        "Job"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Who is the employee who fills positions?",
+      "answer": "Person",
+      "choices": [
+        "Internal",
+        "External",
+        "Person",
+        "Active"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which originates from SAP Controlling and can be linked with positions or organizational units?",
+      "answer": "Cost Center",
+      "choices": [
+        "Organizational Unit",
+        "Position",
+        "Person",
+        "Cost Center"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is general description of tasks an employee must perform, such as the position of the Head of Department?",
+      "answer": "Job",
+      "choices": [
+        "Organizational Unit",
+        "Position",
+        "Person",
+        "Job"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the central employee identifier in SAP assigned by the system or manually and comprises up to eight (8) digits?",
+      "answer": "Personnel Number",
+      "choices": [
+        "Personnel Number",
+        "Reference Personnel Number",
+        "InfoTypes",
+        "Personnel Administration"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which helps map different contractual relationships and recreates an existing employee in the system with a new personnel number?",
+      "answer": "Reference Personnel Number",
+      "choices": [
+        "Personnel Number",
+        "Reference Personnel Number",
+        "InfoTypes",
+        "Personnel Administration"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which are collections of logically linked data fields wherein HR master data are structured and process employee data in an effective structure based on business requirements?",
+      "answer": "InfoTypes",
+      "choices": [
+        "Personnel Number",
+        "Reference Personnel Number",
+        "InfoTypes",
+        "Personnel Administration"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is not a characteristic of InfoTypes?",
+      "answer": "plausibility checks",
+      "choices": [
+        "plausibility checks",
+        "Has sub-types representing a sub-variant of the InfoType",
+        "Time-dependent",
+        "Personnel action, and Single InfoType Maintenance"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is the first step of SAP HCM processes?",
+      "answer": "Organizational Management",
+      "choices": [
+        "Organizational Management",
+        "Personnel Administration",
+        "Recruitment",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is the last step of SAP HCM processes?",
+      "answer": "Employee Self-Service (ESS)/Manager SelfService (MSS)",
+      "choices": [
+        "Employee Self-Service (ESS)/Manager SelfService (MSS)",
+        "Personnel Controlling",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which models the organizational structure of the enterprise and also analyzes an organizational unit to define workforce requirements and personnel cost planning?",
+      "answer": "Organizational Management",
+      "choices": [
+        "Organizational Management",
+        "Personnel Administration",
+        "Recruitment",
+        "Organizational Plan"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is not a function of Organizational Management?",
+      "answer": "Create, change, and delimit persons",
+      "choices": [
+        "Create, change, and delimit persons",
+        "Create, change, and delimit jobs",
+        "Create, change, and delimit positions",
+        "Create, change, and delimit organizational units"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is concerned with creating and maintaining personnel master data and sets the data basis for other processes in Human Resource Management and reporting?",
+      "answer": "Personnel Administration",
+      "choices": [
+        "Organizational Management",
+        "Personnel Administration",
+        "Recruitment",
+        "Organizational Plan"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is to detect errors and prevent incorrect data transfer.",
+      "answer": "plausibility checks",
+      "choices": [
+        "plausibility checks",
+        "automatic history",
+        "fraud check",
+        "error management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is created when changing master data for reporting and verification of data integrity.",
+      "answer": "automatic history",
+      "choices": [
+        "plausibility checks",
+        "automatic history",
+        "fraud check",
+        "error management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which process objective is to employ personnel with all the required qualifications?",
+      "answer": "Recruitment",
+      "choices": [
+        "Recruitment",
+        "Personnel Administration",
+        "Personnel Development",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What are the 2 types of recruitment?",
+      "answer": "external and internal",
+      "choices": [
+        "external and internal",
+        "employee group and employee subgroup",
+        "active and inactive",
+        "active and retiree"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The goal of _______ to support the HR department in searching, choosing, and recruiting adequate applicants?",
+      "answer": "Recruitment",
+      "choices": [
+        "Recruitment",
+        "Personnel Administration",
+        "Personnel Development",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A database for applicants is developed in this process, including the administration of vacant positions.",
+      "answer": "Recruitment Process",
+      "choices": [
+        "Recruitment Process",
+        "Personnel Administration",
+        "Personnel Development",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Maintaining applicant data is done in _____ using the Initial Data Entry or Application Actions in SAP Fiori",
+      "answer": "InfoTypes",
+      "choices": [
+        "InfoTypes",
+        "DataTypes",
+        "plausibility checks",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which structures applicants based on their employment relationship type?",
+      "answer": "Applicant Group",
+      "choices": [
+        "Applicant Group",
+        "Applicant Range",
+        "Employee Group",
+        "Employee Subgroup"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which classifies applicants based on hierarchical or functional criteria?",
+      "answer": "Applicant Range",
+      "choices": [
+        "Applicant Group",
+        "Applicant Range",
+        "Employee Group",
+        "Employee Subgroup"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which lets every registered applicant partake in the selection procedure?",
+      "answer": "Global Selection Procedure",
+      "choices": [
+        "Global Selection Procedure",
+        "Multi Selection Procedure",
+        "Single Selection Procedure",
+        "Selection Procedure for Every Vacancy"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which selection procedure indicates that the applicant is assigned only to special vacancies?",
+      "answer": "Selection Procedure for Every Vacancy",
+      "choices": [
+        "Global Selection Procedure",
+        "Multi Selection Procedure",
+        "Single Selection Procedure",
+        "Selection Procedure for Every Vacancy"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Its goal is to qualify employees for current and future needs and provide long-term employee benefits",
+      "answer": "Personnel Development",
+      "choices": [
+        "Talent Management",
+        "Personnel Development",
+        "Qualification",
+        "Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which can be connected to persons or positions and needs to be attached to attributes. It can have a half-life period or a validity period?",
+      "answer": "Qualification",
+      "choices": [
+        "Talent Management",
+        "Personnel Development",
+        "Qualification",
+        "Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which are qualifications, knowledge, and experiences that can be attached to positions and is created with a characteristic?",
+      "answer": "Requirements",
+      "choices": [
+        "Talent Management",
+        "Personnel Development",
+        "Qualification",
+        "Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is when a comparison is made between employee qualifications and the position requirements in this proces.",
+      "answer": "Profile Matchup",
+      "choices": [
+        "Profile Matchup",
+        "Recruitment",
+        "Qualification",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a process involves career planning arrangements and succession planning accomplishments and generates general and individual development plans.",
+      "answer": "Talent Management",
+      "choices": [
+        "Career Planning",
+        "Succession Planning",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which identifies career goals such as by defining and developing special stations of a career (job, position, and course of instruction) and includes comparing qualifications with requirements of one station of a career to personnel decisions and courses of instruction?",
+      "answer": "Career Planning",
+      "choices": [
+        "Career Planning",
+        "Succession Planning",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which assures continuity in personnel allocation for key positions and includes proactive search for candidates to reallocate key positions?",
+      "answer": "Succession Planning",
+      "choices": [
+        "Career Planning",
+        "Succession Planning",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which summarize teaching and other educational actions to achieve special qualifications?",
+      "answer": "Development Plans",
+      "choices": [
+        "Career Planning",
+        "Development Plans",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which defines the objective setting between the enterprise and employees and evaluates the benefits of employees to form feedback used to answer whether the goals are achieved?",
+      "answer": "Performance Management",
+      "choices": [
+        "Career Planning",
+        "Development Plans",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "An appraisal template has been created and provided with header data. The appraisal template consists of formulas, criteria groups, criteria, and qualifications.",
+      "answer": "In Preparation",
+      "choices": [
+        "In Preparation",
+        "In Process",
+        "Completed",
+        "Approved"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "An appraisal has been given but it is not completed; the evaluation may still be changed.",
+      "answer": "In Process",
+      "choices": [
+        "In Preparation",
+        "In Process",
+        "Completed",
+        "Approved"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The appraisal is finished.",
+      "answer": "Completed",
+      "choices": [
+        "Rejected",
+        "In Process",
+        "Completed",
+        "Approved"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which enables the creation of reports from a flood of data within Human Resource Management (HRM) and ata needed for a report can arise from a single or several HR processes?",
+      "answer": "Personnel Controlling",
+      "choices": [
+        "Career Planning",
+        "Development Plans",
+        "Personnel Controlling",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which are predefined SAP requests with a unique design like employee and birthday lists?",
+      "answer": "Standard Reports",
+      "choices": [
+        "Standard Reports",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)",
+        "Ad-hoc Query"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which enables analysis based on the organizational structure?",
+      "answer": "Human Resource Information System (HIS)",
+      "choices": [
+        "Standard Reports",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)",
+        "Ad-hoc Query"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which indicates that managers can access transactions of other HCM module components?",
+      "answer": "Manager’s Desktop (MDT)",
+      "choices": [
+        "Standard Reports",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)",
+        "Ad-hoc Query"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is a tool for analyzing data from personnel management and outside the HCM module?",
+      "answer": "Ad-hoc Query",
+      "choices": [
+        "Business Intelligence (BI)",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)",
+        "Ad-hoc Query"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is an independent system based on a portal technology and helps data from SAP systems or from other systems to be integrated?",
+      "answer": "Business Intelligence (BI)",
+      "choices": [
+        "Business Intelligence (BI)",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)",
+        "Ad-hoc Query"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is a web-based user interface for employees that enables the time and location-independent maintenance of personal data?",
+      "answer": "Employee Self-Service (ESS)",
+      "choices": [
+        "Employee Self-Service (ESS)",
+        "Manager Self-Service (MSS)",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is a central web-based access point for manager and uses the backend systems of the human resources and finance departments and supports the management?",
+      "answer": "Manager Self-Service (MSS)",
+      "choices": [
+        "Employee Self-Service (ESS)",
+        "Manager Self-Service (MSS)",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following activity can employees perform using ESS?",
+      "answer": "Submitting travel expenses",
+      "choices": [
+        "Submitting travel expenses",
+        "Gaining Information",
+        "Hiring employees",
+        "Controlling costs"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following activity can managers perform using MSS?",
+      "answer": "Hiring employees",
+      "choices": [
+        "Browsing the employee directory",
+        "Hiring employees",
+        "Applying for employer benefits",
+        "Registering for training courses"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is a facility for storing goods used by manufacturers, importers, exporters, wholesalers, transport, and customs, among others?",
+      "answer": "warehouse",
+      "choices": [
+        "warehouse",
+        "storage bin",
+        "plant",
+        "location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is a solution to manage standard warehouses, including stock and storage and bin locations management, picking and packing strategies, and shipping?",
+      "answer": "SAP Warehouse Management",
+      "choices": [
+        "SAP Warehouse Management",
+        "SAP Material Management",
+        "SAP Sales Distribution",
+        "SAP Production Management"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What integrates all the functions of a warehouse and streamlines them?",
+      "answer": "SAP Warehouse Management",
+      "choices": [
+        "SAP Warehouse Management",
+        "SAP Material Management",
+        "SAP Human Resources",
+        "SAP Production Management"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What controls virtually anything that comes and leaves the warehouse?",
+      "answer": "SAP Warehouse Management",
+      "choices": [
+        "SAP Warehouse Management",
+        "SAP Material Management",
+        "SAP Sales Distribution",
+        "SAP Production Management"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a specific function of SAP Warehouse Management?",
+      "answer": "Manage the structure of the warehouse",
+      "choices": [
+        "Manage the structure of the warehouse",
+        "Manage the data of the human resources",
+        "Allows for easy management of outsource",
+        "Monitors the movement of sales"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a specific function of SAP Warehouse Management?",
+      "answer": "Monitors the movement of stock and process their differences",
+      "choices": [
+        "Monitors the movement of stock and process their differences",
+        "Manage the data of the human resources",
+        "Allows for easy management of outsource",
+        "Monitors the movement of sales"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a specific function of SAP Warehouse Management?",
+      "answer": "Allows for easy management of potentially hazardous material",
+      "choices": [
+        "Allows for easy management of potentially hazardous material",
+        "Manage the data of the human resources",
+        "Allows for easy management of outsource",
+        "Monitors the movement of sales"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a specific function of SAP Warehouse Management?",
+      "answer": "Processes all transactions carried in the warehouse",
+      "choices": [
+        "Processes all transactions carried in the warehouse",
+        "Manage the data of the human resources",
+        "Allows for easy management of outsource",
+        "Monitors the movement of sales"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a specific function of SAP Warehouse Management?",
+      "answer": "Manages inventory at the storage bin level",
+      "choices": [
+        "Manages inventory at the storage bin level",
+        "Manage the data of the human resources",
+        "Allows for easy management of outsource",
+        "Monitors the movement of sales"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What serves as a key component for supply chain management as it offers real-time visibility into an entire inventory in the warehouse and even in transit?",
+      "answer": "SAP Warehouse Management",
+      "choices": [
+        "SAP Warehouse Management",
+        "SAP Material Management",
+        "SAP Sales Distribution",
+        "SAP Production Management"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is an independent environment in the SAP WM system?",
+      "answer": "Client",
+      "choices": [
+        "Client",
+        "Company Code",
+        "Plant",
+        "Storage Location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the smallest organizational unit where a legal set of books can be maintained in the SAP WM?",
+      "answer": "Company Code",
+      "choices": [
+        "Company Code",
+        "Client",
+        "Plant",
+        "Storage Location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the operating are of a branch within the company in the SAP WM?",
+      "answer": "Plant",
+      "choices": [
+        "Plant",
+        "Company Code",
+        "Client",
+        "Storage Location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What can be a manufacturing, distribution, purchasing, or maintenance facilty in the SAP WM?",
+      "answer": "Plant",
+      "choices": [
+        "Plant",
+        "Company Code",
+        "Client",
+        "Storage Location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What organizational unit allows differentiation between the various stocks of material in a plant in SAP WM?",
+      "answer": "Storage Location",
+      "choices": [
+        "Storage Location",
+        "Company Code",
+        "Plant",
+        "Client"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the highest level of organizational unit in warehouse management in SAP WM?",
+      "answer": "Warehouse Number",
+      "choices": [
+        "Warehouse Number",
+        "Storage Type",
+        "Storage Section",
+        "Picking Area"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What identifies a complex, physical warehouse structure within the warehouse management system in SAP WM?",
+      "answer": "Warehouse Number",
+      "choices": [
+        "Warehouse Number",
+        "Storage Type",
+        "Storage Section",
+        "Picking Area"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which subdivision of a warehouse is identified by its warehousing techniques, organization, or function in SAP WM?",
+      "answer": "Storage Type",
+      "choices": [
+        "Storage Type",
+        "Storage Section",
+        "Picking Area",
+        "Warehouse Door"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is a logical or physical subdivision of a storage type that groups similar storage bins in SAP WM?",
+      "answer": "Storage Section",
+      "choices": [
+        "Storage Section",
+        "Allocation Zone",
+        "Shipping Point",
+        "Storage Bin"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is identified by its warehousing techniques, the form of the organization, or its function in SAP WM?",
+      "answer": "Storage Type",
+      "choices": [
+        "Storage Type",
+        "Allocation Zone",
+        "Shipping Point",
+        "Storage Bin"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which area groups storage bins together for picking strategies in SAP WM?",
+      "answer": "Picking Area",
+      "choices": [
+        "Picking Area",
+        "Storage Section",
+        "Storage Type",
+        "Warehouse Door"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What marks the point where the means of transport change to internal transportation in SAP WM?",
+      "answer": "Warehouse Door",
+      "choices": [
+        "Warehouse Door",
+        "Allocation Zone",
+        "Storage Section",
+        "Storage Type"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Where are goods temporarily stored when they have just arrived or are about to be shipped in SAP WM?",
+      "answer": "Allocation Zone",
+      "choices": [
+        "Allocation Zone",
+        "Warehouse Number",
+        "Storage Location",
+        "Shipping Point"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which organizational unit is responsible for the type of shipping, the necessary shipping materials, and the means of transport in SAP WM?",
+      "answer": "Shipping Point",
+      "choices": [
+        "Shipping Point",
+        "Allocation Zone",
+        "Warehouse Door",
+        "Storage Bin"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the smallest addressable unit in a warehouse that identifies the exact location where goods can be stored in SAP WM?",
+      "answer": "Storage Bin",
+      "choices": [
+        "Storage Bin",
+        "Shipping Point",
+        "Allocation Zone",
+        "Warehouse Door"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the lowest level of orginizational structure in SAP WM?",
+      "answer": "Storage Bin",
+      "choices": [
+        "Storage Bin",
+        "Shipping Point",
+        "Allocation Zone",
+        "Storage Type"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "The master data involved in SAP WM are Storage Bin, Material, Hazard, and Batch.",
+      "answer": "The statement is true.",
+      "choices": [
+        "The statement is true.",
+        "The statement is false."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What are the two organizational levels of the Storage Bin Master Data in SAP WM?",
+      "answer": "Warehouse Level and Storage Type Level",
+      "choices": [
+        "Warehouse Level and Storage Type Level",
+        "Storage Level and Allocation Type Level",
+        "Warehouse Level and Allocation Type Level",
+        "Shipping Level and Allocation Type Level"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the smallest addressable unit in a warehouse in SAP WM?",
+      "answer": "Storage Bin",
+      "choices": [
+        "Storage Bin",
+        "Warehouse Level",
+        "Storage Type Level",
+        "Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What contains all indicators and fields valid for the whole warehouse?",
+      "answer": "Warehouse Level",
+      "choices": [
+        "Warehouse Level",
+        "Storage Bin",
+        "Storage Type Level",
+        "Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What contains all indicators that are only valid for specific storage types?",
+      "answer": "Storage Type Level",
+      "choices": [
+        "Storage Type Level",
+        "Warehouse Level",
+        "Storage Bin",
+        "Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What type of data does the Storage Bin Master Data include in SAP WM?",
+      "answer": "General Data, Storage Bin Data, and Status",
+      "choices": [
+        "General Data, Storage Bin Data, and Status",
+        "General Data, Storage Number, and Status",
+        "General Data, Shipping point, and Storage Bin Data",
+        "General Data, Shipping point, and Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the smallest addressable unit of measurement for a material in SAP S/4HANA?",
+      "answer": "Quant",
+      "choices": [
+        "Quant",
+        "Warehouse Level",
+        "Storage Type Level",
+        "Storage Bin"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which three types of data are associated with a quant in SAP S/4HANA?",
+      "answer": "General Data, Stock Data, and Block Indicator",
+      "choices": [
+        "General Data, Stock Data, and Block Indicator",
+        "General Data, Stock Data, and Storage Indicator",
+        "General Data, Stock Data, and Status",
+        "General Data, Stock Data, and Storage Bin Data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which master data contains all the information a company needs to manage a material across various SAP components?",
+      "answer": "Material Master",
+      "choices": [
+        "Material Master",
+        "Batch Master Data",
+        "Hazard Master Data",
+        "Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What includes General Data that specifies the Storage Class, Water Pollution Class, Flash Point, Aggregate State, Hazardous Material Warning, and Hazardous Substance Number?",
+      "answer": "Hazard Master Data",
+      "choices": [
+        "Hazard Master Data",
+        "Batch Master Data",
+        "Material Master",
+        "Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is a subset of material or homogeneous series of unreproducible units with a unique specifictation?",
+      "answer": "Batch Master Data",
+      "choices": [
+        "Batch Master Data",
+        "Hazard Master Data",
+        "Material Master",
+        "Quant"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What type of data is included in the Batch Master Data in SAP WM?",
+      "answer": "Basic Data 1 & 2, Classification of Batch, and Material Data",
+      "choices": [
+        "Basic Data 1 & 2, Classification of Batch, and Material Data",
+        "Basic Data 3 & 2, Classification of Batch, and Material Data",
+        "Basic Data 3 & 2, and Material Data",
+        "Basic Data 1 & 2, and Material Data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What occurs during Stock-to-Stock, Material-to-Material, and Consignment-to-Warehouse organizational levels?",
+      "answer": "Transfer Posting",
+      "choices": [
+        "Transfer Posting",
+        "Plant-to-Plant",
+        "Company Code to Company Code",
+        "Storage Location to Storage Location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is observed in Plant 2 of Figure 1 where there is a physical goods movement between locations within a plant?",
+      "answer": "Stock Transfer",
+      "choices": [
+        "Stock Transfer",
+        "Company Code to Company Code",
+        "Plant-to-Plant",
+        "Storage Location to Storage Location"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is the type of stock transfer where stock is transferred between two storage locations within the same plant?",
+      "answer": "Storage Location to Storage Location",
+      "choices": [
+        "Storage Location to Storage Location",
+        "Transfer Posting",
+        "Plant-to-Plant",
+        "Company Code to Company Code"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What type of stock transfer moves stock between two plants belonging to the same company code?",
+      "answer": "Plant-to-Plant",
+      "choices": [
+        "Plant-to-Plant",
+        "Company Code to Company Code",
+        "Transfer Posting",
+        "Stock Transfer"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What type of stock transfer occurs when stock is transferred between two plants assigned to different company codes?",
+      "answer": "Company Code to Company Code",
+      "choices": [
+        "Company Code to Company Code",
+        "Transfer Posting",
+        "Storage Location to Storage Location",
+        "Stock Transfer"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which procedure does not use Stock In Transfer and completes stock transfer from Issuing to Receiving Organizational Level in a single step?",
+      "answer": "One-Step Procedure",
+      "choices": [
+        "One-Step Procedure",
+        "Two-Step Procedure",
+        "Three-Step Procedure",
+        "Four-Step Procedure"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which procedure involves two separate steps and utilizes Stock In Transfer during stock transfer?",
+      "answer": "Two-Step Procedure",
+      "choices": [
+        "Two-Step Procedure",
+        "One-Step Procedure",
+        "Three-Step Procedure",
+        "Four-Step Procedure"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is a purchase order used to request material transfer between plants within the same company?",
+      "answer": "Stock Transport Order",
+      "choices": [
+        "Stock Transport Order",
+        "Transfer Requirement",
+        "One-Step Procedure",
+        "Two-Step Procedure"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What is technically similar to a stock transport order but involves goods purchased between plants under the same company code?",
+      "answer": "Purchase Order",
+      "choices": [
+        "Purchase Order",
+        "Posting Change Notice",
+        "Transfer Order",
+        "Transfer Requests"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which document is generated by posting changes and has functionalities similar to transfer requests in WM?",
+      "answer": "Posting Change Notice",
+      "choices": [
+        "Posting Change Notice",
+        "Transfer Order",
+        "Transfer Requirement",
+        "Two-Step Procedure"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which document records information based on the change type, transport purpose, request category, and target system?",
+      "answer": "Transfer Requests",
+      "choices": [
+        "Transfer Requests",
+        "Transfer Order",
+        "Purchase Order",
+        "One-Step Procedure"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which document is a request to transfer materials from a source storage bin to a destination bin, representing expected goods movement in WM?",
+      "answer": "Transfer Requirement",
+      "choices": [
+        "Transfer Requirement",
+        "Transfer Order",
+        "Stock Transport Order",
+        "Two-Step Procedure"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which central document is required for every material movement in WM and can be created manually, directly, or automatically?",
+      "answer": "Transfer Order",
+      "choices": [
+        "Transfer Order",
+        "Posting Change Notice",
+        "Transfer Requests",
+        "Purchase Order"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What module oversees projects, tasks, and timelines while identifying critical paths in SAP?",
+      "answer": "SAP Project Management",
+      "choices": [
+        "SAP Project Management",
+        "SAP Warehouse Management",
+        "SAP Material Management",
+        "SAP Production Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What feature supports various project phases and includes visualization and financial management in SAP PS?",
+      "answer": "Company-wide project management operations",
+      "choices": [
+        "Company-wide project management operations",
+        "Automated project controlling",
+        "project builder",
+        "work project"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SAP PS feature assigns work to responsible individuals’ dashboards and manages effort, duration, and task scheduling?",
+      "answer": "Project coordination across distributed teams",
+      "choices": [
+        "Project coordination across distributed teams",
+        "Automated project controlling",
+        "project builder",
+        "project summarization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SAP PS feature links the project structure to finance and controlling for automatic cost and revenue reporting?",
+      "answer": "Automated project controlling",
+      "choices": [
+        "Automated project controlling",
+        "Company-wide project management operations",
+        "SAP Project Management",
+        "Internally and Externally processed activities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "SAP PS integrates primarily into which other modules in the SAP system?",
+      "answer": "Finance and Logistics modules",
+      "choices": [
+        "Finance and Logistics modules",
+        "project builder",
+        "WBS Elements",
+        "network"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SAP PS master data describes tasks with complexity, risk, time restriction, and quality standards?",
+      "answer": "Projects",
+      "choices": [
+        "Projects",
+        "work project",
+        "SAP Project Management",
+        "project summarization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What SAP tool allows users to quickly and efficiently edit project data in one transaction?",
+      "answer": "project builder",
+      "choices": [
+        "project builder",
+        "network",
+        "Hierarchy Graphic",
+        "Projects"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SAP PS term describes a concrete activity or subactivity within the Work Breakdown Structure?",
+      "answer": "WBS Elements",
+      "choices": [
+        "WBS Elements",
+        "project builder",
+        "components of a process",
+        "Automated project controlling"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What term refers to a description of an activity, its tasks, and the result to be achieved in SAP PS?",
+      "answer": "work project",
+      "choices": [
+        "work project",
+        "components of a process",
+        "WBS Elements",
+        "Duration"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which consists of access sequences and relationships?",
+      "answer": "Hierarchy Graphic",
+      "choices": [
+        "Hierarchy Graphic",
+        "Activities",
+        "Relationships",
+        "WBS Elements"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which feature in SAP PS summarizes objects with the same characteristics in a hierarchical structure?",
+      "answer": "project summarization",
+      "choices": [
+        "project summarization",
+        "network",
+        "work project",
+        "components of a process"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which term describes linked activities forming a chronological order in SAP PS?",
+      "answer": "network",
+      "choices": [
+        "network",
+        "activities",
+        "milestones",
+        "landmark"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What are the two activity types distinguished in SAP PS?",
+      "answer": "Internally and Externally processed activities",
+      "choices": [
+        "Internally and Externally processed activities",
+        "Automated project controlling",
+        "components of a process",
+        "work project"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What term in SAP PS refers to activities that incur costs but are not tied to specific tasks?",
+      "answer": "General costs activities",
+      "choices": [
+        "General costs activities",
+        "Automated project controlling",
+        "project builder",
+        "WBS Elements"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "According to DIN 69900, what term describes activities with duration, start and finish, uninterrupted processing, resource needs, and costs?",
+      "answer": "components of a process",
+      "choices": [
+        "components of a process",
+        "two-step procedure",
+        "three-step procedure",
+        "components of a procedure"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "SAP PS does not have an organizational structure.",
+      "answer": "The statement is true.",
+      "choices": [
+        "The statement is true.",
+        "The statement is false."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What inherits its organizational structures via assignment into organization units in the enterprise structure?",
+      "answer": "SAP Project Management",
+      "choices": [
+        "SAP Project Management",
+        "SAP Warehouse Management",
+        "SAP Material Management",
+        "SAP Production Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "The productivity of SAP Warehouse Management is mostly created through the integration of other SAP modules.",
+      "answer": "The statement is false.",
+      "choices": [
+        "The statement is true.",
+        "The statement is false."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is the possible status for WBS Elements?",
+      "answer": "Released",
+      "choices": [
+        "Duration",
+        "Defined Start and Finish",
+        "Released",
+        "Costs"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is the possible status for WBS Elements?",
+      "answer": "Unlocked",
+      "choices": [
+        "Duration",
+        "Defined Start and Finish",
+        "Unlocked",
+        "Costs"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is the possible status for WBS Elements?",
+      "answer": "Technically Complete",
+      "choices": [
+        "Duration",
+        "Defined Start and Finish",
+        "Technically Complete",
+        "Costs"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is the possible status for WBS Elements?",
+      "answer": "Closed",
+      "choices": [
+        "Processed without Interruption",
+        "Defined Start and Finish",
+        "Closed",
+        "Costs"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is the possible status for WBS Elements?",
+      "answer": "Deletion Flag",
+      "choices": [
+        "Duration",
+        "Defined Start and Finish",
+        "Deletion Flag",
+        "Costs"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is the possible status for WBS Elements?",
+      "answer": "Fully Invoiced",
+      "choices": [
+        "Duration",
+        "Defined Start and Finish",
+        "Fully Invoiced",
+        "Costs"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is not a possible status for WBS Elements?",
+      "answer": "Defined Start and Finish",
+      "choices": [
+        "Fully Invoiced",
+        "Deletion Flag",
+        "Released",
+        "Defined Start and Finish"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a characteristic of the German Stardard DIN 69900?",
+      "answer": "Duration",
+      "choices": [
+        "Duration",
+        "Released",
+        "Unlocked",
+        "Closed"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a characteristic of the German Stardard DIN 69900?",
+      "answer": "Defined Start and Finish",
+      "choices": [
+        "Defined Start and Finish",
+        "Released",
+        "Unlocked",
+        "Deletion Flag"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a characteristic of the German Stardard DIN 69900?",
+      "answer": "Processed without Interruption",
+      "choices": [
+        "Processed without Interruption",
+        "Released",
+        "Deletion Flag",
+        "Closed"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a characteristic of the German Stardard DIN 69900?",
+      "answer": "Needs for resources to execute them",
+      "choices": [
+        "Needs for resources to execute them",
+        "Released",
+        "Deletion Flag",
+        "Closed"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which is a characteristic of the German Stardard DIN 69900?",
+      "answer": "Costs",
+      "choices": [
+        "Costs",
+        "Released",
+        "Unlocked",
+        "Closed"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What can be linked together by relationships to establish a chronological order?",
+      "answer": "Activities",
+      "choices": [
+        "Activities",
+        "Costs",
+        "Milestones",
+        "Stocks"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What describes the chronological order of activities in a network plan, with technical or logical dependencies?",
+      "answer": "Relationships",
+      "choices": [
+        "Milestones",
+        "Calculation Key",
+        "Activity Type",
+        "Relationships"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What sequence type defines the relationship from the end of one series to the beginning of another?",
+      "answer": "Normal Series",
+      "choices": [
+        "Finish Series",
+        "Start Series",
+        "Bounding Series",
+        "Normal Series"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What sequence type defines the relationship from the beginning of one series to the beginning of another?",
+      "answer": "Start Series",
+      "choices": [
+        "Normal Series",
+        "Finish Series",
+        "Bounding Series",
+        "Start Series"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What sequence type defines the relationship from the end of one series to the end of another?",
+      "answer": "Finish Series",
+      "choices": [
+        "Start Series",
+        "Bounding Series",
+        "Finish - Start",
+        "Finish Series"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What sequence type defines the relationship from the beginning of one series to the end of another?",
+      "answer": "Bounding Series",
+      "choices": [
+        "Finish Series",
+        "Normal Series",
+        "Finish - Finish",
+        "Bounding Series"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which relationship type defines the link from the end of one activity to the start of another?",
+      "answer": "Finish - Start",
+      "choices": [
+        "Start - Start",
+        "Finish - Finish",
+        "Start - Finish",
+        "Finish - Start"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which relationship type links the start of one activity to the start of another?",
+      "answer": "Start - Start",
+      "choices": [
+        "Finish - Start",
+        "Finish - Finish",
+        "Start - Finish",
+        "Start - Start"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which relationship type links the end of one activity to the end of another?",
+      "answer": "Finish - Finish",
+      "choices": [
+        "Start - Start",
+        "Finish - Start",
+        "Start - Finish",
+        "Finish - Finish"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which relationship type links the start of one activity to the end of another?",
+      "answer": "Start - Finish",
+      "choices": [
+        "Finish - Finish",
+        "Finish - Start",
+        "Start - Start",
+        "Start - Finish"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What term refers to marks that show transitions between phases or departments in a project?",
+      "answer": "Milestones",
+      "choices": [
+        "Relationships",
+        "Finish - Finish",
+        "Triggering predefined Milestone Functions",
+        "Milestones"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What method is used to track project dates by comparing milestone dates at different reporting intervals?",
+      "answer": "Milestone Trend Analysis (MTA)",
+      "choices": [
+        "Conducting earned value analysis using the Milestone Technique",
+        "Triggering predefined Milestone Functions",
+        "Determining Dates in the Billing Plan",
+        "Milestone Trend Analysis (MTA)"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What milestone-related method helps track earned value by associating portions of work with milestones?",
+      "answer": "Conducting earned value analysis using the Milestone Technique",
+      "choices": [
+        "Milestone Trend Analysis",
+        "Triggering predefined Milestone Functions",
+        "Determining Dates in the Billing Plan",
+        "Conducting earned value analysis using the Milestone Technique"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What task links milestones to specific dates in the billing plan?",
+      "answer": "Determining Dates in the Billing Plan",
+      "choices": [
+        "Triggering predefined Milestone Functions",
+        "Milestone Trend Analysis",
+        "Conducting earned value analysis using the Milestone Technique",
+        "Determining Dates in the Billing Plan"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What task triggers business processes in SAP PS when milestones are reached?",
+      "answer": "Triggering predefined Milestone Functions",
+      "choices": [
+        "Determining Dates in the Billing Plan",
+        "Milestone Trend Analysis",
+        "Conducting earned value analysis using the Milestone Technique",
+        "Triggering predefined Milestone Functions"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which activity specification in SAP PS defines costs based on qualifications or special work conditions?",
+      "answer": "Activity Type",
+      "choices": [
+        "Work",
+        "Number of Required Capacities",
+        "Percent",
+        "Activity Type"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What term in SAP PS defines the planned amount of effort or energy required to complete an activity?",
+      "answer": "Work",
+      "choices": [
+        "Activity Type",
+        "Number of Required Capacities",
+        "Percent",
+        "Work"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What term refers to the number of people, machines, or other capacities needed to complete an activity?",
+      "answer": "Number of Required Capacities",
+      "choices": [
+        "Work",
+        "Activity Type",
+        "Percent",
+        "Number of Required Capacities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What percentage value is used in SAP PS when no manual entry is made for duration, work, or capacity?",
+      "answer": "Percent",
+      "choices": [
+        "Work",
+        "Number of Required Capacities",
+        "Activity Type",
+        "Percent"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What SAP PS value is used to manually or systematically determine work, duration, or capacity requirements?",
+      "answer": "Calculation Key",
+      "choices": [
+        "Percent",
+        "Work",
+        "Number of Required Capacities",
+        "Calculation Key"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "In this word data, basic and forecast data for work in network activities can be entered.",
+      "answer": "The statement is true.",
+      "choices": [
+        "The statement is true.",
+        "The statement is false."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which number refers to the capacity category and is entered on the scheduling screen in the work center?",
+      "answer": "Number of Required Capacities",
+      "choices": [
+        "Work",
+        "Activity Type",
+        "Percent",
+        "Number of Required Capacities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "In the Word Data in the Activity, suppose a percentage is not entered, the system will assume 0%.",
+      "answer": "The statement is false.",
+      "choices": [
+        "The statement is true.",
+        "The statement is false."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What tool is used in Project Planning for work termination, coordination, capacity checking, and cost calculation?",
+      "answer": "Project Planning Board",
+      "choices": [
+        "Easy Cost Planning",
+        "Information System",
+        "Multi-level Settlement",
+        "Project Planning Board"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which cost planning tool allows fast, easy cost planning based on amounts and characteristics at the project structure level?",
+      "answer": "Easy Cost Planning",
+      "choices": [
+        "Project Planning Board",
+        "Direct Settlement",
+        "Multi-level Settlement",
+        "Easy Cost Planning"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What settlement type directly settles each object to an external cost object like a cost center or profitability segment?",
+      "answer": "Direct Settlement",
+      "choices": [
+        "Multi-level Settlement",
+        "Easy Cost Planning",
+        "Project Planning Board",
+        "Direct Settlement"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What settlement type first settles costs to a higher-level WBS element before settling to an external receiver?",
+      "answer": "Multi-level Settlement",
+      "choices": [
+        "Direct Settlement",
+        "Information System",
+        "Easy Cost Planning",
+        "Multi-level Settlement"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What system provides reports, graphs, and overviews of project performance, schedule, and costs?",
+      "answer": "Information System",
+      "choices": [
+        "Project Planning Board",
+        "Direct Settlement",
+        "Multi-level Settlement",
+        "Information System"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "choices": [],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This focuses on managing, maintaining, inspecting, and repairing plants of business assets throughout its life cycle.",
+      "answer": "SAP EAM",
+      "choices": [
+        "SAP EAM",
+        "SAP HCM",
+        "SAP ERP",
+        "SAP CS"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "For this system, assets refer to the equipment, machinery, and facilities that an organization has.",
+      "answer": "SAP EAM",
+      "choices": [
+        "SAP EAM",
+        "SAP HCM",
+        "SAP ERP",
+        "SAP PS"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which benefit specifies the statement?<BR>By proactively managing maintenance, unexpected breakdowns are lessened, eventually increasing critical asset reliability.",
+      "answer": "Increased Asset Reliability",
+      "choices": [
+        "Increased Asset Reliability",
+        "Improved Efficiency",
+        "Cost-Saving",
+        "Compliance and Safety"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which benefit specifies the statement?<BR>This leads to reduced downtime, faster response time, and optimized resource utilization. Businesses can operate without worries as assets are in good condition.",
+      "answer": "Improved Efficiency",
+      "choices": [
+        "Increased Asset Reliability",
+        "Improved Efficiency",
+        "Cost-Saving",
+        "Compliance and Safety"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which benefit specifies the statement?<BR>Through better asset management, businesses can control maintenance expenses, minimize unnecessary parts inventory, and extend the lifespan of assets.",
+      "answer": "Cost-Saving",
+      "choices": [
+        "Increased Asset Reliability",
+        "Improved Efficiency",
+        "Cost-Saving",
+        "Compliance and Safety"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which benefit specifies the statement?<BR>The business can meet regulatory compliance requirements and ensure that safety standards are upheld.",
+      "answer": "Compliance and Safety",
+      "choices": [
+        "Increased Asset Reliability",
+        "Improved Efficiency",
+        "Cost-Saving",
+        "Compliance and Safety"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is an independent environment in the system.",
+      "answer": "Client",
+      "choices": [
+        "Client",
+        "Company Code",
+        "Plant",
+        "Storage Location"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the smallest organizational unit where a legal set of books can be maintained.",
+      "answer": "Company Code",
+      "choices": [
+        "Company Code",
+        "Client",
+        "Plant",
+        "Maintenance Planning Plant"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the operating area of a branch within the company. It can be a manufacturing, distribution, purchasing, or maintenance facility",
+      "answer": "Plant",
+      "choices": [
+        "Plant",
+        "Maintenance Plant",
+        "Maintenance Planning Plant",
+        "Plant Section"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is an organizational unit allowing differentiation between the various stocks of material in a plant.",
+      "answer": "Storage Location",
+      "choices": [
+        "Storage Location",
+        "Plant",
+        "Work Center",
+        "Plant Section"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is required to store spare parts.",
+      "answer": "This statement is TRUE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the plant wherein the technical objects of a company are installed and has oriented organizational units such as Location, Plant Section, and Work Center.",
+      "answer": "Maintenance Plant",
+      "choices": [
+        "Maintenance Plant",
+        "Maintenance Planning Plant",
+        "Plant",
+        "Plant Section"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the plant in which maintenance tasks are planned and prepared.",
+      "answer": "Maintenance Planning Plant",
+      "choices": [
+        "Maintenance Planning Plant",
+        "Maintenance Plant",
+        "Plant",
+        "Plant Section"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which are the two parts of the Location?",
+      "answer": "building number and coordinates",
+      "choices": [
+        "building number and coordinates",
+        "address and location number",
+        "building number and location number",
+        "coordinates and location number"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is responsibility for working assets.",
+      "answer": "Plant Section",
+      "choices": [
+        "Plant Section",
+        "Work Center",
+        "Plant",
+        "Storage Location"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the process measures of plant maintenance.",
+      "answer": "Work Center",
+      "choices": [
+        "Work Center",
+        "Plant Section",
+        "Plant",
+        "Storage Location"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "The master data involved in this SAP are Functional Location, Equipment, and the Bill of Master.",
+      "answer": "SAP EAM",
+      "choices": [
+        "SAP EAM",
+        "SAP HCM",
+        "SAP ERP",
+        "SAP CS"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is a hierarchically organized structure representing the location, a technical system, a building, or a part of it where a maintenance measure is performed.",
+      "answer": "Functional Location",
+      "choices": [
+        "Functional Location",
+        "Storage Location",
+        "Plant",
+        "Plant Section"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Functional locations cannot be used to subdivide the objects into similar maintenance units.",
+      "answer": "This statement is FALSE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a benefit of the functional location master data?",
+      "answer": "Structural depiction of technical plant",
+      "choices": [
+        "Structural depiction of technical plant",
+        "Administration of individual objects and data",
+        "Data gathering and analysis for extended periods",
+        "Object-oriented cost monitoring"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a benefit of the functional location master data?",
+      "answer": "Planning and performing maintenance tasks",
+      "choices": [
+        "Planning and performing maintenance tasks",
+        "Structuring of objects",
+        "Service parts planning in maintenance orders and maintenance task list",
+        "Within the plant maintenance, BOMs are used if there are similar objects that can be maintained"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a benefit of the functional location master data?",
+      "answer": "Verification of maintenance tasks",
+      "choices": [
+        "Verification of maintenance tasks",
+        "Administration of individual objects and data",
+        "Data gathering and analysis for extended periods",
+        "Structuring of objects"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a benefit of the functional location master data?",
+      "answer": "Data gathering for extended time",
+      "choices": [
+        "Data gathering for extended time",
+        "Administration of individual objects and data",
+        "Data gathering and analysis for extended periods",
+        "Within the plant maintenance, BOMs are used if there are similar objects that can be maintained"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a benefit of the functional location master data?",
+      "answer": "Cost monitoring",
+      "choices": [
+        "Cost monitoring",
+        "Administration of individual objects and data",
+        "Service parts planning in maintenance orders and maintenance task list",
+        "Object-oriented cost monitoring"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a benefit of the functional location master data?",
+      "answer": "Behavioral analysis of individual areas under different conditions",
+      "choices": [
+        "Behavioral analysis of individual areas under different conditions",
+        "Administration of individual objects and data",
+        "Service parts planning in maintenance orders and maintenance task list",
+        "Object-oriented cost monitoring"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is the physical object for which maintenance tasks are planned and performed.",
+      "answer": "equipment",
+      "choices": [
+        "equipment",
+        "location",
+        "budget",
+        "people"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which examples include pumps, personal computers, circulation fans, and engines?",
+      "answer": "equipment",
+      "choices": [
+        "equipment",
+        "location",
+        "budget",
+        "people"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These can be placed in functional locations.",
+      "answer": "equipments",
+      "choices": [
+        "equipments",
+        "locations",
+        "budget",
+        "people"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the equipment master data?",
+      "answer": "Administration of individual objects and data",
+      "choices": [
+        "Administration of individual objects and data",
+        "Structural depiction of technical plant",
+        "Planning and performing maintenance tasks",
+        "Data gathering for extended time"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the equipment master data?",
+      "answer": "Verification of maintenance tasks",
+      "choices": [
+        "Verification of maintenance tasks",
+        "Cost monitoring",
+        "Behavioral analysis of individual areas under different conditions",
+        "Service parts planning in maintenance orders and maintenance task list"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the equipment master data?",
+      "answer": "Object-oriented cost monitoring",
+      "choices": [
+        "Object-oriented cost monitoring",
+        "Cost monitoring",
+        "Behavioral analysis of individual areas under different conditions",
+        "Structural depiction of technical plant"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the equipment master data?",
+      "answer": "Data gathering and analysis for extended periods",
+      "choices": [
+        "Data gathering and analysis for extended periods",
+        "Structural depiction of technical plant",
+        "Planning and performing maintenance tasks",
+        "Behavioral analysis of individual areas under different conditions"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is the complete structured list of all components.",
+      "answer": "Bill of Material",
+      "choices": [
+        "Bill of Material",
+        "Bill of Gates",
+        "Bill y Eilish",
+        "Bill of Master Data"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It can be allocated to functional locations or equipment.",
+      "answer": "Bill of Material",
+      "choices": [
+        "Bill of Material",
+        "Bill of Gates",
+        "Bill y Crawford",
+        "Bill of Master Data"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In EAM, it includes three (3) types of Bill of Material: Material BOMs, Equipment BOMs, and Function location BOMs.",
+      "answer": "This statement is TRUE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the BOM master data?",
+      "answer": "Structuring of objects",
+      "choices": [
+        "Structuring of objects",
+        "Verification of maintenance tasks",
+        "Object-oriented cost monitoring",
+        "Data gathering and analysis for extended periods"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the BOM master data?",
+      "answer": "Service parts planning in maintenance orders and maintenance task list",
+      "choices": [
+        "Service parts planning in maintenance orders and maintenance task list",
+        "Structural depiction of technical plant",
+        "Planning and performing maintenance tasks",
+        "Data gathering for extended time"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is an advantage of the BOM master data?",
+      "answer": "Within the plant maintenance, BOMs are used if there are similar objects that can be maintained",
+      "choices": [
+        "Within the plant maintenance, BOMs are used if there are similar objects that can be maintained",
+        "Object-oriented cost monitoring",
+        "Verification of maintenance tasks",
+        "Cost monitoring"
+      ],
+      "reference": "05 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Malfunctions and other requirements are gathered in ______.",
+      "answer": "Notifications",
+      "choices": [
+        "Notifications",
+        "Plant",
+        "Storage Location",
+        "Bill of Material"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It tells maintenance that something needs fixing by highlighting a breakdown that needs to be actioned quickly.",
+      "answer": "Notifications",
+      "choices": [
+        "Notifications",
+        "Announcement",
+        "Maintanance",
+        "Maintenance Plant"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It can be used to record works already carried out because a history needs to be maintained.",
+      "answer": "Notifications",
+      "choices": [
+        "Notifications",
+        "Announcement",
+        "Maintanance",
+        "Maintenance Plant"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Technical object",
+      "choices": [
+        "Technical object",
+        "Time Confirmation",
+        "Technical Completion Confirmation",
+        "Printing work instruction papers"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Location data",
+      "choices": [
+        "Location data",
+        "Capacity requirements planning",
+        "Availability check for spare parts",
+        "Mass change or mass editing"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Reported by",
+      "choices": [
+        "Reported by",
+        "Structuring of objects",
+        "Availability check for spare parts",
+        "Mass change or mass editing"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Description",
+      "choices": [
+        "Description",
+        "Time Confirmation",
+        "Capacity requirements planning",
+        "Availability check for spare parts"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Notification data",
+      "choices": [
+        "Notification data",
+        "Technical Completion Confirmation",
+        "Structuring of objects",
+        "Availability check for spare parts"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Breakdown",
+      "choices": [
+        "Breakdown",
+        "Printing work instruction papers",
+        "Capacity requirements planning",
+        "Availability check for spare parts"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Damage location",
+      "choices": [
+        "Damage location",
+        "Mass change or mass editing",
+        "Capacity requirements planning",
+        "Technical Completion Confirmation"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It normally triggers the order creation and order planning.",
+      "answer": "Notifications",
+      "choices": [
+        "Notifications",
+        "Maintenance Order Control Functions",
+        "Implementation and Completion",
+        "Bill of Material"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Order planning includes the steps to be performed, required parts, and any specialized tooling.",
+      "answer": "This statement is TRUE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "The maintenance orders can be created from maintenance plans, notifications, or made without any documents.",
+      "answer": "This statement is TRUE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Planned and unplanned materials are calculated based on internal activity rates and external service costs.",
+      "answer": "This statement is FALSE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>Control functions for maintenance orders can vary depending on the order type.",
+      "answer": "Maintenance Order Control Functions",
+      "choices": [
+        "Maintenance Order Control Functions",
+        "Planning",
+        "Implementation and Completion",
+        "Notification"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a function that a maintenance order provides?",
+      "answer": "Mass change or mass editing",
+      "choices": [
+        "Mass change or mass editing",
+        "Technical object",
+        "Reported by",
+        "Notification data"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a function that a maintenance order provides?",
+      "answer": "Availability check for spare parts",
+      "choices": [
+        "Availability check for spare parts",
+        "Time Confirmation",
+        "Technical Completion Confirmation",
+        "Technical Completion"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a function that a maintenance order provides?",
+      "answer": "Capacity requirements planning",
+      "choices": [
+        "Capacity requirements planning",
+        "Technical object",
+        "Reported by",
+        "Time Confirmation"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a function that a maintenance order provides?",
+      "answer": "Printing work instruction papers",
+      "choices": [
+        "Printing work instruction papers",
+        "Technical Completion Confirmation",
+        "Reported by",
+        "Notification data"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statements?<BR>A notification normally triggers the order creation and order planning. Order planning includes the steps to be performed, required parts, and any specialized tooling.",
+      "answer": "Planning",
+      "choices": [
+        "Maintenance Order Control Functions",
+        "Planning",
+        "Implementation and Completion",
+        "Notification"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>Planned and unplanned materials withdrawals, such as goods issues are possible.",
+      "answer": "Implementation and Completion",
+      "choices": [
+        "Maintenance Order Control Functions",
+        "Planning",
+        "Implementation and Completion",
+        "Notification"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a step of order completion?",
+      "answer": "Time Confirmation",
+      "choices": [
+        "Time Confirmation",
+        "Printing work instruction papers",
+        "Capacity requirements planning",
+        "Availability check for spare parts"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a step of order completion?",
+      "answer": "Technical Completion Confirmation",
+      "choices": [
+        "Technical Completion Confirmation",
+        "Damage location",
+        "Notification data",
+        "Location data"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a step of order completion?",
+      "answer": "Technical Completion",
+      "choices": [
+        "Technical Completion",
+        "Printing work instruction papers",
+        "Capacity requirements planning",
+        "Availability check for spare parts"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It manages a wide range of service scenarios from pre-sales, sales, to post-sales.",
+      "answer": "SAP CS",
+      "choices": [
+        "SAP CS",
+        "SAP HCM",
+        "SAP EAM",
+        "SAP PS"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It could be for helpdesks helping the customer over the phone or complicated annual maintenance contracts for the after-sale of a car, computer, or power generator.",
+      "answer": "SAP CS",
+      "choices": [
+        "SAP CS",
+        "SAP HCM",
+        "SAP EAM",
+        "SAP PS"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This module can be considered a sub-branch of the Sales and Distribution (SD) module as it helps users manage a variety of service scenarios.",
+      "answer": "SAP CS",
+      "choices": [
+        "SAP CS",
+        "SAP HCM",
+        "SAP EAM",
+        "SAP PS"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is tightly integrated with other modules like Materials Management (MM), Finance (FI), Controlling (CO), and Production Planning (PP).",
+      "answer": "SAP CS",
+      "choices": [
+        "SAP CS",
+        "SAP HCM",
+        "SAP EAM",
+        "SAP PS"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which organizational structure is the same as that of SAP CS?",
+      "answer": "SAP EAM",
+      "choices": [
+        "SAP PP",
+        "SAP HCM",
+        "SAP EAM",
+        "SAP PS"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It an independent environment in the system.",
+      "answer": "Client",
+      "choices": [
+        "Client",
+        "Company Code",
+        "Sales Organization",
+        "Plant"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is the smallest organizational unit where a legal set of books can be maintained.",
+      "answer": "Company Code",
+      "choices": [
+        "Company Code",
+        "Sales Area",
+        "Division",
+        "Client"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is the operating area of a branch within the company. It can be a manufacturing, distribution, purchasing, or maintenance facility.",
+      "answer": "Plant",
+      "choices": [
+        "Plant",
+        "Division",
+        "Storage Location",
+        "Sales Organization"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is an organizational unit allowing differentiation between the various stocks of material in a plant. It is required to store spare parts.",
+      "answer": "Storage Location",
+      "choices": [
+        "Storage Location",
+        "Plant",
+        "Sales Organization",
+        "Distribution Channel"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is responsible for the sale of certain products or services. It also has a legal liability for products and customer claims.",
+      "answer": "Sales Organization",
+      "choices": [
+        "Sales Organization",
+        "Sales Area",
+        "Division",
+        "Distribution Channel"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is used for products or services to reach the customer. Examples include wholesale, retail, and direct sales.",
+      "answer": "Distribution Channel",
+      "choices": [
+        "Distribution Channel",
+        "Storage Location",
+        "Plant",
+        "Division"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is a way of grouping materials, products, or services.",
+      "answer": "Division",
+      "choices": [
+        "Division",
+        "Sales Area",
+        "Distribution Channel",
+        "Storage Location"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is a combination of Sales Organization, Distribution Channel, and Division, which also determines the conditions, such as pricing for sales activities.",
+      "answer": "Sales Area",
+      "choices": [
+        "Sales Area",
+        "Plant",
+        "Storage Location",
+        "Division"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following in included in the master data?",
+      "answer": "Customer Master",
+      "choices": [
+        "Customer Master",
+        "Employee Master",
+        "Accounting Master",
+        "Budget Master"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following in included in the master data?",
+      "answer": "Vendor Master",
+      "choices": [
+        "Vendor Master",
+        "Employee Master",
+        "Plant Master",
+        "Master Pogi"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following in included in the master data?",
+      "answer": "Work Center",
+      "choices": [
+        "Work Center",
+        "Plant",
+        "Sales Area",
+        "Division"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following in included in the master data?",
+      "answer": "Equipment",
+      "choices": [
+        "Equipment",
+        "Masterial",
+        "Budget",
+        "People"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following in included in the master data?",
+      "answer": "Bill of Material",
+      "choices": [
+        "Bill of Material",
+        "Bill of Gates",
+        "Bill y Jean",
+        "Jack and Bill"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following in included in the master data?",
+      "answer": "Material Master",
+      "choices": [
+        "Material Master",
+        "Employee Master",
+        "Budget Master",
+        "Stock Master"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>This master data contains information necessary for processing orders, deliveries, invoices, and customer payments.",
+      "answer": "Customer Master Data",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>This master is divided into three (3) areas: General Data, Company Code Data, and Sales Area Data.",
+      "answer": "Customer Master Data",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>This master data contains the information needed to do business with external suppliers.",
+      "answer": "Vendor Master",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>It is used and maintained primarily by the Purchasing and Accounting Departments. Just like a Customer master, a vendor must have a master record.",
+      "answer": "Vendor Master",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>It is a location within a plant where value-added work such as operations or activities, is performed.",
+      "answer": "Work Center",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>It can represent people or groups of people, machines or groups of machines, and assembly lines.",
+      "answer": "Work Center",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>This used to define capacities includes Labor, Machine, Output, and Emission.",
+      "answer": "Work Center",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>The document for capturing customer complaints and how notifications from a customer are entered and managed in Customer Service",
+      "answer": "Service Notification",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>The components include customer information, technical object and service contract information, and valid warranty information.",
+      "answer": "Service Notification",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It types include customer message or problem notification, service request, and technical completion.",
+      "answer": "Service Notification",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is the precise assessment of time and resources and can be created as a follow-up to a service notification.",
+      "answer": "Service Order",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is a guarantee to vouch for defects or faults in the product purchased, valid for a specific set time.",
+      "answer": "Warranty",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>The services defined and covered range from repairing a defect to taking the product back for replacement.",
+      "answer": "Warranty",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It records the service package details one has agreed to provide a recipient over a specific period.",
+      "answer": "Service Contract",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It defines the validity period, services, and conditions for at least one technical object.",
+      "answer": "Long-term Agreement",
+      "choices": [
+        "Long-term Agreement",
+        "Warranty",
+        "Service and maintenance contract",
+        "Short-term Agreement"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It provides maintenance of technical objects in a predefined manner.",
+      "answer": "Service and maintenance contract",
+      "choices": [
+        "Long-term Agreement",
+        "Warranty",
+        "Service and maintenance contract",
+        "Short-term Agreement"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>A legally binding offer with fixed conditions made to a customer for the performance of certain services.",
+      "answer": "Service Quotation",
+      "choices": [
+        "Service Quotation",
+        "Repair Order",
+        "Service Order",
+        "Warranty"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>Provides functions for managing the necessary activities that repairing goods for a customer entails.",
+      "answer": "Repair Order",
+      "choices": [
+        "Service Quotation",
+        "Repair Order",
+        "Service Order",
+        "Warranty"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It covers registering the repair request from the customer and billing the customer for the service performed.",
+      "answer": "Repair Order",
+      "choices": [
+        "Service Quotation",
+        "Repair Order",
+        "Service Order",
+        "Warranty"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "A billing must be created first before planning and releasing a request.",
+      "answer": "This statement is FALSE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "After the service order is released, the activities are executed and performed such as repair and maintenance.",
+      "answer": "This statement is TRUE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "A confirmation and technical completion are achieved to issue the accrued cost in the form of billing.",
+      "answer": "This statement is TRUE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "After the execution of activities are settled, then the business or service is completed.",
+      "answer": "This statement is FALSE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the FIRST step in Service Order Process?",
+      "answer": "Service Order",
+      "choices": [
+        "Service Order",
+        "Billing",
+        "Good Issue",
+        "Technical inspection"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the SECOND step in Service Order Process?",
+      "answer": "Planning and release",
+      "choices": [
+        "Planning and release",
+        "Good receipt",
+        "Repair",
+        "Execution of activities"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the THIRD step in Service Order Process?",
+      "answer": "Execution of activities",
+      "choices": [
+        "Execution of activities",
+        "Business completion",
+        "Service Order",
+        "Business completion"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the FOURTH step in Service Order Process?",
+      "answer": "Confirmation and technical completion",
+      "choices": [
+        "Confirmation and technical completion",
+        "Service Order",
+        "Technical inspection",
+        "Billing"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the FIFTH step in Service Order Process?",
+      "answer": "Billing",
+      "choices": [
+        "Billing",
+        "Business completion",
+        "Confirmation and technical completion",
+        "Execution of activities"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the SIXTH step in Service Order Process?",
+      "answer": "Business completion",
+      "choices": [
+        "Business completion",
+        "Billing",
+        "Confirmation and technical completion",
+        "Execution of activities"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How many steps does a Service Order Process have?",
+      "answer": 6,
+      "choices": [
+        6,
+        8,
+        4,
+        7
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "A customer repair order is initiated informing the business about a possible goods return due to a defect.",
+      "answer": "This statement is FALSE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "A customer repair order is created and issued in the second step of Goods Return and Repair Process.",
+      "answer": "This statement is TRUE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How many steps does a Goods Return and Repair Process have?",
+      "answer": 8,
+      "choices": [
+        6,
+        8,
+        4,
+        7
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the FIRST step in Goods Return and Repair Process?",
+      "answer": "Customer message",
+      "choices": [
+        "Customer message",
+        "Customer repair order",
+        "Good receipt",
+        "Technical inspection"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the SECOND step in Goods Return and Repair Process?",
+      "answer": "Customer repair order",
+      "choices": [
+        "Customer repair order",
+        "Good receipt",
+        "Technical inspection",
+        "Technical inspection"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the THIRD step in Goods Return and Repair Process?",
+      "answer": "Good receipt",
+      "choices": [
+        "Good receipt",
+        "Technical inspection",
+        "Repair",
+        "Service order"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the FOURTH step in Goods Return and Repair Process?",
+      "answer": "Technical inspection",
+      "choices": [
+        "Technical inspection",
+        "Billing",
+        "Good Issue",
+        "Service order"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the FIFTH step in Goods Return and Repair Process?",
+      "answer": "Repair",
+      "choices": [
+        "Repair",
+        "Service order",
+        "Good Issue",
+        "Good receipt"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the SIXTH step in Goods Return and Repair Process?",
+      "answer": "Service order",
+      "choices": [
+        "Service order",
+        "Good receipt",
+        "Good Issue",
+        "Billing"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the SEVENTH step in Goods Return and Repair Process?",
+      "answer": "Good Issue",
+      "choices": [
+        "Good Issue",
+        "Service order",
+        "Repair",
+        "Technical inspection"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What is the EIGHTH step in the Goods Return and Repair Process?",
+      "answer": "Billing",
+      "choices": [
+        "Billing",
+        "Good receipt",
+        "Technical inspection",
+        "Repair"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This ensures the quality of the products, processes, and services right from the start",
+      "answer": "SAP QM",
+      "choices": [
+        "SAP QM",
+        "SAP CS",
+        "SAP EAM",
+        "SAP PS"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "It is designed to support companies in implementing and executing quality control processes by facilitating continuous process improvement, preventing product manufacturing errors, and implementing sustainable quality control programs",
+      "answer": "SAP QM",
+      "choices": [
+        "SAP QM",
+        "SAP CS",
+        "SAP EAM",
+        "SAP SAP"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM tool is used for creating and administering quality inspection plans?",
+      "answer": "Quality Planning (QM-PT)",
+      "choices": [
+        "Quality Inspection (QM-IM)",
+        "Quality Certificate (QM-CA)",
+        "Quality Planning (QM-PT)",
+        "Control in Logistics (QM-PT-RP)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which tool involves using inspection specifications defined in quality planning to measure quality requirements?",
+      "answer": "Quality Inspection (QM-IM)",
+      "choices": [
+        "Quality Inspection (QM-IM)",
+        "Test Equipment Management (QM-IT)",
+        "Archiving",
+        "Quality Notification (QM-QN)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM functionality is designed to prove that goods meet required quality measurements?",
+      "answer": "Quality Certificate (QM-CA)",
+      "choices": [
+        "Quality Notification (QM-QN)",
+        "Quality Certificate (QM-CA)",
+        "Stability Study",
+        "Archiving"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which tool is used for capturing challenges and problems occurring during production or reported by customers?",
+      "answer": "Quality Notification (QM-QN)",
+      "choices": [
+        "Data Transfer",
+        "Quality Control (QM-QC)",
+        "Quality Notification (QM-QN)",
+        "Inspection using Multiple specifications"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM functionality allows the management of quality control processes?",
+      "answer": "Quality Control (QM-QC)",
+      "choices": [
+        "Control in Logistics (QM-PT-RP)",
+        "Quality Planning (QM-PT)",
+        "Stability Study",
+        "Quality Control (QM-QC)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM module manages information about test equipment used in inspections and ensures constant calibration?",
+      "answer": "Test Equipment Management (QM-IT)",
+      "choices": [
+        "Archiving",
+        "Test Equipment Management (QM-IT)",
+        "Inspection using Multiple specifications",
+        "Data Transfer"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which feature lets users inspect a batch of material against multiple inspection specifications?",
+      "answer": "Inspection using Multiple specifications",
+      "choices": [
+        "Inspection using Multiple specifications",
+        "Stability Study",
+        "Archiving",
+        "Control in Logistics (QM-PT-RP)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which tool documents requests to examine and test a product over time to study storage condition effects?",
+      "answer": "Stability Study",
+      "choices": [
+        "Stability Study",
+        "Quality Planning (QM-PT)",
+        "Archiving",
+        "Quality Notification (QM-QN)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which feature manages integration of the QM application component in logistical processes?",
+      "answer": "Control in Logistics (QM-PT-RP)",
+      "choices": [
+        "Control in Logistics (QM-PT-RP)",
+        "Quality Control (QM-QC)",
+        "Data Transfer",
+        "Quality Inspection (QM-IM)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM functionality removes data records for inspection documents no longer needed in the system?",
+      "answer": "Archiving",
+      "choices": [
+        "Stability Study",
+        "Test Equipment Management (QM-IT)",
+        "Archiving",
+        "Quality Notification (QM-QN)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM tool ensures the transfer of large volumes of QM data efficiently to the SAP system?",
+      "answer": "Data Transfer",
+      "choices": [
+        "Quality Notification (QM-QN)",
+        "Data Transfer",
+        "Quality Certificate (QM-CA)",
+        "Archiving"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM tool specifies the goods to be inspected, the inspection process, the characteristics to check, the equipment to use, and the standards to follow?",
+      "answer": "Quality Planning (QM-PT)",
+      "choices": [
+        "Quality Inspection (QM-IM)",
+        "Quality Certificate (QM-CA)",
+        "Quality Planning (QM-PT)",
+        "Control in Logistics (QM-PT-RP)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM functionality considers the different specific criteria set for goods by customers, may they be neutral?",
+      "answer": "Quality Certificate (QM-CA)",
+      "choices": [
+        "Quality Notification (QM-QN)",
+        "Quality Certificate (QM-CA)",
+        "Stability Study",
+        "Archiving"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which tool can be configured to record, process, and manage positive information about the products and complaints about quality?",
+      "answer": "Quality Notification (QM-QN)",
+      "choices": [
+        "Data Transfer",
+        "Quality Control (QM-QC)",
+        "Quality Notification (QM-QN)",
+        "Inspection using Multiple specifications"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM functionality uses the results of this test to update the quality situation, control charts to manage characteristic values, and validate vendors for the purchasing procedure?",
+      "answer": "Quality Control (QM-QC)",
+      "choices": [
+        "Control in Logistics (QM-PT-RP)",
+        "Quality Planning (QM-PT)",
+        "Stability Study",
+        "Quality Control (QM-QC)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM module allows data for each test equipment to be maintained and ensures constant calibration?",
+      "answer": "Test Equipment Management (QM-IT)",
+      "choices": [
+        "Archiving",
+        "Test Equipment Management (QM-IT)",
+        "Inspection using Multiple specifications",
+        "Data Transfer"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM module is useful when testing for different clients or country requirements with their specific requirements?",
+      "answer": "Inspection using Multiple specifications",
+      "choices": [
+        "Inspection using Multiple specifications",
+        "Stability Study",
+        "Archiving",
+        "Control in Logistics (QM-PT-RP)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which tool is used to explore the effects of various storage conditions on the characteristics of a product or substance?",
+      "answer": "Stability Study",
+      "choices": [
+        "Stability Study",
+        "Quality Planning (QM-PT)",
+        "Archiving",
+        "Quality Notification (QM-QN)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM tool is useful for handling large volumes of data as it ensures efficient data transfer and consistency in the SAP system?",
+      "answer": "Data Transfer",
+      "choices": [
+        "Quality Notification (QM-QN)",
+        "Data Transfer",
+        "Quality Certificate (QM-CA)",
+        "Archiving"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "SAP QM ensures higher customer satisfaction due to improved product quality.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Continuous quality assurance is not possible with SAP QM.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "SAP QM provides certificates of quality as part of the product documentation to confirm product quality.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "SAP QM cannot monitor supplier and customer returns.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Quality certificates in SAP QM are automated and printed at the time of delivery to the customer.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "SAP QM enables permanent process monitoring alongside constant, flexible, and adaptable quality assurance processes.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "SAP QM does not help reduce failures and delays through failure analysis, risk minimization, or stability studies.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Required corrective actions can be activated automatically using SAP QM quality notifications.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP module is integrated with SAP QM by maintaining quality agreements?",
+      "answer": "SAP Materials Management (MM)",
+      "choices": [
+        "SAP Sales and Distribution (SD)",
+        "SAP Production Planning and Execution (PP)",
+        "SAP Materials Management (MM)",
+        "SAP Controlling (CO)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP module is integrated with SAP QM by maintaining quality information related to customers?",
+      "answer": "SAP Sales and Distribution (SD)",
+      "choices": [
+        "SAP Controlling (CO)",
+        "SAP Materials Management (MM)",
+        "SAP Sales and Distribution (SD)",
+        "SAP Production Planning and Execution (PP)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP module is integrated with SAP QM by performing inspection planning?",
+      "answer": "SAP Production Planning and Execution (PP)",
+      "choices": [
+        "SAP Materials Management (MM)",
+        "SAP Controlling (CO)",
+        "SAP Production Planning and Execution (PP)",
+        "SAP Sales and Distribution (SD)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP module is integrated with SAP QM by integrating it with controlling processes?",
+      "answer": "SAP Controlling (CO)",
+      "choices": [
+        "SAP Controlling (CO)",
+        "SAP Sales and Distribution (SD)",
+        "SAP Production Planning and Execution (PP)",
+        "SAP Materials Management (MM)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the independent environment in the system called?",
+      "answer": "Client",
+      "choices": [
+        "Company Code",
+        "Client",
+        "Plant",
+        "Purchasing Organization"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which organizational unit maintains a legal set of books?",
+      "answer": "Company Code",
+      "choices": [
+        "Plant",
+        "Storage Location",
+        "Company Code",
+        "Purchasing Group"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the operating area of a branch within the company called?",
+      "answer": "Plant",
+      "choices": [
+        "Company Code",
+        "Purchasing Organization",
+        "Plant",
+        "Client"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which unit allows differentiation between the various stocks of material in a plant?",
+      "answer": "Storage Location",
+      "choices": [
+        "Storage Location",
+        "Purchasing Organization",
+        "Purchasing Group",
+        "Client"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Where does the buying activity for a plant take place?",
+      "answer": "Purchasing Organization",
+      "choices": [
+        "Company Code",
+        "Storage Location",
+        "Purchasing Organization",
+        "Purchasing Group"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Who is responsible for procuring services and materials, and negotiating with vendors?",
+      "answer": "Purchasing Organization",
+      "choices": [
+        "Purchasing Organization",
+        "Storage Location",
+        "Plant",
+        "Purchasing Group"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What represents the buyer or group of buyers responsible for specific purchasing activities?",
+      "answer": "Purchasing Group",
+      "choices": [
+        "Purchasing Group",
+        "Company Code",
+        "Plant",
+        "Client"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What contains information for processing orders, deliveries, invoices, and customer payments?",
+      "answer": "Customer Master",
+      "choices": [
+        "Material Master",
+        "Vendor Master",
+        "Customer Master",
+        "General Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the Customer Master divided into?",
+      "answer": "General Data, Company Code Data, and Sales Area Data",
+      "choices": [
+        "General Data, Company Code Data, and Sales Area Data",
+        "General Data, Material Data, and Sales Area Data",
+        "General Data, Material Data, and Employee Data",
+        "General Data, Vendor Data, and Employee Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which master data contains information needed to manage a material?",
+      "answer": "Material Master",
+      "choices": [
+        "Customer Master",
+        "Material Master",
+        "Vendor Master",
+        "Sales Area Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which master data is used by most components within the SAP system, including Sales and Distribution?",
+      "answer": "Material Master",
+      "choices": [
+        "Customer Master",
+        "Material Master",
+        "Vendor Master",
+        "Purchasing and Accounting Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which master data contains information needed to do business with external suppliers?",
+      "answer": "Vendor Master",
+      "choices": [
+        "Material Master",
+        "Vendor Master",
+        "Customer Master",
+        "Sales Area Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which departments primarily use and maintain Vendor Master?",
+      "answer": "Purchasing and Accounting Departments",
+      "choices": [
+        "Sales and Distribution",
+        "Materials Management",
+        "Purchasing and Accounting Departments",
+        "Quality Management"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What must a vendor have, just like a customer master?",
+      "answer": "Master Record",
+      "choices": [
+        "Vendor Master",
+        "Master Record",
+        "Company Code Data",
+        "General Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM process determines how a material can be processed further?",
+      "answer": "Quality Information Record",
+      "choices": [
+        "Inspection Plan",
+        "Quality Information Record",
+        "Inspection Lot",
+        "Perform Inspection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM process must be created if a quality assurance agreement or vendor release is required for a material?",
+      "answer": "Quality Information Record",
+      "choices": [
+        "Inspection Plan",
+        "Quality Information Record",
+        "Inspection Lot",
+        "Perform Inspection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM process checks whether a quality information record is required and available for the combination of material and vendor when a quotation or purchase order is created?",
+      "answer": "Quality Information Record",
+      "choices": [
+        "Inspection Plan",
+        "Quality Information Record",
+        "Inspection Lot",
+        "Usage Decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM process defines which characteristics are to be inspected in each inspection operation and which test equipment is to be used?",
+      "answer": "Inspection Plan",
+      "choices": [
+        "Inspection Plan",
+        "Quality Information Record",
+        "Inspection Lot",
+        "Usage Decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Several inspection plans with various inspection operations or inspection characteristics can be created for a material or combination of materials, vendors, manufacturers, or materials and customers",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What records, processes, and manages information for a quality inspection?",
+      "answer": "Inspection Lot",
+      "choices": [
+        "Material Management",
+        "Inspection Lot",
+        "Usage Decision",
+        "Perform Inspection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is a request to a plant to inspect a specific quantity of material or one or more pieces of equipment?",
+      "answer": "Inspection Lot",
+      "choices": [
+        "Perform Inspection",
+        "Usage Decision",
+        "Quality Management",
+        "Inspection Lot"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Under certain conditions, which component can automatically create inspection lots when materials are moved?",
+      "answer": "QM component",
+      "choices": [
+        "Inspection Lot",
+        "SAP system",
+        "Sales and Distribution (SD)",
+        "QM component"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "When can an inspection lot be automatically created for an inspection-relevant material?",
+      "answer": "Delivery in SD component",
+      "choices": [
+        "Delivery in MM component",
+        "Usage Decision",
+        "Perform Inspection",
+        "Delivery in SD component"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "To which different stocks can inspection lot stock be posted?",
+      "answer": "Unrestricted Use, Scrap, Sample Usage, Block Stock",
+      "choices": [
+        "Block Stock",
+        "Unrestricted Use, Scrap, Sample Usage, Block Stock",
+        "Sample Usage",
+        "Inspection Lot"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How is the inspection achieved in the inspection lot?",
+      "answer": "By inspecting sample units",
+      "choices": [
+        "By checking the stock levels",
+        "By performing quality analysis",
+        "By inspecting sample units",
+        "Inspection Lot"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What confirms that all physical samples have been evaluated and the inspection has been completed?",
+      "answer": "Usage Decision",
+      "choices": [
+        "Perform Inspection",
+        "Material Master",
+        "Inspection Lot",
+        "Usage Decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What specifies whether the goods in the inspection lot have been accepted or rejected for use?",
+      "answer": "Usage Decision",
+      "choices": [
+        "Inspection Lot",
+        "Perform Inspection",
+        "Inspection Lot Stock",
+        "Usage Decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which is achieved by inspecting sample units of the inspection lot and inspects the number of non-confirming sample units entered into the SAP system?",
+      "answer": "Perform Inspection",
+      "choices": [
+        "Perform Inspection",
+        "Material Master",
+        "Inspection Lot",
+        "Usage Decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is processed to create, update, and send requests for goods and services from vendors after the inspection plan?",
+      "answer": "Purchase Order",
+      "choices": [
+        "Invoice",
+        "Purchase Order",
+        "Sales Order",
+        "Outbound Delivery"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "After the purchase order is validated and meets the required characteristics, what happens next?",
+      "answer": "Materials are received",
+      "choices": [
+        "Sales Order",
+        "Goods Issue",
+        "Usage Decision",
+        "Materials are received"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What continues to the normal processes in SAP QM after materials are received?",
+      "answer": "QM in Procurement",
+      "choices": [
+        "Material Master",
+        "Goods Receipt",
+        "Perform Inspection",
+        "QM in Procurement"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In the Sales and Distribution (SD) process, what includes the physical removal or departure of products from a warehouse?",
+      "answer": "Goods Issue",
+      "choices": [
+        "Invoice",
+        "Outbound Delivery",
+        "Purchase Order",
+        "Goods Issue"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the physical acceptance of goods or materials into stock?",
+      "answer": "Goods Receipt",
+      "choices": [
+        "Outbound Delivery",
+        "Goods Issue",
+        "Sales Order",
+        "Goods Receipt"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "When is a goods receipt done?",
+      "answer": "After the usage decision",
+      "choices": [
+        "After receiving materials",
+        "After the Sales Order",
+        "After Goods Issue",
+        "After the usage decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What confirms that the materials have been evaluated and inspected?",
+      "answer": "Usage Decision",
+      "choices": [
+        "Goods Receipt",
+        "Sales Order",
+        "Goods Issue",
+        "Usage Decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is created once the materials result in positive quality management?",
+      "answer": "Sales Order",
+      "choices": [
+        "Purchase Order",
+        "Goods Issue",
+        "Invoice",
+        "Sales Order"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is a contractual agreement between a sales organization and a sold-to-party in delivering products or services?",
+      "answer": "Sales Order",
+      "choices": [
+        "Goods Receipt",
+        "Outbound Delivery",
+        "Purchase Order",
+        "Sales Order"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is processed to contain all data required for triggering and monitoring the complete outbound delivery process?",
+      "answer": "Outbound Delivery",
+      "choices": [
+        "Goods Receipt",
+        "Sales Order",
+        "Invoice",
+        "Outbound Delivery"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is created to document the sales and confirm the request for payment from the vendor for delivered goods?",
+      "answer": "Invoice",
+      "choices": [
+        "Outbound Delivery",
+        "Sales Order",
+        "Goods Issue",
+        "Invoice"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}

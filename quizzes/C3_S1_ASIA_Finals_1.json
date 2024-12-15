@@ -1,0 +1,862 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Systems Integration and Architecture",
+    "Term": "Finals",
+    "Title": "Quality Management (QM)",
+    "LastModified": "15 December 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "07 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This ensures the quality of the products, processes, and services right from the start",
+      "answer": "SAP QM",
+      "choices": [
+        "SAP QM",
+        "SAP CS",
+        "SAP EAM",
+        "SAP PS"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "It is designed to support companies in implementing and executing quality control processes by facilitating continuous process improvement, preventing product manufacturing errors, and implementing sustainable quality control programs",
+      "answer": "SAP QM",
+      "choices": [
+        "SAP QM",
+        "SAP CS",
+        "SAP EAM",
+        "SAP SAP"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM tool is used for creating and administering quality inspection plans?",
+      "answer": "Quality Planning (QM-PT)",
+      "choices": [
+        "Quality Inspection (QM-IM)",
+        "Quality Certificate (QM-CA)",
+        "Quality Planning (QM-PT)",
+        "Control in Logistics (QM-PT-RP)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which tool involves using inspection specifications defined in quality planning to measure quality requirements?",
+      "answer": "Quality Inspection (QM-IM)",
+      "choices": [
+        "Quality Inspection (QM-IM)",
+        "Test Equipment Management (QM-IT)",
+        "Archiving",
+        "Quality Notification (QM-QN)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM functionality is designed to prove that goods meet required quality measurements?",
+      "answer": "Quality Certificate (QM-CA)",
+      "choices": [
+        "Quality Notification (QM-QN)",
+        "Quality Certificate (QM-CA)",
+        "Stability Study",
+        "Archiving"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which tool is used for capturing challenges and problems occurring during production or reported by customers?",
+      "answer": "Quality Notification (QM-QN)",
+      "choices": [
+        "Data Transfer",
+        "Quality Control (QM-QC)",
+        "Quality Notification (QM-QN)",
+        "Inspection using Multiple specifications"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM functionality allows the management of quality control processes?",
+      "answer": "Quality Control (QM-QC)",
+      "choices": [
+        "Control in Logistics (QM-PT-RP)",
+        "Quality Planning (QM-PT)",
+        "Stability Study",
+        "Quality Control (QM-QC)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM module manages information about test equipment used in inspections and ensures constant calibration?",
+      "answer": "Test Equipment Management (QM-IT)",
+      "choices": [
+        "Archiving",
+        "Test Equipment Management (QM-IT)",
+        "Inspection using Multiple specifications",
+        "Data Transfer"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which feature lets users inspect a batch of material against multiple inspection specifications?",
+      "answer": "Inspection using Multiple specifications",
+      "choices": [
+        "Inspection using Multiple specifications",
+        "Stability Study",
+        "Archiving",
+        "Control in Logistics (QM-PT-RP)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which tool documents requests to examine and test a product over time to study storage condition effects?",
+      "answer": "Stability Study",
+      "choices": [
+        "Stability Study",
+        "Quality Planning (QM-PT)",
+        "Archiving",
+        "Quality Notification (QM-QN)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which feature manages integration of the QM application component in logistical processes?",
+      "answer": "Control in Logistics (QM-PT-RP)",
+      "choices": [
+        "Control in Logistics (QM-PT-RP)",
+        "Quality Control (QM-QC)",
+        "Data Transfer",
+        "Quality Inspection (QM-IM)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM functionality removes data records for inspection documents no longer needed in the system?",
+      "answer": "Archiving",
+      "choices": [
+        "Stability Study",
+        "Test Equipment Management (QM-IT)",
+        "Archiving",
+        "Quality Notification (QM-QN)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM tool ensures the transfer of large volumes of QM data efficiently to the SAP system?",
+      "answer": "Data Transfer",
+      "choices": [
+        "Quality Notification (QM-QN)",
+        "Data Transfer",
+        "Quality Certificate (QM-CA)",
+        "Archiving"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM tool specifies the goods to be inspected, the inspection process, the characteristics to check, the equipment to use, and the standards to follow?",
+      "answer": "Quality Planning (QM-PT)",
+      "choices": [
+        "Quality Inspection (QM-IM)",
+        "Quality Certificate (QM-CA)",
+        "Quality Planning (QM-PT)",
+        "Control in Logistics (QM-PT-RP)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM functionality considers the different specific criteria set for goods by customers, may they be neutral?",
+      "answer": "Quality Certificate (QM-CA)",
+      "choices": [
+        "Quality Notification (QM-QN)",
+        "Quality Certificate (QM-CA)",
+        "Stability Study",
+        "Archiving"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which tool can be configured to record, process, and manage positive information about the products and complaints about quality?",
+      "answer": "Quality Notification (QM-QN)",
+      "choices": [
+        "Data Transfer",
+        "Quality Control (QM-QC)",
+        "Quality Notification (QM-QN)",
+        "Inspection using Multiple specifications"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM functionality uses the results of this test to update the quality situation, control charts to manage characteristic values, and validate vendors for the purchasing procedure?",
+      "answer": "Quality Control (QM-QC)",
+      "choices": [
+        "Control in Logistics (QM-PT-RP)",
+        "Quality Planning (QM-PT)",
+        "Stability Study",
+        "Quality Control (QM-QC)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM module allows data for each test equipment to be maintained and ensures constant calibration?",
+      "answer": "Test Equipment Management (QM-IT)",
+      "choices": [
+        "Archiving",
+        "Test Equipment Management (QM-IT)",
+        "Inspection using Multiple specifications",
+        "Data Transfer"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM module is useful when testing for different clients or country requirements with their specific requirements?",
+      "answer": "Inspection using Multiple specifications",
+      "choices": [
+        "Inspection using Multiple specifications",
+        "Stability Study",
+        "Archiving",
+        "Control in Logistics (QM-PT-RP)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which tool is used to explore the effects of various storage conditions on the characteristics of a product or substance?",
+      "answer": "Stability Study",
+      "choices": [
+        "Stability Study",
+        "Quality Planning (QM-PT)",
+        "Archiving",
+        "Quality Notification (QM-QN)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP QM tool is useful for handling large volumes of data as it ensures efficient data transfer and consistency in the SAP system?",
+      "answer": "Data Transfer",
+      "choices": [
+        "Quality Notification (QM-QN)",
+        "Data Transfer",
+        "Quality Certificate (QM-CA)",
+        "Archiving"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "SAP QM ensures higher customer satisfaction due to improved product quality.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Continuous quality assurance is not possible with SAP QM.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "SAP QM provides certificates of quality as part of the product documentation to confirm product quality.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "SAP QM cannot monitor supplier and customer returns.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Quality certificates in SAP QM are automated and printed at the time of delivery to the customer.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "SAP QM enables permanent process monitoring alongside constant, flexible, and adaptable quality assurance processes.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "SAP QM does not help reduce failures and delays through failure analysis, risk minimization, or stability studies.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Required corrective actions can be activated automatically using SAP QM quality notifications.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP module is integrated with SAP QM by maintaining quality agreements?",
+      "answer": "SAP Materials Management (MM)",
+      "choices": [
+        "SAP Sales and Distribution (SD)",
+        "SAP Production Planning and Execution (PP)",
+        "SAP Materials Management (MM)",
+        "SAP Controlling (CO)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP module is integrated with SAP QM by maintaining quality information related to customers?",
+      "answer": "SAP Sales and Distribution (SD)",
+      "choices": [
+        "SAP Controlling (CO)",
+        "SAP Materials Management (MM)",
+        "SAP Sales and Distribution (SD)",
+        "SAP Production Planning and Execution (PP)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP module is integrated with SAP QM by performing inspection planning?",
+      "answer": "SAP Production Planning and Execution (PP)",
+      "choices": [
+        "SAP Materials Management (MM)",
+        "SAP Controlling (CO)",
+        "SAP Production Planning and Execution (PP)",
+        "SAP Sales and Distribution (SD)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SAP module is integrated with SAP QM by integrating it with controlling processes?",
+      "answer": "SAP Controlling (CO)",
+      "choices": [
+        "SAP Controlling (CO)",
+        "SAP Sales and Distribution (SD)",
+        "SAP Production Planning and Execution (PP)",
+        "SAP Materials Management (MM)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the independent environment in the system called?",
+      "answer": "Client",
+      "choices": [
+        "Company Code",
+        "Client",
+        "Plant",
+        "Purchasing Organization"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which organizational unit maintains a legal set of books?",
+      "answer": "Company Code",
+      "choices": [
+        "Plant",
+        "Storage Location",
+        "Company Code",
+        "Purchasing Group"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the operating area of a branch within the company called?",
+      "answer": "Plant",
+      "choices": [
+        "Company Code",
+        "Purchasing Organization",
+        "Plant",
+        "Client"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which unit allows differentiation between the various stocks of material in a plant?",
+      "answer": "Storage Location",
+      "choices": [
+        "Storage Location",
+        "Purchasing Organization",
+        "Purchasing Group",
+        "Client"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Where does the buying activity for a plant take place?",
+      "answer": "Purchasing Organization",
+      "choices": [
+        "Company Code",
+        "Storage Location",
+        "Purchasing Organization",
+        "Purchasing Group"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Who is responsible for procuring services and materials, and negotiating with vendors?",
+      "answer": "Purchasing Organization",
+      "choices": [
+        "Purchasing Organization",
+        "Storage Location",
+        "Plant",
+        "Purchasing Group"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What represents the buyer or group of buyers responsible for specific purchasing activities?",
+      "answer": "Purchasing Group",
+      "choices": [
+        "Purchasing Group",
+        "Company Code",
+        "Plant",
+        "Client"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What contains information for processing orders, deliveries, invoices, and customer payments?",
+      "answer": "Customer Master",
+      "choices": [
+        "Material Master",
+        "Vendor Master",
+        "Customer Master",
+        "General Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the Customer Master divided into?",
+      "answer": "General Data, Company Code Data, and Sales Area Data",
+      "choices": [
+        "General Data, Company Code Data, and Sales Area Data",
+        "General Data, Material Data, and Sales Area Data",
+        "General Data, Material Data, and Employee Data",
+        "General Data, Vendor Data, and Employee Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which master data contains information needed to manage a material?",
+      "answer": "Material Master",
+      "choices": [
+        "Customer Master",
+        "Material Master",
+        "Vendor Master",
+        "Sales Area Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which master data is used by most components within the SAP system, including Sales and Distribution?",
+      "answer": "Material Master",
+      "choices": [
+        "Customer Master",
+        "Material Master",
+        "Vendor Master",
+        "Purchasing and Accounting Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which master data contains information needed to do business with external suppliers?",
+      "answer": "Vendor Master",
+      "choices": [
+        "Material Master",
+        "Vendor Master",
+        "Customer Master",
+        "Sales Area Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which departments primarily use and maintain Vendor Master?",
+      "answer": "Purchasing and Accounting Departments",
+      "choices": [
+        "Sales and Distribution",
+        "Materials Management",
+        "Purchasing and Accounting Departments",
+        "Quality Management"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What must a vendor have, just like a customer master?",
+      "answer": "Master Record",
+      "choices": [
+        "Vendor Master",
+        "Master Record",
+        "Company Code Data",
+        "General Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM process determines how a material can be processed further?",
+      "answer": "Quality Information Record",
+      "choices": [
+        "Inspection Plan",
+        "Quality Information Record",
+        "Inspection Lot",
+        "Perform Inspection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM process must be created if a quality assurance agreement or vendor release is required for a material?",
+      "answer": "Quality Information Record",
+      "choices": [
+        "Inspection Plan",
+        "Quality Information Record",
+        "Inspection Lot",
+        "Perform Inspection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM process checks whether a quality information record is required and available for the combination of material and vendor when a quotation or purchase order is created?",
+      "answer": "Quality Information Record",
+      "choices": [
+        "Inspection Plan",
+        "Quality Information Record",
+        "Inspection Lot",
+        "Usage Decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which QM process defines which characteristics are to be inspected in each inspection operation and which test equipment is to be used?",
+      "answer": "Inspection Plan",
+      "choices": [
+        "Inspection Plan",
+        "Quality Information Record",
+        "Inspection Lot",
+        "Usage Decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Several inspection plans with various inspection operations or inspection characteristics can be created for a material or combination of materials, vendors, manufacturers, or materials and customers",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What records, processes, and manages information for a quality inspection?",
+      "answer": "Inspection Lot",
+      "choices": [
+        "Material Management",
+        "Inspection Lot",
+        "Usage Decision",
+        "Perform Inspection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is a request to a plant to inspect a specific quantity of material or one or more pieces of equipment?",
+      "answer": "Inspection Lot",
+      "choices": [
+        "Perform Inspection",
+        "Usage Decision",
+        "Quality Management",
+        "Inspection Lot"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Under certain conditions, which component can automatically create inspection lots when materials are moved?",
+      "answer": "QM component",
+      "choices": [
+        "Inspection Lot",
+        "SAP system",
+        "Sales and Distribution (SD)",
+        "QM component"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "When can an inspection lot be automatically created for an inspection-relevant material?",
+      "answer": "Delivery in SD component",
+      "choices": [
+        "Delivery in MM component",
+        "Usage Decision",
+        "Perform Inspection",
+        "Delivery in SD component"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "To which different stocks can inspection lot stock be posted?",
+      "answer": "Unrestricted Use, Scrap, Sample Usage, Block Stock",
+      "choices": [
+        "Block Stock",
+        "Unrestricted Use, Scrap, Sample Usage, Block Stock",
+        "Sample Usage",
+        "Inspection Lot"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How is the inspection achieved in the inspection lot?",
+      "answer": "By inspecting sample units",
+      "choices": [
+        "By checking the stock levels",
+        "By performing quality analysis",
+        "By inspecting sample units",
+        "Inspection Lot"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What confirms that all physical samples have been evaluated and the inspection has been completed?",
+      "answer": "Usage Decision",
+      "choices": [
+        "Perform Inspection",
+        "Material Master",
+        "Inspection Lot",
+        "Usage Decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What specifies whether the goods in the inspection lot have been accepted or rejected for use?",
+      "answer": "Usage Decision",
+      "choices": [
+        "Inspection Lot",
+        "Perform Inspection",
+        "Inspection Lot Stock",
+        "Usage Decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which is achieved by inspecting sample units of the inspection lot and inspects the number of non-confirming sample units entered into the SAP system?",
+      "answer": "Perform Inspection",
+      "choices": [
+        "Perform Inspection",
+        "Material Master",
+        "Inspection Lot",
+        "Usage Decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is processed to create, update, and send requests for goods and services from vendors after the inspection plan?",
+      "answer": "Purchase Order",
+      "choices": [
+        "Invoice",
+        "Purchase Order",
+        "Sales Order",
+        "Outbound Delivery"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "After the purchase order is validated and meets the required characteristics, what happens next?",
+      "answer": "Materials are received",
+      "choices": [
+        "Sales Order",
+        "Goods Issue",
+        "Usage Decision",
+        "Materials are received"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What continues to the normal processes in SAP QM after materials are received?",
+      "answer": "QM in Procurement",
+      "choices": [
+        "Material Master",
+        "Goods Receipt",
+        "Perform Inspection",
+        "QM in Procurement"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In the Sales and Distribution (SD) process, what includes the physical removal or departure of products from a warehouse?",
+      "answer": "Goods Issue",
+      "choices": [
+        "Invoice",
+        "Outbound Delivery",
+        "Purchase Order",
+        "Goods Issue"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the physical acceptance of goods or materials into stock?",
+      "answer": "Goods Receipt",
+      "choices": [
+        "Outbound Delivery",
+        "Goods Issue",
+        "Sales Order",
+        "Goods Receipt"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "When is a goods receipt done?",
+      "answer": "After the usage decision",
+      "choices": [
+        "After receiving materials",
+        "After the Sales Order",
+        "After Goods Issue",
+        "After the usage decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What confirms that the materials have been evaluated and inspected?",
+      "answer": "Usage Decision",
+      "choices": [
+        "Goods Receipt",
+        "Sales Order",
+        "Goods Issue",
+        "Usage Decision"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is created once the materials result in positive quality management?",
+      "answer": "Sales Order",
+      "choices": [
+        "Purchase Order",
+        "Goods Issue",
+        "Invoice",
+        "Sales Order"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is a contractual agreement between a sales organization and a sold-to-party in delivering products or services?",
+      "answer": "Sales Order",
+      "choices": [
+        "Goods Receipt",
+        "Outbound Delivery",
+        "Purchase Order",
+        "Sales Order"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is processed to contain all data required for triggering and monitoring the complete outbound delivery process?",
+      "answer": "Outbound Delivery",
+      "choices": [
+        "Goods Receipt",
+        "Sales Order",
+        "Invoice",
+        "Outbound Delivery"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is created to document the sales and confirm the request for payment from the vendor for delivered goods?",
+      "answer": "Invoice",
+      "choices": [
+        "Outbound Delivery",
+        "Sales Order",
+        "Goods Issue",
+        "Invoice"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}
