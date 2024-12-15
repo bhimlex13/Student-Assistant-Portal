@@ -109,7 +109,7 @@
       "term": "Finals"
     },
     {
-      "question": "Which of hte following ensures that backup data is an exact and unmodified copy of the original?",
+      "question": "Which of the following ensures that backup data is an exact and unmodified copy of the original?",
       "answer": "Authenticity",
       "choices": [
         "Authenticity",
@@ -362,6 +362,26 @@
       "choices": [
         "TR",
         "FL"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Wearables can distract users from their daily activities.",
+      "answer": "FL",
+      "choices": [
+        "FL",
+        "TR"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Finding an easier task to accomplish display creative problem-solving.",
+      "answer": "FL",
+      "choices": [
+        "FL",
+        "TR"
       ],
       "reference": "Finals Review",
       "term": "Finals"
