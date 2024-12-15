@@ -1,0 +1,172 @@
+{
+  "quizInfo": {
+    "Subject": "Data and Digital Communications",
+    "Term": "Finals",
+    "Title": "Finals Reviewer",
+    "LastModified": "15 December 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "Finals Reviewer"
+    ]
+  },
+  "quizData":[
+    {
+      "question": "In datagram networks, each packet may experience a wait at a switch before it is forwarded",
+      "answer": "Delay",
+      "choices": [
+        "Delay",
+        "Packet Loss",
+        "Collision",
+        "Error Detection"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "An information created and maintained by an organization that needed to be available to authorized entities",
+      "answer": "Availability",
+      "choices": [
+        "Availability",
+        "Security",
+        "Integrity",
+        "Confidentiality"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "This wave propagation uses a low-frequency range transmission less than 1 MHz",
+      "answer": "Ground Wave",
+      "choices": [
+        "Ground Wave",
+        "Sky Wave",
+        "Surface Wave",
+        "Line of Sight"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It is the modulation technique in which the carrier frequency varies based on analog baseband",
+      "answer": "Amplitude Modulation",
+      "choices": [
+        "Amplitude Modulation",
+        "Frequency Modulation",
+        "Phase Modulation",
+        "Pulse Modulation"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "This simple approach of error detection involves adding repeating bits to each character known as parity bits",
+      "answer": "Vertical Redundancy Check",
+      "choices": [
+        "Vertical Redundancy Check",
+        "Checksum",
+        "Cyclic Redundancy Checksum",
+        "Forward Error Correction"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "This protocol's primary function is to turn an unreliable network into a reliable network that is free from lost and duplicate packets",
+      "answer": "Transmission Control Protocol",
+      "choices": [
+        "Transmission Control Protocol",
+        "User Datagram Protocol",
+        "Internet Protocol",
+        "Dynamic Host Configuration Protocol"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It is a study of cryptography and cryptoanalysis",
+      "answer": "Cryptology",
+      "choices": [
+        "Cryptology",
+        "Cryptography",
+        "Cryptoanalysis",
+        "Cryptosystem"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It revolutionized long-distance communication by sending electric signals in Morse Code in between two stations",
+      "answer": "Telegraph",
+      "choices": [
+        "Telegraph",
+        "Telephone",
+        "Internet",
+        "Radio"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It refers to the loss of energy as signal propagates outwards",
+      "answer": "Attenuation",
+      "choices": [
+        "Attenuation",
+        "Amplification",
+        "Reflection",
+        "Refraction"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It provides a connectionless data transfer service over heterogeneous networks by passing through and routing datagrams",
+      "answer": "Internet Protocol",
+      "choices": [
+        "Internet Protocol",
+        "Transmission Control Protocol",
+        "Network Access Protocol",
+        "Internet Control Message Protocol"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It is the art of creating and using cryptosystems",
+      "answer": "Cryptography",
+      "choices": [
+        "Cryptography",
+        "Cryptology",
+        "Encryption",
+        "Decryption"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "This method treats each data packet as a big polynomial, adding 8 to 32 check bits to large data packets",
+      "answer": "Cyclic Redundancy Checksum",
+      "choices": [
+        "Cyclic Redundancy Checksum",
+        "Vertical Redundancy Check",
+        "Parity Check",
+        "Hashing"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It is a logic function used in cyclic redundancy checksum",
+      "answer": "XOR",
+      "choices": [
+        "XOR",
+        "AND",
+        "OR",
+        "NOT"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    }
+  ]
+}

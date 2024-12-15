@@ -507,6 +507,26 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C3_S1_EA_Finals",
+                    "Module_Name": "Finals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "15 December 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_EA_Finals_1",
+                            "Subfolder_Name": "Finals Reviewer",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EA_Finals_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "15 December 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
             ]
         },
@@ -737,6 +757,26 @@
                                 "Alexander Oro"
                             ],
                             "Subfolder_LastModified": "18 November 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
+                },
+                {   
+                    "Module_ID": "C3_S1_DDC_Finals",
+                    "Module_Name": "Finals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "18 November 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_DDC_Finals_1",
+                            "Subfolder_Name": "Finals Reviewer",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_DDC_Finals_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "15 December 2024",
                             "Subfolder_Status": "Active"
                         }
                     ]
