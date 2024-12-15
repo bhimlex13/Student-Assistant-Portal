@@ -69,54 +69,148 @@
           Loading quiz...
         </h3>
       </div>
+      <div class="Home_Welcome_Background">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <div class="Quiz_Starter_Content" id="Quiz_Starter_Content" Tabs_CurrentTab="">
         <div class="Tab_Container_Content_Item Quiz_Starter_Page" id="Tab_Starter_Main">
-          <h1 class="Quiz_Starter_Title_Title" id="Quiz_Starter_Mode">
-            Multiple Choice
-          </h1>
-          <h1 class="Quiz_Starter_Title" id="Quiz_Starter_Title">
-            Name of quiz
-          </h1>
-          <h3 class="Quiz_Starter_Subject" id="Quiz_Starter_Subject">
-            Name of subject
-          </h3>
-          <div class="Quiz_Starter_Control">
-            <button class="General_Button Quiz_Starter_Control_Primary" Secondary onclick="Page_ChangePage('index.html')">Back to home</button>
-            <button class="General_Button Quiz_Starter_Control_Primary" Secondary State="Selected" id="Settings" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Quiz_Starter_Content" Tabs_Tab_Target_Tab="Tab_Starter_Settings" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">Change mode</button>
-            <button class="General_Button Quiz_Starter_Control_Primary" onclick="Quiz_Start('Multiple_Choices')" Primary>Start</button>
+          <div class="Quiz_Starter_Page_Container">
+            <h1 class="Quiz_Starter_Title_Title" id="Quiz_Starter_Mode">
+              Multiple Choice
+            </h1>
+            <h1 class="Quiz_Starter_Title" id="Quiz_Starter_Title">
+              Name of quiz
+            </h1>
+            <h3 class="Quiz_Starter_Subject" id="Quiz_Starter_Subject">
+              Name of subject
+            </h3>
+            <h2 class="Quiz_Starter_Items" id="Quiz_Starter_Items">
+              Items
+            </h2>
+            <span></span>
+            <div class="Quiz_Starter_Control">
+              <button class="General_Button Quiz_Starter_Control_Primary" Secondary onclick="Page_ChangePage('index.html')">Back to home</button>
+              <button class="General_Button Quiz_Starter_Control_Primary" Secondary State="Selected" id="Settings" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Quiz_Starter_Content" Tabs_Tab_Target_Tab="Tab_Starter_Settings" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">Change mode</button>
+              <button class="General_Button Quiz_Starter_Control_Primary" onclick="Quiz_Start('Multiple_Choices')" Primary>Start</button>
+            </div>
           </div>
         </div>
         <div class="Tab_Container_Content_Item Quiz_Starter_Page" id="Tab_Starter_Settings" style="display: none">
-          <h1 class="Quiz_Starter_Title_Title">
-            Settings
-          </h1>
-          <h2 class="General_Title">
-            Mode
-          </h2>
-          <p class="General_Paragraph">
-            Pick a mode on how you want to answer the quiz.
-          </p>
-          <div class="Radio Quiz_Starter_Settings_Selector" id="Quiz_Starter_Settings_Mode" Radio_ActiveButton="Mode_1">
-            <button class="Radio_Button Quiz_Starter_Settings_Selector_Item" id="Mode_1" onclick="Radio_Select(this.id)" State="Active">
-              Classic
-              <p class="Quiz_Starter_Settings_Selector_Item_Description">
-                The original SAP experience. The quiz displays the set of possible choices where only one is the correct answer.
+          <div class="Quiz_Starter_Page_Container_Settings">
+            <h1 class="Quiz_Starter_Title_Title">
+              Settings
+            </h1>
+            <div>
+              <h2 class="General_Title">
+                Mode
+              </h2>
+              <p class="General_Paragraph">
+                Pick a mode on how you want to answer the quiz.
               </p>
-            </button>
-            <button class="Radio_Button Quiz_Starter_Settings_Selector_Item" id="Mode_2" onclick="Radio_Select(this.id)" State="Inactive">
-              Hardcore
-              <p class="Quiz_Starter_Settings_Selector_Item_Description">
-                Make your life extra difficult by typing the answer instead of clicking a predefined choice. Your answer must exactly match the correct one in order for it to be validated as a correct.
-              </p>
-            </button>
-            <button class="Radio_Button Quiz_Starter_Settings_Selector_Item" id="Mode_3" onclick="Radio_Select(this.id)" State="Inactive">
-              Chill
-              <p class="Quiz_Starter_Settings_Selector_Item_Description">
-                No stakes whatsoever. Click the question to reveal the answer. Scoring doesn't exist in this mode.
-              </p>
-            </button>
+              <div class="Radio Quiz_Starter_Settings_Selector" id="Quiz_Starter_Settings_Mode" Radio_ActiveButton="Mode_1">
+                <button class="Radio_Button Quiz_Starter_Settings_Selector_Item" id="Mode_1" onclick="Radio_Select(this.id)" State="Active">
+                  Classic
+                  <p class="Quiz_Starter_Settings_Selector_Item_Description">
+                    The original SAP experience. The quiz displays the set of possible choices where only one is the correct answer.
+                  </p>
+                </button>
+                <button class="Radio_Button Quiz_Starter_Settings_Selector_Item" id="Mode_2" onclick="Radio_Select(this.id)" State="Inactive">
+                  Hardcore
+                  <p class="Quiz_Starter_Settings_Selector_Item_Description">
+                    Make your life extra difficult by typing the answer instead of clicking a predefined choice. Your answer must exactly match the correct one in order for it to be validated as a correct.
+                  </p>
+                </button>
+                <button class="Radio_Button Quiz_Starter_Settings_Selector_Item" id="Mode_3" onclick="Radio_Select(this.id)" State="Inactive">
+                  Chill
+                  <p class="Quiz_Starter_Settings_Selector_Item_Description">
+                    No stakes whatsoever. Click the question to reveal the answer. Scoring doesn't exist in this mode.
+                  </p>
+                </button>
+              </div>
+            </div>
+            <span></span>
+            <button class="General_Button Quiz_Starter_Control_Primary" Secondary id="Main" onclick="Tabs_ChangeTab(this.id, 'Horizontal'), Quiz_Mode_Set()" Tabs_Tab_Target_Container="Quiz_Starter_Content" Tabs_Tab_Target_Tab="Tab_Starter_Main" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Schedules" Tabs_UseHeaderTitle="false">Save and go back</button>
           </div>
-          <button class="General_Button Quiz_Starter_Control_Primary" Secondary id="Main" onclick="Tabs_ChangeTab(this.id, 'Horizontal'), Quiz_Mode_Set()" Tabs_Tab_Target_Container="Quiz_Starter_Content" Tabs_Tab_Target_Tab="Tab_Starter_Main" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Schedules" Tabs_UseHeaderTitle="false">Save and go back</button>
+          
         </div>
       </div>
     </div>

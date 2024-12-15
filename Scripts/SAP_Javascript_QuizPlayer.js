@@ -102,6 +102,7 @@ function Quiz_Load_Data(){
         document.getElementById("Quiz_Starter_Content").setAttribute("State", "Active");
         document.getElementById("Quiz_Starter_Title").innerHTML = "Error";
         document.getElementById("Quiz_Starter_Subject").innerHTML = "An error occured when loading this quiz. The file may not exist, is not readable, or something else.";
+        document.getElementById("Quiz_Starter_Items").innerHTML = "";
         document.getElementById("Page_Title").innerHTML = "Error loading quiz";
         document.querySelector(".Quiz_Starter_Control").style.display = "none";
     }
@@ -111,6 +112,7 @@ function Quiz_Load_Data(){
 function Quiz_Header_Set(){
     document.getElementById("Quiz_Starter_Title").innerHTML = Quiz_Data_Metadata.Title;
     document.getElementById("Quiz_Starter_Subject").innerHTML = Quiz_Data_Metadata.Subject + " (" + Quiz_Data_Metadata.Term + ")";
+    document.getElementById("Quiz_Starter_Items").innerHTML = `There are <u>${Quiz_Data_Questions.length} items</u> in this quiz. Good luck!`;
     document.getElementById("Page_Title").innerHTML = Quiz_Data_Metadata.Subject + " | " + Quiz_Data_Metadata.Term + " | " + Quiz_Data_Metadata.Title;
     document.getElementById("Quiz_Header_Subject").innerHTML = Quiz_Data_Metadata.Subject;
     document.getElementById("Quiz_Header_Quiz").innerHTML = Quiz_Data_Metadata.Title;

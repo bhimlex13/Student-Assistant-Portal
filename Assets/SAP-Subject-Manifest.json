@@ -268,7 +268,7 @@
         },
         {
             "Subject_ID": "C3_S1_ADS",
-            "Subject_Name": "Advanced Database System",
+            "Subject_Name": "Advanced Database Systems",
             "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_ADS.png",
             "Subject_Status": "Active",
             "Subject_Module": [
@@ -281,7 +281,7 @@
                     "Module_Subfolders": [
                         {
                             "Subfolder_ID": "C3_S1_ADS_Prelims_1",
-                            "Subfolder_Name": "01 Advanced Database Concepts (Prelim)",
+                            "Subfolder_Name": "Advanced Database Concepts",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Prelims_1",
                             "Subfolder_Author": [
@@ -292,7 +292,7 @@
                         },
                         {
                             "Subfolder_ID": "C3_S1_ADS_Prelims_2",
-                            "Subfolder_Name": "02 Advanced SQL (Prelim)",
+                            "Subfolder_Name": "Advanced SQL",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Prelims_2",
                             "Subfolder_Author": [
@@ -444,7 +444,7 @@
         },
         {
             "Subject_ID": "C3_S1_EA",
-            "Subject_Name": "Enterprise Architecture",
+            "Subject_Name": "Enterprise Architectures",
             "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_EA.png",
             "Subject_Status": "Active",
             "Subject_Module": [
