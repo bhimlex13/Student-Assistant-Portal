@@ -465,12 +465,12 @@
 }
 
 .Quiz_Form_Choices_Item:hover {
-    background-color: var(--SAP-Purple-Level-3L);
+    background-color: var(--SAP-Purple-Level-4L);
 }
 
 .Quiz_Form_Choices_Item[State="Active"] {
-    background-color: var(--SAP-Purple-Level-4L);
-    outline: solid var(--SAP-Purple-Base) 1px;
+    background-color: var(--SAP-Purple-Level-2L);
+    outline: solid var(--SAP-Purple-Level-4D) 1px;
 }
 
 .Quiz_Form_Choices_Item:focus {

@@ -98,6 +98,37 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C3_S1_ADET_Finals",
+                    "Module_Name": "Finals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "16 December 2024",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_ADET_Finals_1",
+                            "Subfolder_Name": "Software Testing and Deployment",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Finals_1",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "16 December 2024",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_ADET_Finals_2",
+                            "Subfolder_Name": "Full Course Review",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Finals_2",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "16 December 2024",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
             ]
         },
