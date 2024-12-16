@@ -1,0 +1,814 @@
+{
+  "quizInfo": {
+    "Subject": "Enterprise Architecture",
+    "Term": "Finals",
+    "Title": "Full Course Review",
+    "LastModified": "16 December 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "Finals Reviewer"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This component of TOGAF provides the \"way of working\" for architects.",
+      "answer": "Architecture Development Method",
+      "choices": [
+        "Architecture Development Method",
+        "Architecture Capability Framework",
+        "Architecture Content Framework",
+        "Enterprise Continuum"
+      ]
+    },
+    {
+      "question": "What does CMMI stand for?",
+      "answer": "Capability Maturity Model Integration",
+      "choices": [
+        "Capability Maturity Model Integration",
+        "Capability Minority Model Integration",
+        "Capability Maturity Model Incorporation",
+        "Capability Maturity Model Intellegent"
+      ]
+    },
+    {
+      "question": "This is considered as the blueprint of an enterprise that provides a common organizational understanding",
+      "answer": "Business architecture",
+      "choices": [
+        "Business architecture",
+        "Quality Management",
+        "Strategic Management",
+        "Business Model Development"
+      ]
+    },
+    {
+      "question": "In MDA, this includes the business requirements and domain model that describes the state of the enterprise where the system will be integrated.",
+      "answer": "Computation independent model",
+      "choices": [
+        "Computation independent model",
+        "XML Metadata Interchange",
+        "Platform-Independent Model",
+        "Platform-Specific Model"
+      ]
+    },
+    {
+      "question": "This pertains to a component of TOGAF that addresses the organization and processes required to establish and operate an architecture within an enterprise",
+      "answer": "Architecture Capability Framework",
+      "choices": [
+        "Architecture Capability Framework",
+        "Architecture Development Method",
+        "Architecture Content Framework",
+        "Enterprise Continuum"
+      ]
+    },
+    {
+      "question": "This process involves the identification of the products and services that the business will sell, the target market, and the anticipated expenses.",
+      "answer": "Business Model Development",
+      "choices": [
+        "Business Model Development",
+        "Business Architecture",
+        "Quality Management",
+        "Strategic Management"
+      ]
+    },
+    {
+      "question": "What does TOGAF stand for?",
+      "answer": "The Open Group Architecture Framework",
+      "choices": [
+        "The Open Group Architecture Framework",
+        "Object Management Group",
+        "Information Technology Infrastructure Library",
+        "Control Objectives for Information and Related Technology"
+      ]
+    },
+    {
+      "question": "It is a framework in which different issues can be easily mapped to understand its nature, implications, and possible solutions.",
+      "answer": "Zachman Framework",
+      "choices": [
+        "Zachman Framework",
+        "TOGAF",
+        "CMMI",
+        "ITIL"
+      ]
+    },
+    {
+      "question": "What does ITIL stand for?",
+      "answer": "Information Technology Infrastructure Library",
+      "choices": [
+        "Information Technology Infrastructure Library",
+        "Information Technical Infrastructure Library",
+        "Intellegent Technical Infrastructure Library",
+        "Intellegent Technology Infrastructure Library"
+      ]
+    },
+    {
+      "question": "It refers to a collection of organizations that has a common set of goals, objectives, and/or a single targeted outcome",
+      "answer": "Enterprise",
+      "choices": [
+        "Enterprise",
+        "Internal Drivers",
+        "Architecture",
+        "Enterprise Architecture"
+      ]
+    },
+    {
+      "question": "This is considered as the key feature of MDA",
+      "answer": "Mapping",
+      "choices": [
+        "Mapping",
+        "Sampling",
+        "Driving",
+        "Cooking"
+      ]
+    },
+    {
+      "question": "It originated as a generic framework and methodology for developing technical architectures.",
+      "answer": "TOGAF",
+      "choices": [
+        "TOGAF",
+        "Zachman Framework",
+        "CMMI",
+        "ITIL"
+      ]
+    },
+    {
+      "question": "What was the Zachman framework formerly called?",
+      "answer": "Framework for Information Systems Architecture",
+      "choices": [
+        "Framework for Information Systems Architecture",
+        "Information Technology Infrastructure Library",
+        "Intellegent Technical Infrastructure Library",
+        "Framework for International Systems Architecture"
+      ]
+    },
+    {
+      "question": "In CMMI, this phase involves processes that are planned, performed, and measured",
+      "answer": "Managed",
+      "choices": [
+        "Managed",
+        "Defined",
+        "Initial",
+        "Optimizing"
+      ]
+    },
+    {
+      "question": "This TOGAF component specifically contains the business, data, application, and information technology architecture.",
+      "answer": "Architecture Content Framework",
+      "choices": [
+        "Architecture Content Framework",
+        "Architecture Capability Framework",
+        "Architecture Development Method",
+        "Enterprise Continuum"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>The Open Group’s Standards Information Base (SIB) and the Building Blocks Information Base are reference models in the model-driven architecture.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Platform-independent model (PIM) is one of the five (5) abstraction levels in model-driven architecture",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Data and application architecture are under the enterprise consortium of TOGAF.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>The information technology (IT) architecture is one of the main components of the Zachman Framework.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>TOGAF was previously called \"Framework for Information Systems Architecture.\"",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Model-driven architecture has five (5) abstraction levels.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Architecture capability framework provides the \"way of working\" for architects in enterprise architecture.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Computation independent model (CIM) includes the business requirements and business model or domain model, which describe the state of the enterprise where the system will be integrated.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Platform-specific model (PSM) combines the specifications in the PIM and the details on how a system uses a particular type of platform in the Zachman Framework.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Migration planning is included in the TOGAF stepwise cycle approach.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>TOGAF has a unique stepwise cycle approach when it comes to the method of architecture development.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Meta-object facility (MOF) provides a standard repository of the MDA model in enterprise architecture.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Common warehouse meta-model (CWM) specifies interfaces that can be used in enabling easy interchange of data and business intelligence metadata between repositories, warehouse tools, and platforms in the TOGAF.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>The four (4) main components of TOGAF architecture are capability framework, architecture development method, architecture content framework, and model-driven architecture.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>The Zachman Framework was recognized as the first comprehensive framework for enterprise architecture.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "It invovles the dissemination of information to all stakeholders.",
+      "answer": "Informing",
+      "choices": [
+        "Informing",
+        "Validation",
+        "Obtaining commitment",
+        "Maintaining the model"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This modeling action can be done by adding specific details to existing elements.",
+      "answer": "Refinement",
+      "choices": [
+        "Refinement",
+        "Introduction",
+        "Abstraction",
+        "Translation"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which statement best describes knowledge transformation?",
+      "answer": "It is a situation where knowledge processes through different modeling processes while considering objectives and guidelines.",
+      "choices": [
+        "It is a situation where knowledge processes through different modeling processes while considering objectives and guidelines.",
+        "It involves the condition and commitment of stakeholders on enterprise architecture.",
+        "It depicts an enterprise architecture model in a specific manner based on the agreed perception of the individuals involved in the process",
+        "It is the primary and essential models that are used in the transformation of knowledge."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a VALID statement about limiting the visual complexity of a model?",
+      "answer": "Reduce the number of relations depicted in a model.",
+      "choices": [
+        "Reduce the number of relations depicted in a model.",
+        "Reduce the complexity of the concepts.",
+        "Reduce the enemies to pieces.",
+        "Reduce the number of submodels inside the model."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is a metaphorical direction that goes towards the internal composition of an element.",
+      "answer": "Inwards",
+      "choices": [
+        "Inwards",
+        "Upwards",
+        "Sidewards",
+        "Downwards"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "People tend to perceive a line as uninterruptedly establishing a direction based on their perspective. What principle of Gestalt Theory of Human Perception is being described?",
+      "answer": "Continuity",
+      "choices": [
+        "Continuity",
+        "Proximity",
+        "Closure",
+        "Similarity"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These pertain to the primary and essential models that are used in the transformation of knowledge in enterprise architecture modeling.",
+      "answer": "Central Representations",
+      "choices": [
+        "Central Representations",
+        "Knowledge Representations",
+        "Knowledge Goals",
+        "Central Transformation"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This activity requires checking whether the key stakeholders agree that the viewpoints in the model are correct.",
+      "answer": "Validation",
+      "choices": [
+        "Validation",
+        "Obtaining commitment",
+        "Maintaining the model",
+        "Informing"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In relation to modeling activities, which of the following refers to establishing the purpose, scope, and focus of a model?",
+      "answer": "It is a goal-driven activity wherein architects determine all possible stakeholders and the purpose of the model in relation to the stakeholders.",
+      "choices": [
+        "It is a goal-driven activity wherein architects determine all possible stakeholders and the purpose of the model in relation to the stakeholders.",
+        "It serves as a guide in determining appropriate information to be included in the model.",
+        "It involves requirements gathering, such as appropriate information, to create, structure, and visualize an enterprise architecture model.",
+        "It uses the model representation to communicate with the stakeholders and evaluate whether the model and the visualization achieved the intended outcome."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following processes is related to documentation as a modeling action?",
+      "answer": "Backtracking the previous state of a model.",
+      "choices": [
+        "Backtracking the previous state of a model.",
+        "Creating/replacing an element so it matches the meaning of a concept from another language or context.",
+        "Classify the newly introduced candidate element based on the concepts used in the model.",
+        "Placing a fresh term for a concept or relation in the model."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "People tend to perceive comparable objects as though they belong together as a unit. What principle of Gestalt Theory of Human Perception is being described?",
+      "answer": "Similarity",
+      "choices": [
+        "Similarity",
+        "Proximity",
+        "Closure",
+        "Continuity"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "People tend to relate objects that are near to each other. What principle of Gestalt Theory of Human Perception is being described?",
+      "answer": "Proximity",
+      "choices": [
+        "Proximity",
+        "Similarity",
+        "Closure",
+        "Continuity"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This modeling action involves the administration and documentation of other modeling actions.",
+      "answer": "Documentation",
+      "choices": [
+        "Documentation",
+        "Translation",
+        "Abandoing",
+        "Abstraction"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is NOT a modeling action?",
+      "answer": "Abandoning a modeling language",
+      "choices": [
+        "Abandoning a modeling language",
+        "Documentation",
+        "Abandoning a concept",
+        "Refinement"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following processes is related to refinement as a modeling action?",
+      "answer": "Classifying newly introduced candidate elements based on the modeling concept",
+      "choices": [
+        "Classifying newly introduced candidate elements based on the modeling concept",
+        "Backtracking the previous state of a model.",
+        "Creating/replacing an element so it matches the meaning of a concept from another language or context.",
+        "Placing a fresh term for a concept or relation in the model."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This pertains to the form in which a model is presented.",
+      "answer": "Visualization",
+      "choices": [
+        "Visualization",
+        "Model",
+        "Representation",
+        "Presentation"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This depicts an enterprise architecture model based on the agreed perception of the individuals involved in the process.",
+      "answer": "Knowledge Representation",
+      "choices": [
+        "Knowledge Representation",
+        "Knowledge Goals",
+        "Central Transformation",
+        "Central Representations"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the act of placing a fresh term for a concept or relation within a model.",
+      "answer": "Introduction",
+      "choices": [
+        "Introduction",
+        "Refinement",
+        "Abandoning",
+        "Abstraction"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following processes is related to abandoning as a modeling action?",
+      "answer": "Eliminating an element with proper documentation",
+      "choices": [
+        "Eliminating an element with proper documentation",
+        "Can be done by adding specific details to existing elements.",
+        "An architect decides whether information that is available in the model, is to be left out or not.",
+        "Creating/replacing an element so it matches the meaning of a concept from another language or context."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the process of finding a suitable alternative for an element.",
+      "answer": "Translation",
+      "choices": [
+        "Translation",
+        "Documentation",
+        "Refinement",
+        "Introduction"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Gestalt Theory of Human Perception, which of the following scenarios pertain to common fate?",
+      "answer": "People have the tendency to perceive different objects, which function in a similar manner, as a unit",
+      "choices": [
+        "People have the tendency to perceive different objects, which function in a similar manner, as a unit",
+        "People have the tendency to perceive objects that are similar to belong together in a unit.",
+        "Also known as 'tadhana'",
+        "People have the tendency to perceive a line as continuous establishing directions based on their perspective."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "If modeling is considered a transformation process in enterprise architecture, which of the following statements is correct?",
+      "answer": "Models can be used to describe the future situation of an organization",
+      "choices": [
+        "Models can be used to describe the future situation of an organization",
+        "Goal-driven activity wherein architects determine all possible stakeholders and the different purposes of the model in relation to the stakeholders.",
+        "Involves requirements gathering, such as appropriate information, to create, structure, and visualize an enterprise architecture model.",
+        "Models are created using different viewpoints that give a specific set of concepts and relations to be used during the modeling process."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which among the following is NOT a valid statement regarding modeling actions?",
+      "answer": "Documentation is the process of finding a suitable alternative for an element",
+      "choices": [
+        "Documentation is the process of finding a suitable alternative for an element",
+        "Stakeholders and their needs must be considered in visualizing a model.",
+        "Uses the model representation to communicate with the stakeholders and evaluate whether the model and the visualization achieved the intended outcome.",
+        "Models are created using different viewpoints that give a specific set of concepts and relations to be used during the modeling process."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Based on the modeling guidelines in enterprise architecture, which of the following is correct?",
+      "answer": "Collect feedback from various stakeholders",
+      "choices": [
+        "Collect feedback from various stakeholders",
+        "Use abstractions as frequent as possible.",
+        "Introduce novel concepts and structures.",
+        "Make the model such as it relies on additional explanation."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Gestalt Theory of Human Perception, which of the following scenarios pertains to closure?",
+      "answer": "People have the tendency to perceive incomplete objects as complete",
+      "choices": [
+        "People have the tendency to perceive incomplete objects as complete",
+        "People have the tendency to perceive objects that are similar to belong together in a unit.",
+        "People have the tendency to perceive a line as continuous establishing directions based on their perspective.",
+        "It's all in the past, pangga. Let's move on with our lives and let go of the past."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Relative to the representation conventions, which of the following best describes the use of layouts?",
+      "answer": "This includes basic patterns, alignment, and object distribution",
+      "choices": [
+        "This includes basic patterns, alignment, and object distribution",
+        "Shapes of objects in a model usually match the intrinsic properties of the real-life objects.",
+        "Can also increase the appeal of a diagram but can also lead to contrary effects, such as confusion and distraction.",
+        "Speeds up the creating of a proper mental state in modeling, while creating a good starting for the line of reasoning."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "If modeling is considered a transformation process in enterprise architecture, which of the following statement is INCORRECT?",
+      "answer": "Enterprise architecture provides a high-level overview of an organization",
+      "choices": [
+        "Enterprise architecture provides a high-level overview of an organization",
+        "Depicts an enterprise architecture model in a specific manner based on the agreed perception of the individuals involved in the process.",
+        "Knowledge passes through the modeling process while considering goals and guidelines.",
+        "Goals under the modeling process of an enterprise architecture."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This modeling activity utilize the model representation to communicate with the stakeholders and evaluate the model.",
+      "answer": "Using the model",
+      "choices": [
+        "Using the model",
+        "Visualizing the model",
+        "Creating and structuring the model",
+        "Establishing the purpose, scope, and focus"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This refers to a situation where knowledge passes through different modeling processes while considering objectives and guidelines.",
+      "answer": "Knowledge transformation",
+      "choices": [
+        "Knowledge transformation",
+        "Knowledge Goals",
+        "Knowledge Representation",
+        "Knowledge State"
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following statements is INCORRECT about modeling activities?",
+      "answer": "Using a model requires validation",
+      "choices": [
+        "Using a model requires validation",
+        "Requirements gathering is performed in model visualization.",
+        "Enterprise architecture involves the identification of relationships between different domains while providing a high-level overview.",
+        "Models can also be used to describe the current and future situation of an organization, as well as the possible development requirements."
+      ],
+      "reference": "Quiz Reviewer",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This modeling action can be done by adding specific details to existing elements",
+      "answer": "Refinement",
+      "choices": [
+        "Refinement",
+        "Risk analysis",
+        "Internal Drivers",
+        "Use of colors"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "Example of these are regulatory framework and government laws",
+      "answer": "External Driver",
+      "choices": [
+        "External Driver",
+        "Application association viewpoint",
+        "Private business process",
+        "Application usage viewpoint"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "This viewpoint depicts the relationships of applications in a company, including the dependencies in terms of the services a company offers",
+      "answer": "Application association viewpoint",
+      "choices": [
+        "Application association viewpoint",
+        "Business function viewpoints",
+        "Model-Driven Architecture",
+        "Deployment diagram"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "This process helps architects to identify and manage potential problems that could arise within the project period",
+      "answer": "Risk analysis",
+      "choices": [
+        "Risk analysis",
+        "Refinement",
+        "Internal Drivers",
+        "Selecting viewpoints"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "This type of business process modeling notation element includes sub-processes, loops, and compensation",
+      "answer": "Activity",
+      "choices": [
+        "Activity",
+        "Business function viewpoints",
+        "Private business process",
+        "Deployment diagram"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It is a visual attribute that is strongly influenced by \"prior knowledge\"",
+      "answer": "Use of colors",
+      "choices": [
+        "Use of colors",
+        "External Driver",
+        "Internal Drivers",
+        "Application usage viewpoint"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It contains equipment such as machines, tools, and/or instruments that can create, use, store, move, or transform materials",
+      "answer": "Physical viewpoint",
+      "choices": [
+        "Physical viewpoint",
+        "Application usage viewpoint",
+        "Business function viewpoints",
+        "Selecting viewpoints"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It pertains to a viewpoint that describes how applications are used to support one (1) or more business processes",
+      "answer": "Application usage viewpoint",
+      "choices": [
+        "Application usage viewpoint",
+        "Physical viewpoint",
+        "Business function viewpoints",
+        "External Driver"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It is a sub-model within a business process modeling notation diagram that involves internal processes to a specific organization and does not cross organizational boundaries",
+      "answer": "Private business process",
+      "choices": [
+        "Private business process",
+        "Activity",
+        "Model-Driven Architecture",
+        "Risk analysis"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It is a structural unified modeling language diagram that depicts the physical resources in a system, including nodes, components, and connections",
+      "answer": "Deployment diagram",
+      "choices": [
+        "Deployment diagram",
+        "Business function viewpoints",
+        "Internal Drivers",
+        "Refinement"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It aims to provide an open and vendor-neutral approach to interoperability and raises the level of abstraction in enterprise architecture",
+      "answer": "Model-Driven Architecture",
+      "choices": [
+        "Model-Driven Architecture",
+        "Physical viewpoint",
+        "Selecting viewpoints",
+        "Risk analysis"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "Examples of these are the mission and vision of an organization",
+      "answer": "Internal Drivers",
+      "choices": [
+        "Internal Drivers",
+        "Business function viewpoints",
+        "Application association viewpoint",
+        "Risk analysis"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It provides high-level insight into the general operations of the company, which is used to structure an organization according to its main activities",
+      "answer": "Business function viewpoints",
+      "choices": [
+        "Business function viewpoints",
+        "Model-Driven Architecture",
+        "Application usage viewpoint",
+        "Deployment diagram"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "This serves as a guide in determining appropriate information to be included in a model",
+      "answer": "Selecting viewpoints",
+      "choices": [
+        "Selecting viewpoints",
+        "Refinement",
+        "Activity",
+        "Business function viewpoints"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    }
+  ]
+}
