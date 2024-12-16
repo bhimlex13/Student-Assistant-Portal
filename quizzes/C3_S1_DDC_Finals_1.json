@@ -50,7 +50,7 @@
     },
     {
       "question": "It is the modulation technique in which the carrier frequency varies based on analog baseband",
-      "answer": "Amplitude Modulation",
+      "answer": "Frequency Modulation",
       "choices": [
         "Amplitude Modulation",
         "Frequency Modulation",
