@@ -297,7 +297,7 @@
                         </button>
                     </div>
                     <div class="Schedules_Content" id="Schedules_Content" Tabs_CurrentTab="">
-                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Class">
+                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Class" State="Active">
                             <h1 class="Schedules_List_Title">
                                 Class schedules
                             </h1>
@@ -469,7 +469,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Exam" style="display: none">
+                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Exam">
                             <h1 class="Schedules_List_Title">
                                 Exam schedules
                             </h1>
@@ -482,7 +482,7 @@
                     Student Assistant Portal
                 </h1>
                 <div class="Others" id="Others_Container" Tabs_CurrentTab="Others_Tab_Main">
-                    <div class="Tab_Container_Content_Item Content_Item Others_Page" id="Others_Tab_Main">
+                    <div class="Tab_Container_Content_Item Content_Item Others_Page" id="Others_Tab_Main" State="Active">
                         <div class="Button_List">
                             <button class="Button_List_Item" State="Selected" id="Others_Settings" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Others_Container" Tabs_Tab_Target_Tab="Others_Tab_Settings" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
                                 <img src="Assets/Icons/Settings_1.png" class="Button_List_Item_Icon" alt=""/>
@@ -504,7 +504,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="Tab_Container_Content_Item Content_Item Others_Page" id="Others_Tab_Settings" style="display: none">
+                    <div class="Tab_Container_Content_Item Content_Item Others_Page" id="Others_Tab_Settings" State="Inactive">
                         <div class="Others_Tab_Title">
                             <button class="General_Button" id="Others_Back_1" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Others_Container" Tabs_Tab_Target_Tab="Others_Tab_Main" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
                                 Back
@@ -535,7 +535,7 @@
                         </div>
                         
                     </div>
-                    <div class="Tab_Container_Content_Item Content_Item Others_Page" id="Others_Tab_Tools" style="display: none">
+                    <div class="Tab_Container_Content_Item Content_Item Others_Page" id="Others_Tab_Tools" State="Inactive">
                         <div class="Others_Tab_Title">
                             <button class="General_Button" id="Others_Back_2" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Others_Container" Tabs_Tab_Target_Tab="Others_Tab_Main" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
                                 Back
