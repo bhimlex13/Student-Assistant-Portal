@@ -98,12 +98,12 @@
     },
     {
       "question": "What is an example of an Activity in an Android app?",
-      "answer": "Activity",
+      "answer": "Showing a list of new emails",
       "choices": [
         "Playing music in the background",
         "Showing a list of new emails",
         "Responding to a low battery notification",
-        "Activity"
+        "Managing the user's contact information"
       ],
       "reference": "02 Handout 1",
       "term": "Prelims"
@@ -122,12 +122,12 @@
     },
     {
       "question": "What is an example of a Service in an Android app?",
-      "answer": "Service",
+      "answer": "Playing music in the background",
       "choices": [
         "Displaying a list of contacts",
         "Playing music in the background",
         "Sending a text message",
-        "Service"
+        "Responding to a low battery notification"
       ],
       "reference": "02 Handout 1",
       "term": "Prelims"
@@ -146,12 +146,12 @@
     },
     {
       "question": "What is an example of a Broadcast Receiver in an Android app?",
-      "answer": "Broadcast receiver",
+      "answer": "Responding to a low battery notification",
       "choices": [
         "Receiving a new email",
         "Downloading a file",
         "Responding to a low battery notification",
-        "Broadcast receiver"
+        "Playing music in the background"
       ],
       "reference": "02 Handout 1",
       "term": "Prelims"
@@ -162,7 +162,7 @@
       "choices": [
         "Activity",
         "Service",
-        "Broadcast Receiver",
+        "Broadcast receiver",
         "Content provider"
       ],
       "reference": "02 Handout 1",
@@ -170,12 +170,12 @@
     },
     {
       "question": "What is an example of a Content Provider in an Android app?",
-      "answer": "Content provider",
+      "answer": "Managing the user's contact information",
       "choices": [
         "Taking a picture with the camera",
         "Managing the user's contact information",
         "Displaying a notification",
-        "Content provider"
+        "Showing a list of new emails"
       ],
       "reference": "02 Handout 1",
       "term": "Prelims"
@@ -184,9 +184,9 @@
       "question": "What are the messages that activate app components like activities, services, and broadcast receivers?",
       "answer": "intents",
       "choices": [
-        "Threads",
-        "Events",
-        "Notifications",
+        "threads",
+        "events",
+        "notifications",
         "intents"
       ],
       "reference": "02 Handout 1",
@@ -196,9 +196,9 @@
       "question": "What is a message defined by an Intent object that describes an action to perform?",
       "answer": "intent",
       "choices": [
-        "Activity",
-        "Service",
-        "Broadcast Receiver",
+        "activity",
+        "service",
+        "broadcast receiver",
         "intent"
       ],
       "reference": "02 Handout 1",
@@ -242,24 +242,12 @@
     },
     {
       "question": "What are the required elements in the manifest file?",
-      "answer": "manifest",
+      "answer": "manifest and application",
       "choices": [
-        "application",
-        "activity",
-        "service",
-        "manifest"
-      ],
-      "reference": "02 Handout 1",
-      "term": "Prelims"
-    },
-    {
-      "question": "What are the required elements in the manifest file?",
-      "answer": "application",
-      "choices": [
-        "manifest",
-        "activity",
-        "service",
-        "application"
+        "manifest and application",
+        "manifest and activity",
+        "application and service",
+        "service and activity"
       ],
       "reference": "02 Handout 1",
       "term": "Prelims"

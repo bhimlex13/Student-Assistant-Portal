@@ -2,13 +2,13 @@
   "quizInfo": {
     "Subject": "Mobile Systems and Technologies",
     "Term": "Prelims",
-    "Title": "01 Handout 1 - Mobile Applications Development Overview",
+    "Title": "Prelims Reviewer",
     "LastModified": "10 February 2025",
     "Authors": [
       "Alexander Oro"
     ],
     "References": [
-      "01 Handout 1"
+      "01 Handout 1, 02 Handout 1"
     ]
   },
   "quizData": [
@@ -478,6 +478,354 @@
         "Publishing"
       ],
       "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which programming language is close to C# and Java, making it easy for programmers to switch between them?",
+      "answer": "C++",
+      "choices": [
+        "Kotlin",
+        "Swift",
+        "Python",
+        "C++"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which programming language is the official language for iOS development?",
+      "answer": "Swift",
+      "choices": [
+        "Kotlin",
+        "C++",
+        "Java",
+        "Swift"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which language combines object-oriented and functional programming features?",
+      "answer": "Kotlin",
+      "choices": [
+        "Java",
+        "C++",
+        "Swift",
+        "Kotlin"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which keyword in Kotlin is used to declare variables that never change their value?",
+      "answer": "val",
+      "choices": [
+        "var",
+        "const",
+        "let",
+        "val"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which keyword in Kotlin is used to declare variables whose values can change?",
+      "answer": "var",
+      "choices": [
+        "val",
+        "let",
+        "mutable",
+        "var"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the entry point for interacting with the user in an Android app?",
+      "answer": "Activity",
+      "choices": [
+        "Service",
+        "Broadcast Receiver",
+        "Content Provider",
+        "Activity"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What represents a single screen with a user interface in an Android app?",
+      "answer": "Activity",
+      "choices": [
+        "Service",
+        "Broadcast Receiver",
+        "Content Provider",
+        "Activity"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an example of an Activity in an Android app?",
+      "answer": "Showing a list of new emails",
+      "choices": [
+        "Playing music in the background",
+        "Showing a list of new emails",
+        "Responding to a low battery notification",
+        "Managing the user's contact information"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What runs in the background to perform long-running operations in an Android app?",
+      "answer": "Service",
+      "choices": [
+        "Activity",
+        "Broadcast Receiver",
+        "Content Provider",
+        "Service"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an example of a Service in an Android app?",
+      "answer": "Playing music in the background",
+      "choices": [
+        "Displaying a list of contacts",
+        "Playing music in the background",
+        "Sending a text message",
+        "Responding to a low battery notification"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What enables the system to deliver events to the app outside of a regular user flow?",
+      "answer": "Broadcast receiver",
+      "choices": [
+        "Activity",
+        "Service",
+        "Content Provider",
+        "Broadcast receiver"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an example of a Broadcast Receiver in an Android app?",
+      "answer": "Responding to a low battery notification",
+      "choices": [
+        "Receiving a new email",
+        "Downloading a file",
+        "Responding to a low battery notification",
+        "Playing music in the background"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What manages a shared set of app data that can be stored and accessed within the app?",
+      "answer": "Content provider",
+      "choices": [
+        "Activity",
+        "Service",
+        "Broadcast receiver",
+        "Content provider"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an example of a Content Provider in an Android app?",
+      "answer": "Managing the user's contact information",
+      "choices": [
+        "Taking a picture with the camera",
+        "Managing the user's contact information",
+        "Displaying a notification",
+        "Showing a list of new emails"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the messages that activate app components like activities, services, and broadcast receivers?",
+      "answer": "intents",
+      "choices": [
+        "threads",
+        "events",
+        "notifications",
+        "intents"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a message defined by an Intent object that describes an action to perform?",
+      "answer": "intent",
+      "choices": [
+        "activity",
+        "service",
+        "broadcast receiver",
+        "intent"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file details the components that exist in an Android app?",
+      "answer": "Manifest file",
+      "choices": [
+        "Layout file",
+        "Resource file",
+        "Gradle file",
+        "Manifest file"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the root element of the AndroidManifest.xml file?",
+      "answer": "manifest",
+      "choices": [
+        "application",
+        "activity",
+        "service",
+        "manifest"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element contains sub-elements that declare each of the application's components?",
+      "answer": "application",
+      "choices": [
+        "manifest",
+        "activity",
+        "service",
+        "application"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the required elements in the manifest file?",
+      "answer": "manifest and application",
+      "choices": [
+        "manifest and application",
+        "manifest and activity",
+        "application and service",
+        "service and activity"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which element must be the last element inside the manifest element?",
+      "answer": "application",
+      "choices": [
+        "activity",
+        "service",
+        "service",
+        "application"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Where are the default icon and label for each of the app's components set?",
+      "answer": "application",
+      "choices": [
+        "manifest",
+        "activity",
+        "service",
+        "application"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to declare an Activity in the manifest file?",
+      "answer": "activity",
+      "choices": [
+        "service",
+        "receiver",
+        "provider",
+        "activity"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to declare a Service in the manifest file?",
+      "answer": "service",
+      "choices": [
+        "activity",
+        "receiver",
+        "provider",
+        "service"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to declare a BroadcastReceiver in the manifest file?",
+      "answer": "receiver",
+      "choices": [
+        "activity",
+        "receiver",
+        "provider",
+        "application"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to declare a ContentProvider in the manifest file?",
+      "answer": "provider",
+      "choices": [
+        "activity",
+        "receiver",
+        "provider",
+        "application"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element specifies the types of intents an activity, service, or receiver can respond to?",
+      "answer": "intent-filter",
+      "choices": [
+        "action",
+        "category",
+        "data",
+        "intent-filter"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element adds an action to an intent filter?",
+      "answer": "action",
+      "choices": [
+        "intent-filter",
+        "application",
+        "manifest",
+        "action"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element adds a category name to an intent filter?",
+      "answer": "category",
+      "choices": [
+        "intent-filter",
+        "application",
+        "manifest",
+        "category"
+      ],
+      "reference": "02 Handout 1",
       "term": "Prelims"
     }
   ]
