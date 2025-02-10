@@ -8,7 +8,7 @@
       "Alexander Oro"
     ],
     "References": [
-      "01 Handout 1"
+      "02 Handout 1"
     ]
   },
   "quizData": [
@@ -265,7 +265,7 @@
       "term": "Prelims"
     },
     {
-      "question": "Which element must be the last element inside the <manifest> element?",
+      "question": "Which element must be the last element inside the manifest element?",
       "answer": "application",
       "choices": [
         "activity",
