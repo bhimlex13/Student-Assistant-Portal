@@ -1,0 +1,532 @@
+{
+  "quizInfo": {
+    "Subject": "Mobile Systems and Technologies",
+    "Term": "Prelims",
+    "Title": "01 Handout 1 - Mobile Applications Development Overview",
+    "LastModified": "10 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What benefit of mobile apps allows users to access and share information anytime, anywhere?",
+      "answer": "Convenience",
+      "choices": [
+        "Security",
+        "Personalization",
+        "Productivity",
+        "Convenience"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which benefit is exemplified by a user accessing information without an internet connection?",
+      "answer": "Convenience",
+      "choices": [
+        "Security",
+        "Personalization",
+        "Productivity",
+        "Convenience"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which benefit allows a user to change the settings of the mobile app based on their preferences?",
+      "answer": "Personalization",
+      "choices": [
+        "Productivity",
+        "Convenience",
+        "Accessibility",
+        "Personalization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which benefit enables users to receive notifications in real-time?",
+      "answer": "Personalization",
+      "choices": [
+        "Productivity",
+        "Convenience",
+        "Responsiveness",
+        "Personalization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Users can write, read, and present reports using only their mobile phones. Which benefit does this describe?",
+      "answer": "Productivity",
+      "choices": [
+        "Convenience",
+        "Personalization",
+        "Accessibility",
+        "Productivity"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which benefit allows users to manage multimedia files and share them on social media?",
+      "answer": "Productivity",
+      "choices": [
+        "Convenience",
+        "Personalization",
+        "Content Creation",
+        "Productivity"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a programming environment that has been packaged as an application program?",
+      "answer": "IDE",
+      "choices": [
+        "SDK",
+        "API",
+        "GUI",
+        "IDE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What does IDE stand for?",
+      "answer": "IDE",
+      "choices": [
+        "Integrated Development Environment",
+        "Interactive Debugging Environment",
+        "Internal Design Engine",
+        "IDE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of an IDE allows developers to write and edit code?",
+      "answer": "IDE",
+      "choices": [
+        "Code Editor",
+        "Compiler",
+        "Debugger",
+        "IDE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of an IDE transforms code into a format understandable by the device?",
+      "answer": "IDE",
+      "choices": [
+        "Code Editor",
+        "Compiler",
+        "Debugger",
+        "IDE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of an IDE helps identify and fix errors in the code?",
+      "answer": "IDE",
+      "choices": [
+        "Code Editor",
+        "Compiler",
+        "Debugger",
+        "IDE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of an IDE facilitates the creation of user interfaces?",
+      "answer": "IDE",
+      "choices": [
+        "Code Editor",
+        "Compiler",
+        "Debugger",
+        "IDE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the official IDE for Android application development?",
+      "answer": "Android Studio",
+      "choices": [
+        "Xcode",
+        "Xamarin",
+        "Eclipse",
+        "Android Studio"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which IDE is based on IntelliJ IDEA?",
+      "answer": "Android Studio",
+      "choices": [
+        "Xcode",
+        "Eclipse",
+        "NetBeans",
+        "Android Studio"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which IDE allows users to build apps and run them directly on Apple devices?",
+      "answer": "Xcode",
+      "choices": [
+        "Android Studio",
+        "Xamarin",
+        "Corona",
+        "Xcode"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the programming language created by Apple for iOS, OS X, and watchOS development?",
+      "answer": "Swift",
+      "choices": [
+        "Objective-C",
+        "Java",
+        "Kotlin",
+        "Swift"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which IDE extends the.NET developer platform with tools and libraries for building cross-platform apps?",
+      "answer": "Xamarin",
+      "choices": [
+        "Android Studio",
+        "Xcode",
+        "Corona",
+        "Xamarin"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a free, cross-platform framework that uses Lua for creating mobile apps and games?",
+      "answer": "Corona",
+      "choices": [
+        "Xamarin",
+        "Xcode",
+        "Android Studio",
+        "Corona"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which scripting language is used by Corona?",
+      "answer": "Corona",
+      "choices": [
+        "Lua",
+        "Python",
+        "JavaScript",
+        "Corona"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which open-source framework allows the use of HTML5, CSS3, and JavaScript for cross-platform development?",
+      "answer": "Apache Cordova",
+      "choices": [
+        "Xamarin",
+        "Xcode",
+        "Android Studio",
+        "Apache Cordova"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge in mobile app development involves studying the current market scenario?",
+      "answer": "Understanding the market and the user",
+      "choices": [
+        "Supporting multiple screen types",
+        "Maximizing app performance",
+        "Securing users",
+        "Understanding the market and the user"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge in mobile app development requires addressing the needs of target users?",
+      "answer": "Understanding the market and the user",
+      "choices": [
+        "Supporting multiple screen types",
+        "Maximizing app performance",
+        "Securing users",
+        "Understanding the market and the user"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge refers to the need to design for devices with different sizes and shapes?",
+      "answer": "Supporting multiple screen types",
+      "choices": [
+        "Understanding the market and the user",
+        "Maximizing app performance",
+        "Securing users",
+        "Supporting multiple screen types"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which challenge is influenced by factors like battery life?",
+      "answer": "Maximizing app performance",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Securing users",
+        "Maximizing app performance"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which challenge is impacted by the use of multimedia content in the app?",
+      "answer": "Maximizing app performance",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Securing users",
+        "Maximizing app performance"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which challenge is affected by the availability and speed of internet access?",
+      "answer": "Maximizing app performance",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Securing users",
+        "Maximizing app performance"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge highlights that users' data is the most valuable asset?",
+      "answer": "Securing users",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Maximizing app performance",
+        "Securing users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge requires protecting users' sensitive information at all times?",
+      "answer": "Securing users",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Maximizing app performance",
+        "Securing users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge arises from the fact that not all users may have upgraded their devices?",
+      "answer": "Remaining compatible with older versions",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Maximizing app performance",
+        "Remaining compatible with older versions"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge requires considering users who may not be able to upgrade their devices?",
+      "answer": "Remaining compatible with older versions",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Maximizing app performance",
+        "Remaining compatible with older versions"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which stage of app development do you install and set up your chosen IDE?",
+      "answer": "Setup",
+      "choices": [
+        "Development",
+        "Building and Running",
+        "Debugging, Profiling, and Testing",
+        "Setup"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which stage of app development do you create an emulator?",
+      "answer": "Setup",
+      "choices": [
+        "Development",
+        "Building and Running",
+        "Debugging, Profiling, and Testing",
+        "Setup"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which stage of app development do you connect hardware devices for testing?",
+      "answer": "Setup",
+      "choices": [
+        "Development",
+        "Building and Running",
+        "Debugging, Profiling, and Testing",
+        "Setup"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "During which stage do you write code for the app?",
+      "answer": "Development",
+      "choices": [
+        "Setup",
+        "Building and Running",
+        "Debugging, Profiling, and Testing",
+        "Development"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "During which stage do you design the user interface (UI)?",
+      "answer": "Development",
+      "choices": [
+        "Setup",
+        "Building and Running",
+        "Debugging, Profiling, and Testing",
+        "Development"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "During which stage do you create resources for different device types?",
+      "answer": "Development",
+      "choices": [
+        "Setup",
+        "Building and Running",
+        "Debugging, Profiling, and Testing",
+        "Development"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which stage do you build your project into a package that can be installed and run?",
+      "answer": "Building and Running",
+      "choices": [
+        "Setup",
+        "Development",
+        "Debugging, Profiling, and Testing",
+        "Building and Running"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which stage involves installing and running the app on an emulator or Android device?",
+      "answer": "Building and Running",
+      "choices": [
+        "Setup",
+        "Development",
+        "Debugging, Profiling, and Testing",
+        "Building and Running"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which stage focuses on eliminating bugs in the app?",
+      "answer": "Debugging, Profiling, and Testing",
+      "choices": [
+        "Setup",
+        "Development",
+        "Building and Running",
+        "Debugging, Profiling, and Testing"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which stage involves optimizing app performance?",
+      "answer": "Debugging, Profiling, and Testing",
+      "choices": [
+        "Setup",
+        "Development",
+        "Building and Running",
+        "Debugging, Profiling, and Testing"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is another term for optimizing app performance?",
+      "answer": "Debugging, Profiling, and Testing",
+      "choices": [
+        "Profiling",
+        "Debugging",
+        "Setup",
+        "Debugging, Profiling, and Testing"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which stage is the app configured for release?",
+      "answer": "Publishing",
+      "choices": [
+        "Setup",
+        "Development",
+        "Building and Running",
+        "Publishing"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which stage is the app built for release and distributed to users?",
+      "answer": "Publishing",
+      "choices": [
+        "Setup",
+        "Development",
+        "Building and Running",
+        "Publishing"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    }
+  ]
+}
