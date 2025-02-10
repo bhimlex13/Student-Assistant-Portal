@@ -494,7 +494,7 @@
     },
     {
       "question": "What is another term for optimizing app performance?",
-      "answer": "Debugging, Profiling, and Testing",
+      "answer": "Profiling",
       "choices": [
         "Profiling",
         "Debugging",
