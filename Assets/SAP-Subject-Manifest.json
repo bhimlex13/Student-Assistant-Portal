@@ -1,1547 +1,201 @@
 {
     "Subject": [
         {
-            "Subject_ID": "C3_S1_ADET",
-            "Subject_Name": "Application Development and Emerging Technologies",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_ADET.png",
+            "Subject_ID": "C3_S1_GB",
+            "Subject_Name": "Great Books",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_GB_Demo.png",
             "Subject_Status": "Active",
             "Subject_Module": [
                 {   
-                    "Module_ID": "C3_S1_ADET_Prelims",
+                    "Module_ID": "C3_S1_GB_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
-                    "Module_LastModified": "20 September 2024",
+                    "Module_LastModified": "10 February 2025",
                     "Module_Subfolders": [
                         {
-                            "Subfolder_ID": "C3_S1_ADET_Prelims_1",
-                            "Subfolder_Name": "Emerging Technologies",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Prelims_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "20 September 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ADET_Prelims_1",
-                            "Subfolder_Name": "Requirements Analysis and Modeling",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Prelims_2",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "20 September 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_ADET_Midterms",
-                    "Module_Name": "Midterms",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "21 October 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_ADET_Midterms_1",
-                            "Subfolder_Name": "Design Principles and Patterns",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Midterms_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "21 October 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ADET_Midterms_2",
-                            "Subfolder_Name": "Design Patterns",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Midterms_2",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "21 October 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_ADET_Prefinals",
-                    "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "21 November 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_ADET_Prefinals_1",
-                            "Subfolder_Name": "Prototyping and Quality Assurance",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Prefinals_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "21 November 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ADET_Prefinals_2",
-                            "Subfolder_Name": "Software Review and Inspection",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Prefinals_2",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "21 November 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_ADET_Finals",
-                    "Module_Name": "Finals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "16 December 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_ADET_Finals_1",
-                            "Subfolder_Name": "Software Testing and Deployment",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Finals_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "16 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ADET_Finals_2",
-                            "Subfolder_Name": "Full Course Review",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADET_Finals_2",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "16 December 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "Subject_ID": "C3_S1_ASIA",
-            "Subject_Name": "Advanced Systems Integration and Architecture",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_ASIA.png",
-            "Subject_Status": "Active",
-            "Subject_Module": [
-                {   
-                    "Module_ID": "C3_S1_ASIA_Prelims",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "19 September 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_ASIA_Prelims_1",
-                            "Subfolder_Name": "Review of Enterprise Resource Planning (ERP) Systems",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Prelims_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "19 September 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ASIA_Prelims_2",
-                            "Subfolder_Name": "Human Capital Management (HCM)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Prelims_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "19 September 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_ASIA_Midterms",
-                    "Module_Name": "Midterms",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "19 October 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_ASIA_Midterms_1",
-                            "Subfolder_Name": "Warehouse Management (WM)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Midterms_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "19 October 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ASIA_Midterms_2",
-                            "Subfolder_Name": "Project Management (PS)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Midterms_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "19 October 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_ASIA_Prefinals",
-                    "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "20 November 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_ASIA_Prefinals_1",
-                            "Subfolder_Name": "Enterprise Asset Management (EAM) Part 1",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Prefinals_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "20 November 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ASIA_Prefinals_2",
-                            "Subfolder_Name": "Enterprise Asset Management (EAM) Part 2",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Prefinals_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "20 November 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ASIA_Prefinals_3",
-                            "Subfolder_Name": "Customer Service (CS) Part 1",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Prefinals_3",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "20 November 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ASIA_Prefinals_4",
-                            "Subfolder_Name": "Customer Service (CS) Part 2",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Prefinals_4",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "20 November 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_ASIA_Finals",
-                    "Module_Name": "Finals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "15 December 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_ASIA_Finals_1",
-                            "Subfolder_Name": "Quality Management (QM)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Finals_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "20 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ASIA_Finals_1",
-                            "Subfolder_Name": "Full Course Review",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Finals_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "20 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ASIA_Finals_1",
-                            "Subfolder_Name": "Final Pointers Based Only",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ASIA_Finals_3",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "20 December 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "Subject_ID": "C3_S1_ADS",
-            "Subject_Name": "Advanced Database Systems",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_ADS.png",
-            "Subject_Status": "Active",
-            "Subject_Module": [
-                {   
-                    "Module_ID": "C3_S1_ADS_Prelims",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "21 September 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_ADS_Prelims_1",
-                            "Subfolder_Name": "Advanced Database Concepts",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Prelims_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "21 September 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ADS_Prelims_2",
-                            "Subfolder_Name": "Advanced SQL",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Prelims_2",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "21 September 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_ADS_Midterms",
-                    "Module_Name": "Midterms",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "21 October 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_ADS_Midterms_1",
-                            "Subfolder_Name": "Transaction and Concurrency Control",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Midterms_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "21 October 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ADS_Midterms_2",
-                            "Subfolder_Name": "Data Analytics",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Midterms_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "21 October 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_ADS_Prefinals",
-                    "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "15 December 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_ADS_Prefinals_1",
-                            "Subfolder_Name": "Database Administration and Security",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Prefinals_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ADS_Prefinals_2",
-                            "Subfolder_Name": "Database Backup and Recovery",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Prefinals_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ADS_Prefinals_3",
-                            "Subfolder_Name": "Introduction to NoSQL Database Management Systems",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Prefinals_3",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ADS_Prefinals_4",
-                            "Subfolder_Name": "All Prefinals Review",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Prefinals_4",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 December 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_ADS_Finals",
-                    "Module_Name": "Finals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "15 December 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_ADS_Finals_1",
-                            "Subfolder_Name": "Fundamentals of Document-Oriented Database",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Finals_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ADS_Finals_2",
-                            "Subfolder_Name": "Cloud Computing",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Finals_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ADS_Finals_3",
-                            "Subfolder_Name": "All Finals Review",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Finals_3",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_ADS_Finals_4",
-                            "Subfolder_Name": "Full Course Review",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_ADS_Finals_4",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 December 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "Subject_ID": "C3_S1_EA",
-            "Subject_Name": "Enterprise Architectures",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_EA.png",
-            "Subject_Status": "Active",
-            "Subject_Module": [
-                {   
-                    "Module_ID": "C3_S1_EA_Prelims",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "19 September 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_EA_Prelims_1",
-                            "Subfolder_Name": "QUIZ REVIEWER",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EA_Prelims_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "19 September 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_EA_Midterms",
-                    "Module_Name": "Midterms",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "20 October 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_EA_Midterms_1",
-                            "Subfolder_Name": "QUIZ REVIEWER FOR MIDTERMS",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EA_Midterms_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "20 October 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_EA_Prefinals",
-                    "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "18 November 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_EA_Prefinals_1",
-                            "Subfolder_Name": "QUIZ REVIEWER FOR PREFINALS",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EA_Prefinals_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "18 November 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_EA_Finals",
-                    "Module_Name": "Finals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "15 December 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_EA_Finals_1",
-                            "Subfolder_Name": "Finals Reviewer",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EA_Finals_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_EA_Finals_2",
-                            "Subfolder_Name": "Full Course Review",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EA_Finals_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "16 December 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "Subject_ID": "C3_S1_PIIST",
-            "Subject_Name": "Professional Issues in Information System and Technology",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_PIIST.png",
-            "Subject_Status": "Active",
-            "Subject_Module": [
-                {   
-                    "Module_ID": "C3_S1_PIIST_Prelims",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "20 September 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_PIIST_Prelims_1",
-                            "Subfolder_Name": "Introduction to Information Systems and Technology",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Prelims_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "20 September 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_PIIST_Prelims_2",
-                            "Subfolder_Name": "Modern Applications of Information Systems and Technology",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Prelims_2",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "20 September 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_PIIST_Prelims_3",
-                            "Subfolder_Name": "Prelims Short Reviewer",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Prelims_3",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "20 September 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_PIIST_Midterms",
-                    "Module_Name": "Midterms",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "17 October 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_PIIST_Midterms_1",
-                            "Subfolder_Name": "Professionalism at Its Best",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Midterms_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "17 October 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_PIIST_Midterms_2",
-                            "Subfolder_Name": "Professional and Ethical Issues",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Midterms_2",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "17 October 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_PIIST_Prefinals",
-                    "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "21 November 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_PIIST_Prefinals_1",
-                            "Subfolder_Name": "Cybercrime and Security",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Prefinals_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "21 November 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_PIIST_Prefinals_2",
-                            "Subfolder_Name": "Legal Awareness and Cyberprotection",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Prefinals_2",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "21 November 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_PIIST_Finals",
-                    "Module_Name": "Finals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "14 December 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_PIIST_Finals_1",
-                            "Subfolder_Name": "Finals Reviewer",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Finals_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "14 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_PIIST_Finals_2",
-                            "Subfolder_Name": "Social Issues in Information Systems and Technology",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Finals_2",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "14 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_PIIST_Finals_3",
-                            "Subfolder_Name": "The Good and The Bad of Information Systems and Technology",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Finals_3",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "14 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_PIIST_Finals_4",
-                            "Subfolder_Name": "Full Course Review",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PIIST_Finals_4",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "14 December 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "Subject_ID": "C3_S1_DDC",
-            "Subject_Name": "Data and Digital Communications",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_DDC.png",
-            "Subject_Status": "Active",
-            "Subject_Module": [
-                {   
-                    "Module_ID": "C3_S1_DDC_Prelims",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "20 September 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_DDC_Prelims_1",
-                            "Subfolder_Name": "QUIZ REVIEWER",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_DDC_Prelims_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "19 September 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_DDC_Midterms",
-                    "Module_Name": "Midterms",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "20 October 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_DDC_Midterms_1",
-                            "Subfolder_Name": "QUIZ REVIEWER FOR MIDTERM",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_DDC_Midterms_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "19 October 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_DDC_Prefinals",
-                    "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "18 November 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_DDC_Midterms_1",
-                            "Subfolder_Name": "QUIZ REVIEWER FOR PREFINALS",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_DDC_Prefinals_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "18 November 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_DDC_Finals",
-                    "Module_Name": "Finals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "18 November 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_DDC_Finals_1",
-                            "Subfolder_Name": "Finals Reviewer",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_DDC_Finals_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 December 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "Subject_ID": "C3_S1_EDP",
-            "Subject_Name": "Event-Driven Programming",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_EDP.png",
-            "Subject_Status": "Active",
-            "Subject_Module": [
-                {   
-                    "Module_ID": "C3_S1_EDP_Prelims",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "19 September 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_EDP_Prelims_1",
-                            "Subfolder_Name": "Delegates and Events",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EDP_Prelims_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "19 September 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_EDP_Prelims_2",
-                            "Subfolder_Name": "Collections and Generics",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EDP_Prelims_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "19 September 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_EDP_Midterms",
-                    "Module_Name": "Midterms",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "18 October 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_EDP_Midterms_1",
-                            "Subfolder_Name": "Exception Handling",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EDP_Midterms_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "18 October 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_EDP_Midterms_2",
-                            "Subfolder_Name": "Threads",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EDP_Midterms_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "18 October 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_EDP_Prefinals",
-                    "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "18 November 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_EDP_Prefinals_1",
-                            "Subfolder_Name": "Streams",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EDP_Prefinals_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "18 November 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_EDP_Prefinals_2",
-                            "Subfolder_Name": ".NET Assemblies",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EDP_Prefinals_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "18 November 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C3_S1_EDP_Finals",
-                    "Module_Name": "Finals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
-                    "Module_Status": "Active",
-                    "Module_LastModified": "16 December 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C3_S1_EDP_Finals_1",
-                            "Subfolder_Name": "Database Programming",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EDP_Finals_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "16 December 2024",
-                            "Subfolder_Status": "Active"
-                        },
-                        {
-                            "Subfolder_ID": "C3_S1_EDP_Finals_2",
-                            "Subfolder_Name": "Full Course Review",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EDP_Finals_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "16 December 2024",
-                            "Subfolder_Status": "Active"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "Subject_ID": "C2_S2_IM",
-            "Subject_Name": "Information Management",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_IM_1.png",
-            "Subject_Status": "InInactive",
-            "Subject_Module": [
-                {   
-                    "Module_ID": "C2_S2_IM_Prelims",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "10 March 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_IM_Prelims_1",
-                            "Subfolder_Name": "Database Systems",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IM_Prelims_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "11 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        },
-                        {
-                            "Subfolder_ID": "C2_S2_IM_Prelims_2",
-                            "Subfolder_Name": "Database Models",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IM_Prelims_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "11 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C2_S2_IM_Midterms",
-                    "Module_Name": "Midterms",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "13 June 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_IM_Midterms_1",
-                            "Subfolder_Name": "The Relational Database Model",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IM_Midterms_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "13 June 2024",
-                            "Subfolder_Status": "Inactive"
-                        },
-                        {
-                            "Subfolder_ID": "C2_S2_IM_Midterms_2",
-                            "Subfolder_Name": "Entity Relationship Modeling and Normalization",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IM_Midterms_2",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "13 June 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C2_S2_IM_Prefinals",
-                    "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "07 May 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_IM_Prefinals_1",
-                            "Subfolder_Name": "Introduction to SQL - Part 1",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IM_Prefinals_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C2_S2_IM_Finals",
-                    "Module_Name": "Finals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "13 June 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_IM_Finals_1",
-                            "Subfolder_Name": "SQL Functions and Joins",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IM_Finals_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "13 June 2024",
-                            "Subfolder_Status": "Inactive"
-                        },
-                        {
-                            "Subfolder_ID": "C2_S2_IM_FULL",
-                            "Subfolder_Name": "Full Course Review",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IM_FULL",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "13 June 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                }
-            ]
-        }, 
-        {
-            "Subject_ID": "C2_S2_IP",
-            "Subject_Name": "Integrative Programming",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_IP_1.png",
-            "Subject_Status": "InInactive",
-            "Subject_Module": [
-                {   
-                    "Module_ID": "C2_S2_IP_Prelims",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "13 March 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_IP_Prelims_1",
-                            "Subfolder_Name": ".NET Framwork (First Module)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IP_Prelims_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "13 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        },
-                        {
-                            "Subfolder_ID": "C2_S2_IP_Prelims_2",
-                            "Subfolder_Name": "Data Types (Second Module)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IP_Prelims_2",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "13 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        },
-                        {
-                            "Subfolder_ID": "C2_S2_IP_Prelims_3",
-                            "Subfolder_Name": "Operators and Expressions (Third Module)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IP_Prelims_3",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "13 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                },
-
-                        {   
-                            "Module_ID": "C2_S2_IP_Midterms",
-                            "Module_Name": "Midterms",
-                            "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                            "Module_Status": "InInactive",
-                            "Module_LastModified": "13 March 2024",
-                            "Module_Subfolders": [
-                                {
-                                    "Subfolder_ID": "C2_S2_IP_Midterms_1",
-                                    "Subfolder_Name": "Decision Making and Looping",
-                                    "Subfolder_Description": "Description of the subfolder here",
-                                    "Subfolder_Link": "./inte_prog/midterms/1h1.html",
-                                    "Subfolder_Author": [
-                                        "Elmer Felisilda"
-                                    ],
-                                    "Subfolder_LastModified": "13 June 2024",
-                                    "Subfolder_Status": "InInactive"
-                                }
-                            ]
-                        },
-
-                        {   
-                            "Module_ID": "C2_S2_IP_Prefinals",
-                            "Module_Name": "Pre-Finals",
-                            "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                            "Module_Status": "Inactive",
-                            "Module_LastModified": "17 May 2024",
-                            "Module_Subfolders": [
-                                {
-                                    "Subfolder_ID": "C2_S2_IP_Prefinals_1",
-                                    "Subfolder_Name": "08 and 09 Handouts",
-                                    "Subfolder_Description": "Description of the subfolder here",
-                                    "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_IP_Prefinals_1",
-                                    "Subfolder_Author": [
-                                        "JC"
-                                    ],
-                                    "Subfolder_LastModified": "17 May 2024",
-                                    "Subfolder_Status": "Inactive"
-                                }
-                            ]
-                        }
-
-            ]
-        }, 
-        {
-            "Subject_ID": "C2_S2_NT",
-            "Subject_Name": "Network Technology",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_NT_1.png",
-            "Subject_Status": "InInactive",
-            "Subject_Module": [
-                {   
-                    "Module_ID": "C2_S2_NT_Prelims",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "13 March 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_NT_Prelims_1",
-                            "Subfolder_Name": "Network Fundamentals (First Module)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_NT_Prelims_1",
-                            "Subfolder_Author": [
-                                "Kyll Madriaga"
-                            ],
-                            "Subfolder_LastModified": "13 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        },
-                        {
-                            "Subfolder_ID": "C2_S2_NT_Prelims_2",
-                            "Subfolder_Name": "Network Reference Models (Second Module)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_NT_Prelims_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "13 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                        
-                    ]
-                },
-                {   
-                    "Module_ID": "C2_S2_NT_Prefinals",
-                    "Module_Name": "Pre-Finals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "13 March 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_NT_Midterms_1",
-                            "Subfolder_Name": "05 Routing Fundamentals",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_NT_Prefinals_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "20 May 2024",
-                            "Subfolder_Status": "Inactive"
-                        }                        
-                    ]
-                },
-                {   
-                    "Module_ID": "C2_S2_NT_Finals",
-                    "Module_Name": "Finals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "13 March 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_NT_Finals_1",
-                            "Subfolder_Name": "06 Static and Dynamic Routing",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_NT_Finals_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 June 2024",
-                            "Subfolder_Status": "Inactive"
-                        },
-                        {
-                            "Subfolder_ID": "C2_S2_NT_FULL",
-                            "Subfolder_Name": "Full Course Review [Midterm Not Included]",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_NT_FULL",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 June 2024",
-                            "Subfolder_Status": "Inactive"
-                        }                      
-                    ]
-                }
-            ]
-        }, 
-        {
-            "Subject_ID": "C2_S2_PPC",
-            "Subject_Name": "Philippine Popular Culture",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_PPC_1.png",
-            "Subject_Status": "InInactive",
-            "Subject_Module": [
-                {   
-                    "Module_ID": "C2_S2_PPC_Prelims",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "12 March 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_PPC_Prelims_1",
-                            "Subfolder_Name": "First And Second Module",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_PPC_Prelims_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "12 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C2_S2_PPC_Prefinals",
-                    "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "17 May 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_PPC_Prefinals_1",
-                            "Subfolder_Name": "Fifth Module",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_PPC_Prelims_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "17 May 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                }
-            ]
-        }, 
-        {
-            "Subject_ID": "C2_S2_QM",
-            "Subject_Name": "Quantitative Methods",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_QM_1.png",
-            "Subject_Status": "InInactive",
-            "Subject_Module": [
-                {   
-                    "Module_ID": "C2_S2_QM_Prelims",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "10 March 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_QM_Prelims_1",
-                            "Subfolder_Name": "Handout 1",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "#",
-                            "Subfolder_Author": [
-                                ""
-                            ],
-                            "Subfolder_LastModified": "10 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                }
-            ]
-        }, 
-        {
-            "Subject_ID": "C2_S2_SIA",
-            "Subject_Name": "Systems Integration and Architecture",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_SIA_1.png",
-            "Subject_Status": "InInactive",
-            "Subject_Module": [
-                {   
-                    "Module_ID": "C2_S2_SIA_Prelims",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "12 March 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_SIA_Prelims_1",
-                            "Subfolder_Name": "Introduction to SAP S/4HANA (First Module)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_Prelims_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "12 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        },
-                        {
-                            "Subfolder_ID": "C2_S2_SIA_Prelims_2",
-                            "Subfolder_Name": "SAP S/4HANA Case Study (Second Module)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_Prelims_2",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "12 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C2_S2_SIA_Midterms",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "12 March 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_SIA_Midterms_1",
-                            "Subfolder_Name": "Sales and Distribution (SD)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_Midterms_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "12 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        },
-                        {
-                            "Subfolder_ID": "C2_S2_SIA_Midterms_2",
-                            "Subfolder_Name": "Materials Management (MM)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_Midterms_2",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "12 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C2_S2_SIA_Prefinals",
-                    "Module_Name": "Pre-Finals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "17 May 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_SIA_Prefinals_1",
-                            "Subfolder_Name": "05 Handout",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_Prefinals_1",
-                            "Subfolder_Author": [
-                                "JC"
-                            ],
-                            "Subfolder_LastModified": "12 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                },
-                {   
-                    "Module_ID": "C2_S2_SIA_Finals",
-                    "Module_Name": "Finals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "14 June 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_SIA_Finals_1",
-                            "Subfolder_Name": "Controlling (CO)",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_Finals_1",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "14 June 2024",
-                            "Subfolder_Status": "Inactive"
-                        },
-                        {
-                            "Subfolder_ID": "C2_S2_SIA_FULL",
-                            "Subfolder_Name": "Full Course Review",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_SIA_FULL",
-                            "Subfolder_Author": [
-                                "Elmer Felisilda"
-                            ],
-                            "Subfolder_LastModified": "14 June 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                }
-
-            ]
-        }, 
-        {
-            "Subject_ID": "C2_S2_TP",
-            "Subject_Name": "Technopreneurship",
-            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_TP_1.png",
-            "Subject_Status": "InInactive",
-            "Subject_Module": [
-                {   
-                    "Module_ID": "C2_S2_TP_Prelims",
-                    "Module_Name": "Prelims",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "10 March 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_TP_Prelims_1",
+                            "Subfolder_ID": "C3_S1_GB_Prelims_1",
                             "Subfolder_Name": "01 Handout 1",
                             "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_TP_Prelims_1",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_GB_Prelims_1",
                             "Subfolder_Author": [
                                 "Alexander Oro"
                             ],
-                            "Subfolder_LastModified": "08 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        }, 
-                        {
-                            "Subfolder_ID": "C2_S2_TP_Prelims_2",
-                            "Subfolder_Name": "02 Handout 1",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_TP_Prelims_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "08 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        }, 
-                        {
-                            "Subfolder_ID": "C2_S2_TP_Prelims_3a",
-                            "Subfolder_Name": "03 Handout 1",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_TP_Prelims_3a",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "08 March 2024",
-                            "Subfolder_Status": "Inactive"
-                        }
-                    ]
-                },
-
-                {   
-                    "Module_ID": "C2_S2_TP_Prefinals",
-                    "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
-                    "Module_Status": "Inactive",
-                    "Module_LastModified": "15 May 2024",
-                    "Module_Subfolders": [
-                        {
-                            "Subfolder_ID": "C2_S2_TP_Prefinals_1",
-                            "Subfolder_Name": "09 Handout 1",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_TP_Prefinals_1",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 May 2024",
-                            "Subfolder_Status": "Inactive"
-                        },
-                        {
-                            "Subfolder_ID": "C2_S2_TP_Prefinals_2",
-                            "Subfolder_Name": "10 Handout 1",
-                            "Subfolder_Description": "Description of the subfolder here",
-                            "Subfolder_Link": "quizPlayer.html?Quiz=C2_S2_TP_Prefinals_2",
-                            "Subfolder_Author": [
-                                "Alexander Oro"
-                            ],
-                            "Subfolder_LastModified": "15 May 2024",
+                            "Subfolder_LastModified": "10 February 2025",
                             "Subfolder_Status": "Inactive"
                         }
                     ]
                 }
-
+            ]
+        },
+        {
+            "Subject_ID": "C3_S1_IAS",
+            "Subject_Name": "Information Assurance & Security",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_IAS_Demo.png",
+            "Subject_Status": "Active",
+            "Subject_Module": [
+                {   
+                    "Module_ID": "C3_S1_IAS_Prelims",
+                    "Module_Name": "Prelims",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "10 February 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_IAS_Prelims_1",
+                            "Subfolder_Name": "01 Handout 1",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_IAS_Prelims_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "10 February 2025",
+                            "Subfolder_Status": "Inactive"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Subject_ID": "C3_S1_CP1",
+            "Subject_Name": "IT Capstone Project 1",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_CP1_Demo.png",
+            "Subject_Status": "Active",
+            "Subject_Module": [
+                {   
+                    "Module_ID": "C3_S1_CP1_Prelims",
+                    "Module_Name": "Prelims",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "10 February 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_CP1_Prelims_1",
+                            "Subfolder_Name": "01 Handout 1",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_CP1_Prelims_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "10 February 2025",
+                            "Subfolder_Status": "Inactive"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Subject_ID": "C3_S1_MIS",
+            "Subject_Name": "Management Information Systems",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_MIS_Demo.png",
+            "Subject_Status": "Active",
+            "Subject_Module": [
+                {   
+                    "Module_ID": "C3_S1_MIS_Prelims",
+                    "Module_Name": "Prelims",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "10 February 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_MIS_Prelims_1",
+                            "Subfolder_Name": "01 Handout 1",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MIS_Prelims_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "10 February 2025",
+                            "Subfolder_Status": "Inactive"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Subject_ID": "C3_S1_MST",
+            "Subject_Name": "Mobile Systems and Technologies",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_MST_Demo.png",
+            "Subject_Status": "Active",
+            "Subject_Module": [
+                {   
+                    "Module_ID": "C3_S1_MST_Prelims",
+                    "Module_Name": "Prelims",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "10 February 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_MST_Prelims_1",
+                            "Subfolder_Name": "01 Handout 1",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MST_Prelims_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "10 February 2025",
+                            "Subfolder_Status": "Inactive"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Subject_ID": "C3_S1_PL",
+            "Subject_Name": "Programming Languages",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_PL_Demo.png",
+            "Subject_Status": "Active",
+            "Subject_Module": [
+                {   
+                    "Module_ID": "C3_S1_PL_Prelims",
+                    "Module_Name": "Prelims",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "10 February 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Prelims_1",
+                            "Subfolder_Name": "01 Handout 1",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Prelims_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "10 February 2025",
+                            "Subfolder_Status": "Inactive"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Subject_ID": "C3_S1_WST",
+            "Subject_Name": "Web Systems and Technologies",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_WST_Demo.png",
+            "Subject_Status": "Active",
+            "Subject_Module": [
+                {   
+                    "Module_ID": "C3_S1_WST_Prelims",
+                    "Module_Name": "Prelims",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "10 February 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_WST_Prelims_1",
+                            "Subfolder_Name": "01 Handout 1",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_WST_Prelims_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "10 February 2025",
+                            "Subfolder_Status": "Inactive"
+                        }
+                    ]
+                }
             ]
         }
+        
     ]
 }
