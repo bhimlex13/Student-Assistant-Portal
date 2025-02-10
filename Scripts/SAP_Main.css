@@ -9,3 +9,11 @@
 /* @import "App_Stylesheet_Debugging.css"; */
 @import "SAP_Stylesheet_Animations.css";
 @import "SAP_Stylesheet_Responsiveness.css";
+
+
+.AB_Credits_Contributors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+}
