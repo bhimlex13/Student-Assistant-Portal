@@ -214,12 +214,33 @@
                             "Subfolder_LastModified": "17 February 2025",
                             "Subfolder_Status": "Active"
                         },
-
                         {
                             "Subfolder_ID": "C3_S1_WST_Prelims_2",
                             "Subfolder_Name": "02 Handout 1 - HTML Essentials",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_WST_Prelims_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "17 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_WST_Prelims_3",
+                            "Subfolder_Name": "03 Handout 1 - Fundamentals of Cascading Style Sheet (CSS)",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_WST_Prelims_3",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "17 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_WST_Prelims_4",
+                            "Subfolder_Name": "Prelims Reviewer Pro Max",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_WST_Prelims_4",
                             "Subfolder_Author": [
                                 "Alexander Oro"
                             ],
