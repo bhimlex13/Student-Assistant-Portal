@@ -1,53 +1,53 @@
 {
     "Status": "Active",
-    "Schedule_Semester": "First",
+    "Schedule_Semester": "Second",
     "Schedule_Section": [
         {
             "Section_Status": "Active",
-            "Section_ID": "C3_S1_IT501A",
-            "Section_Name": "IT501-A",
+            "Section_ID": "C3_S2_IT601A",
+            "Section_Name": "IT601-A",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Dec. 16 | Monday",
+                    "Schedule_Day": "Feb. 18 | Tuesday",
                     "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Professional Issues in Information Systems and Technology",
-                            "Subject_Duration": ["8:30 AM", "10:00 AM"],
-                            "Subject_Location": "Rm. 201"
-                        },
-                        {
-                            "Subject_Name": "Data and Digital Communications",
-                            "Subject_Duration": ["11:30 AM", "1:00 PM"],
-                            "Subject_Location": "Rm. 205"
-                        },
-                        {
-                            "Subject_Name": "Advanced Database Systems",
-                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
-                            "Subject_Location": "Rm. 201"
-                        },
-                        {
-                            "Subject_Name": "Enterprise Architecture",
-                            "Subject_Duration": ["5:30 PM", "7:00 PM"],
-                            "Subject_Location": "Rm. 205"
-                        }
-                    ]
-                },
-                {
-                    "Schedule_Day": "Dec. 17 | Tuesday",
-                    "Schedule_Subjects": [
-                        {
-                            "Subject_Name": "Application Development and Emerging Technologies",
+                            "Subject_Name": "Mobile Systems and Technologies",
                             "Subject_Duration": ["7:00 AM", "8:30 AM"],
                             "Subject_Location": "Rm. 204"
                         },
                         {
-                            "Subject_Name": "Event-Driven Programming",
+                            "Subject_Name": "Web Systems and Technologies",
                             "Subject_Duration": ["8:30 AM", "10:00 AM"],
-                            "Subject_Location": "Rm. 205"
+                            "Subject_Location": "Rm. 204"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Feb. 19 | Wednesday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Great Books",
+                            "Subject_Duration": ["11:30 AM", "1:00 PM"],
+                            "Subject_Location": "Rm. 202"
                         },
                         {
-                            "Subject_Name": "Advanced Systems Integration and Architecture",
-                            "Subject_Duration": ["11:30 AM", "1:00 PM"],
+                            "Subject_Name": "Management Information Systems",
+                            "Subject_Duration": ["2:30 PM", "4:00 PM"],
+                            "Subject_Location": "Rm. 204"
+                        },
+                        {
+                            "Subject_Name": "Information Assurance & Security",
+                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Location": "Rm. 201"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Feb. 20 | Thursday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Programming Languages",
+                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
                             "Subject_Location": "Rm. 201"
                         }
                     ]
@@ -56,51 +56,51 @@
         },
         {
             "Section_Status": "Active",
-            "Section_ID": "C3_S1_IT501M",
-            "Section_Name": "IT501-M",
+            "Section_ID": "C3_S2_IT601M",
+            "Section_Name": "IT601-M",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Dec. 16 | Monday",
+                    "Schedule_Day": "Feb. 18 | Tuesday",
                     "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Professional Issues in Information Systems and Technology",
+                            "Subject_Name": "Mobile Systems and Technologies",
+                            "Subject_Duration": ["7:00 AM", "8:30 AM"],
+                            "Subject_Location": "Rm. 205"
+                        },
+                        {
+                            "Subject_Name": "Web Systems and Technologies",
                             "Subject_Duration": ["8:30 AM", "10:00 AM"],
-                            "Subject_Location": "Rm. 203"
-                        },
-                        {
-                            "Subject_Name": "Data and Digital Communications",
-                            "Subject_Duration": ["11:30 AM", "1:00 PM"],
-                            "Subject_Location": "Rm. 204"
-                        },
-                        {
-                            "Subject_Name": "Advanced Database Systems",
-                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
-                            "Subject_Location": "Rm. 203"
-                        },
-                        {
-                            "Subject_Name": "Enterprise Architecture",
-                            "Subject_Duration": ["5:30 PM", "7:00 PM"],
-                            "Subject_Location": "Rm. 204"
+                            "Subject_Location": "Rm. 205"
                         }
                     ]
                 },
                 {
-                    "Schedule_Day": "Dec. 17 | Tuesday",
+                    "Schedule_Day": "Feb. 19 | Wednesday",
                     "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Application Development and Emerging Technologies",
-                            "Subject_Duration": ["7:00 AM", "8:30 AM"],
-                            "Subject_Location": "Rm. 202"
-                        },
-                        {
-                            "Subject_Name": "Event-Driven Programming",
-                            "Subject_Duration": ["8:30 AM", "10:00 AM"],
-                            "Subject_Location": "Rm. 204"
-                        },
-                        {
-                            "Subject_Name": "Advanced Systems Integration and Architecture",
+                            "Subject_Name": "Great Books",
                             "Subject_Duration": ["11:30 AM", "1:00 PM"],
                             "Subject_Location": "Rm. 203"
+                        },
+                        {
+                            "Subject_Name": "Management Information Systems",
+                            "Subject_Duration": ["2:30 PM", "4:00 PM"],
+                            "Subject_Location": "Rm. 205"
+                        },
+                        {
+                            "Subject_Name": "Information Assurance & Security",
+                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Location": "Rm. 202"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Feb. 20 | Thursday",
+                    "Schedule_Subjects": [
+                        {
+                            "Subject_Name": "Programming Languages",
+                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Location": "Rm. 202"
                         }
                     ]
                 }
@@ -108,51 +108,51 @@
         },
         {
             "Section_Status": "Active",
-            "Section_ID": "C3_S1_IT501P",
-            "Section_Name": "IT501-P",
+            "Section_ID": "C3_S2_IT601P",
+            "Section_Name": "IT601-P",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Dec. 16 | Monday",
+                    "Schedule_Day": "Feb. 18 | Tuesday",
                     "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Professional Issues in Information Systems and Technology",
+                            "Subject_Name": "Mobile Systems and Technologies",
+                            "Subject_Duration": ["7:00 AM", "8:30 AM"],
+                            "Subject_Location": "Rm. 309"
+                        },
+                        {
+                            "Subject_Name": "Web Systems and Technologies",
                             "Subject_Duration": ["8:30 AM", "10:00 AM"],
-                            "Subject_Location": "Rm. 202"
-                        },
+                            "Subject_Location": "Rm. 309"
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Feb. 19 | Wednesday",
+                    "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Data and Digital Communications",
+                            "Subject_Name": "Great Books",
                             "Subject_Duration": ["11:30 AM", "1:00 PM"],
-                            "Subject_Location": "Rm. 203"
+                            "Subject_Location": "Rm. 204"
                         },
                         {
-                            "Subject_Name": "Advanced Database Systems",
+                            "Subject_Name": "Management Information Systems",
+                            "Subject_Duration": ["2:30 PM", "4:00 PM"],
+                            "Subject_Location": "Rm. 309"
+                        },
+                        {
+                            "Subject_Name": "Information Assurance & Security",
                             "Subject_Duration": ["4:00 PM", "5:30 PM"],
-                            "Subject_Location": "Rm. 202"
-                        },
-                        {
-                            "Subject_Name": "Enterprise Architecture",
-                            "Subject_Duration": ["5:30 PM", "7:00 PM"],
                             "Subject_Location": "Rm. 203"
                         }
                     ]
                 },
                 {
-                    "Schedule_Day": "Dec. 17 | Tuesday",
+                    "Schedule_Day": "Feb. 20 | Thursday",
                     "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Application Development and Emerging Technologies",
-                            "Subject_Duration": ["7:00 AM", "8:30 AM"],
+                            "Subject_Name": "Programming Languages",
+                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
                             "Subject_Location": "Rm. 203"
-                        },
-                        {
-                            "Subject_Name": "Event-Driven Programming",
-                            "Subject_Duration": ["8:30 AM", "10:00 AM"],
-                            "Subject_Location": "Rm. 203"
-                        },
-                        {
-                            "Subject_Name": "Advanced Systems Integration and Architecture",
-                            "Subject_Duration": ["11:30 AM", "1:00 PM"],
-                            "Subject_Location": "Rm. 202"
                         }
                     ]
                 }

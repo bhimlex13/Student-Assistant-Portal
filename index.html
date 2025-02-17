@@ -280,24 +280,24 @@
             </div>
             <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules">
                 <h1 class="Home_Page_Title">
-                    Schedules
+                    Exam Schedules
                 </h1>
                 
                 <div class="Schedules">
-                    <div class="Schedules_Title">
-                        <button class="General_Button Schedules_Title_Button" State="Selected" id="Schedules_Class" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Schedules_Content" Tabs_Tab_Target_Tab="tab_Schedules_Class" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
+                    <div class="Schedules_Title" style="display: none">
+                        <button class="General_Button Schedules_Title_Button" id="Schedules_Class" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Schedules_Content" Tabs_Tab_Target_Tab="tab_Schedules_Class" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
                             <span class="Schedules_Title_Button_Indicator">
                             </span>
                             Class
                         </button>
-                        <button class="General_Button Schedules_Title_Button" id="Schedules_Exam" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Schedules_Content" Tabs_Tab_Target_Tab="tab_Schedules_Exam" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
+                        <button class="General_Button Schedules_Title_Button" id="Schedules_Exam" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Schedules_Content" Tabs_Tab_Target_Tab="tab_Schedules_Exam" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false" State="Selected">
                             <span class="Schedules_Title_Button_Indicator">
                             </span>
                             Exam
                         </button>
                     </div>
                     <div class="Schedules_Content" id="Schedules_Content" Tabs_CurrentTab="">
-                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Class" State="Active">
+                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Class" State="Inactive">
                             <h1 class="Schedules_List_Title">
                                 Class schedules
                             </h1>
@@ -469,7 +469,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Exam">
+                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Exam" State="Active">
                             <h1 class="Schedules_List_Title">
                                 Exam schedules
                             </h1>
