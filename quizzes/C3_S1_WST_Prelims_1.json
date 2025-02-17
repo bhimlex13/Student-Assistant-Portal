@@ -13,6 +13,18 @@
   },
   "quizData": [
     {
+      "question": "Who introduced HTML?",
+      "answer": "Tim Berners-Lee",
+      "choices": [
+        "Marc Jude",
+        "Kyll Aldwin",
+        "Tim Berners-Lee",
+        "Elmer F."
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
       "question": "What is the standard markup language for creating web pages?",
       "answer": "HyperText Markup Language",
       "choices": [
