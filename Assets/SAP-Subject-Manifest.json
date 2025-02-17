@@ -205,14 +205,14 @@
                     "Module_Subfolders": [
                         {
                             "Subfolder_ID": "C3_S1_WST_Prelims_1",
-                            "Subfolder_Name": "01 Handout 1",
+                            "Subfolder_Name": "01 Handout 1 - Introduction to HTML",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_WST_Prelims_1",
                             "Subfolder_Author": [
                                 "Alexander Oro"
                             ],
-                            "Subfolder_LastModified": "10 February 2025",
-                            "Subfolder_Status": "Inactive"
+                            "Subfolder_LastModified": "17 February 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }

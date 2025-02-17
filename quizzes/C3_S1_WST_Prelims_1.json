@@ -1,0 +1,520 @@
+{
+  "quizInfo": {
+    "Subject": "Web Systems and Technologies",
+    "Term": "Prelims",
+    "Title": "01 Handout 1 - INTRODUCTION TO HTML",
+    "LastModified": "18 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the standard markup language for creating web pages?",
+      "answer": "HyperText Markup Language",
+      "choices": [
+        "Hypermedia Text Markup Language",
+        "Hyper Transferable Markup Language",
+        "HyperText Manipulation Language",
+        "HyperText Markup Language"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What allows web authors to arrange and define how content should be displayed?",
+      "answer": "HyperText Markup Language",
+      "choices": [
+        "Cascading Style Sheets (CSS)",
+        "JavaScript",
+        "Python",
+        "HyperText Markup Language"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What refers to how links on the web let users move from one document to another?",
+      "answer": "HyperText",
+      "choices": [
+        "Hypermedia",
+        "Hyper Transfer",
+        "Hyper Transmission",
+        "HyperText"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the fifth and latest version of the language that supports multimedia?",
+      "answer": "HTML5",
+      "choices": [
+        "HTML4",
+        "XHTML",
+        "HTML3",
+        "HTML5"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what year was HTML introduced?",
+      "answer": 1993,
+      "choices": [
+        1990,
+        1995,
+        1998,
+        1993
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What organization manages the specifications of HTML?",
+      "answer": "World Wide Web Consortium",
+      "choices": [
+        "International Organization for Standardization",
+        "Internet Engineering Task Force",
+        "Web Hypertext Application Technology Working Group",
+        "World Wide Web Consortium"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of file is created in a text editor, containing elements, attributes, and tags?",
+      "answer": "HTML Document",
+      "choices": [
+        "CSS Stylesheet",
+        "JavaScript File",
+        "Python Script",
+        "HTML Document"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the naming conventions in an HTML document that tell the computer and web browser it is in HTML?",
+      "answer": "html, head, title, and body",
+      "choices": [
+        "header, footer, section, and article",
+        "div, span, p, and img",
+        "table, tr, td, and th",
+        "html, head, title, and body"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file extension is required for saving an HTML document?",
+      "answer": ".html",
+      "choices": [
+        ".htm",
+        ".txt",
+        ".css",
+        ".html"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the component of an HTML document containing formats, instructions, and semantic meaning?",
+      "answer": "HTML Element",
+      "choices": [
+        "HTML Attribute",
+        "HTML Tag",
+        "HTML Document",
+        "HTML Element"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the basic unit of text in an HTML document?",
+      "answer": "Paragraph",
+      "choices": [
+        "Heading",
+        "List",
+        "Image",
+        "Paragraph"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to add a line break to the HTML code?",
+      "answer": "br",
+      "choices": [
+        "p",
+        "div",
+        "span",
+        "br"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to make text bold?",
+      "answer": "strong",
+      "choices": [
+        "p",
+        "em",
+        "div",
+        "strong"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to modify or define an HTML element?",
+      "answer": "HTML Attribute",
+      "choices": [
+        "HTML Element",
+        "HTML Tag",
+        "HTML Document",
+        "HTML Attribute"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is another term for an HTML attribute?",
+      "answer": "name=value pair",
+      "choices": [
+        "key-value pair",
+        "property-value pair",
+        "attribute-value pair",
+        "name=value pair"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines how web browsers will format and display the content on an HTML file?",
+      "answer": "HTML Tags",
+      "choices": [
+        "HTML Attributes",
+        "HTML Elements",
+        "HTML Documents",
+        "HTML Tags"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are titles or subtitles that can be displayed on a webpage?",
+      "answer": "Headings",
+      "choices": [
+        "Paragraphs",
+        "Lists",
+        "Images",
+        "Headings"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many levels of headings are there in HTML?",
+      "answer": "six levels",
+      "choices": [
+        "four levels",
+        "five levels",
+        "seven levels",
+        "six levels"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What provides a way to navigate between webpages?",
+      "answer": "Links",
+      "choices": [
+        "Forms",
+        "Tables",
+        "Images",
+        "Links"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an alternative way to interact with the server and collect user inputs?",
+      "answer": "Form",
+      "choices": [
+        "Table",
+        "List",
+        "Image",
+        "Form"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What allows web developers to organize and arrange data into rows and columns?",
+      "answer": "HTML Table",
+      "choices": [
+        "HTML Form",
+        "HTML List",
+        "HTML Division",
+        "HTML Table"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to create a table?",
+      "answer": "table tag",
+      "choices": [
+        "form tag",
+        "div tag",
+        "list tag",
+        "table tag"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of URL directs to another website?",
+      "answer": "absolute URL",
+      "choices": [
+        "relative URL",
+        "local URL",
+        "global URL",
+        "absolute URL"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of URL directs to a file within the same website?",
+      "answer": "relative URL",
+      "choices": [
+        "absolute URL",
+        "local URL",
+        "global URL",
+        "relative URL"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the top row of a table that acts as a title for the type of information in each column?",
+      "answer": "Table Header",
+      "choices": [
+        "Table Footer",
+        "Table Body",
+        "Table Row",
+        "Table Header"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What indicates the number of rows displayed in a table?",
+      "answer": "Table Row",
+      "choices": [
+        "Table Header",
+        "Table Data",
+        "Table Footer",
+        "Table Row"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What holds the data displayed in a table?",
+      "answer": "Table Data",
+      "choices": [
+        "Table Header",
+        "Table Row",
+        "Table Footer",
+        "Table Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to join two or more columns in a table?",
+      "answer": "Colspan",
+      "choices": [
+        "Rowspan",
+        "Cellspan",
+        "Tablespan",
+        "Colspan"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to join two or more rows in a table?",
+      "answer": "Rowspan",
+      "choices": [
+        "Colspan",
+        "Cellspan",
+        "Tablespan",
+        "Rowspan"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute is used to separate table cells?",
+      "answer": "Border",
+      "choices": [
+        "Spacing",
+        "Padding",
+        "Margin",
+        "Border"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tags are used to group the header, footer, and body content in a table?",
+      "answer": "thead, tfoot, and tbody",
+      "choices": [
+        "header, footer, and body",
+        "top, bottom, and middle",
+        "start, end, and center",
+        "thead, tfoot, and tbody"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the short for Document Type Definition?",
+      "answer": "!DOCTYPE",
+      "choices": [
+        "!HTML",
+        "!DOCUMENT",
+        "!WEBPAGE",
+        "!DOCTYPE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is referred to as the \"root element\" of an HTML document?",
+      "answer": "html",
+      "choices": [
+        "head",
+        "body",
+        "title",
+        "html"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element shows extra information about an HTML document?",
+      "answer": "title",
+      "choices": [
+        "head",
+        "body",
+        "meta",
+        "title"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the container for metadata in an HTML document?",
+      "answer": "head",
+      "choices": [
+        "html",
+        "body",
+        "title",
+        "head"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is placed between the html and the body tags?",
+      "answer": "head",
+      "choices": [
+        "footer",
+        "body",
+        "title",
+        "head"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to specify page description, author, and character coding?",
+      "answer": "meta",
+      "choices": [
+        "head",
+        "title",
+        "body",
+        "meta"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines the content of an HTML document displayed in the browser?",
+      "answer": "body",
+      "choices": [
+        "head",
+        "html",
+        "title",
+        "body"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines the connection between the current document and an external source?",
+      "answer": "link",
+      "choices": [
+        "script",
+        "a",
+        "src",
+        "link"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to embed a client-side script?",
+      "answer": "script",
+      "choices": [
+        "link",
+        "style",
+        "a",
+        "script"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute points to an external script file?",
+      "answer": "src",
+      "choices": [
+        "href",
+        "link",
+        "script",
+        "src"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a data about data?",
+      "answer": "metadata",
+      "choices": [
+        "datadata",
+        "meta",
+        "data",
+        "metadata"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    }
+  ]
+}
