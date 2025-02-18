@@ -43,14 +43,47 @@
                     "Module_Subfolders": [
                         {
                             "Subfolder_ID": "C3_S1_IAS_Prelims_1",
-                            "Subfolder_Name": "01 Handout 1",
+                            "Subfolder_Name": "01 Handout 1 -- Cybersecurity Professionals and Their Tasks",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_IAS_Prelims_1",
                             "Subfolder_Author": [
                                 "Alexander Oro"
                             ],
-                            "Subfolder_LastModified": "10 February 2025",
-                            "Subfolder_Status": "Inactive"
+                            "Subfolder_LastModified": "18 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_IAS_Prelims_2",
+                            "Subfolder_Name": "01 Handout 1 -- Introduction to Risks, Threats, and Vulnerabilities",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_IAS_Prelims_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "18 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_IAS_Prelims_3",
+                            "Subfolder_Name": "01 Handout 1 -- The CIA Triad and Data Classification Standards",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_IAS_Prelims_3",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "18 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_IAS_Prelims_4",
+                            "Subfolder_Name": "01 Handout 1 -- ALL TOPICS",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_IAS_Prelims_4",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "18 February 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }
@@ -238,14 +271,47 @@
                     "Module_Subfolders": [
                         {
                             "Subfolder_ID": "C3_S1_WST_Prelims_1",
-                            "Subfolder_Name": "01 Handout 1",
+                            "Subfolder_Name": "01 Handout 1 - Introduction to HTML",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_WST_Prelims_1",
                             "Subfolder_Author": [
                                 "Alexander Oro"
                             ],
-                            "Subfolder_LastModified": "10 February 2025",
-                            "Subfolder_Status": "Inactive"
+                            "Subfolder_LastModified": "17 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_WST_Prelims_2",
+                            "Subfolder_Name": "02 Handout 1 - HTML Essentials",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_WST_Prelims_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "17 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_WST_Prelims_3",
+                            "Subfolder_Name": "03 Handout 1 - Fundamentals of Cascading Style Sheet (CSS)",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_WST_Prelims_3",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "17 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_WST_Prelims_4",
+                            "Subfolder_Name": "Prelims Reviewer Pro Max",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_WST_Prelims_4",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "17 February 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }
