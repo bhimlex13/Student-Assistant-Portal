@@ -1,0 +1,304 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance & Security (Cybersecurity Fundamentals)",
+    "Term": "Prelims",
+    "Title": "02 Handout 1 -- Subjects and Objects of Security",
+    "LastModified": "18 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01 Handout 1"
+    ]
+  },
+  "quizData":  [
+    {
+      "question": "Employees can create some of the greatest risks to cybersecurity.",
+      "answer": "People",
+      "choices": [
+        "Processes",
+        "Technology",
+        "Security Audits",
+        "People"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "When they are well informed, however, they can also be an asset and the first line of defense.",
+      "answer": "People",
+      "choices": [
+        "Processes",
+        "Technology",
+        "Security Policies",
+        "People"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "Often, cybercriminals will specifically target employees as an attack vector based on their lack of knowledge for security practices.",
+      "answer": "People",
+      "choices": [
+        "Processes",
+        "Technology",
+        "Security Audits",
+        "People"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "This layer of cybersecurity ensures that IT teams have strategies in place to proactively prevent and to respond quickly and effectively in the event of a cybersecurity incident.",
+      "answer": "Processes",
+      "choices": [
+        "People",
+        "Technology",
+        "Security Policies",
+        "Processes"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "IT security teams should have a cyber-incident response plan in place.",
+      "answer": "Processes",
+      "choices": [
+        "People",
+        "Technology",
+        "Security Policies",
+        "Processes"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "There are hosts of these that security teams can implement to layer their defenses.",
+      "answer": "Technology",
+      "choices": [
+        "People",
+        "Processes",
+        "Security Audits",
+        "Technology"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "This can be especially important when it comes to the Internet of Things (IoT) where the network of connected devices ensures that any device that seeks to be connected has the rights for connectivity to that particular network.",
+      "answer": "Hardware authentication",
+      "choices": [
+        "Cloud technology",
+        "Deep learning",
+        "ISO 27000",
+        "Hardware authentication"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "This is a well-known fact that a majority of data users’ passwords and usernames are weak and makes it easy for hackers to get access to the information systems and compromise sensitive data of a business entity or government agency.",
+      "answer": "Hardware authentication",
+      "choices": [
+        "Cloud technology",
+        "Deep learning",
+        "ISO 27000",
+        "Hardware authentication"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "This is set to have a significant impact on the transformation of systems security technology.",
+      "answer": "Cloud technology",
+      "choices": [
+        "Hardware Authentication",
+        "Deep learning",
+        "ISO 27000",
+        "Cloud technology"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "More business enterprises and government agencies have embraced cloud technology to store the vast amounts of information that they generate daily.",
+      "answer": "Cloud technology",
+      "choices": [
+        "Hardware Authentication",
+        "Deep learning",
+        "ISO 27000",
+        "Cloud technology"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "This encompasses some technologies like machine learning and artificial intelligence.",
+      "answer": "Deep learning",
+      "choices": [
+        "Hardware Authentication",
+        "Cloud technology",
+        "ISO 27000",
+        "Deep learning"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "There is a significant deal of interest for systems security in these technologies.",
+      "answer": "Deep learning",
+      "choices": [
+        "Hardware Authentication",
+        "Cloud technology",
+        "ISO 27000",
+        "Deep learning"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many types of Cybersecurity (Security rendered in the network) mentioned in the handout?",
+      "answer": "Five",
+      "choices": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "This consists of the cyber-physical systems that modern societies rely on.",
+      "answer": "Critical Infrastructure Security",
+      "choices": [
+        "Application Security",
+        "Network Security",
+        "Cloud Security",
+        "Critical Infrastructure Security"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "This is more accessible over networks, causing the adoption of security measures during the development phase to be an imperative phase of the project.",
+      "answer": "Application Security",
+      "choices": [
+        "Critical Infrastructure Security",
+        "Network Security",
+        "Cloud Security",
+        "Application Security"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "This ensures that internal networks are secured by protecting the infrastructure and inhibiting access to it.",
+      "answer": "Network Security",
+      "choices": [
+        "Critical Infrastructure Security",
+        "Application Security",
+        "Cloud Security",
+        "Network Security"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "This is a software-based security tool that protects and monitors data in cloud resources.",
+      "answer": "Cloud Security",
+      "choices": [
+        "Critical Infrastructure Security",
+        "Application Security",
+        "Network Security",
+        "Cloud Security"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "Cloud providers are constantly creating and implementing new security tools to help enterprise users better secure their data.",
+      "answer": "Cloud Security",
+      "choices": [
+        "Critical Infrastructure Security",
+        "Application Security",
+        "Network Security",
+        "Cloud Security"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "This refers to a wide variety of critical and non-critical cyber-physical systems like appliances, sensors, televisions, Wi-Fi routers, printers, and security cameras.",
+      "answer": "Internet of Things (IoT) Security",
+      "choices": [
+        "Critical Infrastructure Security",
+        "Application Security",
+        "Network Security",
+        "Internet of Things (IoT) Security"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "Electricity grid, water purification traffic lights, shopping centers, and hospitals.",
+      "answer": "Critical Infrastructure Security",
+      "choices": [
+        "Application Security",
+        "Network Security",
+        "Cloud Security",
+        "Critical Infrastructure Security"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "Antivirus programs, firewalls, and encryption.",
+      "answer": "Application Security",
+      "choices": [
+        "Internet of Things (IoT) Security",
+        "Cloud Security",
+        "Network Security",
+        "Application Security"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "Extra logins, new passwords, and application security (firewalls, monitored Internet access, antispyware, antivirus/",
+      "answer": "Network Security",
+      "choices": [
+        "Internet of Things (IoT) Security",
+        "Critical Infrastructure Security",
+        "Application Security",
+        "Network Security"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "Software as a Service, Infrastructure as a Service, private, on-site cloud, and virtualization.",
+      "answer": "Cloud Security",
+      "choices": [
+        "Internet of Things (IoT) Security",
+        "Network Security",
+        "Critical Infrastructure Security",
+        "Cloud Security"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    },
+    {
+      "question": "Connected security systems, thermostats, cars, electronic appliances, and speaker systems.",
+      "answer": "Internet of Things (IoT) Security",
+      "choices": [
+        "Cloud Security",
+        "Network Security",
+        "Application Security",
+        "Internet of Things (IoT) Security"
+      ],
+      "reference": "Subjects and Objects of Security",
+      "term": "Prelims"
+    }
+  ]
+}
