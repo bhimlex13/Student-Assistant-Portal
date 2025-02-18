@@ -1,0 +1,244 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance & Security (Cybersecurity Fundamentals)",
+    "Term": "Prelims",
+    "Title": "02 Handout 1 -- Security Objectives",
+    "LastModified": "19 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "02 Handout 1"
+    ]
+  },
+  "quizData":  [
+    {
+      "question": "What is a set of rules that applies to activities for the computer and communications resources that belong to an organization?",
+      "answer": "Security Policy",
+      "choices": [
+        "Resource Protection",
+        "Authentication",
+        "Authorization",
+        "Security Policy"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What should describe how the effectiveness of security measures will be monitored?",
+      "answer": "Security Policy",
+      "choices": [
+        "Resource Protection",
+        "Authentication",
+        "Authorization",
+        "Security Policy"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What ensures that only authorized users can access objects on the system?",
+      "answer": "Resource Protection",
+      "choices": [
+        "Security Policy",
+        "Authentication",
+        "Authorization",
+        "Resource Protection"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What does the ability to secure all types of system resources refer to?",
+      "answer": "Resource Protection",
+      "choices": [
+        "Security Policy",
+        "Authentication",
+        "Authorization",
+        "Resource Protection"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the assurance or verification that the resource (human or machine) at the other end of the session really is what it claims to be?",
+      "answer": "Authentication",
+      "choices": [
+        "Security Policy",
+        "Resource Protection",
+        "Authorization",
+        "Authentication"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which security objective does digital certificates provide a more secure method refers to?",
+      "answer": "Authentication",
+      "choices": [
+        "Security Policy",
+        "Resource Protection",
+        "Authorization",
+        "Authentication"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an assurance that the person or computer at the other end of the session has permission to carry out the request?",
+      "answer": "Authorization",
+      "choices": [
+        "Security Policy",
+        "Resource Protection",
+        "Authentication",
+        "Authorization"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is performed in context application?",
+      "answer": "Authorization",
+      "choices": [
+        "Security Policy",
+        "Resource Protection",
+        "Authentication",
+        "Authorization"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the assurance that the arriving information is the same as what was sent out?",
+      "answer": "Integrity",
+      "choices": [
+        "Security Policy",
+        "Resource Protection",
+        "Authentication",
+        "Integrity"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What does understanding integrity require?",
+      "answer": "Integrity",
+      "choices": [
+        "Security Policy",
+        "Resource Protection",
+        "Authentication",
+        "Integrity"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is protected from unauthorized changes or tampering?",
+      "answer": "Data Integrity",
+      "choices": [
+        "Security Policy",
+        "Resource Protection",
+        "Authentication",
+        "Data Integrity"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What does data integrity defend against?",
+      "answer": "Data Integrity",
+      "choices": [
+        "Security Policy",
+        "Resource Protection",
+        "Authentication",
+        "Data Integrity"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What provides consistent and expected results with expected performance?",
+      "answer": "System Integrity",
+      "choices": [
+        "Security Policy",
+        "Resource Protection",
+        "Authentication",
+        "System Integrity"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the proof that a transaction occurred, or that a user sent or received a message?",
+      "answer": "Nonrepudiation",
+      "choices": [
+        "Security Policy",
+        "Resource Protection",
+        "Authentication",
+        "Nonrepudiation"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the assurance that sensitive information remains private and is not visible to an eavesdropper?",
+      "answer": "Confidentiality",
+      "choices": [
+        "Security Policy",
+        "Resource Protection",
+        "Authentication",
+        "Confidentiality"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is critical to total data security?",
+      "answer": "Confidentiality",
+      "choices": [
+        "Security Policy",
+        "Resource Protection",
+        "Authentication",
+        "Confidentiality"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What monitors security-relevant events to provide a log of both successful and unsuccessful (denied) access?",
+      "answer": "Auditing Security Activities",
+      "choices": [
+        "Security Policy",
+        "Resource Protection",
+        "Authentication",
+        "Auditing Security Activities"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What records tell who is doing what on the systems?",
+      "answer": "Successful access",
+      "choices": [
+        "Unsuccessful access",
+        "Graduating access",
+        "Access Point",
+        "Successful access"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    },
+    {
+      "question": "What records tell either that someone is attempting to break the security or that someone is having difficulty accessing the system?",
+      "answer": "Unsuccessful access",
+      "choices": [
+        "Unsuccessful access",
+        "Graduating access",
+        "Access Point",
+        "Successful access"
+      ],
+      "reference": "Security Objectives",
+      "term": "Prelims"
+    }
+  ]
+}

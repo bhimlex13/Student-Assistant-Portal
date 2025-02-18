@@ -95,6 +95,50 @@
                             ],
                             "Subfolder_LastModified": "19 February 2025",
                             "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_IAS_Prelims_6",
+                            "Subfolder_Name": "02 Handout 1 -- Security Objectives",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_IAS_Prelims_6",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "19 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_IAS_Prelims_7",
+                            "Subfolder_Name": "02 Handout 1 -- IT Security Framework and Security Architecture",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_IAS_Prelims_7",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "19 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_IAS_Prelims_8",
+                            "Subfolder_Name": "02 Handout 1 -- ALL TOPICS",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_IAS_Prelims_8",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "19 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_IAS_Prelims_9",
+                            "Subfolder_Name": "Prelims Reviewer Pro Max",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_IAS_Prelims_9",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "19 February 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }
