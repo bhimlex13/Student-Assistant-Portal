@@ -95,18 +95,51 @@
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
                     "Module_Status": "Active",
-                    "Module_LastModified": "10 February 2025",
+                    "Module_LastModified": "19 February 2025",
                     "Module_Subfolders": [
                         {
                             "Subfolder_ID": "C3_S1_MIS_Prelims_1",
-                            "Subfolder_Name": "01 Handout 1",
+                            "Subfolder_Name": "Information Systems",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MIS_Prelims_1",
                             "Subfolder_Author": [
-                                "Alexander Oro"
+                                "Elmer Felisilda"
                             ],
-                            "Subfolder_LastModified": "10 February 2025",
-                            "Subfolder_Status": "Inactive"
+                            "Subfolder_LastModified": "19 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_MIS_Prelims_2",
+                            "Subfolder_Name": "Systems Development Life Cycle",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MIS_Prelims_2",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "19 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_MIS_Prelims_3",
+                            "Subfolder_Name": "Managing Data Resources",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MIS_Prelims_3",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "19 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_MIS_Prelims_4",
+                            "Subfolder_Name": "Prelim Period Review",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MIS_Prelims_4",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "19 February 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }

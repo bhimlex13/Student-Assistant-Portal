@@ -1,0 +1,472 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Prelims",
+    "Title": "Information Systems",
+    "LastModified": "19 February 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What term refers to a number, statement, etc. that represents specific data?",
+      "answer": "Data",
+      "choices": [
+        "Information",
+        "System",
+        "Data",
+        "Timeliness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a collection of data?",
+      "answer": "Information",
+      "choices": [
+        "Data",
+        "Information",
+        "Subsystems",
+        "Completeness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info must be up to date?",
+      "answer": "Timeliness",
+      "choices": [
+        "Appropriateness",
+        "Accuracy",
+        "Conciseness",
+        "Timeliness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information requires the system to have relevant info in every module for users who need it?",
+      "answer": "Appropriateness",
+      "choices": [
+        "Accuracy",
+        "Appropriateness",
+        "Understandability",
+        "Timeliness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info must be correct or precise?",
+      "answer": "Accuracy",
+      "choices": [
+        "Accuracy",
+        "Completeness",
+        "Data",
+        "System boundaries"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info must only contain the minimum detail appropriate to the user?",
+      "answer": "Conciseness",
+      "choices": [
+        "Conciseness",
+        "Timeliness",
+        "Appropriateness",
+        "System environment"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info and its format and presentation must be understandable?",
+      "answer": "Understandability",
+      "choices": [
+        "Understandability",
+        "Accuracy",
+        "System",
+        "Subsystem interface"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info must be complete based on the requirements?",
+      "answer": "Completeness",
+      "choices": [
+        "Completeness",
+        "Understandability",
+        "System feedback",
+        "System environment"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to components that are interrelated and work together with a common goal to accept inputs and outputs?",
+      "answer": "System",
+      "choices": [
+        "System",
+        "System boundaries",
+        "System environment",
+        "Subsystem interface"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the general term for a computer or other piece of technology and its dependencies?",
+      "answer": "System in computing",
+      "choices": [
+        "System",
+        "System in computing",
+        "System environment",
+        "Timeliness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term encompasses all working parts required to run a technical process?",
+      "answer": "System in computing",
+      "choices": [
+        "System",
+        "System in computing",
+        "Data",
+        "Accuracy"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines the scope of activities in which viewing or accessing any module of a system is limited?",
+      "answer": "System boundaries",
+      "choices": [
+        "System environment",
+        "System feedback",
+        "Subsystem interface",
+        "System boundaries"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes that every user has specific access on each module of a system?",
+      "answer": "System boundaries",
+      "choices": [
+        "Subsystems",
+        "System feedback",
+        "System boundaries",
+        "Subsystems"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the term for parts of a system that have different objectives and interactions based on requirements?",
+      "answer": "Subsystems",
+      "choices": [
+        "System boundaries",
+        "System environment",
+        "System feedback",
+        "Subsystems"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes that all parts of a system use the given resources to meet the given objective?",
+      "answer": "Subsystems",
+      "choices": [
+        "System",
+        "System feedback",
+        "Subsystem interface",
+        "Subsystems"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What serves as the connection to display the output of one system to the input of another?",
+      "answer": "Subsystem interface",
+      "choices": [
+        "System boundaries",
+        "Subsystems",
+        "System environment",
+        "Subsystem interface"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to people or organizations that give and receive data from the system?",
+      "answer": "System environment",
+      "choices": [
+        "System boundaries",
+        "System feedback",
+        "Subsystem interface",
+        "System environment"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes effective feedback assuring users that the system can achieve its goals?",
+      "answer": "System feedback",
+      "choices": [
+        "System boundaries",
+        "Subsystems",
+        "System environment",
+        "System feedback"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes that every system always needs feedback to be able to do its job and process accurately based on the requirements?",
+      "answer": "System feedback",
+      "choices": [
+        "System environment",
+        "System boundaries",
+        "System feedback",
+        "Appropriateness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to the info the user adds to the system?",
+      "answer": "Input",
+      "choices": [
+        "Output",
+        "Input",
+        "Feedback",
+        "Control"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to the efficiency of data processing?",
+      "answer": "Processing",
+      "choices": [
+        "Input",
+        "Output",
+        "Control",
+        "Processing"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system enables organizations to process big data?",
+      "answer": "Processing",
+      "choices": [
+        "Input",
+        "Control",
+        "Processing",
+        "Output"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to the info the system displays as a result?",
+      "answer": "Output",
+      "choices": [
+        "Input",
+        "Output",
+        "Feedback",
+        "Control"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to comments and suggestions to improve the processes of a system?",
+      "answer": "Feedback",
+      "choices": [
+        "Input",
+        "Feedback",
+        "Control",
+        "Output"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to managing the operations in every process of the system?",
+      "answer": "Control",
+      "choices": [
+        "Input",
+        "Control",
+        "Feedback",
+        "Output"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to interrelated components that collect, output, and process data to support decision making?",
+      "answer": "Information Systems",
+      "choices": [
+        "Information Systems in an Organization",
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Information Systems"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to a system that may consist of hardware, software, people, procedures, and telecommunication?",
+      "answer": "Information Systems in an Organization",
+      "choices": [
+        "Information Systems",
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Information Systems in an Organization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term involves factors such as organization structure, business procedure, culture, environment, and management decisions?",
+      "answer": "Information Systems in an Organization",
+      "choices": [
+        "Information Systems",
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Information Systems in an Organization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system is widely used?",
+      "answer": "Transaction Processing System",
+      "choices": [
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Expert Support System",
+        "Transaction Processing System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system records data collected at the boundaries of organizations?",
+      "answer": "Transaction Processing System",
+      "choices": [
+        "Business Intelligence Systems",
+        "Supply Chain Management System",
+        "Expert Support System",
+        "Transaction Processing System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system records transactions inside an organization?",
+      "answer": "Transaction Processing System",
+      "choices": [
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Supply Chain Management System",
+        "Transaction Processing System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system includes a sequence of activities such as marketing, manufacturing, assembly, and packing?",
+      "answer": "Supply Chain Management System",
+      "choices": [
+        "Customer Relationship Management System",
+        "Business Intelligence Systems",
+        "Supply Chain Management System",
+        "Decision Support System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system manages the relationship between a customer and an organization?",
+      "answer": "Customer Relationship Management System",
+      "choices": [
+        "Supply Chain Management System",
+        "Business Intelligence Systems",
+        "Expert Support System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system is used by service representatives to talk to their customers via phone?",
+      "answer": "Customer Relationship Management System",
+      "choices": [
+        "Supply Chain Management System",
+        "Business Intelligence Systems",
+        "Expert Support System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system is used to compete with other organizations?",
+      "answer": "Business Intelligence Systems",
+      "choices": [
+        "Business Intelligence Systems",
+        "Expert Support System",
+        "Supply Chain Management System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system accesses massive data, usually larger databases called data warehouses?",
+      "answer": "Business Intelligence Systems",
+      "choices": [
+        "Business Intelligence Systems",
+        "Decision Support System",
+        "Supply Chain Management System",
+        "Expert Support System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system helps to find actions and answers to questions like \"What If?\"",
+      "answer": "Decision Support System",
+      "choices": [
+        "Decision Support System",
+        "Expert Support System",
+        "Supply Chain Management System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system uses AI to preserve the knowledge of an expert and to solve problems?",
+      "answer": "Expert Support System",
+      "choices": [
+        "Expert Support System",
+        "Business Intelligence Systems",
+        "Transaction Processing System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    }
+  ]
+}
