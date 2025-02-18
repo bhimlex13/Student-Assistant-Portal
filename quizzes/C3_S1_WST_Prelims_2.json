@@ -61,7 +61,7 @@
       "term": "Prelims"
     },
     {
-      "question": "What type of HTML list starts with the <ul> tag?",
+      "question": "What type of HTML list starts with the ul tag?",
       "answer": "unordered list",
       "choices": [
         "ordered list",
@@ -73,7 +73,7 @@
       "term": "Prelims"
     },
     {
-      "question": "What type of HTML list starts with the <ol> tag?",
+      "question": "What type of HTML list starts with the ol tag?",
       "answer": "ordered list",
       "choices": [
         "unordered list",
@@ -85,7 +85,7 @@
       "term": "Prelims"
     },
     {
-      "question": "What type of HTML list starts with the <dl> tag?",
+      "question": "What type of HTML list starts with the dl tag?",
       "answer": "description list",
       "choices": [
         "unordered list",
@@ -229,7 +229,7 @@
       "term": "Prelims"
     },
     {
-      "question": "What attribute is used to attach a <label> to an <input> element?",
+      "question": "What attribute is used to attach a label to an input element?",
       "answer": "for attribute",
       "choices": [
         "id attribute",
