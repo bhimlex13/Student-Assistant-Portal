@@ -93,7 +93,7 @@
             "Subject_ID": "C3_S1_CP1",
             "Subject_Name": "IT Capstone Project 1",
             "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_CP1_Demo.png",
-            "Subject_Status": "Active",
+            "Subject_Status": "Inactive",
             "Subject_Module": [
                 {   
                     "Module_ID": "C3_S1_CP1_Prelims",
