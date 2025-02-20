@@ -350,6 +350,28 @@
                             ],
                             "Subfolder_LastModified": "20 February 2025",
                             "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Prelims_3",
+                            "Subfolder_Name": "01 Handout 1 -- Programming Language Evaluation Criteria",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Prelims_3",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "20 February 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Prelims_4",
+                            "Subfolder_Name": "01 Handout 1 -- ALL TOPICS",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Prelims_4",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "20 February 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }
