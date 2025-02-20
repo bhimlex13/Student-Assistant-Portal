@@ -1,0 +1,604 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Prelims",
+    "Title": "02 Handout 1",
+    "LastModified": "20 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "02 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What are the two main aspects of a programming language that are studied to understand its structure and meaning?",
+      "answer": "syntax and semantics",
+      "choices": [
+        "alphabet",
+        "lexis",
+        "language",
+        "syntax and semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to the set of symbols used to build words in a particular language?",
+      "answer": "alphabet",
+      "choices": [
+        "alphabet",
+        "lexis",
+        "language",
+        "syntax and semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the term for the set of words that a language offers its users, similar to a dictionary?",
+      "answer": "lexis",
+      "choices": [
+        "alphabet",
+        "lexis",
+        "language",
+        "syntax and semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is defined as a set of strings of characters from an alphabet, encompassing both natural languages like English and artificial languages like Python?",
+      "answer": "language",
+      "choices": [
+        "alphabet",
+        "lexis",
+        "language",
+        "syntax and semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines the meaning of the various combinations of symbols used in programming?",
+      "answer": "syntax",
+      "choices": [
+        "alphabet",
+        "lexis",
+        "semantics",
+        "syntax"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What describes which strings of characters comprise a valid program?",
+      "answer": "syntax",
+      "choices": [
+        "alphabet",
+        "lexis",
+        "semantics",
+        "syntax"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the form of expressions, statements, and program units in a programming language?",
+      "answer": "syntax",
+      "choices": [
+        "alphabet",
+        "lexis",
+        "semantics",
+        "syntax"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What can prevent a computer from running source code if a programmer doesn't carefully follow the language's rules?",
+      "answer": "syntax error",
+      "choices": [
+        "source code",
+        "language",
+        "lexis",
+        "syntax error"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a program written in a high-level programming language called?",
+      "answer": "source code",
+      "choices": [
+        "source code",
+        "language",
+        "lexis",
+        "syntax error"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are reserved words that have a special meaning in the language called?",
+      "answer": "keywords",
+      "choices": [
+        "operators",
+        "punctuation",
+        "identifiers",
+        "keywords"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are examples of keywords?",
+      "answer": "if, else, for, and while",
+      "choices": [
+        "arithmetic operators and logical operators",
+        "num, digit",
+        "functions",
+        "if, else, for, and while"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are symbols that perform operations on variables and values called?",
+      "answer": "operators",
+      "choices": [
+        "operators",
+        "punctuation",
+        "identifiers",
+        "keywords"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are some examples of operators?",
+      "answer": "arithmetic operators and logical operators",
+      "choices": [
+        "arithmetic operators and logical operators",
+        "num, digit",
+        "functions",
+        "if, else, for, and while"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What helps structure the program and indicate the end of statements or encapsulate blocks of code?",
+      "answer": "punctuation",
+      "choices": [
+        "operators",
+        "punctuation",
+        "identifiers",
+        "keywords"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are names that identify user-defined items such as variables, functions, and arrays?",
+      "answer": "identifiers",
+      "choices": [
+        "operators",
+        "punctuation",
+        "identifiers",
+        "keywords"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a natural notation for describing syntax?",
+      "answer": "BNF (Backus-Naur Form)",
+      "choices": [
+        "BNF rules",
+        "Static semantic",
+        "Dynamic semantics",
+        "BNF (Backus-Naur Form)"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the most popular method of concisely describing programming language syntax?",
+      "answer": "BNF (Backus-Naur Form)",
+      "choices": [
+        "BNF rules",
+        "Static semantic",
+        "Dynamic semantics",
+        "BNF (Backus-Naur Form)"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is considered a metalanguage for programming languages?",
+      "answer": "BNF (Backus-Naur Form)",
+      "choices": [
+        "BNF rules",
+        "Static semantic",
+        "Dynamic semantics",
+        "BNF (Backus-Naur Form)"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a language or set of terms used to describe another language?",
+      "answer": "metalanguage",
+      "choices": [
+        "languagelanguage",
+        "metadata",
+        "alphabet",
+        "metalanguage"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are strings that must exactly match specific items in the input called?",
+      "answer": "terminals",
+      "choices": [
+        "nonterminals",
+        "rules",
+        "station",
+        "terminals"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are symbols that will be replaced by a concrete value called?",
+      "answer": "nonterminals",
+      "choices": [
+        "nonterminals",
+        "rules",
+        "station",
+        "terminals"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are conventions of terminals and nonterminals that define how the elements relate?",
+      "answer": "rules",
+      "choices": [
+        "nonterminals",
+        "rules",
+        "station",
+        "terminals"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are strings like ''def'', ''return'', '':'' and '';'' called in BNF notation?",
+      "answer": "terminals",
+      "choices": [
+        "nonterminals",
+        "rules",
+        "station",
+        "terminals"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are symbols like ''＜letter>'' and ''digit'' called in BNF notation?",
+      "answer": "nonterminals",
+      "choices": [
+        "nonterminals",
+        "rules",
+        "station",
+        "terminals"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are conventions like ''＜letter>::= ''a'''' called in BNF notation?",
+      "answer": "rules",
+      "choices": [
+        "nonterminals",
+        "rules",
+        "station",
+        "terminals"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are created by combining terminals and nonterminals?",
+      "answer": "BNF Rules",
+      "choices": [
+        "BNF rules",
+        "Static semantic",
+        "BNF Grammar",
+        "BNF (Backus-Naur Form)"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the core components of BNF grammar?",
+      "answer": "BNF Rules",
+      "choices": [
+        "BNF rules",
+        "Static semantic",
+        "BNF Grammar",
+        "BNF (Backus-Naur Form)"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What can be used to specify the grammar of a language?",
+      "answer": "BNF Rules",
+      "choices": [
+        "BNF rules",
+        "Static semantic",
+        "BNF Grammar",
+        "BNF (Backus-Naur Form)"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is also called production rules?",
+      "answer": "BNF Rules",
+      "choices": [
+        "BNF rules",
+        "Static semantic",
+        "BNF Grammar",
+        "BNF (Backus-Naur Form)"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a set of BNF rules called",
+      "answer": "BNF Grammar",
+      "choices": [
+        "BNF rules",
+        "Static semantic",
+        "BNF Grammar",
+        "BNF (Backus-Naur Form)"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What appears if Python code fails to fulfill the rules defined in its grammar?",
+      "answer": "Syntax Error",
+      "choices": [
+        "BNF rules",
+        "BNF (Backus-Naur Form)",
+        "BNF Grammar",
+        "Syntax Error"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a tree representation of the syntactic structure of the source code called?",
+      "answer": "Syntax Tree",
+      "choices": [
+        "Syntax Error",
+        "BNF Rules",
+        "BNF Grammar",
+        "Syntax Tree"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an Abstract Syntax Tree also known as?",
+      "answer": "Syntax Tree",
+      "choices": [
+        "Syntax Error",
+        "BNF Rules",
+        "BNF Grammar",
+        "Syntax Tree"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the meaning of expressions, statements, and program units called?",
+      "answer": "semantic",
+      "choices": [
+        "syntax",
+        "symbol",
+        "rules",
+        "semantic"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is concerned with the meaning behind the structure of a programming language?",
+      "answer": "semantic",
+      "choices": [
+        "syntax",
+        "symbol",
+        "rules",
+        "semantic"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What involves rules that are checked at compile time, such as type checking and scope resolution?",
+      "answer": "static semantics",
+      "choices": [
+        "syntax",
+        "semantics",
+        "dynamic semantics",
+        "static semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What ensures that certain errors are caught before the program runs?",
+      "answer": "static semantics",
+      "choices": [
+        "syntax",
+        "semantics",
+        "dynamic semantics",
+        "static semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What kind of semantics are exemplified by a language flagging an error if a variable is used without being declared?",
+      "answer": "static semantics",
+      "choices": [
+        "syntax",
+        "semantics",
+        "dynamic semantics",
+        "static semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What refers to the behavior of a program when it is run?",
+      "answer": "dynamic semantics",
+      "choices": [
+        "syntax",
+        "semantics",
+        "dynamic semantics",
+        "static semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What includes the execution of expressions, control structures, and manipulating data?",
+      "answer": "dynamic semantics",
+      "choices": [
+        "syntax",
+        "semantics",
+        "dynamic semantics",
+        "static semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines how the state of a program changes as it executes?",
+      "answer": "dynamic semantics",
+      "choices": [
+        "formal semantics",
+        "semantics",
+        "dynamic semantics",
+        "static semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is often used to define a programming language's semantics?",
+      "answer": "formal semantics",
+      "choices": [
+        "operational semantics",
+        "denotational semantics",
+        "axiomatic semantics",
+        "formal semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What describes the behavior of a program in terms of abstract machine execution steps?",
+      "answer": "operational semantics",
+      "choices": [
+        "operational semantics",
+        "denotational semantics",
+        "axiomatic semantics",
+        "formal semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What outlines how each expression or statement is evaluated step-by-step and ideal for simulating program execution?",
+      "answer": "operational semantics",
+      "choices": [
+        "operational semantics",
+        "denotational semantics",
+        "axiomatic semantics",
+        "formal semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What maps syntactic constructs to mathematical objects and offers an abstract, mathematical description of a program's meaning?",
+      "answer": "denotational semantics",
+      "choices": [
+        "operational semantics",
+        "denotational semantics",
+        "axiomatic semantics",
+        "formal semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What helps in reasoning about program correctness and equivalence?",
+      "answer": "denotational semantics",
+      "choices": [
+        "operational semantics",
+        "denotational semantics",
+        "axiomatic semantics",
+        "formal semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What might represent a function in programming as a mathematical mapping between input and output values?",
+      "answer": "denotational semantics",
+      "choices": [
+        "operational semantics",
+        "denotational semantics",
+        "axiomatic semantics",
+        "formal semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What uses logical assertions, such as preconditions and postconditions, to specify and prove properties about a program?",
+      "answer": "axiomatic semantics",
+      "choices": [
+        "operational semantics",
+        "denotational semantics",
+        "axiomatic semantics",
+        "formal semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is especially useful in verifying the correctness of algorithms?",
+      "answer": "axiomatic semantics",
+      "choices": [
+        "operational semantics",
+        "denotational semantics",
+        "axiomatic semantics",
+        "formal semantics"
+      ],
+      "reference": "Syntax and Semantics",
+      "term": "Prelims"
+    }
+  ]
+}
