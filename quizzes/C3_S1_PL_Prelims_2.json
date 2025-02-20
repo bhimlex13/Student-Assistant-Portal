@@ -1,0 +1,292 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Prelims",
+    "Title": "01 Handout 1 -- Programming Domains and Environments",
+    "LastModified": "20 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What term describes the different areas of computer use that have led to the development of diverse programming languages with specialized goals?",
+      "answer": "Programming Domains",
+      "choices": [
+        "Programming Domains",
+        "Expansion Domain",
+        "Domain Expansion",
+        "Programming Languages"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was the primary domain for which the first digital computers, developed in the late 1940s and early 1950s, were invented and used?",
+      "answer": "Scientific Applications",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of applications, requiring numerous floating-point arithmetic computations and utilizing data structures like arrays and matrices along with control structures like counting loops and selection, were prominent in the early days of computing?",
+      "answer": "Scientific Applications",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of applications, where efficiency is a primary concern, led to the development and early adoption of languages like Fortran?",
+      "answer": "Scientific Applications",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What domain of computer use emerged in the 1950s, leading to the development of specialized computers and programming languages?",
+      "answer": "Business Applications",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What domain of computer use saw the development of COBOL, the first successful high-level language designed specifically for its needs, starting in 1960",
+      "answer": "Business Applications",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What field of computer science is characterized by the use of symbolic computation, manipulating names rather than numbers, and often employs linked lists of data rather than arrays?",
+      "answer": "Aritificial Intelligence (AI)",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What field of computer science, requiring flexibility in programming, saw LISP as its first widely used language before 1990?",
+      "answer": "Aritificial Intelligence (AI)",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "While LISP was an early language of choice, what other programming language has become increasingly popular for use in Artificial Intelligence applications more recently?",
+      "answer": "Python",
+      "choices": [
+        "JavaScript",
+        "Java",
+        "PHP",
+        "Python"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What area of software development utilizes a range of languages, from markup languages like HTML to general-purpose programming languages like Java, to support the World Wide Web?",
+      "answer": "Web Software",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of software development necessitates the integration of computational capabilities, often through embedded programming code within HTML documents, to create dynamic web content?",
+      "answer": "Web Software",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What area of software development often employs scripting languages like JavaScript or PHP embedded within HTML to achieve dynamic functionality?",
+      "answer": "Web Software",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to the collection of tools used in software development?",
+      "answer": "Programming Environments",
+      "choices": [
+        "Programming Languages",
+        "Programming Domains",
+        "Programming Language Evaluation",
+        "Programming Environments"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes a collection of software development tools, ranging from a basic set of a file system, text editor, linker, and compiler, to a comprehensive suite of integrated tools accessible through a unified user interface?",
+      "answer": "Programming Environments",
+      "choices": [
+        "Programming Languages",
+        "Programming Domains",
+        "Programming Language Evaluation",
+        "Programming Environments"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What code editor, designed for building and debugging modern web and cloud applications, has been redefined and optimized by Microsoft?",
+      "answer": "Microsoft Visual Studio Code",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What lightweight but powerful source code editor, developed by Microsoft, runs on Windows, macOS, and Linux desktops?",
+      "answer": "Microsoft Visual Studio Code",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What code editor, featuring built-in support for JavaScript, TypeScript, and Node.js, also boasts a rich ecosystem of extensions for numerous other languages like Java, Python, C++, C#, PHP, and .NET?",
+      "answer": "Microsoft Visual Studio Code",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What free and open-source integrated development environment (IDE) supports the development of desktop, mobile, and web applications?",
+      "answer": "NetBeans",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What IDE offers comprehensive support for JDK 7 technologies and the latest Java enhancements?",
+      "answer": "NetBeans",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What IDE, in addition to supporting Java, also supports JavaScript, Ruby, and PHP, and like Visual Studio, acts as both a development environment and a framework by providing common code components for applications?",
+      "answer": "NetBeans",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What integrated development environment (IDE) includes a text editor, message area, text console, toolbar, and menus, and is specifically designed to connect to Arduino boards for uploading programs and communication?",
+      "answer": "Arduino IDE",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What visual programming editor, developed by Google and used by many popular coding education programs, employs drag-and-drop blocks for code creation?",
+      "answer": "Blockly",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What visual programming editor allows users to define block connections and input fields, while the editor itself handles the complexities of rendering, dragging, and connecting those blocks?",
+      "answer": "Blockly",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    }
+  ]
+}

@@ -339,6 +339,17 @@
                             ],
                             "Subfolder_LastModified": "20 February 2025",
                             "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Prelims_2",
+                            "Subfolder_Name": "01 Handout 1 -- Programming Domains and Environments",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Prelims_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "20 February 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }
