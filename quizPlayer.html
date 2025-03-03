@@ -20,6 +20,7 @@
   <script src="Scripts/SAP_Javascript_Main.js"></script>
   <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js"></script>
   <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
+  <script src="Scripts/SAP_Javascript_UI.js"></script>
   <script src="Scripts/SAP_Javascript_Settings.js"></script>
   <script src="Scripts/SAP_Javascript_QuizPlayer.js"></script>
   <span Display="none">
@@ -50,25 +51,26 @@
 				<button class="Subwindow_Bottom_Button_SecondaryAction" onclick="Subwindows_Close('Quiz_Refresh')">
 					Cancel
 				</button>
-				<button class="Subwindow_Bottom_Button_PrimaryAction" onclick="location.reload()">
+				<button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Page_ChangePage('', Transition)">
 					Restart anyways
 				</button>
 			</div>
 		</div>
   </div>
   <div class="Page_Overlays">
-    <div class="Quiz_Starter" id="Quiz_Starter">
-      <div class="Quiz_Starter_Loader" id="Quiz_Starter_Loader">
-        <div class="General_Loading_Compact">
-          <div class="General_Loading_Compact_Bar"></div>
-          <div class="General_Loading_Compact_Bar"></div>
-          <div class="General_Loading_Compact_Bar"></div>
-          <div class="General_Loading_Compact_Bar"></div>
-        </div>
-        <h3 class="Home_Welcome_Loading_Text">
-          Loading quiz...
-        </h3>
+    <div class="Quiz_Starter_Loader" id="LoadingScreen">
+      <img class="Home_Welcome_Loading_Image" src="Assets/Icons/SAP_1.png"/>
+      <div class="General_Loading_Compact">
+        <div class="General_Loading_Compact_Bar"></div>
+        <div class="General_Loading_Compact_Bar"></div>
+        <div class="General_Loading_Compact_Bar"></div>
+        <div class="General_Loading_Compact_Bar"></div>
       </div>
+      <h3 class="Home_Welcome_Loading_Text">
+        <!-- Loading quiz... -->
+      </h3>
+    </div>
+    <div class="Quiz_Starter" id="Quiz_Starter">
       <div class="Home_Welcome_Background">
         <div></div>
         <div></div>
@@ -340,7 +342,7 @@
         </div>
         <div></div>
         <div class="Quiz_Finisher_Controls">
-          <button class="General_Button Quiz_Finisher_Controls_Button" Primary onclick="Page_ChangePage('')" id="Quiz_Finisher_Controls_Button_Retry">Retry</button>
+          <button class="General_Button Quiz_Finisher_Controls_Button" Primary onclick="Page_ChangePage('', Transition)" id="Quiz_Finisher_Controls_Button_Retry">Retry</button>
           <button class="General_Button Quiz_Finisher_Controls_Button" Secondary onclick="Quiz_GoHome()">
               Go back to home
           </button>

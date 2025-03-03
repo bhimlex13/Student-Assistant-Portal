@@ -218,9 +218,14 @@
     align-items: center;
 }
 
-.Home_Welcome_Loading[State = "Invisible"]{
+.Home_Welcome_Loading[State = "Inactive"]{
     opacity: 0%;
     pointer-events: none;
+}
+
+.Home_Welcome_Loading_Image{
+    width: 250px;
+    margin-bottom: 20px;
 }
 
 .Home_Welcome_Loading_Text{

@@ -23,10 +23,10 @@ var Sound_Perfect = new Audio("Assets/Sound_Effects/challenge_complete_old.ogg")
 var Sound_Good = new Audio("Assets/Sound_Effects/Good.mp3");
 var Sound_Bad = new Audio("Assets/Sound_Effects/Bad.mp3");
 
-window.addEventListener('beforeunload', (event) => {
-    event.preventDefault();
-    Subwindows_Open('Quiz_Refresh');
-});
+// window.addEventListener('beforeunload', (event) => {
+//     event.preventDefault();
+//     Subwindows_Open('Quiz_Refresh');
+// });
     
 
 
@@ -37,7 +37,7 @@ window.addEventListener("DOMContentLoaded", () => {
     Radio_Select(Settings_Data.QuizMode);
     Quiz_Mode_Set();
     setTimeout(function(){
-        document.getElementById("Quiz_Starter_Loader").setAttribute("State", "Inactive");
+        LoadingScreen_Hide();
         document.getElementById("Quiz_Starter_Content").setAttribute("State", "Active");
     }, 500);
     Quiz_Load_Data();
@@ -47,9 +47,9 @@ window.addEventListener("DOMContentLoaded", () => {
 function Quiz_Start(){
     Quiz_Mode_Set();
     Element_Attribute_Set("Quiz_Starter", "State", "Inactive");
-    setTimeout(function(){
-        Element_Attribute_Set("Quiz_Starter", "Display", "none");
-    }, 500);
+    // setTimeout(function(){
+    //     Element_Attribute_Set("Quiz_Starter", "Display", "none");
+    // }, 500);
     
     Quiz_Question_Build();
 }
@@ -98,7 +98,7 @@ function Quiz_Load_Data(){
         }
         
     } else {
-        document.getElementById("Quiz_Starter_Loader").setAttribute("State", "Inactive");
+        LoadingScreen_Hide();
         document.getElementById("Quiz_Starter_Content").setAttribute("State", "Active");
         document.getElementById("Quiz_Starter_Title").innerHTML = "Error";
         document.getElementById("Quiz_Starter_Subject").innerHTML = "An error occured when loading this quiz. The file may not exist, is not readable, or something else.";
@@ -514,5 +514,5 @@ function Quiz_GoHome(){
     let Status = StorageItem_Get("SAP_Quiz_Status", "Session");
     Status.Status = "Complete";
     StorageItem_Set("SAP_Quiz_Status", Status, "Session");
-    Page_ChangePage('index.html');
+    Page_ChangePage('index.html', Transition);
 }

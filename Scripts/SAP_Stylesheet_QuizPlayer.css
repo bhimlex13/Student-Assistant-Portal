@@ -95,6 +95,8 @@
     display: flex;
     justify-content: center;
     padding: 50px;
+    position: fixed;
+    z-index: 10;
     pointer-events: all;
 }
 
@@ -105,7 +107,8 @@
 }
 
 .Quiz_Starter[State="Active"] {
-    display: grid;
+    display: flex;
+    opacity: 100%;
 }
 
 .Quiz_Starter_Loader {
@@ -118,8 +121,13 @@
     height: 100%;
     top: 0;
     opacity: 100%;
-    z-index: 500;
+    z-index: 1000;
     background-color: var(--SAP-Main-BG-Color);
+}
+
+.Quiz_Starter_Loader[State="Active"] {
+    opacity: 100%;
+    pointer-events: none;
 }
 
 .Quiz_Starter_Loader[State="Inactive"] {
@@ -812,6 +820,7 @@
     font-size: 250%;
     color: var(--SAP-Green-Base);
     letter-spacing: -1px;
+    text-align: center;
     background: -webkit-linear-gradient(45deg, rgba(102,16,242,1) 0%, rgba(63,84,243,1) 28%, rgba(223,78,165,1) 52%, rgba(63,84,243,1) 71%, rgba(102,16,242,1) 100%, rgba(245,126,66,1) 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;

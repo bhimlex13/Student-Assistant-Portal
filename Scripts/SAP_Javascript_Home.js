@@ -22,7 +22,7 @@ window.onload = function (){
                 sessionStorage.setItem("SAP_UserHasSignedIn", "true");
             } else {
                 Element_Attribute_Set('Home_Welcome', 'State', 'Invisible');
-                Element_Attribute_Set('Home_Welcome_Loading', 'State', 'Invisible');
+                LoadingScreen_Hide();
                 Home_Start();
             }
         } else {
@@ -30,7 +30,7 @@ window.onload = function (){
         }
     } else {
         Element_Attribute_Set('Home_Welcome', 'State', 'Invisible');
-        Element_Attribute_Set('Home_Welcome_Loading', 'State', 'Invisible');
+        LoadingScreen_Hide();
         Home_Start();
     }
 
@@ -44,7 +44,7 @@ function Home_Splash(){
     Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title_Text", "", "1s", "forwards", 1, 0.3);
 
     Element_Attribute_Set('Home_Welcome', 'State', 'Visible');
-    Element_Attribute_Set('Home_Welcome_Loading', 'State', 'Invisible');
+    LoadingScreen_Hide();
     setTimeout(function(){
         Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Content", "Home_Welcome_Sequence_1", "4s", "forwards", 1, 1);
         Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title", "Home_Welcome_Sequence_2", "4s", "forwards", 1, 1);
@@ -349,7 +349,7 @@ function Explorer_Item_Open(Item_Link){
         "Status": "Incomplete"
     }
     StorageItem_Set("SAP_Quiz_Status", Status, "Session");
-    Page_ChangePage(`${Item_Link}`);
+    Page_ChangePage(`${Item_Link}`, Transition);
 }
 
 // Schedules
