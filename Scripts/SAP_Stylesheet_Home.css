@@ -227,6 +227,12 @@
     font-family: var(--Text-Font-Secondary);
 }
 
+.Quizzes_Top_Title{
+    display: grid; 
+    grid-template-columns: 1fr auto; 
+    grid-gap: 10px;
+}
+
 .Quizzes{
     position: relative;
 }

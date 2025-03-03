@@ -185,9 +185,16 @@
         </div>
         <div class="Page_Content_Main" id="Content" Tabs_CurrentTab="">
             <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Quizzes">
-                <h1 class="Home_Page_Title">
-                    Quizzes
-                </h1>
+                <div class="Quizzes_Top_Title">
+                    <h1 class="Home_Page_Title">
+                        Quizzes
+                    </h1>
+                    <button class="Toggle Button_List_Item" id="Setting_HideThumbnails" onclick="Buttons_Toggle(this.id), Settings_Save(), Explorer_Refresh()" State="Inactive">
+                        <div class="Toggle_Indicator"></div>
+                        Hide thumbnails
+                    </button>
+                </div>
+                
                 <div class="Quizzes" id="Quizzes_Container"> 
                     <div class="Quizzes_Title">
                         <button class="General_Button" onclick="Explorer_Back()">

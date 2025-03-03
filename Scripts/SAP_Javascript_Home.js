@@ -8,6 +8,12 @@ let Onload_Requirements = {
 window.onload = function (){
     Settings_Load_Data();
     Settings_Load_Values();
+    if(Settings_Data.HideQuizThumbnails == "undefined"){
+        Element_Attribute_Set("Setting_HideThumbnails", "State", "Inactive");
+        Settings_Save();
+        Settings_Load_Values();
+        console.log("Triggered");
+    }
     if (Onload_Requirements.Splash_Require == true){
         if (Onload_Requirements.Splash_OpenOncePerSession == true){
             var Session_UserHasSignedIn = sessionStorage.getItem('SAP_UserHasSignedIn');
@@ -27,6 +33,8 @@ window.onload = function (){
         Element_Attribute_Set('Home_Welcome_Loading', 'State', 'Invisible');
         Home_Start();
     }
+
+    
 };
 
 function Home_Splash(){
@@ -99,18 +107,27 @@ async function Quizzes_Manifest_Load(Quizzes_Manifest_FileURL) {
 // Subject array
 var Explorer_Status_Evaluator = 0;
 function Quizzes_Explorer_Load_Subject(){
+
+    UF_Parameter_Remove("Subject");
+    UF_Parameter_Remove("Module");
+    UF_Parameter_Remove("Quiz");
     Explorer_Status_Evaluator = 0;
     Element_Attribute_Set("Quizzes_Explorer_Status", "Display", "none");
     Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Close", "0.2s", "forwards", "1", 0);
     setTimeout(function(){
         Element_Attribute_Set("Quizzes_Container", "State", "Header_Inactive");
         Explorer_Container_Clear();
-        Explorer_Container_ChangeType("Image");
+        if (Settings_Data.HideQuizThumbnails == "Inactive"){
+            Explorer_Container_ChangeType("Image");
+        } else if (Settings_Data.HideQuizThumbnails == "Active"){
+            Explorer_Container_ChangeType("Text");
+        }
+        
         Element_Attribute_Set("Quizzes_Explorer", "Level", "1");
         for (a = 0; a < Quizzes_Manifest.Subject.length; a++){
             let Object = Quizzes_Manifest.Subject[a];
             if (Object.Subject_Status == "Active"){
-                Explorer_Item_Create(Object.Subject_ID, Object.Subject_Name, null, Object.Subject_Thumbnail, null, `Quizzes_Explorer_Load_Module(${a})`);
+                Explorer_Item_Create(Object.Subject_ID, Object.Subject_Name, "", Object.Subject_Thumbnail, null, `Quizzes_Explorer_Load_Module(${a})`);
                 Explorer_Status_Evaluator++;
             }
             
@@ -121,11 +138,25 @@ function Quizzes_Explorer_Load_Subject(){
         }
         Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Open", "0.4s", "forwards", "1", 50);
     }, 200);
-    
+    if (StorageItem_Get("SAP_Quiz_Status", "Session") != null){
+        let Status = StorageItem_Get("SAP_Quiz_Status", "Session");
+        console.log(Status);
+        console.log(Status.Subject);
+        console.log(Status.Module);
+        if (Status.Status == "Complete"){
+            
+            StorageItem_Set("SAP_Quiz_Status", null, "Session");
+            console.log("Triggered");
+            setTimeout(Explorer_Navigate(Status.Subject, Status.Module), 500);
+        }
+    }
 }
 
 // Module array
 function Quizzes_Explorer_Load_Module(Item){
+    UF_Parameter_Set("Subject", Item);
+    UF_Parameter_Remove("Module");
+    UF_Parameter_Remove("Quiz");
     Explorer_Status_Evaluator = 0;
     Element_Attribute_Set("Quizzes_Explorer_Status", "Display", "none");
     Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Close", "0.2s", "forwards", "1", 0);
@@ -133,7 +164,11 @@ function Quizzes_Explorer_Load_Module(Item){
         Element_Attribute_Set("Quizzes_Container", "State", "Header_Active");
         Element_Attribute_Set("Quizzes_Title_Content", "Stage", "Subject");
         Explorer_Container_Clear();
-        Explorer_Container_ChangeType("Image");
+        if (Settings_Data.HideQuizThumbnails == "Inactive"){
+            Explorer_Container_ChangeType("Image");
+        } else if (Settings_Data.HideQuizThumbnails == "Active"){
+            Explorer_Container_ChangeType("Text");
+        }
         Element_Attribute_Set("Quizzes_Explorer", "Level", "2");
         Element_Attribute_Set("Quizzes_Explorer", "Memory_Value", Item);
         
@@ -155,6 +190,9 @@ function Quizzes_Explorer_Load_Module(Item){
 
 // Subfolder array
 function Quizzes_Explorer_Load_Quizzes(Item, Module){
+    UF_Parameter_Set("Subject", Item);
+    UF_Parameter_Set("Module", Module);
+    UF_Parameter_Remove("Quiz");
     Explorer_Status_Evaluator = 0;
     Element_Attribute_Set("Quizzes_Explorer_Status", "Display", "none");
     Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Close", "0.2s", "forwards", "1", 0);
@@ -175,6 +213,7 @@ function Quizzes_Explorer_Load_Quizzes(Item, Module){
             Element_Attribute_Set("Quizzes_Explorer_Status", "Display", "block");
         }
         
+        document.getElementById("Quizzes_Title_Subject").innerHTML = Quizzes_Manifest.Subject[Item].Subject_Name;
         document.getElementById("Quizzes_Title_Folder").innerHTML = Quizzes_Manifest.Subject[Item].Subject_Module[Module].Module_Name;
         Element_Style_Animate_Batch_QuerySelector(".Explorer_Item", "Explorer_Item_Open", "0.4s", "forwards", "1", 50);
     }, 200);
@@ -194,6 +233,36 @@ function Explorer_Back(){
         }
     
     
+}
+
+// Navigates to a subject/module
+function Explorer_Navigate(Subject, Module){
+    Element_Get_ByID("Quizzes").click();
+    // Subject level
+    if (Subject != null && Module == null){
+        Quizzes_Explorer_Load_Module(Subject);
+    } 
+    // Module level
+    if (Subject != null && Module != null){
+        Quizzes_Explorer_Load_Quizzes(Subject, Module)
+        Element_Attribute_Set("Quizzes_Explorer", "Memory_Value", Subject);
+    }
+}
+
+// Refreshes the list
+function Explorer_Refresh(){
+    
+    if (Element_Attribute_Get("Quizzes_Explorer", "Level") == "1"){
+        Quizzes_Explorer_Load_Subject();
+    }
+    if (Element_Attribute_Get("Quizzes_Explorer", "Level") == "2"){
+        Quizzes_Explorer_Load_Module(UF_Parameter_Get("Subject"));
+    }
+    if (Element_Attribute_Get("Quizzes_Explorer", "Level") == "3"){
+        Quizzes_Explorer_Load_Module(UF_Parameter_Get("Subject"), UF_Parameter_Get("Module"));
+    }
+
+
 }
 
 // Clears the contents of the container
@@ -239,7 +308,7 @@ function Explorer_Item_Create(Item_ID, Item_Title, Item_Subtitle, Item_Thumbnail
         Item_Element.setAttribute('class', 'Explorer_Item');
         Item_Element.setAttribute('Type', 'Image');
         if (Item_Link != null){
-            Item_Element.setAttribute('onclick', `Page_ChangePage("${Item_Link}")`);
+            Item_Element.setAttribute('onclick', `Explorer_Item_Open("${Item_Link}")`);
         } else {
             Item_Element.setAttribute('onclick', `${Item_Onclick}`);
         }
@@ -262,13 +331,25 @@ function Explorer_Item_Create(Item_ID, Item_Title, Item_Subtitle, Item_Thumbnail
         Item_Element.setAttribute('class', 'Explorer_Item');
         Item_Element.setAttribute('Type', 'Text');
         if (Item_Link != null){
-            Item_Element.setAttribute('onclick', `Page_ChangePage("${Item_Link}")`);
+            Item_Element.setAttribute('onclick', `Explorer_Item_Open("${Item_Link}")`);
         } else {
             Item_Element.setAttribute('onclick', `${Item_Onclick}`);
         }
         document.getElementById("Quizzes_Explorer").appendChild(Item_Element);
     }
 
+}
+
+// Save the status of the quiz to session storage
+function Explorer_Item_Open(Item_Link){
+    let Status = {
+        "Subject": UF_Parameter_Get("Subject"),
+        "Module": UF_Parameter_Get("Module"),
+        "Link": Item_Link,
+        "Status": "Incomplete"
+    }
+    StorageItem_Set("SAP_Quiz_Status", Status, "Session");
+    Page_ChangePage(`${Item_Link}`);
 }
 
 // Schedules

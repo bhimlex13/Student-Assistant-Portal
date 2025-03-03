@@ -508,3 +508,11 @@ function Quiz_Finish(Verdict){
     }
     document.getElementById("Quiz_Finisher_Controls_Button_Retry").focus();
 }
+
+// Go back to home
+function Quiz_GoHome(){
+    let Status = StorageItem_Get("SAP_Quiz_Status", "Session");
+    Status.Status = "Complete";
+    StorageItem_Set("SAP_Quiz_Status", Status, "Session");
+    Page_ChangePage('index.html');
+}

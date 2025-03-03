@@ -353,6 +353,10 @@
     .MenuBar[State = "Collapsed"] > .MenuBar_List > .MenuBar_List_Item > .MenuBar_List_Item_Text{
         opacity: 100%;
     }
+
+    .Quizzes_Top_Title{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Quiz player */
