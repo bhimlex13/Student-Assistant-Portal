@@ -12,7 +12,7 @@ window.onload = function (){
         Element_Attribute_Set("Setting_HideThumbnails", "State", "Inactive");
         Settings_Save();
         Settings_Load_Values();
-        console.log("Triggered");
+        Page_ChangePage();
     }
     if (Onload_Requirements.Splash_Require == true){
         if (Onload_Requirements.Splash_OpenOncePerSession == true){
