@@ -168,7 +168,7 @@
             </h2>
             <span></span>
             <div class="Quiz_Starter_Control">
-              <button class="General_Button Quiz_Starter_Control_Primary" Secondary onclick="Page_ChangePage('index.html')">Back to home</button>
+              <button class="General_Button Quiz_Starter_Control_Primary" Secondary onclick="Quiz_GoHome()">Back to home</button>
               <button class="General_Button Quiz_Starter_Control_Primary" Secondary State="Selected" id="Settings" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Quiz_Starter_Content" Tabs_Tab_Target_Tab="Tab_Starter_Settings" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">Change mode</button>
               <button class="General_Button Quiz_Starter_Control_Primary" onclick="Quiz_Start('Multiple_Choices')" Primary>Start</button>
             </div>
@@ -360,7 +360,7 @@
             <b>Quiz Player</b>
           </p>
         </button>
-        <button class="MenuBar_List_Item" onclick="Page_ChangePage('index.html')">
+        <button class="MenuBar_List_Item" onclick="Quiz_GoHome();">
           <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Home.png' draggable='false' loading='lazy' />
           <span class="MenuBar_List_Item_Indicator">
           </span>
