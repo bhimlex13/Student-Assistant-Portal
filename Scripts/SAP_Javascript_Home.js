@@ -8,11 +8,11 @@ let Onload_Requirements = {
 window.onload = function (){
     Settings_Load_Data();
     Settings_Load_Values();
-    if(Settings_Data.HideQuizThumbnails == "undefined"){
+    if(Settings_Data.HideQuizThumbnails == "undefined" || Settings_Data.HideQuizThumbnails == undefined){
         Element_Attribute_Set("Setting_HideThumbnails", "State", "Inactive");
         Settings_Save();
         Settings_Load_Values();
-        Page_ChangePage();
+        Page_ChangePage("");
     }
     if (Onload_Requirements.Splash_Require == true){
         if (Onload_Requirements.Splash_OpenOncePerSession == true){
