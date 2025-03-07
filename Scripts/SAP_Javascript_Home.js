@@ -2,7 +2,9 @@ let Onload_Requirements = {
     // Set to false if you don't want the splash to appear
     Splash_Require: true,
     // Set to false if you want the splash to open every load of the page
-    Splash_OpenOncePerSession: true
+    Splash_OpenOncePerSession: true,
+    // Increment this on any major changes in the system so the WhatsNew window will open
+    Version: 1
 }
 
 window.onload = function (){
@@ -61,6 +63,24 @@ function Home_Start(){
     Quizzes_Manifest_Load();
     Schedules_Class_Load(Schedules_Class_Manifest_FileURL);
     Schedules_Exams_Load(Schedules_Exams_Manifest_FileURL);
+    var Version = Onload_Requirements.Version;
+    
+    if(StorageItem_Get("SAP_Version", "Local") != null){
+        let Data = StorageItem_Get("SAP_Version", "Local");
+        if(Data.Version != Version){
+            Subwindows_Open("SAP_WhatsNew");
+            AB_Renderer_Article_Render(Data_Import_FromPath("Assets/SAP_WhatsNew.cbe_ab", "JSON"));
+            Data.Version = Version;
+            StorageItem_Set("SAP_Version", Data, "Local");
+        }
+    } else {
+        let Data = {Version: 0};
+        Subwindows_Open("SAP_WhatsNew");
+        AB_Renderer_Article_Render(Data_Import_FromPath("Assets/SAP_WhatsNew.cbe_ab", "JSON"));
+        Data.Version = Onload_Requirements.Version;
+        StorageItem_Set("SAP_Version", Data, "Local");
+    }
+    
 }
 
 // Object that contains the subject list

@@ -1,0 +1,17 @@
+{
+  "Metadata": {
+    "Article_Banner": "https://elmerf5445.github.io/Article-Builder/Assets/Background/Splash.png",
+    "Article_Title": "",
+    "Article_Title_Height": "120px",
+    "Article_Author": "",
+    "Article_Category": "",
+    "Article_PublishingDate": ""
+  },
+  "Contents": [
+    {
+      "Type": "Bulleted_List",
+      "Header": "Here's what changed since you last visited:",
+      "Content": "You can now hide thumbnail images in the home screen.\nAfter finishing a quiz, going back to home will automatically redirect towards the last module you viewed.\nWhen viewing a quiz, you can now go back to your previously answered questions, see the correct answer along with your answer. Simply open the Questions tab to jump to a specific question.\nSwitching pages now has smooth transitions in between."
+    }
+  ]
+}

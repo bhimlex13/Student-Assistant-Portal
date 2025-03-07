@@ -486,3 +486,11 @@
     font-size: 1.4em;
     margin: 0;
 }
+
+.Subwindows{
+}
+
+.Subwindow{
+    border-radius: 10px;
+    background-color: var(--SAP-Main-BG-Color);
+}
