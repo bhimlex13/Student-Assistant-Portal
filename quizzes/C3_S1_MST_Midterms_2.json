@@ -1,0 +1,292 @@
+{
+  "quizInfo": {
+    "Subject": "Mobile Systems and Technologies",
+    "Term": "Midterms",
+    "Title": "04 Handout 1 - User Interface",
+    "LastModified": "11 March 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What defines the structure for an app's user interface?",
+      "answer": "layout",
+      "choices": [
+        "View",
+        "ViewGroup",
+        "notification",
+        "layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which invisible container defines the layout structure for View and other objects?",
+      "answer": "ViewGroup",
+      "choices": [
+        "View",
+        "layout",
+        "Frame Layout",
+        "ViewGroup"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What draws something the user can see and interact with?",
+      "answer": "View",
+      "choices": [
+        "ViewGroup",
+        "Constraint Layout",
+        "Web View",
+        "View"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method separates the presentation of the app from the code that controls its behavior?",
+      "answer": "Declare UI elements in XML",
+      "choices": [
+        "Instantiate layout elements at runtime",
+        "Constraint Layout",
+        "Linear Layout",
+        "Declare UI elements in XML"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method allows View and ViewGroup objects to be created and manipulated programmatically?",
+      "answer": "Instantiate layout elements at runtime",
+      "choices": [
+        "Declare UI elements in XML",
+        "Frame Layout",
+        "Table Layout",
+        "Instantiate layout elements at runtime"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides an interface to global information about an application environment?",
+      "answer": "Context",
+      "choices": [
+        "ViewGroup",
+        "layout",
+        "notification",
+        "Context"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property sets the size of a view to the dimensions required by its content?",
+      "answer": "wrap_content",
+      "choices": [
+        "match_parent",
+        "width and height",
+        "ViewGroup",
+        "wrap_content"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property sets a view to be as big as its parent view allows?",
+      "answer": "match_parent",
+      "choices": [
+        "wrap_content",
+        "width and height",
+        "Constraint Layout",
+        "match_parent"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout creates large and complex layouts with a flat view hierarchy?",
+      "answer": "Constraint Layout",
+      "choices": [
+        "Linear Layout",
+        "Relative Layout",
+        "Grid Layout",
+        "Constraint Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout organizes its child view elements into a single horizontal or vertical row?",
+      "answer": "Linear Layout",
+      "choices": [
+        "Relative Layout",
+        "Constraint Layout",
+        "Frame Layout",
+        "Linear Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout specifies the location of child objects relative to each other or the parent?",
+      "answer": "Relative Layout",
+      "choices": [
+        "Linear Layout",
+        "Grid Layout",
+        "Table Layout",
+        "Relative Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout is used for displaying web pages?",
+      "answer": "Web View",
+      "choices": [
+        "Constraint Layout",
+        "Relative Layout",
+        "Grid Layout",
+        "Web View"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout is designed to block out an area on the screen to display a single item?",
+      "answer": "Frame Layout",
+      "choices": [
+        "Table Layout",
+        "Grid Layout",
+        "Linear Layout",
+        "Frame Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout arranges its child objects into rows and columns?",
+      "answer": "Table Layout",
+      "choices": [
+        "Grid Layout",
+        "Relative Layout",
+        "Frame Layout",
+        "Table Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout arranges its child objects in a rectangular grid that can be scrolled?",
+      "answer": "Grid Layout",
+      "choices": [
+        "Table Layout",
+        "Relative Layout",
+        "Constraint Layout",
+        "Grid Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a message that Android displays outside the appâ€™s UI for reminders or alerts?",
+      "answer": "notification",
+      "choices": [
+        "dialog",
+        "toast",
+        "snackbar",
+        "notification"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component allows viewing more details and taking actions with a notification?",
+      "answer": "notification drawer",
+      "choices": [
+        "app bar",
+        "dialog",
+        "menu",
+        "notification drawer"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component provides a visual structure and interactive elements for user navigation?",
+      "answer": "app bar",
+      "choices": [
+        "dialog",
+        "toast",
+        "Frame Layout",
+        "app bar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which part of the UI provides important actions like search and navigation?",
+      "answer": "action bar",
+      "choices": [
+        "notification drawer",
+        "menu",
+        "toast",
+        "action bar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component provides simple feedback about an operation in a small popup?",
+      "answer": "toast",
+      "choices": [
+        "snackbar",
+        "dialog",
+        "notification",
+        "toast"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component provides a quick pop-up message to the user?",
+      "answer": "snackbar",
+      "choices": [
+        "toast",
+        "dialog",
+        "notification",
+        "snackbar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component is a small window that prompts the user for a decision or input?",
+      "answer": "dialog",
+      "choices": [
+        "toast",
+        "snackbar",
+        "menu",
+        "dialog"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component presents user actions and other options in an app's activities?",
+      "answer": "menu",
+      "choices": [
+        "dialog",
+        "toast",
+        "notification",
+        "menu"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    }
+  ]
+}
