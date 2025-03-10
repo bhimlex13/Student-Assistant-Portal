@@ -181,7 +181,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which method is followed by onResume() if the activity returns to the foreground?",
+      "question": "Which method is followed by onResume() if the activity returns to the background?",
       "answer": "onPause()",
       "choices": [
         "onStop()",
