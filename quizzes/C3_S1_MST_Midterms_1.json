@@ -1,0 +1,400 @@
+{
+  "quizInfo": {
+    "Subject": "Mobile Systems and Technologies",
+    "Term": "Midterms",
+    "Title": "03 Handout 1 - Activities and Intents",
+    "LastModified": "11 March 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "03 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What represents a single screen where the user can perform a focused task?",
+      "answer": "activity",
+      "choices": [
+        "intent",
+        "fragment",
+        "view",
+        "activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is usually presented as a full-screen window for user interaction?",
+      "answer": "activity",
+      "choices": [
+        "service",
+        "content provider",
+        "broadcast receiver",
+        "activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component in an app requires an associated XML layout file?",
+      "answer": "activity",
+      "choices": [
+        "service",
+        "intent",
+        "fragment",
+        "activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component must be declared in the AndroidManifest.xml file?",
+      "answer": "activity",
+      "choices": [
+        "intent",
+        "service",
+        "fragment",
+        "activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component is presented first when the app is launched?",
+      "answer": "main activity",
+      "choices": [
+        "background service",
+        "intent",
+        "fragment",
+        "main activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component can initiate other activity to perform different actions?",
+      "answer": "main activity",
+      "choices": [
+        "content provider",
+        "broadcast receiver",
+        "service",
+        "main activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term describes the set of states a activity can be in during its lifetime?",
+      "answer": "activity life cycle",
+      "choices": [
+        "activity stack",
+        "activity manager",
+        "activity thread",
+        "activity life cycle"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked when a activity is launched for the first time?",
+      "answer": "onCreate()",
+      "choices": [
+        "onStart()",
+        "onResume()",
+        "onDestroy()",
+        "onCreate()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It happens only once for the entire life of the acitivity.",
+      "answer": "onCreate()",
+      "choices": [
+        "onStart()",
+        "onResume()",
+        "onPause()",
+        "onCreate()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked before a activity becomes visible to the user?",
+      "answer": "onStart()",
+      "choices": [
+        "onCreate()",
+        "onPause()",
+        "onDestroy()",
+        "onStart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onResume() if the activity comes to the foreground?",
+      "answer": "onStart()",
+      "choices": [
+        "onPause()",
+        "onStop()",
+        "onDestroy()",
+        "onStart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onStop() if the acitivity becomes hidden?",
+      "answer": "onStart()",
+      "choices": [
+        "onPause()",
+        "onDestroy()",
+        "onResume()",
+        "onStart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked before a component starts interacting with the user?",
+      "answer": "onResume()",
+      "choices": [
+        "onPause()",
+        "onStop()",
+        "onDestroy()",
+        "onResume()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked when another activity is about to resume?",
+      "answer": "onPause()",
+      "choices": [
+        "onResume()",
+        "onStop()",
+        "onRestart()",
+        "onPause()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onResume() if the activity returns to the foreground?",
+      "answer": "onPause()",
+      "choices": [
+        "onStop()",
+        "onDestroy()",
+        "onStart()",
+        "onPause()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onStop() if the activity becomes invisible?",
+      "answer": "onPause()",
+      "choices": [
+        "onStart()",
+        "onResume()",
+        "onDestroy()",
+        "onPause()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is called when a activity is no longer visible?",
+      "answer": "onStop()",
+      "choices": [
+        "onPause()",
+        "onDestroy()",
+        "onResume()",
+        "onStop()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onRestart() if the activity is coming back to interact with the user?",
+      "answer": "onStop()",
+      "choices": [
+        "onPause()",
+        "onResume()",
+        "onDestroy()",
+        "onStop()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onDestroy() if the activity is about to end?",
+      "answer": "onStop()",
+      "choices": [
+        "onRestart()",
+        "onPause()",
+        "onResume()",
+        "onStop()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked when a activity is about to be dismissed from memory?",
+      "answer": "onDestroy()",
+      "choices": [
+        "onPause()",
+        "onStop()",
+        "onStart()",
+        "onDestroy()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked when a activity comes back after being stopped?",
+      "answer": "onRestart()",
+      "choices": [
+        "onResume()",
+        "onPause()",
+        "onStop()",
+        "onRestart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is always followed by onStart()?",
+      "answer": "onRestart()",
+      "choices": [
+        "onResume()",
+        "onPause()",
+        "onStop()",
+        "onRestart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is used to start or activate an activity?",
+      "answer": "Intents",
+      "choices": [
+        "activity",
+        "broadcast",
+        "fragment",
+        "Intents"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is an asynchronous message used in an activity to request an action from another activity?",
+      "answer": "Intents",
+      "choices": [
+        "Services",
+        "Fragments",
+        "Threads",
+        "Intents"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the activity that will receive the intent?",
+      "answer": "Target activity",
+      "choices": [
+        "Source activity",
+        "Foreground activity",
+        "Background activity",
+        "Target activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What contains a reference to the data the receiving activity will operate on?",
+      "answer": "Intent data",
+      "choices": [
+        "Intent extras",
+        "Intent flags",
+        "Intent category",
+        "Intent data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What carries information the receiving activity requires to accomplish the requested action?",
+      "answer": "Intent extras",
+      "choices": [
+        "Intent data",
+        "Intent action",
+        "Intent category",
+        "Intent extras"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What may instruct the Android system how to launch an activity or how to treat it after it's launched?",
+      "answer": "Intent flags",
+      "choices": [
+        "Intent data",
+        "Intent extras",
+        "Intent action",
+        "Intent flags"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of intent has an identified target activity by specifying the class name?",
+      "answer": "Explicit intent",
+      "choices": [
+        "Implicit intent",
+        "Broadcast intent",
+        "Pending intent",
+        "Explicit intent"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of intent does not specify the target activity but declares a general action to perform?",
+      "answer": "Implicit intent",
+      "choices": [
+        "Explicit intent",
+        "Broadcast intent",
+        "Pending intent",
+        "Implicit intent"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which attribute indicates that the main activity is the parent of the second activity?",
+      "answer": "parentActivityName",
+      "choices": [
+        "parentIntent",
+        "activityParent",
+        "mainParent",
+        "parentActivityName"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which attribute enables a left-facing arrow that allows the user to navigate from the current activity to its parent activity?",
+      "answer": "parentActivityName",
+      "choices": [
+        "parentIntent",
+        "activityParent",
+        "mainParent",
+        "parentActivityName"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    }
+  ]
+}
