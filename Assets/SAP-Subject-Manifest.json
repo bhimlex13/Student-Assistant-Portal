@@ -313,6 +313,48 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C3_S1_MST_Midterms",
+                    "Module_Name": "Midterms",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "11 March 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_MST_Midterms_1",
+                            "Subfolder_Name": "03 Handout 1 - Activities and Intents",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MST_Midterms_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "11 March 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_MST_Midterms_1",
+                            "Subfolder_Name": "04 Handout 1 - User Interface",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MST_Midterms_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "11 March 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_MST_Midterms_1",
+                            "Subfolder_Name": "Midterms Reviewer Pro Max",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MST_Midterms_3",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "11 March 2025",
+                            "Subfolder_Status": "Active"
+                        }  
+                    ]
                 }
             ]
         },

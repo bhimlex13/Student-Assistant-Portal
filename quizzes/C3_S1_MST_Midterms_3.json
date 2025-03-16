@@ -1,0 +1,676 @@
+{
+  "quizInfo": {
+    "Subject": "Mobile Systems and Technologies",
+    "Term": "Midterms",
+    "Title": "Midterms Reviewer Pro Max",
+    "LastModified": "11 March 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "03, Handout 1, 04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What defines the structure for an app's user interface?",
+      "answer": "layout",
+      "choices": [
+        "View",
+        "ViewGroup",
+        "notification",
+        "layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which invisible container defines the layout structure for View and other objects?",
+      "answer": "ViewGroup",
+      "choices": [
+        "View",
+        "layout",
+        "Frame Layout",
+        "ViewGroup"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What draws something the user can see and interact with?",
+      "answer": "View",
+      "choices": [
+        "ViewGroup",
+        "Constraint Layout",
+        "Web View",
+        "View"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method separates the presentation of the app from the code that controls its behavior?",
+      "answer": "Declare UI elements in XML",
+      "choices": [
+        "Instantiate layout elements at runtime",
+        "Constraint Layout",
+        "Linear Layout",
+        "Declare UI elements in XML"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method allows View and ViewGroup objects to be created and manipulated programmatically?",
+      "answer": "Instantiate layout elements at runtime",
+      "choices": [
+        "Declare UI elements in XML",
+        "Frame Layout",
+        "Table Layout",
+        "Instantiate layout elements at runtime"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides an interface to global information about an application environment?",
+      "answer": "Context",
+      "choices": [
+        "ViewGroup",
+        "layout",
+        "notification",
+        "Context"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property sets the size of a view to the dimensions required by its content?",
+      "answer": "wrap_content",
+      "choices": [
+        "match_parent",
+        "width and height",
+        "ViewGroup",
+        "wrap_content"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property sets a view to be as big as its parent view allows?",
+      "answer": "match_parent",
+      "choices": [
+        "wrap_content",
+        "width and height",
+        "Constraint Layout",
+        "match_parent"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout creates large and complex layouts with a flat view hierarchy?",
+      "answer": "Constraint Layout",
+      "choices": [
+        "Linear Layout",
+        "Relative Layout",
+        "Grid Layout",
+        "Constraint Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout organizes its child view elements into a single horizontal or vertical row?",
+      "answer": "Linear Layout",
+      "choices": [
+        "Relative Layout",
+        "Constraint Layout",
+        "Frame Layout",
+        "Linear Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout specifies the location of child objects relative to each other or the parent?",
+      "answer": "Relative Layout",
+      "choices": [
+        "Linear Layout",
+        "Grid Layout",
+        "Table Layout",
+        "Relative Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout is used for displaying web pages?",
+      "answer": "Web View",
+      "choices": [
+        "Constraint Layout",
+        "Relative Layout",
+        "Grid Layout",
+        "Web View"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout is designed to block out an area on the screen to display a single item?",
+      "answer": "Frame Layout",
+      "choices": [
+        "Table Layout",
+        "Grid Layout",
+        "Linear Layout",
+        "Frame Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout arranges its child objects into rows and columns?",
+      "answer": "Table Layout",
+      "choices": [
+        "Grid Layout",
+        "Relative Layout",
+        "Frame Layout",
+        "Table Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout arranges its child objects in a rectangular grid that can be scrolled?",
+      "answer": "Grid Layout",
+      "choices": [
+        "Table Layout",
+        "Relative Layout",
+        "Constraint Layout",
+        "Grid Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a message that Android displays outside the appâ€™s UI for reminders or alerts?",
+      "answer": "notification",
+      "choices": [
+        "dialog",
+        "toast",
+        "snackbar",
+        "notification"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component allows viewing more details and taking actions with a notification?",
+      "answer": "notification drawer",
+      "choices": [
+        "app bar",
+        "dialog",
+        "menu",
+        "notification drawer"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component provides a visual structure and interactive elements for user navigation?",
+      "answer": "app bar",
+      "choices": [
+        "dialog",
+        "toast",
+        "Frame Layout",
+        "app bar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which part of the UI provides important actions like search and navigation?",
+      "answer": "action bar",
+      "choices": [
+        "notification drawer",
+        "menu",
+        "toast",
+        "action bar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component provides simple feedback about an operation in a small popup?",
+      "answer": "toast",
+      "choices": [
+        "snackbar",
+        "dialog",
+        "notification",
+        "toast"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component provides a quick pop-up message to the user?",
+      "answer": "snackbar",
+      "choices": [
+        "toast",
+        "dialog",
+        "notification",
+        "snackbar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component is a small window that prompts the user for a decision or input?",
+      "answer": "dialog",
+      "choices": [
+        "toast",
+        "snackbar",
+        "menu",
+        "dialog"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component presents user actions and other options in an app's activities?",
+      "answer": "menu",
+      "choices": [
+        "dialog",
+        "toast",
+        "notification",
+        "menu"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What represents a single screen where the user can perform a focused task?",
+      "answer": "activity",
+      "choices": [
+        "intent",
+        "fragment",
+        "view",
+        "activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is usually presented as a full-screen window for user interaction?",
+      "answer": "activity",
+      "choices": [
+        "service",
+        "content provider",
+        "broadcast receiver",
+        "activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component in an app requires an associated XML layout file?",
+      "answer": "activity",
+      "choices": [
+        "service",
+        "intent",
+        "fragment",
+        "activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component must be declared in the AndroidManifest.xml file?",
+      "answer": "activity",
+      "choices": [
+        "intent",
+        "service",
+        "fragment",
+        "activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component is presented first when the app is launched?",
+      "answer": "main activity",
+      "choices": [
+        "background service",
+        "intent",
+        "fragment",
+        "main activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component can initiate other activity to perform different actions?",
+      "answer": "main activity",
+      "choices": [
+        "content provider",
+        "broadcast receiver",
+        "service",
+        "main activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term describes the set of states a activity can be in during its lifetime?",
+      "answer": "activity life cycle",
+      "choices": [
+        "activity stack",
+        "activity manager",
+        "activity thread",
+        "activity life cycle"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked when a activity is launched for the first time?",
+      "answer": "onCreate()",
+      "choices": [
+        "onStart()",
+        "onResume()",
+        "onDestroy()",
+        "onCreate()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It happens only once for the entire life of the acitivity.",
+      "answer": "onCreate()",
+      "choices": [
+        "onStart()",
+        "onResume()",
+        "onPause()",
+        "onCreate()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked before a activity becomes visible to the user?",
+      "answer": "onStart()",
+      "choices": [
+        "onCreate()",
+        "onPause()",
+        "onDestroy()",
+        "onStart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onResume() if the activity comes to the foreground?",
+      "answer": "onStart()",
+      "choices": [
+        "onPause()",
+        "onStop()",
+        "onDestroy()",
+        "onStart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onStop() if the acitivity becomes hidden?",
+      "answer": "onStart()",
+      "choices": [
+        "onPause()",
+        "onDestroy()",
+        "onResume()",
+        "onStart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked before a component starts interacting with the user?",
+      "answer": "onResume()",
+      "choices": [
+        "onPause()",
+        "onStop()",
+        "onDestroy()",
+        "onResume()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked when another activity is about to resume?",
+      "answer": "onPause()",
+      "choices": [
+        "onResume()",
+        "onStop()",
+        "onRestart()",
+        "onPause()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onResume() if the activity returns to the background?",
+      "answer": "onPause()",
+      "choices": [
+        "onStop()",
+        "onDestroy()",
+        "onStart()",
+        "onPause()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onStop() if the activity becomes invisible?",
+      "answer": "onPause()",
+      "choices": [
+        "onStart()",
+        "onResume()",
+        "onDestroy()",
+        "onPause()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is called when a activity is no longer visible?",
+      "answer": "onStop()",
+      "choices": [
+        "onPause()",
+        "onDestroy()",
+        "onResume()",
+        "onStop()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onRestart() if the activity is coming back to interact with the user?",
+      "answer": "onStop()",
+      "choices": [
+        "onPause()",
+        "onResume()",
+        "onDestroy()",
+        "onStop()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onDestroy() if the activity is about to end?",
+      "answer": "onStop()",
+      "choices": [
+        "onRestart()",
+        "onPause()",
+        "onResume()",
+        "onStop()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked when a activity is about to be dismissed from memory?",
+      "answer": "onDestroy()",
+      "choices": [
+        "onPause()",
+        "onStop()",
+        "onStart()",
+        "onDestroy()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked when a activity comes back after being stopped?",
+      "answer": "onRestart()",
+      "choices": [
+        "onResume()",
+        "onPause()",
+        "onStop()",
+        "onRestart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is always followed by onStart()?",
+      "answer": "onRestart()",
+      "choices": [
+        "onResume()",
+        "onPause()",
+        "onStop()",
+        "onRestart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is used to start or activate an activity?",
+      "answer": "Intents",
+      "choices": [
+        "activity",
+        "broadcast",
+        "fragment",
+        "Intents"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is an asynchronous message used in an activity to request an action from another activity?",
+      "answer": "Intents",
+      "choices": [
+        "Services",
+        "Fragments",
+        "Threads",
+        "Intents"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the activity that will receive the intent?",
+      "answer": "Target activity",
+      "choices": [
+        "Source activity",
+        "Foreground activity",
+        "Background activity",
+        "Target activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What contains a reference to the data the receiving activity will operate on?",
+      "answer": "Intent data",
+      "choices": [
+        "Intent extras",
+        "Intent flags",
+        "Intent category",
+        "Intent data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What carries information the receiving activity requires to accomplish the requested action?",
+      "answer": "Intent extras",
+      "choices": [
+        "Intent data",
+        "Intent action",
+        "Intent category",
+        "Intent extras"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What may instruct the Android system how to launch an activity or how to treat it after it's launched?",
+      "answer": "Intent flags",
+      "choices": [
+        "Intent data",
+        "Intent extras",
+        "Intent action",
+        "Intent flags"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of intent has an identified target activity by specifying the class name?",
+      "answer": "Explicit intent",
+      "choices": [
+        "Implicit intent",
+        "Broadcast intent",
+        "Pending intent",
+        "Explicit intent"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of intent does not specify the target activity but declares a general action to perform?",
+      "answer": "Implicit intent",
+      "choices": [
+        "Explicit intent",
+        "Broadcast intent",
+        "Pending intent",
+        "Implicit intent"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which attribute indicates that the main activity is the parent of the second activity?",
+      "answer": "parentActivityName",
+      "choices": [
+        "parentIntent",
+        "activityParent",
+        "mainParent",
+        "parentActivityName"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which attribute enables a left-facing arrow that allows the user to navigate from the current activity to its parent activity?",
+      "answer": "parentActivityName",
+      "choices": [
+        "parentIntent",
+        "activityParent",
+        "mainParent",
+        "parentActivityName"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    }
+  ]
+}
