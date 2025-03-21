@@ -1,0 +1,580 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Midterms",
+    "Title": "End User Computing",
+    "LastModified": "21 March 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What computing systems and platforms allow non-programmers who use computers to create apps and outputs?",
+      "answer": "End User Computing",
+      "choices": [
+        "End User Development",
+        "Desktop and Laptop Computers",
+        "Virtual Desktops and Applications",
+        "End User Computing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What computing concept involves, enables, and integrates people with no background in programming into computing systems?",
+      "answer": "End User Computing",
+      "choices": [
+        "Mobile, Web, and Cloud Applications",
+        "End User Computing",
+        "Desktop Operating Systems and Applications",
+        "Smartphones and Wearables"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which computing system allows end users to better control their computing environment without the aid of real programmers?",
+      "answer": "End User Computing",
+      "choices": [
+        "Virtual Desktops and Applications",
+        "Desktop and Laptop Computers",
+        "End User Computing",
+        "End User Development"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the most common hardware aspect of an End User Computing (EUC) solution?",
+      "answer": "Desktop and Laptop Computers",
+      "choices": [
+        "Desktop Operating Systems and Applications",
+        "Mobile, Web, and Cloud Applications",
+        "Desktop and Laptop Computers",
+        "End User Development"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing covers the software aspect of desktop and laptop computers, either packaged or sold separately?",
+      "answer": "Desktop Operating Systems and Applications",
+      "choices": [
+        "Virtual Desktops and Applications",
+        "Desktop Operating Systems and Applications",
+        "Smartphones and Wearables",
+        "End User Computing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing refers to mobile hardware platforms such as phones, tablets, and watches?",
+      "answer": "Smartphones and Wearables",
+      "choices": [
+        "Desktop and Laptop Computers",
+        "End User Computing",
+        "Smartphones and Wearables",
+        "End User Development"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing gives priority and connectivity regardless of platform, such as email, instant messaging, and cloud storage?",
+      "answer": "Mobile, Web, and Cloud Applications",
+      "choices": [
+        "Smartphones and Wearables",
+        "End User Development",
+        "Mobile, Web, and Cloud Applications",
+        "Virtual Desktops and Applications"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing enhances mobility and connectivity through the development of cloud-based computing solutions?",
+      "answer": "Virtual Desktops and Applications",
+      "choices": [
+        "Mobile, Web, and Cloud Applications",
+        "Virtual Desktops and Applications",
+        "Desktop Operating Systems and Applications",
+        "End User Computing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What practice in End User Computing allows end users to develop their own information systems with IT support?",
+      "answer": "End User Development",
+      "choices": [
+        "End User Computing",
+        "Virtual Desktops and Applications",
+        "Mobile, Web, and Cloud Applications",
+        "End User Development"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User Development activities include providing computing workstations, elevated data access, and internet connectivity?",
+      "answer": "End User Development",
+      "choices": [
+        "End User Computing",
+        "End User Development",
+        "Desktop and Laptop Computers",
+        "Smartphones and Wearables"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens when poorly trained end users are incapable of correctly analyzing data or systems?",
+      "answer": "Errors in Analysis",
+      "choices": [
+        "Faulty Models",
+        "Errors in Analysis",
+        "Lack of Documentation",
+        "Possible security and privacy issue"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What issue arises when documentation is often inadequate or nonexistent, making maintenance difficult and expensive?",
+      "answer": "Lack of Documentation",
+      "choices": [
+        "Faulty Models",
+        "Lack of Documentation",
+        "Errors in Analysis",
+        "Application packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term refers to erroneous manufactured hardware and bugs in software?",
+      "answer": "Faulty Models",
+      "choices": [
+        "Faulty Models",
+        "Errors in Analysis",
+        "Possible security and privacy issue",
+        "Lack of Documentation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What risk occurs when an organization's data or actual software itself may be at risk of being manipulated or stolen?",
+      "answer": "Possible security and privacy issue",
+      "choices": [
+        "Errors in Analysis",
+        "Faulty Models",
+        "Possible security and privacy issue",
+        "Lack of Documentation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing tool consists of prewritten software packages marketed commercially?",
+      "answer": "Application packages",
+      "choices": [
+        "Office Automation Tools",
+        "Application packages",
+        "Knowledge Management",
+        "Communication Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing tool supports standard business functions like payroll, ledgers, and scheduling?",
+      "answer": "Application packages",
+      "choices": [
+        "4th Generation Programming Languages",
+        "Application packages",
+        "Communication Tools",
+        "Data Handling Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing tool is customizable via key parameters, such as MS Office?",
+      "answer": "Application packages",
+      "choices": [
+        "Application packages",
+        "Office Automation Tools",
+        "Graphic Design",
+        "Data Handling Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What programming tool allows end users to develop their computing solutions and consolidate them into small systems?",
+      "answer": "4th Generation Programming Languages",
+      "choices": [
+        "Knowledge Management",
+        "Group Systems / Computer-Supported Collaboration Workspaces",
+        "4th Generation Programming Languages",
+        "Text and Multimedia Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes word processing and presentation software?",
+      "answer": "Text and Multimedia Tools",
+      "choices": [
+        "Text and Multimedia Tools",
+        "Communication Tools",
+        "Data Handling Tools",
+        "Knowledge Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool consists of spreadsheets, statistical packages, and databases?",
+      "answer": "Data Handling Tools",
+      "choices": [
+        "Office Automation Tools",
+        "Communication Tools",
+        "Data Handling Tools",
+        "Application packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes emails and VoIP?",
+      "answer": "Communication Tools",
+      "choices": [
+        "Text and Multimedia Tools",
+        "Group Systems / Computer-Supported Collaboration Workspaces",
+        "Communication Tools",
+        "Data Handling Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes E-notebooks, directories, and project management tools?",
+      "answer": "Office Automation Tools",
+      "choices": [
+        "Office Automation Tools",
+        "Application Packages",
+        "Graphic Design",
+        "Data Handling Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes teleconferencing and virtual workspaces?",
+      "answer": "Group Systems / Computer-Supported Collaboration Workspaces",
+      "choices": [
+        "Communication Tools",
+        "Graphic Design",
+        "Group Systems / Computer-Supported Collaboration Workspaces",
+        "Text and Multimedia Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes graphic software and computer-aided design?",
+      "answer": "Graphic Design",
+      "choices": [
+        "Knowledge Management",
+        "Graphic Design",
+        "Office Automation Tools",
+        "Text and Multimedia Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes data mining?",
+      "answer": "Knowledge Management",
+      "choices": [
+        "Data Handling Tools",
+        "Knowledge Management",
+        "Communication Tools",
+        "Group Systems / Computer-Supported Collaboration Workspaces"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to the complete integration of basic office requirements for a department in an organization?",
+      "answer": "Office Automation",
+      "choices": [
+        "Office Information Systems",
+        "Office Automation",
+        "E-Communication",
+        "Software Packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What includes requirements such as word processing, electronic data filing, diary management, and communications?",
+      "answer": "Office Automation",
+      "choices": [
+        "Office Information Systems",
+        "Office Automation",
+        "Project Management",
+        "Calendar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What organizes functions in a way that they don’t have to be done separately or use additional workforce?",
+      "answer": "Office Automation",
+      "choices": [
+        "Process Software",
+        "Office Automation",
+        "Functions",
+        "E-Spreadsheet"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses software, hardware, and networking to improve workflow and communication of office workers?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "Office Automation",
+        "Office Information Systems",
+        "E-Communication",
+        "Software Packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What supports the collection of business office activities to help management and workforce manage jobs?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "Office Automation",
+        "Software Packages",
+        "Office Information Systems",
+        "Database Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can evolve and become automated to increase flexibility and effectiveness?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "Project Management",
+        "Office Information Systems",
+        "Office Automation",
+        "Functions"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What functionality facilitates e-communication via email and instant messaging?",
+      "answer": "E-Communication",
+      "choices": [
+        "E-Communication",
+        "Calendar",
+        "Word Processing",
+        "Office Information Systems"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What functionality manages auto-video communications via telephony or teleconferencing?",
+      "answer": "E-Communication",
+      "choices": [
+        "Office Automation",
+        "Office Information Systems",
+        "E-Communication",
+        "Functions"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What functionality facilitates record management via databases or data servers?",
+      "answer": "Database Management",
+      "choices": [
+        "Word Processing",
+        "Database Management",
+        "E-Spreadsheet",
+        "Software Packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What functionality automates business-specific processes to reduce or eliminate manpower requirements?",
+      "answer": "Process Software",
+      "choices": [
+        "Project Management",
+        "Process Software",
+        "Functions",
+        "Office Automation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides EUC to enhance end-user (employees) efficiency?",
+      "answer": "Functions",
+      "choices": [
+        "Office Automation",
+        "E-Spreadsheet",
+        "Functions",
+        "Software Packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to operations performed by activating key sequences like copy and paste?",
+      "answer": "Functions",
+      "choices": [
+        "Word Processing",
+        "Functions",
+        "Software Packages",
+        "Office Automation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to bundled apps that interact with system resources for various tasks like MS Office?",
+      "answer": "Software Packages",
+      "choices": [
+        "Software Packages",
+        "Office Information Systems",
+        "Database Management",
+        "Word Processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides specific capabilities other than those commonly offered and can be individual or bundled?",
+      "answer": "Process Software",
+      "choices": [
+        "E-Spreadsheet",
+        "Process Software",
+        "Graphic Design",
+        "Database Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software is designed for developing textual documents?",
+      "answer": "Word Processing",
+      "choices": [
+        "E-Spreadsheet",
+        "Word Processing",
+        "Office Information Systems",
+        "Software Packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is used for accounting and financial purposes, designed for maintaining, manipulating, and calculating data?",
+      "answer": "E-Spreadsheet",
+      "choices": [
+        "E-Spreadsheet",
+        "Database Management",
+        "Calendar",
+        "Word Processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides organized e-storage to search for and display pieces of information?",
+      "answer": "Database Management",
+      "choices": [
+        "Office Automation",
+        "Database Management",
+        "Process Software",
+        "E-Spreadsheet"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software allows users to layout text, graphics, and pictures on a page?",
+      "answer": "Desktop Publishing",
+      "choices": [
+        "Word Processing",
+        "Desktop Publishing",
+        "Graphic Design",
+        "Project Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software allows users to switch from one form of presentation to another for different users?",
+      "answer": "Graphic Design",
+      "choices": [
+        "E-Spreadsheet",
+        "Graphic Design",
+        "Office Automation",
+        "Word Processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software helps users identify tasks, track progress, and report information about a project?",
+      "answer": "Project Management",
+      "choices": [
+        "Software Packages",
+        "E-Communication",
+        "Project Management",
+        "Calendar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software is used to schedule events and includes additional functions like to-do lists and reminders?",
+      "answer": "Calendar",
+      "choices": [
+        "Calendar",
+        "Functions",
+        "Word Processing",
+        "E-Spreadsheet"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What permits sending information to users through computers’ communication links?",
+      "answer": "E-Communication",
+      "choices": [
+        "Database Management",
+        "E-Communication",
+        "Software Packages",
+        "Office Information Systems"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    }
+  ]
+}
