@@ -76,6 +76,17 @@
                             ],
                             "Subfolder_LastModified": "25 March 2025",
                             "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_GB_Midterms_2",
+                            "Subfolder_Name": "03 Handout 2",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_GB_Midterms_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "25 March 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }

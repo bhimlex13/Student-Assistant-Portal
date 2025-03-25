@@ -1,0 +1,292 @@
+{
+  "quizInfo": {
+    "Subject": "Great Books",
+    "Term": "Prelims",
+    "Title": "03 Handout 2",
+    "LastModified": "25 March 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "03 Handout 2"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is Ella's nickname in the Grimm version?",
+      "answer": "Ashputtel",
+      "choices": [
+        "Cinderella",
+        "Sleeping Beauty",
+        "Ashputtel",
+        "Belle"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Why is Ashputtel called that?",
+      "answer": "because she sleeps near the hearth where all the ashes gather",
+      "choices": [
+        "because she wears ash-colored clothes",
+        "because she never bathes",
+        "because she sleeps near the hearth where all the ashes gather",
+        "because she has dark hair"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does the Grimm version describe Cinderella's mother's death?",
+      "answer": "Gets into more details about Cinderella's mother’s death",
+      "choices": [
+        "Doesn't mention it at all",
+        "Only explains that her father was a widow",
+        "Mentions her father remarries",
+        "Gets into more details about Cinderella's mother’s death"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens to Cinderella's father in Disney's version?",
+      "answer": "Cinderella's father dies",
+      "choices": [
+        "Cinderella's father remarries",
+        "Cinderella's father dies",
+        "He leaves the family",
+        "He runs away"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens to Cinderella's father in the Grimm version?",
+      "answer": "The father never died, he was alive and allowed the step - mother to be cruel to Cinderella",
+      "choices": [
+        "Cinderella's father dies",
+        "He vanishes mysteriously",
+        "He supports Cinderella secretly",
+        "The father never died, he was alive and allowed the step - mother to be cruel to Cinderella"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Why does the king hold a ball in the Disney version?",
+      "answer": "King wants grandchild so he holds a ball hoping that his son will find his future wife",
+      "choices": [
+        "To celebrate the harvest",
+        "King wants grandchild so he holds a ball hoping that his son will find his future wife",
+        "To honor Cinderella",
+        "To throw a royal party"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Why does the prince hold a celebration in the Grimm version?",
+      "answer": "The Prince holds a royal celebration to find his bride",
+      "choices": [
+        "To impress the townsfolk",
+        "To meet eligible women",
+        "The Prince holds a royal celebration to find his bride",
+        "To honor his father"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "How can Cinderella attend the ball in Disney's version?",
+      "answer": "Can go to the ball only if she completes all her chores and has something appropriate to wear",
+      "choices": [
+        "Gets invited by the prince",
+        "Sneaks out of her house",
+        "Gets a pass from her stepmother",
+        "Can go to the ball only if she completes all her chores and has something appropriate to wear"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who transforms Cinderell's dress in the Disney version?",
+      "answer": "Her mice friends transform her mother’s dress into a ball gown using stolen materials",
+      "choices": [
+        "The prince's designer",
+        "Her fairy godmother",
+        "Her stepsisters",
+        "Her mice friends transform her mother’s dress into a ball gown using stolen materials"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Why does the stepmother get furious in the Disney version?",
+      "answer": "Stepmother sees dress and is furious as she has stolen their things",
+      "choices": [
+        "Stepmother gets jealous",
+        "Stepmother sees dress and is furious as she has stolen their things",
+        "She wants to wear it",
+        "It's too beautiful"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What animal friends help Cinderella in Grimm's version?",
+      "answer": "Calls to her bird friends who help her to complete the tasks",
+      "choices": [
+        "She has no helpers",
+        "Her dog and cat help her",
+        "Calls to her bird friends who help her to complete the tasks",
+        "The mice help her"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who grants Cinderella's wishes in the Grimm version?",
+      "answer": "Hazel tree above mother's grave grants her wishes",
+      "choices": [
+        "The Fairy Godmother",
+        "A kind stranger",
+        "Hazel tree above mother's grave grants her wishes",
+        "The prince''s wizard"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What does the hazel tree provide Cinderella in Grimm's version?",
+      "answer": "a gold and silver dress, and golden slippers",
+      "choices": [
+        "a wedding gown",
+        "a gold and silver dress, and golden slippers",
+        "a necklace and earrings",
+        "a carriage"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What figure protects Cinderella in Grimm's version?",
+      "answer": "a bird that's nested above her mother's grave",
+      "choices": [
+        "her stepsisters",
+        "her fairy godmother",
+        "a bird that's nested above her mother's grave",
+        "a dog and cat"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Why does Cinderella leave the ball in Disney's version?",
+      "answer": "Leaves Prince at the ball because it nears midnight, and she must be home before her original form transforms",
+      "choices": [
+        "She gets tired",
+        "Her stepmother arrives",
+        "Leaves Prince at the ball because it nears midnight, and she must be home before her original form transforms",
+        "She feels sick"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Where does Cinderella hide on the first night in Grimm's version?",
+      "answer": "escapes into the pigeon house",
+      "choices": [
+        "under the table",
+        "escapes into the pigeon house",
+        "behind the curtain",
+        "in the garden"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Where does Cinderella hide on the second night in Grimm's version?",
+      "answer": "escapes up a pear tree",
+      "choices": [
+        "in the attic",
+        "under her bed",
+        "in the basement",
+        "escapes up a pear tree"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What do the stepsisters do to fit into the slippers?",
+      "answer": "The stepsisters cut off their heels and toes so that they could fit their foot in the glass slippers",
+      "choices": [
+        "They cry",
+        "They smash the slippers",
+        "The stepsisters cut off their heels and toes so that they could fit their foot in the glass slippers",
+        "They try different shoes"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What causes the glass slipper to break in Disney's version?",
+      "answer": "Stepmother trips the Grand Duke who was holding the glass slipper",
+      "choices": [
+        "The Prince drops it",
+        "It breaks in Cinderella's hand",
+        "Stepmother trips the Grand Duke who was holding the glass slipper",
+        "It cracks during dancing"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is the Prince alerted to the sisters' lies in Grimm's version?",
+      "answer": "By two carrier pigeons who then peck out the stepsisters’ eyes",
+      "choices": [
+        "He overhears them",
+        "They confess",
+        "By two carrier pigeons who then peck out the stepsisters’ eyes",
+        "Cinderella tells him"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens to the stepsisters in the Grimm version?",
+      "answer": "The step-sisters live as blind beggars for the rest of their lives",
+      "choices": [
+        "They are forgiven",
+        "They run away",
+        "The step-sisters live as blind beggars for the rest of their lives",
+        "They become maids"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "How many official adaptations are there of Pride and Prejudice?",
+      "answer": "10 film/series adaptation",
+      "choices": [
+        6,
+        "10 film/series adaptation",
+        12,
+        4
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What year was the BBC mini-series adaptation considered definitive?",
+      "answer": "1995 BBC’s mini-series",
+      "choices": [
+        "1980 BBC’s mini-series",
+        "1995 BBC’s mini-series",
+        "2005 BBC’s mini-series",
+        "1940 adaptation"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    }
+  ]
+}
