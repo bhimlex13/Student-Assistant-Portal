@@ -1,0 +1,1000 @@
+{
+  "quizInfo": {
+    "Subject": "Great Books",
+    "Term": "Prelims",
+    "Title": "03 Handout 1 - 2",
+    "LastModified": "25 March 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "03 Handout 1 - 2"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is Ella's nickname in the Grimm version?",
+      "answer": "Ashputtel",
+      "choices": [
+        "Cinderella",
+        "Sleeping Beauty",
+        "Ashputtel",
+        "Belle"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Why is Ashputtel called that?",
+      "answer": "because she sleeps near the hearth where all the ashes gather",
+      "choices": [
+        "because she wears ash-colored clothes",
+        "because she never bathes",
+        "because she sleeps near the hearth where all the ashes gather",
+        "because she has dark hair"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does the Grimm version describe Cinderella's mother's death?",
+      "answer": "Gets into more details about Cinderella's mother’s death",
+      "choices": [
+        "Doesn't mention it at all",
+        "Only explains that her father was a widow",
+        "Mentions her father remarries",
+        "Gets into more details about Cinderella's mother’s death"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens to Cinderella's father in Disney's version?",
+      "answer": "Cinderella's father dies",
+      "choices": [
+        "Cinderella's father remarries",
+        "Cinderella's father dies",
+        "He leaves the family",
+        "He runs away"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens to Cinderella's father in the Grimm version?",
+      "answer": "The father never died, he was alive and allowed the step - mother to be cruel to Cinderella",
+      "choices": [
+        "Cinderella's father dies",
+        "He vanishes mysteriously",
+        "He supports Cinderella secretly",
+        "The father never died, he was alive and allowed the step - mother to be cruel to Cinderella"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Why does the king hold a ball in the Disney version?",
+      "answer": "King wants grandchild so he holds a ball hoping that his son will find his future wife",
+      "choices": [
+        "To celebrate the harvest",
+        "King wants grandchild so he holds a ball hoping that his son will find his future wife",
+        "To honor Cinderella",
+        "To throw a royal party"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Why does the prince hold a celebration in the Grimm version?",
+      "answer": "The Prince holds a royal celebration to find his bride",
+      "choices": [
+        "To impress the townsfolk",
+        "To meet eligible women",
+        "The Prince holds a royal celebration to find his bride",
+        "To honor his father"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "How can Cinderella attend the ball in Disney's version?",
+      "answer": "Can go to the ball only if she completes all her chores and has something appropriate to wear",
+      "choices": [
+        "Gets invited by the prince",
+        "Sneaks out of her house",
+        "Gets a pass from her stepmother",
+        "Can go to the ball only if she completes all her chores and has something appropriate to wear"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who transforms Cinderell's dress in the Disney version?",
+      "answer": "Her mice friends transform her mother’s dress into a ball gown using stolen materials",
+      "choices": [
+        "The prince's designer",
+        "Her fairy godmother",
+        "Her stepsisters",
+        "Her mice friends transform her mother’s dress into a ball gown using stolen materials"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Why does the stepmother get furious in the Disney version?",
+      "answer": "Stepmother sees dress and is furious as she has stolen their things",
+      "choices": [
+        "Stepmother gets jealous",
+        "Stepmother sees dress and is furious as she has stolen their things",
+        "She wants to wear it",
+        "It's too beautiful"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What animal friends help Cinderella in Grimm's version?",
+      "answer": "Calls to her bird friends who help her to complete the tasks",
+      "choices": [
+        "She has no helpers",
+        "Her dog and cat help her",
+        "Calls to her bird friends who help her to complete the tasks",
+        "The mice help her"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who grants Cinderella's wishes in the Grimm version?",
+      "answer": "Hazel tree above mother's grave grants her wishes",
+      "choices": [
+        "The Fairy Godmother",
+        "A kind stranger",
+        "Hazel tree above mother's grave grants her wishes",
+        "The prince''s wizard"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What does the hazel tree provide Cinderella in Grimm's version?",
+      "answer": "a gold and silver dress, and golden slippers",
+      "choices": [
+        "a wedding gown",
+        "a gold and silver dress, and golden slippers",
+        "a necklace and earrings",
+        "a carriage"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What figure protects Cinderella in Grimm's version?",
+      "answer": "a bird that's nested above her mother's grave",
+      "choices": [
+        "her stepsisters",
+        "her fairy godmother",
+        "a bird that's nested above her mother's grave",
+        "a dog and cat"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Why does Cinderella leave the ball in Disney's version?",
+      "answer": "Leaves Prince at the ball because it nears midnight, and she must be home before her original form transforms",
+      "choices": [
+        "She gets tired",
+        "Her stepmother arrives",
+        "Leaves Prince at the ball because it nears midnight, and she must be home before her original form transforms",
+        "She feels sick"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Where does Cinderella hide on the first night in Grimm's version?",
+      "answer": "escapes into the pigeon house",
+      "choices": [
+        "under the table",
+        "escapes into the pigeon house",
+        "behind the curtain",
+        "in the garden"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Where does Cinderella hide on the second night in Grimm's version?",
+      "answer": "escapes up a pear tree",
+      "choices": [
+        "in the attic",
+        "under her bed",
+        "in the basement",
+        "escapes up a pear tree"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What do the stepsisters do to fit into the slippers?",
+      "answer": "The stepsisters cut off their heels and toes so that they could fit their foot in the glass slippers",
+      "choices": [
+        "They cry",
+        "They smash the slippers",
+        "The stepsisters cut off their heels and toes so that they could fit their foot in the glass slippers",
+        "They try different shoes"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What causes the glass slipper to break in Disney's version?",
+      "answer": "Stepmother trips the Grand Duke who was holding the glass slipper",
+      "choices": [
+        "The Prince drops it",
+        "It breaks in Cinderella's hand",
+        "Stepmother trips the Grand Duke who was holding the glass slipper",
+        "It cracks during dancing"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is the Prince alerted to the sisters' lies in Grimm's version?",
+      "answer": "By two carrier pigeons who then peck out the stepsisters’ eyes",
+      "choices": [
+        "He overhears them",
+        "They confess",
+        "By two carrier pigeons who then peck out the stepsisters’ eyes",
+        "Cinderella tells him"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens to the stepsisters in the Grimm version?",
+      "answer": "The step-sisters live as blind beggars for the rest of their lives",
+      "choices": [
+        "They are forgiven",
+        "They run away",
+        "The step-sisters live as blind beggars for the rest of their lives",
+        "They become maids"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "How many official adaptations are there of Pride and Prejudice?",
+      "answer": "10 film/series adaptation",
+      "choices": [
+        6,
+        "10 film/series adaptation",
+        12,
+        4
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "What year was the BBC mini-series adaptation considered definitive?",
+      "answer": "1995 BBC’s mini-series",
+      "choices": [
+        "1980 BBC’s mini-series",
+        "1995 BBC’s mini-series",
+        "2005 BBC’s mini-series",
+        "1940 adaptation"
+      ],
+      "reference": "03_Handout_2",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who created the word 'fairy tale' in the late 17th century?",
+      "answer": "Madame d’Aulnoy",
+      "choices": [
+        "Angela Carter",
+        "Jane Austen",
+        "James Canton",
+        "Madame d’Aulnoy"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who first defined the term 'folklore' in 1846?",
+      "answer": "William Thoms",
+      "choices": [
+        "Jacob Grimm",
+        "Wilhelm Grimm",
+        "James Canton",
+        "William Thoms"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the earliest prose literature of Britain, based on Welsh oral tales?",
+      "answer": "Mabinogion",
+      "choices": [
+        "The Bloody Chamber",
+        "Tales of Mother Goose",
+        "Children's and Household Tales",
+        "Mabinogion"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How were stories in the Mabinogion originally shared?",
+      "answer": "Oral tales",
+      "choices": [
+        "Folklore collections",
+        "Written texts",
+        "Epic poems",
+        "Oral tales"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the 1697 collection by Charles Perrault called?",
+      "answer": "Tales of Mother Goose",
+      "choices": [
+        "The Juniper Tree",
+        "Norwegian Folktales",
+        "Children's and Household Tales",
+        "Tales of Mother Goose"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of folk collection did Johann Karl August Musaus publish between 1782-87?",
+      "answer": "satirical folk series",
+      "choices": [
+        "Children's and Household Tales",
+        "Finish folklore",
+        "The Bloody Chamber",
+        "satirical folk series"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which folklore is celebrated in the Kalevala by Elias Lonnrot?",
+      "answer": "Finish folklore",
+      "choices": [
+        "German folklore",
+        "French folklore",
+        "Welsh folklore",
+        "Finish folklore"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What folklore collection did Peter Christen Asbjornsen and Jrgen Moe publish in 1841?",
+      "answer": "Norwegian Folktales",
+      "choices": [
+        "Tales of Mother Goose",
+        "Finish folklore",
+        "The Juniper Tree",
+        "Norwegian Folktales"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which 1979 book by Angela Carter challenges traditional folktale portrayals of women?",
+      "answer": "The Bloody Chamber",
+      "choices": [
+        "Pride and Prejudice",
+        "The Juniper Tree",
+        "Tales of Mother Goose",
+        "The Bloody Chamber"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the time period of the oral tales collected in the Mabinogion?",
+      "answer": "c.1350-1410",
+      "choices": [
+        "1782-87",
+        "1835-49",
+        1841,
+        "c.1350-1410"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "When was 'Tales of Mother Goose' published?",
+      "answer": 1697,
+      "choices": [
+        "1835-49",
+        1979,
+        1841,
+        1697
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "When were the satirical folk series by Johann Karl August MusÃ¤us published?",
+      "answer": "1782-87",
+      "choices": [
+        1697,
+        "1835-49",
+        1979,
+        "1782-87"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "When was the Kalevala epic poem published?",
+      "answer": "1835-49",
+      "choices": [
+        1979,
+        1841,
+        1697,
+        "1835-49"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "When was the 'Norwegian Folktales' published by Asbjornsen and Moe?",
+      "answer": 1841,
+      "choices": [
+        "1835-49",
+        1697,
+        1979,
+        1841
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "When was 'The Bloody Chamber' by Angela Carter published?",
+      "answer": 1979,
+      "choices": [
+        "1835-49",
+        1841,
+        "1782-87",
+        1979
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What does the Grimm's Fairytale mainly focus on?",
+      "answer": "folklore collections",
+      "choices": [
+        "oral tales",
+        "satirical folk series",
+        "epic poems",
+        "folklore collections"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who said fairy tales are written in plain and simple styles?",
+      "answer": "James Canton",
+      "choices": [
+        "William Thoms",
+        "Angela Carter",
+        "W H Auden",
+        "James Canton"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the most magnificent body of stories collected by the Grimms?",
+      "answer": "Children’s and Household Tales",
+      "choices": [
+        "Norwegian Folktales",
+        "Tales of Mother Goose",
+        "The Juniper Tree",
+        "Children’s and Household Tales"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who declared Grimms' tales as a foundation of Western culture?",
+      "answer": "W H Auden",
+      "choices": [
+        "James Canton",
+        "Angela Carter",
+        "William Thoms",
+        "W H Auden"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which tale was sent to the Grimms by painter Philip Otto Runge?",
+      "answer": "The Juniper Tree",
+      "choices": [
+        "The Bloody Chamber",
+        "Cendrillon",
+        "Rapunzel",
+        "The Juniper Tree"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What helped make the Grimms' stories popular with children?",
+      "answer": "Edgar Taylor’s English translation",
+      "choices": [
+        "The Juniper Tree",
+        "The Bloody Chamber",
+        "Finish folklore",
+        "Edgar Taylor’s English translation"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does Perrault's Cinderella end?",
+      "answer": "forgives her stepsisters and finds good husbands for them",
+      "choices": [
+        "blinds her stepsisters",
+        "runs away",
+        "turns into a queen",
+        "forgives her stepsisters and finds good husbands for them"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who helps Cinderella in the Grimms' version?",
+      "answer": "The magical helper",
+      "choices": [
+        "The witch sorceress",
+        "The trickster",
+        "The transformed animal",
+        "The magical helper"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of characters is usually a mother in the Grimms' early versions?",
+      "answer": "The wicked stepmother",
+      "choices": [
+        "The trickster",
+        "The transformed animal",
+        "The magical helper",
+        "The wicked stepmother"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What archetype creates opportunities for shifts in plot and for gthe triggering of magical but often terrible events?",
+      "answer": "The witch sorceress",
+      "choices": [
+        "The trickster",
+        "The wicked stepmother",
+        "The magical helper",
+        "The witch sorceress"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What archetype creates manace and obstacles in a story to challenge the natural order?",
+      "answer": "The trickster",
+      "choices": [
+        "The magical helper",
+        "The witch sorceress",
+        "The transformed animal",
+        "The trickster"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What kind of character appears in tales involving magical transformation?",
+      "answer": "The transformed animal",
+      "choices": [
+        "The witch sorceress",
+        "The magical helper",
+        "The trickster",
+        "The transformed animal"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who are the Brothers Grimm?",
+      "answer": "Jacob Grimm and Wilhelm Grimm",
+      "choices": [
+        "Auten Grimm and Elizabeth Grimm",
+        "James Grimm and Daniel Grimm",
+        "Robert Grimm and Brown Grimm",
+        "Jacob Grimm and Wilhelm Grimm"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How were Jacob and Wilhelm Grimm related in their family?",
+      "answer": "oldest surviving sons of a family of six children",
+      "choices": [
+        "twin brothers",
+        "youngest children",
+        "only sons in the family",
+        "oldest surviving sons of a family of six children"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Where did the Brothers Grimm study?",
+      "answer": "University of Marburg",
+      "choices": [
+        "University of Oxford",
+        "Sorbonne University",
+        "Cambridge University",
+        "University of Marburg"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What methodology are the Grimms credited for developing?",
+      "answer": "collecting folk stories",
+      "choices": [
+        "writing epics",
+        "rewriting novels",
+        "creating fairy tales",
+        "collecting folk stories"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is the 32-volume German dictionary project by the Grimms described?",
+      "answer": "monumental",
+      "choices": [
+        "legendary",
+        "short-lived",
+        "trivial",
+        "monumental"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "When did the rise of the novel and Romanticism in literature occur?",
+      "answer": "early to mid-18th century",
+      "choices": [
+        "16th century",
+        "late 18th century",
+        "20th century",
+        "early to mid-18th century"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What new genre emerged by the close of the 18th century?",
+      "answer": "the novel of manners",
+      "choices": [
+        "Romanticism",
+        "Victorian realism",
+        "the novel of manners",
+        "satirical novel"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of novels were both authored by and featured female protagonists?",
+      "answer": "often dominated by women",
+      "choices": [
+        "focused on men",
+        "often dominated by women",
+        "led by children",
+        "focused on aristocrats"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What works gently satirize English country gentry and Gothic Romanticism?",
+      "answer": "Jane Austen’s novels",
+      "choices": [
+        "Charlotte Bronte's novels",
+        "Jane Austen’s novels",
+        "William Thackeray's novels",
+        "Samuel Richardson's novels"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What does Jane Austen highlight in her novels?",
+      "answer": "vulgarities and folies of the English upper classes",
+      "choices": [
+        "heroism in war",
+        "vulgarities and folies of the English upper classes",
+        "rural poverty",
+        "colonial life"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which story from 1740 tells of a servant girl climbing the social ranks?",
+      "answer": "Samuel Richardson’s Pamela",
+      "choices": [
+        "Vanity Fair",
+        "Jane Eyre",
+        "Samuel Richardson’s Pamela",
+        "Pride and Prejudice"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What year was Samuel Richardson's Pamela published?",
+      "answer": 1740,
+      "choices": [
+        1847,
+        1740,
+        1905,
+        1797
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which novel critiques Victorian class divisions and prejudice?",
+      "answer": "Jane Eyre",
+      "choices": [
+        "Jane Eyre",
+        "Vanity Fair",
+        "The House of Mirth",
+        "Pamela"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which novel was published from 1847 to 1848?",
+      "answer": "Vanity Fair",
+      "choices": [
+        "Vanity Fair",
+        "Jane Eyre",
+        "Pamela",
+        "The House of Mirth"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What novel reflects the moral and social constraints on women?",
+      "answer": "The House of Mirth",
+      "choices": [
+        "Pamela",
+        "Jane Eyre",
+        "The House of Mirth",
+        "Vanity Fair"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What year was Jane Eyre published?",
+      "answer": 1847,
+      "choices": [
+        1740,
+        1847,
+        1905,
+        "1847-48"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "When was Vanity Fair published?",
+      "answer": "1847-48",
+      "choices": [
+        "1847-48",
+        1740,
+        1905,
+        1847
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "When was The House of Mirth published?",
+      "answer": 1905,
+      "choices": [
+        1905,
+        "1847-48",
+        1740,
+        1817
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Whose journey does the reader follow in Pride and Prejudice?",
+      "answer": "Bennet sisters in their quest for an eligible bachelor",
+      "choices": [
+        "Jane and Bingley",
+        "Elizabeth and Darcy",
+        "Bennet sisters in their quest for an eligible bachelor",
+        "Charlotte and Mr. Collins"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who is the main protagonist of Pride and Prejudice?",
+      "answer": "Elizabeth Bennet",
+      "choices": [
+        "Jane",
+        "Elizabeth Bennet",
+        "Lydia",
+        "Mrs. Bennet"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who is the aristocrat Elizabeth meets in Pride and Prejudice?",
+      "answer": "Fitzwilliam Darcy",
+      "choices": [
+        "Mr. Bennet",
+        "Fitzwilliam Darcy",
+        "George Wickham",
+        "Charles Bingley"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who takes a liking to Elizabeth's older sister?",
+      "answer": "Bingley",
+      "choices": [
+        "Bingley",
+        "Darcy",
+        "Mr.Bennet",
+        "Elmer"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who does Lydia elope with, causing scandal?",
+      "answer": "officer George Wickham",
+      "choices": [
+        "Fitzwilliam Darcy",
+        "officer George Wickham",
+        "Mr. Collins",
+        "Charles Bingley"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What causes Elizabeth to misjudge Darcy and Wickham?",
+      "answer": "lead her to make errors to judgment",
+      "choices": [
+        "sense of superiority",
+        "lack of manners",
+        "lead her to make errors to judgment",
+        "prejudice from others"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What literary style does Austen use to critique her society?",
+      "answer": "use of subtle wit and irony",
+      "choices": [
+        "bold satire",
+        "dramatic tragedy",
+        "use of subtle wit and irony",
+        "gothic imagery"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Where was Jane Austen born?",
+      "answer": "Stevenson rectory",
+      "choices": [
+        "Bath",
+        "Stevenson rectory",
+        "London",
+        "Chawton"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What was Jane Austen's birth order in her family?",
+      "answer": "the seventh of eight children",
+      "choices": [
+        "the seventh of eight children",
+        "only child",
+        "first-born",
+        "youngest"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "When did Jane Austen begin her writing career?",
+      "answer": "started writing in her early teens",
+      "choices": [
+        "started writing in her early teens",
+        "after university",
+        "after marriage",
+        "at age 30"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What was the original title of Pride and Prejudice?",
+      "answer": "First Impressions",
+      "choices": [
+        "First Impressions",
+        "Sense and Sensibility",
+        "Pamela",
+        "Emma"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What inspired much of Jane Austen's fiction?",
+      "answer": "observations of genteel life",
+      "choices": [
+        "romanticism",
+        "observations of genteel life",
+        "political debates",
+        "religious issues"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What was Jane Austen's marital status?",
+      "answer": "she never married herself",
+      "choices": [
+        "she never married herself",
+        "married at 30",
+        "widowed",
+        "engaged"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "When did Jane Austen die?",
+      "answer": "She died in 1817 at the age of 41",
+      "choices": [
+        "She died in 1817 at the age of 41",
+        "She died in 1830 at the age of 50",
+        "She died in 1805 at the age of 35",
+        "She died in 1810 at the age of 42"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Midterms"
+    }
+  ]
+}
