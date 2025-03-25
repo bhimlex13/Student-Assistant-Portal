@@ -109,6 +109,28 @@
                             ],
                             "Subfolder_LastModified": "25 March 2025",
                             "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_GB_Midterms_5",
+                            "Subfolder_Name": "Pride and Prejudice",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_GB_Midterms_5",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "25 March 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_GB_Midterms_6",
+                            "Subfolder_Name": "Midterms Reviewer Pro Max",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_GB_Midterms_6",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "25 March 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }

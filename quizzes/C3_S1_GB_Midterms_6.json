@@ -2,16 +2,580 @@
   "quizInfo": {
     "Subject": "Great Books",
     "Term": "Midterms",
-    "Title": "03 Handout 1 - 2",
+    "Title": "Midterms Reviewer Pro Max",
     "LastModified": "25 March 2025",
     "Authors": [
       "Alexander Oro"
     ],
     "References": [
-      "03 Handout 1 - 2"
+      "Midterms Reviewer Pro Max"
     ]
   },
   "quizData": [
+    {
+      "question": "How many daughters did Mrs. Bennet have?",
+      "answer": "Five",
+      "choices": [
+        "Three",
+        "Four",
+        "Six",
+        "Five"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who is known for their false pride?",
+      "answer": "Darcy",
+      "choices": [
+        "Bingley",
+        "Wickham",
+        "Mr. Bennet",
+        "Darcy"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "What did Lydia do that scandalized her family?",
+      "answer": "Ran off with an army officer",
+      "choices": [
+        "Got married secretly",
+        "Became seriously ill",
+        "Lost family fortune",
+        "Ran off with an army officer"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who was described as too shy to show affection?",
+      "answer": "Jane",
+      "choices": [
+        "Elizabeth",
+        "Lydia",
+        "Mary",
+        "Jane"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who secretly admired Elizabeth despite appearing proud and aloof?",
+      "answer": "Darcy",
+      "choices": [
+        "Wickham",
+        "Bingley",
+        "Mr. Collins",
+        "Darcy"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who is the officer Lydia ran off with?",
+      "answer": "Wickham",
+      "choices": [
+        "Bingley",
+        "Darcy",
+        "Mr. Collins",
+        "Wickham"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "How many dances did Darcy dance at the first ball?",
+      "answer": "Four",
+      "choices": [
+        "Two",
+        "Six",
+        "Eight",
+        "Four"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who inherited Mr. Bennet's home and estate upon his death?",
+      "answer": "Mr. Collins",
+      "choices": [
+        "Darcy",
+        "Bingley",
+        "Wickham",
+        "Mr. Collins"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who proposed to Elizabeth first but was rejected?",
+      "answer": "Mr. Collins",
+      "choices": [
+        "Bingley",
+        "Darcy",
+        "Wickham",
+        "Mr. Collins"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who provided financial help to arrange Lydia's marriage?",
+      "answer": "Darcy",
+      "choices": [
+        "Mr. Bennet",
+        "Bingley",
+        "Mr. Collins",
+        "Darcy"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is the proper arrangement of the events?",
+      "answer": "Bingley moves to Netherfield - Jane visits Netherfield - Darcy insults Elizabeth - Elizabeth visits Charlotte - Lydia elopes",
+      "choices": [
+        "Darcy insults Elizabeth - Jane visits Netherfield - Bingley moves to Netherfield - Lydia elopes - Elizabeth visits Charlotte",
+        "Jane visits Netherfield - Bingley moves to Netherfield - Elizabeth visits Charlotte - Darcy insults Elizabeth - Lydia elopes",
+        "Lydia elopes - Elizabeth visits Charlotte - Jane visits Netherfield - Darcy insults Elizabeth - Bingley moves to Netherfield",
+        "Bingley moves to Netherfield - Jane visits Netherfield - Darcy insults Elizabeth - Elizabeth visits Charlotte - Lydia elopes"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is the proper arrangement of these scenes?",
+      "answer": "Mr. Bennet visits Mr. Bingley - The first ball occurs - Jane visits Netherfield - Elizabeth refuses Mr. Collins - Lydia runs away with Wickham",
+      "choices": [
+        "The first ball occurs - Mr. Bennet visits Mr. Bingley - Lydia runs away with Wickham - Elizabeth refuses Mr. Collins - Jane visits Netherfield",
+        "Jane visits Netherfield - Elizabeth refuses Mr. Collins - Mr. Bennet visits Mr. Bingley - Lydia runs away with Wickham - The first ball occurs",
+        "Lydia runs away with Wickham - Mr. Bennet visits Mr. Bingley - Elizabeth refuses Mr. Collins - The first ball occurs - Jane visits Netherfield",
+        "Mr. Bennet visits Mr. Bingley - The first ball occurs - Jane visits Netherfield - Elizabeth refuses Mr. Collins - Lydia runs away with Wickham"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is the correct sequence of these events?",
+      "answer": "Darcy insults Elizabeth - Wickham tells Elizabeth his story - Elizabeth refuses Darcy's proposal - Darcy explains truth in a letter",
+      "choices": [
+        "Wickham tells Elizabeth his story - Elizabeth refuses Darcy's proposal - Darcy insults Elizabeth - Darcy explains truth in a letter",
+        "Elizabeth refuses Darcy's proposal - Darcy insults Elizabeth - Wickham tells Elizabeth his story - Darcy explains truth in a letter",
+        "Darcy explains truth in a letter - Elizabeth refuses Darcy's proposal - Darcy insults Elizabeth - Wickham tells Elizabeth his story",
+        "Darcy insults Elizabeth - Wickham tells Elizabeth his story - Elizabeth refuses Darcy's proposal - Darcy explains truth in a letter"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is the proper sequence of these scenes?",
+      "answer": "Lydia runs away - Mr. Gardiner finds Lydia - Lydia marries Wickham - Darcy visits Elizabeth at home - Elizabeth and Darcy get engaged",
+      "choices": [
+        "Darcy visits Elizabeth at home - Lydia runs away - Lydia marries Wickham - Mr. Gardiner finds Lydia - Elizabeth and Darcy get engaged",
+        "Lydia marries Wickham - Lydia runs away - Mr. Gardiner finds Lydia - Darcy visits Elizabeth at home - Elizabeth and Darcy get engaged",
+        "Elizabeth and Darcy get engaged - Darcy visits Elizabeth at home - Lydia runs away - Lydia marries Wickham - Mr. Gardiner finds Lydia",
+        "Lydia runs away - Mr. Gardiner finds Lydia - Lydia marries Wickham - Darcy visits Elizabeth at home - Elizabeth and Darcy get engaged"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is the proper order of events involving Elizabeth and Darcy?",
+      "answer": "Elizabeth overhears Darcy insult her - Elizabeth refuses to dance with Darcy - Darcy proposes marriage - Elizabeth rejects Darcy's proposal - Darcy helps Lydia marry Wickham",
+      "choices": [
+        "Elizabeth refuses to dance with Darcy - Darcy proposes marriage - Elizabeth overhears Darcy insult her - Darcy helps Lydia marry Wickham - Elizabeth rejects Darcy's proposal",
+        "Darcy proposes marriage - Elizabeth overhears Darcy insult her - Elizabeth refuses to dance with Darcy - Elizabeth rejects Darcy's proposal - Darcy helps Lydia marry Wickham",
+        "Elizabeth rejects Darcy's proposal - Elizabeth overhears Darcy insult her - Darcy proposes marriage - Darcy helps Lydia marry Wickham - Elizabeth refuses to dance with Darcy",
+        "Elizabeth overhears Darcy insult her - Elizabeth refuses to dance with Darcy - Darcy proposes marriage - Elizabeth rejects Darcy's proposal - Darcy helps Lydia marry Wickham"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the correct arrangement for 'The Straw, The Coal, and The Bean'?",
+      "answer": "Straw, Coal, Bean escape - Reach brook - Straw forms bridge - Coal hesitates, bridge breaks - Bean laughs and bursts - Tailor sews Bean",
+      "choices": [
+        "Straw forms bridge - Bean laughs and bursts - Coal hesitates, bridge breaks - Straw, Coal, Bean escape - Tailor sews Bean",
+        "Tailor sews Bean - Straw forms bridge - Coal hesitates, bridge breaks - Bean laughs and bursts - Straw, Coal, Bean escape",
+        "Coal hesitates, bridge breaks - Straw forms bridge - Bean laughs and bursts - Straw, Coal, Bean escape - Tailor sews Bean",
+        "Straw, Coal, Bean escape - Reach brook - Straw forms bridge - Coal hesitates, bridge breaks - Bean laughs and bursts - Tailor sews Bean"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the proper arrangement for 'The Elves and The Shoemaker'?",
+      "answer": "Shoemaker poor - Elves help secretly - Shoemaker prosperous - Shoemaker and wife observe elves - Make elves clothes",
+      "choices": [
+        "Elves help secretly - Make elves clothes - Shoemaker prosperous - Shoemaker and wife observe elves - Shoemaker poor",
+        "Make elves clothes - Elves help secretly - Shoemaker prosperous - Shoemaker poor - Shoemaker and wife observe elves",
+        "Shoemaker and wife observe elves - Shoemaker prosperous - Elves help secretly - Make elves clothes - Shoemaker poor",
+        "Shoemaker poor - Elves help secretly - Shoemaker prosperous - Shoemaker and wife observe elves - Make elves clothes"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the correct sequence in 'The Four Clever Brothers'?",
+      "answer": "Four brothers separate - Learn different skills - Save princess - Princess chooses husband - Brothers rewarded by king",
+      "choices": [
+        "Save princess - Learn different skills - Four brothers separate - Brothers rewarded by king - Princess chooses husband",
+        "Learn different skills - Save princess - Princess chooses husband - Four brothers separate - Brothers rewarded by king",
+        "Brothers rewarded by king - Princess chooses husband - Learn different skills - Save princess - Four brothers separate",
+        "Four brothers separate - Learn different skills - Save princess - Princess chooses husband - Brothers rewarded by king"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the proper arrangement for 'The Dog and The Sparrow'?",
+      "answer": "Dog starves - Sparrow helps find food - Dog killed by cart - Sparrow avenges dog - Carter and wife punished",
+      "choices": [
+        "Sparrow avenges dog - Dog killed by cart - Sparrow helps find food - Carter and wife punished - Dog starves",
+        "Dog killed by cart - Sparrow helps find food - Carter and wife punished - Sparrow avenges dog - Dog starves",
+        "Carter and wife punished - Sparrow avenges dog - Dog starves - Sparrow helps find food - Dog killed by cart",
+        "Dog starves - Sparrow helps find food - Dog killed by cart - Sparrow avenges dog - Carter and wife punished"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the correct arrangement for 'The Adventures of Chanticleer and Partlet'?",
+      "answer": "Eat nuts - Build nutshell carriage - Travel together - Partlet dies choking - Chanticleer dies of grief",
+      "choices": [
+        "Build nutshell carriage - Eat nuts - Partlet dies choking - Chanticleer dies of grief - Travel together",
+        "Partlet dies choking - Chanticleer dies of grief - Build nutshell carriage - Eat nuts - Travel together",
+        "Travel together - Partlet dies choking - Chanticleer dies of grief - Eat nuts - Build nutshell carriage",
+        "Eat nuts - Build nutshell carriage - Travel together - Partlet dies choking - Chanticleer dies of grief"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the proper arrangement for 'The Wolf and The Seven Little Kids'?",
+      "answer": "Mother leaves - Wolf deceives kids - Wolf eats kids - Youngest survives - Mother rescues kids",
+      "choices": [
+        "Wolf deceives kids - Mother leaves - Youngest survives - Wolf eats kids - Mother rescues kids",
+        "Wolf eats kids - Youngest survives - Mother rescues kids - Wolf deceives kids - Mother leaves",
+        "Youngest survives - Wolf deceives kids - Wolf eats kids - Mother rescues kids - Mother leaves",
+        "Mother leaves - Wolf deceives kids - Wolf eats kids - Youngest survives - Mother rescues kids"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the correct sequence in 'The Queen Bee'?",
+      "answer": "Three princes travel - Eldest two fail tests - Youngest prince helps animals - Queen bee helps youngest - Youngest prince wins princess",
+      "choices": [
+        "Eldest two fail tests - Youngest prince helps animals - Three princes travel - Youngest prince wins princess - Queen bee helps youngest",
+        "Youngest prince helps animals - Queen bee helps youngest - Three princes travel - Eldest two fail tests - Youngest prince wins princess",
+        "Queen bee helps youngest - Youngest prince wins princess - Three princes travel - Eldest two fail tests - Youngest prince helps animals",
+        "Three princes travel - Eldest two fail tests - Youngest prince helps animals - Queen bee helps youngest - Youngest prince wins princess"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the proper arrangement for 'The Three Languages'?",
+      "answer": "Son learns three languages - Father angry, casts son away - Son uses languages to help kingdom - Son becomes pope",
+      "choices": [
+        "Father angry, casts son away - Son learns three languages - Son becomes pope - Son uses languages to help kingdom",
+        "Son becomes pope - Son learns three languages - Father angry, casts son away - Son uses languages to help kingdom",
+        "Son uses languages to help kingdom - Father angry, casts son away - Son learns three languages - Son becomes pope",
+        "Son learns three languages - Father angry, casts son away - Son uses languages to help kingdom - Son becomes pope"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who fell into the water first in 'The Straw, The Coal, and The Bean'?",
+      "answer": "The Straw",
+      "choices": [
+        "The Coal",
+        "The Bean",
+        "The Tailor",
+        "The Straw"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What caused the Bean to burst in 'The Straw, The Coal, and The Bean'?",
+      "answer": "Laughter",
+      "choices": [
+        "Fire",
+        "Water",
+        "Fear",
+        "Laughter"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "How many elves secretly helped the shoemaker?",
+      "answer": "Two",
+      "choices": [
+        "Three",
+        "Four",
+        "One",
+        "Two"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who discovered the elves' secret work first?",
+      "answer": "The Shoemaker",
+      "choices": [
+        "The Shoemaker's Wife",
+        "The Neighbors",
+        "The Customers",
+        "The Shoemaker"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "How many clever brothers were there in the story?",
+      "answer": "Four",
+      "choices": [
+        "Three",
+        "Five",
+        "Two",
+        "Four"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What did the brothers each learn differently?",
+      "answer": "Special skills",
+      "choices": [
+        "Languages",
+        "Trades",
+        "Magic spells",
+        "Special skills"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who avenged the death of the dog?",
+      "answer": "The Sparrow",
+      "choices": [
+        "The Butcher",
+        "The Carter",
+        "Another Dog",
+        "The Sparrow"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "How many horses were killed by the carter himself in 'The Dog and The Sparrow'?",
+      "answer": "Three",
+      "choices": [
+        "One",
+        "Two",
+        "Four",
+        "Three"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who choked on a nut in 'The Adventures of Chanticleer and Partlet'?",
+      "answer": "Partlet",
+      "choices": [
+        "Chanticleer",
+        "The Duck",
+        "The Fox",
+        "Partlet"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What was used to build the carriage in 'The Adventures of Chanticleer and Partlet'?",
+      "answer": "Nutshells",
+      "choices": [
+        "Wood",
+        "Leaves",
+        "Straw",
+        "Nutshells"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who managed to survive the wolf's attack by hiding?",
+      "answer": "The youngest kid",
+      "choices": [
+        "The eldest kid",
+        "The mother goat",
+        "The wolf",
+        "The youngest kid"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What was put into the wolf's belly as punishment?",
+      "answer": "Stones",
+      "choices": [
+        "Water",
+        "Bread",
+        "Sticks",
+        "Stones"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who helped the youngest prince in 'The Queen Bee'?",
+      "answer": "Queen Bee",
+      "choices": [
+        "The king",
+        "The eldest prince",
+        "A fairy",
+        "Queen Bee"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What did the youngest prince show to animals?",
+      "answer": "Kindness",
+      "choices": [
+        "Fear",
+        "Strength",
+        "Wisdom",
+        "Kindness"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "How many languages did the son learn in 'The Three Languages'?",
+      "answer": "Three",
+      "choices": [
+        "Two",
+        "Four",
+        "Five",
+        "Three"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who eventually became pope in 'The Three Languages'?",
+      "answer": "The son",
+      "choices": [
+        "The father",
+        "The king",
+        "The wise man",
+        "The son"
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What moral lesson can be learned from 'The Straw, The Coal, and The Bean'?",
+      "answer": "Cooperation is important, but overconfidence and carelessness can lead to disaster.",
+      "choices": [
+        "Laughter always leads to happiness.",
+        "Escape from danger at any cost.",
+        "Always trust strangers.",
+        "Cooperation is important, but overconfidence and carelessness can lead to disaster."
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the moral of 'The Elves and The Shoemaker'?",
+      "answer": "Kindness and generosity are rewarded.",
+      "choices": [
+        "Always depend on others.",
+        "Hard work is unnecessary.",
+        "Riches solve all problems.",
+        "Kindness and generosity are rewarded."
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which moral can be derived from 'The Four Clever Brothers'?",
+      "answer": "Teamwork and diverse talents can solve complex problems.",
+      "choices": [
+        "Work alone to achieve more.",
+        "Knowledge is less valuable than strength.",
+        "One skill is enough for success.",
+        "Teamwork and diverse talents can solve complex problems."
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What moral lesson does 'The Dog and The Sparrow' teach?",
+      "answer": "Friendship and loyalty persist even beyond death.",
+      "choices": [
+        "Always avoid conflict.",
+        "Forgive those who harm you.",
+        "Animals are unreliable friends.",
+        "Friendship and loyalty persist even beyond death."
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What moral can be learned from 'The Adventures of Chanticleer and Partlet'?",
+      "answer": "Vanity and foolishness lead to unfortunate consequences.",
+      "choices": [
+        "Adventure is always rewarding.",
+        "All journeys end happily.",
+        "Animals always live harmoniously.",
+        "Vanity and foolishness lead to unfortunate consequences."
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which moral is illustrated in 'The Wolf and The Seven Little Kids'?",
+      "answer": "Cleverness and caution can overcome deceit and danger.",
+      "choices": [
+        "Fear the unknown.",
+        "Trust everyone who appears kind.",
+        "Never leave your home.",
+        "Cleverness and caution can overcome deceit and danger."
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What moral does 'The Queen Bee' teach?",
+      "answer": "Kindness and respect towards others lead to unexpected rewards.",
+      "choices": [
+        "Always put yourself first.",
+        "Kindness never pays off.",
+        "Avoid helping others.",
+        "Kindness and respect towards others lead to unexpected rewards."
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the moral of 'The Three Languages'?",
+      "answer": "All knowledge can be useful, no matter how strange it seems.",
+      "choices": [
+        "Only practical skills matter.",
+        "Avoid learning new things.",
+        "Wealth is the only sign of success.",
+        "All knowledge can be useful, no matter how strange it seems."
+      ],
+      "reference": "Grimms' Stories",
+      "term": "Midterms"
+    },
     {
       "question": "What is Ella's nickname in the Grimm version?",
       "answer": "Ashputtel",
