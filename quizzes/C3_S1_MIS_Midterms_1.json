@@ -386,19 +386,19 @@
     },
     {
       "question": "What functionality facilitates e-communication via email and instant messaging?",
-      "answer": "E-Communication",
+      "answer": "Office Information Systems",
       "choices": [
-        "E-Communication",
-        "Calendar",
-        "Word Processing",
+        "End User Computing",
+        "End User Development",
+        "Office Automation",
         "Office Information Systems"
       ],
       "reference": "04 Handout 1",
       "term": "Midterms"
     },
     {
-      "question": "What functionality manages auto-video communications via telephony or teleconferencing?",
-      "answer": "E-Communication",
+      "question": "What functionality manages audio-video communications via telephony or teleconferencing?",
+      "answer": "Office Information Systems",
       "choices": [
         "Office Automation",
         "Office Information Systems",
@@ -410,12 +410,12 @@
     },
     {
       "question": "What functionality facilitates record management via databases or data servers?",
-      "answer": "Database Management",
+      "answer": "Office Information Systems",
       "choices": [
-        "Word Processing",
-        "Database Management",
-        "E-Spreadsheet",
-        "Software Packages"
+        "End User Development",
+        "Office Information Systems",
+        "Office Automation",
+        "End User Computing"
       ],
       "reference": "04 Handout 1",
       "term": "Midterms"
@@ -424,8 +424,8 @@
       "question": "What functionality automates business-specific processes to reduce or eliminate manpower requirements?",
       "answer": "Office Information Systems",
       "choices": [
-        "Project Management",
-        "Process Software",
+        "End User Development",
+        "End User Computing",
         "Office Information Systems",
         "Office Automation"
       ],
@@ -434,12 +434,12 @@
     },
     {
       "question": "What provides EUC to enhance end-user (employees) efficiency?",
-      "answer": "Functions",
+      "answer": "Office Information Systems",
       "choices": [
         "Office Automation",
-        "E-Spreadsheet",
-        "Functions",
-        "Software Packages"
+        "Office Information Systems",
+        "End User Computing",
+        "End User Development"
       ],
       "reference": "04 Handout 1",
       "term": "Midterms"
