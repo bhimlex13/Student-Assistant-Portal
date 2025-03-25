@@ -1,0 +1,1722 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Midterms",
+    "Title": "Study Everything",
+    "LastModified": "21 March 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "04 Handout 1",
+      "05 Handout 1",
+      "06 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What computing systems and platforms allow non-programmers who use computers to create apps and outputs?",
+      "answer": "End User Computing",
+      "choices": [
+        "End User Development",
+        "Desktop and Laptop Computers",
+        "Virtual Desktops and Applications",
+        "End User Computing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What computing concept involves, enables, and integrates people with no background in programming into computing systems?",
+      "answer": "End User Computing",
+      "choices": [
+        "Mobile, Web, and Cloud Applications",
+        "End User Computing",
+        "Desktop Operating Systems and Applications",
+        "Smartphones and Wearables"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which computing system allows end users to better control their computing environment without the aid of real programmers?",
+      "answer": "End User Computing",
+      "choices": [
+        "Virtual Desktops and Applications",
+        "Desktop and Laptop Computers",
+        "End User Computing",
+        "End User Development"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the most common hardware aspect of an End User Computing (EUC) solution?",
+      "answer": "Desktop and Laptop Computers",
+      "choices": [
+        "Desktop Operating Systems and Applications",
+        "Mobile, Web, and Cloud Applications",
+        "Desktop and Laptop Computers",
+        "End User Development"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing covers the software aspect of desktop and laptop computers, either packaged or sold separately?",
+      "answer": "Desktop Operating Systems and Applications",
+      "choices": [
+        "Virtual Desktops and Applications",
+        "Desktop Operating Systems and Applications",
+        "Smartphones and Wearables",
+        "End User Computing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing refers to mobile hardware platforms such as phones, tablets, and watches?",
+      "answer": "Smartphones and Wearables",
+      "choices": [
+        "Desktop and Laptop Computers",
+        "End User Computing",
+        "Smartphones and Wearables",
+        "End User Development"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing gives priority and connectivity regardless of platform, such as email, instant messaging, and cloud storage?",
+      "answer": "Mobile, Web, and Cloud Applications",
+      "choices": [
+        "Smartphones and Wearables",
+        "End User Development",
+        "Mobile, Web, and Cloud Applications",
+        "Virtual Desktops and Applications"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing enhances mobility and connectivity through the development of cloud-based computing solutions?",
+      "answer": "Virtual Desktops and Applications",
+      "choices": [
+        "Mobile, Web, and Cloud Applications",
+        "Virtual Desktops and Applications",
+        "Desktop Operating Systems and Applications",
+        "End User Computing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What practice in End User Computing allows end users to develop their own information systems with IT support?",
+      "answer": "End User Development",
+      "choices": [
+        "End User Computing",
+        "Virtual Desktops and Applications",
+        "Mobile, Web, and Cloud Applications",
+        "End User Development"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User Development activities include providing computing workstations, elevated data access, and internet connectivity?",
+      "answer": "End User Development",
+      "choices": [
+        "End User Computing",
+        "End User Development",
+        "Desktop and Laptop Computers",
+        "Smartphones and Wearables"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens when poorly trained end users are incapable of correctly analyzing data or systems?",
+      "answer": "Errors in Analysis",
+      "choices": [
+        "Faulty Models",
+        "Errors in Analysis",
+        "Lack of Documentation",
+        "Possible security and privacy issue"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What issue arises when documentation is often inadequate or nonexistent, making maintenance difficult and expensive?",
+      "answer": "Lack of Documentation",
+      "choices": [
+        "Faulty Models",
+        "Lack of Documentation",
+        "Errors in Analysis",
+        "Application packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term refers to erroneous manufactured hardware and bugs in software?",
+      "answer": "Faulty Models",
+      "choices": [
+        "Faulty Models",
+        "Errors in Analysis",
+        "Possible security and privacy issue",
+        "Lack of Documentation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What risk occurs when an organization's data or actual software itself may be at risk of being manipulated or stolen?",
+      "answer": "Possible security and privacy issue",
+      "choices": [
+        "Errors in Analysis",
+        "Faulty Models",
+        "Possible security and privacy issue",
+        "Lack of Documentation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing tool consists of prewritten software packages marketed commercially?",
+      "answer": "Application packages",
+      "choices": [
+        "Office Automation Tools",
+        "Application packages",
+        "Knowledge Management",
+        "Communication Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing tool supports standard business functions like payroll, ledgers, and scheduling?",
+      "answer": "Application packages",
+      "choices": [
+        "4th Generation Programming Languages",
+        "Application packages",
+        "Communication Tools",
+        "Data Handling Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing tool is customizable via key parameters, such as MS Office?",
+      "answer": "Application packages",
+      "choices": [
+        "Application packages",
+        "Office Automation Tools",
+        "Graphic Design",
+        "Data Handling Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What programming tool allows end users to develop their computing solutions and consolidate them into small systems?",
+      "answer": "4th Generation Programming Languages",
+      "choices": [
+        "Knowledge Management",
+        "Group Systems / Computer-Supported Collaboration Workspaces",
+        "4th Generation Programming Languages",
+        "Text and Multimedia Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes word processing and presentation software?",
+      "answer": "Text and Multimedia Tools",
+      "choices": [
+        "Text and Multimedia Tools",
+        "Communication Tools",
+        "Data Handling Tools",
+        "Knowledge Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool consists of spreadsheets, statistical packages, and databases?",
+      "answer": "Data Handling Tools",
+      "choices": [
+        "Office Automation Tools",
+        "Communication Tools",
+        "Data Handling Tools",
+        "Application packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes emails and VoIP?",
+      "answer": "Communication Tools",
+      "choices": [
+        "Text and Multimedia Tools",
+        "Group Systems / Computer-Supported Collaboration Workspaces",
+        "Communication Tools",
+        "Data Handling Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes E-notebooks, directories, and project management tools?",
+      "answer": "Office Automation Tools",
+      "choices": [
+        "Office Automation Tools",
+        "Application Packages",
+        "Graphic Design",
+        "Data Handling Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes teleconferencing and virtual workspaces?",
+      "answer": "Group Systems / Computer-Supported Collaboration Workspaces",
+      "choices": [
+        "Communication Tools",
+        "Graphic Design",
+        "Group Systems / Computer-Supported Collaboration Workspaces",
+        "Text and Multimedia Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes graphic software and computer-aided design?",
+      "answer": "Graphic Design",
+      "choices": [
+        "Knowledge Management",
+        "Graphic Design",
+        "Office Automation Tools",
+        "Text and Multimedia Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes data mining?",
+      "answer": "Knowledge Management",
+      "choices": [
+        "Data Handling Tools",
+        "Knowledge Management",
+        "Communication Tools",
+        "Group Systems / Computer-Supported Collaboration Workspaces"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to the complete integration of basic office requirements for a department in an organization?",
+      "answer": "Office Automation",
+      "choices": [
+        "Office Information Systems",
+        "Office Automation",
+        "E-Communication",
+        "Software Packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What includes requirements such as word processing, electronic data filing, diary management, and communications?",
+      "answer": "Office Automation",
+      "choices": [
+        "Office Information Systems",
+        "Office Automation",
+        "Project Management",
+        "Calendar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What organizes functions in a way that they don’t have to be done separately or use additional workforce?",
+      "answer": "Office Automation",
+      "choices": [
+        "Process Software",
+        "Office Automation",
+        "Functions",
+        "E-Spreadsheet"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses software, hardware, and networking to improve workflow and communication of office workers?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "Office Automation",
+        "Office Information Systems",
+        "E-Communication",
+        "Software Packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What supports the collection of business office activities to help management and workforce manage jobs?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "Office Automation",
+        "Software Packages",
+        "Office Information Systems",
+        "Database Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can evolve and become automated to increase flexibility and effectiveness?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "Project Management",
+        "Office Information Systems",
+        "Office Automation",
+        "Functions"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What functionality facilitates e-communication via email and instant messaging?",
+      "answer": "E-Communication",
+      "choices": [
+        "E-Communication",
+        "Calendar",
+        "Word Processing",
+        "Office Information Systems"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What functionality manages auto-video communications via telephony or teleconferencing?",
+      "answer": "E-Communication",
+      "choices": [
+        "Office Automation",
+        "Office Information Systems",
+        "E-Communication",
+        "Functions"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What functionality facilitates record management via databases or data servers?",
+      "answer": "Database Management",
+      "choices": [
+        "Word Processing",
+        "Database Management",
+        "E-Spreadsheet",
+        "Software Packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What functionality automates business-specific processes to reduce or eliminate manpower requirements?",
+      "answer": "Process Software",
+      "choices": [
+        "Project Management",
+        "Process Software",
+        "Functions",
+        "Office Automation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides EUC to enhance end-user (employees) efficiency?",
+      "answer": "Functions",
+      "choices": [
+        "Office Automation",
+        "E-Spreadsheet",
+        "Functions",
+        "Software Packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to operations performed by activating key sequences like copy and paste?",
+      "answer": "Functions",
+      "choices": [
+        "Word Processing",
+        "Functions",
+        "Software Packages",
+        "Office Automation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to bundled apps that interact with system resources for various tasks like MS Office?",
+      "answer": "Software Packages",
+      "choices": [
+        "Software Packages",
+        "Office Information Systems",
+        "Database Management",
+        "Word Processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides specific capabilities other than those commonly offered and can be individual or bundled?",
+      "answer": "Process Software",
+      "choices": [
+        "E-Spreadsheet",
+        "Process Software",
+        "Graphic Design",
+        "Database Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software is designed for developing textual documents?",
+      "answer": "Word Processing",
+      "choices": [
+        "E-Spreadsheet",
+        "Word Processing",
+        "Office Information Systems",
+        "Software Packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is used for accounting and financial purposes, designed for maintaining, manipulating, and calculating data?",
+      "answer": "E-Spreadsheet",
+      "choices": [
+        "E-Spreadsheet",
+        "Database Management",
+        "Calendar",
+        "Word Processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides organized e-storage to search for and display pieces of information?",
+      "answer": "Database Management",
+      "choices": [
+        "Office Automation",
+        "Database Management",
+        "Process Software",
+        "E-Spreadsheet"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software allows users to layout text, graphics, and pictures on a page?",
+      "answer": "Desktop Publishing",
+      "choices": [
+        "Word Processing",
+        "Desktop Publishing",
+        "Graphic Design",
+        "Project Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software allows users to switch from one form of presentation to another for different users?",
+      "answer": "Graphic Design",
+      "choices": [
+        "E-Spreadsheet",
+        "Graphic Design",
+        "Office Automation",
+        "Word Processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software helps users identify tasks, track progress, and report information about a project?",
+      "answer": "Project Management",
+      "choices": [
+        "Software Packages",
+        "E-Communication",
+        "Project Management",
+        "Calendar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software is used to schedule events and includes additional functions like to-do lists and reminders?",
+      "answer": "Calendar",
+      "choices": [
+        "Calendar",
+        "Functions",
+        "Word Processing",
+        "E-Spreadsheet"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What permits sending information to users through computers’ communication links?",
+      "answer": "E-Communication",
+      "choices": [
+        "Database Management",
+        "E-Communication",
+        "Software Packages",
+        "Office Information Systems"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to an information system that provides fast and inexpensive communication channels using telephony, computing hardware, networks, and the internet?",
+      "answer": "Electronic Communication Systems (ECS)",
+      "choices": [
+        "Electronic Communication Systems (ECS)",
+        "Electronic Conferencing (EC)",
+        "Electronic Meeting System (EMS)",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of electronic communication systems is based on time and availability?",
+      "answer": "Types of Electronic Communication Systems",
+      "choices": [
+        "Types of Electronic Communication Systems",
+        "Types of Electronic Conferencing",
+        "Types of Electronic Discussion",
+        "Types of Electronic Publishing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic communication requires members to be available at the same time to communicate?",
+      "answer": "Synchronous",
+      "choices": [
+        "Synchronous",
+        "Asynchronous",
+        "Electronic Conferencing (EC)",
+        "Electronic Discussion (ED)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic communication doesn’t require members to be available at the same time?",
+      "answer": "Asynchronous",
+      "choices": [
+        "Asynchronous",
+        "Synchronous",
+        "Electronic Meeting System (EMS)",
+        "Pull Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What component of ECS is mostly synchronous and encourages greater collaboration between the organization and its members?",
+      "answer": "Electronic Conferencing (EC)",
+      "choices": [
+        "Electronic Conferencing (EC)",
+        "Electronic Discussion (ED)",
+        "Online collaboration and sharing",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses internet-based technologies to facilitate a broader coverage of members and eliminate the need for physical locations?",
+      "answer": "Electronic Conferencing (EC)",
+      "choices": [
+        "Electronic Conferencing (EC)",
+        "Electronic Discussion (ED)",
+        "Electronic Publishing (EP)",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic conferencing involves only two points between two members, similar to phone calls?",
+      "answer": "Point-to-point",
+      "choices": [
+        "Point-to-point",
+        "Multipoint",
+        "Electronic Discussion (ED)",
+        "Pull Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic conferencing involves multiple points between multiple members?",
+      "answer": "Multipoint",
+      "choices": [
+        "Multipoint",
+        "Point-to-point",
+        "Push Technology",
+        "Electronic Meeting System (EMS)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic conferencing uses a central network hub and allows simultaneous collaboration on various predefined locations?",
+      "answer": "Multipoint",
+      "choices": [
+        "Multipoint",
+        "Point-to-point",
+        "Online collaboration and sharing",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a component of ECS that assists in the creation, organization, and facilitation of meetings?",
+      "answer": "Electronic Meeting System (EMS)",
+      "choices": [
+        "Electronic Meeting System (EMS)",
+        "Electronic Discussion (ED)",
+        "Electronic Publishing (EP)",
+        "Synchronous"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What component of ECS can either be synchronous or asynchronous and uses multiple tools such as e-conferencing, scheduling, file sharing, and cross-portability features?",
+      "answer": "Electronic Meeting System (EMS)",
+      "choices": [
+        "Electronic Meeting System (EMS)",
+        "Electronic Conferencing (EC)",
+        "Electronic Discussion (ED)",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What component of ECS uses tools specifically designed for meetings?",
+      "answer": "Electronic Meeting System (EMS)",
+      "choices": [
+        "Electronic Meeting System (EMS)",
+        "Electronic Conferencing (EC)",
+        "Multipoint",
+        "Point-to-point"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to an information system used to facilitate textual or non-textual discussions between members using an available electronic medium?",
+      "answer": "Electronic Discussion (ED)",
+      "choices": [
+        "Electronic Discussion (ED)",
+        "Electronic Meeting System (EMS)",
+        "Electronic Publishing (EP)",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a broader type of digital conversation?",
+      "answer": "Electronic Discussion (ED)",
+      "choices": [
+        "Electronic Discussion (ED)",
+        "Electronic Publishing (EP)",
+        "Electronic Meeting System (EMS)",
+        "Push Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic discussion requires a user to take action to access the discussion, such as logging into an online forum?",
+      "answer": "Pull Technology",
+      "choices": [
+        "Pull Technology",
+        "Push Technology",
+        "Synchronous",
+        "Multipoint"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic discussion doesn’t require anything from the user, as information is automatically disseminated?",
+      "answer": "Push Technology",
+      "choices": [
+        "Push Technology",
+        "Pull Technology",
+        "Online collaboration and sharing",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic discussion disseminates information with or without the obligation for the user to retrieve it manually?",
+      "answer": "Push Technology",
+      "choices": [
+        "Push Technology",
+        "Pull Technology",
+        "Multipoint",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What aspect of ECS facilitates the digital publishing of textual material and other readable information?",
+      "answer": "Electronic Publishing (EP)",
+      "choices": [
+        "Electronic Publishing (EP)",
+        "Electronic Discussion (ED)",
+        "Pull Technology",
+        "Security issues"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What aspect of ECS makes materials available for viewing using a device with an electronic screen, such as a computer?",
+      "answer": "Electronic Publishing (EP)",
+      "choices": [
+        "Electronic Publishing (EP)",
+        "Portable electronic device",
+        "E-versions of traditional media",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to a means of storing and publishing e-textual content such as DVDs and CDs?",
+      "answer": "Portable electronic device",
+      "choices": [
+        "Portable electronic device",
+        "E-versions of traditional media",
+        "New Media",
+        "Push Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What converts traditional media formats and publishes them as digital copies, such as PDFs and e-books?",
+      "answer": "E-versions of traditional media",
+      "choices": [
+        "E-versions of traditional media",
+        "Portable electronic device",
+        "New Media",
+        "Pull Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of digital publishing relies on the internet to reach its target recipients, such as blogs and digital publication platforms?",
+      "answer": "New Media",
+      "choices": [
+        "New Media",
+        "E-versions of traditional media",
+        "Online collaboration and sharing",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses the internet to facilitate publishing with an emphasis on collaboration between recipients?",
+      "answer": "Online collaboration and sharing",
+      "choices": [
+        "Online collaboration and sharing",
+        "New Media",
+        "Electronic Publishing (EP)",
+        "Electronic Conferencing (EC)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a paperless and environmentally friendly medium?",
+      "answer": "Benefits of Electronic Publishing",
+      "choices": [
+        "Benefits of Electronic Publishing",
+        "Security issues",
+        "Plagiarism",
+        "Public opinion on business models"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of electronic publishing refers to its portability and storage capabilities?",
+      "answer": "Benefits of Electronic Publishing",
+      "choices": [
+        "Benefits of Electronic Publishing",
+        "E-versions of traditional media",
+        "Online collaboration and sharing",
+        "Push Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of electronic publishing allows digital distribution?",
+      "answer": "Benefits of Electronic Publishing",
+      "choices": [
+        "Benefits of Electronic Publishing",
+        "Electronic Publishing (EP)",
+        "New Media",
+        "Pull Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a potential risk of electronic publishing related to data privacy concerns?",
+      "answer": "Security issues",
+      "choices": [
+        "Security issues",
+        "Plagiarism",
+        "Public opinion on business models",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What risk of electronic publishing allows digital content to be stolen and used without following traditional policies?",
+      "answer": "Plagiarism",
+      "choices": [
+        "Plagiarism",
+        "Security issues",
+        "Public opinion on business models",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What risk of electronic publishing is caused by the perception that internet information should be free, making paid content models less appealing?",
+      "answer": "Public opinion on business models",
+      "choices": [
+        "Public opinion on business models",
+        "Security issues",
+        "Plagiarism",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves sharing of information over a distance allowing businesses and organizations to have a broad, possibly global reach?",
+      "answer": "Telecommunication",
+      "choices": [
+        "Telecommunication",
+        "Internal downward",
+        "E-Business",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What includes telephony, fax, email, and the internet?",
+      "answer": "Telecommunication",
+      "choices": [
+        "Telecommunication",
+        "External",
+        "Star network",
+        "Internal lateral"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can have different types depending on the information sender, the intended recipient, how data gets to the recipient, and how the information is distributed?",
+      "answer": "Telecommunication",
+      "choices": [
+        "Telecommunication",
+        "Internal upward",
+        "Operation cost reduction",
+        "E-commerce support systems"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is circulated within the business or organization?",
+      "answer": "Internal downward",
+      "choices": [
+        "Internal downward",
+        "Internal upward",
+        "External",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is defined as the information comes from the superiors cascaded down through departments?",
+      "answer": "Internal downward",
+      "choices": [
+        "Internal downward",
+        "Internal lateral",
+        "Customer service efficiency",
+        "Wider market access"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Memorandum?",
+      "answer": "Internal downward",
+      "choices": [
+        "Internal downward",
+        "External",
+        "Chain network",
+        "E-Business"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves subordinates sending information up the hierarchy to their superiors?",
+      "answer": "Internal upward",
+      "choices": [
+        "Internal upward",
+        "Internal downward",
+        "Internal lateral",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Budget approval documents?",
+      "answer": "Internal upward",
+      "choices": [
+        "Internal upward",
+        "External",
+        "Internal downward",
+        "Star network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves communication between co-workers and members of departments in the same level?",
+      "answer": "Internal lateral",
+      "choices": [
+        "Internal lateral",
+        "Internal upward",
+        "External",
+        "Chain network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Email between employees of the same department?",
+      "answer": "Internal lateral",
+      "choices": [
+        "Internal lateral",
+        "Internal upward",
+        "Telecommunication",
+        "Customer service efficiency"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves information leaving the business or organization, mostly dealing with customer prospects, vendors, or partners?",
+      "answer": "External",
+      "choices": [
+        "External",
+        "Internal downward",
+        "Internal lateral",
+        "E-Business"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Business pitch?",
+      "answer": "External",
+      "choices": [
+        "External",
+        "Internal upward",
+        "Telecommunication",
+        "Wider market access"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to employable methods business and organizations use to disseminate information?",
+      "answer": "Telecommunication Networking",
+      "choices": [
+        "Telecommunication Networking",
+        "Telecommunication",
+        "Internal downward",
+        "E-Business"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides communication connectivity to its other aspects such as prospective clients, branches and departments to further streamline specific processes and tasks?",
+      "answer": "Telecommunication Networking",
+      "choices": [
+        "Telecommunication Networking",
+        "Customer service efficiency",
+        "External",
+        "Star network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What means only 1 member of the network (the manager) is allowed to send or receive information?",
+      "answer": "Wheel network",
+      "choices": [
+        "Wheel network",
+        "Chain network",
+        "Star network",
+        "Circle network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of the wheel network is: It’s direct and efficient?",
+      "answer": "Wheel network",
+      "choices": [
+        "Wheel network",
+        "Chain network",
+        "Telecommunication Networking",
+        "External"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What disadvantage of the wheel network is: With a higher number of people being handled, the leader may not be responsive?",
+      "answer": "Wheel network",
+      "choices": [
+        "Wheel network",
+        "Circle network",
+        "Internal lateral",
+        "Chain network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves communication in a set sequence?",
+      "answer": "Chain network",
+      "choices": [
+        "Chain network",
+        "Wheel network",
+        "Star network",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What follows the organization’s hierarchy, such as the CEO’s message going down to departments?",
+      "answer": "Chain network",
+      "choices": [
+        "Chain network",
+        "Internal upward",
+        "External",
+        "Wheel network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of the chain network is: Follows the chain of command and apply quality control?",
+      "answer": "Chain network",
+      "choices": [
+        "Chain network",
+        "Wheel network",
+        "Star network",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What disadvantage of the chain network is: May suffer from misinformation if the organization is large due to the length of communication the information must pass through?",
+      "answer": "Chain network",
+      "choices": [
+        "Chain network",
+        "Internal downward",
+        "Star network",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is defined as a 3-level hierarchy where there’s communication between superiors and subordinates with cross-communication at the operative level?",
+      "answer": "Circle network",
+      "choices": [
+        "Circle network",
+        "Star network",
+        "Chain network",
+        "Internal lateral"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of the circle network is: Quick and open collaboration between superiors and subordinates?",
+      "answer": "Circle network",
+      "choices": [
+        "Circle network",
+        "Chain network",
+        "Telecommunication Networking",
+        "Internal upward"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What disadvantage of the circle network is: Same problems from the chain network applies?",
+      "answer": "Circle network",
+      "choices": [
+        "Circle network",
+        "External",
+        "Chain network",
+        "Internal downward"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What means all channels are open?",
+      "answer": "Star network",
+      "choices": [
+        "Star network",
+        "Circle network",
+        "Chain network",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is similar to a circle network except all members can communicate with all members?",
+      "answer": "Star network",
+      "choices": [
+        "Star network",
+        "Circle network",
+        "Chain network",
+        "External"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves the highest participation and collaboration between members?",
+      "answer": "Star network",
+      "choices": [
+        "Star network",
+        "Internal lateral",
+        "Circle network",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is an organizational system in an enterprise that applies electronically-controlled technology and resources in its operational systems to facilitate more efficient execution of business activities like selling products and servers to customer service and support?",
+      "answer": "E-Business",
+      "choices": [
+        "E-Business",
+        "Telecommunication",
+        "Internet business models",
+        "E-commerce support systems"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves the application of IT and IT professionals, as well as the internet, to traditional business processes?",
+      "answer": "E-Business",
+      "choices": [
+        "E-Business",
+        "Telecommunication",
+        "Customer-centered retailing",
+        "Star network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses involves applying telecommunication and networking to reduce operational cost?",
+      "answer": "Operation cost reduction",
+      "choices": [
+        "Operation cost reduction",
+        "Customer service efficiency",
+        "Wider market access",
+        "E-Business"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses involves machines automating processes that require manual labor otherwise?",
+      "answer": "Operation cost reduction",
+      "choices": [
+        "Operation cost reduction",
+        "E-commerce support systems",
+        "Telecommunication",
+        "Internal lateral"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows use of technologies such as email, saving costs in communication and transaction?",
+      "answer": "Operation cost reduction",
+      "choices": [
+        "Operation cost reduction",
+        "E-commerce support systems",
+        "External",
+        "Customer service efficiency"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses improves customer service due to its reach, speed, and reliability?",
+      "answer": "Customer service efficiency",
+      "choices": [
+        "Customer service efficiency",
+        "Operation cost reduction",
+        "Wider market access",
+        "E-commerce support systems"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses reaches more customers and services them in a short amount of time?",
+      "answer": "Customer service efficiency",
+      "choices": [
+        "Customer service efficiency",
+        "Operation cost reduction",
+        "Internal downward",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows businesses offering products to streamline delivery processes and digitize payment modes?",
+      "answer": "Customer service efficiency",
+      "choices": [
+        "Customer service efficiency",
+        "E-Business",
+        "Operation cost reduction",
+        "External"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows broader reach to a target market?",
+      "answer": "Wider market access",
+      "choices": [
+        "Wider market access",
+        "Operation cost reduction",
+        "E-commerce support systems",
+        "Internet business models"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows business and organizations to tailor its service and processes to suit a variety of clients?",
+      "answer": "Wider market access",
+      "choices": [
+        "Wider market access",
+        "Customer service efficiency",
+        "E-Business",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows enterprises to either design a marketing strategy to center on particular locations to establish a stronger presence or reach out on an international level?",
+      "answer": "Wider market access",
+      "choices": [
+        "Wider market access",
+        "Internet business models",
+        "Customer-centered retailing",
+        "Star network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions is defined as through websites, enterprises can conduct business with a variety of clients on a local, national, or global scale?",
+      "answer": "Internet business models",
+      "choices": [
+        "Internet business models",
+        "E-commerce support systems",
+        "E-Business",
+        "Customer-centered retailing"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions involves companies developing solutions to revolutionize an industry due to the number of possibilities of online commerce?",
+      "answer": "Internet business models",
+      "choices": [
+        "Internet business models",
+        "E-commerce support systems",
+        "Customer-centered retailing",
+        "Operation cost reduction"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions is defined as consumers want information about the products and services they plan on getting?",
+      "answer": "Customer-centered retailing",
+      "choices": [
+        "Customer-centered retailing",
+        "Internet business models",
+        "E-commerce support systems",
+        "External"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions involves companies addressing this with reviews from websites and/or services that offer review services?",
+      "answer": "Customer-centered retailing",
+      "choices": [
+        "Customer-centered retailing",
+        "Internet business models",
+        "Operation cost reduction",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What service, called intermediation, introduces other customers and businesses as middlemen to help an enterprise flourish?",
+      "answer": "Customer-centered retailing",
+      "choices": [
+        "Customer-centered retailing",
+        "E-commerce support systems",
+        "Internet business models",
+        "Customer service efficiency"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions allows companies to opt to offer services from other enterprises such as credit card transaction processing / e-payment systems?",
+      "answer": "E-commerce support systems",
+      "choices": [
+        "E-commerce support systems",
+        "Internet business models",
+        "Customer-centered retailing",
+        "Operation cost reduction"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions involves some application suites being bought by businesses and organizations to help them set an online presence?",
+      "answer": "E-commerce support systems",
+      "choices": [
+        "E-commerce support systems",
+        "Internet business models",
+        "E-Business",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the earliest computerized systems whose purpose is to record, process, validate, and store transactions in various functional areas of business for future retrieval and use?",
+      "answer": "Transaction Processing Systems",
+      "choices": [
+        "Transaction Processing Systems",
+        "Operational Information System",
+        "Data Entry",
+        "Query Support"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What records company transactions and process data resulting from the occurrence of business transactions?",
+      "answer": "Transaction Processing Systems",
+      "choices": [
+        "Transaction Processing Systems",
+        "Data Validation",
+        "Data Storage",
+        "Output Generation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of transaction is done within the company and is usually related to the internal processes of any organization?",
+      "answer": "Internal",
+      "choices": [
+        "Internal",
+        "External",
+        "Data Entry",
+        "Batch Mode"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Recruitment systems for human resources?",
+      "answer": "Internal",
+      "choices": [
+        "Internal",
+        "External",
+        "Data Validation",
+        "Increased speed"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of transaction is external to any organization and related to external sources?",
+      "answer": "External",
+      "choices": [
+        "External",
+        "Internal",
+        "Data Process and Revalidation",
+        "Online"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Purchasing systems for supply chains; sales systems for product sellers?",
+      "answer": "External",
+      "choices": [
+        "External",
+        "Internal",
+        "Data Storage",
+        "Output Generation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the first step in transaction processing where transactional data must be first entered so it can be processed?",
+      "answer": "Data Entry",
+      "choices": [
+        "Data Entry",
+        "Data Validation",
+        "Data Storage",
+        "Query Support"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves input devices like mice in transaction processing?",
+      "answer": "Data Entry",
+      "choices": [
+        "Data Entry",
+        "Data Process and Revalidation",
+        "Online",
+        "Batch Mode"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing requires the system to use the 2 steps in validation: error validation and error correction?",
+      "answer": "Data Validation",
+      "choices": [
+        "Data Validation",
+        "Data Entry",
+        "Output Generation",
+        "Data Storage"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing follows once accuracy and reliability of data are validated, where the data is ready to be processed?",
+      "answer": "Data Process and Revalidation",
+      "choices": [
+        "Data Process and Revalidation",
+        "Data Validation",
+        "Data Storage",
+        "Query Support"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What processing mode is described as almost instantaneous processing due to internet connectivity?",
+      "answer": "Online",
+      "choices": [
+        "Online",
+        "Batch Mode",
+        "Data Process and Revalidation",
+        "Data Entry"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What processing mode involves transactions being accumulated over time and processed?",
+      "answer": "Batch Mode",
+      "choices": [
+        "Batch Mode",
+        "Online",
+        "Data Process and Revalidation",
+        "Data Storage"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing is where processed data must be properly stored for future use?",
+      "answer": "Data Storage",
+      "choices": [
+        "Data Storage",
+        "Output Generation",
+        "Query Support",
+        "Data Entry"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing is where the output can be communicated to decision makers in the form of documents/reports (physical) and forms (digital)?",
+      "answer": "Output Generation",
+      "choices": [
+        "Output Generation",
+        "Data Storage",
+        "Data Entry",
+        "Data Process and Revalidation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing allows users to process data and information that may otherwise be unavailable, like previously stored data, by providing proper parameters for retrieval?",
+      "answer": "Query Support",
+      "choices": [
+        "Query Support",
+        "Data Storage",
+        "Data Validation",
+        "Output Generation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the information system that can record, process, and report all routine and repetitive activities of an organization, where the process may occur across departments?",
+      "answer": "Operational Information System",
+      "choices": [
+        "Operational Information System",
+        "Transaction Processing Systems",
+        "Data Entry",
+        "Query Support"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as operational costs are reduced due to streamlined processes especially those who needs manual labor to do?",
+      "answer": "Reduced Cost",
+      "choices": [
+        "Reduced Cost",
+        "Increased speed",
+        "Increased accuracy",
+        "Increased customer service"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as automated routine processes use the system’s processing power to finish tasks quickly?",
+      "answer": "Increased speed",
+      "choices": [
+        "Increased speed",
+        "Reduced Cost",
+        "Increased accuracy",
+        "Increased customer service"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as human error is reduced and the system is capable of accomplishing tasks using a fool-proof algorithm?",
+      "answer": "Increased accuracy",
+      "choices": [
+        "Increased accuracy",
+        "Increased speed",
+        "Reduced Cost",
+        "Increased customer service"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as systems can also streamline customer service processes to ensure efficient delivery?",
+      "answer": "Increased customer service",
+      "choices": [
+        "Increased customer service",
+        "Increased speed",
+        "Increased accuracy",
+        "Increased data for decision making"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as OIS can store and generate data for reports, documents, etc. that can be used by executives for decisions concerning the future of the enterprise?",
+      "answer": "Increased data for decision making",
+      "choices": [
+        "Increased data for decision making",
+        "Increased customer service",
+        "Increased speed",
+        "Reduced Cost"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    }
+  ]
+}

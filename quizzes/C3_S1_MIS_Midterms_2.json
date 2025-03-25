@@ -1,0 +1,364 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Midterms",
+    "Title": "Electronic Communication Systems",
+    "LastModified": "21 March 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What refers to an information system that provides fast and inexpensive communication channels using telephony, computing hardware, networks, and the internet?",
+      "answer": "Electronic Communication Systems (ECS)",
+      "choices": [
+        "Electronic Communication Systems (ECS)",
+        "Electronic Conferencing (EC)",
+        "Electronic Meeting System (EMS)",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of electronic communication systems is based on time and availability?",
+      "answer": "Types of Electronic Communication Systems",
+      "choices": [
+        "Types of Electronic Communication Systems",
+        "Types of Electronic Conferencing",
+        "Types of Electronic Discussion",
+        "Types of Electronic Publishing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic communication requires members to be available at the same time to communicate?",
+      "answer": "Synchronous",
+      "choices": [
+        "Synchronous",
+        "Asynchronous",
+        "Electronic Conferencing (EC)",
+        "Electronic Discussion (ED)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic communication doesn’t require members to be available at the same time?",
+      "answer": "Asynchronous",
+      "choices": [
+        "Asynchronous",
+        "Synchronous",
+        "Electronic Meeting System (EMS)",
+        "Pull Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What component of ECS is mostly synchronous and encourages greater collaboration between the organization and its members?",
+      "answer": "Electronic Conferencing (EC)",
+      "choices": [
+        "Electronic Conferencing (EC)",
+        "Electronic Discussion (ED)",
+        "Online collaboration and sharing",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses internet-based technologies to facilitate a broader coverage of members and eliminate the need for physical locations?",
+      "answer": "Electronic Conferencing (EC)",
+      "choices": [
+        "Electronic Conferencing (EC)",
+        "Electronic Discussion (ED)",
+        "Electronic Publishing (EP)",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic conferencing involves only two points between two members, similar to phone calls?",
+      "answer": "Point-to-point",
+      "choices": [
+        "Point-to-point",
+        "Multipoint",
+        "Electronic Discussion (ED)",
+        "Pull Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic conferencing involves multiple points between multiple members?",
+      "answer": "Multipoint",
+      "choices": [
+        "Multipoint",
+        "Point-to-point",
+        "Push Technology",
+        "Electronic Meeting System (EMS)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic conferencing uses a central network hub and allows simultaneous collaboration on various predefined locations?",
+      "answer": "Multipoint",
+      "choices": [
+        "Multipoint",
+        "Point-to-point",
+        "Online collaboration and sharing",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a component of ECS that assists in the creation, organization, and facilitation of meetings?",
+      "answer": "Electronic Meeting System (EMS)",
+      "choices": [
+        "Electronic Meeting System (EMS)",
+        "Electronic Discussion (ED)",
+        "Electronic Publishing (EP)",
+        "Synchronous"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What component of ECS can either be synchronous or asynchronous and uses multiple tools such as e-conferencing, scheduling, file sharing, and cross-portability features?",
+      "answer": "Electronic Meeting System (EMS)",
+      "choices": [
+        "Electronic Meeting System (EMS)",
+        "Electronic Conferencing (EC)",
+        "Electronic Discussion (ED)",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What component of ECS uses tools specifically designed for meetings?",
+      "answer": "Electronic Meeting System (EMS)",
+      "choices": [
+        "Electronic Meeting System (EMS)",
+        "Electronic Conferencing (EC)",
+        "Multipoint",
+        "Point-to-point"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to an information system used to facilitate textual or non-textual discussions between members using an available electronic medium?",
+      "answer": "Electronic Discussion (ED)",
+      "choices": [
+        "Electronic Discussion (ED)",
+        "Electronic Meeting System (EMS)",
+        "Electronic Publishing (EP)",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a broader type of digital conversation?",
+      "answer": "Electronic Discussion (ED)",
+      "choices": [
+        "Electronic Discussion (ED)",
+        "Electronic Publishing (EP)",
+        "Electronic Meeting System (EMS)",
+        "Push Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic discussion requires a user to take action to access the discussion, such as logging into an online forum?",
+      "answer": "Pull Technology",
+      "choices": [
+        "Pull Technology",
+        "Push Technology",
+        "Synchronous",
+        "Multipoint"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic discussion doesn’t require anything from the user, as information is automatically disseminated?",
+      "answer": "Push Technology",
+      "choices": [
+        "Push Technology",
+        "Pull Technology",
+        "Online collaboration and sharing",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic discussion disseminates information with or without the obligation for the user to retrieve it manually?",
+      "answer": "Push Technology",
+      "choices": [
+        "Push Technology",
+        "Pull Technology",
+        "Multipoint",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What aspect of ECS facilitates the digital publishing of textual material and other readable information?",
+      "answer": "Electronic Publishing (EP)",
+      "choices": [
+        "Electronic Publishing (EP)",
+        "Electronic Discussion (ED)",
+        "Pull Technology",
+        "Security issues"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What aspect of ECS makes materials available for viewing using a device with an electronic screen, such as a computer?",
+      "answer": "Electronic Publishing (EP)",
+      "choices": [
+        "Electronic Publishing (EP)",
+        "Portable electronic device",
+        "E-versions of traditional media",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to a means of storing and publishing e-textual content such as DVDs and CDs?",
+      "answer": "Portable electronic device",
+      "choices": [
+        "Portable electronic device",
+        "E-versions of traditional media",
+        "New Media",
+        "Push Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What converts traditional media formats and publishes them as digital copies, such as PDFs and e-books?",
+      "answer": "E-versions of traditional media",
+      "choices": [
+        "E-versions of traditional media",
+        "Portable electronic device",
+        "New Media",
+        "Pull Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of digital publishing relies on the internet to reach its target recipients, such as blogs and digital publication platforms?",
+      "answer": "New Media",
+      "choices": [
+        "New Media",
+        "E-versions of traditional media",
+        "Online collaboration and sharing",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses the internet to facilitate publishing with an emphasis on collaboration between recipients?",
+      "answer": "Online collaboration and sharing",
+      "choices": [
+        "Online collaboration and sharing",
+        "New Media",
+        "Electronic Publishing (EP)",
+        "Electronic Conferencing (EC)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a paperless and environmentally friendly medium?",
+      "answer": "Benefits of Electronic Publishing",
+      "choices": [
+        "Benefits of Electronic Publishing",
+        "Security issues",
+        "Plagiarism",
+        "Public opinion on business models"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of electronic publishing refers to its portability and storage capabilities?",
+      "answer": "Benefits of Electronic Publishing",
+      "choices": [
+        "Benefits of Electronic Publishing",
+        "E-versions of traditional media",
+        "Online collaboration and sharing",
+        "Push Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of electronic publishing allows digital distribution?",
+      "answer": "Benefits of Electronic Publishing",
+      "choices": [
+        "Benefits of Electronic Publishing",
+        "Electronic Publishing (EP)",
+        "New Media",
+        "Pull Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a potential risk of electronic publishing related to data privacy concerns?",
+      "answer": "Security issues",
+      "choices": [
+        "Security issues",
+        "Plagiarism",
+        "Public opinion on business models",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What risk of electronic publishing allows digital content to be stolen and used without following traditional policies?",
+      "answer": "Plagiarism",
+      "choices": [
+        "Plagiarism",
+        "Security issues",
+        "Public opinion on business models",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What risk of electronic publishing is caused by the perception that internet information should be free, making paid content models less appealing?",
+      "answer": "Public opinion on business models",
+      "choices": [
+        "Public opinion on business models",
+        "Security issues",
+        "Plagiarism",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    }
+  ]
+}

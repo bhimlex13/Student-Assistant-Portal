@@ -8,46 +8,46 @@
             "Section_Name": "IT601-A",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Feb. 18 | Tuesday",
+                    "Schedule_Day": "Mar. 26 | Wednesday",
                     "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Mobile Systems and Technologies",
-                            "Subject_Duration": ["7:00 AM", "8:30 AM"],
-                            "Subject_Location": "Rm. 204"
+                            "Subject_Name": "Management Information Systems",
+                            "Subject_Duration": ["10:00 AM", "11:30 AM"],
+                            "Subject_Location": "Rm. 205"
                         },
-                        {
-                            "Subject_Name": "Web Systems and Technologies",
-                            "Subject_Duration": ["8:30 AM", "10:00 AM"],
-                            "Subject_Location": "Rm. 204"
-                        }
-                    ]
-                },
-                {
-                    "Schedule_Day": "Feb. 19 | Wednesday",
-                    "Schedule_Subjects": [
                         {
                             "Subject_Name": "Great Books",
                             "Subject_Duration": ["11:30 AM", "1:00 PM"],
                             "Subject_Location": "Rm. 202"
-                        },
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Mar. 27 | Thursday",
+                    "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Management Information Systems",
-                            "Subject_Duration": ["2:30 PM", "4:00 PM"],
+                            "Subject_Name": "Web Systems and Technologies",
+                            "Subject_Duration": ["11:30 AM", "1:00 PM"],
                             "Subject_Location": "Rm. 204"
                         },
                         {
-                            "Subject_Name": "Information Assurance & Security",
-                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Name": "Programming Languages",
+                            "Subject_Duration": ["1:00 PM", "2:30 PM"],
                             "Subject_Location": "Rm. 201"
                         }
                     ]
                 },
                 {
-                    "Schedule_Day": "Feb. 20 | Thursday",
+                    "Schedule_Day": "Mar. 28 | Friday",
                     "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Programming Languages",
-                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Name": "Mobile Systems and Technologies",
+                            "Subject_Duration": ["11:30 AM", "1:00 PM"],
+                            "Subject_Location": "Rm. 201"
+                        },
+                        {
+                            "Subject_Name": "Information Assurance & Security",
+                            "Subject_Duration": ["1:00 PM", "2:30 PM"],
                             "Subject_Location": "Rm. 201"
                         }
                     ]
@@ -60,46 +60,46 @@
             "Section_Name": "IT601-M",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Feb. 18 | Tuesday",
+                    "Schedule_Day": "Mar. 26 | Wednesday",
                     "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Mobile Systems and Technologies",
-                            "Subject_Duration": ["7:00 AM", "8:30 AM"],
-                            "Subject_Location": "Rm. 205"
+                            "Subject_Name": "Management Information Systems",
+                            "Subject_Duration": ["10:00 AM", "11:30 AM"],
+                            "Subject_Location": "Rm. 309"
                         },
-                        {
-                            "Subject_Name": "Web Systems and Technologies",
-                            "Subject_Duration": ["8:30 AM", "10:00 AM"],
-                            "Subject_Location": "Rm. 205"
-                        }
-                    ]
-                },
-                {
-                    "Schedule_Day": "Feb. 19 | Wednesday",
-                    "Schedule_Subjects": [
                         {
                             "Subject_Name": "Great Books",
                             "Subject_Duration": ["11:30 AM", "1:00 PM"],
                             "Subject_Location": "Rm. 203"
-                        },
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Mar. 27 | Thursday",
+                    "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Management Information Systems",
-                            "Subject_Duration": ["2:30 PM", "4:00 PM"],
+                            "Subject_Name": "Web Systems and Technologies",
+                            "Subject_Duration": ["11:30 AM", "1:00 PM"],
                             "Subject_Location": "Rm. 205"
                         },
                         {
-                            "Subject_Name": "Information Assurance & Security",
-                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Name": "Programming Languages",
+                            "Subject_Duration": ["1:00 PM", "2:30 PM"],
                             "Subject_Location": "Rm. 202"
                         }
                     ]
                 },
                 {
-                    "Schedule_Day": "Feb. 20 | Thursday",
+                    "Schedule_Day": "Mar. 28 | Friday",
                     "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Programming Languages",
-                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Name": "Mobile Systems and Technologies",
+                            "Subject_Duration": ["11:30 AM", "1:00 PM"],
+                            "Subject_Location": "Rm. 202"
+                        },
+                        {
+                            "Subject_Name": "Information Assurance & Security",
+                            "Subject_Duration": ["1:00 PM", "2:30 PM"],
                             "Subject_Location": "Rm. 202"
                         }
                     ]
@@ -112,46 +112,46 @@
             "Section_Name": "IT601-P",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "Feb. 18 | Tuesday",
+                    "Schedule_Day": "Mar. 26 | Wednesday",
                     "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Mobile Systems and Technologies",
-                            "Subject_Duration": ["7:00 AM", "8:30 AM"],
-                            "Subject_Location": "Rm. 309"
+                            "Subject_Name": "Management Information Systems",
+                            "Subject_Duration": ["10:00 AM", "11:30 AM"],
+                            "Subject_Location": "Rm. 310"
                         },
-                        {
-                            "Subject_Name": "Web Systems and Technologies",
-                            "Subject_Duration": ["8:30 AM", "10:00 AM"],
-                            "Subject_Location": "Rm. 309"
-                        }
-                    ]
-                },
-                {
-                    "Schedule_Day": "Feb. 19 | Wednesday",
-                    "Schedule_Subjects": [
                         {
                             "Subject_Name": "Great Books",
                             "Subject_Duration": ["11:30 AM", "1:00 PM"],
                             "Subject_Location": "Rm. 204"
-                        },
+                        }
+                    ]
+                },
+                {
+                    "Schedule_Day": "Mar. 27 | Thursday",
+                    "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Management Information Systems",
-                            "Subject_Duration": ["2:30 PM", "4:00 PM"],
+                            "Subject_Name": "Web Systems and Technologies",
+                            "Subject_Duration": ["11:30 AM", "1:00 PM"],
                             "Subject_Location": "Rm. 309"
                         },
                         {
-                            "Subject_Name": "Information Assurance & Security",
-                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Name": "Programming Languages",
+                            "Subject_Duration": ["1:00 PM", "2:30 PM"],
                             "Subject_Location": "Rm. 203"
                         }
                     ]
                 },
                 {
-                    "Schedule_Day": "Feb. 20 | Thursday",
+                    "Schedule_Day": "Mar. 28 | Friday",
                     "Schedule_Subjects": [
                         {
-                            "Subject_Name": "Programming Languages",
-                            "Subject_Duration": ["4:00 PM", "5:30 PM"],
+                            "Subject_Name": "Mobile Systems and Technologies",
+                            "Subject_Duration": ["11:30 AM", "1:00 PM"],
+                            "Subject_Location": "Rm. 203"
+                        },
+                        {
+                            "Subject_Name": "Information Assurance & Security",
+                            "Subject_Duration": ["1:00 PM", "2:30 PM"],
                             "Subject_Location": "Rm. 203"
                         }
                     ]
