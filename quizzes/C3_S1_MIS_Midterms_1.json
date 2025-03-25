@@ -422,11 +422,11 @@
     },
     {
       "question": "What functionality automates business-specific processes to reduce or eliminate manpower requirements?",
-      "answer": "Process Software",
+      "answer": "Office Information Systems",
       "choices": [
         "Project Management",
         "Process Software",
-        "Functions",
+        "Office Information Systems",
         "Office Automation"
       ],
       "reference": "04 Handout 1",
