@@ -2,7 +2,7 @@
   "quizInfo": {
     "Subject": "Programming Languages",
     "Term": "Midterms",
-    "Title": "03 Handout 1 - Lexical Analysis",
+    "Title": "03 Handout 1 (ALL)",
     "LastModified": "26 March 2025",
     "Authors": [
       "Alexander Oro"
@@ -12,6 +12,486 @@
     ]
   },
   "quizData": [
+    {
+      "question": "What is the process of analyzing a string of symbols according to the rules of formal grammar?",
+      "answer": "parsing",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the process of analyzing a string of symbols according to the rules of formal grammar?",
+      "answer": "Syntax analysis",
+      "choices": [
+        "Syntax analysis",
+        "syntax errors",
+        "syntax analyzer",
+        "Abstract Syntax Tree"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What checks the source code to ensure that it follows the correct syntax of the programming language?",
+      "answer": "Syntax analysis",
+      "choices": [
+        "Syntax analysis",
+        "syntax errors",
+        "syntax analyzer",
+        "Abstract Syntax Tree"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What must be identified and corrected during parsing before a program can be successfully compiled?",
+      "answer": "syntax errors",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is another term for syntax analysis?",
+      "answer": "parsing",
+      "choices": [
+        "parser",
+        "parse tree",
+        "context-free grammar",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What takes the token streams from a lexical analyzer and analyzes them against production rules to detect errors?",
+      "answer": "syntax analyzer",
+      "choices": [
+        "Syntax analysis",
+        "syntax errors",
+        "syntax analyzer",
+        "Abstract Syntax Tree"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What takes the token streams from a lexical analyzer and analyzes them against production rules to detect errors?",
+      "answer": "parser",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is another term for syntax analyzer?",
+      "answer": "parser",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What represents the program’s structure as the output of the syntax analysis phase?",
+      "answer": "parse tree",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What represents the program’s structure as the output of the syntax analysis phase?",
+      "answer": "Abstract Syntax Tree",
+      "choices": [
+        "Syntax analysis",
+        "syntax errors",
+        "syntax analyzer",
+        "Abstract Syntax Tree"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is another term for Abstract Syntax Tree?",
+      "answer": "parse tree",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can identify tokens using regular expressions but cannot check the syntax of a given sentence?",
+      "answer": "lexical analyzer",
+      "choices": [
+        "lexical analyzer",
+        "syntax analyzer",
+        "Abstract Syntax Tree",
+        "Syntax analysis"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses context-free grammar (CFG) to define the syntax rules of a programming language?",
+      "answer": "Syntax analysis",
+      "choices": [
+        "Syntax analysis",
+        "syntax errors",
+        "syntax analyzer",
+        "Abstract Syntax Tree"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What specifies the grammar of a language to ensure the source code adheres to the language’s syntax?",
+      "answer": "context-free grammar",
+      "choices": [
+        "parser",
+        "parsing",
+        "context-free grammar",
+        "syntax errors"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step involves analyzing tokens based on grammar rules and constructing a parse tree or AST?",
+      "answer": "parsing",
+      "choices": [
+        "error handling",
+        "symbol table creation",
+        "parsing",
+        "context-free grammar"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step detects and flags syntax errors in the input program and indicates where the error occurred?",
+      "answer": "error handling",
+      "choices": [
+        "error handling",
+        "symbol table creation",
+        "ambiguity",
+        "context-free grammar"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step creates a symbol table to store information about identifiers such as type, scope, and location?",
+      "answer": "symbol table creation",
+      "choices": [
+        "error handling",
+        "symbol table creation",
+        "parsing",
+        "context-free grammar"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the process of applying the rules of Context-Free Grammar to generate a sequence of tokens to form a valid structure?",
+      "answer": "derivation",
+      "choices": [
+        "derivation",
+        "parsing",
+        "syntax errors",
+        "context-free grammar"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a sequence of production rules used to generate the input string for the parser?",
+      "answer": "derivation",
+      "choices": [
+        "derivation",
+        "parsing",
+        "ambiguity",
+        "context-free grammar"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is true about parsing decisions for a sentential form?",
+      "answer": "Deciding on the non-terminal to be replaced",
+      "choices": [
+        "Parsing ignores non-terminal symbols",
+        "Production rules are applied randomly",
+        "Deciding always starts from terminal symbols",
+        "Deciding on the non-terminal to be replaced"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is true about parsing decisions for a sentential form?",
+      "answer": "Deciding the production rule by which the non-terminal will be replaced",
+      "choices": [
+        "Deciding the parsing ignores non-terminal symbols",
+        "Production rules are applied randomly",
+        "Parsing always starts from terminal symbols",
+        "Deciding the production rule by which the non-terminal will be replaced"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which option describes the process if the sentential form of an input is scanned and replaced from left to right?",
+      "answer": "left-most derivation",
+      "choices": [
+        "left-most derivation",
+        "right-most derivation",
+        "up-most derivation",
+        "down-most derivation"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which option describes the derived sentential form of left-most derivation?",
+      "answer": "left-sentential form",
+      "choices": [
+        "left-sentential form",
+        "right-sentential form",
+        "up-sentential form",
+        "down-sentential form"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which option describes the process if the input is scanned and replaced with production rule?",
+      "answer": "right-most derivation",
+      "choices": [
+        "left-most derivation",
+        "right-most derivation",
+        "up-most derivation",
+        "down-most derivation"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which option describes the derived sentential form of right-most derivation?",
+      "answer": "right-sentential form",
+      "choices": [
+        "left-sentential form",
+        "right-sentential form",
+        "up-sentential form",
+        "down-sentential form"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term describes the graphical representation of a derivation?",
+      "answer": "parse tree",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What helps in seeing how strings are derived from the start symbol?\r\n",
+      "answer": "parse tree",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What has all leaf nodes as terminals and all interior nodes as non-terminals?\r\n",
+      "answer": "parse tree",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What represents associativity and precedence of operators?",
+      "answer": "parse tree",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is traversed first in a parse tree?",
+      "answer": "deepest sub-tree",
+      "choices": [
+        "deepest sub-tree",
+        "farthest sub-tree",
+        "parser",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is it called when a grammar has more than one parse tree for at least one string?",
+      "answer": "ambiguity",
+      "choices": [
+        "ambiguity",
+        "derivation",
+        "error handling",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the language generated by ambiguous grammar?",
+      "answer": "inherently ambiguous",
+      "choices": [
+        "inherently ambiguous",
+        "ambiguity",
+        "error handling",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What decides the side on which the operator takes an operand when there are operators on both sides of the operand?",
+      "answer": "associativity",
+      "choices": [
+        "associativity",
+        "left-associative operations",
+        "right-associative operations",
+        "precedence"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the term for operations where the operand is taken by the left operator?",
+      "answer": "left-associative operations",
+      "choices": [
+        "associativity",
+        "left-associative operations",
+        "right-associative operations",
+        "precedence"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the term for operations where the operand is taken by the right operator?",
+      "answer": "right-associative operations",
+      "choices": [
+        "associativity",
+        "left-associative operations",
+        "right-associative operations",
+        "precedence"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What decides which operator will take the operand when two different operators share a common operand?",
+      "answer": "precedence",
+      "choices": [
+        "associativity",
+        "left-associative operations",
+        "right-associative operations",
+        "precedence"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is first or highest in priority in the hierarchy of priorities in Python?",
+      "answer": "** or Exponentiation Operator",
+      "choices": [
+        "** or Exponentiation Operator",
+        "Unary + and –",
+        "*, /, //, %",
+        "Binary + (Addition) and – (Subtraction)"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is second in priority in the hierarchy of priorities in Python?",
+      "answer": "Unary + and –",
+      "choices": [
+        "** or Exponentiation Operator",
+        "Unary + and –",
+        "*, /, //, %",
+        "Binary + (Addition) and – (Subtraction)"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is third in priority in the hierarchy of priorities in Python?",
+      "answer": "*, /, //, %",
+      "choices": [
+        "** or Exponentiation Operator",
+        "Unary + and –",
+        "*, /, //, %",
+        "Binary + (Addition) and – (Subtraction)"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is fourth or lowest in priority in the hierarchy of priorities in Python?",
+      "answer": "Binary + (Addition) and – (Subtraction)",
+      "choices": [
+        "** or Exponentiation Operator",
+        "Unary + and –",
+        "*, /, //, %",
+        "Binary + (Addition) and – (Subtraction)"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
     {
       "question": "How is the source code read and organized into tokens?",
       "answer": "Lexical analysis",
