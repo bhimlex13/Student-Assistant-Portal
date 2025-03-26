@@ -1,0 +1,796 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Midterms",
+    "Title": "04 Handout 1 (ALL)",
+    "LastModified": "26 March 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the association between an attribute and an entity such as a variable and its type or value?",
+      "answer": "binding",
+      "choices": [
+        "binding",
+        "binding time",
+        "dynamic type binding",
+        "scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to the time a binding takes place, such as compile time or runtime?",
+      "answer": "binding time",
+      "choices": [
+        "binding",
+        "binding time",
+        "scope",
+        "type bindings"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is a variable associated with a data type before being referenced in a program?",
+      "answer": "type bindings",
+      "choices": [
+        "type bindings",
+        "binding",
+        "binding time",
+        "shadowing"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What kind of declaration lists variable names and specifies their particular type?",
+      "answer": "explicit declaration",
+      "choices": [
+        "explicit declaration",
+        "implicit declaration",
+        "dynamic type binding",
+        "scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is a variable associated with a type through default conventions without a declaration statement?",
+      "answer": "implicit declaration",
+      "choices": [
+        "explicit declaration",
+        "implicit declaration",
+        "type bindings",
+        "scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does it happen when the variable type is not specified by a declaration statement nor can be determined by the spelling of its name?",
+      "answer": "dynamic type binding",
+      "choices": [
+        "binding time",
+        "dynamic type binding",
+        "explicit declaration",
+        "lifetime and visibility"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the range of statements wherein the variable is visible and can be referenced or assigned in a statement?",
+      "answer": "scope",
+      "choices": [
+        "binding",
+        "dynamic type binding",
+        "explicit declaration",
+        "scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What determines where a variable can be used and modified within the code?",
+      "answer": "lifetime and visibility",
+      "choices": [
+        "scope",
+        "type bindings",
+        "implicit declaration",
+        "lifetime and visibility"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "Where are variables accessible from anywhere in the program, including inside functions?",
+      "answer": "global scope",
+      "choices": [
+        "local scope",
+        "global scope",
+        "enclosing scope",
+        "built-in scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What kind of scope refers to variables that are declared inside a function or block and are only accessible within that specific function or block?",
+      "answer": "local scope",
+      "choices": [
+        "global scope",
+        "local scope",
+        "enclosing scope",
+        "built-in scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to the scope of a function that encloses another function?",
+      "answer": "enclosing scope",
+      "choices": [
+        "local scope",
+        "global scope",
+        "enclosing scope",
+        "built-in scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What scope contains all the functions and variables that are built into Python, like print(), len(), and int()?",
+      "answer": "built-in scope",
+      "choices": [
+        "local scope",
+        "global scope",
+        "enclosing scope",
+        "built-in scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What rule does Python follow when looking up variables in nested scopes?",
+      "answer": "LEGB Rule",
+      "choices": [
+        "LEGB Rule",
+        "shadowing",
+        "global keyword",
+        "type bindings"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What part of the LEGB Rule refers to the innermost scope?",
+      "answer": "Local",
+      "choices": [
+        "Local",
+        "Enclosing",
+        "Global",
+        "Built-in"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What part of the LEGB Rule refers to enclosing functions like in closures?",
+      "answer": "Enclosing",
+      "choices": [
+        "Local",
+        "Enclosing",
+        "Global",
+        "Built-in"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What part of the LEGB Rule refers to the module-level scope?",
+      "answer": "Global",
+      "choices": [
+        "Local",
+        "Enclosing",
+        "Global",
+        "Built-in"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What part of the LEGB Rule refers to Python's built-in objects and functions?",
+      "answer": "Built-in",
+      "choices": [
+        "Local",
+        "Enclosing",
+        "Global",
+        "Built-in"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What occurs when a local variable has the same name as an outer scope variable and overrides it?",
+      "answer": "shadowing",
+      "choices": [
+        "binding",
+        "global keyword",
+        "scope",
+        "shadowing"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What keyword is used to modify a global variable inside a function?",
+      "answer": "global keyword",
+      "choices": [
+        "binding",
+        "explicit declaration",
+        "shadowing",
+        "global keyword"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for the type of count?",
+      "answer": "at compile time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for the set of possible values of count?",
+      "answer": "at compiler design time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for the meaning of the operator symbol?",
+      "answer": "at compile time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for internal representation of the literal (int)?",
+      "answer": "at compiler design time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for value of the count?",
+      "answer": "at execution time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a string of characters used to identify some entity in a program called?",
+      "answer": "name",
+      "choices": [
+        "Function",
+        "Variable",
+        "name",
+        "Class"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term can be used interchangeably with 'name'?",
+      "answer": "identifier",
+      "choices": [
+        "identifier",
+        "function",
+        "operator",
+        "parser"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What replaced the use of underscores in C-based languages?",
+      "answer": "camel notation or camel case",
+      "choices": [
+        "camel notation or camel case",
+        "horse case",
+        "snake case",
+        "dog case"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What naming style has embedded uppercase letters like myFirstCode?",
+      "answer": "camel",
+      "choices": [
+        "camel",
+        "pascal",
+        "underscore",
+        "proper"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a string of characters used to identify some entity in a program?",
+      "answer": "name",
+      "choices": [
+        "Function",
+        "Variable",
+        "name",
+        "Class"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which languages have no length limit in naming, and all characters are significant?",
+      "answer": "Java and C#",
+      "choices": [
+        "Java and C#",
+        "C++",
+        "PHP",
+        "Perl"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characters can follow the first letter in programming languages?",
+      "answer": "names",
+      "choices": [
+        "names",
+        "class",
+        "variables",
+        "functions"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which language does not specify length limits in names, but implementors sometimes do?",
+      "answer": "C++",
+      "choices": [
+        "Java and C#",
+        "C++",
+        "Perl",
+        "Ruby"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which language requires all variable names to begin with a dollar sign?",
+      "answer": "PHP",
+      "choices": [
+        "Java and C#",
+        "C++",
+        "PHP",
+        "Ruby"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "In which language do special characters like $, @, or % specify the type of a variable?",
+      "answer": "Perl",
+      "choices": [
+        "Java and C#",
+        "C++",
+        "Perl",
+        "Ruby"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which language uses @ and @@ to indicate instance and class variables?",
+      "answer": "Ruby",
+      "choices": [
+        "Java and C#",
+        "C++",
+        "PHP",
+        "Ruby"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What naming style in Python uses lowercase letters and underscores for readability?",
+      "answer": "snake case",
+      "choices": [
+        "camel notation or camel case",
+        "horse case",
+        "snake case",
+        "dog case"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Function in Python?",
+      "answer": "Use lowercase words. Separate words by underscores to improve readability.",
+      "choices": [
+        "Use lowercase words. Separate words by underscores to improve readability.",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Variable in Python?",
+      "answer": "Use a lowercase single letter, word, or words. Separate words with underscores to improve readability",
+      "choices": [
+        "Use a lowercase single letter, word, or words. Separate words with underscores to improve readability",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Class in Python?",
+      "answer": "Start each word with a capital letter. Do not separate words with underscores.",
+      "choices": [
+        "Use a lowercase single letter, word, or words. Separate words with underscores to improve readability",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Method in Python?",
+      "answer": "Use lowercase words. Separate words by underscores to improve readability.",
+      "choices": [
+        "Use lowercase words. Separate words by underscores to improve readability.",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Constant in Python?",
+      "answer": "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability",
+      "choices": [
+        "Use lowercase words. Separate words by underscores to improve readability.",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Module in Python?",
+      "answer": "Use a short, lowercase word or words. Separate words with underscores to improve readability.",
+      "choices": [
+        "Use a short, lowercase word or words. Separate words with underscores to improve readability.",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Package in Python?",
+      "answer": "Use a short, lowercase word or words. Do not separate words with underscores.",
+      "choices": [
+        "Use a short, lowercase word or words. Separate words with underscores to improve readability.",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What examples follow the function naming convention in Python?",
+      "answer": "function, pyt_function",
+      "choices": [
+        "function, pyt_function",
+        "z, var, pyt_variable",
+        "Model, PythonClass",
+        "class_method, method"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are some valid examples of variable names in Python?",
+      "answer": "z, var, pyt_variable",
+      "choices": [
+        "CONSTANT, PYTH_CONSTANT, PYTHON_LONG_CONSTANT",
+        "z, var, pyt_variable",
+        "Model, PythonClass",
+        "class_method, method"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are examples of Pascal case for class names?",
+      "answer": "Model, PythonClass",
+      "choices": [
+        "function, pyt_function",
+        "z, var, pyt_variable",
+        "Model, PythonClass",
+        "class_method, method"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are examples of method naming in Python?",
+      "answer": "class_method, method",
+      "choices": [
+        "function, pyt_function",
+        "z, var, pyt_variable",
+        "Model, PythonClass",
+        "class_method, method"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are examples of constants in Python?",
+      "answer": "CONSTANT, PYTH_CONSTANT, PYTHON_LONG_CONSTANT",
+      "choices": [
+        "module.py, python_module.py",
+        "package, pythonpackage",
+        "CONSTANT, PYTH_CONSTANT, PYTHON_LONG_CONSTANT",
+        "function, pyt_function"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are examples of module file names?",
+      "answer": "module.py, python_module.py",
+      "choices": [
+        "module.py, python_module.py",
+        "CONSTANT, PYTH_CONSTANT, PYTHON_LONG_CONSTANT",
+        "z, var, pyt_variable",
+        "function, pyt_function"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are examples of Python package names?",
+      "answer": "package, pythonpackage",
+      "choices": [
+        "module.py, python_module.py",
+        "package, pythonpackage",
+        "z, var, pyt_variable",
+        "CONSTANT, PYTH_CONSTANT, PYTHON_LONG_CONSTANT"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What naming style starts each word with a capital letter?",
+      "answer": "pascal case",
+      "choices": [
+        "pascal case",
+        "snake case",
+        "camel case",
+        "brief case"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "How are words that separate the syntactic parts of programs identified?",
+      "answer": "special words",
+      "choices": [
+        "special words",
+        "reserved words",
+        "names",
+        "identifiers"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are words in most programming languages that cannot be used as names?",
+      "answer": "reserved words",
+      "choices": [
+        "special words",
+        "reserved words",
+        "names",
+        "identifiers"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What language treats special words as keywords rather than reserved words?",
+      "answer": "Fortran",
+      "choices": [
+        "Fortran",
+        "Java and C#",
+        "C++",
+        "COBOL"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which language includes 300 reserved words that can limit programmer choices?",
+      "answer": "COBOL",
+      "choices": [
+        "COBOL",
+        "Fortran",
+        "Java and C#",
+        "C++"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is an abstraction of a memory cell or cells in programming?",
+      "answer": "Variables",
+      "choices": [
+        "Variables",
+        "Class",
+        "Binding",
+        "Scopes"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can be made up of letters, numbers, and underscores in a program?",
+      "answer": "Variable Names",
+      "choices": [
+        "Variable Names",
+        "Variable Address",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the most common names in programs used to reference changing values?",
+      "answer": "Variable Names",
+      "choices": [
+        "Variable Names",
+        "Variable Address",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What acts as a numerical identifier that allows the program to access and manipulate the data held by a variable?",
+      "answer": "Variable Address",
+      "choices": [
+        "Variable Scope",
+        "Variable Address",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What identifies the unique memory location of a variable?",
+      "answer": "Variable Address",
+      "choices": [
+        "Variable Names",
+        "Variable Address",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What determines the range and valid operations of a variable?",
+      "answer": "Variable Type",
+      "choices": [
+        "Variable Scope",
+        "Variable Lifetime",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the content held by a memory cell associated with a variable?",
+      "answer": "Variable Value",
+      "choices": [
+        "Variable Scope",
+        "Variable Lifetime",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is required when a variable name appears on the right side of an assignment statement?",
+      "answer": "Variable Value",
+      "choices": [
+        "Variable Scope",
+        "Variable Address",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What defines how long a variable retains value in memory?",
+      "answer": "Variable Lifetime",
+      "choices": [
+        "Variable Scope",
+        "Variable Lifetime",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What defines the part of the program where a variable can be accessed?",
+      "answer": "Variable Scope",
+      "choices": [
+        "Variable Scope",
+        "Variable Address",
+        "Variable Type",
+        "Variable Lifetime"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    }
+  ]
+}

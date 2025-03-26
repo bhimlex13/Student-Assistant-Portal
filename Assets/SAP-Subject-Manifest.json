@@ -617,6 +617,39 @@
                             ],
                             "Subfolder_LastModified": "26 March 2025",
                             "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Midterms_5",
+                            "Subfolder_Name": "04 Handout 1 - Bindings and Scopes",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Midterms_5",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "26 March 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Midterms_6",
+                            "Subfolder_Name": "04 Handout 1 (ALL)",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Midterms_6",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "26 March 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Midterms_7",
+                            "Subfolder_Name": "Midterms Reviewer Pro Max",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Midterms_7",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "26 March 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }

@@ -1,0 +1,1768 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Midterms",
+    "Title": "Midterms Reviewer Pro Max",
+    "LastModified": "26 March 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "03, 04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the association between an attribute and an entity such as a variable and its type or value?",
+      "answer": "binding",
+      "choices": [
+        "binding",
+        "binding time",
+        "dynamic type binding",
+        "scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to the time a binding takes place, such as compile time or runtime?",
+      "answer": "binding time",
+      "choices": [
+        "binding",
+        "binding time",
+        "scope",
+        "type bindings"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is a variable associated with a data type before being referenced in a program?",
+      "answer": "type bindings",
+      "choices": [
+        "type bindings",
+        "binding",
+        "binding time",
+        "shadowing"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What kind of declaration lists variable names and specifies their particular type?",
+      "answer": "explicit declaration",
+      "choices": [
+        "explicit declaration",
+        "implicit declaration",
+        "dynamic type binding",
+        "scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is a variable associated with a type through default conventions without a declaration statement?",
+      "answer": "implicit declaration",
+      "choices": [
+        "explicit declaration",
+        "implicit declaration",
+        "type bindings",
+        "scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does it happen when the variable type is not specified by a declaration statement nor can be determined by the spelling of its name?",
+      "answer": "dynamic type binding",
+      "choices": [
+        "binding time",
+        "dynamic type binding",
+        "explicit declaration",
+        "lifetime and visibility"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the range of statements wherein the variable is visible and can be referenced or assigned in a statement?",
+      "answer": "scope",
+      "choices": [
+        "binding",
+        "dynamic type binding",
+        "explicit declaration",
+        "scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What determines where a variable can be used and modified within the code?",
+      "answer": "lifetime and visibility",
+      "choices": [
+        "scope",
+        "type bindings",
+        "implicit declaration",
+        "lifetime and visibility"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "Where are variables accessible from anywhere in the program, including inside functions?",
+      "answer": "global scope",
+      "choices": [
+        "local scope",
+        "global scope",
+        "enclosing scope",
+        "built-in scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What kind of scope refers to variables that are declared inside a function or block and are only accessible within that specific function or block?",
+      "answer": "local scope",
+      "choices": [
+        "global scope",
+        "local scope",
+        "enclosing scope",
+        "built-in scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to the scope of a function that encloses another function?",
+      "answer": "enclosing scope",
+      "choices": [
+        "local scope",
+        "global scope",
+        "enclosing scope",
+        "built-in scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What scope contains all the functions and variables that are built into Python, like print(), len(), and int()?",
+      "answer": "built-in scope",
+      "choices": [
+        "local scope",
+        "global scope",
+        "enclosing scope",
+        "built-in scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What rule does Python follow when looking up variables in nested scopes?",
+      "answer": "LEGB Rule",
+      "choices": [
+        "LEGB Rule",
+        "shadowing",
+        "global keyword",
+        "type bindings"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What part of the LEGB Rule refers to the innermost scope?",
+      "answer": "Local",
+      "choices": [
+        "Local",
+        "Enclosing",
+        "Global",
+        "Built-in"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What part of the LEGB Rule refers to enclosing functions like in closures?",
+      "answer": "Enclosing",
+      "choices": [
+        "Local",
+        "Enclosing",
+        "Global",
+        "Built-in"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What part of the LEGB Rule refers to the module-level scope?",
+      "answer": "Global",
+      "choices": [
+        "Local",
+        "Enclosing",
+        "Global",
+        "Built-in"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What part of the LEGB Rule refers to Python's built-in objects and functions?",
+      "answer": "Built-in",
+      "choices": [
+        "Local",
+        "Enclosing",
+        "Global",
+        "Built-in"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What occurs when a local variable has the same name as an outer scope variable and overrides it?",
+      "answer": "shadowing",
+      "choices": [
+        "binding",
+        "global keyword",
+        "scope",
+        "shadowing"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What keyword is used to modify a global variable inside a function?",
+      "answer": "global keyword",
+      "choices": [
+        "binding",
+        "explicit declaration",
+        "shadowing",
+        "global keyword"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for the type of count?",
+      "answer": "at compile time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for the set of possible values of count?",
+      "answer": "at compiler design time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for the meaning of the operator symbol?",
+      "answer": "at compile time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for internal representation of the literal (int)?",
+      "answer": "at compiler design time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for value of the count?",
+      "answer": "at execution time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a string of characters used to identify some entity in a program called?",
+      "answer": "name",
+      "choices": [
+        "Function",
+        "Variable",
+        "name",
+        "Class"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term can be used interchangeably with 'name'?",
+      "answer": "identifier",
+      "choices": [
+        "identifier",
+        "function",
+        "operator",
+        "parser"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What replaced the use of underscores in C-based languages?",
+      "answer": "camel notation or camel case",
+      "choices": [
+        "camel notation or camel case",
+        "horse case",
+        "snake case",
+        "dog case"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What naming style has embedded uppercase letters like myFirstCode?",
+      "answer": "camel",
+      "choices": [
+        "camel",
+        "pascal",
+        "underscore",
+        "proper"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a string of characters used to identify some entity in a program?",
+      "answer": "name",
+      "choices": [
+        "Function",
+        "Variable",
+        "name",
+        "Class"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which languages have no length limit in naming, and all characters are significant?",
+      "answer": "Java and C#",
+      "choices": [
+        "Java and C#",
+        "C++",
+        "PHP",
+        "Perl"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characters can follow the first letter in programming languages?",
+      "answer": "names",
+      "choices": [
+        "names",
+        "class",
+        "variables",
+        "functions"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which language does not specify length limits in names, but implementors sometimes do?",
+      "answer": "C++",
+      "choices": [
+        "Java and C#",
+        "C++",
+        "Perl",
+        "Ruby"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which language requires all variable names to begin with a dollar sign?",
+      "answer": "PHP",
+      "choices": [
+        "Java and C#",
+        "C++",
+        "PHP",
+        "Ruby"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "In which language do special characters like $, @, or % specify the type of a variable?",
+      "answer": "Perl",
+      "choices": [
+        "Java and C#",
+        "C++",
+        "Perl",
+        "Ruby"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which language uses @ and @@ to indicate instance and class variables?",
+      "answer": "Ruby",
+      "choices": [
+        "Java and C#",
+        "C++",
+        "PHP",
+        "Ruby"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What naming style in Python uses lowercase letters and underscores for readability?",
+      "answer": "snake case",
+      "choices": [
+        "camel notation or camel case",
+        "horse case",
+        "snake case",
+        "dog case"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Function in Python?",
+      "answer": "Use lowercase words. Separate words by underscores to improve readability.",
+      "choices": [
+        "Use lowercase words. Separate words by underscores to improve readability.",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Variable in Python?",
+      "answer": "Use a lowercase single letter, word, or words. Separate words with underscores to improve readability",
+      "choices": [
+        "Use a lowercase single letter, word, or words. Separate words with underscores to improve readability",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Class in Python?",
+      "answer": "Start each word with a capital letter. Do not separate words with underscores.",
+      "choices": [
+        "Use a lowercase single letter, word, or words. Separate words with underscores to improve readability",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Method in Python?",
+      "answer": "Use lowercase words. Separate words by underscores to improve readability.",
+      "choices": [
+        "Use lowercase words. Separate words by underscores to improve readability.",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Constant in Python?",
+      "answer": "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability",
+      "choices": [
+        "Use lowercase words. Separate words by underscores to improve readability.",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Module in Python?",
+      "answer": "Use a short, lowercase word or words. Separate words with underscores to improve readability.",
+      "choices": [
+        "Use a short, lowercase word or words. Separate words with underscores to improve readability.",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the naming convention for Package in Python?",
+      "answer": "Use a short, lowercase word or words. Do not separate words with underscores.",
+      "choices": [
+        "Use a short, lowercase word or words. Separate words with underscores to improve readability.",
+        "Start each word with a capital letter. Do not separate words with underscores.",
+        "Use a short, lowercase word or words. Do not separate words with underscores.",
+        "Use an uppercase single letter, word, or words. Separate words with underscores to improve readability"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What examples follow the function naming convention in Python?",
+      "answer": "function, pyt_function",
+      "choices": [
+        "function, pyt_function",
+        "z, var, pyt_variable",
+        "Model, PythonClass",
+        "class_method, method"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are some valid examples of variable names in Python?",
+      "answer": "z, var, pyt_variable",
+      "choices": [
+        "CONSTANT, PYTH_CONSTANT, PYTHON_LONG_CONSTANT",
+        "z, var, pyt_variable",
+        "Model, PythonClass",
+        "class_method, method"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are examples of Pascal case for class names?",
+      "answer": "Model, PythonClass",
+      "choices": [
+        "function, pyt_function",
+        "z, var, pyt_variable",
+        "Model, PythonClass",
+        "class_method, method"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are examples of method naming in Python?",
+      "answer": "class_method, method",
+      "choices": [
+        "function, pyt_function",
+        "z, var, pyt_variable",
+        "Model, PythonClass",
+        "class_method, method"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are examples of constants in Python?",
+      "answer": "CONSTANT, PYTH_CONSTANT, PYTHON_LONG_CONSTANT",
+      "choices": [
+        "module.py, python_module.py",
+        "package, pythonpackage",
+        "CONSTANT, PYTH_CONSTANT, PYTHON_LONG_CONSTANT",
+        "function, pyt_function"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are examples of module file names?",
+      "answer": "module.py, python_module.py",
+      "choices": [
+        "module.py, python_module.py",
+        "CONSTANT, PYTH_CONSTANT, PYTHON_LONG_CONSTANT",
+        "z, var, pyt_variable",
+        "function, pyt_function"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are examples of Python package names?",
+      "answer": "package, pythonpackage",
+      "choices": [
+        "module.py, python_module.py",
+        "package, pythonpackage",
+        "z, var, pyt_variable",
+        "CONSTANT, PYTH_CONSTANT, PYTHON_LONG_CONSTANT"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What naming style starts each word with a capital letter?",
+      "answer": "pascal case",
+      "choices": [
+        "pascal case",
+        "snake case",
+        "camel case",
+        "brief case"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "How are words that separate the syntactic parts of programs identified?",
+      "answer": "special words",
+      "choices": [
+        "special words",
+        "reserved words",
+        "names",
+        "identifiers"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are words in most programming languages that cannot be used as names?",
+      "answer": "reserved words",
+      "choices": [
+        "special words",
+        "reserved words",
+        "names",
+        "identifiers"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What language treats special words as keywords rather than reserved words?",
+      "answer": "Fortran",
+      "choices": [
+        "Fortran",
+        "Java and C#",
+        "C++",
+        "COBOL"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which language includes 300 reserved words that can limit programmer choices?",
+      "answer": "COBOL",
+      "choices": [
+        "COBOL",
+        "Fortran",
+        "Java and C#",
+        "C++"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is an abstraction of a memory cell or cells in programming?",
+      "answer": "Variables",
+      "choices": [
+        "Variables",
+        "Class",
+        "Binding",
+        "Scopes"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can be made up of letters, numbers, and underscores in a program?",
+      "answer": "Variable Names",
+      "choices": [
+        "Variable Names",
+        "Variable Address",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the most common names in programs used to reference changing values?",
+      "answer": "Variable Names",
+      "choices": [
+        "Variable Names",
+        "Variable Address",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What acts as a numerical identifier that allows the program to access and manipulate the data held by a variable?",
+      "answer": "Variable Address",
+      "choices": [
+        "Variable Scope",
+        "Variable Address",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What identifies the unique memory location of a variable?",
+      "answer": "Variable Address",
+      "choices": [
+        "Variable Names",
+        "Variable Address",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What determines the range and valid operations of a variable?",
+      "answer": "Variable Type",
+      "choices": [
+        "Variable Scope",
+        "Variable Lifetime",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the content held by a memory cell associated with a variable?",
+      "answer": "Variable Value",
+      "choices": [
+        "Variable Scope",
+        "Variable Lifetime",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is required when a variable name appears on the right side of an assignment statement?",
+      "answer": "Variable Value",
+      "choices": [
+        "Variable Scope",
+        "Variable Address",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What defines how long a variable retains value in memory?",
+      "answer": "Variable Lifetime",
+      "choices": [
+        "Variable Scope",
+        "Variable Lifetime",
+        "Variable Type",
+        "Variable Value"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What defines the part of the program where a variable can be accessed?",
+      "answer": "Variable Scope",
+      "choices": [
+        "Variable Scope",
+        "Variable Address",
+        "Variable Type",
+        "Variable Lifetime"
+      ],
+      "reference": "Names",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the process of analyzing a string of symbols according to the rules of formal grammar?",
+      "answer": "parsing",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the process of analyzing a string of symbols according to the rules of formal grammar?",
+      "answer": "Syntax analysis",
+      "choices": [
+        "Syntax analysis",
+        "syntax errors",
+        "syntax analyzer",
+        "Abstract Syntax Tree"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What checks the source code to ensure that it follows the correct syntax of the programming language?",
+      "answer": "Syntax analysis",
+      "choices": [
+        "Syntax analysis",
+        "syntax errors",
+        "syntax analyzer",
+        "Abstract Syntax Tree"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What must be identified and corrected during parsing before a program can be successfully compiled?",
+      "answer": "syntax errors",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is another term for syntax analysis?",
+      "answer": "parsing",
+      "choices": [
+        "parser",
+        "parse tree",
+        "context-free grammar",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What takes the token streams from a lexical analyzer and analyzes them against production rules to detect errors?",
+      "answer": "syntax analyzer",
+      "choices": [
+        "Syntax analysis",
+        "syntax errors",
+        "syntax analyzer",
+        "Abstract Syntax Tree"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What takes the token streams from a lexical analyzer and analyzes them against production rules to detect errors?",
+      "answer": "parser",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is another term for syntax analyzer?",
+      "answer": "parser",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What represents the program’s structure as the output of the syntax analysis phase?",
+      "answer": "parse tree",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What represents the program’s structure as the output of the syntax analysis phase?",
+      "answer": "Abstract Syntax Tree",
+      "choices": [
+        "Syntax analysis",
+        "syntax errors",
+        "syntax analyzer",
+        "Abstract Syntax Tree"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is another term for Abstract Syntax Tree?",
+      "answer": "parse tree",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can identify tokens using regular expressions but cannot check the syntax of a given sentence?",
+      "answer": "lexical analyzer",
+      "choices": [
+        "lexical analyzer",
+        "syntax analyzer",
+        "Abstract Syntax Tree",
+        "Syntax analysis"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses context-free grammar (CFG) to define the syntax rules of a programming language?",
+      "answer": "Syntax analysis",
+      "choices": [
+        "Syntax analysis",
+        "syntax errors",
+        "syntax analyzer",
+        "Abstract Syntax Tree"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What specifies the grammar of a language to ensure the source code adheres to the language’s syntax?",
+      "answer": "context-free grammar",
+      "choices": [
+        "parser",
+        "parsing",
+        "context-free grammar",
+        "syntax errors"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step involves analyzing tokens based on grammar rules and constructing a parse tree or AST?",
+      "answer": "parsing",
+      "choices": [
+        "error handling",
+        "symbol table creation",
+        "parsing",
+        "context-free grammar"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step detects and flags syntax errors in the input program and indicates where the error occurred?",
+      "answer": "error handling",
+      "choices": [
+        "error handling",
+        "symbol table creation",
+        "ambiguity",
+        "context-free grammar"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step creates a symbol table to store information about identifiers such as type, scope, and location?",
+      "answer": "symbol table creation",
+      "choices": [
+        "error handling",
+        "symbol table creation",
+        "parsing",
+        "context-free grammar"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the process of applying the rules of Context-Free Grammar to generate a sequence of tokens to form a valid structure?",
+      "answer": "derivation",
+      "choices": [
+        "derivation",
+        "parsing",
+        "syntax errors",
+        "context-free grammar"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a sequence of production rules used to generate the input string for the parser?",
+      "answer": "derivation",
+      "choices": [
+        "derivation",
+        "parsing",
+        "ambiguity",
+        "context-free grammar"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is true about parsing decisions for a sentential form?",
+      "answer": "Deciding on the non-terminal to be replaced",
+      "choices": [
+        "Parsing ignores non-terminal symbols",
+        "Production rules are applied randomly",
+        "Deciding always starts from terminal symbols",
+        "Deciding on the non-terminal to be replaced"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is true about parsing decisions for a sentential form?",
+      "answer": "Deciding the production rule by which the non-terminal will be replaced",
+      "choices": [
+        "Deciding the parsing ignores non-terminal symbols",
+        "Production rules are applied randomly",
+        "Parsing always starts from terminal symbols",
+        "Deciding the production rule by which the non-terminal will be replaced"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which option describes the process if the sentential form of an input is scanned and replaced from left to right?",
+      "answer": "left-most derivation",
+      "choices": [
+        "left-most derivation",
+        "right-most derivation",
+        "up-most derivation",
+        "down-most derivation"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which option describes the derived sentential form of left-most derivation?",
+      "answer": "left-sentential form",
+      "choices": [
+        "left-sentential form",
+        "right-sentential form",
+        "up-sentential form",
+        "down-sentential form"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which option describes the process if the input is scanned and replaced with production rule?",
+      "answer": "right-most derivation",
+      "choices": [
+        "left-most derivation",
+        "right-most derivation",
+        "up-most derivation",
+        "down-most derivation"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which option describes the derived sentential form of right-most derivation?",
+      "answer": "right-sentential form",
+      "choices": [
+        "left-sentential form",
+        "right-sentential form",
+        "up-sentential form",
+        "down-sentential form"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term describes the graphical representation of a derivation?",
+      "answer": "parse tree",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What helps in seeing how strings are derived from the start symbol?\r\n",
+      "answer": "parse tree",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What has all leaf nodes as terminals and all interior nodes as non-terminals?\r\n",
+      "answer": "parse tree",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What represents associativity and precedence of operators?",
+      "answer": "parse tree",
+      "choices": [
+        "parser",
+        "parse tree",
+        "syntax errors",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is traversed first in a parse tree?",
+      "answer": "deepest sub-tree",
+      "choices": [
+        "deepest sub-tree",
+        "farthest sub-tree",
+        "parser",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is it called when a grammar has more than one parse tree for at least one string?",
+      "answer": "ambiguity",
+      "choices": [
+        "ambiguity",
+        "derivation",
+        "error handling",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the language generated by ambiguous grammar?",
+      "answer": "inherently ambiguous",
+      "choices": [
+        "inherently ambiguous",
+        "ambiguity",
+        "error handling",
+        "parsing"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What decides the side on which the operator takes an operand when there are operators on both sides of the operand?",
+      "answer": "associativity",
+      "choices": [
+        "associativity",
+        "left-associative operations",
+        "right-associative operations",
+        "precedence"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the term for operations where the operand is taken by the left operator?",
+      "answer": "left-associative operations",
+      "choices": [
+        "associativity",
+        "left-associative operations",
+        "right-associative operations",
+        "precedence"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the term for operations where the operand is taken by the right operator?",
+      "answer": "right-associative operations",
+      "choices": [
+        "associativity",
+        "left-associative operations",
+        "right-associative operations",
+        "precedence"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "What decides which operator will take the operand when two different operators share a common operand?",
+      "answer": "precedence",
+      "choices": [
+        "associativity",
+        "left-associative operations",
+        "right-associative operations",
+        "precedence"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is first or highest in priority in the hierarchy of priorities in Python?",
+      "answer": "** or Exponentiation Operator",
+      "choices": [
+        "** or Exponentiation Operator",
+        "Unary + and –",
+        "*, /, //, %",
+        "Binary + (Addition) and – (Subtraction)"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is second in priority in the hierarchy of priorities in Python?",
+      "answer": "Unary + and –",
+      "choices": [
+        "** or Exponentiation Operator",
+        "Unary + and –",
+        "*, /, //, %",
+        "Binary + (Addition) and – (Subtraction)"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is third in priority in the hierarchy of priorities in Python?",
+      "answer": "*, /, //, %",
+      "choices": [
+        "** or Exponentiation Operator",
+        "Unary + and –",
+        "*, /, //, %",
+        "Binary + (Addition) and – (Subtraction)"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is fourth or lowest in priority in the hierarchy of priorities in Python?",
+      "answer": "Binary + (Addition) and – (Subtraction)",
+      "choices": [
+        "** or Exponentiation Operator",
+        "Unary + and –",
+        "*, /, //, %",
+        "Binary + (Addition) and – (Subtraction)"
+      ],
+      "reference": "Parsing",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is the source code read and organized into tokens?",
+      "answer": "Lexical analysis",
+      "choices": [
+        "output generation",
+        "tokenization",
+        "Lexical analysis",
+        "Lexical analyzer"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What breaks the input code into meaningful elements called tokens for easier understanding by a computer?",
+      "answer": "Lexical analysis",
+      "choices": [
+        "output generation",
+        "tokenization",
+        "Lexical analysis",
+        "Lexical analyzer"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What eliminates comments and whitespace within the source code?",
+      "answer": "Lexical analysis",
+      "choices": [
+        "input preprocessing",
+        "symbols",
+        "Lexical analysis",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How are characters collected into logical groupings and assigned internal codes based on their structure?",
+      "answer": "Lexical analyzer",
+      "choices": [
+        "token classification",
+        "Lexical analyzer",
+        "regular expressions",
+        "input preprocessing"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the logical groupings of characters collected by a lexical analyzer called?",
+      "answer": "lexemes",
+      "choices": [
+        "tokens",
+        "lexemes",
+        "Lexical analyzer",
+        "Lexical analysis"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the internal codes assigned to the categories of logical groupings called?",
+      "answer": "tokens",
+      "choices": [
+        "tokens",
+        "lexemes",
+        "Lexical analyzer",
+        "Lexical analysis"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How are tokens in programming languages often described?",
+      "answer": "regular expressions",
+      "choices": [
+        "lexemes",
+        "Lexical analysis",
+        "output generation",
+        "regular expressions"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses a Deterministic Finite Automaton (DFA) to recognize these tokens, as they can identify regular languages?",
+      "answer": "Lexical analyzer",
+      "choices": [
+        "tokens",
+        "lexemes",
+        "Lexical analyzer",
+        "Lexical analysis"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What process involves cleaning up the input text before lexical analysis?",
+      "answer": "input preprocessing",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What process removes comments, whitespaces, and other non-essential characters from the input text?",
+      "answer": "input preprocessing",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "token classification",
+        "output generation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves the process of breaking the input text into a sequence of tokens?",
+      "answer": "tokenization",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "output generation",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How are characters in the input text matched against a set of patterns or regular expressions to define token types?",
+      "answer": "tokenization",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does the analyzer determine the type of each token?",
+      "answer": "token classification",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How are keywords, identifiers, operators, and punctuation symbols classified as separate token types?",
+      "answer": "token classification",
+      "choices": [
+        "output generation",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does the analyzer check if each token is valid according to the rules of the programming language?",
+      "answer": "token validation",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does the analyzer check if a variable name is a valid identifier or if an operator has correct syntax?",
+      "answer": "token validation",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does the analyzer generate the output of the lexical analysis process as a list or sequence of tokens?",
+      "answer": "output generation",
+      "choices": [
+        "input preprocessing",
+        "output generation",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is the list of tokens passed to the parser for syntax analysis in the next stage of compilation or interpretation?",
+      "answer": "output generation",
+      "choices": [
+        "output generation",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is typically a list or sequence of tokens generated from lexical analysis?",
+      "answer": "token stream",
+      "choices": [
+        "token stream",
+        "tokens",
+        "lexemes",
+        "non-tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What represents individual words or symbols such as keywords or variable names?",
+      "answer": "tokens",
+      "choices": [
+        "alphabets",
+        "string",
+        "symbols",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What includes all the numbers and alphabets considered as hexadecimal alphabets by language?",
+      "answer": "alphabets",
+      "choices": [
+        "alphabets",
+        "string",
+        "symbols",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a collection of different alphabets occurring continuously?",
+      "answer": "string",
+      "choices": [
+        "alphabets",
+        "string",
+        "symbols",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is defined by the number of characters or alphabets occurring together?",
+      "answer": "string",
+      "choices": [
+        "alphabets",
+        "string",
+        "symbols",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What set of token is shown in the example: The length of |STIisthebest| is 12 since there are 12 characters?",
+      "answer": "string",
+      "choices": [
+        "alphabets",
+        "string",
+        "symbols",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What do high-level programming languages contain as special characters like punctuation and assignment?",
+      "answer": "symbols",
+      "choices": [
+        "alphabets",
+        "string",
+        "symbols",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What includes comments, preprocessor directives, macros, blanks, tabs, and newlines?",
+      "answer": "non-tokens",
+      "choices": [
+        "lexemes",
+        "tokenization",
+        "non-tokens",
+        "regular expressions"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: Comma (,), Semicolon(:)",
+      "answer": "punctuation",
+      "choices": [
+        "assignment",
+        "special assignment",
+        "comparison",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: =",
+      "answer": "assignment",
+      "choices": [
+        "assignment",
+        "special assignment",
+        "preprocessor",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: +=, -=, *=, /=",
+      "answer": "special assignment",
+      "choices": [
+        "preprocessor",
+        "special assignment",
+        "comparison",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: ==, ≠, <, >, ≤, ≥",
+      "answer": "comparison",
+      "choices": [
+        "assignment",
+        "special assignment",
+        "comparison",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: #",
+      "answer": "preprocessor",
+      "choices": [
+        "assignment",
+        "special assignment",
+        "comparison",
+        "preprocessor"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: &",
+      "answer": "location specifier",
+      "choices": [
+        "location specifier",
+        "special assignment",
+        "comparison",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: &&, |, ||, !",
+      "answer": "logical",
+      "choices": [
+        "preprocessor",
+        "logical",
+        "comparison",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: >>, <<, >>>, <<<",
+      "answer": "shift operator",
+      "choices": [
+        "preprocessor",
+        "special assignment",
+        "shift operator",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the sequence of characters matched by a pattern to form a token or comprise a single token?",
+      "answer": "lexemes",
+      "choices": [
+        "tokens",
+        "lexemes",
+        "Lexical analyzer",
+        "Lexical analysis"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is recognized by matching the input character string against character string patterns?",
+      "answer": "lexemes",
+      "choices": [
+        "tokens",
+        "lexemes",
+        "Lexical analyzer",
+        "Lexical analysis"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the lexeme of the token (IDENT) in the given example?<BR>Example: result = oldsum – value / 50;",
+      "answer": "result",
+      "choices": [
+        "result",
+        "-",
+        50,
+        ";"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the lexeme of the token (IDENT) in the given example?<BR>Example: result = oldsum – value / 50;",
+      "answer": "oldssum",
+      "choices": [
+        "oldssum",
+        "/",
+        50,
+        ";"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the lexeme of the token (IDENT) in the given example?<BR>Example: result = oldsum – value / 50;",
+      "answer": "value",
+      "choices": [
+        "value",
+        "/",
+        50,
+        ";"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How many valid tokens are in the given example?<BR>int main(){<BR> // 2 variables<BR> int x, y;<BR> x = 10;<BR> return 0;<BR>}",
+      "answer": 18,
+      "choices": [
+        18,
+        16,
+        20,
+        21
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What visual representation provides a zoomed look at how a lexical analyzer and syntax analyzer interact?",
+      "answer": "INPUT ⇄ LEXICAL ANALYZER ⇄ SYNTAX ANALYZER",
+      "choices": [
+        "INPUT ⇄ LEXICAL ANALYZER ⇄ SYNTAX ANALYZER",
+        "INPUT ⇄ SYNTAX ANALYZER ⇄ LEXICAL ANALYZER",
+        "INPUT ⇄ SYNTAX ANALYZER ⇄ OUTPUT GENERATION",
+        "INPUT ⇄ TOKENIZATION ⇄ OUTPUT GENERATION"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    }
+  ]
+}
