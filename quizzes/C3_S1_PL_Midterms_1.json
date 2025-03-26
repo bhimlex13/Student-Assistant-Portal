@@ -1,0 +1,508 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Midterms",
+    "Title": "03 Handout 1 - Lexical Analysis",
+    "LastModified": "26 March 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "03 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "How is the source code read and organized into tokens?",
+      "answer": "Lexical analysis",
+      "choices": [
+        "output generation",
+        "tokenization",
+        "Lexical analysis",
+        "Lexical analyzer"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What breaks the input code into meaningful elements called tokens for easier understanding by a computer?",
+      "answer": "Lexical analysis",
+      "choices": [
+        "output generation",
+        "tokenization",
+        "Lexical analysis",
+        "Lexical analyzer"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What eliminates comments and whitespace within the source code?",
+      "answer": "Lexical analysis",
+      "choices": [
+        "input preprocessing",
+        "symbols",
+        "Lexical analysis",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How are characters collected into logical groupings and assigned internal codes based on their structure?",
+      "answer": "Lexical analyzer",
+      "choices": [
+        "token classification",
+        "Lexical analyzer",
+        "regular expressions",
+        "input preprocessing"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the logical groupings of characters collected by a lexical analyzer called?",
+      "answer": "lexemes",
+      "choices": [
+        "tokens",
+        "lexemes",
+        "Lexical analyzer",
+        "Lexical analysis"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the internal codes assigned to the categories of logical groupings called?",
+      "answer": "tokens",
+      "choices": [
+        "tokens",
+        "lexemes",
+        "Lexical analyzer",
+        "Lexical analysis"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How are tokens in programming languages often described?",
+      "answer": "regular expressions",
+      "choices": [
+        "tokens",
+        "Lexical analysis",
+        "output generation",
+        "regular expressions"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses a Deterministic Finite Automaton (DFA) to recognize these tokens, as they can identify regular languages?",
+      "answer": "Lexical analyzer",
+      "choices": [
+        "tokens",
+        "lexemes",
+        "Lexical analyzer",
+        "Lexical analysis"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What process involves cleaning up the input text before lexical analysis?",
+      "answer": "input preprocessing",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What process removes comments, whitespaces, and other non-essential characters from the input text?",
+      "answer": "input preprocessing",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "token classification",
+        "output generation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves the process of breaking the input text into a sequence of tokens?",
+      "answer": "tokenization",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "output generation",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How are characters in the input text matched against a set of patterns or regular expressions to define token types?",
+      "answer": "tokenization",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does the analyzer determine the type of each token?",
+      "answer": "token classification",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How are keywords, identifiers, operators, and punctuation symbols classified as separate token types?",
+      "answer": "token classification",
+      "choices": [
+        "output generation",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does the analyzer check if each token is valid according to the rules of the programming language?",
+      "answer": "token validation",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does the analyzer check if a variable name is a valid identifier or if an operator has correct syntax?",
+      "answer": "token validation",
+      "choices": [
+        "input preprocessing",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does the analyzer generate the output of the lexical analysis process as a list or sequence of tokens?",
+      "answer": "output generation",
+      "choices": [
+        "input preprocessing",
+        "output generation",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is the list of tokens passed to the parser for syntax analysis in the next stage of compilation or interpretation?",
+      "answer": "output generation",
+      "choices": [
+        "output generation",
+        "tokenization",
+        "token classification",
+        "token validation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is typically a list or sequence of tokens generated from lexical analysis?",
+      "answer": "token stream",
+      "choices": [
+        "token stream",
+        "tokens",
+        "lexemes",
+        "non-tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What represents individual words or symbols such as keywords or variable names?",
+      "answer": "tokens",
+      "choices": [
+        "alphabets",
+        "string",
+        "symbols",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What includes all the numbers and alphabets considered as hexadecimal alphabets by language?",
+      "answer": "alphabets",
+      "choices": [
+        "alphabets",
+        "string",
+        "symbols",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a collection of different alphabets occurring continuously?",
+      "answer": "string",
+      "choices": [
+        "alphabets",
+        "string",
+        "symbols",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is defined by the number of characters or alphabets occurring together?",
+      "answer": "string",
+      "choices": [
+        "alphabets",
+        "string",
+        "symbols",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What set of token is shown in the example: The length of |STIisthebest| is 12 since there are 12 characters?",
+      "answer": "string",
+      "choices": [
+        "alphabets",
+        "string",
+        "symbols",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What do high-level programming languages contain as special characters like punctuation and assignment?",
+      "answer": "symbols",
+      "choices": [
+        "alphabets",
+        "string",
+        "symbols",
+        "tokens"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What includes comments, preprocessor directives, macros, blanks, tabs, and newlines?",
+      "answer": "non-tokens",
+      "choices": [
+        "lexemes",
+        "tokenization",
+        "non-tokens",
+        "regular expressions"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: Comma (,), Semicolon(:)",
+      "answer": "punctuation",
+      "choices": [
+        "assignment",
+        "special assignment",
+        "comparison",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: =",
+      "answer": "assignment",
+      "choices": [
+        "assignment",
+        "special assignment",
+        "preprocessor",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: +=, -=, *=, /=",
+      "answer": "special assignment",
+      "choices": [
+        "preprocessor",
+        "special assignment",
+        "comparison",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: ==, ≠, <, >, ≤, ≥",
+      "answer": "comparison",
+      "choices": [
+        "assignment",
+        "special assignment",
+        "comparison",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: #",
+      "answer": "preprocessor",
+      "choices": [
+        "assignment",
+        "special assignment",
+        "comparison",
+        "preprocessor"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: &",
+      "answer": "location specifier",
+      "choices": [
+        "location specifier",
+        "special assignment",
+        "comparison",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: &&, |, ||, !",
+      "answer": "logical",
+      "choices": [
+        "preprocessor",
+        "logical",
+        "comparison",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the name of the symbol in the given example?<BR>Example: >>, <<, >>>, <<<",
+      "answer": "shift operator",
+      "choices": [
+        "preprocessor",
+        "special assignment",
+        "shift operator",
+        "punctuation"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the sequence of characters matched by a pattern to form a token or comprise a single token?",
+      "answer": "lexemes",
+      "choices": [
+        "tokens",
+        "lexemes",
+        "Lexical analyzer",
+        "Lexical analysis"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is recognized by matching the input character string against character string patterns?",
+      "answer": "lexemes",
+      "choices": [
+        "tokens",
+        "lexemes",
+        "Lexical analyzer",
+        "Lexical analysis"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the lexeme of the token (IDENT) in the given example?<BR>Example: result = oldsum – value / 50;",
+      "answer": "result",
+      "choices": [
+        "result",
+        "-",
+        50,
+        ";"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the lexeme of the token (IDENT) in the given example?<BR>Example: result = oldsum – value / 50;",
+      "answer": "oldssum",
+      "choices": [
+        "oldssum",
+        "/",
+        50,
+        ";"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the lexeme of the token (IDENT) in the given example?<BR>Example: result = oldsum – value / 50;",
+      "answer": "value",
+      "choices": [
+        "value",
+        "/",
+        50,
+        ";"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "How many valid tokens are in the given example?<BR>int main(){<BR> // 2 variables<BR> int x, y;<BR> x = 10;<BR> return 0;<BR>}",
+      "answer": 18,
+      "choices": [
+        18,
+        16,
+        20,
+        21
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    },
+    {
+      "question": "What visual representation provides a zoomed look at how a lexical analyzer and syntax analyzer interact?",
+      "answer": "INPUT ⇄ LEXICAL ANALYZER ⇄ SYNTAX ANALYZER",
+      "choices": [
+        "INPUT ⇄ LEXICAL ANALYZER ⇄ SYNTAX ANALYZER",
+        "INPUT ⇄ SYNTAX ANALYZER ⇄ LEXICAL ANALYZER",
+        "INPUT ⇄ SYNTAX ANALYZER ⇄ OUTPUT GENERATION",
+        "INPUT ⇄ TOKENIZATION ⇄ OUTPUT GENERATION"
+      ],
+      "reference": "Lexical Analysis",
+      "term": "Midterms"
+    }
+  ]
+}

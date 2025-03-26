@@ -566,6 +566,26 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C3_S1_PL_Midterms",
+                    "Module_Name": "Midterms",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "26 March 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Midterms_1",
+                            "Subfolder_Name": "03 Handout 1 - Lexical Analysis",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Midterms_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "26 March 2025",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
             ]
         },
