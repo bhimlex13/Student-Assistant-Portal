@@ -7,7 +7,19 @@ let Onload_Requirements = {
     Version: 1
 }
 
+var Quizzes_Explorer_Mode = "Home";
+
+
 window.onload = function (){
+
+    var path = window.location.pathname;
+    var App_CurrentPageName = path.split("/").pop();
+    console.log(App_CurrentPageName);
+    if (App_CurrentPageName == "quizOutliner.html"){
+        Quizzes_Explorer_Mode = "Outliner";
+        console.log(Quizzes_Explorer_Mode);
+    }
+
     Settings_Load_Data();
     Settings_Load_Values();
     if(Settings_Data.HideQuizThumbnails == "undefined" || Settings_Data.HideQuizThumbnails == undefined){
@@ -35,8 +47,6 @@ window.onload = function (){
         LoadingScreen_Hide();
         Home_Start();
     }
-
-    
 };
 
 function Home_Splash(){
@@ -139,7 +149,7 @@ function Quizzes_Explorer_Load_Subject(){
         Explorer_Container_Clear();
         if (Settings_Data.HideQuizThumbnails == "Inactive"){
             Explorer_Container_ChangeType("Image");
-        } else if (Settings_Data.HideQuizThumbnails == "Active"){
+        } else if (Settings_Data.HideQuizThumbnails == "Active" || Quizzes_Explorer_Mode == "Outliner"){
             Explorer_Container_ChangeType("Text");
         }
         
@@ -186,7 +196,7 @@ function Quizzes_Explorer_Load_Module(Item){
         Explorer_Container_Clear();
         if (Settings_Data.HideQuizThumbnails == "Inactive"){
             Explorer_Container_ChangeType("Image");
-        } else if (Settings_Data.HideQuizThumbnails == "Active"){
+        } else if (Settings_Data.HideQuizThumbnails == "Active" || Quizzes_Explorer_Mode == "Outliner"){
             Explorer_Container_ChangeType("Text");
         }
         Element_Attribute_Set("Quizzes_Explorer", "Level", "2");
@@ -225,7 +235,14 @@ function Quizzes_Explorer_Load_Quizzes(Item, Module){
         for (a = 0; a < Quizzes_Manifest.Subject[Item].Subject_Module[Module].Module_Subfolders.length; a++){
             let Object = Quizzes_Manifest.Subject[Item].Subject_Module[Module].Module_Subfolders[a];
             if (Object.Subfolder_Status == "Active"){
-                Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, Object.Subfolder_Link, null);
+                if (Quizzes_Explorer_Mode == "Outliner"){
+                    console.log(Object.Subfolder_ID);
+                    Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, null, `Outliner_Quiz_Load('${Object.Subfolder_ID}')`);
+                    console.log("Outliner");
+                } else {
+                    Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, Object.Subfolder_Link, null);
+                }
+                
                 Explorer_Status_Evaluator++;
             }
         }

@@ -95,6 +95,9 @@
     filter: brightness(1);
 }
 
+.Subwindow_Content{
+    padding: 10px;
+}
 .Demo{
     margin: 50px;
     margin-left: var(--SAP-Margin-Left);

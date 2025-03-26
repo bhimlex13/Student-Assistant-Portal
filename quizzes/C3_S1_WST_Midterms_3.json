@@ -1,0 +1,592 @@
+{
+  "quizInfo": {
+    "Subject": "Web Systems and Technologies",
+    "Term": "Midterms",
+    "Title": "Study Everything",
+    "LastModified": "27 March 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "A website with 6 &lt;p> elements is created. Create CSS code that will layout the elements into 3 columns and 2 rows in the screen where all 3 columns take 30% of the entire screen.",
+      "answer": "div {\r<br>\tdisplay: grid;\r<br>\tgrid-template-columns: 30% 30% 30%;\r<br>}\r<br>",
+      "choices": [
+        "div {\r<br>\tdisplay: grid;\r<br>\tgrid-template-columns: 30% 30% 30%;\r<br>}\r<br>",
+        "div {\r<br>        display: grid;\r<br>        grid-template-columns: 30% 30%;\r<br>}\r<br>",
+        "div {\r<br>        display: responsive;\r<br>        grid-template-columns: 30% 30% 30%;\r<br>}\r<br>",
+        "div {\r<br>        display: grid;\r<br>        grid-columns: 30% 30% 30%;\r<br>}\r<br>"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "A website with 4 &lt;article> elements is created. Create CSS code that will layout the elements into 2 columns and 2 rows in the screen where the first column takes 68% of the screen while the second takes 28% and where the gap between rows is 20px and the gap between columns is 15px.",
+      "answer": "div {\r<br>\tdisplay: grid;\r<br>\tgrid-template-columns: 68% 28%;\r<br>\trow-gap: 20px;\r<br>\tcolumn-gap: 15px;\r<br>}\r<br>",
+      "choices": [
+        "div {\r<br>\tdisplay: grid;\r<br>\tgrid-template-columns: 68% 28%;\r<br>\trow-gap: 20px;\r<br>\tcolumn-gap: 15px;\r<br>}\r<br>",
+        "div {\r<br>        display: grid;\r<br>        grid-template-columns: 28% 68%;\r<br>        grid-template-row-gap: 20px;\r<br>       grid-template-column-gap: 15px;\r<br>}\r<br>",
+        "div {\r<br>        display: grid;\r<br>        grid-template-columns:50% 50%;\r<br>        grid-template-row-gap: 20px;\r<br>       grid-template-column-gap: 15px;\r<br>}\r<br>",
+        "div {\r<br>        display: flex;\r<br>        grid-template-columns: 68% 28%;\r<br>        row-gap: 20px;\r<br>        column-gap: 15px;\r<br>}\r<br>"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "A website with 10 &lt;div> elements is created. Create CSS code that will layout the elements into 2 columns and 5 rows in the screen where both columns take equal spaces of the available width and all the rows are 20px.",
+      "answer": "body {\r<br>\tdisplay: grid;\r<br>\tgrid-template-columns: 50% 50%;\r<br>\tgrid-template-rows: 20px;\r<br>}\r<br>",
+      "choices": [
+        "body {\r<br>\tdisplay: grid;\r<br>\tgrid-template-columns: 50% 50%;\r<br>\tgrid-template-rows: 20px;\r<br>}\r<br>",
+        "body {\r<br>        display: grid;\r<br>        grid-template-columns: 1/2 1/2;\r<br>        grid-template-rows: 20px;\r<br>}\r<br>",
+        "body {\r<br>        display: grid;\r<br>        grid-template-columns: 50%;\r<br>        grid-template-rows: 20px;\r<br>}\r<br>",
+        "body {\r<br>        display: grid;\r<br>        grid-template-columns: 250%;\r<br>        grid-template-rows: 20px;\r<br>}\r<br>"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "A website with 20 &lt;div> elements is created. Create CSS code that will layout the elements into 2 columns and 10 rows in the screen where both columns take equal spaces of the available width and the rows alternate between 100px and 25px.",
+      "answer": "body {\r<br>\tdisplay: grid;\r<br>\tgrid-template-columns: 50% 50%;\r<br>\tgrid-template-rows: 100px 25px;\r<br>}\r<br>",
+      "choices": [
+        "body {\r<br>\tdisplay: grid;\r<br>\tgrid-template-columns: 50% 50%;\r<br>\tgrid-template-rows: 100px 25px;\r<br>}\r<br>",
+        "body {\r<br>        display: flex;\r<br>        grid-template-columns: 50% 50%;\r<br>        grid-template-rows: 100px 25px;\r<br>}\r<br>",
+        "body {\r<br>        display: grid;\r<br>        grid-template-columns: 50% 50%;\r<br>        grid-template-rows: 100px 115px;\r<br>}\r<br>",
+        "Kunin mo na ang lahat sa akin, wag lang ang CSS ko"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are containers for other rulesets implemented based on the media query results?",
+      "answer": "Media Query",
+      "choices": [
+        "Media Query",
+        "International Cascading Court",
+        "Stylesheets",
+        "Rulesets"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "A website requires that paragraph elements turn red when the viewport is 600px and below. What would be the proper media query?",
+      "answer": "@media screen and (min-width: 600px)",
+      "choices": [
+        "@media screen and (min-width: 600px)",
+        "@media screen only (min-width: 600px)",
+        "@media screen not (min-width: 600px)",
+        "@media screen and (max-width: 600px)"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "A website with an image and video element, both named \"responsivitization\", should take the entire width of the viewport and have its height adjust automatically. Create CSS code to make the requirement a reality.",
+      "answer": ".responsivitization{\r<br>width: 100%;\r<br>height: auto;\r<br>}",
+      "choices": [
+        ".responsivitization{\r<br>width: 100%;\r<br>height: auto;\r<br>}",
+        "responsivitization{\r<br>width: 100%;\r<br>height: auto;\r<br>}",
+        ".responsivitization{\r<br>width: auto;\r<br>height: auto;\r<br>}",
+        ".responsivitization{\r<br>width: 100%;\r<br>height: 100%;\r<br>}"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What makes the website interactive and complex through the implementation of intricate features such as displaying timely content updates and determining what happens when users click, hover, or type within specific elements in the website?",
+      "answer": "JavaScript",
+      "choices": [
+        "JavaScript",
+        "Separation of Concerns",
+        "Internal / Embedded JavaScript",
+        "External JavaScript"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a case-sensitive scripting language for webpages considered as the third standard for web technologies after HTML and CSS?",
+      "answer": "JavaScript",
+      "choices": [
+        "JavaScript",
+        "External JavaScript",
+        "JavaScript Object",
+        "Procedures"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is necessary to have in a separate file, must be in the same directory like a folder, and uses the .js file extension?",
+      "answer": "JavaScript",
+      "choices": [
+        "JavaScript",
+        "Internal / Embedded JavaScript",
+        "External JavaScript",
+        "Method"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What idea states that a program is separated into distinct sections?",
+      "answer": "Separation of Concerns",
+      "choices": [
+        "Separation of Concerns",
+        "JavaScript",
+        "External JavaScript",
+        "JavaScript Object"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is JS code placed and can appear multiple times inside the &lt;head> or &lt;body> tags of an HTML document using &lt;script> tags that encloses JS codes?",
+      "answer": "Internal / Embedded JavaScript",
+      "choices": [
+        "Internal / Embedded JavaScript",
+        "External JavaScript",
+        "JavaScript",
+        "Separation of Concerns"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a separated JS file linked using &lt;script> tags with the src attribute usually placed within &lt;head> tags?",
+      "answer": "External JavaScript",
+      "choices": [
+        "External JavaScript",
+        "Internal / Embedded JavaScript",
+        "JavaScript Object",
+        "JavaScript"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is code that can be treated as an individual unit or component?",
+      "answer": "JavaScript Object",
+      "choices": [
+        "JavaScript Object",
+        "Method",
+        "Procedures",
+        "Arguments"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can be defined and created by programmers based on the program’s need aside from the available object from the Document Object Model (DOM) and Browser Object Model (BOM)?",
+      "answer": "JavaScript Object",
+      "choices": [
+        "JavaScript Object",
+        "External JavaScript",
+        "Internal / Embedded JavaScript",
+        "JavaScript"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are procedures associated with an object called?",
+      "answer": "Method",
+      "choices": [
+        "Method",
+        "Procedures",
+        "Arguments",
+        "JavaScript Object"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the statement bankLoan.calcPayments(60);, what is calcPayments()?",
+      "answer": "Method",
+      "choices": [
+        "Method",
+        "Procedures",
+        "JavaScript Object",
+        "Arguments"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are data passed to the methods called?",
+      "answer": "Arguments",
+      "choices": [
+        "Arguments",
+        "Method",
+        "Procedures",
+        "JavaScript Object"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the statement bankLoan.calcPayments(60);, what is 60?",
+      "answer": "Arguments",
+      "choices": [
+        "Arguments",
+        "Method",
+        "Procedures",
+        "JavaScript Object"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the logical units into which statements such as bankLoan.calcPayments(60); are grouped that perform specific tasks?",
+      "answer": "Procedures",
+      "choices": [
+        "Procedures",
+        "Method",
+        "Arguments",
+        "JavaScript Object"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the grouping of statements that perform specific tasks called in the context of JavaScript Object?",
+      "answer": "Procedures",
+      "choices": [
+        "Procedures",
+        "Method",
+        "JavaScript",
+        "Separation of Concerns"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following is the correct declaration of a line comment?",
+      "answer": "//",
+      "choices": [
+        "//",
+        "/",
+        "/* .. */",
+        "#"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following is the correct declaration of a block comment?",
+      "answer": "/* .. */",
+      "choices": [
+        "//",
+        "/",
+        "/* .. */",
+        "#"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which operators are assignment operators?",
+      "answer": "`=",
+      "choices": [
+        "`=",
+        "&&, ||, !",
+        "`+, -, *, /, %, **, ++, --",
+        "!=, ==, &lt;, >, &lt;=, =>"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which operators are logical operators?",
+      "answer": "&&, ||, !",
+      "choices": [
+        "`=",
+        "&&, ||, !",
+        "`+, -, *, /, %, **, ++, --",
+        "!=, ==, &lt;, >, &lt;=, =>"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which operators are arithmetic operators?",
+      "answer": "`+, -, *, /, %, **, ++, --",
+      "choices": [
+        "`=",
+        "&&, ||, !",
+        "`+, -, *, /, %, **, ++, --",
+        "!=, ==, &lt;, >, &lt;=, =>"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which operators are comparison operators?",
+      "answer": "!=, ==, &lt;, >, &lt;=, =>",
+      "choices": [
+        "`=",
+        "&&, ||, !",
+        "`+, -, *, /, %, **, ++, --",
+        "!=, ==, &lt;, >, &lt;=, =>"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is defined as a value that the program stores in the memory?",
+      "answer": "Variable",
+      "choices": [
+        "Variable",
+        "Data",
+        "Value",
+        "Confidential Funds"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following data types are not a valid data type in JavaScript?",
+      "answer": "Integer",
+      "choices": [
+        "Integer",
+        "String",
+        "Boolean",
+        "Null"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the assigned variable name called?",
+      "answer": "Identifier",
+      "choices": [
+        "Identifier",
+        "Variable name",
+        "Identificationism",
+        "Sabogism"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following rules do not apply in naming an identifier?",
+      "answer": "Must begin with a number.",
+      "choices": [
+        "Must begin with a number.",
+        "Must not have spaces.",
+        "Must not be reserved keywords.",
+        "Pancit"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is the individual line of code enclosed within script tags.",
+      "answer": "Statement",
+      "choices": [
+        "Statement",
+        "Line",
+        "Script",
+        "Code"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What function is used to write custom information into the document?",
+      "answer": "write()",
+      "choices": [
+        "write()",
+        "append()",
+        "console.log()",
+        "print()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Any text, graphics, and other information displayed on the webpage is part of this object.",
+      "answer": "Document",
+      "choices": [
+        "Document",
+        "File",
+        "HTML Page",
+        "Website"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What function is used to display an alert box that has a message and an OK button?",
+      "answer": "alert()",
+      "choices": [
+        "alert()",
+        "append()",
+        "console.log()",
+        "print()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What function is used to print statement that appears in the console (Ctrl+Shift+I)?",
+      "answer": "console.log()",
+      "choices": [
+        "alert()",
+        "append()",
+        "console.log()",
+        "print()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What variable is a set of data represented by a single identifier?",
+      "answer": "Array",
+      "choices": [
+        "Array",
+        "Array Valera",
+        "List",
+        "JSON"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What breaks up the execution flow using decision-making, branching, and looping to enable programs to conditionally execute code blocks?",
+      "answer": "Control Flow",
+      "choices": [
+        "Control Flow",
+        "Loops",
+        "Iterations",
+        "If- statements"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a second form of control flow statement?",
+      "answer": "Loops and Iterations",
+      "choices": [
+        "Loops and Iterations",
+        "Control Flow: The Sequel",
+        "Decision-Making Functions",
+        "Variables"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is an easy way to repeat any fragment of the code as many times as possible, or until a stopping condition is met.",
+      "answer": "Loops and Iterations",
+      "choices": [
+        "Loops and Iterations",
+        "Control Flow: The Sequel",
+        "Decision-Making Functions",
+        "Variables"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Why is it a common practice to name variables as i, j, or k on loop counters?",
+      "answer": "It helps other programmers recognize the loop counter without reading the comments.",
+      "choices": [
+        "It helps other programmers recognize the loop counter without reading the comments.",
+        "It is used early on in the history of programming.",
+        "It helps other programmers find where to end the loop.",
+        "It helps other programmers ano, uh... wait. *checks notes* Absent pala ako non sorry, mapapatawad mo pa ba ako"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is avoided by including at least one statement that eventually results in a false value for the condition.",
+      "answer": "Infinite loop",
+      "choices": [
+        "Infinite loop",
+        "Iteration hell",
+        "Syntax error",
+        "Compilation error"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of loop checks the condition first before executing the code block?",
+      "answer": "while loop",
+      "choices": [
+        "while loop",
+        "do-while loop",
+        "for loop",
+        "loop"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of loop executes the code blockfirst before checking the condition?",
+      "answer": "do-while loop",
+      "choices": [
+        "while loop",
+        "do-while loop",
+        "for loop",
+        "loop"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of loop iterates over the code block by a set number of times?",
+      "answer": "for loop",
+      "choices": [
+        "while loop",
+        "do-while loop",
+        "for loop",
+        "loop"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of control flow statement executes the code block if it satisfies the condition?",
+      "answer": "If statement",
+      "choices": [
+        "If statement",
+        "If-else statement",
+        "If-else-if statement",
+        "Switch-case"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of control flow statement executes the code block if it satisfies the condition, otherwise execute another code block?",
+      "answer": "If-else statement",
+      "choices": [
+        "If statement",
+        "If-else statement",
+        "If-else-if statement",
+        "Switch-case"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of control flow statement executes the code block if it satisfies the condition, otherwise execute another code block only if it satisfies its own condition?",
+      "answer": "If-else-if statement",
+      "choices": [
+        "If statement",
+        "If-else statement",
+        "If-else-if statement",
+        "I forgotti the spaghetti"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    }
+  ]
+}
