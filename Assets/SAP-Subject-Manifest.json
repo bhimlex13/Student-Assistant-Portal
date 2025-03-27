@@ -322,6 +322,28 @@
                             ],
                             "Subfolder_LastModified": "28 March 2025",
                             "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_IAS_Midterms_7",
+                            "Subfolder_Name": "04 Handout 1: Cryptography",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Midterms_7",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "28 March 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_IAS_Midterms_8",
+                            "Subfolder_Name": "Midterms Reviewer Pro Max: [All Midterm Topics]" ,
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Midterms_8",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "28 March 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }
