@@ -503,6 +503,30 @@
       ],
       "reference": "05 Handout 1",
       "term": "Midterms"
+    },
+    {
+      "question": "If you want to print to the browser's console, which statement should you use?",
+      "answer": "console.log('Hello madlang people!');",
+      "choices": [
+        "console.log('Hello madlang people!');",
+        "console.log(Hello madlang people!);",
+        "console.print('Hello madlang people!');",
+        "console.print(Hello madlang people!);"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "If you want to add a paragraph element into the document, which statement should you use?",
+      "answer": "Document.write('&lt;p>Hello madlang people!&lt;/p>');",
+      "choices": [
+        "Document.write('&lt;p>Hello madlang people!&lt;/p>');",
+        "write('&lt;p>Hello madlang people!&lt;/p>');",
+        "console.log('&lt;p>Hello madlang people!&lt;/p>');",
+        "Document.print('&lt;p>Hello madlang people!&lt;/p>');"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
     }
   ]
 }
