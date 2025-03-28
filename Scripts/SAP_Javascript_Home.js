@@ -4,7 +4,7 @@ let Onload_Requirements = {
     // Set to false if you want the splash to open every load of the page
     Splash_OpenOncePerSession: true,
     // Increment this on any major changes in the system so the WhatsNew window will open
-    Version: 1
+    Version: 2
 }
 
 var Quizzes_Explorer_Mode = "Home";
@@ -237,7 +237,7 @@ function Quizzes_Explorer_Load_Quizzes(Item, Module){
             if (Object.Subfolder_Status == "Active"){
                 if (Quizzes_Explorer_Mode == "Outliner"){
                     console.log(Object.Subfolder_ID);
-                    Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, null, `Outliner_Quiz_Load('${Object.Subfolder_ID}')`);
+                    Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, null, `QO_Quiz_Load('${Object.Subfolder_ID}')`);
                     console.log("Outliner");
                 } else {
                     Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, Object.Subfolder_Link, null);
