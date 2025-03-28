@@ -1,0 +1,460 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Midterms",
+    "Title": "Security Systems Engineering",
+    "LastModified": "28 March 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What describes a company's security controls and activities?",
+      "answer": "Security Policy",
+      "choices": [
+        "Security Policy",
+        "Security Audit",
+        "Policy Makers",
+        "Network Compliance"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the primary way in which administration prospects for security are translated into specific, measurable goals?",
+      "answer": "Security Policy",
+      "choices": [
+        "Policy Enforcement",
+        "Security Policy",
+        "Policy Awareness",
+        "Cryptanalysis"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What applies to all employees, stockholders, consultants, and service providers who use company assets?",
+      "answer": "Security Policy",
+      "choices": [
+        "Policy Audience",
+        "Policy Classification",
+        "Cryptology",
+        "Security Policy"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who usually develops standards around the usage of the computer system?",
+      "answer": "IT Team",
+      "choices": [
+        "IT Team",
+        "Board",
+        "HR Team",
+        "Policy Makers"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who ensures the legal points in the document and guides appropriateness?",
+      "answer": "Legal Team",
+      "choices": [
+        "Board",
+        "Policy Makers",
+        "IT Team",
+        "Legal Team"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who obtains a certificate from employees to ensure they understood the policy?",
+      "answer": "HR Team",
+      "choices": [
+        "Legal Team",
+        "HR Team",
+        "Policy Audience",
+        "IT Team"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who must review policies based on the businessâ€™s condition?",
+      "answer": "Board",
+      "choices": [
+        "Board",
+        "IT Team",
+        "Policy Audience",
+        "Legal Team"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who should understand the security policy to fulfill their roles?",
+      "answer": "Policy Audience",
+      "choices": [
+        "Board",
+        "Policy Makers",
+        "HR Team",
+        "Policy Audience"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What has three types: Drafted on paper, in employeesâ€™ minds, and implemented?",
+      "answer": "Policy Classification",
+      "choices": [
+        "Policy Classification",
+        "Policy Audit",
+        "Policy Awareness",
+        "Network Compliance"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What mandates protection for facilities such as doors, entry points, and alarms?",
+      "answer": "Physical security",
+      "choices": [
+        "Personnel Management",
+        "Hardware and Software",
+        "Policy Audit",
+        "Physical security"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What instructs employees how to securely conduct daily business activities?",
+      "answer": "Personnel Management",
+      "choices": [
+        "Physical security",
+        "Policy Enforcement",
+        "Personnel Management",
+        "Policy Awareness"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What directs admins on what technology to use and how to apply controls?",
+      "answer": "Hardware and Software",
+      "choices": [
+        "Policy Awareness",
+        "Hardware and Software",
+        "Security Policy",
+        "Cryptanalysis"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What compares the actual practice with the security policy?",
+      "answer": "Policy Audit",
+      "choices": [
+        "Policy Audit",
+        "Policy Awareness",
+        "Network Compliance",
+        "Cryptology"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What ensures compliance with the principles dictated by the company?",
+      "answer": "Policy Enforcement",
+      "choices": [
+        "Policy Audit",
+        "HR Team",
+        "Security Policy",
+        "Policy Enforcement"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What identifies employees as soft targets that can be compromised?",
+      "answer": "Policy Awareness",
+      "choices": [
+        "Policy Awareness",
+        "Policy Audit",
+        "Cryptanalysis",
+        "Personnel Management"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What must include communication and reminders on what not to reveal?",
+      "answer": "Policy Awareness",
+      "choices": [
+        "Policy Enforcement",
+        "Cryptology",
+        "Policy Awareness",
+        "Network Compliance"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term describes employees as the easiest to exploit?",
+      "answer": "soft",
+      "choices": [
+        "HR Team",
+        "Crypto",
+        "Legal Team",
+        "soft"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who are either 'disgruntle' or become framed to provide info about a company?",
+      "answer": "Trusted employees",
+      "choices": [
+        "HR Team",
+        "Legal Team",
+        "Policy Audience",
+        "Trusted employees"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides short-term access to sensitive data to unauthorized individuals?",
+      "answer": "Privileged Password Management",
+      "choices": [
+        "Network Administrator Daily Tasks",
+        "Firewall Audit Checklist",
+        "Privileged Password Management",
+        "Network Compliance"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What lists key recurring tasks for network administrators?",
+      "answer": "Network Administrator Daily Tasks",
+      "choices": [
+        "Network Administrator Daily Tasks",
+        "Firewall Audit Checklist",
+        "Policy Enforcement",
+        "Virtual Private Network (VPN) Configuration"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What must include an overview of all system risks including human and technical errors?",
+      "answer": "Network Security Audit Checklist",
+      "choices": [
+        "Network Security Audit Checklist",
+        "Firewall Audit Checklist",
+        "Policy Awareness",
+        "Penetration Testing"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What encourages documentation at every step and helps future auditors?",
+      "answer": "Firewall Audit Checklist",
+      "choices": [
+        "Policy Audit",
+        "Firewall Audit Checklist",
+        "Policy Makers",
+        "Cryptanalysis"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What allows secure connection to office networks using staff laptops?",
+      "answer": "Virtual Private Network (VPN) Configuration",
+      "choices": [
+        "Virtual Private Network (VPN) Configuration",
+        "Penetration Testing",
+        "Cryptography",
+        "Network Compliance"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What walks through alternative command setup processes for popular servers?",
+      "answer": "Apache Server Setup",
+      "choices": [
+        "Policy Audit",
+        "Apache Server Setup",
+        "Network Administrator Daily Tasks",
+        "Email Server Security"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What combines professional training with technical resilience to combat phishing?",
+      "answer": "Email Server Security",
+      "choices": [
+        "Cryptography",
+        "Firewall Audit Checklist",
+        "Penetration Testing",
+        "Email Server Security"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves trying to break into systems to test their security?",
+      "answer": "Penetration Testing",
+      "choices": [
+        "Cryptanalysis",
+        "Cryptography",
+        "Policy Enforcement",
+        "Penetration Testing"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What enables detection and correction of trends that lead to network issues?",
+      "answer": "Network Compliance",
+      "choices": [
+        "Firewall Audit Checklist",
+        "Network Compliance",
+        "Policy Makers",
+        "Policy Awareness"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the science of secret writing used to keep data secure?",
+      "answer": "Cryptography",
+      "choices": [
+        "Cryptanalysis",
+        "Cryptography",
+        "Crypto",
+        "Hashing"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term means secret or hidden?",
+      "answer": "Crypto",
+      "choices": [
+        "Crypto",
+        "Cryptography",
+        "Cryptanalysis",
+        "Cryptology"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the science and art of breaking cryptosystems?",
+      "answer": "Cryptanalysis",
+      "choices": [
+        "Cryptanalysis",
+        "Policy Awareness",
+        "Firewall Audit Checklist",
+        "Hashing"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term refers to the study of writing and solving codes?",
+      "answer": "Cryptology",
+      "choices": [
+        "Cryptanalysis",
+        "Cryptology",
+        "Hashing",
+        "Crypto"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses one secret key and is faster than other cryptography types?",
+      "answer": "Symmetric key cryptography",
+      "choices": [
+        "Asymmetric key cryptography",
+        "Hashing",
+        "Symmetric key cryptography",
+        "Policy Classification"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses public and private keys and is slow for decrypting bulk messages?",
+      "answer": "Asymmetric key cryptography",
+      "choices": [
+        "Hashing",
+        "Asymmetric key cryptography",
+        "Cryptanalysis",
+        "Symmetric key cryptography"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What converts plain-text to a fixed-size value using a function?",
+      "answer": "Hashing",
+      "choices": [
+        "Hashing",
+        "Symmetric key cryptography",
+        "Crypto",
+        "Cryptanalysis"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of cryptanalysis attack uses all possible key combinations?",
+      "answer": "Classical attack",
+      "choices": [
+        "Classical attack",
+        "Implementation attacks",
+        "Hashing",
+        "Social engineering attack"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What attack involves tricking someone into giving sensitive information?",
+      "answer": "Social engineering attack",
+      "choices": [
+        "Implementation attacks",
+        "Social engineering attack",
+        "Cryptanalysis",
+        "Disgruntle"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    },
+    {
+      "question": "What attack exploits physical access to obtain a secret key?",
+      "answer": "Implementation attacks",
+      "choices": [
+        "Implementation attacks",
+        "Crypto",
+        "Hashing",
+        "Classical attack"
+      ],
+      "reference": "Security Systems Engineering",
+      "term": "Midterms"
+    }
+  ]
+}
