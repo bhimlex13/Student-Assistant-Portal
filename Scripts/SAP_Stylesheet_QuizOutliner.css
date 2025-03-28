@@ -16,7 +16,7 @@
     margin-left: var(--SAP-Margin-Left);
     margin-right: var(--SAP-Margin-Right);
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: 1fr;
     align-items: center;
     grid-gap: 10px;
 }
