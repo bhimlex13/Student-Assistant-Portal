@@ -53,14 +53,17 @@ function Home_Splash(){
     Element_Attribute_Set('Home_Welcome_Main', 'State', 'Invisible');
     Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Content", "", "4s", "forwards", 1, 1);
     Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title", "", "4s", "forwards", 1, 1);
-    Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title_Text", "", "1s", "forwards", 1, 0.3);
+    
+    // Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title_Text", "", "1s", "forwards", 1, 0.3);
+    
 
     Element_Attribute_Set('Home_Welcome', 'State', 'Visible');
     LoadingScreen_Hide();
     setTimeout(function(){
         Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Content", "Home_Welcome_Sequence_1", "4s", "forwards", 1, 1);
         Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title", "Home_Welcome_Sequence_2", "4s", "forwards", 1, 1);
-        Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title_Text", "Home_Welcome_Sequence_3", "1s", "forwards", 1, 0.3);
+        Element_Attribute_Set("Home_Welcome_Title", "State", "Animating");
+        // Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title_Text", "Home_Welcome_Sequence_3", "1s", "forwards", 1, 0.3);
         setTimeout(function(){
             Element_Attribute_Set('Home_Welcome_Main', 'State', 'Visible');
         }, 3000);

@@ -33,7 +33,6 @@
   <script src="Scripts/SAP_Javascript_Main.js"></script>
   <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js"></script>
   <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
-  <!-- <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_Initialization.js"></script> -->
   <script src="Scripts/SAP_Javascript_Home.js"></script>
   <script src="Scripts/SAP_Javascript_UI.js"></script>
   <script src="Scripts/SAP_Javascript_QuizPlayer.js"></script>
@@ -138,7 +137,7 @@
           </p>
           <img class='MenuBar_List_Item_Icon Quiz_Questions_List_Toggle_Icon' src='Assets/Icons/Down.png' draggable='false' loading='lazy' HideOnSmall style="width: 20px"/>
         </button>
-        <button class="MenuBar_List_Item" onclick="Subwindows_Open('QO_Quiz_Open'); Quizzes_Manifest_Load();" id="Quiz_Questions_List_Toggle">
+        <button class="MenuBar_List_Item" onclick="Subwindows_Open('QO_Quiz_Open'); Quizzes_Manifest_Load(); Element_Attribute_Set('Quizzes_Explorer', 'Type', 'Text')" id="Quiz_Questions_List_Toggle">
           <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Converter.png' draggable='false' loading='lazy' />
           <span class="MenuBar_List_Item_Indicator">
           </span>
@@ -159,10 +158,6 @@
                 Quiz Outliner
             </h1>
             <span></span>
-            <!-- <input type="text" class="Input_Text" placeholder="C3_S1_ADET_Prelims_1.json" id="Input_FileName"/> -->
-            <!-- <button class="General_Button" onclick="Subwindows_Open('QO_Quiz_Open'); Quizzes_Manifest_Load();">
-                Open quiz
-            </button> -->
         </div>   
 
         <p class="General_Paragraph" style="text-align: center;">
@@ -187,7 +182,7 @@
           No quiz loaded
         </h1>
         <p class="QO_List_Info" id="QO_List_Info">
-          Click "Open file" to load a quiz and see its contents.
+          Click "Open quiz" to load a quiz and see its contents.
         </p>
         <div class="QO_List" id="QO_List">
             <!-- <div class="QO_List_Item">

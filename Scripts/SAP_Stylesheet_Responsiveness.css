@@ -287,11 +287,18 @@
 
 /* SAP */
 /* Home */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1080px){
     .Home_Welcome_Content{
         grid-template-columns: unset;
-        grid-template-rows: 1fr 0fr;
-        padding-bottom: 30px;
+        grid-template-rows: unset;
+        /* padding-bottom: 30px; */
+        background-color: unset;
+    }
+
+    .Home_Welcome_Title{
+        flex-direction: column;
+        padding-top: 50px;
+        justify-content: unset;
     }
 
     @keyframes Home_Welcome_Sequence_1{
@@ -305,16 +312,16 @@
             padding-bottom: 0px;
         }
         30% {
-            grid-template-rows: 1fr 0fr;
+            /* grid-template-rows: 1fr 0fr; */
         }
         100% {
             width: calc(100% - 60px);
             height: calc(100% - 120px);
             max-width: 1100px;
-            max-height: 700px;
-            margin: 30px;
-            grid-template-rows: auto 1fr;
-            padding-bottom: 30px;
+            max-height: 100%;
+            /* margin: 30px; */
+            /* grid-template-rows: auto 1fr; */
+            /* padding-bottom: 30px; */
         }
     }
 
@@ -343,7 +350,8 @@
     }
 
     .Home_Welcome_Main{
-        padding-top: 10px;
+        padding: 0px;
+        padding-bottom: 10px;
     }
 
     .MenuBar[State = "Collapsed"]{

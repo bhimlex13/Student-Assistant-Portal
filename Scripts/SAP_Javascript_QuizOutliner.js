@@ -3,6 +3,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if (UF_Parameter_Get("quiz") != null){
         QO_Quiz_Load(UF_Parameter_Get("quiz"));
     }
+    Element_Attribute_Set("Quizzes_Explorer", "Type", "Text");
 })
 
 var QO_Quiz_Info = {};

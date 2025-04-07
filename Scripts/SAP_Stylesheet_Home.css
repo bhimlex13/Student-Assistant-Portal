@@ -84,7 +84,7 @@
     overflow: hidden;
 }
 
-@keyframes Home_Welcome_Sequence_1{
+@keyframes Home_Welcome_Sequence_1_Old{
     0% {
         width: 100%;
         height: 100%;
@@ -109,20 +109,49 @@
     }
 }
 
+@keyframes Home_Welcome_Sequence_1{
+    0% {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        grid-template-columns: 1fr 0fr;
+    }
+    30% {
+        
+    }
+    100% {
+        width: calc(100% - 60px);
+        height: calc(100% - 120px);
+        max-width: 80%;
+        max-height: 700px;
+        margin: 30px;
+        grid-template-columns: 1fr 0fr;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
 .Home_Welcome_Title{
     background-color: var(--SAP-Purple-Base);
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     display: flex;
-    flex-direction: column;
-    padding-top: 30px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+    padding-top: 120px;
     opacity: 0%;
     background: linear-gradient(144deg, rgba(255,255,255,1) 13%, rgba(245,126,66,1) 27%, rgba(223,78,165,1) 38%, rgba(63,84,243,1) 48%, rgba(102,16,242,1) 65%);
     background-size: 500% 100%;
     animation-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    cursor: pointer;
 }
 
-@keyframes Home_Welcome_Sequence_2{
+@keyframes Home_Welcome_Sequence_2_Old{
     0% {
         background-position: 0% 100%;
         opacity: 0%;
@@ -139,26 +168,51 @@
         border-bottom-right-radius: 15px;
     }
 }
+@keyframes Home_Welcome_Sequence_2{
+    0% {
+        background-position: 0% 100%;
+        opacity: 0%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    10%{
+        opacity: 100%;
+    }
+    100% {
+        background-position: 100% 100%;
+        opacity: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+
 
 .Home_Welcome_Title_Text{
     font-family: var(--Text-Font-Primary);
     color: white;
     margin: 0;
-    margin-left: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 70px;
     opacity: 0%;
 }
 
+.Home_Welcome_Title[State = "Animating"] > .Home_Welcome_Title_Text{
+    animation-name: Home_Welcome_Sequence_3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 .Home_Welcome_Title_Text:nth-child(1){
-    animation-delay: 1.2s
+    animation-delay: 1.2s;
 }
 
 .Home_Welcome_Title_Text:nth-child(2){
-    animation-delay: 1.3s
+    animation-delay: 1.3s;
 }
 
 .Home_Welcome_Title_Text:nth-child(3){
-    animation-delay: 1.4s
+    animation-delay: 1.4s;
 }
 
 @keyframes Home_Welcome_Sequence_3{
@@ -189,6 +243,9 @@
     padding-top: 30px;
     overflow-x: hidden;
     opacity: 0%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .Home_Welcome_Main[State = "Visible"]{
@@ -199,13 +256,26 @@
     font-family: var(--Text-Font-Primary);
     margin-bottom: 10px;
     font-size: 45px;
+    
 }
 
 .Home_Welcome_Main_Description{
     font-family: var(--Text-Font-Secondary);
+    color: white;
     margin: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-size: 23px;
+    width: 100%;
+    text-align: center;
+}
+.Home_Welcome_Main_Copyright{
+    font-family: var(--Text-Font-Tertiary);
+    color: white;
+    margin: 0px;
+    margin-bottom: 20px;
+    /* font-size: 23px; */
+    width: 100%;
+    text-align: center;
 }
 
 .Home_Welcome_Loading{
@@ -232,6 +302,78 @@
 
 .Home_Welcome_Loading_Text{
     font-family: var(--Text-Font-Secondary);
+}
+
+.Home_Welcome_Decorations{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    /* right: 0; */
+    /* background-color: #df4ea5; */
+    display: none;
+}
+
+.Home_Welcome_Decorations[Corner = "TopRight"]{
+    right: 0;
+    top: 0;
+}
+
+.Home_Welcome_Decoration_Component{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: solid var(--SAP-Purple-Level-1D) 10px;
+    opacity: 50%;
+    animation-name: Home_Welcome_Decoration_Component_Rotate;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.Home_Welcome_Decoration_Component:nth-child(odd){
+    animation-name: Home_Welcome_Decoration_Component_Rotate_Reverse;
+}
+
+.Home_Welcome_Decoration_Component:nth-child(1){
+    animation-delay: 0.2s;
+}
+
+.Home_Welcome_Decoration_Component:nth-child(2){
+    animation-delay: 0.4s;
+}
+
+.Home_Welcome_Decoration_Component:nth-child(3){
+    animation-delay: 0.6s;
+}
+
+.Home_Welcome_Decoration_Component:nth-child(4){
+    animation-delay: 0.8s;
+}
+
+.Home_Welcome_Decoration_Component:nth-child(5){
+    animation-delay: 0.8s;
+}
+
+.Home_Welcome_Decoration_Component:nth-child(6){
+    animation-delay: 1s;
+}
+
+@keyframes Home_Welcome_Decoration_Component_Rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes Home_Welcome_Decoration_Component_Rotate_Reverse {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
 }
 
 .Quizzes_Top_Title{
