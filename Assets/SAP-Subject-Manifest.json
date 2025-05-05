@@ -488,6 +488,59 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C3_S1_MIS_Prefinals",
+                    "Module_Name": "Prefinals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_PRefinals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "5 May 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S2_MIS_Prefinals_1",
+                            "Subfolder_Name": "Tactical Information Systems",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_MIS_Prefinals_1",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "5 May 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_MIS_Prefinals_2",
+                            "Subfolder_Name": "Strategic Level Information Systems",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_MIS_Prefinals_2",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "5 May 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_MIS_Prefinals_3",
+                            "Subfolder_Name": "Tactical and Strategic Human Resource Information Systems",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_MIS_Prefinals_3",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "5 May 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_MIS_Prefinals_4",
+                            "Subfolder_Name": "Prefinal Period Review",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_MIS_Prefinals_4",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "5 May 2025",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
             ]
         },
