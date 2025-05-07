@@ -1,0 +1,304 @@
+{
+  "quizInfo": {
+    "Subject": "Web Systems and Technologies",
+    "Term": "Prelims",
+    "Title": "06 Handout 1 - Javascript Functions",
+    "LastModified": "07 May 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "06 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is usually assigned a specific name and called many times in different sections?",
+      "answer": "Function",
+      "choices": [
+        "Method",
+        "Class",
+        "Function",
+        "Variable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What encloses a repeated sequence of instructions to increase the code’s readability?",
+      "answer": "Function",
+      "choices": [
+        "Object",
+        "Parameter",
+        "Function",
+        "Condition"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What aims to divide the code into logically independent parts in JavaScript?",
+      "answer": "Function",
+      "choices": [
+        "Comment",
+        "Function",
+        "Array",
+        "Tag"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What helps make a long program that is not a sequence of instructions easier to write?",
+      "answer": "Function",
+      "choices": [
+        "Function",
+        "Import",
+        "Syntax",
+        "Attribute"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What allows easy testing of code fragments independent from the rest of the program?",
+      "answer": "Function",
+      "choices": [
+        "Module",
+        "Function",
+        "Expression",
+        "Literal"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What starts with the function keyword followed by the function name?",
+      "answer": "Function statement",
+      "choices": [
+        "Method declaration",
+        "Class definition",
+        "Function statement",
+        "Variable name"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What follows the same rule as variable names that must relate to the condition to be done?",
+      "answer": "Function statement",
+      "choices": [
+        "Object notation",
+        "Function statement",
+        "Loop initialization",
+        "Array literal"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is then followed by parentheses that enclose function parameters?",
+      "answer": "Function statement",
+      "choices": [
+        "Array declaration",
+        "Function statement",
+        "Loop statement",
+        "Conditional block"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is followed by the function body, which contains the code block?",
+      "answer": "Function statement",
+      "choices": [
+        "Variable assignment",
+        "Function statement",
+        "Object method",
+        "If statement"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is only a preparation for the program to work, even though it contains instructions or code blocks?",
+      "answer": "Function statement",
+      "choices": [
+        "Code execution",
+        "Function call",
+        "Function statement",
+        "Parameter group"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which is a proper way to call the getMeanTemp function?",
+      "answer": "getMeanTemp();",
+      "choices": [
+        "let getMeanTemp;",
+        "call getMeanTemp;",
+        "getMeanTemp();",
+        "getMeanTemp;"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What keyword causes the function to end exactly wherever this word is placed?",
+      "answer": "return",
+      "choices": [
+        "return",
+        "break",
+        "continue",
+        "function"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What allows programmers to return a given value from inside the function to its caller?",
+      "answer": "return",
+      "choices": [
+        "function",
+        "return",
+        "push",
+        "output"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What variable is declared to contain the calculated result in the sample above?",
+      "answer": "result",
+      "choices": [
+        "result",
+        "sum",
+        "return",
+        "average"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is used to store the result that will be returned in the sample above?",
+      "answer": "result",
+      "choices": [
+        "total",
+        "function",
+        "result",
+        "output"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is only usable inside its corresponding function block?",
+      "answer": "local variable",
+      "choices": [
+        "function scope",
+        "local variable",
+        "return type",
+        "global variable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is usually declared inside a function?",
+      "answer": "local variable",
+      "choices": [
+        "global variable",
+        "result",
+        "block code",
+        "local variable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is usable anywhere in the program?",
+      "answer": "global variable",
+      "choices": [
+        "return keyword",
+        "global variable",
+        "sum value",
+        "local scope"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is declared outside any block or function?",
+      "answer": "global variable",
+      "choices": [
+        "constant",
+        "local variable",
+        "variable type",
+        "global variable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What variable is only used to temporarily store the value to be returned?",
+      "answer": "result",
+      "choices": [
+        "result",
+        "meanTemp",
+        "sum",
+        "total"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What can be skipped by replacing it with the appropriate operation directly after return?",
+      "answer": "result",
+      "choices": [
+        "result",
+        "expression",
+        "constant",
+        "output"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are names separated by commas, placed inside the parenthesis after the function name?",
+      "answer": "parameters",
+      "choices": [
+        "return",
+        "variables",
+        "parameters",
+        "constants"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are treated as local variables and are only optional to use in functions?",
+      "answer": "parameters",
+      "choices": [
+        "global vars",
+        "parameters",
+        "expressions",
+        "arguments"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What refer to the values given when a function is called?",
+      "answer": "arguments",
+      "choices": [
+        "outputs",
+        "inputs",
+        "values",
+        "arguments"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    }
+  ]
+}

@@ -852,7 +852,28 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C3_S1_WST_Prefinals",
+                    "Module_Name": "Prefinals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "07 May 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_WST_Prefinals_1",
+                            "Subfolder_Name": "JavaScript Functions",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_WST_Prefinals_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "07 May 2025",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
+                
             ]
         }
         
