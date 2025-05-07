@@ -1,0 +1,280 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Midterms",
+    "Title": "05 Handout 1 - Data Types",
+    "LastModified": "05 May 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What are numbers devoid of the fractional part?",
+      "answer": "Integers",
+      "choices": [
+        "Integers",
+        "Booleans",
+        "Characters",
+        "Floats"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are numbers that contain or can contain the fractional part?",
+      "answer": "Floating Points",
+      "choices": [
+        "Strings",
+        "Floating Points",
+        "Octals",
+        "Binaries"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What determines the kind, range, and application of a numeric value?",
+      "answer": "type",
+      "choices": [
+        "type",
+        "input",
+        "decimal",
+        "value"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is a string of digits that make up the number and must not be mixed with non-digits?",
+      "answer": "integer",
+      "choices": [
+        "float",
+        "keyword",
+        "digit",
+        "integer"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What does Python not accept to separate groups of digits for readability?",
+      "answer": "underscores",
+      "choices": [
+        "plus signs",
+        "dashes",
+        "underscores",
+        "quotation marks"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What results when a number is preceded by 00 or 0o and digits are from the [0..7] range?",
+      "answer": "octal value",
+      "choices": [
+        "octal value",
+        "range type",
+        "exponent base",
+        "float prefix"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What results from a number preceded by 0x or 0X and gives a decimal equivalent?",
+      "answer": "hexadecimal value",
+      "choices": [
+        "float",
+        "hexadecimal value",
+        "integer",
+        "long digit"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What represents and stores numbers with a decimal fraction that is not empty?",
+      "answer": "float",
+      "choices": [
+        "character",
+        "float",
+        "boolean",
+        "binary"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is a part that may appear after the decimal in a number?",
+      "answer": "non-empty decimal fraction",
+      "choices": [
+        "decimal point",
+        "exponent",
+        "non-empty decimal fraction",
+        "minus sign"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the E or e in a number string like 3E8 that denotes the power of 10?",
+      "answer": "exponents",
+      "choices": [
+        "base",
+        "exponent",
+        "exponents",
+        "suffix"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is used to process text and not numeric values, and must be enclosed in quotes?",
+      "answer": "Strings",
+      "choices": [
+        "Numbers",
+        "Floats",
+        "Strings",
+        "Variables"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What type of data is created when Python compares numbers to determine a condition is true or false?",
+      "answer": "Boolean value",
+      "choices": [
+        "Expression",
+        "Loop",
+        "Boolean value",
+        "Syntax Error"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What defines a system that uses only two distinct values such as True and False?",
+      "answer": "Boolean algebra",
+      "choices": [
+        "Boolean logic",
+        "Comparison test",
+        "Boolean algebra",
+        "Variable matching"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are numbers that do not have any fractional part?",
+      "answer": "Integers",
+      "choices": [
+        "Integers",
+        "Floats",
+        "Strings",
+        "Booleans"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are numbers that contain or can contain a fractional part?",
+      "answer": "Floating Points",
+      "choices": [
+        "Floating Points",
+        "Characters",
+        "Integers",
+        "Constants"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What determines the kind, range, and application of a numeric value?",
+      "answer": "type",
+      "choices": [
+        "operator",
+        "type",
+        "formula",
+        "length"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is used in Python to improve readability of long numeric values instead of commas?",
+      "answer": "underscores",
+      "choices": [
+        "commas",
+        "spaces",
+        "underscores",
+        "decimals"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What prefix is used in Python for a number to be treated as octal?",
+      "answer": "0o",
+      "choices": [
+        "0x",
+        "0y",
+        "0o",
+        "ox"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What prefix must a number have to be interpreted as hexadecimal in Python?",
+      "answer": "0x",
+      "choices": [
+        "0x",
+        "0o",
+        "0y",
+        "10x"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What characters must surround a value to make it a complete string?",
+      "answer": "quotes",
+      "choices": [
+        "quotes",
+        "dashes",
+        "backslashes",
+        "colons"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the method used to escape quotation marks in a string in Python?",
+      "answer": "backslash",
+      "choices": [
+        "comma",
+        "backslash",
+        "quote mark",
+        "dollar sign"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What kind of value is produced when Python is asked to evaluate a comparison like \"is 5 > 3\"?",
+      "answer": "Boolean value",
+      "choices": [
+        "Boolean value",
+        "Integer",
+        "String",
+        "Literal"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    }
+  ]
+}
