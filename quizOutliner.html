@@ -4,31 +4,55 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="Page_Title">
-    Student Assistant Portal | Loading...
+    Student Assistant Portal | Quiz Outliner
   </title>
   <link rel="icon" type="image/x-icon" href="Assets/Icons/Logo.png">
   
   <link rel="stylesheet" href="https://elmerf5445.github.io/ERUMA-UI/Scripts/Styles/App_Stylesheet_Debugging.css">
   <link rel="stylesheet" href="Scripts/SAP_Main.css">
   <link rel="stylesheet" href="Scripts/SAP_Stylesheet_Explorer.css">
+  <link rel="stylesheet" href="Scripts/SAP_Stylesheet_QuizPlayer.css">
   <link rel="stylesheet" href="Scripts/SAP_Stylesheet_QuizOutliner.css">
   <link rel="stylesheet" href="Scripts/SAP_Stylesheet_Responsiveness.css">
-  
+  <meta 
+        property="og:image"
+        content="https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/Thumbnails/Thumbnail_Branding_1.png" 
+    />
+    <meta 
+        property="og:title" 
+        content="Student Assistant Portal" 
+    />
+    <meta 
+        property="og:description" 
+        content="It's reviewing time" 
+    />
 </head>
 
 <body onload="Quizzes_SetExplorerMode('Outliner')">
-  <!-- <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_Debugging.js"></script> -->
+  <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_Debugging.js"></script>
   <script src="Scripts/SAP_Javascript_Main.js"></script>
   <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js"></script>
   <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
-  <!-- <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_Initialization.js"></script> -->
   <script src="Scripts/SAP_Javascript_Home.js"></script>
+  <script src="Scripts/SAP_Javascript_UI.js"></script>
   <script src="Scripts/SAP_Javascript_QuizPlayer.js"></script>
   <script src="Scripts/SAP_Javascript_Settings.js"></script>
   <script src="Scripts/SAP_Javascript_QuizOutliner.js"></script>
   <span Display="none">
 
   </span>
+  <div class="Quiz_Starter_Loader" id="LoadingScreen">
+    <img class="Home_Welcome_Loading_Image" src="Assets/Icons/SAP_1.png"/>
+    <div class="General_Loading_Compact">
+      <div class="General_Loading_Compact_Bar"></div>
+      <div class="General_Loading_Compact_Bar"></div>
+      <div class="General_Loading_Compact_Bar"></div>
+      <div class="General_Loading_Compact_Bar"></div>
+    </div>
+    <h3 class="Home_Welcome_Loading_Text">
+      <!-- Loading quiz... -->
+    </h3>
+  </div>
   <div class="Subwindows" id="Subwindows">
     <div id="Empty"></div>
     <div class="Modal" id="Quiz_Refresh">
@@ -53,10 +77,14 @@
     </div>
     <div class="Subwindow" id="QO_Quiz_Open">
         <div class="Subwindow_TitleBar">
-            <h2 class="Subwindow_TitleBar_Title" id="Quizzes_Title_Subject">
+            <h2 class="Subwindow_TitleBar_Title">
                 Open quiz
             </h2>
-            <h2 class="Subwindow_TitleBar_Title" id="Quizzes_Title_Folder">
+            <span></span>
+            <h2 class="Subwindow_TitleBar_Title" id="Quizzes_Title_Subject" Display="none">
+                Open quiz
+            </h2>
+            <h2 class="Subwindow_TitleBar_Title" id="Quizzes_Title_Folder" Display="none">
                 
             </h2>
             <img class='Subwindow_TitleBar_Close' src='Assets/Icons/Left.png' draggable='false' loading='lazy' onclick="Explorer_Back()"/>
@@ -68,7 +96,7 @@
         <div class="Subwindow_Content Explorer" id="Quizzes_Explorer">
             
             <h1 class="General_Title">
-                Content of subwindow here
+                Loading.
             </h1>
         </div>
         <div class="Subwindow_Bottom">
@@ -92,7 +120,7 @@
             <b>Quiz Outliner</b>
           </p>
         </button>
-        <button class="MenuBar_List_Item" onclick="Page_ChangePage('index.html')">
+        <button class="MenuBar_List_Item" onclick="Page_ChangePage('index.html', Transition)">
           <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Home.png' draggable='false' loading='lazy' />
           <span class="MenuBar_List_Item_Indicator">
           </span>
@@ -109,19 +137,19 @@
           </p>
           <img class='MenuBar_List_Item_Icon Quiz_Questions_List_Toggle_Icon' src='Assets/Icons/Down.png' draggable='false' loading='lazy' HideOnSmall style="width: 20px"/>
         </button>
-        <button class="MenuBar_List_Item" onclick="Subwindows_Open('Quiz_Refresh')" id="Quiz_Questions_List_Toggle">
-          <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Refresh_1.png' draggable='false' loading='lazy' />
+        <button class="MenuBar_List_Item" onclick="Subwindows_Open('QO_Quiz_Open'); Quizzes_Manifest_Load(); Element_Attribute_Set('Quizzes_Explorer', 'Type', 'Text')" id="Quiz_Questions_List_Toggle">
+          <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Converter.png' draggable='false' loading='lazy' />
           <span class="MenuBar_List_Item_Indicator">
           </span>
           <p class="MenuBar_List_Item_Text">
-            Restart
+            Open quiz
           </p>
         </button>
       </div>
       <div class="Quiz_Questions_List" id="Quiz_Questions_List" State="Collapsed">
-        <button class="General_Button Quiz_Questions_List_Item">
+        <!-- <button class="General_Button Quiz_Questions_List_Item">
           1
-        </button>
+        </button> -->
       </div>
     </div>
     <div class="Page_Content_Main" id="Content">
@@ -130,17 +158,34 @@
                 Quiz Outliner
             </h1>
             <span></span>
-            <!-- <input type="text" class="Input_Text" placeholder="C3_S1_ADET_Prelims_1.json" id="Input_FileName"/> -->
-            <button class="General_Button" onclick="Subwindows_Open('QO_Quiz_Open'); Quizzes_Manifest_Load();">
-                Open quiz
-            </button>
         </div>   
 
         <p class="General_Paragraph" style="text-align: center;">
-            Click "Open file" above to load a quiz and see its contents.
+            
+        </p>
+        
+        <div class="QO_List_Toolbar">
+          <button class="Toggle Button_List_Item" id="QO_Tool_ShowAnswers" onclick="Buttons_Toggle(this.id), QO_Tool_State_Change(this.id)" State="Active">
+            <div class="Toggle_Indicator"></div>
+            Highlight correct answers
+          </button>
+          <button class="Toggle Button_List_Item" id="QO_Tool_ShowAnswersOnly" onclick="Buttons_Toggle(this.id), QO_Tool_State_Change(this.id)" State="Inactive">
+            <div class="Toggle_Indicator"></div>
+            Show correct answers only
+          </button>
+          <button class="Toggle Button_List_Item" id="QO_Tool_GridView" onclick="Buttons_Toggle(this.id), QO_Tool_State_Change(this.id)" State="Active">
+            <div class="Toggle_Indicator"></div>
+            Grid view
+          </button>
+        </div>
+        <h1 class="QO_List_Title" id="QO_List_Title">
+          No quiz loaded
+        </h1>
+        <p class="QO_List_Info" id="QO_List_Info">
+          Click "Open quiz" to load a quiz and see its contents.
         </p>
         <div class="QO_List" id="QO_List">
-            <div class="QO_List_Item">
+            <!-- <div class="QO_List_Item">
                 <div class="QO_List_Item_Number">
                     <h2 class="QO_List_Item_Number_Text">
                         1.
@@ -172,31 +217,7 @@
                         Radio button 4
                     </div>
                 </div>
-            </div>
-        </div>
-        <p class="General_Paragraph" style="margin-left: var(--SAP-Margin-Left); margin-right: var(--SAP-Margin-Right);">
-          display: flex;<br>
-          flex-direction: row;
-        </p>
-        <div class="Demo">
-          <span class="Demo_Item">
-            1
-          </span>
-          <span class="Demo_Item">
-            2
-          </span>
-          <span class="Demo_Item">
-            3
-          </span>
-          <span class="Demo_Item">
-            4
-          </span>
-          <span class="Demo_Item">
-            5
-          </span>
-          <span class="Demo_Item">
-            6
-          </span>
+            </div> -->
         </div>
     </div>
   </div>

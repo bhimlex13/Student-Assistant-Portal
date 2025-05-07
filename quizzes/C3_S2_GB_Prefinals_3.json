@@ -1,0 +1,520 @@
+{
+  "quizInfo": {
+    "Subject": "Great Books",
+    "Term": "Prefinals",
+    "Title": "The Adventures of Huckleberry Finn*",
+    "LastModified": "6 May 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which book by Scotsman J.M. Barrie (1911) was a coming-of-age tale?",
+      "answer": "\"Peter Pan\"",
+      "choices": [
+        "\"Peter Pan\"",
+        "\"Heidi\"",
+        "\"Tom Brown's School Days\"",
+        "\"Treasure Island\""
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In what year did James Fenimore Cooper publish \"The Pioneers\" and the \"Leatherstocking Tales\"?",
+      "answer": 1823,
+      "choices": [
+        1823,
+        1852,
+        1896,
+        1939
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What work offers conflicting views of life on the frontier and is one of the first original US novels?",
+      "answer": "\"The Pioneers\" and the \"Leatherstocking Tails\"",
+      "choices": [
+        "\"The Pioneers\" and the \"Leatherstocking Tails\"",
+        "\"Uncle Tom's Cabin\"",
+        "\"In the Country of the Pointed Firs\"",
+        "\"The Grapes of Wrath\""
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In what year was \"Uncle Tom’s Cabin\" published, creating multiple vernacular voices?",
+      "answer": 1852,
+      "choices": [
+        1852,
+        1823,
+        1896,
+        1939
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which book by Harriet Beecher Stowe inflamed the anti-slavery debate with a sentimental story?",
+      "answer": "\"Uncle Tom's Cabin\"",
+      "choices": [
+        "\"Uncle Tom's Cabin\"",
+        "\"The Pioneers\" and the \"Leatherstocking Tails\"",
+        "\"The Grapes of Wrath\"",
+        "\"In the Country of the Pointed Firs\""
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In what year did Sarah Orne Jewett publish her work describing life on the Maine coast?",
+      "answer": 1896,
+      "choices": [
+        1896,
+        1852,
+        1939,
+        1823
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which novel describes life in an isolated fishing village on the Maine coast?",
+      "answer": "\"In the Country of the Pointed Firs\"",
+      "choices": [
+        "\"In the Country of the Pointed Firs\"",
+        "\"The Grapes of Wrath\"",
+        "\"Uncle Tom's Cabin\"",
+        "\"The Pioneers\" and the \"Leatherstocking Tails\""
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In what year was \"The Grapes of Wrath\" published, telling the story of a family's journey during the Great Depression?",
+      "answer": 1939,
+      "choices": [
+        1939,
+        1852,
+        1823,
+        1896
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which novel by John Steinbeck mixes local color with social injustice in an epic journey west?",
+      "answer": "\"The Grapes of Wrath\"",
+      "choices": [
+        "\"The Grapes of Wrath\"",
+        "\"In the Country of the Pointed Firs\"",
+        "\"Uncle Tom's Cabin\"",
+        "\"The Pioneers\" and the \"Leatherstocking Tails\""
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "When was Mark Twain born?",
+      "answer": "November 30, 1835",
+      "choices": [
+        "November 30, 1835",
+        1910,
+        1870,
+        1857
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Where was Mark Twain born?",
+      "answer": "Hannibal, Missouri",
+      "choices": [
+        "Hannibal, Missouri",
+        "St. Petersburg",
+        "Connecticut",
+        "Nevada"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In what year did Mark Twain die?",
+      "answer": 1910,
+      "choices": [
+        1910,
+        1835,
+        1891,
+        1870
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What is Mark Twain’s real name?",
+      "answer": "Samuel Langhorne Clemens",
+      "choices": [
+        "Samuel Langhorne Clemens",
+        "Mark Twain",
+        "Tom Sawyer",
+        "Huckleberry Finn"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What real-life location did Twain use as a model for St. Petersburg?",
+      "answer": "Hannibal, Missouri",
+      "choices": [
+        "Hannibal, Missouri",
+        "Connecticut",
+        "Nevada",
+        "Mississippi River"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How old was Mark Twain when he left school?",
+      "answer": "12 years old",
+      "choices": [
+        "12 years old",
+        "14 years old",
+        "10 years old",
+        "16 years old"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What job did Mark Twain take up after leaving school?",
+      "answer": "Typesetter and writer",
+      "choices": [
+        "Typesetter and writer",
+        "Newspaper editor",
+        "Steamboat engineer",
+        "Prospector"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What role did Mark Twain take on the Mississippi River?",
+      "answer": "Steamboat pilot on the Mississippi",
+      "choices": [
+        "Steamboat pilot on the Mississippi",
+        "River merchant",
+        "Typesetter",
+        "Journalist"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What major event caused Twain to leave the river and head west?",
+      "answer": "Civil War",
+      "choices": [
+        "Civil War",
+        "Financial crisis",
+        "Marriage",
+        "Book tour"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Who did Mark Twain marry in 1870?",
+      "answer": "Olivia Langdon",
+      "choices": [
+        "Olivia Langdon",
+        "Clara Clemens",
+        "Elizabeth Barrett",
+        "Mary Langdon"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Where did Twain settle after marrying Olivia Langdon?",
+      "answer": "Connecticut",
+      "choices": [
+        "Connecticut",
+        "Missouri",
+        "Nevada",
+        "New York"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How many children did Mark Twain have?",
+      "answer": "4 children",
+      "choices": [
+        "4 children",
+        "2 children",
+        "3 children",
+        "5 children"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Under what name did he begin writing for newspapers?",
+      "answer": "Mark Twain",
+      "choices": [
+        "Mark Twain",
+        "Samuel Clemens",
+        "Mr. Langhorne",
+        "River Writer"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How many books and short stories did Twain write to restore his finances?",
+      "answer": "28 books and many short stories",
+      "choices": [
+        "28 books and many short stories",
+        "14 novels and some essays",
+        "10 memoirs and novellas",
+        "20 essays and pamphlets"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "When did Twain begin lecturing and gaining international celebrity?",
+      "answer": 1891,
+      "choices": [
+        1891,
+        1870,
+        1910,
+        1852
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What does The Adventures of Huckleberry Finn empower writers to focus on instead of New England colonies?",
+      "answer": "Home soil, local color, and vernacular speech",
+      "choices": [
+        "Home soil, local color, and vernacular speech",
+        "European realism",
+        "Formal poetic traditions",
+        "Civil War battles"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "When was The Adventures of Huckleberry Finn published relative to the American Civil War?",
+      "answer": "After the American Civil War",
+      "choices": [
+        "After the American Civil War",
+        "During the American Civil War",
+        "Before the American Civil War",
+        "Before the War of 1812"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "When is the story of Huckleberry Finn set?",
+      "answer": "40-50 years earlier",
+      "choices": [
+        "40-50 years earlier",
+        "During the 1880s",
+        "After Reconstruction",
+        "During World War I"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How was The Adventures of Huckleberry Finn described when it was first published?",
+      "answer": "Coarse",
+      "choices": [
+        "Coarse",
+        "Uplifting",
+        "Satirical",
+        "Wholesome"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What did the novel inject into American writing despite criticism?",
+      "answer": "New energy, style, and color",
+      "choices": [
+        "New energy, style, and color",
+        "Formal structure and logic",
+        "Religious fervor",
+        "European ideals"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In what year was The Adventures of Huckleberry Finn published?",
+      "answer": 1884,
+      "choices": [
+        1884,
+        1939,
+        1865,
+        1896
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What do Huck’s thoughts in the story reflect?",
+      "answer": "Contradictions at the heart of American society",
+      "choices": [
+        "Contradictions at the heart of American society",
+        "Poverty in the colonies",
+        "European influence on America",
+        "Triumph of democracy"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In what previous novel by Twain did Huck appear?",
+      "answer": "The Adventures of Tom Sawyer",
+      "choices": [
+        "The Adventures of Tom Sawyer",
+        "Life on the Mississippi",
+        "A Connecticut Yankee",
+        "The Prince and the Pauper"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What does Huck do to escape the civilizing folk of Missouri and his father?",
+      "answer": "Feigns death",
+      "choices": [
+        "Feigns death",
+        "Runs to Illinois",
+        "Disguises as a girl",
+        "Joins the circus"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Who is Huck escaping along with feigning his death?",
+      "answer": "Brutal father",
+      "choices": [
+        "Brutal father",
+        "Slave catchers",
+        "A sheriff",
+        "School teacher"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How does Huck begin his journey after escaping?",
+      "answer": "Rafted down the Mississippi",
+      "choices": [
+        "Rafted down the Mississippi",
+        "Traveled by foot",
+        "Boarded a steamboat",
+        "Rode a wagon west"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Who is Huck's companion on the raft?",
+      "answer": "Jim",
+      "choices": [
+        "Jim",
+        "Tom Sawyer",
+        "Pap Finn",
+        "Sid"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What does the backwoods society’s brutal reality encroach upon as Huck and Jim drift south?",
+      "answer": "Backwoods society's brutal reality",
+      "choices": [
+        "Backwoods society's brutal reality",
+        "Mississippi River commerce",
+        "Native lands",
+        "Railroad expansion"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What theme is highlighted in the talks between Huck and Jim?",
+      "answer": "Subversion",
+      "choices": [
+        "Subversion",
+        "Freedom",
+        "Adventure",
+        "Superstition"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How much does Jim say he is worth after escaping being sold down the river?",
+      "answer": "USD 800",
+      "choices": [
+        "USD 800",
+        "USD 500",
+        "USD 1,000",
+        "USD 300"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What kind of life do Huck and Jim experience on the raft?",
+      "answer": "Idyllic self-sufficiency",
+      "choices": [
+        "Idyllic self-sufficiency",
+        "Chaotic survival",
+        "Desperate poverty",
+        "Political activism"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What relationship does Huck see Jim as when he wrestles with southern ideology?",
+      "answer": "A friend",
+      "choices": [
+        "A friend",
+        "A father figure",
+        "A burden",
+        "A stranger"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What event signals that Huck’s emotional development is nearly complete?",
+      "answer": "When Tom Sawyer steps in at the end of the story",
+      "choices": [
+        "When Tom Sawyer steps in at the end of the story",
+        "When Huck writes a letter",
+        "When Jim escapes alone",
+        "When Pap returns"
+      ],
+      "reference": "The Adventures of Huckleberry Finn",
+      "term": "Prefinals"
+    }
+  ]
+}

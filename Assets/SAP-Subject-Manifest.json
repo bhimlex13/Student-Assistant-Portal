@@ -133,6 +133,59 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C3_S2_GB_Prefinals",
+                    "Module_Name": "Prefinals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "6 May 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S2_GB_Prefinals_1",
+                            "Subfolder_Name": "Text Structures",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_GB_Prefinals_1",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "6 May 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_GB_Prefinals_2",
+                            "Subfolder_Name": "Alice's Adventures in Wonderland",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_GB_Prefinals_2",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "6 May 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_GB_Prefinals_3",
+                            "Subfolder_Name": "The Adventures of Huckleberry Finn",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_GB_Prefinals_3",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "6 May 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_GB_Prefinals_4",
+                            "Subfolder_Name": "Prefinal Period Review",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_GB_Prefinals_4",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "6 May 2025",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
             ]
         },
@@ -258,7 +311,7 @@
                     "Module_LastModified": "28 March 2025",
                     "Module_Subfolders": [
                         {
-                            "Subfolder_ID": "C3_S1_IAS_Midterms_1",
+                            "Subfolder_ID": "C3_S2_IAS_Midterms_1",
                             "Subfolder_Name": "03 Handout 1: User, LAN, and WAN Domain",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Midterms_1",
@@ -269,7 +322,7 @@
                             "Subfolder_Status": "Active"
                         },
                         {
-                            "Subfolder_ID": "C3_S1_IAS_Midterms_2",
+                            "Subfolder_ID": "C3_S2_IAS_Midterms_2",
                             "Subfolder_Name": "03 Handout 1: Remote Access Domain",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Midterms_2",
@@ -280,7 +333,7 @@
                             "Subfolder_Status": "Active"
                         },
                         {
-                            "Subfolder_ID": "C3_S1_IAS_Midterms_3",
+                            "Subfolder_ID": "C3_S2_IAS_Midterms_3",
                             "Subfolder_Name": "03 Handout 1: System / Application Domain",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Midterms_3",
@@ -291,7 +344,7 @@
                             "Subfolder_Status": "Active"
                         },
                         {
-                            "Subfolder_ID": "C3_S1_IAS_Midterms_4",
+                            "Subfolder_ID": "C3_S2_IAS_Midterms_4",
                             "Subfolder_Name": "03 Handout 1: Ethics and the Internet",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Midterms_4",
@@ -302,7 +355,7 @@
                             "Subfolder_Status": "Active"
                         },
                         {
-                            "Subfolder_ID": "C3_S1_IAS_Midterms_5",
+                            "Subfolder_ID": "C3_S2_IAS_Midterms_5",
                             "Subfolder_Name": "03 Handout 1: Typical Domains of IT Infrastructure [All Topics]",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Midterms_5",
@@ -313,7 +366,7 @@
                             "Subfolder_Status": "Active"
                         },
                         {
-                            "Subfolder_ID": "C3_S1_IAS_Midterms_6",
+                            "Subfolder_ID": "C3_S2_IAS_Midterms_6",
                             "Subfolder_Name": "04 Handout 1: Security Systems Engineering",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Midterms_6",
@@ -324,7 +377,7 @@
                             "Subfolder_Status": "Active"
                         },
                         {
-                            "Subfolder_ID": "C3_S1_IAS_Midterms_7",
+                            "Subfolder_ID": "C3_S2_IAS_Midterms_7",
                             "Subfolder_Name": "04 Handout 1: Cryptography",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Midterms_7",
@@ -335,7 +388,7 @@
                             "Subfolder_Status": "Active"
                         },
                         {
-                            "Subfolder_ID": "C3_S1_IAS_Midterms_8",
+                            "Subfolder_ID": "C3_S2_IAS_Midterms_8",
                             "Subfolder_Name": "Midterms Reviewer Pro Max: [All Midterm Topics]" ,
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Midterms_8",
@@ -488,6 +541,59 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                {   
+                    "Module_ID": "C3_S1_MIS_Prefinals",
+                    "Module_Name": "Prefinals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_PRefinals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "5 May 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S2_MIS_Prefinals_1",
+                            "Subfolder_Name": "Tactical Information Systems",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_MIS_Prefinals_1",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "5 May 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_MIS_Prefinals_2",
+                            "Subfolder_Name": "Strategic Level Information Systems",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_MIS_Prefinals_2",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "5 May 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_MIS_Prefinals_3",
+                            "Subfolder_Name": "Tactical and Strategic Human Resource Information Systems",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_MIS_Prefinals_3",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "5 May 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_MIS_Prefinals_4",
+                            "Subfolder_Name": "Prefinal Period Review",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_MIS_Prefinals_4",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "5 May 2025",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
             ]
         },
@@ -558,7 +664,7 @@
                             "Subfolder_Status": "Active"
                         },
                         {
-                            "Subfolder_ID": "C3_S1_MST_Midterms_1",
+                            "Subfolder_ID": "C3_S1_MST_Midterms_2",
                             "Subfolder_Name": "04 Handout 1 - User Interface",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MST_Midterms_2",
@@ -569,7 +675,7 @@
                             "Subfolder_Status": "Active"
                         },
                         {
-                            "Subfolder_ID": "C3_S1_MST_Midterms_1",
+                            "Subfolder_ID": "C3_S1_MST_Midterms_3",
                             "Subfolder_Name": "Midterms Reviewer Pro Max",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MST_Midterms_3",

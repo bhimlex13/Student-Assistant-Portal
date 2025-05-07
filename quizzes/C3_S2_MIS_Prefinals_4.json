@@ -1,0 +1,822 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Prefinals",
+    "Title": "Study Everything",
+    "LastModified": "5 May 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "07 Handout 1",
+      "08 Handout 1",
+      "09 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What system supports management decision making by providing reports such as regular summary, exception reports, and ad-hoc reports, and helps managers control their areas of responsibility as well as allocate their resources and focus on management?",
+      "answer": "Tactical Information Systems",
+      "choices": [
+        "Tactical Information Systems",
+        "Accounting and Financial Information Systems (AFIS)",
+        "Cash Management System",
+        "Capital Budgeting System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "At the managerial level, which system allows various apps to handle particular organizational functions and supports diverse tactical decisions such as selecting the appropriate staff and purchasing/leasing of equipment?",
+      "answer": "Tactical Information Systems",
+      "choices": [
+        "Tactical Information Systems",
+        "Investment Management System",
+        "Capital Budgeting System",
+        "Accounting and Financial Information Systems (AFIS)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system permits managers to track and compare actual revenues and expenses, compares current budget amounts to those of prior fiscal periods, and assesses how they use their resources to achieve their goals?",
+      "answer": "Accounting and Financial Information Systems (AFIS)",
+      "choices": [
+        "Accounting and Financial Information Systems (AFIS)",
+        "Tactical Information Systems",
+        "Cash Management System",
+        "Investment Management System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system produces cash flow reports that show estimated incoming and outcoming cash amounts for specific timeframes and allows managers to manage cash on hand to ensure continued operations?",
+      "answer": "Cash Management System",
+      "choices": [
+        "Cash Management System",
+        "Capital Budgeting System",
+        "Investment Management System",
+        "Accounting and Financial Information Systems (AFIS)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system focuses on producing information for the acquisition/disposal of assets using evaluation tools and the system’s data to compare information from current and previous timeframes for evaluating asset acquisition or disposal?",
+      "answer": "Capital Budgeting System",
+      "choices": [
+        "Capital Budgeting System",
+        "Cash Management System",
+        "Investment Management System",
+        "Accounting and Financial Information Systems (AFIS)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system produces reports that allow a manager to oversee an organization’s investments in stocks, bonds, or other securities as a separate but important aspect of cash management?",
+      "answer": "Investment Management System",
+      "choices": [
+        "Investment Management System",
+        "Capital Budgeting System",
+        "Cash Management System",
+        "Accounting and Financial Information Systems (AFIS)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system works in tandem with operational information systems for marketing and finance through various means such as processing of operational data, and allows tactical decision making by the marketing department such as the implementation of marketing plans in order to reach sales and profit margins set by higher management?",
+      "answer": "Tactical Management Information System (TMIS)",
+      "choices": [
+        "Tactical Management Information System (TMIS)",
+        "Sales Management System",
+        "Advertising and Promotional System",
+        "Pricing System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system allows managers to assess the productivity of a salesforce, the profitability of certain locations, and the success of products further categorized by sales persons, locations, and target demographic, and keeps track of activities, sales, orders, and customer activities which allows a manager to identify points of interest in terms of location, performance, and demographics?",
+      "answer": "Sales Management System",
+      "choices": [
+        "Sales Management System",
+        "Tactical Management Information System (TMIS)",
+        "Advertising and Promotional System",
+        "Distribution Channel System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system governs advertising and promotional tactics in order to achieve sales goals set by upper management, and requires that managers decide which advertising media and promotional devices to use to reach the selected market segments, when to use these media and devices, and what overall mix of promotional activities to deploy to achieve sales goals?",
+      "answer": "Advertising and Promotional System",
+      "choices": [
+        "Advertising and Promotional System",
+        "Sales Management System",
+        "Pricing System",
+        "Distribution Channel System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system provides information to managers that allows them to set prices for products and services, and allows managers to employ marketing strategies to determine sales volumes and profitability margins based on market volatility?",
+      "answer": "Pricing System",
+      "choices": [
+        "Pricing System",
+        "Tactical Management Information System (TMIS)",
+        "Sales Management System",
+        "Distribution Channel System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system provides information on costs for using various distribution channels—including details such as timeframes for deliveries, time lags caused by the use of certain channels, reliability ratings based on delivery efficiency, and the market segment situation—and is used in tandem with demand and inventory of items so that the manager can anticipate shortages or oversupply of items?",
+      "answer": "Distribution Channel System",
+      "choices": [
+        "Distribution Channel System",
+        "Tactical Management Information System (TMIS)",
+        "Sales Management System",
+        "Advertising and Promotional System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system works in tandem with operational information systems for marketing and finance through various means such as processing of operational data?",
+      "answer": "Strategic Marketing Information Systems (SMIS)",
+      "choices": [
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Marketing Research System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system allows tactical decision making by the marketing department such as the implementation of marketing plans in order to reach sales and profit margins set by higher management?",
+      "answer": "Strategic Marketing Information Systems (SMIS)",
+      "choices": [
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Marketing Research System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system creates different types of sales forecasts, from industry sales, product/services sales, to forecast market segments?",
+      "answer": "Sales Forecasting System",
+      "choices": [
+        "Sales Forecasting System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Marketing Research System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system is usually based on more than just historical data, as it’s also based on assumptions concerning possible factors such as activities of other enterprises, government actions and policies, economic trends and demands, and other functions like weather?",
+      "answer": "Sales Forecasting System",
+      "choices": [
+        "Sales Forecasting System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Marketing Research System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system handles marketing research whether for research departments, for large organizations, or via consultants for smaller enterprises?",
+      "answer": "Marketing Research System",
+      "choices": [
+        "Marketing Research System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system involves conducting trend analysis of industry-wide market sales analysis of target demographics and customer satisfaction for products/services, and market shares estimated for the products/services offered?",
+      "answer": "Marketing Research System",
+      "choices": [
+        "Marketing Research System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system makes information about consumer preferences obtained from marketing research systems and from customer inquiries available?",
+      "answer": "Product Planning and Development System",
+      "choices": [
+        "Product Planning and Development System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Marketing Research System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system's output information is used to develop new products with specifications that meet the criteria from the output information of the system?",
+      "answer": "Product Planning and Development System",
+      "choices": [
+        "Product Planning and Development System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Marketing Research System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of information system can provide support for production decisions like designing and layouting of production facilities, as well as the selection for facility technologies, policies, and personnel?",
+      "answer": "Strategic Production Information System (SPIS)",
+      "choices": [
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of information system involves decisions that require commitment of large amounts of capital and resources over a long period of time?",
+      "answer": "Strategic Production Information System (SPIS)",
+      "choices": [
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "From which system is information considered important for production decisions?",
+      "answer": "Strategic Production Information System (SPIS)",
+      "choices": [
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system relies on a variety of internal and external sources of information?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information that is mostly external, objective, and quantitative in nature such as manpower/labor availability and cost?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information including delivery systems for both raw and finished materials?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as the availability of suitable locations?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as land acquisition and cost?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as distance to raw materials?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as power costs?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as the rate of property and income taxation?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system allows top managers to make better or more informed decisions on which production technologies should be used for a product or service?",
+      "answer": "Technology Planning and Assessment System",
+      "choices": [
+        "Technology Planning and Assessment System",
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system can identify new technology and assess them for their strategic advantages, which can help top management in other aspects than production?",
+      "answer": "Technology Planning and Assessment System",
+      "choices": [
+        "Technology Planning and Assessment System",
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system may use underlying technology like databases, library resources, government databases, industry groups, private resource groups, and consulting organizations?",
+      "answer": "Technology Planning and Assessment System",
+      "choices": [
+        "Technology Planning and Assessment System",
+        "Strategic Production Information System (SPIS)",
+        "Process Positioning System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system handles process positioning and vertical integration, which are processes that are to be performed for any given product/service?",
+      "answer": "Process Positioning System",
+      "choices": [
+        "Process Positioning System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system includes information on processes such as production from raw materials, assembly, or outsourced prefabrication and labor that allows top management to create decisions based on costs, production duration, and demand?",
+      "answer": "Process Positioning System",
+      "choices": [
+        "Process Positioning System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Site Planning and Selection System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system processes information for decisions concerning proposed facilities?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes facility design and layout?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Process Positioning System",
+        "Site Planning and Selection System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes proposed technologies?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes personnel?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Technology Planning and Assessment System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes expected completion dates?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Process Positioning System",
+        "Site Planning and Selection System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes transportation?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes costs of materials for construction?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes maintenance?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Process Positioning System",
+        "Site Planning and Selection System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "From which system can information be procured from site planning, technology assessment, and process positioning?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system is described as \"A number of human resource management information systems had been developed to assist managers in human resources.\"?",
+      "answer": "Tactical and Strategic Human Resource Information System",
+      "choices": [
+        "Tactical and Strategic Human Resource Information System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Job Analysis and Design System",
+        "Recruitment System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system is described as \"HRIS and its apps contain personal information of employees, as well as the organization’s resource in labor and manpower.\"?",
+      "answer": "Tactical and Strategic Human Resource Information System",
+      "choices": [
+        "Tactical and Strategic Human Resource Information System",
+        "Compensation and Benefit System",
+        "Employee Training and Development System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system is emphasized when stating \"Securing this information from unauthorized access is important to all organizations involved and unauthorized use is illegal and can subject organizations to serious legal liability.\"?",
+      "answer": "Tactical and Strategic Human Resource Information System",
+      "choices": [
+        "Tactical and Strategic Human Resource Information System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Recruitment System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"supports HR managers in handling aspects of the acquisition, allocation, and maintenance of an organization’s workforce.\"?",
+      "answer": "Tactical Human Resource Information System (THRIS)",
+      "choices": [
+        "Tactical Human Resource Information System (THRIS)",
+        "Tactical and Strategic Human Resource Information System",
+        "Job Analysis and Design System",
+        "Compensation and Benefit System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"includes the creation of jobs for a specific purpose, employee acquisition, training and capacity building, and budget allocations.\"?",
+      "answer": "Tactical Human Resource Information System (THRIS)",
+      "choices": [
+        "Tactical Human Resource Information System (THRIS)",
+        "Tactical and Strategic Human Resource Information System",
+        "Recruitment System",
+        "Employee Training and Development System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"creates jobs/positions required by an organization.\"?",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Recruitment System",
+        "Compensation and Benefit System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"involves writing job descriptions.\"? (TR or FL)",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Recruitment System",
+        "Employee Training and Development System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"involves designation of purposes, tasks, duties, and responsibilities for a job/position.\"?",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Recruitment System",
+        "Compensation and Benefit System",
+        "Employee Training and Development System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"involves specifying the conditions and performance standards.\"?",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Recruitment System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"involves processing of information from guidelines and external data sources (e.g., labor unions, etc.)\"?",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Compensation and Benefit System",
+        "Employee Training and Development System",
+        "Recruitment System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"handles functions that provide a pool of qualified applicants that may fill vacant positions identified by position control systems and/or job analysis and design systems.\"?",
+      "answer": "Recruitment System",
+      "choices": [
+        "Recruitment System",
+        "Job Analysis and Design System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Compensation and Benefit System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"ensures that the recruitment processes of an organization are compliant with government laws and contract regulations to guarantee affirmative action and equal employment opportunity.\"?",
+      "answer": "Recruitment System",
+      "choices": [
+        "Recruitment System",
+        "Employee Training and Development System",
+        "Tactical and Strategic Human Resource Information System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"allows HR managers to support the creation of compensation and benefit plans for employees.\"?",
+      "answer": "Compensation and Benefit System",
+      "choices": [
+        "Compensation and Benefit System",
+        "Recruitment System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Employee Training and Development System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"using data such as budget allocations and job descriptions, provides a variety of tactical information for employee compensation and benefits.\"?",
+      "answer": "Compensation and Benefit System",
+      "choices": [
+        "Compensation and Benefit System",
+        "Job Analysis and Design System",
+        "Recruitment System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"handles decisions for employee development, usually via capacity building.\"?",
+      "answer": "Employee Training and Development System",
+      "choices": [
+        "Employee Training and Development System",
+        "Compensation and Benefit System",
+        "Recruitment System",
+        "Tactical Human Resource Information System (THRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"is facilitated by finding potential employees that meet certain criteria and creating training and development plans that will allow interested and qualified individuals to benefit from these plans.\"?",
+      "answer": "Employee Training and Development System",
+      "choices": [
+        "Employee Training and Development System",
+        "Compensation and Benefit System",
+        "Succession Planning System",
+        "Job Analysis and Design System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"ensures that replacements for key positions in the organization are available at all times to ensure that they don’t become vacant.\"?",
+      "answer": "Succession Planning System",
+      "choices": [
+        "Succession Planning System",
+        "Employee Training and Development System",
+        "Tactical and Strategic Human Resource Information System",
+        "Recruitment System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What manages the organization’s workforce as a whole?",
+      "answer": "Strategic Human Resource Information System (SHRIS)",
+      "choices": [
+        "Strategic Human Resource Information System (SHRIS)",
+        "Workforce Planning System",
+        "Labor Negotiation System",
+        "Workforce Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What allows an HR manager to formulate workforce plans and labor negotiations to ensure that the enterprise has the appropriate conditions for the appropriate personnel?",
+      "answer": "Strategic Human Resource Information System (SHRIS)",
+      "choices": [
+        "Strategic Human Resource Information System (SHRIS)",
+        "Workforce Planning System",
+        "Labor Negotiation System",
+        "Workforce Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What facilitates strategic long-term workforce planning and management using relevant data such as those from other information systems?",
+      "answer": "Workforce Planning System",
+      "choices": [
+        "Workforce Planning System",
+        "Strategic Human Resource Information System (SHRIS)",
+        "Labor Negotiation System",
+        "Strategic Human Resource Information System (SHRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What uses forecasted workforce estimates (which includes workforce supply and demand, required skills and specializations, quality, and pricing) to create workforce plans that can achieve organizational objectives?",
+      "answer": "Workforce Planning System",
+      "choices": [
+        "Workforce Planning System",
+        "Strategic Human Resource Information System (SHRIS)",
+        "Labor Negotiation System",
+        "Strategic Human Resource Information System (SHRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What gathers data from other HR information systems and from financial accounting systems and external sources in order to help create negotiating terms between the organization and labor unions?",
+      "answer": "Labor Negotiation System",
+      "choices": [
+        "Labor Negotiation System",
+        "Strategic Human Resource Information System (SHRIS)",
+        "Workforce Planning System",
+        "Strategic Human Resource Information System (SHRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What generates ad-hoc reports that allow the organization to see their and a labor union’s positions from industrial and economic standpoints?",
+      "answer": "Labor Negotiation System",
+      "choices": [
+        "Labor Negotiation System",
+        "Strategic Human Resource Information System (SHRIS)",
+        "Workforce Planning System",
+        "Strategic Human Resource Information System (SHRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    }
+  ]
+}

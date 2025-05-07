@@ -4,7 +4,7 @@ let Onload_Requirements = {
     // Set to false if you want the splash to open every load of the page
     Splash_OpenOncePerSession: true,
     // Increment this on any major changes in the system so the WhatsNew window will open
-    Version: 1
+    Version: 2
 }
 
 var Quizzes_Explorer_Mode = "Home";
@@ -53,14 +53,17 @@ function Home_Splash(){
     Element_Attribute_Set('Home_Welcome_Main', 'State', 'Invisible');
     Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Content", "", "4s", "forwards", 1, 1);
     Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title", "", "4s", "forwards", 1, 1);
-    Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title_Text", "", "1s", "forwards", 1, 0.3);
+    
+    // Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title_Text", "", "1s", "forwards", 1, 0.3);
+    
 
     Element_Attribute_Set('Home_Welcome', 'State', 'Visible');
     LoadingScreen_Hide();
     setTimeout(function(){
         Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Content", "Home_Welcome_Sequence_1", "4s", "forwards", 1, 1);
         Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title", "Home_Welcome_Sequence_2", "4s", "forwards", 1, 1);
-        Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title_Text", "Home_Welcome_Sequence_3", "1s", "forwards", 1, 0.3);
+        Element_Attribute_Set("Home_Welcome_Title", "State", "Animating");
+        // Element_Style_Animate_Batch_QuerySelector(".Home_Welcome_Title_Text", "Home_Welcome_Sequence_3", "1s", "forwards", 1, 0.3);
         setTimeout(function(){
             Element_Attribute_Set('Home_Welcome_Main', 'State', 'Visible');
         }, 3000);
@@ -237,7 +240,7 @@ function Quizzes_Explorer_Load_Quizzes(Item, Module){
             if (Object.Subfolder_Status == "Active"){
                 if (Quizzes_Explorer_Mode == "Outliner"){
                     console.log(Object.Subfolder_ID);
-                    Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, null, `Outliner_Quiz_Load('${Object.Subfolder_ID}')`);
+                    Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, null, `QO_Quiz_Load('${Object.Subfolder_ID}')`);
                     console.log("Outliner");
                 } else {
                     Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, Object.Subfolder_Link, null);
