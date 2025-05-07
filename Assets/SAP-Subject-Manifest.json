@@ -873,6 +873,28 @@
                             ],
                             "Subfolder_LastModified": "07 May 2025",
                             "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Prefinals_2",
+                            "Subfolder_Name": "06 Handout 1 - Expressions and Assignment Statements",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Prefinals_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "07 May 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Prefinals_3",
+                            "Subfolder_Name": "Prefinals Reviewer Pro Max (All Prefinals Handout)",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Prefinals_3",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "07 May 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }

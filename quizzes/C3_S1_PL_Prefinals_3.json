@@ -1,0 +1,640 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Midterms",
+    "Title": "06 Handout 1 - Expressions and Assignment Statements",
+    "LastModified": "05 May 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "06 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What produces a value in Python and can be used in calculations or logic?",
+      "answer": "expression",
+      "choices": [
+        "assignment",
+        "declaration",
+        "expression",
+        "execution"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What stores the value of an expression in a variable?",
+      "answer": "assignment statement",
+      "choices": [
+        "function",
+        "print",
+        "assignment statement",
+        "loop"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What combines values, variables, operators, and function calls into a single unit that evaluates to a result?",
+      "answer": "expression",
+      "choices": [
+        "class",
+        "function",
+        "expression",
+        "constant"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What forms the building blocks of logic in programming?",
+      "answer": "expression",
+      "choices": [
+        "loop",
+        "value",
+        "expression",
+        "keyword"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is evaluated by Python to produce a value?",
+      "answer": "expression",
+      "choices": [
+        "syntax",
+        "assignment",
+        "expression",
+        "condition"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What consists of operands like values or variables and operators like +, -, *, /?",
+      "answer": "expression",
+      "choices": [
+        "assignment",
+        "output",
+        "expression",
+        "conversion"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What kind of expression uses operations like +, -, *, /, and **?",
+      "answer": "arithmetic expression",
+      "choices": [
+        "relational",
+        "logical",
+        "arithmetic expression",
+        "assignment"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What kind of expression is used in numerical computations?",
+      "answer": "arithmetic expression",
+      "choices": [
+        "bitwise",
+        "relational",
+        "arithmetic expression",
+        "conditional"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What evaluates to True or False using comparison operators?",
+      "answer": "relational expression",
+      "choices": [
+        "arithmetic",
+        "relational expression",
+        "print",
+        "variable"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What uses operators like ==, !=, >, <, >=, and <=?",
+      "answer": "relational expression",
+      "choices": [
+        "expression",
+        "logical expression",
+        "relational expression",
+        "loop"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What expression type is used in decision-making, like conditional statements and loops?",
+      "answer": "relational expression",
+      "choices": [
+        "augmented",
+        "relational expression",
+        "string",
+        "output"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What expression combines Boolean values using operators like and, or, not?",
+      "answer": "logical expression",
+      "choices": [
+        "bitwise",
+        "logical expression",
+        "string",
+        "tuple"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What kind of expression is used to construct complex conditional statements?",
+      "answer": "logical expression",
+      "choices": [
+        "comparison",
+        "arithmetic",
+        "logical expression",
+        "range"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What manipulates bits using symbols?",
+      "answer": "bitwise expression",
+      "choices": [
+        "bitwise expression",
+        "logical",
+        "print",
+        "conditional"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What operates at the binary level to set flags or manipulate binary data?",
+      "answer": "bitwise expression",
+      "choices": [
+        "relational",
+        "integer",
+        "bitwise expression",
+        "loop"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What stores a value in a variable using the = operator?",
+      "answer": "assignment statement",
+      "choices": [
+        "declaration",
+        "return",
+        "assignment statement",
+        "conditional"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What places a variable on the left of = and a value on the right?",
+      "answer": "assignment statement",
+      "choices": [
+        "input",
+        "assignment statement",
+        "parameter",
+        "class"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What allows storage of values in named memory locations?",
+      "answer": "assignment statement",
+      "choices": [
+        "exception",
+        "method",
+        "assignment statement",
+        "print"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What can assign values to multiple variables in one line?",
+      "answer": "multiple assignment",
+      "choices": [
+        "multiple assignment",
+        "conditional",
+        "logical expression",
+        "augmented statement"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What swaps variable values without using a temporary variable?",
+      "answer": "assignment statement",
+      "choices": [
+        "swap operator",
+        "assignment statement",
+        "delete function",
+        "return"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What provides a concise way to update a variable using math and assignment together?",
+      "answer": "augmented assignment operator",
+      "choices": [
+        "return operator",
+        "conditional operator",
+        "augmented assignment operator",
+        "statement"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What combines an arithmetic operation with assignment like += or *=?",
+      "answer": "augmented assignment operator",
+      "choices": [
+        "function call",
+        "augmented assignment operator",
+        "output",
+        "argument"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What operator multiplies a variable by another value and stores the result?",
+      "answer": "*=",
+      "choices": [
+        "*=",
+        ">>=",
+        "**=",
+        "//"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What operator performs exponentiation and stores the result in the same variable?",
+      "answer": "**=",
+      "choices": [
+        "**=",
+        "*=",
+        "/=",
+        "^"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What operator shifts the bits of a variable to the left?",
+      "answer": "<<=",
+      "choices": [
+        ">>",
+        "<<=",
+        "&=",
+        "^"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What operator shifts the bits of a variable to the right?",
+      "answer": ">>=",
+      "choices": [
+        "<<=",
+        ">>=",
+        "&&",
+        "or"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What operator applies bitwise OR and assigns the result to the variable?",
+      "answer": "|=",
+      "choices": [
+        "|=",
+        "<<=",
+        "&=",
+        "*="
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What expression can involve a function like square(n) and use its result in calculations?",
+      "answer": "expression",
+      "choices": [
+        "return",
+        "function",
+        "expression",
+        "logic"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What happens when x += 5 is executed after x = 10?",
+      "answer": 15,
+      "choices": [
+        10,
+        5,
+        15,
+        30
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the output of x *= 2 if x was previously 15?",
+      "answer": 30,
+      "choices": [
+        20,
+        25,
+        30,
+        10
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are numbers devoid of the fractional part?",
+      "answer": "Integers",
+      "choices": [
+        "Integers",
+        "Booleans",
+        "Characters",
+        "Floats"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are numbers that contain or can contain the fractional part?",
+      "answer": "Floating Points",
+      "choices": [
+        "Strings",
+        "Floating Points",
+        "Octals",
+        "Binaries"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What determines the kind, range, and application of a numeric value?",
+      "answer": "type",
+      "choices": [
+        "type",
+        "input",
+        "decimal",
+        "value"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is a string of digits that make up the number and must not be mixed with non-digits?",
+      "answer": "integer",
+      "choices": [
+        "float",
+        "keyword",
+        "digit",
+        "integer"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What does Python not accept to separate groups of digits for readability?",
+      "answer": "underscores",
+      "choices": [
+        "plus signs",
+        "dashes",
+        "underscores",
+        "quotation marks"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What results when a number is preceded by 00 or 0o and digits are from the [0..7] range?",
+      "answer": "octal value",
+      "choices": [
+        "octal value",
+        "range type",
+        "exponent base",
+        "float prefix"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What results from a number preceded by 0x or 0X and gives a decimal equivalent?",
+      "answer": "hexadecimal value",
+      "choices": [
+        "float",
+        "hexadecimal value",
+        "integer",
+        "long digit"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What represents and stores numbers with a decimal fraction that is not empty?",
+      "answer": "float",
+      "choices": [
+        "character",
+        "float",
+        "boolean",
+        "binary"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is a part that may appear after the decimal in a number?",
+      "answer": "non-empty decimal fraction",
+      "choices": [
+        "decimal point",
+        "exponent",
+        "non-empty decimal fraction",
+        "minus sign"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the E or e in a number string like 3E8 that denotes the power of 10?",
+      "answer": "exponents",
+      "choices": [
+        "base",
+        "exponent",
+        "exponents",
+        "suffix"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is used to process text and not numeric values, and must be enclosed in quotes?",
+      "answer": "Strings",
+      "choices": [
+        "Numbers",
+        "Floats",
+        "Strings",
+        "Variables"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What type of data is created when Python compares numbers to determine a condition is true or false?",
+      "answer": "Boolean value",
+      "choices": [
+        "Expression",
+        "Loop",
+        "Boolean value",
+        "Syntax Error"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What defines a system that uses only two distinct values such as True and False?",
+      "answer": "Boolean algebra",
+      "choices": [
+        "Boolean logic",
+        "Comparison test",
+        "Boolean algebra",
+        "Variable matching"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are numbers that do not have any fractional part?",
+      "answer": "Integers",
+      "choices": [
+        "Integers",
+        "Floats",
+        "Strings",
+        "Booleans"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are numbers that contain or can contain a fractional part?",
+      "answer": "Floating Points",
+      "choices": [
+        "Floating Points",
+        "Characters",
+        "Integers",
+        "Constants"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What determines the kind, range, and application of a numeric value?",
+      "answer": "type",
+      "choices": [
+        "operator",
+        "type",
+        "formula",
+        "length"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is used in Python to improve readability of long numeric values instead of commas?",
+      "answer": "underscores",
+      "choices": [
+        "commas",
+        "spaces",
+        "underscores",
+        "decimals"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What prefix is used in Python for a number to be treated as octal?",
+      "answer": "0o",
+      "choices": [
+        "0x",
+        "0y",
+        "0o",
+        "ox"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What prefix must a number have to be interpreted as hexadecimal in Python?",
+      "answer": "0x",
+      "choices": [
+        "0x",
+        "0o",
+        "0y",
+        "10x"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What characters must surround a value to make it a complete string?",
+      "answer": "quotes",
+      "choices": [
+        "quotes",
+        "dashes",
+        "backslashes",
+        "colons"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the method used to escape quotation marks in a string in Python?",
+      "answer": "backslash",
+      "choices": [
+        "comma",
+        "backslash",
+        "quote mark",
+        "dollar sign"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What kind of value is produced when Python is asked to evaluate a comparison like \"is 5 > 3\"?",
+      "answer": "Boolean value",
+      "choices": [
+        "Boolean value",
+        "Integer",
+        "String",
+        "Literal"
+      ],
+      "reference": "Data Types",
+      "term": "Pre-Finals"
+    }
+  ]
+}
