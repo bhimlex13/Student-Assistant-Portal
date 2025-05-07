@@ -1,0 +1,892 @@
+{
+  "quizInfo": {
+    "Subject": "Web Systems and Technologies",
+    "Term": "Prefinals",
+    "Title": "06 Handout 1 & 07 Handout 1",
+    "LastModified": "07 May 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "06 Handout 1 & 07 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What happen due to misconceptions when solving a problem?",
+      "answer": "Errors",
+      "choices": [
+        "Errors",
+        "Exceptions",
+        "Fixes",
+        "Glitches"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What happen due to improper use and types of the programming language?",
+      "answer": "Errors",
+      "choices": [
+        "Functions",
+        "Errors",
+        "Outputs",
+        "Keywords"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What happen due to the inability to predict user behavior?",
+      "answer": "Errors",
+      "choices": [
+        "Errors",
+        "Warnings",
+        "Vocabulary",
+        "Syntax"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What in the programming language is like grammar in natural language?",
+      "answer": "syntax",
+      "choices": [
+        "syntax",
+        "logic",
+        "keywords",
+        "vocabulary"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is a set of rules that defines the structure of the instructions?",
+      "answer": "syntax",
+      "choices": [
+        "keywords",
+        "syntax",
+        "arguments",
+        "commands"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What in the programming language is like the vocabulary in natural language?",
+      "answer": "keywords",
+      "choices": [
+        "instructions",
+        "outputs",
+        "keywords",
+        "functions"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are the list of words that can be used to build instructions?",
+      "answer": "keywords",
+      "choices": [
+        "rules",
+        "arguments",
+        "keywords",
+        "variables"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What type of error violates the language syntax rule?",
+      "answer": "Syntax Error",
+      "choices": [
+        "Semantic Error",
+        "Syntax Error",
+        "Logical Error",
+        "Warning Error"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error happens when a sentence does not end with a period?",
+      "answer": "Syntax Error",
+      "choices": [
+        "Syntax Error",
+        "Logic Error",
+        "Runtime Error",
+        "Function Error"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the missing grammar element in the error sentence?<BR>After leaving the mall, turn left into the second pth, and drive 600 m. Wait on the spot",
+      "answer": "missing period",
+      "choices": [
+        "period",
+        "comma",
+        "missing period",
+        "semicolon"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is not recognizable in the vocabulary of the natural language?<BR>After leaving the mall, turn left into the second pth, and drive 600 m. Wait on the spot",
+      "answer": "pth",
+      "choices": [
+        "result",
+        "meanTemp",
+        "pth",
+        "command"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What word is used in the example that causes a vocabulary error?<BR>After leaving the mall, turn left into the second pth, and drive 600 m. Wait on the spot",
+      "answer": "pth",
+      "choices": [
+        "return",
+        "let",
+        "pth",
+        "wait"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What type of error is caused by using a word that is out of context?",
+      "answer": "Semantic Error",
+      "choices": [
+        "Syntax Error",
+        "Logical Error",
+        "Semantic Error",
+        "Return Error"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error is not easily detectable by the compiler?",
+      "answer": "Logical Error",
+      "choices": [
+        "Runtime Error",
+        "Logical Error",
+        "Syntax Error",
+        "Output Error"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error occurs if the result is not what was originally the intended direction?",
+      "answer": "Logical Error",
+      "choices": [
+        "Function Error",
+        "Logical Error",
+        "Syntax Error",
+        "Semantic Error"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What word caused the logical error by being different from the original direction?<BR>After leaving the mall, turn left into the second pth, and drive 600 m. Wait on the spot",
+      "answer": "left",
+      "choices": [
+        "left",
+        "return",
+        "wait",
+        "second"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What appears when a code is ill-formed due to typos or unmatched parentheses?",
+      "answer": "SyntaxError",
+      "choices": [
+        "ReferenceError",
+        "SyntaxError",
+        "TypeError",
+        "RangeError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error occurs when the code cannot be executed because JavaScript cannot understand it?",
+      "answer": "SyntaxError",
+      "choices": [
+        "RangeError",
+        "SyntaxError",
+        "throw",
+        "try catch"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the JavaScript engine's response when it finds an unexpected token in an ill-formed statement?",
+      "answer": "SyntaxError",
+      "choices": [
+        "ReferenceError",
+        "Exception",
+        "SyntaxError",
+        "throw"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What occurs when the compiler does not know the meaning of the word or variable used?",
+      "answer": "ReferenceError",
+      "choices": [
+        "throws",
+        "ReferenceError",
+        "SyntaxError",
+        "InvalidError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What happens when the programmer tries to access a function or variable that does not exist?",
+      "answer": "ReferenceError",
+      "choices": [
+        "ReferenceError",
+        "RangeError",
+        "TypeError",
+        "LogicError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What type of error occurs when a variable like c has not been declared anywhere?",
+      "answer": "ReferenceError",
+      "choices": [
+        "ReferenceError",
+        "TypeError",
+        "SyntaxError",
+        "UndefinedError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error occurs when a specific value is not of the expected type?",
+      "answer": "TypeError",
+      "choices": [
+        "SyntaxError",
+        "TypeError",
+        "LogicError",
+        "LengthError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What happens when a constant variable is reassigned?",
+      "answer": "TypeError",
+      "choices": [
+        "ReferenceError",
+        "TypeError",
+        "DeclarationError",
+        "InvalidAssignment"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error is triggered when a number is used as a string in a length check?",
+      "answer": "TypeError",
+      "choices": [
+        "TypeError",
+        "FunctionError",
+        "cast error",
+        "SyntaxError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error is generated when a value is passed to a function outside its acceptable range?",
+      "answer": "RangeError",
+      "choices": [
+        "OverflowError",
+        "LengthError",
+        "SyntaxError",
+        "RangeError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error is shown when a negative value is used to initialize an array?",
+      "answer": "RangeError",
+      "choices": [
+        "NegativeError",
+        "SyntaxError",
+        "RangeError",
+        "IndexError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What does JavaScript generate and throw when it detects syntactic or semantic errors?",
+      "answer": "Exceptions",
+      "choices": [
+        "Errors",
+        "Exceptions",
+        "Variables",
+        "breaks"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What appear while the program is running and interrupt the program execution?",
+      "answer": "run-time errors",
+      "choices": [
+        "throw",
+        "syntax errors",
+        "run-time errors",
+        "keywords"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is done to prevent the program from stopping when an error occurs?",
+      "answer": "Exception handling",
+      "choices": [
+        "try",
+        "throws",
+        "Exception handling",
+        "try catch"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is used to handle exceptions in JavaScript that may be thrown during execution?",
+      "answer": "try catch",
+      "choices": [
+        "throw",
+        "fix",
+        "try catch",
+        "block end"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What jumps to the part of the code after an error instead of stopping the program?",
+      "answer": "try catch",
+      "choices": [
+        "exception",
+        "output",
+        "catch",
+        "try catch"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What keyword is used to create and send specific objects with error information?",
+      "answer": "throws",
+      "choices": [
+        "send",
+        "throws",
+        "notify",
+        "return"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is an optional block of the try statement that is always executed no matter what errors are thrown?",
+      "answer": "finally Statement",
+      "choices": [
+        "catch block",
+        "try block",
+        "finally Statement",
+        "error handling"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What can be used with or without the catch block and still execute in all cases?",
+      "answer": "finally Statement",
+      "choices": [
+        "syntax block",
+        "finally Statement",
+        "declaration",
+        "variable"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is required in addition to the finally block to avoid a SyntaxError?",
+      "answer": "try statement",
+      "choices": [
+        "return statement",
+        "try statement",
+        "log function",
+        "conditional block"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the syntax that always includes a block for code to try?",
+      "answer": "try statement",
+      "choices": [
+        "finally",
+        "if block",
+        "try statement",
+        "exception"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is part of troubleshooting in programming?",
+      "answer": "Debugging",
+      "choices": [
+        "Debugging",
+        "Exception handling",
+        "Logging",
+        "Breakpoint"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What causes the program to stop or halt its execution on the line where it is placed?",
+      "answer": "breakpoint",
+      "choices": [
+        "try catch",
+        "console.log",
+        "finally",
+        "breakpoint"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What acts as a breakpoint in the code execution, pausing the debugger execution?",
+      "answer": "Debugging",
+      "choices": [
+        "syntax block",
+        "Debugging",
+        "finalizer",
+        "statement call"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the feature to execute codes one instruction at a time?",
+      "answer": "Step-by-step Program Execution",
+      "choices": [
+        "try catch",
+        "Program breaking",
+        "console tracking",
+        "Step-by-step Program Execution"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What allows the debugger to continue execution from the paused point until another breakpoint is hit?",
+      "answer": "Resume",
+      "choices": [
+        "Resume",
+        "Jump",
+        "Reset",
+        "Log Next"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What runs the program and pauses based on user-defined points set for inspection?",
+      "answer": "breaks",
+      "choices": [
+        "breakpoints",
+        "calls",
+        "logs",
+        "breaks"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What treats the function as a set of instructions to be analyzed in detail?",
+      "answer": "Step Into",
+      "choices": [
+        "Step Over",
+        "Step Into",
+        "Jump Out",
+        "Reset"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What jumps inside the code of the function if it is a function call?",
+      "answer": "Step Into",
+      "choices": [
+        "Step Into",
+        "Step Out",
+        "Skip",
+        "Run Block"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is used when the next instruction is a call to a function where the impact is unclear or uninteresting?",
+      "answer": "Step Over",
+      "choices": [
+        "Step Out",
+        "Step Into",
+        "Resume",
+        "Step Over"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What treats the function call as something indivisible?",
+      "answer": "Step Over",
+      "choices": [
+        "debugger",
+        "Step Over",
+        "Step Out",
+        "finalize"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What allows you to immediately jump out of a function where the code is paused?",
+      "answer": "Step Out",
+      "choices": [
+        "Step Out",
+        "Step Over",
+        "Resume",
+        "Exit"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What proceeds until the function returns if the debugger is inside the code block?",
+      "answer": "Step Out",
+      "choices": [
+        "Step Into",
+        "Step Out",
+        "Step Continue",
+        "Return Block"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is usually assigned a specific name and called many times in different sections?",
+      "answer": "Function",
+      "choices": [
+        "Method",
+        "Class",
+        "Function",
+        "Variable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What encloses a repeated sequence of instructions to increase the code’s readability?",
+      "answer": "Function",
+      "choices": [
+        "Object",
+        "Parameter",
+        "Function",
+        "Condition"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What aims to divide the code into logically independent parts in JavaScript?",
+      "answer": "Function",
+      "choices": [
+        "Comment",
+        "Function",
+        "Array",
+        "Tag"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What helps make a long program that is not a sequence of instructions easier to write?",
+      "answer": "Function",
+      "choices": [
+        "Function",
+        "Import",
+        "Syntax",
+        "Attribute"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What allows easy testing of code fragments independent from the rest of the program?",
+      "answer": "Function",
+      "choices": [
+        "Module",
+        "Function",
+        "Expression",
+        "Literal"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What starts with the function keyword followed by the function name?",
+      "answer": "Function statement",
+      "choices": [
+        "Method declaration",
+        "Class definition",
+        "Function statement",
+        "Variable name"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What follows the same rule as variable names that must relate to the condition to be done?",
+      "answer": "Function statement",
+      "choices": [
+        "Object notation",
+        "Function statement",
+        "Loop initialization",
+        "Array literal"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is then followed by parentheses that enclose function parameters?",
+      "answer": "Function statement",
+      "choices": [
+        "Array declaration",
+        "Function statement",
+        "Loop statement",
+        "Conditional block"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is followed by the function body, which contains the code block?",
+      "answer": "Function statement",
+      "choices": [
+        "Variable assignment",
+        "Function statement",
+        "Object method",
+        "If statement"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is only a preparation for the program to work, even though it contains instructions or code blocks?",
+      "answer": "Function statement",
+      "choices": [
+        "Code execution",
+        "Function call",
+        "Function statement",
+        "Parameter group"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which is a proper way to call the getMeanTemp function?",
+      "answer": "getMeanTemp();",
+      "choices": [
+        "let getMeanTemp;",
+        "call getMeanTemp;",
+        "getMeanTemp();",
+        "getMeanTemp;"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What keyword causes the function to end exactly wherever this word is placed?",
+      "answer": "return",
+      "choices": [
+        "return",
+        "break",
+        "continue",
+        "function"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What allows programmers to return a given value from inside the function to its caller?",
+      "answer": "return",
+      "choices": [
+        "function",
+        "return",
+        "push",
+        "output"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What variable is declared to contain the calculated result in the sample above?",
+      "answer": "result",
+      "choices": [
+        "result",
+        "sum",
+        "return",
+        "average"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is used to store the result that will be returned in the sample above?",
+      "answer": "result",
+      "choices": [
+        "total",
+        "function",
+        "result",
+        "output"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is only usable inside its corresponding function block?",
+      "answer": "local variable",
+      "choices": [
+        "function scope",
+        "local variable",
+        "return type",
+        "global variable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is usually declared inside a function?",
+      "answer": "local variable",
+      "choices": [
+        "global variable",
+        "result",
+        "block code",
+        "local variable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is usable anywhere in the program?",
+      "answer": "global variable",
+      "choices": [
+        "return keyword",
+        "global variable",
+        "sum value",
+        "local scope"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is declared outside any block or function?",
+      "answer": "global variable",
+      "choices": [
+        "constant",
+        "local variable",
+        "variable type",
+        "global variable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What variable is only used to temporarily store the value to be returned?",
+      "answer": "result",
+      "choices": [
+        "result",
+        "meanTemp",
+        "sum",
+        "total"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What can be skipped by replacing it with the appropriate operation directly after return?",
+      "answer": "result",
+      "choices": [
+        "result",
+        "expression",
+        "constant",
+        "output"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are names separated by commas, placed inside the parenthesis after the function name?",
+      "answer": "parameters",
+      "choices": [
+        "return",
+        "variables",
+        "parameters",
+        "constants"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are treated as local variables and are only optional to use in functions?",
+      "answer": "parameters",
+      "choices": [
+        "global vars",
+        "parameters",
+        "expressions",
+        "arguments"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What refer to the values given when a function is called?",
+      "answer": "arguments",
+      "choices": [
+        "outputs",
+        "inputs",
+        "values",
+        "arguments"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    }
+  ]
+}
