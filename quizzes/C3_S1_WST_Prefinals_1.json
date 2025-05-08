@@ -253,18 +253,6 @@
       "term": "Pre-Finals"
     },
     {
-      "question": "What can be skipped by replacing it with the appropriate operation directly after return?",
-      "answer": "result",
-      "choices": [
-        "result",
-        "expression",
-        "constant",
-        "output"
-      ],
-      "reference": "06 Handout 1",
-      "term": "Pre-Finals"
-    },
-    {
       "question": "What are names separated by commas, placed inside the parenthesis after the function name?",
       "answer": "parameters",
       "choices": [
