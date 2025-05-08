@@ -1,0 +1,339 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Prefinals",
+    "Title": "06 Handout 1 - Trojan Horses and Backdoors",
+    "LastModified": "08 May 2025",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "06 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is a type of malicious software that looks legitimate but takes control of a system?",
+      "answer": "Trojan horse",
+      "choices": [
+        "Worm",
+        "Trojan horse",
+        "Virus",
+        "Spyware"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is designed to damage, disrupt, steal, or harm a computer or network?",
+      "answer": "Trojan",
+      "choices": [
+        "Trojan",
+        "Keylogger",
+        "Virus",
+        "Worm"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What disguises itself as a legitimate application or file to trick users?",
+      "answer": "Trojan",
+      "choices": [
+        "Exploit kit",
+        "Trojan",
+        "Rootkit",
+        "Spam"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What executes a specific malicious function after being installed?",
+      "answer": "Trojan",
+      "choices": [
+        "Trojan",
+        "Logic bomb",
+        "Virus",
+        "SQL injection"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a first step to security involving installing and running internet security software?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Remove USB",
+        "How to Prevent Trojans",
+        "Password reuse",
+        "Disable firewall"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What uses scheduled scans during regular intervals to detect trojans?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "File backups",
+        "How to Prevent Trojans",
+        "Manual uninstall",
+        "Email sync"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What prevents Trojan exploitation by ensuring software is current?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Change MAC address",
+        "How to Prevent Trojans",
+        "Remove adware",
+        "User profile"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What requires checking for updates not only in OS but other installed software?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Clean DNS",
+        "How to Prevent Trojans",
+        "Pop-up blocker",
+        "Browser refresh"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What involves creating strong, unique passwords per account with symbols, letters, and numbers?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Install new plugin",
+        "How to Prevent Trojans",
+        "Disable firewall",
+        "Enable Java"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What makes it harder for trojans to access data by hiding personal information?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Clear cache",
+        "Block notifications",
+        "How to Prevent Trojans",
+        "View DNS log"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What helps restore data if trojan damage occurs?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Trojan backup",
+        "File synchronizer",
+        "How to Prevent Trojans",
+        "Browser cookie clear"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What reduces risk of trojans delivered via email attachments?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Disable Wi-Fi",
+        "How to Prevent Trojans",
+        "Open PDFs",
+        "Remove add-ons"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What bypasses normal authentication procedures to access systems or data?",
+      "answer": "Backdoor",
+      "choices": [
+        "Keylogger",
+        "Trojan",
+        "Backdoor",
+        "Virus"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What gives unauthorized users the ability to remotely update or control systems?",
+      "answer": "Backdoor",
+      "choices": [
+        "Exploit kit",
+        "Logic bomb",
+        "Backdoor",
+        "Brute force attack"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is used by attackers to exploit vulnerabilities in applications or websites?",
+      "answer": "Backdoor",
+      "choices": [
+        "SQL Injection",
+        "Backdoor",
+        "Spam",
+        "Proxy tool"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What makes detecting a backdoor difficult after installation?",
+      "answer": "Backdoor",
+      "choices": [
+        "Trojan",
+        "Keylogger",
+        "Backdoor",
+        "Spoofing"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is used to steal personal or sensitive data once access is gained?",
+      "answer": "Data theft",
+      "choices": [
+        "Malware loggers",
+        "Data theft",
+        "MAC address capture",
+        "DNS redirection"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a malicious activity that involves changing a website's content?",
+      "answer": "Website defacing",
+      "choices": [
+        "Buffer overflow",
+        "Website defacing",
+        "Rootkit injection",
+        "Script attack"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What involves unauthorized control of a server’s configuration or traffic?",
+      "answer": "Server hijacking",
+      "choices": [
+        "Spoofing",
+        "Server hijacking",
+        "Packet sniffing",
+        "Session hijacking"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What overloads a system to prevent legitimate access to services?",
+      "answer": "Distributed Denial-of-Service attacks",
+      "choices": [
+        "Spam trap",
+        "Distributed Denial-of-Service attacks",
+        "Port scanning",
+        "SQL injection"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tactic redirects unsuspecting visitors to malware-infected pages?",
+      "answer": "Infecting website visitors",
+      "choices": [
+        "DNS hijacking",
+        "Infecting website visitors",
+        "Worm"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a stealthy, long-term attack that can be embedded into backdoors?",
+      "answer": "Advanced persistent threat",
+      "choices": [
+        "Logic bomb",
+        "Advanced persistent threat",
+        "Shrink wrap code",
+        "Social engineering"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What prevents unauthorized entry by changing weak or default credentials?",
+      "answer": "Change your default passwords",
+      "choices": [
+        "Keep pop-ups",
+        "Change your default passwords",
+        "Disable Bluetooth",
+        "File format limit"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What monitors for unusual spikes or behaviors to identify potential backdoors?",
+      "answer": "Monitor network activity",
+      "choices": [
+        "MAC filtering",
+        "Monitor network activity",
+        "Close apps",
+        "Force restart"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What makes it safer to install only verified apps and avoid malicious plugins?",
+      "answer": "Choose applications and plugins carefully",
+      "choices": [
+        "Accept all cookies",
+        "Choose applications and plugins carefully",
+        "Enable NFC",
+        "Set FTP limit"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What blocks malicious commands used to open backdoors and prevents trojans and rootkits?",
+      "answer": "Use a good cybersecurity solution",
+      "choices": [
+        "DNS flush",
+        "Use a good cybersecurity solution",
+        "Install Java",
+        "Port mirroring"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What software solution works across devices like Windows, Mac, and Chromebook?",
+      "answer": "Use a good cybersecurity solution",
+      "choices": [
+        "VPN services",
+        "Use a good cybersecurity solution",
+        "Email syncing",
+        "Mobile hotspot"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    }
+  ]
+}

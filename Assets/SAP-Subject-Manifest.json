@@ -483,6 +483,50 @@
                             ],
                             "Subfolder_LastModified": "09 May 2025",
                             "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_IAS_Prefinals_8",
+                            "Subfolder_Name": "06 Handout 1 - Ransomware and Worm",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Prefinals_8",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "09 May 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_IAS_Prefinals_9",
+                            "Subfolder_Name": "06 Handout 1 - Trojan Horses and Backdoors",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Prefinals_9",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "09 May 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_IAS_Prefinals_10",
+                            "Subfolder_Name": "06 Handout 1 - All TOPICS",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Prefinals_10",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "09 May 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_IAS_Prefinals_11",
+                            "Subfolder_Name": "Prefinals Reviewer Pro Max (All Prefinals Handout)",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Prefinals_11",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "09 May 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }

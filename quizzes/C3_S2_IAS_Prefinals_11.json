@@ -1,0 +1,2367 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Prefinals",
+    "Title": "Prefinals All Handouts",
+    "LastModified": "08 May 2025",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "05 and 06 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What warns you not to respond to emails asking for personal information?",
+      "answer": "Phishing E-mails",
+      "choices": [
+        "Social engineering",
+        "Mobile threats",
+        "Phishing E-mails",
+        "Backup policy"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What advises against entering personal data in a pop-up screen?",
+      "answer": "Phishing E-mails",
+      "choices": [
+        "Secure passwords",
+        "Phishing E-mails",
+        "Encryption techniques",
+        "Device labeling"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What suggests not clicking links from suspicious email messages?",
+      "answer": "Phishing E-mails",
+      "choices": [
+        "Data loss prevention",
+        "Phishing E-mails",
+        "Security clearance",
+        "Portable storage"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tells you to copy and paste suspicious URLs into the browser rather than clicking them?",
+      "answer": "Phishing E-mails",
+      "choices": [
+        "Phishing E-mails",
+        "Anti-malware configuration",
+        "Social network blocking",
+        "Access logging"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What advises users to use anti-virus and anti-spyware and to keep them up to date?",
+      "answer": "Phishing E-mails",
+      "choices": [
+        "Phishing E-mails",
+        "Update notifications",
+        "Encryption enforcement",
+        "Certificate renewal"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recommends shredding documents with personal information like credit card or health numbers?",
+      "answer": "Dispose of Information Properly",
+      "choices": [
+        "Backup storage",
+        "Secure email",
+        "Dispose of Information Properly",
+        "Password sharing"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What reminds you to use correct tools when deleting personal files on devices?",
+      "answer": "Dispose of Information Properly",
+      "choices": [
+        "Antivirus updates",
+        "Dispose of Information Properly",
+        "Remote access monitoring",
+        "Message encryption"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tells you not to engage in cyberbullying or inappropriate behavior online?",
+      "answer": "Ethics – Be a good cyber citizen",
+      "choices": [
+        "Email filtering",
+        "Ethics – Be a good cyber citizen",
+        "Site blocking",
+        "Secure settings"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What warns against doing things in cyberspace that you wouldn’t do in real life?",
+      "answer": "Ethics – Be a good cyber citizen",
+      "choices": [
+        "Credential protection",
+        "Ethics – Be a good cyber citizen",
+        "Network firewall",
+        "VPN usage"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What asks you to observe copyright rules when downloading material?",
+      "answer": "Ethics – Be a good cyber citizen",
+      "choices": [
+        "Ethics – Be a good cyber citizen",
+        "Data backup policy",
+        "Tracking software",
+        "Application cache"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What reminds users not to use someone else’s password or other private credentials?",
+      "answer": "Ethics – Be a good cyber citizen",
+      "choices": [
+        "Cloud data",
+        "Ethics – Be a good cyber citizen",
+        "Mobile threat policy",
+        "Log-in audit"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What explains that locking the screen protects the system from unauthorized access?",
+      "answer": "Lock the computer when you leave",
+      "choices": [
+        "VPN monitoring",
+        "Lock the computer when you leave",
+        "Screen brightness",
+        "Connection security"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What advises setting a screensaver that requires a password to return to the system?",
+      "answer": "Lock the computer when you leave",
+      "choices": [
+        "Lock the computer when you leave",
+        "Battery saver mode",
+        "Encryption protocol",
+        "Background sync"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What suggests making unique accounts and passwords if the computer is shared?",
+      "answer": "Lock the computer when you leave",
+      "choices": [
+        "Account grouping",
+        "Lock the computer when you leave",
+        "Admin approval",
+        "User backup"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recommends protecting the device with a password?",
+      "answer": "Protect data on mobile devices",
+      "choices": [
+        "Mobile device",
+        "Remote wipe",
+        "Protect data on mobile devices",
+        "Network locking"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What reminds users to back up all critical data stored on the mobile device?",
+      "answer": "Protect data on mobile devices",
+      "choices": [
+        "Protect data on mobile devices",
+        "Auto-sync storage",
+        "Secure texting",
+        "Power management"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tip warns users to disable Bluetooth when it’s not needed?",
+      "answer": "Protect data on mobile devices",
+      "choices": [
+        "Connectivity tips",
+        "Protect data on mobile devices",
+        "Mobile storage options",
+        "Audio pairing"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What advises keeping firewalls and antivirus software on your portable device updated?",
+      "answer": "Protect data on mobile devices",
+      "choices": [
+        "Software patching",
+        "Protect data on mobile devices",
+        "Root access alert",
+        "Call block setting"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What mentions storing mobile devices in a secure location?",
+      "answer": "Protect data on mobile devices",
+      "choices": [
+        "Theft prevention",
+        "Protect data on mobile devices",
+        "Encrypted folders",
+        "Biometric check"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recommends reporting lost or stolen devices to the authorities right away?",
+      "answer": "Protect data on mobile devices",
+      "choices": [
+        "Lock the computer when you leave",
+        "Incident handling",
+        "Protect data on mobile devices",
+        "System alerts"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What helps protect your personal info by requiring password changes at least once a year?",
+      "answer": "Frequently change your default passwords",
+      "choices": [
+        "Use a firewall",
+        "Enable privacy settings",
+        "Frequently change your default passwords",
+        "Practice safe shopping"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What confirms your identity before logging into accounts using another device or method?",
+      "answer": "Use multifactor authentication",
+      "choices": [
+        "Enable VPN",
+        "Use multifactor authentication",
+        "Back up your data",
+        "Do not download pirated software"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What blocks unauthorized access to devices and networks?",
+      "answer": "Use a firewall",
+      "choices": [
+        "Use multifactor authentication",
+        "Use a firewall",
+        "Enable privacy settings",
+        "Safe public browsing"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What ensures your system stays protected by regularly applying security patches?",
+      "answer": "Be sure to keep the operating system, browser, and other software up to date",
+      "choices": [
+        "Back up your data",
+        "Enable privacy settings",
+        "Be sure to keep the operating system, browser, and other software up to date",
+        "Practice safe surfing"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What protects your information by avoiding risky activities on open internet networks?",
+      "answer": "Limit what you do over public Wi-Fi",
+      "choices": [
+        "Be selective when sharing info",
+        "Enable privacy settings",
+        "Limit what you do over public Wi-Fi",
+        "Back up your data"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What encourages checking for \"https\" before entering information on websites?",
+      "answer": "Practice safe surfing and shopping",
+      "choices": [
+        "Do not download pirated software",
+        "Use multifactor authentication",
+        "Practice safe surfing and shopping",
+        "Use a firewall"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What improves software protection by raising the default configuration?",
+      "answer": "Enable privacy settings",
+      "choices": [
+        "Enable privacy settings",
+        "Be selective when sharing info",
+        "Use a firewall",
+        "Limit what you do over public Wi-Fi"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What warns that careless disclosure of credentials may help hackers guess passwords?",
+      "answer": "Be selective when sharing personal information",
+      "choices": [
+        "Use a firewall",
+        "Practice safe surfing and shopping",
+        "Be selective when sharing personal information",
+        "Back up your data"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What avoids malware risks that come with illegal downloads?",
+      "answer": "Do not download pirated software",
+      "choices": [
+        "Use a firewall",
+        "Do not download pirated software",
+        "Limit what you do over public Wi-Fi",
+        "Enable privacy settings"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What helps you recover from ransomware attacks by storing your files safely?",
+      "answer": "Back up your data",
+      "choices": [
+        "Back up your data",
+        "Use multifactor authentication",
+        "Enable privacy settings",
+        "Be selective when sharing info"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are hackers that try to find weaknesses in systems as part of authorized testing?",
+      "answer": "White Hat Hackers",
+      "choices": [
+        "Black Hat Hackers",
+        "White Hat Hackers",
+        "Elite Hacker",
+        "Hacktivist"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of hacker never intends to harm a system and works within legal boundaries?",
+      "answer": "White Hat Hackers",
+      "choices": [
+        "Red Hat Hacker",
+        "White Hat Hackers",
+        "Script Kiddie",
+        "Gray Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are also known as “crackers” and hack systems with malicious intent?",
+      "answer": "Black Hat Hackers",
+      "choices": [
+        "Gray Hat Hackers",
+        "Script Kiddie",
+        "Black Hat Hackers",
+        "Blue Hat Hacker"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What group steals or destroys data, invades privacy, or disrupts systems?",
+      "answer": "Black Hat Hackers",
+      "choices": [
+        "Neophyte",
+        "White Hat Hackers",
+        "Black Hat Hackers",
+        "Hacktivist"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What hackers act without malicious intent but do not have permission to access systems?",
+      "answer": "Gray Hat Hackers",
+      "choices": [
+        "Hacktivist",
+        "Red Hat Hacker",
+        "Gray Hat Hackers",
+        "Script Kiddie"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What hackers report vulnerabilities after exploiting them without owner consent?",
+      "answer": "Gray Hat Hackers",
+      "choices": [
+        "Black Hat Hackers",
+        "Elite Hacker",
+        "Gray Hat Hackers",
+        "Blue Hat Hacker"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What term refers to hackers who are a mix of both black and white hat practices?",
+      "answer": "Gray Hat Hackers",
+      "choices": [
+        "Red Hat Hacker",
+        "Gray Hat Hackers",
+        "Script Kiddie",
+        "White Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are hackers that don't fit into the black/white/gray category and are grouped based on method or goal?",
+      "answer": "Miscellaneous Hackers",
+      "choices": [
+        "Red Hat Hacker",
+        "Script Kiddie",
+        "Miscellaneous Hackers",
+        "Gray Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of hacker attacks black hats and shuts down their systems using aggressive methods?",
+      "answer": "Red Hat Hacker",
+      "choices": [
+        "Hacktivist",
+        "Red Hat Hacker",
+        "Neophyte",
+        "White Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What group of hackers looks for bugs and tries to close them before launch?",
+      "answer": "Blue Hat Hacker",
+      "choices": [
+        "Script Kiddie",
+        "Blue Hat Hacker",
+        "Black Hat Hackers",
+        "Red Hat Hacker"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What describes the most highly skilled and respected hackers among peers?",
+      "answer": "Elite Hacker",
+      "choices": [
+        "Script Kiddie",
+        "Hacktivist",
+        "Elite Hacker",
+        "Gray Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What term refers to someone using pre-built tools without deep understanding of the system?",
+      "answer": "Script Kiddie",
+      "choices": [
+        "Elite Hacker",
+        "Neophyte",
+        "Script Kiddie",
+        "Hacktivist"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is used to describe someone new to hacking with no experience?",
+      "answer": "Neophyte",
+      "choices": [
+        "Hacktivist",
+        "White Hat Hacker",
+        "Neophyte",
+        "Blue Hat Hacker"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What label includes terms like “n00b,” “newbie,” and “Green Hat Hacker”?",
+      "answer": "Neophyte",
+      "choices": [
+        "Script Kiddie",
+        "Elite Hacker",
+        "Neophyte",
+        "Gray Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What hacker uses digital attacks to deliver social, political, or ideological messages?",
+      "answer": "Hacktivist",
+      "choices": [
+        "Neophyte",
+        "White Hat Hacker",
+        "Hacktivist",
+        "Red Hat Hacker"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of hacking usually involves denial-of-service or defacing websites?",
+      "answer": "Hacktivist",
+      "choices": [
+        "Script Kiddie",
+        "Blue Hat Hacker",
+        "Hacktivist",
+        "Gray Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What hacking skill includes guessing and cracking passwords?",
+      "answer": "Password guessing and cracking",
+      "choices": [
+        "Session hijacking",
+        "Network sniffing",
+        "Password guessing and cracking",
+        "SQL injection"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What hacking skill involves stealing active session tokens or credentials?",
+      "answer": "Session hijacking",
+      "choices": [
+        "SQL injection",
+        "Session hijacking",
+        "Privacy tampering",
+        "Encryption cracking"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a technique that targets networks to intercept data packets?",
+      "answer": "Network traffic sniffing",
+      "choices": [
+        "Data scraping",
+        "Packet jamming",
+        "Network traffic sniffing",
+        "Credential forging"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the hacking skill that inserts malicious SQL queries to exploit web apps?",
+      "answer": "Structured Query Language (SQL) injection",
+      "choices": [
+        "Buffer overflow",
+        "Malware obfuscation",
+        "Structured Query Language (SQL) injection",
+        "Memory scanning"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are categorized based on their intent when hacking a system?",
+      "answer": "Hackers",
+      "choices": [
+        "Developers",
+        "Hackers",
+        "Engineers",
+        "Designers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What uses old Spaghetti Western terms to label groups as \"black hat\" and \"white hat\"?",
+      "answer": "Hackers",
+      "choices": [
+        "Programmers",
+        "Hackers",
+        "Activists",
+        "Operators"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What group may try to help or harm systems depending on their hat classification?",
+      "answer": "Hackers",
+      "choices": [
+        "Engineers",
+        "Hackers",
+        "Consultants",
+        "Trainers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a person who finds weaknesses in systems to either exploit or report them?",
+      "answer": "Hackers",
+      "choices": [
+        "Hackers",
+        "Pen testers",
+        "Developers",
+        "Analysts"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What can be classified as white hat, black hat, gray hat, or miscellaneous based on intent and methods?",
+      "answer": "Hackers",
+      "choices": [
+        "Security protocols",
+        "Hackers",
+        "Malware types",
+        "Testers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a program that forces pre-chosen ads to display on a system?",
+      "answer": "Adware",
+      "choices": [
+        "Spyware",
+        "Spam",
+        "Adware",
+        "Malware"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is an action performed on a system to extract sensitive data?",
+      "answer": "Attack",
+      "choices": [
+        "Brute Force Attack",
+        "Exploit",
+        "Attack",
+        "Botnet"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is also known as 'trap door' and allows bypassing of login or password protections on a system?",
+      "answer": "Back Door",
+      "choices": [
+        "Rootkit",
+        "Trojan",
+        "Back Door",
+        "Buffer Overflow"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What automates an action so it can be done repeatedly at a higher rate than a human operator?",
+      "answer": "Bot",
+      "choices": [
+        "Exploit Kit",
+        "Bot",
+        "Spam",
+        "Master Program"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What sends HTTP, FTP, or Telnet requests at high speed or calls scripts to create objects quickly?",
+      "answer": "Bot",
+      "choices": [
+        "Botnet",
+        "Spyware",
+        "Bot",
+        "Script Kiddie"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a network of computers that forward transmissions like spam or viruses to others?",
+      "answer": "Botnet",
+      "choices": [
+        "DDoS",
+        "Firewall",
+        "Botnet",
+        "Phishing"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What uses multiple combinations of usernames and passwords to gain access to a system?",
+      "answer": "Brute Force Attack",
+      "choices": [
+        "Attack",
+        "Social Engineering",
+        "Brute Force Attack",
+        "Session Hijacking"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What occurs when data exceeds the boundaries of a buffer and overwrites adjacent memory?",
+      "answer": "Buffer Overflow",
+      "choices": [
+        "Virus",
+        "Buffer Overflow",
+        "Adware",
+        "SQL Injection"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What uses a legitimate email but changes the attachment or link to trick the recipient?",
+      "answer": "Clone Phishing",
+      "choices": [
+        "Spoofing",
+        "Clone Phishing",
+        "Phishing",
+        "Spam"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What removes copy protections or software restrictions, often for illegal use?",
+      "answer": "Cracker",
+      "choices": [
+        "Virus",
+        "Cracker",
+        "Trojan",
+        "Exploit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What prevents legitimate users from accessing systems by flooding them with traffic?",
+      "answer": "Denial-of-Service Attack (DoS)",
+      "choices": [
+        "Worm",
+        "Logic Bomb",
+        "Denial-of-Service Attack (DoS)",
+        "Botnet"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What launches a DoS attack using multiple computers?",
+      "answer": "DDoS",
+      "choices": [
+        "DoS",
+        "Botnet",
+        "DDoS",
+        "Exploit Kit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What locates and exploits security holes in web servers using bundled software tools?",
+      "answer": "Exploit Kit",
+      "choices": [
+        "SQL Injection",
+        "Exploit Kit",
+        "Logic Bomb",
+        "Malware"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a command or data sequence that takes advantage of a security flaw?",
+      "answer": "Exploit",
+      "choices": [
+        "Spoofing",
+        "Exploit",
+        "Trojan",
+        "Worm"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What prevents unauthorized access by filtering traffic based on rules?",
+      "answer": "Firewall",
+      "choices": [
+        "Exploit Kit",
+        "Firewall",
+        "Adware",
+        "Spyware"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What records the keys typed by a user to gather passwords and other private input?",
+      "answer": "Keystroke Logging",
+      "choices": [
+        "Malware",
+        "Spyware",
+        "Keystroke Logging",
+        "Trojan"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a program that activates a malicious action when certain conditions are met?",
+      "answer": "Logic Bomb",
+      "choices": [
+        "Virus",
+        "Logic Bomb",
+        "Script Kiddie",
+        "Worm"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What includes viruses, worms, spyware, and other intrusive software?",
+      "answer": "Malware",
+      "choices": [
+        "Exploit",
+        "Trojan",
+        "Malware",
+        "Adware"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a central controller that commands zombie drones?",
+      "answer": "Master Program",
+      "choices": [
+        "Botnet",
+        "Exploit Kit",
+        "Master Program",
+        "Cracker"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tricks users into giving up information by pretending to be legitimate email or websites?",
+      "answer": "Phishing",
+      "choices": [
+        "Phishing",
+        "Social Engineering",
+        "Clone Phishing",
+        "Keylogger"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What were early hackers that manipulated telephone systems?",
+      "answer": "Phreakers",
+      "choices": [
+        "Script Kiddie",
+        "Phreakers",
+        "Cracker",
+        "Social Engineers"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What hides itself within the system while giving unauthorized access?",
+      "answer": "Rootkit",
+      "choices": [
+        "Back Door",
+        "Rootkit",
+        "Exploit Kit",
+        "Firewall"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What refers to outdated or unused code that contains exploitable bugs?",
+      "answer": "Shrink Wrap Code",
+      "choices": [
+        "Worm",
+        "Shrink Wrap Code",
+        "Trojan",
+        "Exploit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What deceives people into revealing confidential information by impersonation or manipulation?",
+      "answer": "Social Engineering",
+      "choices": [
+        "Phishing",
+        "Social Engineering",
+        "Spoofing",
+        "Cracker"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What sends large quantities of unsolicited messages to disrupt or deceive?",
+      "answer": "Spam",
+      "choices": [
+        "Spam",
+        "Spyware",
+        "Spoofing",
+        "Virus"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What disguises data or identity to appear legitimate?",
+      "answer": "Spoofing",
+      "choices": [
+        "Phishing",
+        "Spoofing",
+        "Logic Bomb",
+        "Exploit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What collects private data like browsing habits without permission?",
+      "answer": "Spyware",
+      "choices": [
+        "Adware",
+        "Spyware",
+        "Malware",
+        "Rootkit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What inserts malicious code into SQL queries to alter database responses?",
+      "answer": "SQL Injection",
+      "choices": [
+        "SQL Injection",
+        "Exploit",
+        "Logic Bomb",
+        "Trojan"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a potential source of danger that may result in an attack?",
+      "answer": "Threat",
+      "choices": [
+        "Vulnerability",
+        "Threat",
+        "Virus",
+        "Spoofing"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is disguised as useful software but performs malicious functions once installed?",
+      "answer": "Trojan",
+      "choices": [
+        "Trojan",
+        "Shrink Wrap Code",
+        "Exploit Kit",
+        "Clone Phishing"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What attaches to clean files and spreads to other programs or files?",
+      "answer": "Virus",
+      "choices": [
+        "Worm",
+        "Virus",
+        "Trojan",
+        "Exploit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a weakness or flaw in a system that can be exploited?",
+      "answer": "Vulnerability",
+      "choices": [
+        "Vulnerability",
+        "Spoofing",
+        "Malware",
+        "Brute Force Attack"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What self-replicates and spreads across systems without host programs or human action?",
+      "answer": "Worms",
+      "choices": [
+        "Virus",
+        "Worms",
+        "Trojan",
+        "Logic Bomb"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What injects malicious JavaScript into webpages to hijack browser behavior?",
+      "answer": "Cross-site Scripting (XSS)",
+      "choices": [
+        "SQL Injection",
+        "Cross-site Scripting (XSS)",
+        "Exploit Kit",
+        "Spoofing"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a hijacked computer controlled by a master program for malicious tasks?",
+      "answer": "Zombie Drone",
+      "choices": [
+        "Botnet",
+        "Trojan",
+        "Zombie Drone",
+        "Exploit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase involves gathering information about a target using active or passive means?",
+      "answer": "Reconnaissance",
+      "choices": [
+        "Scanning",
+        "Reconnaissance",
+        "Gaining Access",
+        "Clearing Tracks"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tools are widely used in the first phase of a cybersecurity attack?",
+      "answer": "Reconnaissance",
+      "choices": [
+        "Reporting",
+        "Reconnaissance",
+        "Maintaining Access",
+        "Clearing Tracks"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase involves probing a target system or network for exploitable vulnerabilities?",
+      "answer": "Scanning",
+      "choices": [
+        "Gaining Access",
+        "Scanning",
+        "Reconnaissance",
+        "Reporting"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tools are mentioned in the scanning process to find vulnerabilities?",
+      "answer": "Scanning",
+      "choices": [
+        "Reporting",
+        "Scanning",
+        "Maintaining Access",
+        "Clearing Tracks"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase occurs after vulnerabilities are located and the attacker attempts to exploit them?",
+      "answer": "Gaining Access",
+      "choices": [
+        "Gaining Access",
+        "Reconnaissance",
+        "Clearing Tracks",
+        "Scanning"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the primary tool mentioned for gaining unauthorized access to a system?",
+      "answer": "Gaining Access",
+      "choices": [
+        "Reporting",
+        "Scanning",
+        "Gaining Access",
+        "Clearing Tracks"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase allows the hacker to re-enter the system after gaining access by installing backdoors?",
+      "answer": "Maintaining Access",
+      "choices": [
+        "Gaining Access",
+        "Maintaining Access",
+        "Reporting",
+        "Reconnaissance"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase prefers Metasploit for establishing persistent access to a compromised system?",
+      "answer": "Maintaining Access",
+      "choices": [
+        "Scanning",
+        "Clearing Tracks",
+        "Maintaining Access",
+        "Gaining Access"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase includes deleting logs and removing evidence of intrusion?",
+      "answer": "Clearing Tracks",
+      "choices": [
+        "Clearing Tracks",
+        "Gaining Access",
+        "Reporting",
+        "Reconnaissance"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is considered unethical and involves erasing traces of the hacking process?",
+      "answer": "Clearing Tracks",
+      "choices": [
+        "Scanning",
+        "Clearing Tracks",
+        "Reconnaissance",
+        "Reporting"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the final step where the ethical hacker summarizes the tools, vulnerabilities, and methods used?",
+      "answer": "Reporting",
+      "choices": [
+        "Reporting",
+        "Scanning",
+        "Reconnaissance",
+        "Maintaining Access"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase includes findings such as tools used, vulnerabilities found, and exploit processes?",
+      "answer": "Reporting",
+      "choices": [
+        "Gaining Access",
+        "Reporting",
+        "Scanning",
+        "Clearing Tracks"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is unwanted software that steals Internet usage data and personal info?",
+      "answer": "Spyware",
+      "choices": [
+        "Trojan",
+        "Spyware",
+        "Rootkit",
+        "Virus"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is classified as a type of malware designed to damage or access computers?",
+      "answer": "Spyware",
+      "choices": [
+        "Worm",
+        "Spoofing",
+        "Spyware",
+        "Spam"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What gathers personal info and relays it to advertisers or external users?",
+      "answer": "Spyware",
+      "choices": [
+        "Phishing",
+        "Botnet",
+        "Spyware",
+        "Adware"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What monitors activity, logs keystrokes, and tracks identity info?",
+      "answer": "Spyware",
+      "choices": [
+        "Spyware",
+        "SQL Injection",
+        "Adware",
+        "Logic Bomb"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is considered a threat to businesses and individuals due to its ability to steal and harm the network?",
+      "answer": "Spyware",
+      "choices": [
+        "Virus",
+        "Spyware",
+        "Phishing",
+        "Social Engineering"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What can install additional software and change system settings?",
+      "answer": "Spyware",
+      "choices": [
+        "Cracker",
+        "Spyware",
+        "Trojan",
+        "Shrink Wrap Code"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What should users always do to protect against spyware changing settings?",
+      "answer": "Spyware",
+      "choices": [
+        "Use secure passwords",
+        "Avoid VPNs",
+        "Spyware",
+        "Remove cookies"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What caused 978 million people in 20 countries to be affected by cybercrime in 2017?",
+      "answer": "Spyware",
+      "choices": [
+        "Botnet",
+        "Worms",
+        "Spyware",
+        "Logic Bomb"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What led to a global cybercrime loss of $172 billion?",
+      "answer": "Spyware",
+      "choices": [
+        "Adware",
+        "Spyware",
+        "Virus",
+        "Spoofing"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What caused 4,103 cybercrimes in the Philippines in 2018?",
+      "answer": "Spyware",
+      "choices": [
+        "SQL Injection",
+        "Spyware",
+        "Keystroke Logger",
+        "Spam"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is one way a computer can become infected by clicking something without reading it?",
+      "answer": "Accepting a prompt or pop-up without reading it first",
+      "choices": [
+        "Opening unknown emails",
+        "Using adblockers",
+        "Accepting a prompt or pop-up without reading it first",
+        "Installing firewalls"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What allows spyware to enter when downloaded from an untrusted origin?",
+      "answer": "Downloading software from an unreliable source",
+      "choices": [
+        "Rootkit",
+        "Downloading software from an unreliable source",
+        "Firewall bypass",
+        "Opening pop-ups"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What email behavior opens the door to spyware infections?",
+      "answer": "Opening e-mail attachments from unknown senders",
+      "choices": [
+        "Opening from contacts",
+        "Enabling scripts",
+        "Opening e-mail attachments from unknown senders",
+        "Marking as spam"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What behavior spreads spyware through music or game files?",
+      "answer": "Pirating media such as movies, music, or games",
+      "choices": [
+        "Media streaming",
+        "Pirating media such as movies, music, or games",
+        "File sharing with friends",
+        "Downloading movies"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What symptom occurs when spyware causes the system to crash or freeze?",
+      "answer": "The device is slow and crashes unexpectedly",
+      "choices": [
+        "System overheating",
+        "The device is slow and crashes unexpectedly",
+        "Monitor flickering",
+        "Shortcut errors"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What sign indicates a spyware infection is filling system memory?",
+      "answer": "The device is running out of hard drive space",
+      "choices": [
+        "Lagging during browsing",
+        "The device is running out of hard drive space",
+        "Low battery",
+        "Overloaded RAM"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What appears on-screen due to spyware, even when not browsing?",
+      "answer": "There are pop-ups when a user is online or offline",
+      "choices": [
+        "Pop-ups on login",
+        "There are pop-ups when a user is online or offline",
+        "Banner ads",
+        "System notifications"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a best practice to avoid spyware from unfamiliar email sources?",
+      "answer": "Do not open e-mails from unknown senders",
+      "choices": [
+        "Open and verify sender",
+        "Do not open e-mails from unknown senders",
+        "Delete spam",
+        "Use signature scan"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What prevents infection from untrusted files?",
+      "answer": "Do not download files from untrustworthy sources",
+      "choices": [
+        "Scan later",
+        "Do not download files from untrustworthy sources",
+        "Install registry cleaner",
+        "Use guest mode"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What helps avoid spyware embedded in popup ads?",
+      "answer": "Do not click on pop-up advertisements",
+      "choices": [
+        "Click if labeled secure",
+        "Do not click on pop-up advertisements",
+        "Bookmark link",
+        "Use incognito"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is recommended to help detect and remove spyware?",
+      "answer": "Use reputable antivirus software",
+      "choices": [
+        "Use VPN",
+        "Use reputable antivirus software",
+        "Refresh system",
+        "Avoid JavaScript"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of software can be used to prevent, scan, and remove spyware?",
+      "answer": "Use reputable antivirus software",
+      "choices": [
+        "Parental controls",
+        "Use reputable antivirus software",
+        "Ad blocker",
+        "Operating system updates"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is unwanted software designed to display advertisements on the screen?",
+      "answer": "Adware",
+      "choices": [
+        "Spyware",
+        "Adware",
+        "Malware",
+        "Trojan"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What often uses a web browser to deliver pop-ups or banners to users?",
+      "answer": "Adware",
+      "choices": [
+        "Phishing",
+        "Adware",
+        "Botnet",
+        "Rootkit"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is seen by some experts as the predecessor to modern PUPs (potentially unwanted programs)?",
+      "answer": "Adware",
+      "choices": [
+        "Exploit Kit",
+        "Adware",
+        "Logic Bomb",
+        "Worms"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tricks users by piggybacking on another program to get installed without them knowing?",
+      "answer": "Adware",
+      "choices": [
+        "Spyware",
+        "Adware",
+        "Trojan",
+        "Ransomware"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What symptom appears when advertisements show up in unexpected parts of the screen?",
+      "answer": "Advertisements appear in places they shouldn’t be",
+      "choices": [
+        "Browser crashes",
+        "Website redirecting",
+        "Advertisements appear in places they shouldn’t be",
+        "MAC installing software"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What happens when the homepage changes without user consent?",
+      "answer": "The Web browser’s homepage has mysteriously changed without the user’s permission",
+      "choices": [
+        "Web slowing down",
+        "Redirected links",
+        "The Web browser’s homepage has mysteriously changed without the user’s permission",
+        "New toolbars"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What condition occurs when websites you usually visit do not load properly?",
+      "answer": "The typically visited Web pages are not displaying properly",
+      "choices": [
+        "Adblocker removed",
+        "The typically visited Web pages are not displaying properly",
+        "Extensions appear",
+        "MAC starts installation"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What happens when links go to a different destination than expected?",
+      "answer": "Website links redirect to sites different from what is expected",
+      "choices": [
+        "Phishing ad",
+        "Website links redirect to sites different from what is expected",
+        "Browser crash",
+        "Spoofing behavior"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a sign of adware when your browser becomes extremely sluggish?",
+      "answer": "The Web browser slows to a crawl",
+      "choices": [
+        "Browser freeze",
+        "The Web browser slows to a crawl",
+        "Extension overload",
+        "Site spoofing"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What causes multiple add-ons to suddenly appear in your browser?",
+      "answer": "New toolbars, extensions, or plugins suddenly populate the browser",
+      "choices": [
+        "Website redirection",
+        "The typically visited Web pages are not displaying properly",
+        "New toolbars, extensions, or plugins suddenly populate the browser",
+        "Browser logs out"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What system behavior automatically installs software without user action?",
+      "answer": "MAC starts automatically installing unwanted software applications",
+      "choices": [
+        "MAC opens terminal",
+        "Software permissions changed",
+        "MAC starts automatically installing unwanted software applications",
+        "Browser resets"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a symptom when your browser stops functioning completely?",
+      "answer": "The browser crashes",
+      "choices": [
+        "The browser crashes",
+        "Website not loading",
+        "Extensions loading",
+        "Antivirus pop-up"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What infection method silently installs software through bundled freeware?",
+      "answer": "How Devices Get Adware",
+      "choices": [
+        "SQL Injection",
+        "How Devices Get Adware",
+        "Worm delivery",
+        "Script Kiddie"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tactic hides adware inside programs users believe are trusted or safe?",
+      "answer": "How Devices Get Adware",
+      "choices": [
+        "Spoofing",
+        "Logic Bomb",
+        "How Devices Get Adware",
+        "Rootkit attack"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What attack method redirects users to malicious websites and injects more ads into their session?",
+      "answer": "How Devices Get Adware",
+      "choices": [
+        "Botnet",
+        "Adware",
+        "How Devices Get Adware",
+        "Phishing hook"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What advice urges users to read software terms before installing especially free software?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "Virus removal",
+        "How to Prevent Adware",
+        "Registry cleaner",
+        "Safe mode settings"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What practice recommends quitting the installation if something appears suspicious?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "Firewall setup",
+        "How to Prevent Adware",
+        "Update browser manually",
+        "Network isolation"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What should be avoided to prevent bundled software and risky adware behavior?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "Do not use password managers",
+        "Avoid torrent sites",
+        "Avoid illegal downloads",
+        "How to Prevent Adware"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What step includes only running known software or apps from verified developers?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "Application sandbox",
+        "How to Prevent Adware",
+        "Disable scripting",
+        "Clear cache regularly"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What program type is recommended to scan for adware and prevent infections?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "Use VPN",
+        "How to Prevent Adware",
+        "Install reputable cybersecurity software",
+        "Block pop-ups"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What practice suggests scanning regularly to ensure no adware was missed during installation?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "How to Prevent Adware",
+        "Perform scans frequently",
+        "Malware tracker",
+        "Extension scanner"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is emphasized as essential to prevent adware using up-to-date protection?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "How to Prevent Adware",
+        "Use current definitions",
+        "Keep your updates up to date",
+        "Remove old extensions"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a type of malware that locks a user's data and demands payment?",
+      "answer": "Ransomware",
+      "choices": [
+        "Worm",
+        "Spyware",
+        "Ransomware",
+        "Rootkit"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What threatens users with harm by denying access to their own data?",
+      "answer": "Ransomware",
+      "choices": [
+        "Virus",
+        "Ransomware",
+        "Logic Bomb",
+        "Worm"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What provides instructions for paying to retrieve the decryption key?",
+      "answer": "Ransomware",
+      "choices": [
+        "Backdoor",
+        "Ransomware",
+        "Phishing Email",
+        "Exploit Kit"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What can demand payment ranging from a few hundred to thousands in Bitcoin?",
+      "answer": "Ransomware",
+      "choices": [
+        "Ransomware",
+        "Keylogger",
+        "SQL Injection",
+        "Worm"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of targets may be chosen because of smaller security teams and high file sharing?",
+      "answer": "Targets of Ransomware",
+      "choices": [
+        "Large enterprises",
+        "Targets of Ransomware",
+        "Public networks",
+        "Antivirus companies"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of institutions are targeted for needing quick access to sensitive data?",
+      "answer": "Targets of Ransomware",
+      "choices": [
+        "Malware research labs",
+        "Targets of Ransomware",
+        "ISP servers",
+        "Gaming systems"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What might pay more to keep a data breach quiet and are sensitive to leakware attacks?",
+      "answer": "Targets of Ransomware",
+      "choices": [
+        "Targets of Ransomware",
+        "Trojans",
+        "Phishing groups",
+        "Botnet"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What ensures there are fewer vulnerabilities for ransomware to exploit?",
+      "answer": "How to Prevent Ransomware",
+      "choices": [
+        "Disable JavaScript",
+        "How to Prevent Ransomware",
+        "Open VPN settings",
+        "Turn off UAC"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recommends patching and updating the operating system regularly?",
+      "answer": "How to Prevent Ransomware",
+      "choices": [
+        "Add RAM",
+        "How to Prevent Ransomware",
+        "Scan cookies",
+        "Update drivers"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What practice advises avoiding installation or giving admin access unless trusted?",
+      "answer": "How to Prevent Ransomware",
+      "choices": [
+        "Enable Bluetooth",
+        "How to Prevent Ransomware",
+        "Share credentials",
+        "Remove updates"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What uses antivirus software that detects ransomware on arrival?",
+      "answer": "How to Prevent Ransomware",
+      "choices": [
+        "Firewall only",
+        "How to Prevent Ransomware",
+        "Disable macros",
+        "Use ad blocker"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recommends backing up files frequently and automatically to reduce damage?",
+      "answer": "How to Prevent Ransomware",
+      "choices": [
+        "Use VPN",
+        "How to Prevent Ransomware",
+        "Manually update",
+        "Disconnect cloud"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is malware that spreads by replicating itself from a computer?",
+      "answer": "Computer worm",
+      "choices": [
+        "Trojan",
+        "Rootkit",
+        "Computer worm",
+        "Logic bomb"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What malware replicates without human action and doesn’t need a host program?",
+      "answer": "Computer worm",
+      "choices": [
+        "Adware",
+        "Computer worm",
+        "Virus",
+        "Script kiddie"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What symptom appears when worms take up storage with multiple replications?",
+      "answer": "How to Tell if the Computer Has a Worm",
+      "choices": [
+        "Backdoor behavior",
+        "How to Tell if the Computer Has a Worm",
+        "Phishing email",
+        "Worm alerts"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What symptom shows up when performance decreases due to worm infection?",
+      "answer": "How to Tell if the Computer Has a Worm",
+      "choices": [
+        "System freezing",
+        "How to Tell if the Computer Has a Worm",
+        "CPU overload",
+        "Fake logins"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What clue can be found when files disappear or are unexpectedly altered?",
+      "answer": "How to Tell if the Computer Has a Worm",
+      "choices": [
+        "Hidden partitions",
+        "How to Tell if the Computer Has a Worm",
+        "Search hijack",
+        "OS corruption"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase checks if operating system and applications are patched with the latest updates?",
+      "answer": "How to Prevent Computer Worms",
+      "choices": [
+        "Use guest account",
+        "How to Prevent Computer Worms",
+        "Clear cookies",
+        "Restart services"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What reminds users that updates contain security patches for software flaws?",
+      "answer": "How to Prevent Computer Worms",
+      "choices": [
+        "Install firewall",
+        "How to Prevent Computer Worms",
+        "Stop pop-ups",
+        "Delay reboot"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What mentions phishing as a major vector for worm distribution?",
+      "answer": "How to Prevent Computer Worms",
+      "choices": [
+        "Add DNS server",
+        "How to Prevent Computer Worms",
+        "Monitor disk usage",
+        "Enable Bluetooth"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What gives advice on not opening suspicious email attachments or unknown sources?",
+      "answer": "How to Prevent Computer Worms",
+      "choices": [
+        "Use QR code reader",
+        "How to Prevent Computer Worms",
+        "Reset password",
+        "Delay antivirus"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What promotes using strong internet security software that includes anti-phishing and anti-ransomware tech?",
+      "answer": "How to Prevent Computer Worms",
+      "choices": [
+        "Basic antivirus only",
+        "How to Prevent Computer Worms",
+        "Device manager",
+        "Run in safe mode"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What should defend against threats like spyware, ransomware, worms, and other online dangers?",
+      "answer": "How to Prevent Computer Worms",
+      "choices": [
+        "Parental control",
+        "How to Prevent Computer Worms",
+        "Clear browser cache",
+        "Temporary profile"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a type of malicious software that looks legitimate but takes control of a system?",
+      "answer": "Trojan horse",
+      "choices": [
+        "Worm",
+        "Trojan horse",
+        "Virus",
+        "Spyware"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is designed to damage, disrupt, steal, or harm a computer or network?",
+      "answer": "Trojan",
+      "choices": [
+        "Trojan",
+        "Keylogger",
+        "Virus",
+        "Worm"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What disguises itself as a legitimate application or file to trick users?",
+      "answer": "Trojan",
+      "choices": [
+        "Exploit kit",
+        "Trojan",
+        "Rootkit",
+        "Spam"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What executes a specific malicious function after being installed?",
+      "answer": "Trojan",
+      "choices": [
+        "Trojan",
+        "Logic bomb",
+        "Virus",
+        "SQL injection"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a first step to security involving installing and running internet security software?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Remove USB",
+        "How to Prevent Trojans",
+        "Password reuse",
+        "Disable firewall"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What uses scheduled scans during regular intervals to detect trojans?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "File backups",
+        "How to Prevent Trojans",
+        "Manual uninstall",
+        "Email sync"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What prevents Trojan exploitation by ensuring software is current?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Change MAC address",
+        "How to Prevent Trojans",
+        "Remove adware",
+        "User profile"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What requires checking for updates not only in OS but other installed software?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Clean DNS",
+        "How to Prevent Trojans",
+        "Pop-up blocker",
+        "Browser refresh"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What involves creating strong, unique passwords per account with symbols, letters, and numbers?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Install new plugin",
+        "How to Prevent Trojans",
+        "Disable firewall",
+        "Enable Java"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What makes it harder for trojans to access data by hiding personal information?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Clear cache",
+        "Block notifications",
+        "How to Prevent Trojans",
+        "View DNS log"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What helps restore data if trojan damage occurs?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Trojan backup",
+        "File synchronizer",
+        "How to Prevent Trojans",
+        "Browser cookie clear"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What reduces risk of trojans delivered via email attachments?",
+      "answer": "How to Prevent Trojans",
+      "choices": [
+        "Disable Wi-Fi",
+        "How to Prevent Trojans",
+        "Open PDFs",
+        "Remove add-ons"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What bypasses normal authentication procedures to access systems or data?",
+      "answer": "Backdoor",
+      "choices": [
+        "Keylogger",
+        "Trojan",
+        "Backdoor",
+        "Virus"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What gives unauthorized users the ability to remotely update or control systems?",
+      "answer": "Backdoor",
+      "choices": [
+        "Exploit kit",
+        "Logic bomb",
+        "Backdoor",
+        "Brute force attack"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is used by attackers to exploit vulnerabilities in applications or websites?",
+      "answer": "Backdoor",
+      "choices": [
+        "SQL Injection",
+        "Backdoor",
+        "Spam",
+        "Proxy tool"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What makes detecting a backdoor difficult after installation?",
+      "answer": "Backdoor",
+      "choices": [
+        "Trojan",
+        "Keylogger",
+        "Backdoor",
+        "Spoofing"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is used to steal personal or sensitive data once access is gained?",
+      "answer": "Data theft",
+      "choices": [
+        "Malware loggers",
+        "Data theft",
+        "MAC address capture",
+        "DNS redirection"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a malicious activity that involves changing a website's content?",
+      "answer": "Website defacing",
+      "choices": [
+        "Buffer overflow",
+        "Website defacing",
+        "Rootkit injection",
+        "Script attack"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What involves unauthorized control of a server’s configuration or traffic?",
+      "answer": "Server hijacking",
+      "choices": [
+        "Spoofing",
+        "Server hijacking",
+        "Packet sniffing",
+        "Session hijacking"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What overloads a system to prevent legitimate access to services?",
+      "answer": "Distributed Denial-of-Service attacks",
+      "choices": [
+        "Spam trap",
+        "Distributed Denial-of-Service attacks",
+        "Port scanning",
+        "SQL injection"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tactic redirects unsuspecting visitors to malware-infected pages?",
+      "answer": "Infecting website visitors",
+      "choices": [
+        "DNS hijacking",
+        "Infecting website visitors",
+        "Worm"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a stealthy, long-term attack that can be embedded into backdoors?",
+      "answer": "Advanced persistent threat",
+      "choices": [
+        "Logic bomb",
+        "Advanced persistent threat",
+        "Shrink wrap code",
+        "Social engineering"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What prevents unauthorized entry by changing weak or default credentials?",
+      "answer": "Change your default passwords",
+      "choices": [
+        "Keep pop-ups",
+        "Change your default passwords",
+        "Disable Bluetooth",
+        "File format limit"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What monitors for unusual spikes or behaviors to identify potential backdoors?",
+      "answer": "Monitor network activity",
+      "choices": [
+        "MAC filtering",
+        "Monitor network activity",
+        "Close apps",
+        "Force restart"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What makes it safer to install only verified apps and avoid malicious plugins?",
+      "answer": "Choose applications and plugins carefully",
+      "choices": [
+        "Accept all cookies",
+        "Choose applications and plugins carefully",
+        "Enable NFC",
+        "Set FTP limit"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What blocks malicious commands used to open backdoors and prevents trojans and rootkits?",
+      "answer": "Use a good cybersecurity solution",
+      "choices": [
+        "DNS flush",
+        "Use a good cybersecurity solution",
+        "Install Java",
+        "Port mirroring"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What software solution works across devices like Windows, Mac, and Chromebook?",
+      "answer": "Use a good cybersecurity solution",
+      "choices": [
+        "VPN services",
+        "Use a good cybersecurity solution",
+        "Email syncing",
+        "Mobile hotspot"
+      ],
+      "reference": "Trojan Horses and Backdoors",
+      "term": "Pre-finals"
+    }
+  ]
+}
