@@ -757,30 +757,6 @@
       "term": "Pre-Finals"
     },
     {
-      "question": "What variable is declared to contain the calculated result in the sample above?",
-      "answer": "result",
-      "choices": [
-        "result",
-        "sum",
-        "return",
-        "average"
-      ],
-      "reference": "06 Handout 1",
-      "term": "Pre-Finals"
-    },
-    {
-      "question": "What is used to store the result that will be returned in the sample above?",
-      "answer": "result",
-      "choices": [
-        "total",
-        "function",
-        "result",
-        "output"
-      ],
-      "reference": "06 Handout 1",
-      "term": "Pre-Finals"
-    },
-    {
       "question": "What is only usable inside its corresponding function block?",
       "answer": "local variable",
       "choices": [
