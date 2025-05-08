@@ -472,6 +472,17 @@
                             ],
                             "Subfolder_LastModified": "09 May 2025",
                             "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_IAS_Prefinals_7",
+                            "Subfolder_Name": "06 Handout 1 - Adware",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Prefinals_7",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "09 May 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }

@@ -1,0 +1,280 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Prefinals",
+    "Title": "06 Handout 1 - Adware",
+    "LastModified": "08 May 2025",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "06 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is unwanted software designed to display advertisements on the screen?",
+      "answer": "Adware",
+      "choices": [
+        "Spyware",
+        "Adware",
+        "Malware",
+        "Trojan"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What often uses a web browser to deliver pop-ups or banners to users?",
+      "answer": "Adware",
+      "choices": [
+        "Phishing",
+        "Adware",
+        "Botnet",
+        "Rootkit"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is seen by some experts as the predecessor to modern PUPs (potentially unwanted programs)?",
+      "answer": "Adware",
+      "choices": [
+        "Exploit Kit",
+        "Adware",
+        "Logic Bomb",
+        "Worms"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tricks users by piggybacking on another program to get installed without them knowing?",
+      "answer": "Adware",
+      "choices": [
+        "Spyware",
+        "Adware",
+        "Trojan",
+        "Ransomware"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What symptom appears when advertisements show up in unexpected parts of the screen?",
+      "answer": "Advertisements appear in places they shouldn’t be",
+      "choices": [
+        "Browser crashes",
+        "Website redirecting",
+        "Advertisements appear in places they shouldn’t be",
+        "MAC installing software"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What happens when the homepage changes without user consent?",
+      "answer": "The Web browser’s homepage has mysteriously changed without the user’s permission",
+      "choices": [
+        "Web slowing down",
+        "Redirected links",
+        "The Web browser’s homepage has mysteriously changed without the user’s permission",
+        "New toolbars"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What condition occurs when websites you usually visit do not load properly?",
+      "answer": "The typically visited Web pages are not displaying properly",
+      "choices": [
+        "Adblocker removed",
+        "The typically visited Web pages are not displaying properly",
+        "Extensions appear",
+        "MAC starts installation"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What happens when links go to a different destination than expected?",
+      "answer": "Website links redirect to sites different from what is expected",
+      "choices": [
+        "Phishing ad",
+        "Website links redirect to sites different from what is expected",
+        "Browser crash",
+        "Spoofing behavior"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a sign of adware when your browser becomes extremely sluggish?",
+      "answer": "The Web browser slows to a crawl",
+      "choices": [
+        "Browser freeze",
+        "The Web browser slows to a crawl",
+        "Extension overload",
+        "Site spoofing"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What causes multiple add-ons to suddenly appear in your browser?",
+      "answer": "New toolbars, extensions, or plugins suddenly populate the browser",
+      "choices": [
+        "Website redirection",
+        "The typically visited Web pages are not displaying properly",
+        "New toolbars, extensions, or plugins suddenly populate the browser",
+        "Browser logs out"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What system behavior automatically installs software without user action?",
+      "answer": "MAC starts automatically installing unwanted software applications",
+      "choices": [
+        "MAC opens terminal",
+        "Software permissions changed",
+        "MAC starts automatically installing unwanted software applications",
+        "Browser resets"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a symptom when your browser stops functioning completely?",
+      "answer": "The browser crashes",
+      "choices": [
+        "The browser crashes",
+        "Website not loading",
+        "Extensions loading",
+        "Antivirus pop-up"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What infection method silently installs software through bundled freeware?",
+      "answer": "How Devices Get Adware",
+      "choices": [
+        "SQL Injection",
+        "How Devices Get Adware",
+        "Worm delivery",
+        "Script Kiddie"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tactic hides adware inside programs users believe are trusted or safe?",
+      "answer": "How Devices Get Adware",
+      "choices": [
+        "Spoofing",
+        "Logic Bomb",
+        "How Devices Get Adware",
+        "Rootkit attack"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What attack method redirects users to malicious websites and injects more ads into their session?",
+      "answer": "How Devices Get Adware",
+      "choices": [
+        "Botnet",
+        "Adware",
+        "How Devices Get Adware",
+        "Phishing hook"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What advice urges users to read software terms before installing especially free software?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "Virus removal",
+        "How to Prevent Adware",
+        "Registry cleaner",
+        "Safe mode settings"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What practice recommends quitting the installation if something appears suspicious?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "Firewall setup",
+        "How to Prevent Adware",
+        "Update browser manually",
+        "Network isolation"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What should be avoided to prevent bundled software and risky adware behavior?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "Do not use password managers",
+        "Avoid torrent sites",
+        "Avoid illegal downloads",
+        "How to Prevent Adware"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What step includes only running known software or apps from verified developers?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "Application sandbox",
+        "How to Prevent Adware",
+        "Disable scripting",
+        "Clear cache regularly"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What program type is recommended to scan for adware and prevent infections?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "Use VPN",
+        "How to Prevent Adware",
+        "Install reputable cybersecurity software",
+        "Block pop-ups"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What practice suggests scanning regularly to ensure no adware was missed during installation?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "How Devices Get Adware",
+        "Perform scans frequently",
+        "Malware tracker",
+        "Extension scanner"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is emphasized as essential to prevent adware using up-to-date protection?",
+      "answer": "How to Prevent Adware",
+      "choices": [
+        "Disable Bluetooth",
+        "Use current definitions",
+        "Keep your updates up to date",
+        "Remove old extensions"
+      ],
+      "reference": "Adware",
+      "term": "Pre-finals"
+    }
+  ]
+}
