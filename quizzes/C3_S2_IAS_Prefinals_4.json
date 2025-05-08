@@ -1,0 +1,160 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Prefinals",
+    "Title": "05 Handout 1- Phases of Cybersecurity Attacks",
+    "LastModified": "08 May 2025",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What phase involves gathering information about a target using active or passive means?",
+      "answer": "Reconnaissance",
+      "choices": [
+        "Scanning",
+        "Reconnaissance",
+        "Gaining Access",
+        "Clearing Tracks"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tools are widely used in the first phase of a cybersecurity attack?",
+      "answer": "Reconnaissance",
+      "choices": [
+        "Reporting",
+        "Reconnaissance",
+        "Maintaining Access",
+        "Clearing Tracks"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase involves probing a target system or network for exploitable vulnerabilities?",
+      "answer": "Scanning",
+      "choices": [
+        "Gaining Access",
+        "Scanning",
+        "Reconnaissance",
+        "Reporting"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tools are mentioned in the scanning process to find vulnerabilities?",
+      "answer": "Scanning",
+      "choices": [
+        "Reporting",
+        "Scanning",
+        "Maintaining Access",
+        "Clearing Tracks"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase occurs after vulnerabilities are located and the attacker attempts to exploit them?",
+      "answer": "Gaining Access",
+      "choices": [
+        "Gaining Access",
+        "Reconnaissance",
+        "Clearing Tracks",
+        "Scanning"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the primary tool mentioned for gaining unauthorized access to a system?",
+      "answer": "Gaining Access",
+      "choices": [
+        "Reporting",
+        "Scanning",
+        "Gaining Access",
+        "Clearing Tracks"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase allows the hacker to re-enter the system after gaining access by installing backdoors?",
+      "answer": "Maintaining Access",
+      "choices": [
+        "Gaining Access",
+        "Maintaining Access",
+        "Reporting",
+        "Reconnaissance"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase prefers Metasploit for establishing persistent access to a compromised system?",
+      "answer": "Maintaining Access",
+      "choices": [
+        "Scanning",
+        "Clearing Tracks",
+        "Maintaining Access",
+        "Gaining Access"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase includes deleting logs and removing evidence of intrusion?",
+      "answer": "Clearing Tracks",
+      "choices": [
+        "Clearing Tracks",
+        "Gaining Access",
+        "Reporting",
+        "Reconnaissance"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is considered unethical and involves erasing traces of the hacking process?",
+      "answer": "Clearing Tracks",
+      "choices": [
+        "Scanning",
+        "Clearing Tracks",
+        "Reconnaissance",
+        "Reporting"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the final step where the ethical hacker summarizes the tools, vulnerabilities, and methods used?",
+      "answer": "Reporting",
+      "choices": [
+        "Reporting",
+        "Scanning",
+        "Reconnaissance",
+        "Maintaining Access"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase includes findings such as tools used, vulnerabilities found, and exploit processes?",
+      "answer": "Reporting",
+      "choices": [
+        "Gaining Access",
+        "Reporting",
+        "Scanning",
+        "Clearing Tracks"
+      ],
+      "reference": "Phases of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    }
+  ]
+}
