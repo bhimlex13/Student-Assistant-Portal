@@ -805,18 +805,6 @@
       "term": "Pre-Finals"
     },
     {
-      "question": "What variable is only used to temporarily store the value to be returned?",
-      "answer": "result",
-      "choices": [
-        "result",
-        "meanTemp",
-        "sum",
-        "total"
-      ],
-      "reference": "06 Handout 1",
-      "term": "Pre-Finals"
-    },
-    {
       "question": "What are names separated by commas, placed inside the parenthesis after the function name?",
       "answer": "parameters",
       "choices": [
