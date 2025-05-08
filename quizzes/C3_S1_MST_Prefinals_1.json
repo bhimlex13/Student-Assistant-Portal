@@ -1,0 +1,448 @@
+{
+  "quizInfo": {
+    "Subject": "Mobile Systems and Technologies",
+    "Term": "Prefinals",
+    "Title": "05 Handout 1 - User Interactions",
+    "LastModified": "08 May 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What involves tapping, typing, using gestures, or talking in mobile apps?",
+      "answer": "Input Controls",
+      "choices": [
+        "Input Controls",
+        "Touch Gesture",
+        "Text Field",
+        "Action Button"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are used in the app’s UI to accept data input from the user?",
+      "answer": "Input Controls",
+      "choices": [
+        "Clickable Images",
+        "EditText",
+        "Input Controls",
+        "Button"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a rectangle or rounded rectangle with a caption or icon in its center?",
+      "answer": "button",
+      "choices": [
+        "imageView",
+        "button",
+        "textField",
+        "layout"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What element can have only text, only icon, or both in Android XML?",
+      "answer": "button",
+      "choices": [
+        "flat button",
+        "imageView",
+        "button",
+        "gesture"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What Android element includes android:src with a drawable to show only an icon?",
+      "answer": "ImageButton",
+      "choices": [
+        "ImageView",
+        "EditText",
+        "ImageButton",
+        "iconDrawable"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What shows an image and adds functionality when android:onClick is added?",
+      "answer": "ImageView",
+      "choices": [
+        "ImageButton",
+        "drawableLeft",
+        "ImageView",
+        "FAB"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What must be used as the image file location to work with an ImageView?",
+      "answer": "app > src > main > res > drawable",
+      "choices": [
+        "res > layout",
+        "drawable > src",
+        "app > src > main > res > drawable",
+        "xml > assets"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a circular button that appears to float above the layout?",
+      "answer": "floating action button",
+      "choices": [
+        "imageView",
+        "floating action button",
+        "edit field",
+        "layoutGroup"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What element includes android.support.design.widget.FloatingActionButton in its declaration?",
+      "answer": "floating action button",
+      "choices": [
+        "floating action button",
+        "input control",
+        "icon drawable",
+        "text field"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What happens when a user places fingers on the touchscreen to perform a recognized pattern?",
+      "answer": "touch gesture",
+      "choices": [
+        "click input",
+        "touch gesture",
+        "tap listener",
+        "layout click"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are the three visual states of a button element?",
+      "answer": "normal, disabled, pressed",
+      "choices": [
+        "idle, active, visible",
+        "normal, disabled, pressed",
+        "pressed, hidden, faded",
+        "up, down, lock"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What button appears lifted from the screen with shading?",
+      "answer": "raised button",
+      "choices": [
+        "flat button",
+        "raised button",
+        "icon button",
+        "default button"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What button looks flat and has no shadow, used as a text-only option?",
+      "answer": "flat button",
+      "choices": [
+        "raised button",
+        "flat button",
+        "pressable button",
+        "null view"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What field is used for entering and modifying text in Android apps?",
+      "answer": "EditText",
+      "choices": [
+        "EditText",
+        "TextField",
+        "IconButton",
+        "ViewControl"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is used for selecting one or more options in Android UI?",
+      "answer": "check box",
+      "choices": [
+        "radio button",
+        "spinner",
+        "check box",
+        "switch"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What restricts the user to select only one option from a set?",
+      "answer": "radio button",
+      "choices": [
+        "check box",
+        "spinner",
+        "radio button",
+        "toggle button"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What drop-down menu allows only one item to be selected at a time?",
+      "answer": "spinner",
+      "choices": [
+        "switch",
+        "check box",
+        "spinner",
+        "toggle button"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What uses android:entries=\"@array/language_array\" to populate items?",
+      "answer": "spinner",
+      "choices": [
+        "string",
+        "spinner",
+        "dropper",
+        "menuSelector"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What code retrieves the selected value from a drop-down list in String format?",
+      "answer": "String text = mySpinner.getSelectedItem().toString();",
+      "choices": [
+        "int status = mySeekBar.getProgress();",
+        "onRadioButtonClicked()",
+        "setOnClickListener",
+        "String text = mySpinner.getSelectedItem().toString();"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What widget lets the user change a setting between two states?",
+      "answer": "toggle button",
+      "choices": [
+        "radio button",
+        "switch",
+        "toggle button",
+        "alert button"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a type of toggle control that uses a slider and is available for Android 4.0+?",
+      "answer": "switch",
+      "choices": [
+        "spinner",
+        "SeekBar",
+        "toggle button",
+        "switch"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What control is dragged left or right to indicate progress?",
+      "answer": "SeekBar",
+      "choices": [
+        "switch",
+        "SeekBar",
+        "slider",
+        "listView"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What line of code gets the value of a progress bar in an integer format?",
+      "answer": "int status = mySeekBar.getProgress();",
+      "choices": [
+        "int value = 100;",
+        "int status = mySeekBar.getProgress();",
+        "String getProgress();",
+        "float status = getValue();"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What input type is used to visually show and store progress levels?",
+      "answer": "SeekBar",
+      "choices": [
+        "toggle button",
+        "SeekBar",
+        "radio button",
+        "drop-down bar"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What occurs when the user interacts with an input control or item in the UI?",
+      "answer": "event",
+      "choices": [
+        "gesture",
+        "function",
+        "input",
+        "event"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is an interface in the View class that contains a single callback method?",
+      "answer": "event listener",
+      "choices": [
+        "callback",
+        "View class",
+        "event listener",
+        "motion gesture"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What will be triggered when the View to which the listener is registered is interacted with?",
+      "answer": "event listener",
+      "choices": [
+        "sensor manager",
+        "method override",
+        "event listener",
+        "event output"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the method called when a user either touches or focuses on a view?",
+      "answer": "onClick",
+      "choices": [
+        "onKey",
+        "onTouch",
+        "onClick",
+        "onLongClick"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What interface is associated with the method used when a user taps or focuses on an item?",
+      "answer": "OnClickListener",
+      "choices": [
+        "OnTouchListener",
+        "OnClickListener",
+        "ViewListener",
+        "EventListener"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is called when the user touches or focuses on a view for a second?",
+      "answer": "onLongClick",
+      "choices": [
+        "onClick",
+        "onLongClick",
+        "onKey",
+        "onTouch"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What interface supports the method triggered when the user touches or focuses on a view for a second?",
+      "answer": "OnLongClickListener",
+      "choices": [
+        "OnTouchListener",
+        "OnClickListener",
+        "OnLongClickListener",
+        "ViewHandler"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What method responds when a user presses or releases a hardware key?",
+      "answer": "onKey",
+      "choices": [
+        "onClick",
+        "onTouch",
+        "onKey",
+        "onLongClick"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What interface is associated with detecting hardware key presses?",
+      "answer": "OnKeyListener",
+      "choices": [
+        "KeyDetector",
+        "OnKeyListener",
+        "InputListener",
+        "KeyEventManager"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is triggered when a user performs any action qualified as a touch event?",
+      "answer": "onTouch",
+      "choices": [
+        "onLongClick",
+        "onTouch",
+        "onClick",
+        "onSwipe"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What interface is used for handling touch events including press, release, and gestures?",
+      "answer": "OnTouchListener",
+      "choices": [
+        "OnClickListener",
+        "OnTouchListener",
+        "InputHandler",
+        "ViewManager"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What two callback methods are commonly used by input controls?",
+      "answer": "onClick() and onTouch()",
+      "choices": [
+        "onClick() and onKey()",
+        "onTouch() and onLongClick()",
+        "onClick() and onTouch()",
+        "onLongClick() and onKey()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    }
+  ]
+}
