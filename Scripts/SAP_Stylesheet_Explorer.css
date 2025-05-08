@@ -115,3 +115,21 @@
     font-weight: 400;
     font-size: 15px;
 }
+
+.Explorer_Item_Details_Text[Tertiary]{
+    font-family: var(--Text-Font-Primary);
+    margin: 0;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+    opacity: 50%;
+}
+
+.Explorer_Item_Details_Text[Quartenary]{
+    font-family: var(--Text-Font-Primary);
+    margin: 0;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: right;
+    opacity: 50%;
+}

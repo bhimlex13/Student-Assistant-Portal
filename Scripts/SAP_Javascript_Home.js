@@ -237,13 +237,14 @@ function Quizzes_Explorer_Load_Quizzes(Item, Module){
         Element_Attribute_Set("Quizzes_Explorer", "Level", "3");
         for (a = 0; a < Quizzes_Manifest.Subject[Item].Subject_Module[Module].Module_Subfolders.length; a++){
             let Object = Quizzes_Manifest.Subject[Item].Subject_Module[Module].Module_Subfolders[a];
+            console.log(Data_Import_FromPath(`quizzes/${Object.Subfolder_ID}.json`, "JSON").quizData.length)
             if (Object.Subfolder_Status == "Active"){
                 if (Quizzes_Explorer_Mode == "Outliner"){
                     console.log(Object.Subfolder_ID);
-                    Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, null, `QO_Quiz_Load('${Object.Subfolder_ID}')`);
+                    Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, null, `QO_Quiz_Load('${Object.Subfolder_ID}')`, `${Data_Import_FromPath(`quizzes/${Object.Subfolder_ID}.json`, "JSON").quizData.length} items`, Object.Subfolder_Author[0]);
                     console.log("Outliner");
                 } else {
-                    Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, Object.Subfolder_Link, null);
+                    Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, Object.Subfolder_Link, null, `${Data_Import_FromPath(`quizzes/${Object.Subfolder_ID}.json`, "JSON").quizData.length} items`, Object.Subfolder_Author[0]);
                 }
                 
                 Explorer_Status_Evaluator++;
@@ -316,7 +317,8 @@ function Explorer_Container_ChangeType(Container_Type){
 }
 
 // Generate an explorer item
-function Explorer_Item_Create(Item_ID, Item_Title, Item_Subtitle, Item_Thumbnail, Item_Link, Item_Onclick){
+function Explorer_Item_Create(Item_ID, Item_Title, Item_Subtitle, Item_Thumbnail, Item_Link, Item_Onclick, Item_QuestionCount, Item_Author){
+    console.log(Item_QuestionCount);
     if(Element_Attribute_Get("Quizzes_Explorer", "Type") == "Image"){
         var Item_Element_InnerHTML;
         if(Item_Subtitle != null){
@@ -355,16 +357,36 @@ function Explorer_Item_Create(Item_ID, Item_Title, Item_Subtitle, Item_Thumbnail
         document.getElementById("Quizzes_Explorer").appendChild(Item_Element);
     }
     if(Element_Attribute_Get("Quizzes_Explorer", "Type") == "Text"){
-        var Item_Element_InnerHTML = `
-            <div class="Explorer_Item_Details">
-                <h3 class="Explorer_Item_Details_Text" Primary>
-                    ${Item_Title}
-                </h3>
-                <h3 class="Explorer_Item_Details_Text" Secondary>
-                    ${Item_Subtitle}
-                </h3>
-            </div>
-        `;
+        var Item_Element_InnerHTML;
+        if(Item_QuestionCount != null && Item_Author != null){
+            Item_Element_InnerHTML = `
+                <div class="Explorer_Item_Details">
+                    <h3 class="Explorer_Item_Details_Text" Primary>
+                        ${Item_Title}
+                    </h3>
+                    <h3 class="Explorer_Item_Details_Text" Secondary>
+                        ${Item_Subtitle}
+                    </h3>
+                    <h3 class="Explorer_Item_Details_Text" Tertiary>
+                        ${Item_QuestionCount}
+                    </h3>
+                    <h3 class="Explorer_Item_Details_Text" Quartenary>
+                        by ${Item_Author}
+                    </h3>
+                </div>
+            `;
+        } else {
+            Item_Element_InnerHTML = `
+                <div class="Explorer_Item_Details">
+                    <h3 class="Explorer_Item_Details_Text" Primary>
+                        ${Item_Title}
+                    </h3>
+                    <h3 class="Explorer_Item_Details_Text" Secondary>
+                        ${Item_Subtitle}
+                    </h3>
+                </div>
+            `;
+        }
         var Item_Element = document.createElement('button');
         Item_Element.innerHTML = Item_Element_InnerHTML;
         Item_Element.setAttribute('id', Item_ID);
