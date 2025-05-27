@@ -8,7 +8,7 @@
             "Section_Name": "IT601-A",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "May 7 | Wednesday",
+                    "Schedule_Day": "June 3 | Tuesday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Management Information Systems",
@@ -23,7 +23,7 @@
                     ]
                 },
                 {
-                    "Schedule_Day": "May 8 | Thursday",
+                    "Schedule_Day": "June 4 | Wednesday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Web Systems and Technologies",
@@ -38,7 +38,7 @@
                     ]
                 },
                 {
-                    "Schedule_Day": "May 9 | Friday",
+                    "Schedule_Day": "June 5 | Thursday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Mobile Systems and Technologies",
@@ -60,7 +60,7 @@
             "Section_Name": "IT601-M",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "May 7 | Wednesday",
+                    "Schedule_Day": "June 3 | Tuesday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Management Information Systems",
@@ -75,7 +75,7 @@
                     ]
                 },
                 {
-                    "Schedule_Day": "May 8 | Thursday",
+                    "Schedule_Day": "June 4 | Wednesday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Web Systems and Technologies",
@@ -90,7 +90,7 @@
                     ]
                 },
                 {
-                    "Schedule_Day": "May 9 | Friday",
+                    "Schedule_Day": "June 5 | Thursday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Mobile Systems and Technologies",
@@ -112,7 +112,7 @@
             "Section_Name": "IT601-P",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "May 9 | Friday",
+                    "Schedule_Day": "June 3 | Tuesday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Management Information Systems",
@@ -127,7 +127,7 @@
                     ]
                 },
                 {
-                    "Schedule_Day": "May 8 | Thursday",
+                    "Schedule_Day": "June 4 | Wednesday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Web Systems and Technologies",
@@ -142,7 +142,7 @@
                     ]
                 },
                 {
-                    "Schedule_Day": "May 9 | Friday",
+                    "Schedule_Day": "June 5 | Thursday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Mobile Systems and Technologies",
