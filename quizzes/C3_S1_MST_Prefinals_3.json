@@ -34,7 +34,7 @@
         "bitmap manager"
       ],
       "reference": "06 Handout 1",
-      "term": "Pre-finals"
+      "term": "Pre-Rfinals"
     },
     {
       "question": "What is a modern image format developed by Google for lossless and lossy compression?",
@@ -176,18 +176,6 @@
         "android:background",
         "android:theme=\"@style/AppTheme\"",
         "android:font"
-      ],
-      "reference": "06 Handout 1",
-      "term": "Pre-finals"
-    },
-    {
-      "question": "What attribute is used to apply a theme inside an <activity> tag in the manifest?",
-      "answer": "<activity android:theme=\"@android:style/Theme.Dialog\">",
-      "choices": [
-        "<layout theme>",
-        "<style id>",
-        "<activity android:theme=\"@android:style/Theme.Dialog\">",
-        "<screen layout>"
       ],
       "reference": "06 Handout 1",
       "term": "Pre-finals"
