@@ -4,7 +4,7 @@ let Onload_Requirements = {
     // Set to false if you want the splash to open every load of the page
     Splash_OpenOncePerSession: true,
     // Increment this on any major changes in the system so the WhatsNew window will open
-    Version: 2
+    Version: 3
 }
 
 var Quizzes_Explorer_Mode = "Home";
@@ -244,7 +244,7 @@ function Quizzes_Explorer_Load_Quizzes(Item, Module){
                     Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, null, `QO_Quiz_Load('${Object.Subfolder_ID}')`, `${Data_Import_FromPath(`quizzes/${Object.Subfolder_ID}.json`, "JSON").quizData.length} items`, Object.Subfolder_Author[0]);
                     console.log("Outliner");
                 } else {
-                    Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, Object.Subfolder_Link, null, `${Data_Import_FromPath(`quizzes/${Object.Subfolder_ID}.json`, "JSON").quizData.length} items`, Object.Subfolder_Author[0]);
+                    Explorer_Item_Create(Object.Subfolder_ID, Object.Subfolder_Name, Object.Subfolder_LastModified, null, null, `Explorer_Item_SpecifyItems('quizzes/${Object.Subfolder_ID}.json', '${Object.Subfolder_Link}')`, `${Data_Import_FromPath(`quizzes/${Object.Subfolder_ID}.json`, "JSON").quizData.length} items`, Object.Subfolder_Author[0]);
                 }
                 
                 Explorer_Status_Evaluator++;
@@ -414,6 +414,69 @@ function Explorer_Item_Open(Item_Link){
     Page_ChangePage(`${Item_Link}`, Transition);
 }
 
+var SAP_SpecifyItems_Evaluate_Link;
+var SAP_SpecifyItems_Evaluate_ItemCount;
+var SAP_SpecifyItems_Evaluate_MaxLength;
+var SAP_SpecifyItems_Evaluate_Opacity = 0;
+
+function Explorer_Item_SpecifyItems(File, Link){
+    Subwindows_Open("SAP_SpecifyItems");
+    
+    console.log(File);
+    var Length = Data_Import_FromPath(File).quizData.length;
+    SAP_SpecifyItems_Evaluate_MaxLength = Length;
+    if (StorageItem_Get("SAP_MaxCount") != null && StorageItem_Get("SAP_MaxCount").MaxCount != null){
+        if (StorageItem_Get("SAP_MaxCount").MaxCount < Length){
+            Element_Get_ByID("SAP_SpecifyItems_Input").value = StorageItem_Get("SAP_MaxCount").MaxCount;
+        } else {
+            Element_Get_ByID("SAP_SpecifyItems_Input").value = Length;
+        }
+    } else {
+        Element_Get_ByID("SAP_SpecifyItems_Input").value = Length;
+    }
+    Element_Get_ByID("SAP_SpecifyItems_Title").innerHTML = `${Data_Import_FromPath(File).quizInfo.Title}`;
+    
+    Element_Attribute_Set("SAP_SpecifyItems_Input", "max", Length);
+    Element_Get_ByID("SAP_SpecifyItems_Subtitle").innerHTML = `items out of ${Length}`;
+    Element_Attribute_Set("SAP_SpecifyItems_Start", "onclick", `Explorer_Item_Open('${Link}&MaxCount=${Length}')`);
+    SAP_SpecifyItems_Evaluate_Link = Link;
+    SAP_SpecifyItems_Evaluate_ItemCount = Length;
+
+    if (StorageItem_Get("SAP_MaxCount", "Local") == null){
+        let MaxCount = {
+            "MaxCount": 1
+        }
+        StorageItem_Set("SAP_MaxCount", MaxCount, "Local");
+    }
+    Element_Attribute_Set("SAP_SpecifyItems_Start", "onclick", `Page_ChangePage('${SAP_SpecifyItems_Evaluate_Link}&MaxCount=${StorageItem_Get("SAP_MaxCount", "Local").MaxCount}', Transition);`)
+}
+
+function SAP_SpecifyItems_Evaluate(Value){
+    if (Value > SAP_SpecifyItems_Evaluate_MaxLength){
+        SAP_SpecifyItems_Evaluate_Opacity += 1;
+        Subwindows_Open("SAP_Error_Validation");
+        Element_Get_ByID("SAP_SpecifyItems_Input").value = SAP_SpecifyItems_Evaluate_MaxLength;
+        Element_Attribute_Set("Home_MFSTOP", "style", `opacity: ${SAP_SpecifyItems_Evaluate_Opacity}%`);
+        SAP_SpecifyItems_Evaluate(Element_Get_ByID("SAP_SpecifyItems_Input").value);
+        
+    } else if (Value <= 0){
+        SAP_SpecifyItems_Evaluate_Opacity += 1;
+        Subwindows_Open("SAP_Error_Validation");
+        Element_Get_ByID("SAP_SpecifyItems_Input").value = 1;
+        Element_Attribute_Set("Home_MFSTOP", "style", `opacity: ${SAP_SpecifyItems_Evaluate_Opacity}%`);
+        SAP_SpecifyItems_Evaluate(Element_Get_ByID("SAP_SpecifyItems_Input").value);
+        
+    }
+    SAP_SpecifyItems_Evaluate_ItemCount = Element_Get_ByID("SAP_SpecifyItems_Input").value;
+    
+    if (StorageItem_Get("SAP_MaxCount", "Local") != null){
+        let MaxCount = {
+            "MaxCount": SAP_SpecifyItems_Evaluate_ItemCount
+        }
+        StorageItem_Set("SAP_MaxCount", MaxCount, "Local");
+    } 
+    Element_Attribute_Set("SAP_SpecifyItems_Start", "onclick", `Page_ChangePage('${SAP_SpecifyItems_Evaluate_Link}&MaxCount=${StorageItem_Get("SAP_MaxCount", "Local").MaxCount}', Transition);`)
+}
 // Schedules
 // Object that contains the subject list
 let Schedules_Class_Manifest = {};

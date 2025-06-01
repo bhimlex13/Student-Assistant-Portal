@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title id="Page_Title">
         Student Assistant Portal
@@ -8,22 +9,16 @@
     <link rel="stylesheet" href="Scripts/SAP_Main.css">
     <link rel="stylesheet" href="Scripts/SAP_Stylesheet_Explorer.css">
     <link rel="stylesheet" href="https://elmerf5445.github.io/ERUMA-UI/Scripts/Styles/App_Stylesheet_Debugging.css">
-    <link rel="stylesheet" href="https://elmerf5445.github.io/Article-Builder/Scripts/Styles/AB_Stylesheet_Renderer.css">
+    <link rel="stylesheet"
+        href="https://elmerf5445.github.io/Article-Builder/Scripts/Styles/AB_Stylesheet_Renderer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="icon" type="image/png" href="Assets/Icons/Logo.png" sizes="96x96" id="Page_Favicon">
-    <meta 
-        property="og:image"
-        content="https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/Thumbnails/Thumbnail_Branding_1.png" 
-    />
-    <meta 
-        property="og:title" 
-        content="Student Assistant Portal" 
-    />
-    <meta 
-        property="og:description" 
-        content="It's reviewing time" 
-    />
+    <meta property="og:image"
+        content="https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/Thumbnails/Thumbnail_Branding_1.png" />
+    <meta property="og:title" content="Student Assistant Portal" />
+    <meta property="og:description" content="It's reviewing time" />
 </head>
+
 <body onload="Quizzes_SetExplorerMode('Home')">
     <script src="Scripts/SAP_Javascript_Main.js"></script>
     <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_Debugging.js"></script>
@@ -36,24 +31,76 @@
     <div class="Subwindows" id="Subwindows">
         <div id="Empty"></div>
         <div class="Subwindow" id="SAP_WhatsNew">
-                <div class="Subwindow_TitleBar">
-                    <h2 class="Modal_TitleBar_Title">
-                        New updates
-                    </h2>
-                </div>
-                <div class="Subwindow_Content" id="AB_Renderer_Contents">
-
-                </div>
-                <div class="Subwindow_Content_Bottom">
-                    <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Close('SAP_WhatsNew')">
-                        Close
-                    </button>
-                </div>
+            <div class="Subwindow_TitleBar">
+                <h2 class="Modal_TitleBar_Title">
+                    New updates
+                </h2>
             </div>
-      </div>
+            <div class="Subwindow_Content" id="AB_Renderer_Contents">
+
+            </div>
+            <div class="Subwindow_Content_Bottom">
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Close('SAP_WhatsNew')">
+                    Close
+                </button>
+            </div>
+        </div>
+        <div class="Modal" id="SAP_SpecifyItems">
+            <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
+                <h2 class="Modal_TitleBar_Title">
+                    
+                </h2>
+            </div>
+            <div class="Subwindow_Content SAP_SpecifyItems">
+                <p class="General_Paragraph">
+                    Set the item count for the quiz
+                </p>
+                <h2 class="General_Title SAP_SpecifyItems_Title" id="SAP_SpecifyItems_Title">
+                    Open quiz
+                </h2>
+                <input type="number" min="1" class="Input_Text SAP_SpecifyItems_Input" id="SAP_SpecifyItems_Input" oninput="SAP_SpecifyItems_Evaluate(this.value)"/>
+                <p class="General_Paragraph SAP_SpecifyItems_Subtitle" id="SAP_SpecifyItems_Subtitle" style="margin-top: 20px;">
+                    items out of 
+                </p>
+                <p class="General_Paragraph" style="position: absolute; bottom: 40px">
+                    Questions will be chosen randomly.
+                </p>
+            </div>
+            <div class="Subwindow_Content_Bottom" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <button class="Subwindow_Bottom_Button_SecondaryAction" onclick="Subwindows_Close('SAP_WhatsNew')">
+                    Close
+                </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Page_ChangePage('', Transition)" id="SAP_SpecifyItems_Start">
+                    Start
+                </button>
+            </div>
+        </div>
+        <img src="Assets/Images/MFSTOP.png" class="Home_MFSTOP" id="Home_MFSTOP" loading="lazy" draggable="false"/>
+        <div class="Modal" id="SAP_Error_Validation">
+            <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
+                <h2 class="Modal_TitleBar_Title">
+                    
+                </h2>
+            </div>
+            <div class="Subwindow_Content SAP_SpecifyItems">
+                <h1 class="General_Title">
+                    You can't do that.
+                </h1>
+                <h1 class="General_Title">
+                    <b><i>Stop.</i></b>
+                </h1>
+            </div>
+            <div class="Subwindow_Content_Bottom">
+                <button class="Subwindow_Bottom_Button_SecondaryAction" onclick="Subwindows_Close('SAP_Error_Validation')">
+                    Sorry
+                </button>
+            </div>
+        </div>
+    </div>
     <div class="Page_Overlays">
+        
         <div class="Home_Welcome_Loading" id="LoadingScreen">
-            <img class="Home_Welcome_Loading_Image" src="Assets/Icons/SAP_1.png"/>
+            <img class="Home_Welcome_Loading_Image" src="Assets/Icons/SAP_1.png" />
             <div class="General_Loading_Compact">
                 <div class="General_Loading_Compact_Bar"></div>
                 <div class="General_Loading_Compact_Bar"></div>
@@ -61,7 +108,7 @@
                 <div class="General_Loading_Compact_Bar"></div>
             </div>
             <h3 class="Home_Welcome_Loading_Text">
-              <!-- Loading... -->
+                <!-- Loading... -->
             </h3>
         </div>
         <div class="Home_Welcome" id="Home_Welcome">
@@ -148,7 +195,7 @@
                 <div></div>
             </div>
             <div class="Home_Welcome_Content">
-                
+
                 <div class="Home_Welcome_Title" id="Home_Welcome_Title" onclick="Home_Start()">
                     <h1 class="Home_Welcome_Title_Text">
                         Student
@@ -169,7 +216,7 @@
                     <div class="Home_Welcome_Decoration_Component"></div>
                 </div>
                 <div class="Home_Welcome_Main" id="Home_Welcome_Main">
-                    
+
                     <h4 class="Home_Welcome_Main_Description">
                         Click anywhere to start.
                     </h4>
@@ -186,27 +233,37 @@
     <div class="Page_Content">
         <div class="MenuBar" State="Expanded" id="Sidebar">
             <div class="MenuBar_Title" onclick="Home_Splash()">
-                <img class='MenuBar_Title_Image' src='Assets/Icons/SAP_1.png' draggable='false' loading='lazy'/>
+                <img class='MenuBar_Title_Image' src='Assets/Icons/SAP_1.png' draggable='false' loading='lazy' />
             </div>
             <div class="MenuBar_List">
-                <button class="MenuBar_List_Item" State="Selected" id="Quizzes" onclick="Tabs_ChangeTab(this.id, 'Vertical')" Tabs_Tab_Target_Container="Content" Tabs_Tab_Target_Tab="tab_Quizzes" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
-                    <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Quizzes_1.png' draggable='false' loading='lazy'/>
+                <button class="MenuBar_List_Item" State="Selected" id="Quizzes"
+                    onclick="Tabs_ChangeTab(this.id, 'Vertical')" Tabs_Tab_Target_Container="Content"
+                    Tabs_Tab_Target_Tab="tab_Quizzes" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes"
+                    Tabs_UseHeaderTitle="false">
+                    <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Quizzes_1.png' draggable='false'
+                        loading='lazy' />
                     <span class="MenuBar_List_Item_Indicator">
                     </span>
                     <p class="MenuBar_List_Item_Text">
                         Quizzes
                     </p>
                 </button>
-                <button class="MenuBar_List_Item" id="Schedules" onclick="Tabs_ChangeTab(this.id, 'Vertical')" Tabs_Tab_Target_Container="Content" Tabs_Tab_Target_Tab="tab_Schedules" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Schedules" Tabs_UseHeaderTitle="false">
-                    <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Schedules_1.png' draggable='false' loading='lazy'/>
+                <button class="MenuBar_List_Item" id="Schedules" onclick="Tabs_ChangeTab(this.id, 'Vertical')"
+                    Tabs_Tab_Target_Container="Content" Tabs_Tab_Target_Tab="tab_Schedules" Tabs_UseRibbon="false"
+                    Tabs_Tab_Target_Ribbon="Ribbon_Schedules" Tabs_UseHeaderTitle="false">
+                    <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Schedules_1.png' draggable='false'
+                        loading='lazy' />
                     <span class="MenuBar_List_Item_Indicator">
                     </span>
                     <p class="MenuBar_List_Item_Text">
                         Schedules
                     </p>
                 </button>
-                <button class="MenuBar_List_Item" id="Others" onclick="Tabs_ChangeTab(this.id, 'Vertical')" Tabs_Tab_Target_Container="Content" Tabs_Tab_Target_Tab="tab_Others" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Schedules" Tabs_UseHeaderTitle="false">
-                    <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Others_1.png' draggable='false' loading='lazy'/>
+                <button class="MenuBar_List_Item" id="Others" onclick="Tabs_ChangeTab(this.id, 'Vertical')"
+                    Tabs_Tab_Target_Container="Content" Tabs_Tab_Target_Tab="tab_Others" Tabs_UseRibbon="false"
+                    Tabs_Tab_Target_Ribbon="Ribbon_Schedules" Tabs_UseHeaderTitle="false">
+                    <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Others_1.png' draggable='false'
+                        loading='lazy' />
                     <span class="MenuBar_List_Item_Indicator">
                     </span>
                     <p class="MenuBar_List_Item_Text">
@@ -221,13 +278,14 @@
                     <h1 class="Home_Page_Title">
                         Quizzes
                     </h1>
-                    <button class="Toggle Button_List_Item" id="Setting_HideThumbnails" onclick="Buttons_Toggle(this.id), Settings_Save(), Explorer_Refresh()" State="Inactive">
+                    <button class="Toggle Button_List_Item" id="Setting_HideThumbnails"
+                        onclick="Buttons_Toggle(this.id), Settings_Save(), Explorer_Refresh()" State="Inactive">
                         <div class="Toggle_Indicator"></div>
                         Hide thumbnails
                     </button>
                 </div>
-                
-                <div class="Quizzes" id="Quizzes_Container"> 
+
+                <div class="Quizzes" id="Quizzes_Container">
                     <div class="Quizzes_Title">
                         <button class="General_Button" onclick="Explorer_Back()">
                             Back
@@ -240,14 +298,14 @@
                                 Folder_Name
                             </h2>
                         </div>
-                        
+
                     </div>
                     <h3 class="Home_Welcome_Loading_Text" id="Quizzes_Explorer_Status">
                         No items are active at this moment.
                     </h3>
                     <div class="Explorer" Type="Image" id="Quizzes_Explorer">
                         <h3 class="Home_Welcome_Loading_Text">
-                          Loading...
+                            Loading...
                         </h3>
                         <!-- <button class="Explorer_Item" Type="Image">
                             <img class='Explorer_Item_Image' src='images/OLD_Thumbnail_Midterms_1.png' draggable='false' loading='lazy'/>
@@ -321,22 +379,30 @@
                 <h1 class="Home_Page_Title">
                     Exam Schedules
                 </h1>
-                
+
                 <div class="Schedules">
                     <div class="Schedules_Title" style="display: none">
-                        <button class="General_Button Schedules_Title_Button" id="Schedules_Class" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Schedules_Content" Tabs_Tab_Target_Tab="tab_Schedules_Class" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
+                        <button class="General_Button Schedules_Title_Button" id="Schedules_Class"
+                            onclick="Tabs_ChangeTab(this.id, 'Horizontal')"
+                            Tabs_Tab_Target_Container="Schedules_Content" Tabs_Tab_Target_Tab="tab_Schedules_Class"
+                            Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
                             <span class="Schedules_Title_Button_Indicator">
                             </span>
                             Class
                         </button>
-                        <button class="General_Button Schedules_Title_Button" id="Schedules_Exam" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Schedules_Content" Tabs_Tab_Target_Tab="tab_Schedules_Exam" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false" State="Selected">
+                        <button class="General_Button Schedules_Title_Button" id="Schedules_Exam"
+                            onclick="Tabs_ChangeTab(this.id, 'Horizontal')"
+                            Tabs_Tab_Target_Container="Schedules_Content" Tabs_Tab_Target_Tab="tab_Schedules_Exam"
+                            Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false"
+                            State="Selected">
                             <span class="Schedules_Title_Button_Indicator">
                             </span>
                             Exam
                         </button>
                     </div>
                     <div class="Schedules_Content" id="Schedules_Content" Tabs_CurrentTab="">
-                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Class" State="Inactive">
+                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Class"
+                            State="Inactive">
                             <h1 class="Schedules_List_Title">
                                 Class schedules
                             </h1>
@@ -508,7 +574,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Exam" State="Active">
+                        <div class="Tab_Container_Content_Item Content_Item Home_Page" id="tab_Schedules_Exam"
+                            State="Active">
                             <h1 class="Schedules_List_Title">
                                 Exam schedules
                             </h1>
@@ -521,44 +588,59 @@
                     Student Assistant Portal
                 </h1>
                 <div class="Others" id="Others_Container" Tabs_CurrentTab="Others_Tab_Main">
-                    <div class="Tab_Container_Content_Item Content_Item Others_Page" id="Others_Tab_Main" State="Active">
+                    <div class="Tab_Container_Content_Item Content_Item Others_Page" id="Others_Tab_Main"
+                        State="Active">
                         <div class="Button_List">
-                            <button class="Button_List_Item" State="Selected" id="Others_Settings" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Others_Container" Tabs_Tab_Target_Tab="Others_Tab_Settings" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
-                                <img src="Assets/Icons/Settings_1.png" class="Button_List_Item_Icon" alt=""/>
+                            <button class="Button_List_Item" State="Selected" id="Others_Settings"
+                                onclick="Tabs_ChangeTab(this.id, 'Horizontal')"
+                                Tabs_Tab_Target_Container="Others_Container" Tabs_Tab_Target_Tab="Others_Tab_Settings"
+                                Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes"
+                                Tabs_UseHeaderTitle="false">
+                                <img src="Assets/Icons/Settings_1.png" class="Button_List_Item_Icon" alt="" />
                                 <h3 class="Button_List_Item_Text">
                                     Settings
                                 </h3>
                             </button>
-                            <button class="Button_List_Item"  id="Others_Tools" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Others_Container" Tabs_Tab_Target_Tab="Others_Tab_Tools" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
-                                <img src="Assets/Icons/Tools_1.png" class="Button_List_Item_Icon" alt=""/>
+                            <button class="Button_List_Item" id="Others_Tools"
+                                onclick="Tabs_ChangeTab(this.id, 'Horizontal')"
+                                Tabs_Tab_Target_Container="Others_Container" Tabs_Tab_Target_Tab="Others_Tab_Tools"
+                                Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes"
+                                Tabs_UseHeaderTitle="false">
+                                <img src="Assets/Icons/Tools_1.png" class="Button_List_Item_Icon" alt="" />
                                 <h3 class="Button_List_Item_Text">
                                     Developer Tools
                                 </h3>
                             </button>
                             <button class="Button_List_Item" onclick="Page_ChangePage('quizOutliner.html', Transition)">
-                                <img src="Assets/Icons/Exam_1.png" class="Button_List_Item_Icon" alt=""/>
+                                <img src="Assets/Icons/Exam_1.png" class="Button_List_Item_Icon" alt="" />
                                 <h3 class="Button_List_Item_Text">
                                     Quiz Outliner
                                 </h3>
                             </button>
-                            <button class="Button_List_Item" onclick="Subwindows_Open('SAP_WhatsNew'); AB_Renderer_Article_Render(Data_Import_FromPath('Assets/SAP_WhatsNew.cbe_ab', 'JSON'));">
-                                <img src="Assets/Icons/About_1.png" class="Button_List_Item_Icon" alt=""/>
+                            <button class="Button_List_Item"
+                                onclick="Subwindows_Open('SAP_WhatsNew'); AB_Renderer_Article_Render(Data_Import_FromPath('Assets/SAP_WhatsNew.cbe_ab', 'JSON'));">
+                                <img src="Assets/Icons/About_1.png" class="Button_List_Item_Icon" alt="" />
                                 <h3 class="Button_List_Item_Text">
                                     What's New
                                 </h3>
                             </button>
                             <button class="Button_List_Item" onclick="Page_ChangePage('about.html')">
-                                <img src="Assets/Icons/About_1.png" class="Button_List_Item_Icon" alt=""/>
+                                <img src="Assets/Icons/About_1.png" class="Button_List_Item_Icon" alt="" />
                                 <h3 class="Button_List_Item_Text">
                                     About
                                 </h3>
                             </button>
-                            
+
                         </div>
                     </div>
-                    <div class="Tab_Container_Content_Item Content_Item Others_Page" id="Others_Tab_Settings" State="Inactive">
+                    <div class="Tab_Container_Content_Item Content_Item Others_Page" id="Others_Tab_Settings"
+                        State="Inactive">
                         <div class="Others_Tab_Title">
-                            <button class="General_Button" id="Others_Back_1" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Others_Container" Tabs_Tab_Target_Tab="Others_Tab_Main" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
+                            <button class="General_Button" id="Others_Back_1"
+                                onclick="Tabs_ChangeTab(this.id, 'Horizontal')"
+                                Tabs_Tab_Target_Container="Others_Container" Tabs_Tab_Target_Tab="Others_Tab_Main"
+                                Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes"
+                                Tabs_UseHeaderTitle="false">
                                 Back
                             </button>
                             <h3 class="Others_Tab_Title_Text">
@@ -566,30 +648,39 @@
                             </h3>
                         </div>
                         <div class="Button_List">
-                            <button class="Toggle Button_List_Item" id="Settings_SoundEffects" onclick="Buttons_Toggle(this.id), Settings_Save()" State="Active" IsActive="true">
+                            <button class="Toggle Button_List_Item" id="Settings_SoundEffects"
+                                onclick="Buttons_Toggle(this.id), Settings_Save()" State="Active" IsActive="true">
                                 <div class="Toggle_Indicator"></div>
                                 <h3>
                                     Sound effects
                                 </h3>
                             </button>
-                            <button class="Toggle Button_List_Item" id="Settings_GIFFinishers" onclick="Buttons_Toggle(this.id), Settings_Save()" State="Active" IsActive="true">
+                            <button class="Toggle Button_List_Item" id="Settings_GIFFinishers"
+                                onclick="Buttons_Toggle(this.id), Settings_Save()" State="Active" IsActive="true">
                                 <div class="Toggle_Indicator"></div>
                                 <h3>
                                     GIF finishers
                                 </h3>
                             </button>
-                            <button class="Toggle Button_List_Item" id="Settings_DarkMode" onclick="Buttons_Toggle(this.id), Settings_Save()" State="Active" IsActive="true" style="display: none">
+                            <button class="Toggle Button_List_Item" id="Settings_DarkMode"
+                                onclick="Buttons_Toggle(this.id), Settings_Save()" State="Active" IsActive="true"
+                                style="display: none">
                                 <div class="Toggle_Indicator"></div>
                                 <h3>
                                     Dark mode
                                 </h3>
                             </button>
                         </div>
-                        
+
                     </div>
-                    <div class="Tab_Container_Content_Item Content_Item Others_Page" id="Others_Tab_Tools" State="Inactive">
+                    <div class="Tab_Container_Content_Item Content_Item Others_Page" id="Others_Tab_Tools"
+                        State="Inactive">
                         <div class="Others_Tab_Title">
-                            <button class="General_Button" id="Others_Back_2" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Others_Container" Tabs_Tab_Target_Tab="Others_Tab_Main" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">
+                            <button class="General_Button" id="Others_Back_2"
+                                onclick="Tabs_ChangeTab(this.id, 'Horizontal')"
+                                Tabs_Tab_Target_Container="Others_Container" Tabs_Tab_Target_Tab="Others_Tab_Main"
+                                Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes"
+                                Tabs_UseHeaderTitle="false">
                                 Back
                             </button>
                             <h3 class="Others_Tab_Title_Text">
@@ -598,7 +689,7 @@
                         </div>
                         <div class="Button_List">
                             <button class="Button_List_Item" onclick="Page_ChangePage('fileConverter.html')">
-                                <img src="Assets/Icons/Converter.png" class="Button_List_Item_Icon" alt=""/>
+                                <img src="Assets/Icons/Converter.png" class="Button_List_Item_Icon" alt="" />
                                 <h3 class="Button_List_Item_Text">
                                     File Converter
                                 </h3>
@@ -612,11 +703,12 @@
                         </div>
                     </div>
                 </div>
-                
-                
+
+
             </div>
         </div>
     </div>
-    
+
 </body>
+
 </html>

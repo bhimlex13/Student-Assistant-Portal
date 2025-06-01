@@ -10,6 +10,11 @@
   "Contents": [
     {
       "Type": "Bulleted_List",
+      "Header": "1 June 2025 Update",
+      "Content": "You can now set a specific number of questions to answer per quiz."
+    },
+    {
+      "Type": "Bulleted_List",
       "Header": "28 March 2025 Update",
       "Content": "You can now view the outline of any quiz and its answer keys by going to Others > Quiz Outliner."
     },

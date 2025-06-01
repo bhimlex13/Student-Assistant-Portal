@@ -638,3 +638,39 @@
     border-radius: 10px;
     background-color: var(--SAP-Main-BG-Color);
 }
+
+.SAP_SpecifyItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+    position: relative;
+    z-index: 1000;
+}
+
+.SAP_SpecifyItems > .General_Paragraph{
+    margin: 0;
+}
+
+.SAP_SpecifyItems_Title{
+    text-align: center;
+}
+
+.SAP_SpecifyItems_Input{
+    font-size: 70px;
+    height: auto;
+    text-align: center;
+}
+
+.Home_MFSTOP{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    pointer-events: none;
+    background-image: url("../Assets/Images/MFSTOP.png");
+    background-position: center;
+    opacity: 0;
+    z-index: 1001;
+    position: fixed;
+}

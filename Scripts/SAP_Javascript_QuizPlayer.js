@@ -90,6 +90,12 @@ function Quiz_Load_Data(){
         Quiz_Data_Questions = Quiz_Order_Shuffle(Quiz_Data.quizData);
         Quiz_WorkingData = Quiz_Data_Questions;
 
+        if(UF_Parameter_Get('MaxCount') != null && UF_Parameter_Get('MaxCount') > 0){
+            Quiz_Data_Questions.splice(0, Quiz_Data_Questions.length - UF_Parameter_Get('MaxCount'));
+        }
+        console.log(Quiz_Data_Questions.length);
+        console.log(Quiz_Data_Questions);
+
         for (a = 0; a < Quiz_Data_Questions.length; a++){
             Question = Quiz_Data_Questions[a]
             // Shuffles the choices of the questions
@@ -149,6 +155,7 @@ function Quiz_Order_Shuffle(Array){
         let j = Math.floor(Math.random() * (i + 1));
         [Array[i], Array[j]] = [Array[j], Array[i]];
     }
+    
     return Array;
 }
 
@@ -564,7 +571,9 @@ function Quiz_Finish(Verdict){
 // Go back to home
 function Quiz_GoHome(){
     let Status = StorageItem_Get("SAP_Quiz_Status", "Session");
-    Status.Status = "Complete";
-    StorageItem_Set("SAP_Quiz_Status", Status, "Session");
+    if (Status != null){
+        Status.Status = "Complete";
+        StorageItem_Set("SAP_Quiz_Status", Status, "Session");
+    }
     Page_ChangePage('index.html', Transition);
 }
