@@ -28,6 +28,23 @@ window.onload = function (){
         Settings_Load_Values();
         Page_ChangePage("");
     }
+    if(Settings_Data.GoFullScreen == "undefined" || Settings_Data.GoFullScreen == undefined){
+        Element_Attribute_Set("Settings_GoFullscreen", "State", "Inactive");
+        Settings_Save();
+        Settings_Load_Values();
+        Page_ChangePage("");
+    } else {
+        if (Settings_Data.GoFullScreen == "Active"){
+            var elem = document.documentElement;
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.webkitRequestFullscreen) { /* Safari */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { /* IE11 */
+                elem.msRequestFullscreen();
+            }
+        }
+    }
     if (Onload_Requirements.Splash_Require == true){
         if (Onload_Requirements.Splash_OpenOncePerSession == true){
             var Session_UserHasSignedIn = sessionStorage.getItem('SAP_UserHasSignedIn');
