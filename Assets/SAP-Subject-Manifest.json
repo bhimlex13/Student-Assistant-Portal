@@ -675,7 +675,7 @@
                 {   
                     "Module_ID": "C3_S1_MIS_Prefinals",
                     "Module_Name": "Prefinals",
-                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_PRefinals_1.png",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
                     "Module_Status": "Active",
                     "Module_LastModified": "5 May 2025",
                     "Module_Subfolders": [
@@ -721,6 +721,59 @@
                                 "Elmer Felisilda"
                             ],
                             "Subfolder_LastModified": "5 May 2025",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
+                },
+                {   
+                    "Module_ID": "C3_S1_MIS_Finals",
+                    "Module_Name": "Finals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "3 June 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S2_MIS_Finals_1",
+                            "Subfolder_Name": "Information Management and Decision Making",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_MIS_Finals_1",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "3 June 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_MIS_Finals_2",
+                            "Subfolder_Name": "Group Decision Support Systems and Executive Support Systems",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_MIS_Finals_2",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "3 June 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_MIS_Finals_3",
+                            "Subfolder_Name": "Finals Period Review",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_MIS_Finals_3",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "3 June 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S2_MIS_Finals_4",
+                            "Subfolder_Name": "Full Course Review",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_MIS_Finals_4",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "3 June 2025",
                             "Subfolder_Status": "Active"
                         }
                     ]

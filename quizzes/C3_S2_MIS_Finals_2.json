@@ -1,0 +1,616 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Finals",
+    "Title": "Group Decision Support Systems and Executive Support Systems",
+    "LastModified": "3 June 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "11 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What type of system helps organizational managers and executives reach a consensus during events that require their collective opinion and proposals?",
+      "answer": "Group Decision Support Systems (GDSS)",
+      "choices": [
+        "Document-Driven DSS",
+        "Model-Driven DSS",
+        "Communications-Driven DSS",
+        "Group Decision Support Systems (GDSS)"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS focuses on reducing pressures of conformity that results in group think?",
+      "answer": "Group Problem Mitigation",
+      "choices": [
+        "Stakeholder Identification",
+        "Evaluation Objectivity",
+        "Documentation",
+        "Group Problem Mitigation"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS includes streamlining coordination, representation, and planning of collaboration meetings?",
+      "answer": "Group Problem Mitigation",
+      "choices": [
+        "Collaboration Facilitation",
+        "Pre-Planning",
+        "Support of Multiple Collaboration Processes",
+        "Group Problem Mitigation"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS helps optimize group dynamics by allotting appropriate responsibilities to each collaborator?",
+      "answer": "Group Problem Mitigation",
+      "choices": [
+        "Group Dictionaries",
+        "Collaboration Facilitation",
+        "Evaluation Objectivity",
+        "Group Problem Mitigation"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS reduces the probability of the group making decisions of poor quality or high risk?",
+      "answer": "Group Problem Mitigation",
+      "choices": [
+        "Stakeholder Identification",
+        "Maximization of Group Effectiveness and Efficiency",
+        "Questionnaire Tools",
+        "Group Problem Mitigation"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS provides access to rules that will aid in aiming at decisions?",
+      "answer": "Support of Multiple Collaboration Processes",
+      "choices": [
+        "Group Problem Mitigation",
+        "Group Dictionaries",
+        "Documentation",
+        "Support of Multiple Collaboration Processes"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS utilizes tools and subsystems to generate useful ideas and alternatives?",
+      "answer": "Support of Multiple Collaboration Processes",
+      "choices": [
+        "Stakeholder Identification",
+        "Collaboration Facilitation",
+        "Pre-Planning",
+        "Support of Multiple Collaboration Processes"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS reduces costs for decision-making collaboration for groups?",
+      "answer": "Support of Multiple Collaboration Processes",
+      "choices": [
+        "Evaluation Objectivity",
+        "Questionnaire Tools",
+        "Maximization of Group Effectiveness and Efficiency",
+        "Support of Multiple Collaboration Processes"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS allows the group to better understand problems and eliminate errors?",
+      "answer": "Maximization of Group Effectiveness and Efficiency",
+      "choices": [
+        "Documentation",
+        "Stakeholder Identification",
+        "Group Problem Mitigation",
+        "Maximization of Group Effectiveness and Efficiency"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS allows members to utilize information and/or knowledge based on their areas of expertise?",
+      "answer": "Maximization of Group Effectiveness and Efficiency",
+      "choices": [
+        "Collaboration Facilitation",
+        "Support of Multiple Collaboration Processes",
+        "Evaluation Objectivity",
+        "Maximization of Group Effectiveness and Efficiency"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS streamlines group work to eliminate resistance and allows better decision consensus?",
+      "answer": "Maximization of Group Effectiveness and Efficiency",
+      "choices": [
+        "Questionnaire Tools",
+        "Stakeholder Identification",
+        "Group Dictionaries",
+        "Maximization of Group Effectiveness and Efficiency"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS suggests that collaborators have accountability for decisions, instilling responsibility in their vote?",
+      "answer": "Maximization of Group Effectiveness and Efficiency",
+      "choices": [
+        "Documentation",
+        "Collaboration Facilitation",
+        "Evaluation Objectivity",
+        "Maximization of Group Effectiveness and Efficiency"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS element addresses agendas, topics, and end-goal of the discussion?",
+      "answer": "Pre-Planning",
+      "choices": [
+        "Stakeholder Identification",
+        "Evaluation Objectivity",
+        "Group Dictionaries",
+        "Pre-Planning"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS element ensures ideas and communications are free-flowing without interruptions or hindrances?",
+      "answer": "Collaboration Facilitation",
+      "choices": [
+        "Documentation",
+        "Group Problem Mitigation",
+        "Software",
+        "Collaboration Facilitation"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS element provides equal opportunity for collaborators by eliminating office politics?",
+      "answer": "Evaluation Objectivity",
+      "choices": [
+        "Support of Multiple Collaboration Processes",
+        "Group Dictionaries",
+        "Stakeholder Identification",
+        "Evaluation Objectivity"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS element takes care of logging information from the collaboration, such as meeting minutes and voting?",
+      "answer": "Documentation",
+      "choices": [
+        "Questionnaire Tools",
+        "Hardware",
+        "Pre-Planning",
+        "Documentation"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which HDSS characteristic refers to equipment, computers, devices, etc.?",
+      "answer": "Hardware",
+      "choices": [
+        "Peopleware",
+        "Software",
+        "Documentation",
+        "Hardware"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which HDSS characteristic involves not just collaborators, but also facilitators, meeting planners, hardware operators, and staff?",
+      "answer": "Peopleware",
+      "choices": [
+        "Software",
+        "Hardware",
+        "Group Dictionaries",
+        "Peopleware"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which HDSS characteristic is described as programs?",
+      "answer": "Software",
+      "choices": [
+        "Hardware",
+        "Documentation",
+        "Questionnaire Tools",
+        "Software"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool allows questioning, data-gathering and investigation for planning and collaboration?",
+      "answer": "Questionnaire Tools",
+      "choices": [
+        "Stakeholder Identification",
+        "Evaluation Objectivity",
+        "Collaboration Facilitation",
+        "Questionnaire Tools"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool facilitates the creation of proposals, ideas, and solutions that help in making decisions?",
+      "answer": "Electronic Brainstorming",
+      "choices": [
+        "Stakeholder Identification",
+        "Questionnaire Tools",
+        "Documentation",
+        "Electronic Brainstorming"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool may eliminate office politics by making submitted proposals and votes anonymous?",
+      "answer": "Electronic Brainstorming",
+      "choices": [
+        "Pre-Planning",
+        "Group Dictionaries",
+        "Support of Multiple Collaboration Processes",
+        "Electronic Brainstorming"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool determines the impact of the group’s decision?",
+      "answer": "Stakeholder Identification",
+      "choices": [
+        "Group Dictionaries",
+        "Documentation",
+        "Questionnaire Tools",
+        "Stakeholder Identification"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool may have the capability to weigh each collaborator’s vote on a decision before finalizing it?",
+      "answer": "Stakeholder Identification",
+      "choices": [
+        "Software",
+        "Questionnaire Tools",
+        "Evaluation Objectivity",
+        "Stakeholder Identification"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool allows the system to reduce a particular problem into distinct interpretations?",
+      "answer": "Group Dictionaries",
+      "choices": [
+        "Stakeholder Identification",
+        "Software",
+        "Electronic Brainstorming",
+        "Group Dictionaries"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool uses interpretations to help decision-makers make proper decisions?",
+      "answer": "Group Dictionaries",
+      "choices": [
+        "Questionnaire Tools",
+        "Pre-Planning",
+        "Collaboration Facilitation",
+        "Group Dictionaries"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS limitation states that it requires different types of typed, graphical, or spreadsheet input?",
+      "answer": "Digitized input is required",
+      "choices": [
+        "Moderation is limited",
+        "Documentation",
+        "Evaluation Objectivity",
+        "Digitized input is required"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS limitation notes that the capabilities of GDSS become liabilities when multiple discussions about a decision take place?",
+      "answer": "Moderation is limited",
+      "choices": [
+        "May require a facilitator",
+        "Digitized input is required",
+        "Stakeholder Identification",
+        "Moderation is limited"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS limitation explains that maintenance cost for a high-end facility may offset its cost-saving features?",
+      "answer": "Maintenance cost may be high",
+      "choices": [
+        "Moderation is limited",
+        "May require a facilitator",
+        "Pre-Planning",
+        "Maintenance cost may be high"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS limitation indicates that a facilitator may be needed to help users and control the system?",
+      "answer": "May require a facilitator",
+      "choices": [
+        "Collaboration Facilitation",
+        "Maintenance cost may be high",
+        "Software",
+        "May require a facilitator"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What system is tailored for executive use?",
+      "answer": "Executive Support Systems (ESS)",
+      "choices": [
+        "Decision Support System (DSS)",
+        "Group Decision Support System (GDSS)",
+        "Executive Support Systems (ESS)",
+        "Management Information System (MIS)"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What system was created to supply necessary tools for high-level decision-making?",
+      "answer": "Executive Support Systems (ESS)",
+      "choices": [
+        "Executive Role Support",
+        "Data Linking",
+        "Executive Support Systems (ESS)",
+        "Flexibility"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What system facilitates predictions, summarizes information, and provides further acquisition of data?",
+      "answer": "Executive Support Systems (ESS)",
+      "choices": [
+        "Executive Role Support",
+        "Information Filtering",
+        "Executive Support Systems (ESS)",
+        "Questionnaire Tools"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What system uses mostly external data for executive decisions?",
+      "answer": "Executive Support Systems (ESS)",
+      "choices": [
+        "Knowledge-Driven DSS",
+        "Executive Support Systems (ESS)",
+        "Group DSS",
+        "Document-Driven DSS"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What system must be flexible and easy to manipulate to accommodate different problems and situations?",
+      "answer": "Executive Support Systems (ESS)",
+      "choices": [
+        "Flexibility",
+        "Executive Support Systems (ESS)",
+        "Simplicity",
+        "Model-Driven DSS"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What role of ESS allows sifting through vast volumes of information to avoid irrelevant data?",
+      "answer": "Information Filtering",
+      "choices": [
+        "Data Linking",
+        "Evaluation Objectivity",
+        "Information Filtering",
+        "Questionnaire Tools"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What ESS role allows executives to avoid being overwhelmed by information?",
+      "answer": "Information Filtering",
+      "choices": [
+        "Data Linking",
+        "Collaboration Facilitation",
+        "Group Dictionaries",
+        "Information Filtering"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What role of ESS links data from various sources to provide useful information for executives?",
+      "answer": "Data Linking",
+      "choices": [
+        "Executive Role Support",
+        "Simplicity",
+        "Data Linking",
+        "Stakeholder Identification"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What role of ESS may incorporate internet connectivity to add more system flexibility?",
+      "answer": "Data Linking",
+      "choices": [
+        "Information Filtering",
+        "Group DSS",
+        "Data Linking",
+        "Group Dictionaries"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What role of ESS supports interpersonal, informational, and decisional roles of executives?",
+      "answer": "Executive Role Support",
+      "choices": [
+        "Group Problem Mitigation",
+        "Executive Role Support",
+        "Flexibility",
+        "Communication-Driven DSS"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What benefit of ESS facilitates timely data delivery through filtering, tracking, and processing?",
+      "answer": "Informational Processing",
+      "choices": [
+        "Documentation",
+        "Information Filtering",
+        "Informational Processing",
+        "Questionnaire Tools"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What benefit of ESS helps senior managers produce relevant information for quick decisions?",
+      "answer": "Informational Processing",
+      "choices": [
+        "Flexibility",
+        "Simplicity",
+        "Informational Processing",
+        "Executive Role Support"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What benefit of ESS allows executives to use the system without in-depth computer experience?",
+      "answer": "Simplicity",
+      "choices": [
+        "Simplicity",
+        "Executive Role Support",
+        "Computer Skill Requirement",
+        "Group DSS"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What benefit of ESS helps executives easily navigate the system?",
+      "answer": "Simplicity",
+      "choices": [
+        "Informational Processing",
+        "Simplicity",
+        "Collaboration Facilitation",
+        "Pre-Planning"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What benefit of ESS allows integration with other systems due to fewer layers of management?",
+      "answer": "Flexibility",
+      "choices": [
+        "Collaboration Facilitation",
+        "Group DSS",
+        "Flexibility",
+        "Evaluation Objectivity"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What disadvantage of ESS assumes executives know how to operate computers?",
+      "answer": "Computer Skill Requirement",
+      "choices": [
+        "Simplicity",
+        "Computer Skill Requirement",
+        "Long Processing Time",
+        "Stakeholder Identification"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What disadvantage of ESS may delay results due to volume of data being processed?",
+      "answer": "Long Processing Time",
+      "choices": [
+        "Documentation",
+        "Long Processing Time",
+        "Group Problem Mitigation",
+        "Collaboration Facilitation"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What disadvantage of ESS is caused by insufficient summarized information from specific data?",
+      "answer": "Limitations on Summarized Information",
+      "choices": [
+        "Group Dictionaries",
+        "Difficulty in Quantifying Benefits",
+        "Limitations on Summarized Information",
+        "Computer Skill Requirement"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What disadvantage of ESS makes it hard to justify decisions due to summarizing of data?",
+      "answer": "Difficulty in Quantifying Benefits",
+      "choices": [
+        "Difficulty in Quantifying Benefits",
+        "Simplicity",
+        "Executive Role Support",
+        "Data Linking"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What disadvantage of ESS stems from inaccurate or incorrect data due to external sources?",
+      "answer": "Difficulty in Maintaining Database Integrity",
+      "choices": [
+        "Informational Processing",
+        "Flexibility",
+        "Documentation",
+        "Difficulty in Maintaining Database Integrity"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    }
+  ]
+}
