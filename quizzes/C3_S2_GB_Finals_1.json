@@ -1,0 +1,472 @@
+{
+  "quizInfo": {
+    "Subject": "Great Books",
+    "Term": "Finals",
+    "Title": "Text Structures",
+    "LastModified": "03 June 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+  {
+    "question": "What term refers to young people who served in World War I and became disoriented or alienated?",
+    "answer": "Lost Generation",
+    "choices": [
+      "Jazz Age",
+      "Boomers",
+      "Generation X",
+      "Lost Generation"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What term describes a group of American expatriate writers in 1920s Paris?",
+    "answer": "Lost Generation",
+    "choices": [
+      "Beat Poets",
+      "Harlem Renaissance",
+      "Modernists",
+      "Lost Generation"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What novel tells a personal story of Gatsby's doomed dream of love and the failed American Dream?",
+    "answer": "The Great Gatsby",
+    "choices": [
+      "Tender is the Night",
+      "This Side of Paradise",
+      "U.S.A. Trilogy",
+      "The Great Gatsby"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What era did Fitzgerald describe as full of miracles and excess, linked to post-war prosperity?",
+    "answer": "Jazz Age",
+    "choices": [
+      "Lost Generation",
+      "Roaring Twenties",
+      "Gilded Age",
+      "Jazz Age"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What era challenged old money with the ideal of the self-made man?",
+    "answer": "Jazz Age",
+    "choices": [
+      "Great Depression",
+      "Industrial Age",
+      "Modern Era",
+      "Jazz Age"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What illegal activity became common after the 18th Amendment in 1919?",
+    "answer": "Bootlegging",
+    "choices": [
+      "Hacking",
+      "Smuggling",
+      "Counterfeiting",
+      "Bootlegging"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What term describes the secret bars where illegal alcohol was sold during Prohibition?",
+    "answer": "Speakeasies",
+    "choices": [
+      "Casinos",
+      "Diners",
+      "Lounges",
+      "Speakeasies"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What is the name of the character who owns a mansion in West Egg and is surrounded by rumors?",
+    "answer": "Jay Gatsby",
+    "choices": [
+      "Nick Carraway",
+      "Tom Buchanan",
+      "Meyer Wolfshiem",
+      "Jay Gatsby"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What character throws lavish parties to impress Daisy?",
+    "answer": "Jay Gatsby",
+    "choices": [
+      "Nick Carraway",
+      "Tom Buchanan",
+      "Meyer Wolfshiem",
+      "Jay Gatsby"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who is the narrator of The Great Gatsby?",
+    "answer": "Nick Carraway",
+    "choices": [
+      "Jay Gatsby",
+      "Tom Buchanan",
+      "George Wilson",
+      "Nick Carraway"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What is the name of Gatsby's lost love who is now married to Tom?",
+    "answer": "Daisy Buchanan",
+    "choices": [
+      "Jordan Baker",
+      "Myrtle Wilson",
+      "Catherine",
+      "Daisy Buchanan"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who is the mafioso-style crook that helped Gatsby make money?",
+    "answer": "Meyer Wolfshiem",
+    "choices": [
+      "Tom Buchanan",
+      "Dan Cody",
+      "George Wilson",
+      "Meyer Wolfshiem"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What color is the light at the end of Daisy's dock, symbolizing Gatsby's dream?",
+    "answer": "Green",
+    "choices": [
+      "Yellow",
+      "Blue",
+      "White",
+      "Green"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What color does Gatsby wear to make an impression?",
+    "answer": "Pink",
+    "choices": [
+      "Green",
+      "White",
+      "Blue",
+      "Pink"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What color is Gatsby's car?",
+    "answer": "Yellow",
+    "choices": [
+      "Red",
+      "Black",
+      "Blue",
+      "Yellow"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What term best represents the moral and spiritual emptiness of 1920s wealth?",
+    "answer": "Surface glitter",
+    "choices": [
+      "Capitalism",
+      "High society",
+      "Materialism",
+      "Surface glitter"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What term refers to the visual glamour contrasted with the deep flaws of society?",
+    "answer": "Radiance and rottenness",
+    "choices": [
+      "Hope and despair",
+      "Love and betrayal",
+      "Riches and ruin",
+      "Radiance and rottenness"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who returns to the Midwest after becoming disillusioned by the East?",
+    "answer": "Nick Carraway",
+    "choices": [
+      "Jay Gatsby",
+      "Tom Buchanan",
+      "Jordan Baker",
+      "Nick Carraway"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What symbol represents the orgastic future Gatsby yearns for?",
+    "answer": "Green light",
+    "choices": [
+      "Pink suit",
+      "Yellow car",
+      "White dress",
+      "Green light"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What narrative technique is used in Jordan's account of Gatsby's backstory?",
+    "answer": "Flashback and flash-forward",
+    "choices": [
+      "Stream of consciousness",
+      "Multiple narrators",
+      "Linear timeline",
+      "Flashback and flash-forward"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What quality of Fitzgerald's dialogue reveals a moral vacuum?",
+    "answer": "Flippant and insincere",
+    "choices": [
+      "Romantic and lyrical",
+      "Cold and formal",
+      "Direct and honest",
+      "Flippant and insincere"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What mood did Fitzgerald and his generation reflect, including disillusionment and loss of spiritual focus?",
+    "answer": "Loss of moral bearings",
+    "choices": [
+      "Hopeful ambition",
+      "Religious revival",
+      "Romantic idealism",
+      "Loss of moral bearings"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who is considered the chief chronicler of the Jazz Age?",
+    "answer": "F Scott Fitzgerald",
+    "choices": [
+      "Ernest Hemingway",
+      "T S Eliot",
+      "John Dos Passos",
+      "F Scott Fitzgerald"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who supported his family by writing for popular magazines?",
+    "answer": "F Scott Fitzgerald",
+    "choices": [
+      "John Dos Passos",
+      "Ernest Hemingway",
+      "Ezra Pound",
+      "F Scott Fitzgerald"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What novel did Fitzgerald write at age 24 that brought him success?",
+    "answer": "This Side of Paradise",
+    "choices": [
+      "The Great Gatsby",
+      "Tender is the Night",
+      "The Beautiful and Damned",
+      "This Side of Paradise"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What novel fictionalizes Fitzgerald's personal struggles?",
+    "answer": "Tender is the Night",
+    "choices": [
+      "The Great Gatsby",
+      "The Waste Land",
+      "The Sun Also Rises",
+      "Tender is the Night"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What author explored love, death, and masculinity in The Sun Also Rises?",
+    "answer": "Ernest Hemingway",
+    "choices": [
+      "F Scott Fitzgerald",
+      "T S Eliot",
+      "John Dos Passos",
+      "Ernest Hemingway"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What author explored the American Dream through 12 characters in the U.S.A. trilogy?",
+    "answer": "John Dos Passos",
+    "choices": [
+      "Ernest Hemingway",
+      "F Scott Fitzgerald",
+      "Ezra Pound",
+      "John Dos Passos"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who explored the disintegration of culture in The Waste Land?",
+    "answer": "T S Eliot",
+    "choices": [
+      "F Scott Fitzgerald",
+      "Ernest Hemingway",
+      "Gertrude Stein",
+      "T S Eliot"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who first used the phrase 'Lost Generation' in conversation with Hemingway?",
+    "answer": "Gertrude Stein",
+    "choices": [
+      "Ezra Pound",
+      "T S Eliot",
+      "John Dos Passos",
+      "Gertrude Stein"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year did the 18th Amendment prohibiting the sale of alcohol pass?",
+    "answer": 1919,
+    "choices": [
+      1920,
+      1922,
+      1930,
+      1919
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year did Ernest Hemingway write The Sun Also Rises?",
+    "answer": 1926,
+    "choices": [
+      1922,
+      1930,
+      1924,
+      1926
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year range did John Dos Passos write the U.S.A. trilogy?",
+    "answer": "1930-36",
+    "choices": [
+      "1922-26",
+      "1917-24",
+      "1937-40",
+      "1930-36"
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year did Fitzgerald plan The Great Gatsby?",
+    "answer": 1923,
+    "choices": [
+      1924,
+      1922,
+      1920,
+      1923
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year did Fitzgerald die?",
+    "answer": 1940,
+    "choices": [
+      1934,
+      1937,
+      1944,
+      1940
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year was Fitzgerald born?",
+    "answer": 1896,
+    "choices": [
+      1886,
+      1900,
+      1890,
+      1896
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year did Fitzgerald drop out of Princeton to join the army?",
+    "answer": 1917,
+    "choices": [
+      1918,
+      1920,
+      1919,
+      1917
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  },
+  {
+    "question": "What age did F Scott Fitzgerald die?",
+    "answer": 44,
+    "choices": [
+      40,
+      50,
+      48,
+      44
+    ],
+    "reference": "The Great Gatsby (05 Handout 1)",
+    "term": "Finals"
+  }
+]
+}
