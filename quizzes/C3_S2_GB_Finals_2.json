@@ -1,0 +1,568 @@
+{
+  "quizInfo": {
+    "Subject": "Great Books",
+    "Term": "Finals",
+    "Title": "The Little Prince",
+    "LastModified": "03 June 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "05 Handout 1 - 2"
+    ]
+  },
+  "quizData": [
+  {
+    "question": "What event caused Saint-Exupery to write The Little Prince in exile?",
+    "answer": "World War II",
+    "choices": [
+      "World War I",
+      "Cold War",
+      "Vietnam War",
+      "World War II"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What term describes the tone often found in exile literature?",
+    "answer": "Elegiac",
+    "choices": [
+      "Comedic",
+      "Satirical",
+      "Romantic",
+      "Elegiac"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What country did Saint-Exupery flee after its occupation by the Nazis?",
+    "answer": "France",
+    "choices": [
+      "Germany",
+      "Austria",
+      "Italy",
+      "France"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What kind of tale is The Little Prince often interpreted as, alongside being a children's story?",
+    "answer": "Moral and philosophical fable",
+    "choices": [
+      "Mystery and adventure",
+      "Science fiction epic",
+      "Historical drama",
+      "Moral and philosophical fable"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What theme in exile literature is also found in The Little Prince?",
+    "answer": "Lamenting a lost way of life",
+    "choices": [
+      "Pursuing wealth and fame",
+      "Celebrating nationalism",
+      "Promoting war efforts",
+      "Lamenting a lost way of life"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "Where does the narrator of The Little Prince meet the alien boy?",
+    "answer": "Sahara Desert",
+    "choices": [
+      "Andes Mountains",
+      "Pacific Ocean",
+      "Amazon Forest",
+      "Sahara Desert"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What happens to the pilot at the start of the story?",
+    "answer": "Crash-lands in the desert",
+    "choices": [
+      "Lands in a jungle",
+      "Gets lost at sea",
+      "Flies to the moon",
+      "Crash-lands in the desert"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who does the little prince encounter after the narrator crashes?",
+    "answer": "The pilot",
+    "choices": [
+      "A fox",
+      "A king",
+      "A rose",
+      "The pilot"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What plant in the story symbolizes the threat of Nazism?",
+    "answer": "Baobab trees",
+    "choices": [
+      "Cacti",
+      "Tulips",
+      "Sunflowers",
+      "Baobab trees"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What does the baobab do if tackled too late?",
+    "answer": "Bores through a planet",
+    "choices": [
+      "Eats animals",
+      "Steals light",
+      "Destroys time",
+      "Bores through a planet"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What body part does the little prince say one must see with?",
+    "answer": "Heart",
+    "choices": [
+      "Mind",
+      "Eyes",
+      "Hands",
+      "Heart"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What quality of the little prince symbolizes his moral perspective?",
+    "answer": "Alienness",
+    "choices": [
+      "Royalty",
+      "Power",
+      "Wisdom",
+      "Alienness"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What philosophy does the novel promote against the disaster of war?",
+    "answer": "Humanism",
+    "choices": [
+      "Militarism",
+      "Capitalism",
+      "Romanticism",
+      "Humanism"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What theme is explored through the little prince's journey and character?",
+    "answer": "Toleration of difference",
+    "choices": [
+      "Celebration of conformity",
+      "Search for power",
+      "Hatred of change",
+      "Toleration of difference"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year was Antoine de Saint-Exupery born?",
+    "answer": 1900,
+    "choices": [
+      1890,
+      1910,
+      1880,
+      1900
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "Where did Saint-Exupery grow up?",
+    "answer": "Lyon",
+    "choices": [
+      "Paris",
+      "Marseille",
+      "Nice",
+      "Lyon"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What profession did Saint-Exupery have during national service?",
+    "answer": "Aviator",
+    "choices": [
+      "Sailor",
+      "Chef",
+      "Engineer",
+      "Aviator"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What job did Saint-Exupery hold before World War II?",
+    "answer": "Commercial pilot",
+    "choices": [
+      "War correspondent",
+      "Teacher",
+      "Novelist",
+      "Commercial pilot"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What war mission did Saint-Exupery perform during WWII?",
+    "answer": "Reconnaissance",
+    "choices": [
+      "Combat",
+      "Transport",
+      "Bombing",
+      "Reconnaissance"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "Where did Saint-Exupery write The Little Prince?",
+    "answer": "New York",
+    "choices": [
+      "Paris",
+      "London",
+      "Rome",
+      "New York"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who was Saint-Exupery's wife?",
+    "answer": "Consuelo Suncin",
+    "choices": [
+      "Zelda Fitzgerald",
+      "Simone de Beauvoir",
+      "Gertrude Stein",
+      "Consuelo Suncin"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year did Saint-Exupery disappear on his last flight?",
+    "answer": 1944,
+    "choices": [
+      1940,
+      1945,
+      1939,
+      1944
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who wrote 'The Radetzky March' and went into exile before WWII?",
+    "answer": "Joseph Roth",
+    "choices": [
+      "Paul Celan",
+      "Bertolt Brecht",
+      "Stefan Zweig",
+      "Joseph Roth"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who wrote 'Mother Courage and Her Children'?",
+    "answer": "Bertolt Brecht",
+    "choices": [
+      "Joseph Roth",
+      "Paul Celan",
+      "Antoine de Saint-Exupery",
+      "Bertolt Brecht"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "Which author criticized Nazi brutality in 'The Royal Game'?",
+    "answer": "Stefan Zweig",
+    "choices": [
+      "Paul Celan",
+      "Joseph Roth",
+      "Bertolt Brecht",
+      "Stefan Zweig"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who wrote 'Poppy and Memory' after surviving the Holocaust?",
+    "answer": "Paul Celan",
+    "choices": [
+      "Stefan Zweig",
+      "Joseph Roth",
+      "Bertolt Brecht",
+      "Paul Celan"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year did Saint-Exupery fly his final mission?",
+    "answer": 1944,
+    "choices": [
+      1940,
+      1942,
+      1945,
+      1944
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year was The Little Prince written?",
+    "answer": "During World War II",
+    "choices": [
+      "Before World War I",
+      "After World War II",
+      "During the Cold War",
+      "During World War II"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year was The Royal Game published?",
+    "answer": 1941,
+    "choices": [
+      1939,
+      1952,
+      1932,
+      1941
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year did Bertolt Brecht write Mother Courage and Her Children?",
+    "answer": 1939,
+    "choices": [
+      1932,
+      1941,
+      1952,
+      1939
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year did Joseph Roth write The Radetzky March?",
+    "answer": 1932,
+    "choices": [
+      1930,
+      1935,
+      1940,
+      1932
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What year did Paul Celan publish Poppy and Memory?",
+    "answer": 1952,
+    "choices": [
+      1944,
+      1941,
+      1939,
+      1952
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What nationality was Antoine de Saint-Exupery?",
+    "answer": "French",
+    "choices": [
+      "German",
+      "Austrian",
+      "Swiss",
+      "French"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What is the name of the noble family Saint-Exupery was born into?",
+    "answer": "French aristocratic",
+    "choices": [
+      "Spanish royal",
+      "German barons",
+      "Italian nobles",
+      "French aristocratic"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What city is near the chÃ¢teau where Saint-Exupery grew up?",
+    "answer": "Lyon",
+    "choices": [
+      "Paris",
+      "Nice",
+      "Strasbourg",
+      "Lyon"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What caused Saint-Exupery to go into exile?",
+    "answer": "France's defeat and armistice with Germany",
+    "choices": [
+      "Economic hardship",
+      "Personal ambition",
+      "Political campaign loss",
+      "France's defeat and armistice with Germany"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What happens first in The Little Prince's storyline?",
+    "answer": "The pilot crash-lands in the Sahara",
+    "choices": [
+      "The prince meets the fox",
+      "The prince leaves his asteroid",
+      "The narrator returns home",
+      "The pilot crash-lands in the Sahara"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What does the pilot do after crashing in the desert?",
+    "answer": "Meets the little prince",
+    "choices": [
+      "Fixes his plane",
+      "Calls for help",
+      "Draws the sheep",
+      "Meets the little prince"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "After meeting the pilot, what does the little prince begin to share?",
+    "answer": "Stories of his travels",
+    "choices": [
+      "Instructions to fix the plane",
+      "A map to treasure",
+      "His favorite games",
+      "Stories of his travels"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What did the little prince leave behind on his home planet?",
+    "answer": "His rose",
+    "choices": [
+      "His books",
+      "His parents",
+      "His telescope",
+      "His rose"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who does the little prince meet after leaving his planet?",
+    "answer": "A series of adults on different asteroids",
+    "choices": [
+      "A prince and princess",
+      "An army of foxes",
+      "The narrator",
+      "A series of adults on different asteroids"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "Who teaches the little prince about relationships and taming?",
+    "answer": "The fox",
+    "choices": [
+      "The rose",
+      "The narrator",
+      "The snake",
+      "The fox"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What lesson does the fox teach the little prince?",
+    "answer": "What is essential is invisible to the eye",
+    "choices": [
+      "To fear baobabs",
+      "To escape from danger",
+      "To build a new ship",
+      "What is essential is invisible to the eye"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What does the little prince ultimately realize about his rose?",
+    "answer": "She is unique because of the time he spent with her",
+    "choices": [
+      "She is just like other roses",
+      "She is replaceable",
+      "She was wrong",
+      "She is unique because of the time he spent with her"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What does the little prince ask the pilot to do near the end of the story?",
+    "answer": "Draw a muzzle for his sheep",
+    "choices": [
+      "Return with him to space",
+      "Find another rose",
+      "Help him escape the desert",
+      "Draw a muzzle for his sheep"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  },
+  {
+    "question": "What happens to the little prince at the end of the story?",
+    "answer": "He disappears, possibly returning to his planet",
+    "choices": [
+      "He dies",
+      "He moves to Earth permanently",
+      "He goes to another planet",
+      "He disappears, possibly returning to his planet"
+    ],
+    "reference": "The Little Prince (05 Handout 1 - 2)",
+    "term": "Finals"
+  }
+]
+}
