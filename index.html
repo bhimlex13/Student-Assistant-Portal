@@ -75,7 +75,7 @@
                 </button>
             </div>
         </div>
-        <img src="Assets/Images/MFSTOP.png" class="Home_MFSTOP" id="Home_MFSTOP" loading="lazy" draggable="false"/>
+        <img src="Assets/Images/Huh.png" class="Home_MFSTOP" id="Home_MFSTOP" loading="lazy" draggable="false"/>
         <div class="Modal" id="SAP_Error_Validation">
             <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
                 <h2 class="Modal_TitleBar_Title">
@@ -89,11 +89,233 @@
                 <h1 class="General_Title">
                     <b><i>Stop.</i></b>
                 </h1>
+                <p class="General_Paragraph" style="text-align: center;">
+                    Value should be between 1 and the maximum total items in the selected quiz.
+                </p>
             </div>
-            <div class="Subwindow_Content_Bottom">
+            <div class="Subwindow_Content_Bottom" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
                 <button class="Subwindow_Bottom_Button_SecondaryAction" onclick="Subwindows_Close('SAP_Error_Validation')">
                     Sorry
                 </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Open('SAP_RS_1')">
+                    No.
+                </button>
+            </div>
+        </div>
+        <div class="Modal Modal_HasImage" id="SAP_RS_1">
+            <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
+                <h2 class="Modal_TitleBar_Title">
+                    
+                </h2>
+            </div>
+            <div class="Subwindow_Content">
+                <img src="Assets/Images/MFSTOP.png" draggable="false" loading="lazy"/>
+            </div>
+            <div class="Subwindow_Content_Bottom" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <button class="Subwindow_Bottom_Button_SecondaryAction" onclick="Subwindows_Close('SAP_RS_1')">
+                    Sorry
+                </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Open('SAP_RS_2')">
+                    Nuh uh
+                </button>
+            </div>
+        </div>
+        <div class="Modal Modal_HasImage" id="SAP_RS_2">
+            <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
+                <h2 class="Modal_TitleBar_Title">
+                    
+                </h2>
+            </div>
+            <div class="Subwindow_Content">
+                <img src="Assets/Images/Please.png" draggable="false" loading="lazy"/>
+            </div>
+            <div class="Subwindow_Content_Bottom" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <button class="Subwindow_Bottom_Button_SecondaryAction" onclick="Subwindows_Close('SAP_RS_2')">
+                    Okay fine
+                </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Open('SAP_RS_3')">
+                    Nope.
+                </button>
+            </div>
+        </div>
+        <div class="Modal Modal_HasImage" id="SAP_RS_3">
+            <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
+                <h2 class="Modal_TitleBar_Title">
+                    
+                </h2>
+            </div>
+            <div class="Subwindow_Content">
+                <img src="Assets/Images/Crying.png" draggable="false" loading="lazy"/>
+            </div>
+            <div class="Subwindow_Content_Bottom" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <button class="Subwindow_Bottom_Button_SecondaryAction" onclick="Subwindows_Close('SAP_RS_3')">
+                    Okay fine, I'll stop.
+                </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Open('SAP_RS_4')">
+                    You okay?
+                </button>
+            </div>
+        </div>
+        <div class="Modal Modal_HasImage" id="SAP_RS_4">
+            <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
+                <h2 class="Modal_TitleBar_Title">
+                    
+                </h2>
+            </div>
+            <div class="Subwindow_Content">
+                <img src="Assets/Images/no.png" draggable="false" loading="lazy"/>
+            </div>
+            <div class="Subwindow_Content_Bottom" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <button class="Subwindow_Bottom_Button_SecondaryAction" onclick="Subwindows_Close('SAP_RS_4')">
+                    Ugh, fine. If you stop crying.
+                </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Open('SAP_RS_5')">
+                    Ugh. So annoying.
+                </button>
+            </div>
+        </div>
+        <div class="Modal Modal_HasImage" id="SAP_RS_5">
+            <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
+                <h2 class="Modal_TitleBar_Title">
+                    
+                </h2>
+            </div>
+            <div class="Subwindow_Content">
+                <img src="Assets/Images/frozen.png" draggable="false" loading="lazy"/>
+            </div>
+            <div class="Subwindow_Content_Bottom" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <button class="Subwindow_Bottom_Button_SecondaryAction" onclick="Subwindows_Close('SAP_RS_5')">
+                    ...
+                </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Open('SAP_RS_6')">
+                    ...?
+                </button>
+            </div>
+        </div>
+        <div class="Modal Modal_HasImage" id="SAP_RS_6">
+            <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
+                <h2 class="Modal_TitleBar_Title">
+                    
+                </h2>
+            </div>
+            <div class="Subwindow_Content">
+                <img src="Assets/Images/tsk.png" draggable="false" loading="lazy"/>
+            </div>
+            <div class="Subwindow_Content_Bottom" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <button class="Subwindow_Bottom_Button_SecondaryAction" onclick="Subwindows_Close('SAP_RS_6')">
+                    Okay, okay! I'll stop!
+                </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Open('SAP_RS_7')">
+                    Uh oh...
+                </button>
+            </div>
+        </div>
+        <div class="Modal Modal_HasImageWithDialog" id="SAP_RS_7">
+            <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
+                <h2 class="Modal_TitleBar_Title">
+                    
+                </h2>
+            </div>
+            <div class="Subwindow_Content">
+                <p class="General_Paragraph">
+                    Throughout heaven and earth, I alone am the honored one.
+                </p>
+                <img src="Assets/Images/heavenandearth.webp" draggable="false" loading="lazy"/>
+                
+            </div>
+            <div class="Subwindow_Content_Bottom">
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Open('SAP_RS_8')">
+                    Wait, stop! I was just kidding!
+                </button>
+            </div>
+        </div>
+        <div class="Modal Modal_HasImageWithDialog" id="SAP_RS_8">
+            <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
+                <h2 class="Modal_TitleBar_Title">
+                    
+                </h2>
+            </div>
+            <div class="Subwindow_Content">
+                <p class="General_Paragraph">
+                    This is the inner world of Limitless. Perception, communication... Every action involved in living is forcibly carried out an infinite number of times.
+                </p>
+                <img src="Assets/Images/high.gif" draggable="false" loading="lazy"/>
+                
+            </div>
+            <div class="Subwindow_Content_Bottom">
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Open('SAP_RS_9')">
+                    He's... high...
+                </button>
+            </div>
+        </div>
+        <div class="Modal Modal_HasImageWithDialog" id="SAP_RS_9">
+            <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
+                <h2 class="Modal_TitleBar_Title">
+                    
+                </h2>
+            </div>
+            <div class="Subwindow_Content">
+                <p class="General_Paragraph">
+                    It's ironic, isn't it? When granted everything, you can't do anything... but just die peacefully.
+                </p>
+                <img src="Assets/Images/high2.gif" draggable="false" loading="lazy"/>
+                
+            </div>
+            <div class="Subwindow_Content_Bottom" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Open('SAP_RS_10')">
+                    Wait! Stop!
+                </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Open('SAP_RS_10')">
+                    I was just kidding!
+                </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Open('SAP_RS_10')">
+                    Stop in the name of love!
+                </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Subwindows_Open('SAP_RS_10')">
+                    Let's stop na!
+                </button>
+            </div>
+        </div>
+        <div class="Modal Modal_HasImageWithDialog" id="SAP_RS_10">
+            <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
+                <h2 class="Modal_TitleBar_Title">
+                    
+                </h2>
+            </div>
+            <div class="Subwindow_Content">
+                <p class="General_Paragraph">
+                    Domain Expansion: Unlimited Void.
+                </p>
+                <img src="Assets/Images/domainexpansion.gif" draggable="false" loading="lazy"/>
+                
+            </div>
+            <div class="Subwindow_Content_Bottom" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="SAP_DomainExpansion()">
+                    AAAAA
+                </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="SAP_DomainExpansion()">
+                    AAAAA
+                </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="SAP_DomainExpansion()">
+                    AAAAA
+                </button>
+                <button class="Subwindow_Bottom_Button_PrimaryAction" onclick="SAP_DomainExpansion()">
+                    AAAAA
+                </button>
+            </div>
+        </div>
+        <div class="Modal Modal_FullScreen" id="SAP_RS_11">
+            <div class="Subwindow_TitleBar" style="margin-bottom: 20px;">
+                <h2 class="Modal_TitleBar_Title">
+                    
+                </h2>
+            </div>
+            <div class="Subwindow_Content">
+                <img src="Assets/Images/blast.gif" id="SAP_DomainExpansion_Blast" draggable="false"/>
+                <div class="SAP_DomainExpansion_Blast_Flash" id="SAP_DomainExpansion_Blast_Flash" State="Inactive"></div>
+            </div>
+            <div class="Subwindow_Content_Bottom" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                
             </div>
         </div>
     </div>
