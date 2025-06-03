@@ -1,0 +1,688 @@
+{
+  "quizInfo": {
+    "Subject": "Web Systems and Technologies",
+    "Term": "Finals",
+    "Title": "Introduction to ASP.NET",
+    "LastModified": "04 June 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "08 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the free and open-source developer platform for building websites and applications?",
+      "answer": ".NET",
+      "choices": [
+        "ASP.NET",
+        ".NET Framework",
+        ".NET",
+        "Mono"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What platform is built on a high-performance runtime used by apps like Microsoft Teams and UPS?",
+      "answer": ".NET",
+      "choices": [
+        "Mono",
+        ".NET",
+        ".NET Core",
+        "Blazor"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What platform allows apps and libraries to be built from a project file and source code?",
+      "answer": ".NET",
+      "choices": [
+        ".NET Framework",
+        "Razor Pages",
+        ".NET",
+        "ASP.NET MVC"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What platform is often called a “managed code” runtime due to its garbage collector?",
+      "answer": ".NET",
+      "choices": [
+        "Common Language Runtime",
+        "ASP.NET",
+        ".NET",
+        "Web Forms"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the set of tools, libraries, and runtimes for building and testing apps in .NET?",
+      "answer": ".NET SDK",
+      "choices": [
+        "ASP.NET Frameworks",
+        ".NET SDK",
+        ".NET Core",
+        "Razor Pages"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is considered the foundation all .NET apps are built on?",
+      "answer": "Common Language Runtime",
+      "choices": [
+        "ASP.NET MVC",
+        "Razor Pages",
+        ".NET Framework",
+        "Common Language Runtime"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What .NET language is general-purpose and object-oriented?",
+      "answer": "C#",
+      "choices": [
+        "Visual Basic",
+        "C#",
+        "F#",
+        "Blazor"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What language in .NET is data-oriented and used for performant code?",
+      "answer": "F#",
+      "choices": [
+        "F#",
+        "C#",
+        "Razor Pages",
+        "Web Forms"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What .NET language is event-driven and offers a GUI via drag-and-drop?",
+      "answer": "Visual Basic",
+      "choices": [
+        "ASP.NET MVC",
+        "Visual Basic",
+        ".NET CLI",
+        "C#"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What .NET version is a software development framework for building applications on Windows?",
+      "answer": ".NET Framework",
+      "choices": [
+        ".NET SDK",
+        ".NET Framework",
+        "ASP.NET",
+        "Mono"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What version provides SDK features to develop .NET apps across platforms?",
+      "answer": "Mono",
+      "choices": [
+        ".NET Core",
+        "ASP.NET",
+        "Mono",
+        "C#"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What cross-platform version of .NET is used for cloud apps on Linux, macOS, and Windows?",
+      "answer": ".NET Core",
+      "choices": [
+        "Blazor",
+        ".NET Framework",
+        ".NET Core",
+        "Visual Basic"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What framework lets programmers build dynamic webpages for Windows, Linux, and Docker?",
+      "answer": "ASP.NET",
+      "choices": [
+        "ASP.NET MVC",
+        "Razor Pages",
+        ".NET Core",
+        "ASP.NET"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does ASP in ASP.NET stand for?",
+      "answer": "Active Server Pages",
+      "choices": [
+        "Blazor",
+        "Active Server Pages",
+        "ASP.NET Frameworks",
+        "Common Language Runtime"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What file extension is used for ASP.NET pages written in C#?",
+      "answer": ".aspx",
+      "choices": [
+        "Razor Pages",
+        ".NET",
+        ".aspx",
+        ".NET Core"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What extends the .NET platform with tools and libraries for web apps?",
+      "answer": "ASP.NET",
+      "choices": [
+        ".NET SDK",
+        "ASP.NET",
+        ".NET Framework",
+        "Mono"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET component allows web UIs without JavaScript?",
+      "answer": "Blazor",
+      "choices": [
+        "Razor Pages",
+        "Blazor",
+        "C#",
+        "ASP.NET Web Pages"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What syntax puts server-side C# logic inside HTML for webpage development?",
+      "answer": "Razor Pages",
+      "choices": [
+        "ASP.NET MVC",
+        "Razor Pages",
+        ".aspx",
+        "F#"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What provides template pages and libraries for login and authentication?",
+      "answer": "Authentication Systems",
+      "choices": [
+        "ASP.NET Frameworks",
+        "Razor Pages",
+        "Authentication Systems",
+        ".NET SDK"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is based on the .NET Framework and shares its code functionalities?",
+      "answer": "ASP.NET Frameworks",
+      "choices": [
+        "ASP.NET Frameworks",
+        ".NET CLI",
+        ".NET Core",
+        "Authentication Systems"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET tool uses drag-and-drop and a design surface for UI-rich websites?",
+      "answer": "Web Forms",
+      "choices": [
+        "ASP.NET MVC",
+        "Web Forms",
+        "ASP.NET Web Pages",
+        "Visual Basic"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET pattern separates UI from business logic?",
+      "answer": "Model View Controller",
+      "choices": [
+        "ASP.NET Web Pages",
+        "Web Forms",
+        "Razor Pages",
+        "Model View Controller"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework enables TDD-friendly app development and HTML control?",
+      "answer": "ASP.NET MVC",
+      "choices": [
+        "ASP.NET MVC",
+        ".NET SDK",
+        "Web Forms",
+        "Mono"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework is best for mobile and single-page applications?",
+      "answer": "ASP.NET MVC",
+      "choices": [
+        "ASP.NET Frameworks",
+        "ASP.NET MVC",
+        "ASP.NET Web Pages",
+        "Blazor"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What framework allows mixing server code and HTML in one file for dynamic content?",
+      "answer": "ASP.NET Web Pages",
+      "choices": [
+        "Razor Pages",
+        "Web Forms",
+        "ASP.NET Web Pages",
+        "Blazor"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What framework is described as fast, lightweight, and used for embedding social media?",
+      "answer": "ASP.NET Web Pages",
+      "choices": [
+        "Web Forms",
+        "ASP.NET MVC",
+        "ASP.NET Web Pages",
+        ".NET Core"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework is used for building HTTP services that can be accessed using browsers and mobile devices?",
+      "answer": "ASP.NET Web API",
+      "choices": [
+        "ASP.NET Web Pages",
+        "ASP.NET MVC",
+        "ASP.NET Web API",
+        "Web Forms"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET real-time technology is a new library that makes developing real-time web functionality easier?",
+      "answer": "ASP.NET SignalR",
+      "choices": [
+        "ASP.NET SPA",
+        "ASP.NET Core",
+        "ASP.NET SignalR",
+        "Razor Pages"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET real-time technology allows bidirectional communication between the server and client browser by choosing the best method based on the capabilities of each?",
+      "answer": "ASP.NET SignalR",
+      "choices": [
+        "ASP.NET Core",
+        "ASP.NET SignalR",
+        "Web Forms",
+        "ASP.NET Web API"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What helps build applications with major client-side interaction using HTML 5, CSS3, and JavaScript that load an HTML webpage and dynamically update it?",
+      "answer": "ASP.NET SPA",
+      "choices": [
+        "ASP.NET MVC",
+        "ASP.NET SPA",
+        "Razor Pages",
+        "Blazor"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET technology can power native mobile apps with a Web API backend?",
+      "answer": "ASP.NET Core",
+      "choices": [
+        "ASP.NET Web API",
+        "ASP.NET Core",
+        "ASP.NET SPA",
+        "ASP.NET Web Pages"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework can power mobile websites using responsive design frameworks?",
+      "answer": "ASP.NET Core",
+      "choices": [
+        "ASP.NET Core",
+        "ASP.NET SignalR",
+        "ASP.NET MVC",
+        "ASP.NET Web API"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework is a cross-platform, high-performance, open-source framework that runs on .NET Core to build modern, cloud-enabled, and internet-connected web apps?",
+      "answer": "ASP.NET Core",
+      "choices": [
+        "ASP.NET Core",
+        "ASP.NET Web Pages",
+        "ASP.NET WebHost",
+        "Web Forms"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework can be developed and run on Windows, macOS, and Linux?",
+      "answer": "ASP.NET Core",
+      "choices": [
+        "ASP.NET MVC",
+        "ASP.NET Core",
+        "ASP.NET SPA",
+        "ASP.NET Web Pages"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework is the new and enhanced version of ASP.NET with better functionality and libraries?",
+      "answer": "ASP.NET Core",
+      "choices": [
+        "ASP.NET Core",
+        ".NET Framework",
+        "Web Forms",
+        "ASP.NET WebHost"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework is a repurposed version of ASP.NET 4.x resulting in a leaner and more modular framework?",
+      "answer": "ASP.NET Core",
+      "choices": [
+        "ASP.NET MVC",
+        "ASP.NET Core",
+        "Web Forms",
+        "ASP.NET WebHost"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What file contains the application startup code in ASP.NET Core apps created with web templates?",
+      "answer": "Program.cs",
+      "choices": [
+        "Program.cs",
+        "Startup.cs",
+        "Settings.json",
+        "Razor.cshtml"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What root defaults to the project’s root directory during development in ASP.NET Core?",
+      "answer": "Content Root",
+      "choices": [
+        "Web Root",
+        "Razor Pages",
+        "Content Root",
+        "Project Path"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What includes the executable hosting the application (.exe)?",
+      "answer": "Content Root",
+      "choices": [
+        "Host",
+        "Middleware",
+        "Logging",
+        "Content Root"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What contains the compiled assemblies of the app (.dll)?",
+      "answer": "Content Root",
+      "choices": [
+        "Razor Pages",
+        "Host",
+        "Middleware",
+        "Content Root"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What includes content files used by the app such as configuration files and Razor files?",
+      "answer": "Content Root",
+      "choices": [
+        "Content Root",
+        "Web Root",
+        "Program.cs",
+        "Host"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What contains the path for resource files, including images, stylesheets, and JavaScript, usually in a wwwroot folder?",
+      "answer": "Web Root",
+      "choices": [
+        "Web Root",
+        "Content Root",
+        "Middleware",
+        "Configuration"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET Core feature encapsulates all of the app’s resources on startup?",
+      "answer": "Host",
+      "choices": [
+        "Host",
+        "Middleware",
+        "ASP.NET Core WebHost",
+        "ASP.NET Core WebApplication"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host resource works with built-in and third-party logging providers such as Debug and Azure App Service?",
+      "answer": "Logging",
+      "choices": [
+        "Middleware",
+        "Configuration",
+        "Logging",
+        "Status Code Page"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host resource uses one or more configuration providers such as Azure Key Vault and Environment Variable?",
+      "answer": "Configuration",
+      "choices": [
+        "Logging",
+        "Middleware",
+        "Configuration",
+        "Dependency Injection (DI) Services"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host resource is software arranged into an app pipeline to control HTTP requests and responses?",
+      "answer": "Middleware",
+      "choices": [
+        "Middleware",
+        "Host",
+        "Configuration",
+        "Logging"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host resource makes configured services available throughout the app?",
+      "answer": "Dependency Injection (DI) Services",
+      "choices": [
+        "Logging",
+        "Middleware",
+        "Dependency Injection (DI) Services",
+        "Status Code Page"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the most used host in all ASP.NET templates?",
+      "answer": "ASP.NET Core WebApplication / Minimal Host",
+      "choices": [
+        ".NET Generic Host",
+        "ASP.NET Core WebHost",
+        "ASP.NET Core WebApplication / Minimal Host",
+        "Program.cs"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host behaves similarly to the .NET Generic Host but needs fewer callbacks to configure?",
+      "answer": "ASP.NET Core WebApplication / Minimal Host",
+      "choices": [
+        "ASP.NET Core WebApplication / Minimal Host",
+        "ASP.NET Core WebHost",
+        "Logging",
+        "Middleware"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host is integrated with ASP.NET Core’s ConfigureWebHostDefaults?",
+      "answer": ".NET Generic Host",
+      "choices": [
+        "ASP.NET Core WebHost",
+        "Program.cs",
+        ".NET Generic Host",
+        "Razor Pages"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host is available only for backwards compatibility?",
+      "answer": "ASP.NET Core WebHost",
+      "choices": [
+        ".NET Generic Host",
+        "Program.cs",
+        "ASP.NET Core WebHost",
+        "Content Root"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What error-handling feature provides complete information about unhandled request exceptions?",
+      "answer": "Developer Exception Page",
+      "choices": [
+        "Custom Error Page",
+        "Status Code Page",
+        "Developer Exception Page",
+        "Logging"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What error-handling feature is enabled by default in the Development environment of ASP.NET Core?",
+      "answer": "Developer Exception Page",
+      "choices": [
+        "Developer Exception Page",
+        "Custom Error Page",
+        "Startup Exception Handling",
+        "Middleware"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What error-handling feature uses UseExceptionHandler to configure a custom error handling page for the Production environment?",
+      "answer": "Custom Error Page",
+      "choices": [
+        "Developer Exception Page",
+        "Status Code Page",
+        "Custom Error Page",
+        "Host"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What error-handling feature uses UseStatusCodePages in Program.cs for HTTP error codes like 404 – Not Found?",
+      "answer": "Status Code Page",
+      "choices": [
+        "Status Code Page",
+        "Custom Error Page",
+        "Developer Exception Page",
+        "Middleware"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What error-handling feature handles exceptions during app startup to capture startup and detailed errors?",
+      "answer": "Startup Exception Handling",
+      "choices": [
+        "Middleware",
+        "Host",
+        "Startup Exception Handling",
+        "Logging"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}

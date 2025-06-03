@@ -1,0 +1,3937 @@
+{
+  "quizInfo": {
+    "Subject": "Web Systems and Technologies",
+    "Term": "Finals",
+    "Title": "Our paths will cross again beneath Kakava's shimmering auroras. Farewell, Kakavasha.",
+    "LastModified": "04 June 2025",
+    "Authors": [
+      "Alexander Oro",
+      "Elmer Felisilda"
+    ],
+    "References": [
+      
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the standard markup language for creating web pages?",
+      "answer": "HyperText Markup Language",
+      "choices": [
+        "Hypermedia Text Markup Language",
+        "Hyper Transferable Markup Language",
+        "HyperText Manipulation Language",
+        "HyperText Markup Language"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What allows web authors to arrange and define how content should be displayed?",
+      "answer": "HyperText Markup Language",
+      "choices": [
+        "Cascading Style Sheets (CSS)",
+        "JavaScript",
+        "Python",
+        "HyperText Markup Language"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What refers to how links on the web let users move from one document to another?",
+      "answer": "HyperText",
+      "choices": [
+        "Hypermedia",
+        "Hyper Transfer",
+        "Hyper Transmission",
+        "HyperText"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the fifth and latest version of the language that supports multimedia?",
+      "answer": "HTML5",
+      "choices": [
+        "HTML4",
+        "XHTML",
+        "HTML3",
+        "HTML5"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what year was HTML introduced?",
+      "answer": 1993,
+      "choices": [
+        1990,
+        1995,
+        1998,
+        1993
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What organization manages the specifications of HTML?",
+      "answer": "World Wide Web Consortium",
+      "choices": [
+        "International Organization for Standardization",
+        "Internet Engineering Task Force",
+        "Web Hypertext Application Technology Working Group",
+        "World Wide Web Consortium"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of file is created in a text editor, containing elements, attributes, and tags?",
+      "answer": "HTML Document",
+      "choices": [
+        "CSS Stylesheet",
+        "JavaScript File",
+        "Python Script",
+        "HTML Document"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the naming conventions in an HTML document that tell the computer and web browser it is in HTML?",
+      "answer": "html, head, title, and body",
+      "choices": [
+        "header, footer, section, and article",
+        "div, span, p, and img",
+        "table, tr, td, and th",
+        "html, head, title, and body"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file extension is required for saving an HTML document?",
+      "answer": ".html",
+      "choices": [
+        ".htm",
+        ".txt",
+        ".css",
+        ".html"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the component of an HTML document containing formats, instructions, and semantic meaning?",
+      "answer": "HTML Element",
+      "choices": [
+        "HTML Attribute",
+        "HTML Tag",
+        "HTML Document",
+        "HTML Element"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the basic unit of text in an HTML document?",
+      "answer": "Paragraph",
+      "choices": [
+        "Heading",
+        "List",
+        "Image",
+        "Paragraph"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to add a line break to the HTML code?",
+      "answer": "br",
+      "choices": [
+        "p",
+        "div",
+        "span",
+        "br"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to make text bold?",
+      "answer": "strong",
+      "choices": [
+        "p",
+        "em",
+        "div",
+        "strong"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to modify or define an HTML element?",
+      "answer": "HTML Attribute",
+      "choices": [
+        "HTML Element",
+        "HTML Tag",
+        "HTML Document",
+        "HTML Attribute"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is another term for an HTML attribute?",
+      "answer": "name=value pair",
+      "choices": [
+        "key-value pair",
+        "property-value pair",
+        "attribute-value pair",
+        "name=value pair"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines how web browsers will format and display the content on an HTML file?",
+      "answer": "HTML Tags",
+      "choices": [
+        "HTML Attributes",
+        "HTML Elements",
+        "HTML Documents",
+        "HTML Tags"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are titles or subtitles that can be displayed on a webpage?",
+      "answer": "Headings",
+      "choices": [
+        "Paragraphs",
+        "Lists",
+        "Images",
+        "Headings"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many levels of headings are there in HTML?",
+      "answer": "six levels",
+      "choices": [
+        "four levels",
+        "five levels",
+        "seven levels",
+        "six levels"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What provides a way to navigate between webpages?",
+      "answer": "Links",
+      "choices": [
+        "Forms",
+        "Tables",
+        "Images",
+        "Links"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an alternative way to interact with the server and collect user inputs?",
+      "answer": "Form",
+      "choices": [
+        "Table",
+        "List",
+        "Image",
+        "Form"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What allows web developers to organize and arrange data into rows and columns?",
+      "answer": "HTML Table",
+      "choices": [
+        "HTML Form",
+        "HTML List",
+        "HTML Division",
+        "HTML Table"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to create a table?",
+      "answer": "table tag",
+      "choices": [
+        "form tag",
+        "div tag",
+        "list tag",
+        "table tag"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of URL directs to another website?",
+      "answer": "absolute URL",
+      "choices": [
+        "relative URL",
+        "local URL",
+        "global URL",
+        "absolute URL"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of URL directs to a file within the same website?",
+      "answer": "relative URL",
+      "choices": [
+        "absolute URL",
+        "local URL",
+        "global URL",
+        "relative URL"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the top row of a table that acts as a title for the type of information in each column?",
+      "answer": "Table Header",
+      "choices": [
+        "Table Footer",
+        "Table Body",
+        "Table Row",
+        "Table Header"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What indicates the number of rows displayed in a table?",
+      "answer": "Table Row",
+      "choices": [
+        "Table Header",
+        "Table Data",
+        "Table Footer",
+        "Table Row"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What holds the data displayed in a table?",
+      "answer": "Table Data",
+      "choices": [
+        "Table Header",
+        "Table Row",
+        "Table Footer",
+        "Table Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to join two or more columns in a table?",
+      "answer": "Colspan",
+      "choices": [
+        "Rowspan",
+        "Cellspan",
+        "Tablespan",
+        "Colspan"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to join two or more rows in a table?",
+      "answer": "Rowspan",
+      "choices": [
+        "Colspan",
+        "Cellspan",
+        "Tablespan",
+        "Rowspan"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute is used to separate table cells?",
+      "answer": "Border",
+      "choices": [
+        "Spacing",
+        "Padding",
+        "Margin",
+        "Border"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tags are used to group the header, footer, and body content in a table?",
+      "answer": "thead, tfoot, and tbody",
+      "choices": [
+        "header, footer, and body",
+        "top, bottom, and middle",
+        "start, end, and center",
+        "thead, tfoot, and tbody"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the short for Document Type Definition?",
+      "answer": "!DOCTYPE",
+      "choices": [
+        "!HTML",
+        "!DOCUMENT",
+        "!WEBPAGE",
+        "!DOCTYPE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is referred to as the \"root element\" of an HTML document?",
+      "answer": "html",
+      "choices": [
+        "head",
+        "body",
+        "title",
+        "html"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element shows extra information about an HTML document?",
+      "answer": "title",
+      "choices": [
+        "head",
+        "body",
+        "meta",
+        "title"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the container for metadata in an HTML document?",
+      "answer": "head",
+      "choices": [
+        "html",
+        "body",
+        "title",
+        "head"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is placed between the html and the body tags?",
+      "answer": "head",
+      "choices": [
+        "footer",
+        "body",
+        "title",
+        "head"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to specify page description, author, and character coding?",
+      "answer": "meta",
+      "choices": [
+        "head",
+        "title",
+        "body",
+        "meta"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines the content of an HTML document displayed in the browser?",
+      "answer": "body",
+      "choices": [
+        "head",
+        "html",
+        "title",
+        "body"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines the connection between the current document and an external source?",
+      "answer": "link",
+      "choices": [
+        "script",
+        "a",
+        "src",
+        "link"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to embed a client-side script?",
+      "answer": "script",
+      "choices": [
+        "link",
+        "style",
+        "a",
+        "script"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute points to an external script file?",
+      "answer": "src",
+      "choices": [
+        "href",
+        "link",
+        "script",
+        "src"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a data about data?",
+      "answer": "metadata",
+      "choices": [
+        "datadata",
+        "meta",
+        "data",
+        "metadata"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to embed an image in HTML?",
+      "answer": "img",
+      "choices": [
+        "image",
+        "src",
+        "picture",
+        "img"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute provides an alternate text for an image if it cannot be displayed?",
+      "answer": "alt",
+      "choices": [
+        "src",
+        "title",
+        "description",
+        "alt"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What HTML element is used to group a set of related items?",
+      "answer": "List",
+      "choices": [
+        "Table",
+        "Form",
+        "Division",
+        "List"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to define a list item in HTML?",
+      "answer": "li",
+      "choices": [
+        "list",
+        "item",
+        "ul",
+        "li"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of HTML list starts with the <ul> tag?",
+      "answer": "unordered list",
+      "choices": [
+        "ordered list",
+        "definition list",
+        "description list",
+        "unordered list"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of HTML list starts with the <ol> tag?",
+      "answer": "ordered list",
+      "choices": [
+        "unordered list",
+        "definition list",
+        "description list",
+        "ordered list"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of HTML list starts with the <dl> tag?",
+      "answer": "description list",
+      "choices": [
+        "unordered list",
+        "ordered list",
+        "definition list",
+        "description list"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines an unordered list?",
+      "answer": "ul",
+      "choices": [
+        "ol",
+        "dl",
+        "li",
+        "ul"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines an ordered list?",
+      "answer": "ol",
+      "choices": [
+        "ul",
+        "dl",
+        "li",
+        "ol"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines a description list?",
+      "answer": "dl",
+      "choices": [
+        "ul",
+        "ol",
+        "li",
+        "dl"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines a term in a description list?",
+      "answer": "dt",
+      "choices": [
+        "dd",
+        "li",
+        "dl",
+        "dt"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag describes a term in a description list?",
+      "answer": "dd",
+      "choices": [
+        "dt",
+        "li",
+        "dl",
+        "dd"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to color or mark up a part of a text?",
+      "answer": "Span",
+      "choices": [
+        "Div",
+        "Style",
+        "Mark",
+        "Span"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines a division or section in an HTML document?",
+      "answer": "div",
+      "choices": [
+        "span",
+        "section",
+        "article",
+        "div"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines a set of navigation links in HTML?",
+      "answer": "nav",
+      "choices": [
+        "navigation",
+        "link",
+        "a",
+        "nav"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are used to gather text information from users in HTML forms?",
+      "answer": "Input and Control Functions",
+      "choices": [
+        "Labels",
+        "Attributes",
+        "Events",
+        "Input and Control Functions"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag displays a single-line input field for text in HTML forms?",
+      "answer": "input tag",
+      "choices": [
+        "label tag",
+        "text tag",
+        "form tag",
+        "input tag"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag labels form elements in HTML?",
+      "answer": "label tag",
+      "choices": [
+        "input tag",
+        "form tag",
+        "text tag",
+        "label tag"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute is used to attach a <label> to an <input> element?",
+      "answer": "for attribute",
+      "choices": [
+        "id attribute",
+        "name attribute",
+        "value attribute",
+        "for attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control displays a single-line text input field?",
+      "answer": "Text Field",
+      "choices": [
+        "Radio Button",
+        "Checkbox",
+        "Button",
+        "Text Field"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control allows users to select one of the available options?",
+      "answer": "Radio Button",
+      "choices": [
+        "Text Field",
+        "Checkbox",
+        "Button",
+        "Radio Button"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control allows users to select multiple options?",
+      "answer": "Checkbox",
+      "choices": [
+        "Text Field",
+        "Radio Button",
+        "Button",
+        "Checkbox"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control allows users to input date and time?",
+      "answer": "Date and Time Control",
+      "choices": [
+        "Text Field",
+        "Number Field",
+        "Button",
+        "Date and Time Control"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control is used to create clickable buttons?",
+      "answer": "Button",
+      "choices": [
+        "Text Field",
+        "Radio Button",
+        "Checkbox",
+        "Button"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of button submits form data to a server?",
+      "answer": "Submit Button",
+      "choices": [
+        "Reset Button",
+        "Image Button",
+        "Text Button",
+        "Submit Button"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute specifies the address where the form data will be sent?",
+      "answer": "action attribute",
+      "choices": [
+        "method attribute",
+        "target attribute",
+        "href attribute",
+        "action attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines audio content in HTML?",
+      "answer": "Audio",
+      "choices": [
+        "Video",
+        "Sound",
+        "Music",
+        "Audio"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element specifies the audio source file?",
+      "answer": "source element",
+      "choices": [
+        "audio element",
+        "src attribute",
+        "media element",
+        "source element"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute adds audio controls like play, pause, and volume?",
+      "answer": "control attribute",
+      "choices": [
+        "autoplay attribute",
+        "loop attribute",
+        "muted attribute",
+        "control attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines video content in HTML?",
+      "answer": "Video",
+      "choices": [
+        "Movie",
+        "Clip",
+        "Film",
+        "Video"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute adds video controls like play, pause, and volume?",
+      "answer": "control attribute",
+      "choices": [
+        "autoplay attribute",
+        "loop attribute",
+        "muted attribute",
+        "control attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute displays a thumbnail before playing the video?",
+      "answer": "poster attribute",
+      "choices": [
+        "preview attribute",
+        "thumbnail attribute",
+        "image attribute",
+        "poster attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element specifies the video source file?",
+      "answer": "source element",
+      "choices": [
+        "video element",
+        "src attribute",
+        "media element",
+        "source element"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to draw graphics on a webpage?",
+      "answer": "canvas",
+      "choices": [
+        "div",
+        "video",
+        "img",
+        "canvas"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag has no border and no content in HTML page?",
+      "answer": "canvas",
+      "choices": [
+        "div",
+        "video",
+        "img",
+        "canvas"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is only a container for graphics and requires JavaScript to draw the graphics?",
+      "answer": "canvas",
+      "choices": [
+        "div",
+        "video",
+        "img",
+        "canvas"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What supplies the style for how a webpage should look?",
+      "answer": "CSS",
+      "choices": [
+        "HTML",
+        "JavaScript",
+        "Python",
+        "CSS"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What does CSS stand for?",
+      "answer": "Cascading Style Sheet",
+      "choices": [
+        "Cassading Style Sheet",
+        "Control Style Sheet",
+        "Creative Style Sheet",
+        "Cascading Style Sheet"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the current version of CSS?",
+      "answer": "CSS3",
+      "choices": [
+        "CSS2",
+        "CSS4",
+        "CSS1",
+        "CSS3"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the specific HTML element to be styled with CSS?",
+      "answer": "selector",
+      "choices": [
+        "declaration",
+        "property",
+        "value",
+        "selector"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What part of a CSS rule includes the property and value?",
+      "answer": "declaration",
+      "choices": [
+        "selector",
+        "property",
+        "value",
+        "declaration"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines the style to be applied, such as color or font-size?",
+      "answer": "property",
+      "choices": [
+        "selector",
+        "declaration",
+        "value",
+        "property"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What specifies the settings for the property, like \"blue\" or \"16px\"?",
+      "answer": "value",
+      "choices": [
+        "selector",
+        "declaration",
+        "property",
+        "value"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What punctuation mark ends a CSS declaration?",
+      "answer": "semicolon",
+      "choices": [
+        "colon",
+        "comma",
+        "period",
+        "semicolon"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of style sheet has CSS rulesets inside the HTML document?",
+      "answer": "internal style sheet",
+      "choices": [
+        "external style sheet",
+        "embedded style sheet",
+        "inline style sheet",
+        "internal style sheet"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of style sheet has CSS rulesets in a separate file?",
+      "answer": "external style sheet",
+      "choices": [
+        "internal style sheet",
+        "embedded style sheet",
+        "inline style sheet",
+        "external style sheet"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many primary approaches are there to add CSS to a webpage?",
+      "answer": "two",
+      "choices": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to embed an internal style sheet in an HTML document?",
+      "answer": "style tag",
+      "choices": [
+        "link tag",
+        "css tag",
+        "script tag",
+        "style tag"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file extension is used for external style sheets?",
+      "answer": ".css",
+      "choices": [
+        ".html",
+        ".js",
+        ".txt",
+        ".css"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag links an external style sheet to an HTML document?",
+      "answer": "link tag",
+      "choices": [
+        "style tag",
+        "a tag",
+        "script tag",
+        "link tag"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute in the ink tag specifies the relationship between the HTML document and the linked style sheet?",
+      "answer": "rel attribute",
+      "choices": [
+        "href attribute",
+        "type attribute",
+        "src attribute",
+        "rel attribute"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property defines the font for an element?",
+      "answer": "font-family",
+      "choices": [
+        "font-style",
+        "font-size",
+        "font-weight",
+        "font-family"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a comma-separated list of font families called?",
+      "answer": "font stack",
+      "choices": [
+        "font list",
+        "font group",
+        "font set",
+        "font stack"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property defines the size of the text?",
+      "answer": "font-size",
+      "choices": [
+        "font-family",
+        "text-size",
+        "font-scale",
+        "font-size"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What unit of measurement is commonly used for font size in CSS?",
+      "answer": "pixels",
+      "choices": [
+        "points",
+        "ems",
+        "percentage",
+        "pixels"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the default font size in most browsers?",
+      "answer": "16px",
+      "choices": [
+        "12px",
+        "14px",
+        "10px",
+        "16px"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property defines the boldness of the text?",
+      "answer": "font-weight",
+      "choices": [
+        "font-bold",
+        "text-boldness",
+        "text-weight",
+        "font-weight"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the value for unbolded text in font-weight property?",
+      "answer": "unbolded text",
+      "choices": [
+        "normal",
+        "light",
+        "thin",
+        "unbolded text"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the font-weight property is thinner than normal weight?",
+      "answer": "lighter",
+      "choices": [
+        "light",
+        "thin",
+        "lighter-weight",
+        "lighter"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the font-weight property creates darker text?",
+      "answer": "bold",
+      "choices": [
+        "bolder",
+        "strong",
+        "heavy",
+        "bold"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the font-weight property makes text thicker than bold?",
+      "answer": "bolder",
+      "choices": [
+        "bold",
+        "extra-bold",
+        "heavy",
+        "bolder"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property is used to italicize text?",
+      "answer": "font-style",
+      "choices": [
+        "font-italic",
+        "text-style",
+        "text-italic",
+        "font-style"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property adds emphasis lines to text, like underline or strikethrough?",
+      "answer": "text-decoration",
+      "choices": [
+        "text-style",
+        "font-style",
+        "text-emphasis",
+        "text-decoration"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property aligns text horizontally?",
+      "answer": "text-align",
+      "choices": [
+        "text-alignment",
+        "text-justify",
+        "text-position",
+        "text-align"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many methods are there to define colors in CSS?",
+      "answer": "3 methods",
+      "choices": [
+        2,
+        4,
+        5,
+        "3 methods"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What color method uses a comma-separated list of red, green, and blue values?",
+      "answer": "RGB",
+      "choices": [
+        "CMYK",
+        "HSL",
+        "HSV",
+        "RGB"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What color method uses a six-character code preceded by a \"#\" symbol?",
+      "answer": "Hexadecimal Values",
+      "choices": [
+        "Binary Values",
+        "Decimal Values",
+        "Octal Values",
+        "Hexadecimal Values"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the easiest method to define colors in CSS?",
+      "answer": "Color names",
+      "choices": [
+        "RGB",
+        "Hexadecimal Values",
+        "Color codes",
+        "Color names"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property adds an image or color to the background of an element?",
+      "answer": "background property",
+      "choices": [
+        "background-image",
+        "background-color",
+        "background-size",
+        "background property"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the background-repeat property sets the background without repetition?",
+      "answer": "background-repeat: no-repeat",
+      "choices": [
+        "no-repeat",
+        "repeat-none",
+        "background-repeat: none",
+        "background-repeat: no-repeat"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the background-repeat property repeats the background image horizontally?",
+      "answer": "repeat-x",
+      "choices": [
+        "repeat-y",
+        "repeat",
+        "no-repeat",
+        "repeat-x"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the background-repeat property repeats the background image vertically?",
+      "answer": "repeat-y",
+      "choices": [
+        "repeat-x",
+        "repeat",
+        "no-repeat",
+        "repeat-y"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What model refers to how CSS sees every HTML element as if it is in its own box?",
+      "answer": "box model",
+      "choices": [
+        "element model",
+        "container model",
+        "layout model",
+        "box model"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the four parts of the box model for an HTML element in CSS?",
+      "answer": "borders, paddings, margins, and content",
+      "choices": [
+        "width, height, padding, and border",
+        "margin, border, content, and position",
+        "display, size, position, and float",
+        "borders, paddings, margins, and content"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is it called when elements flow on the page in the order they appear in the HTML code?",
+      "answer": "normal flow",
+      "choices": [
+        "default flow",
+        "natural flow",
+        "standard flow",
+        "normal flow"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property adds spacing around the content?",
+      "answer": "margin",
+      "choices": [
+        "padding",
+        "border",
+        "spacing",
+        "margin"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property adds spacing within the element?",
+      "answer": "padding",
+      "choices": [
+        "margin",
+        "border",
+        "spacing",
+        "padding"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property is also a white space inside a container?",
+      "answer": "padding",
+      "choices": [
+        "margin",
+        "border",
+        "spacing",
+        "padding"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style consists of rounded dots?",
+      "answer": "dotted",
+      "choices": [
+        "dashed",
+        "solid",
+        "double",
+        "dotted"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style is a single, straight, and solid border?",
+      "answer": "solid",
+      "choices": [
+        "dotted",
+        "dashed",
+        "double",
+        "solid"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style uses short dashes or line segments?",
+      "answer": "dashed",
+      "choices": [
+        "dotted",
+        "solid",
+        "double",
+        "dashed"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style has two solid lines?",
+      "answer": "double",
+      "choices": [
+        "solid",
+        "dashed",
+        "dotted",
+        "double"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style looks like a three-dimensional border that is carved into the canvas?",
+      "answer": "groove",
+      "choices": [
+        "ridge",
+        "inset",
+        "outset",
+        "groove"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style is the opposite of the groove style?",
+      "answer": "ridge",
+      "choices": [
+        "groove",
+        "inset",
+        "outset",
+        "ridge"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style makes the content look like it is coming inside of the canvas?",
+      "answer": "inset",
+      "choices": [
+        "outset",
+        "groove",
+        "ridge",
+        "inset"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style makes the content look like it is coming out of the canvas?",
+      "answer": "outset",
+      "choices": [
+        "inset",
+        "groove",
+        "ridge",
+        "outset"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to create a 5px solid black border on all sides of an element?",
+      "answer": "border: 5px solid black;",
+      "choices": [
+        "border-width: 5px; border-style: solid; border-color: black;",
+        "border-all: 5px solid black;",
+        "border-sides: 5px solid black;",
+        "border: 5px solid black;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to add a blue color to all sides of a border?",
+      "answer": "border-color: blue;",
+      "choices": [
+        "border-color-all: blue;",
+        "border: blue;",
+        "border-sides-color: blue;",
+        "border-color: blue;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to specify the colors for the top, bottom, right and left borders?",
+      "answer": "border-color: blue red black;",
+      "choices": [
+        "border-top-color: blue; border-right-color: yellow; border-bottom-color: red; border-left-color: black;",
+        "border-color-all-sides: blue yellow red black;",
+        "border-color-sides: blue yellow red black;",
+        "border-color: blue red black;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to specify colors for the top and bottom borders, and right and left borders?",
+      "answer": "border-color: blue red;",
+      "choices": [
+        "border-top-color: blue; border-bottom-color: blue; border-right-color: red; border-left-color: red;",
+        "border-color-top-bottom: blue; border-color-right-left: red;",
+        "border-color-sides: blue red;",
+        "border-color: blue red;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the color of the top border to red?",
+      "answer": "border-top-color: red;",
+      "choices": [
+        "border-color-top: red;",
+        "border-top: red;",
+        "border: red;",
+        "border-top-color: red;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to display a solid border on all sides?",
+      "answer": "border-style: solid;",
+      "choices": [
+        "border-style-all: solid;",
+        "border: solid;",
+        "border-sides-style: solid;",
+        "border-style: solid;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to specify different border styles for top, right, bottom, and left?",
+      "answer": "border-style: dotted solid dashed double;",
+      "choices": [
+        "border-top-style: dotted; border-right-style: solid; border-bottom-style: dashed; border-left-style: double;",
+        "border-style-all-sides: dotted solid dashed double;",
+        "border-style-sides: dotted solid dashed double;",
+        "border-style: dotted solid dashed double;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the border style for top and bottom, and right and left?",
+      "answer": "border-style: solid dotted;",
+      "choices": [
+        "border-top-style: solid; border-bottom-style: solid; border-right-style: dotted; border-left-style: dotted;",
+        "border-style-top-bottom: solid; border-style-right-left: dotted;",
+        "border-style-sides: solid dotted;",
+        "border-style: solid dotted;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the general syntax to set the style of a specific border side?",
+      "answer": "border-specificside-style: value;",
+      "choices": [
+        "border-side-style: value;",
+        "border-style-side: value;",
+        "border-side: value;",
+        "border-specificside-style: value;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the border width to 5px on all sides?",
+      "answer": "border-width: 5px;",
+      "choices": [
+        "border-width-all: 5px;",
+        "border: 5px;",
+        "border-sides-width: 5px;",
+        "border-width: 5px;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to specify different border widths for top, right, bottom, and left?",
+      "answer": "border-width: 2px 5px 3px 8px;",
+      "choices": [
+        "border-top-width: 2px; border-right-width: 5px; border-bottom-width: 3px; border-left-width: 8px;",
+        "border-width-all-sides: 2px 5px 3px 8px;",
+        "border-width-sides: 2px 5px 3px 8px;",
+        "border-width: 2px 5px 3px 8px;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the border width for top/bottom and right/left?",
+      "answer": "border-width: 4px 5px;",
+      "choices": [
+        "border-top-width: 4px; border-bottom-width: 4px; border-right-width: 5px; border-left-width: 5px;",
+        "border-width-top-bottom: 4px; border-width-right-left: 5px;",
+        "border-width-sides: 4px 5px;",
+        "border-width: 4px 5px;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the width of the right border to 10px?",
+      "answer": "border-right-width: 10px;",
+      "choices": [
+        "border-width-right: 10px;",
+        "border-right: 10px;",
+        "border-width: 10px;",
+        "border-right-width: 10px;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to center the content horizontally within its container using margins?",
+      "answer": "margin: auto;",
+      "choices": [
+        "margin-sides: auto;",
+        "margin-left-right: auto;",
+        "margin-horizontal: auto;",
+        "margin: auto;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Mobile developments have allowed websites to be viewed on any device. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "A responsive web design ensures that the website is accessible and visible no matter what device is used. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the modern solution for creating flexible layouts that work correctly on different screen sizes as it organizes content into rows and columns?",
+      "answer": "CSS Grid",
+      "choices": [
+        "CSS Grid",
+        "Viewport",
+        "Responsive Web Design",
+        "Shin Takara Jima"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What property is written to declare an element to have a grid layout?",
+      "answer": "display: grid;",
+      "choices": [
+        "display: grid;",
+        "display: flex;",
+        "display: css-grid;",
+        "display: block;"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the exact area of the screen rendering the website?",
+      "answer": "Viewport",
+      "choices": [
+        "Viewport",
+        "Screen",
+        "Window",
+        "MainActivity"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the viewport element that should be included in all HTML webpages?",
+      "answer": "<meta>",
+      "choices": [
+        "<meta>",
+        "<viewport>",
+        "<shintakarajima>",
+        "<style>"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element specifies independent and self-content and encloses various elements such as header and paragraphs?",
+      "answer": "<article>",
+      "choices": [
+        "<article>",
+        "<viewport>",
+        "<style>",
+        "<enclosure>"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element specifies some content besides the content it’s placed in and is usually presented as sidebars?",
+      "answer": "<aside>",
+      "choices": [
+        "<aside>",
+        "<viewport>",
+        "<style>",
+        "<enclosure>"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "A website with 6 <p> elements is created. Create CSS code that will layout the elements into 3 columns and 2 rows in the screen where all 3 columns take 30% of the entire screen.",
+      "answer": "div {\r\n\tdisplay: grid;\r\n\tgrid-template-columns: 30% 30% 30%;\r\n}\r\n",
+      "choices": [
+        "div {\r\n\tdisplay: grid;\r\n\tgrid-template-columns: 30% 30% 30%;\r\n}\r\n",
+        "div {\r\n        display: grid;\r\n        grid-template-columns: 30% 30%;\r\n}\r\n",
+        "div {\r\n        display: responsive;\r\n        grid-template-columns: 30% 30% 30%;\r\n}\r\n",
+        "div {\r\n        display: grid;\r\n        grid-columns: 30% 30% 30%;\r\n}\r\n"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "A website with 4 <article> elements is created. Create CSS code that will layout the elements into 2 columns and 2 rows in the screen where the first column takes 68% of the screen while the second takes 28% and where the gap between rows is 20px and the gap between columns is 15px.",
+      "answer": "div {\r\n\tdisplay: grid;\r\n\tgrid-template-columns: 68% 28%;\r\n\trow-gap: 20px;\r\n\tcolumn-gap: 15px;\r\n}\r\n",
+      "choices": [
+        "div {\r\n\tdisplay: grid;\r\n\tgrid-template-columns: 68% 28%;\r\n\trow-gap: 20px;\r\n\tcolumn-gap: 15px;\r\n}\r\n",
+        "div {\r\n        display: grid;\r\n        grid-template-columns: 28% 68%;\r\n        grid-template-row-gap: 20px;\r\n       grid-template-column-gap: 15px;\r\n}\r\n",
+        "div {\r\n        display: grid;\r\n        grid-template-columns:50% 50%;\r\n        grid-template-row-gap: 20px;\r\n       grid-template-column-gap: 15px;\r\n}\r\n",
+        "div {\r\n        display: flex;\r\n        grid-template-columns: 68% 28%;\r\n        row-gap: 20px;\r\n        column-gap: 15px;\r\n}\r\n"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "A website with 10 <div> elements is created. Create CSS code that will layout the elements into 2 columns and 5 rows in the screen where both columns take equal spaces of the available width and all the rows are 20px.",
+      "answer": "body {\r\n\tdisplay: grid;\r\n\tgrid-template-columns: 50% 50%;\r\n\tgrid-template-rows: 20px;\r\n}\r\n",
+      "choices": [
+        "body {\r\n\tdisplay: grid;\r\n\tgrid-template-columns: 50% 50%;\r\n\tgrid-template-rows: 20px;\r\n}\r\n",
+        "body {\r\n        display: grid;\r\n        grid-template-columns: 1/2 1/2;\r\n        grid-template-rows: 20px;\r\n}\r\n",
+        "body {\r\n        display: grid;\r\n        grid-template-columns: 50%;\r\n        grid-template-rows: 20px;\r\n}\r\n",
+        "body {\r\n        display: grid;\r\n        grid-template-columns: 250%;\r\n        grid-template-rows: 20px;\r\n}\r\n"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "A website with 20 <div> elements is created. Create CSS code that will layout the elements into 2 columns and 10 rows in the screen where both columns take equal spaces of the available width and the rows alternate between 100px and 25px.",
+      "answer": "body {\r\n\tdisplay: grid;\r\n\tgrid-template-columns: 50% 50%;\r\n\tgrid-template-rows: 100px 25px;\r\n}\r\n",
+      "choices": [
+        "body {\r\n\tdisplay: grid;\r\n\tgrid-template-columns: 50% 50%;\r\n\tgrid-template-rows: 100px 25px;\r\n}\r\n",
+        "body {\r\n        display: flex;\r\n        grid-template-columns: 50% 50%;\r\n        grid-template-rows: 100px 25px;\r\n}\r\n",
+        "body {\r\n        display: grid;\r\n        grid-template-columns: 50% 50%;\r\n        grid-template-rows: 100px 115px;\r\n}\r\n",
+        "Kunin mo na ang lahat sa akin, wag lang ang CSS ko"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are containers for other rulesets implemented based on the media query results?",
+      "answer": "Media Query",
+      "choices": [
+        "Media Query",
+        "International Cascading Court",
+        "Stylesheets",
+        "Rulesets"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "A website requires that paragraph elements turn red when the viewport is 600px and below. What would be the proper media query?",
+      "answer": "@media screen and (min-width: 600px)",
+      "choices": [
+        "@media screen and (min-width: 600px)",
+        "@media screen only (min-width: 600px)",
+        "@media screen not (min-width: 600px)",
+        "@media screen and (max-width: 600px)"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "A website with an image and video element, both named \"responsivitization\", should take the entire width of the viewport and have its height adjust automatically. Create CSS code to make the requirement a reality.",
+      "answer": ".responsivitization{\r\nwidth: 100%;\r\nheight: auto;\r\n}",
+      "choices": [
+        ".responsivitization{\r\nwidth: 100%;\r\nheight: auto;\r\n}",
+        "responsivitization{\r\nwidth: 100%;\r\nheight: auto;\r\n}",
+        ".responsivitization{\r\nwidth: auto;\r\nheight: auto;\r\n}",
+        ".responsivitization{\r\nwidth: 100%;\r\nheight: 100%;\r\n}"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What makes the website interactive and complex through the implementation of intricate features such as displaying timely content updates and determining what happens when users click, hover, or type within specific elements in the website?",
+      "answer": "JavaScript",
+      "choices": [
+        "JavaScript",
+        "Separation of Concerns",
+        "Internal / Embedded JavaScript",
+        "External JavaScript"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a case-sensitive scripting language for webpages considered as the third standard for web technologies after HTML and CSS?",
+      "answer": "JavaScript",
+      "choices": [
+        "JavaScript",
+        "External JavaScript",
+        "JavaScript Object",
+        "Procedures"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is necessary to have in a separate file, must be in the same directory like a folder, and uses the .js file extension?",
+      "answer": "JavaScript",
+      "choices": [
+        "JavaScript",
+        "Internal / Embedded JavaScript",
+        "External JavaScript",
+        "Method"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What idea states that a program is separated into distinct sections?",
+      "answer": "Separation of Concerns",
+      "choices": [
+        "Separation of Concerns",
+        "JavaScript",
+        "External JavaScript",
+        "JavaScript Object"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is JS code placed and can appear multiple times inside the <head> or <body> tags of an HTML document using <script> tags that encloses JS codes?",
+      "answer": "Internal / Embedded JavaScript",
+      "choices": [
+        "Internal / Embedded JavaScript",
+        "External JavaScript",
+        "JavaScript",
+        "Separation of Concerns"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a separated JS file linked using <script> tags with the src attribute usually placed within <head> tags?",
+      "answer": "External JavaScript",
+      "choices": [
+        "External JavaScript",
+        "Internal / Embedded JavaScript",
+        "JavaScript Object",
+        "JavaScript"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is code that can be treated as an individual unit or component?",
+      "answer": "JavaScript Object",
+      "choices": [
+        "JavaScript Object",
+        "Method",
+        "Procedures",
+        "Arguments"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can be defined and created by programmers based on the program’s need aside from the available object from the Document Object Model (DOM) and Browser Object Model (BOM)?",
+      "answer": "JavaScript Object",
+      "choices": [
+        "JavaScript Object",
+        "External JavaScript",
+        "Internal / Embedded JavaScript",
+        "JavaScript"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are procedures associated with an object called?",
+      "answer": "Method",
+      "choices": [
+        "Method",
+        "Procedures",
+        "Arguments",
+        "JavaScript Object"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the statement bankLoan.calcPayments(60);, what is calcPayments()?",
+      "answer": "Method",
+      "choices": [
+        "Method",
+        "Procedures",
+        "JavaScript Object",
+        "Arguments"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are data passed to the methods called?",
+      "answer": "Arguments",
+      "choices": [
+        "Arguments",
+        "Method",
+        "Procedures",
+        "JavaScript Object"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the statement bankLoan.calcPayments(60);, what is 60?",
+      "answer": "Arguments",
+      "choices": [
+        "Arguments",
+        "Method",
+        "Procedures",
+        "JavaScript Object"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the logical units into which statements such as bankLoan.calcPayments(60); are grouped that perform specific tasks?",
+      "answer": "Procedures",
+      "choices": [
+        "Procedures",
+        "Method",
+        "Arguments",
+        "JavaScript Object"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the grouping of statements that perform specific tasks called in the context of JavaScript Object?",
+      "answer": "Procedures",
+      "choices": [
+        "Procedures",
+        "Method",
+        "JavaScript",
+        "Separation of Concerns"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following is the correct declaration of a line comment?",
+      "answer": "//",
+      "choices": [
+        "//",
+        "/",
+        "/* .. */",
+        "#"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following is the correct declaration of a block comment?",
+      "answer": "/* .. */",
+      "choices": [
+        "//",
+        "/",
+        "/* .. */",
+        "#"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which operators are assignment operators?",
+      "answer": "`=",
+      "choices": [
+        "`=",
+        "&&, ||, !",
+        "`+, -, *, /, %, **, ++, --",
+        "!=, ==, <, >, <=, =>"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which operators are logical operators?",
+      "answer": "&&, ||, !",
+      "choices": [
+        "`=",
+        "&&, ||, !",
+        "`+, -, *, /, %, **, ++, --",
+        "!=, ==, <, >, <=, =>"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which operators are arithmetic operators?",
+      "answer": "`+, -, *, /, %, **, ++, --",
+      "choices": [
+        "`=",
+        "&&, ||, !",
+        "`+, -, *, /, %, **, ++, --",
+        "!=, ==, <, >, <=, =>"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which operators are comparison operators?",
+      "answer": "!=, ==, <, >, <=, =>",
+      "choices": [
+        "`=",
+        "&&, ||, !",
+        "`+, -, *, /, %, **, ++, --",
+        "!=, ==, <, >, <=, =>"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is defined as a value that the program stores in the memory?",
+      "answer": "Variable",
+      "choices": [
+        "Variable",
+        "Data",
+        "Value",
+        "Confidential Funds"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following data types are not a valid data type in JavaScript?",
+      "answer": "Integer",
+      "choices": [
+        "Integer",
+        "String",
+        "Boolean",
+        "Null"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the assigned variable name called?",
+      "answer": "Identifier",
+      "choices": [
+        "Identifier",
+        "Variable name",
+        "Identificationism",
+        "Sabogism"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which of the following rules do not apply in naming an identifier?",
+      "answer": "Must begin with a number.",
+      "choices": [
+        "Must begin with a number.",
+        "Must not have spaces.",
+        "Must not be reserved keywords.",
+        "Pancit"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is the individual line of code enclosed within script tags.",
+      "answer": "Statement",
+      "choices": [
+        "Statement",
+        "Line",
+        "Script",
+        "Code"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What function is used to write custom information into the document?",
+      "answer": "write()",
+      "choices": [
+        "write()",
+        "append()",
+        "console.log()",
+        "print()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Any text, graphics, and other information displayed on the webpage is part of this object.",
+      "answer": "Document",
+      "choices": [
+        "Document",
+        "File",
+        "HTML Page",
+        "Website"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What function is used to display an alert box that has a message and an OK button?",
+      "answer": "alert()",
+      "choices": [
+        "alert()",
+        "append()",
+        "console.log()",
+        "print()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What function is used to print statement that appears in the console (Ctrl+Shift+I)?",
+      "answer": "console.log()",
+      "choices": [
+        "alert()",
+        "append()",
+        "console.log()",
+        "print()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What variable is a set of data represented by a single identifier?",
+      "answer": "Array",
+      "choices": [
+        "Array",
+        "Array Valera",
+        "List",
+        "JSON"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What breaks up the execution flow using decision-making, branching, and looping to enable programs to conditionally execute code blocks?",
+      "answer": "Control Flow",
+      "choices": [
+        "Control Flow",
+        "Loops",
+        "Iterations",
+        "If- statements"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a second form of control flow statement?",
+      "answer": "Loops and Iterations",
+      "choices": [
+        "Loops and Iterations",
+        "Control Flow: The Sequel",
+        "Decision-Making Functions",
+        "Variables"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is an easy way to repeat any fragment of the code as many times as possible, or until a stopping condition is met.",
+      "answer": "Loops and Iterations",
+      "choices": [
+        "Loops and Iterations",
+        "Control Flow: The Sequel",
+        "Decision-Making Functions",
+        "Variables"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Why is it a common practice to name variables as i, j, or k on loop counters?",
+      "answer": "It helps other programmers recognize the loop counter without reading the comments.",
+      "choices": [
+        "It helps other programmers recognize the loop counter without reading the comments.",
+        "It is used early on in the history of programming.",
+        "It helps other programmers find where to end the loop.",
+        "It helps other programmers ano, uh... wait. *checks notes* Absent pala ako non sorry, mapapatawad mo pa ba ako"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is avoided by including at least one statement that eventually results in a false value for the condition.",
+      "answer": "Infinite loop",
+      "choices": [
+        "Infinite loop",
+        "Iteration hell",
+        "Syntax error",
+        "Compilation error"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of loop checks the condition first before executing the code block?",
+      "answer": "while loop",
+      "choices": [
+        "while loop",
+        "do-while loop",
+        "for loop",
+        "loop"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of loop executes the code blockfirst before checking the condition?",
+      "answer": "do-while loop",
+      "choices": [
+        "while loop",
+        "do-while loop",
+        "for loop",
+        "loop"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of loop iterates over the code block by a set number of times?",
+      "answer": "for loop",
+      "choices": [
+        "while loop",
+        "do-while loop",
+        "for loop",
+        "loop"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of control flow statement executes the code block if it satisfies the condition?",
+      "answer": "If statement",
+      "choices": [
+        "If statement",
+        "If-else statement",
+        "If-else-if statement",
+        "Switch-case"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of control flow statement executes the code block if it satisfies the condition, otherwise execute another code block?",
+      "answer": "If-else statement",
+      "choices": [
+        "If statement",
+        "If-else statement",
+        "If-else-if statement",
+        "Switch-case"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of control flow statement executes the code block if it satisfies the condition, otherwise execute another code block only if it satisfies its own condition?",
+      "answer": "If-else-if statement",
+      "choices": [
+        "If statement",
+        "If-else statement",
+        "If-else-if statement",
+        "I forgotti the spaghetti"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is usually assigned a specific name and called many times in different sections?",
+      "answer": "Function",
+      "choices": [
+        "Method",
+        "Class",
+        "Function",
+        "Variable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What encloses a repeated sequence of instructions to increase the code’s readability?",
+      "answer": "Function",
+      "choices": [
+        "Object",
+        "Parameter",
+        "Function",
+        "Condition"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What aims to divide the code into logically independent parts in JavaScript?",
+      "answer": "Function",
+      "choices": [
+        "Comment",
+        "Function",
+        "Array",
+        "Tag"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What helps make a long program that is not a sequence of instructions easier to write?",
+      "answer": "Function",
+      "choices": [
+        "Function",
+        "Import",
+        "Syntax",
+        "Attribute"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What allows easy testing of code fragments independent from the rest of the program?",
+      "answer": "Function",
+      "choices": [
+        "Module",
+        "Function",
+        "Expression",
+        "Literal"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What starts with the function keyword followed by the function name?",
+      "answer": "Function statement",
+      "choices": [
+        "Method declaration",
+        "Class definition",
+        "Function statement",
+        "Variable name"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What follows the same rule as variable names that must relate to the condition to be done?",
+      "answer": "Function statement",
+      "choices": [
+        "Object notation",
+        "Function statement",
+        "Loop initialization",
+        "Array literal"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is then followed by parentheses that enclose function parameters?",
+      "answer": "Function statement",
+      "choices": [
+        "Array declaration",
+        "Function statement",
+        "Loop statement",
+        "Conditional block"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is followed by the function body, which contains the code block?",
+      "answer": "Function statement",
+      "choices": [
+        "Variable assignment",
+        "Function statement",
+        "Object method",
+        "If statement"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is only a preparation for the program to work, even though it contains instructions or code blocks?",
+      "answer": "Function statement",
+      "choices": [
+        "Code execution",
+        "Function call",
+        "Function statement",
+        "Parameter group"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which is a proper way to call the getMeanTemp function?",
+      "answer": "getMeanTemp();",
+      "choices": [
+        "let getMeanTemp;",
+        "call getMeanTemp;",
+        "getMeanTemp();",
+        "getMeanTemp;"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What keyword causes the function to end exactly wherever this word is placed?",
+      "answer": "return",
+      "choices": [
+        "return",
+        "break",
+        "continue",
+        "function"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What allows programmers to return a given value from inside the function to its caller?",
+      "answer": "return",
+      "choices": [
+        "function",
+        "return",
+        "push",
+        "output"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What variable is declared to contain the calculated result in the sample above?",
+      "answer": "result",
+      "choices": [
+        "result",
+        "sum",
+        "return",
+        "average"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is used to store the result that will be returned in the sample above?",
+      "answer": "result",
+      "choices": [
+        "total",
+        "function",
+        "result",
+        "output"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is only usable inside its corresponding function block?",
+      "answer": "local variable",
+      "choices": [
+        "function scope",
+        "local variable",
+        "return type",
+        "global variable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is usually declared inside a function?",
+      "answer": "local variable",
+      "choices": [
+        "global variable",
+        "result",
+        "block code",
+        "local variable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is usable anywhere in the program?",
+      "answer": "global variable",
+      "choices": [
+        "return keyword",
+        "global variable",
+        "sum value",
+        "local scope"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is declared outside any block or function?",
+      "answer": "global variable",
+      "choices": [
+        "constant",
+        "local variable",
+        "variable type",
+        "global variable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What variable is only used to temporarily store the value to be returned?",
+      "answer": "result",
+      "choices": [
+        "result",
+        "meanTemp",
+        "sum",
+        "total"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What can be skipped by replacing it with the appropriate operation directly after return?",
+      "answer": "result",
+      "choices": [
+        "result",
+        "expression",
+        "constant",
+        "output"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are names separated by commas, placed inside the parenthesis after the function name?",
+      "answer": "parameters",
+      "choices": [
+        "return",
+        "variables",
+        "parameters",
+        "constants"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are treated as local variables and are only optional to use in functions?",
+      "answer": "parameters",
+      "choices": [
+        "global vars",
+        "parameters",
+        "expressions",
+        "arguments"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What refer to the values given when a function is called?",
+      "answer": "arguments",
+      "choices": [
+        "outputs",
+        "inputs",
+        "values",
+        "arguments"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What happen due to misconceptions when solving a problem?",
+      "answer": "Errors",
+      "choices": [
+        "Errors",
+        "Exceptions",
+        "Fixes",
+        "Glitches"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What happen due to improper use and types of the programming language?",
+      "answer": "Errors",
+      "choices": [
+        "Functions",
+        "Errors",
+        "Outputs",
+        "Keywords"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What happen due to the inability to predict user behavior?",
+      "answer": "Errors",
+      "choices": [
+        "Errors",
+        "Warnings",
+        "Vocabulary",
+        "Syntax"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What in the programming language is like grammar in natural language?",
+      "answer": "syntax",
+      "choices": [
+        "syntax",
+        "logic",
+        "keywords",
+        "vocabulary"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is a set of rules that defines the structure of the instructions?",
+      "answer": "syntax",
+      "choices": [
+        "keywords",
+        "syntax",
+        "arguments",
+        "commands"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What in the programming language is like the vocabulary in natural language?",
+      "answer": "keywords",
+      "choices": [
+        "instructions",
+        "outputs",
+        "keywords",
+        "functions"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What are the list of words that can be used to build instructions?",
+      "answer": "keywords",
+      "choices": [
+        "rules",
+        "arguments",
+        "keywords",
+        "variables"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What type of error violates the language syntax rule?",
+      "answer": "Syntax Error",
+      "choices": [
+        "Semantic Error",
+        "Syntax Error",
+        "Logical Error",
+        "Warning Error"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error happens when a sentence does not end with a period?",
+      "answer": "Syntax Error",
+      "choices": [
+        "Syntax Error",
+        "Logic Error",
+        "Runtime Error",
+        "Function Error"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the missing grammar element in the error sentence?<BR>After leaving the mall, turn left into the second pth, and drive 600 m. Wait on the spot",
+      "answer": "missing period",
+      "choices": [
+        "period",
+        "comma",
+        "missing period",
+        "semicolon"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is not recognizable in the vocabulary of the natural language?<BR>After leaving the mall, turn left into the second pth, and drive 600 m. Wait on the spot",
+      "answer": "pth",
+      "choices": [
+        "result",
+        "meanTemp",
+        "pth",
+        "command"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What word is used in the example that causes a vocabulary error?<BR>After leaving the mall, turn left into the second pth, and drive 600 m. Wait on the spot",
+      "answer": "pth",
+      "choices": [
+        "return",
+        "let",
+        "pth",
+        "wait"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What type of error is caused by using a word that is out of context?",
+      "answer": "Semantic Error",
+      "choices": [
+        "Syntax Error",
+        "Logical Error",
+        "Semantic Error",
+        "Return Error"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error is not easily detectable by the compiler?",
+      "answer": "Logical Error",
+      "choices": [
+        "Runtime Error",
+        "Logical Error",
+        "Syntax Error",
+        "Output Error"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error occurs if the result is not what was originally the intended direction?",
+      "answer": "Logical Error",
+      "choices": [
+        "Function Error",
+        "Logical Error",
+        "Syntax Error",
+        "Semantic Error"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What word caused the logical error by being different from the original direction?<BR>After leaving the mall, turn left into the second pth, and drive 600 m. Wait on the spot",
+      "answer": "left",
+      "choices": [
+        "left",
+        "return",
+        "wait",
+        "second"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What appears when a code is ill-formed due to typos or unmatched parentheses?",
+      "answer": "SyntaxError",
+      "choices": [
+        "ReferenceError",
+        "SyntaxError",
+        "TypeError",
+        "RangeError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error occurs when the code cannot be executed because JavaScript cannot understand it?",
+      "answer": "SyntaxError",
+      "choices": [
+        "RangeError",
+        "SyntaxError",
+        "throw",
+        "try catch"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the JavaScript engine's response when it finds an unexpected token in an ill-formed statement?",
+      "answer": "SyntaxError",
+      "choices": [
+        "ReferenceError",
+        "Exception",
+        "SyntaxError",
+        "throw"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What occurs when the compiler does not know the meaning of the word or variable used?",
+      "answer": "ReferenceError",
+      "choices": [
+        "throws",
+        "ReferenceError",
+        "SyntaxError",
+        "InvalidError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What happens when the programmer tries to access a function or variable that does not exist?",
+      "answer": "ReferenceError",
+      "choices": [
+        "ReferenceError",
+        "RangeError",
+        "TypeError",
+        "LogicError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What type of error occurs when a variable like c has not been declared anywhere?",
+      "answer": "ReferenceError",
+      "choices": [
+        "ReferenceError",
+        "TypeError",
+        "SyntaxError",
+        "UndefinedError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error occurs when a specific value is not of the expected type?",
+      "answer": "TypeError",
+      "choices": [
+        "SyntaxError",
+        "TypeError",
+        "LogicError",
+        "LengthError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What happens when a constant variable is reassigned?",
+      "answer": "TypeError",
+      "choices": [
+        "ReferenceError",
+        "TypeError",
+        "DeclarationError",
+        "InvalidAssignment"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error is triggered when a number is used as a string in a length check?",
+      "answer": "TypeError",
+      "choices": [
+        "TypeError",
+        "FunctionError",
+        "cast error",
+        "SyntaxError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error is generated when a value is passed to a function outside its acceptable range?",
+      "answer": "RangeError",
+      "choices": [
+        "OverflowError",
+        "LengthError",
+        "SyntaxError",
+        "RangeError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What error is shown when a negative value is used to initialize an array?",
+      "answer": "RangeError",
+      "choices": [
+        "NegativeError",
+        "SyntaxError",
+        "RangeError",
+        "IndexError"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What does JavaScript generate and throw when it detects syntactic or semantic errors?",
+      "answer": "Exceptions",
+      "choices": [
+        "Errors",
+        "Exceptions",
+        "Variables",
+        "breaks"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What appear while the program is running and interrupt the program execution?",
+      "answer": "run-time errors",
+      "choices": [
+        "throw",
+        "syntax errors",
+        "run-time errors",
+        "keywords"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is done to prevent the program from stopping when an error occurs?",
+      "answer": "Exception handling",
+      "choices": [
+        "try",
+        "throws",
+        "Exception handling",
+        "try catch"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is used to handle exceptions in JavaScript that may be thrown during execution?",
+      "answer": "try catch",
+      "choices": [
+        "throw",
+        "fix",
+        "try catch",
+        "block end"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What jumps to the part of the code after an error instead of stopping the program?",
+      "answer": "try catch",
+      "choices": [
+        "exception",
+        "output",
+        "catch",
+        "try catch"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What keyword is used to create and send specific objects with error information?",
+      "answer": "throws",
+      "choices": [
+        "send",
+        "throws",
+        "notify",
+        "return"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is an optional block of the try statement that is always executed no matter what errors are thrown?",
+      "answer": "finally Statement",
+      "choices": [
+        "catch block",
+        "try block",
+        "finally Statement",
+        "error handling"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What can be used with or without the catch block and still execute in all cases?",
+      "answer": "finally Statement",
+      "choices": [
+        "syntax block",
+        "finally Statement",
+        "declaration",
+        "variable"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is required in addition to the finally block to avoid a SyntaxError?",
+      "answer": "try statement",
+      "choices": [
+        "return statement",
+        "try statement",
+        "log function",
+        "conditional block"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the syntax that always includes a block for code to try?",
+      "answer": "try statement",
+      "choices": [
+        "finally",
+        "if block",
+        "try statement",
+        "exception"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is part of troubleshooting in programming?",
+      "answer": "Debugging",
+      "choices": [
+        "Debugging",
+        "Exception handling",
+        "Logging",
+        "Breakpoint"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What causes the program to stop or halt its execution on the line where it is placed?",
+      "answer": "breakpoint",
+      "choices": [
+        "try catch",
+        "console.log",
+        "finally",
+        "breakpoint"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What acts as a breakpoint in the code execution, pausing the debugger execution?",
+      "answer": "Debugging",
+      "choices": [
+        "syntax block",
+        "Debugging",
+        "finalizer",
+        "statement call"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the feature to execute codes one instruction at a time?",
+      "answer": "Step-by-step Program Execution",
+      "choices": [
+        "try catch",
+        "Program breaking",
+        "console tracking",
+        "Step-by-step Program Execution"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What allows the debugger to continue execution from the paused point until another breakpoint is hit?",
+      "answer": "Resume",
+      "choices": [
+        "Resume",
+        "Jump",
+        "Reset",
+        "Log Next"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What runs the program and pauses based on user-defined points set for inspection?",
+      "answer": "breaks",
+      "choices": [
+        "breakpoints",
+        "calls",
+        "logs",
+        "breaks"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What treats the function as a set of instructions to be analyzed in detail?",
+      "answer": "Step Into",
+      "choices": [
+        "Step Over",
+        "Step Into",
+        "Jump Out",
+        "Reset"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What jumps inside the code of the function if it is a function call?",
+      "answer": "Step Into",
+      "choices": [
+        "Step Into",
+        "Step Out",
+        "Skip",
+        "Run Block"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is used when the next instruction is a call to a function where the impact is unclear or uninteresting?",
+      "answer": "Step Over",
+      "choices": [
+        "Step Out",
+        "Step Into",
+        "Resume",
+        "Step Over"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What treats the function call as something indivisible?",
+      "answer": "Step Over",
+      "choices": [
+        "debugger",
+        "Step Over",
+        "Step Out",
+        "finalize"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What allows you to immediately jump out of a function where the code is paused?",
+      "answer": "Step Out",
+      "choices": [
+        "Step Out",
+        "Step Over",
+        "Resume",
+        "Exit"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What proceeds until the function returns if the debugger is inside the code block?",
+      "answer": "Step Out",
+      "choices": [
+        "Step Into",
+        "Step Out",
+        "Step Continue",
+        "Return Block"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the free and open-source developer platform for building websites and applications?",
+      "answer": ".NET",
+      "choices": [
+        "ASP.NET",
+        ".NET Framework",
+        ".NET",
+        "Mono"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What platform is built on a high-performance runtime used by apps like Microsoft Teams and UPS?",
+      "answer": ".NET",
+      "choices": [
+        "Mono",
+        ".NET",
+        ".NET Core",
+        "Blazor"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What platform allows apps and libraries to be built from a project file and source code?",
+      "answer": ".NET",
+      "choices": [
+        ".NET Framework",
+        "Razor Pages",
+        ".NET",
+        "ASP.NET MVC"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What platform is often called a “managed code” runtime due to its garbage collector?",
+      "answer": ".NET",
+      "choices": [
+        "Common Language Runtime",
+        "ASP.NET",
+        ".NET",
+        "Web Forms"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the set of tools, libraries, and runtimes for building and testing apps in .NET?",
+      "answer": ".NET SDK",
+      "choices": [
+        "ASP.NET Frameworks",
+        ".NET SDK",
+        ".NET Core",
+        "Razor Pages"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is considered the foundation all .NET apps are built on?",
+      "answer": "Common Language Runtime",
+      "choices": [
+        "ASP.NET MVC",
+        "Razor Pages",
+        ".NET Framework",
+        "Common Language Runtime"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What .NET language is general-purpose and object-oriented?",
+      "answer": "C#",
+      "choices": [
+        "Visual Basic",
+        "C#",
+        "F#",
+        "Blazor"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What language in .NET is data-oriented and used for performant code?",
+      "answer": "F#",
+      "choices": [
+        "F#",
+        "C#",
+        "Razor Pages",
+        "Web Forms"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What .NET language is event-driven and offers a GUI via drag-and-drop?",
+      "answer": "Visual Basic",
+      "choices": [
+        "ASP.NET MVC",
+        "Visual Basic",
+        ".NET CLI",
+        "C#"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What .NET version is a software development framework for building applications on Windows?",
+      "answer": ".NET Framework",
+      "choices": [
+        ".NET SDK",
+        ".NET Framework",
+        "ASP.NET",
+        "Mono"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What version provides SDK features to develop .NET apps across platforms?",
+      "answer": "Mono",
+      "choices": [
+        ".NET Core",
+        "ASP.NET",
+        "Mono",
+        "C#"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What cross-platform version of .NET is used for cloud apps on Linux, macOS, and Windows?",
+      "answer": ".NET Core",
+      "choices": [
+        "Blazor",
+        ".NET Framework",
+        ".NET Core",
+        "Visual Basic"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What framework lets programmers build dynamic webpages for Windows, Linux, and Docker?",
+      "answer": "ASP.NET",
+      "choices": [
+        "ASP.NET MVC",
+        "Razor Pages",
+        ".NET Core",
+        "ASP.NET"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does ASP in ASP.NET stand for?",
+      "answer": "Active Server Pages",
+      "choices": [
+        "Blazor",
+        "Active Server Pages",
+        "ASP.NET Frameworks",
+        "Common Language Runtime"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What file extension is used for ASP.NET pages written in C#?",
+      "answer": ".aspx",
+      "choices": [
+        "Razor Pages",
+        ".NET",
+        ".aspx",
+        ".NET Core"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What extends the .NET platform with tools and libraries for web apps?",
+      "answer": "ASP.NET",
+      "choices": [
+        ".NET SDK",
+        "ASP.NET",
+        ".NET Framework",
+        "Mono"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET component allows web UIs without JavaScript?",
+      "answer": "Blazor",
+      "choices": [
+        "Razor Pages",
+        "Blazor",
+        "C#",
+        "ASP.NET Web Pages"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What syntax puts server-side C# logic inside HTML for webpage development?",
+      "answer": "Razor Pages",
+      "choices": [
+        "ASP.NET MVC",
+        "Razor Pages",
+        ".aspx",
+        "F#"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What provides template pages and libraries for login and authentication?",
+      "answer": "Authentication Systems",
+      "choices": [
+        "ASP.NET Frameworks",
+        "Razor Pages",
+        "Authentication Systems",
+        ".NET SDK"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is based on the .NET Framework and shares its code functionalities?",
+      "answer": "ASP.NET Frameworks",
+      "choices": [
+        "ASP.NET Frameworks",
+        ".NET CLI",
+        ".NET Core",
+        "Authentication Systems"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET tool uses drag-and-drop and a design surface for UI-rich websites?",
+      "answer": "Web Forms",
+      "choices": [
+        "ASP.NET MVC",
+        "Web Forms",
+        "ASP.NET Web Pages",
+        "Visual Basic"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET pattern separates UI from business logic?",
+      "answer": "Model View Controller",
+      "choices": [
+        "ASP.NET Web Pages",
+        "Web Forms",
+        "Razor Pages",
+        "Model View Controller"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework enables TDD-friendly app development and HTML control?",
+      "answer": "ASP.NET MVC",
+      "choices": [
+        "ASP.NET MVC",
+        ".NET SDK",
+        "Web Forms",
+        "Mono"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework is best for mobile and single-page applications?",
+      "answer": "ASP.NET MVC",
+      "choices": [
+        "ASP.NET Frameworks",
+        "ASP.NET MVC",
+        "ASP.NET Web Pages",
+        "Blazor"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What framework allows mixing server code and HTML in one file for dynamic content?",
+      "answer": "ASP.NET Web Pages",
+      "choices": [
+        "Razor Pages",
+        "Web Forms",
+        "ASP.NET Web Pages",
+        "Blazor"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What framework is described as fast, lightweight, and used for embedding social media?",
+      "answer": "ASP.NET Web Pages",
+      "choices": [
+        "Web Forms",
+        "ASP.NET MVC",
+        "ASP.NET Web Pages",
+        ".NET Core"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework is used for building HTTP services that can be accessed using browsers and mobile devices?",
+      "answer": "ASP.NET Web API",
+      "choices": [
+        "ASP.NET Web Pages",
+        "ASP.NET MVC",
+        "ASP.NET Web API",
+        "Web Forms"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET real-time technology is a new library that makes developing real-time web functionality easier?",
+      "answer": "ASP.NET SignalR",
+      "choices": [
+        "ASP.NET SPA",
+        "ASP.NET Core",
+        "ASP.NET SignalR",
+        "Razor Pages"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET real-time technology allows bidirectional communication between the server and client browser by choosing the best method based on the capabilities of each?",
+      "answer": "ASP.NET SignalR",
+      "choices": [
+        "ASP.NET Core",
+        "ASP.NET SignalR",
+        "Web Forms",
+        "ASP.NET Web API"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What helps build applications with major client-side interaction using HTML 5, CSS3, and JavaScript that load an HTML webpage and dynamically update it?",
+      "answer": "ASP.NET SPA",
+      "choices": [
+        "ASP.NET MVC",
+        "ASP.NET SPA",
+        "Razor Pages",
+        "Blazor"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET technology can power native mobile apps with a Web API backend?",
+      "answer": "ASP.NET Core",
+      "choices": [
+        "ASP.NET Web API",
+        "ASP.NET Core",
+        "ASP.NET SPA",
+        "ASP.NET Web Pages"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework can power mobile websites using responsive design frameworks?",
+      "answer": "ASP.NET Core",
+      "choices": [
+        "ASP.NET Core",
+        "ASP.NET SignalR",
+        "ASP.NET MVC",
+        "ASP.NET Web API"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework is a cross-platform, high-performance, open-source framework that runs on .NET Core to build modern, cloud-enabled, and internet-connected web apps?",
+      "answer": "ASP.NET Core",
+      "choices": [
+        "ASP.NET Core",
+        "ASP.NET Web Pages",
+        "ASP.NET WebHost",
+        "Web Forms"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework can be developed and run on Windows, macOS, and Linux?",
+      "answer": "ASP.NET Core",
+      "choices": [
+        "ASP.NET MVC",
+        "ASP.NET Core",
+        "ASP.NET SPA",
+        "ASP.NET Web Pages"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework is the new and enhanced version of ASP.NET with better functionality and libraries?",
+      "answer": "ASP.NET Core",
+      "choices": [
+        "ASP.NET Core",
+        ".NET Framework",
+        "Web Forms",
+        "ASP.NET WebHost"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET framework is a repurposed version of ASP.NET 4.x resulting in a leaner and more modular framework?",
+      "answer": "ASP.NET Core",
+      "choices": [
+        "ASP.NET MVC",
+        "ASP.NET Core",
+        "Web Forms",
+        "ASP.NET WebHost"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What file contains the application startup code in ASP.NET Core apps created with web templates?",
+      "answer": "Program.cs",
+      "choices": [
+        "Program.cs",
+        "Startup.cs",
+        "Settings.json",
+        "Razor.cshtml"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What root defaults to the project’s root directory during development in ASP.NET Core?",
+      "answer": "Content Root",
+      "choices": [
+        "Web Root",
+        "Razor Pages",
+        "Content Root",
+        "Project Path"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What includes the executable hosting the application (.exe)?",
+      "answer": "Content Root",
+      "choices": [
+        "Host",
+        "Middleware",
+        "Logging",
+        "Content Root"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What contains the compiled assemblies of the app (.dll)?",
+      "answer": "Content Root",
+      "choices": [
+        "Razor Pages",
+        "Host",
+        "Middleware",
+        "Content Root"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What includes content files used by the app such as configuration files and Razor files?",
+      "answer": "Content Root",
+      "choices": [
+        "Content Root",
+        "Web Root",
+        "Program.cs",
+        "Host"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What contains the path for resource files, including images, stylesheets, and JavaScript, usually in a wwwroot folder?",
+      "answer": "Web Root",
+      "choices": [
+        "Web Root",
+        "Content Root",
+        "Middleware",
+        "Configuration"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ASP.NET Core feature encapsulates all of the app’s resources on startup?",
+      "answer": "Host",
+      "choices": [
+        "Host",
+        "Middleware",
+        "ASP.NET Core WebHost",
+        "ASP.NET Core WebApplication"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host resource works with built-in and third-party logging providers such as Debug and Azure App Service?",
+      "answer": "Logging",
+      "choices": [
+        "Middleware",
+        "Configuration",
+        "Logging",
+        "Status Code Page"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host resource uses one or more configuration providers such as Azure Key Vault and Environment Variable?",
+      "answer": "Configuration",
+      "choices": [
+        "Logging",
+        "Middleware",
+        "Configuration",
+        "Dependency Injection (DI) Services"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host resource is software arranged into an app pipeline to control HTTP requests and responses?",
+      "answer": "Middleware",
+      "choices": [
+        "Middleware",
+        "Host",
+        "Configuration",
+        "Logging"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host resource makes configured services available throughout the app?",
+      "answer": "Dependency Injection (DI) Services",
+      "choices": [
+        "Logging",
+        "Middleware",
+        "Dependency Injection (DI) Services",
+        "Status Code Page"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the most used host in all ASP.NET templates?",
+      "answer": "ASP.NET Core WebApplication / Minimal Host",
+      "choices": [
+        ".NET Generic Host",
+        "ASP.NET Core WebHost",
+        "ASP.NET Core WebApplication / Minimal Host",
+        "Program.cs"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host behaves similarly to the .NET Generic Host but needs fewer callbacks to configure?",
+      "answer": "ASP.NET Core WebApplication / Minimal Host",
+      "choices": [
+        "ASP.NET Core WebApplication / Minimal Host",
+        "ASP.NET Core WebHost",
+        "Logging",
+        "Middleware"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host is integrated with ASP.NET Core’s ConfigureWebHostDefaults?",
+      "answer": ".NET Generic Host",
+      "choices": [
+        "ASP.NET Core WebHost",
+        "Program.cs",
+        ".NET Generic Host",
+        "Razor Pages"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What host is available only for backwards compatibility?",
+      "answer": "ASP.NET Core WebHost",
+      "choices": [
+        ".NET Generic Host",
+        "Program.cs",
+        "ASP.NET Core WebHost",
+        "Content Root"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What error-handling feature provides complete information about unhandled request exceptions?",
+      "answer": "Developer Exception Page",
+      "choices": [
+        "Custom Error Page",
+        "Status Code Page",
+        "Developer Exception Page",
+        "Logging"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What error-handling feature is enabled by default in the Development environment of ASP.NET Core?",
+      "answer": "Developer Exception Page",
+      "choices": [
+        "Developer Exception Page",
+        "Custom Error Page",
+        "Startup Exception Handling",
+        "Middleware"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What error-handling feature uses UseExceptionHandler to configure a custom error handling page for the Production environment?",
+      "answer": "Custom Error Page",
+      "choices": [
+        "Developer Exception Page",
+        "Status Code Page",
+        "Custom Error Page",
+        "Host"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What error-handling feature uses UseStatusCodePages in Program.cs for HTTP error codes like 404 – Not Found?",
+      "answer": "Status Code Page",
+      "choices": [
+        "Status Code Page",
+        "Custom Error Page",
+        "Developer Exception Page",
+        "Middleware"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What error-handling feature handles exceptions during app startup to capture startup and detailed errors?",
+      "answer": "Startup Exception Handling",
+      "choices": [
+        "Middleware",
+        "Host",
+        "Startup Exception Handling",
+        "Logging"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}
