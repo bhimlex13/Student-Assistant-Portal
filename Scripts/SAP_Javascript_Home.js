@@ -502,7 +502,7 @@ function SAP_SpecifyItems_Evaluate(Value) {
 function SAP_SpecifyItems_Warn(Value) {
     console.log("Warning on value:", Value);
 
-    SAP_SpecifyItems_Evaluate_Opacity = SAP_SpecifyItems_Evaluate_Opacity + 7;
+    SAP_SpecifyItems_Evaluate_Opacity = SAP_SpecifyItems_Evaluate_Opacity + 1;
     Subwindows_Open("SAP_Error_Validation");
     Element_Attribute_Set("Home_MFSTOP", "style", `opacity: ${SAP_SpecifyItems_Evaluate_Opacity}%`);
 
@@ -533,7 +533,7 @@ function SAP_DomainExpansion(){
         setTimeout(function(){
             location.reload();
         }, 3000);
-    }, 3000);
+    }, 2800);
 }
 
 // Schedules
