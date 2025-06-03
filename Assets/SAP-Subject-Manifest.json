@@ -6,7 +6,7 @@
             "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_GB_Demo.png",
             "Subject_Status": "Active",
             "Subject_Module": [
-                {   
+                {
                     "Module_ID": "C3_S1_GB_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
@@ -59,7 +59,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S1_GB_Midterms",
                     "Module_Name": "Midterms",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
@@ -134,7 +134,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S2_GB_Prefinals",
                     "Module_Name": "Prefinals",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
@@ -187,7 +187,7 @@
                         }
                     ]
                 },
-                              {   
+                {
                     "Module_ID": "C3_S2_GB_Finals",
                     "Module_Name": "Finals",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
@@ -227,7 +227,6 @@
                             "Subfolder_LastModified": "3 June 2025",
                             "Subfolder_Status": "Active"
                         }
-                        
                     ]
                 }
             ]
@@ -238,7 +237,7 @@
             "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_IAS_Demo.png",
             "Subject_Status": "Active",
             "Subject_Module": [
-                {   
+                {
                     "Module_ID": "C3_S1_IAS_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
@@ -346,7 +345,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S1_IAS_Midterms",
                     "Module_Name": "Midterms",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
@@ -432,7 +431,7 @@
                         },
                         {
                             "Subfolder_ID": "C3_S2_IAS_Midterms_8",
-                            "Subfolder_Name": "Midterms Reviewer Pro Max: [All Midterm Topics]" ,
+                            "Subfolder_Name": "Midterms Reviewer Pro Max: [All Midterm Topics]",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S2_IAS_Midterms_8",
                             "Subfolder_Author": [
@@ -443,7 +442,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S2_IAS_Prefinals",
                     "Module_Name": "Prefinals",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
@@ -581,7 +580,7 @@
             "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_CP1_Demo.png",
             "Subject_Status": "Inactive",
             "Subject_Module": [
-                {   
+                {
                     "Module_ID": "C3_S1_CP1_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
@@ -609,7 +608,7 @@
             "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_MIS_Demo.png",
             "Subject_Status": "Active",
             "Subject_Module": [
-                {   
+                {
                     "Module_ID": "C3_S1_MIS_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
@@ -662,7 +661,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S1_MIS_Midterms",
                     "Module_Name": "Midterms",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
@@ -715,7 +714,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S1_MIS_Prefinals",
                     "Module_Name": "Prefinals",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
@@ -768,7 +767,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S1_MIS_Finals",
                     "Module_Name": "Finals",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
@@ -829,7 +828,7 @@
             "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_MST_Demo.png",
             "Subject_Status": "Active",
             "Subject_Module": [
-                {   
+                {
                     "Module_ID": "C3_S1_MST_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
@@ -871,7 +870,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S1_MST_Midterms",
                     "Module_Name": "Midterms",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
@@ -910,10 +909,10 @@
                             ],
                             "Subfolder_LastModified": "11 March 2025",
                             "Subfolder_Status": "Active"
-                        }  
+                        }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S1_MST_Prefinals",
                     "Module_Name": "Prefinals",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
@@ -955,7 +954,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S1_MST_Finals",
                     "Module_Name": "Finals",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
@@ -983,7 +982,7 @@
             "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_PL_Demo.png",
             "Subject_Status": "Active",
             "Subject_Module": [
-                {   
+                {
                     "Module_ID": "C3_S1_PL_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
@@ -1058,7 +1057,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S1_PL_Midterms",
                     "Module_Name": "Midterms",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
@@ -1144,7 +1143,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S1_PL_Prefinals",
                     "Module_Name": "Prefinals",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
@@ -1186,7 +1185,7 @@
                         }
                     ]
                 },
-                 {   
+                {
                     "Module_ID": "C3_S1_PL_Finals",
                     "Module_Name": "Finals",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
@@ -1203,6 +1202,39 @@
                             ],
                             "Subfolder_LastModified": "03 June 2025",
                             "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Finals_2",
+                            "Subfolder_Name": "08 Handout 1 - Subprograms",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Finals_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "03 June 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Finals_3",
+                            "Subfolder_Name": "All Finals Quiz",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Finals_3",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "03 June 2025",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Finals_4",
+                            "Subfolder_Name": "Prelims - Finals Quiz",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Finals_4",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "03 June 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }
@@ -1214,7 +1246,7 @@
             "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_WST_Demo.png",
             "Subject_Status": "Active",
             "Subject_Module": [
-                {   
+                {
                     "Module_ID": "C3_S1_WST_Prelims",
                     "Module_Name": "Prelims",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prelims_1.png",
@@ -1267,7 +1299,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S1_WST_Midterms",
                     "Module_Name": "Midterms",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
@@ -1309,7 +1341,7 @@
                         }
                     ]
                 },
-                {   
+                {
                     "Module_ID": "C3_S1_WST_Prefinals",
                     "Module_Name": "Prefinals",
                     "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Prefinals_1.png",
@@ -1351,9 +1383,7 @@
                         }
                     ]
                 }
-                
             ]
         }
-        
     ]
 }
