@@ -639,6 +639,71 @@
     background-color: var(--SAP-Main-BG-Color);
 }
 
+.Modal_HasImage{
+    width: 50%;
+}
+
+.Modal_HasImage > .Subwindow_Content{
+    padding: 20px;
+    margin-bottom: 10px;
+    overflow-y: hidden;
+}
+
+.Modal_HasImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.Modal_HasImageWithDialog{
+    width: 55%;
+}
+
+.Modal_HasImageWithDialog img{
+    width: -webkit-fill-available;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.Modal_FullScreen{
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    border-radius: unset;
+}
+
+.Modal_FullScreen *{
+    overflow-y: hidden;
+    background-color: black;
+}
+
+.Modal_FullScreen img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.SAP_DomainExpansion_Blast_Flash{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    opacity: 0%;
+    transition-duration: 1.5s !important;
+}
+
+.SAP_DomainExpansion_Blast_Flash[State = "Active"]{
+    opacity: 100%;
+}
+
 .SAP_SpecifyItems{
     display: flex;
     flex-direction: column;
@@ -668,7 +733,7 @@
     height: 100%;
     object-fit: contain;
     pointer-events: none;
-    background-image: url("../Assets/Images/MFSTOP.png");
+    background-image: url("../Assets/Images/Huh.png");
     background-position: center;
     opacity: 0;
     z-index: 1001;

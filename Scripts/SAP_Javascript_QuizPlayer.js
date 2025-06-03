@@ -467,23 +467,32 @@ function Quiz_Question_Next(){
     }
 }
 
-var Finishers_Perfect = ["Assets/Images/Finisher_Perfect/perfect-score-100.gif", 
+/*var Finishers_Perfect = ["Assets/Images/Finisher_Perfect/perfect-score-100.gif", 
     "Assets/Images/Finisher_Perfect/perfect-sponge.gif", 
-    "Assets/Images/Finisher_Perfect/try-me.gif"];
+    "Assets/Images/Finisher_Perfect/try-me.gif",
+    "Assets/Images/Finisher_Perfect/5.gif"];
 var Finishers_Good = ["Assets/Images/Finisher_Good/clap.gif", 
     "Assets/Images/Finisher_Good/rikka-takanashi-takanashi-rikka.gif", 
     "Assets/Images/Finisher_Good/sanditon-just-try.gif", 
     "Assets/Images/Finisher_Good/that's-still-not-perfect-ignace-aleya.gif", 
     "Assets/Images/Finisher_Good/try-me.gif", 
     "Assets/Images/Finisher_Good/yes-win.gif", 
-    "Assets/Images/Finisher_Good/YEYYYY.gif"];
+    "Assets/Images/Finisher_Good/YEYYYY.gif",
+    "Assets/Images/Finisher_Good/10.gif",
+    "Assets/Images/Finisher_Good/11.gif",
+    "Assets/Images/Finisher_Good/12.gif",];
 var Finishers_Excellent = ["Assets/Images/Finisher_Excellent/1.gif",
     "Assets/Images/Finisher_Excellent/2.gif",
     "Assets/Images/Finisher_Excellent/3.gif",
     "Assets/Images/Finisher_Excellent/4.gif",
     "Assets/Images/Finisher_Excellent/5.gif",
     "Assets/Images/Finisher_Excellent/6.gif",
-    "Assets/Images/Finisher_Excellent/7.gif"];
+    "Assets/Images/Finisher_Excellent/7.gif",
+    "Assets/Images/Finisher_Excellent/8.gif",
+    "Assets/Images/Finisher_Excellent/9.gif",
+    "Assets/Images/Finisher_Excellent/10.gif",
+    "Assets/Images/Finisher_Excellent/11.gif",
+    "Assets/Images/Finisher_Excellent/12.gif"];
 var Finishers_Terrible = ["Assets/Images/Finisher_Terrible/1.gif",
     "Assets/Images/Finisher_Terrible/2.gif",
     "Assets/Images/Finisher_Terrible/3.gif",
@@ -498,7 +507,28 @@ var Finishers_Terrible = ["Assets/Images/Finisher_Terrible/1.gif",
     "Assets/Images/Finisher_Terrible/12.jpg",
     "Assets/Images/Finisher_Terrible/13.jpg",
     "Assets/Images/Finisher_Terrible/14.jpg",
-    "Assets/Images/Finisher_Terrible/15.jpg"];
+    "Assets/Images/Finisher_Terrible/15.jpg",
+    "Assets/Images/Finisher_Terrible/16.gif",
+    "Assets/Images/Finisher_Terrible/17.gif"];*/
+
+var Finishers_Perfect = [
+    "Assets/Images/Finisher_Perfect/5.gif"];
+var Finishers_Good = [
+    "Assets/Images/Finisher_Good/YEYYYY.gif",
+    "Assets/Images/Finisher_Good/10.gif",
+    "Assets/Images/Finisher_Good/11.gif",
+    "Assets/Images/Finisher_Good/12.gif",];
+var Finishers_Excellent = [
+    "Assets/Images/Finisher_Excellent/7.gif",
+    "Assets/Images/Finisher_Excellent/8.gif",
+    "Assets/Images/Finisher_Excellent/9.gif",
+    "Assets/Images/Finisher_Excellent/10.gif",
+    "Assets/Images/Finisher_Excellent/11.gif",
+    "Assets/Images/Finisher_Excellent/12.gif"];
+var Finishers_Terrible = ["Assets/Images/Finisher_Terrible/1.gif",
+    "Assets/Images/Finisher_Terrible/2.gif",
+    "Assets/Images/Finisher_Terrible/16.gif",
+    "Assets/Images/Finisher_Terrible/17.gif"];
 
 // Preloads the finisher images
 function Quiz_FinisherImage_Pick(){
