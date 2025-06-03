@@ -1185,6 +1185,26 @@
                             "Subfolder_Status": "Active"
                         }
                     ]
+                },
+                 {   
+                    "Module_ID": "C3_S1_PL_Finals",
+                    "Module_Name": "Finals",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Finals_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "03 June 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_PL_Finals_1",
+                            "Subfolder_Name": "07 Handout 1 - Control Structures",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_PL_Finals_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "03 June 2025",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
                 }
             ]
         },
