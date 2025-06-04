@@ -972,7 +972,7 @@
                     "Module_Subfolders": [
                         {
                             "Subfolder_ID": "C3_S1_MST_Finals_Quiz",
-                            "Subfolder_Name": "SQLite Databases",
+                            "Subfolder_Name": "Quiz",
                             "Subfolder_Description": "Description of the subfolder here",
                             "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MST_Finals_Quiz",
                             "Subfolder_Author": [
