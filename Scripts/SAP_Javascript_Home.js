@@ -4,7 +4,7 @@ let Onload_Requirements = {
     // Set to false if you want the splash to open every load of the page
     Splash_OpenOncePerSession: true,
     // Increment this on any major changes in the system so the WhatsNew window will open
-    Version: 4
+    Version: 5
 }
 
 var Quizzes_Explorer_Mode = "Home";
@@ -526,6 +526,7 @@ function SAP_DomainExpansion(){
     Element_Attribute_Set("Home_MFSTOP", "style", "opacity: 0%");
     Subwindows_Open('SAP_RS_11');
     sessionStorage.removeItem("SAP_UserHasSignedIn");
+    localStorage.removeItem("SAP_Version");
     document.getElementById("SAP_DomainExpansion_Blast").src = "";
     document.getElementById("SAP_DomainExpansion_Blast").src = "Assets/Images/blast.gif";
     setTimeout(function(){

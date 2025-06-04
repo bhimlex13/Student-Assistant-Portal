@@ -980,6 +980,37 @@
                             ],
                             "Subfolder_LastModified": "22 May 2025",
                             "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_MST_Finals_1",
+                            "Subfolder_Name": "SQLite Databases",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MST_Finals_1",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "4 June 2025",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
+                },
+                {
+                    "Module_ID": "C3_S1_MST_Full",
+                    "Module_Name": "Full Course Review",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Placeholder.gif",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "4 June 2025",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_MST_Finals_2",
+                            "Subfolder_Name": "Full Course Review - MST",
+                            "Subfolder_Description": "Description of the subfolder here",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_MST_Finals_2",
+                            "Subfolder_Author": [
+                                "Elmer Felisilda"
+                            ],
+                            "Subfolder_LastModified": "4 June 2025",
+                            "Subfolder_Status": "Active"
                         }
                     ]
                 }
