@@ -8,7 +8,7 @@
             "Section_Name": "IT701-A",
             "Section_Schedule": [
                 {
-                    "Schedule_Day": "August 28 | Thursday",
+                    "Schedule_Day": "October 1 | Wednesday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Information Assurance & Security",
@@ -17,13 +17,13 @@
                         },
                         {
                             "Subject_Name": "IT Service Management",
-                            "Subject_Duration": ["10:00 AM", "11:30 AM"],
-                            "Subject_Location": "Rm. 307"
+                            "Subject_Duration": ["8:30 AM", "10:00 AM"],
+                            "Subject_Location": "Comp. Lab 1"
                         }
                     ]
                 },
                 {
-                    "Schedule_Day": "August 29 | Friday",
+                    "Schedule_Day": "October 2 | Thursday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Network Technology 2",
@@ -33,12 +33,12 @@
                         {
                             "Subject_Name": "Computer Graphics Programming",
                             "Subject_Duration": ["8:30 AM", "10:00 AM"],
-                            "Subject_Location": "Rm. 307"
+                            "Subject_Location": "Comp. Lab 1"
                         }
                     ]
                 },
                 {
-                    "Schedule_Day": "August 30 | Saturday",
+                    "Schedule_Day": "October 3 | Friday",
                     "Schedule_Subjects": [
                         {
                             "Subject_Name": "Game Development",
