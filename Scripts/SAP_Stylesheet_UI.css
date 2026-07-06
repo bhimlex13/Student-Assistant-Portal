@@ -244,3 +244,21 @@ button{
 .Subwindow_Bottom_Button_SecondaryAction{
 
 }
+
+.Input_Text{
+    background-color: var(--SAP-Main-BG-Color);
+    border-color: var(--SAP-Gray-Level-3D);
+    color: var(--Text-Color);
+}
+
+.Input_Text:hover{
+    background-color: var(--SAP-Gray-Level-2L);
+    border-color: var(--SAP-Gray-Level-3D);
+    box-shadow: unset;
+}
+
+.Input_Text:focus, .Input_Text:focus:hover{
+    background-color: var(--SAP-Gray-Level-2L);
+    border-color: var(--SAP-Purple-Level-1L);
+    box-shadow: unset;
+}

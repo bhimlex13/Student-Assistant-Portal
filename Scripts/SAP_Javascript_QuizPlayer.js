@@ -23,10 +23,10 @@ var Sound_Perfect = new Audio("Assets/Sound_Effects/challenge_complete_old.ogg")
 var Sound_Good = new Audio("Assets/Sound_Effects/Good.mp3");
 var Sound_Bad = new Audio("Assets/Sound_Effects/Bad.mp3");
 
-window.addEventListener('beforeunload', (event) => {
-    event.preventDefault();
-    Subwindows_Open('Quiz_Refresh');
-});
+// window.addEventListener('beforeunload', (event) => {
+//     event.preventDefault();
+//     Subwindows_Open('Quiz_Refresh');
+// });
     
 
 
@@ -37,7 +37,7 @@ window.addEventListener("DOMContentLoaded", () => {
     Radio_Select(Settings_Data.QuizMode);
     Quiz_Mode_Set();
     setTimeout(function(){
-        document.getElementById("Quiz_Starter_Loader").setAttribute("State", "Inactive");
+        LoadingScreen_Hide();
         document.getElementById("Quiz_Starter_Content").setAttribute("State", "Active");
     }, 500);
     Quiz_Load_Data();
@@ -47,9 +47,9 @@ window.addEventListener("DOMContentLoaded", () => {
 function Quiz_Start(){
     Quiz_Mode_Set();
     Element_Attribute_Set("Quiz_Starter", "State", "Inactive");
-    setTimeout(function(){
-        Element_Attribute_Set("Quiz_Starter", "Display", "none");
-    }, 500);
+    // setTimeout(function(){
+    //     Element_Attribute_Set("Quiz_Starter", "Display", "none");
+    // }, 500);
     
     Quiz_Question_Build();
 }
@@ -88,6 +88,21 @@ function Quiz_Load_Data(){
         Quiz_Data = JSON.parse(response);
         Quiz_Data_Metadata = Quiz_Data.quizInfo;
         Quiz_Data_Questions = Quiz_Order_Shuffle(Quiz_Data.quizData);
+        Quiz_WorkingData = Quiz_Data_Questions;
+
+        if(UF_Parameter_Get('MaxCount') != null && UF_Parameter_Get('MaxCount') > 0){
+            Quiz_Data_Questions.splice(0, Quiz_Data_Questions.length - UF_Parameter_Get('MaxCount'));
+        }
+        console.log(Quiz_Data_Questions.length);
+        console.log(Quiz_Data_Questions);
+
+        for (a = 0; a < Quiz_Data_Questions.length; a++){
+            Question = Quiz_Data_Questions[a]
+            // Shuffles the choices of the questions
+            Question.choices = Quiz_Order_Shuffle(Question.choices);
+            Quiz_Data_Questions[a].choices = Question.choices;
+        }
+
         Quiz_QuestionList_Build();
         
         Quiz_Header_Set();
@@ -98,10 +113,11 @@ function Quiz_Load_Data(){
         }
         
     } else {
-        document.getElementById("Quiz_Starter_Loader").setAttribute("State", "Inactive");
+        LoadingScreen_Hide();
         document.getElementById("Quiz_Starter_Content").setAttribute("State", "Active");
         document.getElementById("Quiz_Starter_Title").innerHTML = "Error";
         document.getElementById("Quiz_Starter_Subject").innerHTML = "An error occured when loading this quiz. The file may not exist, is not readable, or something else.";
+        document.getElementById("Quiz_Starter_Items").innerHTML = "";
         document.getElementById("Page_Title").innerHTML = "Error loading quiz";
         document.querySelector(".Quiz_Starter_Control").style.display = "none";
     }
@@ -111,6 +127,7 @@ function Quiz_Load_Data(){
 function Quiz_Header_Set(){
     document.getElementById("Quiz_Starter_Title").innerHTML = Quiz_Data_Metadata.Title;
     document.getElementById("Quiz_Starter_Subject").innerHTML = Quiz_Data_Metadata.Subject + " (" + Quiz_Data_Metadata.Term + ")";
+    document.getElementById("Quiz_Starter_Items").innerHTML = `There are <u>${Quiz_Data_Questions.length} items</u> in this quiz. Good luck!`;
     document.getElementById("Page_Title").innerHTML = Quiz_Data_Metadata.Subject + " | " + Quiz_Data_Metadata.Term + " | " + Quiz_Data_Metadata.Title;
     document.getElementById("Quiz_Header_Subject").innerHTML = Quiz_Data_Metadata.Subject;
     document.getElementById("Quiz_Header_Quiz").innerHTML = Quiz_Data_Metadata.Title;
@@ -125,9 +142,10 @@ function Quiz_QuestionList_Build(){
         var Quiz_Questions_List_Item = document.createElement('button');
         Quiz_Questions_List_Item.innerHTML = a + 1;
         Quiz_Questions_List_Item.setAttribute("id", "Quiz_Questions_List_Item_" + a);
-        Quiz_Questions_List_Item.setAttribute("onclick", `Quiz_JumpTo_Question(${a})`);
+        Quiz_Questions_List_Item.setAttribute("onclick", `Quiz_JumpTo_Question(${a}, Element_Attribute_Get('Quiz_Questions_List_Item_${a}', 'IsAnswered'), Element_Attribute_Get('Quiz_Questions_List_Item_${a}', 'IsCorrect'), Element_Attribute_Get('Quiz_Questions_List_Item_${a}', 'UserAnswer'))`);
         Quiz_Questions_List_Item.setAttribute("class", 'General_Button Quiz_Questions_List_Item');
         Quiz_Questions_List_Item.setAttribute("IsCurrent", 'False');
+        Quiz_Questions_List_Item.setAttribute("IsAnswered", 'False');
         document.getElementById("Quiz_Questions_List").appendChild(Quiz_Questions_List_Item);
     }
 }
@@ -137,6 +155,7 @@ function Quiz_Order_Shuffle(Array){
         let j = Math.floor(Math.random() * (i + 1));
         [Array[i], Array[j]] = [Array[j], Array[i]];
     }
+    
     return Array;
 }
 
@@ -162,15 +181,23 @@ var Quiz_Question_CurrentIndex_Correct = 0;
 // User score
 var Quiz_Score = 0;
 
+var Question = {};
+var Quiz_WorkingData = [];
 // Builds the question form
-function Quiz_Question_Build(){
-    var Question = Quiz_Data_Questions[Quiz_Question_CurrentIndex]
+function Quiz_Question_Build(IsAnswered, IsCorrect, UserAnswer){
+    Question = Quiz_Data_Questions[Quiz_Question_CurrentIndex]
     // Shuffles the choices of the questions
-    Question.choices = Quiz_Order_Shuffle(Question.choices);
+    // Question.choices = Quiz_Order_Shuffle(Question.choices);
     // Clears the choices container and resets its state
     document.getElementById("Quiz_Form_Input_Text").value = "";
     document.getElementById("Quiz_Form_Choices").innerHTML = "";
     Element_Attribute_Set("Quiz_Form_Choices", "Radio_ActiveButton", "");
+
+    if (IsAnswered == "False"){
+        Quiz_WorkingData[Quiz_Question_CurrentIndex].choices = Question.choices;
+        console.log("Newly viewed question.")
+    }
+    
 
     // Pre-check
     if (Quiz_Mode == "Multiple_Choices"){
@@ -188,6 +215,8 @@ function Quiz_Question_Build(){
         Element_Attribute_Set("Quiz_Form_Input_Answer", "Display", "none");
         Element_Attribute_Set("Quiz_Form_Flashcard", "Display", "none");
         Element_Attribute_Set("Quiz_Form_Controls_Next_Flashcards", "Display", "none");
+
+        Element_Attribute_Set("Quiz_Form_Input_Text", "Clickability", "Enabled");
     } else if (Quiz_Mode == "Flashcards") {
         Element_Attribute_Set("Quiz_Form", "Form_Mode", "Flashcards");
 
@@ -292,14 +321,43 @@ function Quiz_Question_Build(){
     // Updates the progress bar
     document.getElementById("Quiz_Header_Progress_Bar").style.width = (Quiz_Question_CurrentIndex + 1) / Quiz_Data_Questions.length * 100 + "%";
 
-    // Resets contianer state
+    // Resets container state
     Element_Attribute_Remove("Quiz_Form", "Mode");
+
+    // Checks whether the question had already been answered, and disables clickability
+    console.log(IsAnswered + " : " + IsCorrect + " : " + UserAnswer);
+    if(IsAnswered == "True"){
+        Quiz_Answer_Highlight();
+        Element_Attribute_Set("Quiz_Form_Input_Text", "Clickability", "Disabled");
+        for (a = 0; a < document.querySelectorAll(".Quiz_Form_Choices_Item").length; a++){
+            Element_Attribute_Set("Choice_" + a, "Clickability", "Disabled")
+        }
+        if (IsCorrect == "True"){
+            Element_Attribute_Set("Quiz_Form", "Mode", "Answer_Correct");
+            console.log("Correct!");
+        } else {
+            Element_Attribute_Set("Quiz_Form", "Mode", "Answer_Wrong");
+            console.log("Wrong!");
+        }
+        if (Quiz_Mode == "Multiple_Choices"){
+            Element_Get_ByID(UserAnswer).click();
+        }
+        
+        Element_Attribute_Set("Quiz_Form_Controls_Submit", "Display", "none");
+        Element_Attribute_Set("Quiz_Form_Controls_Next", "Display", "block");
+        Element_Value_Set("Quiz_Form_Input_Text", UserAnswer);
+        
+        console.log("Already answered");
+    }
+    
+
+    
 }
 
 // Jumps to a specific question
-function Quiz_JumpTo_Question(Index){
+function Quiz_JumpTo_Question(Index, IsAnswered, IsCorrect, UserAnswer){
     Quiz_Question_CurrentIndex = Index;
-    Quiz_Question_Build();
+    Quiz_Question_Build(IsAnswered, IsCorrect, UserAnswer);
 }
 
 // Submits and checks answer
@@ -312,7 +370,7 @@ function Quiz_Evaluate_Answer(){
     }
     
     var Quiz_CorrectAnswer = Element_Attribute_Get("Quiz_Form_Choices", "Question_CorrectAnswer");
-    
+    Element_Attribute_Set("Quiz_Questions_List_Item_" + Quiz_Question_CurrentIndex, "UserAnswer", Quiz_ChosenAnswer);
     // Checks if the correct answer exists in the choices.
     // if (Quiz_Question_CurrentIndex_Correct != 0){
         // Case 1: The chosen answer is blank (no option selected) OR The chosen answer doesn't match the correct answer (wrong answer)
@@ -339,6 +397,7 @@ function Quiz_Answer_Result(Verdict){
         Quiz_Answer_Highlight();
         Element_Attribute_Set("Quiz_Form", "Mode", "Answer_Wrong");
         Element_Attribute_Set("Quiz_Questions_List_Item_" + Quiz_Question_CurrentIndex, "IsCorrect", "False");
+        Element_Attribute_Set("Quiz_Questions_List_Item_" + Quiz_Question_CurrentIndex, "IsAnswered", "True");
         if (Settings_Data.SoundEffects == "Active"){
             Sound_Wrong.play();
         }
@@ -350,6 +409,7 @@ function Quiz_Answer_Result(Verdict){
         Quiz_Score++;
         Element_Attribute_Set("Quiz_Form", "Mode", "Answer_Correct");
         Element_Attribute_Set("Quiz_Questions_List_Item_" + Quiz_Question_CurrentIndex, "IsCorrect", "True");
+        Element_Attribute_Set("Quiz_Questions_List_Item_" + Quiz_Question_CurrentIndex, "IsAnswered", "True");
         if (Settings_Data.SoundEffects == "Active"){
             Sound_Correct.play();
         }
@@ -357,7 +417,7 @@ function Quiz_Answer_Result(Verdict){
         setTimeout(function(){Element_Attribute_Remove("Quiz_Checker_Correct", "State")}, 750);
     }
     // Disable the clickability of the question list item
-    Element_Attribute_Set("Quiz_Questions_List_Item_" + Quiz_Question_CurrentIndex, "Clickability", "Disabled")
+    // Element_Attribute_Set("Quiz_Questions_List_Item_" + Quiz_Question_CurrentIndex, "Clickability", "Disabled")
     // Disable the clickability of all choices
     for (a = 0; a < document.querySelectorAll(".Quiz_Form_Choices_Item").length; a++){
         Element_Attribute_Set("Choice_" + a, "Clickability", "Disabled")
@@ -367,6 +427,7 @@ function Quiz_Answer_Result(Verdict){
     Element_Attribute_Set("Quiz_Form_Controls_Next", "Display", "block");
     // Focuses on the Next button
     document.getElementById("Quiz_Form_Controls_Next").focus();
+
 }
 
 // Highlights the correct answer
@@ -390,7 +451,7 @@ function Quiz_Question_Next(){
     // Case 2: If the current index is not the final one, proceed to the next unanswered one
     if (Quiz_Question_CurrentIndex < Quiz_Data_Questions.length){
         // If the question had not been answered yet, build the question
-        if (Element_Attribute_Get("Quiz_Questions_List_Item_" + Quiz_Question_CurrentIndex, "Clickability") != "Disabled"){
+        if (Element_Attribute_Get("Quiz_Questions_List_Item_" + Quiz_Question_CurrentIndex, "IsAnswered") != "True"){
             Quiz_Question_Build();
             // Sets focus
             if (Quiz_Mode == "Multiple_Choices"){
@@ -406,23 +467,32 @@ function Quiz_Question_Next(){
     }
 }
 
-var Finishers_Perfect = ["Assets/Images/Finisher_Perfect/perfect-score-100.gif", 
+/*var Finishers_Perfect = ["Assets/Images/Finisher_Perfect/perfect-score-100.gif", 
     "Assets/Images/Finisher_Perfect/perfect-sponge.gif", 
-    "Assets/Images/Finisher_Perfect/try-me.gif"];
+    "Assets/Images/Finisher_Perfect/try-me.gif",
+    "Assets/Images/Finisher_Perfect/5.gif"];
 var Finishers_Good = ["Assets/Images/Finisher_Good/clap.gif", 
     "Assets/Images/Finisher_Good/rikka-takanashi-takanashi-rikka.gif", 
     "Assets/Images/Finisher_Good/sanditon-just-try.gif", 
     "Assets/Images/Finisher_Good/that's-still-not-perfect-ignace-aleya.gif", 
     "Assets/Images/Finisher_Good/try-me.gif", 
     "Assets/Images/Finisher_Good/yes-win.gif", 
-    "Assets/Images/Finisher_Good/YEYYYY.gif"];
+    "Assets/Images/Finisher_Good/YEYYYY.gif",
+    "Assets/Images/Finisher_Good/10.gif",
+    "Assets/Images/Finisher_Good/11.gif",
+    "Assets/Images/Finisher_Good/12.gif",];
 var Finishers_Excellent = ["Assets/Images/Finisher_Excellent/1.gif",
     "Assets/Images/Finisher_Excellent/2.gif",
     "Assets/Images/Finisher_Excellent/3.gif",
     "Assets/Images/Finisher_Excellent/4.gif",
     "Assets/Images/Finisher_Excellent/5.gif",
     "Assets/Images/Finisher_Excellent/6.gif",
-    "Assets/Images/Finisher_Excellent/7.gif"];
+    "Assets/Images/Finisher_Excellent/7.gif",
+    "Assets/Images/Finisher_Excellent/8.gif",
+    "Assets/Images/Finisher_Excellent/9.gif",
+    "Assets/Images/Finisher_Excellent/10.gif",
+    "Assets/Images/Finisher_Excellent/11.gif",
+    "Assets/Images/Finisher_Excellent/12.gif"];
 var Finishers_Terrible = ["Assets/Images/Finisher_Terrible/1.gif",
     "Assets/Images/Finisher_Terrible/2.gif",
     "Assets/Images/Finisher_Terrible/3.gif",
@@ -437,7 +507,28 @@ var Finishers_Terrible = ["Assets/Images/Finisher_Terrible/1.gif",
     "Assets/Images/Finisher_Terrible/12.jpg",
     "Assets/Images/Finisher_Terrible/13.jpg",
     "Assets/Images/Finisher_Terrible/14.jpg",
-    "Assets/Images/Finisher_Terrible/15.jpg"];
+    "Assets/Images/Finisher_Terrible/15.jpg",
+    "Assets/Images/Finisher_Terrible/16.gif",
+    "Assets/Images/Finisher_Terrible/17.gif"];*/
+
+var Finishers_Perfect = [
+    "Assets/Images/Finisher_Perfect/5.gif"];
+var Finishers_Good = [
+    "Assets/Images/Finisher_Good/YEYYYY.gif",
+    "Assets/Images/Finisher_Good/10.gif",
+    "Assets/Images/Finisher_Good/11.gif",
+    "Assets/Images/Finisher_Good/12.gif",];
+var Finishers_Excellent = [
+    "Assets/Images/Finisher_Excellent/7.gif",
+    "Assets/Images/Finisher_Excellent/8.gif",
+    "Assets/Images/Finisher_Excellent/9.gif",
+    "Assets/Images/Finisher_Excellent/10.gif",
+    "Assets/Images/Finisher_Excellent/11.gif",
+    "Assets/Images/Finisher_Excellent/12.gif"];
+var Finishers_Terrible = ["Assets/Images/Finisher_Terrible/1.gif",
+    "Assets/Images/Finisher_Terrible/2.gif",
+    "Assets/Images/Finisher_Terrible/16.gif",
+    "Assets/Images/Finisher_Terrible/17.gif"];
 
 // Preloads the finisher images
 function Quiz_FinisherImage_Pick(){
@@ -505,4 +596,14 @@ function Quiz_Finish(Verdict){
         }
     }
     document.getElementById("Quiz_Finisher_Controls_Button_Retry").focus();
+}
+
+// Go back to home
+function Quiz_GoHome(){
+    let Status = StorageItem_Get("SAP_Quiz_Status", "Session");
+    if (Status != null){
+        Status.Status = "Complete";
+        StorageItem_Set("SAP_Quiz_Status", Status, "Session");
+    }
+    Page_ChangePage('index.html', Transition);
 }
