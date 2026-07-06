@@ -1,0 +1,160 @@
+{
+  "quizInfo": {
+    "Subject": "Great Books",
+    "Term": "Prelims",
+    "Title": "02 Handout 1",
+    "LastModified": "19 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "02 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the Arabic word for the Qur’an?",
+      "answer": "Recitation",
+      "choices": [
+        "hung poems",
+        "Magamat",
+        "frame narrative",
+        "Recitation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "How were the seven pre-Islamic poems dating to the 6th Century known?",
+      "answer": "hung poems",
+      "choices": [
+        "Recitation",
+        "Magamat",
+        "frame narrative",
+        "hung poems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "These poems are also known as Al-Mu'allagat.",
+      "answer": "hung poems",
+      "choices": [
+        "Recitation",
+        "Magamat",
+        "frame narrative",
+        "hung poems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the stories in rhymed prose related to the encounters of the witty Abul-Fath al-Iskanderi called?",
+      "answer": "Magamat",
+      "choices": [
+        "Recitation",
+        "hung poems",
+        "frame narrative",
+        "Magamat"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the other term of Magamat?",
+      "answer": "assemblies",
+      "choices": [
+        "assemblies",
+        "packages",
+        "assets",
+        "poets"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Where was the story of Bayad and Riyad written?",
+      "answer": "Islamic Andalusia",
+      "choices": [
+        "Strait of Gibraltar",
+        "Iberian Peninsula",
+        "Nile River",
+        "Islamic Andalusia"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was the Qur'an revealed to Muhammad by God, according to Islamic belief?",
+      "answer": "610-632 BC",
+      "choices": [
+        "c. 900-1008",
+        "8th Century",
+        "13th Century",
+        "610-632 BC"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "From what century onwards were distinctions made between al-fus 'ha and al-ammiyah?",
+      "answer": "8th Century",
+      "choices": [
+        "c. 900-1008",
+        "8th Century",
+        "13th Century",
+        "610-632 BC"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "When were the stories in rhymed prose related to the encounters of the witty Abul-Fath al-Iskanderi collected?",
+      "answer": "c. 900-1008",
+      "choices": [
+        "c. 900-1008",
+        "8th Century",
+        "13th Century",
+        "610-632 BC"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was the Story of Bayad and Riyad written?",
+      "answer": "13th Century",
+      "choices": [
+        "c. 900-1008",
+        "8th Century",
+        "13th Century",
+        "610-632 BC"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the narrative form of One Thousand and One Nights?",
+      "answer": "frame narrative",
+      "choices": [
+        "short story",
+        "folklore",
+        "novel",
+        "frame narrative"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who retold the stories of One Thousand and One Nights in Europe in the 18th Century?",
+      "answer": "Antonine Galland",
+      "choices": [
+        "Jean-Andrei Lagrimas",
+        "Reniel-Philippe Baldove",
+        "Art Auguste Suñega",
+        "Antonine Galland"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    }
+  ]
+}

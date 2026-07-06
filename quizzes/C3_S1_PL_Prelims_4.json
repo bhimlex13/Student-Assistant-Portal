@@ -1,0 +1,1372 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Prelims",
+    "Title": "01 Handout 1",
+    "LastModified": "20 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is a formal notation system or instructions for writing computer programs and other software applications?",
+      "answer": "programming languages",
+      "choices": [
+        "data structures",
+        "algorithms",
+        "operating systems",
+        "programming languages"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who invented the first machine algorithm, leading to the idea of programming languages?",
+      "answer": "Ada Lovelace",
+      "choices": [
+        "Konrad Zuse",
+        "Kathleen Booth",
+        "Alick Glennie Marilag",
+        "Ada Lovelace"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was invented in 1843 by Ada Lovelace?",
+      "answer": "Machine Language",
+      "choices": [
+        "Plankalkül",
+        "Fortran",
+        "LISP",
+        "Machine Language"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was the first high-level computer programming language ever developed by a German scientist, Konrad Zuse?",
+      "answer": "Plankalkül",
+      "choices": [
+        "Machine Language",
+        "BASIC",
+        "COBOL",
+        "Plankalkül"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language included mathematical expressions, showing the current relationships between program variables, and the ability to store codes that enabled engineers to carry out routine, repetitive tasks more efficiently and quickly?",
+      "answer": "Plankalkül",
+      "choices": [
+        "Machine Language",
+        "BASIC",
+        "COBOL",
+        "Plankalkül"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was developed by Kathleen Booth to simplify machine code for writing instructions for processors?",
+      "answer": "Assembly Language",
+      "choices": [
+        "Objective-C",
+        "Machine Language",
+        "BASIC",
+        "Assembly Language"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was implemented by William Schmitt to improve the operations of the BINAC and UNIVAC computers?",
+      "answer": "Shortcode",
+      "choices": [
+        "Autocode",
+        "Fortran",
+        "Plankalkül",
+        "Shortcode"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term did Alick Glennie coin to refer to a set of programming languages developed for the Mark 1 computer?",
+      "answer": "Autocode",
+      "choices": [
+        "Fortran",
+        "Shortcode",
+        "Assembly Language",
+        "Autocode"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language was created by John Backus to shorten the process of programming and make computer programming more accessible?",
+      "answer": "Fortran",
+      "choices": [
+        "ALGOL",
+        "LISP",
+        "Machine Language",
+        "Fortran"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language is still used today in supercomputers and for scientific and mathematical computations?",
+      "answer": "Fortran",
+      "choices": [
+        "Autocode",
+        "Shortcode",
+        "LISP",
+        "Fortran"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was created by American and European computer scientists and became the origin point for other languages like Pascal, Java, C, and C++?",
+      "answer": "ALGOL",
+      "choices": [
+        "LISP",
+        "BASIC",
+        "C",
+        "ALGOL"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language did John McCarthy create for his artificial intelligence (AI) applications?",
+      "answer": "LISP",
+      "choices": [
+        "ALGOL",
+        "Fortran",
+        "Plankalkül",
+        "LISP"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is one of the oldest computer programming languages still used today by AI companies like Boeing and Genworks?",
+      "answer": "LISP",
+      "choices": [
+        "ALGOL",
+        "Fortran",
+        "Plankalkül",
+        "LISP"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What does COBOL stand for?",
+      "answer": "Common Business Oriented Language",
+      "choices": [
+        "Common Of Beef Overload",
+        "Cool Old Basic Language",
+        "Common Business Oriented Language",
+        "Common Basic Oriented Language"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was developed and designed by Dr. Grace Murray Hopper for business computer programs?",
+      "answer": "COBOL",
+      "choices": [
+        "ALGOL",
+        "SQL",
+        "Pascal",
+        "COBOL"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was estimated to be in use by over 100 million people and is still widely used in today's banking systems?",
+      "answer": "COBOL",
+      "choices": [
+        "ALGOL",
+        "SQL",
+        "C++",
+        "COBOL"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was created as a computer programming language for beginners by Dartmouth College students?",
+      "answer": "BASIC",
+      "choices": [
+        "ALGOL",
+        "SQL",
+        "C++",
+        "BASIC"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What does BASIC stand for?",
+      "answer": "Beginner's All Purpose Symbolic Instruction Code",
+      "choices": [
+        "Beginner's All Purpose Syrup In Cream",
+        "Baffling And Slightly Incomprehensible Code",
+        "Baby's All-purpose Symbolic Instruction Code",
+        "Beginner's All Purpose Symbolic Instruction Code"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, further developed by Bill Gates and Paul Allen, became Microsoft's first commercially successful product?",
+      "answer": "BASIC",
+      "choices": [
+        "ALGOL",
+        "Fortran",
+        "Plankalkül",
+        "BASIC"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was developed by Niklaus Wirth and named after the famed mathematician Blaise Pascal?",
+      "answer": "Pascal",
+      "choices": [
+        "C",
+        "SQL",
+        "Python",
+        "Pascal"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was endorsed by Apple due to its streamlined and straightforward process?",
+      "answer": "Pascal",
+      "choices": [
+        "Swift",
+        "Fortran",
+        "Plankalkül",
+        "Pascal"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, developed by Dennis Ritchie at Bell Telephone Laboratories as a successor to the B language, is named after its predecessor?",
+      "answer": "C",
+      "choices": [
+        "C++",
+        "Objective-C",
+        "Plankalkül",
+        "C"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language is recommended for creating embedded system drivers and applications, and serves as the basis for languages like C#, Java, JavaScript, Perl, PHP, and Python?",
+      "answer": "C",
+      "choices": [
+        "C++",
+        "Objective-C",
+        "Plankalkül",
+        "C"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was developed by Raymond Boyce and Donald Chamberlain and was first called SEQUEL?",
+      "answer": "SQL",
+      "choices": [
+        "C++",
+        "Java",
+        "PHP",
+        "SQL"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language is used for modifying, viewing, and altering information in databases?",
+      "answer": "SQL",
+      "choices": [
+        "C++",
+        "Java",
+        "PHP",
+        "SQL"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, an extension of C, was developed by Bjarne Stroustrup and incorporates features like templates, classes, and virtual functions?",
+      "answer": "C++",
+      "choices": [
+        "C++",
+        "Objective-C",
+        "Plankalkül",
+        "C"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, created by Brad Cox and Tom Love, is the primary language used for developing applications for Apple's iOS, macOS, and iPadOS operating systems?",
+      "answer": "Objective-C",
+      "choices": [
+        "C++",
+        "Objective-C",
+        "Plankalkül",
+        "C"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What general-purpose, high-level programming language was created by Guido van Rossum as a support language for software developers, build control and management, testing, and various other tasks?",
+      "answer": "Python",
+      "choices": [
+        "Visual Basic",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, created by Microsoft, allows users to drag and drop sections of code simultaneously?",
+      "answer": "Visual Basic",
+      "choices": [
+        "Visual Basic",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, known for its user-friendly interface and allowing users to easily modify code through features like drop-down menus, was developed by Microsoft?",
+      "answer": "Visual Basic",
+      "choices": [
+        "Visual Basic",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language was created by James Gosling for a software project involving interactive television?",
+      "answer": "Java",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language is considered one of the world's most famous and popular languages for coding web applications?",
+      "answer": "Java",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What multiplatform, object-oriented, and network-centric programming language can also be used as a platform?",
+      "answer": "Java",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What scripting language, created by Brendan Eich, is primarily used in websites?",
+      "answer": "JavaScript",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, in addition to its primary use in web development, is also employed for enhancing PDF documents and creating desktop widgets?",
+      "answer": "JavaScript",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What scripting language, developed by Rasmus Lerdorf, is commonly used for server-side web development?",
+      "answer": "PHP",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language, used by sites like Facebook and WordPress, was originally called Personal Home Page but is now known as Hypertext Preprocessor?",
+      "answer": "PHP",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When did Ada Lovelace invent the first machine algorithm?",
+      "answer": 1843,
+      "choices": [
+        "1940s",
+        1949,
+        1952,
+        1843
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Plankalkül developed by Konrad Zuse?",
+      "answer": "1940s",
+      "choices": [
+        "1940s",
+        1949,
+        1952,
+        1843
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When did Kathleen Booth write the first assembly language?",
+      "answer": 1949,
+      "choices": [
+        1952,
+        1991,
+        1949,
+        1959
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Shortcode implemented by William Schmitt?",
+      "answer": 1949,
+      "choices": [
+        1957,
+        1959,
+        1952,
+        1949
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Autocode coined by Alick Glennie?",
+      "answer": 1952,
+      "choices": [
+        1957,
+        1949,
+        1958,
+        1952
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Fortran created by John Backus?",
+      "answer": 1957,
+      "choices": [
+        1958,
+        "1940s",
+        1970,
+        1957
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was ALGOL created by American and European computer scientists?",
+      "answer": 1958,
+      "choices": [
+        1959,
+        1957,
+        1843,
+        1958
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was LISP created by John McCarthy?",
+      "answer": 1958,
+      "choices": [
+        1959,
+        1957,
+        1843,
+        1958
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was COBOL created by Dr. Grace Murray Hopper?",
+      "answer": 1959,
+      "choices": [
+        1959,
+        1957,
+        1843,
+        1958
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was BASIC created as a computer programming language for beginners?",
+      "answer": 1964,
+      "choices": [
+        1959,
+        1957,
+        1843,
+        1964
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Pascal developed by Niklaus Wirth?",
+      "answer": 1970,
+      "choices": [
+        1957,
+        1995,
+        1991,
+        1970
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was the C language developed by Dennis Ritchie?",
+      "answer": 1972,
+      "choices": [
+        1957,
+        1995,
+        1991,
+        1972
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was the SQL developed by Raymond Boyce and Donald Chamberlain?",
+      "answer": 1972,
+      "choices": [
+        1957,
+        1995,
+        1991,
+        1972
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was C++ released by Bjarne Stroustrup?",
+      "answer": 1983,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Objective-C created by Brad Cox and Tom Love?",
+      "answer": 1983,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Python created by Guido Van Rossum?",
+      "answer": 1991,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Visual Basic created by Microsoft?",
+      "answer": 1991,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Java developed by James Gosling?",
+      "answer": 1995,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was JavaScript developed by Brendan Eich?",
+      "answer": 1995,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was PHP developed by Rasmus Lerdorf?",
+      "answer": 1995,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes the different areas of computer use that have led to the development of diverse programming languages with specialized goals?",
+      "answer": "Programming Domains",
+      "choices": [
+        "Programming Domains",
+        "Expansion Domain",
+        "Domain Expansion",
+        "Programming Languages"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was the primary domain for which the first digital computers, developed in the late 1940s and early 1950s, were invented and used?",
+      "answer": "Scientific Applications",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of applications, requiring numerous floating-point arithmetic computations and utilizing data structures like arrays and matrices along with control structures like counting loops and selection, were prominent in the early days of computing?",
+      "answer": "Scientific Applications",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of applications, where efficiency is a primary concern, led to the development and early adoption of languages like Fortran?",
+      "answer": "Scientific Applications",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What domain of computer use emerged in the 1950s, leading to the development of specialized computers and programming languages?",
+      "answer": "Business Applications",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What domain of computer use saw the development of COBOL, the first successful high-level language designed specifically for its needs, starting in 1960",
+      "answer": "Business Applications",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What field of computer science is characterized by the use of symbolic computation, manipulating names rather than numbers, and often employs linked lists of data rather than arrays?",
+      "answer": "Aritificial Intelligence (AI)",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What field of computer science, requiring flexibility in programming, saw LISP as its first widely used language before 1990?",
+      "answer": "Aritificial Intelligence (AI)",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "While LISP was an early language of choice, what other programming language has become increasingly popular for use in Artificial Intelligence applications more recently?",
+      "answer": "Python",
+      "choices": [
+        "JavaScript",
+        "Java",
+        "PHP",
+        "Python"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What area of software development utilizes a range of languages, from markup languages like HTML to general-purpose programming languages like Java, to support the World Wide Web?",
+      "answer": "Web Software",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of software development necessitates the integration of computational capabilities, often through embedded programming code within HTML documents, to create dynamic web content?",
+      "answer": "Web Software",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What area of software development often employs scripting languages like JavaScript or PHP embedded within HTML to achieve dynamic functionality?",
+      "answer": "Web Software",
+      "choices": [
+        "Business Applications",
+        "Aritificial Intelligence (AI)",
+        "Web Software",
+        "Scientific Applications"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to the collection of tools used in software development?",
+      "answer": "Programming Environments",
+      "choices": [
+        "Programming Languages",
+        "Programming Domains",
+        "Programming Language Evaluation",
+        "Programming Environments"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes a collection of software development tools, ranging from a basic set of a file system, text editor, linker, and compiler, to a comprehensive suite of integrated tools accessible through a unified user interface?",
+      "answer": "Programming Environments",
+      "choices": [
+        "Programming Languages",
+        "Programming Domains",
+        "Programming Language Evaluation",
+        "Programming Environments"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What code editor, designed for building and debugging modern web and cloud applications, has been redefined and optimized by Microsoft?",
+      "answer": "Microsoft Visual Studio Code",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What lightweight but powerful source code editor, developed by Microsoft, runs on Windows, macOS, and Linux desktops?",
+      "answer": "Microsoft Visual Studio Code",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What code editor, featuring built-in support for JavaScript, TypeScript, and Node.js, also boasts a rich ecosystem of extensions for numerous other languages like Java, Python, C++, C#, PHP, and .NET?",
+      "answer": "Microsoft Visual Studio Code",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What free and open-source integrated development environment (IDE) supports the development of desktop, mobile, and web applications?",
+      "answer": "NetBeans",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What IDE offers comprehensive support for JDK 7 technologies and the latest Java enhancements?",
+      "answer": "NetBeans",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What IDE, in addition to supporting Java, also supports JavaScript, Ruby, and PHP, and like Visual Studio, acts as both a development environment and a framework by providing common code components for applications?",
+      "answer": "NetBeans",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What integrated development environment (IDE) includes a text editor, message area, text console, toolbar, and menus, and is specifically designed to connect to Arduino boards for uploading programs and communication?",
+      "answer": "Arduino IDE",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What visual programming editor, developed by Google and used by many popular coding education programs, employs drag-and-drop blocks for code creation?",
+      "answer": "Blockly",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What visual programming editor allows users to define block connections and input fields, while the editor itself handles the complexities of rendering, dragging, and connecting those blocks?",
+      "answer": "Blockly",
+      "choices": [
+        "NetBeans",
+        "Arduino IDE",
+        "Blockly",
+        "Microsoft Visual Studio Code"
+      ],
+      "reference": "Programming Domains and Environments",
+      "term": "Prelims"
+    },
+    {
+      "question": "What set of criteria helps analyze the impact of programming languages on the software development process, particularly in areas like maintenance?",
+      "answer": "Programming Language Evaluation Criteria",
+      "choices": [
+        "Programming Language Maintenance Criteria",
+        "Programming Language Debug Criteria",
+        "Programming Language Compilation Criteria",
+        "Programming Language Evaluation Criteria"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language evaluation criterion refers to the ease with which programs can be read and understood?",
+      "answer": "Readability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Oversimplicity",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language evaluation criterion, crucial for ease of maintenance, has become a major measure of program and programming language quality?",
+      "answer": "Readability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Oversimplicity",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language evaluation criterion must be considered in the context of the problem domain, as using an unsuitable language can make a program unnatural, convoluted, and difficult to understand?",
+      "answer": "Readability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Oversimplicity",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic, contributing to the readability of a programming language, refers to the overall ease of learning due to a smaller number of basic constructs?",
+      "answer": "Simplicity",
+      "choices": [
+        "Orthogonality",
+        "Syntax Design",
+        "Form and Meaning",
+        "Simplicity"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a scenario of more than one way to accomplish a particular operation considered to be a problem in readability?",
+      "answer": "Feature Multiplicity",
+      "choices": [
+        "Operator Overloading",
+        "Oversimplicity",
+        "Orthogonality",
+        "Feature Multiplicity"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a scenario wherein a single operator symbol has more than one meaning, potentially leading to confusion if not used carefully?",
+      "answer": "Operator Overloading",
+      "choices": [
+        "Operator Overloading",
+        "Oversimplicity",
+        "Orthogonality",
+        "Feature Multiplicity"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a scenario wherein the language is too simple to the point of lacking more complex statements and less obvious program structure considered to be a problem in readability?",
+      "answer": "Oversimplicity",
+      "choices": [
+        "Operator Overloading",
+        "Oversimplicity",
+        "Orthogonality",
+        "Feature Multiplicity"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of a programming language, related to readability, refers to the ability to change one aspect of a program without causing unintended side effects in other parts?",
+      "answer": "Orthogonality",
+      "choices": [
+        "Simplicity",
+        "Data Types",
+        "Orthogonality",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic concerns the independence of components in a larger system and how a small set of primitive constructs can be combined in a small number of ways to build the control and data structure of the language?",
+      "answer": "Orthogonality",
+      "choices": [
+        "Simplicity",
+        "Data Types",
+        "Orthogonality",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language characteristic, exemplified by the ability of pointers to reference any specific data type, ensures that language features can be used in a consistent and predictable way without arbitrary restrictions?",
+      "answer": "Orthogonality",
+      "choices": [
+        "Simplicity",
+        "Special Words",
+        "Orthogonality",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the name of the programming language characteristic that describes the ability of pointers, for example, to point to any specific type in the language, allowing for the definition of many potentially useful user-defined data structures?",
+      "answer": "Orthogonality",
+      "choices": [
+        "Simplicity",
+        "Special Words",
+        "Orthogonality",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language design principle leads to fewer exceptions in language rules, resulting in greater regularity and making the language easier to learn, read, and understand?",
+      "answer": "Orthogonality",
+      "choices": [
+        "Simplicity",
+        "Data Types",
+        "Orthogonality",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What aspect of a programming language, specifically the availability of features for defining data types and data structures, significantly contributes to readability?",
+      "answer": "Data Types",
+      "choices": [
+        "Special Words",
+        "Data Types",
+        "Form and Meaning",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What aspect of a programming language, such as the absence of a Boolean type in C, can hinder readability when, for example, a numeric type is used for an indicator flag?",
+      "answer": "Data Types",
+      "choices": [
+        "Simplicity",
+        "Data Types",
+        "Form and Meaning",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What aspect of a programming language, specifically the form of its elements, influences the readability of programs?",
+      "answer": "Syntax Design",
+      "choices": [
+        "Simplicity",
+        "Data Types",
+        "Orthogonality",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What syntactic design element involves the use of matching pairs of words or symbols to form groups within a program?",
+      "answer": "Special Words",
+      "choices": [
+        "Special Words",
+        "Data Types",
+        "Form and Meaning",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What syntactic design element can diminish readability because statement groups are always terminated in the same way, making it difficult to determine which group is being ended when an end or a right brace appears?",
+      "answer": "Special Words",
+      "choices": [
+        "Special Words",
+        "Data Types",
+        "Form and Meaning",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the two aspects of a programming language, where semantics must follow directly from syntax, that can be designed to have their appearance partially specify their purpose, which helps readability?",
+      "answer": "Form and Meaning",
+      "choices": [
+        "Special Words",
+        "Data Types",
+        "Form and Meaning",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What two aspects of a programming language are exemplified by the C keyword \"static,\" where its meaning (semantics) changes depending on the context of its appearance (syntax), potentially hindering readability?",
+      "answer": "Form and Meaning",
+      "choices": [
+        "Special Words",
+        "Data Types",
+        "Form and Meaning",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the measure of how easily a language can be used to create programs for a chosen problem domain called?",
+      "answer": "Writability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Copybility",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the characteristic of a programming language that describes how easily it can be used to create programs for a specific purpose, but which should not be compared across languages designed for different purposes?",
+      "answer": "Writability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Simplicity",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of programming languages, exemplified by the differences between Visual Basic (ideal for GUI programs) and C (ideal for systems programs), highlights the importance of considering the intended application when evaluating a language?",
+      "answer": "Writability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Simplicity",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What two characteristics that contribute to the writability of a programming language might be negatively affected by a large number of different constructs, potentially leading to confusion, misuse, and disuse of some features?",
+      "answer": "Simplicity and Orthogonality",
+      "choices": [
+        "Simplicity and Orthogonality",
+        "Aliasing and Readability",
+        "Expressivity and Readability",
+        "Readability and Writability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What two characteristics that contribute to the writability of a programming language can be negatively affected by too much orthogonality, potentially leading to undetected errors and code absurdities due to the legality of any combination of primitives?",
+      "answer": "Simplicity and Orthogonality",
+      "choices": [
+        "Simplicity and Orthogonality",
+        "Aliasing and Readability",
+        "Expressivity and Readability",
+        "Readability and Writability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of a programming language, like the count++ notation in C, means having convenient operators for concise code?",
+      "answer": "Expressivity",
+      "choices": [
+        "Simplicity and Orthogonality",
+        "Reliability",
+        "Type Checking",
+        "Expressivity"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of a program is met if it performs to its specifications under all conditions?",
+      "answer": "Reliability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Simplicity",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What process tests for type errors in a program, either by the compiler or during program execution?",
+      "answer": "Type Checking",
+      "choices": [
+        "Readability and Writability",
+        "Exception Handling",
+        "Aliasing",
+        "Type Checking"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is more desirable to be done at compile time rather than runtime because it is expensive?",
+      "answer": "Type Checking",
+      "choices": [
+        "Readability and Writability",
+        "Exception Handling",
+        "Aliasing",
+        "Type Checking"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the ability of a program to intercept runtime errors, take corrective measures, and then continue?",
+      "answer": "Exception Handling",
+      "choices": [
+        "Readability and Writability",
+        "Exception Handling",
+        "Aliasing",
+        "Type Checking"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What dangerous feature in programming occurs when two or more distinct names can access the same memory cell?",
+      "answer": "Aliasing",
+      "choices": [
+        "Readability and Writability",
+        "Exception Handling",
+        "Aliasing",
+        "Type Checking"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What two characteristics of a programming language can impact reliability because a program that is difficult to read can also be difficult to write and modify?",
+      "answer": "Readability and Writability",
+      "choices": [
+        "Simplicity and Orthogonality",
+        "Aliasing and Readability",
+        "Expressivity and Readability",
+        "Readability and Writability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What can lead to unnatural and potentially incorrect program structures if a language does not support clear ways to express algorithms?",
+      "answer": "Readability and Writability",
+      "choices": [
+        "Readability and Writability",
+        "Exception Handling",
+        "Aliasing",
+        "Type Checking"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    }
+  ]
+}

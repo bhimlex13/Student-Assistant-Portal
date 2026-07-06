@@ -1,0 +1,244 @@
+{
+  "quizInfo": {
+    "Subject": "Great Books",
+    "Term": "Prefinals",
+    "Title": "Text Structures",
+    "LastModified": "6 May 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What text structure describes something?",
+      "answer": "Description",
+      "choices": [
+        "Description",
+        "Sequence/Instruction/Process",
+        "Cause/Effect",
+        "Problem/Solution"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure presents plenty of details about what they’re describing?",
+      "answer": "Description",
+      "choices": [
+        "Description",
+        "Cause/Effect",
+        "Compare/Contrast",
+        "Sequence/Instruction/Process"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure might tell one why they’re describing something?",
+      "answer": "Description",
+      "choices": [
+        "Description",
+        "Compare/Contrast",
+        "Cause/Effect",
+        "Problem/Solution"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure might tell one why the described topic is important?",
+      "answer": "Description",
+      "choices": [
+        "Description",
+        "Cause/Effect",
+        "Problem/Solution",
+        "Sequence/Instruction/Process"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure provides examples of the described topic(s)?",
+      "answer": "Description",
+      "choices": [
+        "Description",
+        "Compare/Contrast",
+        "Problem/Solution",
+        "Cause/Effect"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure has the entire point of presenting information?",
+      "answer": "Description",
+      "choices": [
+        "Description",
+        "Problem/Solution",
+        "Compare/Contrast",
+        "Sequence/Instruction/Process"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure covers sequential instructions, chronological events, and arguments that use evidence to support a claim?",
+      "answer": "Sequence/Instruction/Process",
+      "choices": [
+        "Sequence/Instruction/Process",
+        "Problem/Solution",
+        "Cause/Effect",
+        "Description"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure emphasizes that order is the key?",
+      "answer": "Sequence/Instruction/Process",
+      "choices": [
+        "Sequence/Instruction/Process",
+        "Description",
+        "Compare/Contrast",
+        "Problem/Solution"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure does not present any event or instruction out of order?",
+      "answer": "Sequence/Instruction/Process",
+      "choices": [
+        "Sequence/Instruction/Process",
+        "Cause/Effect",
+        "Description",
+        "Compare/Contrast"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure explains causes and effects?",
+      "answer": "Cause/Effect",
+      "choices": [
+        "Cause/Effect",
+        "Problem/Solution",
+        "Description",
+        "Compare/Contrast"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure can become complex when an effect has multiple causes such as in historical texts?",
+      "answer": "Cause/Effect",
+      "choices": [
+        "Cause/Effect",
+        "Problem/Solution",
+        "Sequence/Instruction/Process",
+        "Description"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure involves comparison between multiple things, revealing how they’re similar and different?",
+      "answer": "Compare/Contrast",
+      "choices": [
+        "Compare/Contrast",
+        "Problem/Solution",
+        "Cause/Effect",
+        "Sequence/Instruction/Process"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure reminds that contrasting 2 or more things doesn’t necessarily mean identifying them as good or bad?",
+      "answer": "Compare/Contrast",
+      "choices": [
+        "Compare/Contrast",
+        "Cause/Effect",
+        "Problem/Solution",
+        "Description"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure says comparisons relay the differences, so one thing could have positive and negative traits?",
+      "answer": "Compare/Contrast",
+      "choices": [
+        "Compare/Contrast",
+        "Description",
+        "Cause/Effect",
+        "Problem/Solution"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure involves the author identifying a problem and detailing a solution to this problem?",
+      "answer": "Problem/Solution",
+      "choices": [
+        "Problem/Solution",
+        "Cause/Effect",
+        "Sequence/Instruction/Process",
+        "Description"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure can be complex because it necessitates using other structures too?",
+      "answer": "Problem/Solution",
+      "choices": [
+        "Problem/Solution",
+        "Cause/Effect",
+        "Sequence/Instruction/Process",
+        "Compare/Contrast"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure needs the author to describe the problem and likely also explain the causes and effects of the problem to argue in favor of their solutions?",
+      "answer": "Problem/Solution",
+      "choices": [
+        "Problem/Solution",
+        "Description",
+        "Sequence/Instruction/Process",
+        "Compare/Contrast"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure includes authors using only the information needed to advance the argument or refute counterarguments?",
+      "answer": "Problem/Solution",
+      "choices": [
+        "Problem/Solution",
+        "Compare/Contrast",
+        "Cause/Effect",
+        "Description"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What text structure suggests examining both the argument as a whole and its individual components?",
+      "answer": "Problem/Solution",
+      "choices": [
+        "Problem/Solution",
+        "Cause/Effect",
+        "Sequence/Instruction/Process",
+        "Compare/Contrast"
+      ],
+      "reference": "Text Structures",
+      "term": "Prefinals"
+    }
+  ]
+}

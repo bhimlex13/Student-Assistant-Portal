@@ -1,0 +1,280 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance & Security (Cybersecurity Fundamentals)",
+    "Term": "Prelims",
+    "Title": "Cybersecurity Professionals and Their Tasks || 01 Handout 1",
+    "LastModified": "18 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "Cybersecurity Professionals and Their Tasks || 01 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the practice of protecting systems, networks, and programs from digital attacks?",
+      "answer": "cybersecurity",
+      "choices": [
+        "network security",
+        "computer security",
+        "information security",
+        "cybersecurity"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes?",
+      "answer": "cybersecurity",
+      "choices": [
+        "malware",
+        "phishing",
+        "social engineering",
+        "cybersecurity"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "A successful cybersecurity approach has what kind of protection spread across the computers?",
+      "answer": "has multiple layers of protection spread across the computers",
+      "choices": [
+        "has a single layer of protection spread across the computers",
+        "has a single layer of protection spread across the network",
+        "has a firewall made of cheese",
+        "has multiple layers of protection spread across the computers"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "In an organization, what must all complement one another to create an effective defense from cyber attacks?",
+      "answer": "people, processes, and technology",
+      "choices": [
+        "people, processes, and infrastructure",
+        "hardware, software, and network",
+        "applications, data, and users",
+        "people, processes, and technology"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is one of the tasks of cybersecurity professionals?",
+      "answer": "Utilizing every type of medium to stay on top of technology and security threats",
+      "choices": [
+        "Attending conferences and workshops",
+        "Sagapin ang world",
+        "Conducting vulnerability assessments",
+        "Utilizing every type of medium to stay on top of technology and security threats"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is one of the tasks of cybersecurity professionals?",
+      "answer": "Being aware through analyzing and evaluating threats",
+      "choices": [
+        "Implementing security measures",
+        "Monitoring network traffic",
+        "Hackin ang wifi nyo",
+        "Being aware through analyzing and evaluating threats"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is one of the tasks of cybersecurity professionals?",
+      "answer": "Going through all the systems to check for any potential issue",
+      "choices": [
+        "Conducting penetration testing",
+        "To reach Mythical Glory",
+        "Developing security policies",
+        "Going through all the systems to check for any potential issue"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is one of the tasks of cybersecurity professionals?",
+      "answer": "Putting proper security measures in place and establishing a protocol",
+      "choices": [
+        "Training employees on security awareness",
+        "Stealing memes",
+        "Responding to security incidents",
+        "Putting proper security measures in place and establishing a protocol"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is one of the tasks of cybersecurity professionals?",
+      "answer": "Creating reports for shareholders",
+      "choices": [
+        "Creating reports for employees",
+        "Creating reports for customers",
+        "Creating reports for management",
+        "Creating reports for shareholders"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is one of the tasks of cybersecurity professionals?",
+      "answer": "Spreading the word about security and its importance throughout the company",
+      "choices": [
+        "Implementing security training programs",
+        "Conducting security audits",
+        "Enforcing security policies",
+        "Spreading the word about security and its importance throughout the company"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who is responsible for maintaining the security of a company's computer system?",
+      "answer": "Security Architect",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who must think like a hacker would to anticipate their moves and tactics?",
+      "answer": "Security Architect",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who sometimes has to work odd hours and must constantly stay updated on the latest developments in security and hacking?",
+      "answer": "Security Architect",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "IT experts feel that the best of which profession are former hackers since they are adept at understanding how the hackers operate?",
+      "answer": "Security Architect",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who works as an advisor and supervisor for all security measures necessary to protect a company's assets?",
+      "answer": "Security Consultant",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who uses their knowledge to assess possible security threats and breaches for prevention?",
+      "answer": "Security Consultant",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who creates contingency protocols and plans for when security violations occur?",
+      "answer": "Security Consultant",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who is an information security expert who systematically attempts to penetrate systems to find vulnerabilities?",
+      "answer": "Ethical Hacker",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who is also referred to as a white hat hacker?",
+      "answer": "Ethical Hacker",
+      "choices": [
+        "Ethical Kiro",
+        "Security Elmer",
+        "Ethical Hacker",
+        "Chief JC"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who is responsible for an organization's information and data security?",
+      "answer": "Chief Information Security Officer (CISO)",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Whose job is it to learn what day-to-day responsibilities will fall under its umbrella, such as security operations, data loss, program management, and access management?",
+      "answer": "Chief Information Security Officer (CISO)",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many common cybersecurity career paths are outlined in the handout?",
+      "answer": "Four",
+      "choices": [
+        "Two",
+        "Three",
+        "Five",
+        "Four"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    }
+  ]
+}

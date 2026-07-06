@@ -1,0 +1,4892 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Finals",
+    "Title": "Witness that stars shatter before you. Survive or be destroyed. There is no other choice.",
+    "LastModified": "3 June 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What term refers to a number, statement, etc. that represents specific data?",
+      "answer": "Data",
+      "choices": [
+        "Information",
+        "System",
+        "Data",
+        "Timeliness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a collection of data?",
+      "answer": "Information",
+      "choices": [
+        "Data",
+        "Information",
+        "Subsystems",
+        "Completeness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info must be up to date?",
+      "answer": "Timeliness",
+      "choices": [
+        "Appropriateness",
+        "Accuracy",
+        "Conciseness",
+        "Timeliness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information requires the system to have relevant info in every module for users who need it?",
+      "answer": "Appropriateness",
+      "choices": [
+        "Accuracy",
+        "Appropriateness",
+        "Understandability",
+        "Timeliness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info must be correct or precise?",
+      "answer": "Accuracy",
+      "choices": [
+        "Accuracy",
+        "Completeness",
+        "Data",
+        "System boundaries"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info must only contain the minimum detail appropriate to the user?",
+      "answer": "Conciseness",
+      "choices": [
+        "Conciseness",
+        "Timeliness",
+        "Appropriateness",
+        "System environment"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info and its format and presentation must be understandable?",
+      "answer": "Understandability",
+      "choices": [
+        "Understandability",
+        "Accuracy",
+        "System",
+        "Subsystem interface"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info must be complete based on the requirements?",
+      "answer": "Completeness",
+      "choices": [
+        "Completeness",
+        "Understandability",
+        "System feedback",
+        "System environment"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to components that are interrelated and work together with a common goal to accept inputs and outputs?",
+      "answer": "System",
+      "choices": [
+        "System",
+        "System boundaries",
+        "System environment",
+        "Subsystem interface"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the general term for a computer or other piece of technology and its dependencies?",
+      "answer": "System in computing",
+      "choices": [
+        "System",
+        "System in computing",
+        "System environment",
+        "Timeliness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term encompasses all working parts required to run a technical process?",
+      "answer": "System in computing",
+      "choices": [
+        "System",
+        "System in computing",
+        "Data",
+        "Accuracy"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines the scope of activities in which viewing or accessing any module of a system is limited?",
+      "answer": "System boundaries",
+      "choices": [
+        "System environment",
+        "System feedback",
+        "Subsystem interface",
+        "System boundaries"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes that every user has specific access on each module of a system?",
+      "answer": "System boundaries",
+      "choices": [
+        "Subsystems",
+        "System feedback",
+        "System boundaries",
+        "Subsystems"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the term for parts of a system that have different objectives and interactions based on requirements?",
+      "answer": "Subsystems",
+      "choices": [
+        "System boundaries",
+        "System environment",
+        "System feedback",
+        "Subsystems"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes that all parts of a system use the given resources to meet the given objective?",
+      "answer": "Subsystems",
+      "choices": [
+        "System",
+        "System feedback",
+        "Subsystem interface",
+        "Subsystems"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What serves as the connection to display the output of one system to the input of another?",
+      "answer": "Subsystem interface",
+      "choices": [
+        "System boundaries",
+        "Subsystems",
+        "System environment",
+        "Subsystem interface"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to people or organizations that give and receive data from the system?",
+      "answer": "System environment",
+      "choices": [
+        "System boundaries",
+        "System feedback",
+        "Subsystem interface",
+        "System environment"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes effective feedback assuring users that the system can achieve its goals?",
+      "answer": "System feedback",
+      "choices": [
+        "System boundaries",
+        "Subsystems",
+        "System environment",
+        "System feedback"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes that every system always needs feedback to be able to do its job and process accurately based on the requirements?",
+      "answer": "System feedback",
+      "choices": [
+        "System environment",
+        "System boundaries",
+        "System feedback",
+        "Appropriateness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to the info the user adds to the system?",
+      "answer": "Input",
+      "choices": [
+        "Output",
+        "Input",
+        "Feedback",
+        "Control"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to the efficiency of data processing?",
+      "answer": "Processing",
+      "choices": [
+        "Input",
+        "Output",
+        "Control",
+        "Processing"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system enables organizations to process big data?",
+      "answer": "Processing",
+      "choices": [
+        "Input",
+        "Control",
+        "Processing",
+        "Output"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to the info the system displays as a result?",
+      "answer": "Output",
+      "choices": [
+        "Input",
+        "Output",
+        "Feedback",
+        "Control"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to comments and suggestions to improve the processes of a system?",
+      "answer": "Feedback",
+      "choices": [
+        "Input",
+        "Feedback",
+        "Control",
+        "Output"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to managing the operations in every process of the system?",
+      "answer": "Control",
+      "choices": [
+        "Input",
+        "Control",
+        "Feedback",
+        "Output"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to interrelated components that collect, output, and process data to support decision making?",
+      "answer": "Information Systems",
+      "choices": [
+        "Information Systems in an Organization",
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Information Systems"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to a system that may consist of hardware, software, people, procedures, and telecommunication?",
+      "answer": "Information Systems in an Organization",
+      "choices": [
+        "Information Systems",
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Information Systems in an Organization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term involves factors such as organization structure, business procedure, culture, environment, and management decisions?",
+      "answer": "Information Systems in an Organization",
+      "choices": [
+        "Information Systems",
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Information Systems in an Organization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system is widely used?",
+      "answer": "Transaction Processing System",
+      "choices": [
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Expert Support System",
+        "Transaction Processing System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system records data collected at the boundaries of organizations?",
+      "answer": "Transaction Processing System",
+      "choices": [
+        "Business Intelligence Systems",
+        "Supply Chain Management System",
+        "Expert Support System",
+        "Transaction Processing System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system records transactions inside an organization?",
+      "answer": "Transaction Processing System",
+      "choices": [
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Supply Chain Management System",
+        "Transaction Processing System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system includes a sequence of activities such as marketing, manufacturing, assembly, and packing?",
+      "answer": "Supply Chain Management System",
+      "choices": [
+        "Customer Relationship Management System",
+        "Business Intelligence Systems",
+        "Supply Chain Management System",
+        "Decision Support System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system manages the relationship between a customer and an organization?",
+      "answer": "Customer Relationship Management System",
+      "choices": [
+        "Supply Chain Management System",
+        "Business Intelligence Systems",
+        "Expert Support System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system is used by service representatives to talk to their customers via phone?",
+      "answer": "Customer Relationship Management System",
+      "choices": [
+        "Supply Chain Management System",
+        "Business Intelligence Systems",
+        "Expert Support System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system is used to compete with other organizations?",
+      "answer": "Business Intelligence Systems",
+      "choices": [
+        "Business Intelligence Systems",
+        "Expert Support System",
+        "Supply Chain Management System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system accesses massive data, usually larger databases called data warehouses?",
+      "answer": "Business Intelligence Systems",
+      "choices": [
+        "Business Intelligence Systems",
+        "Decision Support System",
+        "Supply Chain Management System",
+        "Expert Support System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system helps to find actions and answers to questions like \"What If?\"",
+      "answer": "Decision Support System",
+      "choices": [
+        "Decision Support System",
+        "Expert Support System",
+        "Supply Chain Management System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system uses AI to preserve the knowledge of an expert and to solve problems?",
+      "answer": "Expert Support System",
+      "choices": [
+        "Expert Support System",
+        "Business Intelligence Systems",
+        "Transaction Processing System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is another name for Systems Development Life Cycle?",
+      "answer": "Waterfall Development",
+      "choices": [
+        "Waterfall Development",
+        "System Analysis",
+        "System Design",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology follows well-defined phases methodically?",
+      "answer": "Systems Development Life Cycle",
+      "choices": [
+        "Systems Life Cycle",
+        "Systems Development Life Cycle",
+        "System Design",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology is used by large organizations to check requirement compliance and progress?",
+      "answer": "Systems Development Life Cycle",
+      "choices": [
+        "Systems Life Cycle",
+        "Systems Development Life Cycle",
+        "Implementation",
+        "Production and Maintenance"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the oldest method of system development?",
+      "answer": "Systems Life Cycle",
+      "choices": [
+        "Systems Development Life Cycle",
+        "System Analysis",
+        "Systems Life Cycle",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology divides development into formal stages?",
+      "answer": "Systems Life Cycle",
+      "choices": [
+        "Systems Development Life Cycle",
+        "Programming",
+        "Systems Life Cycle",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology is used for large complex systems that require formal requirements analysis, predefined specifications, and tight control?",
+      "answer": "Systems Life Cycle",
+      "choices": [
+        "Systems Development Life Cycle",
+        "System Analysis",
+        "Systems Life Cycle",
+        "Production and Maintenance"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology ensures that every stage has an activity and follows a sequential order?",
+      "answer": "Systems Life Cycle",
+      "choices": [
+        "Systems Development Life Cycle",
+        "System Analysis",
+        "Systems Life Cycle",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle involves steps to come up on the data?",
+      "answer": "System Analysis",
+      "choices": [
+        "System Design",
+        "Programming",
+        "Testing",
+        "System Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle requires data analysis, problem identification, info requirement, and objective determination?",
+      "answer": "System Analysis",
+      "choices": [
+        "System Design",
+        "Programming",
+        "Testing",
+        "System Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle includes Investigation, Technical feasibility, Economic feasibility, Operational feasibility, and Requirements definition?",
+      "answer": "System Analysis",
+      "choices": [
+        "System Design",
+        "Programming",
+        "Testing",
+        "System Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle determines how the system will fulfill the objectives based on requirements?",
+      "answer": "System Design",
+      "choices": [
+        "System Analysis",
+        "System Design",
+        "Testing",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle describes functions, components, construction, and testing?",
+      "answer": "System Design",
+      "choices": [
+        "System Analysis",
+        "System Design",
+        "Testing",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle communicates ideas about the data using convention symbols?",
+      "answer": "System Design",
+      "choices": [
+        "System Analysis",
+        "System Design",
+        "Testing",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What diagram is suitable for describing any information system, even if it’s not computer-based?",
+      "answer": "Data Flow Diagram (DFD)",
+      "choices": [
+        "Unified Modeling Language (UML)",
+        "Data Flow Diagram (DFD)",
+        "System Analysis",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What diagram has limitations and cannot describe a system completely?",
+      "answer": "Data Flow Diagram (DFD)",
+      "choices": [
+        "Unified Modeling Language (UML)",
+        "Data Flow Diagram (DFD)",
+        "System Analysis",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What graphical standard is used for visualization, specifying, and documenting software?",
+      "answer": "Unified Modeling Language (UML)",
+      "choices": [
+        "Data Flow Diagram (DFD)",
+        "Unified Modeling Language (UML)",
+        "System Analysis",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle translates system specifications into code?",
+      "answer": "Programming",
+      "choices": [
+        "System Analysis",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle is the most respected phase?",
+      "answer": "Testing",
+      "choices": [
+        "Testing",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle states that testing each module in every simulation isn’t enough?",
+      "answer": "Testing",
+      "choices": [
+        "Testing",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle emphasizes testing the entire system?",
+      "answer": "Testing",
+      "choices": [
+        "Testing",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle involves Unit Testing, System Testing, and Acceptance Testing?",
+      "answer": "Testing",
+      "choices": [
+        "Testing",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle is also known as delivery?",
+      "answer": "Implementation",
+      "choices": [
+        "System Analysis",
+        "Implementation",
+        "Programming",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle consists of conversion from the old to the new system and training?",
+      "answer": "Implementation",
+      "choices": [
+        "System Analysis",
+        "Implementation",
+        "Programming",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle begins when the system is installed?",
+      "answer": "Production and Maintenance",
+      "choices": [
+        "Implementation",
+        "System Analysis",
+        "Production and Maintenance",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what stage of the System Life Cycle is the system reviewed by users and tech specialists to check if it meets the objectives and must be maintained?",
+      "answer": "Production and Maintenance",
+      "choices": [
+        "Implementation",
+        "System Analysis",
+        "Production and Maintenance",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what stage of the System Life Cycle are errors corrected, requirements met, and efficiency improved?",
+      "answer": "Production and Maintenance",
+      "choices": [
+        "Implementation",
+        "System Analysis",
+        "Production and Maintenance",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what stage of the System Life Cycle is the system in maintenance if changes, new requirements, or improvements are implemented?",
+      "answer": "Production and Maintenance",
+      "choices": [
+        "Implementation",
+        "System Analysis",
+        "Production and Maintenance",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which approach in software development relies on individual staff skills and experience?",
+      "answer": "Ad-Hoc Development",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Ad-Hoc Development",
+        "Agile Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach refers to small projects at which the staff is skilled?",
+      "answer": "Ad-Hoc Development",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Ad-Hoc Development",
+        "Agile Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the most common and earliest structured system used in software development?",
+      "answer": "Waterfall Model",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Spiral Model",
+        "Agile Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach involves the steps: System Analysis, System Design, Programming, Testing, Deployment, and Maintenance?",
+      "answer": "Waterfall Model",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Spiral Model",
+        "Agile Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach assumes that all requirements are known at the beginning of the project?",
+      "answer": "Prototyping",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which approach involves building a simple version of the software, presenting it to the client, receiving feedback, and making adjustments?",
+      "answer": "Prototyping",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach includes the steps: Requirements definition, Design, Prototype creation, Assessment, Prototype refinement, and System implementation?",
+      "answer": "Prototyping",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which model includes the best features from both the Waterfall and Prototyping models?",
+      "answer": "Spiral Model",
+      "choices": [
+        "Spiral Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which approach describes the process followed as the development takes place?",
+      "answer": "Spiral Model",
+      "choices": [
+        "Spiral Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach involves the steps: Project objectives, Risk assessment, Production, Planning, and Management?",
+      "answer": "Spiral Model",
+      "choices": [
+        "Spiral Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which approach focuses on fast software delivery by dividing a large project into a series of small subprojects?",
+      "answer": "Agile Development",
+      "choices": [
+        "Agile Development",
+        "Prototyping",
+        "Spiral Model",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development model allows risk reduction and quicker adaptability by assigning each team to a small project?",
+      "answer": "Agile Development",
+      "choices": [
+        "Agile Development",
+        "Prototyping",
+        "Spiral Model",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which software development approach is face-to-face communication preferred over written documents for better collaboration and quicker decision-making?",
+      "answer": "Agile Development",
+      "choices": [
+        "Agile Development",
+        "Prototyping",
+        "Spiral Model",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What system allows efficient collection and management of data?",
+      "answer": "Database Management System",
+      "choices": [
+        "Database Management System",
+        "Information Integration",
+        "Enterprise Resource Planning",
+        "Direct File Access Method"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What serves as an interface between data resources and application programs?",
+      "answer": "Database Management System",
+      "choices": [
+        "Database Management System",
+        "Index Sequential Access Method",
+        "Direct / Random File Organization",
+        "Organizing Data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What transition is considered a costly long-term process when shifting from traditional filing?",
+      "answer": "Database Management System",
+      "choices": [
+        "Database Management System",
+        "Information Integration",
+        "Direct File Access Method",
+        "Organizing Data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What process must understand both managerial and organizational requirements and the technologies for managing data?",
+      "answer": "Database Management System",
+      "choices": [
+        "Database Management System",
+        "Sequential File Organization",
+        "Index Sequential Access Method",
+        "Information Integration"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is difficult for every organization and business?",
+      "answer": "Organizing Data",
+      "choices": [
+        "Database Management System",
+        "Organizing Data",
+        "Index Sequential Access Method",
+        "Direct File Access Method"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What must be accurate and structured to provide exact information?",
+      "answer": "Organizing Data",
+      "choices": [
+        "Database Management System",
+        "Organizing Data",
+        "Sequential File Organization",
+        "Direct / Random File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What realization led organizations to gain a competitive advantage using useful information?",
+      "answer": "Organizing Data",
+      "choices": [
+        "Enterprise Resource Planning",
+        "Organizing Data",
+        "Direct File Access Method",
+        "Database Management System"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file organization type is used for processing the same information repeatedly?",
+      "answer": "Sequential File Organization",
+      "choices": [
+        "Direct / Random File Organization",
+        "Index Sequential Access Method",
+        "Index Sequential Access Method",
+        "Sequential File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file organization type is used with magnetic disks?",
+      "answer": "Direct / Random File Organization",
+      "choices": [
+        "Direct / Random File Organization",
+        "Index Sequential Access Method",
+        "Index Sequential Access Method",
+        "Sequential File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file access method stores records using a primary key?",
+      "answer": "Index Sequential Access Method",
+      "choices": [
+        "Direct / Random File Organization",
+        "Index Sequential Access Method",
+        "Direct File Access Method",
+        "Sequential File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file access method generates an index value for each primary key and maps it with the record?",
+      "answer": "Index Sequential Access Method",
+      "choices": [
+        "Direct / Random File Organization",
+        "Index Sequential Access Method",
+        "Direct File Access Method",
+        "Sequential File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file access method uses a primary key in combination with mathematical calculations to find the location of a record?",
+      "answer": "Direct File Access Method",
+      "choices": [
+        "Direct / Random File Organization",
+        "Index Sequential Access Method",
+        "Direct File Access Method",
+        "Sequential File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What ensures coordination of business aspects by gathering data from various resources?",
+      "answer": "Information Integration",
+      "choices": [
+        "Enterprise Resource Planning",
+        "Database Management System",
+        "Information Integration",
+        "Organizing Data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What difficulty arises due to hardware and software diversity when integrating information?",
+      "answer": "Information Integration",
+      "choices": [
+        "Enterprise Resource Planning",
+        "Information Integration",
+        "Database Management System",
+        "Direct File Access Method"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What integrates manufacturing, production, finance, accounting, sales, marketing, and HR in a single system?",
+      "answer": "Enterprise Resource Planning",
+      "choices": [
+        "Enterprise Resource Planning",
+        "Database Management System",
+        "Direct File Access Method",
+        "Sequential File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What system is exemplified by SAP, Peoplesoft, and Oracle?",
+      "answer": "Enterprise Resource Planning",
+      "choices": [
+        "Database Management System",
+        "Direct File Access Method",
+        "Enterprise Resource Planning",
+        "Information Integration"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What system uses databases, processes, and rules to provide up-to-the-minute financial data?",
+      "answer": "Enterprise Resource Planning",
+      "choices": [
+        "Database Management System",
+        "Direct File Access Method",
+        "Organizing Data",
+        "Enterprise Resource Planning"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What system handles all financial accounting systems and emphasizes purchasing, HR management, and investment management?",
+      "answer": "Enterprise Resource Planning",
+      "choices": [
+        "Information Integration",
+        "Database Management System",
+        "Enterprise Resource Planning",
+        "Sequential File Organ"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a stable, formal social structure that takes resources and processes them to produce outputs?",
+      "answer": "Organization",
+      "choices": [
+        "Group",
+        "Team",
+        "Network",
+        "Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is more stable than informal groups in longevity and routines?",
+      "answer": "Organization",
+      "choices": [
+        "Project",
+        "Task Force",
+        "Committee",
+        "Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What refers to how work is organized, coordinated, and focused on producing a valuable product or services?",
+      "answer": "Business Process",
+      "choices": [
+        "Project Management",
+        "Operations Research",
+        "Supply Chain Management",
+        "Business Process"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What can be liabilities if they’re based on inefficient ways that impede organization responsiveness and efficiency?",
+      "answer": "Business Process",
+      "choices": [
+        "Strategic Planning",
+        "Risk Management",
+        "Quality Control",
+        "Business Process"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What crosses many different functional areas and require coordination across departments?",
+      "answer": "Business Process",
+      "choices": [
+        "Project",
+        "Task",
+        "Activity",
+        "Business Process"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What deals with behavioral and technical issues surrounding the development, use, and impact of information systems used by managers and employees in a firm?",
+      "answer": "Management Information Systems",
+      "choices": [
+        "Decision Support Systems",
+        "Enterprise Resource Planning",
+        "Customer Relationship Management",
+        "Management Information Systems"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is there a whole new world of doing using new technology for managing and organizing?",
+      "answer": "Management Information Systems",
+      "choices": [
+        "Knowledge Management",
+        "Data Analytics",
+        "Business Intelligence",
+        "Management Information Systems"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What change of high importance in MIS is transforming the traditional business world with a continuous stream of it?",
+      "answer": "IT Innovation",
+      "choices": [
+        "Business Process Reengineering",
+        "Total Quality Management",
+        "Six Sigma",
+        "IT Innovation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What change of high importance in MIS has forever changed how premium video is distributed and created with the emergence of online video streaming services for downloading video?",
+      "answer": "New Business Models",
+      "choices": [
+        "Marketing Strategies",
+        "Distribution Channels",
+        "Product Development",
+        "New Business Models"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What change of high importance in MIS changes how firms produce, design, and deliver their products and services?",
+      "answer": "Ecommerce Expansion",
+      "choices": [
+        "Supply Chain Optimization",
+        "Customer Service Improvement",
+        "Product Diversification",
+        "Ecommerce Expansion"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What change of high importance in MIS reinvented itself, disrupting the traditional marketing and advertising?",
+      "answer": "Ecommerce Expansion",
+      "choices": [
+        "Branding Strategies",
+        "Public Relations Campaigns",
+        "Sales Promotions",
+        "Ecommerce Expansion"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What change of high importance in MIS has changed in the management of business firms?",
+      "answer": "Management Changes",
+      "choices": [
+        "Organizational Structures",
+        "Leadership Styles",
+        "Employee Engagement",
+        "Management Changes"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What change of high importance in MIS states that new, fast-going 21st century firms put less emphasis on hierarchy and structure and more on employees?",
+      "answer": "Changes in firms and organizations",
+      "choices": [
+        "Hierarchy and structure",
+        "Rules and regulations",
+        "Policies and procedures",
+        "Changes in firms and organizations"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "IT became a vital and integral part of every business plan. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Organizational structure of the IS function and distribution of employees are designed to meet the changing strategies of the business. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Form of an IT organization depends on the managerial philosophy and strategies formulated during the strategic planning process. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What refers to the determination of the basic long-term goals and adoption of courses of action and allocation of resources in achieving these goals?",
+      "answer": "Strategy",
+      "choices": [
+        "Strategy",
+        "Information System and Business Strategy",
+        "Use of Systems for Competitive Advantage",
+        "Information Technology in Organizations"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What involves leveraging technology in the value chain?",
+      "answer": "Information System and Business Strategy",
+      "choices": [
+        "Strategy",
+        "Information System and Business Strategy",
+        "Use of Systems for Competitive Advantage",
+        "Information Technology in Organizations"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Using IS to beat the competition and increase value of product is not easy. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What requires changing the processes and methods that probably have been in the organization for a long time?",
+      "answer": "Use of Systems for Competitive Advantage",
+      "choices": [
+        "Strategy",
+        "Information System and Business Strategy",
+        "Use of Systems for Competitive Advantage",
+        "Information Technology in Organizations"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "The responsibility for successfully developing and then using an integrated IS will usually fall on who?",
+      "answer": "Managers",
+      "choices": [
+        "Managers",
+        "Employees",
+        "Board",
+        "Elmer"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What computing systems and platforms allow non-programmers who use computers to create apps and outputs?",
+      "answer": "End User Computing",
+      "choices": [
+        "End User Development",
+        "Desktop and Laptop Computers",
+        "Virtual Desktops and Applications",
+        "End User Computing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What computing concept involves, enables, and integrates people with no background in programming into computing systems?",
+      "answer": "End User Computing",
+      "choices": [
+        "Mobile, Web, and Cloud Applications",
+        "End User Computing",
+        "Desktop Operating Systems and Applications",
+        "Smartphones and Wearables"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which computing system allows end users to better control their computing environment without the aid of real programmers?",
+      "answer": "End User Computing",
+      "choices": [
+        "Virtual Desktops and Applications",
+        "Desktop and Laptop Computers",
+        "End User Computing",
+        "End User Development"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the most common hardware aspect of an End User Computing (EUC) solution?",
+      "answer": "Desktop and Laptop Computers",
+      "choices": [
+        "Desktop Operating Systems and Applications",
+        "Mobile, Web, and Cloud Applications",
+        "Desktop and Laptop Computers",
+        "End User Development"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing covers the software aspect of desktop and laptop computers, either packaged or sold separately?",
+      "answer": "Desktop Operating Systems and Applications",
+      "choices": [
+        "Virtual Desktops and Applications",
+        "Desktop Operating Systems and Applications",
+        "Smartphones and Wearables",
+        "End User Computing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing refers to mobile hardware platforms such as phones, tablets, and watches?",
+      "answer": "Smartphones and Wearables",
+      "choices": [
+        "Desktop and Laptop Computers",
+        "End User Computing",
+        "Smartphones and Wearables",
+        "End User Development"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing gives priority and connectivity regardless of platform, such as email, instant messaging, and cloud storage?",
+      "answer": "Mobile, Web, and Cloud Applications",
+      "choices": [
+        "Smartphones and Wearables",
+        "End User Development",
+        "Mobile, Web, and Cloud Applications",
+        "Virtual Desktops and Applications"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing enhances mobility and connectivity through the development of cloud-based computing solutions?",
+      "answer": "Virtual Desktops and Applications",
+      "choices": [
+        "Mobile, Web, and Cloud Applications",
+        "Virtual Desktops and Applications",
+        "Desktop Operating Systems and Applications",
+        "End User Computing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What practice in End User Computing allows end users to develop their own information systems with IT support?",
+      "answer": "End User Development",
+      "choices": [
+        "End User Computing",
+        "Virtual Desktops and Applications",
+        "Mobile, Web, and Cloud Applications",
+        "End User Development"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User Development activities include providing computing workstations, elevated data access, and internet connectivity?",
+      "answer": "End User Development",
+      "choices": [
+        "End User Computing",
+        "End User Development",
+        "Desktop and Laptop Computers",
+        "Smartphones and Wearables"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens when poorly trained end users are incapable of correctly analyzing data or systems?",
+      "answer": "Errors in Analysis",
+      "choices": [
+        "Faulty Models",
+        "Errors in Analysis",
+        "Lack of Documentation",
+        "Possible security and privacy issue"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What issue arises when documentation is often inadequate or nonexistent, making maintenance difficult and expensive?",
+      "answer": "Lack of Documentation",
+      "choices": [
+        "Faulty Models",
+        "Lack of Documentation",
+        "Errors in Analysis",
+        "Application packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term refers to erroneous manufactured hardware and bugs in software?",
+      "answer": "Faulty Models",
+      "choices": [
+        "Faulty Models",
+        "Errors in Analysis",
+        "Possible security and privacy issue",
+        "Lack of Documentation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What risk occurs when an organization's data or actual software itself may be at risk of being manipulated or stolen?",
+      "answer": "Possible security and privacy issue",
+      "choices": [
+        "Errors in Analysis",
+        "Faulty Models",
+        "Possible security and privacy issue",
+        "Lack of Documentation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing tool consists of prewritten software packages marketed commercially?",
+      "answer": "Application packages",
+      "choices": [
+        "Office Automation Tools",
+        "Application packages",
+        "Knowledge Management",
+        "Communication Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing tool supports standard business functions like payroll, ledgers, and scheduling?",
+      "answer": "Application packages",
+      "choices": [
+        "4th Generation Programming Languages",
+        "Application packages",
+        "Communication Tools",
+        "Data Handling Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of End User Computing tool is customizable via key parameters, such as MS Office?",
+      "answer": "Application packages",
+      "choices": [
+        "Application packages",
+        "Office Automation Tools",
+        "Graphic Design",
+        "Data Handling Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What programming tool allows end users to develop their computing solutions and consolidate them into small systems?",
+      "answer": "4th Generation Programming Languages",
+      "choices": [
+        "Knowledge Management",
+        "Group Systems / Computer-Supported Collaboration Workspaces",
+        "4th Generation Programming Languages",
+        "Text and Multimedia Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes word processing and presentation software?",
+      "answer": "Text and Multimedia Tools",
+      "choices": [
+        "Text and Multimedia Tools",
+        "Communication Tools",
+        "Data Handling Tools",
+        "Knowledge Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool consists of spreadsheets, statistical packages, and databases?",
+      "answer": "Data Handling Tools",
+      "choices": [
+        "Office Automation Tools",
+        "Communication Tools",
+        "Data Handling Tools",
+        "Application packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes emails and VoIP?",
+      "answer": "Communication Tools",
+      "choices": [
+        "Text and Multimedia Tools",
+        "Group Systems / Computer-Supported Collaboration Workspaces",
+        "Communication Tools",
+        "Data Handling Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes E-notebooks, directories, and project management tools?",
+      "answer": "Office Automation Tools",
+      "choices": [
+        "Office Automation Tools",
+        "Application Packages",
+        "Graphic Design",
+        "Data Handling Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes teleconferencing and virtual workspaces?",
+      "answer": "Group Systems / Computer-Supported Collaboration Workspaces",
+      "choices": [
+        "Communication Tools",
+        "Graphic Design",
+        "Group Systems / Computer-Supported Collaboration Workspaces",
+        "Text and Multimedia Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes graphic software and computer-aided design?",
+      "answer": "Graphic Design",
+      "choices": [
+        "Knowledge Management",
+        "Graphic Design",
+        "Office Automation Tools",
+        "Text and Multimedia Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What End User System Tool includes data mining?",
+      "answer": "Knowledge Management",
+      "choices": [
+        "Data Handling Tools",
+        "Knowledge Management",
+        "Communication Tools",
+        "Group Systems / Computer-Supported Collaboration Workspaces"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to the complete integration of basic office requirements for a department in an organization?",
+      "answer": "Office Automation",
+      "choices": [
+        "Office Information Systems",
+        "Office Automation",
+        "E-Communication",
+        "Software Packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What includes requirements such as word processing, electronic data filing, diary management, and communications?",
+      "answer": "Office Automation",
+      "choices": [
+        "Office Information Systems",
+        "Office Automation",
+        "Project Management",
+        "Calendar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What organizes functions in a way that they don’t have to be done separately or use additional workforce?",
+      "answer": "Office Automation",
+      "choices": [
+        "Process Software",
+        "Office Automation",
+        "Functions",
+        "E-Spreadsheet"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses software, hardware, and networking to improve workflow and communication of office workers?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "Office Automation",
+        "Office Information Systems",
+        "E-Communication",
+        "Software Packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What supports the collection of business office activities to help management and workforce manage jobs?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "Office Automation",
+        "Software Packages",
+        "Office Information Systems",
+        "Database Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can evolve and become automated to increase flexibility and effectiveness?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "Project Management",
+        "Office Information Systems",
+        "Office Automation",
+        "Functions"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What functionality facilitates e-communication via email and instant messaging?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "Office Information Systems",
+        "Office Automation",
+        "End User Computing",
+        "End User Development"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What functionality manages audio-video communications via telephony or teleconferencing?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "Office Automation",
+        "Office Information Systems",
+        "E-Communication",
+        "Functions"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What functionality facilitates record management via databases or data servers?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "Office Information Systems",
+        "Office Automation",
+        "End User Development",
+        "End User Computing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What functionality automates business-specific processes to reduce or eliminate manpower requirements?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "End User Computing",
+        "End User Development",
+        "Office Information Systems",
+        "Office Automation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides EUC to enhance end-user (employees) efficiency?",
+      "answer": "Office Information Systems",
+      "choices": [
+        "Office Information Systems",
+        "End User Computing",
+        "End User Development",
+        "Office Automation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to operations performed by activating key sequences like copy and paste?",
+      "answer": "Functions",
+      "choices": [
+        "Word Processing",
+        "Functions",
+        "Software Packages",
+        "Office Automation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to bundled apps that interact with system resources for various tasks like MS Office?",
+      "answer": "Software Packages",
+      "choices": [
+        "Software Packages",
+        "Office Information Systems",
+        "Database Management",
+        "Word Processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides specific capabilities other than those commonly offered and can be individual or bundled?",
+      "answer": "Process Software",
+      "choices": [
+        "E-Spreadsheet",
+        "Process Software",
+        "Graphic Design",
+        "Database Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software is designed for developing textual documents?",
+      "answer": "Word Processing",
+      "choices": [
+        "E-Spreadsheet",
+        "Word Processing",
+        "Office Information Systems",
+        "Software Packages"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is used for accounting and financial purposes, designed for maintaining, manipulating, and calculating data?",
+      "answer": "E-Spreadsheet",
+      "choices": [
+        "E-Spreadsheet",
+        "Database Management",
+        "Calendar",
+        "Word Processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides organized e-storage to search for and display pieces of information?",
+      "answer": "Database Management",
+      "choices": [
+        "Office Automation",
+        "Database Management",
+        "Process Software",
+        "E-Spreadsheet"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software allows users to layout text, graphics, and pictures on a page?",
+      "answer": "Desktop Publishing",
+      "choices": [
+        "Word Processing",
+        "Desktop Publishing",
+        "Graphic Design",
+        "Project Management"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software allows users to switch from one form of presentation to another for different users?",
+      "answer": "Graphic Design",
+      "choices": [
+        "E-Spreadsheet",
+        "Graphic Design",
+        "Office Automation",
+        "Word Processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software helps users identify tasks, track progress, and report information about a project?",
+      "answer": "Project Management",
+      "choices": [
+        "Software Packages",
+        "E-Communication",
+        "Project Management",
+        "Calendar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What software is used to schedule events and includes additional functions like to-do lists and reminders?",
+      "answer": "Calendar",
+      "choices": [
+        "Calendar",
+        "Functions",
+        "Word Processing",
+        "E-Spreadsheet"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What permits sending information to users through computers’ communication links?",
+      "answer": "E-Communication",
+      "choices": [
+        "Database Management",
+        "E-Communication",
+        "Software Packages",
+        "Office Information Systems"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to an information system that provides fast and inexpensive communication channels using telephony, computing hardware, networks, and the internet?",
+      "answer": "Electronic Communication Systems (ECS)",
+      "choices": [
+        "Electronic Communication Systems (ECS)",
+        "Electronic Conferencing (EC)",
+        "Electronic Meeting System (EMS)",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of electronic communication systems is based on time and availability?",
+      "answer": "Types of Electronic Communication Systems",
+      "choices": [
+        "Types of Electronic Communication Systems",
+        "Types of Electronic Conferencing",
+        "Types of Electronic Discussion",
+        "Types of Electronic Publishing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic communication requires members to be available at the same time to communicate?",
+      "answer": "Synchronous",
+      "choices": [
+        "Synchronous",
+        "Asynchronous",
+        "Electronic Conferencing (EC)",
+        "Electronic Discussion (ED)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic communication doesn’t require members to be available at the same time?",
+      "answer": "Asynchronous",
+      "choices": [
+        "Asynchronous",
+        "Synchronous",
+        "Electronic Meeting System (EMS)",
+        "Pull Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What component of ECS is mostly synchronous and encourages greater collaboration between the organization and its members?",
+      "answer": "Electronic Conferencing (EC)",
+      "choices": [
+        "Electronic Conferencing (EC)",
+        "Electronic Discussion (ED)",
+        "Online collaboration and sharing",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses internet-based technologies to facilitate a broader coverage of members and eliminate the need for physical locations?",
+      "answer": "Electronic Conferencing (EC)",
+      "choices": [
+        "Electronic Conferencing (EC)",
+        "Electronic Discussion (ED)",
+        "Electronic Publishing (EP)",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic conferencing involves only two points between two members, similar to phone calls?",
+      "answer": "Point-to-point",
+      "choices": [
+        "Point-to-point",
+        "Multipoint",
+        "Electronic Discussion (ED)",
+        "Pull Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic conferencing involves multiple points between multiple members?",
+      "answer": "Multipoint",
+      "choices": [
+        "Multipoint",
+        "Point-to-point",
+        "Push Technology",
+        "Electronic Meeting System (EMS)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic conferencing uses a central network hub and allows simultaneous collaboration on various predefined locations?",
+      "answer": "Multipoint",
+      "choices": [
+        "Multipoint",
+        "Point-to-point",
+        "Online collaboration and sharing",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a component of ECS that assists in the creation, organization, and facilitation of meetings?",
+      "answer": "Electronic Meeting System (EMS)",
+      "choices": [
+        "Electronic Meeting System (EMS)",
+        "Electronic Discussion (ED)",
+        "Electronic Publishing (EP)",
+        "Synchronous"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What component of ECS can either be synchronous or asynchronous and uses multiple tools such as e-conferencing, scheduling, file sharing, and cross-portability features?",
+      "answer": "Electronic Meeting System (EMS)",
+      "choices": [
+        "Electronic Meeting System (EMS)",
+        "Electronic Conferencing (EC)",
+        "Electronic Discussion (ED)",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What component of ECS uses tools specifically designed for meetings?",
+      "answer": "Electronic Meeting System (EMS)",
+      "choices": [
+        "Electronic Meeting System (EMS)",
+        "Electronic Conferencing (EC)",
+        "Multipoint",
+        "Point-to-point"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to an information system used to facilitate textual or non-textual discussions between members using an available electronic medium?",
+      "answer": "Electronic Discussion (ED)",
+      "choices": [
+        "Electronic Discussion (ED)",
+        "Electronic Meeting System (EMS)",
+        "Electronic Publishing (EP)",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a broader type of digital conversation?",
+      "answer": "Electronic Discussion (ED)",
+      "choices": [
+        "Electronic Discussion (ED)",
+        "Electronic Publishing (EP)",
+        "Electronic Meeting System (EMS)",
+        "Push Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic discussion requires a user to take action to access the discussion, such as logging into an online forum?",
+      "answer": "Pull Technology",
+      "choices": [
+        "Pull Technology",
+        "Push Technology",
+        "Synchronous",
+        "Multipoint"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic discussion doesn’t require anything from the user, as information is automatically disseminated?",
+      "answer": "Push Technology",
+      "choices": [
+        "Push Technology",
+        "Pull Technology",
+        "Online collaboration and sharing",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of electronic discussion disseminates information with or without the obligation for the user to retrieve it manually?",
+      "answer": "Push Technology",
+      "choices": [
+        "Push Technology",
+        "Pull Technology",
+        "Multipoint",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What aspect of ECS facilitates the digital publishing of textual material and other readable information?",
+      "answer": "Electronic Publishing (EP)",
+      "choices": [
+        "Electronic Publishing (EP)",
+        "Electronic Discussion (ED)",
+        "Pull Technology",
+        "Security issues"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What aspect of ECS makes materials available for viewing using a device with an electronic screen, such as a computer?",
+      "answer": "Electronic Publishing (EP)",
+      "choices": [
+        "Electronic Publishing (EP)",
+        "Portable electronic device",
+        "E-versions of traditional media",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to a means of storing and publishing e-textual content such as DVDs and CDs?",
+      "answer": "Portable electronic device",
+      "choices": [
+        "Portable electronic device",
+        "E-versions of traditional media",
+        "New Media",
+        "Push Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What converts traditional media formats and publishes them as digital copies, such as PDFs and e-books?",
+      "answer": "E-versions of traditional media",
+      "choices": [
+        "E-versions of traditional media",
+        "Portable electronic device",
+        "New Media",
+        "Pull Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of digital publishing relies on the internet to reach its target recipients, such as blogs and digital publication platforms?",
+      "answer": "New Media",
+      "choices": [
+        "New Media",
+        "E-versions of traditional media",
+        "Online collaboration and sharing",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What uses the internet to facilitate publishing with an emphasis on collaboration between recipients?",
+      "answer": "Online collaboration and sharing",
+      "choices": [
+        "Online collaboration and sharing",
+        "New Media",
+        "Electronic Publishing (EP)",
+        "Electronic Conferencing (EC)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a paperless and environmentally friendly medium?",
+      "answer": "Benefits of Electronic Publishing",
+      "choices": [
+        "Benefits of Electronic Publishing",
+        "Security issues",
+        "Plagiarism",
+        "Public opinion on business models"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of electronic publishing refers to its portability and storage capabilities?",
+      "answer": "Benefits of Electronic Publishing",
+      "choices": [
+        "Benefits of Electronic Publishing",
+        "E-versions of traditional media",
+        "Online collaboration and sharing",
+        "Push Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of electronic publishing allows digital distribution?",
+      "answer": "Benefits of Electronic Publishing",
+      "choices": [
+        "Benefits of Electronic Publishing",
+        "Electronic Publishing (EP)",
+        "New Media",
+        "Pull Technology"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a potential risk of electronic publishing related to data privacy concerns?",
+      "answer": "Security issues",
+      "choices": [
+        "Security issues",
+        "Plagiarism",
+        "Public opinion on business models",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What risk of electronic publishing allows digital content to be stolen and used without following traditional policies?",
+      "answer": "Plagiarism",
+      "choices": [
+        "Plagiarism",
+        "Security issues",
+        "Public opinion on business models",
+        "Electronic Publishing (EP)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What risk of electronic publishing is caused by the perception that internet information should be free, making paid content models less appealing?",
+      "answer": "Public opinion on business models",
+      "choices": [
+        "Public opinion on business models",
+        "Security issues",
+        "Plagiarism",
+        "Online collaboration and sharing"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves sharing of information over a distance allowing businesses and organizations to have a broad, possibly global reach?",
+      "answer": "Telecommunication",
+      "choices": [
+        "Telecommunication",
+        "Internal downward",
+        "E-Business",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What includes telephony, fax, email, and the internet?",
+      "answer": "Telecommunication",
+      "choices": [
+        "Telecommunication",
+        "External",
+        "Star network",
+        "Internal lateral"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can have different types depending on the information sender, the intended recipient, how data gets to the recipient, and how the information is distributed?",
+      "answer": "Telecommunication",
+      "choices": [
+        "Telecommunication",
+        "Internal upward",
+        "Operation cost reduction",
+        "E-commerce support systems"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is circulated within the business or organization?",
+      "answer": "Internal downward",
+      "choices": [
+        "Internal downward",
+        "Internal upward",
+        "External",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is defined as the information comes from the superiors cascaded down through departments?",
+      "answer": "Internal downward",
+      "choices": [
+        "Internal downward",
+        "Internal lateral",
+        "Customer service efficiency",
+        "Wider market access"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Memorandum?",
+      "answer": "Internal downward",
+      "choices": [
+        "Internal downward",
+        "External",
+        "Chain network",
+        "E-Business"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves subordinates sending information up the hierarchy to their superiors?",
+      "answer": "Internal upward",
+      "choices": [
+        "Internal upward",
+        "Internal downward",
+        "Internal lateral",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Budget approval documents?",
+      "answer": "Internal upward",
+      "choices": [
+        "Internal upward",
+        "External",
+        "Internal downward",
+        "Star network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves communication between co-workers and members of departments in the same level?",
+      "answer": "Internal lateral",
+      "choices": [
+        "Internal lateral",
+        "Internal upward",
+        "External",
+        "Chain network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Email between employees of the same department?",
+      "answer": "Internal lateral",
+      "choices": [
+        "Internal lateral",
+        "Internal upward",
+        "Telecommunication",
+        "Customer service efficiency"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves information leaving the business or organization, mostly dealing with customer prospects, vendors, or partners?",
+      "answer": "External",
+      "choices": [
+        "External",
+        "Internal downward",
+        "Internal lateral",
+        "E-Business"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Business pitch?",
+      "answer": "External",
+      "choices": [
+        "External",
+        "Internal upward",
+        "Telecommunication",
+        "Wider market access"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to employable methods business and organizations use to disseminate information?",
+      "answer": "Telecommunication Networking",
+      "choices": [
+        "Telecommunication Networking",
+        "Telecommunication",
+        "Internal downward",
+        "E-Business"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides communication connectivity to its other aspects such as prospective clients, branches and departments to further streamline specific processes and tasks?",
+      "answer": "Telecommunication Networking",
+      "choices": [
+        "Telecommunication Networking",
+        "Customer service efficiency",
+        "External",
+        "Star network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What means only 1 member of the network (the manager) is allowed to send or receive information?",
+      "answer": "Wheel network",
+      "choices": [
+        "Wheel network",
+        "Chain network",
+        "Star network",
+        "Circle network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of the wheel network is: It’s direct and efficient?",
+      "answer": "Wheel network",
+      "choices": [
+        "Wheel network",
+        "Chain network",
+        "Telecommunication Networking",
+        "External"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What disadvantage of the wheel network is: With a higher number of people being handled, the leader may not be responsive?",
+      "answer": "Wheel network",
+      "choices": [
+        "Wheel network",
+        "Circle network",
+        "Internal lateral",
+        "Chain network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves communication in a set sequence?",
+      "answer": "Chain network",
+      "choices": [
+        "Chain network",
+        "Wheel network",
+        "Star network",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What follows the organization’s hierarchy, such as the CEO’s message going down to departments?",
+      "answer": "Chain network",
+      "choices": [
+        "Chain network",
+        "Internal upward",
+        "External",
+        "Wheel network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of the chain network is: Follows the chain of command and apply quality control?",
+      "answer": "Chain network",
+      "choices": [
+        "Chain network",
+        "Wheel network",
+        "Star network",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What disadvantage of the chain network is: May suffer from misinformation if the organization is large due to the length of communication the information must pass through?",
+      "answer": "Chain network",
+      "choices": [
+        "Chain network",
+        "Internal downward",
+        "Star network",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is defined as a 3-level hierarchy where there’s communication between superiors and subordinates with cross-communication at the operative level?",
+      "answer": "Circle network",
+      "choices": [
+        "Circle network",
+        "Star network",
+        "Chain network",
+        "Internal lateral"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of the circle network is: Quick and open collaboration between superiors and subordinates?",
+      "answer": "Circle network",
+      "choices": [
+        "Circle network",
+        "Chain network",
+        "Telecommunication Networking",
+        "Internal upward"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What disadvantage of the circle network is: Same problems from the chain network applies?",
+      "answer": "Circle network",
+      "choices": [
+        "Circle network",
+        "External",
+        "Chain network",
+        "Internal downward"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What means all channels are open?",
+      "answer": "Star network",
+      "choices": [
+        "Star network",
+        "Circle network",
+        "Chain network",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is similar to a circle network except all members can communicate with all members?",
+      "answer": "Star network",
+      "choices": [
+        "Star network",
+        "Circle network",
+        "Chain network",
+        "External"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves the highest participation and collaboration between members?",
+      "answer": "Star network",
+      "choices": [
+        "Star network",
+        "Internal lateral",
+        "Circle network",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is an organizational system in an enterprise that applies electronically-controlled technology and resources in its operational systems to facilitate more efficient execution of business activities like selling products and servers to customer service and support?",
+      "answer": "E-Business",
+      "choices": [
+        "E-Business",
+        "Telecommunication",
+        "Internet business models",
+        "E-commerce support systems"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves the application of IT and IT professionals, as well as the internet, to traditional business processes?",
+      "answer": "E-Business",
+      "choices": [
+        "E-Business",
+        "Telecommunication",
+        "Customer-centered retailing",
+        "Star network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses involves applying telecommunication and networking to reduce operational cost?",
+      "answer": "Operation cost reduction",
+      "choices": [
+        "Operation cost reduction",
+        "Customer service efficiency",
+        "Wider market access",
+        "E-Business"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses involves machines automating processes that require manual labor otherwise?",
+      "answer": "Operation cost reduction",
+      "choices": [
+        "Operation cost reduction",
+        "E-commerce support systems",
+        "Telecommunication",
+        "Internal lateral"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows use of technologies such as email, saving costs in communication and transaction?",
+      "answer": "Operation cost reduction",
+      "choices": [
+        "Operation cost reduction",
+        "E-commerce support systems",
+        "External",
+        "Customer service efficiency"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses improves customer service due to its reach, speed, and reliability?",
+      "answer": "Customer service efficiency",
+      "choices": [
+        "Customer service efficiency",
+        "Operation cost reduction",
+        "Wider market access",
+        "E-commerce support systems"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses reaches more customers and services them in a short amount of time?",
+      "answer": "Customer service efficiency",
+      "choices": [
+        "Customer service efficiency",
+        "Operation cost reduction",
+        "Internal downward",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows businesses offering products to streamline delivery processes and digitize payment modes?",
+      "answer": "Customer service efficiency",
+      "choices": [
+        "Customer service efficiency",
+        "E-Business",
+        "Operation cost reduction",
+        "External"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows broader reach to a target market?",
+      "answer": "Wider market access",
+      "choices": [
+        "Wider market access",
+        "Operation cost reduction",
+        "E-commerce support systems",
+        "Internet business models"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows business and organizations to tailor its service and processes to suit a variety of clients?",
+      "answer": "Wider market access",
+      "choices": [
+        "Wider market access",
+        "Customer service efficiency",
+        "E-Business",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows enterprises to either design a marketing strategy to center on particular locations to establish a stronger presence or reach out on an international level?",
+      "answer": "Wider market access",
+      "choices": [
+        "Wider market access",
+        "Internet business models",
+        "Customer-centered retailing",
+        "Star network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions is defined as through websites, enterprises can conduct business with a variety of clients on a local, national, or global scale?",
+      "answer": "Internet business models",
+      "choices": [
+        "Internet business models",
+        "E-commerce support systems",
+        "E-Business",
+        "Customer-centered retailing"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions involves companies developing solutions to revolutionize an industry due to the number of possibilities of online commerce?",
+      "answer": "Internet business models",
+      "choices": [
+        "Internet business models",
+        "E-commerce support systems",
+        "Customer-centered retailing",
+        "Operation cost reduction"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions is defined as consumers want information about the products and services they plan on getting?",
+      "answer": "Customer-centered retailing",
+      "choices": [
+        "Customer-centered retailing",
+        "Internet business models",
+        "E-commerce support systems",
+        "External"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions involves companies addressing this with reviews from websites and/or services that offer review services?",
+      "answer": "Customer-centered retailing",
+      "choices": [
+        "Customer-centered retailing",
+        "Internet business models",
+        "Operation cost reduction",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What service, called intermediation, introduces other customers and businesses as middlemen to help an enterprise flourish?",
+      "answer": "Customer-centered retailing",
+      "choices": [
+        "Customer-centered retailing",
+        "E-commerce support systems",
+        "Internet business models",
+        "Customer service efficiency"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions allows companies to opt to offer services from other enterprises such as credit card transaction processing / e-payment systems?",
+      "answer": "E-commerce support systems",
+      "choices": [
+        "E-commerce support systems",
+        "Internet business models",
+        "Customer-centered retailing",
+        "Operation cost reduction"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions involves some application suites being bought by businesses and organizations to help them set an online presence?",
+      "answer": "E-commerce support systems",
+      "choices": [
+        "E-commerce support systems",
+        "Internet business models",
+        "E-Business",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the earliest computerized systems whose purpose is to record, process, validate, and store transactions in various functional areas of business for future retrieval and use?",
+      "answer": "Transaction Processing Systems",
+      "choices": [
+        "Transaction Processing Systems",
+        "Operational Information System",
+        "Data Entry",
+        "Query Support"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What records company transactions and process data resulting from the occurrence of business transactions?",
+      "answer": "Transaction Processing Systems",
+      "choices": [
+        "Transaction Processing Systems",
+        "Data Validation",
+        "Data Storage",
+        "Output Generation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of transaction is done within the company and is usually related to the internal processes of any organization?",
+      "answer": "Internal",
+      "choices": [
+        "Internal",
+        "External",
+        "Data Entry",
+        "Batch Mode"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Recruitment systems for human resources?",
+      "answer": "Internal",
+      "choices": [
+        "Internal",
+        "External",
+        "Data Validation",
+        "Increased speed"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of transaction is external to any organization and related to external sources?",
+      "answer": "External",
+      "choices": [
+        "External",
+        "Internal",
+        "Data Process and Revalidation",
+        "Online"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Purchasing systems for supply chains; sales systems for product sellers?",
+      "answer": "External",
+      "choices": [
+        "External",
+        "Internal",
+        "Data Storage",
+        "Output Generation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the first step in transaction processing where transactional data must be first entered so it can be processed?",
+      "answer": "Data Entry",
+      "choices": [
+        "Data Entry",
+        "Data Validation",
+        "Data Storage",
+        "Query Support"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves input devices like mice in transaction processing?",
+      "answer": "Data Entry",
+      "choices": [
+        "Data Entry",
+        "Data Process and Revalidation",
+        "Online",
+        "Batch Mode"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing requires the system to use the 2 steps in validation: error validation and error correction?",
+      "answer": "Data Validation",
+      "choices": [
+        "Data Validation",
+        "Data Entry",
+        "Output Generation",
+        "Data Storage"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing follows once accuracy and reliability of data are validated, where the data is ready to be processed?",
+      "answer": "Data Process and Revalidation",
+      "choices": [
+        "Data Process and Revalidation",
+        "Data Validation",
+        "Data Storage",
+        "Query Support"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What processing mode is described as almost instantaneous processing due to internet connectivity?",
+      "answer": "Online",
+      "choices": [
+        "Online",
+        "Batch Mode",
+        "Data Process and Revalidation",
+        "Data Entry"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What processing mode involves transactions being accumulated over time and processed?",
+      "answer": "Batch Mode",
+      "choices": [
+        "Batch Mode",
+        "Online",
+        "Data Process and Revalidation",
+        "Data Storage"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing is where processed data must be properly stored for future use?",
+      "answer": "Data Storage",
+      "choices": [
+        "Data Storage",
+        "Output Generation",
+        "Query Support",
+        "Data Entry"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing is where the output can be communicated to decision makers in the form of documents/reports (physical) and forms (digital)?",
+      "answer": "Output Generation",
+      "choices": [
+        "Output Generation",
+        "Data Storage",
+        "Data Entry",
+        "Data Process and Revalidation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing allows users to process data and information that may otherwise be unavailable, like previously stored data, by providing proper parameters for retrieval?",
+      "answer": "Query Support",
+      "choices": [
+        "Query Support",
+        "Data Storage",
+        "Data Validation",
+        "Output Generation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the information system that can record, process, and report all routine and repetitive activities of an organization, where the process may occur across departments?",
+      "answer": "Operational Information System",
+      "choices": [
+        "Operational Information System",
+        "Transaction Processing Systems",
+        "Data Entry",
+        "Query Support"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as operational costs are reduced due to streamlined processes especially those who needs manual labor to do?",
+      "answer": "Reduced Cost",
+      "choices": [
+        "Reduced Cost",
+        "Increased speed",
+        "Increased accuracy",
+        "Increased customer service"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as automated routine processes use the system’s processing power to finish tasks quickly?",
+      "answer": "Increased speed",
+      "choices": [
+        "Increased speed",
+        "Reduced Cost",
+        "Increased accuracy",
+        "Increased customer service"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as human error is reduced and the system is capable of accomplishing tasks using a fool-proof algorithm?",
+      "answer": "Increased accuracy",
+      "choices": [
+        "Increased accuracy",
+        "Increased speed",
+        "Reduced Cost",
+        "Increased customer service"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as systems can also streamline customer service processes to ensure efficient delivery?",
+      "answer": "Increased customer service",
+      "choices": [
+        "Increased customer service",
+        "Increased speed",
+        "Increased accuracy",
+        "Increased data for decision making"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as OIS can store and generate data for reports, documents, etc. that can be used by executives for decisions concerning the future of the enterprise?",
+      "answer": "Increased data for decision making",
+      "choices": [
+        "Increased data for decision making",
+        "Increased customer service",
+        "Increased speed",
+        "Reduced Cost"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What system supports management decision making by providing reports such as regular summary, exception reports, and ad-hoc reports, and helps managers control their areas of responsibility as well as allocate their resources and focus on management?",
+      "answer": "Tactical Information Systems",
+      "choices": [
+        "Tactical Information Systems",
+        "Accounting and Financial Information Systems (AFIS)",
+        "Cash Management System",
+        "Capital Budgeting System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "At the managerial level, which system allows various apps to handle particular organizational functions and supports diverse tactical decisions such as selecting the appropriate staff and purchasing/leasing of equipment?",
+      "answer": "Tactical Information Systems",
+      "choices": [
+        "Tactical Information Systems",
+        "Investment Management System",
+        "Capital Budgeting System",
+        "Accounting and Financial Information Systems (AFIS)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system permits managers to track and compare actual revenues and expenses, compares current budget amounts to those of prior fiscal periods, and assesses how they use their resources to achieve their goals?",
+      "answer": "Accounting and Financial Information Systems (AFIS)",
+      "choices": [
+        "Accounting and Financial Information Systems (AFIS)",
+        "Tactical Information Systems",
+        "Cash Management System",
+        "Investment Management System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system produces cash flow reports that show estimated incoming and outcoming cash amounts for specific timeframes and allows managers to manage cash on hand to ensure continued operations?",
+      "answer": "Cash Management System",
+      "choices": [
+        "Cash Management System",
+        "Capital Budgeting System",
+        "Investment Management System",
+        "Accounting and Financial Information Systems (AFIS)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system focuses on producing information for the acquisition/disposal of assets using evaluation tools and the system’s data to compare information from current and previous timeframes for evaluating asset acquisition or disposal?",
+      "answer": "Capital Budgeting System",
+      "choices": [
+        "Capital Budgeting System",
+        "Cash Management System",
+        "Investment Management System",
+        "Accounting and Financial Information Systems (AFIS)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system produces reports that allow a manager to oversee an organization’s investments in stocks, bonds, or other securities as a separate but important aspect of cash management?",
+      "answer": "Investment Management System",
+      "choices": [
+        "Investment Management System",
+        "Capital Budgeting System",
+        "Cash Management System",
+        "Accounting and Financial Information Systems (AFIS)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system works in tandem with operational information systems for marketing and finance through various means such as processing of operational data, and allows tactical decision making by the marketing department such as the implementation of marketing plans in order to reach sales and profit margins set by higher management?",
+      "answer": "Tactical Management Information System (TMIS)",
+      "choices": [
+        "Tactical Management Information System (TMIS)",
+        "Sales Management System",
+        "Advertising and Promotional System",
+        "Pricing System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system allows managers to assess the productivity of a salesforce, the profitability of certain locations, and the success of products further categorized by sales persons, locations, and target demographic, and keeps track of activities, sales, orders, and customer activities which allows a manager to identify points of interest in terms of location, performance, and demographics?",
+      "answer": "Sales Management System",
+      "choices": [
+        "Sales Management System",
+        "Tactical Management Information System (TMIS)",
+        "Advertising and Promotional System",
+        "Distribution Channel System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system governs advertising and promotional tactics in order to achieve sales goals set by upper management, and requires that managers decide which advertising media and promotional devices to use to reach the selected market segments, when to use these media and devices, and what overall mix of promotional activities to deploy to achieve sales goals?",
+      "answer": "Advertising and Promotional System",
+      "choices": [
+        "Advertising and Promotional System",
+        "Sales Management System",
+        "Pricing System",
+        "Distribution Channel System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system provides information to managers that allows them to set prices for products and services, and allows managers to employ marketing strategies to determine sales volumes and profitability margins based on market volatility?",
+      "answer": "Pricing System",
+      "choices": [
+        "Pricing System",
+        "Tactical Management Information System (TMIS)",
+        "Sales Management System",
+        "Distribution Channel System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system provides information on costs for using various distribution channels—including details such as timeframes for deliveries, time lags caused by the use of certain channels, reliability ratings based on delivery efficiency, and the market segment situation—and is used in tandem with demand and inventory of items so that the manager can anticipate shortages or oversupply of items?",
+      "answer": "Distribution Channel System",
+      "choices": [
+        "Distribution Channel System",
+        "Tactical Management Information System (TMIS)",
+        "Sales Management System",
+        "Advertising and Promotional System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system works in tandem with operational information systems for marketing and finance through various means such as processing of operational data?",
+      "answer": "Strategic Marketing Information Systems (SMIS)",
+      "choices": [
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Marketing Research System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system allows tactical decision making by the marketing department such as the implementation of marketing plans in order to reach sales and profit margins set by higher management?",
+      "answer": "Strategic Marketing Information Systems (SMIS)",
+      "choices": [
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Marketing Research System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system creates different types of sales forecasts, from industry sales, product/services sales, to forecast market segments?",
+      "answer": "Sales Forecasting System",
+      "choices": [
+        "Sales Forecasting System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Marketing Research System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system is usually based on more than just historical data, as it’s also based on assumptions concerning possible factors such as activities of other enterprises, government actions and policies, economic trends and demands, and other functions like weather?",
+      "answer": "Sales Forecasting System",
+      "choices": [
+        "Sales Forecasting System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Marketing Research System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system handles marketing research whether for research departments, for large organizations, or via consultants for smaller enterprises?",
+      "answer": "Marketing Research System",
+      "choices": [
+        "Marketing Research System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system involves conducting trend analysis of industry-wide market sales analysis of target demographics and customer satisfaction for products/services, and market shares estimated for the products/services offered?",
+      "answer": "Marketing Research System",
+      "choices": [
+        "Marketing Research System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system makes information about consumer preferences obtained from marketing research systems and from customer inquiries available?",
+      "answer": "Product Planning and Development System",
+      "choices": [
+        "Product Planning and Development System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Marketing Research System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system's output information is used to develop new products with specifications that meet the criteria from the output information of the system?",
+      "answer": "Product Planning and Development System",
+      "choices": [
+        "Product Planning and Development System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Marketing Research System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of information system can provide support for production decisions like designing and layouting of production facilities, as well as the selection for facility technologies, policies, and personnel?",
+      "answer": "Strategic Production Information System (SPIS)",
+      "choices": [
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of information system involves decisions that require commitment of large amounts of capital and resources over a long period of time?",
+      "answer": "Strategic Production Information System (SPIS)",
+      "choices": [
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "From which system is information considered important for production decisions?",
+      "answer": "Strategic Production Information System (SPIS)",
+      "choices": [
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system relies on a variety of internal and external sources of information?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information that is mostly external, objective, and quantitative in nature such as manpower/labor availability and cost?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information including delivery systems for both raw and finished materials?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as the availability of suitable locations?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as land acquisition and cost?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as distance to raw materials?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as power costs?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as the rate of property and income taxation?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system allows top managers to make better or more informed decisions on which production technologies should be used for a product or service?",
+      "answer": "Technology Planning and Assessment System",
+      "choices": [
+        "Technology Planning and Assessment System",
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system can identify new technology and assess them for their strategic advantages, which can help top management in other aspects than production?",
+      "answer": "Technology Planning and Assessment System",
+      "choices": [
+        "Technology Planning and Assessment System",
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system may use underlying technology like databases, library resources, government databases, industry groups, private resource groups, and consulting organizations?",
+      "answer": "Technology Planning and Assessment System",
+      "choices": [
+        "Technology Planning and Assessment System",
+        "Strategic Production Information System (SPIS)",
+        "Process Positioning System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system handles process positioning and vertical integration, which are processes that are to be performed for any given product/service?",
+      "answer": "Process Positioning System",
+      "choices": [
+        "Process Positioning System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system includes information on processes such as production from raw materials, assembly, or outsourced prefabrication and labor that allows top management to create decisions based on costs, production duration, and demand?",
+      "answer": "Process Positioning System",
+      "choices": [
+        "Process Positioning System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Site Planning and Selection System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system processes information for decisions concerning proposed facilities?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes facility design and layout?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Process Positioning System",
+        "Site Planning and Selection System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes proposed technologies?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes personnel?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Technology Planning and Assessment System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes expected completion dates?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Process Positioning System",
+        "Site Planning and Selection System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes transportation?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes costs of materials for construction?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes maintenance?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Process Positioning System",
+        "Site Planning and Selection System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "From which system can information be procured from site planning, technology assessment, and process positioning?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system is described as \"A number of human resource management information systems had been developed to assist managers in human resources.\"?",
+      "answer": "Tactical and Strategic Human Resource Information System",
+      "choices": [
+        "Tactical and Strategic Human Resource Information System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Job Analysis and Design System",
+        "Recruitment System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system is described as \"HRIS and its apps contain personal information of employees, as well as the organization’s resource in labor and manpower.\"?",
+      "answer": "Tactical and Strategic Human Resource Information System",
+      "choices": [
+        "Tactical and Strategic Human Resource Information System",
+        "Compensation and Benefit System",
+        "Employee Training and Development System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system is emphasized when stating \"Securing this information from unauthorized access is important to all organizations involved and unauthorized use is illegal and can subject organizations to serious legal liability.\"?",
+      "answer": "Tactical and Strategic Human Resource Information System",
+      "choices": [
+        "Tactical and Strategic Human Resource Information System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Recruitment System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"supports HR managers in handling aspects of the acquisition, allocation, and maintenance of an organization’s workforce.\"?",
+      "answer": "Tactical Human Resource Information System (THRIS)",
+      "choices": [
+        "Tactical Human Resource Information System (THRIS)",
+        "Tactical and Strategic Human Resource Information System",
+        "Job Analysis and Design System",
+        "Compensation and Benefit System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"includes the creation of jobs for a specific purpose, employee acquisition, training and capacity building, and budget allocations.\"?",
+      "answer": "Tactical Human Resource Information System (THRIS)",
+      "choices": [
+        "Tactical Human Resource Information System (THRIS)",
+        "Tactical and Strategic Human Resource Information System",
+        "Recruitment System",
+        "Employee Training and Development System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"creates jobs/positions required by an organization.\"?",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Recruitment System",
+        "Compensation and Benefit System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"involves writing job descriptions.\"? (TR or FL)",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Recruitment System",
+        "Employee Training and Development System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"involves designation of purposes, tasks, duties, and responsibilities for a job/position.\"?",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Recruitment System",
+        "Compensation and Benefit System",
+        "Employee Training and Development System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"involves specifying the conditions and performance standards.\"?",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Recruitment System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"involves processing of information from guidelines and external data sources (e.g., labor unions, etc.)\"?",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Compensation and Benefit System",
+        "Employee Training and Development System",
+        "Recruitment System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"handles functions that provide a pool of qualified applicants that may fill vacant positions identified by position control systems and/or job analysis and design systems.\"?",
+      "answer": "Recruitment System",
+      "choices": [
+        "Recruitment System",
+        "Job Analysis and Design System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Compensation and Benefit System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"ensures that the recruitment processes of an organization are compliant with government laws and contract regulations to guarantee affirmative action and equal employment opportunity.\"?",
+      "answer": "Recruitment System",
+      "choices": [
+        "Recruitment System",
+        "Employee Training and Development System",
+        "Tactical and Strategic Human Resource Information System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"allows HR managers to support the creation of compensation and benefit plans for employees.\"?",
+      "answer": "Compensation and Benefit System",
+      "choices": [
+        "Compensation and Benefit System",
+        "Recruitment System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Employee Training and Development System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"using data such as budget allocations and job descriptions, provides a variety of tactical information for employee compensation and benefits.\"?",
+      "answer": "Compensation and Benefit System",
+      "choices": [
+        "Compensation and Benefit System",
+        "Job Analysis and Design System",
+        "Recruitment System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"handles decisions for employee development, usually via capacity building.\"?",
+      "answer": "Employee Training and Development System",
+      "choices": [
+        "Employee Training and Development System",
+        "Compensation and Benefit System",
+        "Recruitment System",
+        "Tactical Human Resource Information System (THRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"is facilitated by finding potential employees that meet certain criteria and creating training and development plans that will allow interested and qualified individuals to benefit from these plans.\"?",
+      "answer": "Employee Training and Development System",
+      "choices": [
+        "Employee Training and Development System",
+        "Compensation and Benefit System",
+        "Succession Planning System",
+        "Job Analysis and Design System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"ensures that replacements for key positions in the organization are available at all times to ensure that they don’t become vacant.\"?",
+      "answer": "Succession Planning System",
+      "choices": [
+        "Succession Planning System",
+        "Employee Training and Development System",
+        "Tactical and Strategic Human Resource Information System",
+        "Recruitment System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What manages the organization’s workforce as a whole?",
+      "answer": "Strategic Human Resource Information System (SHRIS)",
+      "choices": [
+        "Strategic Human Resource Information System (SHRIS)",
+        "Workforce Planning System",
+        "Labor Negotiation System",
+        "Workforce Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What allows an HR manager to formulate workforce plans and labor negotiations to ensure that the enterprise has the appropriate conditions for the appropriate personnel?",
+      "answer": "Strategic Human Resource Information System (SHRIS)",
+      "choices": [
+        "Strategic Human Resource Information System (SHRIS)",
+        "Workforce Planning System",
+        "Labor Negotiation System",
+        "Workforce Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What facilitates strategic long-term workforce planning and management using relevant data such as those from other information systems?",
+      "answer": "Workforce Planning System",
+      "choices": [
+        "Workforce Planning System",
+        "Strategic Human Resource Information System (SHRIS)",
+        "Labor Negotiation System",
+        "Strategic Human Resource Information System (SHRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What uses forecasted workforce estimates (which includes workforce supply and demand, required skills and specializations, quality, and pricing) to create workforce plans that can achieve organizational objectives?",
+      "answer": "Workforce Planning System",
+      "choices": [
+        "Workforce Planning System",
+        "Strategic Human Resource Information System (SHRIS)",
+        "Labor Negotiation System",
+        "Strategic Human Resource Information System (SHRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What gathers data from other HR information systems and from financial accounting systems and external sources in order to help create negotiating terms between the organization and labor unions?",
+      "answer": "Labor Negotiation System",
+      "choices": [
+        "Labor Negotiation System",
+        "Strategic Human Resource Information System (SHRIS)",
+        "Workforce Planning System",
+        "Strategic Human Resource Information System (SHRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What generates ad-hoc reports that allow the organization to see their and a labor union’s positions from industrial and economic standpoints?",
+      "answer": "Labor Negotiation System",
+      "choices": [
+        "Labor Negotiation System",
+        "Strategic Human Resource Information System (SHRIS)",
+        "Workforce Planning System",
+        "Strategic Human Resource Information System (SHRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system helps executives make better decisions using historical and current data derived from internal information systems and external sources?",
+      "answer": "Decision Support System (DSS)",
+      "choices": [
+        "Decision Support System (DSS)",
+        "Enterprise Resource Planning",
+        "Data Warehouse",
+        "Expert System"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What system is comprised of smaller computer-based systems and subsystems with the use of communication technology and collation and organization of data and documents?",
+      "answer": "Decision Support System (DSS)",
+      "choices": [
+        "Decision Support System (DSS)",
+        "Document Management System",
+        "Knowledge-Based System",
+        "Data Mining System"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What system uses large amounts of data with analytical models and tools that becomes a reliable source of information to use in any decision-making processes?",
+      "answer": "Decision Support System (DSS)",
+      "choices": [
+        "Decision Support System (DSS)",
+        "Communication System",
+        "Human Resource Information System",
+        "Transaction Processing System"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Framework element includes 5 generic categories that can be proposed?",
+      "answer": "Dominant Technological Component",
+      "choices": [
+        "Dominant Technological Component",
+        "Deployment Technology",
+        "UI",
+        "Models and Analytical Tools"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Framework element includes internal and external stakeholders such as employees, managers, consumers, and investors?",
+      "answer": "Target Users",
+      "choices": [
+        "Target Users",
+        "Architecture and Network",
+        "Database",
+        "Document-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Framework element includes specific or generalized objectives and is usually based on the system's application?",
+      "answer": "System Goals and Applications",
+      "choices": [
+        "System Goals and Applications",
+        "Function-Specific DSS",
+        "Models and Analytical Tools",
+        "Communications-Driven and Group DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What DSS Framework element includes deployment on mainframe, client/server, LAN, or web-based architecture?",
+      "answer": "Deployment Technology",
+      "choices": [
+        "Deployment Technology",
+        "UI",
+        "Architecture and Network",
+        "Data-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Component refers to ways a user interacts with the system such as menu buttons to access system resources?",
+      "answer": "UI",
+      "choices": [
+        "UI",
+        "Database",
+        "Architecture and Network",
+        "Document-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Component holds all digitized data for system tasks?",
+      "answer": "Database",
+      "choices": [
+        "Database",
+        "UI",
+        "System Goals and Applications",
+        "Models and Analytical Tools"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Component includes technological components used to accomplish the system’s scopes and tasks?",
+      "answer": "Models and Analytical Tools",
+      "choices": [
+        "Models and Analytical Tools",
+        "Database",
+        "Communications-Driven and Group DSS",
+        "Deployment Technology"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Component includes how the system hardware is organized and how software and data are distributed?",
+      "answer": "Architecture and Network",
+      "choices": [
+        "Architecture and Network",
+        "Models and Analytical Tools",
+        "UI",
+        "Knowledge-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS takes large amount of data from other information systems like TPS?",
+      "answer": "Data-Driven DSS",
+      "choices": [
+        "Data-Driven DSS",
+        "Document-Driven DSS",
+        "Function-Specific DSS",
+        "Knowledge-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS doesn’t allow specific theories/models but can free-flow the data when needed?",
+      "answer": "Data-Driven DSS",
+      "choices": [
+        "Data-Driven DSS",
+        "Model-Driven DSS",
+        "Communications-Driven and Group DSS",
+        "Inter-Organizational DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "File management systems and Executive Information Systems (EIS) are possible tools of what type of DSS?",
+      "answer": "Data-Driven DSS",
+      "choices": [
+        "Data-Driven DSS",
+        "Knowledge-Driven DSS",
+        "UI",
+        "Architecture and Network"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS emphasizes access to and manipulation of data models to help decision-making for possible and probable situations?",
+      "answer": "Model-Driven DSS",
+      "choices": [
+        "Model-Driven DSS",
+        "Data-Driven DSS",
+        "Target Users",
+        "Deployment Technology"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS allows complex analysis of data and may be classified as a hybrid system due to data modelling, retrieval, and summarization?",
+      "answer": "Model-Driven DSS",
+      "choices": [
+        "Model-Driven DSS",
+        "Communications-Driven and Group DSS",
+        "Document-Driven DSS",
+        "UI"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is not data intensive?",
+      "answer": "Model-Driven DSS",
+      "choices": [
+        "Model-Driven DSS",
+        "Data-Driven DSS",
+        "Function-Specific DSS",
+        "Inter-Organizational DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS focuses on knowledge as its primary framework factor?",
+      "answer": "Knowledge-Driven DSS",
+      "choices": [
+        "Knowledge-Driven DSS",
+        "Model-Driven DSS",
+        "Data-Driven DSS",
+        "UI"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS can suggest or recommend actions?",
+      "answer": "Knowledge-Driven DSS",
+      "choices": [
+        "Knowledge-Driven DSS",
+        "Architecture and Network",
+        "Target Users",
+        "Document-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is also known as Knowledge Management Systems?",
+      "answer": "Document-Driven DSS",
+      "choices": [
+        "Document-Driven DSS",
+        "Function-Specific DSS",
+        "Knowledge-Driven DSS",
+        "Inter-Organizational DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is capable of helping managers work on unstructured digital documents and web pages?",
+      "answer": "Document-Driven DSS",
+      "choices": [
+        "Document-Driven DSS",
+        "Model-Driven DSS",
+        "Communications-Driven and Group DSS",
+        "UI"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS provides retrieval and analysis of documents and other types of media like web pages, images, audio, and video?",
+      "answer": "Document-Driven DSS",
+      "choices": [
+        "Document-Driven DSS",
+        "Data-Driven DSS",
+        "Architecture and Network",
+        "System Goals and Applications"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS handles organizational files like policies, product specifications, and corporate historical documents?",
+      "answer": "Document-Driven DSS",
+      "choices": [
+        "Document-Driven DSS",
+        "Function-Specific DSS",
+        "Model-Driven DSS",
+        "Communications-Driven and Group DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS was previously known as Group Decision Support System (GDSS) or groupware?",
+      "answer": "Communications-Driven and Group DSS",
+      "choices": [
+        "Communications-Driven and Group DSS",
+        "Knowledge-Driven DSS",
+        "Inter-Organizational DSS",
+        "UI"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS includes communication, collaboration, and decision support technologies that don’t fit other DSS types?",
+      "answer": "Communications-Driven and Group DSS",
+      "choices": [
+        "Communications-Driven and Group DSS",
+        "Document-Driven DSS",
+        "Model-Driven DSS",
+        "Function-Specific DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is considered a hybrid system emphasizing both the use of communication and decision models?",
+      "answer": "Communications-Driven and Group DSS",
+      "choices": [
+        "Communications-Driven and Group DSS",
+        "Knowledge-Driven DSS",
+        "Data-Driven DSS",
+        "System Goals and Applications"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS allows the system to solve problems of decision-makers that work together as a group?",
+      "answer": "Communications-Driven and Group DSS",
+      "choices": [
+        "Communications-Driven and Group DSS",
+        "UI",
+        "Architecture and Network",
+        "Function-Specific DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS puts external (clients, customers) and internal (departments, employees) as their primary key factor?",
+      "answer": "Inter-Organizational / Intra-Organizational DSS",
+      "choices": [
+        "Inter-Organizational / Intra-Organizational DSS",
+        "Target Users",
+        "Knowledge-Driven DSS",
+        "Model-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is a relatively new type made possible by emerging technologies and the internet?",
+      "answer": "Inter-Organizational / Intra-Organizational DSS",
+      "choices": [
+        "Inter-Organizational / Intra-Organizational DSS",
+        "Document-Driven DSS",
+        "Function-Specific DSS",
+        "Communications-Driven and Group DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is designed to support more specific functions for specific types of industries or businesses?",
+      "answer": "Function-Specific / General Purpose DSS",
+      "choices": [
+        "Function-Specific / General Purpose DSS",
+        "Model-Driven DSS",
+        "Target Users",
+        "Architecture and Network"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is meant to solve problems involving broad, routine, or recurring decision tasks?",
+      "answer": "Function-Specific / General Purpose DSS",
+      "choices": [
+        "Function-Specific / General Purpose DSS",
+        "Knowledge-Driven DSS",
+        "Communications-Driven and Group DSS",
+        "Data-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of system helps organizational managers and executives reach a consensus during events that require their collective opinion and proposals?",
+      "answer": "Group Decision Support Systems (GDSS)",
+      "choices": [
+        "Document-Driven DSS",
+        "Model-Driven DSS",
+        "Communications-Driven DSS",
+        "Group Decision Support Systems (GDSS)"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS focuses on reducing pressures of conformity that results in group think?",
+      "answer": "Group Problem Mitigation",
+      "choices": [
+        "Stakeholder Identification",
+        "Evaluation Objectivity",
+        "Documentation",
+        "Group Problem Mitigation"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS includes streamlining coordination, representation, and planning of collaboration meetings?",
+      "answer": "Group Problem Mitigation",
+      "choices": [
+        "Collaboration Facilitation",
+        "Pre-Planning",
+        "Support of Multiple Collaboration Processes",
+        "Group Problem Mitigation"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS helps optimize group dynamics by allotting appropriate responsibilities to each collaborator?",
+      "answer": "Group Problem Mitigation",
+      "choices": [
+        "Group Dictionaries",
+        "Collaboration Facilitation",
+        "Evaluation Objectivity",
+        "Group Problem Mitigation"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS reduces the probability of the group making decisions of poor quality or high risk?",
+      "answer": "Group Problem Mitigation",
+      "choices": [
+        "Stakeholder Identification",
+        "Maximization of Group Effectiveness and Efficiency",
+        "Questionnaire Tools",
+        "Group Problem Mitigation"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS provides access to rules that will aid in aiming at decisions?",
+      "answer": "Support of Multiple Collaboration Processes",
+      "choices": [
+        "Group Problem Mitigation",
+        "Group Dictionaries",
+        "Documentation",
+        "Support of Multiple Collaboration Processes"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS utilizes tools and subsystems to generate useful ideas and alternatives?",
+      "answer": "Support of Multiple Collaboration Processes",
+      "choices": [
+        "Stakeholder Identification",
+        "Collaboration Facilitation",
+        "Pre-Planning",
+        "Support of Multiple Collaboration Processes"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS reduces costs for decision-making collaboration for groups?",
+      "answer": "Support of Multiple Collaboration Processes",
+      "choices": [
+        "Evaluation Objectivity",
+        "Questionnaire Tools",
+        "Maximization of Group Effectiveness and Efficiency",
+        "Support of Multiple Collaboration Processes"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS allows the group to better understand problems and eliminate errors?",
+      "answer": "Maximization of Group Effectiveness and Efficiency",
+      "choices": [
+        "Documentation",
+        "Stakeholder Identification",
+        "Group Problem Mitigation",
+        "Maximization of Group Effectiveness and Efficiency"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS allows members to utilize information and/or knowledge based on their areas of expertise?",
+      "answer": "Maximization of Group Effectiveness and Efficiency",
+      "choices": [
+        "Collaboration Facilitation",
+        "Support of Multiple Collaboration Processes",
+        "Evaluation Objectivity",
+        "Maximization of Group Effectiveness and Efficiency"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS streamlines group work to eliminate resistance and allows better decision consensus?",
+      "answer": "Maximization of Group Effectiveness and Efficiency",
+      "choices": [
+        "Questionnaire Tools",
+        "Stakeholder Identification",
+        "Group Dictionaries",
+        "Maximization of Group Effectiveness and Efficiency"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which reason for using GDSS suggests that collaborators have accountability for decisions, instilling responsibility in their vote?",
+      "answer": "Maximization of Group Effectiveness and Efficiency",
+      "choices": [
+        "Documentation",
+        "Collaboration Facilitation",
+        "Evaluation Objectivity",
+        "Maximization of Group Effectiveness and Efficiency"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS element addresses agendas, topics, and end-goal of the discussion?",
+      "answer": "Pre-Planning",
+      "choices": [
+        "Stakeholder Identification",
+        "Evaluation Objectivity",
+        "Group Dictionaries",
+        "Pre-Planning"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS element ensures ideas and communications are free-flowing without interruptions or hindrances?",
+      "answer": "Collaboration Facilitation",
+      "choices": [
+        "Documentation",
+        "Group Problem Mitigation",
+        "Software",
+        "Collaboration Facilitation"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS element provides equal opportunity for collaborators by eliminating office politics?",
+      "answer": "Evaluation Objectivity",
+      "choices": [
+        "Support of Multiple Collaboration Processes",
+        "Group Dictionaries",
+        "Stakeholder Identification",
+        "Evaluation Objectivity"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS element takes care of logging information from the collaboration, such as meeting minutes and voting?",
+      "answer": "Documentation",
+      "choices": [
+        "Questionnaire Tools",
+        "Hardware",
+        "Pre-Planning",
+        "Documentation"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which HDSS characteristic refers to equipment, computers, devices, etc.?",
+      "answer": "Hardware",
+      "choices": [
+        "Peopleware",
+        "Software",
+        "Documentation",
+        "Hardware"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which HDSS characteristic involves not just collaborators, but also facilitators, meeting planners, hardware operators, and staff?",
+      "answer": "Peopleware",
+      "choices": [
+        "Software",
+        "Hardware",
+        "Group Dictionaries",
+        "Peopleware"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which HDSS characteristic is described as programs?",
+      "answer": "Software",
+      "choices": [
+        "Hardware",
+        "Documentation",
+        "Questionnaire Tools",
+        "Software"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool allows questioning, data-gathering and investigation for planning and collaboration?",
+      "answer": "Questionnaire Tools",
+      "choices": [
+        "Stakeholder Identification",
+        "Evaluation Objectivity",
+        "Collaboration Facilitation",
+        "Questionnaire Tools"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool facilitates the creation of proposals, ideas, and solutions that help in making decisions?",
+      "answer": "Electronic Brainstorming",
+      "choices": [
+        "Stakeholder Identification",
+        "Questionnaire Tools",
+        "Documentation",
+        "Electronic Brainstorming"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool may eliminate office politics by making submitted proposals and votes anonymous?",
+      "answer": "Electronic Brainstorming",
+      "choices": [
+        "Pre-Planning",
+        "Group Dictionaries",
+        "Support of Multiple Collaboration Processes",
+        "Electronic Brainstorming"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool determines the impact of the group’s decision?",
+      "answer": "Stakeholder Identification",
+      "choices": [
+        "Group Dictionaries",
+        "Documentation",
+        "Questionnaire Tools",
+        "Stakeholder Identification"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool may have the capability to weigh each collaborator’s vote on a decision before finalizing it?",
+      "answer": "Stakeholder Identification",
+      "choices": [
+        "Software",
+        "Questionnaire Tools",
+        "Evaluation Objectivity",
+        "Stakeholder Identification"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool allows the system to reduce a particular problem into distinct interpretations?",
+      "answer": "Group Dictionaries",
+      "choices": [
+        "Stakeholder Identification",
+        "Software",
+        "Electronic Brainstorming",
+        "Group Dictionaries"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which GDSS tool uses interpretations to help decision-makers make proper decisions?",
+      "answer": "Group Dictionaries",
+      "choices": [
+        "Questionnaire Tools",
+        "Pre-Planning",
+        "Collaboration Facilitation",
+        "Group Dictionaries"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS limitation states that it requires different types of typed, graphical, or spreadsheet input?",
+      "answer": "Digitized input is required",
+      "choices": [
+        "Moderation is limited",
+        "Documentation",
+        "Evaluation Objectivity",
+        "Digitized input is required"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS limitation notes that the capabilities of GDSS become liabilities when multiple discussions about a decision take place?",
+      "answer": "Moderation is limited",
+      "choices": [
+        "May require a facilitator",
+        "Digitized input is required",
+        "Stakeholder Identification",
+        "Moderation is limited"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS limitation explains that maintenance cost for a high-end facility may offset its cost-saving features?",
+      "answer": "Maintenance cost may be high",
+      "choices": [
+        "Moderation is limited",
+        "May require a facilitator",
+        "Pre-Planning",
+        "Maintenance cost may be high"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS limitation indicates that a facilitator may be needed to help users and control the system?",
+      "answer": "May require a facilitator",
+      "choices": [
+        "Collaboration Facilitation",
+        "Maintenance cost may be high",
+        "Software",
+        "May require a facilitator"
+      ],
+      "reference": "11 Handout 1 Part 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What system is tailored for executive use?",
+      "answer": "Executive Support Systems (ESS)",
+      "choices": [
+        "Decision Support System (DSS)",
+        "Group Decision Support System (GDSS)",
+        "Executive Support Systems (ESS)",
+        "Management Information System (MIS)"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What system was created to supply necessary tools for high-level decision-making?",
+      "answer": "Executive Support Systems (ESS)",
+      "choices": [
+        "Executive Role Support",
+        "Data Linking",
+        "Executive Support Systems (ESS)",
+        "Flexibility"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What system facilitates predictions, summarizes information, and provides further acquisition of data?",
+      "answer": "Executive Support Systems (ESS)",
+      "choices": [
+        "Executive Role Support",
+        "Information Filtering",
+        "Executive Support Systems (ESS)",
+        "Questionnaire Tools"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What system uses mostly external data for executive decisions?",
+      "answer": "Executive Support Systems (ESS)",
+      "choices": [
+        "Knowledge-Driven DSS",
+        "Executive Support Systems (ESS)",
+        "Group DSS",
+        "Document-Driven DSS"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What system must be flexible and easy to manipulate to accommodate different problems and situations?",
+      "answer": "Executive Support Systems (ESS)",
+      "choices": [
+        "Flexibility",
+        "Executive Support Systems (ESS)",
+        "Simplicity",
+        "Model-Driven DSS"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What role of ESS allows sifting through vast volumes of information to avoid irrelevant data?",
+      "answer": "Information Filtering",
+      "choices": [
+        "Data Linking",
+        "Evaluation Objectivity",
+        "Information Filtering",
+        "Questionnaire Tools"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What ESS role allows executives to avoid being overwhelmed by information?",
+      "answer": "Information Filtering",
+      "choices": [
+        "Data Linking",
+        "Collaboration Facilitation",
+        "Group Dictionaries",
+        "Information Filtering"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What role of ESS links data from various sources to provide useful information for executives?",
+      "answer": "Data Linking",
+      "choices": [
+        "Executive Role Support",
+        "Simplicity",
+        "Data Linking",
+        "Stakeholder Identification"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What role of ESS may incorporate internet connectivity to add more system flexibility?",
+      "answer": "Data Linking",
+      "choices": [
+        "Information Filtering",
+        "Group DSS",
+        "Data Linking",
+        "Group Dictionaries"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What role of ESS supports interpersonal, informational, and decisional roles of executives?",
+      "answer": "Executive Role Support",
+      "choices": [
+        "Group Problem Mitigation",
+        "Executive Role Support",
+        "Flexibility",
+        "Communication-Driven DSS"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What benefit of ESS facilitates timely data delivery through filtering, tracking, and processing?",
+      "answer": "Informational Processing",
+      "choices": [
+        "Documentation",
+        "Information Filtering",
+        "Informational Processing",
+        "Questionnaire Tools"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What benefit of ESS helps senior managers produce relevant information for quick decisions?",
+      "answer": "Informational Processing",
+      "choices": [
+        "Flexibility",
+        "Simplicity",
+        "Informational Processing",
+        "Executive Role Support"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What benefit of ESS allows executives to use the system without in-depth computer experience?",
+      "answer": "Simplicity",
+      "choices": [
+        "Simplicity",
+        "Executive Role Support",
+        "Computer Skill Requirement",
+        "Group DSS"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What benefit of ESS helps executives easily navigate the system?",
+      "answer": "Simplicity",
+      "choices": [
+        "Informational Processing",
+        "Simplicity",
+        "Collaboration Facilitation",
+        "Pre-Planning"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What benefit of ESS allows integration with other systems due to fewer layers of management?",
+      "answer": "Flexibility",
+      "choices": [
+        "Collaboration Facilitation",
+        "Group DSS",
+        "Flexibility",
+        "Evaluation Objectivity"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What disadvantage of ESS assumes executives know how to operate computers?",
+      "answer": "Computer Skill Requirement",
+      "choices": [
+        "Simplicity",
+        "Computer Skill Requirement",
+        "Long Processing Time",
+        "Stakeholder Identification"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What disadvantage of ESS may delay results due to volume of data being processed?",
+      "answer": "Long Processing Time",
+      "choices": [
+        "Documentation",
+        "Long Processing Time",
+        "Group Problem Mitigation",
+        "Collaboration Facilitation"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What disadvantage of ESS is caused by insufficient summarized information from specific data?",
+      "answer": "Limitations on Summarized Information",
+      "choices": [
+        "Group Dictionaries",
+        "Difficulty in Quantifying Benefits",
+        "Limitations on Summarized Information",
+        "Computer Skill Requirement"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What disadvantage of ESS makes it hard to justify decisions due to summarizing of data?",
+      "answer": "Difficulty in Quantifying Benefits",
+      "choices": [
+        "Difficulty in Quantifying Benefits",
+        "Simplicity",
+        "Executive Role Support",
+        "Data Linking"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    },
+    {
+      "question": "What disadvantage of ESS stems from inaccurate or incorrect data due to external sources?",
+      "answer": "Difficulty in Maintaining Database Integrity",
+      "choices": [
+        "Informational Processing",
+        "Flexibility",
+        "Documentation",
+        "Difficulty in Maintaining Database Integrity"
+      ],
+      "reference": "11 Handout 1 Part 2",
+      "term": "Finals"
+    }
+  ]
+}

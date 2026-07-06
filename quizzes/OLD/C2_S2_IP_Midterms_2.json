@@ -1,0 +1,17 @@
+{
+  "quizInfo": {
+    "Subject": "SubjectName",
+    "Term": "TermName (Prelims/Midterms/Prefinals/Finals)",
+    "Title": "QuizTitle",
+    "LastModified": "DD Month YYYY",
+    "Authors": [
+      ""
+    ],
+    "References": [
+      "Any external links/handouts should be referenced here"
+    ]
+  },
+  "quizData": [
+    
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "quizInfo": {
+    "Subject": "Web Systems and Technologies",
+    "Term": "Prelims",
+    "Title": "02 Handout 1 - HTML Essentials",
+    "LastModified": "17 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "02 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What tag is used to embed an image in HTML?",
+      "answer": "img",
+      "choices": [
+        "image",
+        "src",
+        "picture",
+        "img"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute provides an alternate text for an image if it cannot be displayed?",
+      "answer": "alt",
+      "choices": [
+        "src",
+        "title",
+        "description",
+        "alt"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What HTML element is used to group a set of related items?",
+      "answer": "List",
+      "choices": [
+        "Table",
+        "Form",
+        "Division",
+        "List"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to define a list item in HTML?",
+      "answer": "li",
+      "choices": [
+        "list",
+        "item",
+        "ul",
+        "li"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of HTML list starts with the ul tag?",
+      "answer": "unordered list",
+      "choices": [
+        "ordered list",
+        "definition list",
+        "description list",
+        "unordered list"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of HTML list starts with the ol tag?",
+      "answer": "ordered list",
+      "choices": [
+        "unordered list",
+        "definition list",
+        "description list",
+        "ordered list"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of HTML list starts with the dl tag?",
+      "answer": "description list",
+      "choices": [
+        "unordered list",
+        "ordered list",
+        "definition list",
+        "description list"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines an unordered list?",
+      "answer": "ul",
+      "choices": [
+        "ol",
+        "dl",
+        "li",
+        "ul"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines an ordered list?",
+      "answer": "ol",
+      "choices": [
+        "ul",
+        "dl",
+        "li",
+        "ol"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines a description list?",
+      "answer": "dl",
+      "choices": [
+        "ul",
+        "ol",
+        "li",
+        "dl"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines a term in a description list?",
+      "answer": "dt",
+      "choices": [
+        "dd",
+        "li",
+        "dl",
+        "dt"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag describes a term in a description list?",
+      "answer": "dd",
+      "choices": [
+        "dt",
+        "li",
+        "dl",
+        "dd"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to color or mark up a part of a text?",
+      "answer": "Span",
+      "choices": [
+        "Div",
+        "Style",
+        "Mark",
+        "Span"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines a division or section in an HTML document?",
+      "answer": "div",
+      "choices": [
+        "span",
+        "section",
+        "article",
+        "div"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines a set of navigation links in HTML?",
+      "answer": "nav",
+      "choices": [
+        "navigation",
+        "link",
+        "a",
+        "nav"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are used to gather text information from users in HTML forms?",
+      "answer": "Input and Control Functions",
+      "choices": [
+        "Labels",
+        "Attributes",
+        "Events",
+        "Input and Control Functions"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag displays a single-line input field for text in HTML forms?",
+      "answer": "input tag",
+      "choices": [
+        "label tag",
+        "text tag",
+        "form tag",
+        "input tag"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag labels form elements in HTML?",
+      "answer": "label tag",
+      "choices": [
+        "input tag",
+        "form tag",
+        "text tag",
+        "label tag"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute is used to attach a label to an input element?",
+      "answer": "for attribute",
+      "choices": [
+        "id attribute",
+        "name attribute",
+        "value attribute",
+        "for attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control displays a single-line text input field?",
+      "answer": "Text Field",
+      "choices": [
+        "Radio Button",
+        "Checkbox",
+        "Button",
+        "Text Field"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control allows users to select one of the available options?",
+      "answer": "Radio Button",
+      "choices": [
+        "Text Field",
+        "Checkbox",
+        "Button",
+        "Radio Button"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control allows users to select multiple options?",
+      "answer": "Checkbox",
+      "choices": [
+        "Text Field",
+        "Radio Button",
+        "Button",
+        "Checkbox"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control allows users to input date and time?",
+      "answer": "Date and Time Control",
+      "choices": [
+        "Text Field",
+        "Number Field",
+        "Button",
+        "Date and Time Control"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control is used to create clickable buttons?",
+      "answer": "Button",
+      "choices": [
+        "Text Field",
+        "Radio Button",
+        "Checkbox",
+        "Button"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of button submits form data to a server?",
+      "answer": "Submit Button",
+      "choices": [
+        "Reset Button",
+        "Image Button",
+        "Text Button",
+        "Submit Button"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute specifies the address where the form data will be sent?",
+      "answer": "action attribute",
+      "choices": [
+        "method attribute",
+        "target attribute",
+        "href attribute",
+        "action attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines audio content in HTML?",
+      "answer": "Audio",
+      "choices": [
+        "Video",
+        "Sound",
+        "Music",
+        "Audio"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element specifies the audio source file?",
+      "answer": "source element",
+      "choices": [
+        "audio element",
+        "src attribute",
+        "media element",
+        "source element"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute adds audio controls like play, pause, and volume?",
+      "answer": "control attribute",
+      "choices": [
+        "autoplay attribute",
+        "loop attribute",
+        "muted attribute",
+        "control attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines video content in HTML?",
+      "answer": "Video",
+      "choices": [
+        "Movie",
+        "Clip",
+        "Film",
+        "Video"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute adds video controls like play, pause, and volume?",
+      "answer": "control attribute",
+      "choices": [
+        "autoplay attribute",
+        "loop attribute",
+        "muted attribute",
+        "control attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute displays a thumbnail before playing the video?",
+      "answer": "poster attribute",
+      "choices": [
+        "preview attribute",
+        "thumbnail attribute",
+        "image attribute",
+        "poster attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element specifies the video source file?",
+      "answer": "source element",
+      "choices": [
+        "video element",
+        "src attribute",
+        "media element",
+        "source element"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to draw graphics on a webpage?",
+      "answer": "canvas",
+      "choices": [
+        "div",
+        "video",
+        "img",
+        "canvas"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag has no border and no content in HTML page?",
+      "answer": "canvas",
+      "choices": [
+        "div",
+        "video",
+        "img",
+        "canvas"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is only a container for graphics and requires JavaScript to draw the graphics?",
+      "answer": "canvas",
+      "choices": [
+        "div",
+        "video",
+        "img",
+        "canvas"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    }
+  ]
+}

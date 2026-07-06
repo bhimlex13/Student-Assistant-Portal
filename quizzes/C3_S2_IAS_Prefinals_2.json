@@ -1,0 +1,316 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Prefinals",
+    "Title": "05 Handout 1- Classification of Hackers",
+    "LastModified": "08 May 2025",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What are hackers that try to find weaknesses in systems as part of authorized testing?",
+      "answer": "White Hat Hackers",
+      "choices": [
+        "Black Hat Hackers",
+        "White Hat Hackers",
+        "Elite Hacker",
+        "Hacktivist"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of hacker never intends to harm a system and works within legal boundaries?",
+      "answer": "White Hat Hackers",
+      "choices": [
+        "Red Hat Hacker",
+        "White Hat Hackers",
+        "Script Kiddie",
+        "Gray Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are also known as “crackers” and hack systems with malicious intent?",
+      "answer": "Black Hat Hackers",
+      "choices": [
+        "Gray Hat Hackers",
+        "Script Kiddie",
+        "Black Hat Hackers",
+        "Blue Hat Hacker"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What group steals or destroys data, invades privacy, or disrupts systems?",
+      "answer": "Black Hat Hackers",
+      "choices": [
+        "Neophyte",
+        "White Hat Hackers",
+        "Black Hat Hackers",
+        "Hacktivist"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What hackers act without malicious intent but do not have permission to access systems?",
+      "answer": "Gray Hat Hackers",
+      "choices": [
+        "Hacktivist",
+        "Red Hat Hacker",
+        "Gray Hat Hackers",
+        "Script Kiddie"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What hackers report vulnerabilities after exploiting them without owner consent?",
+      "answer": "Gray Hat Hackers",
+      "choices": [
+        "Black Hat Hackers",
+        "Elite Hacker",
+        "Gray Hat Hackers",
+        "Blue Hat Hacker"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What term refers to hackers who are a mix of both black and white hat practices?",
+      "answer": "Gray Hat Hackers",
+      "choices": [
+        "Red Hat Hacker",
+        "Gray Hat Hackers",
+        "Script Kiddie",
+        "White Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are hackers that don't fit into the black/white/gray category and are grouped based on method or goal?",
+      "answer": "Miscellaneous Hackers",
+      "choices": [
+        "Red Hat Hacker",
+        "Script Kiddie",
+        "Miscellaneous Hackers",
+        "Gray Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of hacker attacks black hats and shuts down their systems using aggressive methods?",
+      "answer": "Red Hat Hacker",
+      "choices": [
+        "Hacktivist",
+        "Red Hat Hacker",
+        "Neophyte",
+        "White Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What group of hackers looks for bugs and tries to close them before launch?",
+      "answer": "Blue Hat Hacker",
+      "choices": [
+        "Script Kiddie",
+        "Blue Hat Hacker",
+        "Black Hat Hackers",
+        "Red Hat Hacker"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What describes the most highly skilled and respected hackers among peers?",
+      "answer": "Elite Hacker",
+      "choices": [
+        "Script Kiddie",
+        "Hacktivist",
+        "Elite Hacker",
+        "Gray Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What term refers to someone using pre-built tools without deep understanding of the system?",
+      "answer": "Script Kiddie",
+      "choices": [
+        "Elite Hacker",
+        "Neophyte",
+        "Script Kiddie",
+        "Hacktivist"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is used to describe someone new to hacking with no experience?",
+      "answer": "Neophyte",
+      "choices": [
+        "Hacktivist",
+        "White Hat Hacker",
+        "Neophyte",
+        "Blue Hat Hacker"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What label includes terms like “n00b,” “newbie,” and “Green Hat Hacker”?",
+      "answer": "Neophyte",
+      "choices": [
+        "Script Kiddie",
+        "Elite Hacker",
+        "Neophyte",
+        "Gray Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What hacker uses digital attacks to deliver social, political, or ideological messages?",
+      "answer": "Hacktivist",
+      "choices": [
+        "Neophyte",
+        "White Hat Hacker",
+        "Hacktivist",
+        "Red Hat Hacker"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of hacking usually involves denial-of-service or defacing websites?",
+      "answer": "Hacktivist",
+      "choices": [
+        "Script Kiddie",
+        "Blue Hat Hacker",
+        "Hacktivist",
+        "Gray Hat Hackers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What hacking skill includes guessing and cracking passwords?",
+      "answer": "Password guessing and cracking",
+      "choices": [
+        "Session hijacking",
+        "Network sniffing",
+        "Password guessing and cracking",
+        "SQL injection"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What hacking skill involves stealing active session tokens or credentials?",
+      "answer": "Session hijacking",
+      "choices": [
+        "SQL injection",
+        "Session hijacking",
+        "Privacy tampering",
+        "Encryption cracking"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a technique that targets networks to intercept data packets?",
+      "answer": "Network traffic sniffing",
+      "choices": [
+        "Data scraping",
+        "Packet jamming",
+        "Network traffic sniffing",
+        "Credential forging"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the hacking skill that inserts malicious SQL queries to exploit web apps?",
+      "answer": "Structured Query Language (SQL) injection",
+      "choices": [
+        "Buffer overflow",
+        "Malware obfuscation",
+        "Structured Query Language (SQL) injection",
+        "Memory scanning"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are categorized based on their intent when hacking a system?",
+      "answer": "Hackers",
+      "choices": [
+        "Developers",
+        "Hackers",
+        "Engineers",
+        "Designers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What uses old Spaghetti Western terms to label groups as \"black hat\" and \"white hat\"?",
+      "answer": "Hackers",
+      "choices": [
+        "Programmers",
+        "Hackers",
+        "Activists",
+        "Operators"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What group may try to help or harm systems depending on their hat classification?",
+      "answer": "Hackers",
+      "choices": [
+        "Engineers",
+        "Hackers",
+        "Consultants",
+        "Trainers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a person who finds weaknesses in systems to either exploit or report them?",
+      "answer": "Hackers",
+      "choices": [
+        "Hackers",
+        "Pen testers",
+        "Developers",
+        "Analysts"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What can be classified as white hat, black hat, gray hat, or miscellaneous based on intent and methods?",
+      "answer": "Hackers",
+      "choices": [
+        "Security protocols",
+        "Hackers",
+        "Malware types",
+        "Testers"
+      ],
+      "reference": "Classification of Hackers",
+      "term": "Pre-finals"
+    }
+  ]
+}

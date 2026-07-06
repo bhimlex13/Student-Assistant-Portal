@@ -1,0 +1,156 @@
+{
+  "quizInfo": {
+    "Subject": "Information Management",
+    "Term": "Midterms",
+    "Title": "Entity Relationship Modeling and Normalization",
+    "LastModified": "13 June 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "Any external links/handouts should be referenced here"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the Entity Relationship Model (ERM)?",
+      "answer": "A data model that describes relationships among entities at the conceptual level with the help of ER diagrams.",
+      "choices": [
+        "A diagram for representing relational databases",
+        "A data model that describes relationships among entities at the conceptual level with the help of ER diagrams.",
+        "A methodology for database normalization",
+        "A programming language for databases"
+      ]
+    },
+    {
+      "question": "What does an Entity Relationship Diagram (ERD) depict?",
+      "answer": "Entities, attributes, and relations in an entity relationship model.",
+      "choices": [
+        "Normalization steps",
+        "Entities, attributes, and relations in an entity relationship model.",
+        "Data anomalies",
+        "Database schema"
+      ]
+    },
+    {
+      "question": "In an ERD, what does a rectangle or entity box represent?",
+      "answer": "An entity",
+      "choices": [
+        "A relationship",
+        "An attribute",
+        "An entity",
+        "A primary key"
+      ]
+    },
+    {
+      "question": "What is an entity instance or entity occurrence?",
+      "answer": "Each row in the relational table.",
+      "choices": [
+        "A column in a table",
+        "A row in the relational table",
+        "A primary key",
+        "A foreign key"
+      ]
+    },
+    {
+      "question": "What is the term for a collection of similar entities?",
+      "answer": "Entity set",
+      "choices": [
+        "Entity collection",
+        "Entity set",
+        "Entity group",
+        "Entity class"
+      ]
+    },
+    {
+      "question": "What describes associations among data in an ERD?",
+      "answer": "Relationships",
+      "choices": [
+        "Attributes",
+        "Entities",
+        "Relationships",
+        "Keys"
+      ]
+    },
+    {
+      "question": "What type of relationship notation uses diamonds connected to entities?",
+      "answer": "Chen Notation",
+      "choices": [
+        "Crow's Foot Notation",
+        "Bachman Notation",
+        "Chen Notation",
+        "UML Notation"
+      ]
+    },
+    {
+      "question": "What type of relationship notation uses symbols at either end to describe cardinality?",
+      "answer": "Crow's Foot Notation",
+      "choices": [
+        "Chen Notation",
+        "Crow's Foot Notation",
+        "Bachman Notation",
+        "UML Notation"
+      ]
+    },
+    {
+      "question": "In Chen Notation, how are attributes represented?",
+      "answer": "By ovals connected to the entity rectangle with a line.",
+      "choices": [
+        "By rectangles below the entity box",
+        "By diamonds connected to the entity rectangle",
+        "By ovals connected to the entity rectangle with a line",
+        "By lines connecting to other attributes"
+      ]
+    },
+    {
+      "question": "What is unnormalized data?",
+      "answer": "Raw data in its original state that might contain redundant, multivalued, or anomalied data.",
+      "choices": [
+        "Data that has been through the first normal form",
+        "Data that has been properly indexed",
+        "Raw data in its original state that might contain redundant, multivalued, or anomalied data.",
+        "Data that is in third normal form"
+      ]
+    },
+    {
+      "question": "What is the process of normalization?",
+      "answer": "Assigning attributes to entities so that data redundancies are reduced or eliminated.",
+      "choices": [
+        "Creating ER diagrams",
+        "Assigning attributes to entities so that data redundancies are reduced or eliminated.",
+        "Establishing relationships between tables",
+        "Indexing tables for faster retrieval"
+      ]
+    },
+    {
+      "question": "What is the goal of the First Normal Form (1NF)?",
+      "answer": "There are no repeating groups and the primary key is identified.",
+      "choices": [
+        "There are no repeating groups and the primary key is identified.",
+        "All columns depend on the table's primary key.",
+        "No non-key attributes are determined by another non-key attribute.",
+        "Every determinant is a candidate key."
+      ]
+    },
+    {
+      "question": "What is the requirement for Second Normal Form (2NF)?",
+      "answer": "1NF and all the columns depend on the table’s primary key.",
+      "choices": [
+        "1NF and all the columns depend on the table’s primary key.",
+        "1NF and no repeating groups.",
+        "3NF and no multi-valued dependencies.",
+        "Every determinant is a candidate key."
+      ]
+    },
+    {
+      "question": "What is Boyce-Codd Normal Form (BCNF)?",
+      "answer": "Every determinant is a candidate key.",
+      "choices": [
+        "No repeating groups and the primary key is identified.",
+        "All columns depend on the table’s primary key.",
+        "Every determinant is a candidate key.",
+        "There are no non-key attributes determined by another non-key attribute."
+      ]
+    }
+  ]
+}

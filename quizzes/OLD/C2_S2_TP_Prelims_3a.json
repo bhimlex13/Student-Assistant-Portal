@@ -1,0 +1,562 @@
+{
+  "quizInfo": {
+    "Subject": "Technopreneurship",
+    "Term": "Prelims",
+    "Title": "Module 3",
+    "LastModified": "17 May 2024",
+    "Authors": [
+      ""
+    ],
+    "References": [
+      "Any external links/handouts should be referenced here"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Technopreneurs use the _____________ to solve challenging problems and transform opportunities into innovations",
+      "answer": "Design Thinking method",
+      "choices": [
+        "Design Thinking method",
+        "Lean Startup Methodology",
+        "Entrepreneurial Mindset",
+        "Agile Development Approach"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Teams use the Three Lenses of Human-Centered Design to work through a series of steps and activities toward a ___________.",
+      "answer": "desirable, feasible, and viable solution",
+      "choices": [
+        "desirable, feasible, and viable solution",
+        "innovative, successful and profitable",
+        "desirable, innovative and feasible",
+        "feasible, innovative and viable solution"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A product is effectively purchased by customers based on the perceived experience it offers. For instance, coffee lovers buy coffee makers because they like the idea of drinking freshly brewed coffee.",
+      "answer": "Customer Experience",
+      "choices": [
+        "Customer Experience",
+        "Market demand",
+        "Product functionality",
+        "Brand recognition"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "When models need to be tested, they use _________. Test results often allow new concepts and definitions to emerge, redefining the opportunity.",
+      "answer": "Prototypes",
+      "choices": [
+        "Prototypes",
+        "Surveys",
+        "Market research",
+        "Experimentation"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "An action, fact, or material object has a purpose, plan, or intention behind it. The customer’s perception of the experience is the basis for ______.",
+      "answer": "Design",
+      "choices": [
+        "Design",
+        "Customer Experience",
+        "Prototypes",
+        "UI"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "According to Raja (2018), understanding that \"good plan is about recognizing that the person on the other end has much less patience than you do\" is essential.",
+      "answer": " FALSE ",
+      "choices": [
+        " FALSE ",
+        " TRUE "
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "_____ unpacks the box of creativity and provides clear objectives for collaboration rather than attempting to jump directly from mountains of research data to ideas. The Design Thinking process uses various tools to complete a few core activities at each step.",
+      "answer": "The Integrated Design Thinking framework",
+      "choices": [
+        "The Integrated Design Thinking framework",
+        "Design Thinking methodology",
+        "Human-Centered Design process",
+        "Creative problem-solving approach"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "________ is recognizing, comprehending, and sharing another person’s emotions. Design decisions are based on how others feel. As a result, it makes it possible for technopreneurs to develop a sympathetic understanding of the problem being solved.",
+      "answer": "Empathy",
+      "choices": [
+        "Empathy",
+        "Sympathy",
+        "Compassion",
+        "Emotional intelligence"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The ________ is a useful tool for technopreneurs to understand their customers better and end users. One must put oneself in the customer’s shoes when designing a customer experience. Draw a map of what customers think, say, do, and feel about a specific experience. When shopping for a television, take a look at the image below.",
+      "answer": "empathy map",
+      "choices": [
+        "empathy map",
+        "business Model Canvas",
+        "value Proposition Canvas",
+        "customer Journey Map"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The problem is found and looked at this level. Ideas would also begin to emerge, which should be recorded.",
+      "answer": "Define",
+      "choices": [
+        "Define",
+        "Ideate",
+        "Test",
+        "Purpose"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The entrepreneur ought to move on to ______ as soon as the thoughts start to flow.",
+      "answer": "ideation",
+      "choices": [
+        "ideation",
+        "evaluation",
+        "implementation",
+        "prototyping"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "______ is the creative process of coming up with new ideas during brainstorming sessions. You focus on coming up with new ideas in this mode of the design process. When technopreneurs consider novel approaches to problem-solving, creativity emerges at this level.",
+      "answer": "Ideate",
+      "choices": [
+        "Ideate",
+        "Define",
+        "Test",
+        "Purpose"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "At this level, experimentation is essential. Ideas become tangible outputs, such as a reduced product model or service proposal. This step is crucial in evaluating each solution and highlighting any limitations or flaws.",
+      "answer": "Prototype",
+      "choices": [
+        "Prototype",
+        "Define",
+        "Test",
+        "Purpose"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Using the solutions identified during the prototype phase, tests are carried out to validate the service or product. The procedure is not entirely completed here. The designer or technopreneur would typically be brought back to square one by the test results most of the time. It presents an opportunity to develop empathy with the product’s intended audience. It makes the product or service in question better.",
+      "answer": "Test",
+      "choices": [
+        "Test",
+        "Prototype",
+        "Define",
+        "Purpose"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The _________ is the primary and fundamental reason for an organization’s existence, not only to inspire the organization but also to help employees develop their priorities and roles and understand their colleagues’ priorities and roles.",
+      "answer": "purpose",
+      "choices": [
+        "purpose",
+        "test",
+        "define",
+        "ideate"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It refers to the desired future state or “big picture” of an organization’s goal. It is a goal that is massively inspiring, in-depth, and long-term. It represents a destination that is driven by and evokes passion. It communicates a company’s beliefs and governing principles to the community and the members of its organization.",
+      "answer": "Vision",
+      "choices": [
+        "Vision",
+        "Mission",
+        "Value Proposition",
+        "Goal"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Who authored the book \"Leading Change\" which outlines the characteristics essential for creating an effective vision?",
+      "answer": "John Kotter",
+      "choices": [
+        "John Kotter",
+        "Karl Maxx",
+        "Mark Weaver",
+        "John Kotlin"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A good vision conveys a picture of the future.",
+      "answer": "Imaginable",
+      "choices": [
+        "Imaginable",
+        "Desirable",
+        "Feasible",
+        "Flexible"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It appeals to the long-term interests of employees, customers, stockholders, and others who have a stake in the enterprise.",
+      "answer": "Desirable",
+      "choices": [
+        "Desirable",
+        "Imaginable",
+        "Feasible",
+        "Flexible"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It comprises realistic and attainable goals.",
+      "answer": "Feasible",
+      "choices": [
+        "Feasible",
+        "Desirable",
+        "Imaginable",
+        "Flexible"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It Is clear enough to guide decision-making.",
+      "answer": "Focused",
+      "choices": [
+        "Focused",
+        "Desirable",
+        "Imaginable",
+        "Flexible"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is general enough to allow individual initiative and alternative responses in light of changing conditions.",
+      "answer": "Flexible",
+      "choices": [
+        "Flexible",
+        "Focused",
+        "Desirable",
+        "Imaginable"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Is easy to communicate; can be successfully explained within five (5) minutes",
+      "answer": "Communicable",
+      "choices": [
+        "Communicable",
+        "Flexible",
+        "Focused",
+        "Desirable"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Determine if the statement is vision or mission.<BR>Samsung’s vision is “To inspire the world with our innovative technologies, products, and design that enrich people’s lives and contribute to social prosperity by creating a new future.”",
+      "answer": "Vision",
+      "choices": [
+        "Mission",
+        "Vision"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is statement is more specific and action-oriented. It outlines the organization’s primary purpose and the basis of competition and competitive advantage. Effective mission statements have the greatest impact when it reflects an organization’s enduring, comprehensive strategic priorities and response to multiple primary stakeholders",
+      "answer": "Mission",
+      "choices": [
+        "Vision",
+        "Mission",
+        "Goal",
+        "Value Proposition"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It must be short so that everyone can remember and understand.",
+      "answer": "Concise",
+      "choices": [
+        "Concise",
+        "Outcome-oriented",
+        "Inclusive",
+        "Simple"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It should be measurable so that the company can visibly see progress.",
+      "answer": "Outcome-oriented",
+      "choices": [
+        "Outcome-oriented",
+        "Concise",
+        "Inclusive",
+        "Simple"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It must include all the stakeholders involved in implementing a company’s strategy.",
+      "answer": "Inclusive",
+      "choices": [
+        "Inclusive",
+        "Outcome-oriented",
+        "Concise",
+        "Inclusive"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Determine if the statement is vision or mission.<BR>Philippine Airlines’s mission is “To deliver safe, reliable, efficient, and pleasant travel experience exceeding passenger expectations. To provide a satisfying career to our employees and adequate returns to stockholders. To represent the best of the Philippines, the Best of Filipinos to the world.”",
+      "answer": "Mission",
+      "choices": [
+        "Mission",
+        "Vision"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are the specific and measurable results focused on achieving an organization’s mission. These are guide how the organization can fulfill or move toward the higher goals (mission and vision) in a more specific and well-defined time frame.",
+      "answer": "Strategic Objectives",
+      "choices": [
+        "Strategic Objectives",
+        "Measurable",
+        "Specific",
+        "Realistic"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "At least one indicator must measure progress against fulfilling the objective",
+      "answer": "Measurable",
+      "choices": [
+        "Measurable",
+        "Strategic Objectives",
+        "Specific",
+        "Timely"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This means providing a clear message as to what needs to be accomplished.",
+      "answer": "Specific",
+      "choices": [
+        "Specific",
+        "Measurable",
+        "Strategic Objectives",
+        "Strategic Objectives"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It must be consistent with the organization’s vision and mission.",
+      "answer": "Appropriate",
+      "choices": [
+        "Appropriate",
+        "Specific",
+        "Measurable",
+        "Strategic Objectives"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Given the organization’s capabilities and environmental opportunities, it must be an achievable target. In essence, it must be challenging but doable.",
+      "answer": "Realistic",
+      "choices": [
+        "Realistic",
+        "Appropriate",
+        "Specific",
+        "Measurable"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "There must be a time frame for achieving the objective.",
+      "answer": "Timely",
+      "choices": [
+        "Timely",
+        "Realistic",
+        "Appropriate",
+        "Specific"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A good value proposition statement should be brief, straightforward, and simple. Most customers do not have time to dissect value positioning statements all day.",
+      "answer": "Avoid vague or indirect statements",
+      "choices": [
+        "Avoid vague or indirect statements",
+        "Avoid being too complacent",
+        "Avoid dishonest or deceiving statements",
+        "Differentiator"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A good value proposition statement should not give false promises that do the opposite of conveying how the company will deliver its commitment.",
+      "answer": "Avoid dishonest or deceiving statements",
+      "choices": [
+        "Avoid dishonest or deceiving statements",
+        "Avoid vague or indirect statements",
+        "Avoid being too complacent",
+        "Differentiator"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Always remember that competitors are never far away when customers need a quick and convenient alternative.",
+      "answer": "Avoid being too complacent",
+      "choices": [
+        "Avoid being too complacent",
+        "Avoid dishonest or deceiving statements",
+        "Avoid vague or indirect statements",
+        "Differentiator"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "One of the basic elements of a value proposition: <BR>The product or service that solves problems/adds value. (What)",
+      "answer": "Offering",
+      "choices": [
+        "Offering",
+        "Audience",
+        "Value",
+        "Differentiator"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "One of the basic elements of a value proposition: <BR>The ideal customer or target audience who will benefit from your offering. (Who)",
+      "answer": "Audience",
+      "choices": [
+        "Audience",
+        "Offering",
+        "Value",
+        "Differentiator"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "One of the basic elements of a value proposition: <BR>The recognizable benefits that matter most to the customer. (Why)",
+      "answer": "Value",
+      "choices": [
+        "Value",
+        "Audience",
+        "Offering",
+        "Differentiator"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "One of the basic elements of a value proposition: <BR>The reason the customer should trust you over someone else. (How)",
+      "answer": "Differentiator",
+      "choices": [
+        "Differentiator",
+        "Value",
+        "Audience",
+        "Offering"
+      ],
+      "reference": "03_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Kindly read for reference.",
+      "answer": "SKIP",
+      "image": "./Screenshot_25.png",
+      "choices": [
+        "SKIP"
+      ]
+    },
+    {
+      "question": "Kindly read for reference.",
+      "answer": "SKIP",
+      "image": "./Screenshot_26.png",
+      "choices": [
+        "SKIP"
+      ]
+    },
+    {
+      "question": "Kindly read for reference.",
+      "answer": "SKIP",
+      "image": "./Screenshot_27.png",
+      "choices": [
+        "SKIP"
+      ]
+    }, 
+    {
+      "question": "Kindly read for reference.",
+      "answer": "SKIP",
+      "image": "./Screenshot_28.png",
+      "choices": [
+        "SKIP"
+      ]
+    },
+    {
+      "question": "Kindly read for reference.",
+      "answer": "SKIP",
+      "image": "./Screenshot_29.png",
+      "choices": [
+        "SKIP"
+      ]
+    },
+    {
+      "question": "Kindly read for reference.",
+      "answer": "SKIP",
+      "image": "./Screenshot_30.png",
+      "choices": [
+        "SKIP"
+      ]
+    }
+  ]
+}

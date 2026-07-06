@@ -1,0 +1,148 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Prefinals",
+    "Title": "Tactical Information Systems",
+    "LastModified": "5 May 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "07 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What system supports management decision making by providing reports such as regular summary, exception reports, and ad-hoc reports, and helps managers control their areas of responsibility as well as allocate their resources and focus on management?",
+      "answer": "Tactical Information Systems",
+      "choices": [
+        "Tactical Information Systems",
+        "Accounting and Financial Information Systems (AFIS)",
+        "Cash Management System",
+        "Capital Budgeting System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "At the managerial level, which system allows various apps to handle particular organizational functions and supports diverse tactical decisions such as selecting the appropriate staff and purchasing/leasing of equipment?",
+      "answer": "Tactical Information Systems",
+      "choices": [
+        "Tactical Information Systems",
+        "Investment Management System",
+        "Capital Budgeting System",
+        "Accounting and Financial Information Systems (AFIS)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system permits managers to track and compare actual revenues and expenses, compares current budget amounts to those of prior fiscal periods, and assesses how they use their resources to achieve their goals?",
+      "answer": "Accounting and Financial Information Systems (AFIS)",
+      "choices": [
+        "Accounting and Financial Information Systems (AFIS)",
+        "Tactical Information Systems",
+        "Cash Management System",
+        "Investment Management System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system produces cash flow reports that show estimated incoming and outcoming cash amounts for specific timeframes and allows managers to manage cash on hand to ensure continued operations?",
+      "answer": "Cash Management System",
+      "choices": [
+        "Cash Management System",
+        "Capital Budgeting System",
+        "Investment Management System",
+        "Accounting and Financial Information Systems (AFIS)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system focuses on producing information for the acquisition/disposal of assets using evaluation tools and the system’s data to compare information from current and previous timeframes for evaluating asset acquisition or disposal?",
+      "answer": "Capital Budgeting System",
+      "choices": [
+        "Capital Budgeting System",
+        "Cash Management System",
+        "Investment Management System",
+        "Accounting and Financial Information Systems (AFIS)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system produces reports that allow a manager to oversee an organization’s investments in stocks, bonds, or other securities as a separate but important aspect of cash management?",
+      "answer": "Investment Management System",
+      "choices": [
+        "Investment Management System",
+        "Capital Budgeting System",
+        "Cash Management System",
+        "Accounting and Financial Information Systems (AFIS)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system works in tandem with operational information systems for marketing and finance through various means such as processing of operational data, and allows tactical decision making by the marketing department such as the implementation of marketing plans in order to reach sales and profit margins set by higher management?",
+      "answer": "Tactical Management Information System (TMIS)",
+      "choices": [
+        "Tactical Management Information System (TMIS)",
+        "Sales Management System",
+        "Advertising and Promotional System",
+        "Pricing System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system allows managers to assess the productivity of a salesforce, the profitability of certain locations, and the success of products further categorized by sales persons, locations, and target demographic, and keeps track of activities, sales, orders, and customer activities which allows a manager to identify points of interest in terms of location, performance, and demographics?",
+      "answer": "Sales Management System",
+      "choices": [
+        "Sales Management System",
+        "Tactical Management Information System (TMIS)",
+        "Advertising and Promotional System",
+        "Distribution Channel System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system governs advertising and promotional tactics in order to achieve sales goals set by upper management, and requires that managers decide which advertising media and promotional devices to use to reach the selected market segments, when to use these media and devices, and what overall mix of promotional activities to deploy to achieve sales goals?",
+      "answer": "Advertising and Promotional System",
+      "choices": [
+        "Advertising and Promotional System",
+        "Sales Management System",
+        "Pricing System",
+        "Distribution Channel System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system provides information to managers that allows them to set prices for products and services, and allows managers to employ marketing strategies to determine sales volumes and profitability margins based on market volatility?",
+      "answer": "Pricing System",
+      "choices": [
+        "Pricing System",
+        "Tactical Management Information System (TMIS)",
+        "Sales Management System",
+        "Distribution Channel System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system provides information on costs for using various distribution channels—including details such as timeframes for deliveries, time lags caused by the use of certain channels, reliability ratings based on delivery efficiency, and the market segment situation—and is used in tandem with demand and inventory of items so that the manager can anticipate shortages or oversupply of items?",
+      "answer": "Distribution Channel System",
+      "choices": [
+        "Distribution Channel System",
+        "Tactical Management Information System (TMIS)",
+        "Sales Management System",
+        "Advertising and Promotional System"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Prefinals"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "quizInfo": {
+    "Subject": "Enterprise Architecture",
+    "Term": "Prelims",
+    "Title": "QUIZ REVIEWER",
+    "LastModified": "20 September 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01_Handout_1 and 02_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This component of TOGAF provides the \"way of working\" for architects.",
+      "answer": "Architecture Development Method",
+      "choices": [
+        "Architecture Development Method",
+        "Architecture Capability Framework",
+        "Architecture Content Framework",
+        "Enterprise Continuum"
+      ]
+    },
+    {
+      "question": "What does CMMI stand for?",
+      "answer": "Capability Maturity Model Integration",
+      "choices": [
+        "Capability Maturity Model Integration",
+        "Capability Minority Model Integration",
+        "Capability Maturity Model Incorporation",
+        "Capability Maturity Model Intellegent"
+      ]
+    },
+    {
+      "question": "This is considered as the blueprint of an enterprise that provides a common organizational understanding",
+      "answer": "Business architecture",
+      "choices": [
+        "Business architecture",
+        "Quality Management",
+        "Strategic Management",
+        "Business Model Development"
+      ]
+    },
+    {
+      "question": "In MDA, this includes the business requirements and domain model that describes the state of the enterprise where the system will be integrated.",
+      "answer": "Computation independent model",
+      "choices": [
+        "Computation independent model",
+        "XML Metadata Interchange",
+        "Platform-Independent Model",
+        "Platform-Specific Model"
+      ]
+    },
+    {
+      "question": "This pertains to a component of TOGAF that addresses the organization and processes required to establish and operate an architecture within an enterprise",
+      "answer": "Architecture Capability Framework",
+      "choices": [
+        "Architecture Capability Framework",
+        "Architecture Development Method",
+        "Architecture Content Framework",
+        "Enterprise Continuum"
+      ]
+    },
+    {
+      "question": "This process involves the identification of the products and services that the business will sell, the target market, and the anticipated expenses.",
+      "answer": "Business Model Development",
+      "choices": [
+        "Business Model Development",
+        "Business Architecture",
+        "Quality Management",
+        "Strategic Management"
+      ]
+    },
+    {
+      "question": "What does TOGAF stand for?",
+      "answer": "The Open Group Architecture Framework",
+      "choices": [
+        "The Open Group Architecture Framework",
+        "Object Management Group",
+        "Information Technology Infrastructure Library",
+        "Control Objectives for Information and Related Technology"
+      ]
+    },
+    {
+      "question": "It is a framework in which different issues can be easily mapped to understand its nature, implications, and possible solutions.",
+      "answer": "Zachman Framework",
+      "choices": [
+        "Zachman Framework",
+        "TOGAF",
+        "CMMI",
+        "ITIL"
+      ]
+    },
+    {
+      "question": "What does ITIL stand for?",
+      "answer": "Information Technology Infrastructure Library",
+      "choices": [
+        "Information Technology Infrastructure Library",
+        "Information Technical Infrastructure Library",
+        "Intellegent Technical Infrastructure Library",
+        "Intellegent Technology Infrastructure Library"
+      ]
+    },
+    {
+      "question": "It refers to a collection of organizations that has a common set of goals, objectives, and/or a single targeted outcome",
+      "answer": "Enterprise",
+      "choices": [
+        "Enterprise",
+        "Internal Drivers",
+        "Architecture",
+        "Enterprise Architecture"
+      ]
+    },
+    {
+      "question": "This is considered as the key feature of MDA",
+      "answer": "Mapping",
+      "choices": [
+        "Mapping",
+        "Sampling",
+        "Driving",
+        "Cooking"
+      ]
+    },
+    {
+      "question": "It originated as a generic framework and methodology for developing technical architectures.",
+      "answer": "TOGAF",
+      "choices": [
+        "TOGAF",
+        "Zachman Framework",
+        "CMMI",
+        "ITIL"
+      ]
+    },
+    {
+      "question": "What was the Zachman framework formerly called?",
+      "answer": "Framework for Information Systems Architecture",
+      "choices": [
+        "Framework for Information Systems Architecture",
+        "Information Technology Infrastructure Library",
+        "Intellegent Technical Infrastructure Library",
+        "Framework for International Systems Architecture"
+      ]
+    },
+    {
+      "question": "In CMMI, this phase involves processes that are planned, performed, and measured",
+      "answer": "Managed",
+      "choices": [
+        "Managed",
+        "Defined",
+        "Initial",
+        "Optimizing"
+      ]
+    },
+    {
+      "question": "This TOGAF component specifically contains the business, data, application, and information technology architecture.",
+      "answer": "Architecture Content Framework",
+      "choices": [
+        "Architecture Content Framework",
+        "Architecture Capability Framework",
+        "Architecture Development Method",
+        "Enterprise Continuum"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>The Open Group’s Standards Information Base (SIB) and the Building Blocks Information Base are reference models in the model-driven architecture.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Platform-independent model (PIM) is one of the five (5) abstraction levels in model-driven architecture",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Data and application architecture are under the enterprise consortium of TOGAF.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>The information technology (IT) architecture is one of the main components of the Zachman Framework.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>TOGAF was previously called \"Framework for Information Systems Architecture.\"",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Model-driven architecture has five (5) abstraction levels.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Architecture capability framework provides the \"way of working\" for architects in enterprise architecture.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Computation independent model (CIM) includes the business requirements and business model or domain model, which describe the state of the enterprise where the system will be integrated.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Platform-specific model (PSM) combines the specifications in the PIM and the details on how a system uses a particular type of platform in the Zachman Framework.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Migration planning is included in the TOGAF stepwise cycle approach.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>TOGAF has a unique stepwise cycle approach when it comes to the method of architecture development.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Meta-object facility (MOF) provides a standard repository of the MDA model in enterprise architecture.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>Common warehouse meta-model (CWM) specifies interfaces that can be used in enabling easy interchange of data and business intelligence metadata between repositories, warehouse tools, and platforms in the TOGAF.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>The four (4) main components of TOGAF architecture are capability framework, architecture development method, architecture content framework, and model-driven architecture.",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "<br><i>Choose or type 'TR' if the statement is true, or 'FL' if it is false.</i><br><br>The Zachman Framework was recognized as the first comprehensive framework for enterprise architecture.",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    }
+  ]
+}

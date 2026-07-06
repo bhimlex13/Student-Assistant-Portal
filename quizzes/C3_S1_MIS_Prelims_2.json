@@ -1,0 +1,496 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Prelims",
+    "Title": "Systems Development Life Cycle",
+    "LastModified": "19 February 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is another name for Systems Development Life Cycle?",
+      "answer": "Waterfall Development",
+      "choices": [
+        "Waterfall Development",
+        "System Analysis",
+        "System Design",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology follows well-defined phases methodically?",
+      "answer": "Systems Development Life Cycle",
+      "choices": [
+        "Systems Life Cycle",
+        "Systems Development Life Cycle",
+        "System Design",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology is used by large organizations to check requirement compliance and progress?",
+      "answer": "Systems Development Life Cycle",
+      "choices": [
+        "Systems Life Cycle",
+        "Systems Development Life Cycle",
+        "Implementation",
+        "Production and Maintenance"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the oldest method of system development?",
+      "answer": "Systems Life Cycle",
+      "choices": [
+        "Systems Development Life Cycle",
+        "System Analysis",
+        "Systems Life Cycle",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology divides development into formal stages?",
+      "answer": "Systems Life Cycle",
+      "choices": [
+        "Systems Development Life Cycle",
+        "Programming",
+        "Systems Life Cycle",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology is used for large complex systems that require formal requirements analysis, predefined specifications, and tight control?",
+      "answer": "Systems Life Cycle",
+      "choices": [
+        "Systems Development Life Cycle",
+        "System Analysis",
+        "Systems Life Cycle",
+        "Production and Maintenance"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology ensures that every stage has an activity and follows a sequential order?",
+      "answer": "Systems Life Cycle",
+      "choices": [
+        "Systems Development Life Cycle",
+        "System Analysis",
+        "Systems Life Cycle",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle involves steps to come up on the data?",
+      "answer": "System Analysis",
+      "choices": [
+        "System Design",
+        "Programming",
+        "Testing",
+        "System Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle requires data analysis, problem identification, info requirement, and objective determination?",
+      "answer": "System Analysis",
+      "choices": [
+        "System Design",
+        "Programming",
+        "Testing",
+        "System Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle includes Investigation, Technical feasibility, Economic feasibility, Operational feasibility, and Requirements definition?",
+      "answer": "System Analysis",
+      "choices": [
+        "System Design",
+        "Programming",
+        "Testing",
+        "System Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle determines how the system will fulfill the objectives based on requirements?",
+      "answer": "System Design",
+      "choices": [
+        "System Analysis",
+        "System Design",
+        "Testing",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle describes functions, components, construction, and testing?",
+      "answer": "System Design",
+      "choices": [
+        "System Analysis",
+        "System Design",
+        "Testing",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle communicates ideas about the data using convention symbols?",
+      "answer": "System Design",
+      "choices": [
+        "System Analysis",
+        "System Design",
+        "Testing",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What diagram is suitable for describing any information system, even if it’s not computer-based?",
+      "answer": "Data Flow Diagram (DFD)",
+      "choices": [
+        "Unified Modeling Language (UML)",
+        "Data Flow Diagram (DFD)",
+        "System Analysis",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What diagram has limitations and cannot describe a system completely?",
+      "answer": "Data Flow Diagram (DFD)",
+      "choices": [
+        "Unified Modeling Language (UML)",
+        "Data Flow Diagram (DFD)",
+        "System Analysis",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What graphical standard is used for visualization, specifying, and documenting software?",
+      "answer": "Unified Modeling Language (UML)",
+      "choices": [
+        "Data Flow Diagram (DFD)",
+        "Unified Modeling Language (UML)",
+        "System Analysis",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle translates system specifications into code?",
+      "answer": "Programming",
+      "choices": [
+        "System Analysis",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle is the most respected phase?",
+      "answer": "Testing",
+      "choices": [
+        "Testing",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle states that testing each module in every simulation isn’t enough?",
+      "answer": "Testing",
+      "choices": [
+        "Testing",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle emphasizes testing the entire system?",
+      "answer": "Testing",
+      "choices": [
+        "Testing",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle involves Unit Testing, System Testing, and Acceptance Testing?",
+      "answer": "Testing",
+      "choices": [
+        "Testing",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle is also known as delivery?",
+      "answer": "Implementation",
+      "choices": [
+        "System Analysis",
+        "Implementation",
+        "Programming",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle consists of conversion from the old to the new system and training?",
+      "answer": "Implementation",
+      "choices": [
+        "System Analysis",
+        "Implementation",
+        "Programming",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle begins when the system is installed?",
+      "answer": "Production and Maintenance",
+      "choices": [
+        "Implementation",
+        "System Analysis",
+        "Production and Maintenance",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what stage of the System Life Cycle is the system reviewed by users and tech specialists to check if it meets the objectives and must be maintained?",
+      "answer": "Production and Maintenance",
+      "choices": [
+        "Implementation",
+        "System Analysis",
+        "Production and Maintenance",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what stage of the System Life Cycle are errors corrected, requirements met, and efficiency improved?",
+      "answer": "Production and Maintenance",
+      "choices": [
+        "Implementation",
+        "System Analysis",
+        "Production and Maintenance",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what stage of the System Life Cycle is the system in maintenance if changes, new requirements, or improvements are implemented?",
+      "answer": "Production and Maintenance",
+      "choices": [
+        "Implementation",
+        "System Analysis",
+        "Production and Maintenance",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which approach in software development relies on individual staff skills and experience?",
+      "answer": "Ad-Hoc Development",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Ad-Hoc Development",
+        "Agile Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach refers to small projects at which the staff is skilled?",
+      "answer": "Ad-Hoc Development",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Ad-Hoc Development",
+        "Agile Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the most common and earliest structured system used in software development?",
+      "answer": "Waterfall Model",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Spiral Model",
+        "Agile Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach involves the steps: System Analysis, System Design, Programming, Testing, Deployment, and Maintenance?",
+      "answer": "Waterfall Model",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Spiral Model",
+        "Agile Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach assumes that all requirements are known at the beginning of the project?",
+      "answer": "Prototyping",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which approach involves building a simple version of the software, presenting it to the client, receiving feedback, and making adjustments?",
+      "answer": "Prototyping",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach includes the steps: Requirements definition, Design, Prototype creation, Assessment, Prototype refinement, and System implementation?",
+      "answer": "Prototyping",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which model includes the best features from both the Waterfall and Prototyping models?",
+      "answer": "Spiral Model",
+      "choices": [
+        "Spiral Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which approach describes the process followed as the development takes place?",
+      "answer": "Spiral Model",
+      "choices": [
+        "Spiral Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach involves the steps: Project objectives, Risk assessment, Production, Planning, and Management?",
+      "answer": "Spiral Model",
+      "choices": [
+        "Spiral Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which approach focuses on fast software delivery by dividing a large project into a series of small subprojects?",
+      "answer": "Agile Development",
+      "choices": [
+        "Agile Development",
+        "Prototyping",
+        "Spiral Model",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development model allows risk reduction and quicker adaptability by assigning each team to a small project?",
+      "answer": "Agile Development",
+      "choices": [
+        "Agile Development",
+        "Prototyping",
+        "Spiral Model",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which software development approach is face-to-face communication preferred over written documents for better collaboration and quicker decision-making?",
+      "answer": "Agile Development",
+      "choices": [
+        "Agile Development",
+        "Prototyping",
+        "Spiral Model",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    }
+  ]
+}

@@ -1,0 +1,868 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Database Systems",
+    "Term": "Midterms",
+    "Title": "Data Analytics",
+    "LastModified": "21 October 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "04_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "It is a database designed to enable and support business intelligence activities, especially analytics.",
+      "answer": "date warehouse",
+      "choices": [
+        "date warehouse",
+        "data storage location",
+        "data plant",
+        "data interactions"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about data warehouse?",
+      "answer": "always implemented on the relational database management system (RDBMS) technology like SQL",
+      "choices": [
+        "intended to perform queries and analysis",
+        "optimized for data retrieval, not for transaction processing",
+        "centralizes and consolidates large amounts of data from multiple sources",
+        "always implemented on the relational database management system (RDBMS) technology like SQL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about data warehouse?",
+      "answer": "allow users to analyze the data using elaborate and complex multi-dimensional views",
+      "choices": [
+        "allows organizations to derive valuable business insights from their data to improve decision-making",
+        "can be considered an organization’s 'single source of truth'",
+        "intended to perform queries and analysis",
+        "allow users to analyze the data using elaborate and complex multi-dimensional views"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "The DW can analyze data about a particular subject or functional area.",
+      "answer": "subject-oriented",
+      "choices": [
+        "subject-oriented",
+        "integrated",
+        "time-variant",
+        "non-volatile"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about subject-oriented?",
+      "answer": "Once data is in a data warehouse, it is stable and does not change.",
+      "choices": [
+        "Subjects can be products, customers, departments, regions, etc",
+        "The functional area can be sales, marketing, finance, distribution, etc",
+        "Focuses on the data rather than on the processes that modify the data",
+        "Once data is in a data warehouse, it is stable and does not change."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "The DW creates consistency among different data types from different sources.",
+      "answer": "integrated",
+      "choices": [
+        "subject-oriented",
+        "integrated",
+        "time-variant",
+        "non-volatile"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about integrated?",
+      "answer": "Data in a Data Warehouse (DW) reflects the flow of information over time and can be organized by weeks, months, or years",
+      "choices": [
+        "DW must conform to a common format that is acceptable throughout the organization",
+        "The DW creates consistency among different data types from different sources",
+        "A student's level in the database can be categorized as 'freshman', 'sophomore', 'junior', or 'senior' in the accounting department, and as 'FR', 'SO', 'JR', or 'SR' in the computer information systems department.",
+        "Data in a Data Warehouse (DW) reflects the flow of information over time and can be organized by weeks, months, or years"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Data in a Data Warehouse (DW) reflects the flow of information over time and can be organized by weeks, months, or years.",
+      "answer": "time-variant",
+      "choices": [
+        "subject-oriented",
+        "integrated",
+        "time-variant",
+        "non-volatile"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which best exemplifies time-variant?",
+      "answer": "When data for previous weekly sales is uploaded to the data warehouse, it also updates time-dependent subjects such as weekly, monthly, and yearly data for products, customers, stores, and more.",
+      "choices": [
+        "When data for previous weekly sales is uploaded to the data warehouse, it also updates time-dependent subjects such as weekly, monthly, and yearly data for products, customers, stores, and more.",
+        "A student's level in the database can be categorized as 'freshman', 'sophomore', 'junior', or 'senior' in the accounting department, and as 'FR', 'SO', 'JR', or 'SR' in the computer information systems department.",
+        "Subjects can be products, customers, departments, regions, etc",
+        "Focuses on the data rather than on the processes that modify the data"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Once data is in a data warehouse, it is stable and remains unchanged.",
+      "answer": "non-volatile",
+      "choices": [
+        "subject-oriented",
+        "integrated",
+        "time-variant",
+        "non-volatile"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This is a databank that stocks all enterprise data and makes it manageable for reporting.",
+      "answer": "data warehouse database",
+      "choices": [
+        "data warehouse database",
+        "material management database",
+        "advanced management database",
+        "metadata"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This always implemented on the relational database management system (RDBMS) technology like SQL",
+      "answer": "data warehouse database",
+      "choices": [
+        "data warehouse database",
+        "technical metadata",
+        "business metadata",
+        "ETL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "These tools are used to perform all conversions, summarizations, and changes necessary to transform data into a unified format in the data warehouse.",
+      "answer": "Extraction, Transformation, and Loading Tools",
+      "choices": [
+        "DBSM Tools",
+        "Ace Hardware Tools",
+        "Query and reporting tool",
+        "Extraction, Transformation, and Loading Tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about ETL?",
+      "answer": "Focuses on the data rather than on the processes that modify the data",
+      "choices": [
+        "In case of missing data, populating them with defaults",
+        "Calculating summaries and derived data",
+        "Eliminating unwanted data in operational databases from loading into the data warehouse",
+        "Focuses on the data rather than on the processes that modify the data"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about ETL?",
+      "answer": "Subjects can be products, customers, departments, regions, etc",
+      "choices": [
+        "Converting to common data names and definitions",
+        "Calculating summaries and derived data",
+        "Eliminating unwanted data in operational databases from loading into the data warehouse",
+        "Subjects can be products, customers, departments, regions, etc"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This is data about data that describes the data warehouse, including the source, transformation, integration, storage, usage, relationships, and history of each data element.",
+      "answer": "metadata",
+      "choices": [
+        "data warehouse database",
+        "technical metadata",
+        "business metadata",
+        "metadata"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is an example of Metadata?",
+      "answer": "SNY-JP-0010-15000",
+      "choices": [
+        "SNY-JP-0010-15000",
+        "author_id",
+        "Enrolled_Students",
+        "int age = 20"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This contains information about the data warehouse, used by designers and administrators.",
+      "answer": "technical metadata",
+      "choices": [
+        "data warehouse database",
+        "technical metadata",
+        "business metadata",
+        "metadata"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This provides details that help end-users easily understand the information stored in the data warehouse.",
+      "answer": "business metadata",
+      "choices": [
+        "data warehouse database",
+        "technical metadata",
+        "business metadata",
+        "metadata"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about Data Warehouse Access Tools?",
+      "answer": "Corporate users generally cannot work with databases directly.",
+      "choices": [
+        "This helps users produce corporate reports for analysis, which can include spreadsheets, calculations, or interactive visuals.",
+        "When built-in graphical and analytical tools don't meet an organization's needs, custom reports are created using these tools.",
+        "Corporate users generally cannot work with databases directly.",
+        "These allow users to analyze the data using elaborate and complex multi-dimensional views."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This is the process of finding meaningful correlations, patterns, and trends in large datasets, with data mining tools automating the process.",
+      "answer": "Data mining",
+      "choices": [
+        "Data mining",
+        "OLAP tools",
+        "Query and reporting tool",
+        "Application development tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "These allow users to analyze the data using elaborate and complex multi-dimensional views.",
+      "answer": "OLAP tools",
+      "choices": [
+        "Data mining",
+        "OLAP tools",
+        "Query and reporting tool",
+        "Application development tools"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This is a small, single-subject data warehouse subset that provides decision support for the particular user group.",
+      "answer": "data marts",
+      "choices": [
+        "metadata",
+        "data mining",
+        "data marts",
+        "star schema"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about benefits of a data warehouse?",
+      "answer": "Allows organizations to derive valuable business insights from their data to improve decision-making",
+      "choices": [
+        "This allows business users to quickly access critical data from various sources in one place, saving time by avoiding the need to retrieve data from multiple sources",
+        "This provides consistent information on various cross-functional activities and supports ad-hoc reporting and queries",
+        "Helps to integrate many sources of data to reduce stress on the production system",
+        "Allows organizations to derive valuable business insights from their data to improve decision-making"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about benefits of a data warehouse?",
+      "answer": "This optimizes for data retrieval, not for transaction processing",
+      "choices": [
+        "Helps to reduce total turnaround time for analysis and reporting",
+        "Restructuring and integration make it easier for the user to use for reporting and analysis",
+        "This stores a large amount of historical data, enabling users to analyze different time periods and trends for future predictions.",
+        "This optimizes for data retrieval, not for transaction processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT included in Data Sources based on the Data Warehouse Architecture?",
+      "answer": "raw data",
+      "choices": [
+        "operational system",
+        "flat files",
+        "raw data",
+        "operational system"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is an example of Staging Area based on the Data Warehouse Architecture?",
+      "answer": "extract transform load",
+      "choices": [
+        "extract transform load",
+        "operational system",
+        "analytics",
+        "summary data"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT included in Warehouse based on the Data Warehouse Architecture?",
+      "answer": "inventory",
+      "choices": [
+        "inventory",
+        "summary data",
+        "metadata",
+        "raw data"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT included in Data Marts based on the Data Warehouse Architecture?",
+      "answer": "metadata",
+      "choices": [
+        "metadata",
+        "purchasing",
+        "sales",
+        "inventory"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT included in Users based on the Data Warehouse Architecture?",
+      "answer": "operational system",
+      "choices": [
+        "operational system",
+        "analytics",
+        "reporting",
+        "mining"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This is a data-modeling technique used to map multidimensional decision support data into a relational database.",
+      "answer": "star schema",
+      "choices": [
+        "star schema",
+        "facts table",
+        "dimension table",
+        "single schema"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What are the two components of star schema?",
+      "answer": "facts table and dimension table",
+      "choices": [
+        "facts table and dimension table",
+        "technical metadata and business metadata",
+        "query and reporting tool and application development tool",
+        "volatile and non-volitle"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "These are data included in reports that serve as the basis for business decisions, containing measurements or facts and foreign keys to dimension tables.",
+      "answer": "facts table",
+      "choices": [
+        "facts table",
+        "dimension table",
+        "star schema",
+        "single schema"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "These are attributes that qualify and provide additional information about facts and represent the dimensions of a fact and are linked to the fact table through foreign keys.",
+      "answer": "dimension table",
+      "choices": [
+        "facts table",
+        "dimension table",
+        "star schema",
+        "single schema"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about OLAP?",
+      "answer": "It is an operational system that manages the day-to-day",
+      "choices": [
+        "It is a software tool that is used for data analysis and reporting purposes for business decisions",
+        "It is used by business analysts, managers, and executives",
+        "This was used for movie recommendations based on watch history in Netflix",
+        "It is an operational system that manages the day-to-day"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about OLAP?",
+      "answer": "Uses standard queries for data such as inserting, deleting, and updating",
+      "choices": [
+        "Provides historical data for reporting and planning",
+        "Uses complex queries for retrieving a large amount of data",
+        "It is a software tool that is used for data analysis and reporting purposes for business decisions",
+        "Uses standard queries for data such as inserting, deleting, and updating"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What does OLAP stand for?",
+      "answer": "Online Analytical Processing",
+      "choices": [
+        "Online Analytical Processing",
+        "Online Analytical Products",
+        "Online Analysis Processing",
+        "Online Analysis Products"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What does OLTP stand for?",
+      "answer": "Online Transaction Processing",
+      "choices": [
+        "Online Transaction Processing",
+        "Online Transition Processing",
+        "Online Transaction Products",
+        "Online Transition Product"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about OLTP?",
+      "answer": "Uses complex queries for retrieving a large amount of data",
+      "choices": [
+        "Uses standard queries for data such as inserting, deleting, and updating",
+        "This is used for money withdrawals, transfers, deposits, and inquiries In ATM centers",
+        "Uses complex queries for retrieving a large amount of data",
+        "Manages day to day operations"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "What characteristic of OLAP allows data to be processed and viewed as part of a multi-dimensional structure?",
+      "answer": "Multi-dimensional data analysis techniques",
+      "choices": [
+        "Multi-dimensional data analysis techniques",
+        "Advanced Database support",
+        "Easy-to-use end-user interfaces",
+        "Online Transaction Processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about Advanced Database Support?",
+      "answer": "It allows users to navigate data in a way that simplifies and speeds up decision-making or data analysis through easy-to-use graphical interfaces.",
+      "choices": [
+        "Access to many kinds of DBMSs, flat files, and internal and external data sources",
+        "Rapid and consistent query response times",
+        "Support for very large databases because the data warehouse could easily and quickly grow to multiple terabytes in size",
+        "It allows users to navigate data in a way that simplifies and speeds up decision-making or data analysis through easy-to-use graphical interfaces."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It allows users to navigate data in a way that simplifies and speeds up decision-making or data analysis through easy-to-use graphical interfaces.",
+      "answer": "Easy-to-use end-user interfaces",
+      "choices": [
+        "Multi-dimensional data analysis techniques",
+        "Advanced Database support",
+        "Easy-to-use end-user interfaces",
+        "Online Transaction Processing"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP works directly with relational databases?",
+      "answer": "ROLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP indicates that fact and dimension tables are stored as relations?",
+      "answer": "ROLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP extends its functionality to multi-dimensional database management systems?",
+      "answer": "MOLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP is best suited to manage, store, and analyze multi-dimensional data?",
+      "answer": "MOLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP uses Star Schema?",
+      "answer": "ROLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP uses Data Cubes?",
+      "answer": "MOLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP is good with small data sets?",
+      "answer": "ROLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP is faster for large data sets?",
+      "answer": "MOLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP has unlimited dimensions?",
+      "answer": "ROLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which type of OLAP has limited to preddefined dimensions?",
+      "answer": "MOLAP",
+      "choices": [
+        "ROLAP",
+        "MOLAP",
+        "OLTP",
+        "OTAP"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This is an extension of the GROUP BY clause that is used to create subtotals and grand totals for a set of columns.",
+      "answer": "ROLLUP operator",
+      "choices": [
+        "CUBE operator",
+        "ROLLUP operator",
+        "PIVOT operator",
+        "ARITHMETIC operator"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This generates subtotals for all combinations of grouping columns specified in the GROUP BY clause.",
+      "answer": "CUBE operator",
+      "choices": [
+        "CUBE operator",
+        "ROLLUP operator",
+        "PIVOT operator",
+        "ARITHMETIC operator"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This allows you to create a cross-tabulation, enabling you to aggregate results and rotate rows into columns.",
+      "answer": "PIVOT operator",
+      "choices": [
+        "CUBE operator",
+        "ROLLUP operator",
+        "PIVOT operator",
+        "ARITHMETIC operator"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This refers analyzing large amounts of data in a data warehouse or other sources to uncover hidden trends, patterns, and relationships and helps explain the past and predict future outcomes for analysis.",
+      "answer": "data mining",
+      "choices": [
+        "data interaction",
+        "data mining",
+        "metadata",
+        "data nowhere"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "In this step, the goals of the businesses are set, and the important factors that will help in achieving the goal are discovered.",
+      "answer": "Business Understanding",
+      "choices": [
+        "Business Understanding",
+        "Data Understanding",
+        "Data Preparation",
+        "Modeling"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This step will collect the entire data and populate the data in the tool.",
+      "answer": "Data Understanding",
+      "choices": [
+        "Business Understanding",
+        "Data Understanding",
+        "Data Preparation",
+        "Modeling"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This step involves selecting the appropriate data, cleaning, constructing attributes from data, integrating data from multiple databases.",
+      "answer": "Data Preparation",
+      "choices": [
+        "Business Understanding",
+        "Data Understanding",
+        "Data Preparation",
+        "Evaluation"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Selection of the data mining technique such as decision-tree, generate test design for evaluating the selected model, building models from the dataset, and assessing the built model with experts to discuss the result is done in this step",
+      "answer": "Modeling",
+      "choices": [
+        "Deployment",
+        "Evaluation",
+        "Data Preparation",
+        "Modeling"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This step determines how well the resulting model meets business requirements and is reviewed for any errors or steps that need to be repeated.",
+      "answer": "Evaluation",
+      "choices": [
+        "Deployment",
+        "Evaluation",
+        "Data Preparation",
+        "Modeling"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about Deployment in Data Mining Implementation Process?",
+      "answer": "This step will collect the entire data and populate the data in the tool",
+      "choices": [
+        "A deployment plan is made",
+        "The strategy to monitor and maintain the data mining model results to check for its usefulness is formed",
+        "Final reports are made, and a review of the whole process is done to check any mistake and see if any step is repeated",
+        "This step will collect the entire data and populate the data in the tool"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to retrieve important and relevant information about data and metadata?",
+      "answer": "Classification",
+      "choices": [
+        "Clustering",
+        "Classification",
+        "Regression",
+        "Prediction"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to identify similar data, helping to understand the differences and similarities between them?",
+      "answer": "Clustering",
+      "choices": [
+        "Clustering",
+        "Classification",
+        "Regression",
+        "Prediction"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to identify and analyze the relationship between variables?",
+      "answer": "Regression",
+      "choices": [
+        "Clustering",
+        "Association Rules",
+        "Regression",
+        "Outer Detection"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to identify associations between two or more items, uncovering hidden patterns in the dataset?",
+      "answer": "Association Rules",
+      "choices": [
+        "Clustering",
+        "Association Rules",
+        "Regression",
+        "Outer Detection"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to observe data items in the dataset that do not match an expected pattern or expected behavior?",
+      "answer": "Outer Detection",
+      "choices": [
+        "Clustering",
+        "Association Rules",
+        "Regression",
+        "Outer Detection"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to discover or identify similar patterns or trends in transaction data for a certain period?",
+      "answer": "Sequential Patterns",
+      "choices": [
+        "Sequential Patterns",
+        "Association Rules",
+        "Regression",
+        "Prediction"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which Data Mining Technique is used to combine various data mining techniques, such as trends, sequential patterns, clustering, and classification, while analyzing past events or instances in the correct sequence?",
+      "answer": "Prediction",
+      "choices": [
+        "Sequential Patterns",
+        "Association Rules",
+        "Regression",
+        "Prediction"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about benefits of Data Mining?",
+      "answer": "Provides historical data for reporting and planning",
+      "choices": [
+        "Helps with the decision-making process",
+        "Helps companies to get knowledge-based information",
+        "Facilitates automated prediction of trends and behaviors as well as the automated discovery of hidden patterns",
+        "Provides historical data for reporting and planning"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about benefits of Data Mining?",
+      "answer": "Support for very large databases because the data warehouse could easily and quickly grow to multiple terabytes in size",
+      "choices": [
+        "The speedy process which makes it easy for the users to analyze a huge amount of data in less time",
+        "Helps companies to get knowledge-based information",
+        "Facilitates automated prediction of trends and behaviors as well as the automated discovery of hidden patterns",
+        "Support for very large databases because the data warehouse could easily and quickly grow to multiple terabytes in size"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterm"
+    }
+  ]
+}

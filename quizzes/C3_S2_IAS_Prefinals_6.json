@@ -1,0 +1,280 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Prefinals",
+    "Title": "06 Handout 1 - Spyware",
+    "LastModified": "08 May 2025",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "06 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is unwanted software that steals Internet usage data and personal info?",
+      "answer": "Spyware",
+      "choices": [
+        "Trojan",
+        "Spyware",
+        "Rootkit",
+        "Virus"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is classified as a type of malware designed to damage or access computers?",
+      "answer": "Spyware",
+      "choices": [
+        "Worm",
+        "Spoofing",
+        "Spyware",
+        "Spam"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What gathers personal info and relays it to advertisers or external users?",
+      "answer": "Spyware",
+      "choices": [
+        "Phishing",
+        "Botnet",
+        "Spyware",
+        "Adware"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What monitors activity, logs keystrokes, and tracks identity info?",
+      "answer": "Spyware",
+      "choices": [
+        "Spyware",
+        "SQL Injection",
+        "Adware",
+        "Logic Bomb"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is considered a threat to businesses and individuals due to its ability to steal and harm the network?",
+      "answer": "Spyware",
+      "choices": [
+        "Virus",
+        "Spyware",
+        "Phishing",
+        "Social Engineering"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What can install additional software and change system settings?",
+      "answer": "Spyware",
+      "choices": [
+        "Cracker",
+        "Spyware",
+        "Trojan",
+        "Shrink Wrap Code"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What should users always do to protect against spyware changing settings?",
+      "answer": "Spyware",
+      "choices": [
+        "Use secure passwords",
+        "Avoid VPNs",
+        "Spyware",
+        "Remove cookies"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What caused 978 million people in 20 countries to be affected by cybercrime in 2017?",
+      "answer": "Spyware",
+      "choices": [
+        "Botnet",
+        "Worms",
+        "Spyware",
+        "Logic Bomb"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What led to a global cybercrime loss of $172 billion?",
+      "answer": "Spyware",
+      "choices": [
+        "Adware",
+        "Spyware",
+        "Virus",
+        "Spoofing"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What caused 4,103 cybercrimes in the Philippines in 2018?",
+      "answer": "Spyware",
+      "choices": [
+        "SQL Injection",
+        "Spyware",
+        "Keystroke Logger",
+        "Spam"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is one way a computer can become infected by clicking something without reading it?",
+      "answer": "Accepting a prompt or pop-up without reading it first",
+      "choices": [
+        "Opening unknown emails",
+        "Using adblockers",
+        "Accepting a prompt or pop-up without reading it first",
+        "Installing firewalls"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What allows spyware to enter when downloaded from an untrusted origin?",
+      "answer": "Downloading software from an unreliable source",
+      "choices": [
+        "Rootkit",
+        "Downloading software from an unreliable source",
+        "Firewall bypass",
+        "Opening pop-ups"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What email behavior opens the door to spyware infections?",
+      "answer": "Opening e-mail attachments from unknown senders",
+      "choices": [
+        "Opening from contacts",
+        "Enabling scripts",
+        "Opening e-mail attachments from unknown senders",
+        "Marking as spam"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What behavior spreads spyware through music or game files?",
+      "answer": "Pirating media such as movies, music, or games",
+      "choices": [
+        "Media streaming",
+        "Pirating media such as movies, music, or games",
+        "File sharing with friends",
+        "Downloading movies"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What symptom occurs when spyware causes the system to crash or freeze?",
+      "answer": "The device is slow and crashes unexpectedly",
+      "choices": [
+        "System overheating",
+        "The device is slow and crashes unexpectedly",
+        "Monitor flickering",
+        "Shortcut errors"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What sign indicates a spyware infection is filling system memory?",
+      "answer": "The device is running out of hard drive space",
+      "choices": [
+        "Lagging during browsing",
+        "The device is running out of hard drive space",
+        "Low battery",
+        "Overloaded RAM"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What appears on-screen due to spyware, even when not browsing?",
+      "answer": "There are pop-ups when a user is online or offline",
+      "choices": [
+        "Pop-ups on login",
+        "There are pop-ups when a user is online or offline",
+        "Banner ads",
+        "System notifications"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a best practice to avoid spyware from unfamiliar email sources?",
+      "answer": "Do not open e-mails from unknown senders",
+      "choices": [
+        "Open and verify sender",
+        "Do not open e-mails from unknown senders",
+        "Delete spam",
+        "Use signature scan"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What prevents infection from untrusted files?",
+      "answer": "Do not download files from untrustworthy sources",
+      "choices": [
+        "Scan later",
+        "Do not download files from untrustworthy sources",
+        "Install registry cleaner",
+        "Use guest mode"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What helps avoid spyware embedded in popup ads?",
+      "answer": "Do not click on pop-up advertisements",
+      "choices": [
+        "Click if labeled secure",
+        "Do not click on pop-up advertisements",
+        "Bookmark link",
+        "Use incognito"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is recommended to help detect and remove spyware?",
+      "answer": "Use reputable antivirus software",
+      "choices": [
+        "Use VPN",
+        "Use reputable antivirus software",
+        "Refresh system",
+        "Avoid JavaScript"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of software can be used to prevent, scan, and remove spyware?",
+      "answer": "Use reputable antivirus software",
+      "choices": [
+        "Parental controls",
+        "Use reputable antivirus software",
+        "Ad blocker",
+        "Operating system updates"
+      ],
+      "reference": "Spyware",
+      "term": "Pre-finals"
+    }
+  ]
+}

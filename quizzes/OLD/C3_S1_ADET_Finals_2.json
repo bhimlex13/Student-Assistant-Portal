@@ -1,0 +1,4738 @@
+{
+  "quizInfo": {
+    "Subject": "Application Development and Emerging Technologies",
+    "Term": "Finals",
+    "Title": "Full Course Review",
+    "LastModified": "16 December 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "New technologies that are currently developing or will be developed over the next 5 to 10 years and which will substantially alter the business and social environment is called what?",
+      "answer": "Emerging Technology",
+      "choices": [
+        "Emerging Technology",
+        "New Technology",
+        "Latest Technology",
+        "Merging Technology"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "AI was first developed in the 1950s, hence, it's not considered as Emerging Technology.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that emerging technology may take the form of progressing technology.",
+      "answer": "Radical Novelty",
+      "choices": [
+        "Radical Novelty",
+        "Relatively Fast Growth",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that emerging technologies are radically novel.",
+      "answer": "Radical Novelty",
+      "choices": [
+        "Radical Novelty",
+        "Relatively Fast Growth",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that emerging technology grow faster compared to non-emerging technologies?",
+      "answer": "Relatively Fast Growth",
+      "choices": [
+        "Radical Novelty",
+        "Relatively Fast Growth",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that emerging technology is a convergence of previously separated research streams and technologies that have already moved beyond the purely conceptual stage.",
+      "answer": "Coherence",
+      "choices": [
+        "Radical Novelty",
+        "Relatively Fast Growth",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology refers to the internal characteristics of a group being united and having logical interconnection.",
+      "answer": "Coherence",
+      "choices": [
+        "Radical Novelty",
+        "Relatively Fast Growth",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology distinguish technologies that have acquired a certain identity and momentum from those still in a state of flux and, therefore, not yet emerging.",
+      "answer": "Coherence",
+      "choices": [
+        "Radical Novelty",
+        "Relatively Fast Growth",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that emerging technology provides benefits for a wide range of sectors, transforms an industry, and exerts much enhanced economic influence.",
+      "answer": "Prominent Impact",
+      "choices": [
+        "Radical Novelty",
+        "Uncertainty and Ambiguity",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that ambiguity arises because proposed applications are still malleable.",
+      "answer": "Uncertainty and Ambiguity",
+      "choices": [
+        "Radical Novelty",
+        "Uncertainty and Ambiguity",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology says that even the knowledge of the emergence's possible outcome is incomplete.",
+      "answer": "Uncertainty and Ambiguity",
+      "choices": [
+        "Radical Novelty",
+        "Uncertainty and Ambiguity",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This characteristic of emerging technology are key starting concepts for a variety of science and technological studies that focus on the role of the expectations in technological emergence.",
+      "answer": "Uncertainty and Ambiguity",
+      "choices": [
+        "Radical Novelty",
+        "Uncertainty and Ambiguity",
+        "Coherence",
+        "Prominent Impact"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Emerging technologies are also characterized by uncertainty.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This area of emerging technology overlays computer-generated display, sound, and effects on a user's view of the real world.",
+      "answer": "Augmented Reality (AR)",
+      "choices": [
+        "Augmented Reality (AR)",
+        "Artificial Intelligence (AI)",
+        "Quantum Computers",
+        "Machine Learning"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This area of emerging technology is a simulation of human intelligence process by machines.",
+      "answer": "Artificial Intelligence (AI)",
+      "choices": [
+        "Augmented Reality (AR)",
+        "Artificial Intelligence (AI)",
+        "Quantum Computers",
+        "Machine Learning"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This area of emerging technology uses a qubit as its basic unit of computation.",
+      "answer": "Quantum Computers",
+      "choices": [
+        "Augmented Reality (AR)",
+        "Artificial Intelligence (AI)",
+        "Quantum Computers",
+        "Machine Learning"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is the application of AI that provides a machine with the ability to learn from experience like humans.",
+      "answer": "Machine Learning",
+      "choices": [
+        "Qubit",
+        "Artificial Intelligence (AI)",
+        "Quantum Computers",
+        "Machine Learning"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is analogous to the standard bit (0 / 1) but is in a quantum superposition between 2 computational quantum states.",
+      "answer": "Qubit",
+      "choices": [
+        "Qubit",
+        "Artificial Intelligence (AI)",
+        "Quantum Computers",
+        "Machine Learning"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution began in the 18th century?",
+      "answer": "First Industrial Revolution / Industry 1.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution is the introduction of mechanical production using hydroelectric and steam-powered equipment?",
+      "answer": "First Industrial Revolution / Industry 1.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution began in the 19th century?",
+      "answer": "Second Industrial Revolution / Industry 2.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution uses electricity?",
+      "answer": "Second Industrial Revolution / Industry 2.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution began with the first computer area?",
+      "answer": "Third Industrial Revolution / Industry 3.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution uses electronics and IT to automate production processes?",
+      "answer": "Third Industrial Revolution / Industry 3.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution involves the internet?",
+      "answer": "Third Industrial Revolution / Industry 3.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution is the current and developing environment?",
+      "answer": "Fourth Industrial Revolution / Industry 4.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution involves disruptive tech such as IoT, robotics, VR, AR, and AI?",
+      "answer": "Fourth Industrial Revolution / Industry 4.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which Industrial Revolution leads changes in traditional relationships between humans and machines?",
+      "answer": "Fourth Industrial Revolution / Industry 4.0",
+      "choices": [
+        "First Industrial Revolution / Industry 1.0",
+        "Second Industrial Revolution / Industry 2.0",
+        "Third Industrial Revolution / Industry 3.0",
+        "Fourth Industrial Revolution / Industry 4.0"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 is the process of collecting, organizing, and analyzing large sets of data from different resources to discover patterns and other useful information.",
+      "answer": "Big Data Analytics",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 supports real-time decision-making in production.",
+      "answer": "Big Data Analytics",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 makes analyzing large data and immediately get answers possible.",
+      "answer": "Big Data Analytics",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 describes the idea of everyday physical objects being connected to the Internet and being able to communicate and interact with other devices.",
+      "answer": "Internet of Things (IoT)",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 allows field devices to interact with one another and with more centralized controllers.",
+      "answer": "Internet of Things (IoT)",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 decentralizes analytics and decision-making.",
+      "answer": "Internet of Things (IoT)",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 refers to anything that involves delivering hosted services over the internet.",
+      "answer": "Cloud computing",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 supports a variety of services, such as selecting parts in a warehouse and sending repair instructions over mobile devices.",
+      "answer": "Augmented Reality (AR)",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This building block of Industry 4.0 is currently in its infancy.",
+      "answer": "Augmented Reality (AR)",
+      "choices": [
+        "Big Data Analytics",
+        "Internet of Things (IoT)",
+        "Cloud computing",
+        "Augmented Reality (AR)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the systematic process of defining, designing, testing, and implementing a new application?",
+      "answer": "Systems Development",
+      "choices": [
+        "Systems Development",
+        "Development",
+        "Devdev as in chest",
+        "System Architecture"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the correct order of the fundamental phases in a software development project?",
+      "answer": "Planning, Analysis, Design, Implementation",
+      "choices": [
+        "Planning, Analysis, Design, Implementation",
+        "Analysis, Planning, Design, Implementation",
+        "Planning, Design, Implementation, Analysis",
+        "Design, Planning, Implementation, Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are the roles of a system analyst EXCEPT ONE.",
+      "answer": "Analyze the language of the development",
+      "choices": [
+        "Analyze the language of the development",
+        "Gather requirements and analyze it",
+        "Model the user needs",
+        "Create blueprints for how the system should be built"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Its purpose is to convert high-level requirements defined from user requirements into a list of detailed requirements called a requirements definition report.",
+      "answer": "Requirements Determination",
+      "choices": [
+        "Requirements Determination",
+        "Requirements Conversion",
+        "Requirements Simplification",
+        "Requirements Ideation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It can be used as inputs for creating models such as a functional model.",
+      "answer": "Requirements Determination",
+      "choices": [
+        "Requirements Determination",
+        "Requirements Conversion",
+        "Requirements Simplification",
+        "Requirements Ideation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A statement of what the system must perform or what characteristic it must have.",
+      "answer": "Requirement",
+      "choices": [
+        "Requirement",
+        "System Characteristic",
+        "System Design",
+        "Reqiurement"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of requirement are determined from client discussions that are refined in the design phase into system requirements.",
+      "answer": "User Requirements",
+      "choices": [
+        "User Requirements",
+        "System Requirements",
+        "Business Requirements",
+        "Clearance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which word makes the statement wrong?<br>Requirements are written from the perspective of the developer's needs.",
+      "answer": "Developer's. It should be User's.",
+      "choices": [
+        "Developer's. It should be User's.",
+        "Requirements. It should be Code.",
+        "Perspective. It should be Opinion.",
+        "Written. It should be Coded."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These requirements are directly related to the process a system has to perform or data it needs to contain.",
+      "answer": "Functional Requirements",
+      "choices": [
+        "Functional Requirements",
+        "Non-functional Requirements",
+        "Operational Requirements",
+        "Performance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These requirements directly flows into the creation of functional, structural, and behavioral models that represent the functionality of the system.",
+      "answer": "Functional Requirements",
+      "choices": [
+        "Functional Requirements",
+        "Non-functional Requirements",
+        "Operational Requirements",
+        "Performance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Functional, structural, and behavioral models are graphical representation that show how a system works.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These requirements pertain to behavioral properties that a system must have, including operational, performance, security, and cultural and political.",
+      "answer": "Non-functional Requirements",
+      "choices": [
+        "Functional Requirements",
+        "Non-functional Requirements",
+        "Operational Requirements",
+        "Performance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These requirements defines how a system is supposed to be or its system properties.",
+      "answer": "Non-functional Requirements",
+      "choices": [
+        "Functional Requirements",
+        "Non-functional Requirements",
+        "Operational Requirements",
+        "Performance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These requirements are primarily used in design when decisions are made about the database, UI, hardware, software, and system architecture.",
+      "answer": "Non-functional Requirements",
+      "choices": [
+        "Functional Requirements",
+        "Non-functional Requirements",
+        "Operational Requirements",
+        "Performance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These requirements affect decisions made during system design.",
+      "answer": "Non-functional Requirements",
+      "choices": [
+        "Functional Requirements",
+        "Non-functional Requirements",
+        "Operational Requirements",
+        "Performance Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of non-functional requirements specify the operating environments in which the system must perform, as well as how these might change over time.",
+      "answer": "Operational Requirements",
+      "choices": [
+        "Operational Requirements",
+        "Performance Requirements",
+        "Security Requirements",
+        "Cultural and Political Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of non-functional requirements usually refers to OSes, system software, and information systems.",
+      "answer": "Operational Requirements",
+      "choices": [
+        "Operational Requirements",
+        "Performance Requirements",
+        "Security Requirements",
+        "Cultural and Political Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of non-functional requirements might also include the physical environment such as in what building area the system must be installed.",
+      "answer": "Operational Requirements",
+      "choices": [
+        "Operational Requirements",
+        "Performance Requirements",
+        "Security Requirements",
+        "Cultural and Political Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of non-functional requirements deals with issues related to performance such as response time, capacity, and reliability of the system.",
+      "answer": "Performance Requirements",
+      "choices": [
+        "Operational Requirements",
+        "Performance Requirements",
+        "Security Requirements",
+        "Cultural and Political Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of non-functional requirements addresses issues with security, such as who has access to system data and must have the ability to protect data from disruption or data loss.",
+      "answer": "Security Requirements",
+      "choices": [
+        "Operational Requirements",
+        "Performance Requirements",
+        "Security Requirements",
+        "Cultural and Political Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of non-functional requirements deals with issues related to the cultural and political factors and legal requirements that affect the system.",
+      "answer": "Cultural and Political Requirements",
+      "choices": [
+        "Operational Requirements",
+        "Performance Requirements",
+        "Security Requirements",
+        "Cultural and Political Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is another term for a Requirements Definition Report.",
+      "answer": "Requirements Specification Document",
+      "choices": [
+        "Requirements Specification Document",
+        "Requirements List",
+        "The Magical Book of Wonder Requirements",
+        "Required List"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a documentation that lists the functional and non-functional requirements of a system in an outline format that defines the scope of the system or software.",
+      "answer": "Requirements Definition Report",
+      "choices": [
+        "Requirements Definition Report",
+        "Required List",
+        "Requirements List",
+        "Operational Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is used to describe what the systems can do.",
+      "answer": "Requirements Definition Report",
+      "choices": [
+        "Requirements Definition Report",
+        "Required List",
+        "Requirements List",
+        "Operational Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are TRUE ?<br>I. It is best practice to include the words \"shall\" or \"will\" when writing requirements.<br>II. Functional requirements include requirements of how the users<br>III. Non-functional requirements include requirements that define how the system will operate and its characteristics.",
+      "answer": "All 3 statements are TRUE .",
+      "choices": [
+        "All 3 statements are TRUE .",
+        "Statement I is FALSE , the rest are TRUE .",
+        "All 3 statements are FALSE .",
+        "Statement II is TRUE , the rest is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "When discrepancies arise during software or system development, this document serves as a tool for clarification.",
+      "answer": "Requirements Definition Report",
+      "choices": [
+        "Requirements Definition Report",
+        "Required List",
+        "Requirements List",
+        "Operational Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the process of cooperating with clients or users to determine what requirements are needed?",
+      "answer": "Requirements Gathering",
+      "choices": [
+        "Requirements Gathering",
+        "Information Gathering",
+        "Chismis Gathering",
+        "Requirements Identification"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is the commonly used?",
+      "answer": "Interviews",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique allows the project team, users, and management to work together to identify system requirements?",
+      "answer": "Joint Application Development (JAD)",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is a structured process that involves a group of participants to meet together under the direction of a facilitator?",
+      "answer": "Joint Application Development (JAD)",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique involves is a set of written questions used to obtain information from individuals?",
+      "answer": "Questionnaire",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is often used when there is a large number of people from whom information and opinions are needed?",
+      "answer": "Questionnaire",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is a common technique with systems or software intended for use outside the organization?",
+      "answer": "Questionnaire",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is often used by project teams to understand the current system (as-is system) of an organization?",
+      "answer": "Document Analysis",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is a form of qualitative research in which documents are analyzed and interpreted by the researchers to give voice and meaning around an assessment topic?",
+      "answer": "Document Analysis",
+      "choices": [
+        "Interviews",
+        "Joint Application Development (JAD)",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique involves the act of watching process being performed?",
+      "answer": "Observation",
+      "choices": [
+        "Interviews",
+        "Observation",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique enables the analyst to see the reality of a situation rather than listening to others?",
+      "answer": "Observation",
+      "choices": [
+        "Interviews",
+        "Observation",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In an interview, the people interviewed are selected based on the analyst's information needs.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In an interview, what does the interview should have in order to anticipate possible answers and provide follow-up on them?",
+      "answer": "General Interview Plan",
+      "choices": [
+        "General Interview Plan",
+        "Prepared Documents",
+        "Passport to Indonesia",
+        "Notes from the Attorney"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In an interview, what should be the interviewer's next step after conducting the interview?",
+      "answer": "Prepare an interview report",
+      "choices": [
+        "Prepare an interview report",
+        "Proceed to development",
+        "Prepare a spreadsheet of data spreads",
+        "Conduct a budget hearing, madam chair"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In an interview, the interview report must contain the following EXCEPT ONE.",
+      "answer": "Interviewer's name",
+      "choices": [
+        "Interviewer's name",
+        "Information from the interview",
+        "Interview notes",
+        "Summary of the interview"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In JAD, which one sets meeting agenda and guides the discussion but doesn't join it?",
+      "answer": "Facilitator",
+      "choices": [
+        "Facilitator",
+        "Scribes",
+        "Team leader",
+        "Development leader"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In JAD, whch one must be an expert in both group-process techniques and systems and analysis design techniques?",
+      "answer": "Facilitator",
+      "choices": [
+        "Facilitator",
+        "Scribes",
+        "Team leader",
+        "Development leader"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In JAD, which one assists the facilitator by recording notes, making copies, and so on?",
+      "answer": "Scribes",
+      "choices": [
+        "Facilitator",
+        "Scribes",
+        "Team leader",
+        "Development leader"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In JAD, which one can use computers and CASE tools to record information as the JAD session proceedings?",
+      "answer": "Scribes",
+      "choices": [
+        "Facilitator",
+        "Scribes",
+        "Team leader",
+        "Development leader"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "JAD sessions can take at most a day.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In conducting a JAD session, the JAD facilitator performs the key functions below EXCEPT ONE.",
+      "answer": "Write the proceedings.",
+      "choices": [
+        "Write the proceedings.",
+        "Ensure that the group sticks to the agenda and follow the rules.",
+        "Help the group understand the terms and the analysis techniques used.",
+        "Record the group's input on a public display area."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Selecting participants for JAD must be based on the information they can contribute in order to provide a broad mixture of organization levels and build political support for the new system.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "How long does a JAD report take to make?",
+      "answer": "More than a week.",
+      "choices": [
+        "More than a week.",
+        "One day.",
+        "At most 15 hours.",
+        "More than a year."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "After a questionnaire is handed out to participants, how long should a report be developed?",
+      "answer": "Immediately after the deadline.",
+      "choices": [
+        "Immediately after the deadline.",
+        "A day after the deadline.",
+        "A day before the deadline.",
+        "At most a week after the deadline."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In designing interview questions, the following type of questions are usually combined together EXCEPT FOR ONE.",
+      "answer": "Rhetorical questions",
+      "choices": [
+        "Rhetorical questions",
+        "Close-ended questions",
+        "Open-ended questions",
+        "Probing questions"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In an interview, the interview questions can be outside the areas of concern.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which word makes the statement wrong?<br>The key issue in Document Analysis is many projects or systems are not well documented because the project teams who develop the systems fail to document their projects along the way.",
+      "answer": "The statement is completely TRUE .",
+      "choices": [
+        "The statement is completely TRUE .",
+        "not well; it must be well.",
+        "Document Analysis; it must be Requirements Analysis.",
+        "The statement is completely FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What Requirements Gathering Technique is a good way to check the validity of information gathered from indirect sources such as interviews and questionnaires.",
+      "answer": "Observation",
+      "choices": [
+        "Interviews",
+        "Observation",
+        "Questionnaire",
+        "Document Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What are the 3 stages of the analysis process?",
+      "answer": "As-is system, identifying improvements, to-be system.",
+      "choices": [
+        "As-is system, identifying improvements, to-be system.",
+        "Identification, conduction, analysis.",
+        "Gathering of feedback, analysis of possible actions, implementation.",
+        "Development of system, gathering of feedback, implementing improvements."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Interviews and JAD sessions are commonly used for the 3 stages of the analysis process.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What word makes the statement incorrect?<br>The document analysis and observation are helpful for understanding the to-be system - although they can occasionally provide info about current problems that needs improvement.",
+      "answer": "to-be; must be as-is",
+      "choices": [
+        "to-be; must be as-is",
+        "document analysis; it must be requirements analysis.",
+        "current problems; it must be potential problems.",
+        "observation; it must be questionnaires."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What word makes the statement incorrect?<br>Questionnaires are used to gather info about the as-is system and general information about improvements.",
+      "answer": "The statement is completely TRUE .",
+      "choices": [
+        "The statement is completely TRUE .",
+        "Questionnaires; it must be Observations.",
+        "as-is; it must be to-be.",
+        "The statement is completely FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This refers to how rich and detailed the information is that the technique usually produces and the extent to which the technique is useful for obtaining not only facts and opinions but an understanding of why those facts and opinions exist.",
+      "answer": "Depth of Information",
+      "choices": [
+        "Depth of Information",
+        "Breadth of Information",
+        "User Involvement",
+        "Cost"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This refers to the range of information and sources that can be collected easily using the chosen technique.",
+      "answer": "Breadth of Information",
+      "choices": [
+        "Depth of Information",
+        "Breadth of Information",
+        "User Involvement",
+        "Cost"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "One of the most challenging requirements-gathering is integrating the info from different sources.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This refers to the amount of time and energy the intended users of the new system must devote to the analysis process.",
+      "answer": "User Involvement",
+      "choices": [
+        "Depth of Information",
+        "Breadth of Information",
+        "User Involvement",
+        "Cost"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The cost of using each Requirements Gathering Technique is a determinant on its effectivity.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Requirements Gathering usually only uses one particular technique throughout the process.",
+      "answer": "The statement is FALSE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Most analysts start by using interviews with senior managers to gain an understanding of the project and the key issues.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "JAD sessions are commonly used when identifying improvements.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is conducted after gathering data to determine if the specified requirements are actually required.",
+      "answer": "Requirements Analysis",
+      "choices": [
+        "Requirements Analysis",
+        "Document Analysis",
+        "Requirements Gathering",
+        "Data Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the statements are TRUE ?<br>I. Requirements should be analyzed for the characteristics of good requirements and project teams.<br>II. Analysts may employ a checklist as a tool to determine if each requirement is actually required.",
+      "answer": "Both statements are TRUE .",
+      "choices": [
+        "Both statements are TRUE .",
+        "I. is TRUE , II. is FALSE .",
+        "II. is TRUE , I. is FALSE .",
+        "Both statements are FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that a requirement is needed or specifies an essential factor on the system?",
+      "answer": "Necessary",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that if the requirement is removed, a deficiency will exist that can't be achieved by other features of the system?",
+      "answer": "Necessary",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement should only be interpreted in 1 way?",
+      "answer": "Unambiguous",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement should be specific and easy to understand?",
+      "answer": "Unambiguous",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement shouldn't have conflicts with other requirements?",
+      "answer": "Consistent",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that any conflicts and overlaps between requirements must be determined and resolved?",
+      "answer": "Consistent",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement must completely describe the necessary functionality that will result to meet the user's need.",
+      "answer": "Complete",
+      "choices": [
+        "Necessary",
+        "Unambiguous",
+        "Consistent",
+        "Complete"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement statement must only include 1 requirement with no use of conjunctions?",
+      "answer": "Singular",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that statements with conjunctions such as \"and\", \"or\", and \"but\" must be reviewed carefully to see if they can be broken into singular requirements?",
+      "answer": "Singular",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement must not contain multiple needs to avoid anomalies and to be able to be analyzable independently?",
+      "answer": "Singular",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement must be achievable within system constraints such as time, costs, legal, and available resources?",
+      "answer": "Feasible",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement must be possible to be implemented?",
+      "answer": "Feasible",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement is verifiable if the implemented system or software can be tested to prove that the specified requirement has been met?",
+      "answer": "Verifiable",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that different testing tools prove that the system satisfies the specified requirement?",
+      "answer": "Verifiable",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What characteristic of a good requirement states that the requirement must have a unique identifier to track changes to it throughout the development cycle?",
+      "answer": "Traceable",
+      "choices": [
+        "Singular",
+        "Feasible",
+        "Verifiable",
+        "Traceable"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a list of questions which the analyst will use to assess each requirement.",
+      "answer": "Checklist",
+      "choices": [
+        "Checklist",
+        "List",
+        "Question list",
+        "Questionnaire"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "After analyzing the requirements, the analyzed requirements must be systematically organized to create the requirements definition report and must be reviewed by the client for approval.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What contains revisions of the system until the client approves of the document?",
+      "answer": "Requirements Definition Report",
+      "choices": [
+        "Requirements Definition Report",
+        "Required List",
+        "Requirements List"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a visual modeling language that provides a visual means of developing and documenting object-oriented software and systems.",
+      "answer": "Unified Modeling Language (UML)",
+      "choices": [
+        "Unified Modeling Language (UML)",
+        "Unified Model Language (UML)",
+        "Unified Modeling System (UMS)",
+        "Unified Model System (UMS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What kind of diagram can be included in requirement definition report when defining functional requirements?",
+      "answer": "Use-case diagrams",
+      "choices": [
+        "Use-case diagrams",
+        "KOJC Compound diagrams",
+        "Application diagrams",
+        "Flow chart"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is person / system that represents the role of someone interacting with the system or software and is the user of the system?",
+      "answer": "Actor",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams represent the functionality of a system?",
+      "answer": "Use-case",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams represent the system's scope of which a set of use-cases are applied?",
+      "answer": "Subject Boundary Box",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams specify that the actor interacts with the system and uses a certain functionality?",
+      "answer": "Association Relationship",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams represent the required use of functionality of 1 use-case by another in order to perform its task?",
+      "answer": "Include Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams indicate optional functionality under a certain use-case?",
+      "answer": "Extend Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams represent a specialized use-case to a more generalized one?",
+      "answer": "Generalization Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by a stick figure?",
+      "answer": "Actor",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by an oblong?",
+      "answer": "Use-case",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by a box?",
+      "answer": "Subject Boundary Box",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by a singular line between the actor and use-case.",
+      "answer": "Association Relationship",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by a dashed arrow with an open arrowhead from the base use-case to the use-case?",
+      "answer": "Include Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by a dashed arrow with an open arrowhead from the extending use-case to the base use-case?",
+      "answer": "Extend Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is represented by an arrow drawn from the child use-case to the parent use-case?",
+      "answer": "Generalization Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "If an actor represents a role played by a nonhuman, like an object, what is the keyword placed on the rectangle below the stick figure?",
+      "answer": "&lt;&lt;actor>>",
+      "choices": [
+        "&lt;&lt;actor>>",
+        "&lt;&lt;nonhuman>>",
+        "&lt;&lt;object>>",
+        "&lt;&lt;invalid>>"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What type of actor initiates interaction with the system or software?",
+      "answer": "Primary",
+      "choices": [
+        "Primary",
+        "Secondary"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What type of actor is called upon by the system for support when the primary actor initiates an interaction with a use-case of the system?",
+      "answer": "Secondary",
+      "choices": [
+        "Primary",
+        "Secondary"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A use-case diagram can have 1 primary actor and several primary and secondary actors.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE .",
+        "The statement is TRUE ?",
+        "The statement is FALSE ?"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What word makes the statement FALSE ?<br>Actors must be placed inside the subject boundary box as they produce and access data.",
+      "answer": "inside; it must be outside.",
+      "choices": [
+        "inside; it must be outside.",
+        "Actors; it must be use-case.",
+        "subject boundary box; it must be use-case.",
+        "data; it must be information."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams state that every use-case must be labeled with a descriptive verb-noun phrase that defines a functional requirement?",
+      "answer": "Use-case",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A use-case functionality is initiated by what?",
+      "answer": "Actor",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Every use-case is required to be associated with 1 or more actors.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams could be a system, software, a module / subsystem, or an individual business process?",
+      "answer": "Subject Boundary Box",
+      "choices": [
+        "Actor",
+        "Use-case",
+        "Subject Boundary Box",
+        "Association Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Where would the subject be placed inside a Subject Boundary Box?",
+      "answer": "Top side.",
+      "choices": [
+        "Top side.",
+        "Bottom side.",
+        "Center.",
+        "Fill the entire space."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It's best practice to place the primary actors on the left side of the subject boundary box and the secondary actors must be placed on the right side of the box.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams defines a base use-case with extending use-case that contains optional behavior?",
+      "answer": "Extend Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In Generalization Relationship, the child use-case inherits properties and behavior of the parent use-case and may override the behavior of the parent.",
+      "answer": "The statement is TRUE .",
+      "choices": [
+        "The statement is TRUE .",
+        "The statement is FALSE ."
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What component of use-case diagrams is ised when there are common behaviors between 2 use-cases and specialized behavior specific to each use-case?",
+      "answer": "Generalization Relationship",
+      "choices": [
+        "Actor",
+        "Include Relationship",
+        "Extend Relationship",
+        "Generalization Relationship"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Design and development of software are performed in the design phase of the project. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "During development, there may be changes in the requirements document that could affect the development. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of bad design architecture states that software is <u>hard</u> to change because every change affects many parts of the software?",
+      "answer": "Rigidity",
+      "choices": [
+        "Rigidity",
+        "Fragility",
+        "Immobility",
+        "Unkavougability"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of bad design architecture states that when applying changes, unexpected parts of the software <u>breaks</u>?",
+      "answer": "Fragility",
+      "choices": [
+        "Rigidity",
+        "Fragility",
+        "Immobility",
+        "Unkavougability"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of bad design architecture states that modules are <u>hard to reuse</u> in other software because they can't be extracted from the current one?",
+      "answer": "Immobility",
+      "choices": [
+        "Rigidity",
+        "Fragility",
+        "Immobility",
+        "Unkavougability"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "These are a set of guidelines to be followed that helps developers arrange methods and data structures into classes.",
+      "answer": "Design Principles",
+      "choices": [
+        "Design Principles",
+        "Design Architecture",
+        "Design Princes",
+        "Design Framework"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that each software module, class, or interface should have <u>only 1 reason to change</u>?",
+      "answer": "Single Responsibility Principle (SRP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that for a software to be easy to change, the classes must be designed to <u>allow their behaviors to be changed</u> by adding new code rather than changing existing code?",
+      "answer": "Open-Closed Principle (OCP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles was introduced by Barbara Liskov?",
+      "answer": "Liskov Substitution Principle (LSP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that the derived classes should be<u> substitutable </u>for their base classes to build a software from interchangeable modules or classes?",
+      "answer": "Liskov Substitution Principle (LSP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles advises software designers to <u>avoid depending on things that they don't use</u>?",
+      "answer": "Interface Segregation Principle (ISP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that flexible software are those with classes that <u>depend on abstract classes or interfaces</u>?",
+      "answer": "Dependency Inversion Principle (DIP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Dependency Inversion Principle (DIP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that classes with more than 1 responsibility should be broken down into smaller, single responsibility classes?",
+      "answer": "Single Responsibility Principle (SRP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that a class doesn't have to only have 1 method; rather, a class can have any number of members such as methods and instance variables as long as its members are related to only 1 single responsibility of the class?",
+      "answer": "Single Responsibility Principle (SRP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that software modules, interfaces, or classes should be open for extension but closed for modification?",
+      "answer": "Open-Closed Principle (OCP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that when there are new requirements for the software, the new behavior must be added by deriving a new class without modifying the existing class?",
+      "answer": "Open-Closed Principle (OCP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles suggests not to add functionality on the class that has already been tested and is working properly, but rather to extend that class for adding new functionality?",
+      "answer": "Open-Closed Principle (OCP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that when creating a new derived class of an existing class, make sure that the derived class can be a substitute for its base class?",
+      "answer": "Liskov Substitution Principle (LSP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that all the derived classes of a base class should be able to perform the same behavior of their base class without negative side effects?",
+      "answer": "Liskov Substitution Principle (LSP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Liskov Substitution Principle (LSP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that clients shouldn't be forced to implement interfaces they don't use?",
+      "answer": "Interface Segregation Principle (ISP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Dependency Inversion Principle (DIP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle in the SOLID Principles states that the most flexible software systems are those in which source code dependencies refer only to abstractions, not to concretions?",
+      "answer": "Dependency Inversion Principle (DIP)",
+      "choices": [
+        "Single Responsibility Principle (SRP)",
+        "Open-Closed Principle (OCP)",
+        "Dependency Inversion Principle (DIP)",
+        "Interface Segregation Principle (ISP)"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is the image above a violation of the Single Responsibility Principle (SRP)?",
+      "answer": "The Employee method consists of 3 responsbilities to 3 different actors.",
+      "choices": [
+        "The Employee method consists of 3 responsbilities to 3 different actors.",
+        "There are 3 methods.",
+        "There are 3 actors.",
+        "The employee method consists of 3 users, instead of 1."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/SRP%201.png"
+    },
+    {
+      "question": "How is the image above a proper implementation of the Single Responsibility Principle (SRP)?",
+      "answer": "The Employee class' responsibilities have been separated into different classes.",
+      "choices": [
+        "The Employee class' responsibilities have been separated into different classes.",
+        "The Accounting, HumanResource, and DatabaseAdministrator classes uses the EmployeeData class.",
+        "The Accounting personnel, HR personnel, and Database Administrator actors have their own methods.",
+        "The Accounting personnel, HR personnel, and Database Administrator actors has their own unique methods."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/SRP%202.png"
+    },
+    {
+      "question": "How is the image above a violation of the Open-Closed Principle (OCP)?",
+      "answer": "The BankAccount class has to be modified every time a new type of bank account has to be added.",
+      "choices": [
+        "The BankAccount class has to be modified every time a new type of bank account has to be added.",
+        "There are separate methods for creating a new account, when there could only really be one.",
+        "There are separate methods for depositing and withdrawing, when there could only really be one.",
+        "It's staring at me, menacingly. And I don't like it."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/OCP%201.png"
+    },
+    {
+      "question": "How is the image above a proper implementation of the Open-Closed Principle (OCP)?",
+      "answer": "BankAccount had been abstracted and is now closed for modification but open for extension.",
+      "choices": [
+        "BankAccount had been abstracted and is now closed for modification but open for extension.",
+        "The responsibilities of the BankAccount class had been separated into its own classes.",
+        "There are separate withdraw() methods for each kind of bank account.",
+        "We gave BankAccount two companion classes so it doesn't have to be lonely."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/OCP%202.png"
+    },
+    {
+      "question": "How is the image above a proper implementation of the Liskov Substitution Principle (LSP)?",
+      "answer": "The behavior of Billing doesn't depend on any of the 2 derived classes, but both of the derived classes can substitute License.",
+      "choices": [
+        "The behavior of Billing doesn't depend on any of the 2 derived classes, but both of the derived classes can substitute License.",
+        "The Billing class was replaced, hence, 'substituted' by the License class.",
+        "The License class has 2 separate classes for each license type.",
+        "The Billing and PersonalLicense classes don't have any methods, and is both lonely. Hence, they can substitute each other and no one can tell they're empty inside."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/LSP%201.png"
+    },
+    {
+      "question": "How is the image above a violation of the Interface Segregation Principle (ISP)?",
+      "answer": "The OnlineOrderProcessor and CashOnDeliveryOrderProcessor classes implement the same IOrderProcessor interface, forcing both of them to implement the methods within even when some of them aren't needed for their necessary functions.",
+      "choices": [
+        "The OnlineOrderProcessor and CashOnDeliveryOrderProcessor classes implement the same IOrderProcessor interface, forcing both of them to implement the methods within even when some of them aren't needed for their necessary functions.",
+        "The IOrderProcessor uses both the classes even if only one is really needed.",
+        "The IOrderProcessor has multiple methods even if it only needs one.",
+        "Thank you Beyonce nalang."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/ISP%201.png"
+    },
+    {
+      "question": "How is the image above a proper implementation of the Interface Segregation Principle (ISP)?",
+      "answer": "The functions for both the COD and Online payment interfaces are separated, and the classes only implement the interfaces whose methods they need to function.",
+      "choices": [
+        "The functions for both the COD and Online payment interfaces are separated, and the classes only implement the interfaces whose methods they need to function.",
+        "The IOrderProcessor and IOnlineOrderProcessors have singular responsibilities.",
+        "The OnlineOrderProcessor implements the IOrderProcessor as needed.",
+        "Malay ko ba."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/ISP%202.png"
+    },
+    {
+      "question": "How is the image above a violation of the Dependency Inversion Principle (DIP)?",
+      "answer": "When the requirements of EmailNotifier changes, UserManager needs to be modified to change the new notification class.",
+      "choices": [
+        "When the requirements of EmailNotifier changes, UserManager needs to be modified to change the new notification class.",
+        "The UserManager uses the EmailNotifier instead of through a proxy.",
+        "When the EmailNotifier code changes, the UserManager needs to change as well to cope with the EmailNotifier's modifications.",
+        "Di talaga mahal ni UserManager si EmailNotifier. Ginagamit nya lang sya."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/DIP%201.png"
+    },
+    {
+      "question": "How is the image above a proper implementation of the Dependency Inversion (DIP)?",
+      "answer": "The UserManager, EmailNotifier, SMSNotifier, and PopupNotifier depend on the INotifier interface, so that when the requirements for the notification feature changes, it won't affect UserManager.",
+      "choices": [
+        "The UserManager, EmailNotifier, SMSNotifier, and PopupNotifier depend on the INotifier interface, so that when the requirements for the notification feature changes, it won't affect UserManager.",
+        "The notification system had been split into separate responsibilities.",
+        "The UserManager doesn't directly interact with the notification system, employing the use of the interface as to prevent any code hardlocks.",
+        "IDK."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms",
+      "image": "https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/C3_S1_ADET_Midterms/DIP%202.png"
+    },
+    {
+      "question": "These started as best practices in the industry that were applied to similar problems in different contexts multiple times.",
+      "answer": "Design Patterns",
+      "choices": [
+        "Design Patterns",
+        "Design Principles",
+        "Design Architecture",
+        "Design Kavougability"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "These are templates or blueprints that any developer can customize to solve recurring design problems in code.",
+      "answer": "Design Patterns",
+      "choices": [
+        "Design Patterns",
+        "Design Principles",
+        "Design Architecture",
+        "Design Kavougability"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Design Patterns are a specific piece of code and not a general concept for solving a particular problem. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns is the name of the pattern used to describe a design problem, its solution, and consequences.",
+      "answer": "Pattern Name",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns describes when to use the pattern.",
+      "answer": "Problem",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns explains the problem and its context.",
+      "answer": "Problem",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns describes the elements that make up the design, their relationships, responsibilities, and collaborations.",
+      "answer": "Solution",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns state that the pattern provides an abstract description of a design problem and how a general arrangement of element solves it.",
+      "answer": "Solution",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns is the results and interchanges of applying the pattern to the problem.",
+      "answer": "Consequences",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This essential feature of Design Patterns includes the time and space tradeoffs, but also flexibility, extensibility, and portability, among others.",
+      "answer": "Consequences",
+      "choices": [
+        "Pattern Name",
+        "Problem",
+        "Solution",
+        "Consequences"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns deals with when and how objects are created?",
+      "answer": "Creational Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Patawad, Amanai. Subalit hindi man lang ako nakakaalam ng sagot ngayon. Wala akong inaaral kahit saan man. Ngayon lang kasi'y parang napakaganda ng mundo. Mula sa langit at lupa, ako lamang ang pinarangalan."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns provides object creation mechanisms that increase flexibility and reuse of existing codes?",
+      "answer": "Creational Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns describe how objects are composed into larger groups and explain how to assemble objects and classes into larger structures while keeping their structures flexible and efficient?",
+      "answer": "Structural Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns describe how responsibilities are distributed between objects in the design and how communication happens between objects?",
+      "answer": "Behavioral Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns is all about class instantiation?",
+      "answer": "Creational Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns deals with object mechanisms, trying to create objects in a manner suitable to a certain situation?",
+      "answer": "Creational Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns deal with the arrangement and relationship between the classes in the software system?",
+      "answer": "Structural Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns is all about grouping classes together and providing ways for objects to coordinate to get work done?",
+      "answer": "Structural Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns can also control and grant access to an object and add new functionalities to existing objects?",
+      "answer": "Structural Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns is concerned with how classes and objects behave in a system software and how objects communicate with each other?",
+      "answer": "Behavioral Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What category of Design Patterns describe how to assign behavioral responsibilities to classes?",
+      "answer": "Behavioral Patterns",
+      "choices": [
+        "Creational Patterns",
+        "Structural Patterns",
+        "Behavioral Patterns",
+        "Sleep Patterns"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Creational Pattern ensures that a class <u>only has 1 instance </u>while providing a global access point to the instance?",
+      "answer": "Singleton Pattern",
+      "choices": [
+        "Singleton Pattern",
+        "Factory Method Pattern",
+        "Prototype Pattern",
+        "Abstract Factory Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Creational Pattern <u>provides an interface for creating objects</u> in a superclass but allows subclasses to alter the type of object that will be created?",
+      "answer": "Factory Method Pattern",
+      "choices": [
+        "Singleton Pattern",
+        "Factory Method Pattern",
+        "Prototype Pattern",
+        "Abstract Factory Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Creational Pattern lets a developer <u>copy existing objects without making the code dependent on their classes</u>?",
+      "answer": "Prototype Pattern",
+      "choices": [
+        "Singleton Pattern",
+        "Factory Method Pattern",
+        "Prototype Pattern",
+        "Abstract Factory Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Creational Pattern allows developers to <u>produce families of related objects without specifying their concrete classes</u>?",
+      "answer": "Abstract Factory Pattern",
+      "choices": [
+        "Singleton Pattern",
+        "Factory Method Pattern",
+        "Prototype Pattern",
+        "Abstract Factory Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Creational Pattern allows developers to <u>construct complex objects step by step</u>?",
+      "answer": "Builder Pattern",
+      "choices": [
+        "Singleton Pattern",
+        "Factory Method Pattern",
+        "Prototype Pattern",
+        "Builder Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Creational Pattern allows developers to <u>produce different types and representations of an object using the same construction code</u>?",
+      "answer": "Builder Pattern",
+      "choices": [
+        "Singleton Pattern",
+        "Factory Method Pattern",
+        "Prototype Pattern",
+        "Builder Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern allows objects with<u> incompatible interfaces to collaborate</u>?",
+      "answer": "Adapter Pattern",
+      "choices": [
+        "Adapter Pattern",
+        "Bridge Pattern",
+        "Composite Pattern",
+        "Decorator Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern <u>converts the interface of a class into another interface </u>as expected by the client application?",
+      "answer": "Adapter Pattern",
+      "choices": [
+        "Adapter Pattern",
+        "Bridge Pattern",
+        "Composite Pattern",
+        "Decorator Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern allows developers to <u>split a large class or a set of closely related classes into 2 separate hierarchies, which are abstraction and implementation</u>, that can be developed independently of each other.",
+      "answer": "Bridge Pattern",
+      "choices": [
+        "Adapter Pattern",
+        "Bridge Pattern",
+        "Composite Pattern",
+        "Decorator Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern allows developers to <u>compose objects into tree structures</u> and then work with these structures treating them as individual objects.",
+      "answer": "Composite Pattern",
+      "choices": [
+        "Adapter Pattern",
+        "Bridge Pattern",
+        "Composite Pattern",
+        "Decorator Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern allows developers to attach new behaviors to objects by <u>placing these objects inside special wrapper objects </u>that contain the behaviors.",
+      "answer": "Decorator Pattern",
+      "choices": [
+        "Adapter Pattern",
+        "Bridge Pattern",
+        "Composite Pattern",
+        "Decorator Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern provides a <u>simplified interface</u> to a library, a framework, or any other complex set of classes.",
+      "answer": "Facade Pattern",
+      "choices": [
+        "Facade Pattern",
+        "Flyweight Pattern",
+        "Proxy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern allows developers to <u>fit more objects into the available amount of RAM </u>by sharing common parts of state between multiple objects instead of keeping all of the data in each other.",
+      "answer": "Flyweight Pattern",
+      "choices": [
+        "Facade Pattern",
+        "Flyweight Pattern",
+        "Proxy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Structural Pattern allows developers to <u>provide a substitute</u> or placeholder for another object?",
+      "answer": "Proxy Pattern",
+      "choices": [
+        "Facade Pattern",
+        "Flyweight Pattern",
+        "Proxy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Behavioral Pattern allows developers to <u>traverse elements of a collection</u> without exposing its underlying representation, such as list, stack, and tree?",
+      "answer": "Iterator Pattern",
+      "choices": [
+        "Iterator Pattern",
+        "Observer Pattern",
+        "Strategy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Behavioral Pattern is used for <u>sequentially iterating </u>and accessing items from a collection of items?",
+      "answer": "Iterator Pattern",
+      "choices": [
+        "Iterator Pattern",
+        "Observer Pattern",
+        "Strategy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Behavioral Pattern allows developers to define a <u>subscription mechanism</u> to notify multiple objects about any events that happen to the object they are observing?",
+      "answer": "Observer Pattern",
+      "choices": [
+        "Iterator Pattern",
+        "Observer Pattern",
+        "Strategy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Behavioral Pattern states that when an object changes state, <u>all of its dependents are notified and updated automatically</u>?",
+      "answer": "Observer Pattern",
+      "choices": [
+        "Iterator Pattern",
+        "Observer Pattern",
+        "Strategy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Behavioral Pattern allows developers to <u>define a family of algorithms</u>, put each of them into a separate class, and make their objects interchangeable?",
+      "answer": "Strategy Pattern",
+      "choices": [
+        "Iterator Pattern",
+        "Observer Pattern",
+        "Strategy Pattern",
+        "Adapter Pattern"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "The Singleton's constructor should be hidden from the client code. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Prototype Pattern, the Prototype interface declares the cloning methods. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Prototype Pattern, what class implements the cloning method?",
+      "answer": "ConcretePrototype",
+      "choices": [
+        "ConcretePrototype",
+        "Prototype",
+        "Concrete",
+        "Secret bakit ko sasabihin"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Prototype Pattern, what class provides an easy way to access frequently used prototypes?",
+      "answer": "PrototypeRegistry",
+      "choices": [
+        "PrototypeRegistry",
+        "ConcretePrototype",
+        "Prototype",
+        "PrototypeList"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Factory Method Pattern, what class returns products of a particular kind?",
+      "answer": "Factory",
+      "choices": [
+        "Factory",
+        "AbstractProducts",
+        "ConcreteFactory",
+        "AbstractFactory"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Builder Pattern, what class degines the order of building step execution?",
+      "answer": "Director",
+      "choices": [
+        "Director",
+        "Builder",
+        "ConcreteBuilder",
+        "A hidden, mysterious choice"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Builder Pattern, what class provides the implementation for the building steps?",
+      "answer": "Builder",
+      "choices": [
+        "Director",
+        "Builder",
+        "ConcreteBuilder",
+        "A hidden, mysterious choice"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Builder Pattern, what class are the resulting objects constructed by the Builder class?",
+      "answer": "Products",
+      "choices": [
+        "Director",
+        "Builder",
+        "Products",
+        "A hidden, mysterious choice"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Adapter Pattern, what class implements the client interface while wrapping the service object?",
+      "answer": "Adapter",
+      "choices": [
+        "Adapter",
+        "Service",
+        "Client",
+        "Object"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Component Pattern, what interface describes the operations that are common to both simple and complex elements of the tree?",
+      "answer": "Component",
+      "choices": [
+        "Component",
+        "Leaf",
+        "Composite",
+        "Structure"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Facade Pattern, what class provides convenient access to a particular part of the subsystem's functionality and knows where to direct the client's request and how to operate all the moving parts?",
+      "answer": "Facade",
+      "choices": [
+        "Facade",
+        "Complex Subsystem",
+        "Proxy",
+        "Client"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Flyweight Pattern, what are values that remain constant?",
+      "answer": "State-Independents",
+      "choices": [
+        "State-Independents",
+        "State-Dependents",
+        "Ugh, tama na!",
+        "Lalabas ba to???"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Flyweight Pattern, what are values that may always change?",
+      "answer": "State-Dependents",
+      "choices": [
+        "State-Independents",
+        "State-Dependents",
+        "Ugh, tama na!",
+        "Lalabas ba to???"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Proxy Pattern, which controls access to the original object, allowing developers to perform something before or after the requests gets through to the original object?",
+      "answer": "Proxy",
+      "choices": [
+        "Proxy",
+        "Substitute",
+        "Service",
+        "Replacement"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Iterator Pattern, what class encapsulates all of the traversal details, such as the current position and how many elements are left until the end?",
+      "answer": "Iterator",
+      "choices": [
+        "Iterator",
+        "Iterator interface",
+        "Iteratoror",
+        "Rawr"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Observer Pattern, what object notifies other objects about the changes to its state?",
+      "answer": "Publisher",
+      "choices": [
+        "Publisher",
+        "Subscriber",
+        "Publisher Class",
+        "Subscriber Interface"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Observer Pattern, what are the objects called that want to track changes to the publisher's state?",
+      "answer": "Subscriber",
+      "choices": [
+        "Publisher",
+        "Subscriber",
+        "Publisher Class",
+        "Patawad, Amanai. Subalit hindi man lang ako nakakaalam ng sagot ngayon. Wala akong inaaral kahit saan man. Ngayon lang kasi'y parang napakaganda ng mundo. Mula sa langit at lupa, ako lamang ang pinarangalan."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Observer Pattern, what class issues events of interests to other objects?",
+      "answer": "Publisher Class",
+      "choices": [
+        "Publisher",
+        "Subscriber",
+        "Publisher Class",
+        "Patawad, Amanai. Subalit hindi man lang ako nakakaalam ng sagot ngayon. Wala akong inaaral kahit saan man. Ngayon lang kasi'y parang napakaganda ng mundo. Mula sa langit at lupa, ako lamang ang pinarangalan."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "In the Observer Pattern, what interface declares the notification interface?",
+      "answer": "Subscriber",
+      "choices": [
+        "Publisher",
+        "Subscriber",
+        "Publisher Class",
+        "Patawad, Amanai. Subalit hindi man lang ako nakakaalam ng sagot ngayon. Wala akong inaaral kahit saan man. Ngayon lang kasi'y parang napakaganda ng mundo. Mula sa langit at lupa, ako lamang ang pinarangalan."
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This pertains to the degree to which a software product meets the gathered requirements.",
+      "answer": "Software Quality",
+      "choices": [
+        "Software Quality",
+        "Software Quality Assurance",
+        "Software Intention",
+        "Software Capability"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These are a set  of activities that define and assess the adequacy of software process to provide evidence which establishes confidence that the software processes are appropriate for and product software products of suitable quality for their intended processes.",
+      "answer": "Software Quality Assurance",
+      "choices": [
+        "Software Quality Assurance",
+        "Software Quality",
+        "Software Intention",
+        "Software Capability"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These are based on the planning and implementation of a series of activities for ensuring quality in the software development process.",
+      "answer": "Software Quality Assurance",
+      "choices": [
+        "Software Quality Assurance",
+        "Software Quality",
+        "Software Intention",
+        "Software Capability"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is a structured approach to improve software quality.",
+      "answer": "Software Quality Assurance",
+      "choices": [
+        "Software Quality Assurance",
+        "Software Quality",
+        "Software Intention",
+        "Software Capability"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This involves defect prevention, detection, and removal, as well as defect containment activities.",
+      "answer": "Software Quality Assurance",
+      "choices": [
+        "Software Quality Assurance",
+        "Software Quality",
+        "Software Intention",
+        "Software Capability"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that bugs can have immediate impacts on clients or customers?",
+      "answer": "Reputation",
+      "choices": [
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification",
+        "Legality"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that poor quality software tend to be expensive to develop and maintain and can negatively affect organizations?",
+      "answer": "Limiting Technical Debt",
+      "choices": [
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification",
+        "Legality"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that the development and use of software might require certification, which often require evidence of the application of various quality control and assessment measures?",
+      "answer": "Software Certification",
+      "choices": [
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification",
+        "Legality"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that there may be overriding legal obligations that apply to organizations that use the software?",
+      "answer": "Legality",
+      "choices": [
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification",
+        "Legality"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that every practicable measure must be taken to demonstrate that the software system doesn’t pose a risk to its users?",
+      "answer": "Legality",
+      "choices": [
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification",
+        "Legality"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that in cases where software systems aren’t covered by software certification and legislation, and where its failure is not necessarily business or safety-critical, there can remain moral obligation to the users?",
+      "answer": "Ethical Codes of Practice",
+      "choices": [
+        "Ethical Codes of Practice",
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which reasons driving software quality assurance states that software engineers should do whatever is possible to maximize the quality of their software and to prevent it from containing harmful bugs?",
+      "answer": "Ethical Codes of Practice",
+      "choices": [
+        "Ethical Codes of Practice",
+        "Reputation",
+        "Limiting Technical Debt",
+        "Software Certification"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the act of building software application prototypes which displays the functionality of the product under development, but may not actually hold the exact logic of the original software.",
+      "answer": "Software Prototyping",
+      "choices": [
+        "Software Prototyping",
+        "Software Inspection",
+        "Software Quality Assurance",
+        "Software Review"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This act moves the quality assurance earlier and makes it easier.",
+      "answer": "Software Prototyping",
+      "choices": [
+        "Software Prototyping",
+        "Software Inspection",
+        "Software Quality Assurance",
+        "Software Review"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "All of these is achieved by software prototyping EXCEPT ONE.",
+      "answer": "Represent the final product.",
+      "choices": [
+        "Represent the final product.",
+        "Allow users to evaluate the software system design and how the software actually works.",
+        "Clarify the functionalities of the software to both users and developers.",
+        "Reduce the need to recreate the software system due to some gaps on the implementation."
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What prototyping paradigm is a relatively fast method of prototyping that focuses on employing prototypes to generate insights about the software design idea?",
+      "answer": "Throwaway Prototyping",
+      "choices": [
+        "Throwaway Prototyping",
+        "Evolutionary Prototyping",
+        "Software Prototyping",
+        "Single-Use Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What prototyping paradigm states that created prototypes are discarded after testing and after obtaining feedback?",
+      "answer": "Throwaway Prototyping",
+      "choices": [
+        "Throwaway Prototyping",
+        "Evolutionary Prototyping",
+        "Software Prototyping",
+        "Single-Use Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What prototyping paradigm are used in early design stages where the gathered requirements are still unclear?",
+      "answer": "Throwaway Prototyping",
+      "choices": [
+        "Throwaway Prototyping",
+        "Evolutionary Prototyping",
+        "Software Prototyping",
+        "Single-Use Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What prototyping paradigm states that prototypes are reused after the testing in a way that they are altered to the test results and then reused in a new test cycle?",
+      "answer": "Evolutionary Prototyping",
+      "choices": [
+        "Throwaway Prototyping",
+        "Evolutionary Prototyping",
+        "Software Prototyping",
+        "Single-Use Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What prototyping paradigm is used in late development stages where sufficient insights about principle design decisions exist and the prototype addresses technical and long-term use issues?",
+      "answer": "Evolutionary Prototyping",
+      "choices": [
+        "Throwaway Prototyping",
+        "Evolutionary Prototyping",
+        "Software Prototyping",
+        "Single-Use Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Prototype fidelity pertains to how it conveys the look and feel of the final product. (TR or FR)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What fidelity of prototyping states that its role is to check and test the visual appearance and user flows of a software?",
+      "answer": "Low-Fidelity Prototyping",
+      "choices": [
+        "Low-Fidelity Prototyping",
+        "High-Fidelity Prototyping",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What fidelity of prototyping does throwaway prototyping fall into?",
+      "answer": "Low-Fidelity Prototyping",
+      "choices": [
+        "Low-Fidelity Prototyping",
+        "High-Fidelity Prototyping",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What fidelity of prototyping is created when developers have a solid understanding of what they’re going to build?",
+      "answer": "High-Fidelity Prototyping",
+      "choices": [
+        "Low-Fidelity Prototyping",
+        "High-Fidelity Prototyping",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What fidelity of prototyping states the need to test it with actual users?",
+      "answer": "High-Fidelity Prototyping",
+      "choices": [
+        "Low-Fidelity Prototyping",
+        "High-Fidelity Prototyping",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What fidelity of prototyping does evolutionary prototyping fall into?",
+      "answer": "High-Fidelity Prototyping",
+      "choices": [
+        "Low-Fidelity Prototyping",
+        "High-Fidelity Prototyping",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What fidelity of prototyping is created in the form of programming codes and IDEs?",
+      "answer": "High-Fidelity Prototyping",
+      "choices": [
+        "Low-Fidelity Prototyping",
+        "High-Fidelity Prototyping",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What technique in creating low-fidelity prototypes is used to create a prototype based on hand drawings that represent UI of the software?",
+      "answer": "Paper-Based Prototyping",
+      "choices": [
+        "Paper-Based Prototyping",
+        "Wireframing",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What technique in creating low-fidelity prototypes allows developers to explore ideas and refine designs quickly?",
+      "answer": "Paper-Based Prototyping",
+      "choices": [
+        "Paper-Based Prototyping",
+        "Wireframing",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What is the visual representation of a product page that developers can use to arrange pages of user interfaces?",
+      "answer": "Wireframe",
+      "choices": [
+        "Wireframe",
+        "Prototype",
+        "Sample",
+        "Demonstration"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What technique in creating low-fidelity prototypes makes use of tools such as Balsamiq Wireframes, Axure, MockFlow, Adobe XD, and Figma?",
+      "answer": "Wireframing",
+      "choices": [
+        "Paper-Based Prototyping",
+        "Wireframing",
+        "Traditional Prototyping",
+        "Modern Prototyping"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is a formalized peer review process for detecting and correcting defects or bugs in software artifacts.",
+      "answer": "Software Inspection and Review",
+      "choices": [
+        "Software Inspection and Review",
+        "Software Prototyping",
+        "Software Quality Assurance",
+        "Rawr"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Its objective is to help developers build quality into the software product.",
+      "answer": "Software Inspection and Review",
+      "choices": [
+        "Software Inspection and Review",
+        "Software Prototyping",
+        "Software Quality Assurance",
+        "Rawr"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These are anything that have been documented and stored during the software development process such as requirements document, source code, user documentation, test plans, and test cases.",
+      "answer": "Sofrtware Artifacts",
+      "choices": [
+        "Sofrtware Artifacts",
+        "Software Bugs",
+        "Software Errors",
+        "Software Components"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique is developed by Michael Fagan. (Pag ito namali mo pa ewan ko nalang)",
+      "answer": "Fagan Inspection Methodology",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique identifies and removes errors in the software products and to identify any systematic defects in the processes that are used to create software products.",
+      "answer": "Fagan Inspection Methodology",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique requires that software artifacts be formally inspected by experts independent of the author.",
+      "answer": "Fagan Inspection Methodology",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique includes roles namely, moderator, author, reader, and tester.",
+      "answer": "Fagan Inspection Methodology",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique is a peer review in which the author of a deliverable, such as a document or source code, brings 1 or more reviewers through the deliverable.",
+      "answer": "Structured Walkthrough",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique's objective is to get feedback from the reviewers on the quality of the document or code and to familiarize the review audience with the author’s work.",
+      "answer": "Structured Walkthrough",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This software inspection technique includes several roles, namely, the review leader, author, scribe, and the review audience.",
+      "answer": "Structured Walkthrough",
+      "choices": [
+        "Fagan Inspection Methodology",
+        "Structured Walkthrough",
+        "Inspection Meeting",
+        "Code Reviewing Techniques"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role leads the inspection team and takes care of logistics?",
+      "answer": "Moderator",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role is the creator of the software artifacts under inspection?",
+      "answer": "Author",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role actively answers all the questions regarding the artifacts during the inspection meeting?",
+      "answer": "Author",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role is responsible for fixing identified defects and bugs in the artifacts?",
+      "answer": "Author",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role is an experienced peer who can be a subject matter expert on the software artifacts under inspection?",
+      "answer": "Reader",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role is responsible for writing and executing test cases for the software module or product?",
+      "answer": "Tester",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspector role is focused on how the product would be tested?",
+      "answer": "Tester",
+      "choices": [
+        "Moderator",
+        "Author",
+        "Reader",
+        "Tester"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves identifying the inspector and roles, along with arranging the meeting place and time?",
+      "answer": "Planning",
+      "choices": [
+        "Planning",
+        "Overview",
+        "Preparation",
+        "Inspection Meeting"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves briefing of participants on information of materials?",
+      "answer": "Overview",
+      "choices": [
+        "Planning",
+        "Overview",
+        "Preparation",
+        "Inspection Meeting"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves preparation for the meeting and reading through the deliverables?",
+      "answer": "Preparation",
+      "choices": [
+        "Planning",
+        "Overview",
+        "Preparation",
+        "Inspection Meeting"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves the moderator setting the time limit for inspection and recording and classifying defects?",
+      "answer": "Inspection Meeting",
+      "choices": [
+        "Planning",
+        "Overview",
+        "Preparation",
+        "Inspection Meeting"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves improving the development and inspection process along with making recommendation to the process improvement team?",
+      "answer": "Process Improvement",
+      "choices": [
+        "Process Improvement",
+        "Rework",
+        "Follow-up",
+        "Preparation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves the author correcting the defects and carries out any necessary investigations?",
+      "answer": "Rework",
+      "choices": [
+        "Process Improvement",
+        "Rework",
+        "Follow-up",
+        "Preparation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which activity involves the moderator verifying that the author has resolved the defects and investigations?",
+      "answer": "Follow-up",
+      "choices": [
+        "Process Improvement",
+        "Rework",
+        "Follow-up",
+        "Preparation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspection type finds defects in the requirements and confirming if those are correct?",
+      "answer": "Requirements",
+      "choices": [
+        "Requirements",
+        "Design Inspection",
+        "Code Inspection",
+        "Test Plan Inspection"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspection type finds defects in the design and confirming if those are correct with respect to the requirements?",
+      "answer": "Design Inspection",
+      "choices": [
+        "Requirements",
+        "Design Inspection",
+        "Code Inspection",
+        "Test Plan Inspection"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspection type finds defects in the code and confirming if those are correct with respect to the design and requirements?",
+      "answer": "Code Inspection",
+      "choices": [
+        "Requirements",
+        "Design Inspection",
+        "Code Inspection",
+        "Test Plan Inspection"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Fagan Inspection Methodology, which inspection type finds defects in the test cases or plan, and confirming if those can verify the design and requirements?",
+      "answer": "Test Plan Inspection",
+      "choices": [
+        "Requirements",
+        "Design Inspection",
+        "Code Inspection",
+        "Test Plan Inspection"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is an act of systematically convening with fellow programmers to check each other’s code for faults to ensure it meets quality standards.",
+      "answer": "Code Reviewing Techniques",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Code Reviewing Technique uses automated code analysis techniques that can pick out problematic patterns within the source code.",
+      "answer": "Tool-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Code Reviewing Technique states that the nature of the code problems that can be identified varies from 1 tool to another and depends to an extent on the nature of the underlying programming language.",
+      "answer": "Tool-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Code Reviewing Technique states that automated tools are especially good at identifying problems that are relatively localized to a single method or class.",
+      "answer": "Tool-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Code Reviewing Technique is where the developers themselves review code to pick out problems.",
+      "answer": "Developer-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Code Reviewing Technique is where reviewers manually assess codes before deployment.",
+      "answer": "Developer-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Code Reviewing Technique is usually a 2-step process where the developers have to understand the program first so that they can form an opinion of its implementation and design.",
+      "answer": "Developer-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is a lightweight variant of code inspections because it doesn’t rely on face-to-face meetings.",
+      "answer": "Modern Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Modern Code Review technique uses Google Gerrit or Microsoft CodeFlow.",
+      "answer": "Tool-Driven Code Review",
+      "choices": [
+        "Code Reviewing Techniques",
+        "Developer-Driven Code Review",
+        "Tool-Driven Code Review",
+        "Modern Code Review"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is a central file storage location used by version control systems to store multiple versions of files that can be accessed by multiple users.",
+      "answer": "Repository",
+      "choices": [
+        "Repository",
+        "Pull-Based Development",
+        "Code Reviewing Tools",
+        "Pull Requests"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This Modern Code Review technique doesn't use code reviewing tools and revolves around a mechanism known as a pull request.",
+      "answer": "Pull-Based Development",
+      "choices": [
+        "Repository",
+        "Pull-Based Development",
+        "Code Reviewing Tools",
+        "Pull Requests"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is an activity of executing a system or component under specified conditions, observing or recording the results, and evaluating some of the aspects of the system or component.",
+      "answer": "Software Testing",
+      "choices": [
+        "Software Testing",
+        "Pull Requests",
+        "Testing",
+        "Code Review"
+      ]
+    },
+    {
+      "question": "It is an approach used for detecting defects in software and confirming that requirements are correctly implemented before deploying the software.",
+      "answer": "Software Testing",
+      "choices": [
+        "Software Testing",
+        "Pull Requests",
+        "Testing",
+        "Code Review"
+      ]
+    },
+    {
+      "question": "Is this Objective of Software Testing Direct or Indirect? <br> To identify and reveal as many errors as possible in tested software.",
+      "answer": "Direct",
+      "choices": [
+        "Direct",
+        "Indirect"
+      ]
+    },
+    {
+      "question": "Is this Objective of Software Testing Direct or Indirect? <br> To bring the tested software to an acceptable level of quality after correcting the identified errors and retesting.",
+      "answer": "Direct",
+      "choices": [
+        "Direct",
+        "Indirect"
+      ]
+    },
+    {
+      "question": "Is this Objective of Software Testing Direct or Indirect? <br> To perform the required tests efficiently and effectively and within the budgetary and scheduling limitations.",
+      "answer": "Direct",
+      "choices": [
+        "Direct",
+        "Indirect"
+      ]
+    },
+    {
+      "question": "Is this Objective of Software Testing Direct or Indirect? <br> To establish with a degree of confidence that the software package is ready for delivery or installment at customer premises.",
+      "answer": "Direct",
+      "choices": [
+        "Direct",
+        "Indirect"
+      ]
+    },
+    {
+      "question": "Is this Objective of Software Testing Direct or Indirect? <br> To compile a record of software errors for use in software process improvement by corrective and preventive actions and for decision-making.",
+      "answer": "Indirect",
+      "choices": [
+        "Direct",
+        "Indirect"
+      ]
+    },
+    {
+      "question": "Which of the following best describes Unit Testing?",
+      "answer": "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+      "choices": [
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+        "Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+        "Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Unit Testing?",
+      "answer": "Technical tests of the code and require writing test harnesses and creating test data.",
+      "choices": [
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+        "Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+        "Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Unit Testing?",
+      "answer": "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output.",
+      "choices": [
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output.",
+        "The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+        "Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+        "Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Unit Testing?",
+      "answer": "Generally documented, and should include the test objective and the expected results.",
+      "choices": [
+        "Generally documented, and should include the test objective and the expected results.",
+        "The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+        "Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+        "Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other."
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+      "answer": "Unit Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Technical tests of the code and require writing test harnesses and creating test data.",
+      "answer": "Unit Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Developer writes these tests, and objective is to determine if each unit of the software performs its expected output.",
+      "answer": "Unit Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Generally documented, and should include the test objective and the expected results.",
+      "answer": "Unit Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "Which of the following best describes Integration Testing?",
+      "answer": "The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+      "choices": [
+        "The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Integration Testing?",
+      "answer": "Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+      "choices": [
+        "Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Integration Testing?",
+      "answer": "Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other.",
+      "choices": [
+        "Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+      "answer": "Integration Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+      "answer": "Integration Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other.",
+      "answer": "Integration Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "Which of the following best describes System Testing?",
+      "answer": "Tests the functionality of an entire system together with interdependencies between system components.",
+      "choices": [
+        "Tests the functionality of an entire system together with interdependencies between system components.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes System Testing?",
+      "answer": "Its objective is to verify that the implementation is valid with respect to the system requirements.",
+      "choices": [
+        "Its objective is to verify that the implementation is valid with respect to the system requirements.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes System Testing?",
+      "answer": "Involves the specification of system test cases in which the execution of the test cases will verify that the system requirements have been correctly implemented.",
+      "choices": [
+        "Involves the specification of system test cases in which the execution of the test cases will verify that the system requirements have been correctly implemented.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Tests the functionality of an entire system together with interdependencies between system components.",
+      "answer": "System Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Its objective is to verify that the implementation is valid with respect to the system requirements.",
+      "answer": "System Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Involves the specification of system test cases in which the execution of the test cases will verify that the system requirements have been correctly implemented.",
+      "answer": "System Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "Which of the following best describes Performance Testing?<br>",
+      "answer": "Its objective is to ensure that the performance of the system is within the bounds specified by the non-functional requirements.",
+      "choices": [
+        "Its objective is to ensure that the performance of the system is within the bounds specified by the non-functional requirements.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Performance Testing?<br>",
+      "answer": "May include load performance testing, where the system is subjected to heavy loads over a long period, and stress testing, where the system is subjected to heavy loads during a short time interval.",
+      "choices": [
+        "May include load performance testing, where the system is subjected to heavy loads over a long period, and stress testing, where the system is subjected to heavy loads during a short time interval.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Performance Testing?<br>",
+      "answer": "Often involves the simulation of many users using the system as well as the measurement of the response times for various activities.",
+      "choices": [
+        "Often involves the simulation of many users using the system as well as the measurement of the response times for various activities.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Its objective is to ensure that the performance of the system is within the bounds specified by the non-functional requirements.",
+      "answer": "Performance Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>May include load performance testing, where the system is subjected to heavy loads over a long period, and stress testing, where the system is subjected to heavy loads during a short time interval.",
+      "answer": "Performance Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Often involves the simulation of many users using the system as well as the measurement of the response times for various activities.",
+      "answer": "Performance Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "Which of the following best describes Acceptance Testing?<br>",
+      "answer": "System users or customers perform this testing before accepting the product.",
+      "choices": [
+        "System users or customers perform this testing before accepting the product.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Acceptance Testing?<br>",
+      "answer": "The customers will see the product in operation and will determine whether or not the system is fit for purpose.",
+      "choices": [
+        "The customers will see the product in operation and will determine whether or not the system is fit for purpose.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Acceptance Testing?<br>",
+      "answer": "Its objective is to demonstrate that the product satisfies the business requirements and meets customer expectations.",
+      "choices": [
+        "Its objective is to demonstrate that the product satisfies the business requirements and meets customer expectations.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>System users or customers perform this testing before accepting the product.",
+      "answer": "Acceptance Testing",
+      "choices": [
+        "Acceptance Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>The customers will see the product in operation and will determine whether or not the system is fit for purpose.",
+      "answer": "Acceptance Testing",
+      "choices": [
+        "Acceptance Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Its objective is to demonstrate that the product satisfies the business requirements and meets customer expectations.",
+      "answer": "Acceptance Testing",
+      "choices": [
+        "Acceptance Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "Testing begins as soon as development activities begin and are carried out in parallel with the development stages. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "The objective of integrating testing to software development process is to find errors at each phrase and prevent these errors from propagating to other phases. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Its objective is to evaluate the gathered requirements.",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br> Each requirement should be evaluated to ensure it's correct and testable, and the requirements together are complete.",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Software inspections and prototyping can be employed to ensure the good quality of requirements.",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>The activities to perform testing in this phase are to prepare for system testing and requirements analysis activities.",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>The test plan should include the scope and objectives for testing at each phase, and the testing requirements should describe support software needed for testing at each stage.",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>This phase partitions the requirements into hardware or software systems and builds the overall system architecture.",
+      "answer": "System and Software Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Its objective of testing in this phase is to verify the mapping between the requirements specification and the design.",
+      "answer": "System and Software Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Any changes to the requirements specification should be reflected in the corresponding design changes.",
+      "answer": "System and Software Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Testing at this stage helps to validate the design and interface.",
+      "answer": "System and Software Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>The activities to perform testing in this phase is to prepare for acceptance and usability testing.",
+      "answer": "System and Software Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>In this phase, the developers start writing and compiling classes and methods.",
+      "answer": "Intermediate Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Its objective is to perform effective and efficient unit testing.",
+      "answer": "Intermediate Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Unit test results and defects should be saved and reported properly for further processing.",
+      "answer": "Intermediate Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Process of delivering a completed software product to clients.",
+      "answer": "System Deployment",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Testing activities in this phase is to perform system testing, acceptance testing, and usability testing.",
+      "answer": "System Deployment",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>System testing validates whether the software meets the functional and non-functional requirements, while acceptance testing can be started when the system testing is completed.",
+      "answer": "System Deployment",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Test cases are derived from acceptance test plans and test data set up.",
+      "answer": "System Deployment",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "This is a software artifact with a set of test inputs, execution conditions, and expected results developed for a particular objective, such as to exercise a particular program path to verify compliance with a specific requirement and as documentation for a test item.",
+      "answer": "Test Case",
+      "choices": [
+        "Test Case",
+        "Situation Case",
+        "Pencil Case",
+        "Scenario Case"
+      ]
+    },
+    {
+      "question": "This comprise of user inputs that are provided to the application and the procedure for executing the test case during the test.",
+      "answer": "Test Case",
+      "choices": [
+        "Test Case",
+        "Situation Case",
+        "Pencil Case",
+        "Scenario Case"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>Name and number to identify a test case.",
+      "answer": "Test Case ID",
+      "choices": [
+        "Test Case ID",
+        "Objective / Description",
+        "Test Procedure",
+        "Test Data"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>The reason for the test (may include the type of test).",
+      "answer": "Objective / Description",
+      "choices": [
+        "Test Case ID",
+        "Objective / Description",
+        "Test Procedure",
+        "Test Data"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>The activities or steps required on the part of the tester to carry out the test.",
+      "answer": "Test Procedure",
+      "choices": [
+        "Test Case ID",
+        "Objective / Description",
+        "Test Procedure",
+        "Test Data"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>Data to enter the system (made up of valid and invalid sets of test data).",
+      "answer": "Test Data",
+      "choices": [
+        "Test Case ID",
+        "Objective / Description",
+        "Test Procedure",
+        "Test Data"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>Expected results of the test.",
+      "answer": "Expected Results",
+      "choices": [
+        "Expected Results",
+        "Actual Results",
+        "Status",
+        "Remarks"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>Placeholder for recording the actual result as the test case gets executed.",
+      "answer": "Actual Results",
+      "choices": [
+        "Expected Results",
+        "Actual Results",
+        "Status",
+        "Remarks"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>Determines whether the test was a Pass, Fail, or Not Executed.",
+      "answer": "Status",
+      "choices": [
+        "Expected Results",
+        "Actual Results",
+        "Status",
+        "Remarks"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>Any comments on the test case or execution.",
+      "answer": "Remarks",
+      "choices": [
+        "Expected Results",
+        "Actual Results",
+        "Status",
+        "Remarks"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>May include the name of the tester carrying out the tests, date of execution of the test, the environment in which the test was executed such as hardware and software.",
+      "answer": "Administrative Details",
+      "choices": [
+        "Expected Results",
+        "Actual Results",
+        "Status",
+        "Administrative Details"
+      ]
+    },
+    {
+      "question": "If all tests pass in a Unit Test, the production code in testing is considered to be working - meeting its requirements. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "If even 1 test fails in a Unit Test, the production code is deemed to not meet its requirements. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "In unit testing, test cases are used to evaluate the input and expected output of the unit. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Used to verify the internal logic and program statements of components or software.",
+      "answer": "White-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Involving stepping through every line of code and every branch in the code.",
+      "answer": "White-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Tester should be knowledgeable in the programming language and should understand the structure of the program to perform this test.",
+      "answer": "White-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>This ensures that all program statements and control structures are tested.",
+      "answer": "White-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>IDEs contain tools to perform this.",
+      "answer": "White-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>The tester derives tests from external descriptions of the software, including specifications, requirements, design.",
+      "answer": "Black-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Concerned with the inputs and outputs of the system where a set of input is inserted to the software's UI, and the outputs delivered by the software are compared with the expected outputs.",
+      "answer": "Black-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Tester focuses on whether the class or module meets the requirements stated in the specifications.",
+      "answer": "Black-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Performed from the UI of the software.",
+      "answer": "Black-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Its effectiveness depends on the design of test cases.",
+      "answer": "Black-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "What Unit Testing Tool is being described?<br>These are open-source unit testing frameworks designed for Java.",
+      "answer": "JUnit and TestNG",
+      "choices": [
+        "JUnit and TestNG",
+        "NUnit",
+        "IntelliJ",
+        "Apateau Apateau"
+      ]
+    },
+    {
+      "question": "What Unit Testing Tool is being described?<br>Open-source unit testing framework for all .NET languages.",
+      "answer": "NUnit",
+      "choices": [
+        "JUnit and TestNG",
+        "NUnit",
+        "IntelliJ",
+        "Apateau Apateau"
+      ]
+    },
+    {
+      "question": "This is an iterative process where tests for the code are written before writing the code. It forces the developer to write testable code.",
+      "answer": "Test-Driven Development",
+      "choices": [
+        "Test-Driven Development",
+        "Data-Driven Development",
+        "Event-Driven Development",
+        "Driver-Driven Development"
+      ]
+    },
+    {
+      "question": "What is the process of improving the code without changing its external behavior?",
+      "answer": "Refactoring",
+      "choices": [
+        "Refactoring",
+        "Rewriting",
+        "Recoding",
+        "Improving of Code"
+      ]
+    },
+    {
+      "question": "This is the process of delivering a completed software product to clients.",
+      "answer": "Software Deployment",
+      "choices": [
+        "Software Deployment",
+        "Software Release",
+        "Software Testing",
+        "Software Hand-over"
+      ]
+    },
+    {
+      "question": "It involves packaging, testing, distributing, and installing the software product.",
+      "answer": "Software Deployment",
+      "choices": [
+        "Software Deployment",
+        "Software Release",
+        "Software Testing",
+        "Software Hand-over"
+      ]
+    },
+    {
+      "question": "Which Software Development Tool is being described below?<br>It eliminates the manual tasks of deploying software products.",
+      "answer": "Automation",
+      "choices": [
+        "Automation",
+        "Security",
+        "Updates",
+        "Monitoring"
+      ]
+    },
+    {
+      "question": "Which Software Development Tool is being described below?<br>It performs tasks such as bug detection, patch protection, performance testing, and code analyzing.",
+      "answer": "Automation",
+      "choices": [
+        "Automation",
+        "Security",
+        "Updates",
+        "Monitoring"
+      ]
+    },
+    {
+      "question": "Which Software Development Tool is being described below?<br>It manages the permission settings of users and groups who can access the information in the software.",
+      "answer": "Security",
+      "choices": [
+        "Automation",
+        "Security",
+        "Updates",
+        "Monitoring"
+      ]
+    },
+    {
+      "question": "Which Software Development Tool is being described below?<br>It automates system updates, scans vulnerabilities, and practice regular patch management of latest software versions across apps.",
+      "answer": "Updates",
+      "choices": [
+        "Automation",
+        "Security",
+        "Updates",
+        "Monitoring"
+      ]
+    },
+    {
+      "question": "Which Software Development Tool is being described below?<br>It monitors and analyzes the activities and interactions of the software users.",
+      "answer": "Monitoring",
+      "choices": [
+        "Automation",
+        "Security",
+        "Updates",
+        "Monitoring"
+      ]
+    },
+    {
+      "question": "Which Software Development Tool is being described below?<br>It helps in optimizing the performance and eliminates issues in the software before they spread in the entire network.",
+      "answer": "Monitoring",
+      "choices": [
+        "Automation",
+        "Security",
+        "Updates",
+        "Monitoring"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Self-contained, open-source automation server that can be used to automate all activities related to building, testing, and delivering or deploying software.",
+      "answer": "Jenkins",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Can be installed through native system packages, Docker, or even run standalone by any machine with a Java Runtime Environment (JRE) installed.",
+      "answer": "Jenkins",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Its functionalities can be extended through plugins in IDEs.",
+      "answer": "Jenkins",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Compatible with ASP.Net, Java, Node.js, and Windows services, as well as various script languages and database types.",
+      "answer": "Octopus Deploy",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Designed to automate application deployments in the cloud, corporate data center, and on-site.",
+      "answer": "Octopus Deploy",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Offers support for the delivery aspect of continuous delivery.",
+      "answer": "Bamboo",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Deployment projects automate the releasing into each environment while letting the project team control the flow with per-environment permissions.",
+      "answer": "Bamboo",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Supports real-time monitoring across all tools and flag errors of software as soon as they occur.",
+      "answer": "Bamboo",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Automated patch management software for Microsoft servers, workstations, and third-party applications.",
+      "answer": "SolarWinds Patch Manager",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Facilitates easier patching, reporting, and information gathering for servers and workstations, and allows the project team to manage patch deployment with advanced scheduling and rebooting across servers and workstations.",
+      "answer": "SolarWinds Patch Manager",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    }
+  ]
+}

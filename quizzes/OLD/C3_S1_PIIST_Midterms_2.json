@@ -1,0 +1,868 @@
+{
+  "quizInfo": {
+    "Subject": "Professional Issues in Information Systems and Technology",
+    "Term": "Midterms",
+    "Title": "Professional and Ethical Issues",
+    "LastModified": "17 October 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "03_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "It is the analysis of human actions from the perspective of \"good\" and \"evil\" or of \"morally correct\" and \"morally wrong\".",
+      "answer": "Ethics",
+      "choices": [
+        "Ethics",
+        "Code of Ethics",
+        "Professionalism",
+        "Professionalization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It deals with responsibilities, rights, use of language, significance of ethical life, and how people make moral decisions.",
+      "answer": "Ethics",
+      "choices": [
+        "Ethics",
+        "Code of Ethics",
+        "Professionalism",
+        "Professionalization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is one of the methods to navigate new ethical issues in an organization.",
+      "answer": "Code of Ethics",
+      "choices": [
+        "Ethics",
+        "Code of Ethics",
+        "Professionalism",
+        "Professionalization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It outlines a set of acceptable behaviors in a professional or social group generally agreed to by its members.",
+      "answer": "Code of Ethics",
+      "choices": [
+        "Ethics",
+        "Code of Ethics",
+        "Professionalism",
+        "Professionalization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It specifies various actions that are considered appropriate and inappropriate.",
+      "answer": "Code of Ethics",
+      "choices": [
+        "Ethics",
+        "Code of Ethics",
+        "Professionalism",
+        "Professionalization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility deals with protecting fundamental human rights and one's right to autonomy?",
+      "answer": "Contribute to society and human well-being",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility is essential to minimize the adverse effects of information systems, including threats to health, safety, and privacy?",
+      "answer": "Contribute to society and human well-being",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that systems should respect diversity, meet social needs, be used in socially responsible ways, and be broadly accessible?",
+      "answer": "Contribute to society and human well-being",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that it's encouraged to actively participate in volunteer work that benefits the public good?",
+      "answer": "Contribute to society and human well-being",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This means causing adverse consequences, such as undesirable loss of information, physical or mental injury, loss of property, and unjustified damage to property, reputation, and the environment.",
+      "answer": "Harm",
+      "choices": [
+        "Harm",
+        "Ham",
+        "Losses",
+        "Liability"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility starts with careful consideration of potential impacts on those likely to be affected?",
+      "answer": "Avoid harm",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that when harm is an intentional part of the system, everyone involved must ensure that the harm is ethically justified and minimized?",
+      "answer": "Avoid harm",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "To minimize harm, follow generally accepted protocols unless there is a justified ethical reason to do so otherwise.(TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that it's an obligation to report any signs that might result in damage?",
+      "answer": "Avoid harm",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that transparency and disclosing a system's relevant capabilities, limitations, and potential risks of a system to the appropriate person is important?",
+      "answer": "Be honest and trustworthy",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that making deliberately misleading claims, data falsification, offering/accepting bribes, and other ill-intentioned conduct are violations and shouldn't be tolerated?",
+      "answer": "Be honest and trustworthy",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that one must appropriately represent an organization's policies or procedures and shouldn't speak on their behalf unless authorized to do so?",
+      "answer": "Be honest and trustworthy",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility concerns discrimination based on race, sex, religion, age, disability, and other related factors?",
+      "answer": "Be fair and act not to discriminate",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that workplace should be inclusive and as accessible as possible to avoid developing systems or technologies that disenfranchise or oppress people?",
+      "answer": "Be fair and act not to discriminate",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Communication technology enables the collection and exchange of personal info, resulting in a decreased potential for privacy violations. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that maintaining the privacy and integrity of personal data is necessary, including taking precautions to ensure data accuracy and protection from unauthorized access or disclosure to inappropriate individuals?",
+      "answer": "Respect privacy",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Respect privacy",
+        "Honor confidentiality"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility only the necessary amount of personal information should be collected?",
+      "answer": "Respect privacy",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Respect privacy",
+        "Honor confidentiality"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that retention and disposal periods of personal info must be clearly defined and enforced, and only collect information for a specific purpose with consent?",
+      "answer": "Respect privacy",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Respect privacy",
+        "Honor confidentiality"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility involves the protection of confidential info such as trade secrets, client data, financial information, and research data?",
+      "answer": "Honor confidentiality",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Respect privacy",
+        "Honor confidentiality"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that it's advised to thoughtfully consider whether such information is consistent with the law?\\",
+      "answer": "Honor confidentiality",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Respect privacy",
+        "Honor confidentiality"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that excellence is one of the most important obligations of a professional?",
+      "answer": "Strive to achieve the highest quality, effectiveness, and dignity",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that it's encouraged to strive for quality and be aware of the severe adverse consequences of a poor quality system?",
+      "answer": "Strive to achieve the highest quality, effectiveness, and dignity",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that the dignity of everyone at work, including the clients and users, should be respected throughout the process?",
+      "answer": "Strive to achieve the highest quality, effectiveness, and dignity",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that one must participate in setting appropriate levels of competence to achieve high standards?",
+      "answer": "Acquire and maintain professional competence",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that upgrading technical knowledge and competence are achieved through independent study, attending seminars or courses, and involvement in professional organizations?",
+      "answer": "Acquire and maintain professional competence",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that sharing technical knowledge with the public by encouraging the understanding of computing is a responsibility that shows the impacts of information systems and their limitations?",
+      "answer": "Improve public understanding of computing and its consequences",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility implies an obligation to counter and disprove any false views related to the systems?",
+      "answer": "Improve public understanding of computing and its consequences",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility is aligned with integrity and honesty?",
+      "answer": "Honor contracts, agreements, and assigned responsibilities",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility includes ensuring that system elements function as intended?",
+      "answer": "Honor contracts, agreements, and assigned responsibilities",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states the principle is the acceptance of personal accountability for professional work regardless of results?",
+      "answer": "Honor contracts, agreements, and assigned responsibilities",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that on occasions that other responsibilities take higher priority, ethical judgment should be the final guide in deciding whether to proceed or not?",
+      "answer": "Honor contracts, agreements, and assigned responsibilities",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that trespassing and unauthorized use of computers or systems are prohibited?",
+      "answer": "Access computing and communication resources only when authorized to do so",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Access computing and communication resources only when authorized to do so"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that organizations have the right to restrict access to their systems forbidding one's use of someone's computer system, software, or data files?",
+      "answer": "Access computing and communication resources only when authorized to do so",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Access computing and communication resources only when authorized to do so"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that access must have appropriate approval before using system resources, including but not limited to communication ports, file space, other system peripherals, and computer time?",
+      "answer": "Access computing and communication resources only when authorized to do so",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Access computing and communication resources only when authorized to do so"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work is where employees communicate differently?",
+      "answer": "Communication challenges",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that the lack of communication and absence of coordination between employees can pose a challenge to an organization's harmony and success?",
+      "answer": "Communication challenges",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that the chance of feeling demotivated is always present despite the desire to work?",
+      "answer": "Low employee motivation",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that in a desk job people get tired of doing the same work every day?",
+      "answer": "Low employee motivation",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that there are always unhappy employees that feel frustrated or those that are unwilling to welcome change and new activities?",
+      "answer": "Difficult people",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that once the conflict intensifies, reaching out to HR or anyone in charge is ideal?",
+      "answer": "Difficult people",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that skill enhancement is too essential to be ignored?",
+      "answer": "Lack of skill development and professional growth",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that employees need to improve their performance to keep pace with new technologies. Otherwise, they risk becoming outdated and dispensable?",
+      "answer": "Lack of skill development and professional growth",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that seeking out seminars and training is encouraged even if they're not initiated by the company to avoid the feeling of becoming stagnant?",
+      "answer": "Lack of skill development and professional growth",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that work is good for mental health, but a poor workplace can lead to physical and mental health problems?",
+      "answer": "Mental health challenges",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Mental health challenges"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that taking time off work is valid when dealing with mental health challenges?",
+      "answer": "Mental health challenges",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Mental health challenges"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This is the condition where moral conflict arises in the workplace where moral standards are challenged?",
+      "answer": "Ethical Issue",
+      "choices": [
+        "Ethical Issue",
+        "Ethical Dilemma",
+        "Ethics",
+        "Code of Ethics"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "These are complicated challenges that cannot easily be solved, making the ability to find the ideal solution critical to everyone.",
+      "answer": "Ethical Dilemma",
+      "choices": [
+        "Ethical Issue",
+        "Ethical Dilemma",
+        "Ethics",
+        "Code of Ethics"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This is the problem between 2 feasible options wherein neither is acceptance from an ethical perspectives.",
+      "answer": "Ethical Dilemma",
+      "choices": [
+        "Ethical Issue",
+        "Ethical Dilemma",
+        "Ethics",
+        "Code of Ethics"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that having issues with a superior is one thing and reporting it is another?",
+      "answer": "Unethical Leadership",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that issues can come in any form, some can be noticeable while some may occur subtly?",
+      "answer": "Unethical Leadership",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that the best way to address issues with a superior is by dealing with the superior and how it affects the team's productivity?",
+      "answer": "Unethical Leadership",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that superiors who easily dismiss work issues are at risk of disrespecting and putting their employees at risk?",
+      "answer": "Toxic Workplace Culture",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that with the mindset of hiring someone \"culturally fit\", a toxic culture can be worsened by repopulating the company with like-minded personalities with toxic mentalities?",
+      "answer": "Toxic Workplace Culture",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that it's encouraged to lead with respect to the code of ethics as well as taking into consideration of everyone's mental and physical wellness?",
+      "answer": "Toxic Workplace Culture",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that discrimination do not just cross an ethical line but also a legal one?",
+      "answer": "Discrimination and Harassment",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Companies are vigilant in avoiding costly legal and public backlash related to discrimination and harassment. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Disengaging conversations that lead to discrimination and harassing territory is a good start. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that one should never show enthusiasm with \"jokes\" with malicious intent, and as always, talking to HR is the best solution?",
+      "answer": "Discrimination and Harassment",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that companies often set unrealistic and unattainable goals to motivate employees?",
+      "answer": "Unrealistic and Conflicting Goals",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that unrealistic objectives can put heightened pressure on employees, causing corner cutting or breach of ethical or legal guidelines to obtain them?",
+      "answer": "Unrealistic and Conflicting Goals",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that making sure that a goal is attainable should be practiced as well as setting up a good timetable and plan for its execution?",
+      "answer": "Unrealistic and Conflicting Goals",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What way of solving an ethical dilemma states that situations must be carefully analyzed as in some cases?",
+      "answer": "Reject the Dilemma",
+      "choices": [
+        "Reject the Dilemma",
+        "Value Theory approach",
+        "Find alternative solutions",
+        "Leila Dilemma"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What way of solving an ethical dilemma states that ethical dilemmas can be logically refuted?",
+      "answer": "Reject the Dilemma",
+      "choices": [
+        "Reject the Dilemma",
+        "Value Theory approach",
+        "Find alternative solutions",
+        "Leila Dilemma"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What way of solving an ethical dilemma states that one must determine an alternative that offers the greater good or the lesser evil than the other?",
+      "answer": "Value Theory approach",
+      "choices": [
+        "Reject the Dilemma",
+        "Value Theory approach",
+        "Find alternative solutions",
+        "Leila Dilemma"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What way of solving an ethical dilemma states that problems can be viewed through a different lens, resulting in alternative solutions?",
+      "answer": "Find alternative solutions",
+      "choices": [
+        "Reject the Dilemma",
+        "Value Theory approach",
+        "Find alternative solutions",
+        "Leila Dilemma"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Ethical Issues can be addressed based on simply adhering to the provided code of ethics. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Ethical Dilemma exists when 2 or more ethical principles or standards conflict with each other. (TR or FL).",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    }
+  ]
+}

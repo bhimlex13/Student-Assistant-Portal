@@ -1,0 +1,808 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Midterms",
+    "Title": "Telecommunication",
+    "LastModified": "21 March 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "06 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What involves sharing of information over a distance allowing businesses and organizations to have a broad, possibly global reach?",
+      "answer": "Telecommunication",
+      "choices": [
+        "Telecommunication",
+        "Internal downward",
+        "E-Business",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What includes telephony, fax, email, and the internet?",
+      "answer": "Telecommunication",
+      "choices": [
+        "Telecommunication",
+        "External",
+        "Star network",
+        "Internal lateral"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can have different types depending on the information sender, the intended recipient, how data gets to the recipient, and how the information is distributed?",
+      "answer": "Telecommunication",
+      "choices": [
+        "Telecommunication",
+        "Internal upward",
+        "Operation cost reduction",
+        "E-commerce support systems"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is circulated within the business or organization?",
+      "answer": "Internal downward",
+      "choices": [
+        "Internal downward",
+        "Internal upward",
+        "External",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is defined as the information comes from the superiors cascaded down through departments?",
+      "answer": "Internal downward",
+      "choices": [
+        "Internal downward",
+        "Internal lateral",
+        "Customer service efficiency",
+        "Wider market access"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Memorandum?",
+      "answer": "Internal downward",
+      "choices": [
+        "Internal downward",
+        "External",
+        "Chain network",
+        "E-Business"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves subordinates sending information up the hierarchy to their superiors?",
+      "answer": "Internal upward",
+      "choices": [
+        "Internal upward",
+        "Internal downward",
+        "Internal lateral",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Budget approval documents?",
+      "answer": "Internal upward",
+      "choices": [
+        "Internal upward",
+        "External",
+        "Internal downward",
+        "Star network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves communication between co-workers and members of departments in the same level?",
+      "answer": "Internal lateral",
+      "choices": [
+        "Internal lateral",
+        "Internal upward",
+        "External",
+        "Chain network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Email between employees of the same department?",
+      "answer": "Internal lateral",
+      "choices": [
+        "Internal lateral",
+        "Internal upward",
+        "Telecommunication",
+        "Customer service efficiency"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves information leaving the business or organization, mostly dealing with customer prospects, vendors, or partners?",
+      "answer": "External",
+      "choices": [
+        "External",
+        "Internal downward",
+        "Internal lateral",
+        "E-Business"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Business pitch?",
+      "answer": "External",
+      "choices": [
+        "External",
+        "Internal upward",
+        "Telecommunication",
+        "Wider market access"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to employable methods business and organizations use to disseminate information?",
+      "answer": "Telecommunication Networking",
+      "choices": [
+        "Telecommunication Networking",
+        "Telecommunication",
+        "Internal downward",
+        "E-Business"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides communication connectivity to its other aspects such as prospective clients, branches and departments to further streamline specific processes and tasks?",
+      "answer": "Telecommunication Networking",
+      "choices": [
+        "Telecommunication Networking",
+        "Customer service efficiency",
+        "External",
+        "Star network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What means only 1 member of the network (the manager) is allowed to send or receive information?",
+      "answer": "Wheel network",
+      "choices": [
+        "Wheel network",
+        "Chain network",
+        "Star network",
+        "Circle network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of the wheel network is: It’s direct and efficient?",
+      "answer": "Wheel network",
+      "choices": [
+        "Wheel network",
+        "Chain network",
+        "Telecommunication Networking",
+        "External"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What disadvantage of the wheel network is: With a higher number of people being handled, the leader may not be responsive?",
+      "answer": "Wheel network",
+      "choices": [
+        "Wheel network",
+        "Circle network",
+        "Internal lateral",
+        "Chain network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves communication in a set sequence?",
+      "answer": "Chain network",
+      "choices": [
+        "Chain network",
+        "Wheel network",
+        "Star network",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What follows the organization’s hierarchy, such as the CEO’s message going down to departments?",
+      "answer": "Chain network",
+      "choices": [
+        "Chain network",
+        "Internal upward",
+        "External",
+        "Wheel network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of the chain network is: Follows the chain of command and apply quality control?",
+      "answer": "Chain network",
+      "choices": [
+        "Chain network",
+        "Wheel network",
+        "Star network",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What disadvantage of the chain network is: May suffer from misinformation if the organization is large due to the length of communication the information must pass through?",
+      "answer": "Chain network",
+      "choices": [
+        "Chain network",
+        "Internal downward",
+        "Star network",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is defined as a 3-level hierarchy where there’s communication between superiors and subordinates with cross-communication at the operative level?",
+      "answer": "Circle network",
+      "choices": [
+        "Circle network",
+        "Star network",
+        "Chain network",
+        "Internal lateral"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of the circle network is: Quick and open collaboration between superiors and subordinates?",
+      "answer": "Circle network",
+      "choices": [
+        "Circle network",
+        "Chain network",
+        "Telecommunication Networking",
+        "Internal upward"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What disadvantage of the circle network is: Same problems from the chain network applies?",
+      "answer": "Circle network",
+      "choices": [
+        "Circle network",
+        "External",
+        "Chain network",
+        "Internal downward"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What means all channels are open?",
+      "answer": "Star network",
+      "choices": [
+        "Star network",
+        "Circle network",
+        "Chain network",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is similar to a circle network except all members can communicate with all members?",
+      "answer": "Star network",
+      "choices": [
+        "Star network",
+        "Circle network",
+        "Chain network",
+        "External"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves the highest participation and collaboration between members?",
+      "answer": "Star network",
+      "choices": [
+        "Star network",
+        "Internal lateral",
+        "Circle network",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is an organizational system in an enterprise that applies electronically-controlled technology and resources in its operational systems to facilitate more efficient execution of business activities like selling products and servers to customer service and support?",
+      "answer": "E-Business",
+      "choices": [
+        "E-Business",
+        "Telecommunication",
+        "Internet business models",
+        "E-commerce support systems"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves the application of IT and IT professionals, as well as the internet, to traditional business processes?",
+      "answer": "E-Business",
+      "choices": [
+        "E-Business",
+        "Telecommunication",
+        "Customer-centered retailing",
+        "Star network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses involves applying telecommunication and networking to reduce operational cost?",
+      "answer": "Operation cost reduction",
+      "choices": [
+        "Operation cost reduction",
+        "Customer service efficiency",
+        "Wider market access",
+        "E-Business"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses involves machines automating processes that require manual labor otherwise?",
+      "answer": "Operation cost reduction",
+      "choices": [
+        "Operation cost reduction",
+        "E-commerce support systems",
+        "Telecommunication",
+        "Internal lateral"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows use of technologies such as email, saving costs in communication and transaction?",
+      "answer": "Operation cost reduction",
+      "choices": [
+        "Operation cost reduction",
+        "E-commerce support systems",
+        "External",
+        "Customer service efficiency"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses improves customer service due to its reach, speed, and reliability?",
+      "answer": "Customer service efficiency",
+      "choices": [
+        "Customer service efficiency",
+        "Operation cost reduction",
+        "Wider market access",
+        "E-commerce support systems"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses reaches more customers and services them in a short amount of time?",
+      "answer": "Customer service efficiency",
+      "choices": [
+        "Customer service efficiency",
+        "Operation cost reduction",
+        "Internal downward",
+        "Telecommunication Networking"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows businesses offering products to streamline delivery processes and digitize payment modes?",
+      "answer": "Customer service efficiency",
+      "choices": [
+        "Customer service efficiency",
+        "E-Business",
+        "Operation cost reduction",
+        "External"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows broader reach to a target market?",
+      "answer": "Wider market access",
+      "choices": [
+        "Wider market access",
+        "Operation cost reduction",
+        "E-commerce support systems",
+        "Internet business models"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows business and organizations to tailor its service and processes to suit a variety of clients?",
+      "answer": "Wider market access",
+      "choices": [
+        "Wider market access",
+        "Customer service efficiency",
+        "E-Business",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What benefit of E-Businesses allows enterprises to either design a marketing strategy to center on particular locations to establish a stronger presence or reach out on an international level?",
+      "answer": "Wider market access",
+      "choices": [
+        "Wider market access",
+        "Internet business models",
+        "Customer-centered retailing",
+        "Star network"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions is defined as through websites, enterprises can conduct business with a variety of clients on a local, national, or global scale?",
+      "answer": "Internet business models",
+      "choices": [
+        "Internet business models",
+        "E-commerce support systems",
+        "E-Business",
+        "Customer-centered retailing"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions involves companies developing solutions to revolutionize an industry due to the number of possibilities of online commerce?",
+      "answer": "Internet business models",
+      "choices": [
+        "Internet business models",
+        "E-commerce support systems",
+        "Customer-centered retailing",
+        "Operation cost reduction"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions is defined as consumers want information about the products and services they plan on getting?",
+      "answer": "Customer-centered retailing",
+      "choices": [
+        "Customer-centered retailing",
+        "Internet business models",
+        "E-commerce support systems",
+        "External"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions involves companies addressing this with reviews from websites and/or services that offer review services?",
+      "answer": "Customer-centered retailing",
+      "choices": [
+        "Customer-centered retailing",
+        "Internet business models",
+        "Operation cost reduction",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What service, called intermediation, introduces other customers and businesses as middlemen to help an enterprise flourish?",
+      "answer": "Customer-centered retailing",
+      "choices": [
+        "Customer-centered retailing",
+        "E-commerce support systems",
+        "Internet business models",
+        "Customer service efficiency"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions allows companies to opt to offer services from other enterprises such as credit card transaction processing / e-payment systems?",
+      "answer": "E-commerce support systems",
+      "choices": [
+        "E-commerce support systems",
+        "Internet business models",
+        "Customer-centered retailing",
+        "Operation cost reduction"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What possible application of E-Business solutions involves some application suites being bought by businesses and organizations to help them set an online presence?",
+      "answer": "E-commerce support systems",
+      "choices": [
+        "E-commerce support systems",
+        "Internet business models",
+        "E-Business",
+        "Telecommunication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the earliest computerized systems whose purpose is to record, process, validate, and store transactions in various functional areas of business for future retrieval and use?",
+      "answer": "Transaction Processing Systems",
+      "choices": [
+        "Transaction Processing Systems",
+        "Operational Information System",
+        "Data Entry",
+        "Query Support"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What records company transactions and process data resulting from the occurrence of business transactions?",
+      "answer": "Transaction Processing Systems",
+      "choices": [
+        "Transaction Processing Systems",
+        "Data Validation",
+        "Data Storage",
+        "Output Generation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of transaction is done within the company and is usually related to the internal processes of any organization?",
+      "answer": "Internal",
+      "choices": [
+        "Internal",
+        "External",
+        "Data Entry",
+        "Batch Mode"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Recruitment systems for human resources?",
+      "answer": "Internal",
+      "choices": [
+        "Internal",
+        "External",
+        "Data Validation",
+        "Increased speed"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of transaction is external to any organization and related to external sources?",
+      "answer": "External",
+      "choices": [
+        "External",
+        "Internal",
+        "Data Process and Revalidation",
+        "Online"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What example is given: Purchasing systems for supply chains; sales systems for product sellers?",
+      "answer": "External",
+      "choices": [
+        "External",
+        "Internal",
+        "Data Storage",
+        "Output Generation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the first step in transaction processing where transactional data must be first entered so it can be processed?",
+      "answer": "Data Entry",
+      "choices": [
+        "Data Entry",
+        "Data Validation",
+        "Data Storage",
+        "Query Support"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves input devices like mice in transaction processing?",
+      "answer": "Data Entry",
+      "choices": [
+        "Data Entry",
+        "Data Process and Revalidation",
+        "Online",
+        "Batch Mode"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing requires the system to use the 2 steps in validation: error validation and error correction?",
+      "answer": "Data Validation",
+      "choices": [
+        "Data Validation",
+        "Data Entry",
+        "Output Generation",
+        "Data Storage"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing follows once accuracy and reliability of data are validated, where the data is ready to be processed?",
+      "answer": "Data Process and Revalidation",
+      "choices": [
+        "Data Process and Revalidation",
+        "Data Validation",
+        "Data Storage",
+        "Query Support"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What processing mode is described as almost instantaneous processing due to internet connectivity?",
+      "answer": "Online",
+      "choices": [
+        "Online",
+        "Batch Mode",
+        "Data Process and Revalidation",
+        "Data Entry"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What processing mode involves transactions being accumulated over time and processed?",
+      "answer": "Batch Mode",
+      "choices": [
+        "Batch Mode",
+        "Online",
+        "Data Process and Revalidation",
+        "Data Storage"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing is where processed data must be properly stored for future use?",
+      "answer": "Data Storage",
+      "choices": [
+        "Data Storage",
+        "Output Generation",
+        "Query Support",
+        "Data Entry"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing is where the output can be communicated to decision makers in the form of documents/reports (physical) and forms (digital)?",
+      "answer": "Output Generation",
+      "choices": [
+        "Output Generation",
+        "Data Storage",
+        "Data Entry",
+        "Data Process and Revalidation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What step in transaction processing allows users to process data and information that may otherwise be unavailable, like previously stored data, by providing proper parameters for retrieval?",
+      "answer": "Query Support",
+      "choices": [
+        "Query Support",
+        "Data Storage",
+        "Data Validation",
+        "Output Generation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the information system that can record, process, and report all routine and repetitive activities of an organization, where the process may occur across departments?",
+      "answer": "Operational Information System",
+      "choices": [
+        "Operational Information System",
+        "Transaction Processing Systems",
+        "Data Entry",
+        "Query Support"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as operational costs are reduced due to streamlined processes especially those who needs manual labor to do?",
+      "answer": "Reduced Cost",
+      "choices": [
+        "Reduced Cost",
+        "Increased speed",
+        "Increased accuracy",
+        "Increased customer service"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as automated routine processes use the system’s processing power to finish tasks quickly?",
+      "answer": "Increased speed",
+      "choices": [
+        "Increased speed",
+        "Reduced Cost",
+        "Increased accuracy",
+        "Increased customer service"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as human error is reduced and the system is capable of accomplishing tasks using a fool-proof algorithm?",
+      "answer": "Increased accuracy",
+      "choices": [
+        "Increased accuracy",
+        "Increased speed",
+        "Reduced Cost",
+        "Increased customer service"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as systems can also streamline customer service processes to ensure efficient delivery?",
+      "answer": "Increased customer service",
+      "choices": [
+        "Increased customer service",
+        "Increased speed",
+        "Increased accuracy",
+        "Increased data for decision making"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What advantage of operational information systems is described as OIS can store and generate data for reports, documents, etc. that can be used by executives for decisions concerning the future of the enterprise?",
+      "answer": "Increased data for decision making",
+      "choices": [
+        "Increased data for decision making",
+        "Increased customer service",
+        "Increased speed",
+        "Reduced Cost"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Midterms"
+    }
+  ]
+}

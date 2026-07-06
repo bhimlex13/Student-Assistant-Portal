@@ -1,0 +1,304 @@
+{
+  "quizInfo": {
+    "Subject": "Great Books",
+    "Term": "Prelims",
+    "Title": "01 Handout 1",
+    "LastModified": "19 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What are the styles, systems, or practices in decoding symbols for better comprehension for communication and sharing of information and ideas?",
+      "answer": "Reading Styles and Techniques",
+      "choices": [
+        "Cognitive Process",
+        "Deep Reading",
+        "Critical Approaches",
+        "Reading Styles and Techniques"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the process of thinking and remembering?",
+      "answer": "Cognitive Process",
+      "choices": [
+        "Reading Styles and Techniques",
+        "Decoding",
+        "Deriving",
+        "Cognitive Process"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is it to recognize and interpret information?",
+      "answer": "Decoding",
+      "choices": [
+        "Deriving",
+        "Cognitive Process",
+        "Skimming",
+        "Decoding"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is it to take, receive, or obtain something from a specified source?",
+      "answer": "Deriving",
+      "choices": [
+        "Decoding",
+        "Language Acquisition",
+        "Scanning",
+        "Deriving"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the process by which humans acquire the capacity to perceive and comprehend language?",
+      "answer": "Language Acquisition",
+      "choices": [
+        "Deriving",
+        "Cognitive Process",
+        "Skimming",
+        "Language Acquisition"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the method of rapidly moving the eyes over text to get only the main ideas and general overview of the content?",
+      "answer": "Skimming",
+      "choices": [
+        "Scanning",
+        "Phrase Reading",
+        "Deep Reading",
+        "Skimming"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the steps in skimming?",
+      "answer": "Pre-reading, Reviewing, Reading",
+      "choices": [
+        "Skimming, Scanning, Phrase Reading",
+        "Graphs, Diagrams, Charts",
+        "Deep Reading, Critical Approaches",
+        "Pre-reading, Reviewing, Reading"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the process of finding specific information such as a name, date, or fact without reading the entire article?",
+      "answer": "Scanning",
+      "choices": [
+        "Skimming",
+        "Phrase Reading",
+        "Deep Reading",
+        "Scanning"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a grouping of words that go together to mean something; also known as 'chunking'?",
+      "answer": "Phrase Reading",
+      "choices": [
+        "Scanning",
+        "Skimming",
+        "Deep Reading",
+        "Phrase Reading"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are examples of Non-Prose reading materials that present data or information visually?",
+      "answer": "Graphs, Diagrams, Charts, Maps",
+      "choices": [
+        "Deep Reading, Critical Approaches",
+        "Deconstruction, Feminist Criticism, Marxist Criticism",
+        "New Criticism, New Historicism, Psychological Criticism",
+        "Graphs, Diagrams, Charts, Maps"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an active process of thoughtful and deliberate reading to enhance comprehension and enjoyment of a text?",
+      "answer": "Deep Reading",
+      "choices": [
+        "Skimming",
+        "Scanning",
+        "Phrase Reading",
+        "Deep Reading"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is also called \"slow reading\"?",
+      "answer": "Deep Reading",
+      "choices": [
+        "Skimming",
+        "Scanning",
+        "Phrase Reading",
+        "Deep Reading"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the different perspectives we consider when examining a piece of literature?",
+      "answer": "Critical Approaches",
+      "choices": [
+        "Deep Reading",
+        "Deconstruction",
+        "Feminist Criticism",
+        "Critical Approaches"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What suggests that language is not a stable entity and that we can never exactly say what we mean?",
+      "answer": "Deconstruction",
+      "choices": [
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "New Criticism",
+        "Deconstruction"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What suggests that a literature cannot give a reader any meaning because the language is too ambiguous?",
+      "answer": "Deconstruction",
+      "choices": [
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "New Criticism",
+        "Deconstruction"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tries to correct a predominantly male-dominated critical perspective with a feminist consciousness?",
+      "answer": "Feminist Criticism",
+      "choices": [
+        "Deconstruction",
+        "Marxist Criticism",
+        "New Criticism",
+        "Feminist Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What form of criticism places literature in a social context and employs various disciplines, such as history, psychology, sociology, and linguistics, to create a perspective that considers feminist issues?",
+      "answer": "Feminist Criticism",
+      "choices": [
+        "Deconstruction",
+        "Marxist Criticism",
+        "New Criticism",
+        "Feminist Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a strongly politically oriented criticism deriving from the theories of the social philosopher Karl Marx?",
+      "answer": "Marxist Criticism",
+      "choices": [
+        "Deconstruction",
+        "Feminist Criticism",
+        "New Criticism",
+        "Marxist Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What insists that all language use is influenced by social class and economics?",
+      "answer": "Marxist Criticism",
+      "choices": [
+        "Deconstruction",
+        "Feminist Criticism",
+        "New Criticism",
+        "Marxist Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What evolved out of the same root theoretical system as deconstructionism, called formalist criticism?",
+      "answer": "New Criticism",
+      "choices": [
+        "Deconstruction",
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "New Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What works with the elements of a text-only — irony, paradox, metaphor, symbol, plot, etc. — by engaging in extremely close textual analysis?",
+      "answer": "New Criticism",
+      "choices": [
+        "Deconstruction",
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "New Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What focuses on the literary text as part of a larger social and historical context and the modern reader's interaction with that work?",
+      "answer": "New Historicism",
+      "choices": [
+        "Deconstruction",
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "New Historicism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What has a basis of the idea of the existence of human consciousness - those impulses, desires, and feelings about which a person is unaware but which influence emotions or behavior?",
+      "answer": "Psychological Criticism",
+      "choices": [
+        "New Historicism",
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "Psychological Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What removes the focus from the text and places it on the reader instead by attempting to describe what goes on in the reader's mind while reading a text?",
+      "answer": "Reader-Response Criticism",
+      "choices": [
+        "New Historicism",
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "Reader-Response Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    }
+  ]
+}

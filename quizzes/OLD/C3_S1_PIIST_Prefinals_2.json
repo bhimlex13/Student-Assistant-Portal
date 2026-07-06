@@ -1,0 +1,434 @@
+{
+  "quizInfo": {
+    "Subject": "Professional Issues in Information Systems and Technology",
+    "Term": "Prefinals",
+    "Title": "Legal Awareness and Cyberprotection",
+    "LastModified": "21 November 2024",
+    "Authors": [
+      ""
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "It is the legal system on information systems and technology develops daily as technology grows.",
+      "answer": "Legal awareness",
+      "choices": [
+        "Legal awareness",
+        "Security Expectation",
+        "Organization Expectation",
+        "Damages"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What effect of development on organizations is being described? Clients and partners expect extensive security to protect their data.",
+      "answer": "Security Expectation",
+      "choices": [
+        "Legal awareness",
+        "Security Expectation",
+        "Organization Expectation",
+        "Damages"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What effect of development on organizations is being described? They expect organizations to adhere to lawful paths in achieving commercial goals.",
+      "answer": "Organization Expectation",
+      "choices": [
+        "Legal awareness",
+        "Security Expectation",
+        "Organization Expectation",
+        "Damages"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What effect of development on organizations is being described? If organizations miss a new legal ruling, it could hurt the organization, its brand, and everyone involved.",
+      "answer": "Damages",
+      "choices": [
+        "Legal awareness",
+        "Security Expectation",
+        "Organization Expectation",
+        "Damages"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the notion that equally treats all content flowing through the cables and towers of ISPs.",
+      "answer": "Net Neutrality",
+      "choices": [
+        "Net Neutrality",
+        "Data Protection",
+        "Intellectual Property Theft",
+        "Non-Compete Laws"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This requires ISPs to not slide additional data into \"fast lanes\" that block or discriminate against the contents of other ISP.",
+      "answer": "Net Neutrality",
+      "choices": [
+        "Net Neutrality",
+        "Data Protection",
+        "Intellectual Property Theft",
+        "Non-Compete Laws"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "There are laws in the Philippines that deals with net neutrality. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This requires covering the bases and confirming the structural soundness of the network, prevention of cybersecurity breaches, and transparency with them.",
+      "answer": "Data Protection",
+      "choices": [
+        "Net Neutrality",
+        "Data Protection",
+        "Intellectual Property Theft",
+        "Non-Compete Laws"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This requires software to be truthful and transparent in handling personal data by giving precise and timely reports and updates.",
+      "answer": "Data Protection",
+      "choices": [
+        "Net Neutrality",
+        "Data Protection",
+        "Intellectual Property Theft",
+        "Non-Compete Laws"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This involves ideas, design, artistic works, images, etc. that are assets to a company.",
+      "answer": "Intellectual Property",
+      "choices": [
+        "Intellectual Property",
+        "Asset",
+        "Resources",
+        "Flour"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This covers patent trolling, trademark infringement, software pirating, and counterfeit production across the globe.",
+      "answer": "Intellectual Property Theft",
+      "choices": [
+        "Net Neutrality",
+        "Data Protection",
+        "Intellectual Property Theft",
+        "Non-Compete Laws"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This deals when a massive company purchases patents in the market instead of creating their own for their products and services.",
+      "answer": "Patent Trolling",
+      "choices": [
+        "Patent Trolling",
+        "Cybercrime",
+        "Dropshipping",
+        "Flour"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These are signed agreements between employees and employers that prohibit the employee from going to a rival company after resignation.",
+      "answer": "Non-Compete Laws",
+      "choices": [
+        "Net Neutrality",
+        "Data Protection",
+        "Intellectual Property Theft",
+        "Non-Compete Laws"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? Expectations should be communicated, and timeframes should be identified as the scope of work changes from time to time, affecting the timeline previously stated.",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? As soon as issues arise, notify the other party, document, and find solutions.",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? If failures happen, own them. It's much cheaper than being served to court.",
+      "answer": "Picking the right battles",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? Don't cover errors by glossing over them, as a situation is almost always worse than the problem itself.",
+      "answer": "Picking the right battles",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? Just because certain legal advice works for a similar situation doesn't guarantee that the exact advice work on another alike.",
+      "answer": "Source of Legal Advice",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? If legal matters arise, one must involve qualified and trusted legal counsel.",
+      "answer": "Source of Legal Advice",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? Sourcing through the internet for legal opinions is acceptable, but advice from a qualified and experienced lawyer is more valid.",
+      "answer": "Source of Legal Advice",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? Timely performance regarding expectations is another way to avoid legal problems.",
+      "answer": "Following Through",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? If an employee handbook is available, follow it for proper procedures and policies in dealing with issues.",
+      "answer": "Following Through",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? It's important to follow through or perform by the expectations when working with another party or client, as it minimizes legal tendencies.",
+      "answer": "Following Through",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? Always possess proof of performance that can be a type of receipt, acknowledgment, or an email.",
+      "answer": "Following Through",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This combines the benefits of data protection and cyber security needed for business operations in the current cyber threat landscape.",
+      "answer": "Cyberprotection",
+      "choices": [
+        "Cyberprotection",
+        "Cybersecurity",
+        "Flour",
+        "Bread"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This safeguards the systems that make data access, storage, transfer, and authentication possible instead of mainly focusing on data protection.",
+      "answer": "Cybersecurity",
+      "choices": [
+        "Cyberprotection",
+        "Cybersecurity",
+        "Flour",
+        "Bread"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is formed by integrating cyber security with data protection to address new forms of malicious cyberattacks fully.",
+      "answer": "Cyberprotection",
+      "choices": [
+        "Cyberprotection",
+        "Cybersecurity",
+        "Privacy",
+        "Bread"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection deals with ensuring that a reliable copy of the data and information is always available?",
+      "answer": "Safety",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection  deals with ensuring that data and information are available from any location at any time?",
+      "answer": "Accessibility",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection involves data to various mediums ensures safety and accessibility whenever a copy gets corrupted or compromised?",
+      "answer": "Accessibility",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection deals with ensuring full control and transparency over who can view and access the data and information?",
+      "answer": "Privacy",
+      "choices": [
+        "Privacy",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection deals with ensuring that backed-up data and information is an exact and unmodified copy of the original data?",
+      "answer": "Authenticity",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection deals with ensuring that data are protected against cyber threats?",
+      "answer": "Security",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection regards ensuring the safety of confidential files?",
+      "answer": "Security",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection states that another form of security is installing antivirus software to prevent cyber attacks and malware from affecting the files and the whole system?",
+      "answer": "Security",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    }
+  ]
+}

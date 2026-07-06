@@ -1,0 +1,304 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Midterms",
+    "Title": "04 Handout 1 - Bindings and Scopes",
+    "LastModified": "26 March 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the association between an attribute and an entity such as a variable and its type or value?",
+      "answer": "binding",
+      "choices": [
+        "binding",
+        "binding time",
+        "dynamic type binding",
+        "scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to the time a binding takes place, such as compile time or runtime?",
+      "answer": "binding time",
+      "choices": [
+        "binding",
+        "binding time",
+        "scope",
+        "type bindings"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is a variable associated with a data type before being referenced in a program?",
+      "answer": "type bindings",
+      "choices": [
+        "type bindings",
+        "binding",
+        "binding time",
+        "shadowing"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What kind of declaration lists variable names and specifies their particular type?",
+      "answer": "explicit declaration",
+      "choices": [
+        "explicit declaration",
+        "implicit declaration",
+        "dynamic type binding",
+        "scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is a variable associated with a type through default conventions without a declaration statement?",
+      "answer": "implicit declaration",
+      "choices": [
+        "explicit declaration",
+        "implicit declaration",
+        "type bindings",
+        "scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does it happen when the variable type is not specified by a declaration statement nor can be determined by the spelling of its name?",
+      "answer": "dynamic type binding",
+      "choices": [
+        "binding time",
+        "dynamic type binding",
+        "explicit declaration",
+        "lifetime and visibility"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the range of statements wherein the variable is visible and can be referenced or assigned in a statement?",
+      "answer": "scope",
+      "choices": [
+        "binding",
+        "dynamic type binding",
+        "explicit declaration",
+        "scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What determines where a variable can be used and modified within the code?",
+      "answer": "lifetime and visibility",
+      "choices": [
+        "scope",
+        "type bindings",
+        "implicit declaration",
+        "lifetime and visibility"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "Where are variables accessible from anywhere in the program, including inside functions?",
+      "answer": "global scope",
+      "choices": [
+        "local scope",
+        "global scope",
+        "enclosing scope",
+        "built-in scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What kind of scope refers to variables that are declared inside a function or block and are only accessible within that specific function or block?",
+      "answer": "local scope",
+      "choices": [
+        "global scope",
+        "local scope",
+        "enclosing scope",
+        "built-in scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to the scope of a function that encloses another function?",
+      "answer": "enclosing scope",
+      "choices": [
+        "local scope",
+        "global scope",
+        "enclosing scope",
+        "built-in scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What scope contains all the functions and variables that are built into Python, like print(), len(), and int()?",
+      "answer": "built-in scope",
+      "choices": [
+        "local scope",
+        "global scope",
+        "enclosing scope",
+        "built-in scope"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What rule does Python follow when looking up variables in nested scopes?",
+      "answer": "LEGB Rule",
+      "choices": [
+        "LEGB Rule",
+        "shadowing",
+        "global keyword",
+        "type bindings"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What part of the LEGB Rule refers to the innermost scope?",
+      "answer": "Local",
+      "choices": [
+        "Local",
+        "Enclosing",
+        "Global",
+        "Built-in"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What part of the LEGB Rule refers to enclosing functions like in closures?",
+      "answer": "Enclosing",
+      "choices": [
+        "Local",
+        "Enclosing",
+        "Global",
+        "Built-in"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What part of the LEGB Rule refers to the module-level scope?",
+      "answer": "Global",
+      "choices": [
+        "Local",
+        "Enclosing",
+        "Global",
+        "Built-in"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What part of the LEGB Rule refers to Python's built-in objects and functions?",
+      "answer": "Built-in",
+      "choices": [
+        "Local",
+        "Enclosing",
+        "Global",
+        "Built-in"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What occurs when a local variable has the same name as an outer scope variable and overrides it?",
+      "answer": "shadowing",
+      "choices": [
+        "binding",
+        "global keyword",
+        "scope",
+        "shadowing"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What keyword is used to modify a global variable inside a function?",
+      "answer": "global keyword",
+      "choices": [
+        "binding",
+        "explicit declaration",
+        "shadowing",
+        "global keyword"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for the type of count?",
+      "answer": "at compile time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for the set of possible values of count?",
+      "answer": "at compiler design time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for the meaning of the operator symbol?",
+      "answer": "at compile time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for internal representation of the literal (int)?",
+      "answer": "at compiler design time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the binding time for value of the count?",
+      "answer": "at execution time",
+      "choices": [
+        "at compile time",
+        "at compiler design time",
+        "at execution time",
+        "at runtime"
+      ],
+      "reference": "Bindings and Scopes",
+      "term": "Midterms"
+    }
+  ]
+}

@@ -1,0 +1,1731 @@
+{
+  "quizInfo": {
+    "Subject": "Web Systems and Technologies",
+    "Term": "Prelims",
+    "Title": "PRELIMS REVIEWER PRO MAX",
+    "LastModified": "17 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01 Handout 1, 02 Handout 1, 03 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What supplies the style for how a webpage should look?",
+      "answer": "CSS",
+      "choices": [
+        "HTML",
+        "JavaScript",
+        "Python",
+        "CSS"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What does CSS stand for?",
+      "answer": "Cascading Style Sheet",
+      "choices": [
+        "Cassading Style Sheet",
+        "Control Style Sheet",
+        "Creative Style Sheet",
+        "Cascading Style Sheet"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the current version of CSS?",
+      "answer": "CSS3",
+      "choices": [
+        "CSS2",
+        "CSS4",
+        "CSS1",
+        "CSS3"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the specific HTML element to be styled with CSS?",
+      "answer": "selector",
+      "choices": [
+        "declaration",
+        "property",
+        "value",
+        "selector"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What part of a CSS rule includes the property and value?",
+      "answer": "declaration",
+      "choices": [
+        "selector",
+        "property",
+        "value",
+        "declaration"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines the style to be applied, such as color or font-size?",
+      "answer": "property",
+      "choices": [
+        "selector",
+        "declaration",
+        "value",
+        "property"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What specifies the settings for the property, like \"blue\" or \"16px\"?",
+      "answer": "value",
+      "choices": [
+        "selector",
+        "declaration",
+        "property",
+        "value"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What punctuation mark ends a CSS declaration?",
+      "answer": "semicolon",
+      "choices": [
+        "colon",
+        "comma",
+        "period",
+        "semicolon"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of style sheet has CSS rulesets inside the HTML document?",
+      "answer": "internal style sheet",
+      "choices": [
+        "external style sheet",
+        "embedded style sheet",
+        "inline style sheet",
+        "internal style sheet"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of style sheet has CSS rulesets in a separate file?",
+      "answer": "external style sheet",
+      "choices": [
+        "internal style sheet",
+        "embedded style sheet",
+        "inline style sheet",
+        "external style sheet"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many primary approaches are there to add CSS to a webpage?",
+      "answer": "two",
+      "choices": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to embed an internal style sheet in an HTML document?",
+      "answer": "style tag",
+      "choices": [
+        "link tag",
+        "css tag",
+        "script tag",
+        "style tag"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file extension is used for external style sheets?",
+      "answer": ".css",
+      "choices": [
+        ".html",
+        ".js",
+        ".txt",
+        ".css"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag links an external style sheet to an HTML document?",
+      "answer": "link tag",
+      "choices": [
+        "style tag",
+        "a tag",
+        "script tag",
+        "link tag"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute in the ink tag specifies the relationship between the HTML document and the linked style sheet?",
+      "answer": "rel attribute",
+      "choices": [
+        "href attribute",
+        "type attribute",
+        "src attribute",
+        "rel attribute"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property defines the font for an element?",
+      "answer": "font-family",
+      "choices": [
+        "font-style",
+        "font-size",
+        "font-weight",
+        "font-family"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a comma-separated list of font families called?",
+      "answer": "font stack",
+      "choices": [
+        "font list",
+        "font group",
+        "font set",
+        "font stack"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property defines the size of the text?",
+      "answer": "font-size",
+      "choices": [
+        "font-family",
+        "text-size",
+        "font-scale",
+        "font-size"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What unit of measurement is commonly used for font size in CSS?",
+      "answer": "pixels",
+      "choices": [
+        "points",
+        "ems",
+        "percentage",
+        "pixels"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the default font size in most browsers?",
+      "answer": "16px",
+      "choices": [
+        "12px",
+        "14px",
+        "10px",
+        "16px"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property defines the boldness of the text?",
+      "answer": "font-weight",
+      "choices": [
+        "font-bold",
+        "text-boldness",
+        "text-weight",
+        "font-weight"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the value for unbolded text in font-weight property?",
+      "answer": "unbolded text",
+      "choices": [
+        "normal",
+        "light",
+        "thin",
+        "unbolded text"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the font-weight property is thinner than normal weight?",
+      "answer": "lighter",
+      "choices": [
+        "light",
+        "thin",
+        "lighter-weight",
+        "lighter"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the font-weight property creates darker text?",
+      "answer": "bold",
+      "choices": [
+        "bolder",
+        "strong",
+        "heavy",
+        "bold"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the font-weight property makes text thicker than bold?",
+      "answer": "bolder",
+      "choices": [
+        "bold",
+        "extra-bold",
+        "heavy",
+        "bolder"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property is used to italicize text?",
+      "answer": "font-style",
+      "choices": [
+        "font-italic",
+        "text-style",
+        "text-italic",
+        "font-style"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property adds emphasis lines to text, like underline or strikethrough?",
+      "answer": "text-decoration",
+      "choices": [
+        "text-style",
+        "font-style",
+        "text-emphasis",
+        "text-decoration"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property aligns text horizontally?",
+      "answer": "text-align",
+      "choices": [
+        "text-alignment",
+        "text-justify",
+        "text-position",
+        "text-align"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many methods are there to define colors in CSS?",
+      "answer": "3 methods",
+      "choices": [
+        2,
+        4,
+        5,
+        "3 methods"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What color method uses a comma-separated list of red, green, and blue values?",
+      "answer": "RGB",
+      "choices": [
+        "CMYK",
+        "HSL",
+        "HSV",
+        "RGB"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What color method uses a six-character code preceded by a \"#\" symbol?",
+      "answer": "Hexadecimal Values",
+      "choices": [
+        "Binary Values",
+        "Decimal Values",
+        "Octal Values",
+        "Hexadecimal Values"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the easiest method to define colors in CSS?",
+      "answer": "Color names",
+      "choices": [
+        "RGB",
+        "Hexadecimal Values",
+        "Color codes",
+        "Color names"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property adds an image or color to the background of an element?",
+      "answer": "background property",
+      "choices": [
+        "background-image",
+        "background-color",
+        "background-size",
+        "background property"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the background-repeat property sets the background without repetition?",
+      "answer": "background-repeat: no-repeat",
+      "choices": [
+        "no-repeat",
+        "repeat-none",
+        "background-repeat: none",
+        "background-repeat: no-repeat"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the background-repeat property repeats the background image horizontally?",
+      "answer": "repeat-x",
+      "choices": [
+        "repeat-y",
+        "repeat",
+        "no-repeat",
+        "repeat-x"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the background-repeat property repeats the background image vertically?",
+      "answer": "repeat-y",
+      "choices": [
+        "repeat-x",
+        "repeat",
+        "no-repeat",
+        "repeat-y"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What model refers to how CSS sees every HTML element as if it is in its own box?",
+      "answer": "box model",
+      "choices": [
+        "element model",
+        "container model",
+        "layout model",
+        "box model"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the four parts of the box model for an HTML element in CSS?",
+      "answer": "borders, paddings, margins, and content",
+      "choices": [
+        "width, height, padding, and border",
+        "margin, border, content, and position",
+        "display, size, position, and float",
+        "borders, paddings, margins, and content"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is it called when elements flow on the page in the order they appear in the HTML code?",
+      "answer": "normal flow",
+      "choices": [
+        "default flow",
+        "natural flow",
+        "standard flow",
+        "normal flow"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property adds spacing around the content?",
+      "answer": "margin",
+      "choices": [
+        "padding",
+        "border",
+        "spacing",
+        "margin"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property adds spacing within the element?",
+      "answer": "padding",
+      "choices": [
+        "margin",
+        "border",
+        "spacing",
+        "padding"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property is also a white space inside a container?",
+      "answer": "padding",
+      "choices": [
+        "margin",
+        "border",
+        "spacing",
+        "padding"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style consists of rounded dots?",
+      "answer": "dotted",
+      "choices": [
+        "dashed",
+        "solid",
+        "double",
+        "dotted"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style is a single, straight, and solid border?",
+      "answer": "solid",
+      "choices": [
+        "dotted",
+        "dashed",
+        "double",
+        "solid"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style uses short dashes or line segments?",
+      "answer": "dashed",
+      "choices": [
+        "dotted",
+        "solid",
+        "double",
+        "dashed"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style has two solid lines?",
+      "answer": "double",
+      "choices": [
+        "solid",
+        "dashed",
+        "dotted",
+        "double"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style looks like a three-dimensional border that is carved into the canvas?",
+      "answer": "groove",
+      "choices": [
+        "ridge",
+        "inset",
+        "outset",
+        "groove"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style is the opposite of the groove style?",
+      "answer": "ridge",
+      "choices": [
+        "groove",
+        "inset",
+        "outset",
+        "ridge"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style makes the content look like it is coming inside of the canvas?",
+      "answer": "inset",
+      "choices": [
+        "outset",
+        "groove",
+        "ridge",
+        "inset"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style makes the content look like it is coming out of the canvas?",
+      "answer": "outset",
+      "choices": [
+        "inset",
+        "groove",
+        "ridge",
+        "outset"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to create a 5px solid black border on all sides of an element?",
+      "answer": "border: 5px solid black;",
+      "choices": [
+        "border-width: 5px; border-style: solid; border-color: black;",
+        "border-all: 5px solid black;",
+        "border-sides: 5px solid black;",
+        "border: 5px solid black;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to add a blue color to all sides of a border?",
+      "answer": "border-color: blue;",
+      "choices": [
+        "border-color-all: blue;",
+        "border: blue;",
+        "border-sides-color: blue;",
+        "border-color: blue;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to specify the colors for the top, bottom, right and left borders?",
+      "answer": "border-color: blue red black;",
+      "choices": [
+        "border-top-color: blue; border-right-color: yellow; border-bottom-color: red; border-left-color: black;",
+        "border-color-all-sides: blue yellow red black;",
+        "border-color-sides: blue yellow red black;",
+        "border-color: blue red black;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to specify colors for the top and bottom borders, and right and left borders?",
+      "answer": "border-color: blue red;",
+      "choices": [
+        "border-top-color: blue; border-bottom-color: blue; border-right-color: red; border-left-color: red;",
+        "border-color-top-bottom: blue; border-color-right-left: red;",
+        "border-color-sides: blue red;",
+        "border-color: blue red;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the color of the top border to red?",
+      "answer": "border-top-color: red;",
+      "choices": [
+        "border-color-top: red;",
+        "border-top: red;",
+        "border: red;",
+        "border-top-color: red;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to display a solid border on all sides?",
+      "answer": "border-style: solid;",
+      "choices": [
+        "border-style-all: solid;",
+        "border: solid;",
+        "border-sides-style: solid;",
+        "border-style: solid;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to specify different border styles for top, right, bottom, and left?",
+      "answer": "border-style: dotted solid dashed double;",
+      "choices": [
+        "border-top-style: dotted; border-right-style: solid; border-bottom-style: dashed; border-left-style: double;",
+        "border-style-all-sides: dotted solid dashed double;",
+        "border-style-sides: dotted solid dashed double;",
+        "border-style: dotted solid dashed double;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the border style for top and bottom, and right and left?",
+      "answer": "border-style: solid dotted;",
+      "choices": [
+        "border-top-style: solid; border-bottom-style: solid; border-right-style: dotted; border-left-style: dotted;",
+        "border-style-top-bottom: solid; border-style-right-left: dotted;",
+        "border-style-sides: solid dotted;",
+        "border-style: solid dotted;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the general syntax to set the style of a specific border side?",
+      "answer": "border-specificside-style: value;",
+      "choices": [
+        "border-side-style: value;",
+        "border-style-side: value;",
+        "border-side: value;",
+        "border-specificside-style: value;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the border width to 5px on all sides?",
+      "answer": "border-width: 5px;",
+      "choices": [
+        "border-width-all: 5px;",
+        "border: 5px;",
+        "border-sides-width: 5px;",
+        "border-width: 5px;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to specify different border widths for top, right, bottom, and left?",
+      "answer": "border-width: 2px 5px 3px 8px;",
+      "choices": [
+        "border-top-width: 2px; border-right-width: 5px; border-bottom-width: 3px; border-left-width: 8px;",
+        "border-width-all-sides: 2px 5px 3px 8px;",
+        "border-width-sides: 2px 5px 3px 8px;",
+        "border-width: 2px 5px 3px 8px;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the border width for top/bottom and right/left?",
+      "answer": "border-width: 4px 5px;",
+      "choices": [
+        "border-top-width: 4px; border-bottom-width: 4px; border-right-width: 5px; border-left-width: 5px;",
+        "border-width-top-bottom: 4px; border-width-right-left: 5px;",
+        "border-width-sides: 4px 5px;",
+        "border-width: 4px 5px;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the width of the right border to 10px?",
+      "answer": "border-right-width: 10px;",
+      "choices": [
+        "border-width-right: 10px;",
+        "border-right: 10px;",
+        "border-width: 10px;",
+        "border-right-width: 10px;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to center the content horizontally within its container using margins?",
+      "answer": "margin: auto;",
+      "choices": [
+        "margin-sides: auto;",
+        "margin-left-right: auto;",
+        "margin-horizontal: auto;",
+        "margin: auto;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },{
+      "question": "Who introduced HTML?",
+      "answer": "Tim Berners-Lee",
+      "choices": [
+        "Marc Jude",
+        "Kyll Aldwin",
+        "Tim Berners-Lee",
+        "Elmer F."
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the standard markup language for creating web pages?",
+      "answer": "HyperText Markup Language",
+      "choices": [
+        "Hypermedia Text Markup Language",
+        "Hyper Transferable Markup Language",
+        "HyperText Manipulation Language",
+        "HyperText Markup Language"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What allows web authors to arrange and define how content should be displayed?",
+      "answer": "HyperText Markup Language",
+      "choices": [
+        "Cascading Style Sheets (CSS)",
+        "JavaScript",
+        "Python",
+        "HyperText Markup Language"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What refers to how links on the web let users move from one document to another?",
+      "answer": "HyperText",
+      "choices": [
+        "Hypermedia",
+        "Hyper Transfer",
+        "Hyper Transmission",
+        "HyperText"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the fifth and latest version of the language that supports multimedia?",
+      "answer": "HTML5",
+      "choices": [
+        "HTML4",
+        "XHTML",
+        "HTML3",
+        "HTML5"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what year was HTML introduced?",
+      "answer": 1993,
+      "choices": [
+        1990,
+        1995,
+        1998,
+        1993
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What organization manages the specifications of HTML?",
+      "answer": "World Wide Web Consortium",
+      "choices": [
+        "International Organization for Standardization",
+        "STI Caloocan",
+        "Web Hypertext Application Technology Working Group",
+        "World Wide Web Consortium"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of file is created in a text editor, containing elements, attributes, and tags?",
+      "answer": "HTML Document",
+      "choices": [
+        "CSS Stylesheet",
+        "JavaScript File",
+        "Python Script",
+        "HTML Document"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the naming conventions in an HTML document that tell the computer and web browser it is in HTML?",
+      "answer": "html, head, title, and body",
+      "choices": [
+        "header, footer, section, and article",
+        "div, span, p, and img",
+        "table, tr, td, and th",
+        "html, head, title, and body"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file extension is required for saving an HTML document?",
+      "answer": ".html",
+      "choices": [
+        ".htm",
+        ".txt",
+        ".css",
+        ".html"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the component of an HTML document containing formats, instructions, and semantic meaning?",
+      "answer": "HTML Element",
+      "choices": [
+        "HTML Attribute",
+        "HTML Tag",
+        "HTML Document",
+        "HTML Element"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the basic unit of text in an HTML document?",
+      "answer": "Paragraph",
+      "choices": [
+        "Heading",
+        "List",
+        "Image",
+        "Paragraph"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to add a line break to the HTML code?",
+      "answer": "br",
+      "choices": [
+        "p",
+        "div",
+        "span",
+        "br"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to make text bold?",
+      "answer": "strong",
+      "choices": [
+        "p",
+        "em",
+        "div",
+        "strong"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to modify or define an HTML element?",
+      "answer": "HTML Attribute",
+      "choices": [
+        "HTML Element",
+        "HTML Tag",
+        "HTML Document",
+        "HTML Attribute"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is another term for an HTML attribute?",
+      "answer": "name=value pair",
+      "choices": [
+        "key-value pair",
+        "property-value pair",
+        "attribute-value pair",
+        "name=value pair"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines how web browsers will format and display the content on an HTML file?",
+      "answer": "HTML Tags",
+      "choices": [
+        "HTML Attributes",
+        "HTML Elements",
+        "HTML Documents",
+        "HTML Tags"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are titles or subtitles that can be displayed on a webpage?",
+      "answer": "Headings",
+      "choices": [
+        "Paragraphs",
+        "Lists",
+        "Images",
+        "Headings"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many levels of headings are there in HTML?",
+      "answer": "six levels",
+      "choices": [
+        "four levels",
+        "five levels",
+        "seven levels",
+        "six levels"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What provides a way to navigate between webpages?",
+      "answer": "Links",
+      "choices": [
+        "Forms",
+        "Tables",
+        "Images",
+        "Links"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an alternative way to interact with the server and collect user inputs?",
+      "answer": "Form",
+      "choices": [
+        "Table",
+        "List",
+        "Image",
+        "Form"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What allows web developers to organize and arrange data into rows and columns?",
+      "answer": "HTML Table",
+      "choices": [
+        "HTML Form",
+        "HTML List",
+        "HTML Division",
+        "HTML Table"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to create a table?",
+      "answer": "table tag",
+      "choices": [
+        "form tag",
+        "div tag",
+        "list tag",
+        "table tag"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of URL directs to another website?",
+      "answer": "absolute URL",
+      "choices": [
+        "relative URL",
+        "local URL",
+        "global URL",
+        "absolute URL"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of URL directs to a file within the same website?",
+      "answer": "relative URL",
+      "choices": [
+        "absolute URL",
+        "local URL",
+        "global URL",
+        "relative URL"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the top row of a table that acts as a title for the type of information in each column?",
+      "answer": "Table Header",
+      "choices": [
+        "Table Footer",
+        "Table Body",
+        "Table Row",
+        "Table Header"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What indicates the number of rows displayed in a table?",
+      "answer": "Table Row",
+      "choices": [
+        "Table Header",
+        "Table Data",
+        "Table Footer",
+        "Table Row"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What holds the data displayed in a table?",
+      "answer": "Table Data",
+      "choices": [
+        "Table Header",
+        "Table Row",
+        "Table Footer",
+        "Table Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to join two or more columns in a table?",
+      "answer": "Colspan",
+      "choices": [
+        "Rowspan",
+        "Cellspan",
+        "Tablespan",
+        "Colspan"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to join two or more rows in a table?",
+      "answer": "Rowspan",
+      "choices": [
+        "Colspan",
+        "Cellspan",
+        "Tablespan",
+        "Rowspan"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute is used to separate table cells?",
+      "answer": "Border",
+      "choices": [
+        "Spacing",
+        "Padding",
+        "Margin",
+        "Border"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tags are used to group the header, footer, and body content in a table?",
+      "answer": "thead, tfoot, and tbody",
+      "choices": [
+        "header, footer, and body",
+        "top, bottom, and middle",
+        "start, end, and center",
+        "thead, tfoot, and tbody"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the short for Document Type Definition?",
+      "answer": "!DOCTYPE",
+      "choices": [
+        "!HTML",
+        "!DOCUMENT",
+        "!WEBPAGE",
+        "!DOCTYPE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is referred to as the \"root element\" of an HTML document?",
+      "answer": "html",
+      "choices": [
+        "head",
+        "body",
+        "title",
+        "html"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element shows extra information about an HTML document?",
+      "answer": "title",
+      "choices": [
+        "head",
+        "body",
+        "meta",
+        "title"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the container for metadata in an HTML document?",
+      "answer": "head",
+      "choices": [
+        "html",
+        "body",
+        "title",
+        "head"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is placed between the html and the body tags?",
+      "answer": "head",
+      "choices": [
+        "footer",
+        "body",
+        "title",
+        "head"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to specify page description, author, and character coding?",
+      "answer": "meta",
+      "choices": [
+        "head",
+        "title",
+        "body",
+        "meta"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines the content of an HTML document displayed in the browser?",
+      "answer": "body",
+      "choices": [
+        "head",
+        "html",
+        "title",
+        "body"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines the connection between the current document and an external source?",
+      "answer": "link",
+      "choices": [
+        "script",
+        "a",
+        "src",
+        "link"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is used to embed a client-side script?",
+      "answer": "script",
+      "choices": [
+        "link",
+        "style",
+        "a",
+        "script"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute points to an external script file?",
+      "answer": "src",
+      "choices": [
+        "href",
+        "link",
+        "script",
+        "src"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a data about data?",
+      "answer": "metadata",
+      "choices": [
+        "datadata",
+        "meta",
+        "data",
+        "metadata"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to embed an image in HTML?",
+      "answer": "img",
+      "choices": [
+        "image",
+        "src",
+        "picture",
+        "img"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute provides an alternate text for an image if it cannot be displayed?",
+      "answer": "alt",
+      "choices": [
+        "src",
+        "title",
+        "description",
+        "alt"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What HTML element is used to group a set of related items?",
+      "answer": "List",
+      "choices": [
+        "Table",
+        "Form",
+        "Division",
+        "List"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to define a list item in HTML?",
+      "answer": "li",
+      "choices": [
+        "list",
+        "item",
+        "ul",
+        "li"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of HTML list starts with the ul tag?",
+      "answer": "unordered list",
+      "choices": [
+        "ordered list",
+        "definition list",
+        "description list",
+        "unordered list"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of HTML list starts with the ol tag?",
+      "answer": "ordered list",
+      "choices": [
+        "unordered list",
+        "definition list",
+        "description list",
+        "ordered list"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of HTML list starts with the dl tag?",
+      "answer": "description list",
+      "choices": [
+        "unordered list",
+        "ordered list",
+        "definition list",
+        "description list"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines an unordered list?",
+      "answer": "ul",
+      "choices": [
+        "ol",
+        "dl",
+        "li",
+        "ul"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines an ordered list?",
+      "answer": "ol",
+      "choices": [
+        "ul",
+        "dl",
+        "li",
+        "ol"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines a description list?",
+      "answer": "dl",
+      "choices": [
+        "ul",
+        "ol",
+        "li",
+        "dl"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines a term in a description list?",
+      "answer": "dt",
+      "choices": [
+        "dd",
+        "li",
+        "dl",
+        "dt"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag describes a term in a description list?",
+      "answer": "dd",
+      "choices": [
+        "dt",
+        "li",
+        "dl",
+        "dd"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to color or mark up a part of a text?",
+      "answer": "Span",
+      "choices": [
+        "Div",
+        "Style",
+        "Mark",
+        "Span"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines a division or section in an HTML document?",
+      "answer": "div",
+      "choices": [
+        "span",
+        "section",
+        "article",
+        "div"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines a set of navigation links in HTML?",
+      "answer": "nav",
+      "choices": [
+        "navigation",
+        "link",
+        "a",
+        "nav"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are used to gather text information from users in HTML forms?",
+      "answer": "Input and Control Functions",
+      "choices": [
+        "Labels",
+        "Attributes",
+        "Events",
+        "Input and Control Functions"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag displays a single-line input field for text in HTML forms?",
+      "answer": "input tag",
+      "choices": [
+        "label tag",
+        "text tag",
+        "form tag",
+        "input tag"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag labels form elements in HTML?",
+      "answer": "label tag",
+      "choices": [
+        "input tag",
+        "form tag",
+        "text tag",
+        "label tag"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute is used to attach a label to an input element?",
+      "answer": "for attribute",
+      "choices": [
+        "id attribute",
+        "name attribute",
+        "value attribute",
+        "for attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control displays a single-line text input field?",
+      "answer": "Text Field",
+      "choices": [
+        "Radio Button",
+        "Checkbox",
+        "Button",
+        "Text Field"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control allows users to select one of the available options?",
+      "answer": "Radio Button",
+      "choices": [
+        "Text Field",
+        "Checkbox",
+        "Button",
+        "Radio Button"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control allows users to select multiple options?",
+      "answer": "Checkbox",
+      "choices": [
+        "Text Field",
+        "Radio Button",
+        "Button",
+        "Checkbox"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control allows users to input date and time?",
+      "answer": "Date and Time Control",
+      "choices": [
+        "Text Field",
+        "Number Field",
+        "Button",
+        "Date and Time Control"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of form control is used to create clickable buttons?",
+      "answer": "Button",
+      "choices": [
+        "Text Field",
+        "Radio Button",
+        "Checkbox",
+        "Button"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of button submits form data to a server?",
+      "answer": "Submit Button",
+      "choices": [
+        "Reset Button",
+        "Image Button",
+        "Text Button",
+        "Submit Button"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute specifies the address where the form data will be sent?",
+      "answer": "action attribute",
+      "choices": [
+        "method attribute",
+        "target attribute",
+        "href attribute",
+        "action attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines audio content in HTML?",
+      "answer": "Audio",
+      "choices": [
+        "Video",
+        "Sound",
+        "Music",
+        "Audio"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element specifies the audio source file?",
+      "answer": "source element",
+      "choices": [
+        "audio element",
+        "src attribute",
+        "media element",
+        "source element"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute adds audio controls like play, pause, and volume?",
+      "answer": "control attribute",
+      "choices": [
+        "autoplay attribute",
+        "loop attribute",
+        "muted attribute",
+        "control attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag defines video content in HTML?",
+      "answer": "Video",
+      "choices": [
+        "Movie",
+        "Clip",
+        "Film",
+        "Video"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute adds video controls like play, pause, and volume?",
+      "answer": "control attribute",
+      "choices": [
+        "autoplay attribute",
+        "loop attribute",
+        "muted attribute",
+        "control attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute displays a thumbnail before playing the video?",
+      "answer": "poster attribute",
+      "choices": [
+        "preview attribute",
+        "thumbnail attribute",
+        "image attribute",
+        "poster attribute"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element specifies the video source file?",
+      "answer": "source element",
+      "choices": [
+        "video element",
+        "src attribute",
+        "media element",
+        "source element"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to draw graphics on a webpage?",
+      "answer": "canvas",
+      "choices": [
+        "div",
+        "video",
+        "img",
+        "canvas"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag has no border and no content in HTML page?",
+      "answer": "canvas",
+      "choices": [
+        "div",
+        "video",
+        "img",
+        "canvas"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is only a container for graphics and requires JavaScript to draw the graphics?",
+      "answer": "canvas",
+      "choices": [
+        "div",
+        "video",
+        "img",
+        "canvas"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    }
+  ]
+}

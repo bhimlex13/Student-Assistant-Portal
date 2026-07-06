@@ -1,0 +1,196 @@
+{
+  "quizInfo": {
+    "Subject": "Professional Issues in Information Systems and Technology",
+    "Term": "Prelims",
+    "Title": "Prelims Short Reviewer",
+    "LastModified": "20 September 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01_Handout_1 and 02_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is technology?",
+      "answer": "This refers to methods, systems, and devices which are the result of scientific knowledge being used for practical purposes.",
+      "choices": [
+        "This integrated elements that gather, process, save, and disseminate information to support an organization's decision-making and management.",
+        "It is a collection of indisputable raw facts.",
+        "It a set of commands that instruct the hardware what to do.",
+        "This refers to methods, systems, and devices which are the result of scientific knowledge being used for practical purposes."
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the science of allowing information technologies to simulate human intelligence",
+      "answer": "Artificial Intellegence",
+      "choices": [
+        "Artificial Intellegence",
+        "Smart Cards",
+        "Intelligent Systems",
+        "Information Systems"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are integrated elements that gather, process, save, and disseminate information to support an organization's decision-making and management.",
+      "answer": "Information Systems",
+      "choices": [
+        "Artificial Intellegence",
+        "Smart Cards",
+        "Intelligent Systems",
+        "Information Systems"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "Application Software allows users to accomplish tasks such as document creation and data encoding. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the current term referring to the phenomenon of a knowledge society emerging with the growth of knowledge workers.",
+      "answer": "Digital World",
+      "choices": [
+        "Internet World",
+        "Digital World",
+        "Digimon",
+        "IoT"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "It can produce detailed and specified information to help manage a company",
+      "answer": "MIS",
+      "choices": [
+        "MIS",
+        "OAS",
+        "KMS",
+        "TPS"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "MICROSOFT TEAMS is the business-oriented version of Google's Hangouts platform is suitable for businesses of all sizes. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "MIS are designed to be interactive decision aid that applies models to manipulate data. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "In FIFTH ERA more departments were beginning to benefit from the technology. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "DSS systematically processes customer transactions to generate a considerable amount of data. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "In the FOURTH ERA of information systems rich information access was offered to business enterprises. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "Focusing in the PROCESS to gain an advantage over their competitors should focus highly on this aspect of their information systems. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "Focusing on the people involved in information systems is essential. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "Supermarket retailers for optimizing supply chains and recording purchases is an application of the traditional application of IS. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "A scanner contains a microprocessor chip or a magnetic stripe. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "A MONITOR can be in color, black, and white or monochrome (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "The fourth era of information systems became widely distributed to employees who needed them. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    }
+  ]
+}

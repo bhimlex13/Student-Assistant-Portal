@@ -1,0 +1,661 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Systems Integration and Architecture",
+    "Term": "Prelims",
+    "Title": "Review of Enterprise Resource Planning (ERP) Systems",
+    "LastModified": "19 September 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is a business software that collects information from different departments to enable leaders to monitor the company with detailed analytics and reporting?",
+      "answer": "ERP",
+      "choices": [
+        "ERP",
+        "SAP SE",
+        "SAP Fiori",
+        "SAP ERP"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What unifies crucial functions such as finance, manufacturing, inventory and order management, sales and marketing, project management, and human resources?",
+      "answer": "ERP",
+      "choices": [
+        "ERP",
+        "SAP SE",
+        "SAP Fiori",
+        "SAP ERP"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is NOT needed to understand when choosing an ERP?",
+      "answer": "Detailed Analytics",
+      "choices": [
+        "Detailed Analytics",
+        "Understand the capabilities",
+        "Implementation of models",
+        "Integration requirements"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the market leader for enterprise application software?",
+      "answer": "SAP SE",
+      "choices": [
+        "SAP SE",
+        "SAP S/4HANA",
+        "SAP Fiori",
+        "SAP ERP"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is a German multinational company that pioneered software?",
+      "answer": "SAP SE",
+      "choices": [
+        "SAP SE",
+        "SAP S/4HANA",
+        "SAP Fiori",
+        "SAP ERP"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "In what year was SAP founded for the development of real-time data application software?",
+      "answer": 1972,
+      "choices": [
+        1972,
+        1970,
+        1975,
+        1983
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is he standard ERP solution for companies worldwide?",
+      "answer": "SAP ERP",
+      "choices": [
+        "SAP ERP",
+        "SAP SE",
+        "SAP S/4HANA",
+        "SAP Fiori"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What enables a company to support and optimize its business processes and allows the collection of logically related transactions?",
+      "answer": "SAP ERP",
+      "choices": [
+        "SAP ERP",
+        "SAP SE",
+        "SAP S/4HANA",
+        "SAP Fiori"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the result of SAP's strategic goal to develop a next-generation ERP package?",
+      "answer": "SAP S/4HANA",
+      "choices": [
+        "SAP S/4HANA",
+        "SAP ERP",
+        "SAP SE",
+        "SAP Fiori"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the next-generation Business Suite and the biggest innovation since SAP R/3?",
+      "answer": "SAP S/4HANA",
+      "choices": [
+        "SAP S/4HANA",
+        "SAP ERP",
+        "SAP SE",
+        "SAP Fiori"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "SAP S/4HANA is designed to strengthen companies of every size in various industries, while SAP ERP caters more to large, enterprise-level organizations.",
+      "answer": "The statement is false.",
+      "choices": [
+        "The statement is false.",
+        "The statement is true."
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is a design system and a user experience (UX) layer that allows business app creation with a consumer-grade user experience?",
+      "answer": "SAP Fiori",
+      "choices": [
+        "SAP Fiori",
+        "SAP ERP",
+        "SAP SE",
+        "SAP S/4HANA"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What provides a user interface for SAP S/4HANA?",
+      "answer": "SAP Fiori",
+      "choices": [
+        "SAP Fiori",
+        "SAP ERP",
+        "SAP SE",
+        "SAP S/4HANA"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What makes casual users into SAP experts with simple screens that run on any device?",
+      "answer": "SAP Fiori",
+      "choices": [
+        "SAP Fiori",
+        "SAP ERP",
+        "SAP SE",
+        "SAP S/4HANA"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is NOT an application type of SAP Fiori?",
+      "answer": "User Data apps",
+      "choices": [
+        "User Data apps",
+        "Transactional apps",
+        "Analytical Apps",
+        "Factsheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What are used to access tasks like Create, Change, or Display Process with guided navigation?",
+      "answer": "Transactional Apps",
+      "choices": [
+        "Transactional apps",
+        "User Data apps",
+        "Analytical Apps",
+        "Factsheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application type gives a visual overview of business data?",
+      "answer": "Analytical Apps",
+      "choices": [
+        "Analytical Apps",
+        "Transactional apps",
+        "User Data apps",
+        "Factsheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application type with a view of the essential information about objects and contextual navigation between related objects?",
+      "answer": "Factsheet",
+      "choices": [
+        "Factsheet",
+        "Analytical Apps",
+        "Transactional apps",
+        "User Data apps"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is NOT a data type than can be used and found in SAP S/4HANA?",
+      "answer": "Analytical Data",
+      "choices": [
+        "Analytical Data",
+        "Organizational Data",
+        "Master Data",
+        "Transaction Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What data type is a part of the organizational unit, such as the company code, plant, storage location, and distribution channel?",
+      "answer": "Organizational Data",
+      "choices": [
+        "Organizational Data",
+        "Analytical Data",
+        "Master Data",
+        "Transaction Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What data type represents logically grouped data like customer master, material master, vendor master, and general ledger accounts?",
+      "answer": "Master Data",
+      "choices": [
+        "Master Data",
+        "Organizational Data",
+        "Analytical Data",
+        "Transaction Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What data type is a system record of the business event wherein different master data and organization data will be referenced?",
+      "answer": "Transaction Data",
+      "choices": [
+        "Transaction Data",
+        "Master Data",
+        "Organizational Data",
+        "Analytical Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the business transaction record called, which includes predefined information from the master data and organizational entities?",
+      "answer": "Document",
+      "choices": [
+        "Document",
+        "Factsheet",
+        "Master Data",
+        "Organizational Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Who is responsible for Idea-to-Market and Build-to-Stock in Global Bike?",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "Peter Schwarz",
+        "John Davis",
+        "John Schwarz",
+        "Peter Davis"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Who is responsible for Order-to-Cash and Service & Support in Global Bike?",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz",
+        "John Schwarz",
+        "Peter Davis"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which strategy is used in the statement? <br> Having an extensive innovation network to source ideas from riders, dealers, and professionals to improve its bicycles' performance, reliability, and quality.",
+      "answer": "Product Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which strategy is used in the statement? <br> Global Bike outsources the production of off-road and touring frames and carbon composite wheels to trusted partners with specialty facilities to create the complex materials used. They maintain collaborative research and design relationships with these facilities to ensure that innovations in both material and structural capabilities are included in the frames",
+      "answer": "Manufacturing Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which strategy is used in the statement? <br> Global Bike sells its bikes exclusively through reputable and respected Independent Bicycle Dealers (IBDs). These dealers have staff members with expertise in offroad and tour racing to help consumers pick the right Global Bike bike and accessories for their individual needs.",
+      "answer": "Distribution and Partner Network",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which strategy is used in the statement? <br> All ERP functions are centralized to reduce costs and deliver global best-in-class technology to all divisions.",
+      "answer": "IT Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which allows allows organizations to store and manage customer- and product-related data?",
+      "answer": "Sales and Distribution (SD)",
+      "choices": [
+        "Sales and Distribution (SD)",
+        "Materials Management (MM)",
+        "Production Planning and Execution (PP)",
+        "Financial Accounting (FI)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is the smallest organizational unit where a legal set of books can be maintained?",
+      "answer": "Company Code",
+      "choices": [
+        "Company Code",
+        "Client",
+        "Sales Organization",
+        "Plant"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is not part of SD Organizational Units?",
+      "answer": "Purchasing Group",
+      "choices": [
+        "Credit Control Area",
+        "Purchasing Group",
+        "Plant",
+        "Sales Organization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following contains all the information a company needs to manage a material?",
+      "answer": "Material Master",
+      "choices": [
+        "Customer Master",
+        "Material Master",
+        "Condition Master",
+        "Vendor Master"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following includes prices, surcharges (additional charge), discounts, freights (goods transferred from place to place), and taxes?",
+      "answer": "Condition Master",
+      "choices": [
+        "Customer Master",
+        "Material Master",
+        "Condition Master",
+        "Vendor Master"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following contains all the necessary information for business activities with an external supplier?",
+      "answer": "Vendor Master",
+      "choices": [
+        "Customer Master",
+        "Material Master",
+        "Condition Master",
+        "Vendor Master"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is the first step in Processes (Sales Order)?",
+      "answer": "Pre-sales Activities",
+      "choices": [
+        "Pre-sales Activities",
+        "Sales Order Entry",
+        "Check Avalability",
+        "Pick Materials"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is not part of MM Organizational Units?",
+      "answer": "Sales Organization",
+      "choices": [
+        "Sales Organization",
+        "Purchasing Group",
+        "Purchasing Organization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following allows buyers to quickly determine which vendors have offered or supplied specific materials?",
+      "answer": "Purchasing Information Record",
+      "choices": [
+        "Purchasing Information Record",
+        "Vendor Master",
+        "Purchasing Group",
+        "Material Master"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is the first step in Processes (Procure-to-Pay)?",
+      "answer": "Purchase Requisition",
+      "choices": [
+        "Purchase Requisition",
+        "Vendor Selection",
+        "Purchase Order",
+        "Pre-Order Activities"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is concerned with helping organizations with material and inventory management and warehouse management in the supply chain process?",
+      "answer": "Materials Management (MM)",
+      "choices": [
+        "Sales and Distribution (SD)",
+        "Materials Management (MM)",
+        "Production Planning and Execution (PP)",
+        "Financial Accounting (FI)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following aligns demand with manufacturing capacity in creating production and procurement schedules for the finished products and component materials?",
+      "answer": "Production Planning and Execution (PP)",
+      "choices": [
+        "Sales and Distribution (SD)",
+        "Materials Management (MM)",
+        "Production Planning and Execution (PP)",
+        "Financial Accounting (FI)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following tracks and records the manufacturing process flow such as the planned and actual costs and good movement from the conversion of raw material to semi-finished goods?",
+      "answer": "Production Planning and Execution (PP)",
+      "choices": [
+        "Sales and Distribution (SD)",
+        "Materials Management (MM)",
+        "Production Planning and Execution (PP)",
+        "Financial Accounting (FI)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is the organizational unit of Production Planning and Execution?",
+      "answer": "Work Center Locations",
+      "choices": [
+        "Work Center Locations",
+        "Plant",
+        "Sales Organization",
+        "Purchasing Group"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It lists the components of a product or assembly.",
+      "answer": "Bill of Materials (BOM)",
+      "choices": [
+        "Bill of Materials (BOM)",
+        "Routing",
+        "Work Center",
+        "Product Group"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the series of sequential steps/operations that must be carried out to produce a product.",
+      "answer": "Routing",
+      "choices": [
+        "Bill of Materials (BOM)",
+        "Routing",
+        "Work Center",
+        "Product Group"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the location within a plant where value-added work (operations or activities) is performed.",
+      "answer": "Work Center",
+      "choices": [
+        "Bill of Materials (BOM)",
+        "Routing",
+        "Work Center",
+        "Product Group"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the aggregate planning that groups materials or other product groups.",
+      "answer": "Product Group",
+      "choices": [
+        "Bill of Materials (BOM)",
+        "Routing",
+        "Work Center",
+        "Product Group"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is designed to collect transactional data for preparing the standard portfolio of reports?",
+      "answer": "Financial Accounting (FI)",
+      "choices": [
+        "Sales and Distribution (SD)",
+        "Materials Management (MM)",
+        "Production Planning and Execution (PP)",
+        "Financial Accounting (FI)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is a classification scheme consisting of a group of general ledger (G/L) accounts used by one or more company codes?",
+      "answer": "Chart of Accounts",
+      "choices": [
+        "Chart of Accounts",
+        "Business Area",
+        "General Ledger Accounts",
+        "Balances Sheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following represents a separate area of operations or responsibilities within an organization and to which value changes recorded in Financial Accounting can be allocated?",
+      "answer": "Business Area",
+      "choices": [
+        "Income Statement",
+        "Business Area",
+        "General Ledger Accounts",
+        "Balances Sheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is the data storage area created by the unique combination of Company Code and Chart of Account?",
+      "answer": "General Ledger Accounts",
+      "choices": [
+        "Income Statement",
+        "Business Area",
+        "General Ledger Accounts",
+        "Balances Sheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is the summary of an organization’s assets, liabilities, and equity at a point in time?",
+      "answer": "Balances Sheet",
+      "choices": [
+        "Income Statement",
+        "Statement of Cashflows",
+        "General Ledger Accounts",
+        "Balances Sheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following shows an organization’s revenues and expenses at a point in time?",
+      "answer": "Income Statement",
+      "choices": [
+        "Income Statement",
+        "Statement of Cashflows",
+        "General Ledger Accounts",
+        "Balances Sheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following is considered the associated changes in cash, which can be viewed as the most important of all assets?",
+      "answer": "Statement of Cashflows",
+      "choices": [
+        "Income Statement",
+        "Statement of Cashflows",
+        "General Ledger Accounts",
+        "Balances Sheet"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    }
+  ]
+}

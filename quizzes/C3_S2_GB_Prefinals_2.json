@@ -1,0 +1,616 @@
+{
+  "quizInfo": {
+    "Subject": "Great Books",
+    "Term": "Prefinals",
+    "Title": "Alice's Adventures in Wonderland",
+    "LastModified": "6 May 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What common trope involves a child growing or shrinking as a result of drinking or eating something?",
+      "answer": "Scale",
+      "choices": [
+        "Scale",
+        "Time",
+        "Justice",
+        "Behavior"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What common trope reflects how children are often told to grow up?",
+      "answer": "Scale",
+      "choices": [
+        "Scale",
+        "Animals",
+        "Justice",
+        "Behavior"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What common trope features characters that are often rude, aggressive, or frustrating?",
+      "answer": "Behavior",
+      "choices": [
+        "Behavior",
+        "Scale",
+        "Justice",
+        "Animals"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What common trope mirrors how adults can be incomprehensible in a child’s world?",
+      "answer": "Behavior",
+      "choices": [
+        "Behavior",
+        "Time",
+        "Animals",
+        "Justice"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What common trope shows power and perversity prevailing over fairness?",
+      "answer": "Justice",
+      "choices": [
+        "Justice",
+        "Scale",
+        "Behavior",
+        "Time"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What common trope mirrors the arbitrary nature of adult power over children?",
+      "answer": "Justice",
+      "choices": [
+        "Justice",
+        "Animals",
+        "Behavior",
+        "Time"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What common trope includes animals with human characteristics, though exaggerated or distorted?",
+      "answer": "Animals",
+      "choices": [
+        "Animals",
+        "Justice",
+        "Behavior",
+        "Scale"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What common trope has animals functioning as stand-ins for adults?",
+      "answer": "Animals",
+      "choices": [
+        "Animals",
+        "Time",
+        "Scale",
+        "Justice"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What common trope shows clock time having no meaning?",
+      "answer": "Time",
+      "choices": [
+        "Time",
+        "Justice",
+        "Behavior",
+        "Animals"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What common trope reflects the adult world of rules, regulations, and schedules that make no sense to a child?",
+      "answer": "Time",
+      "choices": [
+        "Time",
+        "Behavior",
+        "Justice",
+        "Scale"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "When was Lewis Carroll born?",
+      "answer": 1832,
+      "choices": [
+        1832,
+        1865,
+        1898,
+        1856
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Where was Lewis Carroll born?",
+      "answer": "Cheshire, England",
+      "choices": [
+        "Cheshire, England",
+        "Christ Church, Oxford",
+        "London, England",
+        "Cambridge, England"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "When did Lewis Carroll die?",
+      "answer": 1898,
+      "choices": [
+        1898,
+        1865,
+        1832,
+        1856
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How old was Lewis Carroll when he died?",
+      "answer": 65,
+      "choices": [
+        65,
+        55,
+        75,
+        60
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What caused Lewis Carroll’s death?",
+      "answer": "Pneumonia after influenza",
+      "choices": [
+        "Pneumonia after influenza",
+        "Heart failure",
+        "Tuberculosis",
+        "Old age"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What is Lewis Carroll’s real name?",
+      "answer": "Charles Dodgson",
+      "choices": [
+        "Charles Dodgson",
+        "John Ruskin",
+        "Alfred Tennyson",
+        "Dante Gabriel Rossetti"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Where did Lewis Carroll earn a 1st class degree in Math?",
+      "answer": "Christ Church, Oxford",
+      "choices": [
+        "Christ Church, Oxford",
+        "Cheshire, England",
+        "Cambridge",
+        "London School of Mathematics"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Where did Lewis Carroll hold a lectureship from 1855 until he died?",
+      "answer": "Christ Church, Oxford",
+      "choices": [
+        "Christ Church, Oxford",
+        "Cheshire, England",
+        "Oxford University",
+        "Cambridge"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What was Lewis Carroll ordained as? ",
+      "answer": "Deacon",
+      "choices": [
+        "Deacon",
+        "Dean",
+        "Father",
+        "✨Daddy✨"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What was Lewis Carroll’s first work in 1856?",
+      "answer": "Poem on solitude",
+      "choices": [
+        "Poem on solitude",
+        "Alice's Adventures in Wonderland",
+        "Mathematical Theories",
+        "A Child's Story"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Who were Lewis Carroll’s friends?",
+      "answer": "John Ruskin and Dante Gabriel Rossetti",
+      "choices": [
+        "John Ruskin and Dante Gabriel Rossetti",
+        "Alfred Tennyson and Ellen Terry",
+        "Charles Dickens and Oscar Wilde",
+        "Alice Liddell and Ellen Terry"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What was the title of Lewis Carroll’s first masterpiece for children in English?",
+      "answer": "Alice's Adventures in Wonderland",
+      "choices": [
+        "Alice's Adventures in Wonderland",
+        "Poem on solitude",
+        "Through the Looking-Glass",
+        "The Golden Afternoon"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Who was the girl Lewis Carroll told the story of Alice to in July 1862?",
+      "answer": "Alice Liddell",
+      "choices": [
+        "Alice Liddell",
+        "Ellen Terry",
+        "Rossetti",
+        "Mary Dodgson"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "When did Lewis Carroll go rowing and tell the story that inspired his famous book?",
+      "answer": 1865,
+      "choices": [
+        1865,
+        1856,
+        1832,
+        1898
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How old was Alice when she fell down the rabbit hole in Alice’s Adventures in Wonderland?",
+      "answer": "7-year-old",
+      "choices": [
+        "7-year-old",
+        "8-year-old",
+        "6-year-old",
+        "10-year-old"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Where did Alice find herself after falling down the rabbit hole in Alice’s Adventures in Wonderland?",
+      "answer": "Wonderland",
+      "choices": [
+        "Wonderland",
+        "Underland",
+        "Dreamland",
+        "Magic Garden"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What is the title of the book where a 7-year-old Alice fell down a rabbit hole?",
+      "answer": "Alice’s Adventures in Wonderland",
+      "choices": [
+        "Alice’s Adventures in Wonderland",
+        "Through the Looking-Glass",
+        "Alice's Journey",
+        "The Dream of Alice"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What does Alice often focus on that limits her ability to do what she wants?",
+      "answer": "Being the wrong size",
+      "choices": [
+        "Being the wrong size",
+        "Forgetting who she is",
+        "Losing direction",
+        "Changing identities"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In Alice’s Adventures in Wonderland, what does Alice always wonder about besides who she is?",
+      "answer": "Rules of the peculiar world of Wonderland",
+      "choices": [
+        "Rules of the peculiar world of Wonderland",
+        "The Queen’s rules",
+        "The world outside",
+        "The proper size"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Who is one of the only human characters Alice meets besides her sister and the Duchess?",
+      "answer": "Mad Hatter",
+      "choices": [
+        "Mad Hatter",
+        "White Rabbit",
+        "Tweedledee",
+        "Cheshire Cat"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Who is one of the only human characters Alice meets besides the Mad Hatter and her sister?",
+      "answer": "The Duchess",
+      "choices": [
+        "The Duchess",
+        "The Queen",
+        "Caterpillar",
+        "Dormouse"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Who is one of the only human characters Alice meets besides the Mad Hatter and the Duchess?",
+      "answer": "Alice's sister",
+      "choices": [
+        "Alice's sister",
+        "Alice's mother",
+        "Alice's aunt",
+        "The Red Queen"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which group of people do not appear in Alice’s Adventures in Wonderland?",
+      "answer": "Parents don't make an appearance",
+      "choices": [
+        "Parents don't make an appearance",
+        "Teachers are absent",
+        "Animals don't speak",
+        "Siblings are missing"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How did Victorian adult readers view Alice’s adventures?",
+      "answer": "Liberating",
+      "choices": [
+        "Liberating",
+        "Confusing",
+        "Educational",
+        "Humorous"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What is one reason nonsense is appreciated in Alice’s Adventures in Wonderland?",
+      "answer": "Nonsense offers a playground for the imagination",
+      "choices": [
+        "Nonsense offers a playground for the imagination",
+        "It teaches strict discipline",
+        "It reflects historical events",
+        "It mirrors school settings"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What is true about Alice's character development by the end of the story?",
+      "answer": "Alice did not learn any lessons",
+      "choices": [
+        "Alice did not learn any lessons",
+        "Alice matured completely",
+        "Alice was punished",
+        "Alice became a teacher"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Although she didn’t learn lessons, how did Alice change as a person?",
+      "answer": "Alice became more forthright",
+      "choices": [
+        "Alice became more forthright",
+        "Alice became more curious",
+        "Alice became more obedient",
+        "Alice became more confused"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What does Alice say near the end of the book about the Queen's actions?",
+      "answer": "The Queen's sense of justice is nonsense",
+      "choices": [
+        "The Queen's sense of justice is nonsense",
+        "The Queen is fair and wise",
+        "The Queen deserves punishment",
+        "The Queen reminds her of her sister"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What happens after Alice insists that the playing cards are inanimate objects?",
+      "answer": "Dreaming \"after a fashion\"",
+      "choices": [
+        "Dreaming \"after a fashion\"",
+        "She wakes up suddenly",
+        "The Queen vanishes",
+        "The cards turn into animals"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How is Alice's sister's dream state described at the end of the book?",
+      "answer": "Dreaming \"after a fashion\"",
+      "choices": [
+        "Dreaming \"after a fashion\"",
+        "Fully dreaming",
+        "Awake but imagining",
+        "Lost in thought"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What concept was invented in the 18th century when the middle classes began to see the value of a child’s innocence and play?",
+      "answer": "Childhood in novels",
+      "choices": [
+        "Childhood in novels",
+        "Education reform",
+        "Parenting in literature",
+        "Moral fiction"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Who were rarely mentioned for most of literary history, occasionally appearing in “Emile” and “The Prelude”?",
+      "answer": "Children",
+      "choices": [
+        "Children",
+        "Women",
+        "Kings",
+        "Elders"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Who sometimes placed children in his stories, but only in books for adults?",
+      "answer": "Charles Dickens",
+      "choices": [
+        "Charles Dickens",
+        "William Blake",
+        "Hans Christian Andersen",
+        "Thomas Hughes"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What kind of tales were most stories written for children during earlier periods?",
+      "answer": "Adaptations of adult stories",
+      "choices": [
+        "Adaptations of adult stories",
+        "Religious allegories",
+        "School stories",
+        "Biographies"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Who illustrated folktales for adults in the 19th century and were later criticized for being unsuitable for young people?",
+      "answer": "Grimm brothers",
+      "choices": [
+        "Grimm brothers",
+        "Charles Perrault",
+        "Lewis Carroll",
+        "Jean-Jacques Rousseau"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Who wrote “Fairy Tales” (1835–37) that were criticized for failing to include a moral?",
+      "answer": "Hans Christian Andersen",
+      "choices": [
+        "Hans Christian Andersen",
+        "Dustin",
+        "Charles Dickens",
+        "Lousia May Alcott"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "In what time period did writing for children enjoy a golden age due to increasing literacy and commercial publishing?",
+      "answer": "Late 19th and early 20th centuries",
+      "choices": [
+        "Late 19th and early 20th centuries",
+        "Mid-18th century",
+        "Early Renaissance",
+        "Post-War Era"
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What book by Thomas Hughes (1857) started the school story tradition?",
+      "answer": "\"Tom Brown's School Days\"",
+      "choices": [
+        "\"Tom Brown's School Days\"",
+        "\"David Copperfield\"",
+        "\"Great Expectations\"",
+        "\"Hard Times\""
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which book by Louisa May Alcott (1868–69) was a coming-of-age tale?",
+      "answer": "\"Little Women\"",
+      "choices": [
+        "\"Little Women\"",
+        "\"Pollyanna\"",
+        "\"Anne of Green Gables\"",
+        "\"Jane Eyre\""
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which book by Johanna Spyri (1880–81) was a coming-of-age tale?",
+      "answer": "\"Heidi\"",
+      "choices": [
+        "\"Heidi\"",
+        "\"The Secret Garden\"",
+        "\"Little Women\"",
+        "\"Peter Pan\""
+      ],
+      "reference": "Alice in Wonderland",
+      "term": "Prefinals"
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "quizInfo": {
+    "Subject": "Systems Integration and Architecture",
+    "Term": "Prelims",
+    "Title": "SAP S/4HANA Case STudy",
+    "LastModified": "17 May 2024",
+    "Authors": [
+      ""
+    ],
+    "References": [
+      "Any external links/handouts should be referenced here"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Global Bike Inc. uses a practical design philosophy that roots from its experience in off-road and long-distance racing sports.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. had experience with downhill and cross-country championships in mountain racing circuits in America.",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz",
+        "Neri Colmenares",
+        "Mark Anderson"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. first sold bikes that were rebuilt from old bikes into a sort of Frankenstein bike.",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. came from Heidelberg, Germany.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. studied engineering and competed on occassional regional races.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. worked at a bike shop fixing student bikes and tuning touring bikes he and his friends rode for competitions.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. first starte Heidelberg Composites.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. first started Frankenstein Bikes.",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. expanded his bike businesses into a manufacturing facility in Dallas, US.",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. designed and built road bikes based on an ultra-light composite frame for one of his engineering courses.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. started his first business that eventually became the leader in lightweight touring frames in Europe.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year did John Davis and Peter Schwarz met and recognized their mutual passion for performance and complimentary business models?",
+      "answer": "2000",
+      "choices": [
+        "2000",
+        "2004",
+        "2002",
+        "2001"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Frankenstein Bikes and Heidelberg Composites merged in 2001, forming Global Bike Inc.",
+      "answer": "THE STATEMENT IS TRUE .",
+      "choices": [
+        "THE STATEMENT IS TRUE .",
+        "THE STATEMENT IS FALSE ."
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. manages the sales, marketing, service and support, IT, finance, and human resources groups of the company.",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. manages the research, design, procurement, and manufacturing groups of the company.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. is responsible for Idea-to-Market and Build-to-Stock areas of the company.",
+      "answer": "Peter Schwarz",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This founder of Global Bike Inc. is responsible for Order-to-Cash and Service & Support along with supporting services for the 2 aforementioned processes and Idea-to-Market and Build-to-Stock.",
+      "answer": "John Davis",
+      "choices": [
+        "John Davis",
+        "Peter Schwarz"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Global Bike Inc. invested into this kind of strategy, where they have focused on innovation, quality, safety, and speed to market.",
+      "answer": "Product Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. having an extensive innovation network to source ideas from various users and professionals to improve their bicycle's quality, performance, and reliability?",
+      "answer": "Product Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. offering two models of signature road bikes, with two different types of wheels for each of the models respectively?",
+      "answer": "Product Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. manufacturing two types of off-road for both the male and female model?",
+      "answer": "Product Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. offering other accessories other than the bikes themselves?",
+      "answer": "Product Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. having 2 production facilities in Dallas and Heidelberg that has 3 assembly lines producing thousands of bikes annually?",
+      "answer": "Manufacturing Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. having a total production capacity of about 6,000 bikes yearly that can also be increased by 15% - 20% through overtime and part-time workers?",
+      "answer": "Manufacturing Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. outsourcing the production of off-road and touring frames along with carbon composite wheels to trusted partners?",
+      "answer": "Manufacturing Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. maintaining collaborative research and design relationships with partner facilities that ensures innovations in both material and structural capabilities are included in the company's frames?",
+      "answer": "Manufacturing Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. assembling semi-finished and finished goods at its production facilities that are then either stored in the warehouse or shipped to regional distribution centers?",
+      "answer": "Manufacturing Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. exclusively selling their products through reputable and respected Independent Bicycle Dealers (IBDs)?",
+      "answer": "Distribution and Partner Network",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. using the internet as its information channel to educate consumers and market its products?",
+      "answer": "Distribution and Partner Network",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. having its main sales channel through specialty resellers due to tax issues and selling constraints for operating a business in multiple states and countries.",
+      "answer": "Distribution and Partner Network",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. establishing an extensive partner operation ensuring process continuity between its partners to provide best-in-class product?",
+      "answer": "Distribution and Partner Network",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. nurturing and protecting strong relationships with suppliers, which they are usually the largest customer of?",
+      "answer": "Distribution and Partner Network",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What business strategy involves Global Bike Inc. using a shared services model on their offices?",
+      "answer": "IT Strategy",
+      "choices": [
+        "Product Strategy",
+        "Manufacturing Strategy",
+        "Distribution and Partner Network",
+        "IT Strategy"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year was it when Global Bike Inc. moved to centralized IT which also led to their implementation of SAP ERP 6?",
+      "answer": "2009",
+      "choices": [
+        "2009",
+        "2008",
+        "2017",
+        "2018"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following statements are true? <br> I. The centralization of Global Bike Inc.'s ERP functions led to a reduction of costs and deliverance of global best-in-class technology in its divisions. <br> II. Their approach gave the company an advanced business platform under a highly controlled environment, enabling consistency of operations and process integrity across the globe.",
+      "answer": "Both statements are true.",
+      "choices": [
+        "Both statements are true.",
+        "Both statements are false.",
+        "I is true, II is false.",
+        "I is false, II is true."
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year was it when Global Bike Inc. moved its management to SAP S/4 HANA to accelerate its digital transformation?",
+      "answer": "2017",
+      "choices": [
+        "2009",
+        "2008",
+        "2017",
+        "2018"
+      ],
+      "reference": "02_Handout_1",
+      "term": "Prelim"
+    }
+  ]
+}

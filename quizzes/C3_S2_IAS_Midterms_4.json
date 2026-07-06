@@ -1,0 +1,328 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Midterms",
+    "Title": "Ethics and the Internet",
+    "LastModified": "28 March 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "03 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What refers to the code of responsible behavior on the internet?",
+      "answer": "Cyber Ethics",
+      "choices": [
+        "Ethics Manifesto",
+        "Cyber Ethics",
+        "Professional Competence and Due Care",
+        "Right to disconnect"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the basic rule of cyber ethics that states, “do not do something in cyberspace that you would consider wrong or illegal in everyday life”?",
+      "answer": "Cyber Ethics",
+      "choices": [
+        "Integrity",
+        "Cyber Ethics",
+        "Right to be inefficient if and where it defines our basic humanities",
+        "Right to remain neutral"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical framework was created by Gerd Leonhard?",
+      "answer": "Ethics Manifesto",
+      "choices": [
+        "Cyber Ethics",
+        "Ethics Manifesto",
+        "Professional Competence and Due Care",
+        "Objectivity"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which manifesto provides a framework for global ethics in technology?",
+      "answer": "Ethics Manifesto",
+      "choices": [
+        "Cyber Ethics",
+        "Ethics Manifesto",
+        "Right to employ or involve people instead of machines",
+        "Right to disconnect"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is important to focus on in an era where machines will take on more human-like characteristics?",
+      "answer": "Ethics Manifesto",
+      "choices": [
+        "Code of Ethics for Information Security Professionals",
+        "Ethics Manifesto",
+        "Professional Competence and Due Care",
+        "Objectivity"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which right ensures that people can be employed, use public services, buy things, and function in society without a requirement to deploy technology on or inside their bodies?",
+      "answer": "Right to remain neutral",
+      "choices": [
+        "Right to be anonymous",
+        "Right to disconnect",
+        "Right to employ or involve people instead of machines",
+        "Right to remain neutral"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which right allows individuals to choose to be slower than technology and not make efficiency more important than humanity?",
+      "answer": "Right to be inefficient if and where it defines our basic humanities",
+      "choices": [
+        "Right to remain neutral",
+        "Right to disconnect",
+        "Right to employ or involve people instead of machines",
+        "Right to be inefficient if and where it defines our basic humanities"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which right ensures individuals can switch off connectivity, go dark on the network, and pause communication, tracking, and monitoring?",
+      "answer": "Right to disconnect",
+      "choices": [
+        "Right to remain neutral",
+        "Right to be anonymous",
+        "Right to employ or involve people instead of machines",
+        "Right to disconnect"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which right allows individuals to avoid being identified and tracked while using a digital application or platform when it doesn’t pose a risk or impose itself on others?",
+      "answer": "Right to be anonymous",
+      "choices": [
+        "Right to remain neutral",
+        "Right to disconnect",
+        "Right to be anonymous",
+        "Right to employ or involve people instead of machines"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which right ensures companies or employers are not disadvantaged if they choose to use people instead of machines, even if it is more expensive and less efficient?",
+      "answer": "Right to employ or involve people instead of machines",
+      "choices": [
+        "Right to remain neutral",
+        "Right to be inefficient if and where it defines our basic humanities",
+        "Right to employ or involve people instead of machines",
+        "Right to be anonymous"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is derived from the Unified Framework for Information Security Professionals?",
+      "answer": "Code of Ethics for Information Security Professionals",
+      "choices": [
+        "Cyber Ethics",
+        "Code of Ethics for Information Security Professionals",
+        "Right to be anonymous",
+        "Right to disconnect"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What core ethical value requires professionals to perform their duties under existing laws and exercise the highest moral principles?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Professional Competence and Due Care",
+        "Ethics Manifesto",
+        "Cyber Ethics"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What ethical value requires professionals to refrain from activities that would constitute a conflict of interest?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Professional Competence and Due Care",
+        "Right to remain neutral",
+        "Right to be anonymous"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which core ethical value requires professionals to act in the best interests of stakeholders consistent with the public interest?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Professional Competence and Due Care",
+        "Right to disconnect",
+        "Cyber Ethics"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to act honorably, justly, responsibly, and legally in every aspect of their profession?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Professional Competence and Due Care",
+        "Ethics Manifesto",
+        "Right to be anonymous"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to perform all duties in a fair manner and without prejudice?",
+      "answer": "Objectivity",
+      "choices": [
+        "Objectivity",
+        "Professional Competence and Due Care",
+        "Right to remain neutral",
+        "Right to disconnect"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to exercise independent professional judgment to provide unbiased analysis and advice?",
+      "answer": "Objectivity",
+      "choices": [
+        "Objectivity",
+        "Professional Competence and Due Care",
+        "Ethics Manifesto",
+        "Cyber Ethics"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What ethical value states that when an opinion is provided, it should be noted as opinion rather than fact?",
+      "answer": "Objectivity",
+      "choices": [
+        "Objectivity",
+        "Professional Competence and Due Care",
+        "Right to remain neutral",
+        "Right to be anonymous"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to perform services diligently and professionally?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Objectivity",
+        "Integrity",
+        "Right to be inefficient if and where it defines our basic humanities",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to act with diligence and promptness in rendering service?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Right to remain neutral",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What ethical value states that professionals should render only those services they are fully competent and qualified to perform?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Right to disconnect",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to ensure that their work meets the highest professional standards?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Right to be anonymous",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to support their colleagues and encourage their professional development?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Right to remain neutral",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to keep stakeholders informed regarding the progress of their work?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Ethics Manifesto",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to refrain from conduct that would damage the reputation of the profession, colleagues, clients, and employers?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Right to be anonymous",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What ethical value requires professionals to report ethical violations to the appropriate governing body promptly?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Ethics Manifesto",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    }
+  ]
+}

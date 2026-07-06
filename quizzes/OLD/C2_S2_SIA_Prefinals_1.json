@@ -1,0 +1,203 @@
+{
+  "quizInfo": {
+    "Subject": "Systems Integration and Architecture",
+    "Term": "Prefinals",
+    "Title": "Fifth Module",
+    "LastModified": "17 May 2024",
+    "Authors": [
+      "JC"
+    ],
+    "References": [
+      "Any external links/handouts should be referenced here"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the process of aligning demand with manufacturing capacity in creating production and procurement \r\nschedules for the finished products and component materials?",
+      "answer": "Production Planning",
+      "choices": [
+        "Production Planning",
+        "Materials Management",
+        "Sales and Distribution",
+        "Financial Accounting"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "This is what you call the independent environment in the system.",
+      "answer": "Client",
+      "choices": [
+        "Client",
+        "Plant",
+        "Storage Location",
+        "Company Code"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) is the smallest organizational unit where a legal set of books can be maintained.",
+      "answer": "Company Code",
+      "choices": [
+        "Company Code",
+        "Plant",
+        "Storage Location",
+        "Client"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) is the operating area or branch within the company, such as manufacturing, distribution, purchasing, or maintenance facility.",
+      "answer": "Plant",
+      "choices": [
+        "Plant",
+        "Client",
+        "Storage Location",
+        "Company Code"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) allows differentiation between the various stocks of material in a plant.",
+      "answer": "Storage Location",
+      "choices": [
+        "Storage Location",
+        "Plant",
+        "Work Center Locations",
+        "Company Code"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) define where and when the operation is performed. These can be machines, people, production lines, or groups of tradespeople.",
+      "answer": "Work Center Locations",
+      "choices": [
+        "Work Center Locations",
+        "Client",
+        "Storage Location",
+        "Company Code"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "This master data contains all the information a company needs to manage a material.",
+      "answer": "Material Master",
+      "choices": [
+        "Material Master",
+        "Bill of Materials",
+        "Routing",
+        "Work Center"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "This master data lists the component that make up a product or assembly.",
+      "answer": "Bill of Materials",
+      "choices": [
+        "Material Master",
+        "Bill of Materials",
+        "Routing",
+        "Work Center"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "It is the series of sequential steps or operations that must be carried out to produce a given product.",
+      "answer": "Routing",
+      "choices": [
+        "Material Master",
+        "Bill of Materials",
+        "Routing",
+        "Work Center"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "It is the location within a plant where Value-added work is performed.",
+      "answer": "Work Center",
+      "choices": [
+        "Material Master",
+        "Bill of Materials",
+        "Routing",
+        "Work Center"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "It is aggregate planning that group materials or other product groups.",
+      "answer": "Product Group",
+      "choices": [
+        "Product Group",
+        "Bill of Materials",
+        "Material Master",
+        "Work Center"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "What are the three different kinds of Bill of Materials?",
+      "answer": "Single-level, Multi-level, Variant",
+      "choices": [
+        "Single-level, Multi-level, Variant",
+        "Single-level, Double-level, Multi-level",
+        "Single-level, Multi-level, Variance",
+        "One-level, Multi-level, Variant"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) is the foundation of a reliable Sales and Operations Planning (SOP). Accurate (?????) are essential in the \r\nmanufacturing sector, which could help oversee the stock since overstocked and understocked warehouses \r\nboth result in a profit loss",
+      "answer": "Forecasting",
+      "choices": [
+        "Forecasting",
+        "Guessing",
+        "Planning",
+        "Imagining"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "Which of the following aren't part of the Forecasting Model?",
+      "answer": "Fads",
+      "choices": [
+        "Fads",
+        "Trend",
+        "Seasonal",
+        "Constant"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) serves as the link between the Strategic Planning and Detailed Planning layers in Production Planning and Execution",
+      "answer": "Demand Management",
+      "choices": [
+        "Demand Management",
+        "Demand Program",
+        "Demand Planning",
+        "Demand"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "(?????) allows a company to distinguish planning methods between materials that strongly influence profit or use \r\ncritical resources and those that do not.",
+      "answer": "Master Production Scheduling",
+      "choices": [
+        "Master Production Scheduling",
+        "Master Requirement Planning",
+        "Production Order",
+        "Master Production Execution"
+      ],
+      "reference": "05 Handout 1"
+    },
+    {
+      "question": "In (?????), the system calculates the net requirements while considering available warehouse stock and scheduled receipts from purchasing and production. During (?????), all levels of the bill of material are planned.",
+      "answer": "Master Requirement Planning",
+      "choices": [
+        "Master Production Scheduling",
+        "Master Requirement Planning",
+        "Production Order",
+        "Master Production Execution"
+      ],
+      "reference": "05 Handout 1"
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Midterms",
+    "Title": "User, LAN, and WAN Domain",
+    "LastModified": "28 March 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "03 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What refers to any group of users, workstations, devices, printers, computers, and database servers that share different types of data via network resources?",
+      "answer": "Domain",
+      "choices": [
+        "Domain",
+        "LAN Domain",
+        "User Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is used to manage all user functions, including username, password, and shared system resource authentication and access?",
+      "answer": "Domain",
+      "choices": [
+        "Domain",
+        "WAN Domain",
+        "System / Application Storage Domain",
+        "LAN / WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is used to assign specific resource privileges such as user accounts?",
+      "answer": "Domain",
+      "choices": [
+        "Domain",
+        "Remote Access Domain",
+        "Workstation Domain",
+        "WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What comprises combined systems, servers, and workgroups?",
+      "answer": "Domain",
+      "choices": [
+        "Domain",
+        "WAN Domain",
+        "Domain Controller",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What governs all basic domain functions and manages network security?",
+      "answer": "Domain Controller",
+      "choices": [
+        "System / Application Storage Domain",
+        "Domain Controller",
+        "WAN Domain",
+        "User Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "In a simple network domain, what are directly connected?",
+      "answer": "Many computers and workgroups",
+      "choices": [
+        "Only one computer",
+        "Printers and scanners",
+        "Many computers and workgroups",
+        "Only servers"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Depending on network requirements, what may exist in one domain?",
+      "answer": "Many types",
+      "choices": [
+        "A single type",
+        "Only users",
+        "Only servers",
+        "Many types"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain covers all the users that have access to the other domains?",
+      "answer": "User Domain",
+      "choices": [
+        "Domain Controller",
+        "User Domain",
+        "Workstation Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain covers all the users that have access to the other domains?",
+      "answer": "User Domain",
+      "choices": [
+        "User Domain",
+        "LAN Domain",
+        "Remote Access Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "In which domain can a user destroy data in the app and delete everything?",
+      "answer": "User Domain",
+      "choices": [
+        "User Domain",
+        "LAN / WAN Domain",
+        "WAN Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A user inserting an infected flash drive into the computer is a risk in which domain?",
+      "answer": "User Domain",
+      "choices": [
+        "User Domain",
+        "Remote Access Domain",
+        "LAN Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A user using their password to delete their files is a risk in which domain?",
+      "answer": "User Domain",
+      "choices": [
+        "User Domain",
+        "LAN Domain",
+        "WAN Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain consists of the computer of an individual user where production takes place?",
+      "answer": "Workstation Domain",
+      "choices": [
+        "Workstation Domain",
+        "LAN Domain",
+        "WAN Domain",
+        "LAN / WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "The OS having known software vulnerabilities that allow hackers to connect remotely and steal data is a risk in which domain?",
+      "answer": "Workstation Domain",
+      "choices": [
+        "Workstation Domain",
+        "LAN Domain",
+        "Remote Access Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "The browser having known software vulnerabilities that allow unsigned scripts to install malware silently is a risk in which domain?",
+      "answer": "Workstation Domain",
+      "choices": [
+        "Workstation Domain",
+        "LAN Domain",
+        "WAN Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "The hard drive failing and losing data is a risk in which domain?",
+      "answer": "Workstation Domain",
+      "choices": [
+        "Workstation Domain",
+        "WAN Domain",
+        "System / Application Storage Domain",
+        "User Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain contains all the workstations, hubs, switches, and routers?",
+      "answer": "LAN Domain",
+      "choices": [
+        "LAN Domain",
+        "User Domain",
+        "System / Application Storage Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Work spreading through the network and infecting all computers is a risk in which domain?",
+      "answer": "LAN Domain",
+      "choices": [
+        "LAN Domain",
+        "WAN Domain",
+        "LAN / WAN Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "LAN server OS having known software vulnerabilities is a risk in which domain?",
+      "answer": "LAN Domain",
+      "choices": [
+        "LAN Domain",
+        "Workstation Domain",
+        "WAN Domain",
+        "LAN / WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Unauthorized users accessing organization workstations in LANs is a risk in which domain?",
+      "answer": "LAN Domain",
+      "choices": [
+        "LAN Domain",
+        "System / Application Storage Domain",
+        "Workstation Domain",
+        "WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain consists of the internet and semi-private lines?",
+      "answer": "WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "LAN / WAN Domain",
+        "System / Application Storage Domain",
+        "User Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A major network outage from the service provider is a risk in which domain?",
+      "answer": "WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "Remote Access Domain",
+        "System / Application Storage Domain",
+        "Workstation Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A server receiving DOS or DDOS attacks is a risk in which domain?",
+      "answer": "WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "System / Application Storage Domain",
+        "Workstation Domain",
+        "User Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A File Transfer Protocol (FTP) allowing anonymously uploaded illegal software is a risk in which domain?",
+      "answer": "WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "LAN Domain",
+        "LAN / WAN Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain serves as the boundary between trusted and untrusted zones?",
+      "answer": "LAN / WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "LAN / WAN Domain",
+        "LAN Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Hackers penetrating the IT infrastructure to gain access to the internal network is a risk in which domain?",
+      "answer": "LAN / WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "LAN / WAN Domain",
+        "Workstation Domain",
+        "User Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Firewalls with unnecessary ports open allowing access from the internet is a risk in which domain?",
+      "answer": "LAN / WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "LAN / WAN Domain",
+        "System / Application Storage Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain is made up of user-accessed servers such as email and database?",
+      "answer": "System / Application Storage Domain",
+      "choices": [
+        "System / Application Storage Domain",
+        "LAN Domain",
+        "WAN Domain",
+        "LAN / WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Fires destroying primary data is a risk in which domain?",
+      "answer": "System / Application Storage Domain",
+      "choices": [
+        "System / Application Storage Domain",
+        "User Domain",
+        "WAN Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "DOS attacks crippling the organization’s email is a risk in which domain?",
+      "answer": "System / Application Storage Domain",
+      "choices": [
+        "System / Application Storage Domain",
+        "Workstation Domain",
+        "WAN Domain",
+        "LAN / WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A database server being attacked by SQL injection that corrupts data is a risk in which domain?",
+      "answer": "System / Application Storage Domain",
+      "choices": [
+        "System / Application Storage Domain",
+        "Workstation Domain",
+        "WAN Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain allows a mobile user to access the local network usually through a VPN?",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "User Domain",
+        "Remote Access Domain",
+        "Workstation Domain",
+        "WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Communication circuit outage denying connection is a risk in which domain?",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "WAN Domain",
+        "Remote Access Domain",
+        "System / Application Storage Domain",
+        "Workstation Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Remote communication from the office being unsecured is a risk in which domain?",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "WAN Domain",
+        "Remote Access Domain",
+        "User Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of user has their username and password stored in the computer itself?",
+      "answer": "Local User",
+      "choices": [
+        "Local User",
+        "Remote Access Domain",
+        "Virtual Private Network (VPN)",
+        "Wide Area Network (WAN) domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "When logging in as this type of user, the computer checks its passwords file to see if they are allowed to log in.",
+      "answer": "Local User",
+      "choices": [
+        "Local User",
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type of user has their username and password stored on a domain controller rather than the computer?",
+      "answer": "Domain User",
+      "choices": [
+        "Domain User",
+        "Local Area Network (LAN) domain",
+        "Wide Area Network (WAN) domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "When logging in as this type of user, the computer asks the domain controller with privileges assigned to the user.",
+      "answer": "Domain User",
+      "choices": [
+        "Domain User",
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "This type of user system evolved in response to the administration challenge of managing large numbers of computers, devices, services, and users.",
+      "answer": "Domain User",
+      "choices": [
+        "Domain User",
+        "Local Area Network (LAN) domain",
+        "Wide Area Network (WAN) domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain is a subnetwork made up of servers and clients controlled by a centralized database?",
+      "answer": "Local Area Network (LAN) domain",
+      "choices": [
+        "Wide Area Network (WAN) domain",
+        "Domain User",
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "In which domain is user approval obtained through a central server or domain controller?",
+      "answer": "Local Area Network (LAN) domain",
+      "choices": [
+        "Wide Area Network (WAN) domain",
+        "Remote Access Domain",
+        "Local Area Network (LAN) domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain consists of a network that spans a large geographic area such as cities or countries?",
+      "answer": "Wide Area Network (WAN) domain",
+      "choices": [
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain",
+        "Domain User"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A network that can be private to connect parts of a business or public to connect smaller networks is known as what domain?",
+      "answer": "Wide Area Network (WAN) domain",
+      "choices": [
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain",
+        "Local User"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Prefinals",
+    "Title": "06 Handout 1 - Ransomware and Worm",
+    "LastModified": "08 May 2025",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "06 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is a type of malware that locks a user's data and demands payment?",
+      "answer": "Ransomware",
+      "choices": [
+        "Worm",
+        "Spyware",
+        "Ransomware",
+        "Rootkit"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What threatens users with harm by denying access to their own data?",
+      "answer": "Ransomware",
+      "choices": [
+        "Virus",
+        "Ransomware",
+        "Logic Bomb",
+        "Worm"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What provides instructions for paying to retrieve the decryption key?",
+      "answer": "Ransomware",
+      "choices": [
+        "Backdoor",
+        "Ransomware",
+        "Phishing Email",
+        "Exploit Kit"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What can demand payment ranging from a few hundred to thousands in Bitcoin?",
+      "answer": "Ransomware",
+      "choices": [
+        "Ransomware",
+        "Keylogger",
+        "SQL Injection",
+        "Worm"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of targets may be chosen because of smaller security teams and high file sharing?",
+      "answer": "Targets of Ransomware",
+      "choices": [
+        "Large enterprises",
+        "Targets of Ransomware",
+        "Public networks",
+        "Antivirus companies"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of institutions are targeted for needing quick access to sensitive data?",
+      "answer": "Targets of Ransomware",
+      "choices": [
+        "Malware research labs",
+        "Targets of Ransomware",
+        "ISP servers",
+        "Gaming systems"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What might pay more to keep a data breach quiet and are sensitive to leakware attacks?",
+      "answer": "Targets of Ransomware",
+      "choices": [
+        "Targets of Ransomware",
+        "Trojans",
+        "Phishing groups",
+        "Botnet"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What ensures there are fewer vulnerabilities for ransomware to exploit?",
+      "answer": "How to Prevent Ransomware",
+      "choices": [
+        "Disable JavaScript",
+        "How to Prevent Ransomware",
+        "Open VPN settings",
+        "Turn off UAC"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recommends patching and updating the operating system regularly?",
+      "answer": "How to Prevent Ransomware",
+      "choices": [
+        "Add RAM",
+        "How to Prevent Ransomware",
+        "Scan cookies",
+        "Update drivers"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What practice advises avoiding installation or giving admin access unless trusted?",
+      "answer": "How to Prevent Ransomware",
+      "choices": [
+        "Enable Bluetooth",
+        "How to Prevent Ransomware",
+        "Share credentials",
+        "Remove updates"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What uses antivirus software that detects ransomware on arrival?",
+      "answer": "How to Prevent Ransomware",
+      "choices": [
+        "Firewall only",
+        "How to Prevent Ransomware",
+        "Disable macros",
+        "Use ad blocker"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recommends backing up files frequently and automatically to reduce damage?",
+      "answer": "How to Prevent Ransomware",
+      "choices": [
+        "Use VPN",
+        "How to Prevent Ransomware",
+        "Manually update",
+        "Disconnect cloud"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is malware that spreads by replicating itself from a computer?",
+      "answer": "Computer worm",
+      "choices": [
+        "Trojan",
+        "Rootkit",
+        "Computer worm",
+        "Logic bomb"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What malware replicates without human action and doesn’t need a host program?",
+      "answer": "Computer worm",
+      "choices": [
+        "Adware",
+        "Computer worm",
+        "Virus",
+        "Script kiddie"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What symptom appears when worms take up storage with multiple replications?",
+      "answer": "How to Tell if the Computer Has a Worm",
+      "choices": [
+        "Backdoor behavior",
+        "How to Tell if the Computer Has a Worm",
+        "Phishing email",
+        "Worm alerts"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What symptom shows up when performance decreases due to worm infection?",
+      "answer": "How to Tell if the Computer Has a Worm",
+      "choices": [
+        "System freezing",
+        "How to Tell if the Computer Has a Worm",
+        "CPU overload",
+        "Fake logins"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What clue can be found when files disappear or are unexpectedly altered?",
+      "answer": "How to Tell if the Computer Has a Worm",
+      "choices": [
+        "Hidden partitions",
+        "How to Tell if the Computer Has a Worm",
+        "Search hijack",
+        "OS corruption"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What phase checks if operating system and applications are patched with the latest updates?",
+      "answer": "How to Prevent Computer Worms",
+      "choices": [
+        "Use guest account",
+        "How to Prevent Computer Worms",
+        "Clear cookies",
+        "Restart services"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What reminds users that updates contain security patches for software flaws?",
+      "answer": "How to Prevent Computer Worms",
+      "choices": [
+        "Install firewall",
+        "How to Prevent Computer Worms",
+        "Stop pop-ups",
+        "Delay reboot"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What mentions phishing as a major vector for worm distribution?",
+      "answer": "How to Prevent Computer Worms",
+      "choices": [
+        "Add DNS server",
+        "How to Prevent Computer Worms",
+        "Monitor disk usage",
+        "Enable Bluetooth"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What gives advice on not opening suspicious email attachments or unknown sources?",
+      "answer": "How to Prevent Computer Worms",
+      "choices": [
+        "Use QR code reader",
+        "How to Prevent Computer Worms",
+        "Reset password",
+        "Delay antivirus"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What promotes using strong internet security software that includes anti-phishing and anti-ransomware tech?",
+      "answer": "How to Prevent Computer Worms",
+      "choices": [
+        "Basic antivirus only",
+        "How to Prevent Computer Worms",
+        "Device manager",
+        "Run in safe mode"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What should defend against threats like spyware, ransomware, worms, and other online dangers?",
+      "answer": "How to Prevent Computer Worms",
+      "choices": [
+        "Parental control",
+        "How to Prevent Computer Worms",
+        "Clear browser cache",
+        "Temporary profile"
+      ],
+      "reference": "Ransomware and Worm",
+      "term": "Pre-finals"
+    }
+  ]
+}

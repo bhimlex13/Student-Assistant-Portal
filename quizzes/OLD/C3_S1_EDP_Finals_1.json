@@ -1,0 +1,1156 @@
+{
+  "quizInfo": {
+    "Subject": "Event-Driven Programming",
+    "Term": "Finals",
+    "Title": "Database Programming",
+    "LastModified": "16 December 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "07 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What does ADO.NET stand for?",
+      "answer": "Active Data Objects",
+      "choices": [
+        "Active Data Objects",
+        "Abstract Data Operations",
+        "Applied Data Objects",
+        "Annotated Data Objects"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which library allows retrieval and updating of information in various relational databases?",
+      "answer": "ADO.NET",
+      "choices": [
+        "ADO.NET",
+        "OLE DB Library",
+        "Entity Framework Library",
+        "SQL Data Library"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which includes Microsoft SQL Server, Microsoft Access, Oracle, and XML?",
+      "answer": "ADO.NET",
+      "choices": [
+        "ADO.NET",
+        "OLE DB Library",
+        "Entity Framework Library",
+        "SQL Data Library"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which relies on the .NET Framework’s various classes to process requests and transition between a database system and the user?",
+      "answer": "ADO.NET",
+      "choices": [
+        "ADO.NET",
+        "OLE DB Library",
+        "Entity Framework Library",
+        "SQL Data Library"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What are the two (2) components of ADO.NET that are commonly used?",
+      "answer": "Data Provider and DataSet",
+      "choices": [
+        "Data Provider and DataSet",
+        "Data Library and DataSet",
+        "Data Provider and DataReader",
+        "DataKey and DataValue"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What component is responsible for connecting to databases, executing queries, and updating data?",
+      "answer": "Data Provider",
+      "choices": [
+        "Data Provider",
+        "DataAdapter",
+        "DataSet",
+        "DataTable"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which component in ADO.NET implements mechanisms for connecting to a database, executing queries, and updating data?",
+      "answer": "Data Provider",
+      "choices": [
+        "Data Provider",
+        "DataAdapter",
+        "DataSet",
+        "DataTable"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which component in ADO.NET represents a local copy of related data tables?",
+      "answer": "DataSet",
+      "choices": [
+        "DataSet",
+        "DataView",
+        "DataReader",
+        "Data Provider"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which ADO.NET component is composed of one or more DataTable objects that can be manipulated and updated as per the requirements of the users or client?",
+      "answer": "DataSet",
+      "choices": [
+        "DataSet",
+        "DataView",
+        "DataReader",
+        "Data Provider"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which data provider is used for accessing Microsoft SQL Server?",
+      "answer": "Data Provider for SQL Server",
+      "choices": [
+        "Data Provider for SQL Server",
+        "Data Provider for Oracle",
+        "Data Provider for ODBC",
+        "EntityClient Provider"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which namespace is used for accessing Microsoft SQL Server in ADO.NET?",
+      "answer": "System.Data.SqlClient",
+      "choices": [
+        "System.Data.SqlClient",
+        "System.Data.OracleClient",
+        "System.Data.Odbc",
+        "System.Data.EntityClient"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does the DataSet include for representing database relations in ADO.NET?",
+      "answer": "DataRelation",
+      "choices": [
+        "DataRelation",
+        "DataAdapter",
+        "DataProvider",
+        "DataCommand"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which ADO.NET object is used for read-only access using a server-side cursor?",
+      "answer": "DataReader",
+      "choices": [
+        "DataReader",
+        "DataConnection",
+        "DataSet",
+        "DataRelation"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ADO.NET object acts as a connection between the data source and DataSet?",
+      "answer": "DataAdapters",
+      "choices": [
+        "DataAdapters",
+        "DataReader",
+        "DataProvider",
+        "DataRelation"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which ADO.NET component allows users to connect and disconnect from the database?",
+      "answer": "Connection",
+      "choices": [
+        "Connection",
+        "DataCommand",
+        "DataProvider",
+        "DataTable"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which ADO.NET data type declaration is based on the type of data saved?",
+      "answer": "DataColumn",
+      "choices": [
+        "DataColumn",
+        "DataRelation",
+        "DataTable",
+        "DataCommand"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which namespace allows connection to OLE DB data sources?",
+      "answer": "System.Data.OleDb",
+      "choices": [
+        "System.Data.OleDb",
+        "System.Data.Odbc",
+        "System.Data.OracleClient",
+        "System.Data.EntityClient"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ADO.NET component is used for customizing the view of the rows in a DataTable?",
+      "answer": "DataView",
+      "choices": [
+        "DataView",
+        "DataAdapter",
+        "DataCommand",
+        "DataProvider"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which data provider enables connectivity to Oracle databases?",
+      "answer": "Data Provider for Oracle",
+      "choices": [
+        "Data Provider for Oracle",
+        "Data Provider for OLE DB",
+        "Data Provider for ODBC",
+        "EntityClient Provider"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What namespace is used for accessing Oracle databases?",
+      "answer": "System.Data.OracleClient",
+      "choices": [
+        "System.Data.OracleClient",
+        "System.Data.EntityClient",
+        "System.Data.Odbc",
+        "System.Data.OleDb"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What namespace enables data access on Microsoft SQL Server?",
+      "answer": "System.Data.SqlClient",
+      "choices": [
+        "System.Data.SqlClient",
+        "System.Data.OleDb",
+        "System.Data.OracleClient",
+        "System.Data.Odbc"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What object is responsible for managing the data for an entity in a DataSet?",
+      "answer": "DataTable",
+      "choices": [
+        "DataTable",
+        "DataColumn",
+        "DataCommand",
+        "DataView"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which data provider is utilized to connect to ODBC sources in ADO.NET?",
+      "answer": "Data Provider for ODBC",
+      "choices": [
+        "Data Provider for ODBC",
+        "Data Provider for OLE DB",
+        "EntityClient Provider",
+        "Data Provider for SQL Server"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What namespace is used for connecting to ODBC data sources?",
+      "answer": "System.Data.Odbc",
+      "choices": [
+        "System.Data.Odbc",
+        "System.Data.SqlClient",
+        "System.Data.OleDb",
+        "System.Data.EntityClient"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is used in ADO.NET to wrap SQL commands and stored procedures for accessing and manipulating data?",
+      "answer": "Command",
+      "choices": [
+        "Command",
+        "Connection",
+        "DataView",
+        "DataAdapter"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What element is responsible for mapping table names from a database to a DataTable in ADO.NET?",
+      "answer": "DataColumnMapping",
+      "choices": [
+        "DataColumnMapping",
+        "DataProvider",
+        "DataTable",
+        "DataView"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What acts as a read-only access tool by invoking the ExecuteReader method of the Command object?",
+      "answer": "DataReaders",
+      "choices": [
+        "DataReaders",
+        "Connection",
+        "DataAdapters",
+        "DataRelation"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What object is needed to close the connection when accessing data using it?",
+      "answer": "DataReaders",
+      "choices": [
+        "DataReaders",
+        "DataCommand",
+        "DataProvider",
+        "DataView"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What object in ADO.NET is used to perform SQL queries and execute commands?",
+      "answer": "Command",
+      "choices": [
+        "Command",
+        "Connection",
+        "DataSet",
+        "DataAdapter"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What namespace is used for the EntityClient Provider in ADO.NET?",
+      "answer": "System.Data.EntityClient",
+      "choices": [
+        "System.Data.EntityClient",
+        "System.Data.OleDb",
+        "System.Data.OracleClient",
+        "System.Data.Odbc"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which data provider enables working with Entity Framework in ADO.NET?",
+      "answer": "EntityClient Provider",
+      "choices": [
+        "EntityClient Provider",
+        "Data Provider for Oracle",
+        "Data Provider for ODBC",
+        "Data Provider for OLE DB"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which classes are used as wrappers for SQL statements or stored procedure calls in ADO.NET?",
+      "answer": "SqlCommand, OleDbCommand, and ODBCCommand",
+      "choices": [
+        "SqlCommand, OleDbCommand, and ODBCCommand",
+        "SqlTransaction, OleDbTransaction, ODBCTransaction",
+        "SqlConnection, OleDbConnection, ODBCConnection",
+        "SqlCommandBuilder, OleDbCommandBuilder, ODBCCommandBuilder"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which classes automatically generate SQL commands from a SELECT statement and are used for updating tables?",
+      "answer": "SqlCommandBuilder, OleDbCommandBuilder, and ODBCCommandBuilder",
+      "choices": [
+        "SqlCommandBuilder, OleDbCommandBuilder, and ODBCCommandBuilder",
+        "SqlDataAdapter, OleDbDataAdapter, ODBCDataAdapter",
+        "SqlTransaction, OleDbTransaction, ODBCTransaction",
+        "SqlParameter, OleDbParameter, ODBCParameter"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which classes are used to connect to the database in ADO.NET?",
+      "answer": "SqlConnection, OleDbConnection, and ODBCConnection",
+      "choices": [
+        "SqlConnection, OleDbConnection, and ODBCConnection",
+        "SqlDataReader, OleDbDataReader, ODBCDataReader",
+        "SqlParameter, OleDbParameter, ODBCParameter",
+        "SqlTransaction, OleDbTransaction, ODBCTransaction"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which classes handle interaction between DataSet and data source, and execute SQL commands to populate a DataSet?",
+      "answer": "SqlDataAdapter, OleDbDataAdapter, and ODBCDataAdapter",
+      "choices": [
+        "SqlDataAdapter, OleDbDataAdapter, and ODBCDataAdapter",
+        "SqlDataReader, OleDbDataReader, ODBCDataReader",
+        "SqlParameter, OleDbParameter, ODBCParameter",
+        "SqlTransaction, OleDbTransaction, ODBCTransaction"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which classes provide forward-only, read-only access to data using a cursor?",
+      "answer": "SqlDataReader, OleDbDataReader, and ODBCDataReader",
+      "choices": [
+        "SqlDataReader, OleDbDataReader, and ODBCDataReader",
+        "SqlCommandBuilder, OleDbCommandBuilder, ODBCCommandBuilder",
+        "SqlConnection, OleDbConnection, ODBCConnection",
+        "SqlDataAdapter, OleDbDataAdapter, ODBCDataAdapter"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which classes define a parameter to a stored procedure in ADO.NET?",
+      "answer": "SqlParameter, OleDbParameter, and ODBCParameter",
+      "choices": [
+        "SqlParameter, OleDbParameter, and ODBCParameter",
+        "SqlCommandBuilder, OleDbCommandBuilder, ODBCCommandBuilder",
+        "SqlDataReader, OleDbDataReader, ODBCDataReader",
+        "SqlConnection, OleDbConnection, ODBCConnection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which classes represent transactions to be made in a data source in ADO.NET?",
+      "answer": "SqlTransaction, OleDbTransaction, and ODBCTransaction",
+      "choices": [
+        "SqlTransaction, OleDbTransaction, and ODBCTransaction",
+        "SqlDataReader, OleDbDataReader, ODBCDataReader",
+        "SqlDataAdapter, OleDbDataAdapter, ODBCDataAdapter",
+        "SqlCommand, OleDbCommand, ODBCCommand"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which namespace includes all generic data access classes?",
+      "answer": "System.Data",
+      "choices": [
+        "System.Data",
+        "System.Data.SqlClient",
+        "System.Data.Common",
+        "System.Data.EntityClient"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which namespace includes classes that are shared or overridden by individual data providers?",
+      "answer": "System.Data.Common",
+      "choices": [
+        "System.Data.Common",
+        "System.Data.OleDb",
+        "System.Data.Sql",
+        "System.Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which namespace includes Entity Framework classes?",
+      "answer": "System.Data.EntityClient",
+      "choices": [
+        "System.Data.EntityClient",
+        "System.Data.SqlClient",
+        "System.Data.Linq.SqlClient",
+        "System.Data.Common"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which namespace includes LINQ to SQL provider classes?",
+      "answer": "System.Data.Linq.SqlClient",
+      "choices": [
+        "System.Data.Linq.SqlClient",
+        "System.Data.SqlClient",
+        "System.Data.EntityClient",
+        "System.Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which namespace includes ODBC provider classes?",
+      "answer": "System.Data.Odbc",
+      "choices": [
+        "System.Data.Odbc",
+        "System.Data.Sql",
+        "System.Data.ProviderBase",
+        "System.Data.SqlTypes"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which namespace includes OLE DB provider classes?",
+      "answer": "System.Data.OleDb",
+      "choices": [
+        "System.Data.OleDb",
+        "System.Data.SqlClient",
+        "System.Data.Linq.SqlClient",
+        "System.Data.Odbc"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which namespace includes new base classes and connection factory classes?",
+      "answer": "System.Data.ProviderBase",
+      "choices": [
+        "System.Data.ProviderBase",
+        "System.Data.SqlTypes",
+        "System.Data.Common",
+        "System.Data"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which namespace includes new generic interfaces and classes for SQL Server data access?",
+      "answer": "System.Data.Sql",
+      "choices": [
+        "System.Data.Sql",
+        "System.Data.ProviderBase",
+        "System.Data.EntityClient",
+        "System.Data.Linq.SqlClient"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which namespace includes SQL Server provider classes?",
+      "answer": "System.Data.SqlClient",
+      "choices": [
+        "System.Data.SqlClient",
+        "System.Data.ProviderBase",
+        "System.Data.EntityClient",
+        "System.Data.Linq.SqlClient"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which namespace includes SQL Server data types?",
+      "answer": "System.Data.SqlTypes",
+      "choices": [
+        "System.Data.SqlTypes",
+        "System.Data.SqlClient",
+        "System.Data.Linq.SqlClient",
+        "System.Data.Sql"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which tool is a server management console used for logging into servers and accessing databases?",
+      "answer": "Server Explorer",
+      "choices": [
+        "Server Explorer",
+        "SSMS",
+        "Solution Explorer",
+        "Data Connections"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which contains all connections to server and local databases?",
+      "answer": "Data Connections",
+      "choices": [
+        "Data Connections",
+        "SQL Server Object Explorer",
+        "SQL Server Management Studio",
+        "Master Database File (MDF)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which tool is used to design, connect to databases, browse the schema, and create queries on objects?",
+      "answer": "SQL Server Object Explorer",
+      "choices": [
+        "SQL Server Object Explorer",
+        "SQL Server Management Studio",
+        "Solution Explorer",
+        "Log Database Files (LDF)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does SQL Server Management Studio (SSMS) help to deploy, monitor, and upgrade?",
+      "answer": "Data-tier components",
+      "choices": [
+        "Data-tier components",
+        "Transact-SQL scripts",
+        "Database connections",
+        "Local tables"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What file format is used to save a service-based database created in Visual Studio?",
+      "answer": ".mdf",
+      "choices": [
+        ".mdf",
+        ".sql",
+        ".db",
+        ".dat"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which file contains logs for each transaction of a database?",
+      "answer": ".ldf",
+      "choices": [
+        ".ldf",
+        ".dat",
+        ".sql",
+        "Transact-SQL (T-SQL)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Where do you navigate in Visual Studio to create a table for a local database?",
+      "answer": "Tables folder",
+      "choices": [
+        "Tables folder",
+        "Views folder",
+        "Functions folder",
+        "Tables and schemas"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which language or editor can be used in Visual Studio to create a table?",
+      "answer": "T-SQL",
+      "choices": [
+        "T-SQL",
+        "Script File Editor",
+        "Visual Query Builder",
+        "Table Properties"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What button is clicked to update and save the created table in the database?",
+      "answer": "Update button",
+      "choices": [
+        "Update button",
+        "Preview button",
+        "Execute button",
+        "Synchronize button"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SQL query is used to create a database?",
+      "answer": "CREATE DATABASE db_name;",
+      "choices": [
+        "CREATE DATABASE db_name;",
+        "DROP DATABASE db_name;",
+        "DROP TABLE table_name;",
+        "ALTER DATABASE db_name;"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SQL query is used to drop a database?",
+      "answer": "DROP DATABASE db_name;",
+      "choices": [
+        "DROP DATABASE db_name;",
+        "CREATE TABLE table_name;",
+        "DROP TABLE table_name;",
+        "ALTER TABLE db_name;"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the query for creating a table in SQL?",
+      "answer": "CREATE TABLE table_name",
+      "choices": [
+        "CREATE TABLE table_name",
+        "DROP DATABASE db_name;",
+        "DROP TABLE table_name;",
+        "ALTER TABLE table_name;"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the SQL query for deleting a table?",
+      "answer": "DROP TABLE table_name;",
+      "choices": [
+        "DROP TABLE table_name;",
+        "CREATE DATABASE db_name;",
+        "DROP DATABASE db_name;",
+        "ALTER TABLE table_name;"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What object is used to establish a connection to the data source?",
+      "answer": "Connection object",
+      "choices": [
+        "Connection object",
+        "DataReader object",
+        "DataAdapter object",
+        "SqlCommand object"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which step involves opening a connection to the specified server?",
+      "answer": "SqlConnection",
+      "choices": [
+        "SqlConnection",
+        "DataAdapter",
+        "DataReader",
+        "Close() method"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What object is created to execute commands on the database?",
+      "answer": "SqlCommand",
+      "choices": [
+        "SqlCommand",
+        "DataAdapter",
+        "DataReader",
+        "Connection object"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which object is used to read data in a forward-only manner?",
+      "answer": "DataReader",
+      "choices": [
+        "DataReader",
+        "Command object",
+        "SqlConnection",
+        "ConnectionString"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method is called to release resources and close the database connection?",
+      "answer": "Close()",
+      "choices": [
+        "Close()",
+        "ExecuteReader()",
+        "Dispose()",
+        "Commit()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the name of the property used to assign the connection string?",
+      "answer": "ConnectionString",
+      "choices": [
+        "ConnectionString",
+        "State",
+        "Database",
+        "CommandText"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What property of SqlConnection returns the name of the SQL Server instance?",
+      "answer": "DataSource",
+      "choices": [
+        "DataSource",
+        "State",
+        "ConnectionString",
+        "SqlTransaction"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which property of SqlConnection returns the name of the connected database?",
+      "answer": "Database",
+      "choices": [
+        "Database",
+        "DataSource",
+        "ConnectionString",
+        "CommandType"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which property of SqlConnection returns the current state of the connection?",
+      "answer": "State",
+      "choices": [
+        "State",
+        "Database",
+        "ConnectionString",
+        "DataAdapter"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is used to open a connection in SqlConnection?",
+      "answer": "Open()",
+      "choices": [
+        "Open()",
+        "ExecuteReader()",
+        "BeginTransaction()",
+        "Dispose()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What should you specify to establish a connection to a database, referring to the computer name?",
+      "answer": "Server",
+      "choices": [
+        "Catalog",
+        "Database",
+        "Server",
+        "Trusted_Connection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which attribute is used to specify the database that needs to be accessed?",
+      "answer": "Database / Initial Catalog",
+      "choices": [
+        "Trusted_Connection",
+        "Server",
+        "Database / Initial Catalog",
+        "Username"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is used to implement secure connection with the database, and it can be set to true or false?",
+      "answer": "Trusted_Connection / Integrated Security",
+      "choices": [
+        "Server",
+        "Username",
+        "Trusted_Connection / Integrated Security",
+        "Password"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which attribute is used to specify the username in a connection when Integrated Security is false?",
+      "answer": "Username",
+      "choices": [
+        "Password",
+        "Server",
+        "Username",
+        "Database / Initial Catalog"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What attribute is needed to establish a secure connection, along with the username?",
+      "answer": "Password / Pwd",
+      "choices": [
+        "Database / Initial Catalog",
+        "Password / Pwd",
+        "Server",
+        "Trusted_Connection"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What class is used to perform desired processing on the database and allows executing T-SQL or stored procedures?",
+      "answer": "SqlCommand",
+      "choices": [
+        "SqlDataReader",
+        "SqlParameterCollection",
+        "SqlCommand",
+        "SqlRecord"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method of the SqlCommand class executes the command but does not return output?",
+      "answer": "ExecuteNonQuery",
+      "choices": [
+        "ExecuteScalar",
+        "ExecuteReader",
+        "ExecuteNonQuery",
+        "ExecuteRow"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What method of the SqlCommand class executes the command and returns a DataReader object?",
+      "answer": "ExecuteReader",
+      "choices": [
+        "ExecuteRow",
+        "ExecuteNonQuery",
+        "ExecuteReader",
+        "ExecuteScalar"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which object is a forward-only and read-only cursor for fetching rows from the result set?",
+      "answer": "SqlDataReader",
+      "choices": [
+        "SqlRecord",
+        "SqlDataReader",
+        "SqlParameterCollection",
+        "SqlCommand"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What method of the SqlCommand class executes the command and returns a single row as a SqlRecord object?",
+      "answer": "ExecuteRow",
+      "choices": [
+        "ExecuteScalar",
+        "ExecuteNonQuery",
+        "ExecuteRow",
+        "ExecuteReader"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method of the SqlCommand class executes the command and returns the first column of the first row in the result set?",
+      "answer": "ExecuteScalar",
+      "choices": [
+        "ExecuteReader",
+        "ExecuteRow",
+        "ExecuteScalar",
+        "ExecuteNonQuery"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which property of the Command object gets or sets the SqlConnection class used by the Command object?",
+      "answer": "Connection",
+      "choices": [
+        "CommandText",
+        "Connection",
+        "CommandType",
+        "CommandText"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which property of the Command object gets or sets the stored procedure or T-SQL statement?",
+      "answer": "CommandText",
+      "choices": [
+        "CommandType",
+        "Connection",
+        "CommandText",
+        "CommandType"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which property of the Command object indicates the way the CommandText should be interpreted?",
+      "answer": "CommandType",
+      "choices": [
+        "Connection",
+        "CommandText",
+        "CommandType",
+        "ExecuteScalar"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What query is used to select specific columns of a table?",
+      "answer": "SELECT column1, column2, column3,... FROM table_name",
+      "choices": [
+        "SELECT column1, column2, column3,... FROM table_name",
+        "SELECT * FROM table_name",
+        "UPDATE table_name",
+        "DELETE FROM table_name"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SQL command is used to insert rows in a table?",
+      "answer": "INSERT INTO",
+      "choices": [
+        "UPDATE",
+        "INSERT INTO",
+        "SELECT * FROM",
+        "DELETE FROM"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which object refers to a collection of parameters that is connected with SqlCommand?",
+      "answer": "SqlParameterCollection",
+      "choices": [
+        "SqlParameterCollection",
+        "SqlDataReader",
+        "SqlRecord",
+        "SqlCommand"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method adds a SqlParameter object to the SqlParameterCollection with a name and SQL data type?",
+      "answer": "Add()",
+      "choices": [
+        "AddWithValue()",
+        "Add()",
+        "AddWithValue()",
+        "ExecuteScalar"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method adds a value to the end of the SqlParameterCollection with the parameter name and value?",
+      "answer": "AddWithValue()",
+      "choices": [
+        "Add()",
+        "AddWithValue()",
+        "Add()",
+        "ExecuteReader"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the SQL query for inserting data into all columns of a table?",
+      "answer": "INSERT INTO table_name VALUES(value1, value2, value3,...)",
+      "choices": [
+        "INSERT INTO table_name(column1, column2, ...) VALUES(value1, value2,...)",
+        "UPDATE table_name SET column1 = value1",
+        "INSERT INTO table_name VALUES(value1, value2, value3,...)",
+        "SELECT * FROM table_name"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the SQL query for inserting data into specified column names of a table?",
+      "answer": "INSERT INTO table_name (column1, column2,...) VALUES(value1, value2,...)",
+      "choices": [
+        "INSERT INTO table_name (column1, column2,...) VALUES(value1, value2,...)",
+        "INSERT INTO table_name VALUES(value1, value2,...)",
+        "UPDATE table_name SET column1 = value1",
+        "INSERT INTO table_name(column1, column2) VALUES(value1, value2)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What command is used to update or modify an existing record in a table?",
+      "answer": "UPDATE",
+      "choices": [
+        "DELETE",
+        "INSERT",
+        "UPDATE",
+        "SELECT"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which SQL clause is used to determine the number of records that will be updated in an SQL UPDATE command?",
+      "answer": "WHERE",
+      "choices": [
+        "SELECT",
+        "FROM",
+        "WHERE",
+        "JOIN"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the query to update data in a table using the SQL UPDATE command?",
+      "answer": "UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition",
+      "choices": [
+        "UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition",
+        "SELECT * FROM table_name",
+        "DELETE FROM table_name WHERE condition",
+        "UPDATE table_name SET column1 = value1 WHERE condition"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}

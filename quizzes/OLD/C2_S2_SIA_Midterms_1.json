@@ -1,0 +1,236 @@
+{
+  "quizInfo": {
+    "Subject": "Systems Integration and Architecture",
+    "Term": "Midterms",
+    "Title": "Sales and Distribution (SD)",
+    "LastModified": "14 June 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "Any external links/handouts should be referenced here"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which module allows organizations to store and manage customer and product-related data?",
+      "choices": [
+        "Sales and Distribution (SD)",
+        "Material Management (MM)",
+        "Production Planning (PP)",
+        "Financial Accounting (FI)"
+      ],
+      "answer": "Sales and Distribution (SD)"
+    },
+    {
+      "question": "What is the smallest organizational unit where a legal set of books can be maintained?",
+      "choices": [
+        "Client",
+        "Company code",
+        "Credit control area",
+        "Sales organization"
+      ],
+      "answer": "Company code"
+    },
+    {
+      "question": "Which SD organizational unit is responsible for the sale of specific products or services?",
+      "choices": [
+        "Distribution channel",
+        "Sales organization",
+        "Plant",
+        "Division"
+      ],
+      "answer": "Sales organization"
+    },
+    {
+      "question": "What is the purpose of a credit control area?",
+      "choices": [
+        "Manage customer credit limits",
+        "Group materials",
+        "Organize sales regions",
+        "Define distribution methods"
+      ],
+      "answer": "Manage customer credit limits"
+    },
+    {
+      "question": "How are products or services grouped in an SD organizational structure?",
+      "choices": [
+        "Sales organization",
+        "Distribution channel",
+        "Division",
+        "Plant"
+      ],
+      "answer": "Division"
+    },
+    {
+      "question": "Which data category in the customer master contains information relevant to the entire organization?",
+      "choices": [
+        "General data",
+        "Company code data",
+        "Sales area data",
+        "Material master data"
+      ],
+      "answer": "General data"
+    },
+    {
+      "question": "What are the three areas into which the customer master is divided?",
+      "choices": [
+        "General data, Company code data, Sales area data",
+        "General data, Material data, Sales data",
+        "Company code data, Sales data, Storage data",
+        "General data, Profit center data, Sales area data"
+      ],
+      "answer": "General data, Company code data, Sales area data"
+    },
+    {
+      "question": "What master data contains all the information a company needs to manage about a material?",
+      "choices": [
+        "Material master",
+        "Customer master",
+        "Condition master",
+        "Sales order"
+      ],
+      "answer": "Material master"
+    },
+    {
+      "question": "Which type of master data includes prices, surcharges, discounts, freights, and taxes?",
+      "choices": [
+        "Condition master",
+        "Customer master",
+        "Material master",
+        "Sales master"
+      ],
+      "answer": "Condition master"
+    },
+    {
+      "question": "What is the first step in the order-to-cash / sales order process?",
+      "choices": [
+        "Pre-sales activities",
+        "Sales order entry",
+        "Check availability",
+        "Pick materials"
+      ],
+      "answer": "Pre-sales activities"
+    },
+    {
+      "question": "What is the purpose of pre-sales activities in the SD module?",
+      "choices": [
+        "Assist the process of sales, distribution, and marketing",
+        "Create customer invoices",
+        "Manage material stock",
+        "Allocate costs"
+      ],
+      "answer": "Assist the process of sales, distribution, and marketing"
+    },
+    {
+      "question": "From which documents or activities can the sales order entry process originate?",
+      "choices": [
+        "Phone or email orders, existing contracts, and quotations",
+        "Purchase orders and invoices",
+        "Delivery notes and packing lists",
+        "Production orders and work instructions"
+      ],
+      "answer": "Phone or email orders, existing contracts, and quotations"
+    },
+    {
+      "question": "What are the three primary areas of a sales document?",
+      "choices": [
+        "Header, Line item(s), Scheduled line(s)",
+        "Header, Pricing, Delivery schedule",
+        "Sales area, Line item(s), Availability check",
+        "Billing information, Shipping information, Delivery schedule"
+      ],
+      "answer": "Header, Line item(s), Scheduled line(s)"
+    },
+    {
+      "question": "What does the delivery schedule specify when an order is created?",
+      "choices": [
+        "Requested delivery date",
+        "Customer payment terms",
+        "Material pricing",
+        "Credit limit"
+      ],
+      "answer": "Requested delivery date"
+    },
+    {
+      "question": "Which function determines the shipping point and route for delivering goods to customers?",
+      "choices": [
+        "Availability check",
+        "Pricing",
+        "Credit limit check",
+        "Route determination"
+      ],
+      "answer": "Route determination"
+    },
+    {
+      "question": "What is the purpose of the credit limit check during sales order entry?",
+      "choices": [
+        "Manage customer credit exposure",
+        "Verify material availability",
+        "Determine shipping routes",
+        "Calculate pricing conditions"
+      ],
+      "answer": "Manage customer credit exposure"
+    },
+    {
+      "question": "What does the availability check in the sales order entry process determine?",
+      "choices": [
+        "Material availability based on inventory movements",
+        "Customer order history",
+        "Pricing conditions",
+        "Shipping point locations"
+      ],
+      "answer": "Material availability based on inventory movements"
+    },
+    {
+      "question": "Which document controls and monitors sub-processes like picking, packing, and posting goods issue?",
+      "choices": [
+        "Delivery document",
+        "Billing document",
+        "Sales order",
+        "Purchase order"
+      ],
+      "answer": "Delivery document"
+    },
+    {
+      "question": "What does the goods issue in the shipping process signify?",
+      "choices": [
+        "Legal change in ownership of products",
+        "Document creation for shipping",
+        "Completion of packing process",
+        "Invoice generation"
+      ],
+      "answer": "Legal change in ownership of products"
+    },
+    {
+      "question": "Which billing method involves creating invoices based on delivered goods?",
+      "choices": [
+        "Delivery-based invoicing",
+        "Split invoicing",
+        "Collective invoicing",
+        "Credit memo invoicing"
+      ],
+      "answer": "Delivery-based invoicing"
+    },
+    {
+      "question": "What does the payment process in sales order management involve?",
+      "choices": [
+        "Posting payments against invoices and reconciling differences",
+        "Generating sales reports",
+        "Checking credit limits",
+        "Managing material availability"
+      ],
+      "answer": "Posting payments against invoices and reconciling differences"
+    },
+    {
+      "question": "What can be used in SAP to find the status of an order at any point in time?",
+      "choices": [
+        "Document flow and order status feature",
+        "Material ledger",
+        "Cost center reports",
+        "Inventory valuation"
+      ],
+      "answer": "Document flow and order status feature"
+    }
+  ]
+}

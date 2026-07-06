@@ -1,0 +1,268 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Systems Integration and Architecture",
+    "Term": "Prefinals",
+    "Title": "Customer Service (CS) Part 2",
+    "LastModified": "20 November 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "06 Handout 1 - 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "A billing must be created first before planning and releasing a request.",
+      "answer": "This statement is FALSE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "After the service order is released, the activities are executed and performed such as repair and maintenance.",
+      "answer": "This statement is TRUE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "A confirmation and technical completion are achieved to issue the accrued cost in the form of billing.",
+      "answer": "This statement is TRUE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "After the execution of activities are settled, then the business or service is completed.",
+      "answer": "This statement is FALSE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the FIRST step in Service Order Process?",
+      "answer": "Service Order",
+      "choices": [
+        "Service Order",
+        "Billing",
+        "Good Issue",
+        "Technical inspection"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the SECOND step in Service Order Process?",
+      "answer": "Planning and release",
+      "choices": [
+        "Planning and release",
+        "Good receipt",
+        "Repair",
+        "Execution of activities"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the THIRD step in Service Order Process?",
+      "answer": "Execution of activities",
+      "choices": [
+        "Execution of activities",
+        "Business completion",
+        "Service Order",
+        "Business completion"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the FOURTH step in Service Order Process?",
+      "answer": "Confirmation and technical completion",
+      "choices": [
+        "Confirmation and technical completion",
+        "Service Order",
+        "Technical inspection",
+        "Billing"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the FIFTH step in Service Order Process?",
+      "answer": "Billing",
+      "choices": [
+        "Billing",
+        "Business completion",
+        "Confirmation and technical completion",
+        "Execution of activities"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the SIXTH step in Service Order Process?",
+      "answer": "Business completion",
+      "choices": [
+        "Business completion",
+        "Billing",
+        "Confirmation and technical completion",
+        "Execution of activities"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How many steps does a Service Order Process have?",
+      "answer": 6,
+      "choices": [
+        6,
+        8,
+        4,
+        7
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "A customer repair order is initiated informing the business about a possible goods return due to a defect.",
+      "answer": "This statement is FALSE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "A customer repair order is created and issued in the second step of Goods Return and Repair Process.",
+      "answer": "This statement is TRUE .",
+      "choices": [
+        "This statement is TRUE .",
+        "This statement is FALSE ."
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "How many steps does a Goods Return and Repair Process have?",
+      "answer": 8,
+      "choices": [
+        6,
+        8,
+        4,
+        7
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the FIRST step in Goods Return and Repair Process?",
+      "answer": "Customer message",
+      "choices": [
+        "Customer message",
+        "Customer repair order",
+        "Good receipt",
+        "Technical inspection"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the SECOND step in Goods Return and Repair Process?",
+      "answer": "Customer repair order",
+      "choices": [
+        "Customer repair order",
+        "Good receipt",
+        "Technical inspection",
+        "Technical inspection"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the THIRD step in Goods Return and Repair Process?",
+      "answer": "Good receipt",
+      "choices": [
+        "Good receipt",
+        "Technical inspection",
+        "Repair",
+        "Service order"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the FOURTH step in Goods Return and Repair Process?",
+      "answer": "Technical inspection",
+      "choices": [
+        "Technical inspection",
+        "Billing",
+        "Good Issue",
+        "Service order"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the FIFTH step in Goods Return and Repair Process?",
+      "answer": "Repair",
+      "choices": [
+        "Repair",
+        "Service order",
+        "Good Issue",
+        "Good receipt"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the SIXTH step in Goods Return and Repair Process?",
+      "answer": "Service order",
+      "choices": [
+        "Service order",
+        "Good receipt",
+        "Good Issue",
+        "Billing"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which is the SEVENTH step in Goods Return and Repair Process?",
+      "answer": "Good Issue",
+      "choices": [
+        "Good Issue",
+        "Service order",
+        "Repair",
+        "Technical inspection"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What is the EIGHTH step in the Goods Return and Repair Process?",
+      "answer": "Billing",
+      "choices": [
+        "Billing",
+        "Good receipt",
+        "Technical inspection",
+        "Repair"
+      ],
+      "reference": "06 Handout 1 - 2",
+      "term": "Prefinals"
+    }
+  ]
+}

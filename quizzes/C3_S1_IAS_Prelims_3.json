@@ -1,0 +1,340 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance & Security (Cybersecurity Fundamentals)",
+    "Term": "Prelims",
+    "Title": "The CIA Triad and Data Classification Standards || 01 Handout 1",
+    "LastModified": "18 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "The CIA Triad and Data Classification Standards || 01 Handout 1"
+    ]
+  },
+  "quizData":  [
+    {
+      "question": "What ensures that sensitive information is accessed only by an authorized person and kept away from those not authorized to possess them?",
+      "answer": "Confidentiality",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is implemented using security mechanisms such as usernames, passwords, access control lists, and encryption?",
+      "answer": "Confidentiality",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is also common for information to be categorized according to the extent of damage that could be done should it fall into unintended hands?",
+      "answer": "Confidentiality",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What ensures that information is true and correct to its original purposes?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What principle ensures the receiver gets the information the creator intended?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What principle restricts modification of information to authorized persons only?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What principle aims to keep information in its original state when at rest?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is implemented using security mechanisms like data encryption and hashing?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What might be compromised by non-human-caused events like an electromagnetic pulse?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is important to have in place to ensure data integrity in case of server crashes?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What ensures that information and resources are available to those who need them?",
+      "answer": "Availability",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is implemented using methods like hardware maintenance and software patching?",
+      "answer": "Availability",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is implemented using methods like network optimization?",
+      "answer": "Availability",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What processes are used to mitigate consequences when hardware issues occur?",
+      "answer": "Availability",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What can be used to guard against downtime and unreachable data due to DDoS attacks?",
+      "answer": "Availability",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What establishes a framework for classifying data based on its sensitivity, value, and criticalness?",
+      "answer": "Data Classification Standards",
+      "choices": [
+        "Data Encryption Methods",
+        "Access Control Lists",
+        "Data Retention Policies",
+        "Data Classification Standards"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the first step in the data management life cycle that involves understanding the nature, classification, and location of data?",
+      "answer": "Understanding",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Understanding"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which phase in the data management life cycle involves activities like collecting data, experimenting, and observing?",
+      "answer": "Creating",
+      "choices": [
+        "Archiving",
+        "Destroying",
+        "Understanding",
+        "Creating"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage includes activities such as designing research, locating existing data, and capturing metadata?",
+      "answer": "Storing",
+      "choices": [
+        "Using",
+        "Sharing",
+        "Archiving",
+        "Storing"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which phase involves activities like entering, digitizing, and transcribing data?",
+      "answer": "Using",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Sharing",
+        "Using"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what stage would you perform data anonymization, if necessary?",
+      "answer": "Using",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Sharing",
+        "Using"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage encompasses activities like distributing, sharing, and promoting data?",
+      "answer": "Sharing",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Sharing"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which stage includes establishing copyright and controlling access to data?",
+      "answer": "Sharing",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Sharing"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage involves migrating data to the best format and suitable medium?",
+      "answer": "Archiving",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Archiving"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which stage includes backing up and storing data for long-term preservation?",
+      "answer": "Archiving",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Archiving"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the final stage of the data lifecycle that involves disposing of data securely?",
+      "answer": "Destroying",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Destroying"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage involves activities like electronic shredding and destroying paper records?",
+      "answer": "Destroying",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Destroying"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    }
+  ]
+}

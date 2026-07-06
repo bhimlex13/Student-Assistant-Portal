@@ -1,0 +1,148 @@
+{
+  "quizInfo": {
+    "Subject": "Mobile Systems and Technologies",
+    "Term": "Finals",
+    "Title": "SQLite Databases",
+    "LastModified": "08 May 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Where is the source code for SQLite located?",
+      "answer": "Public Domain",
+      "choices": [
+        "Public Domain",
+        "Proprietary Domain",
+        "Domain Expansion: Malevolent Kitchen",
+        "Private Domain"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which of the following qualities imply that SQLite requires NO other components?",
+      "answer": "Self-contained",
+      "choices": [
+        "Serverless",
+        "Zero-configuration",
+        "Self-contained",
+        "Transactional"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "SQLite is written in what language?",
+      "answer": "C",
+      "choices": [
+        "C++",
+        "Java",
+        "C#",
+        "C"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What method runs the provided SQL and returns a Cursor of the result set.",
+      "answer": "rawQuery()",
+      "choices": [
+        "tableQuery()",
+        "rawQuery()",
+        "selectQuery()",
+        "cursorQuery()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "SQLite requires a separate server process to run.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "Maybe",
+        "False",
+        "A secret other option"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What SQLite method opens a database if it exists or create one if it doesn't yet?",
+      "answer": "openOrCreateDatabase()",
+      "choices": [
+        "openOrCreateDatabase()",
+        "createOrOpenDatabase()",
+        "accessDatabase()",
+        "selectDatabase()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a cursor?",
+      "answer": "A pointer to a table row",
+      "choices": [
+        "Where editing takes place",
+        "The arrow on the screen",
+        "The result set from a rawQuery() method call",
+        "A pointer to a table row"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What class has methods to execute SQL commands and perform other common database management tasks?",
+      "answer": "SQLiteDatabase",
+      "choices": [
+        "SQLiteDatabase",
+        "SQLitePackage",
+        "SQLiteDB",
+        "SQLiteDBMS"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which among these is NOT a characteristic of a SQL database engine?",
+      "answer": "Efficient",
+      "choices": [
+        "Self-contained",
+        "Zero-configuration",
+        "Efficient",
+        "Transactional"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What SQLite method executes an SQL statement?",
+      "answer": "execSQL()",
+      "choices": [
+        "execSQL()",
+        "executeSQL()",
+        "execute()",
+        "doSQL()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "BONUS: Wha haffen vella?",
+      "answer": "Why you crying again?",
+      "choices": [
+        "Vamfire will feyt to me!",
+        "Why you crying again?",
+        "I know, vamfire ryt?",
+        "Pinagsasabi mo teh"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    }
+  ]
+}

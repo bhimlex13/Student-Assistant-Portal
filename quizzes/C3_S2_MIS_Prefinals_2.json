@@ -1,0 +1,412 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Prefinals",
+    "Title": "Strategic Level Information Systems",
+    "LastModified": "5 May 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "08 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What system works in tandem with operational information systems for marketing and finance through various means such as processing of operational data?",
+      "answer": "Strategic Marketing Information Systems (SMIS)",
+      "choices": [
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Marketing Research System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system allows tactical decision making by the marketing department such as the implementation of marketing plans in order to reach sales and profit margins set by higher management?",
+      "answer": "Strategic Marketing Information Systems (SMIS)",
+      "choices": [
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Marketing Research System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system creates different types of sales forecasts, from industry sales, product/services sales, to forecast market segments?",
+      "answer": "Sales Forecasting System",
+      "choices": [
+        "Sales Forecasting System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Marketing Research System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system is usually based on more than just historical data, as it’s also based on assumptions concerning possible factors such as activities of other enterprises, government actions and policies, economic trends and demands, and other functions like weather?",
+      "answer": "Sales Forecasting System",
+      "choices": [
+        "Sales Forecasting System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Marketing Research System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system handles marketing research whether for research departments, for large organizations, or via consultants for smaller enterprises?",
+      "answer": "Marketing Research System",
+      "choices": [
+        "Marketing Research System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system involves conducting trend analysis of industry-wide market sales analysis of target demographics and customer satisfaction for products/services, and market shares estimated for the products/services offered?",
+      "answer": "Marketing Research System",
+      "choices": [
+        "Marketing Research System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Product Planning and Development System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system makes information about consumer preferences obtained from marketing research systems and from customer inquiries available?",
+      "answer": "Product Planning and Development System",
+      "choices": [
+        "Product Planning and Development System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Marketing Research System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system's output information is used to develop new products with specifications that meet the criteria from the output information of the system?",
+      "answer": "Product Planning and Development System",
+      "choices": [
+        "Product Planning and Development System",
+        "Strategic Marketing Information Systems (SMIS)",
+        "Sales Forecasting System",
+        "Marketing Research System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of information system can provide support for production decisions like designing and layouting of production facilities, as well as the selection for facility technologies, policies, and personnel?",
+      "answer": "Strategic Production Information System (SPIS)",
+      "choices": [
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of information system involves decisions that require commitment of large amounts of capital and resources over a long period of time?",
+      "answer": "Strategic Production Information System (SPIS)",
+      "choices": [
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "From which system is information considered important for production decisions?",
+      "answer": "Strategic Production Information System (SPIS)",
+      "choices": [
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system relies on a variety of internal and external sources of information?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information that is mostly external, objective, and quantitative in nature such as manpower/labor availability and cost?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information including delivery systems for both raw and finished materials?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as the availability of suitable locations?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as land acquisition and cost?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as distance to raw materials?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as power costs?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which system requires information such as the rate of property and income taxation?",
+      "answer": "Site Planning and Selection System",
+      "choices": [
+        "Site Planning and Selection System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system allows top managers to make better or more informed decisions on which production technologies should be used for a product or service?",
+      "answer": "Technology Planning and Assessment System",
+      "choices": [
+        "Technology Planning and Assessment System",
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system can identify new technology and assess them for their strategic advantages, which can help top management in other aspects than production?",
+      "answer": "Technology Planning and Assessment System",
+      "choices": [
+        "Technology Planning and Assessment System",
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system may use underlying technology like databases, library resources, government databases, industry groups, private resource groups, and consulting organizations?",
+      "answer": "Technology Planning and Assessment System",
+      "choices": [
+        "Technology Planning and Assessment System",
+        "Strategic Production Information System (SPIS)",
+        "Process Positioning System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system handles process positioning and vertical integration, which are processes that are to be performed for any given product/service?",
+      "answer": "Process Positioning System",
+      "choices": [
+        "Process Positioning System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Facility Design System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system includes information on processes such as production from raw materials, assembly, or outsourced prefabrication and labor that allows top management to create decisions based on costs, production duration, and demand?",
+      "answer": "Process Positioning System",
+      "choices": [
+        "Process Positioning System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Site Planning and Selection System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system processes information for decisions concerning proposed facilities?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes facility design and layout?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Process Positioning System",
+        "Site Planning and Selection System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes proposed technologies?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes personnel?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Site Planning and Selection System",
+        "Technology Planning and Assessment System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes expected completion dates?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Process Positioning System",
+        "Site Planning and Selection System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes transportation?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes costs of materials for construction?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system uses information that includes maintenance?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Process Positioning System",
+        "Site Planning and Selection System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "From which system can information be procured from site planning, technology assessment, and process positioning?",
+      "answer": "Facility Design System",
+      "choices": [
+        "Facility Design System",
+        "Strategic Production Information System (SPIS)",
+        "Technology Planning and Assessment System",
+        "Process Positioning System"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Prefinals"
+    }
+  ]
+}

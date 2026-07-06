@@ -1,0 +1,700 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Systems Integration and Architecture",
+    "Term": "Prelims",
+    "Title": "Human Capital Management (HCM)",
+    "LastModified": "19 September 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "02_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which is a variety of practices and applications used for recruiting, managing, and developing an organization’s human capital or workforce?",
+      "answer": "Human Capital Management (HCM)",
+      "choices": [
+        "Human Capital Management (HCM)",
+        "Manager Self-Service (MSS)",
+        "Enterprise Structure",
+        "Organizational Plan"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which represents the structural and personnel organization of a company, consisting of organization units. It illustrates hierarchies and an employee's responsibility?",
+      "answer": "Organizational Structure",
+      "choices": [
+        "Organizational Structure",
+        "Enterprise Structure",
+        "Personnel Structure",
+        "Organizational Plan"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which represents a company area differentiated between personnel administrative, time management, and expensive organizational aspects?",
+      "answer": "Personnel Area",
+      "choices": [
+        "Personnel Area",
+        "Personnel Subarea",
+        "Personnel Structure",
+        "Employee Group"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which represents part of a personnel area and represents a company area differentiated between personnel administration, time management, and payroll accounting aspects?",
+      "answer": "Personnel Subarea",
+      "choices": [
+        "Personnel Area",
+        "Personnel Subarea",
+        "Personnel Structure",
+        "Employee Group"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which describes an employee’s position within the company. It is defined by employee group and employee subgroup?",
+      "answer": "Personnel Structure",
+      "choices": [
+        "Personnel Area",
+        "Personnel Subarea",
+        "Personnel Structure",
+        "Employee Group"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is an organizational unit for which personnel-related regulations can be specified such as active employees, external, and retirees?",
+      "answer": "Employee Group",
+      "choices": [
+        "Employee Group",
+        "Employee Subgroup",
+        "Personnel Subarea",
+        "Personnel Area"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is an organizational unit within the employee group for which personnel-related regulations are specified, such as industrial employees, commercial clerks, and laboratory assistants?",
+      "answer": "Employee Subgroup",
+      "choices": [
+        "Employee Group",
+        "Employee Subgroup",
+        "Personnel Subarea",
+        "Personnel Area"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is an example of Employee Group?",
+      "answer": "Retiree",
+      "choices": [
+        "Internal",
+        "Trainee",
+        "Employee",
+        "Retiree"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is an example of Employee Subroup?",
+      "answer": "Employee",
+      "choices": [
+        "Active",
+        "Employee",
+        "External",
+        "Retiree"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which describes in which function an employee is acting. It is object-oriented, and each element is represented by an object which can be assigned to each other?",
+      "answer": "Organizational Plan",
+      "choices": [
+        "Organizational Structure",
+        "Enterprise Structure",
+        "Personnel Structure",
+        "Organizational Plan"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which can be grouped according to functional and regional aspects?",
+      "answer": "Organizational Unit",
+      "choices": [
+        "Organizational Unit",
+        "Position",
+        "Person",
+        "Cost Center"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is assigned to organizational units and filled by employees such as accounting clerks in the Accounting Department?",
+      "answer": "Position",
+      "choices": [
+        "Organizational Unit",
+        "Position",
+        "Person",
+        "Job"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Who is the employee who fills positions?",
+      "answer": "Person",
+      "choices": [
+        "Internal",
+        "External",
+        "Person",
+        "Active"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which originates from SAP Controlling and can be linked with positions or organizational units?",
+      "answer": "Cost Center",
+      "choices": [
+        "Organizational Unit",
+        "Position",
+        "Person",
+        "Cost Center"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is general description of tasks an employee must perform, such as the position of the Head of Department?",
+      "answer": "Job",
+      "choices": [
+        "Organizational Unit",
+        "Position",
+        "Person",
+        "Job"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is the central employee identifier in SAP assigned by the system or manually and comprises up to eight (8) digits?",
+      "answer": "Personnel Number",
+      "choices": [
+        "Personnel Number",
+        "Reference Personnel Number",
+        "InfoTypes",
+        "Personnel Administration"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which helps map different contractual relationships and recreates an existing employee in the system with a new personnel number?",
+      "answer": "Reference Personnel Number",
+      "choices": [
+        "Personnel Number",
+        "Reference Personnel Number",
+        "InfoTypes",
+        "Personnel Administration"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which are collections of logically linked data fields wherein HR master data are structured and process employee data in an effective structure based on business requirements?",
+      "answer": "InfoTypes",
+      "choices": [
+        "Personnel Number",
+        "Reference Personnel Number",
+        "InfoTypes",
+        "Personnel Administration"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is not a characteristic of InfoTypes?",
+      "answer": "plausibility checks",
+      "choices": [
+        "plausibility checks",
+        "Has sub-types representing a sub-variant of the InfoType",
+        "Time-dependent",
+        "Personnel action, and Single InfoType Maintenance"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is the first step of SAP HCM processes?",
+      "answer": "Organizational Management",
+      "choices": [
+        "Organizational Management",
+        "Personnel Administration",
+        "Recruitment",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is the last step of SAP HCM processes?",
+      "answer": "Employee Self-Service (ESS)/Manager SelfService (MSS)",
+      "choices": [
+        "Employee Self-Service (ESS)/Manager SelfService (MSS)",
+        "Personnel Controlling",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which models the organizational structure of the enterprise and also analyzes an organizational unit to define workforce requirements and personnel cost planning?",
+      "answer": "Organizational Management",
+      "choices": [
+        "Organizational Management",
+        "Personnel Administration",
+        "Recruitment",
+        "Organizational Plan"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is not a function of Organizational Management?",
+      "answer": "Create, change, and delimit persons",
+      "choices": [
+        "Create, change, and delimit persons",
+        "Create, change, and delimit jobs",
+        "Create, change, and delimit positions",
+        "Create, change, and delimit organizational units"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is concerned with creating and maintaining personnel master data and sets the data basis for other processes in Human Resource Management and reporting?",
+      "answer": "Personnel Administration",
+      "choices": [
+        "Organizational Management",
+        "Personnel Administration",
+        "Recruitment",
+        "Organizational Plan"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is to detect errors and prevent incorrect data transfer.",
+      "answer": "plausibility checks",
+      "choices": [
+        "plausibility checks",
+        "automatic history",
+        "fraud check",
+        "error management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is created when changing master data for reporting and verification of data integrity.",
+      "answer": "automatic history",
+      "choices": [
+        "plausibility checks",
+        "automatic history",
+        "fraud check",
+        "error management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which process objective is to employ personnel with all the required qualifications?",
+      "answer": "Recruitment",
+      "choices": [
+        "Recruitment",
+        "Personnel Administration",
+        "Personnel Development",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What are the 2 types of recruitment?",
+      "answer": "external and internal",
+      "choices": [
+        "external and internal",
+        "employee group and employee subgroup",
+        "active and inactive",
+        "active and retiree"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The goal of _______ to support the HR department in searching, choosing, and recruiting adequate applicants?",
+      "answer": "Recruitment",
+      "choices": [
+        "Recruitment",
+        "Personnel Administration",
+        "Personnel Development",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "A database for applicants is developed in this process, including the administration of vacant positions.",
+      "answer": "Recruitment Process",
+      "choices": [
+        "Recruitment Process",
+        "Personnel Administration",
+        "Personnel Development",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Maintaining applicant data is done in _____ using the Initial Data Entry or Application Actions in SAP Fiori",
+      "answer": "InfoTypes",
+      "choices": [
+        "InfoTypes",
+        "DataTypes",
+        "plausibility checks",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which structures applicants based on their employment relationship type?",
+      "answer": "Applicant Group",
+      "choices": [
+        "Applicant Group",
+        "Applicant Range",
+        "Employee Group",
+        "Employee Subgroup"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which classifies applicants based on hierarchical or functional criteria?",
+      "answer": "Applicant Range",
+      "choices": [
+        "Applicant Group",
+        "Applicant Range",
+        "Employee Group",
+        "Employee Subgroup"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which lets every registered applicant partake in the selection procedure?",
+      "answer": "Global Selection Procedure",
+      "choices": [
+        "Global Selection Procedure",
+        "Multi Selection Procedure",
+        "Single Selection Procedure",
+        "Selection Procedure for Every Vacancy"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which selection procedure indicates that the applicant is assigned only to special vacancies?",
+      "answer": "Selection Procedure for Every Vacancy",
+      "choices": [
+        "Global Selection Procedure",
+        "Multi Selection Procedure",
+        "Single Selection Procedure",
+        "Selection Procedure for Every Vacancy"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Its goal is to qualify employees for current and future needs and provide long-term employee benefits",
+      "answer": "Personnel Development",
+      "choices": [
+        "Talent Management",
+        "Personnel Development",
+        "Qualification",
+        "Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which can be connected to persons or positions and needs to be attached to attributes. It can have a half-life period or a validity period?",
+      "answer": "Qualification",
+      "choices": [
+        "Talent Management",
+        "Personnel Development",
+        "Qualification",
+        "Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which are qualifications, knowledge, and experiences that can be attached to positions and is created with a characteristic?",
+      "answer": "Requirements",
+      "choices": [
+        "Talent Management",
+        "Personnel Development",
+        "Qualification",
+        "Requirements"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is when a comparison is made between employee qualifications and the position requirements in this proces.",
+      "answer": "Profile Matchup",
+      "choices": [
+        "Profile Matchup",
+        "Recruitment",
+        "Qualification",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a process involves career planning arrangements and succession planning accomplishments and generates general and individual development plans.",
+      "answer": "Talent Management",
+      "choices": [
+        "Career Planning",
+        "Succession Planning",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which identifies career goals such as by defining and developing special stations of a career (job, position, and course of instruction) and includes comparing qualifications with requirements of one station of a career to personnel decisions and courses of instruction?",
+      "answer": "Career Planning",
+      "choices": [
+        "Career Planning",
+        "Succession Planning",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which assures continuity in personnel allocation for key positions and includes proactive search for candidates to reallocate key positions?",
+      "answer": "Succession Planning",
+      "choices": [
+        "Career Planning",
+        "Succession Planning",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which summarize teaching and other educational actions to achieve special qualifications?",
+      "answer": "Development Plans",
+      "choices": [
+        "Career Planning",
+        "Development Plans",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which defines the objective setting between the enterprise and employees and evaluates the benefits of employees to form feedback used to answer whether the goals are achieved?",
+      "answer": "Performance Management",
+      "choices": [
+        "Career Planning",
+        "Development Plans",
+        "Performance Management",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "An appraisal template has been created and provided with header data. The appraisal template consists of formulas, criteria groups, criteria, and qualifications.",
+      "answer": "In Preparation",
+      "choices": [
+        "In Preparation",
+        "In Process",
+        "Completed",
+        "Approved"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "An appraisal has been given but it is not completed; the evaluation may still be changed.",
+      "answer": "In Process",
+      "choices": [
+        "In Preparation",
+        "In Process",
+        "Completed",
+        "Approved"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "The appraisal is finished.",
+      "answer": "Completed",
+      "choices": [
+        "Rejected",
+        "In Process",
+        "Completed",
+        "Approved"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which enables the creation of reports from a flood of data within Human Resource Management (HRM) and ata needed for a report can arise from a single or several HR processes?",
+      "answer": "Personnel Controlling",
+      "choices": [
+        "Career Planning",
+        "Development Plans",
+        "Personnel Controlling",
+        "Talent Management"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which are predefined SAP requests with a unique design like employee and birthday lists?",
+      "answer": "Standard Reports",
+      "choices": [
+        "Standard Reports",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)",
+        "Ad-hoc Query"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which enables analysis based on the organizational structure?",
+      "answer": "Human Resource Information System (HIS)",
+      "choices": [
+        "Standard Reports",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)",
+        "Ad-hoc Query"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which indicates that managers can access transactions of other HCM module components?",
+      "answer": "Manager’s Desktop (MDT)",
+      "choices": [
+        "Standard Reports",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)",
+        "Ad-hoc Query"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is a tool for analyzing data from personnel management and outside the HCM module?",
+      "answer": "Ad-hoc Query",
+      "choices": [
+        "Business Intelligence (BI)",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)",
+        "Ad-hoc Query"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is an independent system based on a portal technology and helps data from SAP systems or from other systems to be integrated?",
+      "answer": "Business Intelligence (BI)",
+      "choices": [
+        "Business Intelligence (BI)",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)",
+        "Ad-hoc Query"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is a web-based user interface for employees that enables the time and location-independent maintenance of personal data?",
+      "answer": "Employee Self-Service (ESS)",
+      "choices": [
+        "Employee Self-Service (ESS)",
+        "Manager Self-Service (MSS)",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which is a central web-based access point for manager and uses the backend systems of the human resources and finance departments and supports the management?",
+      "answer": "Manager Self-Service (MSS)",
+      "choices": [
+        "Employee Self-Service (ESS)",
+        "Manager Self-Service (MSS)",
+        "Human Resource Information System (HIS)",
+        "Manager’s Desktop (MDT)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following activity can employees perform using ESS?",
+      "answer": "Submitting travel expenses",
+      "choices": [
+        "Submitting travel expenses",
+        "Gaining Information",
+        "Hiring employees",
+        "Controlling costs"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Which of the following activity can managers perform using MSS?",
+      "answer": "Hiring employees",
+      "choices": [
+        "Browsing the employee directory",
+        "Hiring employees",
+        "Applying for employer benefits",
+        "Registering for training courses"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    }
+  ]
+}

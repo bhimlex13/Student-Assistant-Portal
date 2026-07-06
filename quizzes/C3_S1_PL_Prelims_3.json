@@ -1,0 +1,412 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Prelims",
+    "Title": "01 Handout 1 -- Programming Language Evaluation Criteria",
+    "LastModified": "20 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What set of criteria helps analyze the impact of programming languages on the software development process, particularly in areas like maintenance?",
+      "answer": "Programming Language Evaluation Criteria",
+      "choices": [
+        "Programming Language Maintenance Criteria",
+        "Programming Language Debug Criteria",
+        "Programming Language Compilation Criteria",
+        "Programming Language Evaluation Criteria"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language evaluation criterion refers to the ease with which programs can be read and understood?",
+      "answer": "Readability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Oversimplicity",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language evaluation criterion, crucial for ease of maintenance, has become a major measure of program and programming language quality?",
+      "answer": "Readability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Oversimplicity",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language evaluation criterion must be considered in the context of the problem domain, as using an unsuitable language can make a program unnatural, convoluted, and difficult to understand?",
+      "answer": "Readability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Oversimplicity",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic, contributing to the readability of a programming language, refers to the overall ease of learning due to a smaller number of basic constructs?",
+      "answer": "Simplicity",
+      "choices": [
+        "Orthogonality",
+        "Syntax Design",
+        "Form and Meaning",
+        "Simplicity"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a scenario of more than one way to accomplish a particular operation considered to be a problem in readability?",
+      "answer": "Feature Multiplicity",
+      "choices": [
+        "Operator Overloading",
+        "Oversimplicity",
+        "Orthogonality",
+        "Feature Multiplicity"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a scenario wherein a single operator symbol has more than one meaning, potentially leading to confusion if not used carefully?",
+      "answer": "Operator Overloading",
+      "choices": [
+        "Operator Overloading",
+        "Oversimplicity",
+        "Orthogonality",
+        "Feature Multiplicity"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a scenario wherein the language is too simple to the point of lacking more complex statements and less obvious program structure considered to be a problem in readability?",
+      "answer": "Oversimplicity",
+      "choices": [
+        "Operator Overloading",
+        "Oversimplicity",
+        "Orthogonality",
+        "Feature Multiplicity"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of a programming language, related to readability, refers to the ability to change one aspect of a program without causing unintended side effects in other parts?",
+      "answer": "Orthogonality",
+      "choices": [
+        "Simplicity",
+        "Data Types",
+        "Orthogonality",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic concerns the independence of components in a larger system and how a small set of primitive constructs can be combined in a small number of ways to build the control and data structure of the language?",
+      "answer": "Orthogonality",
+      "choices": [
+        "Simplicity",
+        "Data Types",
+        "Orthogonality",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language characteristic, exemplified by the ability of pointers to reference any specific data type, ensures that language features can be used in a consistent and predictable way without arbitrary restrictions?",
+      "answer": "Orthogonality",
+      "choices": [
+        "Simplicity",
+        "Special Words",
+        "Orthogonality",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the name of the programming language characteristic that describes the ability of pointers, for example, to point to any specific type in the language, allowing for the definition of many potentially useful user-defined data structures?",
+      "answer": "Orthogonality",
+      "choices": [
+        "Simplicity",
+        "Special Words",
+        "Orthogonality",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language design principle leads to fewer exceptions in language rules, resulting in greater regularity and making the language easier to learn, read, and understand?",
+      "answer": "Orthogonality",
+      "choices": [
+        "Simplicity",
+        "Data Types",
+        "Orthogonality",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What aspect of a programming language, specifically the availability of features for defining data types and data structures, significantly contributes to readability?",
+      "answer": "Data Types",
+      "choices": [
+        "Special Words",
+        "Data Types",
+        "Form and Meaning",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What aspect of a programming language, such as the absence of a Boolean type in C, can hinder readability when, for example, a numeric type is used for an indicator flag?",
+      "answer": "Data Types",
+      "choices": [
+        "Simplicity",
+        "Data Types",
+        "Form and Meaning",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What aspect of a programming language, specifically the form of its elements, influences the readability of programs?",
+      "answer": "Syntax Design",
+      "choices": [
+        "Simplicity",
+        "Data Types",
+        "Orthogonality",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What syntactic design element involves the use of matching pairs of words or symbols to form groups within a program?",
+      "answer": "Special Words",
+      "choices": [
+        "Special Words",
+        "Data Types",
+        "Form and Meaning",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What syntactic design element can diminish readability because statement groups are always terminated in the same way, making it difficult to determine which group is being ended when an end or a right brace appears?",
+      "answer": "Special Words",
+      "choices": [
+        "Special Words",
+        "Data Types",
+        "Form and Meaning",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the two aspects of a programming language, where semantics must follow directly from syntax, that can be designed to have their appearance partially specify their purpose, which helps readability?",
+      "answer": "Form and Meaning",
+      "choices": [
+        "Special Words",
+        "Data Types",
+        "Form and Meaning",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What two aspects of a programming language are exemplified by the C keyword \"static,\" where its meaning (semantics) changes depending on the context of its appearance (syntax), potentially hindering readability?",
+      "answer": "Form and Meaning",
+      "choices": [
+        "Special Words",
+        "Data Types",
+        "Form and Meaning",
+        "Syntax Design"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the measure of how easily a language can be used to create programs for a chosen problem domain called?",
+      "answer": "Writability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Copybility",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the characteristic of a programming language that describes how easily it can be used to create programs for a specific purpose, but which should not be compared across languages designed for different purposes?",
+      "answer": "Writability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Simplicity",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of programming languages, exemplified by the differences between Visual Basic (ideal for GUI programs) and C (ideal for systems programs), highlights the importance of considering the intended application when evaluating a language?",
+      "answer": "Writability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Simplicity",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What two characteristics that contribute to the writability of a programming language might be negatively affected by a large number of different constructs, potentially leading to confusion, misuse, and disuse of some features?",
+      "answer": "Simplicity and Orthogonality",
+      "choices": [
+        "Simplicity and Orthogonality",
+        "Aliasing and Readability",
+        "Expressivity and Readability",
+        "Readability and Writability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What two characteristics that contribute to the writability of a programming language can be negatively affected by too much orthogonality, potentially leading to undetected errors and code absurdities due to the legality of any combination of primitives?",
+      "answer": "Simplicity and Orthogonality",
+      "choices": [
+        "Simplicity and Orthogonality",
+        "Aliasing and Readability",
+        "Expressivity and Readability",
+        "Readability and Writability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of a programming language, like the count++ notation in C, means having convenient operators for concise code?",
+      "answer": "Expressivity",
+      "choices": [
+        "Simplicity and Orthogonality",
+        "Reliability",
+        "Type Checking",
+        "Expressivity"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of a program is met if it performs to its specifications under all conditions?",
+      "answer": "Reliability",
+      "choices": [
+        "Writability",
+        "Reliability",
+        "Simplicity",
+        "Readability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What process tests for type errors in a program, either by the compiler or during program execution?",
+      "answer": "Type Checking",
+      "choices": [
+        "Readability and Writability",
+        "Exception Handling",
+        "Aliasing",
+        "Type Checking"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is more desirable to be done at compile time rather than runtime because it is expensive?",
+      "answer": "Type Checking",
+      "choices": [
+        "Readability and Writability",
+        "Exception Handling",
+        "Aliasing",
+        "Type Checking"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the ability of a program to intercept runtime errors, take corrective measures, and then continue?",
+      "answer": "Exception Handling",
+      "choices": [
+        "Readability and Writability",
+        "Exception Handling",
+        "Aliasing",
+        "Type Checking"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What dangerous feature in programming occurs when two or more distinct names can access the same memory cell?",
+      "answer": "Aliasing",
+      "choices": [
+        "Readability and Writability",
+        "Exception Handling",
+        "Aliasing",
+        "Type Checking"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What two characteristics of a programming language can impact reliability because a program that is difficult to read can also be difficult to write and modify?",
+      "answer": "Readability and Writability",
+      "choices": [
+        "Simplicity and Orthogonality",
+        "Aliasing and Readability",
+        "Expressivity and Readability",
+        "Readability and Writability"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    },
+    {
+      "question": "What can lead to unnatural and potentially incorrect program structures if a language does not support clear ways to express algorithms?",
+      "answer": "Readability and Writability",
+      "choices": [
+        "Readability and Writability",
+        "Exception Handling",
+        "Aliasing",
+        "Type Checking"
+      ],
+      "reference": "Programming Language Evaluation Criteria",
+      "term": "Prelims"
+    }
+  ]
+}

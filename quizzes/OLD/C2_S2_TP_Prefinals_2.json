@@ -1,0 +1,556 @@
+{
+  "quizInfo": {
+    "Subject": "Technopreneurship",
+    "Term": "Prefinals",
+    "Title": "Module 10",
+    "LastModified": "17 May 2024",
+    "Authors": [
+      ""
+    ],
+    "References": [
+      "Any external links/handouts should be referenced here"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What term refers to the discipline that came from studying organizations, groups, and societies and how they process principles and concepts to make their systems work?",
+      "answer": "Organizational analysis",
+      "choices": [
+        "Organizational structure",
+        "Organizational analysis",
+        "Decentralized organizational structure",
+        "Centralized organizational structure"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to the way in which a company’s job roles and responsibilities are structured?",
+      "answer": "Organizational structure",
+      "choices": [
+        "Organizational structure",
+        "Organizational analysis",
+        "Decentralized organizational structure",
+        "Centralized organizational structure"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to a type of organizational structure where several people make decisions and run the operations of their groups/departments?",
+      "answer": "Decentralized organizational structure",
+      "choices": [
+        "Organizational structure",
+        "Organizational analysis",
+        "Decentralized organizational structure",
+        "Centralized organizational structure"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to a type of organizational structure where one individual makes the decisions and provides directions for the enterprise?",
+      "answer": "Centralized organizational structure",
+      "choices": [
+        "Organizational structure",
+        "Organizational analysis",
+        "Decentralized organizational structure",
+        "Centralized organizational structure"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to a type of centralized organizational structure that has no functional or product categories and is appropriate for a small, entrepreneur-dominated company with one or two product lines?",
+      "answer": "Simple structure",
+      "choices": [
+        "Simple structure",
+        "Functional structure",
+        "Divisional structure",
+        "Matrix structure"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to a type of centralized organizational structure that is appropriate for a medium-sized firm with several product lines in one industry?",
+      "answer": "Functional structure",
+      "choices": [
+        "Simple structure",
+        "Functional structure",
+        "Divisional structure",
+        "Matrix structure"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to a type of centralized organizational structure that is appropriate for a large corporation with many product lines in several related industries?",
+      "answer": "Divisional structure",
+      "choices": [
+        "Simple structure",
+        "Functional structure",
+        "Divisional structure",
+        "Matrix structure"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Who began the scientific analysis of organizations and coined that in organizations, authority arises in situations in which one accepts the direction of another?",
+      "answer": "Max Weber",
+      "choices": [
+        "Max Charles",
+        "Max Deficiency",
+        "Max Red",
+        "Max Weber"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to guiding and motivating employees to accomplish entrepreneurial objectives?",
+      "answer": "Direction",
+      "choices": [
+        "People Strategy",
+        "Traditional People Strategy",
+        "Maintaining Discipline",
+        "Direction"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to the organization’s prioritized people plan that enables a business to be successful by attracting, developing, retaining, and inspiring the workforce?",
+      "answer": "People Strategy",
+      "choices": [
+        "People Strategy",
+        "Traditional People Strategy",
+        "Maintaining Discipline",
+        "Direction"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to a people plan that is backward-looking, focusing on evaluating the jobs people are doing at present?",
+      "answer": "Traditional People Strategy",
+      "choices": [
+        "People Strategy",
+        "Traditional People Strategy",
+        "Maintaining Discipline",
+        "Direction"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to training individuals to comply with an organization’s rules or some code of behavior?",
+      "answer": "Maintaining Discipline",
+      "choices": [
+        "Providing counseling services",
+        "Motivating employees",
+        "Maintaining Discipline",
+        "Communicating with subordinates"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to the innate right of any individual to receive fair treatment if allegations are pitted or errors are incurred against them?",
+      "answer": "Due Process",
+      "choices": [
+        "People Strategy",
+        "Traditional People Strategy",
+        "Maintaining Discipline",
+        "Due Process"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to a meaningful exchange of information through messages, which can be verbal or non-verbal?",
+      "answer": "Communicating with subordinates",
+      "choices": [
+        "Providing counseling services",
+        "Motivating employees",
+        "Maintaining Discipline",
+        "Communicating with subordinates"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What function of communication is used to acquire information to make sound decisions?",
+      "answer": "Information function",
+      "choices": [
+        "Motivational function",
+        "Information function",
+        "Control function",
+        "Emotive function"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What function of communication is used to motivate and encourage employees to contribute to attaining the goals of the business?",
+      "answer": "Motivational function",
+      "choices": [
+        "Motivational function",
+        "Information function",
+        "Control function",
+        "Emotive function"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What function of communication is used as a tool to clarify terms of duties, methods, authority, and responsibilities given to each member of the enterprise?",
+      "answer": "Control function",
+      "choices": [
+        "Motivational function",
+        "Information function",
+        "Control function",
+        "Emotive function"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What function of communication provides employees with an outlet for self-expression?",
+      "answer": "Emotive function",
+      "choices": [
+        "Motivational function",
+        "Information function",
+        "Control function",
+        "Emotive function"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to a talking therapy involving a therapist that the company employs to address the employees’ emotional and psychological issues?",
+      "answer": "Providing counseling services",
+      "choices": [
+        "Providing counseling services",
+        "Motivating employees",
+        "Maintaining Discipline",
+        "Communicating with subordinates"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term is defined as a desire to act and move toward a goal, and is crucial for the success of the enterprise?",
+      "answer": "Motivating employees",
+      "choices": [
+        "Providing counseling services",
+        "Motivating employees",
+        "Improving employees’ work conditions",
+        "Communicating with subordinates"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to providing air-conditioning systems, canteens, pantries, socials, team-building activities, and other activities and facilities that uplift the employees’ spirits?",
+      "answer": "Improving employees’ work conditions",
+      "choices": [
+        "Improving employees’ work conditions",
+        "Modifying the organizational behaviors of the enterprise",
+        "Harnessing recognition and pride",
+        "Financial incentives"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to how people interact with each other in a given organization?",
+      "answer": "Modifying the organizational behaviors of the enterprise",
+      "choices": [
+        "Improving employees’ work conditions",
+        "Modifying the organizational behaviors of the enterprise",
+        "Harnessing recognition and pride",
+        "Financial incentives"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to giving recognition whenever an employee does something positive with their work?",
+      "answer": "Harnessing recognition and pride",
+      "choices": [
+        "Improving employees’ work conditions",
+        "Modifying the organizational behaviors of the enterprise",
+        "Harnessing recognition and pride",
+        "Financial incentives"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to giving financial incentives to those who have rendered flawless service to the enterprise or did something positive and beneficial to the organization?",
+      "answer": "Financial incentives",
+      "choices": [
+        "Improving employees’ work conditions",
+        "Modifying the organizational behaviors of the enterprise",
+        "Harnessing recognition and pride",
+        "Financial incentives"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to the first level of disciplining an erring employee, usually given by the immediate head of the employee in question?",
+      "answer": "Verbal warning",
+      "choices": [
+        "Written warning",
+        "One-day suspension",
+        "Three-day suspension",
+        "Verbal warning"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term refers to the second level of disciplining, where the human resource office of an enterprise gives out a warning letter stating what the employee did and what consequences would happen if such behavior is not changed?",
+      "answer": "Written warning",
+      "choices": [
+        "Termination",
+        "Three-day suspension",
+        "One-day suspension",
+        "Written warning"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term is given if the employee fails or repeats the error after being given a written reprimand?",
+      "answer": "One-day suspension",
+      "choices": [
+        "Written warning",
+        "Termination",
+        "Three-day suspension",
+        "One-day suspension"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term is expected when a similar error occurred to the same employee after a written reprimand and a one-day suspension?",
+      "answer": "Three-day suspension",
+      "choices": [
+        "Written warning",
+        "Termination",
+        "Three-day suspension",
+        "One-day suspension"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What term must the company do if repeated errors with written and verbal reprimands are given, and errors still occur?",
+      "answer": "Termination",
+      "choices": [
+        "Verbal warning",
+        "Termination",
+        "Three-day suspension",
+        "One-day suspension"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What article of the Labor Code of the Philippines states that serious misconduct or willful disobedience by the employee of lawful orders of his employer or representative in connection with his work; gross and habitual neglect by the employee of his duties; fraud or willful breach by the employee of the trust reposed in him by his employer or duly authorized representatives; commission of a crime or offense by the employee against his employer or any immediate member of his family or his duly authorized representatives and other similar causes are significant shortcomings of the traditional people strategy?",
+      "answer": "Article 282 of the Labor Code of the Philippines",
+      "choices": [
+        "Article 283 of the Labor Code of the Philippines",
+        "Article 284 of the Labor Code of the Philippines",
+        "Article 285 of the Labor Code of the Philippines",
+        "Article 282 of the Labor Code of the Philippines"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What article of the Labor Code of the Philippines states that the enterprise can also cease the employment of a worker on authorized causes like business and health reasons, such as installation of labor-saving devices like machines, robots, and others; redundancy of work; retrenchment (reduction of costs) to prevent losses; and closing or cessation of operation?",
+      "answer": "Article 283 of the Labor Code of the Philippines",
+      "choices": [
+        "Article 283 of the Labor Code of the Philippines",
+        "Article 284 of the Labor Code of the Philippines",
+        "Article 285 of the Labor Code of the Philippines",
+        "Article 282 of the Labor Code of the Philippines"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Who defined social responsibility as an ethical framework that asserts that an individual must work and cooperate with other individuals and organizations to benefit society and their environment?",
+      "answer": "Akhilesh Ganti",
+      "choices": [
+        "Peter Ducker",
+        "Albert Carr",
+        "Edward Freeman",
+        "Akhilesh Ganti"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is a self-regulating business model that helps a company act responsibly in many ways, such as engaging in ethical labor practices, producing goods and services that are not harmful to society or the environment, preserving natural resources, and changing manufacturing processes to reduce carbon emissions?",
+      "answer": "Corporate Social Responsibility",
+      "choices": [
+        "The corporate mission comes first",
+        "The unlimited liability clause",
+        "People liability",
+        "Corporate Social Responsibility"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Who argued against social responsibility as a function of business and stated that the primary social responsibility of a business is to use its resources and engage only in activities designed to increase profit so long as it stays within the rules of open and free competition without deception or fraud?",
+      "answer": "Friedman’s traditional view of business responsibility",
+      "choices": [
+        "Edward Freeman’s view of social responsibility",
+        "Albert Carr’s view of social responsibility",
+        "Carroll’s four (4) responsibilities of business",
+        "Friedman’s traditional view of business responsibility"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Who proposed that the maximization of profits cannot be the primary obligation of a business and suggested that business organizations have four responsibilities: economic, legal, ethical, and discretionary?",
+      "answer": "Carroll’s four (4) responsibilities of business",
+      "choices": [
+        "Edward Freeman’s view of social responsibility",
+        "Albert Carr’s view of social responsibility",
+        "Friedman’s traditional view of business responsibility",
+        "Carroll’s four (4) responsibilities of business"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which responsibility of a business organization is for producing goods and services of value to society so that the firm may repay its creditors and increase its shareholders’ wealth?",
+      "answer": "Economic",
+      "choices": [
+        "Economic",
+        "Legal",
+        "Ethical",
+        "Discretionary"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which responsibility of a business organization is that governments define in laws that management is expected to obey?",
+      "answer": "Legal",
+      "choices": [
+        "Economic",
+        "Legal",
+        "Ethical",
+        "Discretionary"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which responsibility of a business organization is for following society’s generally held beliefs about behavior?",
+      "answer": "Ethical",
+      "choices": [
+        "Economic",
+        "Legal",
+        "Ethical",
+        "Discretionary"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which responsibility of a business organization is purely voluntary on the part of the corporation?",
+      "answer": "Discretionary",
+      "choices": [
+        "Economic",
+        "Legal",
+        "Ethical",
+        "Discretionary"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Who suggests that companies should ensure that their social responsibilities also become business opportunities and highlights considerations for workers that are part of the responsibility of a corporate leader just as much as the profits, survival, and growth of the business or organization?",
+      "answer": "Peter Drucker’s view of social responsibility",
+      "choices": [
+        "Edward Freeman’s view of social responsibility",
+        "Albert Carr’s view of social responsibility",
+        "Friedman’s traditional view of business responsibility",
+        "Peter Drucker’s view of social responsibility"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which view of social responsibility suggests that government cannot solve many social problems?",
+      "answer": "Government cannot solve many social problems",
+      "choices": [
+        "The unlimited liability clause",
+        "Government cannot solve many social problems",
+        "Corporate Social Responsibility",
+        "The corporate mission comes first"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which view of social responsibility suggests that the first social responsibility of the business is to make a profit sufficient to cover operational costs in the future?",
+      "answer": "The corporate mission comes first",
+      "choices": [
+        "The unlimited liability clause",
+        "Government cannot solve many social problems",
+        "Corporate Social Responsibility",
+        "The corporate mission comes first"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Which view of social responsibility means that the organization assumes full legal responsibility for the future outcome of its initiatives, the company’s debts, and all other financial commitments?",
+      "answer": "The unlimited liability clause",
+      "choices": [
+        "The unlimited liability clause",
+        "Government cannot solve many social problems",
+        "Corporate Social Responsibility",
+        "The corporate mission comes first"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Who argues that business is a game and that business ethics differs from personal life ethics, viewing business practices such as bluffing and not telling the truth as normal and morally acceptable in business?",
+      "answer": "Albert Carr’s view of social responsibility",
+      "choices": [
+        "Edward Freeman’s view of social responsibility",
+        "Albert Carr’s view of social responsibility",
+        "Friedman’s traditional view of business responsibility",
+        "Carroll’s four (4) responsibilities of business"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "Who holds a very favorable view of social responsibility and believes in a “Stockholder Theory,” that any person or organization that has an underlying interest in the business should also play a role of participation in the business’ actions and decisions?",
+      "answer": "Edward Freeman’s view of social responsibility",
+      "choices": [
+        "Edward Freeman’s view of social responsibility",
+        "Carroll’s four (4) responsibilities of business",
+        "Friedman’s traditional view of business responsibility",
+        "Peter Drucker’s view of social responsibility"
+      ],
+      "reference": "10_Handout_1",
+      "term": "Pre-Finals"
+    }
+  ]
+}

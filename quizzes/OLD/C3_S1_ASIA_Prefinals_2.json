@@ -1,0 +1,298 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Systems Integration and Architecture",
+    "Term": "Prefinals",
+    "Title": "Enterprise Asset Management (EAM) Part 2",
+    "LastModified": "20 November 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "05 Handout 1 - 2"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Malfunctions and other requirements are gathered in ______.",
+      "answer": "Notifications",
+      "choices": [
+        "Notifications",
+        "Plant",
+        "Storage Location",
+        "Bill of Material"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It tells maintenance that something needs fixing by highlighting a breakdown that needs to be actioned quickly.",
+      "answer": "Notifications",
+      "choices": [
+        "Notifications",
+        "Announcement",
+        "Maintanance",
+        "Maintenance Plant"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It can be used to record works already carried out because a history needs to be maintained.",
+      "answer": "Notifications",
+      "choices": [
+        "Notifications",
+        "Announcement",
+        "Maintanance",
+        "Maintenance Plant"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Technical object",
+      "choices": [
+        "Technical object",
+        "Time Confirmation",
+        "Technical Completion Confirmation",
+        "Printing work instruction papers"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Location data",
+      "choices": [
+        "Location data",
+        "Capacity requirements planning",
+        "Availability check for spare parts",
+        "Mass change or mass editing"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Reported by",
+      "choices": [
+        "Reported by",
+        "Structuring of objects",
+        "Availability check for spare parts",
+        "Mass change or mass editing"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Description",
+      "choices": [
+        "Description",
+        "Time Confirmation",
+        "Capacity requirements planning",
+        "Availability check for spare parts"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Notification data",
+      "choices": [
+        "Notification data",
+        "Technical Completion Confirmation",
+        "Structuring of objects",
+        "Availability check for spare parts"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Breakdown",
+      "choices": [
+        "Breakdown",
+        "Printing work instruction papers",
+        "Capacity requirements planning",
+        "Availability check for spare parts"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following must a notification have?",
+      "answer": "Damage location",
+      "choices": [
+        "Damage location",
+        "Mass change or mass editing",
+        "Capacity requirements planning",
+        "Technical Completion Confirmation"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It normally triggers the order creation and order planning.",
+      "answer": "Notifications",
+      "choices": [
+        "Notifications",
+        "Maintenance Order Control Functions",
+        "Implementation and Completion",
+        "Bill of Material"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Order planning includes the steps to be performed, required parts, and any specialized tooling.",
+      "answer": "This statement is TRUE.",
+      "choices": [
+        "This statement is TRUE.",
+        "This statement is FALSE."
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "The maintenance orders can be created from maintenance plans, notifications, or made without any documents.",
+      "answer": "This statement is TRUE.",
+      "choices": [
+        "This statement is TRUE.",
+        "This statement is FALSE."
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Planned and unplanned materials are calculated based on internal activity rates and external service costs.",
+      "answer": "This statement is FALSE.",
+      "choices": [
+        "This statement is TRUE.",
+        "This statement is FALSE."
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>Control functions for maintenance orders can vary depending on the order type.",
+      "answer": "Maintenance Order Control Functions",
+      "choices": [
+        "Maintenance Order Control Functions",
+        "Planning",
+        "Implementation and Completion",
+        "Notification"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a function that a maintenance order provides?",
+      "answer": "Mass change or mass editing",
+      "choices": [
+        "Mass change or mass editing",
+        "Technical object",
+        "Reported by",
+        "Notification data"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a function that a maintenance order provides?",
+      "answer": "Availability check for spare parts",
+      "choices": [
+        "Availability check for spare parts",
+        "Time Confirmation",
+        "Technical Completion Confirmation",
+        "Technical Completion"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a function that a maintenance order provides?",
+      "answer": "Capacity requirements planning",
+      "choices": [
+        "Capacity requirements planning",
+        "Technical object",
+        "Reported by",
+        "Time Confirmation"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a function that a maintenance order provides?",
+      "answer": "Printing work instruction papers",
+      "choices": [
+        "Printing work instruction papers",
+        "Technical Completion Confirmation",
+        "Reported by",
+        "Notification data"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statements?<BR>A notification normally triggers the order creation and order planning. Order planning includes the steps to be performed, required parts, and any specialized tooling.",
+      "answer": "Planning",
+      "choices": [
+        "Maintenance Order Control Functions",
+        "Planning",
+        "Implementation and Completion",
+        "Notification"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>Planned and unplanned materials withdrawals, such as goods issues are possible.",
+      "answer": "Implementation and Completion",
+      "choices": [
+        "Maintenance Order Control Functions",
+        "Planning",
+        "Implementation and Completion",
+        "Notification"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a step of order completion?",
+      "answer": "Time Confirmation",
+      "choices": [
+        "Time Confirmation",
+        "Printing work instruction papers",
+        "Capacity requirements planning",
+        "Availability check for spare parts"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a step of order completion?",
+      "answer": "Technical Completion Confirmation",
+      "choices": [
+        "Technical Completion Confirmation",
+        "Damage location",
+        "Notification data",
+        "Location data"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following is a step of order completion?",
+      "answer": "Technical Completion",
+      "choices": [
+        "Technical Completion",
+        "Printing work instruction papers",
+        "Capacity requirements planning",
+        "Availability check for spare parts"
+      ],
+      "reference": "05 Handout 1 - 2",
+      "term": "Prefinals"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "quizInfo": {
+    "Subject": "Enterprise Architecture",
+    "Term": "Finals",
+    "Title": "Finals Reviewer",
+    "LastModified": "15 December 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "Finals Reviewer"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This modeling action can be done by adding specific details to existing elements",
+      "answer": "Refinement",
+      "choices": [
+        "Refinement",
+        "Risk analysis",
+        "Internal Drivers",
+        "Use of colors"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "Example of these are regulatory framework and government laws",
+      "answer": "External Driver",
+      "choices": [
+        "External Driver",
+        "Application association viewpoint",
+        "Private business process",
+        "Application usage viewpoint"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "This viewpoint depicts the relationships of applications in a company, including the dependencies in terms of the services a company offers",
+      "answer": "Application association viewpoint",
+      "choices": [
+        "Application association viewpoint",
+        "Business function viewpoints",
+        "Model-Driven Architecture",
+        "Deployment diagram"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "This process helps architects to identify and manage potential problems that could arise within the project period",
+      "answer": "Risk analysis",
+      "choices": [
+        "Risk analysis",
+        "Refinement",
+        "Internal Drivers",
+        "Selecting viewpoints"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "This type of business process modeling notation element includes sub-processes, loops, and compensation",
+      "answer": "Activity",
+      "choices": [
+        "Activity",
+        "Business function viewpoints",
+        "Private business process",
+        "Deployment diagram"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It is a visual attribute that is strongly influenced by \"prior knowledge\"",
+      "answer": "Use of colors",
+      "choices": [
+        "Use of colors",
+        "External Driver",
+        "Internal Drivers",
+        "Application usage viewpoint"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It contains equipment such as machines, tools, and/or instruments that can create, use, store, move, or transform materials",
+      "answer": "Physical viewpoint",
+      "choices": [
+        "Physical viewpoint",
+        "Application usage viewpoint",
+        "Business function viewpoints",
+        "Selecting viewpoints"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It pertains to a viewpoint that describes how applications are used to support one (1) or more business processes",
+      "answer": "Application usage viewpoint",
+      "choices": [
+        "Application usage viewpoint",
+        "Physical viewpoint",
+        "Business function viewpoints",
+        "External Driver"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It is a sub-model within a business process modeling notation diagram that involves internal processes to a specific organization and does not cross organizational boundaries",
+      "answer": "Private business process",
+      "choices": [
+        "Private business process",
+        "Activity",
+        "Model-Driven Architecture",
+        "Risk analysis"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It is a structural unified modeling language diagram that depicts the physical resources in a system, including nodes, components, and connections",
+      "answer": "Deployment diagram",
+      "choices": [
+        "Deployment diagram",
+        "Business function viewpoints",
+        "Internal Drivers",
+        "Refinement"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It aims to provide an open and vendor-neutral approach to interoperability and raises the level of abstraction in enterprise architecture",
+      "answer": "Model-Driven Architecture",
+      "choices": [
+        "Model-Driven Architecture",
+        "Physical viewpoint",
+        "Selecting viewpoints",
+        "Risk analysis"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "Examples of these are the mission and vision of an organization",
+      "answer": "Internal Drivers",
+      "choices": [
+        "Internal Drivers",
+        "Business function viewpoints",
+        "Application association viewpoint",
+        "Risk analysis"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "It provides high-level insight into the general operations of the company, which is used to structure an organization according to its main activities",
+      "answer": "Business function viewpoints",
+      "choices": [
+        "Business function viewpoints",
+        "Model-Driven Architecture",
+        "Application usage viewpoint",
+        "Deployment diagram"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    },
+    {
+      "question": "This serves as a guide in determining appropriate information to be included in a model",
+      "answer": "Selecting viewpoints",
+      "choices": [
+        "Selecting viewpoints",
+        "Refinement",
+        "Activity",
+        "Business function viewpoints"
+      ],
+      "reference": "Finals Reviewer",
+      "term": "Finals"
+    }
+  ]
+}

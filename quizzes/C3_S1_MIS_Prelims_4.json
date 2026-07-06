@@ -1,0 +1,1414 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Prelims",
+    "Title": "Study Everything",
+    "LastModified": "19 February 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "01 Handout 1",
+      "02 Handout 1",
+      "03 Handout 3"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What term refers to a number, statement, etc. that represents specific data?",
+      "answer": "Data",
+      "choices": [
+        "Information",
+        "System",
+        "Data",
+        "Timeliness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a collection of data?",
+      "answer": "Information",
+      "choices": [
+        "Data",
+        "Information",
+        "Subsystems",
+        "Completeness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info must be up to date?",
+      "answer": "Timeliness",
+      "choices": [
+        "Appropriateness",
+        "Accuracy",
+        "Conciseness",
+        "Timeliness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information requires the system to have relevant info in every module for users who need it?",
+      "answer": "Appropriateness",
+      "choices": [
+        "Accuracy",
+        "Appropriateness",
+        "Understandability",
+        "Timeliness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info must be correct or precise?",
+      "answer": "Accuracy",
+      "choices": [
+        "Accuracy",
+        "Completeness",
+        "Data",
+        "System boundaries"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info must only contain the minimum detail appropriate to the user?",
+      "answer": "Conciseness",
+      "choices": [
+        "Conciseness",
+        "Timeliness",
+        "Appropriateness",
+        "System environment"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info and its format and presentation must be understandable?",
+      "answer": "Understandability",
+      "choices": [
+        "Understandability",
+        "Accuracy",
+        "System",
+        "Subsystem interface"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What characteristic of information states that info must be complete based on the requirements?",
+      "answer": "Completeness",
+      "choices": [
+        "Completeness",
+        "Understandability",
+        "System feedback",
+        "System environment"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to components that are interrelated and work together with a common goal to accept inputs and outputs?",
+      "answer": "System",
+      "choices": [
+        "System",
+        "System boundaries",
+        "System environment",
+        "Subsystem interface"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the general term for a computer or other piece of technology and its dependencies?",
+      "answer": "System in computing",
+      "choices": [
+        "System",
+        "System in computing",
+        "System environment",
+        "Timeliness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term encompasses all working parts required to run a technical process?",
+      "answer": "System in computing",
+      "choices": [
+        "System",
+        "System in computing",
+        "Data",
+        "Accuracy"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines the scope of activities in which viewing or accessing any module of a system is limited?",
+      "answer": "System boundaries",
+      "choices": [
+        "System environment",
+        "System feedback",
+        "Subsystem interface",
+        "System boundaries"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes that every user has specific access on each module of a system?",
+      "answer": "System boundaries",
+      "choices": [
+        "Subsystems",
+        "System feedback",
+        "System boundaries",
+        "Subsystems"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the term for parts of a system that have different objectives and interactions based on requirements?",
+      "answer": "Subsystems",
+      "choices": [
+        "System boundaries",
+        "System environment",
+        "System feedback",
+        "Subsystems"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes that all parts of a system use the given resources to meet the given objective?",
+      "answer": "Subsystems",
+      "choices": [
+        "System",
+        "System feedback",
+        "Subsystem interface",
+        "Subsystems"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What serves as the connection to display the output of one system to the input of another?",
+      "answer": "Subsystem interface",
+      "choices": [
+        "System boundaries",
+        "Subsystems",
+        "System environment",
+        "Subsystem interface"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to people or organizations that give and receive data from the system?",
+      "answer": "System environment",
+      "choices": [
+        "System boundaries",
+        "System feedback",
+        "Subsystem interface",
+        "System environment"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes effective feedback assuring users that the system can achieve its goals?",
+      "answer": "System feedback",
+      "choices": [
+        "System boundaries",
+        "Subsystems",
+        "System environment",
+        "System feedback"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term describes that every system always needs feedback to be able to do its job and process accurately based on the requirements?",
+      "answer": "System feedback",
+      "choices": [
+        "System environment",
+        "System boundaries",
+        "System feedback",
+        "Appropriateness"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to the info the user adds to the system?",
+      "answer": "Input",
+      "choices": [
+        "Output",
+        "Input",
+        "Feedback",
+        "Control"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to the efficiency of data processing?",
+      "answer": "Processing",
+      "choices": [
+        "Input",
+        "Output",
+        "Control",
+        "Processing"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system enables organizations to process big data?",
+      "answer": "Processing",
+      "choices": [
+        "Input",
+        "Control",
+        "Processing",
+        "Output"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to the info the system displays as a result?",
+      "answer": "Output",
+      "choices": [
+        "Input",
+        "Output",
+        "Feedback",
+        "Control"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to comments and suggestions to improve the processes of a system?",
+      "answer": "Feedback",
+      "choices": [
+        "Input",
+        "Feedback",
+        "Control",
+        "Output"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of a system refers to managing the operations in every process of the system?",
+      "answer": "Control",
+      "choices": [
+        "Input",
+        "Control",
+        "Feedback",
+        "Output"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to interrelated components that collect, output, and process data to support decision making?",
+      "answer": "Information Systems",
+      "choices": [
+        "Information Systems in an Organization",
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Information Systems"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to a system that may consist of hardware, software, people, procedures, and telecommunication?",
+      "answer": "Information Systems in an Organization",
+      "choices": [
+        "Information Systems",
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Information Systems in an Organization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term involves factors such as organization structure, business procedure, culture, environment, and management decisions?",
+      "answer": "Information Systems in an Organization",
+      "choices": [
+        "Information Systems",
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Information Systems in an Organization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system is widely used?",
+      "answer": "Transaction Processing System",
+      "choices": [
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Expert Support System",
+        "Transaction Processing System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system records data collected at the boundaries of organizations?",
+      "answer": "Transaction Processing System",
+      "choices": [
+        "Business Intelligence Systems",
+        "Supply Chain Management System",
+        "Expert Support System",
+        "Transaction Processing System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system records transactions inside an organization?",
+      "answer": "Transaction Processing System",
+      "choices": [
+        "Decision Support System",
+        "Business Intelligence Systems",
+        "Supply Chain Management System",
+        "Transaction Processing System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system includes a sequence of activities such as marketing, manufacturing, assembly, and packing?",
+      "answer": "Supply Chain Management System",
+      "choices": [
+        "Customer Relationship Management System",
+        "Business Intelligence Systems",
+        "Supply Chain Management System",
+        "Decision Support System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system manages the relationship between a customer and an organization?",
+      "answer": "Customer Relationship Management System",
+      "choices": [
+        "Supply Chain Management System",
+        "Business Intelligence Systems",
+        "Expert Support System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system is used by service representatives to talk to their customers via phone?",
+      "answer": "Customer Relationship Management System",
+      "choices": [
+        "Supply Chain Management System",
+        "Business Intelligence Systems",
+        "Expert Support System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system is used to compete with other organizations?",
+      "answer": "Business Intelligence Systems",
+      "choices": [
+        "Business Intelligence Systems",
+        "Expert Support System",
+        "Supply Chain Management System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system accesses massive data, usually larger databases called data warehouses?",
+      "answer": "Business Intelligence Systems",
+      "choices": [
+        "Business Intelligence Systems",
+        "Decision Support System",
+        "Supply Chain Management System",
+        "Expert Support System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system helps to find actions and answers to questions like \"What If?\"",
+      "answer": "Decision Support System",
+      "choices": [
+        "Decision Support System",
+        "Expert Support System",
+        "Supply Chain Management System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of information system uses AI to preserve the knowledge of an expert and to solve problems?",
+      "answer": "Expert Support System",
+      "choices": [
+        "Expert Support System",
+        "Business Intelligence Systems",
+        "Transaction Processing System",
+        "Customer Relationship Management System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is another name for Systems Development Life Cycle?",
+      "answer": "Waterfall Development",
+      "choices": [
+        "Waterfall Development",
+        "System Analysis",
+        "System Design",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology follows well-defined phases methodically?",
+      "answer": "Systems Development Life Cycle",
+      "choices": [
+        "Systems Life Cycle",
+        "Systems Development Life Cycle",
+        "System Design",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology is used by large organizations to check requirement compliance and progress?",
+      "answer": "Systems Development Life Cycle",
+      "choices": [
+        "Systems Life Cycle",
+        "Systems Development Life Cycle",
+        "Implementation",
+        "Production and Maintenance"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the oldest method of system development?",
+      "answer": "Systems Life Cycle",
+      "choices": [
+        "Systems Development Life Cycle",
+        "System Analysis",
+        "Systems Life Cycle",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology divides development into formal stages?",
+      "answer": "Systems Life Cycle",
+      "choices": [
+        "Systems Development Life Cycle",
+        "Programming",
+        "Systems Life Cycle",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology is used for large complex systems that require formal requirements analysis, predefined specifications, and tight control?",
+      "answer": "Systems Life Cycle",
+      "choices": [
+        "Systems Development Life Cycle",
+        "System Analysis",
+        "Systems Life Cycle",
+        "Production and Maintenance"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What methodology ensures that every stage has an activity and follows a sequential order?",
+      "answer": "Systems Life Cycle",
+      "choices": [
+        "Systems Development Life Cycle",
+        "System Analysis",
+        "Systems Life Cycle",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle involves steps to come up on the data?",
+      "answer": "System Analysis",
+      "choices": [
+        "System Design",
+        "Programming",
+        "Testing",
+        "System Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle requires data analysis, problem identification, info requirement, and objective determination?",
+      "answer": "System Analysis",
+      "choices": [
+        "System Design",
+        "Programming",
+        "Testing",
+        "System Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle includes Investigation, Technical feasibility, Economic feasibility, Operational feasibility, and Requirements definition?",
+      "answer": "System Analysis",
+      "choices": [
+        "System Design",
+        "Programming",
+        "Testing",
+        "System Analysis"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle determines how the system will fulfill the objectives based on requirements?",
+      "answer": "System Design",
+      "choices": [
+        "System Analysis",
+        "System Design",
+        "Testing",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle describes functions, components, construction, and testing?",
+      "answer": "System Design",
+      "choices": [
+        "System Analysis",
+        "System Design",
+        "Testing",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle communicates ideas about the data using convention symbols?",
+      "answer": "System Design",
+      "choices": [
+        "System Analysis",
+        "System Design",
+        "Testing",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What diagram is suitable for describing any information system, even if it’s not computer-based?",
+      "answer": "Data Flow Diagram (DFD)",
+      "choices": [
+        "Unified Modeling Language (UML)",
+        "Data Flow Diagram (DFD)",
+        "System Analysis",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What diagram has limitations and cannot describe a system completely?",
+      "answer": "Data Flow Diagram (DFD)",
+      "choices": [
+        "Unified Modeling Language (UML)",
+        "Data Flow Diagram (DFD)",
+        "System Analysis",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What graphical standard is used for visualization, specifying, and documenting software?",
+      "answer": "Unified Modeling Language (UML)",
+      "choices": [
+        "Data Flow Diagram (DFD)",
+        "Unified Modeling Language (UML)",
+        "System Analysis",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle translates system specifications into code?",
+      "answer": "Programming",
+      "choices": [
+        "System Analysis",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle is the most respected phase?",
+      "answer": "Testing",
+      "choices": [
+        "Testing",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle states that testing each module in every simulation isn’t enough?",
+      "answer": "Testing",
+      "choices": [
+        "Testing",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle emphasizes testing the entire system?",
+      "answer": "Testing",
+      "choices": [
+        "Testing",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle involves Unit Testing, System Testing, and Acceptance Testing?",
+      "answer": "Testing",
+      "choices": [
+        "Testing",
+        "System Design",
+        "Programming",
+        "Implementation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle is also known as delivery?",
+      "answer": "Implementation",
+      "choices": [
+        "System Analysis",
+        "Implementation",
+        "Programming",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle consists of conversion from the old to the new system and training?",
+      "answer": "Implementation",
+      "choices": [
+        "System Analysis",
+        "Implementation",
+        "Programming",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of the System Life Cycle begins when the system is installed?",
+      "answer": "Production and Maintenance",
+      "choices": [
+        "Implementation",
+        "System Analysis",
+        "Production and Maintenance",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what stage of the System Life Cycle is the system reviewed by users and tech specialists to check if it meets the objectives and must be maintained?",
+      "answer": "Production and Maintenance",
+      "choices": [
+        "Implementation",
+        "System Analysis",
+        "Production and Maintenance",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what stage of the System Life Cycle are errors corrected, requirements met, and efficiency improved?",
+      "answer": "Production and Maintenance",
+      "choices": [
+        "Implementation",
+        "System Analysis",
+        "Production and Maintenance",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what stage of the System Life Cycle is the system in maintenance if changes, new requirements, or improvements are implemented?",
+      "answer": "Production and Maintenance",
+      "choices": [
+        "Implementation",
+        "System Analysis",
+        "Production and Maintenance",
+        "Testing"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which approach in software development relies on individual staff skills and experience?",
+      "answer": "Ad-Hoc Development",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Ad-Hoc Development",
+        "Agile Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach refers to small projects at which the staff is skilled?",
+      "answer": "Ad-Hoc Development",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Ad-Hoc Development",
+        "Agile Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the most common and earliest structured system used in software development?",
+      "answer": "Waterfall Model",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Spiral Model",
+        "Agile Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach involves the steps: System Analysis, System Design, Programming, Testing, Deployment, and Maintenance?",
+      "answer": "Waterfall Model",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Spiral Model",
+        "Agile Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach assumes that all requirements are known at the beginning of the project?",
+      "answer": "Prototyping",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which approach involves building a simple version of the software, presenting it to the client, receiving feedback, and making adjustments?",
+      "answer": "Prototyping",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach includes the steps: Requirements definition, Design, Prototype creation, Assessment, Prototype refinement, and System implementation?",
+      "answer": "Prototyping",
+      "choices": [
+        "Waterfall Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which model includes the best features from both the Waterfall and Prototyping models?",
+      "answer": "Spiral Model",
+      "choices": [
+        "Spiral Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which approach describes the process followed as the development takes place?",
+      "answer": "Spiral Model",
+      "choices": [
+        "Spiral Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development approach involves the steps: Project objectives, Risk assessment, Production, Planning, and Management?",
+      "answer": "Spiral Model",
+      "choices": [
+        "Spiral Model",
+        "Prototyping",
+        "Agile Development",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which approach focuses on fast software delivery by dividing a large project into a series of small subprojects?",
+      "answer": "Agile Development",
+      "choices": [
+        "Agile Development",
+        "Prototyping",
+        "Spiral Model",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which software development model allows risk reduction and quicker adaptability by assigning each team to a small project?",
+      "answer": "Agile Development",
+      "choices": [
+        "Agile Development",
+        "Prototyping",
+        "Spiral Model",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which software development approach is face-to-face communication preferred over written documents for better collaboration and quicker decision-making?",
+      "answer": "Agile Development",
+      "choices": [
+        "Agile Development",
+        "Prototyping",
+        "Spiral Model",
+        "Ad-Hoc Development"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What system allows efficient collection and management of data?",
+      "answer": "Database Management System",
+      "choices": [
+        "Database Management System",
+        "Information Integration",
+        "Enterprise Resource Planning",
+        "Direct File Access Method"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What serves as an interface between data resources and application programs?",
+      "answer": "Database Management System",
+      "choices": [
+        "Database Management System",
+        "Index Sequential Access Method",
+        "Direct / Random File Organization",
+        "Organizing Data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What transition is considered a costly long-term process when shifting from traditional filing?",
+      "answer": "Database Management System",
+      "choices": [
+        "Database Management System",
+        "Information Integration",
+        "Direct File Access Method",
+        "Organizing Data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What process must understand both managerial and organizational requirements and the technologies for managing data?",
+      "answer": "Database Management System",
+      "choices": [
+        "Database Management System",
+        "Sequential File Organization",
+        "Index Sequential Access Method",
+        "Information Integration"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is difficult for every organization and business?",
+      "answer": "Organizing Data",
+      "choices": [
+        "Database Management System",
+        "Organizing Data",
+        "Index Sequential Access Method",
+        "Direct File Access Method"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What must be accurate and structured to provide exact information?",
+      "answer": "Organizing Data",
+      "choices": [
+        "Database Management System",
+        "Organizing Data",
+        "Sequential File Organization",
+        "Direct / Random File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What realization led organizations to gain a competitive advantage using useful information?",
+      "answer": "Organizing Data",
+      "choices": [
+        "Enterprise Resource Planning",
+        "Organizing Data",
+        "Direct File Access Method",
+        "Database Management System"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file organization type is used for processing the same information repeatedly?",
+      "answer": "Sequential File Organization",
+      "choices": [
+        "Direct / Random File Organization",
+        "Index Sequential Access Method",
+        "Index Sequential Access Method",
+        "Sequential File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file organization type is used with magnetic disks?",
+      "answer": "Direct / Random File Organization",
+      "choices": [
+        "Direct / Random File Organization",
+        "Index Sequential Access Method",
+        "Index Sequential Access Method",
+        "Sequential File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file access method stores records using a primary key?",
+      "answer": "Index Sequential Access Method",
+      "choices": [
+        "Direct / Random File Organization",
+        "Index Sequential Access Method",
+        "Direct File Access Method",
+        "Sequential File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file access method generates an index value for each primary key and maps it with the record?",
+      "answer": "Index Sequential Access Method",
+      "choices": [
+        "Direct / Random File Organization",
+        "Index Sequential Access Method",
+        "Direct File Access Method",
+        "Sequential File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file access method uses a primary key in combination with mathematical calculations to find the location of a record?",
+      "answer": "Direct File Access Method",
+      "choices": [
+        "Direct / Random File Organization",
+        "Index Sequential Access Method",
+        "Direct File Access Method",
+        "Sequential File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What ensures coordination of business aspects by gathering data from various resources?",
+      "answer": "Information Integration",
+      "choices": [
+        "Enterprise Resource Planning",
+        "Database Management System",
+        "Information Integration",
+        "Organizing Data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What difficulty arises due to hardware and software diversity when integrating information?",
+      "answer": "Information Integration",
+      "choices": [
+        "Enterprise Resource Planning",
+        "Information Integration",
+        "Database Management System",
+        "Direct File Access Method"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What integrates manufacturing, production, finance, accounting, sales, marketing, and HR in a single system?",
+      "answer": "Enterprise Resource Planning",
+      "choices": [
+        "Enterprise Resource Planning",
+        "Database Management System",
+        "Direct File Access Method",
+        "Sequential File Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What system is exemplified by SAP, Peoplesoft, and Oracle?",
+      "answer": "Enterprise Resource Planning",
+      "choices": [
+        "Database Management System",
+        "Direct File Access Method",
+        "Enterprise Resource Planning",
+        "Information Integration"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What system uses databases, processes, and rules to provide up-to-the-minute financial data?",
+      "answer": "Enterprise Resource Planning",
+      "choices": [
+        "Database Management System",
+        "Direct File Access Method",
+        "Organizing Data",
+        "Enterprise Resource Planning"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What system handles all financial accounting systems and emphasizes purchasing, HR management, and investment management?",
+      "answer": "Enterprise Resource Planning",
+      "choices": [
+        "Information Integration",
+        "Database Management System",
+        "Enterprise Resource Planning",
+        "Sequential File Organ"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a stable, formal social structure that takes resources and processes them to produce outputs?",
+      "answer": "Organization",
+      "choices": [
+        "Group",
+        "Team",
+        "Network",
+        "Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is more stable than informal groups in longevity and routines?",
+      "answer": "Organization",
+      "choices": [
+        "Project",
+        "Task Force",
+        "Committee",
+        "Organization"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What refers to how work is organized, coordinated, and focused on producing a valuable product or services?",
+      "answer": "Business Process",
+      "choices": [
+        "Project Management",
+        "Operations Research",
+        "Supply Chain Management",
+        "Business Process"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What can be liabilities if they’re based on inefficient ways that impede organization responsiveness and efficiency?",
+      "answer": "Business Process",
+      "choices": [
+        "Strategic Planning",
+        "Risk Management",
+        "Quality Control",
+        "Business Process"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What crosses many different functional areas and require coordination across departments?",
+      "answer": "Business Process",
+      "choices": [
+        "Project",
+        "Task",
+        "Activity",
+        "Business Process"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What deals with behavioral and technical issues surrounding the development, use, and impact of information systems used by managers and employees in a firm?",
+      "answer": "Management Information Systems",
+      "choices": [
+        "Decision Support Systems",
+        "Enterprise Resource Planning",
+        "Customer Relationship Management",
+        "Management Information Systems"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is there a whole new world of doing using new technology for managing and organizing?",
+      "answer": "Management Information Systems",
+      "choices": [
+        "Knowledge Management",
+        "Data Analytics",
+        "Business Intelligence",
+        "Management Information Systems"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What change of high importance in MIS is transforming the traditional business world with a continuous stream of it?",
+      "answer": "IT Innovation",
+      "choices": [
+        "Business Process Reengineering",
+        "Total Quality Management",
+        "Six Sigma",
+        "IT Innovation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What change of high importance in MIS has forever changed how premium video is distributed and created with the emergence of online video streaming services for downloading video?",
+      "answer": "New Business Models",
+      "choices": [
+        "Marketing Strategies",
+        "Distribution Channels",
+        "Product Development",
+        "New Business Models"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What change of high importance in MIS changes how firms produce, design, and deliver their products and services?",
+      "answer": "Ecommerce Expansion",
+      "choices": [
+        "Supply Chain Optimization",
+        "Customer Service Improvement",
+        "Product Diversification",
+        "Ecommerce Expansion"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What change of high importance in MIS reinvented itself, disrupting the traditional marketing and advertising?",
+      "answer": "Ecommerce Expansion",
+      "choices": [
+        "Branding Strategies",
+        "Public Relations Campaigns",
+        "Sales Promotions",
+        "Ecommerce Expansion"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What change of high importance in MIS has changed in the management of business firms?",
+      "answer": "Management Changes",
+      "choices": [
+        "Organizational Structures",
+        "Leadership Styles",
+        "Employee Engagement",
+        "Management Changes"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What change of high importance in MIS states that new, fast-going 21st century firms put less emphasis on hierarchy and structure and more on employees?",
+      "answer": "Changes in firms and organizations",
+      "choices": [
+        "Hierarchy and structure",
+        "Rules and regulations",
+        "Policies and procedures",
+        "Changes in firms and organizations"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "IT became a vital and integral part of every business plan. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Organizational structure of the IS function and distribution of employees are designed to meet the changing strategies of the business. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Form of an IT organization depends on the managerial philosophy and strategies formulated during the strategic planning process. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What refers to the determination of the basic long-term goals and adoption of courses of action and allocation of resources in achieving these goals?",
+      "answer": "Strategy",
+      "choices": [
+        "Strategy",
+        "Information System and Business Strategy",
+        "Use of Systems for Competitive Advantage",
+        "Information Technology in Organizations"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What involves leveraging technology in the value chain?",
+      "answer": "Information System and Business Strategy",
+      "choices": [
+        "Strategy",
+        "Information System and Business Strategy",
+        "Use of Systems for Competitive Advantage",
+        "Information Technology in Organizations"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Using IS to beat the competition and increase value of product is not easy. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What requires changing the processes and methods that probably have been in the organization for a long time?",
+      "answer": "Use of Systems for Competitive Advantage",
+      "choices": [
+        "Strategy",
+        "Information System and Business Strategy",
+        "Use of Systems for Competitive Advantage",
+        "Information Technology in Organizations"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "The responsibility for successfully developing and then using an integrated IS will usually fall on who?",
+      "answer": "Managers",
+      "choices": [
+        "Managers",
+        "Employees",
+        "Board",
+        "Elmer"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    }
+  ]
+}

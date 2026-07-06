@@ -1,0 +1,306 @@
+{
+  "quizInfo": {
+    "Subject": "Systems Integration and Architecture",
+    "Term": "Finals",
+    "Title": "Controlling (CO)",
+    "LastModified": "14 June 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "Any external links/handouts should be referenced here"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the primary purpose of the Controlling (CO) module in SAP?",
+      "choices": [
+        "To manage external financial reporting.",
+        "To provide an organization with a method of slicing and dicing data to view costs from an internal management perspective.",
+        "To handle payroll processing.",
+        "To manage customer relationships."
+      ],
+      "answer": "To provide an organization with a method of slicing and dicing data to view costs from an internal management perspective."
+    },
+    {
+      "question": "What is another name for the Controlling (CO) module?",
+      "choices": [
+        "Financial Accounting",
+        "Operational Accounting",
+        "Managerial Accounting",
+        "Cost Accounting"
+      ],
+      "answer": "Managerial Accounting"
+    },
+    {
+      "question": "Which of the following is a goal of the CO Organizational Structure?",
+      "choices": [
+        "Increase employee satisfaction.",
+        "Represent the legal and/or organizational views of an enterprise.",
+        "Improve customer service.",
+        "Enhance product quality."
+      ],
+      "answer": "Represent the legal and/or organizational views of an enterprise."
+    },
+    {
+      "question": "What is the smallest organizational unit where a legal set of books can be maintained in SAP?",
+      "choices": [
+        "Client",
+        "Company Code",
+        "Controlling Area",
+        "Operating Concern"
+      ],
+      "answer": "Company Code"
+    },
+    {
+      "question": "Which organizational unit in SAP Controlling is described as 'Self-contained unit for which revenues and expenses can be managed'?",
+      "choices": [
+        "Client",
+        "Company Code",
+        "Controlling Area",
+        "Operating Concern"
+      ],
+      "answer": "Controlling Area"
+    },
+    {
+      "question": "What is a Profit Center responsible for?",
+      "choices": [
+        "Revenue generation and cost containment.",
+        "Only revenue generation.",
+        "Only cost containment.",
+        "Neither revenue generation nor cost containment."
+      ],
+      "answer": "Revenue generation and cost containment."
+    },
+    {
+      "question": "What is the purpose of an Internal Order in SAP CO?",
+      "choices": [
+        "To generate revenue.",
+        "To contain costs for a temporary activity or project.",
+        "To manage external financial reporting.",
+        "To allocate costs between cost centers."
+      ],
+      "answer": "To contain costs for a temporary activity or project."
+    },
+    {
+      "question": "What is the relationship between a General Ledger revenue account and a CO revenue element?",
+      "choices": [
+        "No relationship.",
+        "1-to-1 linkage or mapping.",
+        "1-to-many linkage or mapping.",
+        "Many-to-1 linkage or mapping."
+      ],
+      "answer": "1-to-1 linkage or mapping."
+    },
+    {
+      "question": "Which cost element arises through the consumption of production factors that are sourced externally?",
+      "choices": [
+        "Primary Cost Element",
+        "Secondary Cost Element",
+        "Tertiary Cost Element",
+        "Quaternary Cost Element"
+      ],
+      "answer": "Primary Cost Element"
+    },
+    {
+      "question": "Which method is used for periodically allocating primary cost elements?",
+      "choices": [
+        "Distribution",
+        "Assessment",
+        "Allocation",
+        "Settlement"
+      ],
+      "answer": "Distribution"
+    },
+    {
+      "question": "What is the primary use of Statistical Key Figures in SAP CO?",
+      "choices": [
+        "Generate external financial reports.",
+        "Support internal cost allocations involving allocations, assessments, and distributions.",
+        "Manage payroll processing.",
+        "Track customer sales data."
+      ],
+      "answer": "Support internal cost allocations involving allocations, assessments, and distributions."
+    },
+    {
+      "question": "In S/4HANA, what replaces the separate cost element master data maintenance?",
+      "choices": [
+        "SAP FI Chart of Accounts",
+        "Transaction KA01",
+        "Universal Journal",
+        "Material Ledger"
+      ],
+      "answer": "SAP FI Chart of Accounts"
+    },
+    {
+      "question": "Which transaction can be used to view default account assignments transferred from the cost element master in S/4HANA?",
+      "choices": [
+        "KA01",
+        "KA02",
+        "KA03",
+        "OKB9"
+      ],
+      "answer": "OKB9"
+    },
+    {
+      "question": "In S/4HANA, how many levels are G/L accounts attributed to?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3"
+    },
+    {
+      "question": "What does the Universal Journal in S/4HANA combine account assignments from?",
+      "choices": [
+        "Controlling and Material Ledger",
+        "Profit Center and Controlling",
+        "Controlling, Profitability Analysis, and Enterprise Controlling",
+        "Financial Accounting and Controlling"
+      ],
+      "answer": "Controlling, Profitability Analysis, and Enterprise Controlling"
+    },
+    {
+      "question": "Which of the following is NOT an innovation provided by the Universal Journal?",
+      "choices": [
+        "Increased need for reconciliation",
+        "Reduced memory requirements",
+        "Harmonized external and internal accounting",
+        "Flexible real-time analyses"
+      ],
+      "answer": "Increased need for reconciliation"
+    },
+    {
+      "question": "What is now obligatory and automatically active in all SAP S/4HANA systems?",
+      "choices": [
+        "Universal Journal",
+        "Material Ledger",
+        "Cost Element Master Data",
+        "Chart of Accounts"
+      ],
+      "answer": "Material Ledger"
+    },
+    {
+      "question": "In S/4HANA, the Material Ledger allows the system to manage material prices in how many currencies/valuations?",
+      "choices": [
+        "One",
+        "Two",
+        "Multiple",
+        "None"
+      ],
+      "answer": "Multiple"
+    },
+    {
+      "question": "Which transaction replaces CKM3/CKM3N in S/4HANA?",
+      "choices": [
+        "CKM3PH",
+        "KA06",
+        "OKB9",
+        "KA01"
+      ],
+      "answer": "CKM3PH"
+    },
+    {
+      "question": "Which of the following is NOT a goal of the CO Organizational Structure?",
+      "choices": [
+        "Represent the legal and/or organizational views of an enterprise",
+        "Support the development and presentation of relevant information",
+        "Ensure profitability of external customers",
+        "Permit accurate and organized collection of business information"
+      ],
+      "answer": "Ensure profitability of external customers"
+    },
+    {
+      "question": "What is the primary function of a Company Code in the CO Organizational Structure?",
+      "choices": [
+        "Manage multiple controlling areas",
+        "Represent the legal and/or organizational views of an enterprise",
+        "Maintain a legal set of books",
+        "Support internal cost allocations"
+      ],
+      "answer": "Maintain a legal set of books"
+    },
+    {
+      "question": "Which organizational unit is defined as an independent environment in the system?",
+      "choices": [
+        "Company Code",
+        "Client",
+        "Operating Concern",
+        "Controlling Area"
+      ],
+      "answer": "Client"
+    },
+    {
+      "question": "What does a Controlling Area in the CO Organizational Structure manage?",
+      "choices": [
+        "Revenues and expenses",
+        "Legal books",
+        "Sales market structure",
+        "External financial reporting"
+      ],
+      "answer": "Revenues and expenses"
+    },
+    {
+      "question": "Which CO Master Data element is responsible for revenue generation and cost containment?",
+      "choices": [
+        "Cost Center",
+        "Internal Order",
+        "Profit Center",
+        "Revenue Element"
+      ],
+      "answer": "Profit Center"
+    },
+    {
+      "question": "Which CO Master Data element is used to plan, collect, and monitor the costs associated with a distinct short-term event?",
+      "choices": [
+        "Cost Center",
+        "Internal Order",
+        "Profit Center",
+        "Cost Element"
+      ],
+      "answer": "Internal Order"
+    },
+    {
+      "question": "What type of cost element arises through the consumption of production factors that are sourced externally?",
+      "choices": [
+        "Secondary Cost Element",
+        "Primary Cost Element",
+        "Revenue Element",
+        "Internal Order"
+      ],
+      "answer": "Primary Cost Element"
+    },
+    {
+      "question": "Which of the following is true about a Secondary Cost Element?",
+      "choices": [
+        "It originates in the General Ledger within FI",
+        "It is used exclusively in CO for allocations and settlements",
+        "It corresponds to General Ledger accounts in FI",
+        "It is responsible for revenue generation and cost containment"
+      ],
+      "answer": "It is used exclusively in CO for allocations and settlements"
+    },
+    {
+      "question": "What provides the foundation for accurate and effective cost allocation between cost objectives?",
+      "choices": [
+        "Cost Center",
+        "Internal Order",
+        "Statistical Key Figures",
+        "Revenue Element"
+      ],
+      "answer": "Statistical Key Figures"
+    },
+    {
+      "question": "What must be assigned when creating a cost element to determine the transactions for which it can be used?",
+      "choices": [
+        "Cost element category",
+        "General Ledger account",
+        "Cost center",
+        "Profit center"
+      ],
+      "answer": "Cost element category"
+    }
+  ]
+}

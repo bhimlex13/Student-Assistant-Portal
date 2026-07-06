@@ -1,0 +1,820 @@
+{
+  "quizInfo": {
+    "Subject": "Great Books",
+    "Term": "Prelims",
+    "Title": "Prelims Reviewer Pro Max",
+    "LastModified": "19 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01 Handout 1, 02 Handout 1, The Book of the Thousand Nights and One Night"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What are the styles, systems, or practices in decoding symbols for better comprehension for communication and sharing of information and ideas?",
+      "answer": "Reading Styles and Techniques",
+      "choices": [
+        "Cognitive Process",
+        "Deep Reading",
+        "Critical Approaches",
+        "Reading Styles and Techniques"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the process of thinking and remembering?",
+      "answer": "Cognitive Process",
+      "choices": [
+        "Reading Styles and Techniques",
+        "Decoding",
+        "Deriving",
+        "Cognitive Process"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is it to recognize and interpret information?",
+      "answer": "Decoding",
+      "choices": [
+        "Deriving",
+        "Cognitive Process",
+        "Skimming",
+        "Decoding"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is it to take, receive, or obtain something from a specified source?",
+      "answer": "Deriving",
+      "choices": [
+        "Decoding",
+        "Language Acquisition",
+        "Scanning",
+        "Deriving"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the process by which humans acquire the capacity to perceive and comprehend language?",
+      "answer": "Language Acquisition",
+      "choices": [
+        "Deriving",
+        "Cognitive Process",
+        "Skimming",
+        "Language Acquisition"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the method of rapidly moving the eyes over text to get only the main ideas and general overview of the content?",
+      "answer": "Skimming",
+      "choices": [
+        "Scanning",
+        "Phrase Reading",
+        "Deep Reading",
+        "Skimming"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the steps in skimming?",
+      "answer": "Pre-reading, Reviewing, Reading",
+      "choices": [
+        "Skimming, Scanning, Phrase Reading",
+        "Graphs, Diagrams, Charts",
+        "Deep Reading, Critical Approaches",
+        "Pre-reading, Reviewing, Reading"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the process of finding specific information such as a name, date, or fact without reading the entire article?",
+      "answer": "Scanning",
+      "choices": [
+        "Skimming",
+        "Phrase Reading",
+        "Deep Reading",
+        "Scanning"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a grouping of words that go together to mean something; also known as 'chunking'?",
+      "answer": "Phrase Reading",
+      "choices": [
+        "Scanning",
+        "Skimming",
+        "Deep Reading",
+        "Phrase Reading"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are examples of Non-Prose reading materials that present data or information visually?",
+      "answer": "Graphs, Diagrams, Charts, Maps",
+      "choices": [
+        "Deep Reading, Critical Approaches",
+        "Deconstruction, Feminist Criticism, Marxist Criticism",
+        "New Criticism, New Historicism, Psychological Criticism",
+        "Graphs, Diagrams, Charts, Maps"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an active process of thoughtful and deliberate reading to enhance comprehension and enjoyment of a text?",
+      "answer": "Deep Reading",
+      "choices": [
+        "Skimming",
+        "Scanning",
+        "Phrase Reading",
+        "Deep Reading"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is also called \"slow reading\"?",
+      "answer": "Deep Reading",
+      "choices": [
+        "Skimming",
+        "Scanning",
+        "Phrase Reading",
+        "Deep Reading"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the different perspectives we consider when examining a piece of literature?",
+      "answer": "Critical Approaches",
+      "choices": [
+        "Deep Reading",
+        "Deconstruction",
+        "Feminist Criticism",
+        "Critical Approaches"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What suggests that language is not a stable entity and that we can never exactly say what we mean?",
+      "answer": "Deconstruction",
+      "choices": [
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "New Criticism",
+        "Deconstruction"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What suggests that a literature cannot give a reader any meaning because the language is too ambiguous?",
+      "answer": "Deconstruction",
+      "choices": [
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "New Criticism",
+        "Deconstruction"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tries to correct a predominantly male-dominated critical perspective with a feminist consciousness?",
+      "answer": "Feminist Criticism",
+      "choices": [
+        "Deconstruction",
+        "Marxist Criticism",
+        "New Criticism",
+        "Feminist Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What form of criticism places literature in a social context and employs various disciplines, such as history, psychology, sociology, and linguistics, to create a perspective that considers feminist issues?",
+      "answer": "Feminist Criticism",
+      "choices": [
+        "Deconstruction",
+        "Marxist Criticism",
+        "New Criticism",
+        "Feminist Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a strongly politically oriented criticism deriving from the theories of the social philosopher Karl Marx?",
+      "answer": "Marxist Criticism",
+      "choices": [
+        "Deconstruction",
+        "Feminist Criticism",
+        "New Criticism",
+        "Marxist Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What insists that all language use is influenced by social class and economics?",
+      "answer": "Marxist Criticism",
+      "choices": [
+        "Deconstruction",
+        "Feminist Criticism",
+        "New Criticism",
+        "Marxist Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What evolved out of the same root theoretical system as deconstructionism, called formalist criticism?",
+      "answer": "New Criticism",
+      "choices": [
+        "Deconstruction",
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "New Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What works with the elements of a text-only — irony, paradox, metaphor, symbol, plot, etc. — by engaging in extremely close textual analysis?",
+      "answer": "New Criticism",
+      "choices": [
+        "Deconstruction",
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "New Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What focuses on the literary text as part of a larger social and historical context and the modern reader's interaction with that work?",
+      "answer": "New Historicism",
+      "choices": [
+        "Deconstruction",
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "New Historicism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What has a basis of the idea of the existence of human consciousness - those impulses, desires, and feelings about which a person is unaware but which influence emotions or behavior?",
+      "answer": "Psychological Criticism",
+      "choices": [
+        "New Historicism",
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "Psychological Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What removes the focus from the text and places it on the reader instead by attempting to describe what goes on in the reader's mind while reading a text?",
+      "answer": "Reader-Response Criticism",
+      "choices": [
+        "New Historicism",
+        "Feminist Criticism",
+        "Marxist Criticism",
+        "Reader-Response Criticism"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the Arabic word for the Qur’an?",
+      "answer": "Recitation",
+      "choices": [
+        "hung poems",
+        "Magamat",
+        "frame narrative",
+        "Recitation"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "How were the seven pre-Islamic poems dating to the 6th Century known?",
+      "answer": "hung poems",
+      "choices": [
+        "Recitation",
+        "Magamat",
+        "frame narrative",
+        "hung poems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "These poems are also known as Al-Mu'allagat.",
+      "answer": "hung poems",
+      "choices": [
+        "Recitation",
+        "Magamat",
+        "frame narrative",
+        "hung poems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the stories in rhymed prose related to the encounters of the witty Abul-Fath al-Iskanderi called?",
+      "answer": "Magamat",
+      "choices": [
+        "Recitation",
+        "hung poems",
+        "frame narrative",
+        "Magamat"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the other term of Magamat?",
+      "answer": "assemblies",
+      "choices": [
+        "assemblies",
+        "packages",
+        "assets",
+        "poets"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Where was the story of Bayad and Riyad written?",
+      "answer": "Islamic Andalusia",
+      "choices": [
+        "Strait of Gibraltar",
+        "Iberian Peninsula",
+        "Nile River",
+        "Islamic Andalusia"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was the Qur'an revealed to Muhammad by God, according to Islamic belief?",
+      "answer": "610-632 BC",
+      "choices": [
+        "c. 900-1008",
+        "8th Century",
+        "13th Century",
+        "610-632 BC"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "From what century onwards were distinctions made between al-fus 'ha and al-ammiyah?",
+      "answer": "8th Century",
+      "choices": [
+        "c. 900-1008",
+        "8th Century",
+        "13th Century",
+        "610-632 BC"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "When were the stories in rhymed prose related to the encounters of the witty Abul-Fath al-Iskanderi collected?",
+      "answer": "c. 900-1008",
+      "choices": [
+        "c. 900-1008",
+        "8th Century",
+        "13th Century",
+        "610-632 BC"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was the Story of Bayad and Riyad written?",
+      "answer": "13th Century",
+      "choices": [
+        "c. 900-1008",
+        "8th Century",
+        "13th Century",
+        "610-632 BC"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the narrative form of One Thousand and One Nights?",
+      "answer": "frame narrative",
+      "choices": [
+        "short story",
+        "folklore",
+        "novel",
+        "frame narrative"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who retold the stories of One Thousand and One Nights in Europe in the 18th Century?",
+      "answer": "Antonine Galland",
+      "choices": [
+        "Jean-Andrei Lagrimas",
+        "Reniel-Philippe Baldove",
+        "Art Auguste Suñega",
+        "Antonine Galland"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did King Shahryar command his Wazīr to do in the beginning of the story?",
+      "answer": "depart and return with King Shazaman",
+      "choices": [
+        "depart and return with King Shazaman",
+        "seek their destiny upon the road of Allah",
+        "have his wife's head cut off",
+        "bring him a young and virgin girl"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did King Shazaman rule over?",
+      "answer": "Samarkand al-Ajam",
+      "choices": [
+        "the isles of India and China",
+        "the salt sea",
+        "Samarkand al-Ajam",
+        "a lonely meadow"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was the moral of the fable of the ass, the bull, and the husbandman?",
+      "answer": "Do not interfere in the affairs of others or you may regret it.",
+      "choices": [
+        "Do not interfere in the affairs of others or you may regret it.",
+        "Always be honest and truthful.",
+        "Be grateful for the good things in your life.",
+        "Trust in Allah's plan."
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who narrates the story of \"The Bulls, The Ass, and The Husbandman\" to Sheherazade?",
+      "answer": "Wazir",
+      "choices": [
+        "Wazir",
+        "King Shazaman",
+        "King Shazaman",
+        "King Shahrayar"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the other term of Ifrit?",
+      "answer": "genie",
+      "choices": [
+        "genie",
+        "pokemon",
+        "bull",
+        "Kuto ni David"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What does the husbandman in the story primarily represent?",
+      "answer": "pragmaticism/practicality",
+      "choices": [
+        "pragmaticism/practicality",
+        "workability",
+        "loyalty",
+        "sincere"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was the bull's primary job in the story?",
+      "answer": "carrying heavy loads",
+      "choices": [
+        "carrying heavy loads",
+        "hacking the system",
+        "telling stories to King Shahrayar",
+        "help the farmer"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "How did King Shahryar's younger brother rule over Samarkand al-Ajam?",
+      "answer": "with justice",
+      "choices": [
+        "with justice",
+        "with cruelty",
+        "with wisdom",
+        "with indifference"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did King Shahzaman's wife do in the middle of the night when King Shahzaman had hardly left the city?",
+      "answer": "She was embraced by a black slave on her bed.",
+      "choices": [
+        "She was reading a book.",
+        "She was embraced by a black slave on her bed.",
+        "She was talking to her sister.",
+        "She was preparing for the King's return."
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did King Shahzaman see when he looked out of the windows of the palace?",
+      "answer": "He saw his brother's wife mingling with other women and men slaves.",
+      "choices": [
+        "He saw his brother's wife mingling with other women and men slaves.",
+        "He saw a gazelle being hunted by a lion.",
+        "He saw a group of children playing.",
+        "He saw a wise old man reading a book."
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did the ass advise the bull to do in order to rest from his labor?",
+      "answer": "pretend to be ill",
+      "choices": [
+        "work harder",
+        "pretend to be ill",
+        "complain to the master",
+        "run away from the farm"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did the husbandman do when the bull got sick?",
+      "answer": "He took the ass and made him work in the bull's place for the whole day.",
+      "choices": [
+        "He took the ass and made him work in the bull's place for the whole day.",
+        "He gave the bull some medicine.",
+        "He use the bull to bet in an online casino.",
+        "He sold the bull to the butcher."
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did the merchant do to his wife after hearing the cock's advice?",
+      "answer": "He beat her with mulberry twigs.",
+      "choices": [
+        "He beat her with mulberry twigs.",
+        "He divorced her.",
+        "He gave her more attention.",
+        "He sent her to her parents' house."
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did the cock say about the merchant's intelligence?",
+      "answer": "By Allah, our master is extraordinarily lacking in intelligence!",
+      "choices": [
+        "Our master is a very wise man.",
+        "By Allah, our master is extraordinarily lacking in intelligence!",
+        "Our master is a good man but he does not understand women.",
+        "Our master is too kind to his wife."
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was the name of King Shahryar's younger brother?",
+      "answer": "King Shahzaman",
+      "choices": [
+        "King Shahzaman",
+        "King Shahrazad",
+        "King Dunyazad",
+        "King Yunan"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was the name of the daughter of the Wazīr who had read many books and was well-versed in the histories of past peoples?",
+      "answer": "Shahrazad",
+      "choices": [
+        "Shahrazad",
+        "Dunyazad",
+        "Binibining Salamander",
+        "Charizard"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was the name of the elder daughter of the Wazīr in the tale?",
+      "answer": "Shahrazad",
+      "choices": [
+        "Shahrazad",
+        "Dunyazad",
+        "Binibining Salamander",
+        "Charizard"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was the name of the younger daughter of the Wazīr who assisted her sister in telling tales?",
+      "answer": "Dunyazad",
+      "choices": [
+        "Dunyazad",
+        "Shahrazad",
+        "King Shahzaman",
+        "King Yunan"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was the name of the Ifrit encountered by the merchant in the tale the Fisherman and the Jinni?",
+      "answer": "Sakhr al-Jinnī",
+      "choices": [
+        "Sakhr al-Jinnī",
+        "Mas'udah",
+        "Shahrazad",
+        "Dunyazad"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was the name of the doctor who cured King Yunan's leprosy?",
+      "answer": "Rayyan the Doctor",
+      "choices": [
+        "Rayyan the Doctor",
+        "King Shahrazad",
+        "King Dunyazad",
+        "King Shahzaman"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was the name of the King in the Tale of the Prince and the Ogress?",
+      "answer": "King Yunan",
+      "choices": [
+        "King Yunan",
+        "King Sindbad",
+        "King Shahrazad",
+        "King Dunyazad"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What animal did the first sheikh own?",
+      "answer": "a gazelle",
+      "choices": [
+        "a gazelle",
+        "a horse",
+        "a falcon",
+        "a dog"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did the first sheikh's wife do to his son?",
+      "answer": "She changed his son into a calf.",
+      "choices": [
+        "She changed his son into a calf.",
+        "She poisoned his son.",
+        "She abandoned his son in the desert.",
+        "She sent his son to a faraway city."
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did the first sheikh's wife do to the slave who was the mother of his son?",
+      "answer": "She changed the slave into a cow.",
+      "choices": [
+        "She changed the slave into a cow.",
+        "She killed the slave.",
+        "She sold the slave to another merchant.",
+        "She sent the slave to work in the fields."
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did the second sheikh's brothers do to him?",
+      "answer": "They cast him into the sea.",
+      "choices": [
+        "They cast him into the sea.",
+        "They stole his money.",
+        "They refused to share their inheritance with him.",
+        "They left him alone in a foreign city."
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did the second sheikh's wife do to his brothers?",
+      "answer": "She changed them into dogs.",
+      "choices": [
+        "She changed them into dogs.",
+        "She killed them.",
+        "She stole their money.",
+        "She sent them to prison."
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What animal did the third sheikh own?",
+      "answer": "a mule",
+      "choices": [
+        "a mule",
+        "a horse",
+        "a falcon",
+        "a dog"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did the third sheikh's wife do to him?",
+      "answer": "She changed him into a dog.",
+      "choices": [
+        "She changed him into a dog.",
+        "She poisoned him.",
+        "She abandoned him in the desert.",
+        "She sent him to a faraway city."
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did the fisherman catch on his fourth try?",
+      "answer": "a copper jar sealed with the seal of the Lord Sulaiman",
+      "choices": [
+        "a copper jar sealed with the seal of the Lord Sulaiman",
+        "a dead ass",
+        "a large earthen jar full of mud and sand",
+        "broken pots and pieces of glass"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "What did the Ifrit do to the fisherman's jar?",
+      "answer": "The Ifrit kicked the jar into the sea.",
+      "choices": [
+        "The Ifrit kicked the jar into the sea.",
+        "The Ifrit broke the jar into pieces.",
+        "The Ifrit buried the jar in the sand.",
+        "The Ifrit took the jar to his own palace."
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many kalandars were mentioned in the story?",
+      "answer": "Three",
+      "choices": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "reference": "The Book of the Thousand Nights and One Night",
+      "term": "Prelims"
+    }
+  ]
+}

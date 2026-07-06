@@ -1,0 +1,4999 @@
+{
+  "quizInfo": {
+    "Subject": "Professional Issues in Information Systems and Technology",
+    "Term": "Finals",
+    "Title": "Full Course Review",
+    "LastModified": "14 December 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Integrated Elements that gather, process, save, and disseminate information to support an organization's decision-making and management.",
+      "answer": "Information Systems",
+      "choices": [
+        "Information Systems",
+        "Information Technologies",
+        "Information System Technology",
+        "Systems Technology Information"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> Supermarket retailers using information systems to optimize supply chains and recording purchases.",
+      "answer": "Traditional Applications",
+      "choices": [
+        "Traditional Applications",
+        "Advanced Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> Shipping companies using information systems to dispatch trucks and track packages.",
+      "answer": "Traditional Applications",
+      "choices": [
+        "Traditional Applications",
+        "Advanced Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> Cities use information information systems for adaptive traffic control systems.",
+      "answer": "Traditional Applications",
+      "choices": [
+        "Traditional Applications",
+        "Advanced Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> Cars using information systems from ignition control to airbags.",
+      "answer": "Traditional Applications",
+      "choices": [
+        "Traditional Applications",
+        "Advanced Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> Online registrations for schools.",
+      "answer": "Advanced Applications",
+      "choices": [
+        "Advanced Applications",
+        "Traditional Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> eLMS.",
+      "answer": "Advanced Applications",
+      "choices": [
+        "Advanced Applications",
+        "Traditional Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What application is this? <br> Social media to communicate and share information.",
+      "answer": "Advanced Applications",
+      "choices": [
+        "Advanced Applications",
+        "Traditional Applications"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the outcome of acquired scientific knowledge, skills, procedures, and processes for applied purposes.",
+      "answer": "Technology",
+      "choices": [
+        "Technology",
+        "Science"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "An activity that forms and changes culture.",
+      "answer": "Technology",
+      "choices": [
+        "Technology",
+        "Science"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It implements science, math, and the arts to benefit life as it is known.",
+      "answer": "Technology",
+      "choices": [
+        "Technology",
+        "Science"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the physical component of an information system.",
+      "answer": "Hardware",
+      "choices": [
+        "Hardware",
+        "Software",
+        "Data",
+        "People"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the tangible parts to users.",
+      "answer": "Hardware",
+      "choices": [
+        "Hardware",
+        "Software",
+        "Data",
+        "People"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are set of commands that instruct the hardware what to do.",
+      "answer": "Software",
+      "choices": [
+        "Software",
+        "Hardware",
+        "Data",
+        "People"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are Intangible.",
+      "answer": "Software",
+      "choices": [
+        "Software",
+        "Hardware",
+        "Data",
+        "People"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This gives the interface between the hardware and the application software.",
+      "answer": "Operating Systems",
+      "choices": [
+        "Operating Systems",
+        "Application Systems",
+        "Software",
+        "Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This allows user to accomplish tasks such as creating documents, etc.",
+      "answer": "Application Systems",
+      "choices": [
+        "Application Systems",
+        "Operating Systems",
+        "Software",
+        "Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a collection of indisputable raw facts.",
+      "answer": "Data",
+      "choices": [
+        "Data",
+        "Information",
+        "Hardware",
+        "People"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "From front-line user support to systems analysts to developers, people engaged in information systems are an indispensable element. What component is this?",
+      "answer": "People",
+      "choices": [
+        "People",
+        "Process",
+        "Application Systems",
+        "Software"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the series of steps taken to accomplish the desired goal.",
+      "answer": "Process",
+      "choices": [
+        "Process",
+        "Data",
+        "Information",
+        "People"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "Who said that information and information systems would become increasingly important?",
+      "answer": "Peter Drucker",
+      "choices": [
+        "Peter Drucker",
+        "Peter Ducker",
+        "Peter Parker",
+        "Alice Guo"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What year did Peter Drucker said that information and information systems would become increasingly important?",
+      "answer": 1959,
+      "choices": [
+        1959,
+        1995,
+        1943,
+        1954
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are the professionals who make and modify knowledge as a fundamental part of their jobs.",
+      "answer": "Knowledge Worker",
+      "choices": [
+        "Knowledge Worker",
+        "Professional Worker",
+        "Beacon of knowledge",
+        "Professional Knowledger"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Information systems were centralized and concerned solely with governance and the needs of management.",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Most systems and reports are controlled by accounting departments.",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Included 3rd-gen mainframe computers such as the IBM 360 and minicomputers.",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Languages include Assembler, Fortran, COBOL, etc.",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>More departments were beginning to benefit from the technology.",
+      "answer": "Second Era",
+      "choices": [
+        "Second Era",
+        "First Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Steering committees and user-led initiatives determine the scope of additional information system projects.",
+      "answer": "Second Era",
+      "choices": [
+        "Second Era",
+        "First Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Included the first PCs.",
+      "answer": "Second Era",
+      "choices": [
+        "Second Era",
+        "First Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Concentrated information systems started to spread and information became deconcentrated.",
+      "answer": "Third Era",
+      "choices": [
+        "Third Era",
+        "Second Era",
+        "First Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Costs decreased.",
+      "answer": "Third Era",
+      "choices": [
+        "Third Era",
+        "Second Era",
+        "First Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Chief Information Officer (CIO) as a position arose in many companies.",
+      "answer": "Third Era",
+      "choices": [
+        "Third Era",
+        "Second Era",
+        "First Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Technology included internetworking and the emergence of the internet.",
+      "answer": "Third Era",
+      "choices": [
+        "Third Era",
+        "Second Era",
+        "First Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Information systems are still tied to governance and management, although the systems are widely distributed to every employee who needs them across multiple platforms.",
+      "answer": "Fourth Era",
+      "choices": [
+        "Fourth Era",
+        "First Era",
+        "Second Era",
+        "Third Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Combined all aspects of the business enterprise, offering rich information access surrounding the complete management structure.",
+      "answer": "Fourth Era",
+      "choices": [
+        "Fourth Era",
+        "First Era",
+        "Second Era",
+        "Third Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Now includes social media, search engines, laptops, etc.",
+      "answer": "Fourth Era",
+      "choices": [
+        "Fourth Era",
+        "First Era",
+        "Second Era",
+        "Third Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Uses networking technology that deliver applications and data storage independent of the configuration or location of the hardware.",
+      "answer": "Fifth Era",
+      "choices": [
+        "Fifth Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Led to new levels of flexibility, such as cloud computing.",
+      "answer": "Fifth Era",
+      "choices": [
+        "Fifth Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Rising global competitiveness has forced companies to find better and more cost-effective ways.",
+      "answer": "Fifth Era",
+      "choices": [
+        "Fifth Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Solution for companies continues to be to use information systems to accomplish tasks better, faster, and cheaper.",
+      "answer": "Fifth Era",
+      "choices": [
+        "Fifth Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Mainframe and Minicomputer",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Personal Computer",
+      "answer": "Second Era",
+      "choices": [
+        "Second Era",
+        "First Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Client/Server",
+      "answer": "Third Era",
+      "choices": [
+        "Third Era",
+        "Second Era",
+        "First Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Enterprise ",
+      "answer": "Fourth Era",
+      "choices": [
+        "Fourth Era",
+        "First Era",
+        "Second Era",
+        "Third Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Cloud Computing",
+      "answer": "Fifth Era",
+      "choices": [
+        "Fifth Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Mid-1960s to Mid-1970s",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Mid-1970s to Mid-1980s",
+      "answer": "Second Era",
+      "choices": [
+        "Second Era",
+        "First Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Mid-1980s to Late 1990s",
+      "answer": "Third Era",
+      "choices": [
+        "Third Era",
+        "Second Era",
+        "First Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Late 1990s to today",
+      "answer": "Fourth Era",
+      "choices": [
+        "Fourth Era",
+        "First Era",
+        "Second Era",
+        "Third Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What era is this?<br>Moving Forward",
+      "answer": "Fifth Era",
+      "choices": [
+        "Fifth Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Handles day-to-day business data at the operational level of the organization.",
+      "answer": "Transaction Processing Systems (TPS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Systematically processes customer transactions to generate a considerable amount of data.",
+      "answer": "Transaction Processing Systems (TPS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Commonly applied in a grocery store checkout cash registers that connect to anetwork.",
+      "answer": "Transaction Processing Systems (TPS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Produces detailed and specified information to help manage a company.",
+      "answer": "Management Information (MIS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Used when TPS data are sorted and organized to support a broad range of managerial decision.",
+      "answer": "Management Information (MIS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Used primarily for inventory management and planning systems.",
+      "answer": "Management Information (MIS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Retrieves TPS info, collects it, and generates reports to have relevant insights on a situation.",
+      "answer": "Management Information (MIS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Summaries and comparisons allow managers to optimize the decision-making process to achieve better resorts.",
+      "answer": "Management Information (MIS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Supports a wide range of predefined day-to-day work activities of individuals and businesses.",
+      "answer": "Office Automation Systems (OAS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Involves apps such as Microsoft Word, Excel, and PowerPoint.",
+      "answer": "Office Automation Systems (OAS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Help organizations to effectively capture, store, and retrieve organizational knowledge to enhance learning and optimize collaboration efforts to complete tasks.",
+      "answer": "Knowledge Management Systems (KMS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Involves documents such as employee training materials, company policies, etc.",
+      "answer": "Knowledge Management Systems (KMS)",
+      "choices": [
+        "Management Information (MIS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Analyzes data and support decision-making.",
+      "answer": "Decision Support Systems (DSS)",
+      "choices": [
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Utilized by managerial-level employees to resolve problems such as sales forecasting and resource optimization.",
+      "answer": "Decision Support Systems (DSS)",
+      "choices": [
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Designed to be interactive decision aid that applied models to manipulate data.",
+      "answer": "Decision Support Systems (DSS)",
+      "choices": [
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Knowledge Management Systems (KMS)",
+        "Transaction Processing Systems (TPS)"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Represent a new application model in information systems.",
+      "answer": "Mobile Applications",
+      "choices": [
+        "Mobile Applications",
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Intelligent Systems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Represent a niche application model for companies and business systems needing mobile information broadcasting and simple applications.",
+      "answer": "Mobile Applications",
+      "choices": [
+        "Mobile Applications",
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Intelligent Systems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Apps like Instagram and Office Mobile are best for businesses whose customers are mainly targeted online for faster and more convenient transactions.",
+      "answer": "Mobile Applications",
+      "choices": [
+        "Mobile Applications",
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Intelligent Systems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Science of allowing information technologies to simulate human intelligence, such as reasoning and learning.",
+      "answer": "Intelligent Systems",
+      "choices": [
+        "Mobile Applications",
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Intelligent Systems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What category of information systems is this? <br>Significantly impact various areas, such as banking and financial management, etc.",
+      "answer": "Intelligent Systems",
+      "choices": [
+        "Mobile Applications",
+        "Decision Support Systems (DSS)",
+        "Office Automation Systems (OAS)",
+        "Intelligent Systems"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Used to convert printed or handwritten text and images into digital data on a computer.",
+      "answer": "Scanners",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Translates an image or document into digital data that can be stored and manipulated on the computer.",
+      "answer": "Scanners",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Used for various applications, including verification, building access, or making payments.",
+      "answer": "Smart Cards",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Contains a microprocessor chip, memory circuits, or a magnetic stripe to work.",
+      "answer": "Smart Cards",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Allows contactless data transmission using RFID and Near-Field Communication (NFC).",
+      "answer": "Smart Cards",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Primarily used for identification and verification purposes.",
+      "answer": "Biometric Devices",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Now also integrated into consumer products such as laptops.",
+      "answer": "Biometric Devices",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Involves fingerprint and iris scanning.",
+      "answer": "Biometric Devices",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Involves the use of microphones to translate audio into digital information.",
+      "answer": "Voice Input",
+      "choices": [
+        "Scanners",
+        "Smart Cards",
+        "Biometric Devices",
+        "Voice Input"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Produce a copy of documents from a computer.",
+      "answer": "Printers",
+      "choices": [
+        "Printers",
+        "Smart Cards",
+        "Biometric Devices",
+        "Monitors"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Include InkJet, LED, and laser tech.",
+      "answer": "Printers",
+      "choices": [
+        "Printers",
+        "Smart Cards",
+        "Biometric Devices",
+        "Monitors"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Used to display information from a computer.",
+      "answer": "Monitors",
+      "choices": [
+        "Printers",
+        "Smart Cards",
+        "Biometric Devices",
+        "Monitors"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What hardware and technology is this?<br>Most modern monitors use liquid crystal display (LCD) tech.",
+      "answer": "Monitors",
+      "choices": [
+        "Printers",
+        "Smart Cards",
+        "Biometric Devices",
+        "Monitors"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This lets users convey verbal and written information and send files.",
+      "answer": "Electronic Communication Tools",
+      "choices": [
+        "Electronic Communication Tools",
+        "Electronic Conferencing Tools",
+        "Collaboration Management Tools"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are tools allow information sharing and engaging user interactions, such as internet forums and video conferencing.",
+      "answer": "Electronic Conferencing Tools",
+      "choices": [
+        "Electronic Communication Tools",
+        "Electronic Conferencing Tools",
+        "Collaboration Management Tools"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are tools that facilitate virtual or co-located meetings and manage group activities.",
+      "answer": "Collaboration Management Tools",
+      "choices": [
+        "Electronic Communication Tools",
+        "Electronic Conferencing Tools",
+        "Collaboration Management Tools"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a email application that secures email, calendar, and files connected in one application.",
+      "answer": "Microsoft Outlook",
+      "choices": [
+        "Microsoft Outlook",
+        "Viber",
+        "Discord",
+        "Microsoft Teams"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a messaging and calling application that connects people worldwide.",
+      "answer": "Viber",
+      "choices": [
+        "Microsoft Outlook",
+        "Viber",
+        "Discord",
+        "Microsoft Teams"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a free voice, video, and messaging application used to talk and hang out with their communities, such as gaming.",
+      "answer": "Discord",
+      "choices": [
+        "Microsoft Outlook",
+        "Viber",
+        "Discord",
+        "Microsoft Teams"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This allow users to call with up to 1000 members, with the ability to share screens and record calls.",
+      "answer": "Microsoft Teams",
+      "choices": [
+        "Microsoft Outlook",
+        "Viber",
+        "Discord",
+        "Microsoft Teams"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is used for audio and video conferencing, webinars, meeting recordings, and livestreams.",
+      "answer": "Zoom",
+      "choices": [
+        "Zoom",
+        "Microsoft Sonic",
+        "Zoom 100: Video Conferencing App of The Dead",
+        "Soom"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is the business-oriented version of Google Hangouts.",
+      "answer": "Google Meet",
+      "choices": [
+        "Google Meet",
+        "Google Meat",
+        "Google Meet me at Vicencio St. I got the goods",
+        "Google Hangouts for Workplaces"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This allows users to create joint proposals and reports and keep track of meeting notes using a web browser.",
+      "answer": "Google Docs",
+      "choices": [
+        "Google Docs",
+        "Google Jamboard",
+        "Microsoft Word with Multiplayer Mode",
+        "Google Documents"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a free version of Office 365 as a web application that includes Word, Excel, PowerPoint, etc., all accessible via a web browser.",
+      "answer": "Microsoft Office Online",
+      "choices": [
+        "Microsoft Office Online",
+        "Microsoft SharePoint",
+        "Microsoft Work from Home Starter Pack",
+        "Office 365 Online"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is a simple sharing and collaboration application that centers on teamwork with dynamic and productive team sites for every project team and department.",
+      "answer": "Microsoft SharePoint",
+      "choices": [
+        "Microsoft Office Online",
+        "Microsoft SharePoint",
+        "Microsoft Drive",
+        "Office 365 Online"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "What is technology?",
+      "answer": "This refers to methods, systems, and devices which are the result of scientific knowledge being used for practical purposes.",
+      "choices": [
+        "This integrated elements that gather, process, save, and disseminate information to support an organization's decision-making and management.",
+        "It is a collection of indisputable raw facts.",
+        "It a set of commands that instruct the hardware what to do.",
+        "This refers to methods, systems, and devices which are the result of scientific knowledge being used for practical purposes."
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the science of allowing information technologies to simulate human intelligence",
+      "answer": "Artificial Intellegence",
+      "choices": [
+        "Artificial Intellegence",
+        "Smart Cards",
+        "Intelligent Systems",
+        "Information Systems"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are integrated elements that gather, process, save, and disseminate information to support an organization's decision-making and management.",
+      "answer": "Information Systems",
+      "choices": [
+        "Artificial Intellegence",
+        "Smart Cards",
+        "Intelligent Systems",
+        "Information Systems"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "Application Software allows users to accomplish tasks such as document creation and data encoding. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is the current term referring to the phenomenon of a knowledge society emerging with the growth of knowledge workers.",
+      "answer": "Digital World",
+      "choices": [
+        "Internet World",
+        "Digital World",
+        "Digimon",
+        "IoT"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "It can produce detailed and specified information to help manage a company",
+      "answer": "MIS",
+      "choices": [
+        "MIS",
+        "OAS",
+        "KMS",
+        "TPS"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "MICROSOFT TEAMS is the business-oriented version of Google's Hangouts platform is suitable for businesses of all sizes. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "MIS are designed to be interactive decision aid that applies models to manipulate data. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "In FIFTH ERA more departments were beginning to benefit from the technology. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "DSS systematically processes customer transactions to generate a considerable amount of data. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "In the FOURTH ERA of information systems rich information access was offered to business enterprises. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "Focusing in the PROCESS to gain an advantage over their competitors should focus highly on this aspect of their information systems. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "Focusing on the people involved in information systems is essential. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "Supermarket retailers for optimizing supply chains and recording purchases is an application of the traditional application of IS. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "A scanner contains a microprocessor chip or a magnetic stripe. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "A MONITOR can be in color, black, and white or monochrome (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "The fourth era of information systems became widely distributed to employees who needed them.  (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Prelims Reviewer",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is more than just qualifications, knowledge, and skill; but is also about integrity, ethics, and trust.",
+      "answer": "Professionalism",
+      "choices": [
+        "Professionalism",
+        "Consumerism",
+        "Ethicalism",
+        "Sabogism"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This is practicing and maintaining a high level of valued professionalism will create stronger relationship with clients, employers, the team, and the public who will use or benefit from the products and services.",
+      "answer": "Professionalism",
+      "choices": [
+        "Professionalism",
+        "Consumerism",
+        "Ethicalism",
+        "Sabogism"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Its essence is not just for the job but also for how the job is done.",
+      "answer": "Professionalism",
+      "choices": [
+        "Professionalism",
+        "Consumerism",
+        "Ethicalism",
+        "Sabogism"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is where someone possesses a set of values, behaviors, and broader responsibilities in how the professional's knowledge and skills are applied.",
+      "answer": "Professionalism",
+      "choices": [
+        "Professionalism",
+        "Consumerism",
+        "Ethicalism",
+        "Sabogism"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It's about having an informed, ethical, and strategic approach to work for the greater good and the wider benefit.",
+      "answer": "Professionalism",
+      "choices": [
+        "Professionalism",
+        "Consumerism",
+        "Ethicalism",
+        "Sabogism"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "The idea of professionalism and modern professions originated from trade guilds and the learned societies for the church, law, and medicine. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "The concepts of professionalism, profession, and professionalization have met considerable and critical attention in sociology through various interpretations and analyses. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that professionalism was determined to be an occupational value for the stability and ordinance of social systems?",
+      "answer": "First Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that professional Relations (PR) were cooperative and mutually supportive in this interpretation?",
+      "answer": "First Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that relations of trust represented the employee-client, and employee-management interactions as competence were presumed as a guarantee through education, training, and licensing?",
+      "answer": "First Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that during the 1970s-1980s, professionalism was dismissed as a successful principle and professionalization as a process of authority over occupation or a market?",
+      "answer": "Second Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that professionalization promotes a professional's occupational self-interest in salary and power?",
+      "answer": "Second Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that it was a process initiated and controlled by the employees through professional institutions and associations to promote and protect their self-interests?",
+      "answer": "Second Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that it involved the analysis of professionalism as a discourse of occupational change and control, especially in organizations wherein it was increasingly applied and utilized by managers?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that there is an important difference between the discourse of professionalism as built \"from within\"?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that it can also be from the occupational group itself and as-built \"from above\" or by managers in work organizations?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that when discourse is built from within, the benefits to the group can be significant?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that the occupational group uses the discourse to build its occupational identity, promote its image with clients and customers, and secure and promote the occupational control of work by employees?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that studies in the early 21st century demonstrated that professionalism presents advantages for both clients and employees?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What interpretation depicts that it highlighted the importance of maintaining professionalism and trust, competence, and discretion as the main organizing principles for service work in modern societies?",
+      "answer": "Third Interpretation",
+      "choices": [
+        "First Interpretation",
+        "Second Interpretation",
+        "Third Interpretation",
+        "Fourth Interpretation"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is about knowing what is appropriate in different situations as it avoids awkwardness or upset, boosts credibility and helps to feel job security?",
+      "answer": "Appropriateness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism relates to outward appearances, such as dressing, hygiene, and body language?",
+      "answer": "Appropriateness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism covers the way of speaking and writing in selecting a topic to discuss and behavior with others?",
+      "answer": "Appropriateness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalsim is about a professional who gets the job done and done well?",
+      "answer": "Competence",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is the ability must meet the role's requirements to produce results that exceed expectations?",
+      "answer": "Competence",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism manages the expectations of others and identifies when it is necessary to ask for support?",
+      "answer": "Competence",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism reassures and motivates other people by boosting the ability to influence and lead?",
+      "answer": "Confidence",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism encourages everyone to take on new challenges as the risk of damaging their professional reputation if things go wrong is non-existent?",
+      "answer": "Confidence",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalsim involves being reliable, setting high standards, and displaying care in every aspect of the job?",
+      "answer": "Conscientiousness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is about being diligent and organized and holding oneself accountable for thoughts, words, and actions, no matter the results?",
+      "answer": "Conscientiousness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism should not be confused with working longer hours than everyone else or obsessing about details?",
+      "answer": "Conscientiousness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism states that true professionals plan and prioritize their work to keep it under control while not letting perfectionism hold them back?",
+      "answer": "Conscientiousness",
+      "choices": [
+        "Appropriateness",
+        "Competence",
+        "Confidence",
+        "Conscientiousness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is staying professional under pressure?",
+      "answer": "Emotional Intelligence",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism requires strategies for managing emotions and clear awareness of other people's feelings and thoughts?",
+      "answer": "Emotional Intelligence",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism means keeping emotions in check, but at the same time expressing feelings for meaningful and fruitful conversations is necessary?",
+      "answer": "Emotional Intelligence",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is staying true to one's word?",
+      "answer": "Integrity",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism stops one from compromising their values, even if that means taking a bigger risk?",
+      "answer": "Integrity",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is the commitment to being honest to oneself and others?",
+      "answer": "Integrity",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism states that when beliefs and behaviors are aligned, genuineness reflects?",
+      "answer": "Integrity",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism involves detailed and up-to-date knowledge which is highly specialized?",
+      "answer": "Knowledge",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism states that one can master a role and a specialization by learning new knowledge at every stage of their careers?",
+      "answer": "Knowledge",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is vital to put into action?",
+      "answer": "Knowledge",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is being confident to show that knowledge is not for self-promotion but for helping others succeed?",
+      "answer": "Knowledge",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism is about being a role model for politeness and displaying good manners to everyone, not just to impress specific people?",
+      "answer": "Respect",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What characteristic of professionalism take others' needs into account and help uphold their rights?",
+      "answer": "Respect",
+      "choices": [
+        "Emotional Intelligence",
+        "Integrity",
+        "Knowledge",
+        "Respect"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that employees must know the expectations in how they communicate?",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that employees must have the resources they need to developer their communication skills?",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that quality back-and-forth eliminate unnecessary problems and promote better productivity in the workplac?",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work effectively creates a strong team connection, increasing overall performance?",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that if employees consult and consider the views of others, their interest in cooperation increases leading to finding the best possible solutions?",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work builds a strong employee relationship as the more they work closely, the more they get to know and develop a liking for each other?",
+      "answer": "Teamwork",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that the more they work together, the more they learn and adapt to living with each others' likes, dislikes, strengths, and weaknesses?",
+      "answer": "Teamwork",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work reduces toxic work culture, driven by drama, low morale at work, lack of communication, and the fear of a boss?",
+      "answer": "Teamwork",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work is enhanced by participating in team-building activities to practice relying on others' strengths and consulting doubts and confusions as soon as they arise?",
+      "answer": "Teamwork",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work allows a professional to analyze information, arrive at conclusions, and make sound decisions?",
+      "answer": "Critical Thinking",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work is an essential skill everyone must improve?",
+      "answer": "Critical Thinking",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work is valuable in any role in an organization?",
+      "answer": "Critical Thinking",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work is developed through communication and creative problem-solving as it allows the free-flowing connections of ideas to evaluate arguments, find errors, and solve complex issues?",
+      "answer": "Critical Thinking",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that one must prioritize taking on high-risk problems that need immediate action to practice this skill while ensuring the correctness and quality of the output?",
+      "answer": "Critical Thinking",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work aligns the behavior of employees to the company's visions?",
+      "answer": "Ethics",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work promotes openness, partnership, and trust?",
+      "answer": "Ethics",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that when employees know supervisors' expectations, they do better in their jobs?",
+      "answer": "Ethics",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that one must always mind the stakes involved in any aspect of the job to ensure actions are bounded by what is morally correct and acceptable?",
+      "answer": "Ethics",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that recognizing its importance helps employees feel secure as threats such as harassment and bullying are absent, and respect is thriving?",
+      "answer": "Ethics",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Ethics"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work is expressed through natural human values and unique talents and perspectives that employees contribute?",
+      "answer": "Humanness",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Humanness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that humanity is dynamic as it incorporates the innate need for purpose, growth, and work-life balance simultaneously?",
+      "answer": "Humanness",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Humanness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that practicing being kind, accepting, and emotionally available is a massive step towards achieving humanness in the workplace?",
+      "answer": "Humanness",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Humanness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that it doesn't require additional skills but the natural values to do good around people?",
+      "answer": "Humanness",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Humanness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What principle of professionals at work states that professionals today want to be a part of something larger than themselves, something that in some way positively impacts the human experience?",
+      "answer": "Humanness",
+      "choices": [
+        "Communication",
+        "Teamwork",
+        "Critical Thinking",
+        "Humanness"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is the analysis of human actions from the perspective of \"good\" and \"evil\" or of \"morally correct\" and \"morally wrong\".",
+      "answer": "Ethics",
+      "choices": [
+        "Ethics",
+        "Code of Ethics",
+        "Professionalism",
+        "Professionalization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It deals with responsibilities, rights, use of language, significance of ethical life, and how people make moral decisions.",
+      "answer": "Ethics",
+      "choices": [
+        "Ethics",
+        "Code of Ethics",
+        "Professionalism",
+        "Professionalization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It is one of the methods to navigate new ethical issues in an organization.",
+      "answer": "Code of Ethics",
+      "choices": [
+        "Ethics",
+        "Code of Ethics",
+        "Professionalism",
+        "Professionalization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It outlines a set of acceptable behaviors in a professional or social group generally agreed to by its members.",
+      "answer": "Code of Ethics",
+      "choices": [
+        "Ethics",
+        "Code of Ethics",
+        "Professionalism",
+        "Professionalization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It specifies various actions that are considered appropriate and inappropriate.",
+      "answer": "Code of Ethics",
+      "choices": [
+        "Ethics",
+        "Code of Ethics",
+        "Professionalism",
+        "Professionalization"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility deals with protecting fundamental human rights and one's right to autonomy?",
+      "answer": "Contribute to society and human well-being",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility is essential to minimize the adverse effects of information systems, including threats to health, safety, and privacy?",
+      "answer": "Contribute to society and human well-being",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that systems should respect diversity, meet social needs, be used in socially responsible ways, and be broadly accessible?",
+      "answer": "Contribute to society and human well-being",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that it's encouraged to actively participate in volunteer work that benefits the public good?",
+      "answer": "Contribute to society and human well-being",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This means causing adverse consequences, such as undesirable loss of information, physical or mental injury, loss of property, and unjustified damage to property, reputation, and the environment.",
+      "answer": "Harm",
+      "choices": [
+        "Harm",
+        "Ham",
+        "Losses",
+        "Liability"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility starts with careful consideration of potential impacts on those likely to be affected?",
+      "answer": "Avoid harm",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that when harm is an intentional part of the system, everyone involved must ensure that the harm is ethically justified and minimized?",
+      "answer": "Avoid harm",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "To minimize harm, follow generally accepted protocols unless there is a justified ethical reason to do so otherwise.(TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that it's an obligation to report any signs that might result in damage?",
+      "answer": "Avoid harm",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that transparency and disclosing a system's relevant capabilities, limitations, and potential risks of a system to the appropriate person is important?",
+      "answer": "Be honest and trustworthy",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that making deliberately misleading claims, data falsification, offering/accepting bribes, and other ill-intentioned conduct are violations and shouldn't be tolerated?",
+      "answer": "Be honest and trustworthy",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that one must appropriately represent an organization's policies or procedures and shouldn't speak on their behalf unless authorized to do so?",
+      "answer": "Be honest and trustworthy",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility concerns discrimination based on race, sex, religion, age, disability, and other related factors?",
+      "answer": "Be fair and act not to discriminate",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that workplace should be inclusive and as accessible as possible to avoid developing systems or technologies that disenfranchise or oppress people?",
+      "answer": "Be fair and act not to discriminate",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Communication technology enables the collection and exchange of personal info, resulting in a decreased potential for privacy violations. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that maintaining the privacy and integrity of personal data is necessary, including taking precautions to ensure data accuracy and protection from unauthorized access or disclosure to inappropriate individuals?",
+      "answer": "Respect privacy",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Respect privacy",
+        "Honor confidentiality"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility only the necessary amount of personal information should be collected?",
+      "answer": "Respect privacy",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Respect privacy",
+        "Honor confidentiality"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that retention and disposal periods of personal info must be clearly defined and enforced, and only collect information for a specific purpose with consent?",
+      "answer": "Respect privacy",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Respect privacy",
+        "Honor confidentiality"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility involves the protection of confidential info such as trade secrets, client data, financial information, and research data?",
+      "answer": "Honor confidentiality",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Respect privacy",
+        "Honor confidentiality"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Ethical Responsibility states that it's advised to thoughtfully consider whether such information is consistent with the law?\\",
+      "answer": "Honor confidentiality",
+      "choices": [
+        "Contribute to society and human well-being",
+        "Avoid harm",
+        "Respect privacy",
+        "Honor confidentiality"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that excellence is one of the most important obligations of a professional?",
+      "answer": "Strive to achieve the highest quality, effectiveness, and dignity",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that it's encouraged to strive for quality and be aware of the severe adverse consequences of a poor quality system?",
+      "answer": "Strive to achieve the highest quality, effectiveness, and dignity",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that the dignity of everyone at work, including the clients and users, should be respected throughout the process?",
+      "answer": "Strive to achieve the highest quality, effectiveness, and dignity",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that one must participate in setting appropriate levels of competence to achieve high standards?",
+      "answer": "Acquire and maintain professional competence",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that upgrading technical knowledge and competence are achieved through independent study, attending seminars or courses, and involvement in professional organizations?",
+      "answer": "Acquire and maintain professional competence",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that sharing technical knowledge with the public by encouraging the understanding of computing is a responsibility that shows the impacts of information systems and their limitations?",
+      "answer": "Improve public understanding of computing and its consequences",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility implies an obligation to counter and disprove any false views related to the systems?",
+      "answer": "Improve public understanding of computing and its consequences",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility is aligned with integrity and honesty?",
+      "answer": "Honor contracts, agreements, and assigned responsibilities",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility includes ensuring that system elements function as intended?",
+      "answer": "Honor contracts, agreements, and assigned responsibilities",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states the principle is the acceptance of personal accountability for professional work regardless of results?",
+      "answer": "Honor contracts, agreements, and assigned responsibilities",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that on occasions that other responsibilities take higher priority, ethical judgment should be the final guide in deciding whether to proceed or not?",
+      "answer": "Honor contracts, agreements, and assigned responsibilities",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that trespassing and unauthorized use of computers or systems are prohibited?",
+      "answer": "Access computing and communication resources only when authorized to do so",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Access computing and communication resources only when authorized to do so"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that organizations have the right to restrict access to their systems forbidding one's use of someone's computer system, software, or data files?",
+      "answer": "Access computing and communication resources only when authorized to do so",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Access computing and communication resources only when authorized to do so"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What General Professional Responsibility states that access must have appropriate approval before using system resources, including but not limited to communication ports, file space, other system peripherals, and computer time?",
+      "answer": "Access computing and communication resources only when authorized to do so",
+      "choices": [
+        "Strive to achieve the highest quality, effectiveness, and dignity",
+        "Acquire and maintain professional competence",
+        "Improve public understanding of computing and its consequences",
+        "Access computing and communication resources only when authorized to do so"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work is where employees communicate differently?",
+      "answer": "Communication challenges",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that the lack of communication and absence of coordination between employees can pose a challenge to an organization's harmony and success?",
+      "answer": "Communication challenges",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that the chance of feeling demotivated is always present despite the desire to work?",
+      "answer": "Low employee motivation",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that in a desk job people get tired of doing the same work every day?",
+      "answer": "Low employee motivation",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that there are always unhappy employees that feel frustrated or those that are unwilling to welcome change and new activities?",
+      "answer": "Difficult people",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that once the conflict intensifies, reaching out to HR or anyone in charge is ideal?",
+      "answer": "Difficult people",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that skill enhancement is too essential to be ignored?",
+      "answer": "Lack of skill development and professional growth",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that employees need to improve their performance to keep pace with new technologies. Otherwise, they risk becoming outdated and dispensable?",
+      "answer": "Lack of skill development and professional growth",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that seeking out seminars and training is encouraged even if they're not initiated by the company to avoid the feeling of becoming stagnant?",
+      "answer": "Lack of skill development and professional growth",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Lack of skill development and professional growth"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that work is good for mental health, but a poor workplace can lead to physical and mental health problems?",
+      "answer": "Mental health challenges",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Mental health challenges"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Professional Issue at Work states that taking time off work is valid when dealing with mental health challenges?",
+      "answer": "Mental health challenges",
+      "choices": [
+        "Communication challenges",
+        "Low employee motivation",
+        "Difficult people",
+        "Mental health challenges"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This is the condition where moral conflict arises in the workplace where moral standards are challenged?",
+      "answer": "Ethical Issue",
+      "choices": [
+        "Ethical Issue",
+        "Ethical Dilemma",
+        "Ethics",
+        "Code of Ethics"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "These are complicated challenges that cannot easily be solved, making the ability to find the ideal solution critical to everyone.",
+      "answer": "Ethical Dilemma",
+      "choices": [
+        "Ethical Issue",
+        "Ethical Dilemma",
+        "Ethics",
+        "Code of Ethics"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This is the problem between 2 feasible options wherein neither is acceptance from an ethical perspectives.",
+      "answer": "Ethical Dilemma",
+      "choices": [
+        "Ethical Issue",
+        "Ethical Dilemma",
+        "Ethics",
+        "Code of Ethics"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that having issues with a superior is one thing and reporting it is another?",
+      "answer": "Unethical Leadership",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that issues can come in any form, some can be noticeable while some may occur subtly?",
+      "answer": "Unethical Leadership",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that the best way to address issues with a superior is by dealing with the superior and how it affects the team's productivity?",
+      "answer": "Unethical Leadership",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that superiors who easily dismiss work issues are at risk of disrespecting and putting their employees at risk?",
+      "answer": "Toxic Workplace Culture",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that with the mindset of hiring someone \"culturally fit\", a toxic culture can be worsened by repopulating the company with like-minded personalities with toxic mentalities?",
+      "answer": "Toxic Workplace Culture",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that it's encouraged to lead with respect to the code of ethics as well as taking into consideration of everyone's mental and physical wellness?",
+      "answer": "Toxic Workplace Culture",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that discrimination do not just cross an ethical line but also a legal one?",
+      "answer": "Discrimination and Harassment",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Companies are vigilant in avoiding costly legal and public backlash related to discrimination and harassment. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Disengaging conversations that lead to discrimination and harassing territory is a good start. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that one should never show enthusiasm with \"jokes\" with malicious intent, and as always, talking to HR is the best solution?",
+      "answer": "Discrimination and Harassment",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that companies often set unrealistic and unattainable goals to motivate employees?",
+      "answer": "Unrealistic and Conflicting Goals",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that unrealistic objectives can put heightened pressure on employees, causing corner cutting or breach of ethical or legal guidelines to obtain them?",
+      "answer": "Unrealistic and Conflicting Goals",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What Ethical Issue states that making sure that a goal is attainable should be practiced as well as setting up a good timetable and plan for its execution?",
+      "answer": "Unrealistic and Conflicting Goals",
+      "choices": [
+        "Unethical Leadership",
+        "Toxic Workplace Culture",
+        "Discrimination and Harassment",
+        "Unrealistic and Conflicting Goals"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What way of solving an ethical dilemma states that situations must be carefully analyzed as in some cases?",
+      "answer": "Reject the Dilemma",
+      "choices": [
+        "Reject the Dilemma",
+        "Value Theory approach",
+        "Find alternative solutions",
+        "Leila Dilemma"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What way of solving an ethical dilemma states that ethical dilemmas can be logically refuted?",
+      "answer": "Reject the Dilemma",
+      "choices": [
+        "Reject the Dilemma",
+        "Value Theory approach",
+        "Find alternative solutions",
+        "Leila Dilemma"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What way of solving an ethical dilemma states that one must determine an alternative that offers the greater good or the lesser evil than the other?",
+      "answer": "Value Theory approach",
+      "choices": [
+        "Reject the Dilemma",
+        "Value Theory approach",
+        "Find alternative solutions",
+        "Leila Dilemma"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What way of solving an ethical dilemma states that problems can be viewed through a different lens, resulting in alternative solutions?",
+      "answer": "Find alternative solutions",
+      "choices": [
+        "Reject the Dilemma",
+        "Value Theory approach",
+        "Find alternative solutions",
+        "Leila Dilemma"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Ethical Issues can be addressed based on simply adhering to the provided code of ethics. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Ethical Dilemma exists when 2 or more ethical principles or standards conflict with each other. (TR or FL).",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "This is a crime committed in cyberspace using information technologies.",
+      "answer": "Cybercrime",
+      "choices": [
+        "Cybercrime",
+        "Digital crime",
+        "Cyberterrorism",
+        "Rawr"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category are offenses committed with or without technology but increased their reach using such technologies?",
+      "answer": "Cyber-enabled offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category is also described as \"technology-as-instrument\" offenses?",
+      "answer": "Cyber-enabled offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category is strictly committed using information and communication technologies?",
+      "answer": "Cyber-dependent offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category targets network systems and data confidentiality, integrity, and availability?",
+      "answer": "Cyber-dependent offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category deals with the illegal use of computers for data storage, documentation, and communication?",
+      "answer": "Cyber-supported offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category involves instances wherein the use of the computer or network isn't vital to the actual crime but may still be legally relevant to be considered as evidence or as an accessory to the crime?",
+      "answer": "Cyber-supported offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybercrime category is considered cyberterrorism?",
+      "answer": "National security offenses",
+      "choices": [
+        "Cyber-enabled offenses",
+        "Cyber-dependent offenses",
+        "Cyber-supported offenses",
+        "National security offenses"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-enabled offense involves obtaining or possessing another's identity and information to commit a legal offense?",
+      "answer": "Identity Theft",
+      "choices": [
+        "Identity Theft",
+        "Identity Fraud",
+        "Phishing",
+        "Cyberbullying and Online Harassment"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-enabled offense involves fraudulent impersonation of someone to gain an advantage, obtain property, cause a disadvantage, or avoid prosecution?",
+      "answer": "Identity Fraud",
+      "choices": [
+        "Identity Theft",
+        "Identity Fraud",
+        "Phishing",
+        "Cyberbullying and Online Harassment"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-enabled offense involves luring users to log onto a fake website that appears real to gather sensitive information?",
+      "answer": "Phishing",
+      "choices": [
+        "Identity Theft",
+        "Identity Fraud",
+        "Phishing",
+        "Cyberbullying and Online Harassment"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-enabled offense involves the use of online tools to harass, intimidate, or embarrass another person or group?",
+      "answer": "Cyberbullying and Online Harassment",
+      "choices": [
+        "Identity Theft",
+        "Identity Fraud",
+        "Phishing",
+        "Cyberbullying and Online Harassment"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-dependent offense involves the manipulation of a computer system or private network to access digital files or systems without authorization?",
+      "answer": "Hacking",
+      "choices": [
+        "Hacking",
+        "Cyber-attack",
+        "Malware",
+        "Kanpai"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-dependent offense  uses computers against other computers or systems to modify, steal, or gain information through unauthorized access?",
+      "answer": "Cyber-attack",
+      "choices": [
+        "Hacking",
+        "Cyber-attack",
+        "Malware",
+        "Kanpai"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cyber-dependent offense involves malicious software?",
+      "answer": "Malware",
+      "choices": [
+        "Hacking",
+        "Cyber-attack",
+        "Malware",
+        "Kanpai"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of hacking involves gaining logical or physical entry to a network or system without proper authorization?",
+      "answer": "Unauthorized access",
+      "choices": [
+        "Unauthorized access",
+        "Modification of data",
+        "Impairment of data",
+        "Interception of data"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of hacking involves inserting, removing, or alteration of data without proper authorization?",
+      "answer": "Modification of data",
+      "choices": [
+        "Unauthorized access",
+        "Modification of data",
+        "Impairment of data",
+        "Interception of data"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of hacking involves the disruption of transmission or communication of data?",
+      "answer": "Impairment of data",
+      "choices": [
+        "Unauthorized access",
+        "Modification of data",
+        "Impairment of data",
+        "Interception of data"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of hacking involves unauthorized access and alteration in the data transmission between machines?",
+      "answer": "Interception of data",
+      "choices": [
+        "Unauthorized access",
+        "Modification of data",
+        "Impairment of data",
+        "Interception of data"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of hacking involves unauthorized use of company files, systems, computers, and networks to damage the company's properties?",
+      "answer": "Misuse of assets",
+      "choices": [
+        "Misuse of assets",
+        "Unauthorized access",
+        "Modification of data",
+        "Impairment of data"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of malware is designed to spread from one program to another and can self-replicate?",
+      "answer": "Virus",
+      "choices": [
+        "Virus",
+        "Worm",
+        "Trojan",
+        "Spammer"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of malware replicates itself without human intervention?",
+      "answer": "Worm",
+      "choices": [
+        "Virus",
+        "Worm",
+        "Trojan",
+        "Spammer"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of malware appears as a legitimate program but is actually a virus?",
+      "answer": "Trojan",
+      "choices": [
+        "Virus",
+        "Worm",
+        "Trojan",
+        "Spammer"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of malware sends massive amounts of messages to illegally acquired email addresses?",
+      "answer": "Spammer",
+      "choices": [
+        "Virus",
+        "Worm",
+        "Trojan",
+        "Spammer"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What type of malware is used to perform illegal activities such as capturing banking login details, and taking screenshots of visited websites?",
+      "answer": "Spyware",
+      "choices": [
+        "Spyware",
+        "Virus",
+        "Worm",
+        "Trojan"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of cyberterrorism is the sudden invasive attacks targeting computer systems?",
+      "answer": "Incursion",
+      "choices": [
+        "Incursion",
+        "Destruction",
+        "Disinformation",
+        "Distributed Denial of Service (DDoS)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of cyberterrorism involves the destruction of digital data so that it becomes unreadable or inaccessible?",
+      "answer": "Destruction",
+      "choices": [
+        "Incursion",
+        "Destruction",
+        "Disinformation",
+        "Distributed Denial of Service (DDoS)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of cyberterrorism involves the intentional dissemination of false information to mislead, confuse, or manipulate an audience?",
+      "answer": "Disinformation",
+      "choices": [
+        "Incursion",
+        "Destruction",
+        "Disinformation",
+        "Distributed Denial of Service (DDoS)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of cyberterrorism involves malicious attempts from multiple machines to disrupt computer networks by temporarily or indefinitely making them inaccessible?",
+      "answer": "Distributed Denial of Service (DDoS)",
+      "choices": [
+        "Incursion",
+        "Destruction",
+        "Disinformation",
+        "Distributed Denial of Service (DDoS)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What category of cyberterrorism involves malicious attacks targeting websites to replace their content with the attacker's message?",
+      "answer": "Defacement of Websites",
+      "choices": [
+        "Defacement of Websites",
+        "Incursion",
+        "Destruction",
+        "Disinformation"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What penalty is usually given to those who are found guilty of cyber-enabled offenses?",
+      "answer": "6 - 12 years imprisonment or PHP 200,000 fine",
+      "choices": [
+        "6 - 12 years imprisonment or PHP 200,000 fine",
+        "6 - 12 years imprisonment or PHP 500,000 fine or both",
+        "12 - 20 years imprisonment or PHP 500,000 fine",
+        "1 degree lower than the advised penalty for the offense or a fine of at least PHP 100,000 to PHP 500,000 or both."
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What penalty is usually given to those who are found guilty of misuse of assets?",
+      "answer": "6 - 12 years imprisonment or PHP 500,000 fine or both",
+      "choices": [
+        "6 - 12 years imprisonment or PHP 200,000 fine",
+        "6 - 12 years imprisonment or PHP 500,000 fine or both",
+        "12 - 20 years imprisonment or PHP 500,000 fine",
+        "1 degree lower than the advised penalty for the offense or a fine of at least PHP 100,000 to PHP 500,000 or both."
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What penalty is usually given to those who are found guilty of cyber-enabled offenses?",
+      "answer": "12 - 20 years imprisonment or PHP 500,000 fine",
+      "choices": [
+        "6 - 12 years imprisonment or PHP 200,000 fine",
+        "6 - 12 years imprisonment or PHP 500,000 fine or both",
+        "12 - 20 years imprisonment or PHP 500,000 fine",
+        "1 degree lower than the advised penalty for the offense or a fine of at least PHP 100,000 to PHP 500,000 or both."
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What penalty is usually given to those who are found guilty of cyber supported and national security offenses?",
+      "answer": "1 degree lower than the advised penalty for the offense or a fine of at least PHP 100,000 to PHP 500,000 or both.",
+      "choices": [
+        "6 - 12 years imprisonment or PHP 200,000 fine",
+        "6 - 12 years imprisonment or PHP 500,000 fine or both",
+        "12 - 20 years imprisonment or PHP 500,000 fine",
+        "1 degree lower than the advised penalty for the offense or a fine of at least PHP 100,000 to PHP 500,000 or both."
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybersecurity technology involves taking plain text and coding it into an unreadable format?",
+      "answer": "Encryption",
+      "choices": [
+        "Encryption",
+        "Authentication",
+        "Mysterification",
+        "Rawr"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What is the technology of encrypting and decrypting information?",
+      "answer": "Cryptography",
+      "choices": [
+        "Cryptography",
+        "Confusionism",
+        "Crypto",
+        "Encryption"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What do you call unencrypted data?",
+      "answer": "Plain text",
+      "choices": [
+        "Plain text",
+        "Cipher text",
+        "Input text",
+        "Output text"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What do you call encrpyted data?",
+      "answer": "Cipher text",
+      "choices": [
+        "Plain text",
+        "Cipher text",
+        "Input text",
+        "Output text"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybersecurity technology involves digital certificates, access tokens, PINs, IDs, and security keys?",
+      "answer": "Authentication",
+      "choices": [
+        "Authentication",
+        "Biometrics",
+        "Firewall",
+        "Virus detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybersecurity technology involves the use of an individual's physical and behavioral traits?",
+      "answer": "Biometrics",
+      "choices": [
+        "Authentication",
+        "Biometrics",
+        "Firewall",
+        "Virus detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybersecurity technology stands as a barrier between networks implemented in software, hardware, or cloud-based applications?",
+      "answer": "Firewall",
+      "choices": [
+        "Authentication",
+        "Biometrics",
+        "Firewall",
+        "Virus detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybersecurity technology prevents, detects, and removes any malware?",
+      "answer": "Virus detection",
+      "choices": [
+        "Authentication",
+        "Biometrics",
+        "Firewall",
+        "Virus detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What cybersecurity technology prevents the user from entering malicious sites that pretends to be the real one?",
+      "answer": "Phishing Detection",
+      "choices": [
+        "Phishing Detection",
+        "Authentication",
+        "Biometrics",
+        "Firewall"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What phishing detection technology involves targeting the visual likeness of phishing sites?",
+      "answer": "Visual Similarity-Based Phishing Detection",
+      "choices": [
+        "Visual Similarity-Based Phishing Detection",
+        "Blacklist-Based Phishing Detection",
+        "Web Crawling-Based Phishing Attack Detection (WC-PAD)",
+        "Phishing Detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What phishing detection technology involves keeping a database of approved and unapproved URLs?",
+      "answer": "Blacklist-Based Phishing Detection",
+      "choices": [
+        "Visual Similarity-Based Phishing Detection",
+        "Blacklist-Based Phishing Detection",
+        "Web Crawling-Based Phishing Attack Detection (WC-PAD)",
+        "Phishing Detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What phishing detection technology involves the checking of whether the link is in the DNS blacklist?",
+      "answer": "Web Crawling-Based Phishing Attack Detection (WC-PAD)",
+      "choices": [
+        "Visual Similarity-Based Phishing Detection",
+        "Blacklist-Based Phishing Detection",
+        "Web Crawling-Based Phishing Attack Detection (WC-PAD)",
+        "Phishing Detection"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is the legal system on information systems and technology develops daily as technology grows.",
+      "answer": "Legal awareness",
+      "choices": [
+        "Legal awareness",
+        "Security Expectation",
+        "Organization Expectation",
+        "Damages"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What effect of development on organizations is being described? Clients and partners expect extensive security to protect their data.",
+      "answer": "Security Expectation",
+      "choices": [
+        "Legal awareness",
+        "Security Expectation",
+        "Organization Expectation",
+        "Damages"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What effect of development on organizations is being described? They expect organizations to adhere to lawful paths in achieving commercial goals.",
+      "answer": "Organization Expectation",
+      "choices": [
+        "Legal awareness",
+        "Security Expectation",
+        "Organization Expectation",
+        "Damages"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What effect of development on organizations is being described? If organizations miss a new legal ruling, it could hurt the organization, its brand, and everyone involved.",
+      "answer": "Damages",
+      "choices": [
+        "Legal awareness",
+        "Security Expectation",
+        "Organization Expectation",
+        "Damages"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is the notion that equally treats all content flowing through the cables and towers of ISPs.",
+      "answer": "Net Neutrality",
+      "choices": [
+        "Net Neutrality",
+        "Data Protection",
+        "Intellectual Property Theft",
+        "Non-Compete Laws"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This requires ISPs to not slide additional data into \"fast lanes\" that block or discriminate against the contents of other ISP.",
+      "answer": "Net Neutrality",
+      "choices": [
+        "Net Neutrality",
+        "Data Protection",
+        "Intellectual Property Theft",
+        "Non-Compete Laws"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "There are laws in the Philippines that deals with net neutrality. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This requires covering the bases and confirming the structural soundness of the network, prevention of cybersecurity breaches, and transparency with them.",
+      "answer": "Data Protection",
+      "choices": [
+        "Net Neutrality",
+        "Data Protection",
+        "Intellectual Property Theft",
+        "Non-Compete Laws"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This requires software to be truthful and transparent in handling personal data by giving precise and timely reports and updates.",
+      "answer": "Data Protection",
+      "choices": [
+        "Net Neutrality",
+        "Data Protection",
+        "Intellectual Property Theft",
+        "Non-Compete Laws"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This involves ideas, design, artistic works, images, etc. that are assets to a company.",
+      "answer": "Intellectual Property",
+      "choices": [
+        "Intellectual Property",
+        "Asset",
+        "Resources",
+        "Flour"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This covers patent trolling, trademark infringement, software pirating, and counterfeit production across the globe.",
+      "answer": "Intellectual Property Theft",
+      "choices": [
+        "Net Neutrality",
+        "Data Protection",
+        "Intellectual Property Theft",
+        "Non-Compete Laws"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This deals when a massive company purchases patents in the market instead of creating their own for their products and services.",
+      "answer": "Patent Trolling",
+      "choices": [
+        "Patent Trolling",
+        "Cybercrime",
+        "Dropshipping",
+        "Flour"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "These are signed agreements between employees and employers that prohibit the employee from going to a rival company after resignation.",
+      "answer": "Non-Compete Laws",
+      "choices": [
+        "Net Neutrality",
+        "Data Protection",
+        "Intellectual Property Theft",
+        "Non-Compete Laws"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? Expectations should be communicated, and timeframes should be identified as the scope of work changes from time to time, affecting the timeline previously stated.",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? As soon as issues arise, notify the other party, document, and find solutions.",
+      "answer": "Communication",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? If failures happen, own them. It's much cheaper than being served to court.",
+      "answer": "Picking the right battles",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? Don't cover errors by glossing over them, as a situation is almost always worse than the problem itself.",
+      "answer": "Picking the right battles",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? Just because certain legal advice works for a similar situation doesn't guarantee that the exact advice work on another alike.",
+      "answer": "Source of Legal Advice",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? If legal matters arise, one must involve qualified and trusted legal counsel.",
+      "answer": "Source of Legal Advice",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? Sourcing through the internet for legal opinions is acceptable, but advice from a qualified and experienced lawyer is more valid.",
+      "answer": "Source of Legal Advice",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? Timely performance regarding expectations is another way to avoid legal problems.",
+      "answer": "Following Through",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? If an employee handbook is available, follow it for proper procedures and policies in dealing with issues.",
+      "answer": "Following Through",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? It's important to follow through or perform by the expectations when working with another party or client, as it minimizes legal tendencies.",
+      "answer": "Following Through",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What way of avoiding legal problems is being described? Always possess proof of performance that can be a type of receipt, acknowledgment, or an email.",
+      "answer": "Following Through",
+      "choices": [
+        "Communication",
+        "Picking the right battles",
+        "Source of Legal Advice",
+        "Following Through"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This combines the benefits of data protection and cyber security needed for business operations in the current cyber threat landscape.",
+      "answer": "Cyberprotection",
+      "choices": [
+        "Cyberprotection",
+        "Cybersecurity",
+        "Flour",
+        "Bread"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This safeguards the systems that make data access, storage, transfer, and authentication possible instead of mainly focusing on data protection.",
+      "answer": "Cybersecurity",
+      "choices": [
+        "Cyberprotection",
+        "Cybersecurity",
+        "Flour",
+        "Bread"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is formed by integrating cyber security with data protection to address new forms of malicious cyberattacks fully.",
+      "answer": "Cyberprotection",
+      "choices": [
+        "Cyberprotection",
+        "Cybersecurity",
+        "Privacy",
+        "Bread"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection deals with ensuring that a reliable copy of the data and information is always available?",
+      "answer": "Safety",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection  deals with ensuring that data and information are available from any location at any time?",
+      "answer": "Accessibility",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection involves data to various mediums ensures safety and accessibility whenever a copy gets corrupted or compromised?",
+      "answer": "Accessibility",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection deals with ensuring full control and transparency over who can view and access the data and information?",
+      "answer": "Privacy",
+      "choices": [
+        "Privacy",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection deals with ensuring that backed-up data and information is an exact and unmodified copy of the original data?",
+      "answer": "Authenticity",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection deals with ensuring that data are protected against cyber threats?",
+      "answer": "Security",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection regards ensuring the safety of confidential files?",
+      "answer": "Security",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What scope of cyberprotection states that another form of security is installing antivirus software to prevent cyber attacks and malware from affecting the files and the whole system?",
+      "answer": "Security",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Authenticity",
+        "Security"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This can help to contribute to society and human well-being.",
+      "answer": "Minimizing the adverse effects of information systems",
+      "choices": [
+        "Minimizing the adverse effects of information systems",
+        "Avoiding harm",
+        "Being honest and trustworthy",
+        "Finding Mary Grace Piattos"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "It is the act of obtaining or possessing another's identity and information to commit a legal offense.",
+      "answer": "Identity Theft",
+      "choices": [
+        "Identity Theft",
+        "Identity Fraud",
+        "Phishing",
+        "Cyberbullying"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following were the network developed during the first era of information systems?",
+      "answer": "Mainframe and Minicomputers",
+      "choices": [
+        "Mainframe and Minicomputers",
+        "Client and server",
+        "Personal Computers",
+        "SAP na laging may logical error"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "This deals with sharing technological knowledge and skills for underprivileged individuals.",
+      "answer": "Pro Bono Publico",
+      "choices": [
+        "Pro Bono Publico",
+        "Internet Safety",
+        "Human Safety",
+        "Environment and Sustainability"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following ensures that a reliable copy of the data is always available?",
+      "answer": "Safety",
+      "choices": [
+        "Safety",
+        "Accessibility",
+        "Privacy",
+        "Kavougability"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following ensures that a reliable copy of the data is always available?",
+      "answer": "Safety",
+      "choices": [
+        "Safety",
+        "Security",
+        "Privacy",
+        "Kavougability"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following deals with proper management and expression of emotions?",
+      "answer": "Emotional Intelligence",
+      "choices": [
+        "Emotional Intelligence",
+        "Creative Problem Solving",
+        "Layoffs",
+        "Therapy"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "This responsibility is the obligation to counter and disprove any false views related to the systems?",
+      "answer": "Improve public understanding of computing and its consequences",
+      "choices": [
+        "Improve public understanding of computing and its consequences",
+        "Honor contracts, agreements, and assigned responsibilities",
+        "Acquire and maintain professional competence",
+        "Access computing and communication resources only when authorized to do so"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of hte following ensures that backup data is an exact and unmodified copy of the original?",
+      "answer": "Authenticity",
+      "choices": [
+        "Authenticity",
+        "Safety",
+        "Accessibility",
+        "Security"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which startup recycles plastic waste into bricks that are resistant to water, fire, and heat?",
+      "answer": "Brickify",
+      "choices": [
+        "Brickify",
+        "Dryad Networks",
+        "Start it Up! Get, Get, Ow!",
+        "Brick Systems"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following ensures user modifications of online experiences to meet their preferences?",
+      "answer": "Personal",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following is a challenge when professionals feel discouraged and demotivated?",
+      "answer": "Low employee motivation",
+      "choices": [
+        "Low employee motivation",
+        "Low pay",
+        "Low 13th month pay",
+        "Pinasayaw sa Christmas party kasi new hire"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following facilitate virtual or co-located meetings and manage group activities?",
+      "answer": "Collaboration Management Tools",
+      "choices": [
+        "Collaboration Management Tools",
+        "Electronic Conferencing Tools",
+        "Electronic Communication Tools",
+        "Online means"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "This is an ethical theory where individuals are accountable for fulfilling a civic duty.",
+      "answer": "Social Responsibility",
+      "choices": [
+        "Social Responsibility",
+        "Human Safety",
+        "Ethical Responsibility",
+        "Internet Safety"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following concerns the replacement of employees with more advanced computers?",
+      "answer": "Lack of Job Security",
+      "choices": [
+        "Lack of Job Security",
+        "Cost",
+        "Security Issues",
+        "A.I. uprising"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "These are integrated elements that gather, process, and dissiminate information.",
+      "answer": "Information Systems",
+      "choices": [
+        "Information Systems",
+        "Traditional Applications",
+        "Advanced Applications",
+        "Technology"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following encourages taking high-risk challenges as worries about reputation are non-existent?",
+      "answer": "Confidence",
+      "choices": [
+        "Confidence",
+        "Conscientiousness",
+        "Competence",
+        "Emotional Intelligence"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Social Responsibility is not ethically validated before taking action. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "FL",
+        "TR"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following aims to resolve internet safety issues in information systems and technology?",
+      "answer": "Applying lawful and stricter rules to systems",
+      "choices": [
+        "Applying lawful and stricter rules to systems",
+        "Pro Bono Publico",
+        "Share knowledge and skills in technology",
+        "Immerse"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "These are part of personal trends in information systems and technology.",
+      "answer": "Netflix's Algorithm",
+      "choices": [
+        "Drones / Unmanned Aerial Vehicles (UAVs)",
+        "Netflix's Algorithm",
+        "Smart Watches",
+        "3D Printing"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which era of information systems and technology were centralized and concerned solely with governance?",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "These secures a computer system by removing malware.",
+      "answer": "Antivirus",
+      "choices": [
+        "Antivirus",
+        "Cryptography",
+        "Biometrics",
+        "Phishing Detection"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which era of information systems and technology were centralized and concerned solely with governance?",
+      "answer": "First Era",
+      "choices": [
+        "First Era",
+        "Second Era",
+        "Third Era",
+        "Fourth Era"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following is considered a characteristic of toxic work culture?",
+      "answer": "Hiring someone \"culturally fit\"",
+      "choices": [
+        "Hiring someone \"culturally fit\"",
+        "Unethical leadership",
+        "\"Group think\" mentality",
+        "Unrealistic deadlines ops sino yon"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following ensures that backup data is an exact and unmodified copy of the original?",
+      "answer": "Authenticity",
+      "choices": [
+        "Authenticity",
+        "Safety",
+        "Accessibility",
+        "Security"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following ensures that backup data is an exact and unmodified copy of the original?",
+      "answer": "Authenticity",
+      "choices": [
+        "Authenticity",
+        "Safety",
+        "Accessibility",
+        "Security"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "It is decrypted using decryption keys.",
+      "answer": "Encrypted data / Ciphertext",
+      "choices": [
+        "Encrypted data / Ciphertext",
+        "Plaintext",
+        "Decrypted data",
+        "Blowfish"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Deliberately creating false and misleading claims about a system can be considered as ethically responsible. (TR or FL)",
+      "answer": "FL",
+      "choices": [
+        "FL",
+        "TR"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following can form and change the culture?",
+      "answer": "Technology",
+      "choices": [
+        "Technology",
+        "Security",
+        "Technological Trends",
+        "Societal Changes"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "Technology can form and change the culture. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "Finals Review",
+      "term": "Finals"
+    },
+    {
+      "question": "It is an ethical theory where individuals are accountable for fulfilling a civic duty that benefits society.",
+      "answer": "Social Responsibility",
+      "choices": [
+        "Social Responsibility",
+        "Technological Responsibility",
+        "ごめんなさい、答えがわかりません！",
+        "Ethical Responsibility"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "It states that the balance between economic growth and welfare of society should be observed to accomplish this.",
+      "answer": "Social Responsibility",
+      "choices": [
+        "Social Responsibility",
+        "Technological Responsibility",
+        "ごめんなさい、答えがわかりません！",
+        "Ethical Responsibility"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "It is built on a system of ethics wherein decisions and actions must be ethically validated before proceeding.",
+      "answer": "Social Responsibility",
+      "choices": [
+        "Social Responsibility",
+        "Technological Responsibility",
+        "ごめんなさい、答えがわかりません！",
+        "Ethical Responsibility"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility is to protect public safety, health, and welfare with every new system and technology?",
+      "answer": "Human Safety",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that with technological progress, a future in which e-waste becomes a much bigger problem is possible?",
+      "answer": "Environment and Sustainability",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that it is responsible to dispose of devices and e-wastes in their appropriate bins?",
+      "answer": "Environment and Sustainability",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that technologies like smart machines are built to separate waste from the streets or the sea?",
+      "answer": "Environment and Sustainability",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that machines that improve the quality of animals and trees help fulfill this responsibility?",
+      "answer": "Environment and Sustainability",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that as personal and organizational information such as intellectual property transitions to the cyber world, the number of cyber criminals increases, posing a risk to these assets?",
+      "answer": "Internet Safety",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that it concerns not just big corporations but also the most vulnerable individuals?",
+      "answer": "Internet Safety",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that it can be resolved by applying lawful and stricter rules to the systems and conducting close monitoring to avoid any cyber-attacks?",
+      "answer": "Internet Safety",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that it's a responsibility to share knowledge and skills in technology through voluntary participation on seminars, conferences, advisory groups, and 1-on-1 consultations for those not privileged enough to access nor pay for them?",
+      "answer": "Pro Bono Publico",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does Pro Bono Publico mean in English?",
+      "answer": "For the Public Good",
+      "choices": [
+        "For the Public Good",
+        "Public Good to Others",
+        "In the Service of the Filipino, Worldwide",
+        "For the Pubic Good"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Computer technology has been the most significant technology since the beginning of the Industrial Revolution. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that tech possesses a vast potential for healthcare system improvements?",
+      "answer": "Healthcare and Wellness Advancements",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that wide tech adoption by patients and healthcare professionals has excellent potential to improve public health entities' efficiency as advancements in preventative health can remove healthcare expenditures and allow early patient monitoring and symptom detection?",
+      "answer": "Healthcare and Wellness Advancements",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that initiatives and healthcare tech companies work significantly faster than traditional companies?",
+      "answer": "Healthcare and Wellness Advancements",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that e-learning platforms host courseware materials from different industries that contain videos and interactive boards, making education much more accessible and available to students?",
+      "answer": "Education",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that environmental initiatives are creating sustainable solutions to recycle and reduce waste, purify water, and monitor changes in the environment to ensure a more sustainable future?",
+      "answer": "Environment Protection",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that the universal value of technology is bringing equality in products and services through minimizing socioeconomic gaps in society?",
+      "answer": "Equal Opportunities",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that in work settings, technology helps detect all kinds of discrimination, such as the gender gap and exclusion of minorities using AI models that detect hate speech?",
+      "answer": "Equal Opportunities",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What startup matches cancer patients and their oncologists with optimal investigational or approved therapies and uses the data collection algorithm used for COVID-19 tracking?",
+      "answer": "xCure",
+      "choices": [
+        "xCure",
+        "Immerse",
+        "Brickify",
+        "Dryad Networks"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What startup uses VR to help students learn English by communication and practice through a range of topics and themes using VR headsets?",
+      "answer": "Immerse",
+      "choices": [
+        "xCure",
+        "Immerse",
+        "Brickify",
+        "Dryad Networks"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What startup recycles plastic waste into bricks resistant to water, fire, and heat and can be used for road construction and low-cost housing?",
+      "answer": "Brickify",
+      "choices": [
+        "xCure",
+        "Immerse",
+        "Brickify",
+        "Dryad Networks"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What startup launched a wireless environmental sensor network based on the leading open standard for long-range radio IoT networks to detect wildfires about 60 minutes before they spread out?",
+      "answer": "Dryad Networks",
+      "choices": [
+        "xCure",
+        "Immerse",
+        "Brickify",
+        "Dryad Networks"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Adverse impacts of technology are mostly based on social media. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What did Twitter (formerly X, formerly Twitter) launch in 2021 to build a community helping to fight misinformation?",
+      "answer": "Birdwatch",
+      "choices": [
+        "Birdwatch",
+        "Community Notes",
+        "Elon's Melons",
+        "Fact You! Fact Checking Program"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Social media platforms rely on instant gratification to keep their users. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the phenomenon that happens when someone is flooded with posts of others doing exciting things while their personal life seems mundane and worse?",
+      "answer": "Fear Of Missing Out (FOMO)",
+      "choices": [
+        "Fear Of Missing Out (FOMO)",
+        "Jealousy",
+        "Envy",
+        "Happy For You (HFY)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that continuous decline in hardware and software costs will make information processes affordable regardless of the company's size and financial status?",
+      "answer": "Reduced Cost",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that continuous improvement and expansion of AI will profoundly impact information systems?",
+      "answer": "Advanced AI",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that developments in natural language processing makes information systems easier to utilize?",
+      "answer": "Advanced AI",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that robots will play a significant role in the workforce as they supervise 1 of 3 jobs by 2025?",
+      "answer": "Advanced AI",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that developments in networking technology will make computer connections easier while sending information faster?",
+      "answer": "Network Technology Improvements",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that manageable network compatibility issue and improving communication quality and information delivery through voice and image integration on the same transmission medium?",
+      "answer": "Network Technology Improvements",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that internet growth will continue, putting small and large organizations in the same standing regardless of financial status?",
+      "answer": "Internet Growth",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that it allows an easier e-collaboration between users despite geographical distances?",
+      "answer": "Internet Growth",
+      "choices": [
+        "Reduced Cost",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Future of Information Systems and Technologies states that improvements in power and quality of PCs and mobile devices will enable information system software to run on them without issues, making them affordable, easier to maintain, and appealing to organizations?",
+      "answer": "Easier Compatibility",
+      "choices": [
+        "Easier Compatibility",
+        "Advanced AI",
+        "Network Technology Improvements",
+        "Internet Growth"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that Web 2.0 refers to today's interactive Internet and e-commerce?",
+      "answer": "Personal",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that users have expected to modify their online experiences to meet their personal preferences?",
+      "answer": "Personal",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that digital device creators ensure to provide user personalization on smartphones?",
+      "answer": "Personal",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that Netflix feed their users recommendations tailored to their viewing history and preferences?",
+      "answer": "Personal",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that devices that perfectly match personal preferences based on collected information will become the norm?",
+      "answer": "Personal",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that several smartphone functions such as messaging and social media would be better if they were easily worn onto people's bodies?",
+      "answer": "Wearable",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that it had existed before in the form of hearing aids and Bluetooth earpieces and recently it has expanded to include smartwatches, body cameras, and various fitness monitors?",
+      "answer": "Wearable",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that one of the most impressive recent innovations is the 3D printer that allows the printing of any 3D object based on a digital model designed on a computer?",
+      "answer": "Printable",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that 3D printing comprises layers of malleable materials, such as plastic, glass, metals, or wax?",
+      "answer": "Printable",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that 3D printing is useful for prototyping product designs to determine their feasibility and marketability?",
+      "answer": "Printable",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies state that 3D printing has also been used for prosthetic legs and earpieces that can hear beyond the normal hearing range?",
+      "answer": "Printable",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Trend in Information Systems and Technologies refer to devices that operate themselves to perform specific functions are developed through the combination of software, sensors, and location technologies?",
+      "answer": "Autonomous",
+      "choices": [
+        "Personal",
+        "Wearable",
+        "Printable",
+        "Autonomous"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Autonomous device refer to a robot whose components scale to about a nanometer (one-billionth of a meter)?",
+      "answer": "Nanobots",
+      "choices": [
+        "Nanobots",
+        "Unmanned Aerial Vehicles (UAVs) / Drones",
+        "Small Robots",
+        "Microbots"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Autonomous device states that while it's still an emerging technology, its promises for medical applications are hopeful?",
+      "answer": "Nanobots",
+      "choices": [
+        "Nanobots",
+        "Unmanned Aerial Vehicles (UAVs) / Drones",
+        "Small Robots",
+        "Microbots"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Autonomous device could be introduced to the human body to fight cancer or specific diseases?",
+      "answer": "Nanobots",
+      "choices": [
+        "Nanobots",
+        "Unmanned Aerial Vehicles (UAVs) / Drones",
+        "Small Robots",
+        "Microbots"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Autonomous device refer to a small airplane or helicopter that takes flight without a pilot and run by computers autonomously or by using a remote control?",
+      "answer": "Unmanned Aerial Vehicles (UAVs) / Drones",
+      "choices": [
+        "Nanobots",
+        "Unmanned Aerial Vehicles (UAVs) / Drones",
+        "Small Robots",
+        "Microbots"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What way to avoid layoffs deals with the proper management and expression of emotions as well as the emotions of others?",
+      "answer": "Emotional Intelligence",
+      "choices": [
+        "Emotional Intelligence",
+        "Intelligence",
+        "Emotions",
+        "Confidential Funds"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Robots don't understand human psychology as humans can. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Creative problem-solving, like what product designers, advertisers, and marketers do, is unlikely to be replicated by robots as it also means resolving employee conflict, meeting a client's goals, or adjusting to internal workflow processes. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}

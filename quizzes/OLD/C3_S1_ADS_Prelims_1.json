@@ -1,0 +1,580 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Database Systems",
+    "Term": "Prelims",
+    "Title": "Advanced Database Concepts",
+    "LastModified": "21 September 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "01 01_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "It is an organized collection of structured information or data typically stored electronically in a computer system.",
+      "answer": "Database",
+      "choices": [
+        "Database",
+        "Database Management System (DBMS)",
+        "Database Application",
+        "Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This is usually controlled by a Database Management system (DBMS).",
+      "answer": "Database",
+      "choices": [
+        "Database",
+        "Database Management System (DBMS)",
+        "Database Application",
+        "Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is an interface between the database and its end-users or programs, allowing users to retrieve, update, and manage how the information is organized and optimized.",
+      "answer": "Database Management System (DBMS)",
+      "choices": [
+        "Database",
+        "Database Management System (DBMS)",
+        "Database Application",
+        "Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It facilitates oversight and control of databases, enabling a variety of administrative operations such as performance monitoring, tuning, and backup and recovery.",
+      "answer": "Database Management System (DBMS)",
+      "choices": [
+        "Database",
+        "Database Management System (DBMS)",
+        "Database Application",
+        "Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It is a set of 1 or more computer programs that serves as an intermediary between the user and the DBMS.",
+      "answer": "Database Application",
+      "choices": [
+        "Database",
+        "Database Management System (DBMS)",
+        "Database Application",
+        "Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It reads or modify database data by sending database queries to the DBMS.",
+      "answer": "Database Application",
+      "choices": [
+        "Database",
+        "Database Management System (DBMS)",
+        "Database Application",
+        "Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are unsophisticated users who interact with the system by using predefined UIs, such as web and mobile applications.",
+      "answer": "Naive users",
+      "choices": [
+        "Naive users",
+        "Application programmers",
+        "Sophisticated users",
+        "Normie Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These are computer professionals who write application programs.",
+      "answer": "Application programmers",
+      "choices": [
+        "Naive users",
+        "Application programmers",
+        "Sophisticated users",
+        "Normie Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These interacts with the system without writing programs.",
+      "answer": "Sophisticated users",
+      "choices": [
+        "Naive users",
+        "Application programmers",
+        "Sophisticated users",
+        "Normie Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "These form requests using a database query language.",
+      "answer": "Sophisticated users",
+      "choices": [
+        "Naive users",
+        "Application programmers",
+        "Sophisticated users",
+        "Normie Users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "It involves database design and construction on how the databases will operate and function within existing structures and location.",
+      "answer": "Database System Architecture",
+      "choices": [
+        "Database System Architecture",
+        "Database Design",
+        "Database Architecture",
+        "Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of database system involves a database that supports data located at a single site.",
+      "answer": "Centralized Database System",
+      "choices": [
+        "Centralized Database System",
+        "Distributed Database System",
+        "Advanced Database System",
+        "Singular Database System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of database system involves a collection of multiple interconnected databases, spread physically across various locations.",
+      "answer": "Distributed Database System",
+      "choices": [
+        "Centralized Database System",
+        "Distributed Database System",
+        "Advanced Database System",
+        "Singular Database System"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of data structure is stored in relational databases and uses a predefined and expected format or schema.",
+      "answer": "Structured Data",
+      "choices": [
+        "Structured Data",
+        "Unstructured Data",
+        "Semi-structured Data",
+        "Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of data structure in a DBMS exists in its original or raw state that can come in all shapes and sizes.",
+      "answer": "Unstructured Data",
+      "choices": [
+        "Structured Data",
+        "Unstructured Data",
+        "Semi-structured Data",
+        "Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of data structure in a DBMS involves individual data items of the same type may have different sets of attributes and contains semantic tags and there is no pre-defined schema.",
+      "answer": "Semi-structured Data",
+      "choices": [
+        "Structured Data",
+        "Unstructured Data",
+        "Semi-structured Data",
+        "Data"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS is a computer language for storing, manipulating, and retrieving data stored in a relational database.",
+      "answer": "Structured Query Language (SQL)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS is a new generation of DBMS that is not based on the traditional relational database model and has been developed to address the challenges represented by Big Data.",
+      "answer": "Not only SQL (NoSQL)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS features a dynamic schema for unstructured data and the data can be stored in different ways.",
+      "answer": "Not only SQL (NoSQL)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS allows you to create documents without first having to carefully plan and defined their structure.",
+      "answer": "Not only SQL (NoSQL)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS incorporates and builds on the concepts and principles of SQL and NoSQL systems.",
+      "answer": "NewSQL",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS stores objects rather than data as individual relations.",
+      "answer": "Object-Oriented Database",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS uses OOP languages such as C++, Java, and C#.",
+      "answer": "Object-Oriented Database",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS is useful when you have a business need for high performance on complex data.",
+      "answer": "Object-Oriented Database",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "NewSQL",
+        "Object-Oriented Database"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS is designed to facilitate the exchange of structured documents.",
+      "answer": "Extensible Markup Language (XML)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "Extensible Markup Language (XML)",
+        "Procedural Language SQL (PL-SQL)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS simplifies data sharing between various systems because of its platform-independent nature.",
+      "answer": "Extensible Markup Language (XML)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "Extensible Markup Language (XML)",
+        "Procedural Language SQL (PL-SQL)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This type of DBMS is useful as long as your datasets stay relatively small.",
+      "answer": "Extensible Markup Language (XML)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "Extensible Markup Language (XML)",
+        "Procedural Language SQL (PL-SQL)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension is a combination of SQL along with the procedural features of programming language.",
+      "answer": "Procedural Language SQL (PL-SQL)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "Extensible Markup Language (XML)",
+        "Procedural Language SQL (PL-SQL)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension is developed by Oracle Corporation.",
+      "answer": "Procedural Language SQL (PL-SQL)",
+      "choices": [
+        "Structured Query Language (SQL)",
+        "Not only SQL (NoSQL)",
+        "Extensible Markup Language (XML)",
+        "Procedural Language SQL (PL-SQL)"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension adds and declare variables, support transaction control, error and exception handling, and row processing to SQLs existing functions.",
+      "answer": "Transact SQL (T-SQL)",
+      "choices": [
+        "Transact SQL (T-SQL)",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension is Microsoft and Sybase’s extension of SQL.",
+      "answer": "Transact SQL (T-SQL)",
+      "choices": [
+        "Transact SQL (T-SQL)",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension is an open-source object-relational database system that uses and extends the SQL language.",
+      "answer": "PostgreSQL",
+      "choices": [
+        "Transact SQL (T-SQL)",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension is an open-source relational DBMS developed and supported by Oracle.",
+      "answer": "MySQL",
+      "choices": [
+        "Transact SQL (T-SQL)",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This SQL extension is a relational DBMS contained in a C programming library.",
+      "answer": "SQLite",
+      "choices": [
+        "Transact SQL (T-SQL)",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block defines a set of SQL statements that execute together.",
+      "answer": "BEGIN/END",
+      "choices": [
+        "BEGIN/END",
+        "DECLARE",
+        "SET/SELECT",
+        "CAST"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block assigns a variable in an SQL server.",
+      "answer": "DECLARE",
+      "choices": [
+        "BEGIN/END",
+        "DECLARE",
+        "SET/SELECT",
+        "CAST"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block require you to have your variable names start at \"@\".",
+      "answer": "DECLARE",
+      "choices": [
+        "BEGIN/END",
+        "DECLARE",
+        "SET/SELECT",
+        "CAST"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block assigns values to a variable.",
+      "answer": "SET/SELECT",
+      "choices": [
+        "BEGIN/END",
+        "DECLARE",
+        "SET/SELECT",
+        "CAST"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block converts an expression of one data type to another.",
+      "answer": "CAST",
+      "choices": [
+        "BEGIN/END",
+        "DECLARE",
+        "SET/SELECT",
+        "CAST"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block prints a pre-defined message or value.",
+      "answer": "PRINT",
+      "choices": [
+        "PRINT",
+        "TRY/CATCH",
+        "DECLARE",
+        "SET/SELECT"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement block helps deal with any unexpected or exceptional situations that occur when a program/query is running.",
+      "answer": "TRY/CATCH",
+      "choices": [
+        "PRINT",
+        "TRY/CATCH",
+        "DECLARE",
+        "SET/SELECT"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement specifies a block of code to be executed, if the returning condition is true.",
+      "answer": "IF-ELSE",
+      "choices": [
+        "IF-ELSE",
+        "ELSE",
+        "ELSE-IF",
+        "WHILE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement specifies a block of code to be executed, if the returning condition is false.",
+      "answer": "ELSE",
+      "choices": [
+        "IF-ELSE",
+        "ELSE",
+        "ELSE-IF",
+        "WHILE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement specifies a new condition to test, if the previous returning condition is false.",
+      "answer": "ELSE-IF",
+      "choices": [
+        "IF-ELSE",
+        "ELSE",
+        "ELSE-IF",
+        "WHILE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement loops through a block of code as long as a specified condition is true.",
+      "answer": "WHILE",
+      "choices": [
+        "IF-ELSE",
+        "ELSE",
+        "ELSE-IF",
+        "WHILE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement is an extension of the IF-ELSE statement.",
+      "answer": "CASE",
+      "choices": [
+        "CASE",
+        "IF-ELSE",
+        "ELSE-IF",
+        "WHILE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    },
+    {
+      "question": "This T-SQL statement allows the user to apply multiple conditions to perform different sets of actions.",
+      "answer": "CASE",
+      "choices": [
+        "CASE",
+        "IF-ELSE",
+        "ELSE-IF",
+        "WHILE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelim"
+    }
+  ]
+}

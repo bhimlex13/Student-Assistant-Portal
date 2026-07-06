@@ -1,0 +1,376 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Midterms",
+    "Title": "06 Handout 1 - Expressions and Assignment Statements",
+    "LastModified": "05 May 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "06 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What produces a value in Python and can be used in calculations or logic?",
+      "answer": "expression",
+      "choices": [
+        "assignment",
+        "declaration",
+        "expression",
+        "execution"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What stores the value of an expression in a variable?",
+      "answer": "assignment statement",
+      "choices": [
+        "function",
+        "print",
+        "assignment statement",
+        "loop"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What combines values, variables, operators, and function calls into a single unit that evaluates to a result?",
+      "answer": "expression",
+      "choices": [
+        "class",
+        "function",
+        "expression",
+        "constant"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What forms the building blocks of logic in programming?",
+      "answer": "expression",
+      "choices": [
+        "loop",
+        "value",
+        "expression",
+        "keyword"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is evaluated by Python to produce a value?",
+      "answer": "expression",
+      "choices": [
+        "syntax",
+        "assignment",
+        "expression",
+        "condition"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What consists of operands like values or variables and operators like +, -, *, /?",
+      "answer": "expression",
+      "choices": [
+        "assignment",
+        "output",
+        "expression",
+        "conversion"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What kind of expression uses operations like +, -, *, /, and **?",
+      "answer": "arithmetic expression",
+      "choices": [
+        "relational",
+        "logical",
+        "arithmetic expression",
+        "assignment"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What kind of expression is used in numerical computations?",
+      "answer": "arithmetic expression",
+      "choices": [
+        "bitwise",
+        "relational",
+        "arithmetic expression",
+        "conditional"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What evaluates to True or False using comparison operators?",
+      "answer": "relational expression",
+      "choices": [
+        "arithmetic",
+        "relational expression",
+        "print",
+        "variable"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What uses operators like ==, !=, >, <, >=, and <=?",
+      "answer": "relational expression",
+      "choices": [
+        "expression",
+        "logical expression",
+        "relational expression",
+        "loop"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What expression type is used in decision-making, like conditional statements and loops?",
+      "answer": "relational expression",
+      "choices": [
+        "augmented",
+        "relational expression",
+        "string",
+        "output"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What expression combines Boolean values using operators like and, or, not?",
+      "answer": "logical expression",
+      "choices": [
+        "bitwise",
+        "logical expression",
+        "string",
+        "tuple"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What kind of expression is used to construct complex conditional statements?",
+      "answer": "logical expression",
+      "choices": [
+        "comparison",
+        "arithmetic",
+        "logical expression",
+        "range"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What manipulates bits using symbols?",
+      "answer": "bitwise expression",
+      "choices": [
+        "bitwise expression",
+        "logical",
+        "print",
+        "conditional"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What operates at the binary level to set flags or manipulate binary data?",
+      "answer": "bitwise expression",
+      "choices": [
+        "relational",
+        "integer",
+        "bitwise expression",
+        "loop"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What stores a value in a variable using the = operator?",
+      "answer": "assignment statement",
+      "choices": [
+        "declaration",
+        "return",
+        "assignment statement",
+        "conditional"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What places a variable on the left of = and a value on the right?",
+      "answer": "assignment statement",
+      "choices": [
+        "input",
+        "assignment statement",
+        "parameter",
+        "class"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What allows storage of values in named memory locations?",
+      "answer": "assignment statement",
+      "choices": [
+        "exception",
+        "method",
+        "assignment statement",
+        "print"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What can assign values to multiple variables in one line?",
+      "answer": "multiple assignment",
+      "choices": [
+        "multiple assignment",
+        "conditional",
+        "logical expression",
+        "augmented statement"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What swaps variable values without using a temporary variable?",
+      "answer": "assignment statement",
+      "choices": [
+        "swap operator",
+        "assignment statement",
+        "delete function",
+        "return"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What provides a concise way to update a variable using math and assignment together?",
+      "answer": "augmented assignment operator",
+      "choices": [
+        "return operator",
+        "conditional operator",
+        "augmented assignment operator",
+        "statement"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What combines an arithmetic operation with assignment like += or *=?",
+      "answer": "augmented assignment operator",
+      "choices": [
+        "function call",
+        "augmented assignment operator",
+        "output",
+        "argument"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What operator multiplies a variable by another value and stores the result?",
+      "answer": "*=",
+      "choices": [
+        "*=",
+        ">>=",
+        "**=",
+        "//"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What operator performs exponentiation and stores the result in the same variable?",
+      "answer": "**=",
+      "choices": [
+        "**=",
+        "*=",
+        "/=",
+        "^"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What operator shifts the bits of a variable to the left?",
+      "answer": "<<=",
+      "choices": [
+        ">>",
+        "<<=",
+        "&=",
+        "^"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What operator shifts the bits of a variable to the right?",
+      "answer": ">>=",
+      "choices": [
+        "<<=",
+        ">>=",
+        "&&",
+        "or"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What operator applies bitwise OR and assigns the result to the variable?",
+      "answer": "|=",
+      "choices": [
+        "|=",
+        "<<=",
+        "&=",
+        "*="
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What expression can involve a function like square(n) and use its result in calculations?",
+      "answer": "expression",
+      "choices": [
+        "return",
+        "function",
+        "expression",
+        "logic"
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What happens when x += 5 is executed after x = 10?",
+      "answer": 15,
+      "choices": [
+        10,
+        5,
+        15,
+        30
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    },
+    {
+      "question": "What is the output of x *= 2 if x was previously 15?",
+      "answer": 30,
+      "choices": [
+        20,
+        25,
+        30,
+        10
+      ],
+      "reference": "Expressions and Assignment Statements",
+      "term": "Pre-Finals"
+    }
+  ]
+}

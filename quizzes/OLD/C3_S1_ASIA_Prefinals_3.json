@@ -1,0 +1,472 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Systems Integration and Architecture",
+    "Term": "Prefinals",
+    "Title": "Customer Service (CS) Part 1",
+    "LastModified": "20 November 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "06 Handout 1 - 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "It manages a wide range of service scenarios from pre-sales, sales, to post-sales.",
+      "answer": "SAP CS",
+      "choices": [
+        "SAP CS",
+        "SAP HCM",
+        "SAP EAM",
+        "SAP PS"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It could be for helpdesks helping the customer over the phone or complicated annual maintenance contracts for the after-sale of a car, computer, or power generator.",
+      "answer": "SAP CS",
+      "choices": [
+        "SAP CS",
+        "SAP HCM",
+        "SAP EAM",
+        "SAP PS"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This module can be considered a sub-branch of the Sales and Distribution (SD) module as it helps users manage a variety of service scenarios.",
+      "answer": "SAP CS",
+      "choices": [
+        "SAP CS",
+        "SAP HCM",
+        "SAP EAM",
+        "SAP PS"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "This is tightly integrated with other modules like Materials Management (MM), Finance (FI), Controlling (CO), and Production Planning (PP).",
+      "answer": "SAP CS",
+      "choices": [
+        "SAP CS",
+        "SAP HCM",
+        "SAP EAM",
+        "SAP PS"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which organizational structure is the same as that of SAP CS?",
+      "answer": "SAP EAM",
+      "choices": [
+        "SAP PP",
+        "SAP HCM",
+        "SAP EAM",
+        "SAP PS"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It an independent environment in the system.",
+      "answer": "Client",
+      "choices": [
+        "Client",
+        "Company Code",
+        "Sales Organization",
+        "Plant"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is the smallest organizational unit where a legal set of books can be maintained.",
+      "answer": "Company Code",
+      "choices": [
+        "Company Code",
+        "Sales Area",
+        "Division",
+        "Client"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is the operating area of a branch within the company. It can be a manufacturing, distribution, purchasing, or maintenance facility.",
+      "answer": "Plant",
+      "choices": [
+        "Plant",
+        "Division",
+        "Storage Location",
+        "Sales Organization"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is an organizational unit allowing differentiation between the various stocks of material in a plant. It is required to store spare parts.",
+      "answer": "Storage Location",
+      "choices": [
+        "Storage Location",
+        "Plant",
+        "Sales Organization",
+        "Distribution Channel"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is responsible for the sale of certain products or services. It also has a legal liability for products and customer claims.",
+      "answer": "Sales Organization",
+      "choices": [
+        "Sales Organization",
+        "Sales Area",
+        "Division",
+        "Distribution Channel"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is used for products or services to reach the customer. Examples include wholesale, retail, and direct sales.",
+      "answer": "Distribution Channel",
+      "choices": [
+        "Distribution Channel",
+        "Storage Location",
+        "Plant",
+        "Division"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is a way of grouping materials, products, or services.",
+      "answer": "Division",
+      "choices": [
+        "Division",
+        "Sales Area",
+        "Distribution Channel",
+        "Storage Location"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is a combination of Sales Organization, Distribution Channel, and Division, which also determines the conditions, such as pricing for sales activities.",
+      "answer": "Sales Area",
+      "choices": [
+        "Sales Area",
+        "Plant",
+        "Storage Location",
+        "Division"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following in included in the master data?",
+      "answer": "Customer Master",
+      "choices": [
+        "Customer Master",
+        "Employee Master",
+        "Accounting Master",
+        "Budget Master"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following in included in the master data?",
+      "answer": "Vendor Master",
+      "choices": [
+        "Vendor Master",
+        "Employee Master",
+        "Plant Master",
+        "Master Pogi"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following in included in the master data?",
+      "answer": "Work Center",
+      "choices": [
+        "Work Center",
+        "Plant",
+        "Sales Area",
+        "Division"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following in included in the master data?",
+      "answer": "Equipment",
+      "choices": [
+        "Equipment",
+        "Masterial",
+        "Budget",
+        "People"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following in included in the master data?",
+      "answer": "Bill of Material",
+      "choices": [
+        "Bill of Material",
+        "Bill of Gates",
+        "Bill y Jean",
+        "Jack and Bill"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which of the following in included in the master data?",
+      "answer": "Material Master",
+      "choices": [
+        "Material Master",
+        "Employee Master",
+        "Budget Master",
+        "Stock Master"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>This master data contains information necessary for processing orders, deliveries, invoices, and customer payments.",
+      "answer": "Customer Master Data",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>This master is divided into three (3) areas: General Data, Company Code Data, and Sales Area Data.",
+      "answer": "Customer Master Data",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>This master data contains the information needed to do business with external suppliers.",
+      "answer": "Vendor Master",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>It is used and maintained primarily by the Purchasing and Accounting Departments. Just like a Customer master, a vendor must have a master record.",
+      "answer": "Vendor Master",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>It is a location within a plant where value-added work such as operations or activities, is performed.",
+      "answer": "Work Center",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>It can represent people or groups of people, machines or groups of machines, and assembly lines.",
+      "answer": "Work Center",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>This used to define capacities includes Labor, Machine, Output, and Emission.",
+      "answer": "Work Center",
+      "choices": [
+        "Customer Master Data",
+        "Vendor Master",
+        "Work Center",
+        "Bill of Material"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>The document for capturing customer complaints and how notifications from a customer are entered and managed in Customer Service",
+      "answer": "Service Notification",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>The components include customer information, technical object and service contract information, and valid warranty information.",
+      "answer": "Service Notification",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It types include customer message or problem notification, service request, and technical completion.",
+      "answer": "Service Notification",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is the precise assessment of time and resources and can be created as a follow-up to a service notification.",
+      "answer": "Service Order",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It is a guarantee to vouch for defects or faults in the product purchased, valid for a specific set time.",
+      "answer": "Warranty",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>The services defined and covered range from repairing a defect to taking the product back for replacement.",
+      "answer": "Warranty",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It records the service package details one has agreed to provide a recipient over a specific period.",
+      "answer": "Service Contract",
+      "choices": [
+        "Service Notification",
+        "Service Order",
+        "Warranty",
+        "Service Contract"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It defines the validity period, services, and conditions for at least one technical object.",
+      "answer": "Long-term Agreement",
+      "choices": [
+        "Long-term Agreement",
+        "Warranty",
+        "Service and maintenance contract",
+        "Short-term Agreement"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It provides maintenance of technical objects in a predefined manner.",
+      "answer": "Service and maintenance contract",
+      "choices": [
+        "Long-term Agreement",
+        "Warranty",
+        "Service and maintenance contract",
+        "Short-term Agreement"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>A legally binding offer with fixed conditions made to a customer for the performance of certain services.",
+      "answer": "Service Quotation",
+      "choices": [
+        "Service Quotation",
+        "Repair Order",
+        "Service Order",
+        "Warranty"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "Which specifies the following statement?<BR>Provides functions for managing the necessary activities that repairing goods for a customer entails.",
+      "answer": "Repair Order",
+      "choices": [
+        "Service Quotation",
+        "Repair Order",
+        "Service Order",
+        "Warranty"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "It covers registering the repair request from the customer and billing the customer for the service performed.",
+      "answer": "Repair Order",
+      "choices": [
+        "Service Quotation",
+        "Repair Order",
+        "Service Order",
+        "Warranty"
+      ],
+      "reference": "06 Handout 1 - 1",
+      "term": "Prefinals"
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Prefinals",
+    "Title": "05 Handout 1- Methods of Cybersecurity Attacks",
+    "LastModified": "08 May 2025",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is a program that forces pre-chosen ads to display on a system?",
+      "answer": "Adware",
+      "choices": [
+        "Spyware",
+        "Spam",
+        "Adware",
+        "Malware"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is an action performed on a system to extract sensitive data?",
+      "answer": "Attack",
+      "choices": [
+        "Brute Force Attack",
+        "Exploit",
+        "Attack",
+        "Botnet"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is also known as 'trap door' and allows bypassing of login or password protections on a system?",
+      "answer": "Back Door",
+      "choices": [
+        "Rootkit",
+        "Trojan",
+        "Back Door",
+        "Buffer Overflow"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What automates an action so it can be done repeatedly at a higher rate than a human operator?",
+      "answer": "Bot",
+      "choices": [
+        "Exploit Kit",
+        "Bot",
+        "Spam",
+        "Master Program"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What sends HTTP, FTP, or Telnet requests at high speed or calls scripts to create objects quickly?",
+      "answer": "Bot",
+      "choices": [
+        "Botnet",
+        "Spyware",
+        "Bot",
+        "Script Kiddie"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a network of computers that forward transmissions like spam or viruses to others?",
+      "answer": "Botnet",
+      "choices": [
+        "DDoS",
+        "Firewall",
+        "Botnet",
+        "Phishing"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What uses multiple combinations of usernames and passwords to gain access to a system?",
+      "answer": "Brute Force Attack",
+      "choices": [
+        "Attack",
+        "Social Engineering",
+        "Brute Force Attack",
+        "Session Hijacking"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What occurs when data exceeds the boundaries of a buffer and overwrites adjacent memory?",
+      "answer": "Buffer Overflow",
+      "choices": [
+        "Virus",
+        "Buffer Overflow",
+        "Adware",
+        "SQL Injection"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What uses a legitimate email but changes the attachment or link to trick the recipient?",
+      "answer": "Clone Phishing",
+      "choices": [
+        "Spoofing",
+        "Clone Phishing",
+        "Phishing",
+        "Spam"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What removes copy protections or software restrictions, often for illegal use?",
+      "answer": "Cracker",
+      "choices": [
+        "Virus",
+        "Cracker",
+        "Trojan",
+        "Exploit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What prevents legitimate users from accessing systems by flooding them with traffic?",
+      "answer": "Denial-of-Service Attack (DoS)",
+      "choices": [
+        "Worm",
+        "Logic Bomb",
+        "Denial-of-Service Attack (DoS)",
+        "Botnet"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What launches a DoS attack using multiple computers?",
+      "answer": "DDoS",
+      "choices": [
+        "DoS",
+        "Botnet",
+        "DDoS",
+        "Exploit Kit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What locates and exploits security holes in web servers using bundled software tools?",
+      "answer": "Exploit Kit",
+      "choices": [
+        "SQL Injection",
+        "Exploit Kit",
+        "Logic Bomb",
+        "Malware"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a command or data sequence that takes advantage of a security flaw?",
+      "answer": "Exploit",
+      "choices": [
+        "Spoofing",
+        "Exploit",
+        "Trojan",
+        "Worm"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What prevents unauthorized access by filtering traffic based on rules?",
+      "answer": "Firewall",
+      "choices": [
+        "Exploit Kit",
+        "Firewall",
+        "Adware",
+        "Spyware"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What records the keys typed by a user to gather passwords and other private input?",
+      "answer": "Keystroke Logging",
+      "choices": [
+        "Malware",
+        "Spyware",
+        "Keystroke Logging",
+        "Trojan"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a program that activates a malicious action when certain conditions are met?",
+      "answer": "Logic Bomb",
+      "choices": [
+        "Virus",
+        "Logic Bomb",
+        "Script Kiddie",
+        "Worm"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What includes viruses, worms, spyware, and other intrusive software?",
+      "answer": "Malware",
+      "choices": [
+        "Exploit",
+        "Trojan",
+        "Malware",
+        "Adware"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a central controller that commands zombie drones?",
+      "answer": "Master Program",
+      "choices": [
+        "Botnet",
+        "Exploit Kit",
+        "Master Program",
+        "Cracker"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tricks users into giving up information by pretending to be legitimate email or websites?",
+      "answer": "Phishing",
+      "choices": [
+        "Phishing",
+        "Social Engineering",
+        "Clone Phishing",
+        "Keylogger"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What were early hackers that manipulated telephone systems?",
+      "answer": "Phreakers",
+      "choices": [
+        "Script Kiddie",
+        "Phreakers",
+        "Cracker",
+        "Social Engineers"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What hides itself within the system while giving unauthorized access?",
+      "answer": "Rootkit",
+      "choices": [
+        "Back Door",
+        "Rootkit",
+        "Exploit Kit",
+        "Firewall"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What refers to outdated or unused code that contains exploitable bugs?",
+      "answer": "Shrink Wrap Code",
+      "choices": [
+        "Worm",
+        "Shrink Wrap Code",
+        "Trojan",
+        "Exploit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What deceives people into revealing confidential information by impersonation or manipulation?",
+      "answer": "Social Engineering",
+      "choices": [
+        "Phishing",
+        "Social Engineering",
+        "Spoofing",
+        "Cracker"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What sends large quantities of unsolicited messages to disrupt or deceive?",
+      "answer": "Spam",
+      "choices": [
+        "Spam",
+        "Spyware",
+        "Spoofing",
+        "Virus"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What disguises data or identity to appear legitimate?",
+      "answer": "Spoofing",
+      "choices": [
+        "Phishing",
+        "Spoofing",
+        "Logic Bomb",
+        "Exploit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What collects private data like browsing habits without permission?",
+      "answer": "Spyware",
+      "choices": [
+        "Adware",
+        "Spyware",
+        "Malware",
+        "Rootkit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What inserts malicious code into SQL queries to alter database responses?",
+      "answer": "SQL Injection",
+      "choices": [
+        "SQL Injection",
+        "Exploit",
+        "Logic Bomb",
+        "Trojan"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a potential source of danger that may result in an attack?",
+      "answer": "Threat",
+      "choices": [
+        "Vulnerability",
+        "Threat",
+        "Virus",
+        "Spoofing"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is disguised as useful software but performs malicious functions once installed?",
+      "answer": "Trojan",
+      "choices": [
+        "Trojan",
+        "Shrink Wrap Code",
+        "Exploit Kit",
+        "Clone Phishing"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What attaches to clean files and spreads to other programs or files?",
+      "answer": "Virus",
+      "choices": [
+        "Worm",
+        "Virus",
+        "Trojan",
+        "Exploit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a weakness or flaw in a system that can be exploited?",
+      "answer": "Vulnerability",
+      "choices": [
+        "Vulnerability",
+        "Spoofing",
+        "Malware",
+        "Brute Force Attack"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What self-replicates and spreads across systems without host programs or human action?",
+      "answer": "Worms",
+      "choices": [
+        "Virus",
+        "Worms",
+        "Trojan",
+        "Logic Bomb"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What injects malicious JavaScript into webpages to hijack browser behavior?",
+      "answer": "Cross-site Scripting (XSS)",
+      "choices": [
+        "SQL Injection",
+        "Cross-site Scripting (XSS)",
+        "Exploit Kit",
+        "Spoofing"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a hijacked computer controlled by a master program for malicious tasks?",
+      "answer": "Zombie Drone",
+      "choices": [
+        "Botnet",
+        "Trojan",
+        "Zombie Drone",
+        "Exploit"
+      ],
+      "reference": "Methods of Cybersecurity Attacks",
+      "term": "Pre-finals"
+    }
+  ]
+}

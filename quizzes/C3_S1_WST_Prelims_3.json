@@ -1,0 +1,784 @@
+{
+  "quizInfo": {
+    "Subject": "Web Systems and Technologies",
+    "Term": "Prelims",
+    "Title": "03 Handout 1 - FUNDAMENTALS OF CASCADING STYLE SHEET (CSS)",
+    "LastModified": "17 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "03 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What supplies the style for how a webpage should look?",
+      "answer": "CSS",
+      "choices": [
+        "HTML",
+        "JavaScript",
+        "Python",
+        "CSS"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What does CSS stand for?",
+      "answer": "Cascading Style Sheet",
+      "choices": [
+        "Cassading Style Sheet",
+        "Control Style Sheet",
+        "Creative Style Sheet",
+        "Cascading Style Sheet"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the current version of CSS?",
+      "answer": "CSS3",
+      "choices": [
+        "CSS2",
+        "CSS4",
+        "CSS1",
+        "CSS3"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the specific HTML element to be styled with CSS?",
+      "answer": "selector",
+      "choices": [
+        "declaration",
+        "property",
+        "value",
+        "selector"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What part of a CSS rule includes the property and value?",
+      "answer": "declaration",
+      "choices": [
+        "selector",
+        "property",
+        "value",
+        "declaration"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What defines the style to be applied, such as color or font-size?",
+      "answer": "property",
+      "choices": [
+        "selector",
+        "declaration",
+        "value",
+        "property"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What specifies the settings for the property, like \"blue\" or \"16px\"?",
+      "answer": "value",
+      "choices": [
+        "selector",
+        "declaration",
+        "property",
+        "value"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What punctuation mark ends a CSS declaration?",
+      "answer": "semicolon",
+      "choices": [
+        "colon",
+        "comma",
+        "period",
+        "semicolon"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of style sheet has CSS rulesets inside the HTML document?",
+      "answer": "internal style sheet",
+      "choices": [
+        "external style sheet",
+        "embedded style sheet",
+        "inline style sheet",
+        "internal style sheet"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of style sheet has CSS rulesets in a separate file?",
+      "answer": "external style sheet",
+      "choices": [
+        "internal style sheet",
+        "embedded style sheet",
+        "inline style sheet",
+        "external style sheet"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many primary approaches are there to add CSS to a webpage?",
+      "answer": "two",
+      "choices": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag is used to embed an internal style sheet in an HTML document?",
+      "answer": "style tag",
+      "choices": [
+        "link tag",
+        "css tag",
+        "script tag",
+        "style tag"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file extension is used for external style sheets?",
+      "answer": ".css",
+      "choices": [
+        ".html",
+        ".js",
+        ".txt",
+        ".css"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What tag links an external style sheet to an HTML document?",
+      "answer": "link tag",
+      "choices": [
+        "style tag",
+        "a tag",
+        "script tag",
+        "link tag"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What attribute in the ink tag specifies the relationship between the HTML document and the linked style sheet?",
+      "answer": "rel attribute",
+      "choices": [
+        "href attribute",
+        "type attribute",
+        "src attribute",
+        "rel attribute"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property defines the font for an element?",
+      "answer": "font-family",
+      "choices": [
+        "font-style",
+        "font-size",
+        "font-weight",
+        "font-family"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a comma-separated list of font families called?",
+      "answer": "font stack",
+      "choices": [
+        "font list",
+        "font group",
+        "font set",
+        "font stack"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property defines the size of the text?",
+      "answer": "font-size",
+      "choices": [
+        "font-family",
+        "text-size",
+        "font-scale",
+        "font-size"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What unit of measurement is commonly used for font size in CSS?",
+      "answer": "pixels",
+      "choices": [
+        "points",
+        "ems",
+        "percentage",
+        "pixels"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the default font size in most browsers?",
+      "answer": "16px",
+      "choices": [
+        "12px",
+        "14px",
+        "10px",
+        "16px"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property defines the boldness of the text?",
+      "answer": "font-weight",
+      "choices": [
+        "font-bold",
+        "text-boldness",
+        "text-weight",
+        "font-weight"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the value for unbolded text in font-weight property?",
+      "answer": "unbolded text",
+      "choices": [
+        "normal",
+        "light",
+        "thin",
+        "unbolded text"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the font-weight property is thinner than normal weight?",
+      "answer": "lighter",
+      "choices": [
+        "light",
+        "thin",
+        "lighter-weight",
+        "lighter"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the font-weight property creates darker text?",
+      "answer": "bold",
+      "choices": [
+        "bolder",
+        "strong",
+        "heavy",
+        "bold"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the font-weight property makes text thicker than bold?",
+      "answer": "bolder",
+      "choices": [
+        "bold",
+        "extra-bold",
+        "heavy",
+        "bolder"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property is used to italicize text?",
+      "answer": "font-style",
+      "choices": [
+        "font-italic",
+        "text-style",
+        "text-italic",
+        "font-style"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property adds emphasis lines to text, like underline or strikethrough?",
+      "answer": "text-decoration",
+      "choices": [
+        "text-style",
+        "font-style",
+        "text-emphasis",
+        "text-decoration"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property aligns text horizontally?",
+      "answer": "text-align",
+      "choices": [
+        "text-alignment",
+        "text-justify",
+        "text-position",
+        "text-align"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many methods are there to define colors in CSS?",
+      "answer": "3 methods",
+      "choices": [
+        2,
+        4,
+        5,
+        "3 methods"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What color method uses a comma-separated list of red, green, and blue values?",
+      "answer": "RGB",
+      "choices": [
+        "CMYK",
+        "HSL",
+        "HSV",
+        "RGB"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What color method uses a six-character code preceded by a \"#\" symbol?",
+      "answer": "Hexadecimal Values",
+      "choices": [
+        "Binary Values",
+        "Decimal Values",
+        "Octal Values",
+        "Hexadecimal Values"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the easiest method to define colors in CSS?",
+      "answer": "Color names",
+      "choices": [
+        "RGB",
+        "Hexadecimal Values",
+        "Color codes",
+        "Color names"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property adds an image or color to the background of an element?",
+      "answer": "background property",
+      "choices": [
+        "background-image",
+        "background-color",
+        "background-size",
+        "background property"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the background-repeat property sets the background without repetition?",
+      "answer": "background-repeat: no-repeat",
+      "choices": [
+        "no-repeat",
+        "repeat-none",
+        "background-repeat: none",
+        "background-repeat: no-repeat"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the background-repeat property repeats the background image horizontally?",
+      "answer": "repeat-x",
+      "choices": [
+        "repeat-y",
+        "repeat",
+        "no-repeat",
+        "repeat-x"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What value for the background-repeat property repeats the background image vertically?",
+      "answer": "repeat-y",
+      "choices": [
+        "repeat-x",
+        "repeat",
+        "no-repeat",
+        "repeat-y"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What model refers to how CSS sees every HTML element as if it is in its own box?",
+      "answer": "box model",
+      "choices": [
+        "element model",
+        "container model",
+        "layout model",
+        "box model"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the four parts of the box model for an HTML element in CSS?",
+      "answer": "borders, paddings, margins, and content",
+      "choices": [
+        "width, height, padding, and border",
+        "margin, border, content, and position",
+        "display, size, position, and float",
+        "borders, paddings, margins, and content"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is it called when elements flow on the page in the order they appear in the HTML code?",
+      "answer": "normal flow",
+      "choices": [
+        "default flow",
+        "natural flow",
+        "standard flow",
+        "normal flow"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property adds spacing around the content?",
+      "answer": "margin",
+      "choices": [
+        "padding",
+        "border",
+        "spacing",
+        "margin"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property adds spacing within the element?",
+      "answer": "padding",
+      "choices": [
+        "margin",
+        "border",
+        "spacing",
+        "padding"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What CSS property is also a white space inside a container?",
+      "answer": "padding",
+      "choices": [
+        "margin",
+        "border",
+        "spacing",
+        "padding"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style consists of rounded dots?",
+      "answer": "dotted",
+      "choices": [
+        "dashed",
+        "solid",
+        "double",
+        "dotted"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style is a single, straight, and solid border?",
+      "answer": "solid",
+      "choices": [
+        "dotted",
+        "dashed",
+        "double",
+        "solid"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style uses short dashes or line segments?",
+      "answer": "dashed",
+      "choices": [
+        "dotted",
+        "solid",
+        "double",
+        "dashed"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style has two solid lines?",
+      "answer": "double",
+      "choices": [
+        "solid",
+        "dashed",
+        "dotted",
+        "double"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style looks like a three-dimensional border that is carved into the canvas?",
+      "answer": "groove",
+      "choices": [
+        "ridge",
+        "inset",
+        "outset",
+        "groove"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style is the opposite of the groove style?",
+      "answer": "ridge",
+      "choices": [
+        "groove",
+        "inset",
+        "outset",
+        "ridge"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style makes the content look like it is coming inside of the canvas?",
+      "answer": "inset",
+      "choices": [
+        "outset",
+        "groove",
+        "ridge",
+        "inset"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What border style makes the content look like it is coming out of the canvas?",
+      "answer": "outset",
+      "choices": [
+        "inset",
+        "groove",
+        "ridge",
+        "outset"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to create a 5px solid black border on all sides of an element?",
+      "answer": "border: 5px solid black;",
+      "choices": [
+        "border-width: 5px; border-style: solid; border-color: black;",
+        "border-all: 5px solid black;",
+        "border-sides: 5px solid black;",
+        "border: 5px solid black;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to add a blue color to all sides of a border?",
+      "answer": "border-color: blue;",
+      "choices": [
+        "border-color-all: blue;",
+        "border: blue;",
+        "border-sides-color: blue;",
+        "border-color: blue;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to specify the colors for the top, bottom, right and left borders?",
+      "answer": "border-color: blue red black;",
+      "choices": [
+        "border-top-color: blue; border-right-color: yellow; border-bottom-color: red; border-left-color: black;",
+        "border-color-all-sides: blue yellow red black;",
+        "border-color-sides: blue yellow red black;",
+        "border-color: blue red black;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to specify colors for the top and bottom borders, and right and left borders?",
+      "answer": "border-color: blue red;",
+      "choices": [
+        "border-top-color: blue; border-bottom-color: blue; border-right-color: red; border-left-color: red;",
+        "border-color-top-bottom: blue; border-color-right-left: red;",
+        "border-color-sides: blue red;",
+        "border-color: blue red;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the color of the top border to red?",
+      "answer": "border-top-color: red;",
+      "choices": [
+        "border-color-top: red;",
+        "border-top: red;",
+        "border: red;",
+        "border-top-color: red;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to display a solid border on all sides?",
+      "answer": "border-style: solid;",
+      "choices": [
+        "border-style-all: solid;",
+        "border: solid;",
+        "border-sides-style: solid;",
+        "border-style: solid;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to specify different border styles for top, right, bottom, and left?",
+      "answer": "border-style: dotted solid dashed double;",
+      "choices": [
+        "border-top-style: dotted; border-right-style: solid; border-bottom-style: dashed; border-left-style: double;",
+        "border-style-all-sides: dotted solid dashed double;",
+        "border-style-sides: dotted solid dashed double;",
+        "border-style: dotted solid dashed double;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the border style for top and bottom, and right and left?",
+      "answer": "border-style: solid dotted;",
+      "choices": [
+        "border-top-style: solid; border-bottom-style: solid; border-right-style: dotted; border-left-style: dotted;",
+        "border-style-top-bottom: solid; border-style-right-left: dotted;",
+        "border-style-sides: solid dotted;",
+        "border-style: solid dotted;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the general syntax to set the style of a specific border side?",
+      "answer": "border-specificside-style: value;",
+      "choices": [
+        "border-side-style: value;",
+        "border-style-side: value;",
+        "border-side: value;",
+        "border-specificside-style: value;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the border width to 5px on all sides?",
+      "answer": "border-width: 5px;",
+      "choices": [
+        "border-width-all: 5px;",
+        "border: 5px;",
+        "border-sides-width: 5px;",
+        "border-width: 5px;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to specify different border widths for top, right, bottom, and left?",
+      "answer": "border-width: 2px 5px 3px 8px;",
+      "choices": [
+        "border-top-width: 2px; border-right-width: 5px; border-bottom-width: 3px; border-left-width: 8px;",
+        "border-width-all-sides: 2px 5px 3px 8px;",
+        "border-width-sides: 2px 5px 3px 8px;",
+        "border-width: 2px 5px 3px 8px;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the border width for top/bottom and right/left?",
+      "answer": "border-width: 4px 5px;",
+      "choices": [
+        "border-top-width: 4px; border-bottom-width: 4px; border-right-width: 5px; border-left-width: 5px;",
+        "border-width-top-bottom: 4px; border-width-right-left: 5px;",
+        "border-width-sides: 4px 5px;",
+        "border-width: 4px 5px;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to set the width of the right border to 10px?",
+      "answer": "border-right-width: 10px;",
+      "choices": [
+        "border-width-right: 10px;",
+        "border-right: 10px;",
+        "border-width: 10px;",
+        "border-right-width: 10px;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the syntax to center the content horizontally within its container using margins?",
+      "answer": "margin: auto;",
+      "choices": [
+        "margin-sides: auto;",
+        "margin-left-right: auto;",
+        "margin-horizontal: auto;",
+        "margin: auto;"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Prelims"
+    }
+  ]
+}

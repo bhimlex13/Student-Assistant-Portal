@@ -1,0 +1,358 @@
+{
+  "quizInfo": {
+    "Subject": "Professional Issues in Information Systems and Technology",
+    "Term": "Finals",
+    "Title": "Social Issues in Information Systems and Technology",
+    "LastModified": "14 December 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "It is an ethical theory where individuals are accountable for fulfilling a civic duty that benefits society.",
+      "answer": "Social Responsibility",
+      "choices": [
+        "Social Responsibility",
+        "Technological Responsibility",
+        "ごめんなさい、答えがわかりません！",
+        "Ethical Responsibility"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "It states that the balance between economic growth and welfare of society should be observed to accomplish this.",
+      "answer": "Social Responsibility",
+      "choices": [
+        "Social Responsibility",
+        "Technological Responsibility",
+        "ごめんなさい、答えがわかりません！",
+        "Ethical Responsibility"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "It is built on a system of ethics wherein decisions and actions must be ethically validated before proceeding.",
+      "answer": "Social Responsibility",
+      "choices": [
+        "Social Responsibility",
+        "Technological Responsibility",
+        "ごめんなさい、答えがわかりません！",
+        "Ethical Responsibility"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility is to protect public safety, health, and welfare with every new system and technology?",
+      "answer": "Human Safety",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that with technological progress, a future in which e-waste becomes a much bigger problem is possible?",
+      "answer": "Environment and Sustainability",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that it is responsible to dispose of devices and e-wastes in their appropriate bins?",
+      "answer": "Environment and Sustainability",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that technologies like smart machines are built to separate waste from the streets or the sea?",
+      "answer": "Environment and Sustainability",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that machines that improve the quality of animals and trees help fulfill this responsibility?",
+      "answer": "Environment and Sustainability",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that as personal and organizational information such as intellectual property transitions to the cyber world, the number of cyber criminals increases, posing a risk to these assets?",
+      "answer": "Internet Safety",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that it concerns not just big corporations but also the most vulnerable individuals?",
+      "answer": "Internet Safety",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that it can be resolved by applying lawful and stricter rules to the systems and conducting close monitoring to avoid any cyber-attacks?",
+      "answer": "Internet Safety",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which Social Responsibility states that it's a responsibility to share knowledge and skills in technology through voluntary participation on seminars, conferences, advisory groups, and 1-on-1 consultations for those not privileged enough to access nor pay for them?",
+      "answer": "Pro Bono Publico",
+      "choices": [
+        "Human Safety",
+        "Environment and Sustainability",
+        "Internet Safety",
+        "Pro Bono Publico"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does Pro Bono Publico mean in English?",
+      "answer": "For the Public Good",
+      "choices": [
+        "For the Public Good",
+        "Public Good to Others",
+        "In the Service of the Filipino, Worldwide",
+        "For the Pubic Good"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Computer technology has been the most significant technology since the beginning of the Industrial Revolution. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that tech possesses a vast potential for healthcare system improvements?",
+      "answer": "Healthcare and Wellness Advancements",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that wide tech adoption by patients and healthcare professionals has excellent potential to improve public health entities' efficiency as advancements in preventative health can remove healthcare expenditures and allow early patient monitoring and symptom detection?",
+      "answer": "Healthcare and Wellness Advancements",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that initiatives and healthcare tech companies work significantly faster than traditional companies?",
+      "answer": "Healthcare and Wellness Advancements",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that e-learning platforms host courseware materials from different industries that contain videos and interactive boards, making education much more accessible and available to students?",
+      "answer": "Education",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that environmental initiatives are creating sustainable solutions to recycle and reduce waste, purify water, and monitor changes in the environment to ensure a more sustainable future?",
+      "answer": "Environment Protection",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that the universal value of technology is bringing equality in products and services through minimizing socioeconomic gaps in society?",
+      "answer": "Equal Opportunities",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What Societal Impact of ICT states that in work settings, technology helps detect all kinds of discrimination, such as the gender gap and exclusion of minorities using AI models that detect hate speech?",
+      "answer": "Equal Opportunities",
+      "choices": [
+        "Healthcare and Wellness Advancements",
+        "Education",
+        "Environment Protection",
+        "Equal Opportunities"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What startup matches cancer patients and their oncologists with optimal investigational or approved therapies and uses the data collection algorithm used for COVID-19 tracking?",
+      "answer": "xCure",
+      "choices": [
+        "xCure",
+        "Immerse",
+        "Brickify",
+        "Dryad Networks"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What startup uses VR to help students learn English by communication and practice through a range of topics and themes using VR headsets?",
+      "answer": "Immerse",
+      "choices": [
+        "xCure",
+        "Immerse",
+        "Brickify",
+        "Dryad Networks"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What startup recycles plastic waste into bricks resistant to water, fire, and heat and can be used for road construction and low-cost housing?",
+      "answer": "Brickify",
+      "choices": [
+        "xCure",
+        "Immerse",
+        "Brickify",
+        "Dryad Networks"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What startup launched a wireless environmental sensor network based on the leading open standard for long-range radio IoT networks to detect wildfires about 60 minutes before they spread out?",
+      "answer": "Dryad Networks",
+      "choices": [
+        "xCure",
+        "Immerse",
+        "Brickify",
+        "Dryad Networks"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Adverse impacts of technology are mostly based on social media. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What did Twitter (formerly X, formerly Twitter) launch in 2021 to build a community helping to fight misinformation?",
+      "answer": "Birdwatch",
+      "choices": [
+        "Birdwatch",
+        "Community Notes",
+        "Elon's Melons",
+        "Fact You! Fact Checking Program"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Social media platforms rely on instant gratification to keep their users. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the phenomenon that happens when someone is flooded with posts of others doing exciting things while their personal life seems mundane and worse?",
+      "answer": "Fear Of Missing Out (FOMO)",
+      "choices": [
+        "Fear Of Missing Out (FOMO)",
+        "Jealousy",
+        "Envy",
+        "Happy For You (HFY)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}

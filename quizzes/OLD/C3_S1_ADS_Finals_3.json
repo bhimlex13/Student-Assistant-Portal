@@ -1,0 +1,1588 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Database Systems",
+    "Term": "Finals",
+    "Title": "All Finals Review",
+    "LastModified": "15 December 2024",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "08 Handout 1 & 09 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "These are the basic method for adding data to MongoDB.",
+      "answer": "inserts",
+      "choices": [
+        "inserts",
+        "updates",
+        "removes",
+        "reads"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How can you perform case-insensitive matches in MongoDB?",
+      "answer": "$regex",
+      "choices": [
+        "$matchCaseInsensitive",
+        "$like",
+        "$regexInsensitive",
+        "$regex"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The insertOne method will automatically add which key to the document if you do not provide one?",
+      "answer": "_id",
+      "choices": [
+        "_id",
+        "id_",
+        "#id",
+        "id"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following commands is an example of inserting a single document in MongoDB?",
+      "answer": "db.movies.insertOne({\"title\" : \"Stand by Me\"})",
+      "choices": [
+        "db.movies.insertOne({\"title\" : \"Stand by Me\"})",
+        "db.movies.insertMany([{\"title\" : \"Ghostbusters\"}, {\"title\" : \"E.T.\"}])",
+        "db.movies.updateOne({\"title\" : \"Stand by Me\"}, {\"$set\": {\"year\": 1986}})",
+        "db.movies.deleteOne({\"title\" : \"Stand by Me\"})"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How do you query for array documents with all specified elements?",
+      "answer": "$all",
+      "choices": [
+        "$in",
+        "$size",
+        "$slice",
+        "$all"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following commands is an example of inserting multiple documents in MongoDB?",
+      "answer": "db.movies.insertMany([{\"title\" : \"Ghostbusters\"}, {\"title\" : \"E.T.\"}, {\"title\" : \"Blade Runner\"}])",
+      "choices": [
+        "db.movies.insertMany([{\"title\" : \"Ghostbusters\"}, {\"title\" : \"E.T.\"}, {\"title\" : \"Blade Runner\"}])",
+        "db.movies.insertOne({\"title\" : \"Stand by Me\"})\r\n",
+        "db.movies.updateMany({\"year\" : 1985}, {\"$set\": {\"status\": \"classic\"}})\r\n",
+        "db.movies.insertMultiple([{\"title\" : \"Ghostbusters\"}, {\"title\" : \"E.T.\"}, {\"title\" : \"Blade Runner\"}])"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What should be done in the ordered insert if a document produces an insertion error?",
+      "answer": "No documents beyond that point in the array will be inserted",
+      "choices": [
+        "No documents beyond that point in the array will be inserted",
+        "Only the document with the error should be deleted",
+        "All documents prior to the error should be reviewed",
+        "The document will automatically be reinserted after a set time"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does MongoDB do for unordered inserts, regardless of whether some insertions produce errors?",
+      "answer": "will attempt to insert all documents",
+      "choices": [
+        "will attempt to insert all documents",
+        "will discard all documents after an error occurs",
+        "will stop the insertion process at the first error",
+        "will insert only documents without errors"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How do you delete the document with the \"_id\" value of 4 in the MongoDB shell?",
+      "answer": "db.movies.deleteOne({\"_id\" : 4})",
+      "choices": [
+        "db.movies.deleteOne({\"_id\" : 4})",
+        "db.movies.remove({\"_id\" : 4})",
+        "db.movies.drop({\"_id\" : 4})",
+        "db.movies.deleteMany({\"_id\" : 4})"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What command is used to delete all the documents that match a filter in MongoDB?",
+      "answer": "db.movies.deleteMany({filter})",
+      "choices": [
+        "db.movies.deleteMany({filter})",
+        "db.movies.remove({filter})",
+        "db.movies.deleteOne({filter})",
+        "db.movies.drop({filter})"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is required when using updateOne or updateMany in MongoDB to update a document?",
+      "answer": "A filter document as the first parameter and a modifier document as the second parameter",
+      "choices": [
+        "A filter document as the first parameter and a modifier document as the second parameter",
+        "Only a filter document as the parameter",
+        "A modifier document as the first parameter and a filter document as the second",
+        "A single document with the updated values as the parameter"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following is not a command for updating documents in MongoDB?",
+      "answer": "deleteOne",
+      "choices": [
+        "deleteOne",
+        "updateOne",
+        "updateMany",
+        "replaceOne"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does the replaceOne command do in MongoDB?\r\n",
+      "answer": "Replaces a matching document completely with a new one",
+      "choices": [
+        "Replaces a matching document completely with a new one",
+        "Updates specific fields in the document",
+        "Deletes a matching document",
+        "Replace specified fields from a document without removing it"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which operator in MongoDB sets the value of a field, creating the field if it does not exist?",
+      "answer": "$set",
+      "choices": [
+        "$set",
+        "$lt",
+        "$gte",
+        "$eq"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which MongoDB operator is used to run queries involving pattern matching strings flexibly?",
+      "answer": "$regex",
+      "choices": [
+        "$match",
+        "$find",
+        "$queryRegex",
+        "$regex"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the default behavior for handling errors in bulk inserts when no order is specified?",
+      "answer": "Ordered Insert",
+      "choices": [
+        "Unordered Insert",
+        "Cascading Insert",
+        "Indexed Insert",
+        "Ordered Insert"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What operator is used to set a new value for a field in an update?",
+      "answer": "$set",
+      "choices": [
+        "$unset",
+        "$replace",
+        "$addToSet",
+        "$set"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How do you remove a field from a document?",
+      "answer": "$unset",
+      "choices": [
+        "$removeField",
+        "$deleteField",
+        "$dropField",
+        "$unset"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which query conditional represents “less than or equal to”?",
+      "answer": "$lte",
+      "choices": [
+        "$lt",
+        "$gte",
+        "$eq",
+        "$lte"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What operator allows querying for multiple key-value pairs, matching any condition?",
+      "answer": "$or",
+      "choices": [
+        "$and",
+        "$not",
+        "$nor",
+        "$or"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What query selector would you use to find values matching elements within an array?",
+      "answer": "$all",
+      "choices": [
+        "$size",
+        "$slice",
+        "$set",
+        "$all"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the query operator to find documents that do not match a given condition?",
+      "answer": "$not",
+      "choices": [
+        "$ne",
+        "$nor",
+        "$exclude",
+        "$not"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which operator is used to specify a range for numeric values in queries?",
+      "answer": "$gte and $lte",
+      "choices": [
+        "$gtne and $ltne",
+        "$range",
+        "$rangeInclusive",
+        "$gte and $lte"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How do you match specific elements inside embedded arrays using their index?",
+      "answer": "Dot Notation (key.index)",
+      "choices": [
+        "$elemMatch",
+        "Nested Filter",
+        "Key Path Notation",
+        "Dot Notation (key.index)"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the primary operator used in MongoDB to match array elements by multiple values?",
+      "answer": "$all",
+      "choices": [
+        "$in",
+        "$all",
+        "$size",
+        "$slice"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which operator extracts a subset of array elements in a query result?",
+      "answer": "$slice",
+      "choices": [
+        "$limitArray",
+        "$pickElements",
+        "$subset",
+        "$slice"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which MongoDB data model design embeds one document inside another?",
+      "answer": "Embedded Data",
+      "choices": [
+        "Embedded Data",
+        "References",
+        "Schema Enforcement",
+        "Data Modeling"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What data modeling structure stores related data in a single document?",
+      "answer": "Embedded Documents",
+      "choices": [
+        "Related Collections",
+        "Denormalized Records",
+        "Nested Keys",
+        "Embedded Documents"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "To update embedded documents directly, which operator can be applied?",
+      "answer": "Dot Notation ($set)",
+      "choices": [
+        "$replaceField",
+        "Key.Nested Update",
+        "Path Queries",
+        "Dot Notation ($set)"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What happens if an ordered insert using insertMany encounters an error in one of the documents?",
+      "answer": "Stops Further Inserts",
+      "choices": [
+        "Skips Faulty Document",
+        "Continues Execution",
+        "Partially Inserts Others",
+        "Stops Further Inserts"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which operator in MongoDB is used to retrieve elements from an array matching multiple specified values for a single key?",
+      "answer": "$in",
+      "choices": [
+        "$or",
+        "$all",
+        "$matchArray",
+        "$in"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What method returns a specific range of array values from a document?",
+      "answer": "$slice",
+      "choices": [
+        "$range",
+        "$subset",
+        "$pullAll",
+        "$slice"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How does the $ne operator behave when used in a query?",
+      "answer": "Not Equal",
+      "choices": [
+        "Greater Than",
+        "Range Exclude",
+        "Greater or Equal",
+        "Not Equal"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does $unset do when applied during an update operation?",
+      "answer": "Removes Field",
+      "choices": [
+        "Changes Value",
+        "Adds Field",
+        "Modifies Key",
+        "Removes Field"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which MongoDB design pattern helps applications retrieve and manipulate related data in a single operation?",
+      "answer": "Embedded Data",
+      "choices": [
+        "References",
+        "Embedded Data",
+        "Data Modeling",
+        "Regular Expressions"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which type of operation would convert a scalar value into an array during document updates?",
+      "answer": "$set",
+      "choices": [
+        "$convert",
+        "$toArray",
+        "$scalarToArray",
+        "$set"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which MongoDB term describes a structure where tables are avoided, and related data is stored together?",
+      "answer": "Embedded Data",
+      "choices": [
+        "Normalization",
+        "References",
+        "Embedded Data",
+        "Data Modeling"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method adds a key or updates an existing key-value pair in a document?",
+      "answer": "$set",
+      "choices": [
+        "$unset",
+        "$lte",
+        "$not",
+        "$set"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which query selector checks if a value is not equal to a specified value?",
+      "answer": "$ne",
+      "choices": [
+        "$in",
+        "$or",
+        "$regex",
+        "$ne"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which query method is used to find all documents in a collection?",
+      "answer": "find",
+      "choices": [
+        "findOne",
+        "filter",
+        "aggregate",
+        "find"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How can MongoDB return only the first 10 elements of an array in a query result?",
+      "answer": "$slice",
+      "choices": [
+        "$slice",
+        "$limit",
+        "$sort",
+        "$size"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which array operator is used to query arrays of a specific size?",
+      "answer": "$size",
+      "choices": [
+        "$all",
+        "$regex",
+        "$slice",
+        "$size"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What will happen if an error occurs during an unordered bulk insert operation?",
+      "answer": "Continue inserting",
+      "choices": [
+        "Stop inserting",
+        "Reverse the insertion order",
+        "Restart the operation",
+        "Continue inserting"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method removes all documents in a MongoDB collection matching a specific filter?",
+      "answer": "deleteMany",
+      "choices": [
+        "deleteOne",
+        "removeAll",
+        "replaceMany",
+        "deleteMany"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What command returns all documents matching specified filter criteria?",
+      "answer": "find",
+      "choices": [
+        "updateOne",
+        "find",
+        "replaceOne",
+        "slice"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which operator modifies or adds embedded documents?",
+      "answer": "$set",
+      "choices": [
+        "$push",
+        "$pull",
+        "$unset",
+        "$set"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What MongoDB query retrieves documents with a specific subfield name inside an embedded document?",
+      "answer": "Dot Notation",
+      "choices": [
+        "Key Indexing",
+        "Path Matching",
+        "Subdocument Filtering",
+        "Dot Notation"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does the $or query selector do?",
+      "answer": "Matches one of multiple conditions",
+      "choices": [
+        "Matches all provided conditions",
+        "Excludes matching conditions",
+        "Replaces existing conditions",
+        "Matches one of multiple conditions"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method deletes only the first matching document in a MongoDB collection?",
+      "answer": "deleteOne",
+      "choices": [
+        "deleteMany",
+        "removeFirst",
+        "truncate",
+        "deleteOne"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which query operator checks if a key value is within a range?",
+      "answer": "$gte and $lte",
+      "choices": [
+        "$set",
+        "$regex",
+        "$ne",
+        "$gte and $lte"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "If no schema is defined for a collection in MongoDB, what term describes its nature?",
+      "answer": "Flexible Schema",
+      "choices": [
+        "Unstructured Schema",
+        "Ad-Hoc Schema",
+        "Schema-Less Database",
+        "Flexible Schema"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the method for adding fields and values to existing sub-documents?",
+      "answer": "$set",
+      "choices": [
+        "$push",
+        "$unset",
+        "$add",
+        "$set"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How does MongoDB handle schema enforcement?",
+      "answer": "Flexible schema",
+      "choices": [
+        "Rigid schema",
+        "Strict schema",
+        "SQL-like schema",
+        "Flexible schema"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the default action when no explicit order is specified in insertMany()?",
+      "answer": "Ordered",
+      "choices": [
+        "Unordered",
+        "Enforced",
+        "Randomized",
+        "Ordered"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What MongoDB operation updates only the first matching document based on the criteria?",
+      "answer": "updateOne",
+      "choices": [
+        "updateOne",
+        "updateMany",
+        "replaceOne",
+        "deleteMany"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "If you need to insert multiple documents into a MongoDB collection, which method should you use?",
+      "answer": "insertMany",
+      "choices": [
+        "insertMany",
+        "insertOne",
+        "insertMore",
+        "insertMultiple"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In MongoDB, what operator is used to specify conditions like 'less than' or 'greater than'?",
+      "answer": "Query Selector",
+      "choices": [
+        "Query Selector",
+        "Regular Expressions",
+        "Embedded Data",
+        "Data Modeling"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What MongoDB feature uses dot notation to retrieve nested document values?",
+      "answer": "Querying on Embedded Documents",
+      "choices": [
+        "Embedded Data",
+        "Querying on Embedded Documents",
+        "Array Queries",
+        "References"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method is used to insert a single document into a MongoDB collection?",
+      "answer": "insertOne",
+      "choices": [
+        "insertOne",
+        "insertMany",
+        "insertSingle",
+        "insert"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How does MongoDB ensure the order of documents during a bulk insert?",
+      "answer": "ordered inserts",
+      "choices": [
+        "ordered inserts",
+        "unordered inserts",
+        "bulk operation",
+        "replaceOne"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What term refers to MongoDB's ability to handle flexible schemas without enforcing document structure?",
+      "answer": "Data Modeling",
+      "choices": [
+        "Embedded Data",
+        "References",
+        "Data Modeling",
+        "Schema Enforcement"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What MongoDB query operator performs a logical OR across multiple criteria?",
+      "answer": "$or",
+      "choices": [
+        "$and",
+        "$in",
+        "$or",
+        "$xor"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In MongoDB, which operator matches documents where a field value is not equal to a given value?",
+      "answer": "$ne",
+      "choices": [
+        "$regex",
+        "$not",
+        "$exists",
+        "$ne"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What operator changes the type or value of fields, adding keys if they don’t exist?",
+      "answer": "$set",
+      "choices": [
+        "$unset",
+        "$rename",
+        "$addFields",
+        "$set"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which operator matches fields using case-insensitive patterns in MongoDB queries?",
+      "answer": "Regular Expressions",
+      "choices": [
+        "Regular Expressions",
+        "Conditional Querying",
+        "Data Modeling",
+        "Embedded Data"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What design challenge involves balancing application needs with retrieval patterns and performance?",
+      "answer": "Data Modeling",
+      "choices": [
+        "Normalization",
+        "Embedded Data",
+        "Querying on Embedded Documents",
+        "Data Modeling"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does the $regex operator in MongoDB provide for queries?",
+      "answer": "Regular Expressions",
+      "choices": [
+        "Regular Expressions",
+        "Conditional Querying",
+        "OR Queries",
+        "Embedded Data"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In MongoDB, which operation can change multiple documents based on filter criteria?",
+      "answer": "updateMany",
+      "choices": [
+        "replaceOne",
+        "updateMany",
+        "deleteMany",
+        "updateOne"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does MongoDB use to include a link from one document to another to form relationships?",
+      "answer": "References",
+      "choices": [
+        "Data Modeling",
+        "References",
+        "Embedded Data",
+        "Regular Expressions"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of query can match a value at a specific index within an array in MongoDB?",
+      "answer": "Querying Arrays",
+      "choices": [
+        "Querying Arrays",
+        "Query Selector",
+        "Regular Expressions",
+        "Embedded Data"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method in MongoDB returns a specific document that matches a unique criterion?",
+      "answer": "findOne",
+      "choices": [
+        "findOne",
+        "find",
+        "replaceOne",
+        "findMany"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which MongoDB feature allows retrieving a specific number of documents in a collection?",
+      "answer": "Querying",
+      "choices": [
+        "OR Queries",
+        "Combining Conditions",
+        "Data Modeling",
+        "Querying"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In a document with nested objects, how do you query an attribute inside an embedded document?",
+      "answer": "Querying on Embedded Documents",
+      "choices": [
+        "Data Modeling",
+        "Querying on Embedded Documents",
+        "OR Queries",
+        "Normalization"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What method in MongoDB allows replacing an entire document in the database with a new one?",
+      "answer": "replaceOne",
+      "choices": [
+        "replaceOne",
+        "updateOne",
+        "insertOne",
+        "insertMany"
+      ],
+      "reference": "08 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the delivery of different services through the Internet?",
+      "answer": "Cloud Computing",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "These resources include tools and applications like data storage, servers, databases, networking, and software.",
+      "answer": "Cloud Computing",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Rather than keeping files on a proprietary hard drive or local storage device, cloud-based storage makes it possible to save them to a remote database.",
+      "answer": "Cloud Computing",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "As long as an electronic device has access to the web, it has access to the data and the software programs to run it.",
+      "answer": "Cloud Computing",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This is defined according to where the infrastructure for the deployment resides and who has control over that infrastructure.",
+      "answer": "Cloud Implementation",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "There are three types of cloud deployments categorized based on an organization’s ability to manage and secure assets as well as business needs.",
+      "answer": "Cloud Implementation",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This type of cloud infrastructure is built by a third-party organization to sell cloud services to the general public.",
+      "answer": "Public Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This is the most common type of cloud implementation; examples include Amazon Web Services (AWS), Google Application Engine, and Microsoft Azure.",
+      "answer": "Public Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In this model, cloud consumers share resources with other consumers transparently.",
+      "answer": "Public Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Despite high reliability, lower costs, zero maintenance, and on-demand scalability, this is not suitable for organizations operating with sensitive information",
+      "answer": "Public Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This type of internal cloud is built by an organization for the sole purpose of servicing its own needs.",
+      "answer": "Private Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This is often used by large, geographically dispersed organizations to add agility and flexibility to internal IT services",
+      "answer": "Private Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The cloud infrastructure could be managed by internal IT staff or an external third party",
+      "answer": "Private Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This is the combination of a private and public cloud, providing for more flexibility to businesses",
+      "answer": "Hybrid Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "This cloud architecture enables companies to take advantage of the public cloud as and when necessary due to their easy workload migration",
+      "answer": "Hybrid Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In this implementation type, businesses can use the public cloud for running high-volume applications like emails and utilize private clouds for sensitive assets like financials, data recovery, and during scheduled maintenance and rise in demand.",
+      "answer": "Hybrid Cloud",
+      "choices": [
+        "Public Cloud",
+        "Cloud Implementation",
+        "Private Cloud",
+        "Hybrid Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which is not a Cloud Implementation type?",
+      "answer": "Merge Cloud",
+      "choices": [
+        "Merge Cloud",
+        "Hybrid Cloud",
+        "Public Cloud",
+        "Public Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "These come in different shapes and forms; no single type of service works for all consumers.",
+      "answer": "Cloud Services",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "These often follow an à la carte model; consumers can choose multiple service options according to their individual needs",
+      "answer": "Cloud Services",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "These services can build on top of each other to provide sophisticated solutions",
+      "answer": "Cloud Services",
+      "choices": [
+        "Cloud Computing",
+        "Cloud Implementation",
+        "Public Cloud",
+        "Cloud Services"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The cloud service provider offers turnkey applications that run in the cloud.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Consumers can run the provider’s applications internally in their organizations via the web or any mobile device.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The consumer can customize certain aspects of the application but cannot make changes to the application itself.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The application is actually shared among users from multiple organizations.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Examples of this Cloud Service include MS Office 365, Google Docs, Intuit’s TurboTax Online, and SCALA digital signage.",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The cloud service provider offers the capability to build and deploy consumer-created applications using the provider’s cloud infrastructure.",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In this scenario, the consumer can build, deploy, and manage applications using the provider’s cloud tools, languages, and interfaces.",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The consumer does not manage the underlying cloud infrastructure.",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Examples of this Cloud Service include the Microsoft Azure platform with .NET and Java.",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In this case, the cloud service provider offers consumers the ability to provision their own resources on demand; these resources include storage, servers, databases, processing units, and even a complete virtualized desktop.",
+      "answer": "Infrastructure as a Service (IaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The consumer then can add or remove the resources as needed.",
+      "answer": "Infrastructure as a Service (IaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Examples of this Cloud Service include a consumer can use Amazon Web Services (AWS) and provision a server computer that runs Linux and Apache Web server using 16 GB of RAM and 160 GB of storage.",
+      "answer": "Infrastructure as a Service (IaaS)",
+      "choices": [
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Cloud Computing"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Cloud computing enables immediate scalability of infrastructure capacity depending on the business need.",
+      "answer": "Instant Scalability",
+      "choices": [
+        "Instant Scalability",
+        "Anywhere Accessibility",
+        "Reduced Carbon Footprint",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "It is like having an unlimited IT resource, which can be scaled up and/ or down to meet user demands",
+      "answer": "Instant Scalability",
+      "choices": [
+        "Instant Scalability",
+        "Anywhere Accessibility",
+        "Reduced Carbon Footprint",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "A lot of factors have enabled globalization, and a key one is a technology and high-speed internet connectivity.",
+      "answer": "Anywhere Accessibility",
+      "choices": [
+        "Anywhere Accessibility",
+        "Instant Scalability",
+        "Reduced Carbon Footprint",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Cloud empowers enterprises to deploy their applications across the globe so they can service their customers at a fraction of the cost of traditional brick-and-motor businesses.",
+      "answer": "Anywhere Accessibility",
+      "choices": [
+        "Anywhere Accessibility",
+        "Disaster Recovery",
+        "Reduced Carbon Footprint",
+        "Instant Scalability"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Due to lower latency, customers around the world get an identical digital experience while using the applications",
+      "answer": "Anywhere Accessibility",
+      "choices": [
+        "Anywhere Accessibility",
+        "Disaster Recovery",
+        "Instant Scalability",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which cloud computing benefit enables immediate scalability of infrastructure capacity?",
+      "answer": "Instant Scalability",
+      "choices": [
+        "Anywhere Accessibility",
+        "Reduced Carbon Footprint",
+        "Instant Scalability",
+        "Increased Speed And Operational Agility"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which benefit allows enterprises to deploy their applications globally to serve customers?",
+      "answer": "Anywhere Accessibility",
+      "choices": [
+        "Instant Scalability",
+        "Reduced Expenditure",
+        "Anywhere Accessibility",
+        "Automatic Updates/Patches"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What enables businesses to instantly scale their cloud capacity and access bandwidth demands?",
+      "answer": "Increased Speed And Operational Agility",
+      "choices": [
+        "Increased Speed And Operational Agility",
+        "Disaster Recovery",
+        "Enterprise Collaboration",
+        "High Security"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What allows enterprises to focus on building their business rather than on idle infrastructure?",
+      "answer": "Reduced Expenditure",
+      "choices": [
+        "Flexibility",
+        "Reduced Expenditure",
+        "Automatic Updates/Patches",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which cloud benefit takes care of rolling out software and security updates automatically?",
+      "answer": "Automatic Updates/Patches",
+      "choices": [
+        "Increased Speed And Operational Agility",
+        "Automatic Updates/Patches",
+        "High Security",
+        "Flexibility"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What ensures businesses can save time and effort through a robust backup and recovery plan?",
+      "answer": "Disaster Recovery",
+      "choices": [
+        "High Security",
+        "Disaster Recovery",
+        "Reduced Expenditure",
+        "Reduced Carbon Footprint"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What reduces the risks of information loss and cyber threats using advanced features?",
+      "answer": "High Security",
+      "choices": [
+        "Automatic Updates/Patches",
+        "High Security",
+        "Increased Speed And Operational Agility",
+        "Enterprise Collaboration"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which benefit significantly reduces power consumption and adverse environmental impact?",
+      "answer": "Reduced Carbon Footprint",
+      "choices": [
+        "Reduced Expenditure",
+        "Flexibility",
+        "Reduced Carbon Footprint",
+        "Instant Scalability"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What offers businesses vast flexibility irrespective of device type or global location?",
+      "answer": "Flexibility",
+      "choices": [
+        "Anywhere Accessibility",
+        "Disaster Recovery",
+        "Flexibility",
+        "Automatic Updates/Patches"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What improves teamwork using centralized documentation control and apps like Slack?",
+      "answer": "Enterprise Collaboration",
+      "choices": [
+        "Enterprise Collaboration",
+        "Anywhere Accessibility",
+        "Increased Speed And Operational Agility",
+        "Reduced Expenditure"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the GUI for MongoDB that allows you to analyze and understand the contents of your data?",
+      "answer": "MongoDB Compass",
+      "choices": [
+        "AWS",
+        "MongoDB Compass",
+        "MongoDB Atlas",
+        "Google Cloud"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What provides an easy way to host and manage your data in the cloud?",
+      "answer": "MongoDB Atlas",
+      "choices": [
+        "MongoDB Compass",
+        "AWS",
+        "MongoDB Atlas",
+        "Shared Cluster"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What should you click in MongoDB Compass to redirect to the MongoDB Atlas website?",
+      "answer": "CREATE FREE CLUSTER",
+      "choices": [
+        "CREATE FREE CLUSTER",
+        "GET STARTED FREE",
+        "Create a Cluster",
+        "Add IP Address"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "In MongoDB Atlas, what name should you assign for the organization’s project?",
+      "answer": "Personal",
+      "choices": [
+        "Setup connection security",
+        "Personal",
+        "Shared Cluster",
+        "Connect"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which shared cluster region is selected during setup for MongoDB Atlas?",
+      "answer": "Singapore",
+      "choices": [
+        "AWS",
+        "Singapore",
+        "Google Cloud",
+        "Add IP Address"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What should be clicked in the “Add a connection IP Address” section during setup?",
+      "answer": "Add Your Current IP Address",
+      "choices": [
+        "Create Database User",
+        "Add Your Current IP Address",
+        "GET STARTED FREE",
+        "Add IP Address"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What needs to be typed for the database authentication in MongoDB Atlas setup?",
+      "answer": "Username and Password",
+      "choices": [
+        "GET STARTED FREE",
+        "Username and Password",
+        "Add Your Current IP Address",
+        "Add IP Address"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What symbol must be removed in the password when using the connection string?",
+      "answer": "“<>” symbols",
+      "choices": [
+        "Username and Password",
+        "Add IP Address",
+        "“<>” symbols",
+        "Setup connection security"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "How long does it usually take for a MongoDB Atlas cluster to be created?",
+      "answer": "3-10 minutes",
+      "choices": [
+        "10-20 minutes",
+        "3-10 minutes",
+        "A few seconds",
+        "Several hours"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "After copying the connection string, what button should be clicked in MongoDB Compass?",
+      "answer": "Connect",
+      "choices": [
+        "GET STARTED FREE",
+        "Connect",
+        "Add IP Address",
+        "Create Database User"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}

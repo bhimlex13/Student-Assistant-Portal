@@ -1,0 +1,1036 @@
+{
+  "quizInfo": {
+    "Subject": "Application Development and Emerging Technologies",
+    "Term": "Finals",
+    "Title": "Software Testing and Deployment",
+    "LastModified": "16 December 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      ""
+    ]
+  },
+  "quizData": [
+    {
+      "question": "It is an activity of executing a system or component under specified conditions, observing or recording the results, and evaluating some of the aspects of the system or component.",
+      "answer": "Software Testing",
+      "choices": [
+        "Software Testing",
+        "Pull Requests",
+        "Testing",
+        "Code Review"
+      ]
+    },
+    {
+      "question": "It is an approach used for detecting defects in software and confirming that requirements are correctly implemented before deploying the software.",
+      "answer": "Software Testing",
+      "choices": [
+        "Software Testing",
+        "Pull Requests",
+        "Testing",
+        "Code Review"
+      ]
+    },
+    {
+      "question": "Is this Objective of Software Testing Direct or Indirect? <br> To identify and reveal as many errors as possible in tested software.",
+      "answer": "Direct",
+      "choices": [
+        "Direct",
+        "Indirect"
+      ]
+    },
+    {
+      "question": "Is this Objective of Software Testing Direct or Indirect? <br> To bring the tested software to an acceptable level of quality after correcting the identified errors and retesting.",
+      "answer": "Direct",
+      "choices": [
+        "Direct",
+        "Indirect"
+      ]
+    },
+    {
+      "question": "Is this Objective of Software Testing Direct or Indirect? <br> To perform the required tests efficiently and effectively and within the budgetary and scheduling limitations.",
+      "answer": "Direct",
+      "choices": [
+        "Direct",
+        "Indirect"
+      ]
+    },
+    {
+      "question": "Is this Objective of Software Testing Direct or Indirect? <br> To establish with a degree of confidence that the software package is ready for delivery or installment at customer premises.",
+      "answer": "Direct",
+      "choices": [
+        "Direct",
+        "Indirect"
+      ]
+    },
+    {
+      "question": "Is this Objective of Software Testing Direct or Indirect? <br> To compile a record of software errors for use in software process improvement by corrective and preventive actions and for decision-making.",
+      "answer": "Indirect",
+      "choices": [
+        "Direct",
+        "Indirect"
+      ]
+    },
+    {
+      "question": "Which of the following best describes Unit Testing?",
+      "answer": "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+      "choices": [
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+        "Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+        "Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Unit Testing?",
+      "answer": "Technical tests of the code and require writing test harnesses and creating test data.",
+      "choices": [
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+        "Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+        "Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Unit Testing?",
+      "answer": "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output.",
+      "choices": [
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output.",
+        "The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+        "Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+        "Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Unit Testing?",
+      "answer": "Generally documented, and should include the test objective and the expected results.",
+      "choices": [
+        "Generally documented, and should include the test objective and the expected results.",
+        "The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+        "Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+        "Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other."
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+      "answer": "Unit Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Technical tests of the code and require writing test harnesses and creating test data.",
+      "answer": "Unit Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Developer writes these tests, and objective is to determine if each unit of the software performs its expected output.",
+      "answer": "Unit Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Generally documented, and should include the test objective and the expected results.",
+      "answer": "Unit Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "Which of the following best describes Integration Testing?",
+      "answer": "The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+      "choices": [
+        "The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Integration Testing?",
+      "answer": "Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+      "choices": [
+        "Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Integration Testing?",
+      "answer": "Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other.",
+      "choices": [
+        "Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>The project team performs this type of testing on the integrated systems once all of the individual units work correctly in insolation.",
+      "answer": "Integration Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Its objective is to verify that all of the modules and their interfaces work correctly together and to identify and resolve any issues.",
+      "answer": "Integration Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Benefits from an existing enterprise architecture that provides information on all existing systems and their alignment with each other.",
+      "answer": "Integration Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "Which of the following best describes System Testing?",
+      "answer": "Tests the functionality of an entire system together with interdependencies between system components.",
+      "choices": [
+        "Tests the functionality of an entire system together with interdependencies between system components.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes System Testing?",
+      "answer": "Its objective is to verify that the implementation is valid with respect to the system requirements.",
+      "choices": [
+        "Its objective is to verify that the implementation is valid with respect to the system requirements.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes System Testing?",
+      "answer": "Involves the specification of system test cases in which the execution of the test cases will verify that the system requirements have been correctly implemented.",
+      "choices": [
+        "Involves the specification of system test cases in which the execution of the test cases will verify that the system requirements have been correctly implemented.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Tests the functionality of an entire system together with interdependencies between system components.",
+      "answer": "System Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Its objective is to verify that the implementation is valid with respect to the system requirements.",
+      "answer": "System Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Involves the specification of system test cases in which the execution of the test cases will verify that the system requirements have been correctly implemented.",
+      "answer": "System Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "Which of the following best describes Performance Testing?<br>",
+      "answer": "Its objective is to ensure that the performance of the system is within the bounds specified by the non-functional requirements.",
+      "choices": [
+        "Its objective is to ensure that the performance of the system is within the bounds specified by the non-functional requirements.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Performance Testing?<br>",
+      "answer": "May include load performance testing, where the system is subjected to heavy loads over a long period, and stress testing, where the system is subjected to heavy loads during a short time interval.",
+      "choices": [
+        "May include load performance testing, where the system is subjected to heavy loads over a long period, and stress testing, where the system is subjected to heavy loads during a short time interval.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Performance Testing?<br>",
+      "answer": "Often involves the simulation of many users using the system as well as the measurement of the response times for various activities.",
+      "choices": [
+        "Often involves the simulation of many users using the system as well as the measurement of the response times for various activities.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Its objective is to ensure that the performance of the system is within the bounds specified by the non-functional requirements.",
+      "answer": "Performance Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>May include load performance testing, where the system is subjected to heavy loads over a long period, and stress testing, where the system is subjected to heavy loads during a short time interval.",
+      "answer": "Performance Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Often involves the simulation of many users using the system as well as the measurement of the response times for various activities.",
+      "answer": "Performance Testing",
+      "choices": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "Which of the following best describes Acceptance Testing?<br>",
+      "answer": "System users or customers perform this testing before accepting the product.",
+      "choices": [
+        "System users or customers perform this testing before accepting the product.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Acceptance Testing?<br>",
+      "answer": "The customers will see the product in operation and will determine whether or not the system is fit for purpose.",
+      "choices": [
+        "The customers will see the product in operation and will determine whether or not the system is fit for purpose.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "Which of the following best describes Acceptance Testing?<br>",
+      "answer": "Its objective is to demonstrate that the product satisfies the business requirements and meets customer expectations.",
+      "choices": [
+        "Its objective is to demonstrate that the product satisfies the business requirements and meets customer expectations.",
+        "Performed by the developer on the completed unit or module of the software and before its integration with other modules.",
+        "Technical tests of the code and require writing test harnesses and creating test data.",
+        "Developer writes these tests, and objective is to determine if each unit of the software performs its expected output."
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>System users or customers perform this testing before accepting the product.",
+      "answer": "Acceptance Testing",
+      "choices": [
+        "Acceptance Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>The customers will see the product in operation and will determine whether or not the system is fit for purpose.",
+      "answer": "Acceptance Testing",
+      "choices": [
+        "Acceptance Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "What type of testing is being described?<br>Its objective is to demonstrate that the product satisfies the business requirements and meets customer expectations.",
+      "answer": "Acceptance Testing",
+      "choices": [
+        "Acceptance Testing",
+        "Integration Testing",
+        "System Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "question": "Testing begins as soon as development activities begin and are carried out in parallel with the development stages. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "The objective of integrating testing to software development process is to find errors at each phrase and prevent these errors from propagating to other phases. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Its objective is to evaluate the gathered requirements.",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br> Each requirement should be evaluated to ensure it's correct and testable, and the requirements together are complete.",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Software inspections and prototyping can be employed to ensure the good quality of requirements.",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>The activities to perform testing in this phase are to prepare for system testing and requirements analysis activities.",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>The test plan should include the scope and objectives for testing at each phase, and the testing requirements should describe support software needed for testing at each stage.",
+      "answer": "Requirements Analysis and Specification",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>This phase partitions the requirements into hardware or software systems and builds the overall system architecture.",
+      "answer": "System and Software Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Its objective of testing in this phase is to verify the mapping between the requirements specification and the design.",
+      "answer": "System and Software Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Any changes to the requirements specification should be reflected in the corresponding design changes.",
+      "answer": "System and Software Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Testing at this stage helps to validate the design and interface.",
+      "answer": "System and Software Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>The activities to perform testing in this phase is to prepare for acceptance and usability testing.",
+      "answer": "System and Software Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>In this phase, the developers start writing and compiling classes and methods.",
+      "answer": "Intermediate Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Its objective is to perform effective and efficient unit testing.",
+      "answer": "Intermediate Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Unit test results and defects should be saved and reported properly for further processing.",
+      "answer": "Intermediate Design",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Process of delivering a completed software product to clients.",
+      "answer": "System Deployment",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Testing activities in this phase is to perform system testing, acceptance testing, and usability testing.",
+      "answer": "System Deployment",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>System testing validates whether the software meets the functional and non-functional requirements, while acceptance testing can be started when the system testing is completed.",
+      "answer": "System Deployment",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "What Common Phase of the Software Development Process is being described?<br>Test cases are derived from acceptance test plans and test data set up.",
+      "answer": "System Deployment",
+      "choices": [
+        "Requirements Analysis and Specification",
+        "System and Software Design",
+        "Intermediate Design",
+        "System Deployment"
+      ]
+    },
+    {
+      "question": "This is a software artifact with a set of test inputs, execution conditions, and expected results developed for a particular objective, such as to exercise a particular program path to verify compliance with a specific requirement and as documentation for a test item.",
+      "answer": "Test Case",
+      "choices": [
+        "Test Case",
+        "Situation Case",
+        "Pencil Case",
+        "Scenario Case"
+      ]
+    },
+    {
+      "question": "This comprise of user inputs that are provided to the application and the procedure for executing the test case during the test.",
+      "answer": "Test Case",
+      "choices": [
+        "Test Case",
+        "Situation Case",
+        "Pencil Case",
+        "Scenario Case"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>Name and number to identify a test case.",
+      "answer": "Test Case ID",
+      "choices": [
+        "Test Case ID",
+        "Objective / Description",
+        "Test Procedure",
+        "Test Data"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>The reason for the test (may include the type of test).",
+      "answer": "Objective / Description",
+      "choices": [
+        "Test Case ID",
+        "Objective / Description",
+        "Test Procedure",
+        "Test Data"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>The activities or steps required on the part of the tester to carry out the test.",
+      "answer": "Test Procedure",
+      "choices": [
+        "Test Case ID",
+        "Objective / Description",
+        "Test Procedure",
+        "Test Data"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>Data to enter the system (made up of valid and invalid sets of test data).",
+      "answer": "Test Data",
+      "choices": [
+        "Test Case ID",
+        "Objective / Description",
+        "Test Procedure",
+        "Test Data"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>Expected results of the test.",
+      "answer": "Expected Results",
+      "choices": [
+        "Expected Results",
+        "Actual Results",
+        "Status",
+        "Remarks"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>Placeholder for recording the actual result as the test case gets executed.",
+      "answer": "Actual Results",
+      "choices": [
+        "Expected Results",
+        "Actual Results",
+        "Status",
+        "Remarks"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>Determines whether the test was a Pass, Fail, or Not Executed.",
+      "answer": "Status",
+      "choices": [
+        "Expected Results",
+        "Actual Results",
+        "Status",
+        "Remarks"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>Any comments on the test case or execution.",
+      "answer": "Remarks",
+      "choices": [
+        "Expected Results",
+        "Actual Results",
+        "Status",
+        "Remarks"
+      ]
+    },
+    {
+      "question": "In the General Test Case Format, what component is being described below?<br>May include the name of the tester carrying out the tests, date of execution of the test, the environment in which the test was executed such as hardware and software.",
+      "answer": "Administrative Details",
+      "choices": [
+        "Expected Results",
+        "Actual Results",
+        "Status",
+        "Administrative Details"
+      ]
+    },
+    {
+      "question": "If all tests pass in a Unit Test, the production code in testing is considered to be working - meeting its requirements. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "If even 1 test fails in a Unit Test, the production code is deemed to not meet its requirements. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "In unit testing, test cases are used to evaluate the input and expected output of the unit. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Used to verify the internal logic and program statements of components or software.",
+      "answer": "White-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Involving stepping through every line of code and every branch in the code.",
+      "answer": "White-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Tester should be knowledgeable in the programming language and should understand the structure of the program to perform this test.",
+      "answer": "White-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>This ensures that all program statements and control structures are tested.",
+      "answer": "White-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>IDEs contain tools to perform this.",
+      "answer": "White-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>The tester derives tests from external descriptions of the software, including specifications, requirements, design.",
+      "answer": "Black-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Concerned with the inputs and outputs of the system where a set of input is inserted to the software's UI, and the outputs delivered by the software are compared with the expected outputs.",
+      "answer": "Black-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Tester focuses on whether the class or module meets the requirements stated in the specifications.",
+      "answer": "Black-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Performed from the UI of the software.",
+      "answer": "Black-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "Which Unit Testing Approach is being described below?<br>Its effectiveness depends on the design of test cases.",
+      "answer": "Black-Box Testing",
+      "choices": [
+        "White-Box Testing",
+        "Black-Box Testing"
+      ]
+    },
+    {
+      "question": "What Unit Testing Tool is being described?<br>These are open-source unit testing frameworks designed for Java.",
+      "answer": "JUnit and TestNG",
+      "choices": [
+        "JUnit and TestNG",
+        "NUnit",
+        "IntelliJ",
+        "Apateau Apateau"
+      ]
+    },
+    {
+      "question": "What Unit Testing Tool is being described?<br>Open-source unit testing framework for all .NET languages.",
+      "answer": "NUnit",
+      "choices": [
+        "JUnit and TestNG",
+        "NUnit",
+        "IntelliJ",
+        "Apateau Apateau"
+      ]
+    },
+    {
+      "question": "This is an iterative process where tests for the code are written before writing the code. It forces the developer to write testable code.",
+      "answer": "Test-Driven Development",
+      "choices": [
+        "Test-Driven Development",
+        "Data-Driven Development",
+        "Event-Driven Development",
+        "Driver-Driven Development"
+      ]
+    },
+    {
+      "question": "What is the process of improving the code without changing its external behavior?",
+      "answer": "Refactoring",
+      "choices": [
+        "Refactoring",
+        "Rewriting",
+        "Recoding",
+        "Improving of Code"
+      ]
+    },
+    {
+      "question": "This is the process of delivering a completed software product to clients.",
+      "answer": "Software Deployment",
+      "choices": [
+        "Software Deployment",
+        "Software Release",
+        "Software Testing",
+        "Software Hand-over"
+      ]
+    },
+    {
+      "question": "It involves packaging, testing, distributing, and installing the software product.",
+      "answer": "Software Deployment",
+      "choices": [
+        "Software Deployment",
+        "Software Release",
+        "Software Testing",
+        "Software Hand-over"
+      ]
+    },
+    {
+      "question": "Which Software Development Tool is being described below?<br>It eliminates the manual tasks of deploying software products.",
+      "answer": "Automation",
+      "choices": [
+        "Automation",
+        "Security",
+        "Updates",
+        "Monitoring"
+      ]
+    },
+    {
+      "question": "Which Software Development Tool is being described below?<br>It performs tasks such as bug detection, patch protection, performance testing, and code analyzing.",
+      "answer": "Automation",
+      "choices": [
+        "Automation",
+        "Security",
+        "Updates",
+        "Monitoring"
+      ]
+    },
+    {
+      "question": "Which Software Development Tool is being described below?<br>It manages the permission settings of users and groups who can access the information in the software.",
+      "answer": "Security",
+      "choices": [
+        "Automation",
+        "Security",
+        "Updates",
+        "Monitoring"
+      ]
+    },
+    {
+      "question": "Which Software Development Tool is being described below?<br>It automates system updates, scans vulnerabilities, and practice regular patch management of latest software versions across apps.",
+      "answer": "Updates",
+      "choices": [
+        "Automation",
+        "Security",
+        "Updates",
+        "Monitoring"
+      ]
+    },
+    {
+      "question": "Which Software Development Tool is being described below?<br>It monitors and analyzes the activities and interactions of the software users.",
+      "answer": "Monitoring",
+      "choices": [
+        "Automation",
+        "Security",
+        "Updates",
+        "Monitoring"
+      ]
+    },
+    {
+      "question": "Which Software Development Tool is being described below?<br>It helps in optimizing the performance and eliminates issues in the software before they spread in the entire network.",
+      "answer": "Monitoring",
+      "choices": [
+        "Automation",
+        "Security",
+        "Updates",
+        "Monitoring"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Self-contained, open-source automation server that can be used to automate all activities related to building, testing, and delivering or deploying software.",
+      "answer": "Jenkins",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Can be installed through native system packages, Docker, or even run standalone by any machine with a Java Runtime Environment (JRE) installed.",
+      "answer": "Jenkins",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Its functionalities can be extended through plugins in IDEs.",
+      "answer": "Jenkins",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Compatible with ASP.Net, Java, Node.js, and Windows services, as well as various script languages and database types.",
+      "answer": "Octopus Deploy",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Designed to automate application deployments in the cloud, corporate data center, and on-site.",
+      "answer": "Octopus Deploy",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Offers support for the delivery aspect of continuous delivery.",
+      "answer": "Bamboo",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Deployment projects automate the releasing into each environment while letting the project team control the flow with per-environment permissions.",
+      "answer": "Bamboo",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Supports real-time monitoring across all tools and flag errors of software as soon as they occur.",
+      "answer": "Bamboo",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Automated patch management software for Microsoft servers, workstations, and third-party applications.",
+      "answer": "SolarWinds Patch Manager",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    },
+    {
+      "question": "Which Software Deployment Tools is being described below?<br>Facilitates easier patching, reporting, and information gathering for servers and workstations, and allows the project team to manage patch deployment with advanced scheduling and rebooting across servers and workstations.",
+      "answer": "SolarWinds Patch Manager",
+      "choices": [
+        "Jenkins",
+        "Octopus Deploy",
+        "Bamboo",
+        "SolarWinds Patch Manager"
+      ]
+    }
+  ]
+}

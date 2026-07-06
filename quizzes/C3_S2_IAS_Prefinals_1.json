@@ -1,0 +1,376 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Prefinals",
+    "Title": "05 Handout 1- Network Awareness",
+    "LastModified": "08 May 2025",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What warns you not to respond to emails asking for personal information?",
+      "answer": "Phishing E-mails",
+      "choices": [
+        "Social engineering",
+        "Mobile threats",
+        "Phishing E-mails",
+        "Backup policy"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What advises against entering personal data in a pop-up screen?",
+      "answer": "Phishing E-mails",
+      "choices": [
+        "Secure passwords",
+        "Phishing E-mails",
+        "Encryption techniques",
+        "Device labeling"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What suggests not clicking links from suspicious email messages?",
+      "answer": "Phishing E-mails",
+      "choices": [
+        "Data loss prevention",
+        "Phishing E-mails",
+        "Security clearance",
+        "Portable storage"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tells you to copy and paste suspicious URLs into the browser rather than clicking them?",
+      "answer": "Phishing E-mails",
+      "choices": [
+        "Phishing E-mails",
+        "Anti-malware configuration",
+        "Social network blocking",
+        "Access logging"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What advises users to use anti-virus and anti-spyware and to keep them up to date?",
+      "answer": "Phishing E-mails",
+      "choices": [
+        "Phishing E-mails",
+        "Update notifications",
+        "Encryption enforcement",
+        "Certificate renewal"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recommends shredding documents with personal information like credit card or health numbers?",
+      "answer": "Dispose of Information Properly",
+      "choices": [
+        "Backup storage",
+        "Secure email",
+        "Dispose of Information Properly",
+        "Password sharing"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What reminds you to use correct tools when deleting personal files on devices?",
+      "answer": "Dispose of Information Properly",
+      "choices": [
+        "Antivirus updates",
+        "Dispose of Information Properly",
+        "Remote access monitoring",
+        "Message encryption"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tells you not to engage in cyberbullying or inappropriate behavior online?",
+      "answer": "Ethics – Be a good cyber citizen",
+      "choices": [
+        "Email filtering",
+        "Ethics – Be a good cyber citizen",
+        "Site blocking",
+        "Secure settings"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What warns against doing things in cyberspace that you wouldn’t do in real life?",
+      "answer": "Ethics – Be a good cyber citizen",
+      "choices": [
+        "Credential protection",
+        "Ethics – Be a good cyber citizen",
+        "Network firewall",
+        "VPN usage"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What asks you to observe copyright rules when downloading material?",
+      "answer": "Ethics – Be a good cyber citizen",
+      "choices": [
+        "Ethics – Be a good cyber citizen",
+        "Data backup policy",
+        "Tracking software",
+        "Application cache"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What reminds users not to use someone else’s password or other private credentials?",
+      "answer": "Ethics – Be a good cyber citizen",
+      "choices": [
+        "Cloud data",
+        "Ethics – Be a good cyber citizen",
+        "Mobile threat policy",
+        "Log-in audit"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What explains that locking the screen protects the system from unauthorized access?",
+      "answer": "Lock the computer when you leave",
+      "choices": [
+        "VPN monitoring",
+        "Lock the computer when you leave",
+        "Screen brightness",
+        "Connection security"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What advises setting a screensaver that requires a password to return to the system?",
+      "answer": "Lock the computer when you leave",
+      "choices": [
+        "Lock the computer when you leave",
+        "Battery saver mode",
+        "Encryption protocol",
+        "Background sync"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What suggests making unique accounts and passwords if the computer is shared?",
+      "answer": "Lock the computer when you leave",
+      "choices": [
+        "Account grouping",
+        "Lock the computer when you leave",
+        "Admin approval",
+        "User backup"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recommends protecting the device with a password?",
+      "answer": "Protect data on mobile devices",
+      "choices": [
+        "Mobile device",
+        "Remote wipe",
+        "Protect data on mobile devices",
+        "Network locking"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What reminds users to back up all critical data stored on the mobile device?",
+      "answer": "Protect data on mobile devices",
+      "choices": [
+        "Protect data on mobile devices",
+        "Auto-sync storage",
+        "Secure texting",
+        "Power management"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tip warns users to disable Bluetooth when it’s not needed?",
+      "answer": "Protect data on mobile devices",
+      "choices": [
+        "Connectivity tips",
+        "Protect data on mobile devices",
+        "Mobile storage options",
+        "Audio pairing"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What advises keeping firewalls and antivirus software on your portable device updated?",
+      "answer": "Protect data on mobile devices",
+      "choices": [
+        "Software patching",
+        "Protect data on mobile devices",
+        "Root access alert",
+        "Call block setting"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What mentions storing mobile devices in a secure location?",
+      "answer": "Protect data on mobile devices",
+      "choices": [
+        "Theft prevention",
+        "Protect data on mobile devices",
+        "Encrypted folders",
+        "Biometric check"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recommends reporting lost or stolen devices to the authorities right away?",
+      "answer": "Protect data on mobile devices",
+      "choices": [
+        "Lock the computer when you leave",
+        "Incident handling",
+        "Protect data on mobile devices",
+        "System alerts"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What helps protect your personal info by requiring password changes at least once a year?",
+      "answer": "Frequently change your default passwords",
+      "choices": [
+        "Use a firewall",
+        "Enable privacy settings",
+        "Frequently change your default passwords",
+        "Practice safe shopping"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What confirms your identity before logging into accounts using another device or method?",
+      "answer": "Use multifactor authentication",
+      "choices": [
+        "Enable VPN",
+        "Use multifactor authentication",
+        "Back up your data",
+        "Do not download pirated software"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What blocks unauthorized access to devices and networks?",
+      "answer": "Use a firewall",
+      "choices": [
+        "Use multifactor authentication",
+        "Use a firewall",
+        "Enable privacy settings",
+        "Safe public browsing"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What ensures your system stays protected by regularly applying security patches?",
+      "answer": "Be sure to keep the operating system, browser, and other software up to date",
+      "choices": [
+        "Back up your data",
+        "Enable privacy settings",
+        "Be sure to keep the operating system, browser, and other software up to date",
+        "Practice safe surfing"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What protects your information by avoiding risky activities on open internet networks?",
+      "answer": "Limit what you do over public Wi-Fi",
+      "choices": [
+        "Be selective when sharing info",
+        "Enable privacy settings",
+        "Limit what you do over public Wi-Fi",
+        "Back up your data"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What encourages checking for \"https\" before entering information on websites?",
+      "answer": "Practice safe surfing and shopping",
+      "choices": [
+        "Do not download pirated software",
+        "Use multifactor authentication",
+        "Practice safe surfing and shopping",
+        "Use a firewall"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What improves software protection by raising the default configuration?",
+      "answer": "Enable privacy settings",
+      "choices": [
+        "Enable privacy settings",
+        "Be selective when sharing info",
+        "Use a firewall",
+        "Limit what you do over public Wi-Fi"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What warns that careless disclosure of credentials may help hackers guess passwords?",
+      "answer": "Be selective when sharing personal information",
+      "choices": [
+        "Use a firewall",
+        "Practice safe surfing and shopping",
+        "Be selective when sharing personal information",
+        "Back up your data"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What avoids malware risks that come with illegal downloads?",
+      "answer": "Do not download pirated software",
+      "choices": [
+        "Use a firewall",
+        "Do not download pirated software",
+        "Limit what you do over public Wi-Fi",
+        "Enable privacy settings"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What helps you recover from ransomware attacks by storing your files safely?",
+      "answer": "Back up your data",
+      "choices": [
+        "Back up your data",
+        "Use multifactor authentication",
+        "Enable privacy settings",
+        "Be selective when sharing info"
+      ],
+      "reference": "Network Awareness",
+      "term": "Pre-finals"
+    }
+  ]
+}

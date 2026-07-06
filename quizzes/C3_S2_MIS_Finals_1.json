@@ -1,0 +1,388 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Finals",
+    "Title": "Information Management and Decision Making",
+    "LastModified": "3 June 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "10 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What system helps executives make better decisions using historical and current data derived from internal information systems and external sources?",
+      "answer": "Decision Support System (DSS)",
+      "choices": [
+        "Decision Support System (DSS)",
+        "Enterprise Resource Planning",
+        "Data Warehouse",
+        "Expert System"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What system is comprised of smaller computer-based systems and subsystems with the use of communication technology and collation and organization of data and documents?",
+      "answer": "Decision Support System (DSS)",
+      "choices": [
+        "Decision Support System (DSS)",
+        "Document Management System",
+        "Knowledge-Based System",
+        "Data Mining System"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What system uses large amounts of data with analytical models and tools that becomes a reliable source of information to use in any decision-making processes?",
+      "answer": "Decision Support System (DSS)",
+      "choices": [
+        "Decision Support System (DSS)",
+        "Communication System",
+        "Human Resource Information System",
+        "Transaction Processing System"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Framework element includes 5 generic categories that can be proposed?",
+      "answer": "Dominant Technological Component",
+      "choices": [
+        "Dominant Technological Component",
+        "Deployment Technology",
+        "UI",
+        "Models and Analytical Tools"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Framework element includes internal and external stakeholders such as employees, managers, consumers, and investors?",
+      "answer": "Target Users",
+      "choices": [
+        "Target Users",
+        "Architecture and Network",
+        "Database",
+        "Document-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Framework element includes specific or generalized objectives and is usually based on the system's application?",
+      "answer": "System Goals and Applications",
+      "choices": [
+        "System Goals and Applications",
+        "Function-Specific DSS",
+        "Models and Analytical Tools",
+        "Communications-Driven and Group DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What DSS Framework element includes deployment on mainframe, client/server, LAN, or web-based architecture?",
+      "answer": "Deployment Technology",
+      "choices": [
+        "Deployment Technology",
+        "UI",
+        "Architecture and Network",
+        "Data-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Component refers to ways a user interacts with the system such as menu buttons to access system resources?",
+      "answer": "UI",
+      "choices": [
+        "UI",
+        "Database",
+        "Architecture and Network",
+        "Document-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Component holds all digitized data for system tasks?",
+      "answer": "Database",
+      "choices": [
+        "Database",
+        "UI",
+        "System Goals and Applications",
+        "Models and Analytical Tools"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Component includes technological components used to accomplish the system’s scopes and tasks?",
+      "answer": "Models and Analytical Tools",
+      "choices": [
+        "Models and Analytical Tools",
+        "Database",
+        "Communications-Driven and Group DSS",
+        "Deployment Technology"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which DSS Component includes how the system hardware is organized and how software and data are distributed?",
+      "answer": "Architecture and Network",
+      "choices": [
+        "Architecture and Network",
+        "Models and Analytical Tools",
+        "UI",
+        "Knowledge-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS takes large amount of data from other information systems like TPS?",
+      "answer": "Data-Driven DSS",
+      "choices": [
+        "Data-Driven DSS",
+        "Document-Driven DSS",
+        "Function-Specific DSS",
+        "Knowledge-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS doesn’t allow specific theories/models but can free-flow the data when needed?",
+      "answer": "Data-Driven DSS",
+      "choices": [
+        "Data-Driven DSS",
+        "Model-Driven DSS",
+        "Communications-Driven and Group DSS",
+        "Inter-Organizational DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "File management systems and Executive Information Systems (EIS) are possible tools of what type of DSS?",
+      "answer": "Data-Driven DSS",
+      "choices": [
+        "Data-Driven DSS",
+        "Knowledge-Driven DSS",
+        "UI",
+        "Architecture and Network"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS emphasizes access to and manipulation of data models to help decision-making for possible and probable situations?",
+      "answer": "Model-Driven DSS",
+      "choices": [
+        "Model-Driven DSS",
+        "Data-Driven DSS",
+        "Target Users",
+        "Deployment Technology"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS allows complex analysis of data and may be classified as a hybrid system due to data modelling, retrieval, and summarization?",
+      "answer": "Model-Driven DSS",
+      "choices": [
+        "Model-Driven DSS",
+        "Communications-Driven and Group DSS",
+        "Document-Driven DSS",
+        "UI"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is not data intensive?",
+      "answer": "Model-Driven DSS",
+      "choices": [
+        "Model-Driven DSS",
+        "Data-Driven DSS",
+        "Function-Specific DSS",
+        "Inter-Organizational DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS focuses on knowledge as its primary framework factor?",
+      "answer": "Knowledge-Driven DSS",
+      "choices": [
+        "Knowledge-Driven DSS",
+        "Model-Driven DSS",
+        "Data-Driven DSS",
+        "UI"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS can suggest or recommend actions?",
+      "answer": "Knowledge-Driven DSS",
+      "choices": [
+        "Knowledge-Driven DSS",
+        "Architecture and Network",
+        "Target Users",
+        "Document-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is also known as Knowledge Management Systems?",
+      "answer": "Document-Driven DSS",
+      "choices": [
+        "Document-Driven DSS",
+        "Function-Specific DSS",
+        "Knowledge-Driven DSS",
+        "Inter-Organizational DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is capable of helping managers work on unstructured digital documents and web pages?",
+      "answer": "Document-Driven DSS",
+      "choices": [
+        "Document-Driven DSS",
+        "Model-Driven DSS",
+        "Communications-Driven and Group DSS",
+        "UI"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS provides retrieval and analysis of documents and other types of media like web pages, images, audio, and video?",
+      "answer": "Document-Driven DSS",
+      "choices": [
+        "Document-Driven DSS",
+        "Data-Driven DSS",
+        "Architecture and Network",
+        "System Goals and Applications"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS handles organizational files like policies, product specifications, and corporate historical documents?",
+      "answer": "Document-Driven DSS",
+      "choices": [
+        "Document-Driven DSS",
+        "Function-Specific DSS",
+        "Model-Driven DSS",
+        "Communications-Driven and Group DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS was previously known as Group Decision Support System (GDSS) or groupware?",
+      "answer": "Communications-Driven and Group DSS",
+      "choices": [
+        "Communications-Driven and Group DSS",
+        "Knowledge-Driven DSS",
+        "Inter-Organizational DSS",
+        "UI"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS includes communication, collaboration, and decision support technologies that don’t fit other DSS types?",
+      "answer": "Communications-Driven and Group DSS",
+      "choices": [
+        "Communications-Driven and Group DSS",
+        "Document-Driven DSS",
+        "Model-Driven DSS",
+        "Function-Specific DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is considered a hybrid system emphasizing both the use of communication and decision models?",
+      "answer": "Communications-Driven and Group DSS",
+      "choices": [
+        "Communications-Driven and Group DSS",
+        "Knowledge-Driven DSS",
+        "Data-Driven DSS",
+        "System Goals and Applications"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS allows the system to solve problems of decision-makers that work together as a group?",
+      "answer": "Communications-Driven and Group DSS",
+      "choices": [
+        "Communications-Driven and Group DSS",
+        "UI",
+        "Architecture and Network",
+        "Function-Specific DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS puts external (clients, customers) and internal (departments, employees) as their primary key factor?",
+      "answer": "Inter-Organizational / Intra-Organizational DSS",
+      "choices": [
+        "Inter-Organizational / Intra-Organizational DSS",
+        "Target Users",
+        "Knowledge-Driven DSS",
+        "Model-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is a relatively new type made possible by emerging technologies and the internet?",
+      "answer": "Inter-Organizational / Intra-Organizational DSS",
+      "choices": [
+        "Inter-Organizational / Intra-Organizational DSS",
+        "Document-Driven DSS",
+        "Function-Specific DSS",
+        "Communications-Driven and Group DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is designed to support more specific functions for specific types of industries or businesses?",
+      "answer": "Function-Specific / General Purpose DSS",
+      "choices": [
+        "Function-Specific / General Purpose DSS",
+        "Model-Driven DSS",
+        "Target Users",
+        "Architecture and Network"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What type of DSS is meant to solve problems involving broad, routine, or recurring decision tasks?",
+      "answer": "Function-Specific / General Purpose DSS",
+      "choices": [
+        "Function-Specific / General Purpose DSS",
+        "Knowledge-Driven DSS",
+        "Communications-Driven and Group DSS",
+        "Data-Driven DSS"
+      ],
+      "reference": "10 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}

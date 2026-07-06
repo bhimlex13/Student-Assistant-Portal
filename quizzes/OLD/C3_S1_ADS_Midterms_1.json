@@ -1,0 +1,628 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Database Systems",
+    "Term": "Midterms",
+    "Title": "Transaction and Concurrency Control",
+    "LastModified": "21 October 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "03_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "This is a collection of operations that form a single logical unit of work.",
+      "answer": "transaction",
+      "choices": [
+        "transaction",
+        "durability",
+        "atomicity",
+        "consistency"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It is the equivalent of a single SQL statement in an application program or transaction.",
+      "answer": "data request",
+      "choices": [
+        "data request",
+        "data requirements",
+        "database consistent state",
+        "transaction log"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which best exemplifies a database request?",
+      "answer": "If a transaction has three update statements and one insert statement, the transaction uses four database requests.",
+      "choices": [
+        "If a transaction has three update statements and one insert statement, the transaction uses four database requests.",
+        "The database will reject any entry in the gender column that is not 'Male' or 'Female,' such as 'Person.'",
+        "This record or log helps bring the database back to a consistent state in the case of system failure.",
+        "If two people use the same ATM card at the same time, the first transaction will be processed, and the account will be locked to other users until the current session is complete."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It satisfies the constraints specified in the schema.",
+      "answer": "database consistent state",
+      "choices": [
+        "data request",
+        "isolation",
+        "database consistent state",
+        "durability"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which best exemplifies a database consistent state?",
+      "answer": "The database will reject any entry in the gender column that is not 'Male' or 'Female,' such as 'Person.'",
+      "choices": [
+        "If a transaction has three update statements and one insert statement, the transaction uses four database requests.",
+        "The database will reject any entry in the gender column that is not 'Male' or 'Female,' such as 'Person.'",
+        "This record or log helps bring the database back to a consistent state in the case of system failure.",
+        "If two people use the same ATM card at the same time, the first transaction will be processed, and the account will be locked to other users until the current session is complete."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "A DBMS uses this to keep track of all the transactions that update the database.",
+      "answer": "transaction log",
+      "choices": [
+        "data request",
+        "data requirements",
+        "database consistent state",
+        "transaction log"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which best exemplifies a transaction log?",
+      "answer": "This record or log helps bring the database back to a consistent state in the case of system failure.",
+      "choices": [
+        "If a transaction has three update statements and one insert statement, the transaction uses four database requests.",
+        "The database will reject any entry in the gender column that is not 'Male' or 'Female,' such as 'Person.'",
+        "This record or log helps bring the database back to a consistent state in the case of system failure.",
+        "If two people use the same ATM card at the same time, the first transaction will be processed, and the account will be locked to other users until the current session is complete."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It requires that all operations of a transaction should be completed.",
+      "answer": "atomicity",
+      "choices": [
+        "transaction",
+        "durability",
+        "atomicity",
+        "consistency"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which best exemplifies atomicity?",
+      "answer": "Transaction T1 requires all four SQL requests to be completed successfully, or the entire transaction will be aborted.",
+      "choices": [
+        "Transaction T1 requires all four SQL requests to be completed successfully, or the entire transaction will be aborted.",
+        "If two people use the same ATM card at the same time, the first transaction will be processed, and the account will be locked to other users until the current session is complete.",
+        "If a transaction has three update statements and one insert statement, the transaction uses four database requests.",
+        "The database will reject any entry in the gender column that is not 'Male' or 'Female,' such as 'Person.'"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It ensures that only valid data following all rules and constraints will be written in the database.",
+      "answer": "consistency",
+      "choices": [
+        "consistency",
+        "transaction",
+        "durability",
+        "atomicity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is TRUE  about consistency?",
+      "answer": "When a transaction results in invalid data, the database reverts to its previous state.",
+      "choices": [
+        "When a transaction results in invalid data, the database reverts to its previous state.",
+        "It ensures that once transaction changes are done and committed, they cannot be undone or lost.",
+        "The data used during the execution of a current transaction cannot be used by another transaction until the first one is completed.",
+        "It requires that all operations of a transaction should be completed."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "The data used during the execution of a current transaction cannot be used by another transaction until the first one is completed.",
+      "answer": "isolation",
+      "choices": [
+        "isolation",
+        "consistency",
+        "transaction",
+        "durability"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which best exemplifies isolation?",
+      "answer": "If two people use the same ATM card at the same time, the first transaction will be processed, and the account will be locked to other users until the current session is complete.",
+      "choices": [
+        "If a transaction has three update statements and one insert statement, the transaction uses four database requests.",
+        "The database will reject any entry in the gender column that is not 'Male' or 'Female,' such as 'Person.'",
+        "This record or log helps bring the database back to a consistent state in the case of system failure.",
+        "If two people use the same ATM card at the same time, the first transaction will be processed, and the account will be locked to other users until the current session is complete."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It ensures that once transaction changes are done and committed, they cannot be undone or lost.",
+      "answer": "durability",
+      "choices": [
+        "consistency",
+        "transaction",
+        "durability",
+        "atomicity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "If the transaction fails between steps 3 and 6, the system must ensure that no updates are reflected in the database; otherwise, it will cause inconsistency.",
+      "answer": "atomicity requirement",
+      "choices": [
+        "atomicity requirement",
+        "consistency requirement",
+        "isolation requirement",
+        "durability requirement"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "The total balance of Aldous' and Brendon's accounts remains unchanged after the transaction. However, if another transaction accesses the partially updated database between steps 3 and 6, it will encounter an inconsistent state.",
+      "answer": "consistency requirement",
+      "choices": [
+        "atomicity requirement",
+        "consistency requirement",
+        "isolation requirement",
+        "durability requirement"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Transactions must run sequentially, meaning no other transaction will occur on either account until the current transaction is finished.",
+      "answer": "isolation requirement",
+      "choices": [
+        "atomicity requirement",
+        "consistency requirement",
+        "isolation requirement",
+        "durability requirement"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Once the user is notified that the transaction is complete, the updates made to the database must remain intact, even in the event of failures.",
+      "answer": "durability requirement",
+      "choices": [
+        "atomicity requirement",
+        "consistency requirement",
+        "isolation requirement",
+        "durability requirement"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SQL Transactional command marks the beginning of transaction execution?",
+      "answer": "BEGIN TRANSACTION",
+      "choices": [
+        "BEGIN TRANSACTION",
+        "@@TRANCOUNT",
+        "ROLLBACK TRANSACTION",
+        "SAVE TRANSACTION"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SQL Transactional command signals a successful end of the transaction so that any changes executed by the transaction can be safely committed to the database and will not be undone?",
+      "answer": "COMMIT",
+      "choices": [
+        "BEGIN TRANSACTION",
+        "COMMIT",
+        "ROLLBACK TRANSACTION",
+        "SAVE TRANSACTION"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SQL Transactional command signals that the transaction has ended unsuccessfully so that any changes or effects that the transaction may have applied to the database must be undone?",
+      "answer": "ROLLBACK TRANSACTION",
+      "choices": [
+        "BEGIN TRANSACTION",
+        "COMMIT",
+        "ROLLBACK TRANSACTION",
+        "SAVE TRANSACTION"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SQL Transactional command allows you to roll the transaction back to a certain point without rolling back the entire transaction?",
+      "answer": "SAVE TRANSACTION",
+      "choices": [
+        "BEGIN TRANSACTION",
+        "@@TRANCOUNT",
+        "ROLLBACK TRANSACTION",
+        "SAVE TRANSACTION"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which SQL Transactional command returns the number of BEGIN TRANSACTION statements that have occurred on the current connection?",
+      "answer": "@@TRANCOUNT",
+      "choices": [
+        "@@TRANCOUNT",
+        "COMMIT",
+        "ROLLBACK TRANSACTION",
+        "SAVE TRANSACTION"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which transaction execution state allows a transaction to perform READ and WRITE operations?",
+      "answer": "active state",
+      "choices": [
+        "active state",
+        "partially commited state",
+        "commited state",
+        "terminated"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "In which transaction execution state has the final statement in queries been executed?",
+      "answer": "partially commited state",
+      "choices": [
+        "active state",
+        "partially commited state",
+        "commited state",
+        "failed state"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which transaction execution state occurs after all operations have been completed?",
+      "answer": "commited state",
+      "choices": [
+        "active state",
+        "terminated",
+        "commited state",
+        "failed state"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which transaction execution state occurs if one of the operations cannot be completed?",
+      "answer": "failed state",
+      "choices": [
+        "active state",
+        "partially commited state",
+        "commited state",
+        "failed state"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which transaction execution state corresponds to the transaction leaving the system, whether it is committed or aborted?",
+      "answer": "terminated",
+      "choices": [
+        "terminated",
+        "partially commited state",
+        "commited state",
+        "failed state"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about concurrency control?",
+      "answer": "When several transactions execute simultaneously in the database, there will be a chance that the consistency and integrity of data may no longer be preserved.",
+      "choices": [
+        "When several transactions execute simultaneously in the database, there will be a chance that the consistency and integrity of data may no longer be preserved.",
+        "When a transaction results in invalid data, the database reverts to its previous state.",
+        "It ensures that once transaction changes are done and committed, they cannot be undone or lost.",
+        "The data used during the execution of a current transaction cannot be used by another transaction until the first one is completed."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about lost update?",
+      "answer": "This occurs when two concurrent transactions, T1 and T2, are updating the same data element, and one of the updates is lost.",
+      "choices": [
+        "This occurs when two concurrent transactions, T1 and T2, are updating the same data element, and one of the updates is lost.",
+        "This occurs when two transactions, T1 and T2, are executed concurrently, and T1 is rolled back after T2 has accessed its uncommitted data.",
+        "This occur when a transaction accesses data before and after one or more other transactions finish working with the same data.",
+        "It requires that all operations of a transaction should be completed."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about uncommitted data?",
+      "answer": "This occurs when two transactions, T1 and T2, are executed concurrently, and T1 is rolled back after T2 has accessed its uncommitted data.",
+      "choices": [
+        "This occurs when two concurrent transactions, T1 and T2, are updating the same data element, and one of the updates is lost.",
+        "This occurs when two transactions, T1 and T2, are executed concurrently, and T1 is rolled back after T2 has accessed its uncommitted data.",
+        "This occur when a transaction accesses data before and after one or more other transactions finish working with the same data.",
+        "It requires that all operations of a transaction should be completed."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about inconsistent retrievals?",
+      "answer": "This occur when a transaction accesses data before and after one or more other transactions finish working with the same data.",
+      "choices": [
+        "This occurs when two concurrent transactions, T1 and T2, are updating the same data element, and one of the updates is lost.",
+        "This occurs when two transactions, T1 and T2, are executed concurrently, and T1 is rolled back after T2 has accessed its uncommitted data.",
+        "This occur when a transaction accesses data before and after one or more other transactions finish working with the same data.",
+        "It requires that all operations of a transaction should be completed."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It guarantees exclusive use of data item to a current transaction.",
+      "answer": "lock",
+      "choices": [
+        "deadlock",
+        "lock",
+        "deadpool",
+        "loki"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about database-level lock?",
+      "answer": "Prevents access to any row by transaction T2 while transaction T1 is using the table.",
+      "choices": [
+        "Locks the entire database",
+        "Prevents access to any row by transaction T2 while transaction T1 is using the table.",
+        "Prevents the use of any tables in the database to transaction T2 while transaction T1 is being executed",
+        "This is good for batch processes but unsuitable for multiuser DBMS, as it can slow down data access by requiring thousands of transactions to wait for the current one to finish."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about table-level lock?",
+      "answer": "Less restrictive",
+      "choices": [
+        "If a transaction requires access to several tables, each table may be locked",
+        "Two transactions can access the same database as long as they access different tables.",
+        "Transactions T1 and T2 cannot access the same table even when they try to use different rows.",
+        "Less restrictive"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about row-level lock?",
+      "answer": "Allows concurrent transactions to access different rows of the same table even when the rows are located on the same page.",
+      "choices": [
+        "If a transaction requires access to several tables, each table may be locked",
+        "Two transactions can access the same database as long as they access different tables.",
+        "Transactions T1 and T2 cannot access the same table even when they try to use different rows.",
+        "Allows concurrent transactions to access different rows of the same table even when the rows are located on the same page."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about binary lock?",
+      "answer": "It exists when access is reserved specifically for the transaction that locked the object.",
+      "choices": [
+        "Has only two states: locked (1) and unlocked (0)",
+        "User does not require to manually lock or unlock data items.",
+        "If an object such as a database, table, or row is locked by a transaction, no other transaction can use that object",
+        "It exists when access is reserved specifically for the transaction that locked the object."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about shared/exclusive lock?",
+      "answer": "This lock exists when a transaction wants to read data from the database, and no exclusive lock has held that data item.",
+      "choices": [
+        "Has only two states: locked (1) and unlocked (0)",
+        "User does not require to manually lock or unlock data items.",
+        "If an object such as a database, table, or row is locked by a transaction, no other transaction can use that object",
+        "This lock exists when a transaction wants to read data from the database, and no exclusive lock has held that data item."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "This occurs when two (2) transactions wait indefinitely for each other to unlock data.",
+      "answer": "deadlock",
+      "choices": [
+        "deadlock",
+        "lock",
+        "deadpool",
+        "loki"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about deadlock prevention?",
+      "answer": "A transaction requesting a new lock is aborted if there is a possibility of a deadlock. When a transaction is aborted, all changes it made are rolled back, and all locks it held are released.",
+      "choices": [
+        "The DBMS periodically tests the database for deadlocks. If a deadlock is found, the “victim” transaction is aborted, and another transaction continues.",
+        "A transaction requesting a new lock is aborted if there is a possibility of a deadlock. When a transaction is aborted, all changes it made are rolled back, and all locks it held are released.",
+        "The transaction must obtain all the locks it needs before it can be executed. However, the serial lock assignment required in deadlock avoidance increases action response time.",
+        "Cause sometimes I look in her eyes And that's where I find a glimpse of us. And I try to fall for her touch But I'm thinking of the way it was."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about deadlock detection?",
+      "answer": "The DBMS periodically tests the database for deadlocks. If a deadlock is found, the “victim” transaction is aborted, and another transaction continues.",
+      "choices": [
+        "The DBMS periodically tests the database for deadlocks. If a deadlock is found, the “victim” transaction is aborted, and another transaction continues.",
+        "A transaction requesting a new lock is aborted if there is a possibility of a deadlock. When a transaction is aborted, all changes it made are rolled back, and all locks it held are released.",
+        "The transaction must obtain all the locks it needs before it can be executed. However, the serial lock assignment required in deadlock avoidance increases action response time.",
+        "If you've been waiting for fallin' in love. Babe, you don't have to wait on me. Cause I've been aiming for heaven above. But an angel ain't what I need."
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about deadlock avoidance?",
+      "answer": "The transaction must obtain all the locks it needs before it can be executed. However, the serial lock assignment required in deadlock avoidance increases action response time.",
+      "choices": [
+        "The DBMS periodically tests the database for deadlocks. If a deadlock is found, the “victim” transaction is aborted, and another transaction continues.",
+        "A transaction requesting a new lock is aborted if there is a possibility of a deadlock. When a transaction is aborted, all changes it made are rolled back, and all locks it held are released.",
+        "The transaction must obtain all the locks it needs before it can be executed. However, the serial lock assignment required in deadlock avoidance increases action response time.",
+        "Go ahead and bark after dark.Fallen star, I'm your one call away. Motel halls, neon walls. When night falls, I am your escape"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Described by the type of “reads” that a transaction allows or not.",
+      "answer": "transaction isolation levels",
+      "choices": [
+        "transaction isolation levels",
+        "transaction isolation lock",
+        "deadlock isolation levels",
+        "deadlock prevention lock"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It is a transaction can read data that is not committed yet.",
+      "answer": "dirty read",
+      "choices": [
+        "dirty read",
+        "non-repeatable read",
+        "phantom read",
+        "little read riding hood"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It a transaction reads a given row at time T1, and then it reads the same row at time T2, yielding different results.",
+      "answer": "non-repeatable read",
+      "choices": [
+        "dirty read",
+        "non-repeatable read",
+        "phantom read",
+        "little read riding hood"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "It a transaction executes a query at time T1, and then it runs the same query at time T2, yielding additional rows that satisfy the query.",
+      "answer": "phantom read",
+      "choices": [
+        "dirty read",
+        "non-repeatable read",
+        "phantom read",
+        "little read riding hood"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about READ UNCOMMITED?",
+      "answer": "Default isolation level for SQL Server",
+      "choices": [
+        "It is the least restrictive isolation level",
+        "It ignores locks placed by other transactions",
+        "Can read modified data values that have not yet been committed by other transactions; these are called \"dirty\" reads",
+        "Default isolation level for SQL Server"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about READ COMMITED?",
+      "answer": "It is the least restrictive isolation level",
+      "choices": [
+        "Default isolation level for SQL Server",
+        "It is the least restrictive isolation level",
+        "Prevents dirty reads by specifying that statements cannot read data values that have been modified but not yet committed by other transactions",
+        "Other transactions can modify, insert, or delete data between individual statements in a current transaction, leading to non-repeatable reads or \"phantom\" data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following is NOT a valid statement about REPEATABLE READ?",
+      "answer": "Prevents dirty reads by specifying that statements cannot read data values that have been modified but not yet committed by other transactions",
+      "choices": [
+        "A more restrictive isolation level than READ COMMITTED",
+        "Encompasses READ COMMITTED",
+        "Ensures that no other transactions can modify or delete data that has been read by the current transaction until the current transaction commits",
+        "Prevents dirty reads by specifying that statements cannot read data values that have been modified but not yet committed by other transactions"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about SERIALIZABLE isolation?",
+      "answer": "Most restrictive level and gives solution to the phantom read. problem.",
+      "choices": [
+        "Most restrictive level and gives solution to the phantom read. problem.",
+        "A more restrictive isolation level than READ COMMITTED",
+        "Encompasses READ COMMITTED",
+        "Ensures that no other transactions can modify or delete data that has been read by the current transaction until the current transaction commits"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    },
+    {
+      "question": "Which of the following statements is TRUE  about SERIALIZABLE isolation?",
+      "answer": "Ensures that the data that one transaction has read, will be prevented from being updated or deleted by any other transaction",
+      "choices": [
+        "Ensures that the data that one transaction has read, will be prevented from being updated or deleted by any other transaction",
+        "A more restrictive isolation level than READ COMMITTED",
+        "Encompasses READ COMMITTED",
+        "Ensures that no other transactions can modify or delete data that has been read by the current transaction until the current transaction commits"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterm"
+    }
+  ]
+}

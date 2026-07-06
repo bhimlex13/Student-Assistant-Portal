@@ -1,0 +1,196 @@
+{
+  "quizInfo": {
+    "Subject": "Great Books",
+    "Term": "Midterms",
+    "Title": "Pride and Prejudice",
+    "LastModified": "25 March 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "Pride and Prejudice"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "How many daughters did Mrs. Bennet have?",
+      "answer": "Five",
+      "choices": [
+        "Three",
+        "Four",
+        "Six",
+        "Five"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who is known for their false pride?",
+      "answer": "Darcy",
+      "choices": [
+        "Bingley",
+        "Wickham",
+        "Mr. Bennet",
+        "Darcy"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "What did Lydia do that scandalized her family?",
+      "answer": "Ran off with an army officer",
+      "choices": [
+        "Got married secretly",
+        "Became seriously ill",
+        "Lost family fortune",
+        "Ran off with an army officer"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who was described as too shy to show affection?",
+      "answer": "Jane",
+      "choices": [
+        "Elizabeth",
+        "Lydia",
+        "Mary",
+        "Jane"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who secretly admired Elizabeth despite appearing proud and aloof?",
+      "answer": "Darcy",
+      "choices": [
+        "Wickham",
+        "Bingley",
+        "Mr. Collins",
+        "Darcy"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who is the officer Lydia ran off with?",
+      "answer": "Wickham",
+      "choices": [
+        "Bingley",
+        "Darcy",
+        "Mr. Collins",
+        "Wickham"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "How many dances did Darcy dance at the first ball?",
+      "answer": "Four",
+      "choices": [
+        "Two",
+        "Six",
+        "Eight",
+        "Four"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who inherited Mr. Bennet's home and estate upon his death?",
+      "answer": "Mr. Collins",
+      "choices": [
+        "Darcy",
+        "Bingley",
+        "Wickham",
+        "Mr. Collins"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who proposed to Elizabeth first but was rejected?",
+      "answer": "Mr. Collins",
+      "choices": [
+        "Bingley",
+        "Darcy",
+        "Wickham",
+        "Mr. Collins"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Who provided financial help to arrange Lydia's marriage?",
+      "answer": "Darcy",
+      "choices": [
+        "Mr. Bennet",
+        "Bingley",
+        "Mr. Collins",
+        "Darcy"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is the proper arrangement of the events?",
+      "answer": "Bingley moves to Netherfield - Jane visits Netherfield - Darcy insults Elizabeth - Elizabeth visits Charlotte - Lydia elopes",
+      "choices": [
+        "Darcy insults Elizabeth - Jane visits Netherfield - Bingley moves to Netherfield - Lydia elopes - Elizabeth visits Charlotte",
+        "Jane visits Netherfield - Bingley moves to Netherfield - Elizabeth visits Charlotte - Darcy insults Elizabeth - Lydia elopes",
+        "Lydia elopes - Elizabeth visits Charlotte - Jane visits Netherfield - Darcy insults Elizabeth - Bingley moves to Netherfield",
+        "Bingley moves to Netherfield - Jane visits Netherfield - Darcy insults Elizabeth - Elizabeth visits Charlotte - Lydia elopes"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is the proper arrangement of these scenes?",
+      "answer": "Mr. Bennet visits Mr. Bingley - The first ball occurs - Jane visits Netherfield - Elizabeth refuses Mr. Collins - Lydia runs away with Wickham",
+      "choices": [
+        "The first ball occurs - Mr. Bennet visits Mr. Bingley - Lydia runs away with Wickham - Elizabeth refuses Mr. Collins - Jane visits Netherfield",
+        "Jane visits Netherfield - Elizabeth refuses Mr. Collins - Mr. Bennet visits Mr. Bingley - Lydia runs away with Wickham - The first ball occurs",
+        "Lydia runs away with Wickham - Mr. Bennet visits Mr. Bingley - Elizabeth refuses Mr. Collins - The first ball occurs - Jane visits Netherfield",
+        "Mr. Bennet visits Mr. Bingley - The first ball occurs - Jane visits Netherfield - Elizabeth refuses Mr. Collins - Lydia runs away with Wickham"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is the correct sequence of these events?",
+      "answer": "Darcy insults Elizabeth - Wickham tells Elizabeth his story - Elizabeth refuses Darcy's proposal - Darcy explains truth in a letter",
+      "choices": [
+        "Wickham tells Elizabeth his story - Elizabeth refuses Darcy's proposal - Darcy insults Elizabeth - Darcy explains truth in a letter",
+        "Elizabeth refuses Darcy's proposal - Darcy insults Elizabeth - Wickham tells Elizabeth his story - Darcy explains truth in a letter",
+        "Darcy explains truth in a letter - Elizabeth refuses Darcy's proposal - Darcy insults Elizabeth - Wickham tells Elizabeth his story",
+        "Darcy insults Elizabeth - Wickham tells Elizabeth his story - Elizabeth refuses Darcy's proposal - Darcy explains truth in a letter"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is the proper sequence of these scenes?",
+      "answer": "Lydia runs away - Mr. Gardiner finds Lydia - Lydia marries Wickham - Darcy visits Elizabeth at home - Elizabeth and Darcy get engaged",
+      "choices": [
+        "Darcy visits Elizabeth at home - Lydia runs away - Lydia marries Wickham - Mr. Gardiner finds Lydia - Elizabeth and Darcy get engaged",
+        "Lydia marries Wickham - Lydia runs away - Mr. Gardiner finds Lydia - Darcy visits Elizabeth at home - Elizabeth and Darcy get engaged",
+        "Elizabeth and Darcy get engaged - Darcy visits Elizabeth at home - Lydia runs away - Lydia marries Wickham - Mr. Gardiner finds Lydia",
+        "Lydia runs away - Mr. Gardiner finds Lydia - Lydia marries Wickham - Darcy visits Elizabeth at home - Elizabeth and Darcy get engaged"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which is the proper order of events involving Elizabeth and Darcy?",
+      "answer": "Elizabeth overhears Darcy insult her - Elizabeth refuses to dance with Darcy - Darcy proposes marriage - Elizabeth rejects Darcy's proposal - Darcy helps Lydia marry Wickham",
+      "choices": [
+        "Elizabeth refuses to dance with Darcy - Darcy proposes marriage - Elizabeth overhears Darcy insult her - Darcy helps Lydia marry Wickham - Elizabeth rejects Darcy's proposal",
+        "Darcy proposes marriage - Elizabeth overhears Darcy insult her - Elizabeth refuses to dance with Darcy - Elizabeth rejects Darcy's proposal - Darcy helps Lydia marry Wickham",
+        "Elizabeth rejects Darcy's proposal - Elizabeth overhears Darcy insult her - Darcy proposes marriage - Darcy helps Lydia marry Wickham - Elizabeth refuses to dance with Darcy",
+        "Elizabeth overhears Darcy insult her - Elizabeth refuses to dance with Darcy - Darcy proposes marriage - Elizabeth rejects Darcy's proposal - Darcy helps Lydia marry Wickham"
+      ],
+      "reference": "Pride and Prejudice",
+      "term": "Midterms"
+    }
+  ]
+}

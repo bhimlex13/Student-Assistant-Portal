@@ -1,0 +1,1408 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Midterms",
+    "Title": "Typical Domains of IT Infrastructure (All 03 Handout 1 contents)",
+    "LastModified": "28 March 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "03 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What refers to any group of users, workstations, devices, printers, computers, and database servers that share different types of data via network resources?",
+      "answer": "Domain",
+      "choices": [
+        "Domain",
+        "LAN Domain",
+        "User Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is used to manage all user functions, including username, password, and shared system resource authentication and access?",
+      "answer": "Domain",
+      "choices": [
+        "Domain",
+        "WAN Domain",
+        "System / Application Storage Domain",
+        "LAN / WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is used to assign specific resource privileges such as user accounts?",
+      "answer": "Domain",
+      "choices": [
+        "Domain",
+        "Remote Access Domain",
+        "Workstation Domain",
+        "WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What comprises combined systems, servers, and workgroups?",
+      "answer": "Domain",
+      "choices": [
+        "Domain",
+        "WAN Domain",
+        "Domain Controller",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What governs all basic domain functions and manages network security?",
+      "answer": "Domain Controller",
+      "choices": [
+        "System / Application Storage Domain",
+        "Domain Controller",
+        "WAN Domain",
+        "User Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "In a simple network domain, what are directly connected?",
+      "answer": "Many computers and workgroups",
+      "choices": [
+        "Only one computer",
+        "Printers and scanners",
+        "Many computers and workgroups",
+        "Only servers"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Depending on network requirements, what may exist in one domain?",
+      "answer": "Many types",
+      "choices": [
+        "A single type",
+        "Only users",
+        "Only servers",
+        "Many types"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain covers all the users that have access to the other domains?",
+      "answer": "User Domain",
+      "choices": [
+        "Domain Controller",
+        "User Domain",
+        "Workstation Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain covers all the users that have access to the other domains?",
+      "answer": "User Domain",
+      "choices": [
+        "User Domain",
+        "LAN Domain",
+        "Remote Access Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "In which domain can a user destroy data in the app and delete everything?",
+      "answer": "User Domain",
+      "choices": [
+        "User Domain",
+        "LAN / WAN Domain",
+        "WAN Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A user inserting an infected flash drive into the computer is a risk in which domain?",
+      "answer": "User Domain",
+      "choices": [
+        "User Domain",
+        "Remote Access Domain",
+        "LAN Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A user using their password to delete their files is a risk in which domain?",
+      "answer": "User Domain",
+      "choices": [
+        "User Domain",
+        "LAN Domain",
+        "WAN Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain consists of the computer of an individual user where production takes place?",
+      "answer": "Workstation Domain",
+      "choices": [
+        "Workstation Domain",
+        "LAN Domain",
+        "WAN Domain",
+        "LAN / WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "The OS having known software vulnerabilities that allow hackers to connect remotely and steal data is a risk in which domain?",
+      "answer": "Workstation Domain",
+      "choices": [
+        "Workstation Domain",
+        "LAN Domain",
+        "Remote Access Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "The browser having known software vulnerabilities that allow unsigned scripts to install malware silently is a risk in which domain?",
+      "answer": "Workstation Domain",
+      "choices": [
+        "Workstation Domain",
+        "LAN Domain",
+        "WAN Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "The hard drive failing and losing data is a risk in which domain?",
+      "answer": "Workstation Domain",
+      "choices": [
+        "Workstation Domain",
+        "WAN Domain",
+        "System / Application Storage Domain",
+        "User Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain contains all the workstations, hubs, switches, and routers?",
+      "answer": "LAN Domain",
+      "choices": [
+        "LAN Domain",
+        "User Domain",
+        "System / Application Storage Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Work spreading through the network and infecting all computers is a risk in which domain?",
+      "answer": "LAN Domain",
+      "choices": [
+        "LAN Domain",
+        "WAN Domain",
+        "LAN / WAN Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "LAN server OS having known software vulnerabilities is a risk in which domain?",
+      "answer": "LAN Domain",
+      "choices": [
+        "LAN Domain",
+        "Workstation Domain",
+        "WAN Domain",
+        "LAN / WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Unauthorized users accessing organization workstations in LANs is a risk in which domain?",
+      "answer": "LAN Domain",
+      "choices": [
+        "LAN Domain",
+        "System / Application Storage Domain",
+        "Workstation Domain",
+        "WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain consists of the internet and semi-private lines?",
+      "answer": "WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "LAN / WAN Domain",
+        "System / Application Storage Domain",
+        "User Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A major network outage from the service provider is a risk in which domain?",
+      "answer": "WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "Remote Access Domain",
+        "System / Application Storage Domain",
+        "Workstation Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A server receiving DOS or DDOS attacks is a risk in which domain?",
+      "answer": "WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "System / Application Storage Domain",
+        "Workstation Domain",
+        "User Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A File Transfer Protocol (FTP) allowing anonymously uploaded illegal software is a risk in which domain?",
+      "answer": "WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "LAN Domain",
+        "LAN / WAN Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain serves as the boundary between trusted and untrusted zones?",
+      "answer": "LAN / WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "LAN / WAN Domain",
+        "LAN Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Hackers penetrating the IT infrastructure to gain access to the internal network is a risk in which domain?",
+      "answer": "LAN / WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "LAN / WAN Domain",
+        "Workstation Domain",
+        "User Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Firewalls with unnecessary ports open allowing access from the internet is a risk in which domain?",
+      "answer": "LAN / WAN Domain",
+      "choices": [
+        "WAN Domain",
+        "LAN / WAN Domain",
+        "System / Application Storage Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain is made up of user-accessed servers such as email and database?",
+      "answer": "System / Application Storage Domain",
+      "choices": [
+        "System / Application Storage Domain",
+        "LAN Domain",
+        "WAN Domain",
+        "LAN / WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Fires destroying primary data is a risk in which domain?",
+      "answer": "System / Application Storage Domain",
+      "choices": [
+        "System / Application Storage Domain",
+        "User Domain",
+        "WAN Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "DOS attacks crippling the organization’s email is a risk in which domain?",
+      "answer": "System / Application Storage Domain",
+      "choices": [
+        "System / Application Storage Domain",
+        "Workstation Domain",
+        "WAN Domain",
+        "LAN / WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A database server being attacked by SQL injection that corrupts data is a risk in which domain?",
+      "answer": "System / Application Storage Domain",
+      "choices": [
+        "System / Application Storage Domain",
+        "Workstation Domain",
+        "WAN Domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain allows a mobile user to access the local network usually through a VPN?",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "User Domain",
+        "Remote Access Domain",
+        "Workstation Domain",
+        "WAN Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Communication circuit outage denying connection is a risk in which domain?",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "WAN Domain",
+        "Remote Access Domain",
+        "System / Application Storage Domain",
+        "Workstation Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Remote communication from the office being unsecured is a risk in which domain?",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "WAN Domain",
+        "Remote Access Domain",
+        "User Domain",
+        "System / Application Storage Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of user has their username and password stored in the computer itself?",
+      "answer": "Local User",
+      "choices": [
+        "Local User",
+        "Remote Access Domain",
+        "Virtual Private Network (VPN)",
+        "Wide Area Network (WAN) domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "When logging in as this type of user, the computer checks its passwords file to see if they are allowed to log in.",
+      "answer": "Local User",
+      "choices": [
+        "Local User",
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type of user has their username and password stored on a domain controller rather than the computer?",
+      "answer": "Domain User",
+      "choices": [
+        "Domain User",
+        "Local Area Network (LAN) domain",
+        "Wide Area Network (WAN) domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "When logging in as this type of user, the computer asks the domain controller with privileges assigned to the user.",
+      "answer": "Domain User",
+      "choices": [
+        "Domain User",
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "This type of user system evolved in response to the administration challenge of managing large numbers of computers, devices, services, and users.",
+      "answer": "Domain User",
+      "choices": [
+        "Domain User",
+        "Local Area Network (LAN) domain",
+        "Wide Area Network (WAN) domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain is a subnetwork made up of servers and clients controlled by a centralized database?",
+      "answer": "Local Area Network (LAN) domain",
+      "choices": [
+        "Wide Area Network (WAN) domain",
+        "Domain User",
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "In which domain is user approval obtained through a central server or domain controller?",
+      "answer": "Local Area Network (LAN) domain",
+      "choices": [
+        "Wide Area Network (WAN) domain",
+        "Remote Access Domain",
+        "Local Area Network (LAN) domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain consists of a network that spans a large geographic area such as cities or countries?",
+      "answer": "Wide Area Network (WAN) domain",
+      "choices": [
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain",
+        "Domain User"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "A network that can be private to connect parts of a business or public to connect smaller networks is known as what domain?",
+      "answer": "Wide Area Network (WAN) domain",
+      "choices": [
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain",
+        "Local User"
+      ],
+      "reference": "User, LAN, and WAN Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain enables remote users to access files on any devices connected to the network at any time?",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain",
+        "Virtual Private Network (VPN)",
+        "Domain User"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "This domain increases productivity and allows better collaboration around the world by allowing remote users access to files.",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "Wide Area Network (WAN) domain",
+        "Remote Access Domain",
+        "Local User",
+        "Domain User"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain allows organizations the flexibility to hire the best talent regardless of location?",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "Virtual Private Network (VPN)",
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain",
+        "Domain User"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain allows technical support to connect to user computers from remote locations to help reduce issues?",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain",
+        "Domain User",
+        "Local User"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the common method of providing remote access?",
+      "answer": "Virtual Private Network (VPN)",
+      "choices": [
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain",
+        "Local Area Network (LAN) domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What technology creates a safe and encrypted connection over a less secure network like the internet?",
+      "answer": "Virtual Private Network (VPN)",
+      "choices": [
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain",
+        "Local Area Network (LAN) domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method was developed to enable remote users and branch offices to log into corporate apps and resources securely?",
+      "answer": "Virtual Private Network (VPN)",
+      "choices": [
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain",
+        "Local Area Network (LAN) domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access technology is commonly in use today?",
+      "answer": "IP Security VPN (IPsec VPN)",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Microsoft DirectAccess",
+        "Virtual Private Network (VPN)",
+        "IP Security VPN (IPsec VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "In which VPN must a client be installed in the end user’s computer and configured with target network details like the gateway IP address and a pre-shared security key?",
+      "answer": "IP Security VPN (IPsec VPN)",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Microsoft DirectAccess",
+        "Local Area Network (LAN) domain",
+        "IP Security VPN (IPsec VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method typically includes licenses for connections when a firewall is purchased?",
+      "answer": "IP Security VPN (IPsec VPN)",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Microsoft DirectAccess",
+        "Remote Access Domain",
+        "IP Security VPN (IPsec VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method has low processing overhead for the firewall, allowing many connections to be active at the same time?",
+      "answer": "IP Security VPN (IPsec VPN)",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Microsoft DirectAccess",
+        "Wide Area Network (WAN) domain",
+        "IP Security VPN (IPsec VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is an established VPN technology that many people are already familiar with?",
+      "answer": "IP Security VPN (IPsec VPN)",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Microsoft DirectAccess",
+        "Virtual Private Network (VPN)",
+        "IP Security VPN (IPsec VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method requires a software client to be installed and configured in the target device before a connection is established, causing difficulties if a worker is not in the office?",
+      "answer": "IP Security VPN (IPsec VPN)",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Microsoft DirectAccess",
+        "Virtual Private Network (VPN)",
+        "IP Security VPN (IPsec VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which encryption technology is commonly used to secure communication on the internet?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Virtual Private Network (VPN)",
+        "Wide Area Network (WAN) domain"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "In which VPN method does the network admin publish the VPN client to the firewall, allowing it to be downloaded via the firewall’s public connection?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Remote Access Domain",
+        "Local Area Network (LAN) domain"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method allows end users to install the VPN client from a public portal?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Virtual Private Network (VPN)",
+        "Wide Area Network (WAN) domain"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "In which VPN method does the IT department not need to manually configure each machine that requires remote access?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Remote Access Domain",
+        "Local User"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method allows network administrators to set up granular security policies for specific corporate network resources?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Virtual Private Network (VPN)",
+        "Local Area Network (LAN) domain"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method provides software clients for mobile devices, allowing users to view corporate intranet without using a computer?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method requires more firewall configuration to publish the client network?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Remote Access Domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method requires more processing overhead for the firewall, limiting the number of client connections it can handle?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What VPN licenses are usually sold as an add-on to hardware because some firewalls cannot handle too many client connections?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access method is a relatively new approach developed by Microsoft?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method creates an “always on” secure connection at the OS level?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access method allows users to connect without needing to install or run anything?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access method is described as seamless technology that could change the way users work remotely?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access method requires elaborate changes to the corporate network?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access method is designed with IPv6 as the primary addressing scheme and IPv4 secondarily?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Local Area Network (LAN) domain",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access method requires additional software on the LAN so remote users can access IPv4 addresses?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain consists of all of a business’ mission-critical systems, apps, and data?",
+      "answer": "System / Application Domain",
+      "choices": [
+        "Unauthorized Logical Access",
+        "System / Application Domain",
+        "Software Vulnerabilities",
+        "Unauthorized Physical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain must be secured at all times to prevent loss of large amounts of sensitive information and productivity disruption?",
+      "answer": "System / Application Domain",
+      "choices": [
+        "Unauthorized Physical Access",
+        "System / Application Domain",
+        "Server Vulnerabilities",
+        "Unauthorized Logical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Commonly targeted systems and apps in which domain include OSes, email apps and servers, ERP apps and systems, and web browsers?",
+      "answer": "System / Application Domain",
+      "choices": [
+        "Unauthorized Logical Access",
+        "System / Application Domain",
+        "Software Vulnerabilities",
+        "Unauthorized Physical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Attacks on which domain are categorized into denial or destruction, alteration, and disclosure?",
+      "answer": "System / Application Domain",
+      "choices": [
+        "Unauthorized Physical Access",
+        "System / Application Domain",
+        "Data Loss",
+        "Unauthorized Logical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Gaining access to a physical entity or area without permission is known as what?",
+      "answer": "Unauthorized Physical Access",
+      "choices": [
+        "Unauthorized Physical Access",
+        "Server Vulnerabilities",
+        "Software Vulnerabilities",
+        "System / Application Domain"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of access allows a malicious individual to steal, alter, or destroy systems and data if gained?",
+      "answer": "Unauthorized Physical Access",
+      "choices": [
+        "Unauthorized Physical Access",
+        "Software Vulnerabilities",
+        "Data Loss",
+        "System / Application Domain"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type of unauthorized access is nearly identical to unauthorized physical access but is not limited to tangible data?",
+      "answer": "Unauthorized Logical Access",
+      "choices": [
+        "Unauthorized Logical Access",
+        "Software Vulnerabilities",
+        "Server Vulnerabilities",
+        "Data Loss"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type of access is especially dangerous because it can be carried out by a staff member or an experienced attacker?",
+      "answer": "Unauthorized Logical Access",
+      "choices": [
+        "Unauthorized Logical Access",
+        "Software Vulnerabilities",
+        "Server Vulnerabilities",
+        "System / Application Domain"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of attack could result from unauthorized logical access, causing a denial of service (DoS) on important business systems?",
+      "answer": "Unauthorized Logical Access",
+      "choices": [
+        "Unauthorized Logical Access",
+        "Software Vulnerabilities",
+        "Server Vulnerabilities",
+        "Data Loss"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a flaw in a software component or system that allows an attacker to gain access through an exploit?",
+      "answer": "Software Vulnerabilities",
+      "choices": [
+        "Server Vulnerabilities",
+        "Unauthorized Logical Access",
+        "Data Loss",
+        "Software Vulnerabilities"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of vulnerability can be exploited through malware executed on a system by a user or directly by an attacker?",
+      "answer": "Software Vulnerabilities",
+      "choices": [
+        "Server Vulnerabilities",
+        "Unauthorized Physical Access",
+        "Data Loss",
+        "Software Vulnerabilities"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which vulnerabilities can occur in any software running on a system, including the OS itself?",
+      "answer": "Software Vulnerabilities",
+      "choices": [
+        "Server Vulnerabilities",
+        "Unauthorized Physical Access",
+        "Unauthorized Logical Access",
+        "Software Vulnerabilities"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What vulnerabilities are similar to software vulnerabilities but can be even more damaging when present on servers?",
+      "answer": "Server Vulnerabilities",
+      "choices": [
+        "Software Vulnerabilities",
+        "Server Vulnerabilities",
+        "Unauthorized Physical Access",
+        "Data Loss"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Vulnerabilities in what systems can exist in the software used to provide services like FTP, SSH, and PHP?",
+      "answer": "Server Vulnerabilities",
+      "choices": [
+        "Software Vulnerabilities",
+        "Server Vulnerabilities",
+        "Data Loss",
+        "Unauthorized Logical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Vulnerabilities in what type of system can be found in both the software it uses to provide services and in its OS?",
+      "answer": "Server Vulnerabilities",
+      "choices": [
+        "Software Vulnerabilities",
+        "Server Vulnerabilities",
+        "Unauthorized Physical Access",
+        "System / Application Domain"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can occur during storage, transmission, or processing and is considered the greatest risk to system / application domains?",
+      "answer": "Data Loss",
+      "choices": [
+        "Unauthorized Logical Access",
+        "Data Loss",
+        "Server Vulnerabilities",
+        "Unauthorized Physical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is considered the greatest risk because the goal of system / application domains is to allow users to create, store, retrieve, and manipulate data?",
+      "answer": "Data Loss",
+      "choices": [
+        "Software Vulnerabilities",
+        "Data Loss",
+        "Server Vulnerabilities",
+        "Unauthorized Logical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the most common preventative measure against data loss?",
+      "answer": "Backups of all data",
+      "choices": [
+        "Firewalls",
+        "Backups of all data",
+        "Access control lists",
+        "Antivirus software"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What refers to the code of responsible behavior on the internet?",
+      "answer": "Cyber Ethics",
+      "choices": [
+        "Ethics Manifesto",
+        "Cyber Ethics",
+        "Professional Competence and Due Care",
+        "Right to disconnect"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the basic rule of cyber ethics that states, “do not do something in cyberspace that you would consider wrong or illegal in everyday life”?",
+      "answer": "Cyber Ethics",
+      "choices": [
+        "Integrity",
+        "Cyber Ethics",
+        "Right to be inefficient if and where it defines our basic humanities",
+        "Right to remain neutral"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical framework was created by Gerd Leonhard?",
+      "answer": "Ethics Manifesto",
+      "choices": [
+        "Cyber Ethics",
+        "Ethics Manifesto",
+        "Professional Competence and Due Care",
+        "Objectivity"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which manifesto provides a framework for global ethics in technology?",
+      "answer": "Ethics Manifesto",
+      "choices": [
+        "Cyber Ethics",
+        "Ethics Manifesto",
+        "Right to employ or involve people instead of machines",
+        "Right to disconnect"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is important to focus on in an era where machines will take on more human-like characteristics?",
+      "answer": "Ethics Manifesto",
+      "choices": [
+        "Code of Ethics for Information Security Professionals",
+        "Ethics Manifesto",
+        "Professional Competence and Due Care",
+        "Objectivity"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which right ensures that people can be employed, use public services, buy things, and function in society without a requirement to deploy technology on or inside their bodies?",
+      "answer": "Right to remain neutral",
+      "choices": [
+        "Right to be anonymous",
+        "Right to disconnect",
+        "Right to employ or involve people instead of machines",
+        "Right to remain neutral"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which right allows individuals to choose to be slower than technology and not make efficiency more important than humanity?",
+      "answer": "Right to be inefficient if and where it defines our basic humanities",
+      "choices": [
+        "Right to remain neutral",
+        "Right to disconnect",
+        "Right to employ or involve people instead of machines",
+        "Right to be inefficient if and where it defines our basic humanities"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which right ensures individuals can switch off connectivity, go dark on the network, and pause communication, tracking, and monitoring?",
+      "answer": "Right to disconnect",
+      "choices": [
+        "Right to remain neutral",
+        "Right to be anonymous",
+        "Right to employ or involve people instead of machines",
+        "Right to disconnect"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which right allows individuals to avoid being identified and tracked while using a digital application or platform when it doesn’t pose a risk or impose itself on others?",
+      "answer": "Right to be anonymous",
+      "choices": [
+        "Right to remain neutral",
+        "Right to disconnect",
+        "Right to be anonymous",
+        "Right to employ or involve people instead of machines"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which right ensures companies or employers are not disadvantaged if they choose to use people instead of machines, even if it is more expensive and less efficient?",
+      "answer": "Right to employ or involve people instead of machines",
+      "choices": [
+        "Right to remain neutral",
+        "Right to be inefficient if and where it defines our basic humanities",
+        "Right to employ or involve people instead of machines",
+        "Right to be anonymous"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is derived from the Unified Framework for Information Security Professionals?",
+      "answer": "Code of Ethics for Information Security Professionals",
+      "choices": [
+        "Cyber Ethics",
+        "Code of Ethics for Information Security Professionals",
+        "Right to be anonymous",
+        "Right to disconnect"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What core ethical value requires professionals to perform their duties under existing laws and exercise the highest moral principles?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Professional Competence and Due Care",
+        "Ethics Manifesto",
+        "Cyber Ethics"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What ethical value requires professionals to refrain from activities that would constitute a conflict of interest?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Professional Competence and Due Care",
+        "Right to remain neutral",
+        "Right to be anonymous"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which core ethical value requires professionals to act in the best interests of stakeholders consistent with the public interest?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Professional Competence and Due Care",
+        "Right to disconnect",
+        "Cyber Ethics"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to act honorably, justly, responsibly, and legally in every aspect of their profession?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Professional Competence and Due Care",
+        "Ethics Manifesto",
+        "Right to be anonymous"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to perform all duties in a fair manner and without prejudice?",
+      "answer": "Objectivity",
+      "choices": [
+        "Objectivity",
+        "Professional Competence and Due Care",
+        "Right to remain neutral",
+        "Right to disconnect"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to exercise independent professional judgment to provide unbiased analysis and advice?",
+      "answer": "Objectivity",
+      "choices": [
+        "Objectivity",
+        "Professional Competence and Due Care",
+        "Ethics Manifesto",
+        "Cyber Ethics"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What ethical value states that when an opinion is provided, it should be noted as opinion rather than fact?",
+      "answer": "Objectivity",
+      "choices": [
+        "Objectivity",
+        "Professional Competence and Due Care",
+        "Right to remain neutral",
+        "Right to be anonymous"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to perform services diligently and professionally?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Objectivity",
+        "Integrity",
+        "Right to be inefficient if and where it defines our basic humanities",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to act with diligence and promptness in rendering service?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Right to remain neutral",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What ethical value states that professionals should render only those services they are fully competent and qualified to perform?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Right to disconnect",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to ensure that their work meets the highest professional standards?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Right to be anonymous",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to support their colleagues and encourage their professional development?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Right to remain neutral",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to keep stakeholders informed regarding the progress of their work?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Ethics Manifesto",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which ethical value requires professionals to refrain from conduct that would damage the reputation of the profession, colleagues, clients, and employers?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Right to be anonymous",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    },
+    {
+      "question": "What ethical value requires professionals to report ethical violations to the appropriate governing body promptly?",
+      "answer": "Professional Competence and Due Care",
+      "choices": [
+        "Integrity",
+        "Objectivity",
+        "Ethics Manifesto",
+        "Professional Competence and Due Care"
+      ],
+      "reference": "Ethics and the Internet",
+      "term": "Midterms"
+    }
+  ]
+}

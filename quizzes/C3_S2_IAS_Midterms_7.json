@@ -1,0 +1,100 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Midterms",
+    "Title": "Cryptography",
+    "LastModified": "28 March 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What cipher shifts each letter in the plaintext by a certain number down the alphabet?",
+      "answer": "Caesar Cipher",
+      "choices": [
+        "Caesar Cipher",
+        "Transposition Techniques",
+        "Keyword Cipher",
+        "Polyalphabetic Ciphers"
+      ],
+      "reference": "Cryptography",
+      "term": "Midterms"
+    },
+    {
+      "question": "What cipher is named after a Roman general who used it to communicate with generals?",
+      "answer": "Caesar Cipher",
+      "choices": [
+        "Caesar Cipher",
+        "Giovanni's Method",
+        "Hashing",
+        "Crypto"
+      ],
+      "reference": "Cryptography",
+      "term": "Midterms"
+    },
+    {
+      "question": "What cipher begins by choosing a keyword and removing repeated letters?",
+      "answer": "Keyword Cipher",
+      "choices": [
+        "Keyword Cipher",
+        "Caesar Cipher",
+        "Giovanni's Method",
+        "Transposition Techniques"
+      ],
+      "reference": "Cryptography",
+      "term": "Midterms"
+    },
+    {
+      "question": "What cipher was described by a papal secretary of ciphers in 1580?",
+      "answer": "Giovanni's Method",
+      "choices": [
+        "Giovanni's Method",
+        "Caesar Cipher",
+        "Crypto",
+        "Keyword Cipher"
+      ],
+      "reference": "Cryptography",
+      "term": "Midterms"
+    },
+    {
+      "question": "What cipher uses a key letter such as 'P' to align the keyword with plaintext?",
+      "answer": "Giovanni's Method",
+      "choices": [
+        "Giovanni's Method",
+        "Symmetric key cryptography",
+        "Policy Makers",
+        "Crypto"
+      ],
+      "reference": "Cryptography",
+      "term": "Midterms"
+    },
+    {
+      "question": "What cipher performs permutation on plaintext letters instead of substitution?",
+      "answer": "Transposition Techniques",
+      "choices": [
+        "Transposition Techniques",
+        "Caesar Cipher",
+        "Keyword Cipher",
+        "Polyalphabetic Ciphers"
+      ],
+      "reference": "Cryptography",
+      "term": "Midterms"
+    },
+    {
+      "question": "What cipher improves on monoalphabetic ciphers by using different substitutions through the message?",
+      "answer": "Polyalphabetic Ciphers",
+      "choices": [
+        "Caesar Cipher",
+        "Polyalphabetic Ciphers",
+        "Hashing",
+        "Firewall Audit Checklist"
+      ],
+      "reference": "Cryptography",
+      "term": "Midterms"
+    }
+  ]
+}

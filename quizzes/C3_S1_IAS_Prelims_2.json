@@ -1,0 +1,484 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance & Security (Cybersecurity Fundamentals)",
+    "Term": "Prelims",
+    "Title": "Introduction to Risks, Threats, and Vulnerabilities || 01 Handout 1",
+    "LastModified": "18 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "Introduction to Risks, Threats, and Vulnerabilities || 01 Handout 1"
+    ]
+  },
+  "quizData":  [
+    {
+      "question": "In the anatomy of a cyberattack, what is the first step?",
+      "answer": "Reconnaissance",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "In the anatomy of a cyberattack, what is the second step?",
+      "answer": "Attack",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "In the anatomy of a cyberattack, what is the third step?",
+      "answer": "Expansion",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "In the anatomy of a cyberattack, what is the final step?",
+      "answer": "Obfuscation",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of a cyberattack involves researching and gathering information about the target?",
+      "answer": "Reconnaissance",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of a cyberattack involves infiltrating the organization's network?",
+      "answer": "Attack",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of a cyberattack involves intruding all systems on the network using malicious programs?",
+      "answer": "Expansion",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of a cyberattack involves hackers hiding their tracks to mask the origins of the attack?",
+      "answer": "Obfuscation",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many cybersecurity risks are listed that may impact organizations?",
+      "answer": "Seven",
+      "choices": [
+        "Four",
+        "Five",
+        "Six",
+        "Seven"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What has revolutionized the way organizations conduct business today, but also brought vulnerabilities due to its widespread use?",
+      "answer": "Technology",
+      "choices": [
+        "Globalization",
+        "Artificial Intelligence",
+        "Automation",
+        "Technology"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "From publishing to automotive, industries are facing new, evolving services and business models due to what?",
+      "answer": "Technology",
+      "choices": [
+        "Globalization",
+        "Regulation",
+        "Competition",
+        "Technology"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What two prevailing trends will heighten cyber risks dramatically?",
+      "answer": "Supply Chain",
+      "choices": [
+        "Economic",
+        "Globalization",
+        "Technological",
+        "Supply Chain"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Companies’ growing reliance on third-party and even fourth-party vendors and service providers presents attackers with new openings into what?",
+      "answer": "Supply Chain",
+      "choices": [
+        "Business Operations",
+        "Employee Networks",
+        "Internet of Things",
+        "Supply Chain"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What kind of devices are everywhere, with each one in a workplace now presenting a potential security risk?",
+      "answer": "Internet of Things",
+      "choices": [
+        "Mobile",
+        "Networked",
+        "Wireless",
+        "Internet of Things"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Many companies don’t securely manage or even inventory all devices of what type, already resulting in breaches?",
+      "answer": "Internet of Things",
+      "choices": [
+        "BYOD",
+        "Legacy",
+        "Networked",
+        "Internet of Things"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Connectivity to the Internet improves what dramatically, but increased connectivity also leads to new security vulnerabilities?",
+      "answer": "Business Operations",
+      "choices": [
+        "Employee Morale",
+        "Supply Chains",
+        "Regulatory Compliance",
+        "Business Operations"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "How does increased connectivity impact the attack surface, making it easier for attackers to move laterally across an entire network?",
+      "answer": "Business Operations",
+      "choices": [
+        "Employee Productivity",
+        "Supply Chain Efficiency",
+        "Regulatory Compliance",
+        "Business Operations"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who remains one of the most common causes of breaches, yet often doesn't realize the true threat they pose to an entire organization’s cybersecurity?",
+      "answer": "Employees",
+      "choices": [
+        "Hackers",
+        "Malicious Insiders",
+        "Longanisa Seller",
+        "Employees"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "As technology continues to impact every job function, what must organizations establish to mitigate insider risks?",
+      "answer": "Employees",
+      "choices": [
+        "Hackers",
+        "Longanisa Seller",
+        "Board of Directors",
+        "Employees"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is designed to protect and insulate businesses and their customers, but cannot be the sole focus in cybersecurity?",
+      "answer": "Regulatory",
+      "choices": [
+        "Employees",
+        "Board of Directors",
+        "Business Operations",
+        "Regulatory"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Firms must balance both new regulations and evolving cyber threats, which will require vigilance regarding what?",
+      "answer": "Regulatory",
+      "choices": [
+        "Employees",
+        "Board of Directors",
+        "Business Operations",
+        "Regulatory"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Whose oversight continues to be a point of emphasis, with recent history showing an expanding personal risk for directors and officers?",
+      "answer": "Board of Directors",
+      "choices": [
+        "Technological",
+        "Financial",
+        "Operational",
+        "Board of Directors"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who must expand their focus in cybersecurity and set a strong tone across the company, not only for actions taken after a cyber-incident but also for proactive preparation and planning?",
+      "answer": "Board of Directors",
+      "choices": [
+        "Employees",
+        "Management",
+        "Faculty",
+        "Board of Directors"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which type of malware specifically aims to extort money by blocking access to files or computer systems?",
+      "answer": "Ransomware",
+      "choices": [
+        "Spyware",
+        "Adware",
+        "Scareware",
+        "Ransomware"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Even after paying the ransom, what type of attack may still result in unrecovered files or systems?",
+      "answer": "Ransomware",
+      "choices": [
+        "Spyware",
+        "Adware",
+        "Scareware",
+        "Ransomware"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What general term refers to any software designed to gain unauthorized access or cause damage to a computer?",
+      "answer": "Malware",
+      "choices": [
+        "Firewall",
+        "Antivirus",
+        "Anti-malware",
+        "Malware"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What deceptive tactic tricks users into revealing sensitive information or making payments?",
+      "answer": "Social Engineering",
+      "choices": [
+        "Encryption",
+        "Data Loss Prevention",
+        "Vulnerability Scanning",
+        "Social Engineering"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of attack often involves clicking on links, downloading malware, or trusting a malicious source due to deception?",
+      "answer": "Social Engineering",
+      "choices": [
+        "Encryption",
+        "Data Loss Prevention",
+        "Vulnerability Scanning",
+        "Social Engineering"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What specific form of attack uses fraudulent emails that mimic reputable sources to steal sensitive data?",
+      "answer": "Phishing",
+      "choices": [
+        "Spamming",
+        "Spoofing",
+        "Pharming",
+        "Phishing"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the most prevalent type of cyberattack, often used to steal credit card numbers and login information?",
+      "answer": "Phishing",
+      "choices": [
+        "Spamming",
+        "Spoofing",
+        "Pharming",
+        "Phishing"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are used for encrypting malware to obscure and make the data difficult to detect?",
+      "answer": "Crypting Services",
+      "choices": [
+        "Antivirus Software",
+        "Firewalls",
+        "Intrusion Detection Systems",
+        "Crypting Services"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term defines as buying and selling of malware on the “Dark Web,” a black market for cyber criminals?",
+      "answer": "Crimeware",
+      "choices": [
+        "The Surface Web",
+        "The Deep Web",
+        "Cloud Storage Platforms",
+        "Crimeware"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of software is specifically designed to enable individuals with limited technical skills to commit cybercrimes?",
+      "answer": "Crimeware",
+      "choices": [
+        "Ransomware",
+        "Spyware",
+        "Adware",
+        "Crimeware"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What kind of malware allows hackers to remotely control an infected computer, steal data, or use its camera?",
+      "answer": "Remote Administration Tools",
+      "choices": [
+        "Rootkits",
+        "Trojan Horses",
+        "Worms",
+        "Remote Administration Tools"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What specific type of malware tracks keystrokes to capture confidential conversations and login credentials?",
+      "answer": "Keyloggers",
+      "choices": [
+        "Spyware",
+        "Adware",
+        "Trojan Horses",
+        "Keyloggers"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What works by targeting users who think they are visiting a trusted site but then get redirected to a malicious site?",
+      "answer": "Exploit Kits",
+      "choices": [
+        "Phishing Emails",
+        "Malicious Websites",
+        "Drive-by Downloads",
+        "Exploit Kits"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to stolen data like credit card numbers and login credentials that are often sold on the Dark Web?",
+      "answer": "Leaked Data",
+      "choices": [
+        "Encrypted Data",
+        "Anonymized Data",
+        "Protected Health Information",
+        "Leaked Data"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What devices are physically implanted in POS terminals, ATMs, or gas pumps to steal card data?",
+      "answer": "Card Skimmers",
+      "choices": [
+        "Keyloggers",
+        "Spyware",
+        "Trojan Horses",
+        "Card Skimmers"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What poses a significant security risk due to lack of security patches, often caused by outdated systems?",
+      "answer": "Unpatched Systems",
+      "choices": [
+        "Updated Systems",
+        "Legacy Systems",
+        "Networked Systems",
+        "Unpatched Systems"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "quizInfo": {
+    "Subject": "Information Management",
+    "Term": "Midterms",
+    "Title": "The Relational Database Model",
+    "LastModified": "13 June 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "Any external links/handouts should be referenced here"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Who introduced the relational model and when?",
+      "answer": "E.F. Codd in 1970",
+      "choices": [
+        "E.F. Codd in 1970",
+        "Edgar F. Codd in 1980",
+        "Peter Chen in 1976",
+        "James Martin in 1981"
+      ]
+    },
+    {
+      "question": "What mathematical theories is the relational model based on?",
+      "answer": "Predicate logic and set theory",
+      "choices": [
+        "Number theory and calculus",
+        "Graph theory and algebra",
+        "Predicate logic and set theory",
+        "Probability and statistics"
+      ]
+    },
+    {
+      "question": "What is predicate logic used for in the relational model?",
+      "answer": "To provide a framework in which an assertion can be verified as either true or false.",
+      "choices": [
+        "To manage data storage",
+        "To define data relationships",
+        "To provide a framework in which an assertion can be verified as either true or false.",
+        "To handle data transactions"
+      ]
+    },
+    {
+      "question": "What does set theory deal with?",
+      "answer": "Sets, or groups of things, and is used as the basis for data manipulation in the relational model.",
+      "choices": [
+        "Number sequences and patterns",
+        "Probability and outcomes",
+        "Sets, or groups of things, and is used as the basis for data manipulation in the relational model.",
+        "Graph structures and paths"
+      ]
+    },
+    {
+      "question": "How many components does the relational model have?",
+      "answer": "3",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a component of the relational model?",
+      "answer": "A physical storage structure",
+      "choices": [
+        "A logical data structure represented by relations",
+        "A set of integrity rules to enforce data consistency",
+        "A set of operations that defines how data is manipulated",
+        "A physical storage structure"
+      ]
+    },
+    {
+      "question": "What is a table in the relational model also known as?",
+      "answer": "Relation",
+      "choices": [
+        "Tuple",
+        "Attribute",
+        "Domain",
+        "Relation"
+      ]
+    },
+    {
+      "question": "What does a row in a table represent?",
+      "answer": "Data about an entity",
+      "choices": [
+        "Data about an entity",
+        "A data type",
+        "A key constraint",
+        "A set of operations"
+      ]
+    },
+    {
+      "question": "What is a column in a table referred to as?",
+      "answer": "Attribute",
+      "choices": [
+        "Tuple",
+        "Attribute",
+        "Domain",
+        "Intersection"
+      ]
+    },
+    {
+      "question": "What must all values in a column conform to?",
+      "answer": "The same data format",
+      "choices": [
+        "Different data formats",
+        "A unique key",
+        "The same data format",
+        "A foreign key"
+      ]
+    },
+    {
+      "question": "What is the specific range of values for a column known as?",
+      "answer": "Attribute domain",
+      "choices": [
+        "Column range",
+        "Data type",
+        "Attribute domain",
+        "Value set"
+      ]
+    },
+    {
+      "question": "What does the intersection of a row and column represent?",
+      "answer": "A single data value",
+      "choices": [
+        "A single data value",
+        "A unique key",
+        "A foreign key",
+        "A data type"
+      ]
+    },
+    {
+      "question": "What is an attribute or group of attributes that determines the values of other attributes?",
+      "answer": "Key",
+      "choices": [
+        "Tuple",
+        "Attribute",
+        "Key",
+        "Domain"
+      ]
+    },
+    {
+      "question": "What does the term 'functional dependence' mean?",
+      "answer": "The value of one or more attributes determines the value of one or more other attributes.",
+      "choices": [
+        "The process of normalizing data",
+        "The value of one or more attributes determines the value of one or more other attributes.",
+        "The ability to uniquely identify a row",
+        "The relationship between tables"
+      ]
+    },
+    {
+      "question": "What is a composite key?",
+      "answer": "A key that is composed of more than one attribute.",
+      "choices": [
+        "A key that consists of a single attribute",
+        "A key that is composed of more than one attribute.",
+        "A foreign key in another table",
+        "A secondary key used for indexing"
+      ]
+    },
+    {
+      "question": "Which key uniquely identifies any row in the table?",
+      "answer": "Superkey",
+      "choices": [
+        "Primary key",
+        "Foreign key",
+        "Superkey",
+        "Composite key"
+      ]
+    },
+    {
+      "question": "What is the primary key?",
+      "answer": "A candidate key selected to uniquely identify all other attribute values in any given row.",
+      "choices": [
+        "An attribute used for indexing",
+        "A superkey without any unnecessary attributes",
+        "A candidate key selected to uniquely identify all other attribute values in any given row.",
+        "A key used to relate two tables"
+      ]
+    },
+    {
+      "question": "What is a foreign key?",
+      "answer": "An attribute or combination of attributes in one table whose values must either match the primary key in another table or be null.",
+      "choices": [
+        "A key that uniquely identifies any row in the table",
+        "An attribute or combination of attributes in one table whose values must either match the primary key in another table or be null.",
+        "A candidate key selected to uniquely identify all other attribute values in any given row.",
+        "A key used strictly for data retrieval purposes"
+      ]
+    },
+    {
+      "question": "What is the purpose of the entity integrity rule?",
+      "answer": "To ensure that each row in a table has its own unique identity.",
+      "choices": [
+        "To ensure that each row in a table has its own unique identity.",
+        "To allow multiple null entries in a primary key",
+        "To allow duplicate primary key values",
+        "To ensure proper indexing of rows"
+      ]
+    },
+    {
+      "question": "What is referential integrity?",
+      "answer": "A condition in which every reference to an entity instance by another entity instance is valid.",
+      "choices": [
+        "A condition in which all primary keys are unique",
+        "A condition in which all data entries are non-null",
+        "A condition in which every reference to an entity instance by another entity instance is valid.",
+        "A condition in which all tables are normalized"
+      ]
+    },
+    {
+      "question": "Which integrity rule ensures that no invoice can have a duplicate number nor be null?",
+      "answer": "Entity integrity",
+      "choices": [
+        "Referential integrity",
+        "Domain integrity",
+        "Entity integrity",
+        "Relational integrity"
+      ]
+    },
+    {
+      "question": "Which key can contain null entries?",
+      "answer": "Foreign key",
+      "choices": [
+        "Primary key",
+        "Superkey",
+        "Candidate key",
+        "Foreign key"
+      ]
+    },
+    {
+      "question": "What is relational algebra?",
+      "answer": "A set of mathematical principles that form the basis for manipulating relational table contents.",
+      "choices": [
+        "A method for designing databases",
+        "A set of mathematical principles that form the basis for manipulating relational table contents.",
+        "A programming language for databases",
+        "A data retrieval language"
+      ]
+    },
+    {
+      "question": "What is the term for using relational algebra operators on existing relations to produce new relations?",
+      "answer": "Closure",
+      "choices": [
+        "Projection",
+        "Selection",
+        "Closure",
+        "Join"
+      ]
+    },
+    {
+      "question": "What is another term for the condition to be evaluated in relational algebra?",
+      "answer": "Predicate",
+      "choices": [
+        "Attribute",
+        "Tuple",
+        "Predicate",
+        "Key"
+      ]
+    },
+    {
+      "question": "What does the SELECT operator (σ) do in relational algebra?",
+      "answer": "Retrieves a subset of rows.",
+      "choices": [
+        "Retrieves a subset of columns.",
+        "Retrieves a subset of rows.",
+        "Merges two tables.",
+        "Retrieves possible pairs of rows."
+      ]
+    },
+    {
+      "question": "What is the symbol for the PROJECT operator in relational algebra?",
+      "answer": "π",
+      "choices": [
+        "σ",
+        "π",
+        "∪",
+        "⋈"
+      ]
+    },
+    {
+      "question": "What does the PROJECT operator (π) do in relational algebra?",
+      "answer": "Retrieves a subset of columns.",
+      "choices": [
+        "Retrieves a subset of rows.",
+        "Merges two tables.",
+        "Retrieves a subset of columns.",
+        "Retrieves rows based on criteria."
+      ]
+    },
+    {
+      "question": "What is the symbol for the UNION operator in relational algebra?",
+      "answer": "∪",
+      "choices": [
+        "π",
+        "σ",
+        "∩",
+        "∪"
+      ]
+    },
+    {
+      "question": "What does the UNION operator (∪) do?",
+      "answer": "Merges two union-compatible tables into a new table, dropping the duplicate rows.",
+      "choices": [
+        "Retrieves rows that are common to two tables.",
+        "Retrieves rows from one table not found in another table.",
+        "Merges two union-compatible tables into a new table, dropping the duplicate rows.",
+        "Retrieves possible pairs of rows from two tables."
+      ]
+    },
+    {
+      "question": "What is the INTERSECT operator (∩) used for?",
+      "answer": "Retrieves rows that are common to two union-compatible tables.",
+      "choices": [
+        "Retrieves rows that are common to two union-compatible tables.",
+        "Retrieves rows from one table not found in another table.",
+        "Merges two tables.",
+        "Retrieves possible pairs of rows from two tables."
+      ]
+    },
+    {
+      "question": "What does the DIFFERENCE operator (−) do?",
+      "answer": "Retrieves rows from one table that are not found in another union-compatible table.",
+      "choices": [
+        "Retrieves rows that are common to two tables.",
+        "Retrieves rows from one table that are not found in another union-compatible table.",
+        "Merges two tables.",
+        "Retrieves possible pairs of rows from two tables."
+      ]
+    },
+    {
+      "question": "What does the PRODUCT operator (×) do?",
+      "answer": "Retrieves possible pairs of rows from two tables (Cartesian product).",
+      "choices": [
+        "Merges two union-compatible tables.",
+        "Retrieves rows from one table that are not found in another table.",
+        "Retrieves rows that are common to two tables.",
+        "Retrieves possible pairs of rows from two tables (Cartesian product)."
+      ]
+    },
+    {
+      "question": "What is the symbol for the JOIN operator in relational algebra?",
+      "answer": "⋈",
+      "choices": [
+        "σ",
+        "π",
+        "×",
+        "⋈"
+      ]
+    },
+    {
+      "question": "What does the JOIN operator (⋈) do?",
+      "answer": "Retrieves rows from two tables based on criteria.",
+      "choices": [
+        "Merges two union-compatible tables.",
+        "Retrieves rows from two tables based on criteria.",
+        "Retrieves rows from one table not found in another table.",
+        "Retrieves possible pairs of rows from two tables."
+      ]
+    },
+    {
+      "question": "What does the DIVIDE operator (÷) do?",
+      "answer": "Retrieves values.",
+      "choices": [
+        "Merges two union-compatible tables.",
+        "Retrieves rows from two tables based on criteria.",
+        "Retrieves rows from one table not found in another table.",
+        "Retrieves values."
+      ]
+    }
+  ]
+}

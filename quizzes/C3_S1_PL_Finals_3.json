@@ -1,0 +1,928 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Finals",
+    "Title": "All Finals Quiz",
+    "LastModified": "03 June 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "07, 08 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is a named, self-contained block of code designed to execute a specific task?",
+      "answer": "subprogram",
+      "choices": [
+        "loop",
+        "condition",
+        "method",
+        "subprogram"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What allows programmers to group logically related operations and execute them whenever needed?",
+      "answer": "subprogram",
+      "choices": [
+        "variable",
+        "subprogram",
+        "condition",
+        "def"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What is declared in Python using the def keyword followed by a function name, parameter list, and block of statements?",
+      "answer": "subprogram",
+      "choices": [
+        "subprogram",
+        "parameter",
+        "call stack",
+        "activation record"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What supports the divide-and-conquer approach by decomposing a program into manageable units?",
+      "answer": "subprogram",
+      "choices": [
+        "static variables",
+        "parameter passing",
+        "call stack",
+        "subprogram"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What makes each subprogram handle a specific task so the code is easier to understand and maintain?",
+      "answer": "Code is easier to understand and maintain",
+      "choices": [
+        "Testing and debugging are more efficient",
+        "Code is easier to understand and maintain",
+        "Performance",
+        "Memory Management"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What avoids rewriting the same operation multiple times in a program?",
+      "answer": "Redundancy is reduced",
+      "choices": [
+        "Redundancy is reduced",
+        "call stack",
+        "recursion",
+        "Web Development"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What enables isolating subprograms and verifying them independently?",
+      "answer": "Testing and debugging are more efficient",
+      "choices": [
+        "Data Handling",
+        "Testing and debugging are more efficient",
+        "activation record",
+        "pass-by-result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What makes development smoother by allowing teams to work on different subprograms?",
+      "answer": "Collaboration becomes smoother",
+      "choices": [
+        "Collaboration becomes smoother",
+        "Memory Management",
+        "Game Development",
+        "Data Isolation"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What is a common use of subprograms for operations like square roots and evaluating expressions?",
+      "answer": "Mathematical Computation",
+      "choices": [
+        "Mathematical Computation",
+        "User Interface",
+        "Web Development",
+        "pass-by-result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What involves subprograms used for data validation, parsing, formatting, and transformation?",
+      "answer": "Data Handling",
+      "choices": [
+        "Recursion",
+        "Data Handling",
+        "pass-by-reference",
+        "Memory Management"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What area includes subprograms that handle button clicks and form submissions?",
+      "answer": "User Interface",
+      "choices": [
+        "User Interface",
+        "static variables",
+        "Game Development",
+        "parameter passing"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What uses backend functions to process requests and return responses?",
+      "answer": "Web Development",
+      "choices": [
+        "Web Development",
+        "Data Handling",
+        "Redundancy is reduced",
+        "Performance"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What exposes functionality like authentication or logging for external reuse?",
+      "answer": "Software Application Programming Interface",
+      "choices": [
+        "Web Development",
+        "pass-by-object-reference",
+        "Software Application Programming Interface",
+        "Testing and debugging are more efficient"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What area of development relies on subprograms for controlling score tracking or level progression?",
+      "answer": "Game Development",
+      "choices": [
+        "Game Development",
+        "Recursion",
+        "parameter passing",
+        "Memory Management"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What Python keyword is used to define or create a subprogram?",
+      "answer": "def",
+      "choices": [
+        "parameter",
+        "return",
+        "activation record",
+        "def"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What signifies the start of a function definition in Python?",
+      "answer": "def",
+      "choices": [
+        "call stack",
+        "def",
+        "static variables",
+        "pass-by-result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What determines how arguments are transmitted from the caller to the subprogram?",
+      "answer": "parameter passing",
+      "choices": [
+        "parameter passing",
+        "loop",
+        "activation record",
+        "pass-by-result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What Python mechanism is a mix of pass-by-value and pass-by-reference depending on mutability?",
+      "answer": "pass-by-object-reference",
+      "choices": [
+        "pass-by-reference",
+        "pass-by-object-reference",
+        "call stack",
+        "def"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What copies the value of the actual parameter and changes do not affect the original?",
+      "answer": "pass-by-value",
+      "choices": [
+        "pass-by-value",
+        "pass-by-result",
+        "static variables",
+        "activation record"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What passes a reference to the argument, so changes affect the original?",
+      "answer": "pass-by-reference",
+      "choices": [
+        "pass-by-reference",
+        "pass-by-value",
+        "recursion",
+        "parameter passing"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What acts like a placeholder to be filled and returned as a result?",
+      "answer": "pass-by-result",
+      "choices": [
+        "pass-by-value-result",
+        "pass-by-result",
+        "call stack",
+        "Redundancy is reduced"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What copies a value into the function, and result is copied out after execution?",
+      "answer": "pass-by-value-result",
+      "choices": [
+        "pass-by-result",
+        "pass-by-value-result",
+        "def",
+        "call stack"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What system-managed structure tracks active subprogram calls during execution?",
+      "answer": "call stack",
+      "choices": [
+        "pass-by-result",
+        "call stack",
+        "parameter passing",
+        "Web Development"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What is pushed onto the stack and includes parameters, local variables, and return address?",
+      "answer": "activation record",
+      "choices": [
+        "parameter",
+        "call stack",
+        "activation record",
+        "def"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What variables are allocated at runtime when the subprogram is called?",
+      "answer": "Static-Dynamic Variables",
+      "choices": [
+        "Static-Dynamic Variables",
+        "def",
+        "pass-by-result",
+        "activation record"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What process automatically deallocates local variables and prevents memory leaks?",
+      "answer": "Memory Management",
+      "choices": [
+        "parameter passing",
+        "Memory Management",
+        "collaboration becomes smoother",
+        "pass-by-value-result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What function type relies on the call stack to track each invocation's local state?",
+      "answer": "Recursion",
+      "choices": [
+        "Recursion",
+        "pass-by-reference",
+        "call stack",
+        "Web Development"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What ensures that variables in different calls donâ€™t interfere unless passed explicitly?",
+      "answer": "Data Isolation",
+      "choices": [
+        "static variables",
+        "Memory Management",
+        "parameter passing",
+        "Data Isolation"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What benefit of stack allocation improves speed due to LIFO structure?",
+      "answer": "Performance",
+      "choices": [
+        "Performance",
+        "Redundancy is reduced",
+        "Code is easier to understand and maintain",
+        "User Interface"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What kind of variable persists across all calls and retains its value?",
+      "answer": "static variables",
+      "choices": [
+        "Static-Dynamic Variables",
+        "activation record",
+        "static variables",
+        "Recursion"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is simulated with immutable types in Python?",
+      "answer": "Pass-by-Value",
+      "choices": [
+        "Pass-by-Reference",
+        "Pass-by-Value",
+        "Pass-by-Result",
+        "Pass-by-Value-Result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is simulated with mutable types in Python?",
+      "answer": "Pass-by-Reference",
+      "choices": [
+        "Pass-by-Reference",
+        "Pass-by-Value",
+        "Memory Management",
+        "Data Isolation"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is not directly supported in Python?",
+      "answer": "Pass-by-Result",
+      "choices": [
+        "Pass-by-Result",
+        "pass-by-object-reference",
+        "def",
+        "Recursion"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is not natively supported in Python but copies value in and result out?",
+      "answer": "Pass-by-Value-Result",
+      "choices": [
+        "Pass-by-Value-Result",
+        "Pass-by-Reference",
+        "Code is easier to understand and maintain",
+        "Redundancy is reduced"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method supports data protection and does not allow data mutation?",
+      "answer": "Pass-by-Value",
+      "choices": [
+        "Pass-by-Reference",
+        "Pass-by-Value",
+        "Pass-by-Result",
+        "Pass-by-Value-Result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method allows data mutation but does not support data protection?",
+      "answer": "Pass-by-Reference",
+      "choices": [
+        "Pass-by-Value",
+        "Pass-by-Result",
+        "Pass-by-Reference",
+        "def"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method supports data protection and allows mutation only for output?",
+      "answer": "Pass-by-Result",
+      "choices": [
+        "Pass-by-Reference",
+        "Pass-by-Result",
+        "Code is easier to understand and maintain",
+        "Recursion"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method initially supports data protection and allows reassigned mutation?",
+      "answer": "Pass-by-Value-Result",
+      "choices": [
+        "Memory Management",
+        "Pass-by-Result",
+        "Pass-by-Value-Result",
+        "parameter passing"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is typically used to protect original variables?",
+      "answer": "Pass-by-Value",
+      "choices": [
+        "Data Isolation",
+        "Pass-by-Value",
+        "pass-by-object-reference",
+        "activation record"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is commonly used to modify caller's data in place?",
+      "answer": "Pass-by-Reference",
+      "choices": [
+        "Redundancy is reduced",
+        "Pass-by-Reference",
+        "Collaboration becomes smoother",
+        "User Interface"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is used to return generated or computed results?",
+      "answer": "Pass-by-Result",
+      "choices": [
+        "Memory Management",
+        "Pass-by-Result",
+        "static variables",
+        "Web Development"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is used when controlled side-effects are needed?",
+      "answer": "Pass-by-Value-Result",
+      "choices": [
+        "Pass-by-Reference",
+        "Recursion",
+        "Pass-by-Value-Result",
+        "Game Development"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+     {
+      "question": "What determines the flow of execution of instructions in a program?",
+      "answer": "control structure",
+      "choices": [
+        "sequential structure",
+        "control structure",
+        "selection structure",
+        "iteration structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What allows programs to make decisions, perform repeated tasks, and respond dynamically to conditions?",
+      "answer": "control structure",
+      "choices": [
+        "sequential structure",
+        "control structure",
+        "selection structure",
+        "iteration structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "How many types of control structures mentioned in the handout?",
+      "answer": "four types",
+      "choices": [
+        "four types",
+        "five types",
+        "three types",
+        "decision types"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the simplest form of control where statements are executed in order?",
+      "answer": "sequential structure",
+      "choices": [
+        "sequential structure",
+        "jump structure",
+        "selection structure",
+        "iteration structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What is used when tasks must be performed in a fixed sequence with no deviation?",
+      "answer": "sequential structure",
+      "choices": [
+        "sequential structure",
+        "jump structure",
+        "selection structure",
+        "iteration structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What structure simulates a system startup where messages are displayed in order?",
+      "answer": "sequential structure",
+      "choices": [
+        "sequential structure",
+        "jump structure",
+        "selection structure",
+        "iteration structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What structure allows a program to choose between alternative paths of execution?",
+      "answer": "selection structure",
+      "choices": [
+        "sequential structure",
+        "jump structure",
+        "selection structure",
+        "iteration structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What structure is commonly applied in scenarios requiring branching logic?",
+      "answer": "selection structure",
+      "choices": [
+        "sequential structure",
+        "jump structure",
+        "selection structure",
+        "iteration structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What keyword begins a conditional block that runs if the condition is true?",
+      "answer": "if-else",
+      "choices": [
+        "if-else",
+        "if-elif-else",
+        "break",
+        "continue"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What keyword is used when the condition is false in a conditional block?",
+      "answer": "if-else",
+      "choices": [
+        "if-else",
+        "if-elif-else",
+        "break",
+        "continue"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What categorizes a grade into excellent, satisfactory, or needs improvement?",
+      "answer": "if-elif-else",
+      "choices": [
+        "if-else",
+        "if-elif-else",
+        "break",
+        "continue"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What keyword is short for \"else if\" and evaluates additional conditions?",
+      "answer": "if-elif-else",
+      "choices": [
+        "if-else",
+        "if-elif-else",
+        "break",
+        "continue"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What structure repeats a block of code as long as a condition is true?",
+      "answer": "iteration structure",
+      "choices": [
+        "iteration structure",
+        "selection structure",
+        "sequential structure",
+        "control structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What structure is used to traverse data, generate reports, or retry attempts?",
+      "answer": "iteration structure",
+      "choices": [
+        "iteration structure",
+        "selection structure",
+        "sequential structure",
+        "control structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What keyword begins a counting loop, like printing attempts?",
+      "answer": "for loop",
+      "choices": [
+        "break",
+        "for loop",
+        "while loop",
+        "if-else"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What keyword starts a loop that continues as long as a condition is true?",
+      "answer": "while loop",
+      "choices": [
+        "break",
+        "for loop",
+        "while loop",
+        "if-else"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What structure alters the flow explicitly using break, continue, or return?",
+      "answer": "jump structure",
+      "choices": [
+        "selection structure",
+        "looping",
+        "jump structure",
+        "selection structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What provides exceptional flow control, like exiting loops early?",
+      "answer": "jump structure",
+      "choices": [
+        "selection structure",
+        "looping",
+        "jump structure",
+        "selection structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What structure interrupts or redirects the normal flow using statements like break?",
+      "answer": "branching",
+      "choices": [
+        "decision-making",
+        "sequential structure",
+        "branching",
+        "looping"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What is used to exit a loop early when a specific condition is met?",
+      "answer": "break",
+      "choices": [
+        "continue",
+        "jump structure",
+        "for loop",
+        "break"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What keyword skips the current iteration and continues with the next one?",
+      "answer": "continue",
+      "choices": [
+        "continue",
+        "break",
+        "if-else",
+        "return"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the action of making choices based on conditions within a program?",
+      "answer": "decision-making",
+      "choices": [
+        "decision-making",
+        "sequential structure",
+        "branching",
+        "looping"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What refers to executing the same code multiple times while a condition is true?",
+      "answer": "looping",
+      "choices": [
+        "decision-making",
+        "sequential structure",
+        "branching",
+        "looping"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What control structure is used in a program that prints \"Initializing system...\" then \"System ready.\" in order?",
+      "answer": "sequential structure",
+      "choices": [
+        "iteration structure",
+        "sequential structure",
+        "branching",
+        "selection structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What control structure is used in the area calculator that multiplies length and width after getting inputs?",
+      "answer": "sequential structure",
+      "choices": [
+        "jump structure",
+        "sequential structure",
+        "decision-making",
+        "if-else"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What control structure checks if temperature > 37 before printing \"Fever detected\"?",
+      "answer": "selection structure",
+      "choices": [
+        "loop structure",
+        "iteration structure",
+        "selection structure",
+        "jump structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What specific structure is shown in the code using if temperature > 37 and else?",
+      "answer": "if-else",
+      "choices": [
+        "if-elif-else",
+        "if-else",
+        "break",
+        "continue"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What code structure prints “Excellent” when grade >= 90, “Satisfactory” if grade >= 75, and “Needs Improvement” otherwise?",
+      "answer": "if-elif-else",
+      "choices": [
+        "sequential structure",
+        "if-elif-else",
+        "while loop",
+        "continue"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What keyword is used in the grading system to evaluate a second condition if the first one fails?",
+      "answer": "elif",
+      "choices": [
+        "elif",
+        "return",
+        "break",
+        "if"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What loop is used in the password program that runs until the user types \"admin123\"?",
+      "answer": "while loop",
+      "choices": [
+        "for loop",
+        "while loop",
+        "break",
+        "return"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What structure is used when if i == 4: triggers break in a loop?",
+      "answer": "jump structure",
+      "choices": [
+        "selection structure",
+        "loop structure",
+        "sequential structure",
+        "jump structure"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What keyword is used in the loop that skips printing number 3 and continues the loop?",
+      "answer": "continue",
+      "choices": [
+        "break",
+        "continue",
+        "if-else",
+        "elif"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What keyword causes a loop to exit when the value of i becomes 4?",
+      "answer": "break",
+      "choices": [
+        "break",
+        "continue",
+        "if-else",
+        "for loop"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    },
+    {
+      "question": "What term refers to using \"for i in range(10):\" then using if i == 4: break?",
+      "answer": "branching",
+      "choices": [
+        "decision-making",
+        "sequential structure",
+        "branching",
+        "looping"
+      ],
+      "reference": "Control Structures",
+      "term": "Finals"
+    }
+  ]
+}

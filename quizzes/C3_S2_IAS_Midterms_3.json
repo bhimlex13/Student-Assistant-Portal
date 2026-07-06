@@ -1,0 +1,232 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Midterms",
+    "Title": "System / Application Domain",
+    "LastModified": "28 March 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "03 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which domain consists of all of a business’ mission-critical systems, apps, and data?",
+      "answer": "System / Application Domain",
+      "choices": [
+        "Unauthorized Logical Access",
+        "System / Application Domain",
+        "Software Vulnerabilities",
+        "Unauthorized Physical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain must be secured at all times to prevent loss of large amounts of sensitive information and productivity disruption?",
+      "answer": "System / Application Domain",
+      "choices": [
+        "Unauthorized Physical Access",
+        "System / Application Domain",
+        "Server Vulnerabilities",
+        "Unauthorized Logical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Commonly targeted systems and apps in which domain include OSes, email apps and servers, ERP apps and systems, and web browsers?",
+      "answer": "System / Application Domain",
+      "choices": [
+        "Unauthorized Logical Access",
+        "System / Application Domain",
+        "Software Vulnerabilities",
+        "Unauthorized Physical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Attacks on which domain are categorized into denial or destruction, alteration, and disclosure?",
+      "answer": "System / Application Domain",
+      "choices": [
+        "Unauthorized Physical Access",
+        "System / Application Domain",
+        "Data Loss",
+        "Unauthorized Logical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Gaining access to a physical entity or area without permission is known as what?",
+      "answer": "Unauthorized Physical Access",
+      "choices": [
+        "Unauthorized Physical Access",
+        "Server Vulnerabilities",
+        "Software Vulnerabilities",
+        "System / Application Domain"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of access allows a malicious individual to steal, alter, or destroy systems and data if gained?",
+      "answer": "Unauthorized Physical Access",
+      "choices": [
+        "Unauthorized Physical Access",
+        "Software Vulnerabilities",
+        "Data Loss",
+        "System / Application Domain"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type of unauthorized access is nearly identical to unauthorized physical access but is not limited to tangible data?",
+      "answer": "Unauthorized Logical Access",
+      "choices": [
+        "Unauthorized Logical Access",
+        "Software Vulnerabilities",
+        "Server Vulnerabilities",
+        "Data Loss"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type of access is especially dangerous because it can be carried out by a staff member or an experienced attacker?",
+      "answer": "Unauthorized Logical Access",
+      "choices": [
+        "Unauthorized Logical Access",
+        "Software Vulnerabilities",
+        "Server Vulnerabilities",
+        "System / Application Domain"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of attack could result from unauthorized logical access, causing a denial of service (DoS) on important business systems?",
+      "answer": "Unauthorized Logical Access",
+      "choices": [
+        "Unauthorized Logical Access",
+        "Software Vulnerabilities",
+        "Server Vulnerabilities",
+        "Data Loss"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a flaw in a software component or system that allows an attacker to gain access through an exploit?",
+      "answer": "Software Vulnerabilities",
+      "choices": [
+        "Server Vulnerabilities",
+        "Unauthorized Logical Access",
+        "Data Loss",
+        "Software Vulnerabilities"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of vulnerability can be exploited through malware executed on a system by a user or directly by an attacker?",
+      "answer": "Software Vulnerabilities",
+      "choices": [
+        "Server Vulnerabilities",
+        "Unauthorized Physical Access",
+        "Data Loss",
+        "Software Vulnerabilities"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which vulnerabilities can occur in any software running on a system, including the OS itself?",
+      "answer": "Software Vulnerabilities",
+      "choices": [
+        "Server Vulnerabilities",
+        "Unauthorized Physical Access",
+        "Unauthorized Logical Access",
+        "Software Vulnerabilities"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What vulnerabilities are similar to software vulnerabilities but can be even more damaging when present on servers?",
+      "answer": "Server Vulnerabilities",
+      "choices": [
+        "Software Vulnerabilities",
+        "Server Vulnerabilities",
+        "Unauthorized Physical Access",
+        "Data Loss"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Vulnerabilities in what systems can exist in the software used to provide services like FTP, SSH, and PHP?",
+      "answer": "Server Vulnerabilities",
+      "choices": [
+        "Software Vulnerabilities",
+        "Server Vulnerabilities",
+        "Data Loss",
+        "Unauthorized Logical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Vulnerabilities in what type of system can be found in both the software it uses to provide services and in its OS?",
+      "answer": "Server Vulnerabilities",
+      "choices": [
+        "Software Vulnerabilities",
+        "Server Vulnerabilities",
+        "Unauthorized Physical Access",
+        "System / Application Domain"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can occur during storage, transmission, or processing and is considered the greatest risk to system / application domains?",
+      "answer": "Data Loss",
+      "choices": [
+        "Unauthorized Logical Access",
+        "Data Loss",
+        "Server Vulnerabilities",
+        "Unauthorized Physical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is considered the greatest risk because the goal of system / application domains is to allow users to create, store, retrieve, and manipulate data?",
+      "answer": "Data Loss",
+      "choices": [
+        "Software Vulnerabilities",
+        "Data Loss",
+        "Server Vulnerabilities",
+        "Unauthorized Logical Access"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the most common preventative measure against data loss?",
+      "answer": "Backups of all data",
+      "choices": [
+        "Firewalls",
+        "Backups of all data",
+        "Access control lists",
+        "Antivirus software"
+      ],
+      "reference": "System / Application Domain",
+      "term": "Midterms"
+    }
+  ]
+}

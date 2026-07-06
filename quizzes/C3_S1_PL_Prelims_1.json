@@ -1,0 +1,700 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Prelims",
+    "Title": "01 Handout 1 -- Milestones in Programming Languages",
+    "LastModified": "20 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is a formal notation system or instructions for writing computer programs and other software applications?",
+      "answer": "programming languages",
+      "choices": [
+        "data structures",
+        "algorithms",
+        "operating systems",
+        "programming languages"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who invented the first machine algorithm, leading to the idea of programming languages?",
+      "answer": "Ada Lovelace",
+      "choices": [
+        "Konrad Zuse",
+        "Kathleen Booth",
+        "Alick Glennie Marilag",
+        "Ada Lovelace"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was invented in 1843 by Ada Lovelace?",
+      "answer": "Machine Language",
+      "choices": [
+        "Plankalkül",
+        "Fortran",
+        "LISP",
+        "Machine Language"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was the first high-level computer programming language ever developed by a German scientist, Konrad Zuse?",
+      "answer": "Plankalkül",
+      "choices": [
+        "Machine Language",
+        "BASIC",
+        "COBOL",
+        "Plankalkül"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language included mathematical expressions, showing the current relationships between program variables, and the ability to store codes that enabled engineers to carry out routine, repetitive tasks more efficiently and quickly?",
+      "answer": "Plankalkül",
+      "choices": [
+        "Machine Language",
+        "BASIC",
+        "COBOL",
+        "Plankalkül"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was developed by Kathleen Booth to simplify machine code for writing instructions for processors?",
+      "answer": "Assembly Language",
+      "choices": [
+        "Objective-C",
+        "Machine Language",
+        "BASIC",
+        "Assembly Language"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was implemented by William Schmitt to improve the operations of the BINAC and UNIVAC computers?",
+      "answer": "Shortcode",
+      "choices": [
+        "Autocode",
+        "Fortran",
+        "Plankalkül",
+        "Shortcode"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term did Alick Glennie coin to refer to a set of programming languages developed for the Mark 1 computer?",
+      "answer": "Autocode",
+      "choices": [
+        "Fortran",
+        "Shortcode",
+        "Assembly Language",
+        "Autocode"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language was created by John Backus to shorten the process of programming and make computer programming more accessible?",
+      "answer": "Fortran",
+      "choices": [
+        "ALGOL",
+        "LISP",
+        "Machine Language",
+        "Fortran"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language is still used today in supercomputers and for scientific and mathematical computations?",
+      "answer": "Fortran",
+      "choices": [
+        "Autocode",
+        "Shortcode",
+        "LISP",
+        "Fortran"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was created by American and European computer scientists and became the origin point for other languages like Pascal, Java, C, and C++?",
+      "answer": "ALGOL",
+      "choices": [
+        "LISP",
+        "BASIC",
+        "C",
+        "ALGOL"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language did John McCarthy create for his artificial intelligence (AI) applications?",
+      "answer": "LISP",
+      "choices": [
+        "ALGOL",
+        "Fortran",
+        "Plankalkül",
+        "LISP"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is one of the oldest computer programming languages still used today by AI companies like Boeing and Genworks?",
+      "answer": "LISP",
+      "choices": [
+        "ALGOL",
+        "Fortran",
+        "Plankalkül",
+        "LISP"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What does COBOL stand for?",
+      "answer": "Common Business Oriented Language",
+      "choices": [
+        "Common Of Beef Overload",
+        "Cool Old Basic Language",
+        "Common Business Oriented Language",
+        "Common Basic Oriented Language"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was developed and designed by Dr. Grace Murray Hopper for business computer programs?",
+      "answer": "COBOL",
+      "choices": [
+        "ALGOL",
+        "SQL",
+        "Pascal",
+        "COBOL"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was estimated to be in use by over 100 million people and is still widely used in today's banking systems?",
+      "answer": "COBOL",
+      "choices": [
+        "ALGOL",
+        "SQL",
+        "C++",
+        "COBOL"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was created as a computer programming language for beginners by Dartmouth College students?",
+      "answer": "BASIC",
+      "choices": [
+        "ALGOL",
+        "SQL",
+        "C++",
+        "BASIC"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What does BASIC stand for?",
+      "answer": "Beginner's All Purpose Symbolic Instruction Code",
+      "choices": [
+        "Beginner's All Purpose Syrup In Cream",
+        "Baffling And Slightly Incomprehensible Code",
+        "Baby's All-purpose Symbolic Instruction Code",
+        "Beginner's All Purpose Symbolic Instruction Code"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, further developed by Bill Gates and Paul Allen, became Microsoft's first commercially successful product?",
+      "answer": "BASIC",
+      "choices": [
+        "ALGOL",
+        "Fortran",
+        "Plankalkül",
+        "BASIC"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was developed by Niklaus Wirth and named after the famed mathematician Blaise Pascal?",
+      "answer": "Pascal",
+      "choices": [
+        "C",
+        "SQL",
+        "Python",
+        "Pascal"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was endorsed by Apple due to its streamlined and straightforward process?",
+      "answer": "Pascal",
+      "choices": [
+        "Swift",
+        "Fortran",
+        "Plankalkül",
+        "Pascal"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, developed by Dennis Ritchie at Bell Telephone Laboratories as a successor to the B language, is named after its predecessor?",
+      "answer": "C",
+      "choices": [
+        "C++",
+        "Objective-C",
+        "Plankalkül",
+        "C"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language is recommended for creating embedded system drivers and applications, and serves as the basis for languages like C#, Java, JavaScript, Perl, PHP, and Python?",
+      "answer": "C",
+      "choices": [
+        "C++",
+        "Objective-C",
+        "Plankalkül",
+        "C"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language was developed by Raymond Boyce and Donald Chamberlain and was first called SEQUEL?",
+      "answer": "SQL",
+      "choices": [
+        "C++",
+        "Java",
+        "PHP",
+        "SQL"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language is used for modifying, viewing, and altering information in databases?",
+      "answer": "SQL",
+      "choices": [
+        "C++",
+        "Java",
+        "PHP",
+        "SQL"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, an extension of C, was developed by Bjarne Stroustrup and incorporates features like templates, classes, and virtual functions?",
+      "answer": "C++",
+      "choices": [
+        "C++",
+        "Objective-C",
+        "Plankalkül",
+        "C"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, created by Brad Cox and Tom Love, is the primary language used for developing applications for Apple's iOS, macOS, and iPadOS operating systems?",
+      "answer": "Objective-C",
+      "choices": [
+        "C++",
+        "Objective-C",
+        "Plankalkül",
+        "C"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What general-purpose, high-level programming language was created by Guido van Rossum as a support language for software developers, build control and management, testing, and various other tasks?",
+      "answer": "Python",
+      "choices": [
+        "Visual Basic",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, created by Microsoft, allows users to drag and drop sections of code simultaneously?",
+      "answer": "Visual Basic",
+      "choices": [
+        "Visual Basic",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, known for its user-friendly interface and allowing users to easily modify code through features like drop-down menus, was developed by Microsoft?",
+      "answer": "Visual Basic",
+      "choices": [
+        "Visual Basic",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language was created by James Gosling for a software project involving interactive television?",
+      "answer": "Java",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language is considered one of the world's most famous and popular languages for coding web applications?",
+      "answer": "Java",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What multiplatform, object-oriented, and network-centric programming language can also be used as a platform?",
+      "answer": "Java",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What scripting language, created by Brendan Eich, is primarily used in websites?",
+      "answer": "JavaScript",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What programming language, in addition to its primary use in web development, is also employed for enhancing PDF documents and creating desktop widgets?",
+      "answer": "JavaScript",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What scripting language, developed by Rasmus Lerdorf, is commonly used for server-side web development?",
+      "answer": "PHP",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "What language, used by sites like Facebook and WordPress, was originally called Personal Home Page but is now known as Hypertext Preprocessor?",
+      "answer": "PHP",
+      "choices": [
+        "PHP",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When did Ada Lovelace invent the first machine algorithm?",
+      "answer": 1843,
+      "choices": [
+        "1940s",
+        1949,
+        1952,
+        1843
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Plankalkül developed by Konrad Zuse?",
+      "answer": "1940s",
+      "choices": [
+        "1940s",
+        1949,
+        1952,
+        1843
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When did Kathleen Booth write the first assembly language?",
+      "answer": 1949,
+      "choices": [
+        1952,
+        1991,
+        1949,
+        1959
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Shortcode implemented by William Schmitt?",
+      "answer": 1949,
+      "choices": [
+        1957,
+        1959,
+        1952,
+        1949
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Autocode coined by Alick Glennie?",
+      "answer": 1952,
+      "choices": [
+        1957,
+        1949,
+        1958,
+        1952
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Fortran created by John Backus?",
+      "answer": 1957,
+      "choices": [
+        1958,
+        "1940s",
+        1970,
+        1957
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was ALGOL created by American and European computer scientists?",
+      "answer": 1958,
+      "choices": [
+        1959,
+        1957,
+        1843,
+        1958
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was LISP created by John McCarthy?",
+      "answer": 1958,
+      "choices": [
+        1959,
+        1957,
+        1843,
+        1958
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was COBOL created by Dr. Grace Murray Hopper?",
+      "answer": 1959,
+      "choices": [
+        1959,
+        1957,
+        1843,
+        1958
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was BASIC created as a computer programming language for beginners?",
+      "answer": 1964,
+      "choices": [
+        1959,
+        1957,
+        1843,
+        1964
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Pascal developed by Niklaus Wirth?",
+      "answer": 1970,
+      "choices": [
+        1957,
+        1995,
+        1991,
+        1970
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was the C language developed by Dennis Ritchie?",
+      "answer": 1972,
+      "choices": [
+        1957,
+        1995,
+        1991,
+        1972
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was the SQL developed by Raymond Boyce and Donald Chamberlain?",
+      "answer": 1972,
+      "choices": [
+        1957,
+        1995,
+        1991,
+        1972
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was C++ released by Bjarne Stroustrup?",
+      "answer": 1983,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Objective-C created by Brad Cox and Tom Love?",
+      "answer": 1983,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Python created by Guido Van Rossum?",
+      "answer": 1991,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Visual Basic created by Microsoft?",
+      "answer": 1991,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was Java developed by James Gosling?",
+      "answer": 1995,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was JavaScript developed by Brendan Eich?",
+      "answer": 1995,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    },
+    {
+      "question": "When was PHP developed by Rasmus Lerdorf?",
+      "answer": 1995,
+      "choices": [
+        1991,
+        1995,
+        1970,
+        1983
+      ],
+      "reference": "Milestones in Programming Langues",
+      "term": "Prelims"
+    }
+  ]
+}

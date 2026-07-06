@@ -1,0 +1,520 @@
+{
+  "quizInfo": {
+    "Subject": "Programming Languages",
+    "Term": "Finals",
+    "Title": "08 Handout 1 - Subprograms",
+    "LastModified": "03 June 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "08 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is a named, self-contained block of code designed to execute a specific task?",
+      "answer": "subprogram",
+      "choices": [
+        "loop",
+        "condition",
+        "method",
+        "subprogram"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What allows programmers to group logically related operations and execute them whenever needed?",
+      "answer": "subprogram",
+      "choices": [
+        "variable",
+        "subprogram",
+        "condition",
+        "def"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What is declared in Python using the def keyword followed by a function name, parameter list, and block of statements?",
+      "answer": "subprogram",
+      "choices": [
+        "subprogram",
+        "parameter",
+        "call stack",
+        "activation record"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What supports the divide-and-conquer approach by decomposing a program into manageable units?",
+      "answer": "subprogram",
+      "choices": [
+        "static variables",
+        "parameter passing",
+        "call stack",
+        "subprogram"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What makes each subprogram handle a specific task so the code is easier to understand and maintain?",
+      "answer": "Code is easier to understand and maintain",
+      "choices": [
+        "Testing and debugging are more efficient",
+        "Code is easier to understand and maintain",
+        "Performance",
+        "Memory Management"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What avoids rewriting the same operation multiple times in a program?",
+      "answer": "Redundancy is reduced",
+      "choices": [
+        "Redundancy is reduced",
+        "call stack",
+        "recursion",
+        "Web Development"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What enables isolating subprograms and verifying them independently?",
+      "answer": "Testing and debugging are more efficient",
+      "choices": [
+        "Data Handling",
+        "Testing and debugging are more efficient",
+        "activation record",
+        "pass-by-result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What makes development smoother by allowing teams to work on different subprograms?",
+      "answer": "Collaboration becomes smoother",
+      "choices": [
+        "Collaboration becomes smoother",
+        "Memory Management",
+        "Game Development",
+        "Data Isolation"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What is a common use of subprograms for operations like square roots and evaluating expressions?",
+      "answer": "Mathematical Computation",
+      "choices": [
+        "Mathematical Computation",
+        "User Interface",
+        "Web Development",
+        "pass-by-result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What involves subprograms used for data validation, parsing, formatting, and transformation?",
+      "answer": "Data Handling",
+      "choices": [
+        "Recursion",
+        "Data Handling",
+        "pass-by-reference",
+        "Memory Management"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What area includes subprograms that handle button clicks and form submissions?",
+      "answer": "User Interface",
+      "choices": [
+        "User Interface",
+        "static variables",
+        "Game Development",
+        "parameter passing"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What uses backend functions to process requests and return responses?",
+      "answer": "Web Development",
+      "choices": [
+        "Web Development",
+        "Data Handling",
+        "Redundancy is reduced",
+        "Performance"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What exposes functionality like authentication or logging for external reuse?",
+      "answer": "Software Application Programming Interface",
+      "choices": [
+        "Web Development",
+        "pass-by-object-reference",
+        "Software Application Programming Interface",
+        "Testing and debugging are more efficient"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What area of development relies on subprograms for controlling score tracking or level progression?",
+      "answer": "Game Development",
+      "choices": [
+        "Game Development",
+        "Recursion",
+        "parameter passing",
+        "Memory Management"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What Python keyword is used to define or create a subprogram?",
+      "answer": "def",
+      "choices": [
+        "parameter",
+        "return",
+        "activation record",
+        "def"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What signifies the start of a function definition in Python?",
+      "answer": "def",
+      "choices": [
+        "call stack",
+        "def",
+        "static variables",
+        "pass-by-result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What determines how arguments are transmitted from the caller to the subprogram?",
+      "answer": "parameter passing",
+      "choices": [
+        "parameter passing",
+        "loop",
+        "activation record",
+        "pass-by-result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What Python mechanism is a mix of pass-by-value and pass-by-reference depending on mutability?",
+      "answer": "pass-by-object-reference",
+      "choices": [
+        "pass-by-reference",
+        "pass-by-object-reference",
+        "call stack",
+        "def"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What copies the value of the actual parameter and changes do not affect the original?",
+      "answer": "pass-by-value",
+      "choices": [
+        "pass-by-value",
+        "pass-by-result",
+        "static variables",
+        "activation record"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What passes a reference to the argument, so changes affect the original?",
+      "answer": "pass-by-reference",
+      "choices": [
+        "pass-by-reference",
+        "pass-by-value",
+        "recursion",
+        "parameter passing"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What acts like a placeholder to be filled and returned as a result?",
+      "answer": "pass-by-result",
+      "choices": [
+        "pass-by-value-result",
+        "pass-by-result",
+        "call stack",
+        "Redundancy is reduced"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What copies a value into the function, and result is copied out after execution?",
+      "answer": "pass-by-value-result",
+      "choices": [
+        "pass-by-result",
+        "pass-by-value-result",
+        "def",
+        "call stack"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What system-managed structure tracks active subprogram calls during execution?",
+      "answer": "call stack",
+      "choices": [
+        "pass-by-result",
+        "call stack",
+        "parameter passing",
+        "Web Development"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What is pushed onto the stack and includes parameters, local variables, and return address?",
+      "answer": "activation record",
+      "choices": [
+        "parameter",
+        "call stack",
+        "activation record",
+        "def"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What variables are allocated at runtime when the subprogram is called?",
+      "answer": "Static-Dynamic Variables",
+      "choices": [
+        "Static-Dynamic Variables",
+        "def",
+        "pass-by-result",
+        "activation record"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What process automatically deallocates local variables and prevents memory leaks?",
+      "answer": "Memory Management",
+      "choices": [
+        "parameter passing",
+        "Memory Management",
+        "collaboration becomes smoother",
+        "pass-by-value-result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What function type relies on the call stack to track each invocation's local state?",
+      "answer": "Recursion",
+      "choices": [
+        "Recursion",
+        "pass-by-reference",
+        "call stack",
+        "Web Development"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What ensures that variables in different calls donâ€™t interfere unless passed explicitly?",
+      "answer": "Data Isolation",
+      "choices": [
+        "static variables",
+        "Memory Management",
+        "parameter passing",
+        "Data Isolation"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What benefit of stack allocation improves speed due to LIFO structure?",
+      "answer": "Performance",
+      "choices": [
+        "Performance",
+        "Redundancy is reduced",
+        "Code is easier to understand and maintain",
+        "User Interface"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What kind of variable persists across all calls and retains its value?",
+      "answer": "static variables",
+      "choices": [
+        "Static-Dynamic Variables",
+        "activation record",
+        "static variables",
+        "Recursion"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is simulated with immutable types in Python?",
+      "answer": "Pass-by-Value",
+      "choices": [
+        "Pass-by-Reference",
+        "Pass-by-Value",
+        "Pass-by-Result",
+        "Pass-by-Value-Result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is simulated with mutable types in Python?",
+      "answer": "Pass-by-Reference",
+      "choices": [
+        "Pass-by-Reference",
+        "Pass-by-Value",
+        "Memory Management",
+        "Data Isolation"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is not directly supported in Python?",
+      "answer": "Pass-by-Result",
+      "choices": [
+        "Pass-by-Result",
+        "pass-by-object-reference",
+        "def",
+        "Recursion"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is not natively supported in Python but copies value in and result out?",
+      "answer": "Pass-by-Value-Result",
+      "choices": [
+        "Pass-by-Value-Result",
+        "Pass-by-Reference",
+        "Code is easier to understand and maintain",
+        "Redundancy is reduced"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method supports data protection and does not allow data mutation?",
+      "answer": "Pass-by-Value",
+      "choices": [
+        "Pass-by-Reference",
+        "Pass-by-Value",
+        "Pass-by-Result",
+        "Pass-by-Value-Result"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method allows data mutation but does not support data protection?",
+      "answer": "Pass-by-Reference",
+      "choices": [
+        "Pass-by-Value",
+        "Pass-by-Result",
+        "Pass-by-Reference",
+        "def"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method supports data protection and allows mutation only for output?",
+      "answer": "Pass-by-Result",
+      "choices": [
+        "Pass-by-Reference",
+        "Pass-by-Result",
+        "Code is easier to understand and maintain",
+        "Recursion"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method initially supports data protection and allows reassigned mutation?",
+      "answer": "Pass-by-Value-Result",
+      "choices": [
+        "Memory Management",
+        "Pass-by-Result",
+        "Pass-by-Value-Result",
+        "parameter passing"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is typically used to protect original variables?",
+      "answer": "Pass-by-Value",
+      "choices": [
+        "Data Isolation",
+        "Pass-by-Value",
+        "pass-by-object-reference",
+        "activation record"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is commonly used to modify caller's data in place?",
+      "answer": "Pass-by-Reference",
+      "choices": [
+        "Redundancy is reduced",
+        "Pass-by-Reference",
+        "Collaboration becomes smoother",
+        "User Interface"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is used to return generated or computed results?",
+      "answer": "Pass-by-Result",
+      "choices": [
+        "Memory Management",
+        "Pass-by-Result",
+        "static variables",
+        "Web Development"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    },
+    {
+      "question": "What method is used when controlled side-effects are needed?",
+      "answer": "Pass-by-Value-Result",
+      "choices": [
+        "Pass-by-Reference",
+        "Recursion",
+        "Pass-by-Value-Result",
+        "Game Development"
+      ],
+      "reference": "Subprograms",
+      "term": "Finals"
+    }
+  ]
+}

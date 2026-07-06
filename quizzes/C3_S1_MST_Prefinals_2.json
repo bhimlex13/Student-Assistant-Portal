@@ -1,0 +1,208 @@
+{
+  "quizInfo": {
+    "Subject": "Mobile Systems and Technologies",
+    "Term": "Prefinals",
+    "Title": "06 Handout 1 - App Design",
+    "LastModified": "08 May 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "06 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is a graphic that can be drawn to the screen in an Android app?",
+      "answer": "drawable",
+      "choices": [
+        "layout",
+        "resource",
+        "drawable",
+        "textView"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is used for adding rich images to an app with minimal performance impact?",
+      "answer": "drawable class",
+      "choices": [
+        "view group",
+        "drawable class",
+        "imageView",
+        "bitmap manager"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a modern image format developed by Google for lossless and lossy compression?",
+      "answer": "WebP",
+      "choices": [
+        "WebP",
+        "PNG",
+        "GIF",
+        "BMP"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the image format referred to as PNG?",
+      "answer": "Portable Network Graphics",
+      "choices": [
+        "WebP",
+        "Portable Network Graphics",
+        "JPG",
+        "Graphic Interface"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the full name of the JPG format?",
+      "answer": "Joint Photographic Experts Group",
+      "choices": [
+        "Portable Network Group",
+        "Joint Photographic Experts Group",
+        "PNG",
+        "Google Raster Format"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does the acronym GIF stand for in image formats?",
+      "answer": "Graphics Interchange Format",
+      "choices": [
+        "Graphics Image Format",
+        "Graphics Interchange Format",
+        "Joint Interlace Format",
+        "General Image Feed"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the image format described as BMP?",
+      "answer": "Bitmap",
+      "choices": [
+        "WebP",
+        "PNG",
+        "Bitmap",
+        "Raster Format"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What folder path must the image file be saved in to use with ImageView?",
+      "answer": "app/src/main/res/drawable",
+      "choices": [
+        "app/res/images",
+        "src/res/layout",
+        "app/src/main/res/drawable",
+        "src/images/drawable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What element is used in XML to display a drawable resource on screen?",
+      "answer": "ImageView",
+      "choices": [
+        "Layout",
+        "DrawableView",
+        "ImageView",
+        "AssetViewer"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What class is used in Java to create an image view programmatically?",
+      "answer": "ImageView",
+      "choices": [
+        "Bitmap",
+        "ImageButton",
+        "ImageView",
+        "TextView"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What defines the look and format of a view or an entire app?",
+      "answer": "theme",
+      "choices": [
+        "style",
+        "format",
+        "layout",
+        "theme"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What can override the original text color or text size of a component?",
+      "answer": "theme",
+      "choices": [
+        "widget",
+        "margin",
+        "style",
+        "theme"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a collection of attributes that can be used as a theme or style?",
+      "answer": "theme",
+      "choices": [
+        "value set",
+        "item collection",
+        "theme",
+        "drawable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What must be declared inside an <application> element in the manifest to apply app-wide styling?",
+      "answer": "android:theme=\"@style/AppTheme\"",
+      "choices": [
+        "android:id",
+        "android:background",
+        "android:theme=\"@style/AppTheme\"",
+        "android:font"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What attribute is used to apply a theme inside an <activity> tag in the manifest?",
+      "answer": "<activity android:theme=\"@android:style/Theme.Dialog\">",
+      "choices": [
+        "<layout theme>",
+        "<style id>",
+        "<activity android:theme=\"@android:style/Theme.Dialog\">",
+        "<screen layout>"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What theme sample uses parent=\"Theme.AppCompat.Light.DarkActionBar\" and colorPrimary attributes?",
+      "answer": "AppTheme",
+      "choices": [
+        "AppTheme",
+        "BlueFont",
+        "DrawableTheme",
+        "DialogTheme"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    }
+  ]
+}

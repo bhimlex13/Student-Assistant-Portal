@@ -1,0 +1,268 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance & Security (Cybersecurity Fundamentals)",
+    "Term": "Prelims",
+    "Title": "02 Handout 1 -- IT Security Framework and Security Architecture",
+    "LastModified": "19 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "02 Handout 1"
+    ]
+  },
+  "quizData":  [
+    {
+      "question": "What is a federal agency within the United States Department of Commerce?",
+      "answer": "National Institute of Standards and Technology (NIST)",
+      "choices": [
+        "ISO/IEC 27000 family",
+        "Payment Card Industry Data Security Standard (PCI DSS)",
+        "Security architecture",
+        "National Institute of Standards and Technology (NIST)"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "It's mission is to develop and promote measurement, standards, and technology to enhance productivity, facilitate trade, and improve the quality of life and also establishes IT standards and guidelines for federal agencies?",
+      "answer": "National Institute of Standards and Technology (NIST)",
+      "choices": [
+        "ISO/IEC 27000 family",
+        "Payment Card Industry Data Security Standard (PCI DSS)",
+        "Security architecture",
+        "National Institute of Standards and Technology (NIST)"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was developed by the International Organization for Standardization?",
+      "answer": "ISO/IEC 27000 family",
+      "choices": [
+        "National Institute of Standards and Technology (NIST)",
+        "Payment Card Industry Data Security Standard (PCI DSS)",
+        "Security architecture",
+        "ISO/IEC 27000 family"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What can any type or size of organization benefit from?",
+      "answer": "ISO/IEC 27000 family",
+      "choices": [
+        "National Institute of Standards and Technology (NIST)",
+        "Payment Card Industry Data Security Standard (PCI DSS)",
+        "Security architecture",
+        "ISO/IEC 27000 family"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a systematic approach to managing sensitive information securely?",
+      "answer": "ISO 27000",
+      "choices": [
+        "National Institute of Standards and Technology (NIST)",
+        "ISO/IEC 27000 family",
+        "Payment Card Industry Data Security Standard (PCI DSS)",
+        "ISO 27000"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What includes managing risk for people, processes, and IT systems?",
+      "answer": "ISO 27000",
+      "choices": [
+        "National Institute of Standards and Technology (NIST)",
+        "ISO/IEC 27000 family",
+        "Payment Card Industry Data Security Standard (PCI DSS)",
+        "ISO 27000"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is divided into different sub-standards?",
+      "answer": "ISO 27000",
+      "choices": [
+        "National Institute of Standards and Technology (NIST)",
+        "ISO 27000",
+        "Payment Card Industry Data Security Standard (PCI DSS)",
+        "ISO/IEC 27000 family"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What includes a six-part approach?",
+      "answer": "ISO 27000",
+      "choices": [
+        "National Institute of Standards and Technology (NIST)",
+        "ISO/IEC 27000 family",
+        "Payment Card Industry Data Security Standard (PCI DSS)",
+        "ISO 27000"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is also known as the Information Security Management System [ISMS]?",
+      "answer": "ISO 27000",
+      "choices": [
+        "National Institute of Standards and Technology (NIST)",
+        "ISO/IEC 27000 family",
+        "Payment Card Industry Data Security Standard (PCI DSS)",
+        "ISO 27000"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What was initiated to ensure businesses process card payments were secure and to help reduce card fraud?",
+      "answer": "Payment Card Industry Data Security Standard (PCI DSS)",
+      "choices": [
+        "National Institute of Standards and Technology (NIST)",
+        "ISO/IEC 27000 family",
+        "ISO 27000",
+        "Payment Card Industry Data Security Standard (PCI DSS)"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a unified security design that addresses the necessities and potential risks involved in a particular scenario or environment?",
+      "answer": "Security architecture",
+      "choices": [
+        "National Institute of Standards and Technology (NIST)",
+        "ISO/IEC 27000 family",
+        "ISO 27000",
+        "Security architecture"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What signifies the relationship between the various components inside IT architecture and how they depend on each other?",
+      "answer": "Relationships and Dependencies",
+      "choices": [
+        "Benefits",
+        "Form",
+        "Drivers",
+        "Relationships and Dependencies"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is security architecture's main advantage?",
+      "answer": "Standardization",
+      "choices": [
+        "Standardization",
+        "Form",
+        "Drivers",
+        "Benefits"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is cost-effective due to the re-use of controls described in the architecture?",
+      "answer": "Benefits",
+      "choices": [
+        "Standardization",
+        "Form",
+        "Drivers",
+        "Benefits"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is associated with IT architecture?",
+      "answer": "Form",
+      "choices": [
+        "Benefits",
+        "Form",
+        "Drivers",
+        "Relationships and Dependencies"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What includes a catalog of conventional controls in addition to relationship diagrams and principles?",
+      "answer": "Form",
+      "choices": [
+        "Benefits",
+        "Form",
+        "Drivers",
+        "Relationships and Dependencies"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are security controls determined based on?",
+      "answer": "Drivers",
+      "choices": [
+        "Benefits",
+        "Form",
+        "Drivers",
+        "Relationships and Dependencies"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What evaluates the business influence of vital business assets and the odds and effects of vulnerabilities and security threats?",
+      "answer": "Architecture Risk Assessment",
+      "choices": [
+        "Security Architecture and Design",
+        "Implementation",
+        "Operations and Monitoring",
+        "Architecture Risk Assessment"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the design and architecture of security services, which facilitate business risk exposure objectives?",
+      "answer": "Security Architecture and Design",
+      "choices": [
+        "Security Architecture and Design",
+        "Implementation",
+        "Operations and Monitoring",
+        "Architecture Risk Assessment"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are security services and processes implemented, operated and controlled?",
+      "answer": "Implementation",
+      "choices": [
+        "Security Architecture and Design",
+        "Implementation",
+        "Operations and Monitoring",
+        "Architecture Risk Assessment"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the day by day processes, such as threat and vulnerability management and threat management?",
+      "answer": "Operations and Monitoring",
+      "choices": [
+        "Security Architecture and Design",
+        "Implementation",
+        "Operations and Monitoring",
+        "Architecture Risk Assessment"
+      ],
+      "reference": "IT Security Framework and Security Architecture",
+      "term": "Prelims"
+    }
+  ]
+}

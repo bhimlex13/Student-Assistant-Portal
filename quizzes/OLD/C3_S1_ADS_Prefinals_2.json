@@ -1,0 +1,412 @@
+{
+  "quizInfo": {
+    "Subject": "Advanced Database Systems",
+    "Term": "Prefinals",
+    "Title": "Database Backup and Recovery",
+    "LastModified": "15 December 2024",
+    "Authors": [
+      "Alexander"
+    ],
+    "References": [
+      "06 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What type of backup includes physical files such as data files, control files, and archived redo logs?",
+      "answer": "Physical backups",
+      "choices": [
+        "Logical backups",
+        "Differential backups",
+        "Physical backups",
+        "Incremental backups"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of backup stores logical data, such as tables or stored procedures?",
+      "answer": "Logical backups",
+      "choices": [
+        "Physical backups",
+        "Logical backups",
+        "Differential backups",
+        "Cloud-based backups"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which file does the DBMS use to keep track of all transactions that update the database?",
+      "answer": "Transaction log",
+      "choices": [
+        "Log file",
+        "Checkpoint file",
+        "Transaction log",
+        "Archive log"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What mechanism removes previous logs from the system and declares a consistent state point?",
+      "answer": "Checkpoint",
+      "choices": [
+        "Log flush",
+        "Recovery state",
+        "Checkpoint",
+        "Backup marker"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What backup measure involves automatic backup and recovery of the database or portions of it?",
+      "answer": "Automatic tools",
+      "choices": [
+        "Transaction log tools",
+        "Automatic tools",
+        "Differential backup tools",
+        "Deferred recovery methods"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What ensures backups are clearly identified with detailed descriptions and date information?",
+      "answer": "Backup identification",
+      "choices": [
+        "Multiple backup copies",
+        "Convenient storage",
+        "Backup identification",
+        "Physical storage details"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which backup medium is most commonly used today alongside disk-based devices?",
+      "answer": "Cloud-based storage",
+      "choices": [
+        "Physical backups",
+        "Tape-based backups",
+        "Cloud-based storage",
+        "Incremental backups"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What should include air conditioning, backup power, and fire protection for protecting hardware and software?",
+      "answer": "Physical protection",
+      "choices": [
+        "Logical protection",
+        "Onsite safety measures",
+        "Physical protection",
+        "Offsite storage protocols"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What technique allows transaction logs to update the database only after a commit point is reached?",
+      "answer": "Deferred update",
+      "choices": [
+        "Immediate update",
+        "Deferred update",
+        "Rollback operation",
+        "Write-through methods"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recovery technique immediately updates the database during transaction execution?",
+      "answer": "Immediate update",
+      "choices": [
+        "Deferred update",
+        "Immediate update",
+        "Checkpoint",
+        "Transaction replay"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What common event can compromise database integrity by causing a system crash during transaction execution?",
+      "answer": "Inconsistent state",
+      "choices": [
+        "System halt",
+        "Database crash",
+        "Inconsistent state",
+        "Log overflow"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "If a database is extensively damaged, what must be restored first for recovery?",
+      "answer": "Last backup copy",
+      "choices": [
+        "Latest checkpoint",
+        "Last backup copy",
+        "Immediate update log",
+        "Deferred transaction data"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "When does a rollback operation use the \"before\" values in the transaction log?",
+      "answer": "Write-through",
+      "choices": [
+        "Transaction recovery",
+        "Deferred update",
+        "Write-through",
+        "Inconsistent state"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What kind of recovery ensures transactions are undone or redone to return the database to a consistent state?",
+      "answer": "Database recovery",
+      "choices": [
+        "Log replay",
+        "Transaction update",
+        "Database recovery",
+        "Write rollback recovery"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What kind of events include deleting the wrong rows or pressing the wrong key during database operations?",
+      "answer": "Unintentional failure",
+      "choices": [
+        "Human error",
+        "Data inconsistency",
+        "Unintentional failure",
+        "Security breaches"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What serious intentional incidents include security threats by hackers?",
+      "answer": "Intentional events",
+      "choices": [
+        "Accidental deletions",
+        "Human error",
+        "Intentional events",
+        "Database conflicts"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What type of backup is most vulnerable when all copies are stored in the same physical location?",
+      "answer": "Multiple backups",
+      "choices": [
+        "Incremental backups",
+        "Logical backups",
+        "Multiple backups",
+        "Differential backups"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What recovery method involves both undoing inconsistencies and redoing transactions that were partially executed?",
+      "answer": "Database recovery",
+      "choices": [
+        "Consistent state recovery",
+        "Backup recovery",
+        "Database recovery",
+        "Recovery rollback"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What tool uses transaction logs to recover a database to a consistent state forward after a failure?",
+      "answer": "Transaction log",
+      "choices": [
+        "Consistency pointer",
+        "Transaction log",
+        "Database snapshot",
+        "Rollback operations"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does a DBMS use to declare the database state consistent before specific transactions were committed?",
+      "answer": "Checkpoint",
+      "choices": [
+        "Write-through point",
+        "Consistency log",
+        "Checkpoint",
+        "State backup"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What event results in complete database restoration from the last backup and committed logs?",
+      "answer": "Extensive damage",
+      "choices": [
+        "Unintentional failure",
+        "Extensive damage",
+        "Checkpoint loss",
+        "Recovery rollback"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the purpose of storing backups both inside and outside the organization?",
+      "answer": "Convenient storage",
+      "choices": [
+        "Logical backup policy",
+        "Convenient storage",
+        "Data integrity checks",
+        "Automatic recovery measures"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What failure type includes bad capacitors, disk errors, or memory bank failures?",
+      "answer": "Hardware failures",
+      "choices": [
+        "Hardware failures",
+        "Logical errors",
+        "Storage errors",
+        "Transaction inconsistencies"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the correct response to a logical failure that results in database inconsistency but no physical damage?",
+      "answer": "Undo and redo",
+      "choices": [
+        "Full recovery",
+        "Undo and redo",
+        "Incremental restore",
+        "Deferred update"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What kind of events are categorized as updates performed successfully or undone after a crash?",
+      "answer": "Recovery requirement",
+      "choices": [
+        "Data inconsistency",
+        "Recovery requirement",
+        "Log-based checkpoint",
+        "Write-back operation"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What kind of backup updates the database immediately with each transaction but requires a rollback for failures?",
+      "answer": "Immediate update",
+      "choices": [
+        "Deferred transaction",
+        "Data syncing",
+        "Immediate update",
+        "Synchronous update"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Which step stores log updates but prevents physical database updates until a transaction commit point?",
+      "answer": "Deferred update",
+      "choices": [
+        "Consistent rollback",
+        "Transaction deferment",
+        "Deferred update",
+        "Immediate write operations"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What must be prepared to prevent data loss in emergencies such as hurricanes?",
+      "answer": "Backup computer",
+      "choices": [
+        "Multiple onsite backups",
+        "Logical backup plan",
+        "Backup computer",
+        "Primary DBMS replication"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What must the DBA do if a database's log file becomes too large to handle due to real-time logging?",
+      "answer": "Perform a checkpoint",
+      "choices": [
+        "Rollback updates",
+        "Restore backups",
+        "Perform a checkpoint",
+        "Clear the backup copy"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What should the DBA check when scheduling regular database backups?",
+      "answer": "Update frequency",
+      "choices": [
+        "Update timing",
+        "Physical data amount",
+        "Update frequency",
+        "Transaction rollback logs"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What describes the security incidents caused by disgruntled employees introducing viruses?",
+      "answer": "Intentional events",
+      "choices": [
+        "Hardware failures",
+        "Virus rollback",
+        "Intentional events",
+        "Transaction mismatches"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What physical storage must be handled for permanent log file storage during checkpoints?",
+      "answer": "Storage disk",
+      "choices": [
+        "Cloud-based storage",
+        "Write-through log",
+        "Storage disk",
+        "Backup tape archives"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What method updates the database with committed transaction data in a deferred-write approach?",
+      "answer": "Committed transactions",
+      "choices": [
+        "Logical backups",
+        "Committed transactions",
+        "Incremental transactions",
+        "Write-through policies"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    }
+  ]
+}

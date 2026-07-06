@@ -1,0 +1,1072 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance & Security (Cybersecurity Fundamentals)",
+    "Term": "Prelims",
+    "Title": "01 Handout 1 (ALL TOPICS)",
+    "LastModified": "18 February 2025",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "01 Handout 1"
+    ]
+  },
+  "quizData":  [
+    {
+      "question": "What is the practice of protecting systems, networks, and programs from digital attacks?",
+      "answer": "cybersecurity",
+      "choices": [
+        "network security",
+        "computer security",
+        "information security",
+        "cybersecurity"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes?",
+      "answer": "cybersecurity",
+      "choices": [
+        "malware",
+        "phishing",
+        "social engineering",
+        "cybersecurity"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "A successful cybersecurity approach has what kind of protection spread across the computers?",
+      "answer": "has multiple layers of protection spread across the computers",
+      "choices": [
+        "has a single layer of protection spread across the computers",
+        "has a single layer of protection spread across the network",
+        "has a firewall made of cheese",
+        "has multiple layers of protection spread across the computers"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "In an organization, what must all complement one another to create an effective defense from cyber attacks?",
+      "answer": "people, processes, and technology",
+      "choices": [
+        "people, processes, and infrastructure",
+        "hardware, software, and network",
+        "applications, data, and users",
+        "people, processes, and technology"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is one of the tasks of cybersecurity professionals?",
+      "answer": "Utilizing every type of medium to stay on top of technology and security threats",
+      "choices": [
+        "Attending conferences and workshops",
+        "Sagapin ang world",
+        "Conducting vulnerability assessments",
+        "Utilizing every type of medium to stay on top of technology and security threats"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is one of the tasks of cybersecurity professionals?",
+      "answer": "Being aware through analyzing and evaluating threats",
+      "choices": [
+        "Implementing security measures",
+        "Monitoring network traffic",
+        "Hackin ang wifi nyo",
+        "Being aware through analyzing and evaluating threats"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is one of the tasks of cybersecurity professionals?",
+      "answer": "Going through all the systems to check for any potential issue",
+      "choices": [
+        "Conducting penetration testing",
+        "To reach Mythical Glory",
+        "Developing security policies",
+        "Going through all the systems to check for any potential issue"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is one of the tasks of cybersecurity professionals?",
+      "answer": "Putting proper security measures in place and establishing a protocol",
+      "choices": [
+        "Training employees on security awareness",
+        "Stealing memes",
+        "Responding to security incidents",
+        "Putting proper security measures in place and establishing a protocol"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is one of the tasks of cybersecurity professionals?",
+      "answer": "Creating reports for shareholders",
+      "choices": [
+        "Creating reports for employees",
+        "Creating reports for customers",
+        "Creating reports for management",
+        "Creating reports for shareholders"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which is one of the tasks of cybersecurity professionals?",
+      "answer": "Spreading the word about security and its importance throughout the company",
+      "choices": [
+        "Implementing security training programs",
+        "Conducting security audits",
+        "Enforcing security policies",
+        "Spreading the word about security and its importance throughout the company"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who is responsible for maintaining the security of a company's computer system?",
+      "answer": "Security Architect",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who must think like a hacker would to anticipate their moves and tactics?",
+      "answer": "Security Architect",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who sometimes has to work odd hours and must constantly stay updated on the latest developments in security and hacking?",
+      "answer": "Security Architect",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "IT experts feel that the best of which profession are former hackers since they are adept at understanding how the hackers operate?",
+      "answer": "Security Architect",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who works as an advisor and supervisor for all security measures necessary to protect a company's assets?",
+      "answer": "Security Consultant",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who uses their knowledge to assess possible security threats and breaches for prevention?",
+      "answer": "Security Consultant",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who creates contingency protocols and plans for when security violations occur?",
+      "answer": "Security Consultant",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who is an information security expert who systematically attempts to penetrate systems to find vulnerabilities?",
+      "answer": "Ethical Hacker",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who is also referred to as a white hat hacker?",
+      "answer": "Ethical Hacker",
+      "choices": [
+        "Ethical Kiro",
+        "Security Elmer",
+        "Ethical Hacker",
+        "Chief JC"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who is responsible for an organization's information and data security?",
+      "answer": "Chief Information Security Officer (CISO)",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "Whose job is it to learn what day-to-day responsibilities will fall under its umbrella, such as security operations, data loss, program management, and access management?",
+      "answer": "Chief Information Security Officer (CISO)",
+      "choices": [
+        "Security Architect",
+        "Security Consultant",
+        "Ethical Hacker",
+        "Chief Information Security Officer (CISO)"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many common cybersecurity career paths are outlined in the handout?",
+      "answer": "Four",
+      "choices": [
+        "Two",
+        "Three",
+        "Five",
+        "Four"
+      ],
+      "reference": "Cybersecurity Professionals and Their Tasks",
+      "term": "Prelims"
+    },
+    {
+      "question": "In the anatomy of a cyberattack, what is the first step?",
+      "answer": "Reconnaissance",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "In the anatomy of a cyberattack, what is the second step?",
+      "answer": "Attack",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "In the anatomy of a cyberattack, what is the third step?",
+      "answer": "Expansion",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "In the anatomy of a cyberattack, what is the final step?",
+      "answer": "Obfuscation",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of a cyberattack involves researching and gathering information about the target?",
+      "answer": "Reconnaissance",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of a cyberattack involves infiltrating the organization's network?",
+      "answer": "Attack",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of a cyberattack involves intruding all systems on the network using malicious programs?",
+      "answer": "Expansion",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage of a cyberattack involves hackers hiding their tracks to mask the origins of the attack?",
+      "answer": "Obfuscation",
+      "choices": [
+        "Attack",
+        "Expansion",
+        "Obfuscation",
+        "Reconnaissance"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "How many cybersecurity risks are listed that may impact organizations?",
+      "answer": "Seven",
+      "choices": [
+        "Four",
+        "Five",
+        "Six",
+        "Seven"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What has revolutionized the way organizations conduct business today, but also brought vulnerabilities due to its widespread use?",
+      "answer": "Technology",
+      "choices": [
+        "Globalization",
+        "Artificial Intelligence",
+        "Automation",
+        "Technology"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "From publishing to automotive, industries are facing new, evolving services and business models due to what?",
+      "answer": "Technology",
+      "choices": [
+        "Globalization",
+        "Regulation",
+        "Competition",
+        "Technology"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What two prevailing trends will heighten cyber risks dramatically?",
+      "answer": "Supply Chain",
+      "choices": [
+        "Economic",
+        "Globalization",
+        "Technological",
+        "Supply Chain"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Companies’ growing reliance on third-party and even fourth-party vendors and service providers presents attackers with new openings into what?",
+      "answer": "Supply Chain",
+      "choices": [
+        "Business Operations",
+        "Employee Networks",
+        "Internet of Things",
+        "Supply Chain"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What kind of devices are everywhere, with each one in a workplace now presenting a potential security risk?",
+      "answer": "Internet of Things",
+      "choices": [
+        "Mobile",
+        "Networked",
+        "Wireless",
+        "Internet of Things"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Many companies don’t securely manage or even inventory all devices of what type, already resulting in breaches?",
+      "answer": "Internet of Things",
+      "choices": [
+        "BYOD",
+        "Legacy",
+        "Networked",
+        "Internet of Things"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Connectivity to the Internet improves what dramatically, but increased connectivity also leads to new security vulnerabilities?",
+      "answer": "Business Operations",
+      "choices": [
+        "Employee Morale",
+        "Supply Chains",
+        "Regulatory Compliance",
+        "Business Operations"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "How does increased connectivity impact the attack surface, making it easier for attackers to move laterally across an entire network?",
+      "answer": "Business Operations",
+      "choices": [
+        "Employee Productivity",
+        "Supply Chain Efficiency",
+        "Regulatory Compliance",
+        "Business Operations"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who remains one of the most common causes of breaches, yet often doesn't realize the true threat they pose to an entire organization’s cybersecurity?",
+      "answer": "Employees",
+      "choices": [
+        "Hackers",
+        "Malicious Insiders",
+        "Longanisa Seller",
+        "Employees"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "As technology continues to impact every job function, what must organizations establish to mitigate insider risks?",
+      "answer": "Employees",
+      "choices": [
+        "Hackers",
+        "Longanisa Seller",
+        "Board of Directors",
+        "Employees"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is designed to protect and insulate businesses and their customers, but cannot be the sole focus in cybersecurity?",
+      "answer": "Regulatory",
+      "choices": [
+        "Employees",
+        "Board of Directors",
+        "Business Operations",
+        "Regulatory"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Firms must balance both new regulations and evolving cyber threats, which will require vigilance regarding what?",
+      "answer": "Regulatory",
+      "choices": [
+        "Employees",
+        "Board of Directors",
+        "Business Operations",
+        "Regulatory"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Whose oversight continues to be a point of emphasis, with recent history showing an expanding personal risk for directors and officers?",
+      "answer": "Board of Directors",
+      "choices": [
+        "Technological",
+        "Financial",
+        "Operational",
+        "Board of Directors"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Who must expand their focus in cybersecurity and set a strong tone across the company, not only for actions taken after a cyber-incident but also for proactive preparation and planning?",
+      "answer": "Board of Directors",
+      "choices": [
+        "Employees",
+        "Management",
+        "Faculty",
+        "Board of Directors"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which type of malware specifically aims to extort money by blocking access to files or computer systems?",
+      "answer": "Ransomware",
+      "choices": [
+        "Spyware",
+        "Adware",
+        "Scareware",
+        "Ransomware"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "Even after paying the ransom, what type of attack may still result in unrecovered files or systems?",
+      "answer": "Ransomware",
+      "choices": [
+        "Spyware",
+        "Adware",
+        "Scareware",
+        "Ransomware"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What general term refers to any software designed to gain unauthorized access or cause damage to a computer?",
+      "answer": "Malware",
+      "choices": [
+        "Firewall",
+        "Antivirus",
+        "Anti-malware",
+        "Malware"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What deceptive tactic tricks users into revealing sensitive information or making payments?",
+      "answer": "Social Engineering",
+      "choices": [
+        "Encryption",
+        "Data Loss Prevention",
+        "Vulnerability Scanning",
+        "Social Engineering"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of attack often involves clicking on links, downloading malware, or trusting a malicious source due to deception?",
+      "answer": "Social Engineering",
+      "choices": [
+        "Encryption",
+        "Data Loss Prevention",
+        "Vulnerability Scanning",
+        "Social Engineering"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What specific form of attack uses fraudulent emails that mimic reputable sources to steal sensitive data?",
+      "answer": "Phishing",
+      "choices": [
+        "Spamming",
+        "Spoofing",
+        "Pharming",
+        "Phishing"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the most prevalent type of cyberattack, often used to steal credit card numbers and login information?",
+      "answer": "Phishing",
+      "choices": [
+        "Spamming",
+        "Spoofing",
+        "Pharming",
+        "Phishing"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are used for encrypting malware to obscure and make the data difficult to detect?",
+      "answer": "Crypting Services",
+      "choices": [
+        "Antivirus Software",
+        "Firewalls",
+        "Intrusion Detection Systems",
+        "Crypting Services"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term defines as buying and selling of malware on the “Dark Web,” a black market for cyber criminals?",
+      "answer": "Crimeware",
+      "choices": [
+        "The Surface Web",
+        "The Deep Web",
+        "Cloud Storage Platforms",
+        "Crimeware"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What type of software is specifically designed to enable individuals with limited technical skills to commit cybercrimes?",
+      "answer": "Crimeware",
+      "choices": [
+        "Ransomware",
+        "Spyware",
+        "Adware",
+        "Crimeware"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What kind of malware allows hackers to remotely control an infected computer, steal data, or use its camera?",
+      "answer": "Remote Administration Tools",
+      "choices": [
+        "Rootkits",
+        "Trojan Horses",
+        "Worms",
+        "Remote Administration Tools"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What specific type of malware tracks keystrokes to capture confidential conversations and login credentials?",
+      "answer": "Keyloggers",
+      "choices": [
+        "Spyware",
+        "Adware",
+        "Trojan Horses",
+        "Keyloggers"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What works by targeting users who think they are visiting a trusted site but then get redirected to a malicious site?",
+      "answer": "Exploit Kits",
+      "choices": [
+        "Phishing Emails",
+        "Malicious Websites",
+        "Drive-by Downloads",
+        "Exploit Kits"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What term refers to stolen data like credit card numbers and login credentials that are often sold on the Dark Web?",
+      "answer": "Leaked Data",
+      "choices": [
+        "Encrypted Data",
+        "Anonymized Data",
+        "Protected Health Information",
+        "Leaked Data"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What devices are physically implanted in POS terminals, ATMs, or gas pumps to steal card data?",
+      "answer": "Card Skimmers",
+      "choices": [
+        "Keyloggers",
+        "Spyware",
+        "Trojan Horses",
+        "Card Skimmers"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What poses a significant security risk due to lack of security patches, often caused by outdated systems?",
+      "answer": "Unpatched Systems",
+      "choices": [
+        "Updated Systems",
+        "Legacy Systems",
+        "Networked Systems",
+        "Unpatched Systems"
+      ],
+      "reference": "Introduction to Risks, Threats, and Vulnerabilities",
+      "term": "Prelims"
+    },
+    {
+      "question": "What ensures that sensitive information is accessed only by an authorized person and kept away from those not authorized to possess them?",
+      "answer": "Confidentiality",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is implemented using security mechanisms such as usernames, passwords, access control lists, and encryption?",
+      "answer": "Confidentiality",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is also common for information to be categorized according to the extent of damage that could be done should it fall into unintended hands?",
+      "answer": "Confidentiality",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What ensures that information is true and correct to its original purposes?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What principle ensures the receiver gets the information the creator intended?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What principle restricts modification of information to authorized persons only?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What principle aims to keep information in its original state when at rest?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is implemented using security mechanisms like data encryption and hashing?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What might be compromised by non-human-caused events like an electromagnetic pulse?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is important to have in place to ensure data integrity in case of server crashes?",
+      "answer": "Integrity",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What ensures that information and resources are available to those who need them?",
+      "answer": "Availability",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is implemented using methods like hardware maintenance and software patching?",
+      "answer": "Availability",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is implemented using methods like network optimization?",
+      "answer": "Availability",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What processes are used to mitigate consequences when hardware issues occur?",
+      "answer": "Availability",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What can be used to guard against downtime and unreachable data due to DDoS attacks?",
+      "answer": "Availability",
+      "choices": [
+        "Integrity",
+        "Availability",
+        "Security",
+        "Confidentiality"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What establishes a framework for classifying data based on its sensitivity, value, and criticalness?",
+      "answer": "Data Classification Standards",
+      "choices": [
+        "Data Encryption Methods",
+        "Access Control Lists",
+        "Data Retention Policies",
+        "Data Classification Standards"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the first step in the data management life cycle that involves understanding the nature, classification, and location of data?",
+      "answer": "Understanding",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Understanding"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which phase in the data management life cycle involves activities like collecting data, experimenting, and observing?",
+      "answer": "Creating",
+      "choices": [
+        "Archiving",
+        "Destroying",
+        "Understanding",
+        "Creating"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage includes activities such as designing research, locating existing data, and capturing metadata?",
+      "answer": "Storing",
+      "choices": [
+        "Using",
+        "Sharing",
+        "Archiving",
+        "Storing"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which phase involves activities like entering, digitizing, and transcribing data?",
+      "answer": "Using",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Sharing",
+        "Using"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "In what stage would you perform data anonymization, if necessary?",
+      "answer": "Using",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Sharing",
+        "Using"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage encompasses activities like distributing, sharing, and promoting data?",
+      "answer": "Sharing",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Sharing"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which stage includes establishing copyright and controlling access to data?",
+      "answer": "Sharing",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Sharing"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage involves migrating data to the best format and suitable medium?",
+      "answer": "Archiving",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Archiving"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which stage includes backing up and storing data for long-term preservation?",
+      "answer": "Archiving",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Archiving"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the final stage of the data lifecycle that involves disposing of data securely?",
+      "answer": "Destroying",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Destroying"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    },
+    {
+      "question": "What stage involves activities like electronic shredding and destroying paper records?",
+      "answer": "Destroying",
+      "choices": [
+        "Creating",
+        "Storing",
+        "Using",
+        "Destroying"
+      ],
+      "reference": "The CIA Triad and Data Classification Standards",
+      "term": "Prelims"
+    }
+  ]
+}

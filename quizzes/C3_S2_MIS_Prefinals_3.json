@@ -1,0 +1,292 @@
+{
+  "quizInfo": {
+    "Subject": "Management Information Systems",
+    "Term": "Prefinals",
+    "Title": "Tactical and Strategic Human Resource Information Systems",
+    "LastModified": "5 May 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "08 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What system is described as \"A number of human resource management information systems had been developed to assist managers in human resources.\"?",
+      "answer": "Tactical and Strategic Human Resource Information System",
+      "choices": [
+        "Tactical and Strategic Human Resource Information System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Job Analysis and Design System",
+        "Recruitment System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system is described as \"HRIS and its apps contain personal information of employees, as well as the organization’s resource in labor and manpower.\"?",
+      "answer": "Tactical and Strategic Human Resource Information System",
+      "choices": [
+        "Tactical and Strategic Human Resource Information System",
+        "Compensation and Benefit System",
+        "Employee Training and Development System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system is emphasized when stating \"Securing this information from unauthorized access is important to all organizations involved and unauthorized use is illegal and can subject organizations to serious legal liability.\"?",
+      "answer": "Tactical and Strategic Human Resource Information System",
+      "choices": [
+        "Tactical and Strategic Human Resource Information System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Recruitment System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"supports HR managers in handling aspects of the acquisition, allocation, and maintenance of an organization’s workforce.\"?",
+      "answer": "Tactical Human Resource Information System (THRIS)",
+      "choices": [
+        "Tactical Human Resource Information System (THRIS)",
+        "Tactical and Strategic Human Resource Information System",
+        "Job Analysis and Design System",
+        "Compensation and Benefit System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"includes the creation of jobs for a specific purpose, employee acquisition, training and capacity building, and budget allocations.\"?",
+      "answer": "Tactical Human Resource Information System (THRIS)",
+      "choices": [
+        "Tactical Human Resource Information System (THRIS)",
+        "Tactical and Strategic Human Resource Information System",
+        "Recruitment System",
+        "Employee Training and Development System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"creates jobs/positions required by an organization.\"?",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Recruitment System",
+        "Compensation and Benefit System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"involves writing job descriptions.\"? (TR or FL)",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Recruitment System",
+        "Employee Training and Development System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"involves designation of purposes, tasks, duties, and responsibilities for a job/position.\"?",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Recruitment System",
+        "Compensation and Benefit System",
+        "Employee Training and Development System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"involves specifying the conditions and performance standards.\"?",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Recruitment System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"involves processing of information from guidelines and external data sources (e.g., labor unions, etc.)\"?",
+      "answer": "Job Analysis and Design System",
+      "choices": [
+        "Job Analysis and Design System",
+        "Compensation and Benefit System",
+        "Employee Training and Development System",
+        "Recruitment System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"handles functions that provide a pool of qualified applicants that may fill vacant positions identified by position control systems and/or job analysis and design systems.\"?",
+      "answer": "Recruitment System",
+      "choices": [
+        "Recruitment System",
+        "Job Analysis and Design System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Compensation and Benefit System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"ensures that the recruitment processes of an organization are compliant with government laws and contract regulations to guarantee affirmative action and equal employment opportunity.\"?",
+      "answer": "Recruitment System",
+      "choices": [
+        "Recruitment System",
+        "Employee Training and Development System",
+        "Tactical and Strategic Human Resource Information System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"allows HR managers to support the creation of compensation and benefit plans for employees.\"?",
+      "answer": "Compensation and Benefit System",
+      "choices": [
+        "Compensation and Benefit System",
+        "Recruitment System",
+        "Tactical Human Resource Information System (THRIS)",
+        "Employee Training and Development System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"using data such as budget allocations and job descriptions, provides a variety of tactical information for employee compensation and benefits.\"?",
+      "answer": "Compensation and Benefit System",
+      "choices": [
+        "Compensation and Benefit System",
+        "Job Analysis and Design System",
+        "Recruitment System",
+        "Succession Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"handles decisions for employee development, usually via capacity building.\"?",
+      "answer": "Employee Training and Development System",
+      "choices": [
+        "Employee Training and Development System",
+        "Compensation and Benefit System",
+        "Recruitment System",
+        "Tactical Human Resource Information System (THRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"is facilitated by finding potential employees that meet certain criteria and creating training and development plans that will allow interested and qualified individuals to benefit from these plans.\"?",
+      "answer": "Employee Training and Development System",
+      "choices": [
+        "Employee Training and Development System",
+        "Compensation and Benefit System",
+        "Succession Planning System",
+        "Job Analysis and Design System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What system \"ensures that replacements for key positions in the organization are available at all times to ensure that they don’t become vacant.\"?",
+      "answer": "Succession Planning System",
+      "choices": [
+        "Succession Planning System",
+        "Employee Training and Development System",
+        "Tactical and Strategic Human Resource Information System",
+        "Recruitment System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What manages the organization’s workforce as a whole?",
+      "answer": "Strategic Human Resource Information System (SHRIS)",
+      "choices": [
+        "Strategic Human Resource Information System (SHRIS)",
+        "Workforce Planning System",
+        "Labor Negotiation System",
+        "Workforce Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What allows an HR manager to formulate workforce plans and labor negotiations to ensure that the enterprise has the appropriate conditions for the appropriate personnel?",
+      "answer": "Strategic Human Resource Information System (SHRIS)",
+      "choices": [
+        "Strategic Human Resource Information System (SHRIS)",
+        "Workforce Planning System",
+        "Labor Negotiation System",
+        "Workforce Planning System"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What facilitates strategic long-term workforce planning and management using relevant data such as those from other information systems?",
+      "answer": "Workforce Planning System",
+      "choices": [
+        "Workforce Planning System",
+        "Strategic Human Resource Information System (SHRIS)",
+        "Labor Negotiation System",
+        "Strategic Human Resource Information System (SHRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What uses forecasted workforce estimates (which includes workforce supply and demand, required skills and specializations, quality, and pricing) to create workforce plans that can achieve organizational objectives?",
+      "answer": "Workforce Planning System",
+      "choices": [
+        "Workforce Planning System",
+        "Strategic Human Resource Information System (SHRIS)",
+        "Labor Negotiation System",
+        "Strategic Human Resource Information System (SHRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What gathers data from other HR information systems and from financial accounting systems and external sources in order to help create negotiating terms between the organization and labor unions?",
+      "answer": "Labor Negotiation System",
+      "choices": [
+        "Labor Negotiation System",
+        "Strategic Human Resource Information System (SHRIS)",
+        "Workforce Planning System",
+        "Strategic Human Resource Information System (SHRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    },
+    {
+      "question": "What generates ad-hoc reports that allow the organization to see their and a labor union’s positions from industrial and economic standpoints?",
+      "answer": "Labor Negotiation System",
+      "choices": [
+        "Labor Negotiation System",
+        "Strategic Human Resource Information System (SHRIS)",
+        "Workforce Planning System",
+        "Strategic Human Resource Information System (SHRIS)"
+      ],
+      "reference": "09 Handout 1",
+      "term": "Prefinals"
+    }
+  ]
+}

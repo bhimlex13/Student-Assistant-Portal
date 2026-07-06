@@ -1,0 +1,364 @@
+{
+  "quizInfo": {
+    "Subject": "Information Assurance and Security",
+    "Term": "Midterms",
+    "Title": "Remote Access Domain",
+    "LastModified": "28 March 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "03 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which domain enables remote users to access files on any devices connected to the network at any time?",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain",
+        "Virtual Private Network (VPN)",
+        "Domain User"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "This domain increases productivity and allows better collaboration around the world by allowing remote users access to files.",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "Wide Area Network (WAN) domain",
+        "Remote Access Domain",
+        "Local User",
+        "Domain User"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain allows organizations the flexibility to hire the best talent regardless of location?",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "Virtual Private Network (VPN)",
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain",
+        "Domain User"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which domain allows technical support to connect to user computers from remote locations to help reduce issues?",
+      "answer": "Remote Access Domain",
+      "choices": [
+        "Local Area Network (LAN) domain",
+        "Remote Access Domain",
+        "Domain User",
+        "Local User"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the common method of providing remote access?",
+      "answer": "Virtual Private Network (VPN)",
+      "choices": [
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain",
+        "Local Area Network (LAN) domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What technology creates a safe and encrypted connection over a less secure network like the internet?",
+      "answer": "Virtual Private Network (VPN)",
+      "choices": [
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain",
+        "Local Area Network (LAN) domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method was developed to enable remote users and branch offices to log into corporate apps and resources securely?",
+      "answer": "Virtual Private Network (VPN)",
+      "choices": [
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain",
+        "Local Area Network (LAN) domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access technology is commonly in use today?",
+      "answer": "IP Security VPN (IPsec VPN)",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Microsoft DirectAccess",
+        "Virtual Private Network (VPN)",
+        "IP Security VPN (IPsec VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "In which VPN must a client be installed in the end user’s computer and configured with target network details like the gateway IP address and a pre-shared security key?",
+      "answer": "IP Security VPN (IPsec VPN)",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Microsoft DirectAccess",
+        "Local Area Network (LAN) domain",
+        "IP Security VPN (IPsec VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method typically includes licenses for connections when a firewall is purchased?",
+      "answer": "IP Security VPN (IPsec VPN)",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Microsoft DirectAccess",
+        "Remote Access Domain",
+        "IP Security VPN (IPsec VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method has low processing overhead for the firewall, allowing many connections to be active at the same time?",
+      "answer": "IP Security VPN (IPsec VPN)",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Microsoft DirectAccess",
+        "Wide Area Network (WAN) domain",
+        "IP Security VPN (IPsec VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is an established VPN technology that many people are already familiar with?",
+      "answer": "IP Security VPN (IPsec VPN)",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Microsoft DirectAccess",
+        "Virtual Private Network (VPN)",
+        "IP Security VPN (IPsec VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method requires a software client to be installed and configured in the target device before a connection is established, causing difficulties if a worker is not in the office?",
+      "answer": "IP Security VPN (IPsec VPN)",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Microsoft DirectAccess",
+        "Virtual Private Network (VPN)",
+        "IP Security VPN (IPsec VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which encryption technology is commonly used to secure communication on the internet?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Virtual Private Network (VPN)",
+        "Wide Area Network (WAN) domain"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "In which VPN method does the network admin publish the VPN client to the firewall, allowing it to be downloaded via the firewall’s public connection?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Remote Access Domain",
+        "Local Area Network (LAN) domain"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method allows end users to install the VPN client from a public portal?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Virtual Private Network (VPN)",
+        "Wide Area Network (WAN) domain"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "In which VPN method does the IT department not need to manually configure each machine that requires remote access?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Remote Access Domain",
+        "Local User"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method allows network administrators to set up granular security policies for specific corporate network resources?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Virtual Private Network (VPN)",
+        "Local Area Network (LAN) domain"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method provides software clients for mobile devices, allowing users to view corporate intranet without using a computer?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method requires more firewall configuration to publish the client network?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Remote Access Domain",
+        "Virtual Private Network (VPN)"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which VPN method requires more processing overhead for the firewall, limiting the number of client connections it can handle?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Remote Access Domain",
+        "Wide Area Network (WAN) domain"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "What VPN licenses are usually sold as an add-on to hardware because some firewalls cannot handle too many client connections?",
+      "answer": "Secure Socket Layer VPN (SSL VPN)",
+      "choices": [
+        "IP Security VPN (IPsec VPN)",
+        "Secure Socket Layer VPN (SSL VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access method is a relatively new approach developed by Microsoft?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method creates an “always on” secure connection at the OS level?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access method allows users to connect without needing to install or run anything?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access method is described as seamless technology that could change the way users work remotely?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access method requires elaborate changes to the corporate network?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access method is designed with IPv6 as the primary addressing scheme and IPv4 secondarily?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Local Area Network (LAN) domain",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which remote access method requires additional software on the LAN so remote users can access IPv4 addresses?",
+      "answer": "Microsoft DirectAccess",
+      "choices": [
+        "Secure Socket Layer VPN (SSL VPN)",
+        "IP Security VPN (IPsec VPN)",
+        "Virtual Private Network (VPN)",
+        "Microsoft DirectAccess"
+      ],
+      "reference": "Remote Access Domain",
+      "term": "Midterms"
+    }
+  ]
+}

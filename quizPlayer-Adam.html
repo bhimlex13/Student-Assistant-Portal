@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="Page_Title">
+    Student Assistant Portal | Loading...
+  </title>
+  <link rel="icon" type="image/x-icon" href="Assets/Icons/Logo.png">
+  
+  <link rel="stylesheet" href="https://elmerf5445.github.io/ERUMA-UI/Scripts/Styles/App_Stylesheet_Debugging.css">
+  <link rel="stylesheet" href="Scripts/SAP_Main.css">
+  <link rel="stylesheet" href="Scripts/SAP_Stylesheet_QuizPlayer.css">
+  <link rel="stylesheet" href="Scripts/SAP_Stylesheet_Responsiveness.css">
+  
+</head>
+
+<body>
+  <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_Debugging.js"></script>
+  <script src="Scripts/SAP_Javascript_Main.js"></script>
+  <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js"></script>
+  <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
+  <script src="Scripts/SAP_Javascript_UI.js"></script>
+  <script src="Scripts/SAP_Javascript_Settings.js"></script>
+  <script src="Scripts/SAP_Javascript_QuizPlayer.js"></script>
+  <span Display="none">
+    
+    <button class="MenuBar_List_Item"  >
+        <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Schedules_1.png' draggable='false' loading='lazy'/>
+        <span class="MenuBar_List_Item_Indicator">
+        </span>
+        <p class="MenuBar_List_Item_Text">
+            Schedules
+        </p>
+    </button>
+  </span>
+  <div class="Subwindows" id="Subwindows">
+    <div id="Empty"></div>
+    <div class="Modal" id="Quiz_Refresh">
+			<div class="Modal_TitleBar">
+				<h2 class="Modal_TitleBar_Title">
+					Restart quiz?
+				</h2>
+			</div>
+			<div class="Modal_Content">
+				<p class="General_Paragraph">
+					You will start from the very beginning and lose progress.
+				</p>
+			</div>
+			<div class="Modal_Content_Bottom">
+				<button class="Subwindow_Bottom_Button_SecondaryAction" onclick="Subwindows_Close('Quiz_Refresh')">
+					Cancel
+				</button>
+				<button class="Subwindow_Bottom_Button_PrimaryAction" onclick="Page_ChangePage('', Transition)">
+					Restart anyways
+				</button>
+			</div>
+		</div>
+  </div>
+  <div class="Page_Overlays">
+    <div class="Quiz_Starter_Loader" id="LoadingScreen">
+      <img class="Home_Welcome_Loading_Image" src="Assets/Icons/SAP_1.png"/>
+      <div class="General_Loading_Compact">
+        <div class="General_Loading_Compact_Bar"></div>
+        <div class="General_Loading_Compact_Bar"></div>
+        <div class="General_Loading_Compact_Bar"></div>
+        <div class="General_Loading_Compact_Bar"></div>
+      </div>
+      <h3 class="Home_Welcome_Loading_Text">
+        <!-- Loading quiz... -->
+      </h3>
+    </div>
+    <div class="Quiz_Starter" id="Quiz_Starter">
+      <div class="Home_Welcome_Background">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="Quiz_Starter_Content" id="Quiz_Starter_Content" Tabs_CurrentTab="">
+        <div class="Tab_Container_Content_Item Quiz_Starter_Page" id="Tab_Starter_Main" State="Active">
+          <div class="Quiz_Starter_Page_Container">
+            <h1 class="Quiz_Starter_Title_Title" id="Quiz_Starter_Mode">
+              Multiple Choice
+            </h1>
+            <h1 class="Quiz_Starter_Title" id="Quiz_Starter_Title">
+              Name of quiz
+            </h1>
+            <h3 class="Quiz_Starter_Subject" id="Quiz_Starter_Subject">
+              Name of subject
+            </h3>
+            <h2 class="Quiz_Starter_Items" id="Quiz_Starter_Items">
+              Items
+            </h2>
+            <span></span>
+            <div class="Quiz_Starter_Control">
+              <button class="General_Button Quiz_Starter_Control_Primary" Secondary onclick="Quiz_GoHome()">Back to home</button>
+              <button class="General_Button Quiz_Starter_Control_Primary" Secondary State="Selected" id="Settings" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Quiz_Starter_Content" Tabs_Tab_Target_Tab="Tab_Starter_Settings" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false">Change mode</button>
+              <button class="General_Button Quiz_Starter_Control_Primary" onclick="Quiz_Start('Multiple_Choices')" Primary>Start</button>
+            </div>
+          </div>
+        </div>
+        <div class="Tab_Container_Content_Item Quiz_Starter_Page" id="Tab_Starter_Settings" State="Inactive">
+          <div class="Quiz_Starter_Page_Container_Settings">
+            <h1 class="Quiz_Starter_Title_Title">
+              Settings
+            </h1>
+            <div>
+              <h2 class="General_Title">
+                Mode
+              </h2>
+              <p class="General_Paragraph">
+                Pick a mode on how you want to answer the quiz.
+              </p>
+              <div class="Radio Quiz_Starter_Settings_Selector" id="Quiz_Starter_Settings_Mode" Radio_ActiveButton="Mode_1">
+                <button class="Radio_Button Quiz_Starter_Settings_Selector_Item" id="Mode_1" onclick="Radio_Select(this.id)" State="Active">
+                  Classic
+                  <p class="Quiz_Starter_Settings_Selector_Item_Description">
+                    The original SAP experience. The quiz displays the set of possible choices where only one is the correct answer.
+                  </p>
+                </button>
+                <button class="Radio_Button Quiz_Starter_Settings_Selector_Item" id="Mode_2" onclick="Radio_Select(this.id)" State="Inactive">
+                  Hardcore
+                  <p class="Quiz_Starter_Settings_Selector_Item_Description">
+                    Make your life extra difficult by typing the answer instead of clicking a predefined choice. Your answer must exactly match the correct one in order for it to be validated as a correct.
+                  </p>
+                </button>
+                <button class="Radio_Button Quiz_Starter_Settings_Selector_Item" id="Mode_3" onclick="Radio_Select(this.id)" State="Inactive">
+                  Chill
+                  <p class="Quiz_Starter_Settings_Selector_Item_Description">
+                    No stakes whatsoever. Click the question to reveal the answer. Scoring doesn't exist in this mode.
+                  </p>
+                </button>
+              </div>
+            </div>
+            <span></span>
+            <button class="General_Button Quiz_Starter_Control_Primary" Secondary id="Main" onclick="Tabs_ChangeTab(this.id, 'Horizontal'), Quiz_Mode_Set()" Tabs_Tab_Target_Container="Quiz_Starter_Content" Tabs_Tab_Target_Tab="Tab_Starter_Main" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Schedules" Tabs_UseHeaderTitle="false">Save and go back</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="Quiz_Checker" id="Quiz_Checker">
+      <div class="Quiz_Checker_Correct" id="Quiz_Checker_Correct">
+        <h1 class="Quiz_Checker_Correct_Text">
+          CORRECT!
+        </h1>
+      </div>
+      <div class="Quiz_Checker_Wrong" id="Quiz_Checker_Wrong">
+        <h1 class="Quiz_Checker_Wrong_Text">
+          WRONG!
+        </h1>
+      </div>
+    </div>
+    <div class="Quiz_Finisher" id="Quiz_Finisher">
+      <div class="Home_Welcome_Background">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="Quiz_Finisher_Initial">
+        <h1 class="Quiz_Finisher_Initial_Text">
+          Quiz complete!
+        </h1>
+      </div>
+      <div class="Quiz_Finisher_Content">
+        <div class="Quiz_Finisher_Result">
+          <h1 class="Quiz_Finisher_Result_Title">
+            Quiz complete!
+          </h1>
+          <h4 class="Quiz_Finisher_Result_Subtitle">
+            Your final score is: 
+          </h4>
+          <div class="Quiz_Finisher_Result_Score">
+            <h2 id="Quiz_Finisher_Result_Score_Text">
+              72 / 72
+            </h2>
+            <h4 id="Quiz_Finisher_Result_Score_Percentage_Text">
+              100%
+            </h4>
+          </div>
+          <div class="Quiz_Finisher_Result_Image" id="Quiz_Finisher_Result_Image">
+            <img class="Quiz_Finisher_Result_Image_Item" src="" alt="Atleast tapos na" draggable="false" id="Quiz_Finisher_Result_Image_Perfect" onerror="this.style.opacity = '0%'" onload="this.style.opacity = '100%'" onclick="Quiz_FinisherImage_Pick()"/>
+            <img class="Quiz_Finisher_Result_Image_Item" src="" alt="Atleast tapos na" draggable="false" id="Quiz_Finisher_Result_Image_Good"onerror="this.style.opacity = '0%'" onload="this.style.opacity = '100%'" onclick="Quiz_FinisherImage_Pick()"/>
+            <img class="Quiz_Finisher_Result_Image_Item" src="" alt="Atleast tapos na" draggable="false" id="Quiz_Finisher_Result_Image_Excellent" onerror="this.style.opacity = '0%'" onload="this.style.opacity = '100%'" onclick="Quiz_FinisherImage_Pick()"/>
+            <img class="Quiz_Finisher_Result_Image_Item" src="" alt="Atleast tapos na" draggable="false" id="Quiz_Finisher_Result_Image_Terrible" onerror="this.style.opacity = '0%'" onload="this.style.opacity = '100%'" onclick="Quiz_FinisherImage_Pick()"/>
+          </div>
+          
+        </div>
+        <div></div>
+        <div class="Quiz_Finisher_Controls">
+          <button class="General_Button Quiz_Finisher_Controls_Button" Primary onclick="Page_ChangePage('', Transition)" id="Quiz_Finisher_Controls_Button_Retry">Retry</button>
+          <button class="General_Button Quiz_Finisher_Controls_Button" Secondary onclick="Quiz_GoHome()">
+              Go back to home
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="Page_Content" id="Page_Content">
+    <div class="MenuBar" State="Expanded" id="Sidebar">
+      <div class="MenuBar_List">
+        <button class="MenuBar_List_Item" HideOnSmall onclick="MenuBar_Toggle()">
+          <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Hamburger.png' draggable='false' loading='lazy'/>
+          <span class="MenuBar_List_Item_Indicator">
+          </span>
+          <p class="MenuBar_List_Item_Text">
+            <b>Quiz Player</b>
+          </p>
+        </button>
+        <button class="MenuBar_List_Item" onclick="Quiz_GoHome();">
+          <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Home.png' draggable='false' loading='lazy' />
+          <span class="MenuBar_List_Item_Indicator">
+          </span>
+          <p class="MenuBar_List_Item_Text">
+            Home
+          </p>
+        </button>
+        <button class="MenuBar_List_Item" onclick="Quiz_Questions_List_Toggle()" id="Quiz_Questions_List_Toggle">
+          <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Quizzes_1.png' draggable='false' loading='lazy' />
+          <span class="MenuBar_List_Item_Indicator">
+          </span>
+          <p class="MenuBar_List_Item_Text">
+            Questions
+          </p>
+          <img class='MenuBar_List_Item_Icon Quiz_Questions_List_Toggle_Icon' src='Assets/Icons/Down.png' draggable='false' loading='lazy' HideOnSmall style="width: 20px"/>
+        </button>
+        <button class="MenuBar_List_Item" onclick="Subwindows_Open('Quiz_Refresh')" id="Quiz_Questions_List_Toggle">
+          <img class='MenuBar_List_Item_Icon' src='Assets/Icons/Refresh_1.png' draggable='false' loading='lazy' />
+          <span class="MenuBar_List_Item_Indicator">
+          </span>
+          <p class="MenuBar_List_Item_Text">
+            Restart
+          </p>
+        </button>
+      </div>
+      <div class="Quiz_Questions_List" id="Quiz_Questions_List" State="Collapsed">
+        <button class="General_Button Quiz_Questions_List_Item">
+          1
+        </button>
+      </div>
+    </div>
+    <div class="Page_Content_Main" id="Content">
+      <div class="Quiz">
+        <div class="Quiz_Header">
+          <h3 class="Quiz_Header_Title_Subject" id="Quiz_Header_Subject">
+            Subject
+          </h3>
+          <h1 class="Quiz_Header_Title" id="Quiz_Header_Quiz">
+            Quiz
+          </h1>
+          <h3 id="Quiz_Header_Progress_Counter" class="Quiz_Header_QuestionNumber"></h3>
+          <div class="progress Quiz_Header_Progress">
+            <div class="progress-bar Quiz_Header_Progress_Bar" id="Quiz_Header_Progress_Bar"></div>
+          </div>
+        </div>
+        <span Display="none" id="Quiz_Tabs">
+          <button class="General_Button Quiz_Starter_Control_Primary" Secondary State="Selected" id="Quiz_Tab_Question" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Quiz_Form" Tabs_Tab_Target_Tab="Quiz_Form_Question_Container" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false"></button>
+          <button class="General_Button Quiz_Starter_Control_Primary" Secondary State="Selected" id="Quiz_Tab_Answer" onclick="Tabs_ChangeTab(this.id, 'Horizontal')" Tabs_Tab_Target_Container="Quiz_Form" Tabs_Tab_Target_Tab="Quiz_Form_Question_Answer_Container" Tabs_UseRibbon="false" Tabs_Tab_Target_Ribbon="Ribbon_Quizzes" Tabs_UseHeaderTitle="false"></button>
+        </span>
+        <div class="Quiz_Form" id="Quiz_Form" Form_Mode="Question" Tabs_CurrentTab="Quiz_Form_Question_Container">
+          <span class="Quiz_Form_Content" id="Quiz_Form_Question_Container" onclick="Quiz_Flashcard_Toggle()">
+            <div class="Quiz_Form_Image" id="Quiz_Form_Image">
+              <img class="Quiz_Form_Image_Image" id="Quiz_Form_Image_Image" draggable="false" loading="lazy" src="Assets/Images/Thumbnails/Image_Loading.png" onerror="Element_Attribute_Set(this.id, 'Display', 'none')"/>
+            </div>
+            <!-- Used to focus the question (Quiz_Question_Next()) -->
+            <button id="Quiz_Form_Decoy">
+              Decoy
+            </button>
+            <h2 class="Quiz_Form_Question" id="Quiz_Form_Question">
+              Question goes here
+            </h2>
+          </span>
+          <span class="Quiz_Form_Content" id="Quiz_Form_Question_Answer_Container" State="Hidden"  onclick="Quiz_Flashcard_Toggle()">
+            <!-- Flashcards -->
+            <div class="Quiz_Form_Flashcard" id="Quiz_Form_Flashcard">
+              <h3 class="Quiz_Form_Flashcard_Title">
+                The correct answer is:
+              </h3>
+              <h1 class="Quiz_Form_Flashcard_Answer" id="Quiz_Form_Flashcard_Answer">
+                ANSWER
+              </h1>
+            </div>
+          </span>
+          
+          
+          <!-- Hard mode -->
+          <div class="Quiz_Form_Input" id="Quiz_Form_Input">
+            <textarea type="text" class="Input_Text_Long Quiz_Form_Input_Text" id="Quiz_Form_Input_Text" oninput="TextArea_SnapToSize(this.id)" Autoresize="true" placeholder="Type your answer here"></textarea>
+            <div class="Quiz_Form_Input_Answer" id="Quiz_Form_Input_Answer">
+              <h3 class="Quiz_Form_Input_Title">
+                The correct answer is:
+              </h3>
+              <h1 class="Quiz_Form_Input_Answer" id="Quiz_Form_Input_Answer_Text">
+                ANSWER
+              </h1>
+            </div>
+          </div>
+          <!-- Multiple choices -->
+          <div class="Radio Quiz_Form_Choices" id="Quiz_Form_Choices" Radio_ActiveButton="">
+            <button class="Radio_Button Quiz_Form_Choices_Item" id="Radio_Button_1" onclick="Radio_Select(this.id)" State="Inactive">
+                Choice 1
+            </button>
+            <button class="Radio_Button Quiz_Form_Choices_Item" id="Radio_Button_2" onclick="Radio_Select(this.id)" State="Inactive">
+                Choice 2
+            </button>
+            <button class="Radio_Button Quiz_Form_Choices_Item" id="Radio_Button_3" onclick="Radio_Select(this.id)" State="Inactive">
+                Choice 3
+            </button>
+            <button class="Radio_Button Quiz_Form_Choices_Item" id="Radio_Button_4" onclick="Radio_Select(this.id)" State="Inactive">
+                Choice 4
+            </button>
+          </div>
+          <form id="quiz-form" onsubmit="event.preventDefault(); submitAnswer();">
+            <!-- Question will be inserted here by JavaScript -->
+          </form>
+          <div class="btn-group d-flex Quiz_Form_Controls">
+            <button class="General_Button Quiz_Form_Controls_Button" Primary onclick="Quiz_Evaluate_Answer()" id="Quiz_Form_Controls_Submit">Submit</button>
+            <button class="General_Button Quiz_Form_Controls_Button" Secondary onclick="Quiz_Question_Next()" id="Quiz_Form_Controls_Next">Next</button>
+            <button class="General_Button Quiz_Form_Controls_Button" Secondary onclick="Quiz_Question_Next()" id="Quiz_Form_Controls_Next_Flashcards">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

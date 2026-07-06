@@ -1,0 +1,640 @@
+{
+  "quizInfo": {
+    "Subject": "Event-Driven Programming",
+    "Term": "Prefinals",
+    "Title": "Streams",
+    "LastModified": "18 November 2024",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "05_Handout_1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "They represent a source that provides a sequence of bytes, such as a file, an input/output (I/O) device, an interprocess communication pipe, or a TCP/IP socket.",
+      "answer": "Streams",
+      "choices": [
+        "Streams",
+        "Output Streams",
+        "Input Streams",
+        "FileStream"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It refers to a printer, remote server location, or a printer where the data is written.",
+      "answer": "Output Streams",
+      "choices": [
+        "Streams",
+        "Output Streams",
+        "Input Streams",
+        "FileStream"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It refers to a file or any source where the data can be read and assigned to the memory variables in the program.",
+      "answer": "Input Streams",
+      "choices": [
+        "Streams",
+        "Output Streams",
+        "Input Streams",
+        "FileStream"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It is a namespace contains classes that allow to write and read files.",
+      "answer": "System.IO",
+      "choices": [
+        "System.IO",
+        "System.Stream",
+        "System.Exception",
+        "using System"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This namespace needs to be included in all programs that use streams.",
+      "answer": "System.IO",
+      "choices": [
+        "System.IO",
+        "System.Stream",
+        "System.Exception",
+        "using System"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "All files are byte-oriented, meaning the data iswritten or read into the files in terms of bytes in this namespace.",
+      "answer": "System.IO",
+      "choices": [
+        "System.IO",
+        "System.Stream",
+        "System.Exception",
+        "using System"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It is a classthat is used to create a byte-oriented stream attached to a file.",
+      "answer": "FileStream",
+      "choices": [
+        "Streams",
+        "Output Streams",
+        "Input Streams",
+        "FileStream"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This is the code to be used for creating a FileStream object.",
+      "answer": "FileStream(string filename, FileMode mode)",
+      "choices": [
+        "FileStream(string filename, FileMode mode)",
+        "FileStream(string, FileMode mode)",
+        "FileMode (string filename, FileStream mode)",
+        "FileStream(FileMode mode, string filename)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This parameter specifies how the file needs to be opened.",
+      "answer": "mode",
+      "choices": [
+        "mode",
+        "node",
+        "argument",
+        "filemode"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It creates a new output file, which will be overwritten if a file already exists.",
+      "answer": "FileMode.Create",
+      "choices": [
+        "FileMode.Create",
+        "FileMode.CreateNew",
+        "FileMode.Open",
+        "FileMode.OpenOrCreate"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It creates a new output file that is not existing.",
+      "answer": "FileMode.CreateNew",
+      "choices": [
+        "FileMode.Create",
+        "FileMode.CreateNew",
+        "FileMode.Open",
+        "FileMode.Truncate"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It opens an existing file.",
+      "answer": "FileMode.Open",
+      "choices": [
+        "FileMode.Truncate",
+        "FileMode.CreateNew",
+        "FileMode.Open",
+        "FileMode.OpenOrCreate"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It opens an existing. If not, it creates a new one.",
+      "answer": "FileMode.OpenOrCreate",
+      "choices": [
+        "FileMode.Create",
+        "FileMode.CreateNew",
+        "FileMode.Open",
+        "FileMode.OpenOrCreate"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It opens an existing file and truncates the content that already exists.",
+      "answer": "FileMode.Truncate",
+      "choices": [
+        "FileMode.Create",
+        "FileMode.CreateNew",
+        "FileMode.Open",
+        "FileMode.Truncate"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This is used to open a file that has access to read or write.",
+      "answer": "FileStream constructor",
+      "choices": [
+        "FileStream constructor",
+        "Stream constructor",
+        "Output Stream constructor",
+        "Input Stream constructor"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This method reads a single byte from a file and returns as an integer value.",
+      "answer": "ReadByte()",
+      "choices": [
+        "ReadByte()",
+        "Read()",
+        "WriteByte()",
+        "Write()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This method reads the specified number of bytes from a file into an array.",
+      "answer": "Read()",
+      "choices": [
+        "ReadByte()",
+        "Read()",
+        "WriteByte()",
+        "Write()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It writes the specified byte into the file.",
+      "answer": "WriteByte()",
+      "choices": [
+        "WriteByte()",
+        "Write()",
+        "Flush()",
+        "ReadByte()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Itt writes an array of bytes into the file.",
+      "answer": "Write()",
+      "choices": [
+        "WriteByte()",
+        "Write()",
+        "Flush()",
+        "void Close()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This method instantly writes the data into the file.",
+      "answer": "Flush()",
+      "choices": [
+        "WriteByte()",
+        "Write()",
+        "Flush()",
+        "void Close()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This method closes the file, releasing the system resources that are allocated to it.",
+      "answer": "void Close()",
+      "choices": [
+        "WriteByte()",
+        "Write()",
+        "Flush()",
+        "void Close()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This is the method used to relocate the file pointer in the file.",
+      "answer": "Seek()",
+      "choices": [
+        "Seek()",
+        "Peek()",
+        "Point()",
+        "Relocate()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This is a method that allows setting the file position indicator of file pointer to the preferred location in the file.",
+      "answer": "Seek()",
+      "choices": [
+        "Seek()",
+        "Peek()",
+        "Point()",
+        "Relocate()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This is the proper syntax for Seek() method.",
+      "answer": "long Seek(long n, SeekOrigin location)",
+      "choices": [
+        "long Seek(long filename, SeekOrigin location)",
+        "long Seek(long n, SeekOrigin location)",
+        "long Seek(SeekOrigin location, long n)",
+        "Seek(SeekOrigin location, long n)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This determines the location of the next read/write operation to take place on the file.",
+      "answer": "file pointer",
+      "choices": [
+        "file pointer",
+        "seek",
+        "character stream",
+        "file finder"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This can get or set the position using the Position property of Stream class.",
+      "answer": "file pointer",
+      "choices": [
+        "file pointer",
+        "stream pointer",
+        "character stream",
+        "file finder"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It returns true if the stream can be read.",
+      "answer": "bool CanRead",
+      "choices": [
+        "bool CanSeek",
+        "bool CanTimeout",
+        "bool CanWrite",
+        "bool CanRead"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It returns true if the stream supports position requests.",
+      "answer": "bool CanSeek",
+      "choices": [
+        "bool CanSeek",
+        "bool CanTimeout",
+        "bool CanWrite",
+        "bool CanRead"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It returns true if the stream can time out.",
+      "answer": "bool CanTimeout",
+      "choices": [
+        "bool CanSeek",
+        "bool CanTimeout",
+        "bool CanWrite",
+        "bool CanRead"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It returns true if the stream can be written.",
+      "answer": "bool CanWrite",
+      "choices": [
+        "bool CanSeek",
+        "bool CanTimeout",
+        "bool CanWrite",
+        "bool CanRead"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It contains the size of the stream.",
+      "answer": "long length",
+      "choices": [
+        "long length",
+        "int ReadTimeout",
+        "int WriteTimeout",
+        "int length"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It indicates the time before a timeout occurs for read operations.",
+      "answer": "int ReadTimeout",
+      "choices": [
+        "long length",
+        "int ReadTimeout",
+        "int WriteTimeout",
+        "int length"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It indicates the time before a timeout occurs for write operations.",
+      "answer": "int WriteTimeout",
+      "choices": [
+        "long length",
+        "int ReadTimeout",
+        "int WriteTimeout",
+        "int length"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This is used to perform a character-based file for managing text files.",
+      "answer": "character stream",
+      "choices": [
+        "file pointer",
+        "stream reader",
+        "character stream",
+        "stream writer"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This is wrapped inside either a StreamReader or a StreamWriter.",
+      "answer": "FileStream",
+      "choices": [
+        "Streams",
+        "Output Streams",
+        "Input Streams",
+        "FileStream"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This writes characters to a stream and contains several constructors.",
+      "answer": "StreamWriter",
+      "choices": [
+        "StreamWriter",
+        "StreamReader",
+        "FileStream",
+        "Character Stream"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It is used to create a character-based output stream.",
+      "answer": "SteamWriter(Stream stream)",
+      "choices": [
+        "StreamWriter(string fileName)",
+        "SteamWriter(Stream stream)",
+        "StreamReader(Stream stream)",
+        "StreamReader(string fileName)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It is used to open a file directly.",
+      "answer": "StreamWriter(string fileName)",
+      "choices": [
+        "StreamWriter(string fileName)",
+        "SteamWriter(Stream stream)",
+        "StreamReader(Stream stream)",
+        "StreamReader(string fileName)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It closes the file.",
+      "answer": "Close()",
+      "choices": [
+        "Close()",
+        "Flush()",
+        "Write()",
+        "WriteLine()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It instantly saves the file content from buffer to memory",
+      "answer": "Flush()",
+      "choices": [
+        "Close()",
+        "Flush()",
+        "Write()",
+        "WriteLine()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Using a File stream class, this writes into the specified file.",
+      "answer": "Write()",
+      "choices": [
+        "Close()",
+        "Flush()",
+        "Write()",
+        "WriteLine()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Line by line, it writes into a file",
+      "answer": "WriteLine()",
+      "choices": [
+        "Close()",
+        "Flush()",
+        "Write()",
+        "WriteLine()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "This is a class that reads characters from a byte stream.",
+      "answer": "StreamReader",
+      "choices": [
+        "StreamWriter",
+        "StreamReader",
+        "FileStream",
+        "Character Stream"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It is the name of an open stream such I/O devices or a file.",
+      "answer": "StreamReader(Stream stream)",
+      "choices": [
+        "StreamWriter(string fileName)",
+        "SteamWriter(Stream stream)",
+        "StreamReader(Stream stream)",
+        "StreamReader(string fileName)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It specifies the name of the file to open.",
+      "answer": "StreamReader(string fileName)",
+      "choices": [
+        "StreamWriter(string fileName)",
+        "SteamWriter(Stream stream)",
+        "StreamReader(Stream stream)",
+        "StreamReader(string fileName)"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "From buffer to memory, it instantly saves the file content.",
+      "answer": "Flush()",
+      "choices": [
+        "Close()",
+        "Flush()",
+        "Read()",
+        "ReadLine()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It closes the file and is mandatory to this class.",
+      "answer": "Close()",
+      "choices": [
+        "Close()",
+        "Flush()",
+        "Read()",
+        "ReadLine()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "From the file stream, it reads the content.",
+      "answer": "Read()",
+      "choices": [
+        "ReadToEnd()",
+        "Peek()",
+        "Read()",
+        "ReadLine()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "From the given file stream, it reads the content line by line.",
+      "answer": "ReadLine()",
+      "choices": [
+        "ReadToEnd()",
+        "Peek()",
+        "Read()",
+        "ReadLine()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "From the current location until the end of the stream, it reads all characters.",
+      "answer": "ReadToEnd()",
+      "choices": [
+        "ReadToEnd()",
+        "Peek()",
+        "Seek()",
+        "ReadLine()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "It returns the value in the stream without moving the file pointer.",
+      "answer": "Peek()",
+      "choices": [
+        "Flush()",
+        "Peek()",
+        "Seek()",
+        "Close()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "Sets the file pointer at the desired position in a file",
+      "answer": "Seek()",
+      "choices": [
+        "Flush()",
+        "Peek()",
+        "Seek()",
+        "Close()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    }
+  ]
+}

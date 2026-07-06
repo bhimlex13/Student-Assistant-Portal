@@ -1,0 +1,186 @@
+{
+  "quizInfo": {
+    "Subject": "Systems Integration and Architecture",
+    "Term": "Midterms",
+    "Title": "Materials Management (MMD)",
+    "LastModified": "14 June 2024",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "Any external links/handouts should be referenced here"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which unit is responsible for negotiating the conditions of purchase with vendors?",
+      "choices": [
+        "Purchasing organization",
+        "Material master",
+        "Vendor master",
+        "Purchasing group"
+      ],
+      "answer": "Purchasing organization"
+    },
+    {
+      "question": "What is the purpose of the vendor master in SAP?",
+      "choices": [
+        "Contains all necessary info for business activities with an external supplier",
+        "Manages material quantities in storage locations",
+        "Handles invoice verification",
+        "Processes purchase orders"
+      ],
+      "answer": "Contains all necessary info for business activities with an external supplier"
+    },
+    {
+      "question": "Where is the material master data maintained?",
+      "choices": [
+        "Materials Management (MM)",
+        "Sales and Distribution (SD)",
+        "Production Planning (PP)",
+        "Finance and Controlling (FI/CO)"
+      ],
+      "answer": "Materials Management (MM)"
+    },
+    {
+      "question": "What does the purchasing information record provide?",
+      "choices": [
+        "Default info for purchase orders",
+        "Material storage locations",
+        "Customer billing information",
+        "Vendor payment details"
+      ],
+      "answer": "Default info for purchase orders"
+    },
+    {
+      "question": "Which view of the vendor master includes terms of payment and bank account details?",
+      "choices": [
+        "Company code data",
+        "Client level",
+        "Purchase org data",
+        "Sales data"
+      ],
+      "answer": "Company code data"
+    },
+    {
+      "question": "What function does the purchasing group serve?",
+      "choices": [
+        "Represents the buyer responsible for certain purchasing activities",
+        "Determines delivery schedules",
+        "Manages warehouse locations",
+        "Handles sales orders"
+      ],
+      "answer": "Represents the buyer responsible for certain purchasing activities"
+    },
+    {
+      "question": "Where is the storing of specific details on delivery plants and loading groups managed?",
+      "choices": [
+        "Material master - Sales view",
+        "Vendor master",
+        "Purchasing information record",
+        "Materials Management (MM) organizational structure"
+      ],
+      "answer": "Material master - Sales view"
+    },
+    {
+      "question": "What document initiates a specific request for goods or services within a company?",
+      "choices": [
+        "Purchase requisition",
+        "Vendor selection",
+        "Purchase order",
+        "Notify vendor"
+      ],
+      "answer": "Purchase requisition"
+    },
+    {
+      "question": "Which method can be used to create a purchase requisition automatically?",
+      "choices": [
+        "Internal sourcing",
+        "Outline agreement",
+        "Request for quotation (RFQ)",
+        "Indirectly or automatically"
+      ],
+      "answer": "Indirectly or automatically"
+    },
+    {
+      "question": "Which record specifies the allowed means for procuring material for a certain plant within a given period?",
+      "choices": [
+        "Internal sourcing",
+        "Source list",
+        "Outline agreement",
+        "Request for quotation (RFQ)"
+      ],
+      "answer": "Source list"
+    },
+    {
+      "question": "What types of longer-term purchasing agreements are included in outline agreements?",
+      "choices": [
+        "Contracts and vendor evaluation",
+        "Pricing and conditions",
+        "Contracts and scheduling agreements",
+        "Quotation and vendor selection"
+      ],
+      "answer": "Contracts and scheduling agreements"
+    },
+    {
+      "question": "What is the purpose of an RFQ (Request for Quotation)?",
+      "choices": [
+        "To request materials from vendors automatically",
+        "To initiate the goods receipt process",
+        "To negotiate prices with vendors",
+        "To evaluate vendor performance"
+      ],
+      "answer": "To negotiate prices with vendors"
+    },
+    {
+      "question": "What does the vendor's response to an RFQ become in SAP?",
+      "choices": [
+        "Vendor master",
+        "Purchase requisition",
+        "Purchase order",
+        "Quotation"
+      ],
+      "answer": "Quotation"
+    },
+    {
+      "question": "What is evaluated through vendor evaluation in MM?",
+      "choices": [
+        "Purchase orders and requisitions",
+        "Vendor performance and relations",
+        "Payment methods and terms",
+        "Invoices and goods receipts"
+      ],
+      "answer": "Vendor performance and relations"
+    },
+    {
+      "question": "Which document formally requests a vendor to supply specific materials or services?",
+      "choices": [
+        "Invoice",
+        "Quotation",
+        "Purchase order",
+        "Vendor shipment"
+      ],
+      "answer": "Purchase order"
+    },
+    {
+      "question": "What is represented by a movement type in the Goods Receipt process?",
+      "choices": [
+        "Vendor selection criteria",
+        "Quality inspection status",
+        "Goods movement category",
+        "Invoice verification status"
+      ],
+      "answer": "Goods movement category"
+    },
+    {
+      "question": "What is the final step in the Procure-to-Pay process in MM?",
+      "choices": [
+        "Vendor selection",
+        "Purchase requisition",
+        "Goods receipt",
+        "Payment to vendor"
+      ],
+      "answer": "Payment to vendor"
+    }
+  ]
+}
