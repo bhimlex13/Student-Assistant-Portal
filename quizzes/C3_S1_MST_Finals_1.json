@@ -1,0 +1,396 @@
+{
+  "quizInfo": {
+    "Subject": "Mobile Systems and Technologies",
+    "Term": "Finals",
+    "Title": "Data Storage",
+    "LastModified": "4 June 2025",
+    "Authors": [
+      "Elmer Felisilda"
+    ],
+    "References": [
+      "07 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What does KVP stand for in Shared Preference?",
+      "answer": "Key-Value Pair (KVP)",
+      "choices": [
+        "Firebase Realtime Database",
+        "Key-Value Pair (KVP)",
+        "Room Persistence Library",
+        "Shared Preferences File"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What data storage option uses device memory where private data is stored?",
+      "answer": "Internal Storage",
+      "choices": [
+        "External Storage",
+        "Internal Storage",
+        "Custom Data Store",
+        "Temporary Storage"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What storage option stores public data?",
+      "answer": "External Storage",
+      "choices": [
+        "Internal Storage",
+        "Cloud Backup",
+        "External Storage",
+        "Room Persistence Library"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What data storage option uses private databases to store structured data?",
+      "answer": "SQLite Databases",
+      "choices": [
+        "Room Persistence Library",
+        "SQLite Databases",
+        "Shared Preferences File",
+        "Cloud Backup"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What library caches an SQLite Database locally and syncs changes to a network database?",
+      "answer": "Room Persistence Library",
+      "choices": [
+        "Firebase Realtime Database",
+        "Room Persistence Library",
+        "Internal Storage",
+        "Shared Preference"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What data storage option saves user data in the cloud?",
+      "answer": "Cloud Backup",
+      "choices": [
+        "Custom Data Store",
+        "Cloud Backup",
+        "Internal Storage",
+        "External Storage"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What data storage option stores and syncs data with a NoSQL cloud database?",
+      "answer": "Firebase Realtime Database",
+      "choices": [
+        "Room Persistence Library",
+        "Firebase Realtime Database",
+        "Shared Preference",
+        "SQLite Databases"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What database syncs data across all clients in real time and remains available offline?",
+      "answer": "Firebase Realtime Database",
+      "choices": [
+        "Internal Storage",
+        "SQLite Databases",
+        "Firebase Realtime Database",
+        "Room Persistence Library"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What data storage option stores preferences in a specific storage location using Preferences API?",
+      "answer": "Custom Data Store",
+      "choices": [
+        "Shared Preference",
+        "Shared Preferences File",
+        "Custom Data Store",
+        "Key-Value Pair (KVP)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What API manages the user interface and interacts with storage in Custom Data Store?",
+      "answer": "Preferences API",
+      "choices": [
+        "SharedPreferences.Editor",
+        "Preferences API",
+        "Cloud Backup",
+        "apply()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which type of storage is always available and private to the app?",
+      "answer": "Internal Storage",
+      "choices": [
+        "External Storage",
+        "Internal Storage",
+        "getFilesDir()",
+        "Room Persistence Library"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which type of storage is not always available and can be accessed by any app?",
+      "answer": "External Storage",
+      "choices": [
+        "Firebase Realtime Database",
+        "Shared Preferences File",
+        "Room Persistence Library",
+        "External Storage"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method returns the absolute path where files created are stored for permanent storage?",
+      "answer": "getFilesDir()",
+      "choices": [
+        "getCacheDir()",
+        "onCreate()",
+        "getFilesDir()",
+        "apply()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method returns the absolute path to the application-specific cache directory?",
+      "answer": "getCacheDir()",
+      "choices": [
+        "getFilesDir()",
+        "Shared Preference",
+        "getCacheDir()",
+        "onCreate()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which storage type is recommended for small, temporary files under 1MB?",
+      "answer": "Temporary Storage",
+      "choices": [
+        "Shared Preference",
+        "Temporary Storage",
+        "Room Persistence Library",
+        "Firebase Realtime Database"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which storage type may have files deleted automatically as disk space is needed elsewhere?",
+      "answer": "Temporary Storage",
+      "choices": [
+        "Firebase Realtime Database",
+        "Room Persistence Library",
+        "Internal Storage",
+        "Temporary Storage"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "One shared preferences file is needed for an app. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The shared preferences file is named with the package name of the app. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Where should the shared preferences file be initialized?",
+      "answer": "onCreate()",
+      "choices": [
+        "getFilesDir()",
+        "apply()",
+        "onCreate()",
+        "Room Persistence Library"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which interface is used for modifying values in a SharedPreferences object?",
+      "answer": "SharedPreferences.Editor",
+      "choices": [
+        "Room Persistence Library",
+        "apply()",
+        "SharedPreferences.Editor",
+        "getCacheDir()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method is used to commit changes to a SharedPreferences file?",
+      "answer": "apply()",
+      "choices": [
+        "getFilesDir()",
+        "apply()",
+        "Preferences API",
+        "putInt()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What database engine is one of the most widely deployed in the world?",
+      "answer": "SQLite",
+      "choices": [
+        "SQLite",
+        "SQLiteDatabase",
+        "rawQuery()",
+        "Cursor"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What database engine's source code is in the public domain?",
+      "answer": "SQLite",
+      "choices": [
+        "SQLite",
+        "Serverless",
+        "Transactional",
+        "Cursor"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which engine implements an SQL database engine?",
+      "answer": "SQLite",
+      "choices": [
+        "SQLiteDatabase",
+        "SQLite",
+        "Cursor",
+        "rawQuery()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What characteristic of SQLite means it requires no other components?",
+      "answer": "Self-contained",
+      "choices": [
+        "Serverless",
+        "Zero-configuration",
+        "Self-contained",
+        "Cursor"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which characteristic of SQLite means it requires no server backend?",
+      "answer": "Serverless",
+      "choices": [
+        "Self-contained",
+        "Serverless",
+        "Transactional",
+        "SQLiteDatabase"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which characteristic of SQLite means it doesn’t need to be configured for your app?",
+      "answer": "Zero-configuration",
+      "choices": [
+        "Self-contained",
+        "Transactional",
+        "Zero-configuration",
+        "rawQuery()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What SQLite characteristic ensures changes in a transaction either occur completely or not at all?",
+      "answer": "Transactional",
+      "choices": [
+        "Transactional",
+        "rawQuery()",
+        "Zero-configuration",
+        "Cursor"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What class has methods to execute SQL commands and perform common database management tasks in SQLite?",
+      "answer": "SQLiteDatabase",
+      "choices": [
+        "SQLite",
+        "SQLiteDatabase",
+        "rawQuery()",
+        "Cursor"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method in SQLite runs the provided SQL statement and returns a Cursor of the result set?",
+      "answer": "rawQuery()",
+      "choices": [
+        "Cursor",
+        "rawQuery()",
+        "SQLiteDatabase",
+        "Self-contained"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does the rawQuery() method return?",
+      "answer": "Cursor",
+      "choices": [
+        "rawQuery()",
+        "Serverless",
+        "Cursor",
+        "Transactional"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is used as a pointer to a table row in SQLite?",
+      "answer": "Cursor",
+      "choices": [
+        "rawQuery()",
+        "Transactional",
+        "Self-contained",
+        "Cursor"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}

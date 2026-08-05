@@ -632,11 +632,22 @@
 }
 
 .Subwindows{
+    
 }
 
 .Subwindow{
     border-radius: 10px;
     background-color: var(--SAP-Main-BG-Color);
+    padding: 0px;
+    margin: 75px;
+}
+
+.Subwindow_TitleBar, .Subwindow_Content_Bottom{
+    margin: 15px;
+}
+
+.Subwindow_Content{
+    padding: 25px;
 }
 
 .Modal_HasImage{

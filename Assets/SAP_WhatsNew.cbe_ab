@@ -9,9 +9,26 @@
   },
   "Contents": [
     {
-      "Type": "Bulleted_List",
-      "Header": "3 June 2025 Update",
-      "Content": "Sorry na, inayos ko na para sayo. Mapapatawad mo pa ba ako?"
+      "Type": "Primary_Title",
+      "Content": "Student Leveling is now open for Beta!"
+    },
+    {
+      "Type": "Image",
+      "Source": "https://i.imgur.com/8IOahbx.png",
+      "Description": "",
+      "Credits": ""
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "Visit the spiritual successor to SAP <a href='https://student-leveling.online' target='_blank'><u>here!</u></a>'<br><b><i>Spiritual???</i></b>"
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "<br>"
+    },
+    {
+      "Type": "Paragraph",
+      "Content": "SAP will no longer be maintained. Visit Student Leveling instead. Thanks for visiting!"
     }
   ]
 }

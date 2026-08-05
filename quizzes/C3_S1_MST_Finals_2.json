@@ -1,0 +1,2573 @@
+{
+  "quizInfo": {
+    "Subject": "Mobile Systems and Technologies",
+    "Term": "Finals",
+    "Title": "May your journey forever be peaceful, and your schemes forever concealed.",
+    "LastModified": "4 June 2025",
+    "Authors": [
+      "Alexander Oro",
+      "Elmer Felisilda"
+    ],
+    "References": [
+
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What benefit of mobile apps allows users to access and share information anytime, anywhere?",
+      "answer": "Convenience",
+      "choices": [
+        "Security",
+        "Personalization",
+        "Productivity",
+        "Convenience"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which benefit is exemplified by a user accessing information without an internet connection?",
+      "answer": "Convenience",
+      "choices": [
+        "Security",
+        "Personalization",
+        "Productivity",
+        "Convenience"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which benefit allows a user to change the settings of the mobile app based on their preferences?",
+      "answer": "Personalization",
+      "choices": [
+        "Productivity",
+        "Convenience",
+        "Accessibility",
+        "Personalization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which benefit enables users to receive notifications in real-time?",
+      "answer": "Personalization",
+      "choices": [
+        "Productivity",
+        "Convenience",
+        "Responsiveness",
+        "Personalization"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Users can write, read, and present reports using only their mobile phones. Which benefit does this describe?",
+      "answer": "Productivity",
+      "choices": [
+        "Convenience",
+        "Personalization",
+        "Accessibility",
+        "Productivity"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which benefit allows users to manage multimedia files and share them on social media?",
+      "answer": "Productivity",
+      "choices": [
+        "Convenience",
+        "Personalization",
+        "Content Creation",
+        "Productivity"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a programming environment that has been packaged as an application program?",
+      "answer": "IDE",
+      "choices": [
+        "SDK",
+        "API",
+        "GUI",
+        "IDE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What does IDE stand for?",
+      "answer": " ",
+      "choices": [
+        "Integrated Development Environment",
+        "Interactive Debugging Environment",
+        "Internal Design Engine",
+        "IDE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of an IDE allows developers to write and edit code?",
+      "answer": "IDE",
+      "choices": [
+        "Code Editor",
+        "Compiler",
+        "Debugger",
+        "IDE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of an IDE transforms code into a format understandable by the device?",
+      "answer": "IDE",
+      "choices": [
+        "Code Editor",
+        "Compiler",
+        "Debugger",
+        "IDE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of an IDE helps identify and fix errors in the code?",
+      "answer": "IDE",
+      "choices": [
+        "Code Editor",
+        "Compiler",
+        "Debugger",
+        "IDE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What component of an IDE facilitates the creation of user interfaces?",
+      "answer": "IDE",
+      "choices": [
+        "Code Editor",
+        "Compiler",
+        "Debugger",
+        "IDE"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the official IDE for Android application development?",
+      "answer": "Android Studio",
+      "choices": [
+        "Xcode",
+        "Xamarin",
+        "Eclipse",
+        "Android Studio"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which IDE is based on IntelliJ IDEA?",
+      "answer": "Android Studio",
+      "choices": [
+        "Xcode",
+        "Eclipse",
+        "NetBeans",
+        "Android Studio"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which IDE allows users to build apps and run them directly on Apple devices?",
+      "answer": "Xcode",
+      "choices": [
+        "Android Studio",
+        "Xamarin",
+        "Corona",
+        "Xcode"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the programming language created by Apple for iOS, OS X, and watchOS development?",
+      "answer": "Swift",
+      "choices": [
+        "Objective-C",
+        "Java",
+        "Kotlin",
+        "Swift"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which IDE extends the.NET developer platform with tools and libraries for building cross-platform apps?",
+      "answer": "Xamarin",
+      "choices": [
+        "Android Studio",
+        "Xcode",
+        "Corona",
+        "Xamarin"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a free, cross-platform framework that uses Lua for creating mobile apps and games?",
+      "answer": "Corona",
+      "choices": [
+        "Xamarin",
+        "Xcode",
+        "Android Studio",
+        "Corona"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which scripting language is used by Corona?",
+      "answer": "Lua",
+      "choices": [
+        "Lua",
+        "Python",
+        "JavaScript",
+        "C++"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which open-source framework allows the use of HTML5, CSS3, and JavaScript for cross-platform development?",
+      "answer": "Apache Cordova",
+      "choices": [
+        "Xamarin",
+        "Xcode",
+        "Android Studio",
+        "Apache Cordova"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge in mobile app development involves studying the current market scenario?",
+      "answer": "Understanding the market and the user",
+      "choices": [
+        "Supporting multiple screen types",
+        "Maximizing app performance",
+        "Securing users",
+        "Understanding the market and the user"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge in mobile app development requires addressing the needs of target users?",
+      "answer": "Understanding the market and the user",
+      "choices": [
+        "Supporting multiple screen types",
+        "Maximizing app performance",
+        "Securing users",
+        "Understanding the market and the user"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge refers to the need to design for devices with different sizes and shapes?",
+      "answer": "Supporting multiple screen types",
+      "choices": [
+        "Understanding the market and the user",
+        "Maximizing app performance",
+        "Securing users",
+        "Supporting multiple screen types"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which challenge is influenced by factors like battery life?",
+      "answer": "Maximizing app performance",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Securing users",
+        "Maximizing app performance"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which challenge is impacted by the use of multimedia content in the app?",
+      "answer": "Maximizing app performance",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Securing users",
+        "Maximizing app performance"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which challenge is affected by the availability and speed of internet access?",
+      "answer": "Maximizing app performance",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Securing users",
+        "Maximizing app performance"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge highlights that users' data is the most valuable asset?",
+      "answer": "Securing users",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Maximizing app performance",
+        "Securing users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge requires protecting users' sensitive information at all times?",
+      "answer": "Securing users",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Maximizing app performance",
+        "Securing users"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge arises from the fact that not all users may have upgraded their devices?",
+      "answer": "Remaining compatible with older versions",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Maximizing app performance",
+        "Remaining compatible with older versions"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What challenge requires considering users who may not be able to upgrade their devices?",
+      "answer": "Remaining compatible with older versions",
+      "choices": [
+        "Understanding the market and the user",
+        "Supporting multiple screen types",
+        "Maximizing app performance",
+        "Remaining compatible with older versions"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which stage of app development do you install and set up your chosen IDE?",
+      "answer": "Setup",
+      "choices": [
+        "Development",
+        "Building and Running",
+        "Debugging, Profiling, and Testing",
+        "Setup"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which stage of app development do you create an emulator?",
+      "answer": "Setup",
+      "choices": [
+        "Development",
+        "Building and Running",
+        "Debugging, Profiling, and Testing",
+        "Setup"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which stage of app development do you connect hardware devices for testing?",
+      "answer": "Setup",
+      "choices": [
+        "Development",
+        "Building and Running",
+        "Debugging, Profiling, and Testing",
+        "Setup"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "During which stage do you write code for the app?",
+      "answer": "Development",
+      "choices": [
+        "Setup",
+        "Building and Running",
+        "Debugging, Profiling, and Testing",
+        "Development"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "During which stage do you design the user interface (UI)?",
+      "answer": "Development",
+      "choices": [
+        "Setup",
+        "Building and Running",
+        "Debugging, Profiling, and Testing",
+        "Development"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "During which stage do you create resources for different device types?",
+      "answer": "Development",
+      "choices": [
+        "Setup",
+        "Building and Running",
+        "Debugging, Profiling, and Testing",
+        "Development"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which stage do you build your project into a package that can be installed and run?",
+      "answer": "Building and Running",
+      "choices": [
+        "Setup",
+        "Development",
+        "Debugging, Profiling, and Testing",
+        "Building and Running"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which stage involves installing and running the app on an emulator or Android device?",
+      "answer": "Building and Running",
+      "choices": [
+        "Setup",
+        "Development",
+        "Debugging, Profiling, and Testing",
+        "Building and Running"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which stage focuses on eliminating bugs in the app?",
+      "answer": "Debugging, Profiling, and Testing",
+      "choices": [
+        "Setup",
+        "Development",
+        "Building and Running",
+        "Debugging, Profiling, and Testing"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which stage involves optimizing app performance?",
+      "answer": "Debugging, Profiling, and Testing",
+      "choices": [
+        "Setup",
+        "Development",
+        "Building and Running",
+        "Debugging, Profiling, and Testing"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is another term for optimizing app performance?",
+      "answer": "Profiling",
+      "choices": [
+        "Profiling",
+        "Debugging",
+        "Setup",
+        "Debugging, Profiling, and Testing"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which stage is the app configured for release?",
+      "answer": "Publishing",
+      "choices": [
+        "Setup",
+        "Development",
+        "Building and Running",
+        "Publishing"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "In which stage is the app built for release and distributed to users?",
+      "answer": "Publishing",
+      "choices": [
+        "Setup",
+        "Development",
+        "Building and Running",
+        "Publishing"
+      ],
+      "reference": "01 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which programming language is close to C# and Java, making it easy for programmers to switch between them?",
+      "answer": "C++",
+      "choices": [
+        "Kotlin",
+        "Swift",
+        "Python",
+        "C++"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which programming language is the official language for iOS development?",
+      "answer": "Swift",
+      "choices": [
+        "Kotlin",
+        "C++",
+        "Java",
+        "Swift"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which language combines object-oriented and functional programming features?",
+      "answer": "Kotlin",
+      "choices": [
+        "Java",
+        "C++",
+        "Swift",
+        "Kotlin"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which keyword in Kotlin is used to declare variables that never change their value?",
+      "answer": "val",
+      "choices": [
+        "var",
+        "const",
+        "let",
+        "val"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which keyword in Kotlin is used to declare variables whose values can change?",
+      "answer": "var",
+      "choices": [
+        "val",
+        "let",
+        "mutable",
+        "var"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the entry point for interacting with the user in an Android app?",
+      "answer": "Activity",
+      "choices": [
+        "Service",
+        "Broadcast Receiver",
+        "Content Provider",
+        "Activity"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What represents a single screen with a user interface in an Android app?",
+      "answer": "Activity",
+      "choices": [
+        "Service",
+        "Broadcast Receiver",
+        "Content Provider",
+        "Activity"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an example of an Activity in an Android app?",
+      "answer": "Activity",
+      "choices": [
+        "Playing music in the background",
+        "Showing a list of new emails",
+        "Responding to a low battery notification",
+        "Activity"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What runs in the background to perform long-running operations in an Android app?",
+      "answer": "Service",
+      "choices": [
+        "Activity",
+        "Broadcast Receiver",
+        "Content Provider",
+        "Service"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an example of a Service in an Android app?",
+      "answer": "Service",
+      "choices": [
+        "Displaying a list of contacts",
+        "Playing music in the background",
+        "Sending a text message",
+        "Service"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What enables the system to deliver events to the app outside of a regular user flow?",
+      "answer": "Broadcast receiver",
+      "choices": [
+        "Activity",
+        "Service",
+        "Content Provider",
+        "Broadcast receiver"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an example of a Broadcast Receiver in an Android app?",
+      "answer": "Broadcast receiver",
+      "choices": [
+        "Receiving a new email",
+        "Downloading a file",
+        "Responding to a low battery notification",
+        "Broadcast receiver"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What manages a shared set of app data that can be stored and accessed within the app?",
+      "answer": "Content provider",
+      "choices": [
+        "Activity",
+        "Service",
+        "Broadcast Receiver",
+        "Content provider"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is an example of a Content Provider in an Android app?",
+      "answer": "Content provider",
+      "choices": [
+        "Taking a picture with the camera",
+        "Managing the user's contact information",
+        "Displaying a notification",
+        "Content provider"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the messages that activate app components like activities, services, and broadcast receivers?",
+      "answer": "intents",
+      "choices": [
+        "Threads",
+        "Events",
+        "Notifications",
+        "intents"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is a message defined by an Intent object that describes an action to perform?",
+      "answer": "intent",
+      "choices": [
+        "Activity",
+        "Service",
+        "Broadcast Receiver",
+        "intent"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What file details the components that exist in an Android app?",
+      "answer": "Manifest file",
+      "choices": [
+        "Layout file",
+        "Resource file",
+        "Gradle file",
+        "Manifest file"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What is the root element of the AndroidManifest.xml file?",
+      "answer": "manifest",
+      "choices": [
+        "application",
+        "activity",
+        "service",
+        "manifest"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element contains sub-elements that declare each of the application's components?",
+      "answer": "application",
+      "choices": [
+        "manifest",
+        "activity",
+        "service",
+        "application"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the required elements in the manifest file?",
+      "answer": "manifest",
+      "choices": [
+        "application",
+        "activity",
+        "service",
+        "manifest"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What are the required elements in the manifest file?",
+      "answer": "application",
+      "choices": [
+        "manifest",
+        "activity",
+        "service",
+        "application"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Which element must be the last element inside the manifest element?",
+      "answer": "application",
+      "choices": [
+        "activity",
+        "service",
+        "service",
+        "application"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "Where are the default icon and label for each of the app's components set?",
+      "answer": "application",
+      "choices": [
+        "manifest",
+        "activity",
+        "service",
+        "application"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to declare an Activity in the manifest file?",
+      "answer": "activity",
+      "choices": [
+        "service",
+        "receiver",
+        "provider",
+        "activity"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to declare a Service in the manifest file?",
+      "answer": "service",
+      "choices": [
+        "activity",
+        "receiver",
+        "provider",
+        "service"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to declare a BroadcastReceiver in the manifest file?",
+      "answer": "receiver",
+      "choices": [
+        "activity",
+        "receiver",
+        "provider",
+        "application"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element is used to declare a ContentProvider in the manifest file?",
+      "answer": "provider",
+      "choices": [
+        "activity",
+        "receiver",
+        "provider",
+        "application"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element specifies the types of intents an activity, service, or receiver can respond to?",
+      "answer": "intent-filter",
+      "choices": [
+        "action",
+        "category",
+        "data",
+        "intent-filter"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element adds an action to an intent filter?",
+      "answer": "action",
+      "choices": [
+        "intent-filter",
+        "application",
+        "manifest",
+        "action"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What element adds a category name to an intent filter?",
+      "answer": "category",
+      "choices": [
+        "intent-filter",
+        "application",
+        "manifest",
+        "category"
+      ],
+      "reference": "02 Handout 1",
+      "term": "Prelims"
+    },
+    {
+      "question": "What represents a single screen where the user can perform a focused task?",
+      "answer": "activity",
+      "choices": [
+        "intent",
+        "fragment",
+        "view",
+        "activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is usually presented as a full-screen window for user interaction?",
+      "answer": "activity",
+      "choices": [
+        "service",
+        "content provider",
+        "broadcast receiver",
+        "activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component in an app requires an associated XML layout file?",
+      "answer": "activity",
+      "choices": [
+        "service",
+        "intent",
+        "fragment",
+        "activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component must be declared in the AndroidManifest.xml file?",
+      "answer": "activity",
+      "choices": [
+        "intent",
+        "service",
+        "fragment",
+        "activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component is presented first when the app is launched?",
+      "answer": "main activity",
+      "choices": [
+        "background service",
+        "intent",
+        "fragment",
+        "main activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component can initiate other activity to perform different actions?",
+      "answer": "main activity",
+      "choices": [
+        "content provider",
+        "broadcast receiver",
+        "service",
+        "main activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term describes the set of states a activity can be in during its lifetime?",
+      "answer": "activity life cycle",
+      "choices": [
+        "activity stack",
+        "activity manager",
+        "activity thread",
+        "activity life cycle"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked when a activity is launched for the first time?",
+      "answer": "onCreate()",
+      "choices": [
+        "onStart()",
+        "onResume()",
+        "onDestroy()",
+        "onCreate()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "It happens only once for the entire life of the acitivity.",
+      "answer": "onCreate()",
+      "choices": [
+        "onStart()",
+        "onResume()",
+        "onPause()",
+        "onCreate()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked before a activity becomes visible to the user?",
+      "answer": "onStart()",
+      "choices": [
+        "onCreate()",
+        "onPause()",
+        "onDestroy()",
+        "onStart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onResume() if the activity comes to the foreground?",
+      "answer": "onStart()",
+      "choices": [
+        "onPause()",
+        "onStop()",
+        "onDestroy()",
+        "onStart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onStop() if the acitivity becomes hidden?",
+      "answer": "onStart()",
+      "choices": [
+        "onPause()",
+        "onDestroy()",
+        "onResume()",
+        "onStart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked before a component starts interacting with the user?",
+      "answer": "onResume()",
+      "choices": [
+        "onPause()",
+        "onStop()",
+        "onDestroy()",
+        "onResume()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked when another activity is about to resume?",
+      "answer": "onPause()",
+      "choices": [
+        "onResume()",
+        "onStop()",
+        "onRestart()",
+        "onPause()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onResume() if the activity returns to the foreground?",
+      "answer": "onPause()",
+      "choices": [
+        "onStop()",
+        "onDestroy()",
+        "onStart()",
+        "onPause()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onStop() if the activity becomes invisible?",
+      "answer": "onPause()",
+      "choices": [
+        "onStart()",
+        "onResume()",
+        "onDestroy()",
+        "onPause()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is called when a activity is no longer visible?",
+      "answer": "onStop()",
+      "choices": [
+        "onPause()",
+        "onDestroy()",
+        "onResume()",
+        "onStop()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onRestart() if the activity is coming back to interact with the user?",
+      "answer": "onStop()",
+      "choices": [
+        "onPause()",
+        "onResume()",
+        "onDestroy()",
+        "onStop()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is followed by onDestroy() if the activity is about to end?",
+      "answer": "onStop()",
+      "choices": [
+        "onRestart()",
+        "onPause()",
+        "onResume()",
+        "onStop()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked when a activity is about to be dismissed from memory?",
+      "answer": "onDestroy()",
+      "choices": [
+        "onPause()",
+        "onStop()",
+        "onStart()",
+        "onDestroy()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is invoked when a activity comes back after being stopped?",
+      "answer": "onRestart()",
+      "choices": [
+        "onResume()",
+        "onPause()",
+        "onStop()",
+        "onRestart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is always followed by onStart()?",
+      "answer": "onRestart()",
+      "choices": [
+        "onResume()",
+        "onPause()",
+        "onStop()",
+        "onRestart()"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is used to start or activate an activity?",
+      "answer": "Intents",
+      "choices": [
+        "activity",
+        "broadcast",
+        "fragment",
+        "Intents"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is an asynchronous message used in an activity to request an action from another activity?",
+      "answer": "Intents",
+      "choices": [
+        "Services",
+        "Fragments",
+        "Threads",
+        "Intents"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the activity that will receive the intent?",
+      "answer": "Target activity",
+      "choices": [
+        "Source activity",
+        "Foreground activity",
+        "Background activity",
+        "Target activity"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What contains a reference to the data the receiving activity will operate on?",
+      "answer": "Intent data",
+      "choices": [
+        "Intent extras",
+        "Intent flags",
+        "Intent category",
+        "Intent data"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What carries information the receiving activity requires to accomplish the requested action?",
+      "answer": "Intent extras",
+      "choices": [
+        "Intent data",
+        "Intent action",
+        "Intent category",
+        "Intent extras"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What may instruct the Android system how to launch an activity or how to treat it after it's launched?",
+      "answer": "Intent flags",
+      "choices": [
+        "Intent data",
+        "Intent extras",
+        "Intent action",
+        "Intent flags"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of intent has an identified target activity by specifying the class name?",
+      "answer": "Explicit intent",
+      "choices": [
+        "Implicit intent",
+        "Broadcast intent",
+        "Pending intent",
+        "Explicit intent"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of intent does not specify the target activity but declares a general action to perform?",
+      "answer": "Implicit intent",
+      "choices": [
+        "Explicit intent",
+        "Broadcast intent",
+        "Pending intent",
+        "Implicit intent"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which attribute indicates that the main activity is the parent of the second activity?",
+      "answer": "parentActivityName",
+      "choices": [
+        "parentIntent",
+        "activityParent",
+        "mainParent",
+        "parentActivityName"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which attribute enables a left-facing arrow that allows the user to navigate from the current activity to its parent activity?",
+      "answer": "parentActivityName",
+      "choices": [
+        "parentIntent",
+        "activityParent",
+        "mainParent",
+        "parentActivityName"
+      ],
+      "reference": "03 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What defines the structure for an app's user interface?",
+      "answer": "layout",
+      "choices": [
+        "View",
+        "ViewGroup",
+        "notification",
+        "layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which invisible container defines the layout structure for View and other objects?",
+      "answer": "ViewGroup",
+      "choices": [
+        "View",
+        "layout",
+        "Frame Layout",
+        "ViewGroup"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What draws something the user can see and interact with?",
+      "answer": "View",
+      "choices": [
+        "ViewGroup",
+        "Constraint Layout",
+        "Web View",
+        "View"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method separates the presentation of the app from the code that controls its behavior?",
+      "answer": "Declare UI elements in XML",
+      "choices": [
+        "Instantiate layout elements at runtime",
+        "Constraint Layout",
+        "Linear Layout",
+        "Declare UI elements in XML"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method allows View and ViewGroup objects to be created and manipulated programmatically?",
+      "answer": "Instantiate layout elements at runtime",
+      "choices": [
+        "Declare UI elements in XML",
+        "Frame Layout",
+        "Table Layout",
+        "Instantiate layout elements at runtime"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What provides an interface to global information about an application environment?",
+      "answer": "Context",
+      "choices": [
+        "ViewGroup",
+        "layout",
+        "notification",
+        "Context"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property sets the size of a view to the dimensions required by its content?",
+      "answer": "wrap_content",
+      "choices": [
+        "match_parent",
+        "width and height",
+        "ViewGroup",
+        "wrap_content"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property sets a view to be as big as its parent view allows?",
+      "answer": "match_parent",
+      "choices": [
+        "wrap_content",
+        "width and height",
+        "Constraint Layout",
+        "match_parent"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout creates large and complex layouts with a flat view hierarchy?",
+      "answer": "Constraint Layout",
+      "choices": [
+        "Linear Layout",
+        "Relative Layout",
+        "Grid Layout",
+        "Constraint Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout organizes its child view elements into a single horizontal or vertical row?",
+      "answer": "Linear Layout",
+      "choices": [
+        "Relative Layout",
+        "Constraint Layout",
+        "Frame Layout",
+        "Linear Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout specifies the location of child objects relative to each other or the parent?",
+      "answer": "Relative Layout",
+      "choices": [
+        "Linear Layout",
+        "Grid Layout",
+        "Table Layout",
+        "Relative Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout is used for displaying web pages?",
+      "answer": "Web View",
+      "choices": [
+        "Constraint Layout",
+        "Relative Layout",
+        "Grid Layout",
+        "Web View"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout is designed to block out an area on the screen to display a single item?",
+      "answer": "Frame Layout",
+      "choices": [
+        "Table Layout",
+        "Grid Layout",
+        "Linear Layout",
+        "Frame Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout arranges its child objects into rows and columns?",
+      "answer": "Table Layout",
+      "choices": [
+        "Grid Layout",
+        "Relative Layout",
+        "Frame Layout",
+        "Table Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which layout arranges its child objects in a rectangular grid that can be scrolled?",
+      "answer": "Grid Layout",
+      "choices": [
+        "Table Layout",
+        "Relative Layout",
+        "Constraint Layout",
+        "Grid Layout"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a message that Android displays outside the app's UI for reminders or alerts?",
+      "answer": "notification",
+      "choices": [
+        "dialog",
+        "toast",
+        "snackbar",
+        "notification"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component allows viewing more details and taking actions with a notification?",
+      "answer": "notification drawer",
+      "choices": [
+        "app bar",
+        "dialog",
+        "menu",
+        "notification drawer"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component provides a visual structure and interactive elements for user navigation?",
+      "answer": "app bar",
+      "choices": [
+        "dialog",
+        "toast",
+        "Frame Layout",
+        "app bar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which part of the UI provides important actions like search and navigation?",
+      "answer": "action bar",
+      "choices": [
+        "notification drawer",
+        "menu",
+        "toast",
+        "action bar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component provides simple feedback about an operation in a small popup?",
+      "answer": "toast",
+      "choices": [
+        "snackbar",
+        "dialog",
+        "notification",
+        "toast"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component provides a quick pop-up message to the user?",
+      "answer": "snackbar",
+      "choices": [
+        "toast",
+        "dialog",
+        "notification",
+        "snackbar"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component is a small window that prompts the user for a decision or input?",
+      "answer": "dialog",
+      "choices": [
+        "toast",
+        "snackbar",
+        "menu",
+        "dialog"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which UI component presents user actions and other options in an app's activities?",
+      "answer": "menu",
+      "choices": [
+        "dialog",
+        "toast",
+        "notification",
+        "menu"
+      ],
+      "reference": "04 Handout 1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What involves tapping, typing, using gestures, or talking in mobile apps?",
+      "answer": "Input Controls",
+      "choices": [
+        "Input Controls",
+        "Touch Gesture",
+        "Text Field",
+        "Action Button"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are used in the app’s UI to accept data input from the user?",
+      "answer": "Input Controls",
+      "choices": [
+        "Clickable Images",
+        "EditText",
+        "Input Controls",
+        "Button"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a rectangle or rounded rectangle with a caption or icon in its center?",
+      "answer": "button",
+      "choices": [
+        "imageView",
+        "button",
+        "textField",
+        "layout"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What element can have only text, only icon, or both in Android XML?",
+      "answer": "button",
+      "choices": [
+        "flat button",
+        "imageView",
+        "button",
+        "gesture"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What Android element includes android:src with a drawable to show only an icon?",
+      "answer": "ImageButton",
+      "choices": [
+        "ImageView",
+        "EditText",
+        "ImageButton",
+        "iconDrawable"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What shows an image and adds functionality when android:onClick is added?",
+      "answer": "ImageView",
+      "choices": [
+        "ImageButton",
+        "drawableLeft",
+        "ImageView",
+        "FAB"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What must be used as the image file location to work with an ImageView?",
+      "answer": "app > src > main > res > drawable",
+      "choices": [
+        "res > layout",
+        "drawable > src",
+        "app > src > main > res > drawable",
+        "xml > assets"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a circular button that appears to float above the layout?",
+      "answer": "floating action button",
+      "choices": [
+        "imageView",
+        "floating action button",
+        "edit field",
+        "layoutGroup"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What element includes android.support.design.widget.FloatingActionButton in its declaration?",
+      "answer": "floating action button",
+      "choices": [
+        "floating action button",
+        "input control",
+        "icon drawable",
+        "text field"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What happens when a user places fingers on the touchscreen to perform a recognized pattern?",
+      "answer": "touch gesture",
+      "choices": [
+        "click input",
+        "touch gesture",
+        "tap listener",
+        "layout click"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What are the three visual states of a button element?",
+      "answer": "normal, disabled, pressed",
+      "choices": [
+        "idle, active, visible",
+        "normal, disabled, pressed",
+        "pressed, hidden, faded",
+        "up, down, lock"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What button appears lifted from the screen with shading?",
+      "answer": "raised button",
+      "choices": [
+        "flat button",
+        "raised button",
+        "icon button",
+        "default button"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What button looks flat and has no shadow, used as a text-only option?",
+      "answer": "flat button",
+      "choices": [
+        "raised button",
+        "flat button",
+        "pressable button",
+        "null view"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What field is used for entering and modifying text in Android apps?",
+      "answer": "EditText",
+      "choices": [
+        "EditText",
+        "TextField",
+        "IconButton",
+        "ViewControl"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is used for selecting one or more options in Android UI?",
+      "answer": "check box",
+      "choices": [
+        "radio button",
+        "spinner",
+        "check box",
+        "switch"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What restricts the user to select only one option from a set?",
+      "answer": "radio button",
+      "choices": [
+        "check box",
+        "spinner",
+        "radio button",
+        "toggle button"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What drop-down menu allows only one item to be selected at a time?",
+      "answer": "spinner",
+      "choices": [
+        "switch",
+        "check box",
+        "spinner",
+        "toggle button"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What uses android:entries=\"@array/language_array\" to populate items?",
+      "answer": "spinner",
+      "choices": [
+        "string",
+        "spinner",
+        "dropper",
+        "menuSelector"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What code retrieves the selected value from a drop-down list in String format?",
+      "answer": "String text = mySpinner.getSelectedItem().toString();",
+      "choices": [
+        "int status = mySeekBar.getProgress();",
+        "onRadioButtonClicked()",
+        "setOnClickListener",
+        "String text = mySpinner.getSelectedItem().toString();"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What widget lets the user change a setting between two states?",
+      "answer": "toggle button",
+      "choices": [
+        "radio button",
+        "switch",
+        "toggle button",
+        "alert button"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a type of toggle control that uses a slider and is available for Android 4.0+?",
+      "answer": "switch",
+      "choices": [
+        "spinner",
+        "SeekBar",
+        "toggle button",
+        "switch"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What control is dragged left or right to indicate progress?",
+      "answer": "SeekBar",
+      "choices": [
+        "switch",
+        "SeekBar",
+        "slider",
+        "listView"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What line of code gets the value of a progress bar in an integer format?",
+      "answer": "int status = mySeekBar.getProgress();",
+      "choices": [
+        "int value = 100;",
+        "int status = mySeekBar.getProgress();",
+        "String getProgress();",
+        "float status = getValue();"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What input type is used to visually show and store progress levels?",
+      "answer": "SeekBar",
+      "choices": [
+        "toggle button",
+        "SeekBar",
+        "radio button",
+        "drop-down bar"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What occurs when the user interacts with an input control or item in the UI?",
+      "answer": "event",
+      "choices": [
+        "gesture",
+        "function",
+        "input",
+        "event"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is an interface in the View class that contains a single callback method?",
+      "answer": "event listener",
+      "choices": [
+        "callback",
+        "View class",
+        "event listener",
+        "motion gesture"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What will be triggered when the View to which the listener is registered is interacted with?",
+      "answer": "event listener",
+      "choices": [
+        "sensor manager",
+        "method override",
+        "event listener",
+        "event output"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the method called when a user either touches or focuses on a view?",
+      "answer": "onClick",
+      "choices": [
+        "onKey",
+        "onTouch",
+        "onClick",
+        "onLongClick"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What interface is associated with the method used when a user taps or focuses on an item?",
+      "answer": "OnClickListener",
+      "choices": [
+        "OnTouchListener",
+        "OnClickListener",
+        "ViewListener",
+        "EventListener"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is called when the user touches or focuses on a view for a second?",
+      "answer": "onLongClick",
+      "choices": [
+        "onClick",
+        "onLongClick",
+        "onKey",
+        "onTouch"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What interface supports the method triggered when the user touches or focuses on a view for a second?",
+      "answer": "OnLongClickListener",
+      "choices": [
+        "OnTouchListener",
+        "OnClickListener",
+        "OnLongClickListener",
+        "ViewHandler"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What method responds when a user presses or releases a hardware key?",
+      "answer": "onKey",
+      "choices": [
+        "onClick",
+        "onTouch",
+        "onKey",
+        "onLongClick"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What interface is associated with detecting hardware key presses?",
+      "answer": "OnKeyListener",
+      "choices": [
+        "KeyDetector",
+        "OnKeyListener",
+        "InputListener",
+        "KeyEventManager"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is triggered when a user performs any action qualified as a touch event?",
+      "answer": "onTouch",
+      "choices": [
+        "onLongClick",
+        "onTouch",
+        "onClick",
+        "onSwipe"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What interface is used for handling touch events including press, release, and gestures?",
+      "answer": "OnTouchListener",
+      "choices": [
+        "OnClickListener",
+        "OnTouchListener",
+        "InputHandler",
+        "ViewManager"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What two callback methods are commonly used by input controls?",
+      "answer": "onClick() and onTouch()",
+      "choices": [
+        "onClick() and onKey()",
+        "onTouch() and onLongClick()",
+        "onClick() and onTouch()",
+        "onLongClick() and onKey()"
+      ],
+      "reference": "05 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a graphic that can be drawn to the screen in an Android app?",
+      "answer": "drawable",
+      "choices": [
+        "layout",
+        "resource",
+        "drawable",
+        "textView"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is used for adding rich images to an app with minimal performance impact?",
+      "answer": "drawable class",
+      "choices": [
+        "view group",
+        "drawable class",
+        "imageView",
+        "bitmap manager"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a modern image format developed by Google for lossless and lossy compression?",
+      "answer": "WebP",
+      "choices": [
+        "WebP",
+        "PNG",
+        "GIF",
+        "BMP"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the image format referred to as PNG?",
+      "answer": "Portable Network Graphics",
+      "choices": [
+        "WebP",
+        "Portable Network Graphics",
+        "JPG",
+        "Graphic Interface"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the full name of the JPG format?",
+      "answer": "Joint Photographic Experts Group",
+      "choices": [
+        "Portable Network Group",
+        "Joint Photographic Experts Group",
+        "PNG",
+        "Google Raster Format"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What does the acronym GIF stand for in image formats?",
+      "answer": "Graphics Interchange Format",
+      "choices": [
+        "Graphics Image Format",
+        "Graphics Interchange Format",
+        "Joint Interlace Format",
+        "General Image Feed"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is the image format described as BMP?",
+      "answer": "Bitmap",
+      "choices": [
+        "WebP",
+        "PNG",
+        "Bitmap",
+        "Raster Format"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What folder path must the image file be saved in to use with ImageView?",
+      "answer": "app/src/main/res/drawable",
+      "choices": [
+        "app/res/images",
+        "src/res/layout",
+        "app/src/main/res/drawable",
+        "src/images/drawable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What element is used in XML to display a drawable resource on screen?",
+      "answer": "ImageView",
+      "choices": [
+        "Layout",
+        "DrawableView",
+        "ImageView",
+        "AssetViewer"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What class is used in Java to create an image view programmatically?",
+      "answer": "ImageView",
+      "choices": [
+        "Bitmap",
+        "ImageButton",
+        "ImageView",
+        "TextView"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What defines the look and format of a view or an entire app?",
+      "answer": "theme",
+      "choices": [
+        "style",
+        "format",
+        "layout",
+        "theme"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What can override the original text color or text size of a component?",
+      "answer": "theme",
+      "choices": [
+        "widget",
+        "margin",
+        "style",
+        "theme"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What is a collection of attributes that can be used as a theme or style?",
+      "answer": "theme",
+      "choices": [
+        "value set",
+        "item collection",
+        "theme",
+        "drawable"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What must be declared inside an &lt;application> element in the manifest to apply app-wide styling?",
+      "answer": "android:theme=\"@style/AppTheme\"",
+      "choices": [
+        "android:id",
+        "android:background",
+        "android:theme=\"@style/AppTheme\"",
+        "android:font"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What attribute is used to apply a theme inside an &lt;activity> tag in the manifest?",
+      "answer": "&lt;activity android:theme=\"@android:style/Theme.Dialog\">",
+      "choices": [
+        "&lt;layout theme>",
+        "&lt;style id>",
+        "&lt;activity android:theme=\"@android:style/Theme.Dialog\">",
+        "&lt;screen layout>"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What theme sample uses parent=\"Theme.AppCompat.Light.DarkActionBar\" and colorPrimary attributes?",
+      "answer": "AppTheme",
+      "choices": [
+        "AppTheme",
+        "BlueFont",
+        "DrawableTheme",
+        "DialogTheme"
+      ],
+      "reference": "06 Handout 1",
+      "term": "Pre-finals"
+    },
+    {
+      "question": "What data storage option uses key-value pairs that store primitive data?",
+      "answer": "Shared Preference",
+      "choices": [
+        "Shared Preference",
+        "SQLite Databases",
+        "Firebase Realtime Database",
+        "Room Persistence Library"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does KVP stand for in Shared Preference?",
+      "answer": "Key-Value Pair (KVP)",
+      "choices": [
+        "Firebase Realtime Database",
+        "Key-Value Pair (KVP)",
+        "Room Persistence Library",
+        "Shared Preferences File"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What data storage option uses device memory where private data is stored?",
+      "answer": "Internal Storage",
+      "choices": [
+        "External Storage",
+        "Internal Storage",
+        "Custom Data Store",
+        "Temporary Storage"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What storage option stores public data?",
+      "answer": "External Storage",
+      "choices": [
+        "Internal Storage",
+        "Cloud Backup",
+        "External Storage",
+        "Room Persistence Library"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What data storage option uses private databases to store structured data?",
+      "answer": "SQLite Databases",
+      "choices": [
+        "Room Persistence Library",
+        "SQLite Databases",
+        "Shared Preferences File",
+        "Cloud Backup"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What library caches an SQLite Database locally and syncs changes to a network database?",
+      "answer": "Room Persistence Library",
+      "choices": [
+        "Firebase Realtime Database",
+        "Room Persistence Library",
+        "Internal Storage",
+        "Shared Preference"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What data storage option saves user data in the cloud?",
+      "answer": "Cloud Backup",
+      "choices": [
+        "Custom Data Store",
+        "Cloud Backup",
+        "Internal Storage",
+        "External Storage"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What data storage option stores and syncs data with a NoSQL cloud database?",
+      "answer": "Firebase Realtime Database",
+      "choices": [
+        "Room Persistence Library",
+        "Firebase Realtime Database",
+        "Shared Preference",
+        "SQLite Databases"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What database syncs data across all clients in real time and remains available offline?",
+      "answer": "Firebase Realtime Database",
+      "choices": [
+        "Internal Storage",
+        "SQLite Databases",
+        "Firebase Realtime Database",
+        "Room Persistence Library"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What data storage option stores preferences in a specific storage location using Preferences API?",
+      "answer": "Custom Data Store",
+      "choices": [
+        "Shared Preference",
+        "Shared Preferences File",
+        "Custom Data Store",
+        "Key-Value Pair (KVP)"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What API manages the user interface and interacts with storage in Custom Data Store?",
+      "answer": "Preferences API",
+      "choices": [
+        "SharedPreferences.Editor",
+        "Preferences API",
+        "Cloud Backup",
+        "apply()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which type of storage is always available and private to the app?",
+      "answer": "Internal Storage",
+      "choices": [
+        "External Storage",
+        "Internal Storage",
+        "getFilesDir()",
+        "Room Persistence Library"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which type of storage is not always available and can be accessed by any app?",
+      "answer": "External Storage",
+      "choices": [
+        "Firebase Realtime Database",
+        "Shared Preferences File",
+        "Room Persistence Library",
+        "External Storage"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method returns the absolute path where files created are stored for permanent storage?",
+      "answer": "getFilesDir()",
+      "choices": [
+        "getCacheDir()",
+        "onCreate()",
+        "getFilesDir()",
+        "apply()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method returns the absolute path to the application-specific cache directory?",
+      "answer": "getCacheDir()",
+      "choices": [
+        "getFilesDir()",
+        "Shared Preference",
+        "getCacheDir()",
+        "onCreate()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which storage type is recommended for small, temporary files under 1MB?",
+      "answer": "Temporary Storage",
+      "choices": [
+        "Shared Preference",
+        "Temporary Storage",
+        "Room Persistence Library",
+        "Firebase Realtime Database"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which storage type may have files deleted automatically as disk space is needed elsewhere?",
+      "answer": "Temporary Storage",
+      "choices": [
+        "Firebase Realtime Database",
+        "Room Persistence Library",
+        "Internal Storage",
+        "Temporary Storage"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "One shared preferences file is needed for an app. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL",
+        "-",
+        "-"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "The shared preferences file is named with the package name of the app. (TR or FL)",
+      "answer": "TR",
+      "choices": [
+        "TR",
+        "FL",
+        "-",
+        "-"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Where should the shared preferences file be initialized?",
+      "answer": "onCreate()",
+      "choices": [
+        "getFilesDir()",
+        "apply()",
+        "onCreate()",
+        "Room Persistence Library"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which interface is used for modifying values in a SharedPreferences object?",
+      "answer": "SharedPreferences.Editor",
+      "choices": [
+        "Room Persistence Library",
+        "apply()",
+        "SharedPreferences.Editor",
+        "getCacheDir()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method is used to commit changes to a SharedPreferences file?",
+      "answer": "apply()",
+      "choices": [
+        "getFilesDir()",
+        "apply()",
+        "Preferences API",
+        "putInt()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What database engine is one of the most widely deployed in the world?",
+      "answer": "SQLite",
+      "choices": [
+        "SQLite",
+        "SQLiteDatabase",
+        "rawQuery()",
+        "Cursor"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What database engine's source code is in the public domain?",
+      "answer": "SQLite",
+      "choices": [
+        "SQLite",
+        "Serverless",
+        "Transactional",
+        "Cursor"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which engine implements an SQL database engine?",
+      "answer": "SQLite",
+      "choices": [
+        "SQLiteDatabase",
+        "SQLite",
+        "Cursor",
+        "rawQuery()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What characteristic of SQLite means it requires no other components?",
+      "answer": "Self-contained",
+      "choices": [
+        "Serverless",
+        "Zero-configuration",
+        "Self-contained",
+        "Cursor"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which characteristic of SQLite means it requires no server backend?",
+      "answer": "Serverless",
+      "choices": [
+        "Self-contained",
+        "Serverless",
+        "Transactional",
+        "SQLiteDatabase"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which characteristic of SQLite means it doesn’t need to be configured for your app?",
+      "answer": "Zero-configuration",
+      "choices": [
+        "Self-contained",
+        "Transactional",
+        "Zero-configuration",
+        "rawQuery()"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What SQLite characteristic ensures changes in a transaction either occur completely or not at all?",
+      "answer": "Transactional",
+      "choices": [
+        "Transactional",
+        "rawQuery()",
+        "Zero-configuration",
+        "Cursor"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What class has methods to execute SQL commands and perform common database management tasks in SQLite?",
+      "answer": "SQLiteDatabase",
+      "choices": [
+        "SQLite",
+        "SQLiteDatabase",
+        "rawQuery()",
+        "Cursor"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method in SQLite runs the provided SQL statement and returns a Cursor of the result set?",
+      "answer": "rawQuery()",
+      "choices": [
+        "Cursor",
+        "rawQuery()",
+        "SQLiteDatabase",
+        "Self-contained"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What does the rawQuery() method return?",
+      "answer": "Cursor",
+      "choices": [
+        "rawQuery()",
+        "Serverless",
+        "Cursor",
+        "Transactional"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    },
+    {
+      "question": "What is used as a pointer to a table row in SQLite?",
+      "answer": "Cursor",
+      "choices": [
+        "rawQuery()",
+        "Transactional",
+        "Self-contained",
+        "Cursor"
+      ],
+      "reference": "07 Handout 1",
+      "term": "Finals"
+    }
+  ]
+}
