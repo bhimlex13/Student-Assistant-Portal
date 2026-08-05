@@ -1,0 +1,561 @@
+{
+  "quizInfo": {
+    "Subject": "Java Programming",
+    "Term": "Finals",
+    "Title": "Advanced Java & OOP: Code Analysis and Execution Outputs (45 Questions)",
+    "Description": "Review focusing strictly on code snippets, execution outputs, and Java Collections.",
+    "LastModified": "2026-08-06",
+    "Authors": [
+      "Alexander Oro",
+      "Gemini"
+    ],
+    "References": [
+      "Reviewer for the Final Exams | First Semester | Day 1",
+      "Reviewer for the Final Exams | First Semester | Day 2",
+      "Reviewer for the Final Exams | Second Semester | Day 1",
+      "Java_Programming_Detailed_Reviewer.pdf"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the result of explicit narrowing type casting in the following code snippet?\n\n```java\nfloat x = 6.82f;\nint a = (int) x;\nSystem.out.println(a);\n```",
+      "answer": "6",
+      "choices": [
+        "6",
+        "7",
+        "6.82",
+        "Compilation error"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 14)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be printed to the console given the modulus operator expression below?\n\n```java\nint x = 11, y = 3;\nSystem.out.println(x % y);\n```",
+      "answer": "2",
+      "choices": [
+        "2",
+        "3",
+        "3.67",
+        "0"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be printed by the following mixed arithmetic expression?\n\n```java\nSystem.out.println(25 / 2 * 2.0);\n```",
+      "answer": "24.0",
+      "choices": [
+        "24.0",
+        "25.0",
+        "24",
+        "25"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 18)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be printed by the following floating-point expression?\n\n```java\nSystem.out.println(25.0 / 2 * 2);\n```",
+      "answer": "25.0",
+      "choices": [
+        "25.0",
+        "24.0",
+        "25",
+        "24"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 18)",
+      "term": "Finals"
+    },
+    {
+      "question": "Evaluate the following code utilizing the Math class. What is the output?\n\n```java\nSystem.out.print(Math.max(12, 23.0));\n```",
+      "answer": "23.0",
+      "choices": [
+        "23.0",
+        "12",
+        "12.0",
+        "23"
+      ],
+      "reference": "Java_Programming_Detailed_Reviewer (1).pdf (Page 5)",
+      "term": "Finals"
+    },
+    {
+      "question": "Evaluate the following code utilizing the Math class. What is the output?\n\n```java\ndouble x = 9.0;\nSystem.out.println(Math.sqrt(x) + Math.abs(-5));\n```",
+      "answer": "8.0",
+      "choices": [
+        "8.0",
+        "3.0",
+        "14.0",
+        "8"
+      ],
+      "reference": "Java_Programming_Detailed_Reviewer (1).pdf (Page 5)",
+      "term": "Finals"
+    },
+    {
+      "question": "How does short-circuit evaluation affect the execution of this code?\n\n```java\nint a = 10, b = 5;\nif (a > 20 && ++b > 5) {\n    System.out.print(\"True \");\n}\nSystem.out.println(b);\n```",
+      "answer": "5",
+      "choices": [
+        "5",
+        "6",
+        "True 5",
+        "True 6"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 7)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be the final printed value of `num` after this loop executes?\n\n```java\nint num = 0;\nfor (int i = 0; i < 5; i++) {\n    if (i == 3) break;\n    num += i;\n}\nSystem.out.println(num);\n```",
+      "answer": "3",
+      "choices": [
+        "3",
+        "6",
+        "10",
+        "4"
+      ],
+      "reference": "[Day 1] RCl1-2ndSem-Final-Reviewer.pdf",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following nested loop?\n\n```java\nint count = 0;\nfor (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= 2; j++) {\n        count++;\n    }\n}\nSystem.out.println(count);\n```",
+      "answer": "6",
+      "choices": [
+        "6",
+        "5",
+        "9",
+        "3"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 28)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following `while` loop snippet?\n\n```java\nint k = 1;\nwhile (k < 10) {\n    k *= 2;\n}\nSystem.out.println(k);\n```",
+      "answer": "16",
+      "choices": [
+        "16",
+        "8",
+        "10",
+        "32"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 25)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following `switch` code due to fall-through?\n\n```java\nint day = 2;\nswitch (day) {\n    case 1: System.out.print(\"Mon \");\n    case 2: System.out.print(\"Tue \");\n    case 3: System.out.print(\"Wed \");\n        break;\n    default: System.out.print(\"Sun \");\n}\n```",
+      "answer": "Tue Wed",
+      "choices": [
+        "Tue Wed",
+        "Tue",
+        "Mon Tue Wed",
+        "Tue Wed Sun"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 24)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be printed when running this `do-while` loop?\n\n```java\nint count = 5;\ndo {\n    System.out.print(count + \" \");\n    count++;\n} while (count < 5);\n```",
+      "answer": "5",
+      "choices": [
+        "5",
+        "5 6",
+        "Nothing",
+        "Infinite loop"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 26)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is printed based on Java's pass-by-value behavior?\n\n```java\npublic class Main {\n    public static void modify(int x) {\n        x = 50;\n    }\n    public static void main(String[] args) {\n        int a = 10;\n        modify(a);\n        System.out.println(a);\n    }\n}\n```",
+      "answer": "10",
+      "choices": [
+        "10",
+        "50",
+        "0",
+        "Compilation error"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 5)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following recursive method call `factorial(4)`?\n\n```java\npublic static int factorial(int num) {\n    if (num == 0) return 1;\n    return num * factorial(num - 1);\n}\n```",
+      "answer": "24",
+      "choices": [
+        "24",
+        "12",
+        "6",
+        "4"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 44-45)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is printed by the recursive countdown method call `countdown(3)`?\n\n```java\npublic static void countdown(int num) {\n    if (num <= 0) {\n        System.out.print(\"End\");\n    } else {\n        System.out.print(num + \" \");\n        countdown(num - 1);\n    }\n}\n```",
+      "answer": "3 2 1 End",
+      "choices": [
+        "3 2 1 End",
+        "3 2 1 0 End",
+        "End 1 2 3",
+        "3 2 1"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 45-46)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the recursive decimal-to-binary method `decToBin(13)`?\n\n```java\npublic static void decToBin(int num) {\n    if (num == 0) {\n        System.out.print(0);\n    } else if (num > 0) {\n        decToBin(num / 2);\n        System.out.print(num % 2);\n    }\n}\n```",
+      "answer": "01101",
+      "choices": [
+        "01101",
+        "1101",
+        "1011",
+        "01011"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 46-47)",
+      "term": "Finals"
+    },
+    {
+      "question": "Observe the following Object-Oriented code utilizing constructors. What is the exact output?\n\n```java\nclass Box {\n    int width, height;\n    Box() {\n        this(5, 10);\n    }\n    Box(int w, int h) {\n        this.width = w;\n        this.height = h;\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Box b = new Box();\n        System.out.println(b.width + \"x\" + b.height);\n    }\n}\n```",
+      "answer": "5x10",
+      "choices": [
+        "5x10",
+        "0x0",
+        "10x5",
+        "Compilation error"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 3)",
+      "term": "Finals"
+    },
+    {
+      "question": "Analyze the static variable behavior in the following code. What is the output?\n\n```java\nclass Counter {\n    static int count = 0;\n    Counter() {\n        count++;\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Counter c1 = new Counter();\n        Counter c2 = new Counter();\n        Counter c3 = new Counter();\n        System.out.println(Counter.count);\n    }\n}\n```",
+      "answer": "3",
+      "choices": [
+        "3",
+        "1",
+        "0",
+        "Compilation error"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf",
+      "term": "Finals"
+    },
+    {
+      "question": "Why will the following static method call produce a compilation error?\n\n```java\npublic class NumberClass {\n    public int num = 10;\n    public static void main(String[] args) {\n        display();\n    }\n    public void display() {\n        System.out.print(num);\n    }\n}\n```",
+      "answer": "A static method cannot directly call a non-static instance method or variable without an object reference.",
+      "choices": [
+        "A static method cannot directly call a non-static instance method or variable without an object reference.",
+        "`num` must be declared inside the `main` method.",
+        "`display()` must have a return type of int.",
+        "`main` cannot be declared public."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 16)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following code involving constructor execution?\n\n```java\nclass Alpha {\n    Alpha() {\n        System.out.print(\"A \");\n    }\n}\nclass Beta extends Alpha {\n    Beta() {\n        System.out.print(\"B \");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        new Beta();\n    }\n}\n```",
+      "answer": "A B",
+      "choices": [
+        "A B",
+        "B A",
+        "B",
+        "A"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 26)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following code demonstrating dynamic method dispatch (method overriding)?\n\n```java\nclass Animal {\n    void sound() {\n        System.out.print(\"Animal \");\n    }\n}\nclass Dog extends Animal {\n    void sound() {\n        System.out.print(\"Bark \");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Animal a = new Dog();\n        a.sound();\n    }\n}\n```",
+      "answer": "Bark",
+      "choices": [
+        "Bark",
+        "Animal",
+        "Animal Bark",
+        "Compilation error"
+      ],
+      "reference": "Java_Programming_Detailed_Reviewer (1).pdf (Page 4)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will happen during compilation or execution of this casting code?\n\n```java\nclass Dog {}\nclass Cat {}\npublic class Main {\n    public static void main(String[] args) {\n        Cat c = new Cat();\n        Dog d = (Dog) c;\n    }\n}\n```",
+      "answer": "Compilation error: Inconvertible types; cannot cast unrelated classes with no inheritance relationship.",
+      "choices": [
+        "Compilation error: Inconvertible types; cannot cast unrelated classes with no inheritance relationship.",
+        "The code runs cleanly with `d` being null.",
+        "Throws `ClassCastException` at runtime.",
+        "Throws `NullPointerException` at runtime."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 4-5)",
+      "term": "Finals"
+    },
+    {
+      "question": "What happens when executing downcasting where the actual object in memory is NOT an instance of the target subclass?\n\n```java\nclass Animal {}\nclass Cat extends Animal {}\npublic class Main {\n    public static void main(String[] args) {\n        Animal a = new Animal();\n        Cat c = (Cat) a;\n    }\n}\n```",
+      "answer": "A `ClassCastException` is thrown at runtime.",
+      "choices": [
+        "A `ClassCastException` is thrown at runtime.",
+        "Compilation error: cannot cast Animal to Cat.",
+        "The code runs and creates an empty Cat object.",
+        "A `NullPointerException` is thrown."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 5)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of this code utilizing Upcasting and method overriding?\n\n```java\nclass Parent {\n    void show() {\n        System.out.print(\"Parent\");\n    }\n}\nclass Child extends Parent {\n    void show() {\n        System.out.print(\"Child\");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Parent p = new Child();\n        p.show();\n    }\n}\n```",
+      "answer": "Child",
+      "choices": [
+        "Child",
+        "Parent",
+        "ParentChild",
+        "Compilation error"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 4)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be printed when the following interface-related code is executed?\n\n```java\ninterface Drawable {\n    int SIZE = 100;\n}\npublic class Main implements Drawable {\n    public static void main(String[] args) {\n        System.out.println(SIZE);\n    }\n}\n```",
+      "answer": "100",
+      "choices": [
+        "100",
+        "0",
+        "null",
+        "Compilation error: SIZE must be instantiated"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 4)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will happen when you try to compile and run the following code involving abstract classes?\n\n```java\nabstract class Shape {\n    abstract void draw();\n}\npublic class Main {\n    public static void main(String[] args) {\n        Shape s = new Shape();\n    }\n}\n```",
+      "answer": "Compilation error: Shape is abstract; cannot be instantiated.",
+      "choices": [
+        "Compilation error: Shape is abstract; cannot be instantiated.",
+        "The code runs cleanly with no output.",
+        "A NullPointerException is thrown at runtime.",
+        "An AbstractMethodError occurs at runtime."
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 4)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will the console print when comparing String pool literals vs `new String()` objects?\n\n```java\nString s1 = \"Computer\";\nString s2 = \"Computer\";\nString s3 = new String(\"Computer\");\nSystem.out.print((s1 == s2) + \" \" + (s1 == s3) + \" \" + s1.equals(s3));\n```",
+      "answer": "true false true",
+      "choices": [
+        "true false true",
+        "true true true",
+        "false false true",
+        "true false false"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 30)",
+      "term": "Finals"
+    },
+    {
+      "question": "Analyze the following string code. What will be printed to the console?\n\n```java\nString word = \"Java\";\nword.concat(\" Programming\");\nSystem.out.println(word);\n```",
+      "answer": "Java",
+      "choices": [
+        "Java",
+        "Java Programming",
+        "Programming",
+        "Compilation error"
+      ],
+      "reference": "Java String Immutability",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following array processing code?\n\n```java\nint[] ageList = new int[3];\nageList[0] = 10;\nageList[1] = 20;\nSystem.out.println(ageList[2]);\n```",
+      "answer": "0",
+      "choices": [
+        "0",
+        "null",
+        "garbage value",
+        "ArrayIndexOutOfBoundsException"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 5)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the result of the following multi-dimensional array declaration and access?\n\n```java\nint[][] matrix = {\n    {1, 2},\n    {3, 4, 5}\n};\nSystem.out.println(matrix[1][2]);\n```",
+      "answer": "5",
+      "choices": [
+        "5",
+        "4",
+        "3",
+        "ArrayIndexOutOfBoundsException"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 5)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following code snippet involving the `trim()` method?\n\n```java\nString s = \"  Hello World  \";\nSystem.out.println(\"[\" + s.trim() + \"]\");\n```",
+      "answer": "[Hello World]",
+      "choices": [
+        "[Hello World]",
+        "[  Hello World  ]",
+        "[HelloWorld]",
+        "[Hello]"
+      ],
+      "reference": "Java String trim()",
+      "term": "Finals"
+    },
+    {
+      "question": "Analyze the following exception handling block. What will be printed to the console?\n\n```java\ntry {\n    int a = 10 / 0;\n} catch (ArithmeticException e) {\n    System.out.print(\"Caught \");\n} finally {\n    System.out.print(\"Finally\");\n}\n```",
+      "answer": "Caught Finally",
+      "choices": [
+        "Caught Finally",
+        "Caught",
+        "Finally",
+        "Compilation error"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 13)",
+      "term": "Finals"
+    },
+    {
+      "question": "Given the size enumeration, what is the output of `Size.valueOf` in this snippet?\n\n```java\nenum Size { REGULAR, LARGE, PARTY }\npublic class Main {\n    public static void main(String[] args) {\n        System.out.print(Size.valueOf(\"LARGE\"));\n    }\n}\n```",
+      "answer": "LARGE",
+      "choices": [
+        "LARGE",
+        "1",
+        "REGULAR",
+        "Compilation error"
+      ],
+      "reference": "Java Enum valueOf Method",
+      "term": "Finals"
+    },
+    {
+      "question": "Look at the following implementation of Java Generics. What is the output?\n\n```java\nclass Box<T> {\n    T item;\n    void set(T item) { this.item = item; }\n    T get() { return item; }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Box<String> b = new Box<>();\n        b.set(\"Java OOP\");\n        System.out.println(b.get());\n    }\n}\n```",
+      "answer": "Java OOP",
+      "choices": [
+        "Java OOP",
+        "Box@15db9742",
+        "null",
+        "Compilation error"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 6)",
+      "term": "Finals"
+    },
+    {
+      "question": "Observe the behavior of autoboxing in the code below. What is printed?\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        Integer num = 100; // Autoboxing\n        int val = num;     // Unboxing\n        System.out.println(val + 50);\n    }\n}\n```",
+      "answer": "150",
+      "choices": [
+        "150",
+        "100",
+        "50",
+        "Compilation error"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 6)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be the output of the following `ArrayList` manipulation code?\n\n```java\nList<String> list = new ArrayList<>();\nlist.add(\"Java\");\nlist.add(\"OOP\");\nlist.add(1, \"Spring\");\nlist.remove(0);\nSystem.out.println(list.get(0));\n```",
+      "answer": "Spring",
+      "choices": [
+        "Spring",
+        "Java",
+        "OOP",
+        "IndexOutOfBoundsException"
+      ],
+      "reference": "Java Collections Framework - List Operations",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following code using a `HashSet`?\n\n```java\nSet<Integer> set = new HashSet<>();\nset.add(10);\nset.add(20);\nset.add(10);\nset.add(30);\nSystem.out.println(set.size());\n```",
+      "answer": "3",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "10"
+      ],
+      "reference": "Java Collections Framework - Set Uniqueness",
+      "term": "Finals"
+    },
+    {
+      "question": "Analyze the following `HashMap` operations. What value is printed to the console?\n\n```java\nMap<String, Integer> map = new HashMap<>();\nmap.put(\"A\", 10);\nmap.put(\"B\", 20);\nmap.put(\"A\", 50);\nint total = map.get(\"A\") + map.getOrDefault(\"C\", 5);\nSystem.out.println(total);\n```",
+      "answer": "55",
+      "choices": [
+        "55",
+        "15",
+        "60",
+        "75"
+      ],
+      "reference": "Java Collections Framework - Map Key Overwrite & Defaults",
+      "term": "Finals"
+    },
+    {
+      "question": "What is printed when executing this `TreeSet` code demonstrating natural ordering?\n\n```java\nTreeSet<String> set = new TreeSet<>();\nset.add(\"Banana\");\nset.add(\"Apple\");\nset.add(\"Cherry\");\nSystem.out.println(set.first() + \" \" + set.last());\n```",
+      "answer": "Apple Cherry",
+      "choices": [
+        "Apple Cherry",
+        "Banana Cherry",
+        "Banana Apple",
+        "Cherry Apple"
+      ],
+      "reference": "Java Collections Framework - TreeSet Ordering",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following `PriorityQueue` code involving `poll()` and `peek()`?\n\n```java\nQueue<Integer> pq = new PriorityQueue<>();\npq.add(40);\npq.add(10);\npq.add(30);\nSystem.out.print(pq.poll() + \" \" + pq.peek());\n```",
+      "answer": "10 30",
+      "choices": [
+        "10 30",
+        "40 10",
+        "10 40",
+        "40 30"
+      ],
+      "reference": "Java Collections Framework - PriorityQueue Min-Heap",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the printed output when sorting a list using `Collections.reverseOrder()`?\n\n```java\nList<Integer> nums = new ArrayList<>(Arrays.asList(5, 2, 8, 1));\nCollections.sort(nums, Collections.reverseOrder());\nSystem.out.print(nums.get(0) + \" \" + nums.get(1));\n```",
+      "answer": "8 5",
+      "choices": [
+        "8 5",
+        "1 2",
+        "5 2",
+        "8 1"
+      ],
+      "reference": "Java Collections Framework - Collections Utility Sorting",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the final size of the list after using `Iterator.remove()` in the following snippet?\n\n```java\nList<String> items = new ArrayList<>(Arrays.asList(\"A\", \"B\", \"C\", \"B\"));\nIterator<String> it = items.iterator();\nwhile (it.hasNext()) {\n  if (it.next().equals(\"B\")) {\n    it.remove();\n  }\n}\nSystem.out.println(items.size());\n```",
+      "answer": "2",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "ConcurrentModificationException"
+      ],
+      "reference": "Java Collections Framework - Safe Iterator Removal",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the printed output of this `ArrayDeque` acting as a LIFO stack?\n\n```java\nDeque<String> stack = new ArrayDeque<>();\nstack.push(\"First\");\nstack.push(\"Second\");\nstack.push(\"Third\");\nSystem.out.print(stack.pop() + \" \" + stack.peek());\n```",
+      "answer": "Third Second",
+      "choices": [
+        "Third Second",
+        "First Second",
+        "Third First",
+        "First Third"
+      ],
+      "reference": "Java Collections Framework - Deque Stack Operations",
+      "term": "Finals"
+    },
+    {
+      "question": "What is printed to the console after iterating over the keys of this map?\n\n```java\nMap<Integer, String> codes = new HashMap<>();\ncodes.put(1, \"Red\");\ncodes.put(2, \"Green\");\ncodes.put(3, \"Blue\");\nint sum = 0;\nfor (int k : codes.keySet()) {\n  sum += k;\n}\nSystem.out.println(sum);\n```",
+      "answer": "6",
+      "choices": [
+        "6",
+        "3",
+        "RedGreenBlue",
+        "0"
+      ],
+      "reference": "Java Collections Framework - Map KeySet Traversal",
+      "term": "Finals"
+    },
+    {
+      "question": "Consider the following code snippet removing from an `ArrayList<Integer>`. What is printed?\n\n```java\nList<Integer> list = new ArrayList<>();\nlist.add(10);\nlist.add(20);\nlist.add(30);\nlist.remove(1); // removes index 1\nSystem.out.println(list);\n```",
+      "answer": "[10, 30]",
+      "choices": [
+        "[10, 30]",
+        "[20, 30]",
+        "[10, 20]",
+        "[30]"
+      ],
+      "reference": "Java Collections Framework - ArrayList Index Removal",
+      "term": "Finals"
+    }
+  ]
+}

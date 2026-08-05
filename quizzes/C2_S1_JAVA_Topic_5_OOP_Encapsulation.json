@@ -1,0 +1,117 @@
+{
+  "quizInfo": {
+    "Subject": "Java Programming",
+    "Term": "Finals",
+    "Title": "OOP Principles & Encapsulation (8 Questions)",
+    "Description": "Core OOP pillars, encapsulation, and access control",
+    "LastModified": "2026-08-06",
+    "Authors": [
+      "Alexander Oro",
+      "Gemini"
+    ],
+    "References": [
+      "Reviewer for the Final Exams | First Semester | Day 1",
+      "Reviewer for the Final Exams | First Semester | Day 2",
+      "Reviewer for the Final Exams | Second Semester | Day 1",
+      "Java_Programming_Detailed_Reviewer.pdf"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which of the following are the four fundamental pillars of Object-Oriented Programming (OOP)?",
+      "answer": "Encapsulation, Inheritance, Polymorphism, Abstraction",
+      "choices": [
+        "Encapsulation, Inheritance, Polymorphism, Abstraction",
+        "Compilation, Interpretation, Execution, Debugging",
+        "Overloading, Overriding, Casting, Instantiation",
+        "Classes, Methods, Variables, Packages"
+      ],
+      "reference": "Java_Programming_Detailed_Reviewer (1).pdf (Page 1)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the difference between Procedural Programming and Object-Oriented Programming according to programming methodologies?",
+      "answer": "Procedural programming organizes code into functions that perform single tasks, while OOP organizes code around data and objects representing entities.",
+      "choices": [
+        "Procedural programming organizes code into functions that perform single tasks, while OOP organizes code around data and objects representing entities.",
+        "Procedural programming cannot be compiled, while OOP is always compiled.",
+        "Procedural programming uses classes and inheritance, while OOP uses goto statements.",
+        "OOP is only used for low-level device drivers."
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 7-8)",
+      "term": "Finals"
+    },
+    {
+      "question": "Which naming convention is standard in Java encapsulation for getter methods of `boolean` properties?",
+      "answer": "Prefixing with `is` (e.g., `isEnrolled()`, `isRegular()`)",
+      "choices": [
+        "Prefixing with `is` (e.g., `isEnrolled()`, `isRegular()`)",
+        "Prefixing with `get` exclusively (e.g., `getEnrolled()`)",
+        "Prefixing with `has` exclusively (e.g., `hasEnrolled()`)",
+        "Using the variable name with no prefix (e.g., `enrolled()`)"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 22)",
+      "term": "Finals"
+    },
+    {
+      "question": "Which access modifier allows access within the declaring class, within the same package, and by subclasses in different packages?",
+      "answer": "protected",
+      "choices": [
+        "protected",
+        "public",
+        "private",
+        "default (package-private)"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 13)",
+      "term": "Finals"
+    },
+    {
+      "question": "In a standard 3-row UML Class Diagram, what information is placed in each row?",
+      "answer": "Row 1: Class Name, Row 2: Attributes (Variables), Row 3: Operations (Methods)",
+      "choices": [
+        "Row 1: Class Name, Row 2: Attributes (Variables), Row 3: Operations (Methods)",
+        "Row 1: Package Name, Row 2: Class Name, Row 3: Method Name",
+        "Row 1: Methods, Row 2: Variables, Row 3: Class Name",
+        "Row 1: Superclass, Row 2: Subclass, Row 3: Interfaces"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 7)",
+      "term": "Finals"
+    },
+    {
+      "question": "Which OOP concept is achieved by declaring instance variables private and providing public getter and setter methods to control access?",
+      "answer": "Encapsulation",
+      "choices": [
+        "Encapsulation",
+        "Polymorphism",
+        "Multiple Inheritance",
+        "Dynamic Dispatch"
+      ],
+      "reference": "Java_Programming_Detailed_Reviewer (1).pdf (Page 2)",
+      "term": "Finals"
+    },
+    {
+      "question": "Can a subclass directly access a `private` member variable declared in its superclass?",
+      "answer": "No, private members are accessible only within the declaring class and cannot be accessed directly by subclasses.",
+      "choices": [
+        "No, private members are accessible only within the declaring class and cannot be accessed directly by subclasses.",
+        "Yes, through the super keyword.",
+        "Yes, if the subclass is in the same package.",
+        "Yes, all members are inherited without access restrictions."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 13)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the visibility of members declared with the `default` (no modifier / package-private) access level?",
+      "answer": "Accessible only by classes within the same package.",
+      "choices": [
+        "Accessible only by classes within the same package.",
+        "Accessible everywhere across all packages.",
+        "Accessible only inside the class and by subclasses anywhere.",
+        "Accessible only within the same method."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 13)",
+      "term": "Finals"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "quizInfo": {
+    "Subject": "Java Programming",
+    "Term": "Finals",
+    "Title": "Exceptions, Enums & Advanced Features (16 Questions)",
+    "Description": "Exception handling, Enums, Generics, File Paths, and Threads",
+    "LastModified": "2026-08-06",
+    "Authors": [
+      "Alexander Oro",
+      "Gemini"
+    ],
+    "References": [
+      "Reviewer for the Final Exams | First Semester | Day 1",
+      "Reviewer for the Final Exams | First Semester | Day 2",
+      "Reviewer for the Final Exams | Second Semester | Day 1",
+      "Java_Programming_Detailed_Reviewer.pdf"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which of the following exceptions is a Checked Exception that must be explicitly handled or declared in the method's `throws` clause?",
+      "answer": "ClassNotFoundException",
+      "choices": [
+        "ClassNotFoundException",
+        "ArithmeticException",
+        "NullPointerException",
+        "ArrayIndexOutOfBoundsException"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 12)",
+      "term": "Finals"
+    },
+    {
+      "question": "Analyze the following exception handling block. What will be printed to the console?\n\n```java\ntry {\n    int a = 10 / 0;\n} catch (ArithmeticException e) {\n    System.out.print(\"Caught \");\n} finally {\n    System.out.print(\"Finally\");\n}\n```",
+      "answer": "Caught Finally",
+      "choices": [
+        "Caught Finally",
+        "Caught",
+        "Finally",
+        "Compilation error"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 13)",
+      "term": "Finals"
+    },
+    {
+      "question": "How is a custom user-defined checked exception created in Java?",
+      "answer": "By creating a class that extends `java.lang.Exception` and passing a custom message to `super(message)`.",
+      "choices": [
+        "By creating a class that extends `java.lang.Exception` and passing a custom message to `super(message)`.",
+        "By implementing the `ThrowableInterface` interface.",
+        "By using the `catch` keyword directly in a class header.",
+        "By marking a method with the `error` keyword."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 14-16)",
+      "term": "Finals"
+    },
+    {
+      "question": "Given `enum Period { PRELIM, MIDTERM, PREFINAL, FINAL };`, what is returned by `Period.MIDTERM.ordinal()` and `Period.values().length`?",
+      "answer": "1 and 4 respectively",
+      "choices": [
+        "1 and 4 respectively",
+        "2 and 4 respectively",
+        "0 and 4",
+        "1 and 3"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 32-34)",
+      "term": "Finals"
+    },
+    {
+      "question": "Given the size enumeration, what is the output of `Size.valueOf` in this snippet?\n\n```java\nenum Size { REGULAR, LARGE, PARTY }\npublic class Main {\n    public static void main(String[] args) {\n        System.out.print(Size.valueOf(\"LARGE\"));\n    }\n}\n```",
+      "answer": "LARGE",
+      "choices": [
+        "LARGE",
+        "1",
+        "REGULAR",
+        "Compilation error"
+      ],
+      "reference": "Java Enum valueOf Method",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the difference between an Absolute Path and a Relative Path in Java File NIO (`java.nio.file.Path`)?",
+      "answer": "An Absolute Path specifies the complete path from root without requiring additional information, while a Relative Path is resolved relative to the current working directory.",
+      "choices": [
+        "An Absolute Path specifies the complete path from root without requiring additional information, while a Relative Path is resolved relative to the current working directory.",
+        "Absolute paths can only access text files, while relative paths access binary files.",
+        "Relative paths use forward slashes, while absolute paths cannot use delimiters.",
+        "Absolute paths require network sockets."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 17)",
+      "term": "Finals"
+    },
+    {
+      "question": "Which `StandardOpenOption` is used to create a new file if it doesn't exist, but throw an exception if the file already exists?",
+      "answer": "CREATE_NEW",
+      "choices": [
+        "CREATE_NEW",
+        "CREATE",
+        "APPEND",
+        "TRUNCATE_EXISTING"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 28)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the purpose of `flush()` when writing data to a `BufferedOutputStream` or `BufferedWriter`?",
+      "answer": "It forces all buffered output bytes or characters to be immediately written to the destination device or file.",
+      "choices": [
+        "It forces all buffered output bytes or characters to be immediately written to the destination device or file.",
+        "It closes the stream permanently.",
+        "It clears the memory without writing the data to disk.",
+        "It restarts the stream from index 0."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 25-27)",
+      "term": "Finals"
+    },
+    {
+      "question": "What are the valid integer priority levels for Java threads, and what is the default `Thread.NORM_PRIORITY`?",
+      "answer": "Range from 1 (MIN_PRIORITY) to 10 (MAX_PRIORITY); default is 5",
+      "choices": [
+        "Range from 1 (MIN_PRIORITY) to 10 (MAX_PRIORITY); default is 5",
+        "Range from 0 to 100; default is 50",
+        "Range from 1 to 5; default is 3",
+        "Range from -1 to 1; default is 0"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 44-45)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the difference between an Upper Bounded Wildcard `<? extends Number>` and a Lower Bounded Wildcard `<? super Integer>` in Java Generics?",
+      "answer": "`<? extends Number>` restricts types to Number and its subclasses, while `<? super Integer>` restricts types to Integer and its superclasses (such as Number and Object).",
+      "choices": [
+        "`<? extends Number>` restricts types to Number and its subclasses, while `<? super Integer>` restricts types to Integer and its superclasses (such as Number and Object).",
+        "`<? extends Number>` allows only primitives, while `<? super Integer>` allows only arrays.",
+        "`<? extends Number>` is unbounded, while `<? super Integer>` is static.",
+        "`<? super Integer>` creates compile errors on list insertion."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 50-53)",
+      "term": "Finals"
+    },
+    {
+      "question": "What are the four types of Nested Classes supported in Java?",
+      "answer": "Static member class, Non-static member class (inner class), Local class, and Anonymous class",
+      "choices": [
+        "Static member class, Non-static member class (inner class), Local class, and Anonymous class",
+        "Public class, Private class, Protected class, and Default class",
+        "Abstract class, Concrete class, Interface, and Enum",
+        "Thread class, Process class, Task class, and Worker class"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 36)",
+      "term": "Finals"
+    },
+    {
+      "question": "Look at the following implementation of Java Generics. What is the output?\n\n```java\nclass Box<T> {\n    T item;\n    void set(T item) { this.item = item; }\n    T get() { return item; }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Box<String> b = new Box<>();\n        b.set(\"Java OOP\");\n        System.out.println(b.get());\n    }\n}\n```",
+      "answer": "Java OOP",
+      "choices": [
+        "Java OOP",
+        "Box@15db9742",
+        "null",
+        "Compilation error"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 6)",
+      "term": "Finals"
+    },
+    {
+      "question": "Observe the behavior of autoboxing in the code below. What is printed?\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        Integer num = 100; // Autoboxing\n        int val = num;     // Unboxing\n        System.out.println(val + 50);\n    }\n}\n```",
+      "answer": "150",
+      "choices": [
+        "150",
+        "100",
+        "50",
+        "Compilation error"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 6)",
+      "term": "Finals"
+    },
+    {
+      "question": "What does `BufferedReader.readLine()` return when it reaches the End-Of-File (EOF)?",
+      "answer": "null",
+      "choices": [
+        "null",
+        "-1",
+        "\"\"",
+        "EOFException"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 26)",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method is invoked on a `Thread` object to start its execution concurrently in the background?",
+      "answer": "thread.start()",
+      "choices": [
+        "thread.start()",
+        "thread.run()",
+        "thread.execute()",
+        "thread.init()"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 44)",
+      "term": "Finals"
+    },
+    {
+      "question": "What checked exception is thrown if a thread is interrupted while waiting or sleeping using `Thread.sleep()`?",
+      "answer": "InterruptedException",
+      "choices": [
+        "InterruptedException",
+        "ThreadDeathException",
+        "IllegalThreadStateException",
+        "TimeoutException"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 46)",
+      "term": "Finals"
+    }
+  ]
+}

@@ -122,7 +122,7 @@ var Quizzes_Manifest_FileURL = "Assets/SAP-Subject-Manifest.json";
 async function Quizzes_Manifest_Fetch() {
     var URL = Quizzes_Manifest_FileURL;
   try {
-    const JSON_File = await fetch(URL);
+    const JSON_File = await fetch(URL, { cache: "no-store" });
     const JSON_Data = await JSON_File.json();
     return JSON_Data;
   } catch (error) {

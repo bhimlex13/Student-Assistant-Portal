@@ -1,0 +1,189 @@
+{
+  "quizInfo": {
+    "Subject": "Java Programming",
+    "Term": "Finals",
+    "Title": "Arrays, Strings & Regular Expressions (14 Questions)",
+    "Description": "Array data structures, string manipulation, and regex matching",
+    "LastModified": "2026-08-06",
+    "Authors": [
+      "Alexander Oro",
+      "Gemini"
+    ],
+    "References": [
+      "Reviewer for the Final Exams | First Semester | Day 1",
+      "Reviewer for the Final Exams | First Semester | Day 2",
+      "Reviewer for the Final Exams | Second Semester | Day 1",
+      "Java_Programming_Detailed_Reviewer.pdf"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "How do you access the total length of a one-dimensional array named `myArray` in Java?",
+      "answer": "myArray.length",
+      "choices": [
+        "myArray.length",
+        "myArray.length()",
+        "myArray.size()",
+        "myArray.count"
+      ],
+      "reference": "Java Array Properties",
+      "term": "Finals"
+    },
+    {
+      "question": "Given a 2D array declared as `int[][] board = {{2, 3, 1}, {15, 25, 13}, {20, 4, 7}, {11, 18, 14}};`, what do `board.length` and `board[0].length` return?",
+      "answer": "4 and 3 respectively",
+      "choices": [
+        "4 and 3 respectively",
+        "3 and 4 respectively",
+        "12 and 3",
+        "4 and 12"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 36)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the return value of `Arrays.binarySearch(a, 4)` on the sorted array `int[] a = {1, 3, 4, 5, 7};`?",
+      "answer": "2",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "-1"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 39)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will the console print when comparing String pool literals vs `new String()` objects?\n\n```java\nString s1 = \"Computer\";\nString s2 = \"Computer\";\nString s3 = new String(\"Computer\");\nSystem.out.print((s1 == s2) + \" \" + (s1 == s3) + \" \" + s1.equals(s3));\n```",
+      "answer": "true false true",
+      "choices": [
+        "true false true",
+        "true true true",
+        "false false true",
+        "true false false"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 30)",
+      "term": "Finals"
+    },
+    {
+      "question": "Analyze the following string code. What will be printed to the console?\n\n```java\nString word = \"Java\";\nword.concat(\" Programming\");\nSystem.out.println(word);\n```",
+      "answer": "Java",
+      "choices": [
+        "Java",
+        "Java Programming",
+        "Programming",
+        "Compilation error"
+      ],
+      "reference": "Java String Immutability",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of `\"Java\".substring(1, 3)` in Java?",
+      "answer": "av",
+      "choices": [
+        "av",
+        "ava",
+        "jav",
+        "v"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 33)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of `\"apple,banana,cherry\".split(\",\")[1]`?",
+      "answer": "banana",
+      "choices": [
+        "banana",
+        "apple",
+        "cherry",
+        "apple,banana"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 32)",
+      "term": "Finals"
+    },
+    {
+      "question": "In Regular Expressions, what does the repetition operator `+` represent compared to `*`?",
+      "answer": "`+` matches 1 or more occurrences, while `*` matches 0 or more occurrences.",
+      "choices": [
+        "`+` matches 1 or more occurrences, while `*` matches 0 or more occurrences.",
+        "`+` matches exactly 1 occurrence, while `*` matches any character.",
+        "`+` matches only uppercase letters, while `*` matches numbers.",
+        "`+` is an escape character in regex."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 39)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of `\"Single spaces are for nerds!!!\".replaceAll(\" {2,}\", \" \")`?",
+      "answer": "Single spaces are for nerds!!! (replaces 2 or more consecutive spaces with a single space)",
+      "choices": [
+        "Single spaces are for nerds!!! (replaces 2 or more consecutive spaces with a single space)",
+        "Singlespacesarefornerds!!!",
+        "Single  spaces",
+        "Compilation error"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 42)",
+      "term": "Finals"
+    },
+    {
+      "question": "Which class in `java.util.regex` compiles a regex string into an efficient reusable format, and which class performs matching operations against an input sequence?",
+      "answer": "`Pattern` compiles the regex, and `Matcher` performs the matching operations.",
+      "choices": [
+        "`Pattern` compiles the regex, and `Matcher` performs the matching operations.",
+        "`Matcher` compiles the regex, and `Pattern` performs matching.",
+        "`RegexCompiler` compiles, and `StringValidator` matches.",
+        "`Scanner` compiles, and `Parser` matches."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 40-41)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following array processing code?\n\n```java\nint[] ageList = new int[3];\nageList[0] = 10;\nageList[1] = 20;\nSystem.out.println(ageList[2]);\n```",
+      "answer": "0",
+      "choices": [
+        "0",
+        "null",
+        "garbage value",
+        "ArrayIndexOutOfBoundsException"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 5)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the result of the following multi-dimensional array declaration and access?\n\n```java\nint[][] matrix = {\n    {1, 2},\n    {3, 4, 5}\n};\nSystem.out.println(matrix[1][2]);\n```",
+      "answer": "5",
+      "choices": [
+        "5",
+        "4",
+        "3",
+        "ArrayIndexOutOfBoundsException"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 5)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following code snippet involving the `trim()` method?\n\n```java\nString s = \"  Hello World  \";\nSystem.out.println(\"[\" + s.trim() + \"]\");\n```",
+      "answer": "[Hello World]",
+      "choices": [
+        "[Hello World]",
+        "[  Hello World  ]",
+        "[HelloWorld]",
+        "[Hello]"
+      ],
+      "reference": "Java String trim()",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of `Arrays.equals(new int[]{1, 2}, new int[]{1, 2})`?",
+      "answer": "true",
+      "choices": [
+        "true",
+        "false",
+        "0",
+        "Compilation error"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 39)",
+      "term": "Finals"
+    }
+  ]
+}

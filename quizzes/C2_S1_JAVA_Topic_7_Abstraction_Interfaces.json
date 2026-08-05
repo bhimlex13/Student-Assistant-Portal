@@ -1,0 +1,117 @@
+{
+  "quizInfo": {
+    "Subject": "Java Programming",
+    "Term": "Finals",
+    "Title": "Abstraction & Interfaces (8 Questions)",
+    "Description": "Abstract classes, abstract methods, interface contracts, and polymorphism",
+    "LastModified": "2026-08-06",
+    "Authors": [
+      "Alexander Oro",
+      "Gemini"
+    ],
+    "References": [
+      "Reviewer for the Final Exams | First Semester | Day 1",
+      "Reviewer for the Final Exams | First Semester | Day 2",
+      "Reviewer for the Final Exams | Second Semester | Day 1",
+      "Java_Programming_Detailed_Reviewer.pdf"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Why can an `abstract` method NOT be marked as `private` or `final`?",
+      "answer": "Because abstract methods must be overridden and implemented by subclasses, while private prevents subclass access and final prevents overriding.",
+      "choices": [
+        "Because abstract methods must be overridden and implemented by subclasses, while private prevents subclass access and final prevents overriding.",
+        "Because abstract methods can only be written inside static blocks.",
+        "Because the JVM converts private methods to interfaces.",
+        "Because abstract methods cannot accept parameters."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 29-30)",
+      "term": "Finals"
+    },
+    {
+      "question": "What are the implicit modifiers of constants and methods declared inside a standard Java `interface`?",
+      "answer": "Constants are implicitly `public static final`, and methods are implicitly `public abstract`.",
+      "choices": [
+        "Constants are implicitly `public static final`, and methods are implicitly `public abstract`.",
+        "Constants are `private final`, and methods are `protected`.",
+        "Constants are `volatile`, and methods are `synchronized`.",
+        "Constants are `default`, and methods are `package-private`."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 7-8)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the rule regarding the 'first concrete class' that extends an abstract class or implements an interface?",
+      "answer": "It must provide concrete implementations for all inherited unimplemented abstract methods.",
+      "choices": [
+        "It must provide concrete implementations for all inherited unimplemented abstract methods.",
+        "It can defer implementation to its own child classes without being declared abstract.",
+        "It must be declared `final` automatically.",
+        "It cannot define any new methods of its own."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 9)",
+      "term": "Finals"
+    },
+    {
+      "question": "Why does a compilation error occur when a class attempts to implement two interfaces that declare a method with the same name and parameter list, but DIFFERENT return types?",
+      "answer": "A class cannot implement methods with identical signatures but incompatible return types.",
+      "choices": [
+        "A class cannot implement methods with identical signatures but incompatible return types.",
+        "A class cannot implement more than one interface in Java.",
+        "Interfaces cannot have methods with the same name.",
+        "Interface methods must always return void."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 11)",
+      "term": "Finals"
+    },
+    {
+      "question": "Which scenario warrants using an `interface` rather than an `abstract class`?",
+      "answer": "When you want to define a common role/contract that can be implemented by unrelated classes across different class hierarchies.",
+      "choices": [
+        "When you want to define a common role/contract that can be implemented by unrelated classes across different class hierarchies.",
+        "When you want to declare non-static, non-final instance fields to hold object state.",
+        "When you want constructors to initialize base state.",
+        "When you want to restrict inheritance strictly to closely related classes."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 11)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be printed when the following interface-related code is executed?\n\n```java\ninterface Drawable {\n    int SIZE = 100;\n}\npublic class Main implements Drawable {\n    public static void main(String[] args) {\n        System.out.println(SIZE);\n    }\n}\n```",
+      "answer": "100",
+      "choices": [
+        "100",
+        "0",
+        "null",
+        "Compilation error: SIZE must be instantiated"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 4)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will happen when you try to compile and run the following code involving abstract classes?\n\n```java\nabstract class Shape {\n    abstract void draw();\n}\npublic class Main {\n    public static void main(String[] args) {\n        Shape s = new Shape();\n    }\n}\n```",
+      "answer": "Compilation error: Shape is abstract; cannot be instantiated.",
+      "choices": [
+        "Compilation error: Shape is abstract; cannot be instantiated.",
+        "The code runs cleanly with no output.",
+        "A NullPointerException is thrown at runtime.",
+        "An AbstractMethodError occurs at runtime."
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 4)",
+      "term": "Finals"
+    },
+    {
+      "question": "Can an `interface` in Java extend multiple other interfaces using the `extends` keyword (e.g. `interface Sellable extends Drinkable, Potable`)?",
+      "answer": "Yes, an interface can extend one or more multiple interfaces.",
+      "choices": [
+        "Yes, an interface can extend one or more multiple interfaces.",
+        "No, Java strictly prohibits multiple inheritance under all circumstances.",
+        "No, an interface must use the implements keyword to inherit.",
+        "Yes, but only if all interfaces contain no constants."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 8)",
+      "term": "Finals"
+    }
+  ]
+}

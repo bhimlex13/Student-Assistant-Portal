@@ -1,0 +1,165 @@
+{
+  "quizInfo": {
+    "Subject": "Java Programming",
+    "Term": "Finals",
+    "Title": "Classes, Objects & Constructors (12 Questions)",
+    "Description": "Object lifecycle, constructors, this, super, and static members",
+    "LastModified": "2026-08-06",
+    "Authors": [
+      "Alexander Oro",
+      "Gemini"
+    ],
+    "References": [
+      "Reviewer for the Final Exams | First Semester | Day 1",
+      "Reviewer for the Final Exams | First Semester | Day 2",
+      "Reviewer for the Final Exams | Second Semester | Day 1",
+      "Java_Programming_Detailed_Reviewer.pdf"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What are the three fundamental components of an object in Object-Oriented Programming?",
+      "answer": "Attributes, State, and Behavior",
+      "choices": [
+        "Attributes, State, and Behavior",
+        "Classes, Methods, and Packages",
+        "Encapsulation, Inheritance, and Polymorphism",
+        "Variables, Constants, and Data Types"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals (Second Sem) (Page 2)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the primary purpose of using the `this` keyword as `this.variableName` inside a constructor or setter method?",
+      "answer": "To eliminate shadowing and distinguish instance variables from constructor parameters of the same name.",
+      "choices": [
+        "To eliminate shadowing and distinguish instance variables from constructor parameters of the same name.",
+        "To call a static method from the parent class.",
+        "To make the instance variable immutable and final.",
+        "To allocate new memory on the heap."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 18-19)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is Constructor Chaining and how is it accomplished in Java?",
+      "answer": "When a constructor invokes another constructor in the same class using `this(...)` as the first statement.",
+      "choices": [
+        "When a constructor invokes another constructor in the same class using `this(...)` as the first statement.",
+        "When a subclass overrides the constructor of its superclass.",
+        "When multiple constructors are declared with the private access modifier.",
+        "When constructors are executed repeatedly inside a while loop."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 21)",
+      "term": "Finals"
+    },
+    {
+      "question": "Observe the following Object-Oriented code utilizing constructors. What is the exact output?\n\n```java\nclass Box {\n    int width, height;\n    Box() {\n        this(5, 10);\n    }\n    Box(int w, int h) {\n        this.width = w;\n        this.height = h;\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Box b = new Box();\n        System.out.println(b.width + \"x\" + b.height);\n    }\n}\n```",
+      "answer": "5x10",
+      "choices": [
+        "5x10",
+        "0x0",
+        "10x5",
+        "Compilation error"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 3)",
+      "term": "Finals"
+    },
+    {
+      "question": "Where must `this(...)` or `super(...)` constructor calls be placed in a constructor body?",
+      "answer": "Strictly as the very first statement of the constructor body.",
+      "choices": [
+        "Strictly as the very first statement of the constructor body.",
+        "Anywhere before returning from the constructor.",
+        "At the very end of the constructor body.",
+        "Inside a finally block."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 24-25)",
+      "term": "Finals"
+    },
+    {
+      "question": "What happens if a parent class defines ONLY a parameterized constructor `public Person(String name)` and the child class defines no constructors?",
+      "answer": "A compilation error occurs because the compiler tries to insert an invisible `super()` call to a non-existent no-arg parent constructor.",
+      "choices": [
+        "A compilation error occurs because the compiler tries to insert an invisible `super()` call to a non-existent no-arg parent constructor.",
+        "The program compiles and runs with name set to null.",
+        "The JVM automatically generates a parameterized constructor for the child.",
+        "The child class inherits the parameterized constructor directly."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 25-26)",
+      "term": "Finals"
+    },
+    {
+      "question": "Analyze the static variable behavior in the following code. What is the output?\n\n```java\nclass Counter {\n    static int count = 0;\n    Counter() {\n        count++;\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Counter c1 = new Counter();\n        Counter c2 = new Counter();\n        Counter c3 = new Counter();\n        System.out.println(Counter.count);\n    }\n}\n```",
+      "answer": "3",
+      "choices": [
+        "3",
+        "1",
+        "0",
+        "Compilation error"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf",
+      "term": "Finals"
+    },
+    {
+      "question": "Why will the following static method call produce a compilation error?\n\n```java\npublic class NumberClass {\n    public int num = 10;\n    public static void main(String[] args) {\n        display();\n    }\n    public void display() {\n        System.out.print(num);\n    }\n}\n```",
+      "answer": "A static method cannot directly call a non-static instance method or variable without an object reference.",
+      "choices": [
+        "A static method cannot directly call a non-static instance method or variable without an object reference.",
+        "`num` must be declared inside the `main` method.",
+        "`display()` must have a return type of int.",
+        "`main` cannot be declared public."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 16)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is a necessary design step to make a class completely immutable in Java?",
+      "answer": "Declare all fields private and final, provide no setter methods, and initialize all fields via constructor.",
+      "choices": [
+        "Declare all fields private and final, provide no setter methods, and initialize all fields via constructor.",
+        "Declare the class as abstract and provide synchronized setter methods.",
+        "Make all fields public static.",
+        "Extend the class from `java.lang.Immutable`."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 22-23)",
+      "term": "Finals"
+    },
+    {
+      "question": "In the `BloodData` case study, if the default constructor sets `bloodType = \"O\"` and `rhFactor = \"+\"`, what will `new BloodData().display()` print?",
+      "answer": "O+",
+      "choices": [
+        "O+",
+        "A+",
+        "null+",
+        "Compilation error"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 31)",
+      "term": "Finals"
+    },
+    {
+      "question": "Are constructors inherited by subclasses in Java?",
+      "answer": "No, constructors are not members of a class and are never inherited, though they can be called via `super()`.",
+      "choices": [
+        "No, constructors are not members of a class and are never inherited, though they can be called via `super()`.",
+        "Yes, all constructors are inherited with the same access modifier.",
+        "Yes, but only default no-arg constructors are inherited.",
+        "Yes, if marked with the `inherits` keyword."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 24)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following code involving constructor execution?\n\n```java\nclass Alpha {\n    Alpha() {\n        System.out.print(\"A \");\n    }\n}\nclass Beta extends Alpha {\n    Beta() {\n        System.out.print(\"B \");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        new Beta();\n    }\n}\n```",
+      "answer": "A B",
+      "choices": [
+        "A B",
+        "B A",
+        "B",
+        "A"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 26)",
+      "term": "Finals"
+    }
+  ]
+}

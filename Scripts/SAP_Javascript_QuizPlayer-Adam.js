@@ -264,13 +264,7 @@ function Quiz_Question_Build(IsAnswered, IsCorrect, UserAnswer){
     
 
     // Changes the question text
-    document.getElementById("Quiz_Form_Question").innerHTML = Question.question;
-
-    // If the index of the correct answer is 0, then the choices doesn't have the correct answer; Add warning to the questiontext
-    // if (Quiz_Question_CurrentIndex_Correct == 0){
-        // document.getElementById("Quiz_Form_Question").innerHTML = Question.question + " [CHOICES DOESN'T HAVE THE ANSWER]";
-    //     console.log("CHOICES DOESN'T HAVE THE ANSWER");
-    // }
+    document.getElementById("Quiz_Form_Question").innerHTML = Format_Quiz_Text(Question.question);
 
     // Generates the choices
     for (b = 0; b < Question.choices.length; b++){
@@ -282,12 +276,12 @@ function Quiz_Question_Build(IsAnswered, IsCorrect, UserAnswer){
         // If the value is an object
         if (typeof Question.choices[b] === 'object'){
             Choice_Item.innerHTML = `
-                ${Question.choices[b].text}<br>
+                ${Format_Quiz_Text(Question.choices[b].text)}<br>
                 <img class='Quiz_Form_Choices_Item_Image' src='${Question.choices[b].image}' draggable='false' loading='lazy' onerror='this.style.display = "none"'/>
             `
         // If the value is plain text
         } else {
-            Choice_Item.innerHTML = Question.choices[b];
+            Choice_Item.innerHTML = Format_Quiz_Text(Question.choices[b]);
         }        
         document.getElementById("Quiz_Form_Choices").appendChild(Choice_Item);
     }
@@ -606,4 +600,91 @@ function Quiz_GoHome(){
         StorageItem_Set("SAP_Quiz_Status", Status, "Session");
     }
     Page_ChangePage('index.html', Transition);
+}
+
+// Formats quiz question and choice text to support rich code blocks, inline code, and clean typography
+function Format_Quiz_Text(rawText) {
+    if (rawText === null || rawText === undefined) return "";
+    if (typeof rawText !== "string") return String(rawText);
+
+    // 1. Strip remaining citations like [cite: 1], [cite: 1, 2]
+    let text = rawText.replace(/\s*\[cite:\s*[\d,\s]+\]/gi, "");
+
+    // 2. Normalize spaced or malformed backticks: e.g. ` ` ` -> ```
+    text = text.replace(/`(\s*`){2,}/g, "```");
+    text = text.replace(/`{4,}/g, "```");
+
+    // 3. Extract and format multi-line code blocks ```java ... ``` or ``` ... ```
+    const codeBlocks = [];
+    text = text.replace(/```(?:java|javascript|js|c|cpp|sql)?\s*\n?([\s\S]*?)```/gi, function(match, code) {
+        const placeholder = `___CODE_BLOCK_${codeBlocks.length}___`;
+        const trimmedCode = code.replace(/^\n+|\n+$/g, "");
+        const escapedCode = trimmedCode
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;");
+        codeBlocks.push(`
+            <div class="Quiz_Code_Block_Container">
+                <div class="Quiz_Code_Header">
+                    <span class="Quiz_Code_Lang_Badge">Java</span>
+                    <button type="button" class="Quiz_Code_Copy_Btn" onclick="Quiz_Copy_Code(this)">Copy</button>
+                </div>
+                <pre class="Quiz_Code_Block"><code class="language-java">${escapedCode}</code></pre>
+            </div>
+        `);
+        return placeholder;
+    });
+
+    // 4. Extract and format inline code `...`
+    const inlineCodes = [];
+    text = text.replace(/`([^`\n]+)`/g, function(match, inlineCode) {
+        const placeholder = `___INLINE_CODE_${inlineCodes.length}___`;
+        const escapedInline = inlineCode
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;");
+        inlineCodes.push(`<code class="Quiz_Inline_Code">${escapedInline}</code>`);
+        return placeholder;
+    });
+
+    // 5. Escape general HTML in the text outside code blocks
+    text = text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+
+    // 6. Convert newlines outside code blocks to spacers / line breaks
+    text = text.replace(/\n\n+/g, '<div class="Quiz_Question_Paragraph_Spacer"></div>');
+    text = text.replace(/\n/g, '<br>');
+
+    // 7. Restore code blocks & inline code
+    inlineCodes.forEach(function(codeHtml, idx) {
+        text = text.replace(`___INLINE_CODE_${idx}___`, codeHtml);
+    });
+    codeBlocks.forEach(function(blockHtml, idx) {
+        text = text.replace(`___CODE_BLOCK_${idx}___`, blockHtml);
+    });
+
+    return text;
+}
+
+// Copy button functionality for code snippets
+function Quiz_Copy_Code(btn) {
+    const container = btn.closest(".Quiz_Code_Block_Container");
+    if (!container) return;
+    const codeEl = container.querySelector("code");
+    if (!codeEl) return;
+    const textToCopy = codeEl.innerText;
+    navigator.clipboard.writeText(textToCopy).then(function() {
+        const originalText = btn.innerText;
+        btn.innerText = "Copied!";
+        btn.classList.add("Copied");
+        setTimeout(function() {
+            btn.innerText = originalText;
+            btn.classList.remove("Copied");
+        }, 1500);
+    }).catch(function() {
+        btn.innerText = "Copied!";
+        setTimeout(function() { btn.innerText = "Copy"; }, 1500);
+    });
 }

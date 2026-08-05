@@ -1,0 +1,285 @@
+{
+  "quizInfo": {
+    "Subject": "Java Programming",
+    "Term": "Finals",
+    "Title": "Java Syntax, Types, Operators & Math Class (22 Questions)",
+    "Description": "Syntax, data types, operators, and Math class",
+    "LastModified": "2026-08-06",
+    "Authors": [
+      "Alexander Oro",
+      "Gemini"
+    ],
+    "References": [
+      "Reviewer for the Final Exams | First Semester | Day 1",
+      "Reviewer for the Final Exams | First Semester | Day 2",
+      "Reviewer for the Final Exams | Second Semester | Day 1",
+      "Java_Programming_Detailed_Reviewer.pdf"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which of the following is a fundamental rule regarding the basic syntax of Java concerning executable code?",
+      "answer": "Every line of executable code must live inside a class.",
+      "choices": [
+        "Every line of executable code must live inside a class.",
+        "Executable code must be placed outside of classes to be public.",
+        "Variables can be declared without data types if they are executable.",
+        "Code blocks are defined by parentheses instead of curly braces."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 3)",
+      "term": "Finals"
+    },
+    {
+      "question": "What are the valid characters and rules for Java identifiers according to language conventions?",
+      "answer": "They can contain letters, digits, underscores, and dollar signs, but must not start with a digit or be a reserved keyword.",
+      "choices": [
+        "They can contain letters, digits, underscores, and dollar signs, but must not start with a digit or be a reserved keyword.",
+        "They can start with digits as long as they contain no special characters.",
+        "They are case-insensitive, meaning 'number' and 'NUMBER' refer to the same variable.",
+        "They can include spaces as long as they are enclosed in quotation marks."
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 9)",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following values are reserved in Java and cannot be used as identifier names?",
+      "answer": "true, false, and null",
+      "choices": [
+        "true, false, and null",
+        "main, System, and out",
+        "String, Math, and Scanner",
+        "size, length, and count"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 10)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the memory size and valid numerical range of the primitive `byte` data type in Java?",
+      "answer": "8-bit signed integer, ranging from -128 to 127",
+      "choices": [
+        "8-bit signed integer, ranging from -128 to 127",
+        "16-bit signed integer, ranging from -32,768 to 32,767",
+        "32-bit signed integer, ranging from -2,147,483,648 to 2,147,483,647",
+        "8-bit unsigned integer, ranging from 0 to 255"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 13)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the memory size and valid numerical range of the primitive `short` data type in Java?",
+      "answer": "16-bit signed integer, ranging from -32,768 to 32,767",
+      "choices": [
+        "16-bit signed integer, ranging from -32,768 to 32,767",
+        "8-bit signed integer, ranging from -128 to 127",
+        "32-bit signed integer, ranging from -2,147,483,648 to 2,147,483,647",
+        "64-bit signed integer"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 13)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the memory size and standard character set used by the primitive `char` data type in Java?",
+      "answer": "16-bit Unicode character ranging from '\\u0000' (0) to '\\uffff' (65,535)",
+      "choices": [
+        "16-bit Unicode character ranging from '\\u0000' (0) to '\\uffff' (65,535)",
+        "8-bit ASCII character ranging from 0 to 255",
+        "32-bit UTF-32 character",
+        "8-bit signed character from -128 to 127"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 14)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the default value of an uninitialized primitive `int` instance field in a class?",
+      "answer": "0",
+      "choices": [
+        "0",
+        "null",
+        "undefined",
+        "garbage value"
+      ],
+      "reference": "Java Primitive Types & Default Values",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the difference between Widening Conversion (implicit casting) and Narrowing Conversion (explicit casting) in Java?",
+      "answer": "Widening automatically converts a lower precision type to a higher precision type with no loss of information, whereas Narrowing converts higher precision to lower precision and requires an explicit cast.",
+      "choices": [
+        "Widening automatically converts a lower precision type to a higher precision type with no loss of information, whereas Narrowing converts higher precision to lower precision and requires an explicit cast.",
+        "Widening requires the `(type)` cast operator, whereas Narrowing happens automatically.",
+        "Narrowing is only used for objects, while Widening is only used for primitives.",
+        "Widening causes data loss, while Narrowing preserves all precision."
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 14)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the result of explicit narrowing type casting in the following code snippet?\n\n```java\nfloat x = 6.82f;\nint a = (int) x;\nSystem.out.println(a);\n```",
+      "answer": "6",
+      "choices": [
+        "6",
+        "7",
+        "6.82",
+        "Compilation error"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 14)",
+      "term": "Finals"
+    },
+    {
+      "question": "In the expression `x = 11 + 3 * 24 - 5 / 4`, which operation is evaluated first according to operator precedence?",
+      "answer": "3 * 24",
+      "choices": [
+        "3 * 24",
+        "11 + 3",
+        "24 - 5",
+        "5 / 4"
+      ],
+      "reference": "[Day 1] RCl1-2ndSem-Final-Reviewer.pdf",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the integer division `11 / 3` in Java?",
+      "answer": "3",
+      "choices": [
+        "3",
+        "3.666",
+        "4",
+        "3.0"
+      ],
+      "reference": "[Day 1] RCl1-2ndSem-Final-Reviewer.pdf",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be printed to the console given the modulus operator expression below?\n\n```java\nint x = 11, y = 3;\nSystem.out.println(x % y);\n```",
+      "answer": "2",
+      "choices": [
+        "2",
+        "3",
+        "3.67",
+        "0"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be printed by the following mixed arithmetic expression?\n\n```java\nSystem.out.println(25 / 2 * 2.0);\n```",
+      "answer": "24.0",
+      "choices": [
+        "24.0",
+        "25.0",
+        "24",
+        "25"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 18)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be printed by the following floating-point expression?\n\n```java\nSystem.out.println(25.0 / 2 * 2);\n```",
+      "answer": "25.0",
+      "choices": [
+        "25.0",
+        "24.0",
+        "25",
+        "24"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 18)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of `System.out.printf(\"Price: %.2f\", 19.5);` in Java?",
+      "answer": "Price: 19.50",
+      "choices": [
+        "Price: 19.50",
+        "Price: 19.5",
+        "Price: 19.500",
+        "Price: 20.00"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 20)",
+      "term": "Finals"
+    },
+    {
+      "question": "Which `Scanner` method is used to read the next single character entered by the user?",
+      "answer": "scan.next().charAt(0)",
+      "choices": [
+        "scan.next().charAt(0)",
+        "scan.nextChar()",
+        "scan.readChar()",
+        "scan.getChar(0)"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 19)",
+      "term": "Finals"
+    },
+    {
+      "question": "Evaluate the following code utilizing the Math class. What is the output?\n\n```java\nSystem.out.print(Math.max(12, 23.0));\n```",
+      "answer": "23.0",
+      "choices": [
+        "23.0",
+        "12",
+        "12.0",
+        "23"
+      ],
+      "reference": "Java_Programming_Detailed_Reviewer (1).pdf (Page 5)",
+      "term": "Finals"
+    },
+    {
+      "question": "Evaluate the following code utilizing the Math class. What is the output?\n\n```java\ndouble x = 9.0;\nSystem.out.println(Math.sqrt(x) + Math.abs(-5));\n```",
+      "answer": "8.0",
+      "choices": [
+        "8.0",
+        "3.0",
+        "14.0",
+        "8"
+      ],
+      "reference": "Java_Programming_Detailed_Reviewer (1).pdf (Page 5)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of `Math.floor(65.78)` and `Math.ceil(34.12)` respectively in Java?",
+      "answer": "65.0 and 35.0",
+      "choices": [
+        "65.0 and 35.0",
+        "65 and 35",
+        "66.0 and 34.0",
+        "65.78 and 34.12"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 40)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the result of calling `Math.pow(2.0, 3.0)` in Java?",
+      "answer": "8.0",
+      "choices": [
+        "8.0",
+        "6.0",
+        "8",
+        "9.0"
+      ],
+      "reference": "Java_Programming_Detailed_Reviewer (1).pdf (Page 5)",
+      "term": "Finals"
+    },
+    {
+      "question": "In a program flowchart, what geometric shape is used to represent an Input/Output operation?",
+      "answer": "Parallelogram",
+      "choices": [
+        "Parallelogram",
+        "Rectangle",
+        "Diamond",
+        "Oval"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 6)",
+      "term": "Finals"
+    },
+    {
+      "question": "In a program flowchart, what geometric shape is used to represent a Decision or conditional branch?",
+      "answer": "Diamond",
+      "choices": [
+        "Diamond",
+        "Rectangle",
+        "Parallelogram",
+        "Circle"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 6)",
+      "term": "Finals"
+    }
+  ]
+}

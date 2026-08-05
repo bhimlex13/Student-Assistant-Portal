@@ -1,0 +1,285 @@
+{
+  "quizInfo": {
+    "Subject": "Java Programming",
+    "Term": "Finals",
+    "Title": "Java Collections Framework (22 Questions)",
+    "Description": "Dynamic data structures, hashing contract, sorting, and iterators",
+    "LastModified": "2026-08-06",
+    "Authors": [
+      "Alexander Oro",
+      "Gemini"
+    ],
+    "References": [
+      "Reviewer for the Final Exams | First Semester | Day 1",
+      "Reviewer for the Final Exams | First Semester | Day 2",
+      "Reviewer for the Final Exams | Second Semester | Day 1",
+      "Java_Programming_Detailed_Reviewer.pdf"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which dynamic data structure from the Java Collections Framework provides a resizable array implementation?",
+      "answer": "ArrayList",
+      "choices": [
+        "ArrayList",
+        "Array",
+        "HashMap",
+        "Vector"
+      ],
+      "reference": "Java Collections Framework - Lists Comparison",
+      "term": "Finals"
+    },
+    {
+      "question": "Which interface in the Java Collections Framework represents an ordered collection that allows duplicate elements and provides index-based access?",
+      "answer": "List",
+      "choices": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "reference": "Java Collections Framework - Core Interfaces",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the primary difference in performance between `ArrayList` and `LinkedList` in Java?",
+      "answer": "ArrayList provides O(1) random access by index, whereas LinkedList provides faster O(1) arbitrary insertions and deletions once the node position is reached.",
+      "choices": [
+        "ArrayList provides O(1) random access by index, whereas LinkedList provides faster O(1) arbitrary insertions and deletions once the node position is reached.",
+        "ArrayList is a linked node structure, whereas LinkedList is backed by a dynamic resizable array.",
+        "LinkedList allows duplicates, whereas ArrayList strictly forbids duplicate elements.",
+        "ArrayList cannot be modified after instantiation, whereas LinkedList is dynamic."
+      ],
+      "reference": "Java Collections Framework - Lists Comparison",
+      "term": "Finals"
+    },
+    {
+      "question": "Why must a custom class properly override both `equals()` and `hashCode()` methods when its objects are stored in a `HashSet` or used as keys in a `HashMap`?",
+      "answer": "If two objects are equal according to `equals()`, they must produce the same `hashCode()` to be mapped to and found in the same hash bucket.",
+      "choices": [
+        "If two objects are equal according to `equals()`, they must produce the same `hashCode()` to be mapped to and found in the same hash bucket.",
+        "Overriding `hashCode()` sorts the objects alphabetically in the collection.",
+        "Without overriding `hashCode()`, the Java Virtual Machine throws a `ClassCastException` on compilation.",
+        "`HashSet` and `HashMap` will only permit primitive types unless `hashCode()` is overridden."
+      ],
+      "reference": "Java Collections Framework - Hash-Based Collections Contract",
+      "term": "Finals"
+    },
+    {
+      "question": "Which `Set` implementation stores unique elements in ascending sorted order according to their natural ordering or a specified `Comparator`?",
+      "answer": "TreeSet",
+      "choices": [
+        "TreeSet",
+        "HashSet",
+        "LinkedHashSet",
+        "EnumSet"
+      ],
+      "reference": "Java Collections Framework - Set Implementations",
+      "term": "Finals"
+    },
+    {
+      "question": "In a standard `java.util.HashMap`, what happens if you invoke `map.put(key, value)` with a key that already exists in the map?",
+      "answer": "The previous value associated with the key is overwritten and replaced with the new value.",
+      "choices": [
+        "The previous value associated with the key is overwritten and replaced with the new value.",
+        "A `DuplicateKeyException` is thrown at runtime.",
+        "The new value is discarded and the original value is preserved.",
+        "The map creates a sub-list under that key to hold both values."
+      ],
+      "reference": "Java Collections Framework - Map Behavior",
+      "term": "Finals"
+    },
+    {
+      "question": "What exception is thrown by fail-fast iterators (such as those in `ArrayList` or `HashMap`) if the underlying collection is modified structurally during iteration by any method other than `Iterator.remove()`?",
+      "answer": "ConcurrentModificationException",
+      "choices": [
+        "ConcurrentModificationException",
+        "IllegalStateException",
+        "NoSuchElementException",
+        "IndexOutOfBoundsException"
+      ],
+      "reference": "Java Collections Framework - Fail-Fast Iterators",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the fundamental difference between the `Comparable` and `Comparator` interfaces in Java?",
+      "answer": "`Comparable` defines a natural internal ordering for a class via `compareTo()`, while `Comparator` defines external custom sorting logic via `compare()`.",
+      "choices": [
+        "`Comparable` defines a natural internal ordering for a class via `compareTo()`, while `Comparator` defines external custom sorting logic via `compare()`.",
+        "`Comparable` is used for maps, while `Comparator` is strictly used for sets.",
+        "`Comparable` requires two parameters in its method, while `Comparator` takes none.",
+        "`Comparable` cannot sort Strings or numbers, whereas `Comparator` is built only for primitives."
+      ],
+      "reference": "Java Collections Framework - Sorting & Comparison",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method from the `java.util.Collections` utility class performs a fast binary search on a sorted `List` to locate an element in O(log n) time?",
+      "answer": "Collections.binarySearch()",
+      "choices": [
+        "Collections.binarySearch()",
+        "Collections.find()",
+        "Collections.lookup()",
+        "Collections.searchTree()"
+      ],
+      "reference": "Java Collections Framework - Collections Utility Class",
+      "term": "Finals"
+    },
+    {
+      "question": "Which data structure interface is designed for holding elements prior to processing and follows First-In, First-Out (FIFO) ordering by default?",
+      "answer": "Queue",
+      "choices": [
+        "Queue",
+        "Stack",
+        "Map",
+        "Set"
+      ],
+      "reference": "Java Collections Framework - Queues and Deques",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be the output of the following `ArrayList` manipulation code?\n\n```java\nList<String> list = new ArrayList<>();\nlist.add(\"Java\");\nlist.add(\"OOP\");\nlist.add(1, \"Spring\");\nlist.remove(0);\nSystem.out.println(list.get(0));\n```",
+      "answer": "Spring",
+      "choices": [
+        "Spring",
+        "Java",
+        "OOP",
+        "IndexOutOfBoundsException"
+      ],
+      "reference": "Java Collections Framework - List Operations",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following code using a `HashSet`?\n\n```java\nSet<Integer> set = new HashSet<>();\nset.add(10);\nset.add(20);\nset.add(10);\nset.add(30);\nSystem.out.println(set.size());\n```",
+      "answer": "3",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "10"
+      ],
+      "reference": "Java Collections Framework - Set Uniqueness",
+      "term": "Finals"
+    },
+    {
+      "question": "Analyze the following `HashMap` operations. What value is printed to the console?\n\n```java\nMap<String, Integer> map = new HashMap<>();\nmap.put(\"A\", 10);\nmap.put(\"B\", 20);\nmap.put(\"A\", 50);\nint total = map.get(\"A\") + map.getOrDefault(\"C\", 5);\nSystem.out.println(total);\n```",
+      "answer": "55",
+      "choices": [
+        "55",
+        "15",
+        "60",
+        "75"
+      ],
+      "reference": "Java Collections Framework - Map Key Overwrite & Defaults",
+      "term": "Finals"
+    },
+    {
+      "question": "What is printed when executing this `TreeSet` code demonstrating natural ordering?\n\n```java\nTreeSet<String> set = new TreeSet<>();\nset.add(\"Banana\");\nset.add(\"Apple\");\nset.add(\"Cherry\");\nSystem.out.println(set.first() + \" \" + set.last());\n```",
+      "answer": "Apple Cherry",
+      "choices": [
+        "Apple Cherry",
+        "Banana Cherry",
+        "Banana Apple",
+        "Cherry Apple"
+      ],
+      "reference": "Java Collections Framework - TreeSet Ordering",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following `PriorityQueue` code involving `poll()` and `peek()`?\n\n```java\nQueue<Integer> pq = new PriorityQueue<>();\npq.add(40);\npq.add(10);\npq.add(30);\nSystem.out.print(pq.poll() + \" \" + pq.peek());\n```",
+      "answer": "10 30",
+      "choices": [
+        "10 30",
+        "40 10",
+        "10 40",
+        "40 30"
+      ],
+      "reference": "Java Collections Framework - PriorityQueue Min-Heap",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the printed output when sorting a list using `Collections.reverseOrder()`?\n\n```java\nList<Integer> nums = new ArrayList<>(Arrays.asList(5, 2, 8, 1));\nCollections.sort(nums, Collections.reverseOrder());\nSystem.out.print(nums.get(0) + \" \" + nums.get(1));\n```",
+      "answer": "8 5",
+      "choices": [
+        "8 5",
+        "1 2",
+        "5 2",
+        "8 1"
+      ],
+      "reference": "Java Collections Framework - Collections Utility Sorting",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the final size of the list after using `Iterator.remove()` in the following snippet?\n\n```java\nList<String> items = new ArrayList<>(Arrays.asList(\"A\", \"B\", \"C\", \"B\"));\nIterator<String> it = items.iterator();\nwhile (it.hasNext()) {\n  if (it.next().equals(\"B\")) {\n    it.remove();\n  }\n}\nSystem.out.println(items.size());\n```",
+      "answer": "2",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "ConcurrentModificationException"
+      ],
+      "reference": "Java Collections Framework - Safe Iterator Removal",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the printed output of this `ArrayDeque` acting as a LIFO stack?\n\n```java\nDeque<String> stack = new ArrayDeque<>();\nstack.push(\"First\");\nstack.push(\"Second\");\nstack.push(\"Third\");\nSystem.out.print(stack.pop() + \" \" + stack.peek());\n```",
+      "answer": "Third Second",
+      "choices": [
+        "Third Second",
+        "First Second",
+        "Third First",
+        "First Third"
+      ],
+      "reference": "Java Collections Framework - Deque Stack Operations",
+      "term": "Finals"
+    },
+    {
+      "question": "What is printed to the console after iterating over the keys of this map?\n\n```java\nMap<Integer, String> codes = new HashMap<>();\ncodes.put(1, \"Red\");\ncodes.put(2, \"Green\");\ncodes.put(3, \"Blue\");\nint sum = 0;\nfor (int k : codes.keySet()) {\n  sum += k;\n}\nSystem.out.println(sum);\n```",
+      "answer": "6",
+      "choices": [
+        "6",
+        "3",
+        "RedGreenBlue",
+        "0"
+      ],
+      "reference": "Java Collections Framework - Map KeySet Traversal",
+      "term": "Finals"
+    },
+    {
+      "question": "Consider the following code snippet removing from an `ArrayList<Integer>`. What is printed?\n\n```java\nList<Integer> list = new ArrayList<>();\nlist.add(10);\nlist.add(20);\nlist.add(30);\nlist.remove(1); // removes index 1\nSystem.out.println(list);\n```",
+      "answer": "[10, 30]",
+      "choices": [
+        "[10, 30]",
+        "[20, 30]",
+        "[10, 20]",
+        "[30]"
+      ],
+      "reference": "Java Collections Framework - ArrayList Index Removal",
+      "term": "Finals"
+    },
+    {
+      "question": "Which `Map` implementation maintains insertion order of keys while providing O(1) performance for get and put operations?",
+      "answer": "LinkedHashMap",
+      "choices": [
+        "LinkedHashMap",
+        "HashMap",
+        "TreeMap",
+        "Hashtable"
+      ],
+      "reference": "Java Collections Framework - Map Implementations",
+      "term": "Finals"
+    },
+    {
+      "question": "Which method from the `java.util.Collections` utility class creates an unmodifiable, read-only wrapper around an existing `List`?",
+      "answer": "Collections.unmodifiableList(list)",
+      "choices": [
+        "Collections.unmodifiableList(list)",
+        "Collections.makeReadOnly(list)",
+        "Collections.freeze(list)",
+        "Collections.lock(list)"
+      ],
+      "reference": "Java Collections Framework - Utility Wrappers",
+      "term": "Finals"
+    }
+  ]
+}

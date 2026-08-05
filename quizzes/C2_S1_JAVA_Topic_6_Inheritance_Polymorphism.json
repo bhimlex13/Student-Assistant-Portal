@@ -1,0 +1,141 @@
+{
+  "quizInfo": {
+    "Subject": "Java Programming",
+    "Term": "Finals",
+    "Title": "Inheritance & Polymorphism (10 Questions)",
+    "Description": "Inheritance, method overriding, dynamic dispatch, and casting",
+    "LastModified": "2026-08-06",
+    "Authors": [
+      "Alexander Oro",
+      "Gemini"
+    ],
+    "References": [
+      "Reviewer for the Final Exams | First Semester | Day 1",
+      "Reviewer for the Final Exams | First Semester | Day 2",
+      "Reviewer for the Final Exams | Second Semester | Day 1",
+      "Java_Programming_Detailed_Reviewer.pdf"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which keyword is used in Java to establish single class inheritance, and what class does every class implicitly extend if none is specified?",
+      "answer": "`extends` keyword; implicitly extends `java.lang.Object`",
+      "choices": [
+        "`extends` keyword; implicitly extends `java.lang.Object`",
+        "`implements` keyword; implicitly extends `java.lang.Class`",
+        "`inherits` keyword; implicitly extends `java.lang.System`",
+        "`super` keyword; implicitly extends `java.lang.Object`"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 23-24)",
+      "term": "Finals"
+    },
+    {
+      "question": "In what order are constructors executed when an object of a derived subclass (`FirstYear` extends `Student` extends `Person`) is instantiated?",
+      "answer": "Person -> Student -> FirstYear (Parent constructors execute before child constructors)",
+      "choices": [
+        "Person -> Student -> FirstYear (Parent constructors execute before child constructors)",
+        "FirstYear -> Student -> Person (Child constructor executes first)",
+        "Student -> Person -> FirstYear",
+        "FirstYear -> Person -> Student"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 26-27)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following code demonstrating dynamic method dispatch (method overriding)?\n\n```java\nclass Animal {\n    void sound() {\n        System.out.print(\"Animal \");\n    }\n}\nclass Dog extends Animal {\n    void sound() {\n        System.out.print(\"Bark \");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Animal a = new Dog();\n        a.sound();\n    }\n}\n```",
+      "answer": "Bark",
+      "choices": [
+        "Bark",
+        "Animal",
+        "Animal Bark",
+        "Compilation error"
+      ],
+      "reference": "Java_Programming_Detailed_Reviewer (1).pdf (Page 4)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the difference between Static Polymorphism and Dynamic Polymorphism in Java?",
+      "answer": "Static polymorphism is resolved at compile time via method overloading, while dynamic polymorphism is resolved at runtime via method overriding.",
+      "choices": [
+        "Static polymorphism is resolved at compile time via method overloading, while dynamic polymorphism is resolved at runtime via method overriding.",
+        "Static polymorphism uses `abstract` classes, while dynamic polymorphism uses `final` classes.",
+        "Static polymorphism requires interfaces, while dynamic polymorphism requires packages.",
+        "Dynamic polymorphism cannot be used with subclasses."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 3)",
+      "term": "Finals"
+    },
+    {
+      "question": "Which of the following is a strict rule when overriding a method in a subclass?",
+      "answer": "The overriding method in the child class must be at least as accessible (not more restrictive) and cannot throw new or broader checked exceptions.",
+      "choices": [
+        "The overriding method in the child class must be at least as accessible (not more restrictive) and cannot throw new or broader checked exceptions.",
+        "The overriding method must be declared `private`.",
+        "The overriding method must have a different return type.",
+        "The overriding method can throw any checked exception regardless of the parent method."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 6)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will happen during compilation or execution of this casting code?\n\n```java\nclass Dog {}\nclass Cat {}\npublic class Main {\n    public static void main(String[] args) {\n        Cat c = new Cat();\n        Dog d = (Dog) c;\n    }\n}\n```",
+      "answer": "Compilation error: Inconvertible types; cannot cast unrelated classes with no inheritance relationship.",
+      "choices": [
+        "Compilation error: Inconvertible types; cannot cast unrelated classes with no inheritance relationship.",
+        "The code runs cleanly with `d` being null.",
+        "Throws `ClassCastException` at runtime.",
+        "Throws `NullPointerException` at runtime."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 4-5)",
+      "term": "Finals"
+    },
+    {
+      "question": "What happens when executing downcasting where the actual object in memory is NOT an instance of the target subclass?\n\n```java\nclass Animal {}\nclass Cat extends Animal {}\npublic class Main {\n    public static void main(String[] args) {\n        Animal a = new Animal();\n        Cat c = (Cat) a;\n    }\n}\n```",
+      "answer": "A `ClassCastException` is thrown at runtime.",
+      "choices": [
+        "A `ClassCastException` is thrown at runtime.",
+        "Compilation error: cannot cast Animal to Cat.",
+        "The code runs and creates an empty Cat object.",
+        "A `NullPointerException` is thrown."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 5)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of this code utilizing Upcasting and method overriding?\n\n```java\nclass Parent {\n    void show() {\n        System.out.print(\"Parent\");\n    }\n}\nclass Child extends Parent {\n    void show() {\n        System.out.print(\"Child\");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Parent p = new Child();\n        p.show();\n    }\n}\n```",
+      "answer": "Child",
+      "choices": [
+        "Child",
+        "Parent",
+        "ParentChild",
+        "Compilation error"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 4)",
+      "term": "Finals"
+    },
+    {
+      "question": "Can a class declared with the `final` keyword (e.g., `final class SecurityManager`) be extended by another class in Java?",
+      "answer": "No, a final class cannot be extended or inherited.",
+      "choices": [
+        "No, a final class cannot be extended or inherited.",
+        "Yes, by using the super keyword.",
+        "Yes, if in the same package.",
+        "Yes, but only by abstract classes."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 24)",
+      "term": "Finals"
+    },
+    {
+      "question": "In the `CollegeList` case study, if `Faculty extends CollegeEmployee` and `CollegeEmployee extends Person`, which classes' public methods are accessible to an instance of `Faculty`?",
+      "answer": "Faculty, CollegeEmployee, Person, and Object",
+      "choices": [
+        "Faculty, CollegeEmployee, Person, and Object",
+        "Faculty only",
+        "CollegeEmployee only",
+        "Person only"
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 33-35)",
+      "term": "Finals"
+    }
+  ]
+}

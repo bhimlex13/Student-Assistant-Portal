@@ -1,0 +1,165 @@
+{
+  "quizInfo": {
+    "Subject": "Java Programming",
+    "Term": "Finals",
+    "Title": "Control Flow & Loops (12 Questions)",
+    "Description": "Conditional statements and loop execution",
+    "LastModified": "2026-08-06",
+    "Authors": [
+      "Alexander Oro",
+      "Gemini"
+    ],
+    "References": [
+      "Reviewer for the Final Exams | First Semester | Day 1",
+      "Reviewer for the Final Exams | First Semester | Day 2",
+      "Reviewer for the Final Exams | Second Semester | Day 1",
+      "Java_Programming_Detailed_Reviewer.pdf"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which of the following is true about short-circuit evaluation in Java using the `&&` (logical AND) operator?",
+      "answer": "If the left-hand operand is false, the right-hand operand is not evaluated.",
+      "choices": [
+        "If the left-hand operand is false, the right-hand operand is not evaluated.",
+        "Both operands are always evaluated regardless of their truth values.",
+        "If the left-hand operand is true, evaluation stops immediately.",
+        "It converts boolean expressions into arithmetic bitwise operations."
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 7)",
+      "term": "Finals"
+    },
+    {
+      "question": "How does short-circuit evaluation affect the execution of this code?\n\n```java\nint a = 10, b = 5;\nif (a > 20 && ++b > 5) {\n    System.out.print(\"True \");\n}\nSystem.out.println(b);\n```",
+      "answer": "5",
+      "choices": [
+        "5",
+        "6",
+        "True 5",
+        "True 6"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 7)",
+      "term": "Finals"
+    },
+    {
+      "question": "In a Java `switch` statement, what happens if a matching `case` block does not contain a `break` statement?",
+      "answer": "Execution falls through to the subsequent case blocks until a break statement or the end of the switch block is encountered.",
+      "choices": [
+        "Execution falls through to the subsequent case blocks until a break statement or the end of the switch block is encountered.",
+        "A compilation error occurs.",
+        "The program terminates immediately.",
+        "The switch resets and evaluates the default case only."
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 24)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the minimum number of times a `do-while` loop is guaranteed to execute its body?",
+      "answer": "1",
+      "choices": [
+        "1",
+        "0",
+        "2",
+        "Infinite unless broken"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 26)",
+      "term": "Finals"
+    },
+    {
+      "question": "What does the `continue` statement do inside a loop body?",
+      "answer": "It skips the remainder of the current iteration and jumps directly to the next iteration of the loop.",
+      "choices": [
+        "It skips the remainder of the current iteration and jumps directly to the next iteration of the loop.",
+        "It terminates the entire loop immediately.",
+        "It resets the loop counter to 0.",
+        "It exits the current method."
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 27)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be the final printed value of `num` after this loop executes?\n\n```java\nint num = 0;\nfor (int i = 0; i < 5; i++) {\n    if (i == 3) break;\n    num += i;\n}\nSystem.out.println(num);\n```",
+      "answer": "3",
+      "choices": [
+        "3",
+        "6",
+        "10",
+        "4"
+      ],
+      "reference": "[Day 1] RCl1-2ndSem-Final-Reviewer.pdf",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following nested loop?\n\n```java\nint count = 0;\nfor (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= 2; j++) {\n        count++;\n    }\n}\nSystem.out.println(count);\n```",
+      "answer": "6",
+      "choices": [
+        "6",
+        "5",
+        "9",
+        "3"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 28)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following `while` loop snippet?\n\n```java\nint k = 1;\nwhile (k < 10) {\n    k *= 2;\n}\nSystem.out.println(k);\n```",
+      "answer": "16",
+      "choices": [
+        "16",
+        "8",
+        "10",
+        "32"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 25)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the result of evaluating the logical expression `(3 > 3 || 4 < 2) && (12 > 3 || 4 < 5)` in Java?",
+      "answer": "false",
+      "choices": [
+        "false",
+        "true",
+        "1",
+        "Compilation error"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 18)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the Bitwise/Logical XOR (`^`) operator in `boolean A = 3 > 2; boolean B = 2 < 1; System.out.println(A ^ B);`?",
+      "answer": "true",
+      "choices": [
+        "true",
+        "false",
+        "1",
+        "0"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 16)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following `switch` code due to fall-through?\n\n```java\nint day = 2;\nswitch (day) {\n    case 1: System.out.print(\"Mon \");\n    case 2: System.out.print(\"Tue \");\n    case 3: System.out.print(\"Wed \");\n        break;\n    default: System.out.print(\"Sun \");\n}\n```",
+      "answer": "Tue Wed",
+      "choices": [
+        "Tue Wed",
+        "Tue",
+        "Mon Tue Wed",
+        "Tue Wed Sun"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 24)",
+      "term": "Finals"
+    },
+    {
+      "question": "What will be printed when running this `do-while` loop?\n\n```java\nint count = 5;\ndo {\n    System.out.print(count + \" \");\n    count++;\n} while (count < 5);\n```",
+      "answer": "5",
+      "choices": [
+        "5",
+        "5 6",
+        "Nothing",
+        "Infinite loop"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 26)",
+      "term": "Finals"
+    }
+  ]
+}

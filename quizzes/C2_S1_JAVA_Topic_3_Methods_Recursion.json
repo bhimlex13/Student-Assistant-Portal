@@ -1,0 +1,141 @@
+{
+  "quizInfo": {
+    "Subject": "Java Programming",
+    "Term": "Finals",
+    "Title": "Methods, Overloading & Recursion (10 Questions)",
+    "Description": "Method signatures, overloading, recursion, and pass-by-value",
+    "LastModified": "2026-08-06",
+    "Authors": [
+      "Alexander Oro",
+      "Gemini"
+    ],
+    "References": [
+      "Reviewer for the Final Exams | First Semester | Day 1",
+      "Reviewer for the Final Exams | First Semester | Day 2",
+      "Reviewer for the Final Exams | Second Semester | Day 1",
+      "Java_Programming_Detailed_Reviewer.pdf"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "Which of the following describes the mechanism of method overloading?",
+      "answer": "Defining multiple methods in the same class with the same name but different parameter lists.",
+      "choices": [
+        "Defining multiple methods in the same class with the same name but different parameter lists.",
+        "Redefining a superclass method in a subclass with the exact same signature.",
+        "Hiding a private method inside an inner class.",
+        "Creating methods with different return types but identical parameter lists in the same class."
+      ],
+      "reference": "Java_Programming_Detailed_Reviewer (1).pdf (Page 3)",
+      "term": "Finals"
+    },
+    {
+      "question": "What comprises the 'method signature' of a Java method?",
+      "answer": "The method name and the parameter types in order.",
+      "choices": [
+        "The method name and the parameter types in order.",
+        "The return type, method name, and access modifier.",
+        "The method name and return type only.",
+        "The method name, parameter names, and exception list."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 17)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is printed based on Java's pass-by-value behavior?\n\n```java\npublic class Main {\n    public static void modify(int x) {\n        x = 50;\n    }\n    public static void main(String[] args) {\n        int a = 10;\n        modify(a);\n        System.out.println(a);\n    }\n}\n```",
+      "answer": "10",
+      "choices": [
+        "10",
+        "50",
+        "0",
+        "Compilation error"
+      ],
+      "reference": "Reviewer-C2-S1-Finals.pdf (Page 5)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the following recursive method call `factorial(4)`?\n\n```java\npublic static int factorial(int num) {\n    if (num == 0) return 1;\n    return num * factorial(num - 1);\n}\n```",
+      "answer": "24",
+      "choices": [
+        "24",
+        "12",
+        "6",
+        "4"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 44-45)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is printed by the recursive countdown method call `countdown(3)`?\n\n```java\npublic static void countdown(int num) {\n    if (num <= 0) {\n        System.out.print(\"End\");\n    } else {\n        System.out.print(num + \" \");\n        countdown(num - 1);\n    }\n}\n```",
+      "answer": "3 2 1 End",
+      "choices": [
+        "3 2 1 End",
+        "3 2 1 0 End",
+        "End 1 2 3",
+        "3 2 1"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 45-46)",
+      "term": "Finals"
+    },
+    {
+      "question": "Why does a recursive method use more memory overhead than an equivalent iterative loop?",
+      "answer": "Each recursive call allocates a new stack frame on the call stack for parameters and local variables until the base case is reached.",
+      "choices": [
+        "Each recursive call allocates a new stack frame on the call stack for parameters and local variables until the base case is reached.",
+        "Recursion duplicates the heap memory on every call.",
+        "Recursion creates multiple JVM threads in parallel.",
+        "Iterative methods do not use CPU registers."
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 47)",
+      "term": "Finals"
+    },
+    {
+      "question": "When overloaded methods exist for both primitive `int` and wrapper `Integer`, which method is chosen by Java when `draw(10)` is invoked?",
+      "answer": "The primitive `int` version is chosen without performing autoboxing.",
+      "choices": [
+        "The primitive `int` version is chosen without performing autoboxing.",
+        "The `Integer` version is chosen via automatic autoboxing.",
+        "A compilation error occurs due to ambiguous invocation.",
+        "The compiler picks randomly between them."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 18)",
+      "term": "Finals"
+    },
+    {
+      "question": "What is the output of the recursive decimal-to-binary method `decToBin(13)`?\n\n```java\npublic static void decToBin(int num) {\n    if (num == 0) {\n        System.out.print(0);\n    } else if (num > 0) {\n        decToBin(num / 2);\n        System.out.print(num % 2);\n    }\n}\n```",
+      "answer": "01101",
+      "choices": [
+        "01101",
+        "1101",
+        "1011",
+        "01011"
+      ],
+      "reference": "[Day 2] RCl1-1stSem-Finals-Reviewer-Info.pdf (Page 46-47)",
+      "term": "Finals"
+    },
+    {
+      "question": "Can two methods in the same Java class have the exact same name and parameter list but different return types (e.g., `int compute()` and `double compute()`)?",
+      "answer": "No, method overloading is based on parameter lists and not return types; this causes a compilation error.",
+      "choices": [
+        "No, method overloading is based on parameter lists and not return types; this causes a compilation error.",
+        "Yes, Java differentiates overloaded methods by return type at runtime.",
+        "Yes, but only if one is static and the other is instance.",
+        "Yes, if both methods are declared private."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 17)",
+      "term": "Finals"
+    },
+    {
+      "question": "What are the 6 structural parts of a Java method declaration?",
+      "answer": "Access modifier, optional specifier (e.g., static/final), return type, method name, parameter list, and method body (or exception list).",
+      "choices": [
+        "Access modifier, optional specifier (e.g., static/final), return type, method name, parameter list, and method body (or exception list).",
+        "Package name, class name, interface name, method name, return type, and semicolon.",
+        "Constructor name, this keyword, super keyword, parameters, return type, and main.",
+        "Import statement, header, body, footer, return value, and termination."
+      ],
+      "reference": "[Day 1] Reviewer-C2-S1-Finals.pdf (Page 12)",
+      "term": "Finals"
+    }
+  ]
+}
