@@ -226,6 +226,45 @@
                     ]
                 }
             ]
+        },
+        {
+            "Subject_ID": "C3_S1_GD",
+            "Subject_Name": "Game Development",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_DEMO_1.png",
+            "Subject_Status": "Active",
+            "Subject_Module": [
+                {
+                    "Module_ID": "C3_S1_GD_Midterms",
+                    "Module_Name": "Midterms Reviewers & Quizzes",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "04 October 2026",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_GD_Midterms_1",
+                            "Subfolder_Name": "1. Player Elements",
+                            "Subfolder_Description": "54-question reviewer covering player motivation, social interaction, competition, mastery, escapism, game markets, geographics, psychographics, MBTI, demographics, and player generations.",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_GD_Midterms_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "04 October 2026",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_GD_Midterms_2",
+                            "Subfolder_Name": "2. Story and Character Development",
+                            "Subfolder_Description": "86-question reviewer covering the three-act story structure, story elements, storytelling techniques, classic character archetypes, protagonist and antagonist roles, game characters, character triangles, character arcs, and character development levels.",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_GD_Midterms_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "04 October 2026",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

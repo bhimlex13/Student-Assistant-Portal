@@ -1,0 +1,1048 @@
+{
+  "quizInfo": {
+    "Subject": "Game Development",
+    "Term": "Midterms",
+    "Title": "Story and Character Development",
+    "LastModified": "04 October 2026",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is the most common formula described for organizing a story into three major sections?",
+      "answer": "three-act plot structure",
+      "choices": [
+        "three-act plot structure",
+        "character triangle",
+        "character arc",
+        "unity of opposites"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can correctly applied story organization help ensure in a film or game?",
+      "answer": "audience/player emotional involvement",
+      "choices": [
+        "automatic character growth",
+        "audience/player emotional involvement",
+        "real-world authenticity",
+        "multiplayer competition"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which act places the audience into the action or drama and aims to capture attention immediately?",
+      "answer": "Beginning (Act I)",
+      "choices": [
+        "Middle (Act II)",
+        "End (Act III)",
+        "Beginning (Act I)",
+        "Character Arc"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which act focuses on the character's problem and should introduce it immediately?",
+      "answer": "Beginning (Act I)",
+      "choices": [
+        "Middle (Act II)",
+        "End (Act III)",
+        "Backstory",
+        "Beginning (Act I)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "When can background events leading up to the opening action be introduced?",
+      "answer": "later in the story",
+      "choices": [
+        "later in the story",
+        "before the story begins",
+        "only at the climax",
+        "only after the resolution"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which act focuses on obstacles that stand in the way of solving the problem introduced earlier?",
+      "answer": "Middle (Act II)",
+      "choices": [
+        "Beginning (Act I)",
+        "Middle (Act II)",
+        "End (Act III)",
+        "Premise"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which act usually contains a series of obstacles the character must overcome?",
+      "answer": "Middle (Act II)",
+      "choices": [
+        "Beginning (Act I)",
+        "End (Act III)",
+        "Middle (Act II)",
+        "Setting"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which act comprises the bulk of dramatic tension in the story?",
+      "answer": "Middle (Act II)",
+      "choices": [
+        "Beginning (Act I)",
+        "End (Act III)",
+        "Synopsis",
+        "Middle (Act II)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which act is reached when the problem introduced at the beginning has been solved?",
+      "answer": "End (Act III)",
+      "choices": [
+        "End (Act III)",
+        "Beginning (Act I)",
+        "Middle (Act II)",
+        "Backstory"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which act often requires the character to face and remove the obstacles encountered earlier to reach resolution?",
+      "answer": "End (Act III)",
+      "choices": [
+        "Beginning (Act I)",
+        "End (Act III)",
+        "Middle (Act II)",
+        "Premise"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of game is given as an example of a satisfying experience that does not necessarily require a storyline?",
+      "answer": "puzzle games",
+      "choices": [
+        "role-playing games (RPGs)",
+        "MMOGs",
+        "puzzle games",
+        "crime dramas"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which game genre is described as relying heavily on story and sometimes becoming a delivery vehicle for it?",
+      "answer": "role-playing games (RPGs)",
+      "choices": [
+        "puzzle games",
+        "sports games",
+        "social games",
+        "role-playing games (RPGs)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which five elements are listed as helping turn rough ideas into a preliminary story form?",
+      "answer": "premise, backstory, synopsis, theme, and setting",
+      "choices": [
+        "premise, backstory, synopsis, theme, and setting",
+        "plot, conflict, realism, focus, and avatar",
+        "hero, shadow, mentor, ally, and guardian",
+        "self, team, community, society, and humanity"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element is a one- or two-sentence summary or short paragraph of the game's purpose and overall theme?",
+      "answer": "Premise",
+      "choices": [
+        "Backstory",
+        "Premise",
+        "Synopsis",
+        "Setting"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element often appears on game packaging and is intended to intrigue customers into buying the game?",
+      "answer": "Premise",
+      "choices": [
+        "Theme",
+        "Plot",
+        "Premise",
+        "Backstory"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element should focus on what is unique about the game and may indicate its genre while addressing the player directly?",
+      "answer": "Premise",
+      "choices": [
+        "Synopsis",
+        "Setting",
+        "Backstory",
+        "Premise"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element provides information leading up to where the game begins?",
+      "answer": "Backstory",
+      "choices": [
+        "Backstory",
+        "Premise",
+        "Synopsis",
+        "Plot"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element may appear as a short paragraph in an instruction manual or as opening text accompanied by a voice-over?",
+      "answer": "Backstory",
+      "choices": [
+        "Setting",
+        "Backstory",
+        "Theme",
+        "Premise"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element helps orient the player to the game's purpose and action and can help establish initial bonds with certain characters?",
+      "answer": "Backstory",
+      "choices": [
+        "Plot",
+        "Theme",
+        "Backstory",
+        "Setting"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element or storyline can exist throughout the game itself and involve the player in the setting and actions?",
+      "answer": "Synopsis",
+      "choices": [
+        "Premise",
+        "Theme",
+        "Setting",
+        "Synopsis"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element can help a player escape reality, become immersed in an artificial game world, and become emotionally involved with characters?",
+      "answer": "Synopsis",
+      "choices": [
+        "Synopsis",
+        "Premise",
+        "Setting",
+        "Plot"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element represents what the story is truly about even when it is not stated explicitly?",
+      "answer": "Theme",
+      "choices": [
+        "Setting",
+        "Theme",
+        "Plot",
+        "Premise"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element usually relates to a primary obstacle faced by the main character or characters?",
+      "answer": "Theme",
+      "choices": [
+        "Synopsis",
+        "Backstory",
+        "Theme",
+        "Setting"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element can be expressed as a defining question such as whether murder is justified or love can triumph?",
+      "answer": "Theme",
+      "choices": [
+        "Plot",
+        "Premise",
+        "Backstory",
+        "Theme"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element represents the world explored by the audience, characters, or player?",
+      "answer": "Setting",
+      "choices": [
+        "Setting",
+        "Theme",
+        "Plot",
+        "Synopsis"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element asks designers to think about the world where characters live and interact, including location, time period, history, and geography?",
+      "answer": "Setting",
+      "choices": [
+        "Premise",
+        "Setting",
+        "Backstory",
+        "Theme"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element can draw on traditional media locations such as space for science fiction, a haunted house for horror, or a crime scene for mystery?",
+      "answer": "Setting",
+      "choices": [
+        "Plot",
+        "Theme",
+        "Setting",
+        "Premise"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element is concerned with how the story unfolds rather than what the story is about?",
+      "answer": "Plot",
+      "choices": [
+        "Theme",
+        "Setting",
+        "Premise",
+        "Plot"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element can be part of story structure but can also be dictated by how the game is played?",
+      "answer": "Plot",
+      "choices": [
+        "Plot",
+        "Backstory",
+        "Setting",
+        "Theme"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which element is a sequence of events that forces increasingly difficult decisions and drives the story toward a climax and resolution?",
+      "answer": "Plot",
+      "choices": [
+        "Premise",
+        "Plot",
+        "Synopsis",
+        "Setting"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What storytelling practice maximizes dramatic tension by repeatedly placing the player near disaster and allowing narrow escapes?",
+      "answer": "Balancing conflict",
+      "choices": [
+        "Shifting Focus",
+        "Suspension of Disbelief",
+        "Balancing conflict",
+        "Realism"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which technique draws players back to the main storyline even while they make choices and have apparent freedom?",
+      "answer": "Shifting Focus",
+      "choices": [
+        "Balancing conflict",
+        "Suspension of Disbelief",
+        "Realism",
+        "Shifting Focus"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which technique can widen a game's scope through more subquests or by introducing new characters or objects leading into unexplored areas?",
+      "answer": "Shifting Focus",
+      "choices": [
+        "Shifting Focus",
+        "Realism",
+        "Balancing conflict",
+        "Suspension of Disbelief"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which technique causes players to forget real life and accept an artificial reality created by the game?",
+      "answer": "Suspension of Disbelief",
+      "choices": [
+        "Realism",
+        "Suspension of Disbelief",
+        "Shifting Focus",
+        "Balancing conflict"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which technique specifically refers to accepting rules and experiences that might not make sense in the real world?",
+      "answer": "Suspension of Disbelief",
+      "choices": [
+        "Realism",
+        "Balancing conflict",
+        "Suspension of Disbelief",
+        "Shifting Focus"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which technique is illustrated by people flying without air transport or human-looking characters being evil while demons are good?",
+      "answer": "Suspension of Disbelief",
+      "choices": [
+        "Realism",
+        "Balancing conflict",
+        "Shifting Focus",
+        "Suspension of Disbelief"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which technique contrasts with accepting impossible game rules by mimicking the real world as closely as possible?",
+      "answer": "Realism",
+      "choices": [
+        "Realism",
+        "Suspension of Disbelief",
+        "Shifting Focus",
+        "Balancing conflict"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which technique is appropriate when players want reality and authenticity, such as a visually accurate contemporary setting?",
+      "answer": "Realism",
+      "choices": [
+        "Suspension of Disbelief",
+        "Realism",
+        "Balancing conflict",
+        "Shifting Focus"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which archetype is the central character in a single-player game and serves as the player's avatar?",
+      "answer": "Hero",
+      "choices": [
+        "Shadow",
+        "Mentor",
+        "Hero",
+        "Ally"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which archetype must be someone the player can identify and bond with?",
+      "answer": "Hero",
+      "choices": [
+        "Shadow",
+        "Guardian",
+        "Trickster",
+        "Hero"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which archetype represents the central character's opposite and is often the ultimate evil character?",
+      "answer": "Shadow",
+      "choices": [
+        "Shadow",
+        "Hero",
+        "Mentor",
+        "Herald"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which archetype may be the adversary responsible for the central character's problem and can remain hidden until the climax?",
+      "answer": "Shadow",
+      "choices": [
+        "Guardian",
+        "Shadow",
+        "Ally",
+        "Trickster"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which archetype can represent the dark side of the central character?",
+      "answer": "Shadow",
+      "choices": [
+        "Mentor",
+        "Herald",
+        "Shadow",
+        "Ally"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which archetype often guides the central character toward action and provides wisdom from a similar journey?",
+      "answer": "Mentor",
+      "choices": [
+        "Ally",
+        "Guardian",
+        "Trickster",
+        "Mentor"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which archetype helps the central character progress and can assist with tasks that are difficult or impossible to accomplish alone?",
+      "answer": "Ally",
+      "choices": [
+        "Ally",
+        "Mentor",
+        "Guardian",
+        "Herald"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which archetype blocks progress until the central character has proven worth and therefore acts as a test?",
+      "answer": "Guardian",
+      "choices": [
+        "Ally",
+        "Guardian",
+        "Mentor",
+        "Trickster"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which archetype could be a henchman or an internal block such as self-doubt, fear, or discomfort?",
+      "answer": "Guardian",
+      "choices": [
+        "Shadow",
+        "Herald",
+        "Guardian",
+        "Ally"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which archetype is neutral, enjoys making mischief, and can either cause damage or provide comic relief?",
+      "answer": "Trickster",
+      "choices": [
+        "Guardian",
+        "Herald",
+        "Mentor",
+        "Trickster"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which archetype facilitates change in the story and provides the central character with direction?",
+      "answer": "Herald",
+      "choices": [
+        "Herald",
+        "Mentor",
+        "Ally",
+        "Trickster"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which character role is the main character whose point of view centers a single-player game?",
+      "answer": "Protagonist",
+      "choices": [
+        "Antagonist",
+        "Protagonist",
+        "Supporting Character",
+        "Non-Player Character"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which character role must drive the story forward by acting and making things happen rather than simply reacting?",
+      "answer": "Protagonist",
+      "choices": [
+        "Antagonist",
+        "Supporting Character",
+        "Protagonist",
+        "Guardian"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which character role can be physically or morally strong without always being good and often has a tragic flaw that reflects vulnerability?",
+      "answer": "Protagonist",
+      "choices": [
+        "Antagonist",
+        "Trickster",
+        "Mentor",
+        "Protagonist"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which character role is the opposite of the main story-driving character without necessarily being bad?",
+      "answer": "Antagonist",
+      "choices": [
+        "Antagonist",
+        "Protagonist",
+        "Supporting Character",
+        "Herald"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which character role may simply hold opposing political, ethical, or lifestyle views?",
+      "answer": "Antagonist",
+      "choices": [
+        "Protagonist",
+        "Antagonist",
+        "Mentor",
+        "Ally"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What device links two opposing characters when they want the exact same thing, such as a love interest, precious stone, or clan leadership?",
+      "answer": "unity of opposites",
+      "choices": [
+        "character triangle",
+        "character arc",
+        "unity of opposites",
+        "shifting focus"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What does the linking device between opposing characters make more relevant?",
+      "answer": "conflict or competition",
+      "choices": [
+        "setting or geography",
+        "realism or authenticity",
+        "backstory or synopsis",
+        "conflict or competition"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which antagonist type is an anti-hero who could have been the main character and receives punishment at the end?",
+      "answer": "Transformational",
+      "choices": [
+        "Transformational",
+        "Mistaken",
+        "Exaggerated",
+        "Supporting"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which antagonist type may stir audience empathy but causes innocent deaths and is destroyed in the process?",
+      "answer": "Transformational",
+      "choices": [
+        "Mistaken",
+        "Transformational",
+        "Exaggerated",
+        "Realistic"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which antagonist type is initially believed to be villainous but is later revealed as innocent?",
+      "answer": "Mistaken",
+      "choices": [
+        "Transformational",
+        "Exaggerated",
+        "Mistaken",
+        "Realistic"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which antagonist type is common in murder mysteries and crime dramas?",
+      "answer": "Mistaken",
+      "choices": [
+        "Transformational",
+        "Exaggerated",
+        "Realistic",
+        "Mistaken"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which antagonist type is larger-than-life, bizarre, sometimes comedic, and may dominate the story because of being more interesting?",
+      "answer": "Exaggerated",
+      "choices": [
+        "Exaggerated",
+        "Mistaken",
+        "Transformational",
+        "Realistic"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which characters are also called pivotal characters and primarily prevent the main character from walking away?",
+      "answer": "Supporting Characters",
+      "choices": [
+        "Player Characters",
+        "Supporting Characters",
+        "Non-Player Characters",
+        "Antagonists"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which characters can jump-start action, carry out the opposing character's bidding, and bring varied viewpoints?",
+      "answer": "Supporting Characters",
+      "choices": [
+        "Player Characters",
+        "Non-Player Characters",
+        "Supporting Characters",
+        "Avatars"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which characters can be sidekicks or the opposing character's henchmen?",
+      "answer": "Supporting Characters",
+      "choices": [
+        "Player Characters",
+        "Non-Player Characters",
+        "Heroes",
+        "Supporting Characters"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What two broad types can game-world characters belong to?",
+      "answer": "player characters or non-player characters",
+      "choices": [
+        "player characters or non-player characters",
+        "heroes or shadows",
+        "mentors or allies",
+        "protagonists or antagonists"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of game entity is controlled by players?",
+      "answer": "Player Characters",
+      "choices": [
+        "Non-Player Characters",
+        "Player Characters",
+        "Supporting Characters",
+        "Antagonists"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a single controlled character called when one player controls only one?",
+      "answer": "avatar",
+      "choices": [
+        "NPC",
+        "supporting character",
+        "avatar",
+        "shadow"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can result from the direct connection between a player and a single controlled character?",
+      "answer": "assigning a personal identity to the avatar",
+      "choices": [
+        "automatic character growth",
+        "becoming a non-player character",
+        "removing the character arc",
+        "assigning a personal identity to the avatar"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "When can identification with a single controlled character become more pronounced?",
+      "answer": "when the avatar displays realistic features and actions",
+      "choices": [
+        "when the avatar displays realistic features and actions",
+        "when the story has no setting",
+        "when all characters are NPCs",
+        "when there is no dramatic tension"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of character is not controlled by players and is instead created and controlled by the game's artificial intelligence engine?",
+      "answer": "Non-Player Characters (NPCs)",
+      "choices": [
+        "Player Characters",
+        "Non-Player Characters (NPCs)",
+        "Supporting Characters",
+        "Avatars"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which two elements are identified as significant in developing character relationships and character change?",
+      "answer": "character triangle and character arc",
+      "choices": [
+        "premise and setting",
+        "realism and focus",
+        "character triangle and character arc",
+        "hero and shadow"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What forms a powerful three-way relationship among characters in a story?",
+      "answer": "Character Triangle",
+      "choices": [
+        "Character Arc",
+        "Unity of Opposites",
+        "Three-Act Plot Structure",
+        "Character Triangle"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which three-way relationship is commonly illustrated by two opposing characters competing for the attention of the same love interest?",
+      "answer": "Character Triangle",
+      "choices": [
+        "Character Triangle",
+        "Character Arc",
+        "Unity of Opposites",
+        "Shifting Focus"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can happen to a character's role when many three-way relationships exist in the same story?",
+      "answer": "the role can change based on each triangle",
+      "choices": [
+        "the role becomes permanently fixed",
+        "the role can change based on each triangle",
+        "the role becomes an NPC",
+        "the role loses all conflict"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the process of a central character's growth and development called?",
+      "answer": "Character Arc",
+      "choices": [
+        "Character Triangle",
+        "Unity of Opposites",
+        "Character Arc",
+        "Shifting Focus"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is this growth process illustrated according to the handout?",
+      "answer": "through behavior rather than monologue or dialogue",
+      "choices": [
+        "through dialogue only",
+        "through backstory only",
+        "through setting descriptions only",
+        "through behavior rather than monologue or dialogue"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is identified as the core of character development?",
+      "answer": "understanding a character's value system",
+      "choices": [
+        "understanding a character's value system",
+        "increasing visual realism",
+        "adding more subquests",
+        "using a three-act plot only"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Whose hierarchy-of-needs model is used as the basis for the development levels?",
+      "answer": "Abraham Maslow",
+      "choices": [
+        "Isabel Briggs Myers",
+        "Abraham Maslow",
+        "Katharine Briggs",
+        "Joseph Campbell"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How do the development levels progress in scope?",
+      "answer": "from self to humanity",
+      "choices": [
+        "from humanity to self",
+        "from team to backstory",
+        "from self to humanity",
+        "from setting to premise"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which level describes a central character concerned only with personal needs and thoughts?",
+      "answer": "Level 1 Intrapersonal",
+      "choices": [
+        "Level 2 Interpersonal",
+        "Level 3 Team",
+        "Level 4 Community",
+        "Level 1 Intrapersonal"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which level describes bonding with one other person such as a lover, friend, colleague, or family member?",
+      "answer": "Level 2 Interpersonal",
+      "choices": [
+        "Level 2 Interpersonal",
+        "Level 1 Intrapersonal",
+        "Level 3 Team",
+        "Level 4 Community"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which level marks the point where the central character is no longer looking out only for himself or herself but for another character as well?",
+      "answer": "Level 2 Interpersonal",
+      "choices": [
+        "Level 1 Intrapersonal",
+        "Level 2 Interpersonal",
+        "Level 3 Team",
+        "Level 5 Humanity"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which level describes bonding with a small group that shares common interests?",
+      "answer": "Level 3 Team",
+      "choices": [
+        "Level 1 Intrapersonal",
+        "Level 2 Interpersonal",
+        "Level 3 Team",
+        "Level 4 Community"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which level fulfills the need to belong and can be seen when MMOG players form guilds?",
+      "answer": "Level 3 Team",
+      "choices": [
+        "Level 2 Interpersonal",
+        "Level 4 Community",
+        "Level 5 Humanity",
+        "Level 3 Team"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which level occurs when a smaller group becomes part of a larger organized network such as a neighborhood, city, school, or company?",
+      "answer": "Level 4 Community",
+      "choices": [
+        "Level 4 Community",
+        "Level 2 Interpersonal",
+        "Level 3 Team",
+        "Level 5 Humanity"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which level involves self-actualization and spiritual growth after comfort, love, and acceptance have been achieved in a larger group?",
+      "answer": "Level 5 Humanity",
+      "choices": [
+        "Level 2 Interpersonal",
+        "Level 5 Humanity",
+        "Level 3 Team",
+        "Level 4 Community"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    }
+  ]
+}
