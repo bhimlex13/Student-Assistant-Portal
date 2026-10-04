@@ -148,6 +148,45 @@
                     ]
                 }
             ]
+        },
+        {
+            "Subject_ID": "C3_S1_EDP",
+            "Subject_Name": "Event-Driven Programming",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_EDP.png",
+            "Subject_Status": "Active",
+            "Subject_Module": [
+                {
+                    "Module_ID": "C3_S1_EDP_Midterms",
+                    "Module_Name": "Midterms Reviewers & Quizzes",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "04 October 2026",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_EDP_Midterms_1",
+                            "Subfolder_Name": "1. Exception Handling",
+                            "Subfolder_Description": "56-question reviewer covering the exception hierarchy, common C# exceptions, try-catch, throw, finally, manual exceptions, custom exceptions, and code reading.",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EDP_Midterms_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "04 October 2026",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_EDP_Midterms_2",
+                            "Subfolder_Name": "2. Threads",
+                            "Subfolder_Description": "72-question reviewer covering threads, main and child threads, ThreadStart, thread life cycle and states, properties, methods, multithreading, race conditions, and C# code reading.",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_EDP_Midterms_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "04 October 2026",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

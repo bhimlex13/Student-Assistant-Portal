@@ -1,0 +1,880 @@
+{
+  "quizInfo": {
+    "Subject": "Event-Driven Programming",
+    "Term": "Midterms",
+    "Title": "Threads",
+    "LastModified": "04 October 2026",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What is an independent execution unit containing a piece of code?",
+      "answer": "Thread",
+      "choices": [
+        "Thread",
+        "Main Thread",
+        "Child Thread",
+        "ThreadStart"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What C#.net class is used to create and control execution units in a system or application, in which the properties and methods are already provided?",
+      "answer": "Thread",
+      "choices": [
+        "Main Thread",
+        "Thread",
+        "Child Thread",
+        "ThreadStart"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which one is started when a process begins?",
+      "answer": "Main Thread",
+      "choices": [
+        "Child Thread",
+        "ThreadStart",
+        "Main Thread",
+        "Thread"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is the first one to be performed in a process when using the class that creates and controls execution units?",
+      "answer": "Main Thread",
+      "choices": [
+        "Child Thread",
+        "ThreadStart",
+        "Thread",
+        "Main Thread"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What are the other threads that are made using the Thread class known as?",
+      "answer": "Child Thread",
+      "choices": [
+        "Child Thread",
+        "Main Thread",
+        "ThreadStart",
+        "Thread"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property correctly replaces [BLANK] in the sample?\n\n`Thread basicThread = Thread.[BLANK];`",
+      "answer": "CurrentThread",
+      "choices": [
+        "Name",
+        "CurrentThread",
+        "Priority",
+        "ThreadState"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property correctly replaces [BLANK] in the sample?\n\n`basicThread.[BLANK] = \"Basic C# Thread\";`",
+      "answer": "Name",
+      "choices": [
+        "CurrentThread",
+        "Priority",
+        "Name",
+        "ThreadState"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What delegate type is used to execute the code when the callback method starts?",
+      "answer": "ThreadStart",
+      "choices": [
+        "Thread",
+        "CurrentThread",
+        "ChildThreadMethod",
+        "ThreadStart"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What delegate represents a method that runs in the Thread class?",
+      "answer": "ThreadStart",
+      "choices": [
+        "ThreadStart",
+        "Thread",
+        "CurrentThread",
+        "ChildThreadMethod"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type correctly replaces both [BLANK] entries in the sample?\n\n`[BLANK] delThread = new [BLANK](ChildThreadMethod);`",
+      "answer": "ThreadStart",
+      "choices": [
+        "Thread",
+        "ThreadStart",
+        "CurrentThread",
+        "ThreadState"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which callback method is passed to `new ThreadStart([BLANK])` in the sample child-thread code?",
+      "answer": "ChildThreadMethod",
+      "choices": [
+        "ThreadCycle",
+        "Method1",
+        "ChildThreadMethod",
+        "Method2"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method correctly replaces [BLANK] to begin the created child object?\n\n`childThread.[BLANK]();`",
+      "answer": "Start",
+      "choices": [
+        "Join",
+        "Abort",
+        "Sleep",
+        "Start"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property is assigned the text `\"Main Thread\"` in this statement?\n\n`Thread.CurrentThread.[BLANK] = \"Main Thread\";`",
+      "answer": "Name",
+      "choices": [
+        "Name",
+        "Priority",
+        "ThreadState",
+        "IsAlive"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What class has a state that determines when and where it undergoes during its life cycle?",
+      "answer": "Thread",
+      "choices": [
+        "ThreadStart",
+        "Thread",
+        "Main Thread",
+        "Child Thread"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state begins the life cycle of a new thread?",
+      "answer": "Unstarted",
+      "choices": [
+        "Started",
+        "Running",
+        "Unstarted",
+        "Blocked"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method places a thread into the state also known as Ready or Runnable?",
+      "answer": "Start",
+      "choices": [
+        "Abort",
+        "Interrupt",
+        "Join",
+        "Start"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state is also known as Ready or Runnable after the required method is called?",
+      "answer": "Started",
+      "choices": [
+        "Started",
+        "Unstarted",
+        "Running",
+        "Blocked"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state is entered by the highest priority Started thread?",
+      "answer": "Running",
+      "choices": [
+        "Ready",
+        "Running",
+        "Blocked",
+        "Stopped"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state is entered when a Running thread's job or task is over?",
+      "answer": "Stopped",
+      "choices": [
+        "Running",
+        "Blocked",
+        "Stopped",
+        "WaitSleepJoin"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method can force a Running thread to the Stopped state?",
+      "answer": "Abort",
+      "choices": [
+        "Interrupt",
+        "Join",
+        "Sleep",
+        "Abort"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which exception is thrown by the method that normally causes the thread to terminate?",
+      "answer": "ThreadAbortException",
+      "choices": [
+        "ThreadAbortException",
+        "WaitSleepJoin",
+        "ThreadState",
+        "SystemException"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state is entered when an input/output (I/O) request is issued?",
+      "answer": "Blocked",
+      "choices": [
+        "Ready",
+        "Blocked",
+        "Running",
+        "WaitSleepJoin"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state receives no CPU time while the operating system is performing the I/O operations?",
+      "answer": "Blocked",
+      "choices": [
+        "Running",
+        "Ready",
+        "Blocked",
+        "Started"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state does a Blocked thread return to after I/O operations are complete so it can resume execution?",
+      "answer": "Started",
+      "choices": [
+        "Running",
+        "Ready",
+        "Stopped",
+        "Started"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state may be entered when a Running thread is asked to sleep for the specified number of milliseconds or when the Monitor method Wait is called?",
+      "answer": "WaitSleepJoin",
+      "choices": [
+        "WaitSleepJoin",
+        "Blocked",
+        "Stopped",
+        "Ready"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state is returned to when another thread invokes the Monitor method Pulse or PulseAll?",
+      "answer": "Started",
+      "choices": [
+        "Running",
+        "Started",
+        "Blocked",
+        "Stopped"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which Monitor method moves the next waiting thread back to the Started state?",
+      "answer": "Pulse",
+      "choices": [
+        "PulseAll",
+        "Interrupt",
+        "Pulse",
+        "Join"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which Monitor method moves all waiting threads back to the Started state?",
+      "answer": "PulseAll",
+      "choices": [
+        "Pulse",
+        "Interrupt",
+        "Join",
+        "PulseAll"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state does a sleeping thread return to when the specified sleep duration expires?",
+      "answer": "Started",
+      "choices": [
+        "Started",
+        "WaitSleepJoin",
+        "Running",
+        "Stopped"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method can be called by another thread so a sleeping or waiting thread returns from WaitSleepJoin to the Started state?",
+      "answer": "Interrupt",
+      "choices": [
+        "Abort",
+        "Interrupt",
+        "Join",
+        "Start"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is called when one thread cannot continue executing unless another thread terminates?",
+      "answer": "Join",
+      "choices": [
+        "Interrupt",
+        "Abort",
+        "Join",
+        "Sleep"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is associated with the waiting execution unit leaving its temporary suspended state when the other completes execution?",
+      "answer": "Join",
+      "choices": [
+        "Start",
+        "Sleep",
+        "Abort",
+        "Join"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state describes a thread created within the Common Language Runtime (CLR) but not yet started?",
+      "answer": "Unstarted",
+      "choices": [
+        "Unstarted",
+        "Ready",
+        "Running",
+        "Stopped"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state describes a thread that is prepared to run and is waiting for CPU time?",
+      "answer": "Ready",
+      "choices": [
+        "Started",
+        "Ready",
+        "Running",
+        "Blocked"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state describes the mode entered after invoking the method that begins execution?",
+      "answer": "Running",
+      "choices": [
+        "Ready",
+        "Started",
+        "Running",
+        "WaitSleepJoin"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state describes a running thread that is suspended temporarily by invoking either the pause method or the monitor’s Wait method?",
+      "answer": "WaitSleepJoin",
+      "choices": [
+        "Blocked",
+        "Stopped",
+        "Ready",
+        "WaitSleepJoin"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state describes a suspended thread resuming when the conditions for which it was suspended are no longer valid?",
+      "answer": "Started",
+      "choices": [
+        "Started",
+        "Ready",
+        "Running",
+        "Unstarted"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state describes a thread waiting for a resource or I/O operations?",
+      "answer": "Blocked",
+      "choices": [
+        "WaitSleepJoin",
+        "Blocked",
+        "Running",
+        "Ready"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state describes a thread that has finished its task?",
+      "answer": "Stopped",
+      "choices": [
+        "Blocked",
+        "Running",
+        "Stopped",
+        "Unstarted"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which delegate type correctly replaces both [BLANK] entries?\n\n`[BLANK] delThreadObj = new [BLANK](ThreadCycle);`",
+      "answer": "ThreadStart",
+      "choices": [
+        "Thread",
+        "ThreadState",
+        "CurrentThread",
+        "ThreadStart"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which callback method is passed into the delegate in the life-cycle sample?\n\n`ThreadStart delThreadObj = new ThreadStart([BLANK]);`",
+      "answer": "ThreadCycle",
+      "choices": [
+        "ThreadCycle",
+        "ChildThreadMethod",
+        "Method1",
+        "Method2"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method correctly replaces [BLANK] to begin `_childThread`?\n\n`_childThread.[BLANK]();`",
+      "answer": "Start",
+      "choices": [
+        "Sleep",
+        "Start",
+        "Abort",
+        "Join"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method correctly replaces [BLANK] in the three-second pause?\n\n`Thread.[BLANK](3000);`",
+      "answer": "Sleep",
+      "choices": [
+        "Start",
+        "Abort",
+        "Sleep",
+        "Join"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method correctly replaces [BLANK] after the console message about stopping the child object is written?\n\n`_childThread.[BLANK]();`",
+      "answer": "Abort",
+      "choices": [
+        "Interrupt",
+        "Join",
+        "Start",
+        "Abort"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property correctly replaces [BLANK] in this state check?\n\n`_childThread.[BLANK] == [STATE_ENUM].WaitSleepJoin`",
+      "answer": "ThreadState",
+      "choices": [
+        "ThreadState",
+        "CurrentThread",
+        "IsAlive",
+        "Priority"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which exception type correctly replaces [BLANK] in the sample?\n\n`catch([BLANK] ex)`",
+      "answer": "ThreadAbortException",
+      "choices": [
+        "WaitSleepJoin",
+        "ThreadAbortException",
+        "SystemException",
+        "ThreadState"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which block is used after the catch block and writes the last console message in the life-cycle sample?",
+      "answer": "finally",
+      "choices": [
+        "try",
+        "catch",
+        "finally",
+        "Abort"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which exception can be caught but is automatically rethrown at the end of the catch block?",
+      "answer": "ThreadAbortException",
+      "choices": [
+        "SystemException",
+        "WaitSleepJoin",
+        "ThreadState",
+        "ThreadAbortException"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property returns the current execution unit that is running?",
+      "answer": "CurrentThread",
+      "choices": [
+        "CurrentThread",
+        "IsAlive",
+        "ThreadState",
+        "Name"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property returns a Boolean value indicating the execution status of the recent execution unit?",
+      "answer": "IsAlive",
+      "choices": [
+        "IsBackground",
+        "IsAlive",
+        "CurrentThread",
+        "ThreadState"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property is used to get or set a value that indicates whether the execution unit is a background one or not?",
+      "answer": "IsBackground",
+      "choices": [
+        "IsAlive",
+        "Priority",
+        "IsBackground",
+        "Name"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property is used to get or set the label assigned to the execution unit?",
+      "answer": "Name",
+      "choices": [
+        "Priority",
+        "IsAlive",
+        "ThreadState",
+        "Name"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property is used to get or set a value that represents how important an execution unit is for scheduling?",
+      "answer": "Priority",
+      "choices": [
+        "Priority",
+        "Name",
+        "ThreadState",
+        "IsBackground"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which property is used to get the value that contains the states of the recent execution unit?",
+      "answer": "ThreadState",
+      "choices": [
+        "CurrentThread",
+        "ThreadState",
+        "IsAlive",
+        "Priority"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method terminates the execution unit when called and raises the exception shown in the sample?",
+      "answer": "Abort",
+      "choices": [
+        "Interrupt",
+        "Join",
+        "Abort",
+        "ResetAbort"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method acts on an execution unit that is in the WaitSleepJoin state so it can resume?",
+      "answer": "Interrupt",
+      "choices": [
+        "Abort",
+        "Join",
+        "Start",
+        "Interrupt"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is used to stop the calling execution unit until another one terminates?",
+      "answer": "Join",
+      "choices": [
+        "Join",
+        "Sleep",
+        "Start",
+        "Interrupt"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which static method is used to withdraw an abort request for the ongoing execution unit?",
+      "answer": "ResetAbort",
+      "choices": [
+        "Abort",
+        "ResetAbort",
+        "Interrupt",
+        "Start"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is used to begin execution?",
+      "answer": "Start",
+      "choices": [
+        "Join",
+        "Sleep",
+        "Start",
+        "Interrupt"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which static method is used to pause execution for the stated number in milliseconds?",
+      "answer": "Sleep",
+      "choices": [
+        "Start",
+        "Join",
+        "Abort",
+        "Sleep"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What common operating-system feature allows an application to have more than one (1) execution path at the same time?",
+      "answer": "Multithreading",
+      "choices": [
+        "Multithreading",
+        "ThreadStart",
+        "WaitSleepJoin",
+        "race condition"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What feature assigns the CPU to each execution unit for a time slice before moving on to the next one?",
+      "answer": "Multithreading",
+      "choices": [
+        "race condition",
+        "Multithreading",
+        "ThreadStart",
+        "WaitSleepJoin"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What fashion is used when the CPU serves each execution unit for a given time interval?",
+      "answer": "round-robin fashion",
+      "choices": [
+        "race condition",
+        "WaitSleepJoin",
+        "round-robin fashion",
+        "time slice"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method correctly replaces [BLANK] for each child object so the main thread waits until it finishes?\n\n```csharp\n_childThread1.[BLANK]();\n_childThread2.[BLANK]();\n_childThread3.[BLANK]();\n```",
+      "answer": "Join",
+      "choices": [
+        "Start",
+        "Sleep",
+        "Abort",
+        "Join"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method name correctly replaces [BLANK] in the delegate used by the first two child threads?\n\n`ThreadStart delObjThread = new ThreadStart([BLANK]);`",
+      "answer": "Method1",
+      "choices": [
+        "Method1",
+        "Method2",
+        "ThreadCycle",
+        "ChildThreadMethod"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method name correctly replaces [BLANK] in the third child object?\n\n`_childThread3 = new Thread(new ThreadStart([BLANK]));`",
+      "answer": "Method2",
+      "choices": [
+        "Method1",
+        "Method2",
+        "ThreadCycle",
+        "ChildThreadMethod"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method contains the statement `x++;`?",
+      "answer": "Method1",
+      "choices": [
+        "Method2",
+        "ThreadCycle",
+        "Method1",
+        "ChildThreadMethod"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method contains the statement `y++;`?",
+      "answer": "Method2",
+      "choices": [
+        "Method1",
+        "ThreadCycle",
+        "ChildThreadMethod",
+        "Method2"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which method is used in the sample program to make the main execution unit wait until the three (3) child units finish their task?",
+      "answer": "Join",
+      "choices": [
+        "Join",
+        "Start",
+        "Sleep",
+        "Interrupt"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is it known as when `_childThread1` and `_childThread2` are gotten from the same resource simultaneously for manipulation?",
+      "answer": "race condition",
+      "choices": [
+        "Multithreading",
+        "race condition",
+        "WaitSleepJoin",
+        "round-robin fashion"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state in Figure 1 has arrows back toward Running labeled Interrupt, Pulse, and PulseAll?",
+      "answer": "WaitSleepJoin",
+      "choices": [
+        "Unstarted",
+        "Stopped",
+        "WaitSleepJoin",
+        "Blocked"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which state follows the Abort Requested box in Figure 1?",
+      "answer": "Stopped",
+      "choices": [
+        "Running",
+        "Unstarted",
+        "WaitSleepJoin",
+        "Stopped"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    }
+  ]
+}
