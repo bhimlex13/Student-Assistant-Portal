@@ -671,6 +671,15 @@ Follow the steps below (mirrored from `Guide - Adding a quiz in the updated quiz
    - Populate `Subfolder_Name`, `Subfolder_Description`, `Subfolder_Author`, `Subfolder_LastModified`, and `Subfolder_Status`.
 6. **Verify.** Refresh SAP, browse to your subject/module, and confirm the new quiz loads and plays correctly. If it fails, the starter screen will display a descriptive error — typically the file path or the manifest entry is misnamed.
 
+### Self-contained questions
+
+If a source question depends on a figure, graph, diagram, table, screenshot, or image:
+
+- include the actual visual through the supported quiz `image` field, or
+- rewrite the question so all information necessary to answer it is contained directly in the question.
+
+Never deploy a question that requires a visual the student cannot see.
+
 > Tip: Use **Developer Tools → File Converter** in-app to convert an `.xlsx` handout directly into SAP-compliant JSON before pasting into a new `quizzes/*.json` file.
 
 ---

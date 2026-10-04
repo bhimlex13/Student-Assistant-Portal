@@ -565,7 +565,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which block is used after the catch block and writes the last console message in the life-cycle sample?",
+      "question": "Which block executes after the catch block and writes `Finally Block the Thread!`?",
       "answer": "finally",
       "choices": [
         "try",
@@ -661,7 +661,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which method terminates the execution unit when called and raises the exception shown in the sample?",
+      "question": "Which method terminates the execution unit when called and raises an exception in that thread?",
       "answer": "Abort",
       "choices": [
         "Interrupt",
@@ -829,7 +829,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which method is used in the sample program to make the main execution unit wait until the three (3) child units finish their task?",
+      "question": "Which method makes the main execution unit wait until the three (3) child units finish their task?",
       "answer": "Join",
       "choices": [
         "Join",
@@ -853,7 +853,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which state in Figure 1 has arrows back toward Running labeled Interrupt, Pulse, and PulseAll?",
+      "question": "Which state can a thread leave when `Interrupt`, `Pulse`, or `PulseAll` causes it to resume execution?",
       "answer": "WaitSleepJoin",
       "choices": [
         "Unstarted",
@@ -865,7 +865,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which state follows the Abort Requested box in Figure 1?",
+      "question": "Which state is reached after an abort request causes the thread to terminate?",
       "answer": "Stopped",
       "choices": [
         "Running",

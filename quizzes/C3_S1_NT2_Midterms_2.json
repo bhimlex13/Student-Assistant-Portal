@@ -709,7 +709,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which port is shown for inbound HTTP traffic?",
+      "question": "Which port is used for inbound HTTP traffic?",
       "answer": "port 80",
       "choices": [
         "port 22",
@@ -721,7 +721,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which port is shown for inbound HTTPS traffic?",
+      "question": "Which port is used for inbound HTTPS traffic?",
       "answer": "port 443",
       "choices": [
         "port 22",
@@ -889,7 +889,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which rule-processing behavior belongs to security groups in the comparison table?",
+      "question": "Which rule-processing behavior applies to security groups?",
       "answer": "All applicable rules are evaluated",
       "choices": [
         "Rules are evaluated in number order",
@@ -901,7 +901,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which rule-processing behavior belongs to network ACLs in the comparison table?",
+      "question": "Which rule-processing behavior applies to network ACLs?",
       "answer": "Rules are evaluated in number order",
       "choices": [
         "All applicable rules are evaluated",

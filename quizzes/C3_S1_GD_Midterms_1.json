@@ -385,7 +385,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which MBTI dimension in Figure 1 is labeled as the source of energy?",
+      "question": "Which MBTI dimension contrasts `others` with `self` as the source of energy?",
       "answer": "Extroverted vs. Introverted",
       "choices": [
         "Sensing vs. Intuitive",
@@ -397,7 +397,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which MBTI dimension in Figure 1 is labeled as the source of information?",
+      "question": "Which MBTI dimension contrasts `data` with `ideas` as the source of information?",
       "answer": "Sensing vs. Intuitive",
       "choices": [
         "Sensing vs. Intuitive",
@@ -409,7 +409,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which MBTI dimension in Figure 1 is labeled as the approach to solving problems?",
+      "question": "Which MBTI dimension contrasts `objective` with `subjective` in the approach to solving problems?",
       "answer": "Thinking vs. Feeling",
       "choices": [
         "Extroverted vs. Introverted",
@@ -421,7 +421,7 @@
       "term": "Midterms"
     },
     {
-      "question": "Which MBTI dimension in Figure 1 is labeled as orientation to the outside world?",
+      "question": "Which MBTI dimension contrasts `organized` with `flexible` in orientation to the outside world?",
       "answer": "Judging vs. Perceiving",
       "choices": [
         "Extroverted vs. Introverted",
@@ -457,7 +457,7 @@
       "term": "Midterms"
     },
     {
-      "question": "What shapes the shared beliefs, attitudes, and values of members of an age cohort according to the handout?",
+      "question": "What shapes the shared beliefs, attitudes, and values of members of an age cohort?",
       "answer": "historical events and climates",
       "choices": [
         "high scores and rankings",
