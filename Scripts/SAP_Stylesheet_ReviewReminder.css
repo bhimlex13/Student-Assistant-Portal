@@ -1,0 +1,152 @@
+.RR_Reminder {
+    position: fixed;
+    inset: 0;
+    z-index: 4000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    background: rgba(24, 16, 48, 0.62);
+}
+
+.RR_Reminder[hidden] {
+    display: none !important;
+}
+
+.RR_Dialog {
+    width: min(640px, 100%);
+    max-height: calc(100dvh - 32px);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: white;
+    color: var(--Text-Color);
+    border: 1px solid var(--SAP-Purple-Level-4L);
+    border-radius: 20px;
+    box-shadow: 0 18px 50px rgba(34, 24, 78, 0.28);
+    overflow: hidden;
+}
+
+.RR_Header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 22px 24px 8px;
+    flex: 0 0 auto;
+}
+
+.RR_Icon {
+    width: 36px;
+    height: 36px;
+    flex: 0 0 auto;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--SAP-Purple-Level-4L);
+    color: var(--SAP-Purple-Level-3D);
+    font-family: var(--Text-Font-Primary);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.RR_Title {
+    margin: 0;
+    font-family: var(--Text-Font-Primary);
+    font-size: 1.35rem;
+    line-height: 1.25;
+    color: var(--SAP-Purple-Level-4D);
+}
+
+.RR_Body {
+    min-height: 0;
+    flex: 1 1 auto;
+    padding: 8px 24px 12px;
+    overflow: auto;
+    font-family: var(--Text-Font-Tertiary);
+    font-size: 0.98rem;
+    line-height: 1.55;
+}
+
+.RR_Body p {
+    margin: 0 0 12px;
+}
+
+.RR_Body strong {
+    color: var(--SAP-Purple-Level-2D);
+}
+
+.RR_Body a {
+    color: var(--SAP-Purple-Base);
+    font-weight: 700;
+}
+
+.RR_Closing {
+    margin: 0 0 12px;
+    padding: 12px 14px;
+    border-radius: 14px;
+    background: var(--SAP-Purple-Level-4L);
+    color: var(--SAP-Purple-Level-4D);
+    font-family: var(--Text-Font-Primary);
+}
+
+.RR_Closing strong {
+    color: var(--SAP-Purple-Level-3D);
+}
+
+.RR_Footer {
+    flex: 0 0 auto;
+    padding: 8px 24px 20px;
+    background: white;
+}
+
+#RR_Acknowledge {
+    width: 100% !important;
+    min-height: 48px;
+    box-sizing: border-box;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.RR_Note {
+    margin: 10px 0 0;
+    text-align: center;
+    font-family: var(--Text-Font-Tertiary);
+    font-size: 0.82rem;
+    line-height: 1.4;
+    color: var(--SAP-Gray-Level-3D);
+}
+
+body.RR_Locked {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 700px) {
+    .RR_Reminder {
+        padding: 12px;
+        align-items: flex-end;
+    }
+
+    .RR_Dialog {
+        max-height: calc(100dvh - 24px);
+        border-radius: 18px;
+    }
+
+    .RR_Header,
+    .RR_Footer {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .RR_Body {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .RR_Title {
+        font-size: 1.15rem;
+    }
+}

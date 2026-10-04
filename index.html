@@ -7,6 +7,7 @@
     </title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Scripts/SAP_Main.css">
+    <link rel="stylesheet" href="Scripts/SAP_Stylesheet_ReviewReminder.css">
     <link rel="stylesheet" href="Scripts/SAP_Stylesheet_Explorer.css">
     <link rel="stylesheet" href="https://elmerf5445.github.io/ERUMA-UI/Scripts/Styles/App_Stylesheet_Debugging.css">
     <link rel="stylesheet"
@@ -20,6 +21,26 @@
 </head>
 
 <body onload="Quizzes_SetExplorerMode('Home')">
+    <div class="RR_Reminder" id="RR_Reminder" hidden>
+        <div class="RR_Dialog" id="RR_Dialog" role="dialog" aria-modal="true" aria-labelledby="RR_Title" aria-describedby="RR_Body RR_Closing">
+            <div class="RR_Header">
+                <span class="RR_Icon" aria-hidden="true">i</span>
+                <h2 class="RR_Title" id="RR_Title">Important Review Reminder</h2>
+            </div>
+            <div class="RR_Body" id="RR_Body">
+                <p>The questions in this Student Assistant Portal are created from the provided <strong>handouts and learning materials</strong> and are intended for <strong>review and study purposes only</strong>.</p>
+                <p>Please do not assume that the questions shown here will be the same as, or will appear in, your <strong>actual examination</strong>. Your instructor may use different questions, formats, examples, or topics covered by the official course materials.</p>
+                <p>Use this portal as a study tool to strengthen your understanding and improve your preparation, not as a replacement for reading the handouts, attending discussions, practicing lessons, and reviewing other materials provided by your instructor.</p>
+                <p>Your exam results will still depend on your own preparation and understanding of the subject.</p>
+                <p>Although the questions and answers are reviewed before being added, mistakes may still occur. If you notice an incorrect, unclear, or questionable question or answer, please <a href="about.html">contact the developers</a> and report it so it can be reviewed and corrected.</p>
+            </div>
+            <div class="RR_Footer">
+                <p class="RR_Closing" id="RR_Closing"><strong>Study the lesson, not just the questions.</strong> Good luck with your exam!</p>
+                <button type="button" class="General_Button RR_Acknowledge" id="RR_Acknowledge" Primary>I Understand — Start Reviewing</button>
+                <p class="RR_Note">By continuing, you acknowledge that this portal is a reviewer and not an official exam question bank.</p>
+            </div>
+        </div>
+    </div>
     <script src="Scripts/SAP_Javascript_Main.js"></script>
     <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_Debugging.js"></script>
     <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js"></script>
@@ -965,7 +986,7 @@
             </div>
         </div>
     </div>
-
+    <script src="Scripts/SAP_Javascript_ReviewReminder.js"></script>
 </body>
 
 </html>
