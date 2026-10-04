@@ -385,13 +385,13 @@
       "term": "Midterms"
     },
     {
-      "question": "Which example contains two catch blocks and demonstrates how a manually thrown exception is caught?",
-      "answer": "Listing 2",
+      "question": "Which block catches a manually thrown exception and displays its message?",
+      "answer": "catch block",
       "choices": [
-        "Listing 1",
-        "Listing 3",
-        "The try-catch Block",
-        "Listing 2"
+        "try block",
+        "finally block",
+        "if condition",
+        "catch block"
       ],
       "reference": "03_Handout_1",
       "term": "Midterms"
