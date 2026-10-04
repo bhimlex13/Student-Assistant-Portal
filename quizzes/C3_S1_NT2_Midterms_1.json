@@ -1,0 +1,1012 @@
+{
+  "quizInfo": {
+    "Subject": "Network Technology 2",
+    "Term": "Midterms",
+    "Title": "Cloud Security",
+    "LastModified": "04 October 2026",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "04 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What model explains how security responsibilities are divided between the cloud provider and the customer?",
+      "answer": "AWS shared responsibility model",
+      "choices": [
+        "AWS shared responsibility model",
+        "AWS Identity and Access Management (IAM)",
+        "Service control policies (SCPs)",
+        "AWS Compliance Programs"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which responsibility covers protecting the infrastructure that runs cloud services, including hardware, software, networking, and facilities?",
+      "answer": "Security of the Cloud",
+      "choices": [
+        "Security in the Cloud",
+        "Security of the Cloud",
+        "Data at Rest",
+        "Authorization and Permissions"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which responsibility covers the resources and configurations controlled by the customer?",
+      "answer": "Security in the Cloud",
+      "choices": [
+        "Security of the Cloud",
+        "Working to Ensure Compliance",
+        "Security in the Cloud",
+        "Authentication and Security Credentials"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which side manages the physical security of data centers, network infrastructure, virtualization infrastructure, and other underlying components?",
+      "answer": "AWS Responsibility",
+      "choices": [
+        "Customer Responsibility",
+        "IAM Responsibility",
+        "Compliance Responsibility",
+        "AWS Responsibility"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which side can include managing the guest operating system, updates, security patches, applications, passwords, permissions, security groups, and host-based firewalls for an infrastructure service?",
+      "answer": "Customer Responsibility",
+      "choices": [
+        "Customer Responsibility",
+        "AWS Responsibility",
+        "Shared Billing Responsibility",
+        "Compliance Program Responsibility"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which cloud service model gives customers greater control over the cloud environment and therefore more security configuration and management tasks?",
+      "answer": "Infrastructure as a Service (IaaS)",
+      "choices": [
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Software as a Service (SaaS)",
+        "Identity as a Service"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service model includes Amazon EC2, Amazon EBS, and Amazon VPC as examples?",
+      "answer": "Infrastructure as a Service (IaaS)",
+      "choices": [
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Managed Identity Service"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which cloud service model shifts more responsibility for the underlying infrastructure to the cloud provider so customers can focus more on applications and data?",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Infrastructure as a Service (IaaS)",
+        "Software as a Service (SaaS)",
+        "Content Delivery Network",
+        "Platform as a Service (PaaS)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service model includes Amazon RDS, AWS Elastic Beanstalk, and AWS Lambda as examples?",
+      "answer": "Platform as a Service (PaaS)",
+      "choices": [
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Software as a Service (SaaS)",
+        "Identity and Access Management"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which cloud service model provides centrally hosted software typically accessed through a web browser, mobile application, or API?",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Infrastructure as a Service (IaaS)",
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Virtual Private Cloud"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service model includes AWS Trusted Advisor, AWS Shield, and Amazon Chime as examples?",
+      "answer": "Software as a Service (SaaS)",
+      "choices": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Security of the Cloud"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What AWS service is used to securely control access to cloud resources and determine who is authenticated and what they are authorized to do?",
+      "answer": "AWS Identity and Access Management (IAM)",
+      "choices": [
+        "Amazon Cognito",
+        "AWS Organizations",
+        "AWS Config",
+        "AWS Identity and Access Management (IAM)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which identity component represents people or applications that require access to cloud resources?",
+      "answer": "IAM users",
+      "choices": [
+        "IAM users",
+        "IAM groups",
+        "IAM roles",
+        "IAM policies"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which identity component is a collection of users that can share the same permissions?",
+      "answer": "IAM groups",
+      "choices": [
+        "IAM users",
+        "IAM groups",
+        "IAM roles",
+        "IAM policies"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which identity component provides temporary permissions that can be assumed by users, applications, or cloud services?",
+      "answer": "IAM roles",
+      "choices": [
+        "IAM users",
+        "IAM groups",
+        "IAM roles",
+        "IAM policies"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component defines permissions by specifying which actions are allowed or denied on cloud resources?",
+      "answer": "IAM policies",
+      "choices": [
+        "IAM users",
+        "IAM groups",
+        "IAM roles",
+        "IAM policies"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What process verifies the identity of a user or system attempting to access cloud resources?",
+      "answer": "Authentication",
+      "choices": [
+        "Authentication",
+        "Authorization",
+        "Encryption",
+        "Auditing"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which security measure requires another factor in addition to regular sign-in credentials?",
+      "answer": "multi-factor authentication (MFA)",
+      "choices": [
+        "principle of least privilege",
+        "multi-factor authentication (MFA)",
+        "explicit allow",
+        "consolidated billing"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What process determines which resources and actions an authenticated identity is permitted to access?",
+      "answer": "Authorization",
+      "choices": [
+        "Authentication",
+        "Encryption",
+        "Authorization",
+        "Health checking"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which principle means granting only the permissions necessary to perform required tasks?",
+      "answer": "principle of least privilege",
+      "choices": [
+        "shared responsibility model",
+        "explicit deny",
+        "consolidated billing",
+        "principle of least privilege"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What document defines permissions for resources and actions and can be attached to users, groups, and roles?",
+      "answer": "IAM policy",
+      "choices": [
+        "IAM policy",
+        "Service control policy",
+        "bucket policy",
+        "access control list"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which evaluation result is required for an action to be permitted?",
+      "answer": "explicit allow",
+      "choices": [
+        "explicit deny",
+        "explicit allow",
+        "default deny",
+        "temporary credentials"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which evaluation result overrides an allow?",
+      "answer": "explicit deny",
+      "choices": [
+        "explicit allow",
+        "default allow",
+        "explicit deny",
+        "temporary credentials"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens if an action is not explicitly allowed?",
+      "answer": "access is denied by default",
+      "choices": [
+        "access is allowed by default",
+        "temporary access is granted",
+        "the root user approves it",
+        "access is denied by default"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component simplifies permission management when multiple users require similar access?",
+      "answer": "IAM groups",
+      "choices": [
+        "IAM groups",
+        "IAM roles",
+        "IAM policies",
+        "IAM users"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens to users who receive permissions through a group when the permissions associated with that group are changed?",
+      "answer": "the change applies to those users",
+      "choices": [
+        "the users lose their identities",
+        "the change applies to those users",
+        "the root user is disabled",
+        "temporary credentials are created"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which identity mechanism provides permissions without assigning permanent credentials to the entity using it?",
+      "answer": "IAM roles",
+      "choices": [
+        "IAM users",
+        "IAM groups",
+        "IAM roles",
+        "IAM policies"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of credentials are provided when a role is assumed?",
+      "answer": "temporary security credentials",
+      "choices": [
+        "root user credentials",
+        "permanent access keys",
+        "bucket credentials",
+        "temporary security credentials"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which account identity has complete access to all services and resources in a newly created account?",
+      "answer": "AWS account root user",
+      "choices": [
+        "AWS account root user",
+        "IAM user",
+        "IAM role",
+        "Amazon Cognito user"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How should the highly privileged account identity be used for everyday activities?",
+      "answer": "It should be reserved for tasks that require it",
+      "choices": [
+        "It should be used for all administration",
+        "It should be reserved for tasks that require it",
+        "It should be shared with all administrators",
+        "It should be used to create application users"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which password practice is listed as an important precaution for the highly privileged account identity?",
+      "answer": "Use a strong and unique root user password",
+      "choices": [
+        "Reuse an administrator password",
+        "Share one password among administrators",
+        "Use a strong and unique root user password",
+        "Disable password protection"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which additional sign-in protection should be enabled for the highly privileged account identity?",
+      "answer": "Enable multi-factor authentication (MFA)",
+      "choices": [
+        "Enable public access",
+        "Enable consolidated billing",
+        "Enable guest access",
+        "Enable multi-factor authentication (MFA)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How should the highly privileged account credentials be handled?",
+      "answer": "Keep root user credentials private and secure",
+      "choices": [
+        "Keep root user credentials private and secure",
+        "Store them in application code",
+        "Share them with all users",
+        "Publish them for emergency access"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What access-key practice is recommended for the highly privileged account identity?",
+      "answer": "Do not create root user access keys unless specifically required",
+      "choices": [
+        "Create permanent access keys immediately",
+        "Do not create root user access keys unless specifically required",
+        "Rotate public access keys daily",
+        "Share access keys with application users"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What information does the cloud provider use to communicate about account, billing, operations, and security matters?",
+      "answer": "account contact information",
+      "choices": [
+        "IAM policies",
+        "bucket policies",
+        "account contact information",
+        "security groups"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How should contact details be maintained so security-related notifications can still reach the right people when responsibilities or personnel change?",
+      "answer": "accurate, current, and accessible",
+      "choices": [
+        "publicly listed",
+        "stored only with the root user",
+        "limited to billing contacts",
+        "accurate, current, and accessible"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service records actions performed through cloud services and can identify who acted, when it occurred, and which resources were involved?",
+      "answer": "AWS CloudTrail",
+      "choices": [
+        "AWS CloudTrail",
+        "AWS Config",
+        "AWS Artifact",
+        "Amazon Cognito"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which activities are supported by reviewing account activity?",
+      "answer": "auditing, troubleshooting, and investigation",
+      "choices": [
+        "encryption, routing, and caching",
+        "auditing, troubleshooting, and investigation",
+        "billing, authentication, and signup",
+        "registration, failover, and health checking"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What type of account information can provide additional visibility because unexpected resource usage or charges may indicate activity that should be investigated?",
+      "answer": "billing and usage information",
+      "choices": [
+        "domain registration information",
+        "certificate information",
+        "billing and usage information",
+        "user profile information"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service enables centralized management of multiple cloud accounts?",
+      "answer": "AWS Organizations",
+      "choices": [
+        "AWS Config",
+        "AWS Artifact",
+        "AWS Shield",
+        "AWS Organizations"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What structure can arrange accounts according to business, operational, or security requirements?",
+      "answer": "organizational units (OUs)",
+      "choices": [
+        "organizational units (OUs)",
+        "IAM groups",
+        "security groups",
+        "access control lists (ACLs)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which feature combines billing information across accounts while allowing the accounts to remain separate?",
+      "answer": "consolidated billing",
+      "choices": [
+        "service control policies",
+        "consolidated billing",
+        "multi-factor authentication",
+        "S3 Block Public Access"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which centralized control establishes the maximum permissions available to accounts within a multi-account organization?",
+      "answer": "service control policies (SCPs)",
+      "choices": [
+        "IAM policies",
+        "bucket policies",
+        "service control policies (SCPs)",
+        "access control lists (ACLs)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Where can the centralized maximum-permission control be applied?",
+      "answer": "organization, organizational unit, or individual member account",
+      "choices": [
+        "only the root user",
+        "only S3 buckets",
+        "only IAM groups",
+        "organization, organizational unit, or individual member account"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What does the centralized maximum-permission control do instead of granting permissions?",
+      "answer": "establishes boundaries within which permissions can be granted",
+      "choices": [
+        "establishes boundaries within which permissions can be granted",
+        "creates permanent credentials",
+        "encrypts stored data",
+        "registers application users"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens if an action is restricted by an applicable centralized organization control?",
+      "answer": "another permissions policy cannot make it available",
+      "choices": [
+        "an IAM user can override it",
+        "another permissions policy cannot make it available",
+        "the action becomes allowed by default",
+        "a bucket policy automatically grants it"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service helps organizations create and manage cryptographic keys used to protect data?",
+      "answer": "AWS Key Management Service (AWS KMS)",
+      "choices": [
+        "AWS Config",
+        "AWS Artifact",
+        "AWS Key Management Service (AWS KMS)",
+        "Amazon Cognito"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service integrates with many cloud services so its keys can be used when encrypting resources and application data?",
+      "answer": "AWS Key Management Service (AWS KMS)",
+      "choices": [
+        "AWS Organizations",
+        "AWS Shield",
+        "Amazon Cognito",
+        "AWS Key Management Service (AWS KMS)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which auditing service is integrated with the key-management service so activities involving keys can be recorded?",
+      "answer": "AWS CloudTrail",
+      "choices": [
+        "AWS CloudTrail",
+        "AWS Config",
+        "AWS Artifact",
+        "AWS Shield"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What hardware is used by the key-management service to help protect cryptographic key material?",
+      "answer": "hardware security modules (HSMs)",
+      "choices": [
+        "network access control lists",
+        "hardware security modules (HSMs)",
+        "edge locations",
+        "organizational units"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service provides identity capabilities for web and mobile applications, including user sign-up, sign-in, and access control?",
+      "answer": "Amazon Cognito",
+      "choices": [
+        "AWS Identity and Access Management (IAM)",
+        "AWS Organizations",
+        "Amazon Cognito",
+        "AWS Artifact"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which identity service is focused on managing users of applications rather than identities used to administer cloud resources?",
+      "answer": "Amazon Cognito",
+      "choices": [
+        "AWS Identity and Access Management (IAM)",
+        "AWS Config",
+        "AWS Shield",
+        "Amazon Cognito"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which managed service helps protect applications against distributed denial-of-service attacks?",
+      "answer": "AWS Shield",
+      "choices": [
+        "AWS Shield",
+        "AWS Config",
+        "AWS Artifact",
+        "AWS Organizations"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which protection level handles common network and transport layer distributed denial-of-service attacks at no additional charge?",
+      "answer": "AWS Shield Standard",
+      "choices": [
+        "AWS Shield Advanced",
+        "AWS Shield Standard",
+        "AWS Config",
+        "AWS Artifact"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which protection level provides additional distributed denial-of-service capabilities for organizations with greater protection requirements?",
+      "answer": "AWS Shield Advanced",
+      "choices": [
+        "AWS Shield Standard",
+        "AWS Organizations",
+        "AWS Shield Advanced",
+        "AWS Config"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What two states are used to describe where data needs protection?",
+      "answer": "data at rest and data in transit",
+      "choices": [
+        "public data and private data",
+        "encrypted data and decrypted data",
+        "stored data and deleted data",
+        "data at rest and data in transit"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term refers to information that is stored rather than actively moving between systems?",
+      "answer": "data at rest",
+      "choices": [
+        "data at rest",
+        "data in transit",
+        "temporary credentials",
+        "encrypted communication"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What process transforms stored information into a form that cannot be easily understood without the appropriate key?",
+      "answer": "Encryption",
+      "choices": [
+        "Authorization",
+        "Encryption",
+        "Authentication",
+        "Auditing"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which storage service is listed for object storage encryption?",
+      "answer": "Amazon S3",
+      "choices": [
+        "Amazon EBS",
+        "Amazon EFS",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which storage service is listed for block storage encryption?",
+      "answer": "Amazon EBS",
+      "choices": [
+        "Amazon S3",
+        "Amazon EFS",
+        "Amazon RDS",
+        "Amazon EBS"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which storage service is listed for file storage encryption?",
+      "answer": "Amazon EFS",
+      "choices": [
+        "Amazon EFS",
+        "Amazon S3",
+        "Amazon EBS",
+        "Amazon RDS"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which database service is listed for relational database encryption?",
+      "answer": "Amazon RDS",
+      "choices": [
+        "Amazon S3",
+        "Amazon RDS",
+        "Amazon EBS",
+        "Amazon EFS"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term refers to information moving between systems, applications, or network locations?",
+      "answer": "data in transit",
+      "choices": [
+        "data at rest",
+        "temporary credentials",
+        "data in transit",
+        "stored objects"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which protocols are supported to encrypt information while it travels across a network?",
+      "answer": "Transport Layer Security (TLS) and Secure Sockets Layer (SSL)",
+      "choices": [
+        "HTTP and DNS",
+        "IAM and SCP",
+        "S3 and EBS",
+        "Transport Layer Security (TLS) and Secure Sockets Layer (SSL)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which protocol uses encrypted communication to help protect information exchanged between clients and services?",
+      "answer": "Hypertext Transfer Protocol Secure (HTTPS)",
+      "choices": [
+        "Hypertext Transfer Protocol Secure (HTTPS)",
+        "Hypertext Transfer Protocol (HTTP)",
+        "Domain Name System (DNS)",
+        "Secure Shell (SSH)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service can provision and manage SSL/TLS certificates for supported cloud services?",
+      "answer": "AWS Certificate Manager (ACM)",
+      "choices": [
+        "AWS Key Management Service (AWS KMS)",
+        "AWS Certificate Manager (ACM)",
+        "AWS Config",
+        "AWS Artifact"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which storage service stores data as objects inside buckets?",
+      "answer": "Amazon Simple Storage Service (Amazon S3)",
+      "choices": [
+        "Amazon EBS",
+        "Amazon EFS",
+        "Amazon Simple Storage Service (Amazon S3)",
+        "Amazon RDS"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which feature can restrict public access to buckets and objects?",
+      "answer": "S3 Block Public Access",
+      "choices": [
+        "AWS Shield Standard",
+        "AWS Config",
+        "AWS Artifact",
+        "S3 Block Public Access"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How are newly created buckets configured regarding public access?",
+      "answer": "public access is not allowed by default",
+      "choices": [
+        "public access is not allowed by default",
+        "public access is allowed by default",
+        "only write access is public",
+        "only root users can access them"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which policy type specifies actions that an identity is permitted to perform?",
+      "answer": "IAM policies",
+      "choices": [
+        "bucket policies",
+        "IAM policies",
+        "access control lists (ACLs)",
+        "service control policies (SCPs)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which policy type defines permissions directly on a bucket?",
+      "answer": "bucket policies",
+      "choices": [
+        "IAM policies",
+        "access control lists (ACLs)",
+        "bucket policies",
+        "service control policies (SCPs)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which legacy mechanism can specify which accounts or groups are granted access to a bucket or object?",
+      "answer": "access control lists (ACLs)",
+      "choices": [
+        "IAM policies",
+        "bucket policies",
+        "service control policies (SCPs)",
+        "access control lists (ACLs)"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What protects the contents of stored object data independently of the permissions used to control access?",
+      "answer": "encryption",
+      "choices": [
+        "encryption",
+        "access control",
+        "authentication",
+        "consolidated billing"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What determines who can access an object?",
+      "answer": "access controls",
+      "choices": [
+        "encryption",
+        "access controls",
+        "health checks",
+        "consolidated billing"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which responsibility model still applies to security, privacy, and regulatory requirements in the cloud?",
+      "answer": "shared responsibility",
+      "choices": [
+        "default deny",
+        "least privilege",
+        "shared responsibility",
+        "consolidated billing"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which first listed compliance-program area covers formal proof of meeting requirements?",
+      "answer": "Certifications and attestations",
+      "choices": [
+        "Laws, regulations, and privacy",
+        "Alignments and frameworks",
+        "Identity and access management",
+        "Certifications and attestations"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which second listed compliance-program area covers legal, regulatory, and privacy requirements?",
+      "answer": "Laws, regulations, and privacy",
+      "choices": [
+        "Laws, regulations, and privacy",
+        "Certifications and attestations",
+        "Alignments and frameworks",
+        "Identity and access management"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which third listed compliance-program area covers alignment with recognized structures?",
+      "answer": "Alignments and frameworks",
+      "choices": [
+        "Certifications and attestations",
+        "Alignments and frameworks",
+        "Laws, regulations, and privacy",
+        "Identity and access management"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service helps assess, audit, and evaluate the configurations of cloud resources?",
+      "answer": "AWS Config",
+      "choices": [
+        "AWS Artifact",
+        "AWS CloudTrail",
+        "AWS Config",
+        "AWS Shield"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service records how resource configurations change over time?",
+      "answer": "AWS Config",
+      "choices": [
+        "AWS Artifact",
+        "Amazon Cognito",
+        "AWS Organizations",
+        "AWS Config"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service can evaluate resource configurations against established requirements and identify resources that do not meet the expected configuration?",
+      "answer": "AWS Config",
+      "choices": [
+        "AWS Config",
+        "AWS Artifact",
+        "AWS Shield",
+        "Amazon Cognito"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service provides on-demand access to security and compliance documents and reports used for audits?",
+      "answer": "AWS Artifact",
+      "choices": [
+        "AWS Config",
+        "AWS Artifact",
+        "AWS CloudTrail",
+        "AWS Organizations"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service also provides access to certain agreements that customers can review, accept, and manage?",
+      "answer": "AWS Artifact",
+      "choices": [
+        "AWS Config",
+        "AWS Shield",
+        "AWS Artifact",
+        "Amazon Cognito"
+      ],
+      "reference": "04_Handout_1",
+      "term": "Midterms"
+    }
+  ]
+}

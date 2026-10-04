@@ -1,0 +1,1312 @@
+{
+  "quizInfo": {
+    "Subject": "Network Technology 2",
+    "Term": "Midterms",
+    "Title": "Network and Content Delivery",
+    "LastModified": "04 October 2026",
+    "Authors": [
+      "Alexander Oro"
+    ],
+    "References": [
+      "05 Handout 1"
+    ]
+  },
+  "quizData": [
+    {
+      "question": "What enables devices, applications, and services to communicate and exchange data?",
+      "answer": "Networking",
+      "choices": [
+        "Networking",
+        "Routing",
+        "Caching",
+        "Encryption"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What consists of two or more devices connected so that they can communicate and share information?",
+      "answer": "computer network",
+      "choices": [
+        "content delivery network",
+        "computer network",
+        "route table",
+        "virtual private cloud"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What numerical address is used to identify a device on a network?",
+      "answer": "Internet Protocol (IP) address",
+      "choices": [
+        "Domain Name System (DNS)",
+        "Classless Inter-Domain Routing (CIDR)",
+        "Internet Protocol (IP) address",
+        "Media Access Control"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which address version contains four decimal numbers separated by periods?",
+      "answer": "Internet Protocol version 4 (IPv4)",
+      "choices": [
+        "Internet Protocol version 6 (IPv6)",
+        "Classless Inter-Domain Routing (CIDR)",
+        "Domain Name System (DNS)",
+        "Internet Protocol version 4 (IPv4)"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What address length results when four decimal numbers each represent 8 bits?",
+      "answer": "32-bit address",
+      "choices": [
+        "32-bit address",
+        "64-bit address",
+        "128-bit address",
+        "256-bit address"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type of address can be used for communication over the internet?",
+      "answer": "public IP address",
+      "choices": [
+        "private IP address",
+        "public IP address",
+        "Elastic IP address range",
+        "subnet address"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type of address is used for communication within private networks?",
+      "answer": "private IP address",
+      "choices": [
+        "public IP address",
+        "edge address",
+        "private IP address",
+        "domain address"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which private IPv4 range begins with `10.0.0.0`?",
+      "answer": "10.0.0.0 – 10.255.255.255",
+      "choices": [
+        "172.16.0.0 – 172.31.255.255",
+        "192.168.0.0 – 192.168.255.255",
+        "0.0.0.0 – 0.255.255.255",
+        "10.0.0.0 – 10.255.255.255"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which private IPv4 range begins with `172.16.0.0`?",
+      "answer": "172.16.0.0 – 172.31.255.255",
+      "choices": [
+        "172.16.0.0 – 172.31.255.255",
+        "10.0.0.0 – 10.255.255.255",
+        "192.168.0.0 – 192.168.255.255",
+        "172.32.0.0 – 172.63.255.255"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which private IPv4 range begins with `192.168.0.0`?",
+      "answer": "192.168.0.0 – 192.168.255.255",
+      "choices": [
+        "10.0.0.0 – 10.255.255.255",
+        "192.168.0.0 – 192.168.255.255",
+        "172.16.0.0 – 172.31.255.255",
+        "192.169.0.0 – 192.169.255.255"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which address version was developed to provide a much larger address space?",
+      "answer": "Internet Protocol version 6 (IPv6)",
+      "choices": [
+        "Internet Protocol version 4 (IPv4)",
+        "Classless Inter-Domain Routing (CIDR)",
+        "Internet Protocol version 6 (IPv6)",
+        "Domain Name System (DNS)"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What address length is used by the newer protocol version?",
+      "answer": "128-bit addresses",
+      "choices": [
+        "32-bit addresses",
+        "64-bit addresses",
+        "256-bit addresses",
+        "128-bit addresses"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How are addresses in the newer protocol version written?",
+      "answer": "groups of hexadecimal values separated by colons",
+      "choices": [
+        "groups of hexadecimal values separated by colons",
+        "four decimal numbers separated by periods",
+        "binary values separated by slashes",
+        "domain labels separated by periods"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What method represents a network and specifies the range of IP addresses available within it?",
+      "answer": "Classless Inter-Domain Routing (CIDR)",
+      "choices": [
+        "Domain Name System (DNS)",
+        "Classless Inter-Domain Routing (CIDR)",
+        "Network Address Translation (NAT)",
+        "Transport Layer Security (TLS)"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What notation combines an IP address with a prefix length such as `10.0.0.0/16`?",
+      "answer": "CIDR notation",
+      "choices": [
+        "DNS notation",
+        "NAT notation",
+        "CIDR notation",
+        "route-table notation"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What does the number following the slash identify?",
+      "answer": "how many bits identify the network portion",
+      "choices": [
+        "how many devices are online",
+        "how many routes exist",
+        "how many ports are open",
+        "how many bits identify the network portion"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens to the available range as the prefix length increases?",
+      "answer": "the range contains fewer IP addresses",
+      "choices": [
+        "the range contains fewer IP addresses",
+        "the range contains more IP addresses",
+        "the address becomes public",
+        "the subnet spans more Regions"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which model organizes network communication into seven layers?",
+      "answer": "Open Systems Interconnection (OSI) model",
+      "choices": [
+        "Domain Name System (DNS)",
+        "Open Systems Interconnection (OSI) model",
+        "Classless Inter-Domain Routing (CIDR)",
+        "Virtual Private Cloud model"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which OSI layer transmits raw bits through media?",
+      "answer": "Physical layer",
+      "choices": [
+        "Data Link layer",
+        "Network layer",
+        "Physical layer",
+        "Transport layer"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which OSI layer supports communication between devices on the same link?",
+      "answer": "Data Link layer",
+      "choices": [
+        "Physical layer",
+        "Network layer",
+        "Transport layer",
+        "Data Link layer"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which OSI layer provides logical addressing and routing between separate networks?",
+      "answer": "Network layer",
+      "choices": [
+        "Network layer",
+        "Data Link layer",
+        "Transport layer",
+        "Session layer"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which OSI layer manages end-to-end communication and data delivery?",
+      "answer": "Transport layer",
+      "choices": [
+        "Network layer",
+        "Transport layer",
+        "Session layer",
+        "Presentation layer"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which OSI layer establishes and manages communication exchanges between systems?",
+      "answer": "Session layer",
+      "choices": [
+        "Transport layer",
+        "Presentation layer",
+        "Session layer",
+        "Application layer"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which OSI layer handles the representation and formatting of data?",
+      "answer": "Presentation layer",
+      "choices": [
+        "Session layer",
+        "Application layer",
+        "Transport layer",
+        "Presentation layer"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which seventh OSI layer provides network services used by software programs?",
+      "answer": "Application layer",
+      "choices": [
+        "Application layer",
+        "Presentation layer",
+        "Session layer",
+        "Transport layer"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which AWS service enables customers to provision a logically isolated virtual network in the cloud?",
+      "answer": "Amazon Virtual Private Cloud (Amazon VPC)",
+      "choices": [
+        "Amazon Route 53",
+        "Amazon Virtual Private Cloud (Amazon VPC)",
+        "Amazon CloudFront",
+        "AWS Shield"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which virtual-network scope belongs to a single Region but can span multiple Availability Zones within that Region?",
+      "answer": "VPC",
+      "choices": [
+        "subnet",
+        "route table",
+        "VPC",
+        "network ACL"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What establishes the range of addresses that can be used within the virtual network when it is created?",
+      "answer": "VPC CIDR block",
+      "choices": [
+        "route table",
+        "internet gateway",
+        "security group",
+        "VPC CIDR block"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How must the address ranges assigned to individual subnets relate to one another?",
+      "answer": "their CIDR blocks must not overlap",
+      "choices": [
+        "their CIDR blocks must not overlap",
+        "they must be identical",
+        "they must use public ranges only",
+        "they must span multiple Regions"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is a range of IP addresses within a VPC?",
+      "answer": "subnet",
+      "choices": [
+        "route table",
+        "subnet",
+        "internet gateway",
+        "security group"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Where does each smaller network segment reside even though the overall virtual network can span multiple Availability Zones?",
+      "answer": "entirely within one Availability Zone",
+      "choices": [
+        "across all Availability Zones",
+        "outside the Region",
+        "entirely within one Availability Zone",
+        "inside an edge location"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type of subnet has a route table with a route to an internet gateway?",
+      "answer": "Public subnet",
+      "choices": [
+        "Private subnet",
+        "Default subnet",
+        "Isolated route",
+        "Public subnet"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type of subnet has no route in its route table to an internet gateway?",
+      "answer": "Private subnet",
+      "choices": [
+        "Private subnet",
+        "Public subnet",
+        "Default subnet",
+        "Edge subnet"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What else determines whether a resource can communicate with the internet besides the subnet itself?",
+      "answer": "routing, IP addressing, and security configuration",
+      "choices": [
+        "only the subnet name",
+        "routing, IP addressing, and security configuration",
+        "only the Availability Zone",
+        "only the Region"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How many IPv4 addresses are reserved in each subnet CIDR block?",
+      "answer": "five IP addresses",
+      "choices": [
+        "two IP addresses",
+        "four IP addresses",
+        "five IP addresses",
+        "six IP addresses"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How many addresses are available for use in a `/24` subnet after the reserved addresses are excluded?",
+      "answer": "251",
+      "choices": [
+        "250",
+        "255",
+        "256",
+        "251"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type of address is assigned from the range of the subnet where a resource is located?",
+      "answer": "private IPv4 address",
+      "choices": [
+        "private IPv4 address",
+        "public IPv4 address",
+        "Elastic IP address",
+        "domain name"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type of address enables internet communication when the necessary routing and security settings are also configured?",
+      "answer": "public IPv4 address",
+      "choices": [
+        "private IPv4 address",
+        "public IPv4 address",
+        "CIDR prefix",
+        "domain name"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which static public address can remain allocated to an account until it is released?",
+      "answer": "Elastic IP address",
+      "choices": [
+        "private IPv4 address",
+        "automatically assigned public IPv4 address",
+        "Elastic IP address",
+        "CIDR block"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component determines where network traffic is directed?",
+      "answer": "route tables",
+      "choices": [
+        "subnets",
+        "security groups",
+        "edge locations",
+        "route tables"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component provides connectivity between the virtual network and other networks?",
+      "answer": "gateways",
+      "choices": [
+        "gateways",
+        "subnets",
+        "security groups",
+        "network ACLs"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which logical networking component represents a virtual network card and can include private IP addresses?",
+      "answer": "elastic network interface",
+      "choices": [
+        "internet gateway",
+        "elastic network interface",
+        "route table",
+        "network ACL"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which set of rules determines where traffic from a subnet or gateway is directed?",
+      "answer": "route table",
+      "choices": [
+        "security group",
+        "network ACL",
+        "route table",
+        "DNS resolver"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What two elements does each route specify?",
+      "answer": "destination and target",
+      "choices": [
+        "source and password",
+        "protocol and certificate",
+        "user and group",
+        "destination and target"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What does a subnet use if it is not explicitly associated with a custom route table?",
+      "answer": "VPC's main route table",
+      "choices": [
+        "VPC's main route table",
+        "internet gateway",
+        "default network ACL",
+        "security group"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which built-in route enables communication within the virtual network?",
+      "answer": "local route",
+      "choices": [
+        "default route",
+        "local route",
+        "failover route",
+        "weighted route"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component enables communication between a virtual network and the internet?",
+      "answer": "internet gateway",
+      "choices": [
+        "NAT gateway",
+        "route table",
+        "internet gateway",
+        "network ACL"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can serve as a target in a route table for internet-bound traffic?",
+      "answer": "internet gateway",
+      "choices": [
+        "security group",
+        "network ACL",
+        "subnet",
+        "internet gateway"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which destination represents IPv4 destinations outside more specific routes in a route table?",
+      "answer": "0.0.0.0/0",
+      "choices": [
+        "0.0.0.0/0",
+        "127.0.0.1/32",
+        "10.0.0.0/8",
+        "192.168.0.0/16"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What technique supports outbound connectivity from private resources without accepting unsolicited inbound connections directly from the internet?",
+      "answer": "Network Address Translation (NAT)",
+      "choices": [
+        "Domain Name System (DNS)",
+        "Network Address Translation (NAT)",
+        "Classless Inter-Domain Routing (CIDR)",
+        "Transport Layer Security (TLS)"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which component allows resources in a private subnet to connect outside the virtual network while preventing external systems from initiating connections through it to those private resources?",
+      "answer": "NAT gateway",
+      "choices": [
+        "internet gateway",
+        "route table",
+        "NAT gateway",
+        "security group"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Where is the outbound-translation component typically placed?",
+      "answer": "public subnet",
+      "choices": [
+        "private subnet",
+        "edge location",
+        "Availability Zone outside the VPC",
+        "public subnet"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which resource placement is appropriate for a public-facing web server that needs direct internet connectivity?",
+      "answer": "public subnet",
+      "choices": [
+        "public subnet",
+        "private subnet",
+        "network ACL",
+        "route table"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which two controls are described as fundamental for regulating inbound and outbound traffic in a VPC?",
+      "answer": "security groups and network access control lists (network ACLs)",
+      "choices": [
+        "route tables and internet gateways",
+        "security groups and network access control lists (network ACLs)",
+        "CIDR and DNS",
+        "NAT gateways and edge locations"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which traffic-control mechanism operates at the instance or resource level?",
+      "answer": "security groups",
+      "choices": [
+        "network ACLs",
+        "route tables",
+        "security groups",
+        "internet gateways"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which traffic-control mechanism operates at the subnet level?",
+      "answer": "network ACLs",
+      "choices": [
+        "security groups",
+        "route tables",
+        "internet gateways",
+        "network ACLs"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What acts as a virtual firewall controlling inbound and outbound traffic for associated resources?",
+      "answer": "security group",
+      "choices": [
+        "security group",
+        "network ACL",
+        "route table",
+        "internet gateway"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What information can a resource-level firewall rule consider?",
+      "answer": "protocol, port range, and source or destination",
+      "choices": [
+        "only user names",
+        "protocol, port range, and source or destination",
+        "only Region names",
+        "only domain registrations"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which port is shown for inbound HTTP traffic?",
+      "answer": "port 80",
+      "choices": [
+        "port 22",
+        "port 53",
+        "port 80",
+        "port 443"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which port is shown for inbound HTTPS traffic?",
+      "answer": "port 443",
+      "choices": [
+        "port 22",
+        "port 53",
+        "port 80",
+        "port 443"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which type of rule is supported by resource-level firewalls but not explicit deny rules?",
+      "answer": "allow rules",
+      "choices": [
+        "allow rules",
+        "deny rules",
+        "weighted rules",
+        "failover rules"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is inbound traffic treated immediately after a new resource-level firewall is created?",
+      "answer": "it is not permitted until appropriate inbound rules are added",
+      "choices": [
+        "all inbound traffic is permitted",
+        "it is not permitted until appropriate inbound rules are added",
+        "only DNS traffic is permitted",
+        "only HTTPS traffic is permitted"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How is outbound traffic treated by default for a resource-level firewall?",
+      "answer": "outbound traffic is allowed",
+      "choices": [
+        "outbound traffic is denied",
+        "only DNS is allowed",
+        "outbound traffic is allowed",
+        "only HTTPS is allowed"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What state behavior automatically permits corresponding response traffic when traffic is allowed in one direction?",
+      "answer": "stateful",
+      "choices": [
+        "stateless",
+        "weighted",
+        "failover",
+        "stateful"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What optional security layer controls traffic entering and leaving one or more subnets?",
+      "answer": "network access control list (network ACL)",
+      "choices": [
+        "network access control list (network ACL)",
+        "security group",
+        "route table",
+        "internet gateway"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What is used if a subnet is not explicitly associated with another subnet-level access control list?",
+      "answer": "default network ACL",
+      "choices": [
+        "main route table",
+        "default network ACL",
+        "default security group",
+        "internet gateway"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How many subnet-level access control lists can a subnet be associated with at one time?",
+      "answer": "one network ACL",
+      "choices": [
+        "two network ACLs",
+        "three network ACLs",
+        "one network ACL",
+        "unlimited network ACLs"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which traffic-control mechanism can explicitly allow or deny traffic?",
+      "answer": "network ACL",
+      "choices": [
+        "security group",
+        "route table",
+        "internet gateway",
+        "network ACL"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How are subnet-level access-control rules evaluated?",
+      "answer": "in number order beginning with the lowest numbered matching rule",
+      "choices": [
+        "in number order beginning with the lowest numbered matching rule",
+        "all applicable rules are evaluated together",
+        "highest number first",
+        "random order"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What state behavior means information about a request is not retained after the request is processed?",
+      "answer": "stateless",
+      "choices": [
+        "stateful",
+        "stateless",
+        "weighted",
+        "failover"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How must response traffic be handled when subnet-level access control is used?",
+      "answer": "appropriate rules must be configured for both directions",
+      "choices": [
+        "responses are automatically allowed",
+        "responses always use the main route table",
+        "appropriate rules must be configured for both directions",
+        "responses bypass all rules"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does the default subnet-level access control list treat inbound and outbound traffic?",
+      "answer": "allows inbound and outbound traffic",
+      "choices": [
+        "denies inbound and outbound traffic",
+        "allows inbound only",
+        "allows outbound only",
+        "allows inbound and outbound traffic"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does a newly created custom subnet-level access control list initially treat inbound and outbound traffic?",
+      "answer": "denies inbound and outbound traffic until rules are added",
+      "choices": [
+        "denies inbound and outbound traffic until rules are added",
+        "allows all traffic",
+        "allows inbound only",
+        "allows outbound only"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which rule-processing behavior belongs to security groups in the comparison table?",
+      "answer": "All applicable rules are evaluated",
+      "choices": [
+        "Rules are evaluated in number order",
+        "All applicable rules are evaluated",
+        "Only the first rule is evaluated",
+        "Only deny rules are evaluated"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which rule-processing behavior belongs to network ACLs in the comparison table?",
+      "answer": "Rules are evaluated in number order",
+      "choices": [
+        "All applicable rules are evaluated",
+        "Only allow rules are evaluated",
+        "Rules are evaluated in number order",
+        "Rules are evaluated alphabetically"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which highly available and scalable web service provides DNS?",
+      "answer": "Amazon Route 53",
+      "choices": [
+        "Amazon CloudFront",
+        "Amazon VPC",
+        "AWS Shield",
+        "Amazon Route 53"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What system translates human-readable domain names into IP addresses?",
+      "answer": "Domain Name System (DNS)",
+      "choices": [
+        "Domain Name System (DNS)",
+        "Classless Inter-Domain Routing (CIDR)",
+        "Network Address Translation (NAT)",
+        "Virtual Private Cloud (VPC)"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which DNS service can route users to infrastructure running both inside and outside the cloud provider?",
+      "answer": "Amazon Route 53",
+      "choices": [
+        "Amazon CloudFront",
+        "Amazon Route 53",
+        "Amazon VPC",
+        "AWS Shield"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which two capabilities are supported in addition to DNS routing?",
+      "answer": "domain registration and health checking",
+      "choices": [
+        "encryption and key management",
+        "NAT and CIDR",
+        "domain registration and health checking",
+        "caching and edge delivery"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What starts the process of locating the corresponding address when a user enters a domain name?",
+      "answer": "DNS resolver",
+      "choices": [
+        "internet gateway",
+        "NAT gateway",
+        "security group",
+        "DNS resolver"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which DNS server provides the required information before the resulting address is returned to the user's device?",
+      "answer": "authoritative DNS server",
+      "choices": [
+        "authoritative DNS server",
+        "NAT gateway",
+        "internet gateway",
+        "route table"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which routing policy directs traffic to a single resource that performs a given function?",
+      "answer": "Simple routing",
+      "choices": [
+        "Weighted routing",
+        "Simple routing",
+        "Latency routing",
+        "Failover routing"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which routing policy sends specified proportions of traffic to multiple resources?",
+      "answer": "Weighted routing",
+      "choices": [
+        "Simple routing",
+        "Latency routing",
+        "Weighted routing",
+        "Failover routing"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which routing policy chooses the Region that provides the lowest delay for the user?",
+      "answer": "Latency routing",
+      "choices": [
+        "Simple routing",
+        "Weighted routing",
+        "Geolocation routing",
+        "Latency routing"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which routing policy sends traffic to an alternative resource when a primary resource becomes unavailable?",
+      "answer": "Failover routing",
+      "choices": [
+        "Failover routing",
+        "Weighted routing",
+        "Simple routing",
+        "Geoproximity routing"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which routing policy directs traffic according to the geographic location from which DNS queries originate?",
+      "answer": "Geolocation routing",
+      "choices": [
+        "Geoproximity routing",
+        "Geolocation routing",
+        "Latency routing",
+        "Weighted routing"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which routing policy directs traffic according to the geographic location of resources and users?",
+      "answer": "Geoproximity routing",
+      "choices": [
+        "Geolocation routing",
+        "Latency routing",
+        "Geoproximity routing",
+        "Simple routing"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which routing policy returns multiple values, such as IP addresses, in response to DNS queries?",
+      "answer": "Multivalue answer routing",
+      "choices": [
+        "Simple routing",
+        "Weighted routing",
+        "Failover routing",
+        "Multivalue answer routing"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What feature determines whether resources are available and functioning?",
+      "answer": "health checks",
+      "choices": [
+        "health checks",
+        "security groups",
+        "route tables",
+        "CIDR blocks"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can direct DNS queries to a secondary resource if a monitored primary resource becomes unavailable?",
+      "answer": "failover routing policy",
+      "choices": [
+        "simple routing policy",
+        "failover routing policy",
+        "weighted routing policy",
+        "geolocation routing policy"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which service is a content delivery network that delivers data, applications, and other content with low latency and high transfer speeds?",
+      "answer": "Amazon CloudFront",
+      "choices": [
+        "Amazon Route 53",
+        "Amazon VPC",
+        "Amazon CloudFront",
+        "AWS Shield"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What worldwide infrastructure places content closer to users for the content-delivery service?",
+      "answer": "edge locations",
+      "choices": [
+        "Availability Zones",
+        "route tables",
+        "security groups",
+        "edge locations"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What kinds of content can the content-delivery service deliver?",
+      "answer": "static and dynamic content",
+      "choices": [
+        "static and dynamic content",
+        "only static content",
+        "only dynamic content",
+        "only database content"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can happen to frequently requested content so it does not always need to be retrieved from the original source?",
+      "answer": "it can be cached closer to users",
+      "choices": [
+        "it must always return to the origin",
+        "it can be cached closer to users",
+        "it is converted to a private address",
+        "it is routed through a NAT gateway"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What geographically distributed system helps deliver content closer to users?",
+      "answer": "content delivery network (CDN)",
+      "choices": [
+        "virtual private cloud (VPC)",
+        "Domain Name System (DNS)",
+        "content delivery network (CDN)",
+        "network access control list"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term describes the delay experienced when transmitting data across a network?",
+      "answer": "latency",
+      "choices": [
+        "throughput",
+        "routing",
+        "caching",
+        "latency"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "How does a geographically distributed delivery system reduce delay?",
+      "answer": "by storing copies of content at locations closer to users",
+      "choices": [
+        "by storing copies of content at locations closer to users",
+        "by increasing route-table size",
+        "by removing DNS",
+        "by using only private IP addresses"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which two infrastructure types are used as part of the global content-delivery infrastructure?",
+      "answer": "edge locations and Regional edge caches",
+      "choices": [
+        "Availability Zones and VPCs",
+        "edge locations and Regional edge caches",
+        "security groups and network ACLs",
+        "route tables and NAT gateways"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens when requested content is already stored in the nearby cache?",
+      "answer": "it can be delivered directly to the user",
+      "choices": [
+        "it must be retrieved from the origin",
+        "it is denied by default",
+        "it can be delivered directly to the user",
+        "it is sent to a NAT gateway"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What happens when requested content is not available in the nearby cache?",
+      "answer": "it is retrieved from the configured origin",
+      "choices": [
+        "it is discarded",
+        "it is converted to a domain name",
+        "it is routed to a private subnet",
+        "it is retrieved from the configured origin"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What term identifies the source location where the primary version of content is stored?",
+      "answer": "origin",
+      "choices": [
+        "origin",
+        "edge location",
+        "Regional edge cache",
+        "route table"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What can serve as the source location for a content-delivery distribution?",
+      "answer": "AWS resources",
+      "choices": [
+        "only DNS resolvers",
+        "AWS resources",
+        "only security groups",
+        "only network ACLs"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which listed benefit means content is delivered through a globally distributed network that places it closer to users?",
+      "answer": "Fast",
+      "choices": [
+        "Global",
+        "Secure",
+        "Fast",
+        "Scalable"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which listed benefit means edge infrastructure serves users from locations around the world?",
+      "answer": "Global",
+      "choices": [
+        "Fast",
+        "Secure",
+        "Scalable",
+        "Global"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which listed benefit refers to protected content delivery and integration with security services?",
+      "answer": "Secure",
+      "choices": [
+        "Secure",
+        "Fast",
+        "Global",
+        "Scalable"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which listed benefit refers to using infrastructure that can accommodate changing levels of content requests?",
+      "answer": "Scalable",
+      "choices": [
+        "Fast",
+        "Scalable",
+        "Global",
+        "Secure"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "Which listed benefit refers to a pay-as-you-go pricing model instead of building and maintaining separate delivery infrastructure?",
+      "answer": "Cost-effective",
+      "choices": [
+        "Fast",
+        "Global",
+        "Cost-effective",
+        "Scalable"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    },
+    {
+      "question": "What two effects are achieved by caching content closer to users?",
+      "answer": "reduced latency and less repeated traffic to the origin",
+      "choices": [
+        "more public IP addresses and larger CIDR blocks",
+        "more inbound rules and fewer routes",
+        "more DNS servers and longer paths",
+        "reduced latency and less repeated traffic to the origin"
+      ],
+      "reference": "05_Handout_1",
+      "term": "Midterms"
+    }
+  ]
+}

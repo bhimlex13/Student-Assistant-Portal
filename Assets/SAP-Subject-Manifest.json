@@ -187,6 +187,45 @@
                     ]
                 }
             ]
+        },
+        {
+            "Subject_ID": "C3_S1_NT2",
+            "Subject_Name": "Network Technology 2",
+            "Subject_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_NT_1.png",
+            "Subject_Status": "Active",
+            "Subject_Module": [
+                {
+                    "Module_ID": "C3_S1_NT2_Midterms",
+                    "Module_Name": "Midterms Reviewers & Quizzes",
+                    "Module_Thumbnail": "Assets/Images/Thumbnails/Thumbnail_Midterms_1.png",
+                    "Module_Status": "Active",
+                    "Module_LastModified": "04 October 2026",
+                    "Module_Subfolders": [
+                        {
+                            "Subfolder_ID": "C3_S1_NT2_Midterms_1",
+                            "Subfolder_Name": "1. Cloud Security",
+                            "Subfolder_Description": "83-question reviewer covering AWS shared responsibility, IAM, account protection, Organizations and SCPs, KMS, Cognito, Shield, data protection, S3 security, and AWS compliance services.",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_NT2_Midterms_1",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "04 October 2026",
+                            "Subfolder_Status": "Active"
+                        },
+                        {
+                            "Subfolder_ID": "C3_S1_NT2_Midterms_2",
+                            "Subfolder_Name": "2. Network and Content Delivery",
+                            "Subfolder_Description": "108-question reviewer covering networking fundamentals, IPv4 and IPv6, CIDR, OSI, Amazon VPC, subnets, routing, NAT, VPC security, Route 53, DNS routing policies, and Amazon CloudFront.",
+                            "Subfolder_Link": "quizPlayer.html?Quiz=C3_S1_NT2_Midterms_2",
+                            "Subfolder_Author": [
+                                "Alexander Oro"
+                            ],
+                            "Subfolder_LastModified": "04 October 2026",
+                            "Subfolder_Status": "Active"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
