@@ -964,6 +964,14 @@
     font-size: 0.75rem;
 }
 
+.Quiz_Code_Lang_Badge.language-csharp {
+    color: #9cdcfe;
+}
+
+.Quiz_Code_Block_Container.language-csharp {
+    border-color: rgba(156, 220, 254, 0.55);
+}
+
 .Quiz_Code_Copy_Btn {
     background: rgba(255, 255, 255, 0.09);
     border: 1px solid rgba(255, 255, 255, 0.16);

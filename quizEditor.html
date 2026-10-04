@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Assistant Portal | Quiz Editor</title>
+    <link rel="icon" type="image/x-icon" href="Assets/Icons/Logo.png">
+    <link rel="stylesheet" href="Scripts/SAP_Main.css">
+    <link rel="stylesheet" href="Scripts/SAP_Stylesheet_QuizPlayer.css">
+    <link rel="stylesheet" href="Scripts/SAP_Stylesheet_QuizEditor.css">
+    <meta property="og:image" content="https://bhimlex13.github.io/Student-Assistant-Portal/Assets/Images/Thumbnails/Thumbnail_Branding_1.png" />
+    <meta property="og:title" content="Student Assistant Portal" />
+    <meta property="og:description" content="It's reviewing time" />
+</head>
+
+<body>
+    <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI.js"></script>
+    <script src="https://elmerf5445.github.io/ERUMA-UI/Scripts/Javascript/App_Javascript_ERUMAUI_Core.js"></script>
+    <div class="Page_Content">
+        <div class="MenuBar" State="Collapsed" id="Sidebar">
+            <div class="MenuBar_List">
+                <button class="MenuBar_List_Item" onclick="Page_ChangePage('index.html')">
+                    <img class="MenuBar_List_Item_Icon" src="Assets/Icons/Home.png" draggable="false" loading="lazy" alt="" />
+                    <span class="MenuBar_List_Item_Indicator"></span>
+                    <p class="MenuBar_List_Item_Text">Home</p>
+                </button>
+                <button class="MenuBar_List_Item" onclick="Page_ChangePage('fileConverter.html')">
+                    <img class="MenuBar_List_Item_Icon" src="Assets/Icons/Converter.png" draggable="false" loading="lazy" alt="" />
+                    <span class="MenuBar_List_Item_Indicator"></span>
+                    <p class="MenuBar_List_Item_Text">Converter</p>
+                </button>
+                <button class="MenuBar_List_Item" onclick="Page_ChangePage('quizOutliner.html')">
+                    <img class="MenuBar_List_Item_Icon" src="Assets/Icons/Exam_1.png" draggable="false" loading="lazy" alt="" />
+                    <span class="MenuBar_List_Item_Indicator"></span>
+                    <p class="MenuBar_List_Item_Text">Outliner</p>
+                </button>
+            </div>
+        </div>
+        <div class="Page_Content_Main" id="Content">
+            <div class="QE_Title">
+                <h1>Quiz Editor</h1>
+            </div>
+            <p class="QE_Intro">
+                Upload a quiz JSON file, or a question list from the File Converter. Edits stay in this browser. Download writes a quizInfo / quizData file, and every answer must exactly match one of its choices.
+            </p>
+            <div class="QE_Toolbar">
+                <button type="button" class="General_Button" id="QE_Upload">Upload JSON</button>
+                <input id="QE_File" type="file" accept=".json,application/json" hidden />
+                <button type="button" class="General_Button" id="QE_New">New quiz</button>
+                <button type="button" class="General_Button" id="QE_Add" disabled>Add question</button>
+                <button type="button" class="General_Button" id="QE_Download" Primary disabled>Download JSON</button>
+                <span class="QE_FileName" id="QE_FileName"></span>
+            </div>
+            <div class="QE_Banner" id="QE_Banner" role="status" hidden></div>
+            <div class="QE_Empty" id="QE_Empty">
+                <h2>No quiz loaded</h2>
+                <p>Choose a .json file from the quizzes folder, or start a new quiz. A bare JSON array is wrapped into the normal quiz format.</p>
+            </div>
+            <div class="QE_Workspace" id="QE_Workspace" hidden>
+                <section class="QE_Card QE_Meta">
+                    <h2>Quiz info</h2>
+                    <div class="QE_Meta_Grid">
+                        <label class="QE_Field">Title
+                            <input id="QE_Info_Title" type="text" autocomplete="off" />
+                        </label>
+                        <label class="QE_Field">Subject
+                            <input id="QE_Info_Subject" type="text" autocomplete="off" />
+                        </label>
+                        <label class="QE_Field">Term
+                            <input id="QE_Info_Term" type="text" autocomplete="off" />
+                        </label>
+                        <label class="QE_Field">Last modified
+                            <input id="QE_Info_Modified" type="text" autocomplete="off" />
+                        </label>
+                        <label class="QE_Field QE_Field_Wide">Description
+                            <textarea id="QE_Info_Description" rows="2"></textarea>
+                        </label>
+                        <label class="QE_Field">Authors
+                            <textarea id="QE_Info_Authors" rows="3" placeholder="One author per line"></textarea>
+                        </label>
+                        <label class="QE_Field">References
+                            <textarea id="QE_Info_References" rows="3" placeholder="One reference per line"></textarea>
+                        </label>
+                    </div>
+                </section>
+                <div class="QE_Editor_Layout">
+                    <aside class="QE_Card QE_List_Card">
+                        <div class="QE_Card_Header">
+                            <h2>Questions</h2>
+                            <span id="QE_Status"></span>
+                        </div>
+                        <div class="QE_List" id="QE_List"></div>
+                    </aside>
+                    <section class="QE_Card QE_Question_Card">
+                        <div class="QE_Card_Header">
+                            <h2 id="QE_Question_Heading">Question</h2>
+                            <div class="QE_Inline_Actions">
+                                <button type="button" class="General_Button" id="QE_Move_Up">Move up</button>
+                                <button type="button" class="General_Button" id="QE_Move_Down">Move down</button>
+                                <button type="button" class="General_Button" id="QE_Duplicate">Duplicate</button>
+                                <button type="button" class="General_Button" id="QE_Delete">Delete</button>
+                            </div>
+                        </div>
+                        <label class="QE_Field">Question
+                            <textarea id="QE_Question" rows="8" spellcheck="false"></textarea>
+                        </label>
+                        <label class="QE_Field">Answer
+                            <textarea id="QE_Answer" rows="2" spellcheck="false"></textarea>
+                        </label>
+                        <p class="QE_Match" id="QE_MatchNote"></p>
+                        <div class="QE_Card_Header">
+                            <h2>Choices</h2>
+                            <button type="button" class="General_Button" id="QE_Add_Choice">Add choice</button>
+                        </div>
+                        <div id="QE_Choices"></div>
+                        <div class="QE_Meta_Grid">
+                            <label class="QE_Field">Reference
+                                <input id="QE_Reference" type="text" autocomplete="off" />
+                            </label>
+                            <label class="QE_Field">Term
+                                <input id="QE_TermField" type="text" autocomplete="off" />
+                            </label>
+                            <label class="QE_Field QE_Field_Wide">Question image
+                                <input id="QE_Image" type="text" autocomplete="off" placeholder="Image URL or path" />
+                            </label>
+                        </div>
+                    </section>
+                    <aside class="QE_Card QE_Preview_Card">
+                        <div class="QE_Card_Header">
+                            <h2>Preview</h2>
+                        </div>
+                        <div class="QE_Preview" id="QE_Preview"></div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Scripts/SAP_Javascript_QuizEditor.js"></script>
+</body>
+
+</html>

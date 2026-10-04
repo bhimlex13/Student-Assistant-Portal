@@ -152,6 +152,49 @@ function QO_Tool_State_Change(ID){
     }
 }
 
+// Maps a fenced-code language tag to the badge and class shown by the quiz player.
+// Unmarked fences stay Java so existing questions keep their current badge.
+function Quiz_Format_Code_Fence(infoLine, newline, code) {
+    const info = String(infoLine || "").replace(/\r/g, "").trim();
+    const languages = {
+        "java": { badge: "Java", className: "language-java" },
+        "javascript": { badge: "JavaScript", className: "language-javascript" },
+        "js": { badge: "JavaScript", className: "language-javascript" },
+        "c": { badge: "C", className: "language-c" },
+        "cpp": { badge: "C++", className: "language-cpp" },
+        "c++": { badge: "C++", className: "language-cpp" },
+        "csharp": { badge: "C#", className: "language-csharp" },
+        "cs": { badge: "C#", className: "language-csharp" },
+        "c#": { badge: "C#", className: "language-csharp" },
+        "sql": { badge: "SQL", className: "language-sql" }
+    };
+    const key = info.toLowerCase();
+    if (Object.prototype.hasOwnProperty.call(languages, key)) {
+        return { info: languages[key], body: code };
+    }
+    if (newline && /^[A-Za-z][A-Za-z0-9+#]*$/.test(info)) {
+        const classToken = key.replace(/[^a-z0-9]+/g, "") || "text";
+        return {
+            info: { badge: info, className: "language-" + classToken },
+            body: code
+        };
+    }
+    if (info === "") {
+        return { info: languages.java, body: code };
+    }
+    return {
+        info: languages.java,
+        body: String(infoLine || "") + (newline || "") + code
+    };
+}
+
+function Quiz_Escape_HTML(value) {
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+}
+
 // Formats quiz question and choice text to support rich code blocks, inline code, and clean typography
 function Format_Quiz_Text(rawText) {
     if (rawText === null || rawText === undefined) return "";
@@ -164,22 +207,21 @@ function Format_Quiz_Text(rawText) {
     text = text.replace(/`(\s*`){2,}/g, "```");
     text = text.replace(/`{4,}/g, "```");
 
-    // 3. Extract and format multi-line code blocks ```java ... ``` or ``` ... ```
+    // 3. Extract fenced blocks. The language token is read in full, so `c` does not swallow `csharp` or `cpp`.
     const codeBlocks = [];
-    text = text.replace(/```(?:java|javascript|js|c|cpp|sql)?\s*\n?([\s\S]*?)```/gi, function(match, code) {
-        const placeholder = `___CODE_BLOCK_${codeBlocks.length}___`;
-        const trimmedCode = code.replace(/^\n+|\n+$/g, "");
-        const escapedCode = trimmedCode
-            .replace(/&/g, "&amp;")
-            .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;");
+    text = text.replace(/```([^\n`]*)(\n)?([\s\S]*?)```/g, function (match, infoLine, newline, code) {
+        const fence = Quiz_Format_Code_Fence(infoLine, newline, code);
+        const placeholder = "___CODE_BLOCK_" + codeBlocks.length + "___";
+        const trimmedCode = String(fence.body || "").replace(/\r/g, "").replace(/^\n+|\n+$/g, "");
+        const className = fence.info.className;
+        const badge = Quiz_Escape_HTML(fence.info.badge);
         codeBlocks.push(`
-            <div class="Quiz_Code_Block_Container">
+            <div class="Quiz_Code_Block_Container ${className}">
                 <div class="Quiz_Code_Header">
-                    <span class="Quiz_Code_Lang_Badge">Java</span>
+                    <span class="Quiz_Code_Lang_Badge ${className}">${badge}</span>
                     <button type="button" class="Quiz_Code_Copy_Btn" onclick="Quiz_Copy_Code(this)">Copy</button>
                 </div>
-                <pre class="Quiz_Code_Block"><code class="language-java">${escapedCode}</code></pre>
+                <pre class="Quiz_Code_Block"><code class="${className}">${Quiz_Escape_HTML(trimmedCode)}</code></pre>
             </div>
         `);
         return placeholder;
@@ -187,32 +229,25 @@ function Format_Quiz_Text(rawText) {
 
     // 4. Extract and format inline code `...`
     const inlineCodes = [];
-    text = text.replace(/`([^`\n]+)`/g, function(match, inlineCode) {
-        const placeholder = `___INLINE_CODE_${inlineCodes.length}___`;
-        const escapedInline = inlineCode
-            .replace(/&/g, "&amp;")
-            .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;");
-        inlineCodes.push(`<code class="Quiz_Inline_Code">${escapedInline}</code>`);
+    text = text.replace(/`([^`\n]+)`/g, function (match, inlineCode) {
+        const placeholder = "___INLINE_CODE_" + inlineCodes.length + "___";
+        inlineCodes.push('<code class="Quiz_Inline_Code">' + Quiz_Escape_HTML(inlineCode) + "</code>");
         return placeholder;
     });
 
     // 5. Escape general HTML in the text outside code blocks
-    text = text
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;");
+    text = Quiz_Escape_HTML(text);
 
     // 6. Convert newlines outside code blocks to spacers / line breaks
     text = text.replace(/\n\n+/g, '<div class="Quiz_Question_Paragraph_Spacer"></div>');
-    text = text.replace(/\n/g, '<br>');
+    text = text.replace(/\n/g, "<br>");
 
     // 7. Restore code blocks & inline code
-    inlineCodes.forEach(function(codeHtml, idx) {
-        text = text.replace(`___INLINE_CODE_${idx}___`, codeHtml);
+    inlineCodes.forEach(function (codeHtml, idx) {
+        text = text.replace("___INLINE_CODE_" + idx + "___", codeHtml);
     });
-    codeBlocks.forEach(function(blockHtml, idx) {
-        text = text.replace(`___CODE_BLOCK_${idx}___`, blockHtml);
+    codeBlocks.forEach(function (blockHtml, idx) {
+        text = text.replace("___CODE_BLOCK_" + idx + "___", blockHtml);
     });
 
     return text;

@@ -58,6 +58,7 @@
                 <div class="FC_Output">
                     <div class="FC_Output_Status">
                         <div id="fileLabel"></div>
+                        <div id="convertMode"></div>
                         <div id="copyMessage" style="display: none;">Data copied successfully!</div>
                     </div>
                     <div class="FC_Output_Container">
@@ -74,75 +75,139 @@
 
     <script>
         
+function FC_Header_Key(value) {
+    return String(value == null ? "" : value).trim().toLowerCase().replace(/[\s_-]+/g, "");
+}
+
+// Named import is used only when the header row actually contains questionText and option1.
+// Every other sheet keeps the original positional columns.
+function FC_Named_Columns(headerRow) {
+    if (!headerRow || !headerRow.length) return null;
+    const columns = {};
+    for (let i = 0; i < headerRow.length; i++) {
+        const key = FC_Header_Key(headerRow[i]);
+        if (key && columns[key] === undefined) columns[key] = i;
+    }
+    if (columns.questiontext === undefined || columns.option1 === undefined) {
+        return null;
+    }
+    const options = [];
+    ["option1", "option2", "option3", "option4"].forEach(function (name) {
+        if (columns[name] !== undefined) options.push(columns[name]);
+    });
+    return {
+        question: columns.questiontext,
+        answer: columns.answer !== undefined ? columns.answer : -1,
+        options: options,
+        reference: columns.reference !== undefined ? columns.reference : -1,
+        term: columns.term !== undefined ? columns.term : -1,
+        status: columns.status !== undefined ? columns.status : -1
+    };
+}
+
+function FC_Cell(row, index) {
+    if (index < 0 || !row || index >= row.length) return undefined;
+    return row[index];
+}
+
+function FC_Convert_Sheet_Rows(jsonData, flags) {
+    const named = FC_Named_Columns(jsonData[0] || []);
+    const convertedData = [];
+
+    for (let i = 1; i < jsonData.length; i++) {
+        const row = jsonData[i];
+        if (!row || row.every(function (cell) {
+            return cell === null || cell === undefined || cell === "";
+        })) {
+            continue;
+        }
+
+        const preprocessedRow = row.map(function (cell) {
+            if (typeof cell === "string") {
+                return cell.replace(/\b(TRUE|FALSE)\b/g, "$1 ");
+            }
+            return cell;
+        });
+
+        const convertedRow = {};
+        if (flags.question) {
+            convertedRow.question = named ? FC_Cell(preprocessedRow, named.question) : preprocessedRow[0];
+        }
+        if (flags.answer) {
+            convertedRow.answer = named ? FC_Cell(preprocessedRow, named.answer) : preprocessedRow[1];
+        }
+        if (flags.choices) {
+            const choices = [];
+            if (named) {
+                named.options.forEach(function (index) {
+                    const value = FC_Cell(preprocessedRow, index);
+                    if (value) choices.push(value);
+                });
+            } else {
+                for (let j = 2; j < 6; j++) {
+                    if (preprocessedRow[j]) choices.push(preprocessedRow[j]);
+                }
+            }
+            convertedRow.choices = choices;
+        }
+        if (flags.reference) {
+            convertedRow.reference = named ? FC_Cell(preprocessedRow, named.reference) : preprocessedRow[6];
+        }
+        if (flags.term) {
+            convertedRow.term = named ? FC_Cell(preprocessedRow, named.term) : preprocessedRow[7];
+        }
+        if (flags.status) {
+            convertedRow.status = named ? FC_Cell(preprocessedRow, named.status) : preprocessedRow[8];
+        }
+        convertedData.push(convertedRow);
+    }
+
+    return { mode: named ? "named" : "legacy", rows: convertedData };
+}
+
 function convertToJSON() {
     const fileInput = document.getElementById('fileInput');
     const file = fileInput.files[0];
+    const modeLabel = document.getElementById('convertMode');
+    if (!file) {
+        modeLabel.innerText = "Choose an Excel file first.";
+        return;
+    }
     const reader = new FileReader();
 
+    reader.onerror = function () {
+        modeLabel.innerText = "That Excel file could not be read.";
+    };
+
     reader.onload = function (e) {
-        const data = new Uint8Array(e.target.result);
-        const workbook = XLSX.read(data, { type: 'array' });
+        try {
+            const data = new Uint8Array(e.target.result);
+            const workbook = XLSX.read(data, { type: 'array' });
 
-        // Assuming the first sheet is the one you want to convert
-        const sheetName = workbook.SheetNames[0];
-        const sheet = workbook.Sheets[sheetName];
+            // Assuming the first sheet is the one you want to convert
+            const sheetName = workbook.SheetNames[0];
+            const sheet = workbook.Sheets[sheetName];
 
-        // Convert sheet to JSON
-        const jsonData = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+            // Convert sheet to JSON
+            const jsonData = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+            const flags = {
+                question: document.getElementById('questionCheckbox').checked,
+                answer: document.getElementById('correctAnswerCheckbox').checked,
+                choices: document.getElementById('choicesCheckbox').checked,
+                reference: document.getElementById('referenceCheckbox').checked,
+                term: document.getElementById('termCheckbox').checked,
+                status: document.getElementById('statusCheckbox').checked
+            };
+            const result = FC_Convert_Sheet_Rows(jsonData, flags);
 
-        // Define an array to store the converted data
-        const convertedData = [];
-
-        // Iterate through each row of the JSON data
-        for (let i = 1; i < jsonData.length; i++) {
-            const row = jsonData[i];
-
-            // Check if the row is empty
-            if (row.every(cell => cell === null || cell === undefined || cell === '')) {
-                continue; // Skip empty rows
-            }
-
-            // Preprocess answer and choices
-            const preprocessedRow = row.map(cell => {
-                if (typeof cell === 'string') {
-                    return cell.replace(/\b(TRUE|FALSE)\b/g, '$1 ');
-                }
-                return cell;
-            });
-
-            // Extract data based on checkbox selection
-            const convertedRow = {};
-            if (document.getElementById('questionCheckbox').checked) {
-                convertedRow["question"] = preprocessedRow[0];
-            }
-            if (document.getElementById('correctAnswerCheckbox').checked) {
-                convertedRow["answer"] = preprocessedRow[1];
-            }
-            if (document.getElementById('choicesCheckbox').checked) {
-                const choices = [];
-                for (let j = 2; j < 6; j++) {
-                    if (preprocessedRow[j]) {
-                        choices.push(preprocessedRow[j]);
-                    }
-                }
-                convertedRow["choices"] = choices;
-            }
-            if (document.getElementById('referenceCheckbox').checked) {
-                convertedRow["reference"] = preprocessedRow[6];
-            }
-            if (document.getElementById('termCheckbox').checked) {
-                convertedRow["term"] = preprocessedRow[7];
-            }
-            if (document.getElementById('statusCheckbox').checked) {
-                convertedRow["status"] = preprocessedRow[8];
-            }
-
-            // Push the converted row to the array
-            convertedData.push(convertedRow);
+            document.getElementById('jsonOutput').innerText = JSON.stringify(result.rows, null, 2);
+            modeLabel.innerText = result.mode === "named"
+                ? "Imported using column names (questionText, option1, option2, option3, option4, answer)."
+                : "Imported using the legacy column layout.";
+        } catch (error) {
+            document.getElementById('jsonOutput').innerText = "";
+            modeLabel.innerText = "This workbook could not be converted. Use the original column layout, or headers named questionText, option1, option2, option3, option4, and answer.";
         }
-
-        // Display JSON data
-        document.getElementById('jsonOutput').innerText = JSON.stringify(convertedData, null, 2);
     };
 
     reader.readAsArrayBuffer(file);

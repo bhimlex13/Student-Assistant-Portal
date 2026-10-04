@@ -1,0 +1,345 @@
+.QE_Title {
+    background-color: var(--SAP-Purple-Level-4L);
+    padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-family: var(--Text-Font-Primary);
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: var(--SAP-Margin-Left);
+    margin-right: var(--SAP-Margin-Right);
+}
+
+.QE_Title > h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.QE_Intro,
+.QE_Toolbar,
+.QE_Banner,
+.QE_Empty,
+.QE_Workspace {
+    margin-left: var(--SAP-Margin-Left);
+    margin-right: var(--SAP-Margin-Right);
+}
+
+.QE_Intro {
+    font-family: var(--Text-Font-Tertiary);
+    margin-top: 0;
+    margin-bottom: 16px;
+    max-width: 900px;
+}
+
+.QE_Toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.QE_Toolbar .General_Button {
+    height: 40px;
+}
+
+.QE_Toolbar .General_Button:disabled {
+    opacity: 0.45;
+    cursor: default;
+}
+
+.QE_FileName {
+    font-family: var(--Text-Font-Tertiary);
+    font-weight: bold;
+}
+
+.QE_Banner {
+    border-radius: 15px;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    font-family: var(--Text-Font-Primary);
+    border: 1px solid var(--SAP-Gray-Base);
+    background: var(--SAP-Gray-Level-3L);
+}
+
+.QE_Banner[data-state="ok"] {
+    background: #e9ffe8;
+    border-color: var(--SAP-Green-Base);
+}
+
+.QE_Banner[data-state="error"] {
+    background: #fff1f1;
+    border-color: var(--SAP-Red-Base);
+}
+
+.QE_Empty,
+.QE_Card {
+    border: 1px solid var(--SAP-Purple-Level-4L);
+    border-radius: 15px;
+    background: white;
+}
+
+.QE_Empty {
+    padding: 28px;
+    margin-bottom: 40px;
+}
+
+.QE_Empty h2,
+.QE_Card h2 {
+    font-family: var(--Text-Font-Primary);
+    margin: 0;
+}
+
+.QE_Empty p {
+    font-family: var(--Text-Font-Tertiary);
+    margin-bottom: 0;
+}
+
+.QE_Workspace {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.QE_Card {
+    padding: 16px;
+}
+
+.QE_Card_Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.QE_Card_Header h2 {
+    font-size: 1.05rem;
+}
+
+.QE_Inline_Actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.QE_Inline_Actions .General_Button,
+.QE_Card_Header .General_Button,
+.QE_Choice_Actions .General_Button {
+    height: 34px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.QE_Meta_Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.QE_Field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-family: var(--Text-Font-Primary);
+    font-size: 0.92rem;
+    font-weight: bold;
+}
+
+.QE_Field_Wide {
+    grid-column: 1 / -1;
+}
+
+.QE_Field input,
+.QE_Field textarea {
+    border: 1px solid var(--SAP-Gray-Base);
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-family: var(--Text-Font-Secondary);
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--Text-Color);
+    background: white;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.QE_Field input:focus,
+.QE_Field textarea:focus {
+    outline: 2px solid var(--SAP-Purple-Base);
+    border-color: var(--SAP-Purple-Base);
+}
+
+.QE_Editor_Layout {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1.1fr) minmax(280px, 0.9fr);
+    gap: 12px;
+    align-items: start;
+}
+
+.QE_List_Card,
+.QE_Preview_Card {
+    position: sticky;
+    top: 12px;
+    max-height: calc(100vh - 24px);
+    overflow: auto;
+}
+
+.QE_List {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.QE_List_Item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    border: 1px solid var(--SAP-Gray-Base);
+    border-radius: 12px;
+    padding: 8px;
+    background: var(--SAP-Gray-Level-3L);
+}
+
+.QE_List_Item[data-selected="true"] {
+    border-color: var(--SAP-Purple-Base);
+    background: var(--SAP-Purple-Level-4L);
+}
+
+.QE_List_Item[data-valid="false"] {
+    box-shadow: inset 3px 0 0 var(--SAP-Red-Base);
+}
+
+.QE_List_Item_Main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+    text-align: left;
+    align-items: start;
+    color: var(--Text-Color);
+    font-family: var(--Text-Font-Primary);
+}
+
+.QE_List_Item_Number {
+    font-weight: bold;
+}
+
+.QE_List_Item_Text {
+    font-size: 0.85rem;
+    line-height: 1.35;
+}
+
+.QE_List_Item_Actions {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.QE_List_Item_Actions button {
+    width: 28px;
+    height: 24px;
+    border-radius: 8px;
+    border: 1px solid var(--SAP-Gray-Base);
+    background: white;
+    cursor: pointer;
+    font-family: var(--Text-Font-Primary);
+}
+
+.QE_Match {
+    margin: 0 0 12px 0;
+    font-family: var(--Text-Font-Primary);
+    font-weight: bold;
+}
+
+.QE_Match[data-state="ok"] {
+    color: var(--SAP-Green-Level-1D);
+}
+
+.QE_Match[data-state="error"] {
+    color: var(--SAP-Red-Base);
+}
+
+.QE_Choice {
+    border: 1px solid var(--SAP-Gray-Level-1L);
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.QE_Choice[data-match="true"] {
+    border-color: var(--SAP-Green-Base);
+    background: #f3fff2;
+}
+
+.QE_Choice_Top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    font-family: var(--Text-Font-Primary);
+}
+
+.QE_Choice_Actions {
+    display: flex;
+    gap: 6px;
+}
+
+.QE_Preview_Question {
+    font-family: var(--Text-Font-Primary);
+    text-align: left;
+}
+
+.QE_Preview_Image,
+.QE_Preview_Choice img {
+    display: block;
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.QE_Preview_Choices {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.QE_Preview_Choice {
+    border: 1px solid var(--SAP-Gray-Base);
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-family: var(--Text-Font-Primary);
+    text-align: left;
+}
+
+.QE_Preview_Choice[data-match="true"] {
+    background: var(--SAP-Green-Level-3L);
+    border-color: var(--SAP-Green-Base);
+}
+
+#QE_Status {
+    font-family: var(--Text-Font-Tertiary);
+    font-size: 0.85rem;
+}
+
+@media only screen and (max-width: 1100px) {
+    .QE_Editor_Layout {
+        grid-template-columns: 1fr;
+    }
+
+    .QE_List_Card,
+    .QE_Preview_Card {
+        position: static;
+        max-height: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .QE_Meta_Grid {
+        grid-template-columns: 1fr;
+    }
+}
