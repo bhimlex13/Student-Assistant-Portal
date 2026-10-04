@@ -153,7 +153,8 @@
 }
 
 .QE_Field input,
-.QE_Field textarea {
+.QE_Field textarea,
+.QE_Field select {
     border: 1px solid var(--SAP-Gray-Base);
     border-radius: 12px;
     padding: 10px 12px;
@@ -168,9 +169,14 @@
 }
 
 .QE_Field input:focus,
-.QE_Field textarea:focus {
+.QE_Field textarea:focus,
+.QE_Field select:focus {
     outline: 2px solid var(--SAP-Purple-Base);
     border-color: var(--SAP-Purple-Base);
+}
+
+.QE_Field select[data-state="error"] {
+    border-color: var(--SAP-Red-Base);
 }
 
 .QE_Editor_Layout {

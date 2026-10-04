@@ -73,98 +73,9 @@
 
     
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
+    <script src="Scripts/SAP_Javascript_QuizExcel.js"></script>
     <script>
-        
-function FC_Header_Key(value) {
-    return String(value == null ? "" : value).trim().toLowerCase().replace(/[\s_-]+/g, "");
-}
-
-// Named import is used only when the header row actually contains questionText and option1.
-// Every other sheet keeps the original positional columns.
-function FC_Named_Columns(headerRow) {
-    if (!headerRow || !headerRow.length) return null;
-    const columns = {};
-    for (let i = 0; i < headerRow.length; i++) {
-        const key = FC_Header_Key(headerRow[i]);
-        if (key && columns[key] === undefined) columns[key] = i;
-    }
-    if (columns.questiontext === undefined || columns.option1 === undefined) {
-        return null;
-    }
-    const options = [];
-    ["option1", "option2", "option3", "option4"].forEach(function (name) {
-        if (columns[name] !== undefined) options.push(columns[name]);
-    });
-    return {
-        question: columns.questiontext,
-        answer: columns.answer !== undefined ? columns.answer : -1,
-        options: options,
-        reference: columns.reference !== undefined ? columns.reference : -1,
-        term: columns.term !== undefined ? columns.term : -1,
-        status: columns.status !== undefined ? columns.status : -1
-    };
-}
-
-function FC_Cell(row, index) {
-    if (index < 0 || !row || index >= row.length) return undefined;
-    return row[index];
-}
-
-function FC_Convert_Sheet_Rows(jsonData, flags) {
-    const named = FC_Named_Columns(jsonData[0] || []);
-    const convertedData = [];
-
-    for (let i = 1; i < jsonData.length; i++) {
-        const row = jsonData[i];
-        if (!row || row.every(function (cell) {
-            return cell === null || cell === undefined || cell === "";
-        })) {
-            continue;
-        }
-
-        const preprocessedRow = row.map(function (cell) {
-            if (typeof cell === "string") {
-                return cell.replace(/\b(TRUE|FALSE)\b/g, "$1 ");
-            }
-            return cell;
-        });
-
-        const convertedRow = {};
-        if (flags.question) {
-            convertedRow.question = named ? FC_Cell(preprocessedRow, named.question) : preprocessedRow[0];
-        }
-        if (flags.answer) {
-            convertedRow.answer = named ? FC_Cell(preprocessedRow, named.answer) : preprocessedRow[1];
-        }
-        if (flags.choices) {
-            const choices = [];
-            if (named) {
-                named.options.forEach(function (index) {
-                    const value = FC_Cell(preprocessedRow, index);
-                    if (value) choices.push(value);
-                });
-            } else {
-                for (let j = 2; j < 6; j++) {
-                    if (preprocessedRow[j]) choices.push(preprocessedRow[j]);
-                }
-            }
-            convertedRow.choices = choices;
-        }
-        if (flags.reference) {
-            convertedRow.reference = named ? FC_Cell(preprocessedRow, named.reference) : preprocessedRow[6];
-        }
-        if (flags.term) {
-            convertedRow.term = named ? FC_Cell(preprocessedRow, named.term) : preprocessedRow[7];
-        }
-        if (flags.status) {
-            convertedRow.status = named ? FC_Cell(preprocessedRow, named.status) : preprocessedRow[8];
-        }
-        convertedData.push(convertedRow);
-    }
-
-    return { mode: named ? "named" : "legacy", rows: convertedData };
-}
-
 function convertToJSON() {
     const fileInput = document.getElementById('fileInput');
     const file = fileInput.files[0];
@@ -251,8 +162,6 @@ function convertToJSON() {
 
 
     </script>
-    <!-- Include the XLSX library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
 </body>
 
 </html>

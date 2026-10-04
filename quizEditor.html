@@ -42,20 +42,21 @@
                 <h1>Quiz Editor</h1>
             </div>
             <p class="QE_Intro">
-                Upload a quiz JSON file, or a question list from the File Converter. Edits stay in this browser. Download writes a quizInfo / quizData file, and every answer must exactly match one of its choices.
+                Upload an Excel or JSON quiz, review and edit every question, then download the finished quiz as JSON or Excel. Everything stays in this browser.
             </p>
             <div class="QE_Toolbar">
-                <button type="button" class="General_Button" id="QE_Upload">Upload JSON</button>
-                <input id="QE_File" type="file" accept=".json,application/json" hidden />
+                <button type="button" class="General_Button" id="QE_Upload">Upload Quiz</button>
+                <input id="QE_File" type="file" accept=".json,.xlsx,.xls,application/json,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden />
                 <button type="button" class="General_Button" id="QE_New">New quiz</button>
                 <button type="button" class="General_Button" id="QE_Add" disabled>Add question</button>
-                <button type="button" class="General_Button" id="QE_Download" Primary disabled>Download JSON</button>
+                <button type="button" class="General_Button" id="QE_Download_JSON" Primary disabled>Download JSON</button>
+                <button type="button" class="General_Button" id="QE_Download_Excel" Primary disabled>Download Excel</button>
                 <span class="QE_FileName" id="QE_FileName"></span>
             </div>
             <div class="QE_Banner" id="QE_Banner" role="status" hidden></div>
             <div class="QE_Empty" id="QE_Empty">
                 <h2>No quiz loaded</h2>
-                <p>Choose a .json file from the quizzes folder, or start a new quiz. A bare JSON array is wrapped into the normal quiz format.</p>
+                <p>Choose a .json, .xlsx, or .xls file, or start a new quiz. A bare JSON array is wrapped into the normal quiz format.</p>
             </div>
             <div class="QE_Workspace" id="QE_Workspace" hidden>
                 <section class="QE_Card QE_Meta">
@@ -105,8 +106,8 @@
                         <label class="QE_Field">Question
                             <textarea id="QE_Question" rows="8" spellcheck="false"></textarea>
                         </label>
-                        <label class="QE_Field">Answer
-                            <textarea id="QE_Answer" rows="2" spellcheck="false"></textarea>
+                        <label class="QE_Field">Correct Answer
+                            <select id="QE_Answer"></select>
                         </label>
                         <p class="QE_Match" id="QE_MatchNote"></p>
                         <div class="QE_Card_Header">
@@ -136,6 +137,8 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
+    <script src="Scripts/SAP_Javascript_QuizExcel.js"></script>
     <script src="Scripts/SAP_Javascript_QuizEditor.js"></script>
 </body>
 

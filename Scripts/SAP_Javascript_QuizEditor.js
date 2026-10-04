@@ -116,10 +116,30 @@ function QE_Today() {
     return now.getFullYear() + "-" + month + "-" + day;
 }
 
-function QE_File_Name(name) {
-    const cleaned = String(name || "quiz.json").replace(/[\\/:*?"<>|]+/g, "").trim();
-    if (!cleaned) return "quiz.json";
-    return /\.json$/i.test(cleaned) ? cleaned : cleaned + ".json";
+function QE_Clean_Name(name, fallback) {
+    const cleaned = String(name || fallback || "quiz").replace(/[\\/:*?"<>|]+/g, "").trim();
+    return cleaned || (fallback || "quiz");
+}
+
+function QE_Base_Name(name) {
+    let cleaned = QE_Clean_Name(name, "quiz");
+    let previous = "";
+    while (cleaned !== previous) {
+        previous = cleaned;
+        cleaned = cleaned.replace(/\.(json|xlsx|xls)$/i, "");
+    }
+    cleaned = cleaned.replace(/[. ]+$/g, "");
+    return cleaned || "quiz";
+}
+
+function QE_File_Kind(file) {
+    const name = String(file && file.name || "").toLowerCase();
+    if (/\.json$/i.test(name)) return "json";
+    if (/\.(xlsx|xls)$/i.test(name)) return "excel";
+    const type = String(file && file.type || "").toLowerCase();
+    if (type.indexOf("json") !== -1) return "json";
+    if (type.indexOf("sheet") !== -1 || type.indexOf("excel") !== -1) return "excel";
+    return "";
 }
 
 function QE_Lines(id) {
@@ -215,7 +235,8 @@ function QE_Normalize_Document(parsed) {
         return {
             wrapped: true,
             extra: {},
-            fileName: "quiz.json",
+            baseName: "quiz",
+            sourceName: "quiz.json",
             quizInfo: {
                 Subject: "",
                 Term: "",
@@ -256,7 +277,8 @@ function QE_Normalize_Document(parsed) {
     return {
         wrapped: false,
         extra: extra,
-        fileName: "quiz.json",
+        baseName: "quiz",
+        sourceName: "quiz.json",
         quizInfo: info,
         quizData: parsed.quizData.map(function (item, index) {
             const question = QE_Normalize_Question(item);
@@ -277,35 +299,98 @@ function QE_Load_Text(text, fileName) {
         throw new Error("This file is not valid JSON. " + (error && error.message ? error.message : "Check the file and try again."));
     }
     const loaded = QE_Normalize_Document(parsed);
-    loaded.fileName = QE_File_Name(fileName);
-    if (!loaded.quizData.length) loaded.quizData.push(QE_Blank_Question());
-    QE_Quiz = loaded;
-    QE_Show();
+    QE_Remember_File(loaded, fileName || "quiz.json");
+    QE_Show_Loaded(loaded);
     const problems = QE_Problems();
     if (loaded.wrapped) {
         const wrapNote = "The uploaded file was a list of questions, so it was wrapped into quizInfo and quizData.";
         QE_Banner(problems.length ? wrapNote + " " + problems[0] : wrapNote, problems.length ? "error" : "ok");
     } else if (problems.length) {
-        QE_Banner("Loaded " + loaded.quizData.length + " questions. " + problems[0], "error");
+        QE_Banner("Loaded " + loaded.quizData.length + " questions from " + loaded.sourceName + ". " + problems[0], "error");
     } else {
-        QE_Banner("Loaded " + loaded.quizData.length + " questions from " + loaded.fileName + ". Every answer matches a choice.", "ok");
+        QE_Banner("Loaded " + loaded.quizData.length + " questions from " + loaded.sourceName + ". Every answer matches a choice.", "ok");
     }
+}
+
+function QE_Remember_File(loaded, fileName) {
+    loaded.baseName = QE_Base_Name(fileName);
+    loaded.sourceName = QE_Clean_Name(fileName, "quiz");
+}
+
+function QE_Excel_Info(imported) {
+    const info = {
+        Subject: "",
+        Term: "",
+        Title: "",
+        Description: "",
+        LastModified: QE_Today(),
+        Authors: [],
+        References: []
+    };
+    const source = imported && imported.quizInfo;
+    if (!source) return info;
+    ["Title", "Subject", "Term", "Description", "LastModified"].forEach(function (key) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) info[key] = source[key] == null ? "" : String(source[key]);
+    });
+    if (Array.isArray(source.Authors)) info.Authors = source.Authors;
+    if (Array.isArray(source.References)) info.References = source.References;
+    return info;
+}
+
+function QE_Load_Excel(buffer, fileName) {
+    if (typeof QX_Import_Workbook !== "function") {
+        throw new Error("Excel support did not load. Refresh the page and try again.");
+    }
+    const imported = QX_Import_Workbook(buffer);
+    const loaded = {
+        wrapped: false,
+        extra: {},
+        baseName: "quiz",
+        sourceName: "quiz.xlsx",
+        quizInfo: QE_Excel_Info(imported),
+        quizData: imported.questions.map(function (item, index) {
+            const question = QE_Normalize_Question(item);
+            if (!question) throw new Error("Question " + (index + 1) + " could not be read.");
+            return question;
+        }),
+        selected: 0
+    };
+    QE_Remember_File(loaded, fileName || "quiz.xlsx");
+    QE_Show_Loaded(loaded);
+    const problems = QE_Problems();
+    const modeLabel = imported.mode === "named" ? "named columns" : "the legacy column layout";
+    let message = "Loaded " + loaded.quizData.length + " questions from " + loaded.sourceName + " using " + modeLabel + ".";
+    if (problems.length) message += " " + problems[0];
+    QE_Banner(message, problems.length ? "error" : "ok");
+}
+
+function QE_Show_Loaded(loaded) {
+    if (!loaded.quizData.length) loaded.quizData.push(QE_Blank_Question());
+    QE_Quiz = loaded;
+    QE_Show();
 }
 
 function QE_Read_File(file) {
     if (!file) return;
+    const kind = QE_File_Kind(file);
+    if (!kind) {
+        QE_Banner("Choose a .json, .xlsx, or .xls quiz file.", "error");
+        return;
+    }
     const reader = new FileReader();
     reader.onerror = function () {
-        QE_Banner("That file could not be read. Choose a .json quiz and try again.", "error");
+        QE_Banner("That file could not be read. Choose a .json, .xlsx, or .xls quiz and try again.", "error");
     };
     reader.onload = function () {
         try {
-            QE_Load_Text(String(reader.result || ""), file.name || "quiz.json");
+            if (kind === "excel") QE_Load_Excel(reader.result, file.name || "quiz.xlsx");
+            else QE_Load_Text(String(reader.result || ""), file.name || "quiz.json");
         } catch (error) {
             QE_Banner(error.message || "That quiz file could not be opened.", "error");
         }
     };
-    reader.readAsText(file);
+    if (kind === "excel") reader.readAsArrayBuffer(file);
+    else reader.readAsText(file);
 }
 
 function QE_Banner(message, state) {
@@ -315,12 +400,22 @@ function QE_Banner(message, state) {
     banner.textContent = message;
 }
 
-function QE_Answer_Index(question) {
+function QE_Answer_Index(question, preferred) {
     const choices = Array.isArray(question.choices) ? question.choices : [];
+    if (typeof preferred === "number" && preferred >= 0 && preferred < choices.length) {
+        if (question.answer === QE_Choice_Text(choices[preferred])) return preferred;
+    }
     for (let i = 0; i < choices.length; i++) {
         if (question.answer === QE_Choice_Text(choices[i])) return i;
     }
     return -1;
+}
+
+function QE_Preferred_Answer_Index() {
+    const select = document.getElementById("QE_Answer");
+    if (!select || select.value === "") return -1;
+    const index = Number(select.value);
+    return Number.isFinite(index) ? index : -1;
 }
 
 function QE_Problems() {
@@ -356,7 +451,6 @@ function QE_Flush() {
     const questionInput = document.getElementById("QE_Question");
     if (!question || !questionInput) return;
     question.question = questionInput.value;
-    question.answer = document.getElementById("QE_Answer").value;
     question.reference = document.getElementById("QE_Reference").value;
     question.term = document.getElementById("QE_TermField").value;
     const image = document.getElementById("QE_Image").value;
@@ -368,6 +462,14 @@ function QE_Flush() {
         const choiceImage = node.querySelector("[data-qe-choice-image]").value;
         question.choices[index] = QE_Build_Choice(question.choices[index], text, choiceImage);
     });
+    const answerSelect = document.getElementById("QE_Answer");
+    const selectedChoice = answerSelect ? answerSelect.value : "";
+    if (selectedChoice !== "") {
+        const index = Number(selectedChoice);
+        if (Number.isFinite(index) && question.choices[index] != null) {
+            question.answer = QE_Choice_Text(question.choices[index]);
+        }
+    }
 }
 
 function QE_Payload() {
@@ -377,30 +479,55 @@ function QE_Payload() {
     return payload;
 }
 
-function QE_Download() {
+function QE_Export_Ready() {
     if (!QE_Quiz) {
         QE_Banner("Upload a quiz or start a new one before downloading.", "error");
-        return;
+        return false;
     }
     QE_Flush();
     const problems = QE_Problems();
+    QE_Render_Answer(true);
     QE_Update_Status();
     QE_Render_List();
     if (problems.length) {
         QE_Banner(problems.join(" "), "error");
-        return;
+        return false;
     }
-    const json = JSON.stringify(QE_Payload(), null, 2) + "\n";
-    const blob = new Blob([json], { type: "application/json" });
+    return true;
+}
+
+function QE_Save_Blob(blob, fileName) {
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = QE_Quiz.fileName || "quiz.json";
+    link.download = fileName;
     document.body.appendChild(link);
     link.click();
     link.remove();
     setTimeout(function () { URL.revokeObjectURL(url); }, 1500);
-    QE_Banner("Downloaded " + link.download + ". Every answer matches one of its choices.", "ok");
+}
+
+function QE_Download_JSON() {
+    if (!QE_Export_Ready()) return;
+    const json = JSON.stringify(QE_Payload(), null, 2) + "\n";
+    const name = QE_Quiz.baseName + ".json";
+    QE_Save_Blob(new Blob([json], { type: "application/json" }), name);
+    QE_Banner("Downloaded " + name + ". Every answer matches one of its choices.", "ok");
+}
+
+function QE_Download_Excel() {
+    if (!QE_Export_Ready()) return;
+    try {
+        const book = QX_Export_Workbook(QE_Quiz.quizInfo, QE_Quiz.quizData.map(QE_Export_Question));
+        const bytes = XLSX.write(book, { bookType: "xlsx", type: "array" });
+        const name = QE_Quiz.baseName + ".xlsx";
+        QE_Save_Blob(new Blob([bytes], {
+            type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }), name);
+        QE_Banner("Downloaded " + name + ". Every answer matches one of its choices.", "ok");
+    } catch (error) {
+        QE_Banner(error.message || "The Excel file could not be created.", "error");
+    }
 }
 
 function QE_Snippet(question) {
@@ -422,7 +549,7 @@ function QE_Fill_Meta() {
     document.getElementById("QE_Info_Modified").value = info.LastModified || "";
     document.getElementById("QE_Info_Authors").value = (info.Authors || []).join("\n");
     document.getElementById("QE_Info_References").value = (info.References || []).join("\n");
-    document.getElementById("QE_FileName").textContent = QE_Quiz.fileName;
+    document.getElementById("QE_FileName").textContent = QE_Quiz.baseName;
 }
 
 function QE_Update_Status() {
@@ -554,7 +681,7 @@ function QE_Update_Preview() {
 
     const choices = document.createElement("div");
     choices.className = "QE_Preview_Choices";
-    const match = QE_Answer_Index(question);
+    const match = QE_Answer_Index(question, QE_Preferred_Answer_Index());
     (question.choices || []).forEach(function (choice, index) {
         const item = document.createElement("div");
         item.className = "QE_Preview_Choice";
@@ -579,7 +706,11 @@ function QE_Update_Preview() {
         note.textContent = "Answer exactly matches choice " + (match + 1) + ".";
         note.setAttribute("data-state", "ok");
     } else {
-        note.textContent = "Answer does not exactly match any choice.";
+        const previewText = String(question.answer || "").replace(/\s+/g, " ").trim();
+        const short = previewText.length > 120 ? previewText.slice(0, 120) + "…" : previewText;
+        note.textContent = short
+            ? "Saved answer does not exactly match any choice: " + short
+            : "Answer does not exactly match any choice.";
         note.setAttribute("data-state", "error");
     }
     document.querySelectorAll("[data-qe-choice]").forEach(function (row) {
@@ -589,16 +720,60 @@ function QE_Update_Preview() {
     });
 }
 
+function QE_Answer_Label(choice, index) {
+    const preview = QE_Choice_Text(choice).replace(/\s+/g, " ").trim();
+    const short = preview.length > 80 ? preview.slice(0, 80) + "…" : preview;
+    return short ? "Choice " + (index + 1) + " — " + short : "Choice " + (index + 1);
+}
+
+var QE_Rendering_Answer = false;
+
+function QE_Render_Answer(keepSelection) {
+    if (!QE_Quiz || QE_Rendering_Answer) return;
+    const question = QE_Quiz.quizData[QE_Quiz.selected];
+    const select = document.getElementById("QE_Answer");
+    if (!question || !select) return;
+    const preferred = keepSelection ? QE_Preferred_Answer_Index() : -1;
+    const match = QE_Answer_Index(question, preferred);
+    QE_Rendering_Answer = true;
+    select.innerHTML = "";
+    if (match < 0) {
+        const unmatched = document.createElement("option");
+        unmatched.value = "";
+        const preview = String(question.answer || "").replace(/\s+/g, " ").trim();
+        const short = preview.length > 80 ? preview.slice(0, 80) + "…" : preview;
+        unmatched.textContent = short ? "Unmatched: " + short : "Select the correct choice";
+        unmatched.selected = true;
+        select.appendChild(unmatched);
+    }
+    (question.choices || []).forEach(function (choice, index) {
+        const option = document.createElement("option");
+        option.value = String(index);
+        option.textContent = QE_Answer_Label(choice, index);
+        if (index === match) option.selected = true;
+        select.appendChild(option);
+    });
+    if (!select.options.length) {
+        const empty = document.createElement("option");
+        empty.value = "";
+        empty.textContent = "Add a choice first";
+        empty.selected = true;
+        select.appendChild(empty);
+    }
+    select.setAttribute("data-state", match >= 0 ? "ok" : "error");
+    QE_Rendering_Answer = false;
+}
+
 function QE_Render_Editor() {
     const question = QE_Quiz.quizData[QE_Quiz.selected];
     document.getElementById("QE_Question_Heading").textContent =
         "Question " + (QE_Quiz.selected + 1) + " of " + QE_Quiz.quizData.length;
     document.getElementById("QE_Question").value = question.question || "";
-    document.getElementById("QE_Answer").value = question.answer || "";
     document.getElementById("QE_Reference").value = question.reference || "";
     document.getElementById("QE_TermField").value = question.term || "";
     document.getElementById("QE_Image").value = question.image || "";
     QE_Render_Choices();
+    QE_Render_Answer(false);
     QE_Update_Preview();
     QE_Update_Status();
 }
@@ -607,7 +782,8 @@ function QE_Show() {
     document.getElementById("QE_Empty").hidden = true;
     document.getElementById("QE_Workspace").hidden = false;
     document.getElementById("QE_Add").disabled = false;
-    document.getElementById("QE_Download").disabled = false;
+    document.getElementById("QE_Download_JSON").disabled = false;
+    document.getElementById("QE_Download_Excel").disabled = false;
     QE_Fill_Meta();
     QE_Render_List();
     QE_Render_Editor();
@@ -617,7 +793,8 @@ function QE_New() {
     QE_Quiz = {
         wrapped: false,
         extra: {},
-        fileName: "quiz.json",
+        baseName: "quiz",
+        sourceName: "quiz.json",
         quizInfo: {
             Subject: "",
             Term: "",
@@ -696,6 +873,7 @@ function QE_Move_Choice(index, delta) {
     const item = choices.splice(index, 1)[0];
     choices.splice(next, 0, item);
     QE_Render_Choices();
+    QE_Render_Answer(false);
     QE_Update_Preview();
     QE_Update_Status();
     QE_Render_List();
@@ -705,6 +883,7 @@ function QE_Delete_Choice(index) {
     QE_Flush();
     QE_Quiz.quizData[QE_Quiz.selected].choices.splice(index, 1);
     QE_Render_Choices();
+    QE_Render_Answer(false);
     QE_Update_Preview();
     QE_Update_Status();
     QE_Render_List();
@@ -721,7 +900,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     document.getElementById("QE_New").addEventListener("click", QE_New);
     document.getElementById("QE_Add").addEventListener("click", QE_Add_Question);
-    document.getElementById("QE_Download").addEventListener("click", QE_Download);
+    document.getElementById("QE_Download_JSON").addEventListener("click", QE_Download_JSON);
+    document.getElementById("QE_Download_Excel").addEventListener("click", QE_Download_Excel);
+    document.getElementById("QE_Answer").addEventListener("change", QE_On_Edit);
     document.getElementById("QE_Move_Up").addEventListener("click", function () { QE_Move(-1); });
     document.getElementById("QE_Move_Down").addEventListener("click", function () { QE_Move(1); });
     document.getElementById("QE_Duplicate").addEventListener("click", QE_Duplicate);
@@ -731,23 +912,12 @@ document.addEventListener("DOMContentLoaded", function () {
         QE_Flush();
         QE_Quiz.quizData[QE_Quiz.selected].choices.push("");
         QE_Render_Choices();
+        QE_Render_Answer(false);
         QE_Update_Preview();
         QE_Update_Status();
         QE_Render_List();
     });
-    document.getElementById("QE_Workspace").addEventListener("input", function () {
-        if (!QE_Quiz) return;
-        QE_Flush();
-        QE_Update_Preview();
-        QE_Update_Status();
-        const current = document.querySelector('.QE_List_Item[data-selected="true"] .QE_List_Item_Text');
-        const question = QE_Quiz.quizData[QE_Quiz.selected];
-        if (current && question) current.textContent = QE_Snippet(question.question);
-        const item = document.querySelector('.QE_List_Item[data-selected="true"]');
-        if (item && question) {
-            item.setAttribute("data-valid", QE_Answer_Index(question) >= 0 && question.choices.length ? "true" : "false");
-        }
-    });
+    document.getElementById("QE_Workspace").addEventListener("input", QE_On_Edit);
     document.getElementById("QE_List").addEventListener("click", function (event) {
         const actionButton = event.target.closest("[data-qe-action]");
         const item = event.target.closest("[data-qe-index]");
@@ -770,3 +940,18 @@ document.addEventListener("DOMContentLoaded", function () {
         else if (action === "down") QE_Move_Choice(index, 1);
     });
 });
+
+function QE_On_Edit() {
+    if (!QE_Quiz || QE_Rendering_Answer) return;
+    QE_Flush();
+    QE_Render_Answer(true);
+    QE_Update_Preview();
+    QE_Update_Status();
+    const current = document.querySelector('.QE_List_Item[data-selected="true"] .QE_List_Item_Text');
+    const question = QE_Quiz.quizData[QE_Quiz.selected];
+    if (current && question) current.textContent = QE_Snippet(question.question);
+    const item = document.querySelector('.QE_List_Item[data-selected="true"]');
+    if (item && question) {
+        item.setAttribute("data-valid", QE_Answer_Index(question) >= 0 && question.choices.length ? "true" : "false");
+    }
+}
